@@ -131,5 +131,16 @@
     "no alphabet annealing or new primer sweep",
     "no new historical source claims"
   ],
-  "provenance": "Per-position classifications not computed before this specification commit. Previous whole-message nonuniqueness already established and not repeated as the experiment goal."
+  "provenance": "Per-position classifications not computed before this specification commit. Previous whole-message nonuniqueness already established and not repeated as the experiment goal.",
+  "protocol_update": {
+    "initial_spec_commit": "25fa0615a08a4f629393c9b00c9cb78e92a85f38",
+    "before_any_new_query_execution": true,
+    "reason": "After initial specification, independent analytic classification and complete witness certificates were supplied. Avoid redundant K4 searches when exact certificates suffice.",
+    "counterexample_pool": "data/gromark-identifiability-counterexamples.json",
+    "query_flow": "validated unused-P symmetry; validated unused-C symmetry; same-component forced invariant; independently validated supplied complete witness pool; bounded exact disequality CSP only if still unresolved",
+    "query_definition_unchanged": true,
+    "query_count_still73": true,
+    "known_prediction": "10forced63variable0unresolved supplied; not substituted for local checks or treated as blind prediction",
+    "toy_controls": "Disable supplied pool for exhaustive toy tests; still test the exact symmetry/proof/CSP code and state/time caps."
+  }
 }

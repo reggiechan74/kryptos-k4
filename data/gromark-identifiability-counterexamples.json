@@ -1,0 +1,27 @@
+{
+  "revision_date": "2026-10-18",
+  "provenance": "Independently supplied complete counterexamples after initial identifiability specification and before implementation/execution; not solver seeds or new primer cases",
+  "model": "same single Gromark tuple as data/gromark-one-survivor.json",
+  "witnesses": [
+    {
+      "id": "prior_independent",
+      "plain_alphabet": "OCIBDFGLJRMSPQUVETWKNXYHZA",
+      "cipher_alphabet": "FKTMGNQABLCZDPEHYRIVJSOUWX",
+      "source": "results/GROMARK-ALPHABET-INDEPENDENT-CROSSCHECK.json"
+    },
+    {
+      "id": "independent_A",
+      "plain_alphabet": "OCIBDAGLJRMSPQUVETWFNXYHZK",
+      "cipher_alphabet": "FATMGNQKBHCZDPELYRIVJSOUWX",
+      "source": "parent supplied analytic review"
+    },
+    {
+      "id": "independent_B",
+      "plain_alphabet": "OGIBDFCLJUMSPQRVETWKNXYHZA",
+      "cipher_alphabet": "FKTBGNQAMLCZDIEHYRPVJSOUWX",
+      "source": "parent supplied analytic review"
+    }
+  ],
+  "not_historical_alphabets": true,
+  "full_plaintexts_emitted": false
+}
