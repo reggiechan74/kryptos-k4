@@ -88,3 +88,13 @@ periods. The [worksheet provenance review](../docs/k3-worksheet-verification.md)
 distinguishes complete algorithmic verification from partly reconstructed
 history. Neither result motivates a larger search. Future new specifications
 must be committed before execution and the run must reference that SHA.
+
+## User-selected next branch order
+
+Investigate the language/alternative-alphabet idea first, prioritizing historical
+Shavian and Cyrillic conventions; then investigate source-supported masking.
+The [planning manifest](specifications/LANGUAGE-PREPARATION.json) and
+[validation interfaces](../docs/language-experiment-interfaces.md) establish
+loss/ambiguity, round-trip, length, and crib gates. They contain no historical
+map and run no K4 candidate search. Each final operational specification will
+be committed before its run and referenced by commit and exact file hash.

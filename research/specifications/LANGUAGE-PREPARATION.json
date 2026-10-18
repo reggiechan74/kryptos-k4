@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "status": "planning_only_awaiting_historical_mapping_receipt",
+  "branch_order": ["historically_grounded_language_and_alphabet_layers", "source_supported_masking"],
+  "requested_language_priorities": ["Shavian", "Cyrillic"],
+  "historical_evidence_gate": {
+    "required": ["source_url", "edition_and_date", "exact_symbol_inventory", "exact_forward_mapping", "normalization_and_framing", "ambiguities_or_losses", "forward_and_inverse_roles", "independent_Kryptos_motivation"],
+    "forbidden": ["invented_mapping_labeled_historical", "post_hoc_mapping_to_force_cribs", "Unicode_codepoint_order_as_pre_1990_key_evidence", "free_translation_or_unbounded_dictionary_search"]
+  },
+  "interface_controls": {
+    "synthetic_mapping_labels": "explicitly_toy_not_historical",
+    "seed": 20261018,
+    "checks": ["symbol_collisions", "empty_outputs", "unique_decodability_of_symbol_sequences", "exact_symbol_and_sequence_roundtrips", "output_length_and_framing", "final_English_crib_alignment"],
+    "max_decodes": 256,
+    "unique_decodability_state_budget": 4096,
+    "deadline_seconds": 10
+  },
+  "K4_candidate_tests": "none_until_a_fixed_mapping_and_operational_specification_are_committed",
+  "crib_model": {
+    "final_English_length": 97,
+    "indexing": "one_based_inclusive",
+    "cribs": [{"start": 22, "end": 34, "text": "EASTNORTHEAST"}, {"start": 64, "end": 74, "text": "BERLINCLOCK"}],
+    "intermediate_positions": "do_not_force_English_positions_onto_length_changing_intermediates"
+  },
+  "null_policy": "No scoring during exact feasibility audits. Any subsequent ranking needs a separately committed fixed specification with a matched null and synthetic recovery controls.",
+  "execution_policy": "Commit each final operational specification first; record its commit and exact file hash in the atomic run snapshot. This planning manifest authorizes no K4 search."
+}
