@@ -40,16 +40,37 @@ python3 -m unittest discover -s tests -v
 
 These commands validate data and indexing only. They do not test cipher families.
 
+## Research documents
+
+- [Designer context and working vocabulary](docs/designer-context.md): source-attributed
+  evidence, historical boundaries, and a proposed K1–K3 workshop.
+- [Language and alphabet layers](docs/language-and-alphabet-layers.md): translation,
+  transliteration, Shavian, crib constraints, and falsifiable experiment designs.
+
+These documents were supplied as research findings dated 18 October 2026 and
+are preserved as supplied. Their statements about reviewed sources and prior
+computational checks belong to that supplied research; the repository update
+did not independently retrieve those pages or reproduce those checks. Proposed
+experiments are not completed results or a K4 solution. The source-provenance
+limitation recorded for the initial scaffold remains separate from this material.
+
 ## Initial roadmap
 
 1. Verify baseline transcription and crib positions against primary sources;
    record source dates and exact evidence.
-2. Reproduce published K1–K3 techniques and known plaintext as controls before
-   applying implementations to K4.
+2. Follow the [designer-context workshop](docs/designer-context.md#reproducible-workshop-k1k3-before-k4)
+   to reproduce published K1–K3 techniques and known plaintext as controls before
+   applying implementations to K4. Preserve K2 correction variants and require
+   full K3 permutation/inverse comparisons.
 3. Inventory published experiments, distinguishing author claims from local
    reproduction; record coverage, assumptions, and missing artifacts.
-4. Test bounded hypotheses with explicit budgets, deterministic commands, and
-   narrowly stated conclusions.
+4. Specify the [language-layer feasibility checks](docs/language-and-alphabet-layers.md#6-falsifiable-experiment-sequence):
+   historical conventions, reversible encodings, length/framing constraints, and
+   crib alignment before any search. Then test bounded hypotheses with explicit
+   budgets, deterministic commands, and narrowly stated conclusions.
+
+The [research roadmap](research/ROADMAP.md) gives the next-step sequence and
+acceptance gates. This documentation update implements and runs no new searches.
 
 See [research policy](research/POLICY.md), [hypothesis log](research/HYPOTHESES.md),
 [experiment log](research/EXPERIMENTS.md), and [published inventory](sources/EXPERIMENTS.md).
