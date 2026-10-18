@@ -1,0 +1,135 @@
+{
+  "id": "AUTOKEY-CONSTRAINT-001",
+  "revision_date": "2026-10-18",
+  "purpose": "Exact existential-primer constraint audit, not plaintext search, language scoring or broad family exclusion",
+  "baseline": "data/k4.json",
+  "ciphertext_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "alphabets": {
+    "AZ": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "KRYPTOS": "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  "same_alphabet_indexing": true,
+  "equations": {
+    "plus": {
+      "sigma": 1,
+      "tau": 1,
+      "formula": "C_i=P_i+K_i mod26"
+    },
+    "minus": {
+      "sigma": 1,
+      "tau": -1,
+      "formula": "C_i=P_i-K_i mod26"
+    },
+    "beaufort": {
+      "sigma": -1,
+      "tau": 1,
+      "formula": "C_i=K_i-P_i mod26"
+    }
+  },
+  "feedback": [
+    "plaintext",
+    "ciphertext"
+  ],
+  "lags": {
+    "minimum": 1,
+    "maximum": 96,
+    "inclusive": true
+  },
+  "direction": "forward left-to-right; unchanged zero-based letter alignment i=0..96",
+  "primer": "L independent arbitrary symbols u_0..u_(L-1), no repeating/cycling rule; K_i=u_i if i<L, then P_(i-L) or C_(i-L) in the same selected alphabet",
+  "case_count": 1152,
+  "method": {
+    "plaintext": "P_i=sigma*C_i-sigma*tau*P_(i-L). For i<L use root x_i=P_i. Propagate P_i=alpha_i*x_(i mod L)+beta_i with alpha_i in {+1,-1}. Each crib fixes its chain root. Conflicting fixes are necessary and sufficient contradictions; free primer symbols=L-number_of_anchored_roots; independent consistency comparisons=24-number_of_distinct_crib_residues_mod_L.",
+    "ciphertext": "Crib i>=L checks deterministic P_i=sigma*(C_i-tau*C_(i-L)). Pre-lag cribs constrain distinct independent primer entries. Independent checks=#known_i>=L; free primer symbols=L-#known_i<L.",
+    "sufficiency": "All root/primer coefficients are units ±1 in Z26; compatible cases have exactly26^free solutions. No arbitrary seed filling or full K4 plaintext is emitted."
+  },
+  "classification": [
+    "contradicted",
+    "compatible_but_underdetermined",
+    "untested_if_not_completed"
+  ],
+  "unexpected_case_stop": "If a compatible K4 case has zero free primer symbols, stop for independent audit and publish incomplete status rather than mislabel or claim plaintext.",
+  "vacuous": "zero independent consistency checks, even though cribs still force some root/primer entries; report all such cases, never skip low-information cases",
+  "outputs": [
+    "every1152case_with_counts_and_first_exact_conflict",
+    "count_of_crib_constraints_24",
+    "anchored_parameter_count",
+    "independent_consistency_checks",
+    "free_primer_symbols",
+    "vacuous_flag",
+    "exact_solution_count_as_26^exponent_or0",
+    "per_alphabet_feedback_equation_lag_classification",
+    "status_manifest_input_code_spec_hashes",
+    "summary_lag_sets_and_untested_count"
+  ],
+  "controls": {
+    "seed": 20261018,
+    "generator": "Python random.Random MT19937, synthetic only",
+    "synthetic_roundtrips_and_planted_compatible_cases": 1152,
+    "synthetic_negative_cases": 732,
+    "synthetic_vacuous_mutations_remain_compatible": 420,
+    "synthetic_input": "97 random letters, random L-symbol primer, canonical crib positions populated from synthetic plaintext; all model combinations; independent reference ciphertext must match production encoder; full decryption and regeneration",
+    "negative": "For nonvacuous PT mutate one later same-residue known plaintext by +1; for nonvacuous CT mutate one known plaintext with i>=L by+1. Require contradiction. For zero-check cases the same single-crib mutation remains compatible.",
+    "oracle": {
+      "alphabets": [
+        "ABC",
+        "ABCD"
+      ],
+      "lengths": [
+        4,
+        3
+      ],
+      "lags": [
+        1,
+        2
+      ],
+      "equations": 3,
+      "feedback_modes": 2,
+      "crib_patterns_per_cipher": 3,
+      "patterns": "empty; first=A and last=B; full first N letters of ABCD",
+      "all_ciphertexts": true,
+      "enumerate_all_primers": true,
+      "oracle_cases": 5220,
+      "toy_primer_decryptions": 40536,
+      "check": "Independent sequential decryption enumerates all m^L primers; compatible solution count and free exponent exactly agree with affine constraint solver. Toy enumeration is not K4 primer search."
+    },
+    "boundaries": [
+      "lag1",
+      "lag96",
+      "lag=toy_message_length",
+      "empty/single/full crib sets",
+      "invalid lags/alphabet/equation/feedback/indices",
+      "initial deadline rejection"
+    ]
+  },
+  "resource_limits": {
+    "processes": 1,
+    "deadline_seconds": 10,
+    "memory_target_mebibytes": 64,
+    "K4_primer_enumerations": 0,
+    "K4_cases_maximum": 1152,
+    "oracle_primers_per_case_maximum": 16,
+    "stop": "Atomic incomplete manifest on timeout/error; no partial run described as exhausted"
+  },
+  "prior_art": {
+    "local": "MASK-AUTO-001 fixes3 literal primers and addition; not this arbitrary-primer audit",
+    "barney": "2db2722cc3f18c52d4d8369d7adc5a1db7e859d7 autokey_dict.py/gap_phr_ak.py thresholded forward CT1-33/PT1-8 local known-predecessor checks; mask_autokey.py also thresholded and changes masks; backak.py is reverse feedback, outside this scope",
+    "scott": "3ce19e3ae164a54af8743222ad3de5f6a93f6faf run_p2.py CT lags1-40/PT1-7 and at least10 directly checkable pairs, allows indicator shift; its source/log not full affine chain audit",
+    "nonduplication": "Selected pinned implementations do not fully cover threshold-free1-96 with complete plaintext chain elimination. Retire exact overlap only; source review is not an exhaustive audit of every script in either repository."
+  },
+  "excluded_variants": [
+    "backward feedback",
+    "reversals",
+    "transpositions",
+    "resets",
+    "cross-alphabet indexing",
+    "mixed alphabets",
+    "indicator shifts",
+    "nulls",
+    "typo correction",
+    "word respelling",
+    "language scoring",
+    "primer word search"
+  ],
+  "provenance": "Affine-chain method and source gaps were independently reviewed before this specification. K4 classifications not calculated by this executor before spec commit; independent result check is pending. Commit before implementation/execution; report any repairs explicitly."
+}
