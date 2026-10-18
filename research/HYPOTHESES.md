@@ -144,3 +144,13 @@ independent consistency checks. No primer was searched or filled and no full
 plaintext produced. PT lag26 is rejected by propagation22→48→74 even though no
 immediately known predecessor pair exists. This closes the declared chain/
 threshold gap, not all autokey. Earlier fixed-primer results remain historical.
+
+## H-GROMARK-ONE — complete alphabets exist for one published tuple
+
+[GROMARK-ALPHABET-001](GROMARK-ALPHABET-FINDINGS.md) selects the first printed
+Barney tuple at the pinned commit: base16, lags5/6, primer6,12,12,4,4,8. Local
+cycle/injectivity checks pass; complete global alphabet bijections also exist.
+Our witness and an independent supplied witness both satisfy all24cribs and full
+regeneration, but differ outside cribs at the same fixed global gauge. Arbitrary
+completion is not recovered historical alphabets, meaningful plaintext or a K4
+solution. No width21/fingerprint filter, other survivor or mass sweep was used.

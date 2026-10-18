@@ -122,3 +122,12 @@ one source-pinned logged Gromark survivor, with all-different constraints, plant
 controls and hard state/time limits. Freeze a separate specification before
 execution; width21 and language scores are not necessary acceptance conditions.
 No such Gromark run has been launched by this audit.
+
+## After one Gromark alphabet-feasibility check
+
+The single pinned tuple admits multiple complete alphabet pairs; meaningful
+plaintext is not determined. Do not treat regeneration as withheld evidence.
+The next proposed small step is an exact admissible-letter domain at one-based
+position 1 (first noncrib), under the same tuple, using at most 26 edge-feasibility
+queries and a separately committed aggregate resource bound. This is not a new
+primer sweep or message generator, and has not been executed.

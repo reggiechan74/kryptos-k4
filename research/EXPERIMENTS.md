@@ -306,3 +306,25 @@ at verification time; no visibility mutation was performed by this executor.
   All consulted hashes/output SHA and complete fresh record replay verified.
 - Prior artifacts preserved. No full K4 plaintext emitted. Proposed next task is
   one pinned Gromark-survivor full-alphabet feasibility audit, not yet run.
+
+## GROMARK-ALPHABET-001 — one pinned published tuple
+
+- Spec/source fixture: cd475ae00eda1eddd8b7fe1694922ecbba593270; implementation:
+  f4e56d0ae23d140236417fec5d99ed1055c4df94, both before actual execution.
+- Command: `python3 experiments/run_gromark_alphabet.py --spec-commit cd475ae00eda1eddd8b7fe1694922ecbba593270 --code-commit f4e56d0ae23d140236417fec5d99ed1055c4df94`.
+- First printed source tuple: (3,16,6,(5,6),(6,12,12,4,4,8)). Source score retained
+  only as provenance; no width21/fingerprint/English acceptance filter.
+- Local checks pass: 27 nodes, 24 edges, 5 components. Full alphabet feasibility SAT:
+  5 search states, 4 selected translation trials, 260 domain checks; no complete count.
+- Own witness and separately supplied witness both verify bijections, 24 cribs and
+  full 97-character regeneration, but differ outside cribs at the same global gauge. No full
+  plaintext output, historical-key claim or K4 solution. Independent prediction
+  was supplied after specification before our run; it did not initialize our solver.
+- Controls: 2 hand streams, 231 exhaustive toy graphs, 9,396 full permutation pairs,
+  56 SAT / 175 UNSAT, 8 synthetic 97-letter plants. Seed 20261018, Python MT19937.
+- One process, standard library, 10 s / 100,000 states cap; actual 0.009 s. No registered
+  run repair/retry. Full suite 104 tests passed in 8.007 s; prior 97 tests/artifacts retained.
+- Snapshot: `results/gromark-alphabet-runs/20261018T135606Z-4fed84af3b8340f79ec5e2491071b3a3/`.
+  Output/input/code hashes and complete model replay verified.
+- Exactly one K4 tuple tested, no sweep or third-party code execution. Proposed next
+  step is one-position letter-domain feasibility, not yet run.

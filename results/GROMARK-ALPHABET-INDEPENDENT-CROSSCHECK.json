@@ -1,0 +1,36 @@
+{
+  "id": "GROMARK-ALPHABET-INDEPENDENT-CROSSCHECK",
+  "status": "verified_locally",
+  "supplied_after_specification_before_our_execution": true,
+  "not_used_to_initialize_solver": true,
+  "root_order": [
+    "C:F",
+    "C:K",
+    "C:M",
+    "C:N",
+    "C:R"
+  ],
+  "root_relative_potentials": 0,
+  "offsets": [
+    0,
+    1,
+    3,
+    5,
+    17
+  ],
+  "plain_alphabet": "OCIBDFGLJRMSPQUVETWKNXYHZA",
+  "cipher_alphabet": "FKTMGNQABLCZDPEHYRIVJSOUWX",
+  "coordinate_strings_are_arbitrary_completions_not_historical_keys": true,
+  "reported_independent_offset_trials": 31,
+  "independent_search_code_executed_locally": false,
+  "local_checks": {
+    "exact_same_root_convention": true,
+    "full_bijections": true,
+    "all24equations": true,
+    "all24crib_letters": true,
+    "full97regeneration": true,
+    "distinct_observed_assignment_at_same_global_gauge": true,
+    "outside_crib_decodings_differ": true,
+    "full_plaintexts_emitted": false
+  }
+}

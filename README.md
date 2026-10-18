@@ -169,3 +169,8 @@ fingerprint remains descriptive and is not a hard candidate filter.
 all lags 1–96 without check-count filtering: 732 of 1,152 configurations contradicted,
 420 compatible but underdetermined, all with zero independent consistency checks.
 No primer search or full plaintext output. All 97 tests pass; existing results retained.
+
+[One published Gromark tuple](research/GROMARK-ALPHABET-FINDINGS.md) passes
+complete alphabet feasibility. Two distinct gauge-fixed witnesses verify, showing
+nonuniqueness; neither recovers historical alphabets or meaningful plaintext.
+All 104 tests pass. No additional survivors or width-21/fingerprint filters tested.

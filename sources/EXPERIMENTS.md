@@ -31,3 +31,13 @@ Those additional source files were read but never executed. Forward PT chain
 propagation through unknown positions is stronger than checking only adjacent
 known pairs. All 1,152 exact local cases are classified, including zero-check
 survivors; no family-wide claim or language-based filling follows.
+
+## One published Gromark survivor: full alphabet feasibility
+
+[GROMARK-ALPHABET-001](../research/GROMARK-ALPHABET-FINDINGS.md) independently
+checks the first of 25 printed tuples in pinned Barney gromark_sweep.out. The
+source model and exact tuple are preserved in `data/gromark-one-survivor.json`.
+Local filter survival and complete alphabet existence both verify for this tuple;
+this neither reproduces the 804,684-case sweep nor recovers meaningful plaintext.
+Two different gauge-fixed witnesses prove nonuniqueness. Source scripts were read,
+not executed; width-21 ranking is provenance only. Existing source scope limits remain.

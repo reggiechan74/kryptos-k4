@@ -80,3 +80,12 @@ code was executed. The 2019 one-to-one/no-transposition testimony page failed
 retrieval; Bob B comment 4 and Elonka's conflicting account are retained as
 supplied disputed testimony. No blanket exclusion is inferred from a map tile,
 a shuffle score, an empty log or a low-power search.
+
+## Gromark one-tuple source pin — 2026-10-18
+
+The [exact fixture](../data/gromark-one-survivor.json) records the first printed
+survivor in Barney commit 2db2722cc3f18c52d4d8369d7adc5a1db7e859d7, with log/model
+blob identities. Its printed ordering is reverse lexicographic after width-21
+ranking, not an unbiased sample or a feasibility condition. The
+[local feasibility result](../research/GROMARK-ALPHABET-FINDINGS.md) concerns only
+that published tuple. No full survivor dump was reconstructed or source code run.

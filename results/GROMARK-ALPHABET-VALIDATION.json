@@ -1,0 +1,99 @@
+{
+  "id": "GROMARK-ALPHABET-VALIDATION",
+  "status": "completed",
+  "recorded_at_utc": "2026-10-18T14:00:18.828937+00:00",
+  "command": "python3 -m unittest discover -s tests -v",
+  "tests_run": 104,
+  "failures": 0,
+  "errors": 0,
+  "suite_seconds": 8.007,
+  "registered_seconds": 0.009,
+  "K4_tuples_tested": 1,
+  "feasibility": "satisfiable",
+  "local_filter_passed": true,
+  "graph_nodes_edges_components": [
+    27,
+    24,
+    5
+  ],
+  "search_states": 5,
+  "candidate_offset_trials": 4,
+  "translation_domain_checks": 260,
+  "controls": {
+    "hand_streams": 2,
+    "exhaustive_toy_graphs": 231,
+    "full_permutation_pairs": 9396,
+    "toy_sat": 56,
+    "toy_unsat": 175,
+    "cross_component_obstruction_verified": true,
+    "synthetic_full_alphabet_plants": [
+      {
+        "known_positions": 97,
+        "search_states": 2,
+        "full_regeneration": true,
+        "original_plaintext_required": true
+      },
+      {
+        "known_positions": 97,
+        "search_states": 2,
+        "full_regeneration": true,
+        "original_plaintext_required": true
+      },
+      {
+        "known_positions": 97,
+        "search_states": 2,
+        "full_regeneration": true,
+        "original_plaintext_required": true
+      },
+      {
+        "known_positions": 97,
+        "search_states": 2,
+        "full_regeneration": true,
+        "original_plaintext_required": true
+      },
+      {
+        "known_positions": 24,
+        "search_states": 8,
+        "full_regeneration": true,
+        "original_plaintext_required": false
+      },
+      {
+        "known_positions": 24,
+        "search_states": 8,
+        "full_regeneration": true,
+        "original_plaintext_required": false
+      },
+      {
+        "known_positions": 24,
+        "search_states": 11,
+        "full_regeneration": true,
+        "original_plaintext_required": false
+      },
+      {
+        "known_positions": 24,
+        "search_states": 10,
+        "full_regeneration": true,
+        "original_plaintext_required": false
+      }
+    ],
+    "seed": 20261018,
+    "generator": "Python random.Random MT19937",
+    "third_party_source_execution": false
+  },
+  "fresh_model_replay_equal": true,
+  "all_consulted_code_input_hashes_verified": true,
+  "result_sha256": "912df9353516766cf4c46f57f20129d376a79cf4e7b39a725bb3ae3c2434299a",
+  "output_hashes_verified": true,
+  "independent_crosscheck": "GROMARK-ALPHABET-INDEPENDENT-CROSSCHECK.json",
+  "file_sha256": {
+    "research/specifications/GROMARK-ALPHABET-001.json": "823d4caa91999840b5e659b53221a5f99bd3202b73479a575710c9f2086fc2a9",
+    "data/gromark-one-survivor.json": "2ff2320ae97e2c8db9a0d2926753bd0c97257d10e9bb98983173410fe10def09",
+    "experiments/gromark_alphabet.py": "3cd9eca84e4e6c06602efea86d25a4c666fbd45b6094c1cefdf9ba00fc5e22f9",
+    "experiments/gromark_alphabet_controls.py": "bc017609663adffa5ebd20c2e2ed0029dadfa4dfd15d7f680730719d24b0422d",
+    "experiments/run_gromark_alphabet.py": "ac6a59f4d7f8484a62286393dc89c358de50c8a8f854251a4b2841b1ffedd03e",
+    "tests/test_gromark_alphabet.py": "c9459029f9c4060874396d991d37aa4604869c5504a9cadf851012f287f76330"
+  },
+  "memory_peak_measured": false,
+  "scope": "One source-pinned tuple, alphabet feasibility/nonuniqueness only. No meaningful plaintext or historical alphabets recovered.",
+  "chronology_receipt": "GROMARK-ALPHABET-CHRONOLOGY.json"
+}
