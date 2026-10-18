@@ -1,0 +1,38 @@
+{
+  "id": "LANG-001",
+  "status": "fixed_specification_commit_before_execution",
+  "branch_order": ["GOST_and_Shavian_feasibility", "separately_registered_masking_pilots"],
+  "mapping_file": "data/gost1981_table2_russian.json",
+  "source_receipt": "docs/historical-alphabet-specification.md",
+  "baseline": "data/k4.json",
+  "baseline_ciphertext_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "GOST_tests": {
+    "domain": "The exact 33 uppercase Russian letters in the frozen manifest; no punctuation, padding, case normalization or word boundaries.",
+    "exhaustive_source_lengths": [0, 1, 2, 3],
+    "expected_total_cases": 37060,
+    "enumeration_order": "length then itertools.product in the manifest dictionary alphabet order; order is not a historical cipher key",
+    "checks": ["exact_mapping_inventory", "complete_DP_inverse", "Sardinas_Patterson_suffix_sets", "all_37060_roundtrips_and_encoding_uniqueness", "literal_output_support", "fixed_individual_transport_character_substitution_support", "quote_deletion_collision", "punctuation_extension_invalidates_25_symbol_bound", "missing_exact_English_recovery_rule"],
+    "fixed_substitution_scope": "A fixed function maps each individual transport output character to one output symbol, followed by an arbitrary permutation. It does NOT act on complete variable-length Cyrillic codewords.",
+    "synthetic_controls": "separate quote markers; hard sign is not two soft signs; ambiguous toy code rejected; unknown input rejected; full-code re-encoding equality",
+    "counterexamples": ["Б", "БЬ", "БЪ"],
+    "punctuation_counterexample_extension": {"source": "'", "output": "*", "expected_support_upper_bound": 26}
+  },
+  "Shavian_tests": {
+    "source": "Kingsley Read, July 1963, Guide to Shavian Spelling; source-review receipt, pages 1-4",
+    "inventory_size": 48,
+    "single_output_symbol_inventory": 26,
+    "uniform_pair_code_output_length": 97,
+    "framing_length": 0,
+    "orthographic_collision": {"words": ["too", "two"], "same_Shavian_spelling_reported_by_primary_source_review_page": 3},
+    "transport_encoding": "not specified in inspected historical material; do not invent one",
+    "cipher_key_searches": 0,
+    "conclusion_scope": "Necessary feasibility bounds and missing operational model; not exclusion of all Shavian or language layers."
+  },
+  "resource_limits": {"processes": 1, "deadline_seconds": 30, "estimated_peak_memory_MiB": 50, "source_cases_maximum": 37060, "cipher_key_searches": 0},
+  "scoring": "none",
+  "Monte_Carlo_controls": 0,
+  "null_rationale": "Exact code inversion and support/parity arguments are deterministic within declared assumptions; no ranking or language score.",
+  "stop_conditions": ["deadline_or_count_cap_means_incomplete", "any_control_failure_stops_research_run", "any_source_mapping_change_requires_new_specification_commit"],
+  "required_output": ["specification_commit_and_file_hash", "mapping_hash", "run_id_status", "actual_case_count", "all_roundtrip_equality", "distinct_encoding_count", "suffix_sets", "precise_rejected_models_and_exceptions", "source_and_code_hashes"],
+  "key_searches_authorized": 0
+}

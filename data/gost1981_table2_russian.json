@@ -1,0 +1,34 @@
+{
+  "id": "gost_16876_71_1981_table2_russian_uppercase",
+  "status": "historically_sourced_encoding_only_not_complete_k4_cipher",
+  "source_url": "https://files.stroyinf.ru/Data/450/45002.pdf",
+  "edition": "January 1981 official reprint, incorporating amendments approved December 1973 and March 1980",
+  "printed_pages": [5, 6],
+  "pdf_pages_one_based": [6, 7],
+  "input_alphabet": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ",
+  "input_symbols": 33,
+  "normalization": "Already-uppercase modern Russian letters only. Explicit uppercase Latin labels for the table's letter combinations. No source case, whitespace, punctuation, stress or old-letter normalization; outside-domain input is rejected.",
+  "mapping": {
+    "А": "A", "Б": "B", "В": "V", "Г": "G", "Д": "D", "Е": "E", "Ё": "JO", "Ж": "ZH", "З": "Z", "И": "I", "Й": "JJ", "К": "K", "Л": "L", "М": "M", "Н": "N", "О": "O", "П": "P", "Р": "R", "С": "S", "Т": "T", "У": "U", "Ф": "F", "Х": "KH", "Ц": "C", "Ч": "CH", "Ш": "SH", "Щ": "SHH", "Ъ": "\"", "Ы": "Y", "Ь": "'", "Э": "EH", "Ю": "JU", "Я": "JA"
+  },
+  "output_alphabet_ascii_sorted": "\"'ABCDEFGHIJKLMNOPRSTUVYZ",
+  "output_symbols": 25,
+  "output_latin_letters": "ABCDEFGHIJKLMNOPRSTUVYZ",
+  "output_latin_symbols": 23,
+  "missing_latin_letters": "QWX",
+  "marker_representation": {
+    "hard_sign": {"input": "Ъ", "output": "\"", "unicode": "U+0022", "meaning": "One atomic double-quote marker, not two apostrophes."},
+    "soft_sign": {"input": "Ь", "output": "'", "unicode": "U+0027", "meaning": "One atomic single-quote marker."},
+    "note": "ASCII labels distinguish the signs shown in the scan; no historical digital encoding or case recovery is claimed."
+  },
+  "outside_domain_extension": {"source_apostrophe": "*", "note": "Table 2 row 49; admitting this punctuation gives up to 26 output characters and defeats the restricted 25-symbol support bound."},
+  "decoder": "Complete codeword DP parsing, all input consumed; preserve distinct quote markers.",
+  "expected_unique_decodability": {"method": "Sardinas-Patterson", "suffix_sets": [["H", "HH"], []], "result": true},
+  "expected_unit_test_size": {"source_lengths_inclusive": [0, 3], "strings": 37060, "distinct_encodings": 37060, "collisions": 0},
+  "key_searches_authorized": 0,
+  "source_hashes_supplied_by_researcher": {
+    "gost16876.pdf": "d2feaec2743d51aee339f9475c6ff09f431b7117578dde9d890fb23444af3300",
+    "shavian1963.pdf": "762e121422b457f987b3c39734d175ff6e6c3916d1e19b802332896b2f2551f1",
+    "iso_mislabeled.pdf": "39845a4bf7b63a952f8720690c48ab9a60c548472c1f3034d23f7452687fc1e7"
+  }
+}
