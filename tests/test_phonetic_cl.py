@@ -2,7 +2,7 @@ import sys
 import unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'experiments'))
-from phonetic_cl import controls,mask_text,mask_known,known_original,crypt,inferred,primitive
+from phonetic_cl import controls,mask_text,mask_known,known_original,crypt,inferred,primitive,overlay
 
 class PhoneticCLTests(unittest.TestCase):
     def test_fixed_mask_context_and_loss(self):
@@ -20,3 +20,7 @@ class PhoneticCLTests(unittest.TestCase):
         self.assertEqual(primitive([1,2,1,2]),(1,2));self.assertEqual(primitive([1,2,3]),(1,2,3))
     def test_seeded_recovery_and_exhaustive_small_oracle(self):
         r=controls();self.assertEqual(r['status'],'passed');self.assertEqual(len(r['primary_seeded_recovery_cases']),4);self.assertEqual(r['supplementary_count'],288);self.assertEqual(r['small_alphabet_oracle_cases'],24)
+
+    def test_literal_fixtures_do_not_inherit_random_prefix(self):
+        self.assertEqual(overlay('ABCDEFGHIJKLMNOPQRSTUVWXYZ',False)[:21],'ABCDEFGHIJKLMNOPQRSTU')
+        self.assertEqual(overlay('CLACKCLOCK',False)[:21],('CLACKCLOCK'*3)[:21])

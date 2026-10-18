@@ -71,8 +71,9 @@ def select(cipher,known,alphabets=None,equations=None):
                         records.append(item);groups[(mask,r['transformed'])].append(item)
     return records,groups
 
-def overlay(text):
-    text=list((text*97)[:97]);text[0:2]=list('CL')
+def overlay(text,prefix=True):
+    text=list((text*97)[:97])
+    if prefix:text[0:2]=list('CL')
     for i,c in known_original().items():text[i]=c
     return ''.join(text)
 
@@ -95,7 +96,7 @@ def controls():
         primary.append({'seed':seed,'mask':mask,'period':p,'key_recovered':True,'transformed97_recovered':True,'canonical_model_groups':len(groups),'parameter_alias_count':len(models),'wrong_cipher_planted_model_rejected':True,'corrupted_cipher_other_candidates':len(alternatives),'original_spelling_unique_under_planted_mask':not loss,'two_original_preimages_demonstrated':loss,'transformed_sha256':hashlib.sha256(q.encode()).hexdigest()})
     # Literal, independently specified fixture sequences; no English/language score.
     for fixture,text in [('alphabet',AZ),('CLACKCLOCK','CLACKCLOCK')]:
-        original=overlay(text)
+        original=overlay(text,False)
         for mask in ('identity','CL'):
             q=mask_text(original,mask)
             for name,a in ALPHABETS:
