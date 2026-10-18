@@ -1,6 +1,6 @@
 {
   "experiment": "PHONETIC-CL-001",
-  "source_status": "Independent report reconciled; exact rule/page source read before freeze.",
+  "source_status": "Exact chapter page/quote verified by independent source report; this executor directly read1948editionintro, but chapterPDF webfetch timedout. No claim of local chapterpixelverification.",
   "source": "Ripman and Archer, New Spelling, sixth edition1948, chapterI; hardC representedK. Fullsystem contractsCK and is not implemented.",
   "classification": "Modern restricted mechanical adaptation inspired by historical spelling reform; no evidence Sanborn used it; not completeNewSpelling or pronunciation transcription.",
   "normalization": "Only already-normalized uppercaseA-Z letterstreams accepted, length97; reject spaces,punctuation,lowercase rather than silently dropping context. Synthetic inputs are letterstreams, not claimed naturalEnglish.",
@@ -61,5 +61,17 @@
   "source_url": "https://www.spellingsociety.org/uploaded_books/nschapter1.pdf#page=3",
   "source_page": "printed21, PDF3",
   "source_quote": "It is suggested that k be everywhere used to represent the sound of k.",
-  "source_adaptation": "Source explicitly contrasts kl/kr with cl/cr. Our single CL->KL rule leaves CK unchanged and is not full NewSpelling."
+  "source_adaptation": "Source explicitly contrasts kl/kr with cl/cr. Our single CL->KL rule leaves CK unchanged and is not full NewSpelling.",
+  "supplemental_source_design_controls": {
+    "status": "Added before implementation/evaluation upon final independent design report, not fitted to results",
+    "fixtures": [
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZ repeated/truncated97",
+      "CLACKCLOCK repeated/truncated97"
+    ],
+    "overlay": "same24originalcribs overwrite positions22-34 and64-74",
+    "cases": "2fixtures*2masks*2alphabets(AZ,KRYPTOS)*3equations(plus,minus,trueBeaufort)*12periods =288",
+    "keys": "Firstpcharacters ofliteralKRYPTOSABCDEFGHIJLMNQUVWXZ, valued in selectedalphabet",
+    "inference": "Infer key independently at plantedfamilyandperiod; full97normalizedQrecovery andCTregeneration. Wrongmask atplantedfamily/period mustreject; mutateonebasedcipherposition22 by+1 mustreject becauseposition22+p isalsoknown. Reportfullmodel-selectionambiguity includingplus/minus equivalences; do not claimhistoricalidentification."
+  },
+  "inherited_proof_scope": "Additionally verify independent first13keyspans and contradictionwitnesses for2alphabets*3equations*12periods*2masks=144inheritedexclusions. This adds noK4keysearch: originalROUTE-001 family alreadycovers these equations; firstcribisunchanged. Retain original narrowAZplus pilot model and distinguish supplementarycoverage."
 }
