@@ -6,6 +6,14 @@ below; the coding executor did not independently inspect or retrieve them during
 this documentation update. Links point to external sources. No images or local
 inspection crops are uploaded or attached to this repository by this update.
 
+**Correction, 18 October 2026:** the parent research worker independently
+re-inspected the 28 March 1972 photograph and corrected its middle lower-panel
+line to **HANOI**. The earlier report incorrectly recorded SHANGHAI there. That
+superseded transcription remains in [the original documentation commit](https://github.com/reggiechan74/kryptos-k4/blob/2d4b1bca916ce9c3795029b9e9f787be436a4a72/docs/historical-clock-inscriptions.md);
+the current dated reading is corrected below. This coding executor did not
+independently re-inspect the photograph. Readings from 1984 and 2015 are separate
+dated observations and have not been changed by this correction.
+
 ## Result
 
 The precise panel intersected by a true 67.5-degree ENE ray from the clock's
@@ -43,8 +51,9 @@ inscription.
 [External photograph and catalogue entry](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-L0328-0016,_Berlin,_Alexanderplatz,_Weltzeituhr,_Fernsehturm.jpg).
 Accession: Bild 183-L0328-0016. Attribution: Bundesarchiv, Hubert Link.
 
-The visible historical panel has upper IRKUTSK / ULAN BATOR and lower PEKING /
-SHANGHAI / MANILA. Its lower panel has three lines, rather than the seven in the
+The corrected visible historical panel has upper IRKUTSK / ULAN BATOR (left edge
+cropped) and lower **PEKING / HANOI / MANILA**. Its lower panel has three lines,
+rather than the seven in the
 2015 view. The neighboring panel has JAKUTSK above and PHOENGJANG / TOKIO below.
 The next upper panel reads WLADIWOSTOK.
 
@@ -105,6 +114,29 @@ says 20 names were added and zone allocations changed during restoration.
 The reported counts cannot be reconciled into a complete original-to-current
 list merely by subtraction. The photographic changes should take precedence
 over an assumed unchanged historical list.
+
+## Narva museum model: separate object, not an installed-clock substitute
+
+The [Haus der Geschichte / LeMO 360-degree model page](https://www.hdg.de/lemo/bestand/360grad/360gradobjekt-weltzeituhr-modell.html)
+identifies accession **1995/09/0108**, credits Stiftung Haus der Geschichte and
+photographer **Axel Thünker**, and names Erich John as designer. Its narrative
+says VEB Narva gave the model to Honecker for his 60th birthday in **1972**;
+its place/time metadata separately dates the object to the GDR in **1968**.
+Both fields were directly read from the museum page during this correction.
+They are retained as different catalogue statements, not silently reconciled
+into a date for the installed clock's panels.
+
+The supplied independent visual review describes a **48-image rotation** of
+the model, with **Peking / Manila on the upper ring and Perth below**. That
+layout differs from the installed clock photographed in 1972. The coding
+executor did not inspect all 48 images, and no rotation images are uploaded
+here. A gift model, even with dated museum provenance, cannot substitute for
+the installed clock's full **1989** inscription or fix its true-ENE orientation.
+
+The parent also reports that a designer's **1968 sketchbook** has no geographic
+orientation. Its specific source is pending; this remains an attributed lead,
+not a newly verified source, calibration, or basis for choosing a city/key.
+Exact true-ENE orientation and the full 1989 candidate panel remain unresolved.
 
 ## Evidence needed to close the gaps
 

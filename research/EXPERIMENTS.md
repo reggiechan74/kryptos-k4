@@ -328,3 +328,15 @@ at verification time; no visibility mutation was performed by this executor.
   Output/input/code hashes and complete model replay verified.
 - Exactly one K4 tuple tested, no sweep or third-party code execution. Proposed next
   step is one-position letter-domain feasibility, not yet run.
+
+## Historical-clock correction — documentation only, 2026-10-18
+
+- Parent commit: 9d4b4cb6e10ced9d408ef20739c91c4386a8da27.
+- Corrected the 1972 panel's middle lower line to HANOI from the parent's independent
+  visual inspection; current reading PEKING / HANOI / MANILA. Original erroneous
+  SHANGHAI transcription retained in Git history and explicitly noted in the report.
+- Directly read LeMO model metadata (accession 1995/09/0108;1972 gift,1968date).
+  Supplied 48-image visual assessment distinguishes model layout from installed
+  clock; 1989 panel and true-ENE orientation remain unresolved. Sketchbook source pending.
+- Checked dependent current summaries and dated readings. No code, tests,
+  cryptanalytic artifacts or model scope changed; no new cipher search executed.

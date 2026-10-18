@@ -154,3 +154,15 @@ Our witness and an independent supplied witness both satisfy all24cribs and full
 regeneration, but differ outside cribs at the same fixed global gauge. Arbitrary
 completion is not recovered historical alphabets, meaningful plaintext or a K4
 solution. No width21/fingerprint filter, other survivor or mass sweep was used.
+
+## H-CLOCK-FACE — 1972 transcription correction, 2026-10-18
+
+The [dated evidence report](../docs/historical-clock-inscriptions.md) now records
+PEKING / HANOI / MANILA for the installed clock's 28 March 1972 lower panel,
+following the parent's independent visual recheck. The earlier SHANGHAI reading
+is explicitly superseded with its original commit retained; 1984/2015 readings
+are separate. The Narva museum model has different ring placement and cannot
+stand in for the installed 1989 clock. Its museum page records a 1972 gift and
+separate 1968 metadata; the 48-image layout assessment is attributed to the parent.
+Exact ENE calibration/full 1989 panels remain unresolved. The reported 1968 sketchbook
+source is still pending. No cipher hypothesis, key or scoped result was changed.

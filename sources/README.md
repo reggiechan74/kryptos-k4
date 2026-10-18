@@ -89,3 +89,13 @@ blob identities. Its printed ordering is reverse lexicographic after width-21
 ranking, not an unbiased sample or a feasibility condition. The
 [local feasibility result](../research/GROMARK-ALPHABET-FINDINGS.md) concerns only
 that published tuple. No full survivor dump was reconstructed or source code run.
+
+## Clock evidence correction — 2026-10-18
+
+[Correction and museum-model provenance](../docs/historical-clock-inscriptions.md)
+preserve the parent's independent 1972 visual recheck: PEKING / HANOI / MANILA,
+not the superseded SHANGHAI transcription. Earlier Git history remains available.
+The LeMO page was directly read for accession 1995/09/0108, photographer credit,
+1972 gift narrative and 1968 catalogue date. Its 48-image layout assessment is supplied
+visual evidence about a different model, not an installed 1989 panel substitute.
+The designer-sketchbook source is pending; no geographic orientation is inferred.
