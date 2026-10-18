@@ -3,7 +3,7 @@ import sys
 import unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'experiments'))
-from base60_beaufort import stream,solve,component_options,graph_model,parity_proof
+from base60_beaufort import stream,solve,component_options,graph_model,parity_proof,parity_rows
 
 class Base60BeaufortTests(unittest.TestCase):
     def test_exhaustive_small_oracles(self):
@@ -43,3 +43,7 @@ class Base60BeaufortTests(unittest.TestCase):
         vertices=list('ABCDEFGHIJKLMNOPQRSTUVWXYZ');pairs=[(vertices[i],vertices[i+1]) for i in range(20)]
         self.assertFalse(parity_proof(vertices,pairs,[0]*20)['compatible'])
         self.assertTrue(parity_proof(vertices,pairs,[1]*20)['compatible'])
+
+    def test_independent_binary_row_certificate(self):
+        expected={(2,0):['11','01','11','01'],(2,1):['11','01','11','01'],(3,0):['011','110','001','100'],(3,1):['111','101','100','010'],(4,0):['0010','1011','0010','1001'],(4,1):['0010','0110','0010','0001']}
+        for key,rows in expected.items():self.assertEqual(parity_rows(*key),rows)

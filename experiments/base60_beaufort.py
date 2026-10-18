@@ -100,13 +100,18 @@ def baseline():
             i=c['start']-1+j;positions.append(i);pairs.append((p,data['ciphertext'][i]))
     return list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'),positions,pairs
 
+def parity_rows(lag,rule):
+    streams=[stream([int(i==j) for i in range(lag)],rule,2) for j in range(lag)]
+    terms=[(32,),(73,),(23,33,28,32),(27,65)]
+    return [''.join(str(sum(d[i] for i in row)%2) for d in streams) for row in terms]
+
 def analytical():
     vertices,positions,pairs=baseline(); records=[]
     for lag,rule in [(2,0),(3,0),(3,1),(4,0),(4,1)]:
         masks=[]
         for bits in product(range(2),repeat=lag):
             d=stream(bits,rule,2);result=parity_proof(vertices,pairs,[d[i] for i in positions]);masks.append({'primer_parity':list(bits),'primers_represented':30**lag,**result})
-        records.append({'lag':lag,'rule':rule,'nominal_rule_multiplicity':2 if lag==2 else 1,'total_primers':60**lag,'parity_masks':masks,'parity_eliminated_primers':sum(x['primers_represented'] for x in masks if not x['compatible'])})
+        records.append({'lag':lag,'rule':rule,'nominal_rule_multiplicity':2 if lag==2 else 1,'total_primers':60**lag,'binary_constraint_rows':parity_rows(lag,rule),'parity_masks':masks,'parity_eliminated_primers':sum(x['primers_represented'] for x in masks if not x['compatible'])})
     return records
 
 def eligible_primers(record):
