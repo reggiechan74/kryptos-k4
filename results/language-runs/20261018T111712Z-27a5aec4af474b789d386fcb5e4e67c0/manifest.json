@@ -1,0 +1,27 @@
+{
+  "run_id": "20261018T111712Z-27a5aec4af474b789d386fcb5e4e67c0",
+  "started_at_utc": "2026-10-18T11:17:12.099975+00:00",
+  "label": "historical-language-feasibility",
+  "status": "completed",
+  "specification": {
+    "commit": "21c3b4c16615586c525420cfdd6014cc7a6d44c4",
+    "file": "research/specifications/LANG-001.json",
+    "sha256": "40a9e5c153e822466c179855f336d498ae592bc1ae7b9a5c9ffca8bc17ec3c0a",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history.",
+    "implementation_commit": "58646022bf5578e4c193a6cdc7a487ef86c5947d"
+  },
+  "jobs": [
+    {
+      "experiment": "LANG-001",
+      "status": "completed",
+      "deadline_seconds": 30
+    }
+  ],
+  "artifacts": {
+    "LANG-001.json": {
+      "sha256": "1b63b9b579308c1b4db31edd5e0bf4b7897fea75af2c0fa3b5d749f6d6084856",
+      "bytes": 3459
+    }
+  },
+  "finished_at_utc": "2026-10-18T11:17:12.598504+00:00"
+}

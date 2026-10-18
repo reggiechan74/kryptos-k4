@@ -1,0 +1,31 @@
+{
+  "id": "MASK-AUTO-001",
+  "status": "fixed_specification_commit_before_implementation_and_K4_execution",
+  "classification": "exploratory_historical_mechanism_not_identified_Scheidt_method",
+  "source_receipt": "docs/masking-source-and-pilots.md",
+  "source": "Army TM32-220, April1950, section122 printed144-145 / PDF150-151",
+  "baseline": "data/k4.json",
+  "baseline_ciphertext_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "alphabets": ["ABCDEFGHIJKLMNOPQRSTUVWXYZ", "KRYPTOSABCDEFGHIJLMNQUVWXZ"],
+  "primers": ["KRYPTOS", "PALIMPSEST", "ABSCISSA"],
+  "feedback_sources": ["plaintext", "ciphertext"],
+  "primer_length": "literal length including repeated letters",
+  "equation": "c[i]=(p[i]+k[i]) mod26; k[i]=index(primer[i]) for i<L, then p[i-L] or c[i-L] as selected; sequential inverse subtraction",
+  "position_order": "left_to_right_zero_based",
+  "K4_case_count": 12,
+  "forbidden_variants": ["routes", "reversals", "phase_shifts", "additional_offsets", "alternative_sign_equations", "primer_cycling", "alphabet_search", "free_lags"],
+  "acceptance": ["complete97letter_AZ_final_English_output", "all24canonical_crib_letters", "exact_full_ciphertext_regeneration"],
+  "controls": {
+    "hand_vectors": {"alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "primer": "KEY", "plaintext": "ATTACKATDAWN", "plaintext_feedback_ciphertext": "KXRAVDAVNAPQ", "ciphertext_feedback_ciphertext": "KXRKZBKSEKOR"},
+    "cases": ["all26symbols", "repeated_plaintext", "shorter_than_primer", "exact_primer_length", "97letter_messages"],
+    "planted_scanner_recovery": "all12complete_cases; duplicates explicitly permitted",
+    "negative_control": "alter one known crib letter and require planted model to fail acceptance",
+    "seed": 20261018,
+    "generator": "Python random.Random/MT19937"
+  },
+  "resource_limits": {"processes": 1, "deadline_seconds": 10, "K4_outputs_maximum": 12},
+  "scoring": "none; exact conditions only",
+  "null_controls": "none needed for hard failures; if any all-crib survivor occurs stop for independent audit before additional work",
+  "required_output": ["prior_spec_commit_and_hash", "implementation_commit_and_hashes", "run_id_status", "one_record_per_case", "complete_plaintext", "complete24character_crib_match_mask", "first_rejecting_condition", "full_roundtrip_status", "control_counts"],
+  "scope_limit": "Reject only these12fixed complete models; no identification or exclusion of autokey/masking generally."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "MASK-FM-001",
+  "status": "fixed_specification_commit_before_implementation_and_K4_execution",
+  "classification": "exploratory_historical_mechanism_not_identified_Scheidt_method",
+  "source_receipt": "docs/masking-source-and-pilots.md",
+  "procedure_source": "https://www.cryptogram.org/downloads/aca.info/ciphers/FractionatedMorse.pdf",
+  "historical_trail": "ACA issue index records Fractional Morse1950 and elementary study1951; original issue pages not inspected",
+  "baseline": "data/k4.json",
+  "alphabets": ["ABCDEFGHIJKLMNOPQRSTUVWXYZ", "KRYPTOSABCDEFGHIJLMNQUVWXZ"],
+  "triple_order": "lexicographic over symbols dot,dash,x; omit xxx; map26triples respectively to each alphabet",
+  "Morse": {"A":".-","B":"-...","C":"-.-.","D":"-..","E":".","F":"..-.","G":"--.","H":"....","I":"..","J":".---","K":"-.-","L":".-..","M":"--","N":"-.","O":"---","P":".--.","Q":"--.-","R":".-.","S":"...","T":"-","U":"..-","V":"...-","W":".--","X":"-..-","Y":"-.--","Z":"--.."},
+  "plaintext_domain": "uppercase_AZ_words_separated_by_one_ASCII_space; no punctuation",
+  "letter_separator": "x",
+  "word_separator": "xx",
+  "terminal_padding": "add0,1,or2x solely to make ternary length divisibleby3; one deterministic rule, no variant search",
+  "decode": "concatenate97triples=291ternary symbols; no leadingx, no internalxxx, decode each complete dotdash run exactly toAZ; trailing0to2x are padding only; interiorx/xx are letter/word boundaries",
+  "acceptance": ["valid_complete_parse", "final_AZ_letters_after_removing_spaces_length97", "canonical24cribletters_at_final_English_indices", "exact_complete_reencoding"],
+  "K4_case_count": 2,
+  "forbidden_variants": ["alphabet_rotations", "keyword_search", "arbitrary_triple_permutations", "dropped_symbols", "alternative_segmentations", "inserted_spaces", "routes", "composite_ciphers"],
+  "controls": {
+    "ACA_example": {"alphabet":"ROUNDTABLECFGHIJKMPQSVWXYZ","plaintext":"COME AT ONCE","ciphertext":"CBIILTMHVVFL","terminal_padding_x":2,"purpose":"core_algorithm_only_not_a_third_K4_key"},
+    "required": ["all26Morseletters", "all26triples", "all3terminalresidues", "oneletterwords", "leading_separator_rejection", "internal_xxx_rejection", "excess_terminalpadding_rejection", "invalid_Morserun_rejection", "bothplantedmap_scanner_recoveries", "finalletter_index_crib_boundary_checks"]
+  },
+  "resource_limits": {"processes": 1, "deadline_seconds": 10, "K4_outputs_maximum": 2},
+  "scoring": "none; exact mechanical conditions only",
+  "null_controls": "none needed for mechanical rejection; all-crib survivor requires independent audit and no automatic expansion",
+  "required_output": ["prior_spec_commit_and_hash", "implementation_commit_and_hashes", "run_id_status", "one_record_per_map", "complete_ternary_stream", "complete_spaced_plaintext_if_valid", "complete_crib_match_mask_if_parseable", "first_rejecting_condition", "full_roundtrip_status"],
+  "scope_limit": "Only the two fixed maps, exactMorse/separators/padding; failure says nothing about differently keyed maps or composite pipelines."
+}
