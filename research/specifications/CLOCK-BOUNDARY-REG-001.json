@@ -1,0 +1,182 @@
+{
+  "id": "CLOCK-BOUNDARY-REG-001",
+  "classification": "verification_of_previously_observed_deductions_not_new_discovery_or_preregistered_negative_search",
+  "witnesses_known_before_specification": true,
+  "baseline": "data/k4.json",
+  "baseline_ciphertext_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "alphabets": [
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+  ],
+  "equations": [
+    "C=P+K mod26",
+    "C=P-K mod26",
+    "C=K-P mod26"
+  ],
+  "segment_starts_one_based": [
+    [
+      1
+    ],
+    [
+      1,
+      22
+    ],
+    [
+      1,
+      64
+    ],
+    [
+      1,
+      22,
+      64
+    ]
+  ],
+  "restart": "same keyword phase zero before each stated start",
+  "keywords": [
+    "KRASNOJARSK",
+    "BERLINCLOCK",
+    "WELTZEITUHR"
+  ],
+  "keyword_length": 11,
+  "formal_cases_subsumed": 72,
+  "candidate_search_trials": 0,
+  "exclusions": [
+    "transposition",
+    "feedback",
+    "insertions",
+    "different keys per segment",
+    "longer keys",
+    "internal-word resets",
+    "reversed spellings",
+    "phase fitting"
+  ],
+  "certificates": {
+    "period11": {
+      "positions_one_based": [
+        22,
+        33
+      ],
+      "plain": [
+        "E",
+        "S"
+      ],
+      "cipher": [
+        "F",
+        "S"
+      ],
+      "expected_required_key_pairs": {
+        "AZ": {
+          "plus": [
+            1,
+            0
+          ],
+          "minus": [
+            25,
+            0
+          ],
+          "beaufort": [
+            9,
+            10
+          ]
+        },
+        "KRYPTOS": {
+          "plus": [
+            1,
+            0
+          ],
+          "minus": [
+            25,
+            0
+          ],
+          "beaufort": [
+            23,
+            12
+          ]
+        }
+      }
+    },
+    "shared_reset": {
+      "positions_one_based": [
+        22,
+        64
+      ],
+      "plain": [
+        "E",
+        "B"
+      ],
+      "cipher": [
+        "F",
+        "N"
+      ],
+      "expected_required_key_pairs": {
+        "AZ": {
+          "plus": [
+            1,
+            12
+          ],
+          "minus": [
+            25,
+            14
+          ],
+          "beaufort": [
+            9,
+            14
+          ]
+        },
+        "KRYPTOS": {
+          "plus": [
+            1,
+            11
+          ],
+          "minus": [
+            25,
+            15
+          ],
+          "beaufort": [
+            23,
+            1
+          ]
+        }
+      }
+    },
+    "alphabet_free_collision": {
+      "positions_one_based": [
+        25,
+        67
+      ],
+      "reset_starts_one_based": [
+        22,
+        64
+      ],
+      "offset_zero_based": 3,
+      "plain": [
+        "T",
+        "L"
+      ],
+      "cipher": [
+        "V",
+        "V"
+      ],
+      "scope": "identical restarted content-independent positionwise bijections, all key lengths; no transposition, feedback or different keys conclusion"
+    },
+    "total": 13
+  },
+  "controls": {
+    "primitive_cases": 4056,
+    "primitive_dimensions": "2 alphabets x 3 equations x 26 plaintext values x 26 key values; encrypt/decrypt/key recovery",
+    "phase_arrays": 4,
+    "independent_phase_comparisons": 388,
+    "synthetic_roundtrips": 24,
+    "synthetic_dimensions": "4 schedules x 2 alphabets x 3 equations; 97 letters; key ABCDEFGHIJK; plaintext repeated A-Z",
+    "negative_fixtures": 24,
+    "negative_rule": "increment ciphertext at one-based position33 by one alphabet index; require position22/33 inferred-key inconsistency",
+    "random_seed": "not applicable; all controls deterministic"
+  },
+  "resource_limits": {
+    "processes": 1,
+    "deadline_seconds": 10,
+    "standard_library_only": true
+  },
+  "optional_keyword_phase_fit": "not executed; certificates suffice",
+  "provenance": "Independent reviewer supplied these exact witnesses and expected values before specification. Earlier synthetic preparation and draft proof code existed locally, unexecuted against K4. Commit this specification before the registered verification run; no novelty or blind preregistration claim."
+}
