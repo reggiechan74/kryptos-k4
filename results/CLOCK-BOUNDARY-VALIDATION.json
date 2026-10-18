@@ -1,0 +1,32 @@
+{
+  "id": "CLOCK-BOUNDARY-VALIDATION",
+  "status": "completed",
+  "recorded_at_utc": "2026-10-18T12:43:31.200356+00:00",
+  "command": "python3 -m unittest discover -s tests -v",
+  "tests_run": 90,
+  "failures": 0,
+  "errors": 0,
+  "suite_seconds": 7.382,
+  "certificates": 13,
+  "candidate_search_trials": 0,
+  "formal_cases_subsumed": 72,
+  "control_counts": {
+    "primitive": 4056,
+    "phase_comparisons": 388,
+    "roundtrips": 24,
+    "negative_fixtures": 24
+  },
+  "file_sha256": {
+    "experiments/reset_boundary_proof.py": "33f87558a0a7c8cca7e17b616d5efcb80a9580c14b21b9bc5d12930188a2476f",
+    "experiments/clock_boundary_regression.py": "d8731b1bd576bec99ed39c6823fed6f261f4b091fe675e4bb5f8f21ff1901827",
+    "tests/reset_control_reference.py": "97358813150a42b54c51d8a88533f0cb1ef816723fae6bef970d5198c3f7d5f1",
+    "tests/test_reset_controls.py": "8b2b65d1a8df95ab7bc7b58ffd6ceff57e66f481c282a8bed7d5a958bf909787",
+    "tests/test_reset_boundary_proof.py": "fa074e7f60d5fce02d27dd5dbeea701259603ccbcc31f7c5a9beedda6690202f",
+    "tests/test_clock_boundary_regression.py": "b077d21e38927f4e4df8c6476413c3f1f960ef96e3f19d01260886d78a2d8b7e",
+    "research/specifications/CLOCK-BOUNDARY-REG-001.json": "c4fda3f87f11a3335524d6308796d9b026c1c92ae39513a276d09630002dc8ec"
+  },
+  "artifact_hashes_verified": true,
+  "consulted_file_hashes_verified": true,
+  "witnesses_known_before_specification": true,
+  "scope": "Verification of supplied known deductions, not new discovery or blind preregistered negative search."
+}

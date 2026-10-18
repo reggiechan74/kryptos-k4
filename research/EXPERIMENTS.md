@@ -220,3 +220,24 @@ scan redundant. Prepared `reset_boundary_proof.py`, three regression tests and
 `CLOCK-RESET-PROOF.md` with explicit bijection/alignment assumptions. These new
 proof tests have NOT run; the 83-test result above predates their addition. The
 final frozen proof specification is pending. Existing result files remain unchanged.
+
+## CLOCK-BOUNDARY-REG-001 — verification of known deductions
+
+- Spec committed first: 4e2d002925bfc7f3b332f94cd4472617919f52fa; implementation:
+  000b8c3a4e480fd773f131cf85eef6bc30d47206. Witnesses were supplied beforehand;
+  no new-discovery or blind-preregistration claim.
+- Command: `python3 experiments/clock_boundary_regression.py --spec-commit 4e2d002925bfc7f3b332f94cd4472617919f52fa --code-commit 000b8c3a4e480fd773f131cf85eef6bc30d47206`.
+- Verified 13 fixed certificates: six period-11, six shared-reset arithmetic,
+  one alphabet-free injectivity collision. All 72 declared formal keyword cases
+  are analytically subsumed; zero candidate-search trials or fitted variants.
+- Controls all pass: 4,056 primitive encrypt/decrypt/key-recovery cases, 388 phase
+  comparisons, 24 independent synthetic 97-letter round trips/regenerations,
+  24 altered-ciphertext negatives. Deterministic; no RNG needed.
+- One process, standard library, 10 s cap; actual 0.018 s. Immutable run:
+  `results/clock-boundary-runs/20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d/`.
+- Output and consulted file hashes independently checked after execution.
+- Full suite: `python3 -m unittest discover -s tests -v`, 90 pass, 7.382 s.
+- Scope: fixed unchanged-alignment period-11 arithmetic and declared identical
+  reset bijections only. No transposition/feedback/different-key exclusion.
+- BERLINCLOCK remains confirmed plaintext. City orientation/history unresolved.
+  No date-key, reversed-key, longer-key or internal-word-reset extension.

@@ -84,3 +84,11 @@ positions 25/67 lie at offset 3 after starts 22/64, with T/L mapping to V/V.
 The declared identical restarted positionwise bijection cannot satisfy that.
 The proof/regression implementation is prepared but awaits final specification
 before execution; no keyword scan or rescue variant has been run.
+
+CLOCK-BOUNDARY-REG-001 subsequently completed after specification commit
+4e2d002925bfc7f3b332f94cd4472617919f52fa and implementation commit
+000b8c3a4e480fd773f131cf85eef6bc30d47206. All 13 known certificates and declared
+controls verify; 72 fixed formal period-11 cases are analytically subsumed, zero
+candidate-search trials. The shared-reset collision concerns identical restarted
+positionwise bijections; transposition, feedback and different keys remain outside
+scope. See [completed proof and receipts](CLOCK-RESET-PROOF.md).

@@ -1,0 +1,27 @@
+{
+  "run_id": "20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d",
+  "started_at_utc": "2026-10-18T12:42:41.282170+00:00",
+  "label": "CLOCK-BOUNDARY-REG-001",
+  "status": "completed",
+  "specification": {
+    "commit": "4e2d002925bfc7f3b332f94cd4472617919f52fa",
+    "file": "research/specifications/CLOCK-BOUNDARY-REG-001.json",
+    "sha256": "c4fda3f87f11a3335524d6308796d9b026c1c92ae39513a276d09630002dc8ec",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history.",
+    "implementation_commit": "000b8c3a4e480fd773f131cf85eef6bc30d47206"
+  },
+  "jobs": [
+    {
+      "experiment": "CLOCK-BOUNDARY-REG-001",
+      "status": "completed",
+      "deadline_seconds": 10
+    }
+  ],
+  "artifacts": {
+    "CLOCK-BOUNDARY-REG-001.json": {
+      "sha256": "8d4a70fee77718cd326ee250fcb61cde975888abd9b2c651d83759180ac88c3c",
+      "bytes": 5864
+    }
+  },
+  "finished_at_utc": "2026-10-18T12:42:41.301414+00:00"
+}

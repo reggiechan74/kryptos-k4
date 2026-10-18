@@ -147,3 +147,9 @@ regression replay; earlier validation receipts are preserved.
 preserves the supplied historical review, both coordinate source pairs, and
 unverified panel-orientation/1989-inscription gates. The 11-letter city-name
 coincidence is exploratory; no key or new cipher result is claimed.
+
+[Clock-boundary verification](research/CLOCK-RESET-PROOF.md) confirms 13 already
+known contradiction certificates, subsuming 72 declared formal cases without a
+candidate scan. The identical-reset collision is narrow; stateful feedback,
+transposition and different keys are outside its scope. All 90 tests pass;
+[validation and chronology receipt](results/CLOCK-BOUNDARY-VALIDATION.json).

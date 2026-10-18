@@ -50,3 +50,20 @@ implementation commits. The fixed 72 formal cases are three 11-letter keywords
 the period-11 certificate; zero candidate-search trials are performed. The
 general identical-reset bijection certificate applies when starts 22 and 64
 both reset to the same sequence. No optional phase-fitting exercise is run.
+
+## Completed verification
+
+CLOCK-BOUNDARY-REG-001 verified all 13 certificates and all declared controls:
+4,056 primitive cases, 388 independent phase comparisons, 24 synthetic 97-letter
+round trips/regenerations, and 24 altered-position-33 negatives. It completed in
+0.018 s under the 10 s cap, one process, Python standard library. Zero candidate
+search trials; 72 formal cases analytically subsumed. This confirms the supplied
+known deductions, not new discovery, a K4 solution, or elimination of composites.
+
+[Immutable manifest](../results/clock-boundary-runs/20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d/manifest.json)
+and [all certificates/control arrays](../results/clock-boundary-runs/20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d/CLOCK-BOUNDARY-REG-001.json).
+Implementation commit: 000b8c3a4e480fd773f131cf85eef6bc30d47206.
+The specification commit precedes implementation, which precedes the actual run;
+witnesses and draft proof code were known before the specification. All output
+and consulted input/code hashes were checked against the local files afterward.
+Full regression suite: 90 tests pass in 7.382 s; earlier result files preserved.
