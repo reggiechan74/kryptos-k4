@@ -52,6 +52,22 @@ The baseline command validates data and indexing. The controls command checks
 full K1, both K2 variants, and K3 encryption/decryption against fixed fixtures.
 It does not establish a K4 method.
 
+## Latest registered outcomes
+
+The requested language → masking → word-scrambling sequence is complete:
+
+- [Language feasibility](research/LANGUAGE-FINDINGS.md): 37,060 exact GOST
+  round trips pass; two narrowly defined output models fail support constraints.
+  Shavian lacks a sourced complete reversible pipeline; none was invented.
+- [Masking pilots](research/MASKING-FINDINGS.md): all 12fixed autokey models fail
+  cribs; both fixed Fractionated Morse maps fail strict parsing.
+- [Word-interior proposal](research/WORD-SCRAMBLING-FINDINGS.md): all 24fixed
+  combinations fail endpoint/count invariants; no broader cipher claim follows.
+
+Each specification was committed before implementation and the actual run;
+immutable manifests record spec/code commits, hashes, controls, and status.
+No K4 solution is claimed. Older milestones and audited results remain preserved.
+
 ## Research documents
 
 [Current milestones](research/BOUNDED-FINDINGS.md) and the

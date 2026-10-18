@@ -1,0 +1,21 @@
+{
+  "id": "PHONETIC-SUBSET-001",
+  "status": "fixed_specification_commit_before_implementation_and_execution",
+  "classification": "small_deterministic_feasibility_check_of_user_proposed_synthetic_respelling_not_universal_German_pronunciation",
+  "rules": ["replace uppercase W by V", "replace word-final D by T", "replace word-final G by K"],
+  "domain": "explicit uppercase AZ word tokens only; length preserved; no word-boundary inference in unknown K4 text",
+  "known_word_units": ["EAST", "NORTHEAST", "BERLIN", "CLOCK"],
+  "baseline": "data/k4.json",
+  "prior_fixed_autokey_artifact": "results/masking-runs/20261018T112316Z-4302f65c58784dc79d801f8a44609fff/MASK-AUTO-001.json",
+  "fixed_autokey_specification": "research/specifications/MASK-AUTO-001.json",
+  "checks": ["transform each of four known words", "verify unchanged length and letters", "independently compare all12fixed outputs with unchanged aligned English cribs", "report whether any prior rejection is rescued"],
+  "controls": {"WORD":"VORT", "WEDDING":"VEDDINK", "DOG":"DOK", "loss_example":["WET","VET"]},
+  "frozen_model_count": 12,
+  "new_cipher_keys": 0,
+  "scoring": "none",
+  "null_controls": 0,
+  "excluded_rules": ["TH_to_Z_or_S_requires_fixed_pronunciation_dictionary", "short_I_to_EE_requires_fixed_pronunciation_dictionary", "translation_into_German", "arbitrary_exceptions", "shifted_crib_positions"],
+  "alignment_caveat": "Published English cribs are normally read as directly enciphered English. Treating their indices as positions only after linguistic reconstruction is an additional model assumption, not an established source rule.",
+  "resource_limits": {"processes":1,"deadline_seconds":5,"registered_output_checks":12},
+  "scope_limit": "Only this length-preserving subset and the existing12models at fixed aligned English cribs. No exclusion of broader phonetic or translated-language layers."
+}

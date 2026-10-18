@@ -1,0 +1,27 @@
+{
+  "run_id": "20261018T112641Z-6df780ad6f254787ad9f539f7a60b740",
+  "started_at_utc": "2026-10-18T11:26:41.668926+00:00",
+  "label": "word-interior-compatibility",
+  "status": "completed",
+  "specification": {
+    "commit": "ef0b3c91e11159886930299878b8636a72252acf",
+    "file": "research/specifications/WORD-SCRAMBLE-001.json",
+    "sha256": "77695a3aaed59caa6a9419ede6feda46966ee76d6ccd9009f5336111eaf1d856",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history.",
+    "implementation_commit": "30fc403b85998731414160fcd1c5cecb5ec42f73"
+  },
+  "jobs": [
+    {
+      "experiment": "WORD-SCRAMBLE-001",
+      "status": "completed",
+      "deadline_seconds": 10
+    }
+  ],
+  "artifacts": {
+    "WORD-SCRAMBLE-001.json": {
+      "sha256": "3369b8785e55223f9d5916eb056cf695c819c0a650f5c7b542a2fb31c260d222",
+      "bytes": 41972
+    }
+  },
+  "finished_at_utc": "2026-10-18T11:26:41.739302+00:00"
+}

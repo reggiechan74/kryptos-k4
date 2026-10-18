@@ -107,3 +107,46 @@ Current runners validate the baseline and use atomic unique run snapshots,
 run IDs, explicit completion/incomplete outcomes, uniform scanner deadlines,
 final checks after staged output, and a required prior specification commit.
 `results/AUDIT-001.json` records the final test count and code hashes.
+
+## LANG-001 — historically grounded encoding audit
+
+- Prior spec:21c3b4c16615586c525420cfdd6014cc7a6d44c4; code:58646022bf5578e4c193a6cdc7a487ef86c5947d.
+- Exact33letter uppercase Russian domain, GOST1981Table2. All37,060 strings of
+  lengths0–3 round-trip and have distinct encodings; suffixes H/HH then empty.
+- Precise literal/permutation and fixed-character-substitution support rejections;
+  punctuation/padding/polyalphabetic exceptions explicit. Quote stripping lossy.
+- Shavian transport/English inverse unspecified; no invented mapping or search.
+- Oneprocess,30scap,0.497s actual,0keysearches,0MonteCarlo controls; deterministic.
+- [Findings and immutable run links](LANGUAGE-FINDINGS.md).
+
+## MASK-AUTO-001 and MASK-FM-001 — two frozen masking pilots
+
+- Prior specs:9f546aa279ec065f2a4788fe4a1895efbcf87750; code:705f65f50e95f8265f7227a2f91336f39091780b.
+- Exactly 12 autokey outputs; all complete and re-encode, all fail24cribletters.
+  Controls:2handvectors,72 round trips,12 planted recoveries and12 crib-alteration negatives.
+- Exactly2 Fractionated Morse maps; each produces291 ternarysymbols but fails on
+  internalxxx. ACAexample, allsymbols/triples, padding, parsing, and2plants pass.
+- Implementation-authored invalid fixture .-xx.. corrected to positive A I before
+  actual K4 runs; no rule/key/case change. [Fixture review](../docs/masking-fixture-review.md).
+- Oneprocess,10scaps;0.014s and0.005s actual including controls. No scores/nulls,
+  no extra keys or transformations. [Findings and raw runs](MASKING-FINDINGS.md).
+
+## WORD-SCRAMBLE-001 — user's combined hypothesis, fixed24 checks
+
+- Prior spec:ef0b3c91e11159886930299878b8636a72252acf; code:30fc403b85998731414160fcd1c5cecb5ec42f73.
+- Reuses exactly12 autokey intermediates and2assumed segmentations. All 24 checks
+  fail endpoints; fullword/interior counts retained. No fitted keys/permutations.
+- Synthetic reverse-interior schedules:24 planted acceptances,24 endpoint negatives,
+  24count negatives,24 schedule inversions; SALT/SLAT ambiguity explicit. Seed20261018.
+- Oneprocess,10scap,0.069s actual. No scoring/nulls or factorial enumeration.
+- [Findings and complete24case records](WORD-SCRAMBLING-FINDINGS.md).
+
+## Final validation of this sequence
+
+All 73unit/replay tests pass in7.431 s, including all 37,060GOST round trips and
+complete new artifact/hash replays. See [validation](../results/LANGUAGE-MASKING-WORD-VALIDATION.json).
+[Commit/run chronology](../results/SPECIFICATION-CHRONOLOGY.json) checks prior
+specification commits, subsequent code commits, and actual run start times for
+all4new runs. This is independent of the older b83 preregistration limitation.
+H-PHONETIC-RESPELLING and H-GERMAN-TRANSLATION were recorded as distinct user
+proposals only; no mapper, translation fitting, or shifted cribs were implemented.

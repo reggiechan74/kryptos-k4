@@ -40,3 +40,10 @@ No branch may choose pronunciations, translation variants, alphabet orderings,
 keys, or deletion rules after inspecting attractive output. If source reading
 provides no reversible historical encoding, a narrowly stated feasibility limit
 is a valid outcome; it does not exclude the entire script or language family.
+
+## Subsequent fixed run
+
+The planning stage was superseded by [LANG-001](../research/specifications/LANG-001.json)
+and its [documented outcome](../research/LANGUAGE-FINDINGS.md). The generic
+interfaces remain mapping-neutral; the GOST table is separately sourced and
+frozen. No Shavian transport encoding was invented.

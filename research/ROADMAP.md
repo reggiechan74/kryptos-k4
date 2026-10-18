@@ -98,3 +98,12 @@ The [planning manifest](specifications/LANGUAGE-PREPARATION.json) and
 loss/ambiguity, round-trip, length, and crib gates. They contain no historical
 map and run no K4 candidate search. Each final operational specification will
 be committed before its run and referenced by commit and exact file hash.
+
+## Completed requested sequence
+
+[Language feasibility](LANGUAGE-FINDINGS.md) completed first, then the
+[two masking pilots](MASKING-FINDINGS.md), followed by the separately authorized
+[word-interior extension](WORD-SCRAMBLING-FINDINGS.md). Each fixed specification
+was pushed before implementation/execution. No general language or masking
+family was eliminated. Further work needs a new independently motivated finite
+specification; none of these failures authorizes more variants automatically.

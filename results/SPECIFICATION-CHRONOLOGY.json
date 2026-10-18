@@ -1,0 +1,71 @@
+{
+  "source": "Authenticated GitHub commit metadata fetched after runs",
+  "repository": "reggiechan74/kryptos-k4",
+  "commits": [
+    {
+      "sha": "21c3b4c16615586c525420cfdd6014cc7a6d44c4",
+      "created_at": "2026-10-18T11:14:57Z",
+      "message": "Preregister restricted GOST and Shavian feasibility audit before execution"
+    },
+    {
+      "sha": "58646022bf5578e4c193a6cdc7a487ef86c5947d",
+      "created_at": "2026-10-18T11:17:07Z",
+      "message": "Implement frozen historical-language audit and record pending word-scramble hypothesis"
+    },
+    {
+      "sha": "9f546aa279ec065f2a4788fe4a1895efbcf87750",
+      "created_at": "2026-10-18T11:19:14Z",
+      "message": "Record language audit outcome and preregister 12 autokey and two Morse pilots"
+    },
+    {
+      "sha": "705f65f50e95f8265f7227a2f91336f39091780b",
+      "created_at": "2026-10-18T11:23:12Z",
+      "message": "Implement fixed masking pilots with hand-vector and ACA preflight controls"
+    },
+    {
+      "sha": "ef0b3c91e11159886930299878b8636a72252acf",
+      "created_at": "2026-10-18T11:24:57Z",
+      "message": "Record fixed masking failures and preregister 24 word-interior compatibility checks"
+    },
+    {
+      "sha": "30fc403b85998731414160fcd1c5cecb5ec42f73",
+      "created_at": "2026-10-18T11:26:37Z",
+      "message": "Implement preregistered 24-case word-interior compatibility test and controls"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "20261018T111712Z-27a5aec4af474b789d386fcb5e4e67c0",
+      "experiment": "LANG-001",
+      "specification_commit": "21c3b4c16615586c525420cfdd6014cc7a6d44c4",
+      "implementation_commit": "58646022bf5578e4c193a6cdc7a487ef86c5947d",
+      "run_started_at_utc": "2026-10-18T11:17:12.099975+00:00",
+      "verified_spec_before_code_before_run": true
+    },
+    {
+      "run_id": "20261018T112317Z-3a585d17cef148e0a80c158a43e841dc",
+      "experiment": "MASK-FM-001",
+      "specification_commit": "9f546aa279ec065f2a4788fe4a1895efbcf87750",
+      "implementation_commit": "705f65f50e95f8265f7227a2f91336f39091780b",
+      "run_started_at_utc": "2026-10-18T11:23:17.030203+00:00",
+      "verified_spec_before_code_before_run": true
+    },
+    {
+      "run_id": "20261018T112316Z-4302f65c58784dc79d801f8a44609fff",
+      "experiment": "MASK-AUTO-001",
+      "specification_commit": "9f546aa279ec065f2a4788fe4a1895efbcf87750",
+      "implementation_commit": "705f65f50e95f8265f7227a2f91336f39091780b",
+      "run_started_at_utc": "2026-10-18T11:23:16.791919+00:00",
+      "verified_spec_before_code_before_run": true
+    },
+    {
+      "run_id": "20261018T112641Z-6df780ad6f254787ad9f539f7a60b740",
+      "experiment": "WORD-SCRAMBLE-001",
+      "specification_commit": "ef0b3c91e11159886930299878b8636a72252acf",
+      "implementation_commit": "30fc403b85998731414160fcd1c5cecb5ec42f73",
+      "run_started_at_utc": "2026-10-18T11:26:41.668926+00:00",
+      "verified_spec_before_code_before_run": true
+    }
+  ],
+  "verification": "Authenticated commit dates and exact spec bytes were checked; all new spec commits precede code commits and actual run starts. This does not retroactively preregister the old b83 runs."
+}

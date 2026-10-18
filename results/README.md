@@ -44,3 +44,15 @@ The original specification and results shared a commit; future new specs must
 be committed first, with chronology checked from Git history. The offline runner
 records a supplied full SHA and the local spec hash; it cannot itself prove that
 the commit exists, contains those bytes, or predates execution.
+
+## New preregistered finite branches
+
+- `language-runs/`: GOST37,060roundtrips and Shavian feasibility gates.
+- `masking-runs/`: the12 autokey and2 Fractionated Morse pilot records.
+- `word-runs/`:24 endpoint/interior-multiset compatibility checks.
+
+Each directory has an atomic latest pointer and immutable run manifests with
+prior specification/code commits and exact hashes. Source/specification/result
+links are in the three new findings documents linked from the root README.
+These specifications genuinely precede the runs in Git history; the older b83
+registration limitation remains unchanged and is not retroactively repaired.

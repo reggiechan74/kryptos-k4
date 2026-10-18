@@ -99,3 +99,22 @@ positions, full fixture equality/inverse, and anchor/intermediate rows. This
 establishes computational equivalence, not fully observed historical execution
 or a precise reproduction of Gillogly's unstated three-stage decomposition.
 No K4 dimension, padding, fold, or mask follows from this provenance review.
+
+## Historical alphabet and masking receipts
+
+[Historical alphabet receipt](../docs/historical-alphabet-specification.md): the
+research worker used Firecrawl and rendered scans. The coding executor separately
+verified the GOST PDF hash, edition text and both Table-2 images; Shavian glyph
+observations remain attributed to the researcher. Exact uppercase transport
+labels and punctuation exceptions are frozen in the GOST manifest.
+
+[Masking source boundary](../docs/masking-source-and-pilots.md) records the
+researcher's interview/manual evidence. The coding executor additionally read
+Army section122 through PDF extraction and the ACA example directly. No source
+identifies the two exploratory pilot mechanisms as Scheidt's actual mask.
+The implementation-authored fixture correction is in [preflight review](../docs/masking-fixture-review.md).
+
+[Word-interior context](../docs/word-scrambling-hypothesis.md) distinguishes the
+user's hypothesis and conditional readability from historical spelling anomalies.
+The Cambridge/MRC page was read directly; the new NSA summary fetch failed, and
+no new reading of it is claimed. No private archive or external verifier was used.
