@@ -70,3 +70,17 @@ coincidence. A modern photo suggests an Asian arc roughly east but verifies
 neither the absolute true-ENE panel nor 1989 inscriptions. SINGAPUR is German
 spelling, not an error. An ENE approach from the fountain sees the opposite
 WSW-facing side. No city name is a confirmed key; no cipher pilot was run.
+
+## H-CLOCK-RESET — specification pending
+
+The [reset preflight](CLOCK-RESET-PREPARATION.md) records prior period-11
+arithmetic exclusions and independent synthetic boundary controls. The pending
+shared-key-reset pilot is a distinct model. No actual K4 run precedes the frozen
+specification commit. KRASNOJARSK is a candidate hypothesis only; the confirmed
+BERLINCLOCK crib is unchanged.
+
+Independent review subsequently supplied the [exact reset contradiction](CLOCK-RESET-PROOF.md):
+positions 25/67 lie at offset 3 after starts 22/64, with T/L mapping to V/V.
+The declared identical restarted positionwise bijection cannot satisfy that.
+The proof/regression implementation is prepared but awaits final specification
+before execution; no keyword scan or rescue variant has been run.

@@ -201,3 +201,22 @@ separately below.
 - Result: all 79 tests passed, 7.406 s suite time; no failures/errors.
 - This replay checks existing software/artifacts, not the report's historical
   claims, source inspection, panel orientation or reported coordinate arithmetic.
+
+## Clock-reset preparation — no new K4 run
+
+- Parent: 8c1841edbad1961399a7a264b4c3b52be5e2e1be; frozen reset specification pending.
+- Reviewed prior exclusions; continuous period-11 arithmetic is already excluded
+  in ROUTE-001's fixed alphabets/equations. No repeat keyword discovery claimed.
+- Prepared independent synthetic reference encoder and four tests: hand vectors,
+  24 seeded segment recovery/regeneration controls, boundary negatives and strict
+  invalid-index rejection. No actual scanner recovery claimed yet.
+- Commands: `python3 -m unittest discover -s tests -p 'test_reset_controls.py' -v`
+  (4 pass) and `python3 -m unittest discover -s tests -v` (83 pass, 7.359 s).
+- Existing code/results unchanged; no new K4 candidate execution, expensive search
+  or submission. Astronomy correction documented without date-key search.
+
+Subsequent independent reviewer witnesses make the identical shared-reset keyword
+scan redundant. Prepared `reset_boundary_proof.py`, three regression tests and
+`CLOCK-RESET-PROOF.md` with explicit bijection/alignment assumptions. These new
+proof tests have NOT run; the 83-test result above predates their addition. The
+final frozen proof specification is pending. Existing result files remain unchanged.

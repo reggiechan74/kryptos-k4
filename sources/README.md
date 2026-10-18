@@ -48,3 +48,8 @@ The review found no documented Kryptos bridge in its bounded search. Modern
 panel observations do not verify true-ENE orientation or 1989 inscriptions.
 The two coordinate source pairs and their different reported bearings remain
 explicit; no pinned earlier geometry was replaced.
+
+The [Neptune assessment's astronomy correction](../docs/neptune-discovery-assessment.md#astronomy-correction-retained-for-subsequent-work)
+retains the supplied JPL/NASA distinction: Pluto did not explain Uranus residuals;
+later discrepancies were resolved by correcting Neptune's mass and refitting
+Uranus. No source retrieval or date-key search was added by the coding executor.

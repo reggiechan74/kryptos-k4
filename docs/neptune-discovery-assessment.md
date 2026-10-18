@@ -155,7 +155,18 @@ was launched from these observations.
    coordinates: about 34°, not 67.5°. Changing observatory severs the discovery
    connection. Keep the existing fountain origin separate.
 
-## Search limits
+## Astronomy correction retained for subsequent work
+
+The supplied verified correction is that Pluto did not explain the Uranus
+residuals. Later residual discrepancies were resolved by correcting Neptune's
+mass and refitting Uranus's orbit. This is distinct from Le Verrier's successful
+1846 angular prediction and from any proposed cipher analogy. Supplied sources:
+[JPL Solar System Dynamics FAQ](https://ssd.jpl.nasa.gov/faq.html) and
+[NASA technical record 19930051137](https://ntrs.nasa.gov/citations/19930051137).
+The coding executor has not independently retrieved these pages in this update.
+No dates, masses or ephemerides were converted into candidate keys or searched.
+
+## Original bounded-search limits
 
 The research worker's targeted searches for Kryptos/Sanborn with Neptune, Galle
 and Le Verrier yielded no primary author statement or documented design
