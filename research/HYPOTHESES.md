@@ -13,3 +13,11 @@ proofs and finite tests have separate scope; a surviving model is not a solution
 | H-RUNKEY | Literal nearby solved text is a nonwrapping running key | Hypothesis | Corrected K2 and K3 | RUNKEY-001 | Tested finite version rejected | None of 28,488 declared cases matches all cribs |
 | H-TRIFID | A literal fixed cube implements K4 | Hypothesis | Historically available fractionation, no attested lesson | TRIFID-001 | Tested finite versions rejected | None of 144 declared cases matches all cribs |
 | H-LAG | Width-21 repeated pairs differ from histogram-preserving permutations | Published diagnostic | Bean 2021 | STAT-001 | Limited replication | Count 11 confirmed; maximum-over-48 conditional tail about 0.0108, no mechanism inferred |
+
+| H-WORD-SCRAMBLE | Preserve word endpoints and permute interior letters before a letter-changing cipher | User-proposed hypothesis, not established history | User proposal; no operational specification yet | None authorized yet | Pending fixed combined model | Pure scrambling retains the rejected E count; combining it with a changing cipher is a different model. Do not fit boundaries/permutations to cribs |
+
+H-WORD-SCRAMBLE concerns random interior permutation, not the same operation as
+the K1 IQLUSION or K3 DESPARATLY spelling anomalies. Readability is conditional;
+FORM/FROM already show that preserving endpoints does not uniquely recover a
+word. An exact inverse, word boundaries, permutation/key rule, and cipher must
+be fixed before any test. Current language-then-masking runs are unchanged.
