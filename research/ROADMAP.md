@@ -63,3 +63,19 @@ Use the [hypothesis template](templates/hypothesis.md),
 [experiment template](templates/experiment.md), and [research policy](POLICY.md).
 Planning these steps does not authorize broad compute, paid services, external
 submissions, or contacting third parties.
+
+## Completed bounded milestone and remaining evidence gates
+
+See [current findings](BOUNDED-FINDINGS.md), [exact specification](BOUNDED-SPEC.md),
+and [Firecrawl worker receipt](../docs/source-verification-2026-10-18.md).
+Controls and structural feasibility checks are implemented. Finite route/period,
+literal running-key, and fixed-cube Trifid checks are complete; lag diagnostics
+include split-sample maximum-statistic calibration. None yields a K4 solution.
+
+The next extension requires an independent model specification: a sourced
+historical reversible language encoding, a new justified physical/key rule,
+or a selected tightly bounded generator. The absence of such a specification
+is a research constraint, not a reason to expand arbitrary search freedom.
+K3 photographic transcription and a structured claim/date/conflict ledger remain
+useful evidence tasks. No broad search, external verifier, or paid submission
+is authorized by the existence of these results.

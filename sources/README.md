@@ -1,7 +1,9 @@
 # Sources and confirmed clues
 
 Recorded 2026-10-18. **Update:** see [source verification](VERIFICATION.md) for
-successful retrievals and control-fixture provenance; the initial attempt below
+successful local retrievals and control-fixture provenance, and the supplied
+[Firecrawl receipt](../docs/source-verification-2026-10-18.md) for the research
+worker’s additional cross-source and historical checks; the initial attempt below
 is retained as history.
 
 Recorded 2026-10-18 (initial attempt). The URLs and factual baseline below were supplied in the

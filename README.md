@@ -18,14 +18,13 @@ plaintext at those indices; they are not literal substrings of the ciphertext.
 
 ## Status and evidence
 
-The research brief reports that archival researchers privately recovered the
-plaintext in September 2025 without deriving the cipher, and that no publicly
-accepted cryptanalytic solution is recognized by the current steward. Recovery
-of plaintext from archives and derivation of a reproducible cipher solution are
-different achievements. See [sources](sources/README.md) for the supplied links
-and the initial source-verification limitation. [Subsequent verification](sources/VERIFICATION.md)
-resolves specific transcription and method gaps; the archival-recovery event
-remains attributed to the brief pending a separate checked source.
+The [Firecrawl source-verification receipt](docs/source-verification-2026-10-18.md)
+records RR Auction's report that archival researchers recovered plaintext in
+September 2025 without acquiring the method/key. The latest checked steward
+publication still calls K4 unsolved. These are compatible, attributed statements:
+plaintext discovery and a reproducible cryptanalytic solution are different
+achievements. See [local fixture provenance](sources/VERIFICATION.md) for the
+separate exact-transcription and method checks.
 
 Separate public facts, hypotheses, and unverified third-party experiments.
 Neither a plausible phrase nor a crib match establishes a solution. A candidate
@@ -39,6 +38,8 @@ Requires Python 3.8+; standard library only. From this directory:
 python3 experiments/check_baseline.py
 python3 experiments/check_controls.py
 python3 experiments/structural_checks.py
+python3 experiments/run_bounded.py
+python3 experiments/statistical_diagnostics.py --write-results
 python3 -m unittest discover -s tests -v
 ```
 
@@ -47,6 +48,12 @@ full K1, both K2 variants, and K3 encryption/decryption against fixed fixtures.
 It does not establish a K4 method.
 
 ## Research documents
+
+[Current milestones](research/BOUNDED-FINDINGS.md) and the
+[Firecrawl verification receipt](docs/source-verification-2026-10-18.md) record
+subsequent source checks and tested results. The receipt was supplied by the
+research worker who performed those Firecrawl reads; the local coding executor
+did not independently perform that scrape session.
 
 - [Designer context and working vocabulary](docs/designer-context.md): source-attributed
   evidence, historical boundaries, and a proposed K1–K3 workshop.

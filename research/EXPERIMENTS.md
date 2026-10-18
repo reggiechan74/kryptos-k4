@@ -53,3 +53,43 @@ makes no statement about a cryptographic method or historical source accuracy.
 - Scope: no substitution-plus-transposition conclusion; no actual language
   converter; surviving constraints are not solutions. No novelty claim.
 - Code/version: STRUCT-001 milestone commit in history.
+
+## ROUTE-001, RUNKEY-001, TRIFID-001 — bounded model milestone
+
+- Date: 2026-10-18 UTC; Python 3.9.6, standard library, single local process.
+- Command: `python3 experiments/run_bounded.py`; preregistered
+  [bounds and conventions](BOUNDED-SPEC.md), [findings](BOUNDED-FINDINGS.md).
+- ROUTE-001: 13,056 cases, 66 distinct routes; 282 compatible partial assignments,
+  all identity route at periods 27–29 or 53–96. Zero fully observed keys.
+- RUNKEY-001: 28,488 cases, 4,748 window/direction cases, 2,692 unique key strings;
+  zero all-24-crib matches. Trigger for 199-shuffle validation not met.
+- TRIFID-001: 144 cases, zero all-crib matches; all full inverse checks pass.
+- Validation: 20 planted route/key recoveries and 20 planted literal-window
+  recoveries through the actual scanners; all three equations and both alphabets.
+  Seed 20261018, Python MT19937. Trifid controls cover every symbol and period.
+- Runtime: each bounded scan below one second. Limits: 30 seconds / 20,000 route
+  cases; 30 seconds / 30,000 running-key cases; fixed 144 Trifid cases.
+- Outputs: `results/ROUTE-001-summary.json` plus complete compressed details,
+  `results/RUNKEY-001.json`, `results/TRIFID-001.json`. Outputs include exact
+  consulted code/input SHA256 hashes and environment. Code version is the
+  bounded-model milestone commit containing these artifacts. No external inputs
+  were downloaded during execution, and no language score was used.
+- Negative-result scope: only declared versions, routes, periods, alphabets,
+  equations, windows, and cubes. No family-wide rejection from these finite runs.
+
+## STAT-001 — published lag-pattern diagnostic and maximum correction
+
+- Command: `python3 experiments/statistical_diagnostics.py --write-results`.
+- Definition: duplicate excess among ordered overlapping pairs at lags 1–48.
+- Null: histogram-preserving shuffles, seed 20261018, Python MT19937; 9,999
+  draws, split 4,999 calibration / 5,000 evaluation. Maximum statistic frozen
+  using calibration means and sample deviations. 60-second cap; completed in 3.3s.
+- Observed: lag 21 has 11 duplicate excess; fixed-lag exceedances 1/5,000,
+  plus-one tail 0.000400. Calibrated maximum exceedances 53/5,000, tail 0.010798.
+- Scope: conditional null diagnostics with historical/postselection limits,
+  not an English null or a probability of a cipher hypothesis. Wilson Monte
+  Carlo intervals and exact caveats in [findings](BOUNDED-FINDINGS.md).
+- Outputs: `results/STAT-001-summary.json`, complete compressed raw draws and
+  evaluation maxima in `results/STAT-001.json.gz`; code/input hashes included.
+- Prior art: Bean 2021, §2.1; independent limited check, not whole-paper or
+  Gromark-search reproduction. No external solver code executed.

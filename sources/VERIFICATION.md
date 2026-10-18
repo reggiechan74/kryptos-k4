@@ -61,8 +61,10 @@ separate metadata and excluded from the 336-letter permutation.
   retrieved directly; dated 12 June 2026, by Dan Robinson and Matt Huang. The
   steward describes K4 as unsolved and an automated private verification system.
   This page does not itself substantiate the brief's September 2025 archival
-  recovery account. That event remains an attributed brief claim pending a
-  separate checked source; do not merge it with cryptanalytic solution status.
+  recovery account. The subsequent supplied
+  [Firecrawl receipt](../docs/source-verification-2026-10-18.md) records RR Auction’s
+  direct account of that discovery. This resolves the brief-only provenance gap
+  with an attributed auction-house report, not an independent cryptographic audit.
 
 ## Limits
 
@@ -72,3 +74,16 @@ Their claims about historical source reading and earlier checks remain supplied
 research until a specific verification record says otherwise. The 97-letter
 K4 and fixed English crib alignment remain working inputs. No claim of new
 historical or cryptanalytic discovery is made.
+
+## Supplied Firecrawl research-worker verification
+
+The [dated receipt](../docs/source-verification-2026-10-18.md) records separate
+Firecrawl reads by the research worker, including cross-source equality of all
+four ciphertext segments, the public crib mask, Gillogly's firsthand account,
+the Smithsonian interview, and the archival discovery report. The local coding
+executor did not perform that Firecrawl session. Its fixture hashes agree with
+the locally retrieved/transcribed fixtures. Paradigm's K3 Vigenère metadata is
+erroneous; it is not used as a method source. The Smithsonian matrix-code remark
+explicitly concerns already-solved sections, so it supplies no proof of a K4
+matrix mechanism. The World Clock clarification is attributed to the official
+event video's description, with the receipt's caption/date caveats retained.
