@@ -41,7 +41,7 @@
   "method": {
     "plaintext": "P_i=sigma*C_i-sigma*tau*P_(i-L). For i<L use root x_i=P_i. Propagate P_i=alpha_i*x_(i mod L)+beta_i with alpha_i in {+1,-1}. Each crib fixes its chain root. Conflicting fixes are necessary and sufficient contradictions; free primer symbols=L-number_of_anchored_roots; independent consistency comparisons=24-number_of_distinct_crib_residues_mod_L.",
     "ciphertext": "Crib i>=L checks deterministic P_i=sigma*(C_i-tau*C_(i-L)). Pre-lag cribs constrain distinct independent primer entries. Independent checks=#known_i>=L; free primer symbols=L-#known_i<L.",
-    "sufficiency": "All root/primer coefficients are units ±1 in Z26; compatible cases have exactly26^free solutions. No arbitrary seed filling or full K4 plaintext is emitted."
+    "sufficiency": "All root/primer coefficients are units \u00b11 in Z26; compatible cases have exactly26^free solutions. No arbitrary seed filling or full K4 plaintext is emitted."
   },
   "classification": [
     "contradicted",
@@ -86,7 +86,7 @@
       "equations": 3,
       "feedback_modes": 2,
       "crib_patterns_per_cipher": 3,
-      "patterns": "empty; first=A and last=B; full first N letters of ABCD",
+      "patterns": "empty; first=A and last=B; full known plaintext alphabet[i mod alphabet_length]",
       "all_ciphertexts": true,
       "enumerate_all_primers": true,
       "oracle_cases": 5220,
@@ -131,5 +131,7 @@
     "language scoring",
     "primer word search"
   ],
-  "provenance": "Affine-chain method and source gaps were independently reviewed before this specification. K4 classifications not calculated by this executor before spec commit; independent result check is pending. Commit before implementation/execution; report any repairs explicitly."
+  "provenance": "Affine-chain method and source gaps were independently reviewed before this specification. K4 classifications not calculated by this executor before spec commit; independent result check is pending. Commit before implementation/execution; report any repairs explicitly.",
+  "pre_execution_fixture_correction": "Initial full-mask wording first N letters of ABCD included D outside toy ABC at length4. Corrected to cycling the toy alphabet before any new code/control/K4 execution; no K4 model or case changed.",
+  "independent_prediction_provenance": "Expected K4 lag classifications were supplied by an independent reviewer after initial specification commit and before implementation execution. They will be compared, not substituted for the calculation."
 }
