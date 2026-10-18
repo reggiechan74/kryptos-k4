@@ -1,0 +1,360 @@
+{
+  "review": "WorldClock-axis-5km-extension",
+  "recorded_date": "2026-10-18",
+  "attribution": "supplied read-only geometry worker, no local geodesic/polygon rerun",
+  "origin_wgs84": [
+    52.5211638,
+    13.4133059
+  ],
+  "initial_true_bearings_deg": [
+    67.5,
+    247.5
+  ],
+  "bound_km_each_direction": 5,
+  "data_retrieval": "actualOSMnodes/ways/completekeymultipolygons via mainOSMAPI afterOverpasserrors",
+  "extension_retrieval_date_reported": "2026-10-18",
+  "uniform_historical_snapshot_for_extension_established": false,
+  "rhumb_line_same_as_geodesic": false,
+  "rhumb_difference_at5km": "fewmetres, supplied estimate",
+  "ENE": [
+    {
+      "feature": "kindergarten",
+      "osm_type": "relation",
+      "osm_id": 546236,
+      "range_km": [
+        0.57,
+        0.61
+      ],
+      "historical_identity_checked": false
+    },
+    {
+      "feature": "housing",
+      "range_km": [
+        0.7,
+        1.2
+      ],
+      "scope": "multiplegroundplanfeatures, notonebuilding"
+    },
+    {
+      "feature": "VolksparkFriedrichshain",
+      "osm_type": "relation",
+      "osm_id": 3099987,
+      "range_km": [
+        1.24,
+        2.28
+      ],
+      "hospital_notch_km": [
+        1.76,
+        1.82
+      ]
+    },
+    {
+      "feature": "TeslaSchulegrounds",
+      "osm_type": "way",
+      "osm_id": 42697319,
+      "range_km": [
+        2.38,
+        2.54
+      ],
+      "historical_identity_checked": false
+    },
+    {
+      "feature": "schoolbuilding",
+      "osm_type": "way",
+      "osm_id": 508727544,
+      "intersection_near_km": 2.39,
+      "exact_entry_exit_provided": false,
+      "historical_identity_checked": false
+    },
+    {
+      "feature": "Velodrom",
+      "osm_type": "way",
+      "osm_id": 7997184,
+      "range_km": [
+        2.71,
+        2.85
+      ],
+      "opened": "1997-08"
+    },
+    {
+      "feature": "VolksparkPrenzlauerBerg",
+      "osm_type": "way",
+      "osm_id": 115704664,
+      "range_km": [
+        3.51,
+        4.06
+      ],
+      "named_year": 1969,
+      "same1989boundary_claim": false
+    },
+    {
+      "feature": "housingbeyondpark",
+      "until_km": 5
+    }
+  ],
+  "new_polished_map": false,
+  "existing_near_map_changed": false,
+  "new_cipher_test": false,
+  "special_endpoint_selected": false,
+  "WSW": [
+    {
+      "feature": "MarxEngelsForumgrounds",
+      "osm_type": "way",
+      "osm_id": 16872940,
+      "range_km": [
+        0.57,
+        0.77
+      ],
+      "statues_hit_claim": false
+    },
+    {
+      "feature": "Spree",
+      "osm_type": "relation",
+      "osm_id": 6306415,
+      "range_km": [
+        0.77,
+        0.8
+      ]
+    },
+    {
+      "feature": "razedPalastderRepublikfootprint",
+      "osm_type": "way",
+      "osm_id": 229531166,
+      "range_km": [
+        0.81,
+        0.87
+      ],
+      "historical_evidence": "OSM only; official periodmapretrievalfailed"
+    },
+    {
+      "feature": "Spreekanal",
+      "osm_type": "relation",
+      "osm_id": 7388656,
+      "range_km": [
+        1.06,
+        1.1
+      ]
+    },
+    {
+      "feature": "Schlossbrueckeclip",
+      "osm_type": "way",
+      "osm_id": 339201218,
+      "range_km": [
+        1.06,
+        1.07
+      ]
+    },
+    {
+      "feature": "Kommandantenhaus",
+      "osm_type": "way",
+      "osm_id": 15976890,
+      "range_km": [
+        1.12,
+        1.16
+      ],
+      "current_reconstruction_opened": 2003
+    },
+    {
+      "feature": "Kronprinzenpalais",
+      "osm_type": "relation",
+      "osm_id": 4284350,
+      "range_km": [
+        1.17,
+        1.24
+      ],
+      "geometry_note": "two buildingsegments withsmallrecess",
+      "reconstruction": "1968-70"
+    },
+    {
+      "feature": "Prinzessinnenpalais",
+      "osm_type": "way",
+      "osm_id": 24247322,
+      "range_km": [
+        1.248,
+        1.262
+      ],
+      "reconstruction": "1962-64"
+    },
+    {
+      "feature": "Staatsoper",
+      "osm_type": "way",
+      "osm_id": 15976892,
+      "range_km": [
+        1.332,
+        1.388
+      ],
+      "reopened": 1955
+    },
+    {
+      "feature": "Bebelplatzpavedsquare",
+      "osm_type": "way",
+      "osm_id": 205728152,
+      "range_km": [
+        1.393,
+        1.457
+      ]
+    },
+    {
+      "feature": "ordinaryblocks/otherinstitutions",
+      "scope": "selectedsummaryomitsinterveningfeatures, notexhaustive"
+    },
+    {
+      "feature": "HenrietteHerzPark",
+      "osm_type": "way",
+      "osm_id": 49679770,
+      "range_km": [
+        2.91,
+        2.98
+      ]
+    },
+    {
+      "feature": "northernSonyCenterbuildings",
+      "osm_type": "ways",
+      "osm_ids": [
+        216228631,
+        13649546
+      ],
+      "range_km": [
+        3.01,
+        3.06
+      ],
+      "historical_identity": "modernOSMnames, pre1989unchecked"
+    },
+    {
+      "feature": "MusikinstrumentenMuseum",
+      "osm_type": "way",
+      "osm_id": 22990151,
+      "range_km": [
+        3.1,
+        3.15
+      ],
+      "present_site_since": 1984
+    },
+    {
+      "feature": "Philharmonie",
+      "osm_type": "complete_relation",
+      "osm_id": 3626485,
+      "range_km": [
+        3.17,
+        3.26
+      ],
+      "opened": 1963
+    },
+    {
+      "feature": "Kunstgewerbemuseum",
+      "osm_type": "relation",
+      "osm_id": 28134,
+      "range_km": [
+        3.35,
+        3.4
+      ],
+      "building_opened": 1985
+    },
+    {
+      "feature": "Kulturforumentrance/exhibitionbuilding",
+      "osm_type": "way",
+      "osm_id": 143367746,
+      "range_km": [
+        3.45,
+        3.53
+      ],
+      "historical_eligibility_checked": false
+    },
+    {
+      "feature": "Gemaeldegalerie",
+      "osm_type": "relation",
+      "osm_id": 3626233,
+      "range_km": [
+        3.56,
+        3.62
+      ],
+      "current_building_opened": 1998
+    },
+    {
+      "feature": "EgyptianEmbassybuilding",
+      "osm_type": "way",
+      "osm_id": 24045732,
+      "range_km": [
+        3.66,
+        3.67
+      ],
+      "historical_eligibility_checked": false
+    },
+    {
+      "feature": "Bendlerblockwings",
+      "osm_type": "complete_relations",
+      "osm_ids": [
+        1687694,
+        7903504
+      ],
+      "ranges_km": [
+        [
+          3.76,
+          3.78
+        ],
+        [
+          3.84,
+          3.87
+        ]
+      ],
+      "historical_note": "complexpredates1989; exactwingcontinuityrequiresperiodmap"
+    },
+    {
+      "feature": "BundeswehrMemorial",
+      "osm_type": "way",
+      "osm_id": 53103481,
+      "range_km": [
+        3.98,
+        3.99
+      ],
+      "pre1989_eligibility_assumed": false
+    },
+    {
+      "feature": "CalandrelliAnlage",
+      "range_km": [
+        4.12,
+        4.16
+      ]
+    },
+    {
+      "feature": "Landwehrkanalcrossings",
+      "ranges_km": [
+        [
+          4.16,
+          4.23
+        ],
+        [
+          4.45,
+          4.5
+        ]
+      ]
+    },
+    {
+      "feature": "buildingsaroundLuetzowplatzandKeithstrasse",
+      "until_km": 5
+    }
+  ],
+  "near_misses": [
+    {
+      "feature": "modernHumboldtForum",
+      "osm_type": "complete_relation",
+      "osm_id": 3007958,
+      "miss_m_approx": 27,
+      "substitute_for_razed_Palast": false
+    }
+  ],
+  "selected_named_feature_summary_exhaustive": false,
+  "source_year_passages_checked_here": [
+    "Velodrom1997",
+    "VolksparkPrenzlauerBergnamed1969",
+    "Kommandantenhaus2003",
+    "Kronprinzenpalais1968-70",
+    "Prinzessinnenpalais1962-64",
+    "Staatsoper1955",
+    "MIM1984",
+    "Philharmonie1963",
+    "Kunstgewerbemuseum1985",
+    "Gemaeldegalerie1998"
+  ],
+  "Bendlerblock_local_source_check": "searchpassagenotreturned; historicalassessmentattributedtoreceivedreview"
+}
