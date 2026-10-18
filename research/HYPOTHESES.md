@@ -186,3 +186,10 @@ confirmed cribs or a recovered message. Marginal variation does not remove joint
 constraints or permit combining witnesses. No new primer, score or K4 search
 fallback was used. Stop here pending an independently supported alphabet/key
 construction restriction or new confirmed evidence; see the strategy note.
+
+## H-SILK-PERIODIC — fixed photographed chart
+
+[Exact bounded proof](SILK-PERIODIC-FINDINGS.md): hypothetical direct periodic
+keys 1–12 are contradicted by the 13 distinct required keys at positions 22–34.
+No claim about nonperiodic/OTP keys, longer periods, other tables or added layers.
+Historical creator use and authentic repeated-key doctrine are unestablished.

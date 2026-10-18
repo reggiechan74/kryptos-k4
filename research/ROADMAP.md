@@ -142,3 +142,11 @@ sourced alphabet/key-construction rule or new confirmed plaintext constraint,
 fixed before testing rather than fitted to these consequences. No expanded
 primer search, message generation or language-score selection is justified by
 marginal variability alone. [Evidence strategy](../docs/research-strategy.md).
+
+## After SILK-PERIODIC-001
+
+The fixed photographed table with a hypothetical direct period 1–12 key is
+contradicted by a short exact proof. [Findings](SILK-PERIODIC-FINDINGS.md). Stop
+this pilot. Further variants need independent historical or key-construction
+evidence and a separately frozen specification; do not expand the period bound
+or add routes/masks in response to this negative.

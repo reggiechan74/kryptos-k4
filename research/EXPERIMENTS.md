@@ -381,3 +381,13 @@ at verification time; no visibility mutation was performed by this executor.
 - Marginal variability is not absence of joint constraints. Stop this audit; next
   need independently sourced key/alphabet restrictions or new confirmed evidence,
   not arbitrary completion or broader search. Strategy note added from repo evidence.
+
+## SILK-PERIODIC-001 — 2026-10-18
+
+- Source-first table and 24 decisive cells checked against both photographs; independent check supplied before pilot.
+- Frozen specification bb0cfb9c0cd9c75b13782c1cc11cf34535e0fdd9; implementation f82749aa22e14c063d8fc3c02ff4e6f2a381c616.
+- [Findings](SILK-PERIODIC-FINDINGS.md): all 12 periods contradicted, zero keyword enumeration, no full plaintext output. Proof already known before specification.
+- Required segments JICEHTUFLMSXZ / TCUFDISXLFX; first segment gives 12 phase-origin-independent contradictions.
+- Controls and 118 tests pass; 0.003 seconds action time under 5 seconds cap; no randomness. Stable proof replay and artifact hash checked.
+- Snapshot `results/silk-periodic-runs/20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1/`; [validation](../results/SILK-PERIODIC-VALIDATION.json).
+- Stop at fixed-chart, direct period 1–12 scope; no historical doctrine or whole-family exclusion.

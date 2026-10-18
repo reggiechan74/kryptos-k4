@@ -1,0 +1,27 @@
+{
+  "run_id": "20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1",
+  "started_at_utc": "2026-10-18T15:32:21.428512+00:00",
+  "label": "SILK-PERIODIC-001",
+  "status": "completed",
+  "specification": {
+    "commit": "bb0cfb9c0cd9c75b13782c1cc11cf34535e0fdd9",
+    "file": "research/specifications/SILK-PERIODIC-001.json",
+    "sha256": "50455af41214c1bfdb5597e4a374ae44654eed90b538ef7568058fe7713ec19b",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history.",
+    "implementation_commit": "f82749aa22e14c063d8fc3c02ff4e6f2a381c616"
+  },
+  "jobs": [
+    {
+      "experiment": "SILK-PERIODIC-001",
+      "status": "completed",
+      "deadline_seconds": 5
+    }
+  ],
+  "artifacts": {
+    "SILK-PERIODIC-001.json": {
+      "sha256": "6baf675489d420c2584493ce75b1e8ede08d01fc19849580829530f6dc0ca553",
+      "bytes": 33065
+    }
+  },
+  "finished_at_utc": "2026-10-18T15:32:21.432293+00:00"
+}

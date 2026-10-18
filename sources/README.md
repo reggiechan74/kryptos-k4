@@ -109,3 +109,10 @@ letter patterns. No unpublished records were inspected. The official Kunsch page
 lack of drawings/inventory is a supplied-review finding; this executor's fetch
 failed. No enquiry was authorized or sent, and neither orientation nor the full
 1989 panel is established by these leads.
+
+## Photographed silk chart — 2026-10-18
+
+[Source/provenance note](../docs/silk-chart-source-and-scope.md) and
+[24-cell verification receipt](silk-chart-verification.json) pin both image hashes.
+Modern attributions do not establish pre-1990 availability or creator knowledge.
+PHOENIX example corrected from pixels before pilot; repeating key is hypothetical.

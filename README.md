@@ -181,3 +181,8 @@ on the selected arbitrary tuple, not confirmed plaintext. Every classification
 has a checked certificate; no K4 search fallback was needed. All 112 tests pass.
 [Research strategy](docs/research-strategy.md) separates proofs, finite negatives,
 heuristic failures and underdetermination. The audit stops pending independent evidence.
+
+[Photographed silk-chart pilot](research/SILK-PERIODIC-FINDINGS.md) contradicts
+all hypothetical direct repeating-key periods 1–12: the first crib requires 13
+distinct keys in 13 consecutive positions. All 118 tests pass. [Source scope](docs/silk-chart-source-and-scope.md)
+distinguishes modern provenance, checked pixels and unestablished creator use.

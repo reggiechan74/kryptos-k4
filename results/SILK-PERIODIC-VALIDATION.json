@@ -1,0 +1,142 @@
+{
+  "experiment": "SILK-PERIODIC-001",
+  "tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 118,
+    "seconds": 8.744
+  },
+  "stable_audit_replay_matches": true,
+  "artifact_sha256_verified": "6baf675489d420c2584493ce75b1e8ede08d01fc19849580829530f6dc0ca553",
+  "run_id": "20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1",
+  "specification_commit": "bb0cfb9c0cd9c75b13782c1cc11cf34535e0fdd9",
+  "specification_committed_at_utc": "2026-10-18T15:28:30Z",
+  "implementation_commit": "f82749aa22e14c063d8fc3c02ff4e6f2a381c616",
+  "implementation_committed_at_utc": "2026-10-18T15:32:17Z",
+  "run_started_at_utc": "2026-10-18T15:32:21.428512+00:00",
+  "run_finished_at_utc": "2026-10-18T15:32:21.432293+00:00",
+  "controls": {
+    "chart_structure": {
+      "column_permutations": 26,
+      "row_permutations": 26,
+      "reciprocal_cell_checks": 676,
+      "fixed_points": [
+        {
+          "key": "E",
+          "plain_and_cipher": "A"
+        },
+        {
+          "key": "E",
+          "plain_and_cipher": "P"
+        },
+        {
+          "key": "U",
+          "plain_and_cipher": "E"
+        },
+        {
+          "key": "U",
+          "plain_and_cipher": "O"
+        },
+        {
+          "key": "V",
+          "plain_and_cipher": "T"
+        },
+        {
+          "key": "V",
+          "plain_and_cipher": "U"
+        },
+        {
+          "key": "W",
+          "plain_and_cipher": "B"
+        },
+        {
+          "key": "W",
+          "plain_and_cipher": "F"
+        },
+        {
+          "key": "X",
+          "plain_and_cipher": "K"
+        },
+        {
+          "key": "X",
+          "plain_and_cipher": "R"
+        },
+        {
+          "key": "X",
+          "plain_and_cipher": "S"
+        },
+        {
+          "key": "X",
+          "plain_and_cipher": "Y"
+        },
+        {
+          "key": "Y",
+          "plain_and_cipher": "J"
+        },
+        {
+          "key": "Y",
+          "plain_and_cipher": "N"
+        },
+        {
+          "key": "Y",
+          "plain_and_cipher": "W"
+        },
+        {
+          "key": "Y",
+          "plain_and_cipher": "Z"
+        },
+        {
+          "key": "Z",
+          "plain_and_cipher": "C"
+        },
+        {
+          "key": "Z",
+          "plain_and_cipher": "D"
+        },
+        {
+          "key": "Z",
+          "plain_and_cipher": "G"
+        },
+        {
+          "key": "Z",
+          "plain_and_cipher": "H"
+        },
+        {
+          "key": "Z",
+          "plain_and_cipher": "I"
+        },
+        {
+          "key": "Z",
+          "plain_and_cipher": "L"
+        },
+        {
+          "key": "Z",
+          "plain_and_cipher": "M"
+        },
+        {
+          "key": "Z",
+          "plain_and_cipher": "Q"
+        },
+        {
+          "key": "Z",
+          "plain_and_cipher": "V"
+        },
+        {
+          "key": "Z",
+          "plain_and_cipher": "X"
+        }
+      ],
+      "pixel_retranscription_of_all_cells_claimed": false
+    },
+    "table_cell_roundtrips": 676,
+    "modern_worked_example_computed": "ZEAAIZXQOTFL",
+    "source_example_typo_not_adopted": true,
+    "independent_decisive_cells_matched": 24,
+    "toy_roundtrips": 39,
+    "shifted_positive_checks": 117,
+    "shifted_negative_checks": 117,
+    "vacuous_case_preserved": true,
+    "randomness": "none"
+  },
+  "known_deduction_before_specification": true,
+  "chronology_note": "Specification precedes implementation and run, but 13-distinct-key deduction and independent cell check were supplied before specification; verification, not blind discovery."
+}
