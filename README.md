@@ -159,3 +159,8 @@ dated photographic differences, including before 1990, while exact ENE orientati
 and the full 1989 candidate panel remain unresolved.
 [The Egyptian sign-list hypothesis](docs/egyptian-sign-list-feasibility.md) records
 real Egyptian context and the missing reversible mapping; no new cipher run.
+
+[Barney/Scott prior-art review](docs/prior-art-barney-scott-review.md), revised
+2026-10-18, pins source commits and distinguishes exact overlap from incomplete
+or heuristic coverage. Third-party code was read, never executed; the 9/10
+fingerprint remains descriptive and is not a hard candidate filter.

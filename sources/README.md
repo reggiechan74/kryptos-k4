@@ -69,3 +69,14 @@ Gardiner historical context. These sources do not identify a hieroglyphic K4
 mechanism or an artist's chosen sign list. No source was independently retrieved
 by the coding executor during this update; contextual evidence and hypothesis
 remain distinct.
+
+## Pinned Barney / Scott prior-art review — 2026-10-18
+
+[Source-pinned review and overlap matrix](../docs/prior-art-barney-scott-review.md)
+distinguishes static code checks, third-party retained logs, supplied audit findings
+and our exact baseline bookkeeping. [Pin receipt](prior-art-review-pins.json)
+records the reviewed commits and selected file blob identities. No third-party
+code was executed. The 2019 one-to-one/no-transposition testimony page failed
+retrieval; Bob B comment 4 and Elonka's conflicting account are retained as
+supplied disputed testimony. No blanket exclusion is inferred from a map tile,
+a shuffle score, an empty log or a low-power search.

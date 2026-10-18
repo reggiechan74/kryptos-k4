@@ -255,3 +255,23 @@ final frozen proof specification is pending. Existing result files remain unchan
 - Command: `python3 -m unittest discover -s tests -v`.
 - Result: all 90 tests pass in 7.320 s; no failures/errors. This software replay
   does not independently verify the worker's historical-source/photo inspection.
+
+## Pinned Barney/Scott prior-art review — revision 2026-10-18
+
+- Parent: 2d4b1bca916ce9c3795029b9e9f787be436a4a72.
+- Read pinned GitHub source/log files: Barney 2db2722cc3f18c52d4d8369d7adc5a1db7e859d7;
+  Scott 3ce19e3ae164a54af8743222ad3de5f6a93f6faf. Selected file/blob identities in
+  `sources/prior-art-review-pins.json`; detailed review and exact-overlap matrix
+  in `docs/prior-art-barney-scott-review.md`.
+- No third-party code executed. Direct own-code bookkeeping on 24 canonical pairs
+  confirms effective forward lags 1–33 / 1–8, 9/10 member-distance fits and three
+  biconditional exceptions. Reproduction command is embedded in the review.
+- Third-party large searches, shuffle statistics and power reports not rerun.
+  Supplied audit covers 41 grouped branches, with selected static inspection only.
+  Exact duplicates may be retired; families and low-constraint/low-power domains
+  are not excluded. Existing local results/proofs/code remain unchanged.
+- 2019 testimony page retrieval failed HTTP502; conflicting Bob B comment4 and
+  Elonka accounts retained as supplied disputed testimony, without invented quotes.
+- Command: `python3 -m unittest discover -s tests -v`.
+- Result: 90 tests pass, 8.313 s, no failures/errors. Existing artifact replays pass.
+- Visibility change remains separately blocked by locked Mac; no bypass attempted.

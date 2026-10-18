@@ -1,0 +1,228 @@
+{
+  "revision_date": "2026-10-18",
+  "mode": "static_review_only_no_third_party_code_execution",
+  "sources": [
+    {
+      "repository": "barneyjm/kryptos-k4",
+      "commit": "2db2722cc3f18c52d4d8369d7adc5a1db7e859d7",
+      "files": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "7ee69efd75148a59a9b319cbeb06513c9d4f7cca",
+          "bytes": 15392,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "docs/index.html",
+          "git_blob_sha": "d7ab9d867470af467c1f92f7959d29e13c9bd582",
+          "bytes": 28779,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "scripts/autokey_dict.py",
+          "git_blob_sha": "355a871c3780ada9fa66963127c63ce8c65c0bd2",
+          "bytes": 2449,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "scripts/gromark2.py",
+          "git_blob_sha": "4fcef12ce16f59d62711ad467d9177defe14f651",
+          "bytes": 2801,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "scripts/gromark_sweep.py",
+          "git_blob_sha": "52d21f99c7bf77faa05eab9b741038f60ee11b0f",
+          "bytes": 1898,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "results/gromark_sweep.out",
+          "git_blob_sha": "3fe5bf701e17cfbc39da0e0b6bfc6e6bc44ccfc4",
+          "bytes": 2074,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "scripts/chain3.py",
+          "git_blob_sha": "1a24b304474a36616ec37635ec8d4392019d2f85",
+          "bytes": 1795,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "results/chain3.out",
+          "git_blob_sha": "d25f7f0acb6a412d9692cb6604e34bcec0c64fd8",
+          "bytes": 960,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "scripts/fe_wheatstone.py",
+          "git_blob_sha": "096f8c1511996cbf597efb1f15a632afff89ebf2",
+          "bytes": 4394,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "scripts/fe_interrupt.py",
+          "git_blob_sha": "151ebaf098fdeffa8c456a2e534ab991c1639e28",
+          "bytes": 9581,
+          "read_status": "read_via_GitHub_connector"
+        }
+      ]
+    },
+    {
+      "repository": "scott-dunphy/kryptos-k4",
+      "commit": "3ce19e3ae164a54af8743222ad3de5f6a93f6faf",
+      "files": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "3d8311c424486cf772ddb6d7d2670d1eaf929e81",
+          "bytes": 3658,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "NOTES.md",
+          "git_blob_sha": "1f9404d19a84648ba2706a1a27b21758bd135ef9",
+          "bytes": 93224,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "run_fingerprint_decode.py",
+          "git_blob_sha": "4d546a82e79fd35069ef9fc4efd561b42c2a4551",
+          "bytes": 3947,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "candidate_check.py",
+          "git_blob_sha": "936569430abf61d5f56a87f71a5a167fab96e35a",
+          "bytes": 1849,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "run_signal.py",
+          "git_blob_sha": "345ca2b5c8efad9e1118a7bd39ea9cae9723c1a3",
+          "bytes": 4361,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "results/signal.log",
+          "git_blob_sha": "746bc238dabb62e6135855c29fdc879acb696b26",
+          "bytes": 1122,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "run_e1.py",
+          "git_blob_sha": "0dc15f8199d5ea1373d5cfceb79ae6fbf5331d84",
+          "bytes": 2285,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "perms.py",
+          "git_blob_sha": "80ac2915fc249a7603ce2c09aab506e1659690c8",
+          "bytes": 3372,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "cribfilter.py",
+          "git_blob_sha": "f2032226906c77215e6f746b60222516abff731d",
+          "bytes": 8360,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "run_keyrow_all_mp.py",
+          "git_blob_sha": "ec3b502e0605343acb9070ffe0a574cb94c96665",
+          "bytes": 2137,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "run_keyrow_t3.py",
+          "git_blob_sha": "f3920518c6bebbd5ad602e5e6759b8235510aa89",
+          "bytes": 3494,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "run_alphapairs.py",
+          "git_blob_sha": "0d180dc4d329824c4fea578d7ca4765b8e292a2b",
+          "bytes": 5391,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "run_e4.py",
+          "git_blob_sha": "490f2d7beb19d5d3f359a021a6dc760fe02de43f",
+          "bytes": 2220,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "run_trifid.py",
+          "git_blob_sha": "2b4e9aeb4f4db185b8ef7bb992e6df21279a9b80",
+          "bytes": 3202,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "run_trifid2.py",
+          "git_blob_sha": "4685223663e2150012a2f8beeb1b1310e8f54bb0",
+          "bytes": 1037,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "run_p2.py",
+          "git_blob_sha": "df133c7993b7938e0a21b788a5a67196050e368f",
+          "bytes": 3419,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "data/historic_methods_survey.md",
+          "git_blob_sha": "9f8612e4c374736821a62cc21a04054928860dc8",
+          "bytes": 20232,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "synth.py",
+          "git_blob_sha": "b95b852218833d752d997b8f49d2dda36e4d805e",
+          "bytes": 2187,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "synth2.py",
+          "git_blob_sha": "9971b844744a992f905a0431150ce29946a63bbf",
+          "bytes": 1752,
+          "read_status": "read_via_GitHub_connector"
+        },
+        {
+          "path": "synth_gpower.py",
+          "git_blob_sha": "1757d610f658e73341b778eb1253fa65e743040d",
+          "bytes": 806,
+          "read_status": "read_via_GitHub_connector"
+        }
+      ]
+    }
+  ],
+  "local_bookkeeping": {
+    "baseline": "data/k4.json",
+    "known_positions": 24,
+    "forward_ciphertext_autokey_lags": "1-33",
+    "forward_plaintext_autokey_lags": "1-8",
+    "fingerprint_member_positions": 10,
+    "fingerprint_fits": 9,
+    "represented_plaintext_letters": [
+      "K",
+      "O",
+      "R",
+      "S",
+      "T"
+    ],
+    "biconditional_exception_positions_one_based": [
+      22,
+      31,
+      72
+    ],
+    "stochastic_tests_reproduced": 0
+  },
+  "supplied_overlap_review": {
+    "grouped_branches": 41,
+    "selected_static_audit_only": true
+  },
+  "testimony": {
+    "url": "https://scienceblogs.de/klausis-krypto-kolumne/2019/03/15/cnn-documentary-about-kryptos-a-making-of-report-with-many-photographs/",
+    "status": "direct_reader_failed_HTTP502_accounts_preserved_as_supplied_disputed_testimony"
+  },
+  "visibility_change": "still_blocked_by_locked_Mac_not_attempted_in_this_update"
+}

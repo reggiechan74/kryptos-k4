@@ -114,3 +114,22 @@ selection/mapping, direction, normalization, inverse and key are missing.
 No invented 26-glyph alphabet or Unicode arithmetic was implemented. Simple
 one-to-one glyph renaming alone inherits the excluded monoalphabetic model;
 layered models are not excluded. No new search or experiment.
+
+## Prior-art scope update — 2026-10-18
+
+The [pinned Barney/Scott review](../docs/prior-art-barney-scott-review.md) treats
+maps as experiment indexes and retires exact duplicated configurations only.
+Existing periodic-bijection proofs already subsume their selected collision
+observations; our complete identity-period/running-key ledgers, opposite Trifid
+direction, missing longer-primer autokey cases, full-stream Morse parses, word
+invariants, sourced codecs and dated clock evidence are preserved.
+
+H-KRYPTOS-FINGERPRINT is descriptive only: 9/10 known KRYPTOS-member positions
+fit AZ circular distance at most 2, but only K/O/R/S/T occur, with no P/Y. The
+biconditional has three known-crib exceptions. The selected pattern and proposed
+90% extrapolation are not hard candidate filters; signal.log's corrected .0029
+belongs to a different 15-statistic family. No fingerprint null search was rerun.
+
+Interrupted-key rules, fully constrained Gromark completion and Wheatstone27/26
+remain narrowly specifiable leads. No success, new experiment or general family
+elimination is claimed. The identical shared-reset proof retains its assumptions.
