@@ -1,0 +1,196 @@
+{
+  "revision_date": "2026-10-18",
+  "photographs": [
+    {
+      "url": "https://people.duke.edu/~ng46/collections/silk-red-black-alphabets.jpg",
+      "bytes": 10530122,
+      "sha256": "3134c10d2a999f32a4aa50b157710969659afa25e781471afc8083c60320eb71"
+    },
+    {
+      "url": "https://jproc.ca/crypto/silkcode_chart_b.jpg",
+      "bytes": 1043234,
+      "sha256": "383a69d3ebb28f93306665c94e8c0e0a45dd640741d254fb1254275525136d5a"
+    }
+  ],
+  "local_pixel_inspection": {
+    "both_original_photographs_viewed": true,
+    "verified_decisive_cells": 24,
+    "verified_worked_example_cells": 12,
+    "all676cells_independently_retranscribed": false,
+    "scope": "verified visually against the displayed source pixels; structural checks below are computational checks, not an assertion ofall676pixelreads"
+  },
+  "independent_review": {
+    "second_reviewer_checked_all24_on_both_photos": true,
+    "delivered_before_K4_pilot": true,
+    "expected_key_segments": [
+      "JICEHTUFLMSXZ",
+      "TCUFDISXLFX"
+    ]
+  },
+  "decisive_cells": [
+    {
+      "position_one_based": 22,
+      "key": "J",
+      "plain": "E",
+      "cipher": "F"
+    },
+    {
+      "position_one_based": 23,
+      "key": "I",
+      "plain": "A",
+      "cipher": "L"
+    },
+    {
+      "position_one_based": 24,
+      "key": "C",
+      "plain": "S",
+      "cipher": "R"
+    },
+    {
+      "position_one_based": 25,
+      "key": "E",
+      "plain": "T",
+      "cipher": "V"
+    },
+    {
+      "position_one_based": 26,
+      "key": "H",
+      "plain": "N",
+      "cipher": "Q"
+    },
+    {
+      "position_one_based": 27,
+      "key": "T",
+      "plain": "O",
+      "cipher": "Q"
+    },
+    {
+      "position_one_based": 28,
+      "key": "U",
+      "plain": "R",
+      "cipher": "P"
+    },
+    {
+      "position_one_based": 29,
+      "key": "F",
+      "plain": "T",
+      "cipher": "R"
+    },
+    {
+      "position_one_based": 30,
+      "key": "L",
+      "plain": "H",
+      "cipher": "N"
+    },
+    {
+      "position_one_based": 31,
+      "key": "M",
+      "plain": "E",
+      "cipher": "G"
+    },
+    {
+      "position_one_based": 32,
+      "key": "S",
+      "plain": "A",
+      "cipher": "K"
+    },
+    {
+      "position_one_based": 33,
+      "key": "X",
+      "plain": "S",
+      "cipher": "S"
+    },
+    {
+      "position_one_based": 34,
+      "key": "Z",
+      "plain": "T",
+      "cipher": "S"
+    },
+    {
+      "position_one_based": 64,
+      "key": "T",
+      "plain": "B",
+      "cipher": "N"
+    },
+    {
+      "position_one_based": 65,
+      "key": "C",
+      "plain": "E",
+      "cipher": "Y"
+    },
+    {
+      "position_one_based": 66,
+      "key": "U",
+      "plain": "R",
+      "cipher": "P"
+    },
+    {
+      "position_one_based": 67,
+      "key": "F",
+      "plain": "L",
+      "cipher": "V"
+    },
+    {
+      "position_one_based": 68,
+      "key": "D",
+      "plain": "I",
+      "cipher": "T"
+    },
+    {
+      "position_one_based": 69,
+      "key": "I",
+      "plain": "N",
+      "cipher": "T"
+    },
+    {
+      "position_one_based": 70,
+      "key": "S",
+      "plain": "C",
+      "cipher": "M"
+    },
+    {
+      "position_one_based": 71,
+      "key": "X",
+      "plain": "L",
+      "cipher": "Z"
+    },
+    {
+      "position_one_based": 72,
+      "key": "L",
+      "plain": "O",
+      "cipher": "F"
+    },
+    {
+      "position_one_based": 73,
+      "key": "F",
+      "plain": "C",
+      "cipher": "P"
+    },
+    {
+      "position_one_based": 74,
+      "key": "X",
+      "plain": "K",
+      "cipher": "K"
+    }
+  ],
+  "modern_worked_example": {
+    "source": "https://people.duke.edu/~ng46/collections/crypto-silks.htm",
+    "plaintext_letters": "ATTACKATDAWN",
+    "repeated_key": "PHOENIX",
+    "source_printed_output": "ZEAAINXQOTFL",
+    "pixel_supported_output": "ZEAAIZXQOTFL",
+    "decisive_cell": {
+      "key": "I",
+      "plain": "K",
+      "cipher": "Z"
+    },
+    "interpretation": "modern page demonstration, not a primary wartime procedure example"
+  },
+  "procedure_commentary": {
+    "url": "https://jproc.ca/crypto/silk_otp.html",
+    "attribution": "Frode Weierud commentary and Michael Graham photo credit on page",
+    "scope": "describes reciprocal letter substitution and OTP five-letter groups; provenance not proof ofexact wartime schedule"
+  },
+  "primary_wartime_worked_example_for_exact_chart": "not located in supplied bounded review",
+  "pre_spec_known_deduction": "first required segment has13distinct keys in13consecutive positions, hence periods1-12 cannot work; known before this verification specification"
+}

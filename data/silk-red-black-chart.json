@@ -1,0 +1,49 @@
+{
+  "id": "PHOTOGRAPHED-SILK-RED-BLACK-CHART",
+  "revision_date": "2026-10-18",
+  "key_order": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "plaintext_order": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "interpretation": "top letter selects column; black uppercase plaintext at row, red adjacent ciphertext output; outputs uppercased for data only",
+  "columns": {
+    "A": "OMWHQTYDRPVSBUAJEILFNKCZGX",
+    "B": "EOSIAQMLDTNHGKBWFVCJXRPUZY",
+    "C": "MLUFYDTJXHPBAWZKVSRGCQNIEO",
+    "D": "HSFRUCQATZMYKVWXGDBIENOPLJ",
+    "E": "AIXKNWOMBSDRHEGPZLJVYTFCUQ",
+    "F": "QFPXOBUZNWSVYIECATKRGLJDMH",
+    "G": "IRTQJUNYAEOPVGKLDBZCFMXWHS",
+    "H": "CZAOTHXFLRYISQDVNJMEWPUGKB",
+    "I": "LUOVPYSXQMZAJTCEIWGNBDRHFK",
+    "J": "WXJSFEVUPCQTZYRIKODLHGABNM",
+    "K": "SKVMLJPOUFBEDXHGYZAWICTNQR",
+    "L": "BAYPIOWNEQUXRHFDJMVZKSGLCT",
+    "M": "JQKLGPEWOACDTRIFBNXMZYHSVU",
+    "N": "YTIUSXKRCVGNQLPOMHEBDJZFAW",
+    "O": "THQYMSRBVXWOEZLUCGFAPIKJDN",
+    "P": "ZWNJXKLVSDFGOCMYTUIQRHBEPA",
+    "Q": "VERWBZIQGYXUNMSTHCOPLADKJF",
+    "R": "FYZNHAJEWGRQXDVSLKPUTOIMBC",
+    "S": "KJMTRIZSFBAWCPYNUEHDQXLVOG",
+    "T": "DNLAKMHGJIECFBQZOXWYVUSRTP",
+    "U": "GDHBEVACZUTMLSORWPNKJFQYXI",
+    "V": "NVGZWRCPMOLKIAJHXFYTUBEQSD",
+    "W": "PBEGCFDKYLHJWONARQUXSZMTIV",
+    "X": "XCBEDGFIHNKZUJTQPRSOMWVAYL",
+    "Y": "UGDCVLBTKJIFPNXMSYQHAEWORZ",
+    "Z": "RPCDZNGHIKJLMFUBQATSOVYXWE"
+  },
+  "photographs": [
+    {
+      "url": "https://people.duke.edu/~ng46/collections/silk-red-black-alphabets.jpg",
+      "bytes": 10530122,
+      "sha256": "3134c10d2a999f32a4aa50b157710969659afa25e781471afc8083c60320eb71"
+    },
+    {
+      "url": "https://jproc.ca/crypto/silkcode_chart_b.jpg",
+      "bytes": 1043234,
+      "sha256": "383a69d3ebb28f93306665c94e8c0e0a45dd640741d254fb1254275525136d5a"
+    }
+  ],
+  "full_transcription": "supplied by independent transcriber; local visual check of24decisive cells and12worked-example cells on BOTH photos, not independent pixel retranscription ofall676cells",
+  "historical_scope": "secondary historical attributions only; no Sanborn-use evidence or authentic repeated-key schedule claimed"
+}

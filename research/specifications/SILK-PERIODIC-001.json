@@ -1,0 +1,77 @@
+{
+  "id": "SILK-PERIODIC-001",
+  "revision_date": "2026-10-18",
+  "classification": "verification_of_source_pinned_known_constraint_not_blind_negative_search",
+  "chart": "data/silk-red-black-chart.json",
+  "source_receipt": "sources/silk-chart-verification.json",
+  "baseline": "data/k4.json",
+  "baseline_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "model": "HYPOTHETICAL direct lookup C_i=T[key_i][P_i], key_i a periodic letter sequence ofperiodp, p1-12 inclusive, no transposition/mask/otherlayer; no claim SOE used repeated keyword schedules",
+  "alignment": "zero-basedi0..96 unchanged; cribs one-based22-34 and64-74",
+  "phase": "compatibility buckets i modp; any constant unknown origin just relabels buckets and cannot repair equality conflicts",
+  "period_cases": 12,
+  "K4_keyword_enumerations": 0,
+  "derive": "for each of24cribcells, scan all26chart columns; require exactlyone key with T[k][P]=C. Preserve each unique-key lookup and eachperiod's phase constraints/conflicts.",
+  "proof": "derive first13required keys; verify all distinct. For eachp1-12, positions22 and22+p share a phase but require different letters. Report witnesses, do not enumerate keywords.",
+  "acceptance": "period compatible only if all24required key values agree at every common phase. No K4 plaintext or complete keyword output.",
+  "preflight": [
+    "all26columns permutations",
+    "all26rows permutations so key lookup unique",
+    "all676same-key reciprocal roundtrips/involution checks",
+    "all24independently checked cells match data/pixels",
+    "ATTACKATDAWN with repeatedPHOENIX givesZEAAIZXQOTFL, not source typoZEAAINXQOTFL",
+    "S->S andK->K both requireX; no fixed-point-free exclusion"
+  ],
+  "controls": {
+    "table_cell_roundtrips": 676,
+    "known_answer_examples": 1,
+    "known_answer_sixth_cell": [
+      "I",
+      "K",
+      "Z"
+    ],
+    "toy": {
+      "alphabet": "ABC",
+      "columns": {
+        "A": "ACB",
+        "B": "BAC",
+        "C": "CBA"
+      },
+      "periods": [
+        1,
+        2,
+        3
+      ],
+      "all_keys_per_period": true,
+      "total_keys": 39,
+      "plaintext": "ABCABCABC",
+      "reference_formula": "cipher_index=(key_index-plain_index) mod3",
+      "full_roundtrips": 39,
+      "shifted_position_offsets": [
+        0,
+        1,
+        7
+      ],
+      "positive_phase_checks": 117,
+      "negative_phase_checks": 117,
+      "negative": "replace key atsecondoccurrenceofphase0 by nexttoykey; derive changed cipher and require phase contradiction",
+      "vacuous": "single known position withperiod12 stayscompatible/underdetermined"
+    },
+    "randomness": "none"
+  },
+  "resources": {
+    "processes": 1,
+    "registered_seconds": 5,
+    "K4_cases_maximum": 12,
+    "third_party_code_execution": false
+  },
+  "stop": "one frozen chart and periods1-12 only; if transcription/preflight disagrees stop for pixel/source correction, not ciphertext fitting; no dictionarysearch or further schedules",
+  "scope_limits": [
+    "not nonperiodic/OTP keys",
+    "not other charts",
+    "not added layers",
+    "not historic repeated-key doctrine",
+    "not Sanborn-use evidence"
+  ],
+  "provenance": "full transcription supplied and24cell independent pixelcheck delivered beforepilot; local own pixels/workedexample checked onbothphotos. Requiredkey segments and shortproof supplied before spec; compute/verify independently after commit, no novelty/blindpreregistration claim."
+}
