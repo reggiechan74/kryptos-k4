@@ -1,0 +1,24 @@
+{
+  "experiment": "PHONETIC-CL-001",
+  "tests": {
+    "passed": 133,
+    "seconds": 7.964,
+    "previous127_preserved": true
+  },
+  "corrected_literal_fixture_regression": true,
+  "superseded_fixture_result_not_final_evidence": true,
+  "seeded_recovery_cases": 4,
+  "supplementary_recovery_cases": 288,
+  "small_alphabet_oracle_cases": 24,
+  "full_parameter_aliases_retained": true,
+  "all_negative_planted_model_checks_passed": true,
+  "controls_seconds": 0.164514,
+  "controls_before_proof": true,
+  "input_hashes_verified": true,
+  "gzip_roundtrip_verified": true,
+  "all144_inherited_witnesses_verified": true,
+  "independent_spans_match": true,
+  "new_K4_searches": 0,
+  "source_receipt": "Exact chapter page/quote supplied by independent source review; local chapter fetch timedout; local1948intro read. No local chapterpixel claim.",
+  "raw_sha256": "dab6c5ef78717a4ec2c6b7b69813a3f5e4afdfab454fc3bd558ddc7903cce122"
+}

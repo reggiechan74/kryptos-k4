@@ -1,0 +1,84 @@
+{
+  "experiment": "PHONETIC-CL-001",
+  "spec_commit": "ea3090ba2ced41c1f687507a2b852c89a00530f5",
+  "code_commit": "34058c4eb462fa346ca77bb3a426f704a06766ec",
+  "controls_status": "passed",
+  "primary_recovery_cases": [
+    {
+      "seed": 104729,
+      "mask": "CL",
+      "period": 5,
+      "key_recovered": true,
+      "transformed97_recovered": true,
+      "canonical_model_groups": 1,
+      "parameter_alias_count": 2,
+      "wrong_cipher_planted_model_rejected": true,
+      "corrupted_cipher_other_candidates": 0,
+      "original_spelling_unique_under_planted_mask": false,
+      "two_original_preimages_demonstrated": true,
+      "transformed_sha256": "acf5ac9f474a1d4b0c18cd84a17ee67644fe7abdb7e970acd2555cd585405b75"
+    },
+    {
+      "seed": 130363,
+      "mask": "CL",
+      "period": 7,
+      "key_recovered": true,
+      "transformed97_recovered": true,
+      "canonical_model_groups": 1,
+      "parameter_alias_count": 1,
+      "wrong_cipher_planted_model_rejected": true,
+      "corrupted_cipher_other_candidates": 0,
+      "original_spelling_unique_under_planted_mask": false,
+      "two_original_preimages_demonstrated": true,
+      "transformed_sha256": "fa78230c474d0fbee6067dea7063b7febdfb0cdd34af2066d161faa77c49eb53"
+    },
+    {
+      "seed": 155921,
+      "mask": "CL",
+      "period": 11,
+      "key_recovered": true,
+      "transformed97_recovered": true,
+      "canonical_model_groups": 1,
+      "parameter_alias_count": 1,
+      "wrong_cipher_planted_model_rejected": true,
+      "corrupted_cipher_other_candidates": 0,
+      "original_spelling_unique_under_planted_mask": false,
+      "two_original_preimages_demonstrated": true,
+      "transformed_sha256": "f467d4da8d2ea07f69472a5118dfe5eb27197d1f1c5f907599abe112f3ece9f4"
+    },
+    {
+      "seed": 196613,
+      "mask": "identity",
+      "period": 7,
+      "key_recovered": true,
+      "transformed97_recovered": true,
+      "canonical_model_groups": 1,
+      "parameter_alias_count": 1,
+      "wrong_cipher_planted_model_rejected": true,
+      "corrupted_cipher_other_candidates": 0,
+      "original_spelling_unique_under_planted_mask": true,
+      "two_original_preimages_demonstrated": false,
+      "transformed_sha256": "e683872addbf79b41b737b358a7c8236148be36f881ddb39f08e2fc4f3c19242"
+    }
+  ],
+  "supplementary_count": 288,
+  "supplementary_normalized_model_groups": {
+    "1": 288
+  },
+  "parameter_aliases_range": [
+    1,
+    48
+  ],
+  "small_alphabet_oracle_cases": 24,
+  "original_spelling_unique_under_CL_mask": false,
+  "changed_one_based_positions": [
+    70
+  ],
+  "inherited_witnesses": 144,
+  "new_K4_key_searches": 0,
+  "full_K4_plaintexts_emitted": false,
+  "raw_artifact": "PHONETIC-CL-001.json.gz",
+  "raw_json_sha256": "dab6c5ef78717a4ec2c6b7b69813a3f5e4afdfab454fc3bd558ddc7903cce122",
+  "raw_gzip_sha256": "8a5f4b1f6ddda424afc794d1c6f326d46d4e945aeecc29ae675afda4484119cf",
+  "scope": "Fixed CL->KL plus identity, direct repeating keys1-12; inherited exclusions only."
+}

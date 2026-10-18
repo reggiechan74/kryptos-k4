@@ -195,3 +195,8 @@ true Beaufort. All 127 tests pass. [Continuation receipts](results/BASE60-BEAUFO
 preserve exact ranges and the earlier partial checkpoint. No broader cipher-family
 exclusion follows. [Seasonal light and pool reflection](docs/seasonal-light-source-review.md)
 remain separate, source-qualified hypotheses with no optical search.
+
+[Fixed CL→KL spelling pilot](research/PHONETIC-CL-FINDINGS.md) passes 292
+synthetic recovery cases and preserves original/transformed crib distinctions.
+The mask is lossy. Its periods 1–12 arithmetic models inherit existing first-crib
+contradictions: 144 saved witnesses, **no new K4 key search**. All 133 tests pass.
