@@ -85,3 +85,36 @@ before testing. No new sweep or cipher-family closure follows from this note.
 
 Reproduce the exact arithmetic, six two-cell witnesses and retained-ledger check:
 `python3 experiments/check_ene_note.py`. [Check receipt](../results/ENE-NOTE-CHECKS.json).
+
+## WESTSOUTHWEST candidate — 18 October 2026
+
+The user's **WESTSOUTHWEST** candidate is the reverse bearing:
+**247.5° clockwise from true north = 11π/8 radians**. It is relevant to reverse
+geography and the conditional direct-Sun-WSW / ground-shadow-ENE interpretation
+in the [solar note](seasonal-light-source-review.md). Reflected illumination need
+not obey that opposite-bearing rule. This candidate does **not** replace the
+confirmed EASTNORTHEAST plaintext crib or establish a physical alignment.
+
+An exact literal-key confirmation checked **78 cases**: all 13 cyclic phases,
+A–Z/KRYPTOS alphabets and the three existing direct modular equations. None
+matches all 24 confirmed letters; best agreement is **3/24**. No full plaintexts
+are saved and no additional keys, routes or equations were searched.
+
+A stronger inherited period-13 witness makes this result unsurprising. One-based
+positions **22 and 74** differ by 52 = 4×13, so every period-13 key gives them
+the same phase regardless of starting offset. Cipher/plain pairs F/E and K/K
+require different key letters:
+
+| Alphabet | C=P+K | C=P−K | C=K−P |
+| --- | --- | --- | --- |
+| A–Z | B / A | Z / A | J / U |
+| KRYPTOS | R / K | Z / K | W / K |
+
+These arithmetic values were independently verified against the existing cipher
+code. This is an inherited period-13 exclusion and confirmation of one exact
+candidate under the stated assumptions, not a new cipher-family exclusion or a
+judgment about WESTSOUTHWEST as a geographical clue.
+Reproduce with `python3 experiments/check_westsouthwest.py`;
+[all 78 case records and six witnesses](../results/WESTSOUTHWEST-NOTE-CHECKS.json).
+The existing **133 tests pass** (8.166 s) after this addition; no new broad
+experiment or cipher-family coverage is claimed.

@@ -1,0 +1,743 @@
+{
+  "check": "WESTSOUTHWEST-NOTE-001",
+  "candidate": "WESTSOUTHWEST",
+  "reverse_bearing_clockwise_true_north_deg": "495/2",
+  "radians_coefficient_of_pi": "11/8",
+  "original_confirmed_crib_replaced": false,
+  "literal_key_cases": [
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 0,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        71
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 1,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 2,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 3,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 4,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 5,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 6,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 7,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        65
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 8,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 9,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 10,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 11,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 12,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 0,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 1,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 2,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 3,
+      "crib_matches": 2,
+      "matching_one_based_positions": [
+        30,
+        69
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 4,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 5,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 6,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 7,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        64
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 8,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 9,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 10,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 11,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 12,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 0,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 1,
+      "crib_matches": 3,
+      "matching_one_based_positions": [
+        27,
+        70,
+        72
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 2,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 3,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        30
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 4,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 5,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 6,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        72
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 7,
+      "crib_matches": 2,
+      "matching_one_based_positions": [
+        25,
+        64
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 8,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 9,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 10,
+      "crib_matches": 2,
+      "matching_one_based_positions": [
+        27,
+        72
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 11,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        74
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 12,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 0,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 1,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 2,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        30
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 3,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        64
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 4,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        67
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 5,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 6,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 7,
+      "crib_matches": 2,
+      "matching_one_based_positions": [
+        29,
+        69
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 8,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 9,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        24
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 10,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 11,
+      "crib_matches": 2,
+      "matching_one_based_positions": [
+        29,
+        69
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "cyclic_phase_zero_based": 12,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        64
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 0,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 1,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        27
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 2,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 3,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        30
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 4,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        73
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 5,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        67
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 6,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 7,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 8,
+      "crib_matches": 3,
+      "matching_one_based_positions": [
+        24,
+        68,
+        73
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 9,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 10,
+      "crib_matches": 2,
+      "matching_one_based_positions": [
+        27,
+        73
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 11,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "cyclic_phase_zero_based": 12,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        68
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 0,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 1,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        22
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 2,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        28
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 3,
+      "crib_matches": 2,
+      "matching_one_based_positions": [
+        29,
+        66
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 4,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 5,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        22
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 6,
+      "crib_matches": 2,
+      "matching_one_based_positions": [
+        28,
+        69
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 7,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        66
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 8,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 9,
+      "crib_matches": 0,
+      "matching_one_based_positions": []
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 10,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        69
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 11,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        28
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "cyclic_phase_zero_based": 12,
+      "crib_matches": 1,
+      "matching_one_based_positions": [
+        66
+      ]
+    }
+  ],
+  "case_count": 78,
+  "fully_matching_cases": 0,
+  "best_crib_matches": 3,
+  "total_confirmed_crib_letters": 24,
+  "period13_witnesses": [
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "one_based_positions": [
+        22,
+        74
+      ],
+      "required_key_letters": [
+        "B",
+        "A"
+      ],
+      "required_key_values": [
+        1,
+        0
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "one_based_positions": [
+        22,
+        74
+      ],
+      "required_key_letters": [
+        "Z",
+        "A"
+      ],
+      "required_key_values": [
+        25,
+        0
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "one_based_positions": [
+        22,
+        74
+      ],
+      "required_key_letters": [
+        "J",
+        "U"
+      ],
+      "required_key_values": [
+        9,
+        20
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "one_based_positions": [
+        22,
+        74
+      ],
+      "required_key_letters": [
+        "R",
+        "K"
+      ],
+      "required_key_values": [
+        1,
+        0
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "one_based_positions": [
+        22,
+        74
+      ],
+      "required_key_letters": [
+        "Z",
+        "K"
+      ],
+      "required_key_values": [
+        25,
+        0
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "one_based_positions": [
+        22,
+        74
+      ],
+      "required_key_letters": [
+        "W",
+        "K"
+      ],
+      "required_key_values": [
+        23,
+        0
+      ]
+    }
+  ],
+  "phase_convention": "key[(zero_based_message_index+phase)%13], literal key valued in selected alphabet; direct alignment",
+  "classification": "Inherited period13 contradiction and exact literal-candidate confirmation; not new cipher-family exclusion",
+  "new_broad_search": false,
+  "full_plaintexts_saved": false,
+  "input_sha256": {
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
+    "experiments/check_westsouthwest.py": "982ac07f3dc2d87563e3b0f0eac8d4e8f9e65c85687cd2caf4930e84a50ed6e5"
+  }
+}
