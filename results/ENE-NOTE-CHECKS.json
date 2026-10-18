@@ -1,0 +1,92 @@
+{
+  "check": "ENE-NOTE-001",
+  "new_sweep": false,
+  "clockwise_north_degrees": "135/2",
+  "radians_coefficient_of_pi": "3/8",
+  "ccw_east_degrees": "45/2",
+  "ccw_east_radians_coefficient_of_pi": "1/8",
+  "turn": "3/16",
+  "grid_slots": 48,
+  "increment_slots": 9,
+  "wrapped_state_period": 16,
+  "twelve_hour_increment_seconds": 8100,
+  "twentyfour_hour_increment_seconds": 16200,
+  "8100_second_day_state_period": 32,
+  "witnesses": [
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "positions_one_based": [
+        22,
+        70
+      ],
+      "required_keys_zero_based": [
+        1,
+        10
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "positions_one_based": [
+        22,
+        70
+      ],
+      "required_keys_zero_based": [
+        25,
+        16
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "positions_one_based": [
+        22,
+        70
+      ],
+      "required_keys_zero_based": [
+        9,
+        14
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "positions_one_based": [
+        22,
+        70
+      ],
+      "required_keys_zero_based": [
+        1,
+        9
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "positions_one_based": [
+        22,
+        70
+      ],
+      "required_keys_zero_based": [
+        25,
+        17
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "positions_one_based": [
+        22,
+        70
+      ],
+      "required_keys_zero_based": [
+        23,
+        1
+      ]
+    }
+  ],
+  "retained_ledger_sha256": "64bf94288500683df4f02c276d8c43374fe0df8915c2fc147a94e095341f27fb",
+  "retained_identity_period16_survivors": 0,
+  "scope": "Fixed AZ/KRYPTOS plus/minus/true-Beaufort at unchanged alignment only; arbitrary phase bijections not excluded."
+}
