@@ -1,0 +1,135 @@
+{
+  "id": "GROMARK-IDENTIFIABILITY-001",
+  "revision_date": "2026-10-18",
+  "baseline": "data/k4.json",
+  "baseline_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "source_fixture": "data/gromark-one-survivor.json",
+  "model_specification": "research/specifications/GROMARK-ALPHABET-001.json",
+  "model_frozen": {
+    "base": 16,
+    "primer": [
+      6,
+      12,
+      12,
+      4,
+      4,
+      8
+    ],
+    "lags": [
+      5,
+      6
+    ],
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "equation": "c_value(C_i)-p_value(P_i)=d_i mod26",
+    "complete_alphabets": "two independent A-Z permutations over0..25",
+    "alignment": "unchanged zero-based0..96; known21..33 and63..73"
+  },
+  "reference": {
+    "repository_commit": "9d4b4cb6e10ced9d408ef20739c91c4386a8da27",
+    "path": "results/gromark-alphabet-runs/20261018T135606Z-4fed84af3b8340f79ec5e2491071b3a3/GROMARK-ALPHABET-001.json",
+    "git_blob_sha": "4c89a8deb5702ba3a5da887f3ea2157e8cd80c71",
+    "sha256": "912df9353516766cf4c46f57f20129d376a79cf4e7b39a725bb3ae3c2434299a",
+    "plain_alphabet": "OTIHDACFGBJMPQRUELVWNSXYZK",
+    "cipher_alphabet": "FRTVGSQKMABNCDELYHPIJZOUWX",
+    "verify_before_queries": "full permutations,24base equations/cribs and97regeneration; arbitrary reference, not historical key"
+  },
+  "queries": {
+    "count": 73,
+    "positions": "all noncrib indices ascending, one-based in output",
+    "one_per_position": "Let r be its reference decoding; ask exists complete alphabet pair satisfying all24base edges AND c_value(C_i)-p_value(r) != d_i mod26",
+    "not_letter_domains": true,
+    "no_new_primers": true
+  },
+  "classification": {
+    "variable": "complete counterexample independently checked for full bijections,all24cribs,target difference and97regeneration; no merely promising search hit",
+    "forced": "verified reference exists and difference impossible by same-component relative-potential invariant or exhausted exact global-offset CSP including isolated endpoints",
+    "unresolved": "per-query time/state cap or aggregate cap; never label forced on a timeout"
+  },
+  "algorithm": {
+    "symmetries": "If reference plaintext symbol unobserved in base P nodes and >=2unobserved P symbols, swap its coordinate with lexically first other unobserved P symbol. Otherwise if target ciphertext symbol unobserved and >=2unobserved C symbols, swap it with lexically first other unobserved C symbol. Validate complete resulting witness; no symbol-frequency/language scoring.",
+    "component_proof": "If target C node and reference P node are in same base equality component, their relative difference is fixed. Equality to target key proves no counterexample. Verified reference guarantees the equality.",
+    "exact_search": "Reuse base component potentials. Append missing disequality endpoints as isolated components in lexical (C before P) node order. Gauge first component at0. Per-side global all-different; forward-check modular disequality whenever both endpoint components assigned, or when considering one with other assigned. MRV tie larger node count then root lexical order; translations ascending. Exhaustion proves forced; first verified witness proves variable.",
+    "completion": "unobserved non-endpoint letters alphabetical into unused coordinates ascending; do not assume canonical completion is forced",
+    "counterexample_output": "full alphabet pair and target index/certificate only; no full arbitrary decoded message or concatenated reference string"
+  },
+  "resources": {
+    "processes": 1,
+    "per_query_seconds": 0.25,
+    "per_query_search_states": 10000,
+    "controls_deadline_seconds": 5,
+    "audit_deadline_seconds": 20,
+    "registered_job_seconds": 25,
+    "memory_target_mebibytes": 64,
+    "aggregate_stop": "remaining positions unresolved if audit budget reached; snapshot incomplete if registered total cap is exceeded"
+  },
+  "controls": {
+    "prior_toy_topologies": "reuse GROMARK-ALPHABET-001231graphs; independent complete-permutation enumeration supplies references and exact target-difference truth",
+    "base_oracle_graphs": 231,
+    "base_permutation_pairs": 9396,
+    "satisfiable_base_graphs": 56,
+    "unsatisfiable_base_graphs": 175,
+    "query_oracle": "for each satisfiable base choose first lexical pair; query every cipher symbol x every modular key; compare exists-different across all complete pairs",
+    "core_toy_difference_queries": 511,
+    "core_query_permutation_pairs": 27036,
+    "additional_queries": [
+      {
+        "alphabet": "AB",
+        "edges": [
+          [
+            "A",
+            "A",
+            0
+          ]
+        ],
+        "cipher": "B",
+        "key": 0,
+        "reference_pair": [
+          "AB",
+          "AB"
+        ],
+        "expected": "forced_global_all_different_single_unseen_symbols"
+      },
+      {
+        "alphabet": "AB",
+        "edges": [],
+        "cipher": "A",
+        "key": 0,
+        "reference_pair": [
+          "AB",
+          "AB"
+        ],
+        "expected": "variable_unused_symbol_symmetry"
+      }
+    ],
+    "joint_fixture": "empty AB edges, referenceAB/AB, query cipherA/key0 and cipherB/key0 independently; both variable but simultaneousAAdecoding impossible by bijection. Two extra oracle queries, plus4pair joint check.",
+    "total_toy_difference_queries": 515,
+    "total_query_permutation_pairs": 27052,
+    "boundary": [
+      "invalid reference/target/key",
+      "state cap unresolved",
+      "per-query timeout unresolved",
+      "aggregate exhausted records unresolved",
+      "known-edge forced invariant",
+      "analytic symmetries match oracle"
+    ],
+    "randomness": "none; deterministic exhaustive controls"
+  },
+  "outputs": [
+    "73record forced/variable/unresolved map",
+    "model-conditional forced letters only where exact",
+    "complete alphabet counterexample per variable position",
+    "proof kind relative potentials or exact exhaustion per forced position",
+    "query resources/caps/attempt status",
+    "reference/model/input/code/spec hashes and immutable run manifest",
+    "independent checks allcounterexamples",
+    "no full K4 messages"
+  ],
+  "scope_limits": [
+    "marginal variability does not remove joint constraints or permit combining counterexamples",
+    "conditional on one exact tuple and model only",
+    "no language/fingerprint/width21filters",
+    "no alphabet annealing or new primer sweep",
+    "no new historical source claims"
+  ],
+  "provenance": "Per-position classifications not computed before this specification commit. Previous whole-message nonuniqueness already established and not repeated as the experiment goal."
+}
