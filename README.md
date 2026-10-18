@@ -186,3 +186,9 @@ heuristic failures and underdetermination. The audit stops pending independent e
 all hypothetical direct repeating-key periods 1–12: the first crib requires 13
 distinct keys in 13 consecutive positions. All 118 tests pass. [Source scope](docs/silk-chart-source-and-scope.md)
 distinguishes modern provenance, checked pixels and unestablished creator use.
+
+[True-Beaufort base-60 audit](research/BASE60-BEAUFORT-FINDINGS.md) closes all
+length-2/3 primers analytically, reduces length 4 to 3,240,000 primers, and
+contradicts the first 100,000 reduced candidates. **3,140,000 remain untested**;
+this is verified partial coverage. All 124 tests pass, including modular-sum
+and complete-bijection controls. No solar geometry or language filter was used.

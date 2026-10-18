@@ -1,0 +1,827 @@
+{
+  "experiment": "BASE60-BEAUFORT-001",
+  "spec_commit": "1217239dfbca5649458b89e94d347a671b805d4e",
+  "code_commit": "dc220493c2db01197b31946bd477465679d4a125",
+  "created_at_utc": "2026-10-18T16:38:35.658145+00:00",
+  "python": "3.9.6",
+  "file_sha256": {
+    "experiments/base60_beaufort.py": "707f9a85d61bb8e4172da9f24dec0eebca4d767626ca1e8b5179bc6b2214c08c",
+    "tests/test_base60_beaufort.py": "616c6d77a5de2f59b4b83db68f01998f1f375cb7f6118dc259021a3022064eb3",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
+    "research/specifications/BASE60-BEAUFORT-001.json": "aac4e32b4203f89d5d5dbb5e35d358f689f570c2013b47a7fc0002ec1d0354e1"
+  },
+  "nominal_labeled_tuples": 26359200,
+  "unique_tuples": 26355600,
+  "parity_proofs": [
+    {
+      "lag": 2,
+      "rule": 0,
+      "nominal_rule_multiplicity": 2,
+      "total_primers": 3600,
+      "binary_constraint_rows": [
+        "11",
+        "01",
+        "11",
+        "01"
+      ],
+      "parity_masks": [
+        {
+          "primer_parity": [
+            0,
+            0
+          ],
+          "primers_represented": 900,
+          "compatible": false,
+          "reason": "too_many_same_parity_for_bijection",
+          "possible_observed_even_counts": [
+            0,
+            21
+          ],
+          "permitted_observed_even_counts": [],
+          "observed_letters": 21
+        },
+        {
+          "primer_parity": [
+            0,
+            1
+          ],
+          "primers_represented": 900,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0
+          ],
+          "primers_represented": 900,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1
+          ],
+          "primers_represented": 900,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        }
+      ],
+      "parity_eliminated_primers": 3600
+    },
+    {
+      "lag": 3,
+      "rule": 0,
+      "nominal_rule_multiplicity": 1,
+      "total_primers": 216000,
+      "binary_constraint_rows": [
+        "011",
+        "110",
+        "001",
+        "100"
+      ],
+      "parity_masks": [
+        {
+          "primer_parity": [
+            0,
+            0,
+            0
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "too_many_same_parity_for_bijection",
+          "possible_observed_even_counts": [
+            0,
+            21
+          ],
+          "permitted_observed_even_counts": [],
+          "observed_letters": 21
+        },
+        {
+          "primer_parity": [
+            0,
+            0,
+            1
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            0
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            1
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            0
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            1
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            0
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            1
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        }
+      ],
+      "parity_eliminated_primers": 216000
+    },
+    {
+      "lag": 3,
+      "rule": 1,
+      "nominal_rule_multiplicity": 1,
+      "total_primers": 216000,
+      "binary_constraint_rows": [
+        "111",
+        "101",
+        "100",
+        "010"
+      ],
+      "parity_masks": [
+        {
+          "primer_parity": [
+            0,
+            0,
+            0
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "too_many_same_parity_for_bijection",
+          "possible_observed_even_counts": [
+            0,
+            21
+          ],
+          "permitted_observed_even_counts": [],
+          "observed_letters": 21
+        },
+        {
+          "primer_parity": [
+            0,
+            0,
+            1
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            0
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            1
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            0
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            1
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            0
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            1
+          ],
+          "primers_represented": 27000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        }
+      ],
+      "parity_eliminated_primers": 216000
+    },
+    {
+      "lag": 4,
+      "rule": 0,
+      "nominal_rule_multiplicity": 1,
+      "total_primers": 12960000,
+      "binary_constraint_rows": [
+        "0010",
+        "1011",
+        "0010",
+        "1001"
+      ],
+      "parity_masks": [
+        {
+          "primer_parity": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "too_many_same_parity_for_bijection",
+          "possible_observed_even_counts": [
+            0,
+            21
+          ],
+          "permitted_observed_even_counts": [],
+          "observed_letters": 21
+        },
+        {
+          "primer_parity": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": true,
+          "reason": "parity_balance_possible",
+          "possible_observed_even_counts": [
+            10,
+            11
+          ],
+          "permitted_observed_even_counts": [
+            10,
+            11
+          ],
+          "observed_letters": 21
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": true,
+          "reason": "parity_balance_possible",
+          "possible_observed_even_counts": [
+            8,
+            13
+          ],
+          "permitted_observed_even_counts": [
+            8,
+            13
+          ],
+          "observed_letters": 21
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": true,
+          "reason": "parity_balance_possible",
+          "possible_observed_even_counts": [
+            9,
+            12
+          ],
+          "permitted_observed_even_counts": [
+            9,
+            12
+          ],
+          "observed_letters": 21
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        }
+      ],
+      "parity_eliminated_primers": 10530000
+    },
+    {
+      "lag": 4,
+      "rule": 1,
+      "nominal_rule_multiplicity": 1,
+      "total_primers": 12960000,
+      "binary_constraint_rows": [
+        "0010",
+        "0110",
+        "0010",
+        "0001"
+      ],
+      "parity_masks": [
+        {
+          "primer_parity": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "too_many_same_parity_for_bijection",
+          "possible_observed_even_counts": [
+            0,
+            21
+          ],
+          "permitted_observed_even_counts": [],
+          "observed_letters": 21
+        },
+        {
+          "primer_parity": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": true,
+          "reason": "parity_balance_possible",
+          "possible_observed_even_counts": [
+            8,
+            13
+          ],
+          "permitted_observed_even_counts": [
+            8,
+            13
+          ],
+          "observed_letters": 21
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        },
+        {
+          "primer_parity": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "primers_represented": 810000,
+          "compatible": false,
+          "reason": "sum_cycle_contradiction",
+          "component_root": "A"
+        }
+      ],
+      "parity_eliminated_primers": 12150000
+    }
+  ],
+  "configurations": [
+    {
+      "lag": 2,
+      "rule": 0,
+      "nominal_rule_multiplicity": 2,
+      "parity_rejected": 3600,
+      "remaining_after_parity": 0,
+      "evaluated": 0,
+      "next_original_code": null,
+      "last_original_code": null,
+      "classifications": {},
+      "complete": true
+    },
+    {
+      "lag": 3,
+      "rule": 0,
+      "nominal_rule_multiplicity": 1,
+      "parity_rejected": 216000,
+      "remaining_after_parity": 0,
+      "evaluated": 0,
+      "next_original_code": null,
+      "last_original_code": null,
+      "classifications": {},
+      "complete": true
+    },
+    {
+      "lag": 3,
+      "rule": 1,
+      "nominal_rule_multiplicity": 1,
+      "parity_rejected": 216000,
+      "remaining_after_parity": 0,
+      "evaluated": 0,
+      "next_original_code": null,
+      "last_original_code": null,
+      "classifications": {},
+      "complete": true
+    },
+    {
+      "lag": 4,
+      "rule": 0,
+      "nominal_rule_multiplicity": 1,
+      "parity_rejected": 10530000,
+      "remaining_after_parity": 2430000,
+      "evaluated": 50000,
+      "next_original_code": 307961,
+      "last_original_code": 307959,
+      "classifications": {
+        "local_sum_or_injectivity_contradiction": 50000
+      },
+      "complete": false
+    },
+    {
+      "lag": 4,
+      "rule": 1,
+      "nominal_rule_multiplicity": 1,
+      "parity_rejected": 12150000,
+      "remaining_after_parity": 810000,
+      "evaluated": 50000,
+      "next_original_code": 829960,
+      "last_original_code": 829958,
+      "classifications": {
+        "local_sum_or_injectivity_contradiction": 50000
+      },
+      "complete": false
+    }
+  ],
+  "pilot": {
+    "evaluated": 4096,
+    "elapsed_seconds": 0.043652,
+    "max_pilot_seconds": 5
+  },
+  "evaluated_after_parity": 100000,
+  "elapsed_seconds": 0.986906,
+  "status": "verified_partial",
+  "complete_alphabet_witnesses": [],
+  "unresolved": [],
+  "full_plaintexts_emitted": false,
+  "independent_math_audit": "Received/reconciled: one21-letter component, five unused letters, all parity survivor masks independently matched; noninvertible2x constraints enumerated. Four specialized modular equations not used for pruning beyond self-loop parity and duplicated R-P edge."
+}

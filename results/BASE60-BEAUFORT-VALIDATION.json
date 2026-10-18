@@ -1,0 +1,29 @@
+{
+  "experiment": "BASE60-BEAUFORT-001",
+  "passed_tests": 124,
+  "test_seconds": 8.026,
+  "test_command": "python3 -m unittest discover -s tests -v",
+  "local_oracle_cases": 4123,
+  "oracle_description": "Every labeled simple-edge subset including loops on Z2 and Z3 compared with exhaustive bijections;27 plus4096 instances",
+  "positive_synthetic_cases": 6,
+  "prior_tests_preserved": 118,
+  "binary_rows_match_independent_audit": true,
+  "input_hashes_verified": true,
+  "checkpoint_generators_replayed_without_new_cryptanalytic_evaluations": true,
+  "analytically_rejected_unique_primers": 23115600,
+  "analytically_rejected_nominal_labeled_tuples": 23119200,
+  "evaluated_after_parity": 100000,
+  "remaining_unevaluated": 3140000,
+  "stop_reason": "declared100000candidatecap",
+  "raw_sha256": "9bc9019856d56fce0adb988de2d47859478a68100aeab2b8f97b75641078ab36",
+  "independent_audit_supplied_not_local_test_counts": {
+    "toy_instances": 1000,
+    "moduli": "2-6",
+    "feasible": 345,
+    "infeasible": 655,
+    "specialized_vs_generic_planted_instances": 200,
+    "specialized_vs_generic_random_vectors": 1000,
+    "reviewer_candidate_sweeps": 0
+  },
+  "scope": "Only original two base60 recurrences L2-4 and direct shared unknown alphabet trueBeaufort; no geometry/solar inputs, no full plaintexts or broad cipher-family exclusion."
+}
