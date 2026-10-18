@@ -1,0 +1,22 @@
+{
+  "check": "SOLAR-BOUNDS-NOTE-001",
+  "latitude_deg": 38.95,
+  "assumed_annual_declination_cap_deg": 23.44,
+  "method": "sin(delta)=sin(phi)sin(h)+cos(phi)cos(h)cos(A); analytic root at declination cap; geometric center and unobstructed horizon, no refraction",
+  "conditional_bounds": [
+    {
+      "solar_azimuth_clockwise_true_north_deg": 67.5,
+      "minimum_declination_above_geometric_horizon_deg": 17.314166703418916,
+      "maximum_geometric_elevation_deg": 9.550524498642613
+    },
+    {
+      "solar_azimuth_clockwise_true_north_deg": 247.5,
+      "minimum_declination_above_geometric_horizon_deg": -17.314166703418895,
+      "maximum_geometric_elevation_deg": 60.218035214618716
+    }
+  ],
+  "date_time_search_performed": false,
+  "optical_key_search_performed": false,
+  "reflections_modelled": false,
+  "site_geometry_measured": false
+}
