@@ -25,13 +25,17 @@ width, all inverses, and identity. Both operation orders, two alphabets, and
 three modular equations were tested. Nonidentity routes tested periods 1–16;
 identity tested periods 1–96. No missing phase was guessed.
 
-All 282 compatible models use the identity route. Their periods are 27–29 or
-53–96; each has between 3 and 72 unobserved key phases. **Zero complete keys or
-plaintexts emerged.** Passing sparse constraints at a long period supplies no
-positive evidence for that period. The route result excludes only these concrete
-route/alphabet/equation/period combinations; it does not reject all spatial
-operations, arbitrary mixed alphabets, or other operation grammars. Plus/minus
-models overlap by key negation and are not independent supporting observations.
+All 282 compatible models are **vacuous fits**: 47 periods × 2 alphabets ×
+3 equations, all with the identity route. Their periods are 27–29 or 53–96.
+Each of the 24 crib positions has a distinct phase, so there are **zero
+repeated-phase comparisons**. Any values at those 24 positions can be fitted
+independently; each model has between 3 and 72 unobserved key phases. Zero
+complete keys or plaintexts emerged. These fits supply no support for a period,
+alphabet, or equation and must not motivate search expansion.
+
+The route result excludes only the tested concrete route/alphabet/equation/period
+combinations. It does not reject all spatial operations, arbitrary mixed
+alphabets, or other operation grammars. Plus/minus models overlap by key negation.
 
 ## RUNKEY-001: 28,488 literal-window models
 
@@ -43,7 +47,7 @@ were removed explicitly. **No case matched all 24 crib letters.** The maximum
 partial match was 6/24, reported descriptively only. Many source windows recur
 inside the concatenated stream, so case count is not a count of independent keys.
 
-The preregistered 199-shuffle whole-search calibration was conditional on an
+The specified 199-shuffle whole-search calibration was conditional on an
 all-crib survivor. Since there were none, it was not run. Nothing here rejects
 a different text source, extraction, key transform, as-carved K2 variant, unknown
 alphabet, or different composition.
@@ -90,8 +94,8 @@ not determine whether any substitution, transposition, or numeric generator caus
 python3 experiments/check_baseline.py
 python3 experiments/check_controls.py
 python3 experiments/structural_checks.py
-python3 experiments/run_bounded.py
-python3 experiments/statistical_diagnostics.py --write-results
+python3 experiments/run_bounded.py --spec-commit "$KRYPTOS_SPEC_COMMIT"
+python3 experiments/statistical_diagnostics.py --write-results --spec-commit "$KRYPTOS_SPEC_COMMIT"
 python3 -m unittest discover -s tests -v
 ```
 
@@ -109,10 +113,23 @@ python3 -m gzip -d -c results/ROUTE-001.json.gz
 python3 -m gzip -d -c results/STAT-001.json.gz
 ```
 
-Seeded controls recover 20 planted route/period models and 20 planted contiguous
-running-key windows through the actual constraint/scanning code. Every Trifid
-symbol and stated period is covered by inverse controls. No external solution
-checks, paid submissions, third-party contact, or executable third-party code.
+The original 20 route controls called `constrain` with the true route,
+period-4 key, alphabet, equation, and operation order supplied. They used only
+route indices 0–19 of 66; they did **not** test end-to-end `route_scan` recovery.
+The 20 literal running-key controls did exercise the actual window scanner.
+The focused [audit hardening](AUDIT-HARDENING.md) adds independent operation-order
+vectors, end-to-end period-1/16 route recovery beyond the old first-20 set,
+incomplete-phase recovery, reversed running-key recovery, and archived-result
+replays. Every Trifid symbol and stated period remains covered by inverse controls.
+
+The original specifications and results were committed together; repository
+history does not prove preregistration. Future specifications must be committed
+first and referenced by SHA in a run. Current runners require that reference,
+write unique atomic snapshots under `results/runs/`, and make `latest.json` plus
+the snapshot manifest authoritative for status. They do not overwrite the
+original audited artifacts. Set `KRYPTOS_SPEC_COMMIT` above to the previously committed specification SHA
+whose file bytes match the checked-out specification. These commands replay
+existing scope; they do not establish prior registration for the original run.
 
 ## What supplies the next useful constraint
 

@@ -57,15 +57,18 @@ makes no statement about a cryptographic method or historical source accuracy.
 ## ROUTE-001, RUNKEY-001, TRIFID-001 — bounded model milestone
 
 - Date: 2026-10-18 UTC; Python 3.9.6, standard library, single local process.
-- Command: `python3 experiments/run_bounded.py`; preregistered
+- Command: `python3 experiments/run_bounded.py`; recorded
   [bounds and conventions](BOUNDED-SPEC.md), [findings](BOUNDED-FINDINGS.md).
 - ROUTE-001: 13,056 cases, 66 distinct routes; 282 compatible partial assignments,
-  all identity route at periods 27–29 or 53–96. Zero fully observed keys.
+  all identity route at periods 27–29 or 53–96. All are vacuous: 47 periods ×
+  2 alphabets × 3 equations, zero repeated-phase comparisons. Zero fully observed keys.
 - RUNKEY-001: 28,488 cases, 4,748 window/direction cases, 2,692 unique key strings;
   zero all-24-crib matches. Trigger for 199-shuffle validation not met.
 - TRIFID-001: 144 cases, zero all-crib matches; all full inverse checks pass.
-- Validation: 20 planted route/key recoveries and 20 planted literal-window
-  recoveries through the actual scanners; all three equations and both alphabets.
+- Validation (corrected by audit): 20 given-parameter `constrain` checks at
+  period 4 using routes 0–19, not end-to-end route-scan recovery. Separately,
+  20 planted literal-window recoveries did use the actual window scanner; all
+  three equations and both alphabets were exercised.
   Seed 20261018, Python MT19937. Trifid controls cover every symbol and period.
 - Runtime: each bounded scan below one second. Limits: 30 seconds / 20,000 route
   cases; 30 seconds / 30,000 running-key cases; fixed 144 Trifid cases.
@@ -93,3 +96,14 @@ makes no statement about a cryptographic method or historical source accuracy.
   evaluation maxima in `results/STAT-001.json.gz`; code/input hashes included.
 - Prior art: Bean 2021, §2.1; independent limited check, not whole-paper or
   Gromark-search reproduction. No external solver code executed.
+
+## AUDIT-001 — focused audit hardening and exact replay
+
+The original artifacts at b83b0f9 are byte-preserved; their SHA256 manifest is
+`data/audited-results-b83.json`. [Audit notes](AUDIT-HARDENING.md) correct the
+control-coverage and registration claims and document the stronger tests.
+No new hypothesis family, range, corpus, parameter, or score is introduced.
+Current runners validate the baseline and use atomic unique run snapshots,
+run IDs, explicit completion/incomplete outcomes, uniform scanner deadlines,
+final checks after staged output, and a required prior specification commit.
+`results/AUDIT-001.json` records the final test count and code hashes.

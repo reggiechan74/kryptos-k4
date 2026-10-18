@@ -1,5 +1,7 @@
 """Bounded, histogram-preserving calibration of published lag collisions."""
 from collections import Counter
+from check_baseline import validate
+from bounded_models import deadline_check
 import hashlib
 import json
 import math
@@ -29,18 +31,18 @@ def wilson(successes,total):
     return [max(0,center-radius),min(1,center+radius)]
 
 
-def run(shuffles=SHUFFLES,calibration=CALIBRATION):
+def run(shuffles=SHUFFLES,calibration=CALIBRATION,limit=60):
     if shuffles <= calibration or calibration < 2: raise ValueError('invalid split')
     started=time.monotonic()
-    text=json.loads((ROOT/'data/k4.json').read_text())['ciphertext']
+    deadline_check(started, limit)
+    text=validate(json.loads((ROOT/'data/k4.json').read_text()))
     original=[collisions(text,w) for w in WIDTHS]
     rng=random.Random(SEED);draws=[];letters=list(text)
     for trial in range(shuffles):
         rng.shuffle(letters)
         assert Counter(letters)==Counter(text)
         draws.append([collisions(letters,w) for w in WIDTHS])
-        if trial%100==0 and time.monotonic()-started>60:
-            raise TimeoutError('60-second cap reached; no completed result')
+        if trial%100==0: deadline_check(started, limit)
     means=[statistics.mean(row[i] for row in draws[:calibration]) for i in range(48)]
     deviations=[statistics.stdev(row[i] for row in draws[:calibration]) for i in range(48)]
     if any(s==0 for s in deviations): raise ValueError('zero calibration deviation')
@@ -50,6 +52,7 @@ def run(shuffles=SHUFFLES,calibration=CALIBRATION):
     fixed=sum(row[20]>=original[20] for row in evaluation)
     adjusted=sum(value>=observed_max for value in maxima)
     max_raw=max(original)
+    deadline_check(started, limit)
     return {'experiment':'STAT-001','date_utc':'2026-10-18','python':platform.python_version(),
             'seed':SEED,'generator':'Python random.Random/MT19937.shuffle',
             'statistic':'duplicate excess sum(count-1) among ordered pairs at lag w; overlapping pairs included',
@@ -69,21 +72,5 @@ def run(shuffles=SHUFFLES,calibration=CALIBRATION):
 
 
 if __name__=='__main__':
-    import argparse
-    import gzip
-    parser=argparse.ArgumentParser()
-    parser.add_argument('--write-results',action='store_true')
-    args=parser.parse_args()
-    result=run()
-    if args.write_results:
-        encoded=(json.dumps(result,separators=(',',':'))+'\n').encode()
-        (ROOT/'results/STAT-001.json.gz').write_bytes(gzip.compress(encoded,mtime=0))
-        summary={k:v for k,v in result.items() if k not in ['raw_draws','evaluation_maxima_z']}
-        summary['status']='completed'
-        summary['command']='python3 experiments/statistical_diagnostics.py --write-results'
-        summary['detail_artifact']='STAT-001.json.gz'
-        summary['detail_uncompressed_sha256']=hashlib.sha256(encoded).hexdigest()
-        (ROOT/'results/STAT-001-summary.json').write_text(json.dumps(summary,indent=2)+'\n')
-        print(json.dumps({k:summary[k] for k in ['fixed_width_21','maximum_over_48_widths','elapsed_seconds']},indent=2))
-    else:print(json.dumps(result,separators=(',',':')))
-
+    from run_bounded import statistics_main
+    statistics_main()

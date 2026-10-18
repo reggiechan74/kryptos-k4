@@ -10,7 +10,7 @@ from bounded_models import *
 
 class BoundedTests(unittest.TestCase):
     def test_twenty_planted_route_and_running_cases(self):
-        self.assertEqual(synthetic_controls()['route_true_model_recoveries'],20)
+        self.assertEqual(synthetic_controls()['given_parameter_route_constraint_checks'],20)
         self.assertEqual(synthetic_controls()['running_key_roundtrips'],20)
 
     def test_all_routes_bijective_and_inverse(self):

@@ -79,3 +79,12 @@ is a research constraint, not a reason to expand arbitrary search freedom.
 K3 photographic transcription and a structured claim/date/conflict ledger remain
 useful evidence tasks. No broad search, external verifier, or paid submission
 is authorized by the existence of these results.
+
+## Focused audit update
+
+[Audit hardening](AUDIT-HARDENING.md) establishes that all 282 route survivors
+are vacuous fits with zero repeated-phase comparisons, not evidence for those
+periods. The [worksheet provenance review](../docs/k3-worksheet-verification.md)
+distinguishes complete algorithmic verification from partly reconstructed
+history. Neither result motivates a larger search. Future new specifications
+must be committed before execution and the run must reference that SHA.

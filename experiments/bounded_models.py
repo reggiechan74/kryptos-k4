@@ -104,8 +104,8 @@ def crib_matches(plain, pairs):
     return sum(plain[i] == p for i, _, p in pairs)
 
 
-def route_scan(data):
-    started = time.monotonic(); text = data['ciphertext']; pairs = known_pairs(data)
+def route_scan(data, limit=30):
+    started = time.monotonic(); deadline_check(started, limit); text = data['ciphertext']; pairs = known_pairs(data)
     catalogue = routes(); survivors = []; tested = 0
     for route in catalogue:
         identity = route['permutation'] == list(range(len(text)))
@@ -117,11 +117,14 @@ def route_scan(data):
                     for order in orders:
                         tested += 1
                         if tested > 20000: raise RuntimeError('model cap exceeded')
-                        if tested % 100 == 0: deadline_check(started, 30)
+                        if tested % 100 == 0: deadline_check(started, limit)
                         key = constrain(text, pairs, route['permutation'], period, alphabet, equation, order)
                         if key is None: continue
                         unknown = [i for i, value in enumerate(key) if value is None]
-                        record = {'route': route['id'], 'period': period, 'alphabet': alphabet_name,
+                        observed_count = period - len(unknown)
+                        repeated_phase_comparisons = len(pairs) - observed_count
+                        record = {'repeated_phase_comparisons': repeated_phase_comparisons,
+                                  'vacuous_fit': repeated_phase_comparisons == 0, 'route': route['id'], 'period': period, 'alphabet': alphabet_name,
                                   'equation': equation, 'order': order, 'key_values': key,
                                   'unobserved_phases_zero_based': unknown}
                         if not unknown:
@@ -130,6 +133,7 @@ def route_scan(data):
                             assert model_encrypt(plain, key, alphabet, equation, route['permutation'], order) == text
                             record.update({'plaintext': plain, 'exact_reencryption': True})
                         survivors.append(record)
+    deadline_check(started, limit)
     return {'experiment': 'ROUTE-001', 'tested_models': tested, 'unique_routes': len(catalogue),
             'compatible_models': len(survivors), 'fully_observed_keys': sum(not x['unobserved_phases_zero_based'] for x in survivors),
             'route_catalogue': catalogue, 'survivors': survivors,
@@ -147,8 +151,8 @@ def running_streams(controls):
     return result
 
 
-def running_scan(data, controls):
-    started = time.monotonic(); cipher = data['ciphertext']; pairs = known_pairs(data)
+def running_scan(data, controls, limit=30):
+    started = time.monotonic(); deadline_check(started, limit); cipher = data['ciphertext']; pairs = known_pairs(data)
     tested = 0; survivors = []; windows = []; unique_windows = set(); histogram = Counter()
     # Index tables avoid full decryptions for candidates failing crib checks.
     for source, stream in running_streams(controls):
@@ -162,7 +166,7 @@ def running_scan(data, controls):
                     for equation in EQUATIONS:
                         tested += 1
                         if tested > 30000: raise RuntimeError('candidate cap exceeded')
-                        if tested % 1000 == 0: deadline_check(started, 30)
+                        if tested % 1000 == 0: deadline_check(started, limit)
                         matches = 0
                         for i, c, p in pairs:
                             matches += crypt(c, [key_values[i]], alphabet, equation, decrypt=True) == p
@@ -173,6 +177,7 @@ def running_scan(data, controls):
                             survivors.append({'source':source, 'start_one_based':begin+1, 'reverse':reverse,
                                               'alphabet':name, 'equation':equation, 'plaintext':plain,
                                               'exact_reencryption':True})
+    deadline_check(started, limit)
     return {'experiment':'RUNKEY-001', 'tested_models':tested,
             'window_cases_including_direction':len(windows), 'unique_key_strings':len(unique_windows),
             'source_lengths':{name:len(stream) for name,stream in running_streams(controls)},
@@ -198,18 +203,21 @@ def trifid(text, cube, period, decrypt=False):
     return out
 
 
-def trifid_scan(data):
+def trifid_scan(data, limit=5):
+    started=time.monotonic(); deadline_check(started, limit)
     pairs = known_pairs(data); tested=0; survivors=[]; maximum=0
     for name, alphabet in ALPHABETS:
         cube=alphabet+'?'
         for period in TRIFID_PERIODS:
             for decrypt in [False,True]:
                 tested+=1
+                deadline_check(started, limit)
                 plain=trifid(data['ciphertext'],cube,period,decrypt)
                 assert trifid(plain,cube,period,not decrypt)==data['ciphertext']
                 matches=crib_matches(plain,pairs);maximum=max(maximum,matches)
                 if matches==24:
                     survivors.append({'cube':name+'?', 'period':period, 'operation':'decrypt' if decrypt else 'encrypt', 'plaintext':plain, 'contains_question_mark':'?' in plain, 'exact_reencryption':True})
+    deadline_check(started, limit)
     return {'experiment':'TRIFID-001','tested_models':tested, 'periods':TRIFID_PERIODS, 'survivors':survivors,
             'maximum_crib_matches_descriptive_only':maximum,
             'scope':'Two literal fixed cube orders, 36 block periods, both directions; no cube/key search, altered input, framing, or added separator.'}
@@ -249,7 +257,7 @@ def synthetic_controls():
                    and x['equation']==equation and x['plaintext']==plain
                    for x in recovered_windows)
         running_cases+=1
-    return {'seed':SEED,'generator':'Python random.Random/MT19937','route_true_model_recoveries':route_cases,'running_key_roundtrips':running_cases,'running_key_planted_window_recoveries':running_cases}
+    return {'seed':SEED,'generator':'Python random.Random/MT19937','given_parameter_route_constraint_checks':route_cases,'route_control_scope':{'route_indices_zero_based':[0,19],'period':4,'end_to_end_route_scan':False},'running_key_roundtrips':running_cases,'running_key_planted_window_recoveries':running_cases}
 
 
 def main():

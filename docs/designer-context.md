@@ -2,6 +2,8 @@
 
 Research checked 18 October 2026. This is a source-led learning and experiment plan, not a claim to have reconstructed K4. The aim is to reproduce operations Sanborn could actually perform and distinguish evidence about composition from later hints and interpretation.
 
+Subsequent provenance review: the K3 procedure below is a **worksheet-supported reconstruction**, not fully observed historical execution. The initial-sheet diagram includes five explicitly unverified columns. See [K3 worksheet verification](k3-worksheet-verification.md) for source/image limits and the distinction between exact computational equivalence and historical choreography.
+
 ## Recommendation
 
 Build a small, exact, pencil-and-paper workshop before expanding K4 searches. Reproduce the keyed alphabet/tableau of K1 and K2 and the two rectangular rotations of K3. Then test a bounded set of reversible ways to combine those operations with fractionation, masking, and spatial reading. Require full round trips and independently specified rules. Biography should prioritize experiments, never excuse a failed decryption.
@@ -60,7 +62,7 @@ These rankings describe relevance to a learning plan, not numerical probabilitie
 
 1. **International Morse and segmentation.** Transcribe dots, dashes, separators, orientation, and physical gaps independently. Distinguish encoding from secrecy: a readable code alphabet can teach the viewer a mode of attention without being an encryption algorithm. The construction letter explicitly names Morse.
 2. **Keyed Vigenère / periodic polyalphabetic substitution.** Learn mixed alphabets, repeating keys, index conventions, and the distinction between alphabet ordering and running keyword. Reconstruct the actual tableau before using any library labeled “Vigenère.”
-3. **Rectangular transposition and composition.** Learn row/column routes, rotations, ragged grids, and inversion of permutations. Treat the photographed K3 worksheets as the strongest opportunity to reconstruct hand actions.
+3. **Rectangular transposition and composition.** Learn row/column routes, rotations, ragged grids, and inversion of permutations. Treat the preserved K3 worksheet material as an opportunity to reconstruct hand actions, while distinguishing photographed cells from editorial recreations and unverified sections.
 4. **Substitution/transposition diagnostics.** Compute frequencies, index of coincidence, repeated n-grams, and digram adjacency. Learn which statistics an operation preserves. These are validation tools, not evidence that the artist calculated them.
 
 ### Tier B: historically available, useful experiments, no attested lesson
@@ -112,7 +114,7 @@ Use the 336-letter K3 plaintext, including its accepted anomalous spelling and t
 
 The ordering above was computationally checked in this research pass: its output begins `ENDYAHROHN` and ends `STTRTVDOHW`, matching the known ciphertext route. Preserve a full canonical comparison as a repository test before using it downstream.
 
-Source: [worksheet images and reconstruction](https://www.thekryptosproject.com/tjp/observations/k3_method.php). The photographs are object evidence; the page’s K4 extrapolations are commentator hypotheses. Do not inherit its claims about K4 boundaries, invisible layers, or sleeve markings as established facts.
+Source: [worksheet images and reconstruction](https://www.thekryptosproject.com/tjp/observations/k3_method.php). The preserved photographed portions are object evidence, but the first-sheet illustration is partly reconstructed and its rightmost five columns are explicitly unverified. The procedure is a worksheet-supported reconstruction; the page’s K4 extrapolations are commentator hypotheses. Do not inherit its claims about K4 boundaries, invisible layers, or sleeve markings as established facts.
 
 Pass condition: the full permutation and its inverse match every character, and a paper reconstruction agrees. Name dimensions as rows × columns to prevent the common width/height ambiguity.
 

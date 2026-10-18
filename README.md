@@ -32,14 +32,19 @@ method should account for all 97 characters and support independent reproduction
 
 ## Run locally
 
-Requires Python 3.8+; standard library only. From this directory:
+Requires Python 3.8+; standard library only. From this directory. Before the
+snapshot runner commands, set `KRYPTOS_SPEC_COMMIT` to a full commit SHA that
+contains the unchanged current `research/BOUNDED-SPEC.md`. In a clean Git
+checkout containing that specification, `git rev-parse HEAD` supplies the SHA.
+The offline runner records this reference and file hash; repository history must
+be checked separately. Baseline checks and unit tests do not require the variable.
 
 ```sh
 python3 experiments/check_baseline.py
 python3 experiments/check_controls.py
 python3 experiments/structural_checks.py
-python3 experiments/run_bounded.py
-python3 experiments/statistical_diagnostics.py --write-results
+python3 experiments/run_bounded.py --spec-commit "$KRYPTOS_SPEC_COMMIT"
+python3 experiments/statistical_diagnostics.py --write-results --spec-commit "$KRYPTOS_SPEC_COMMIT"
 python3 -m unittest discover -s tests -v
 ```
 
@@ -91,3 +96,12 @@ See [research policy](research/POLICY.md), [hypothesis log](research/HYPOTHESES.
 
 Current results: [exact structural constraints](research/STRUCTURAL-FINDINGS.md)
 and [experiment log](research/EXPERIMENTS.md). No K4 solution is claimed.
+
+[Focused audit hardening](research/AUDIT-HARDENING.md) preserves the original
+artifacts and corrects interpretation/control-coverage claims. All 282 long-period
+fits are vacuous, not candidate evidence. New runner snapshots require a prior
+specification commit and publish explicit completion status atomically. The
+original spec/results shared a commit, which does not prove preregistration.
+
+[K3 worksheet verification](docs/k3-worksheet-verification.md) distinguishes
+336-letter computational equivalence from partly reconstructed historical procedure.

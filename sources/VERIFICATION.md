@@ -87,3 +87,15 @@ erroneous; it is not used as a method source. The Smithsonian matrix-code remark
 explicitly concerns already-solved sections, so it supplies no proof of a K4
 matrix mechanism. The World Clock clarification is attributed to the official
 event video's description, with the receipt's caption/date caveats retained.
+
+## Supplied worksheet-provenance review
+
+The [K3 paper-route review](../docs/k3-worksheet-verification.md) identifies the
+first-sheet diagram as a partial reconstruction with five unverified columns;
+only portions of the second-sheet handwriting can be read confidently. Its
+source inspection belongs to the independent reviewer, not the local executor.
+The local audit independently verifies the coordinate formula at all 336
+positions, full fixture equality/inverse, and anchor/intermediate rows. This
+establishes computational equivalence, not fully observed historical execution
+or a precise reproduction of Gillogly's unstated three-stage decomposition.
+No K4 dimension, padding, fold, or mask follows from this provenance review.

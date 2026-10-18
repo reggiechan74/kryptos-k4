@@ -1,6 +1,10 @@
 # Bounded experiment specification
 
-Declared before execution, 18 October 2026. Motivation: validated K1/K2
+Specification recorded 18 October 2026. Its text and original results entered
+the same Git commit, so repository history does not independently establish
+preregistration. The original account of declaration before execution is not
+a separate timestamped registration. Future new specifications must be committed
+before execution, and each result must reference that prior commit. Motivation: validated K1/K2
 periodic substitution and K3 spatial procedures; published K4 width-7/21
 observations; K2's corrected endpoint and K3 as literal potential running-key
 sources. These motivations select finite tests, not asserted design intentions.
