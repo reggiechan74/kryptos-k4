@@ -53,3 +53,19 @@ The [Neptune assessment's astronomy correction](../docs/neptune-discovery-assess
 retains the supplied JPL/NASA distinction: Pluto did not explain Uranus residuals;
 later discrepancies were resolved by correcting Neptune's mass and refitting
 Uranus. No source retrieval or date-key search was added by the coding executor.
+
+## Supplied historical-clock and Egyptian evidence — 18 October 2026
+
+The [dated clock report](../docs/historical-clock-inscriptions.md) links external
+Bundesarchiv/Commons photographs, credits photographers, preserves Christian
+Wolf's supplied CC BY-SA 3.0 Germany attribution, and distinguishes 1972/1984/
+1989/2015 inscriptions. Exact ENE calibration and the full 1989 candidate panel
+remain unverified. Inspection was by the research worker; no images are uploaded
+by this coding update. Modern city counts cannot reconstruct a historical list.
+
+The [Egyptian feasibility note](../docs/egyptian-sign-list-feasibility.md) links
+the supplied CIA/Scientific American Egypt context, The Met guide pp. 47–48 and
+Gardiner historical context. These sources do not identify a hieroglyphic K4
+mechanism or an artist's chosen sign list. No source was independently retrieved
+by the coding executor during this update; contextual evidence and hypothesis
+remain distinct.

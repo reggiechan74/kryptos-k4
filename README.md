@@ -153,3 +153,9 @@ known contradiction certificates, subsuming 72 declared formal cases without a
 candidate scan. The identical-reset collision is narrow; stateful feedback,
 transposition and different keys are outside its scope. All 90 tests pass;
 [validation and chronology receipt](results/CLOCK-BOUNDARY-VALIDATION.json).
+
+[Historical clock inscriptions](docs/historical-clock-inscriptions.md) preserves
+dated photographic differences, including before 1990, while exact ENE orientation
+and the full 1989 candidate panel remain unresolved.
+[The Egyptian sign-list hypothesis](docs/egyptian-sign-list-feasibility.md) records
+real Egyptian context and the missing reversible mapping; no new cipher run.

@@ -241,3 +241,17 @@ final frozen proof specification is pending. Existing result files remain unchan
   reset bijections only. No transposition/feedback/different-key exclusion.
 - BERLINCLOCK remains confirmed plaintext. City orientation/history unresolved.
   No date-key, reversed-key, longer-key or internal-word-reset extension.
+
+## Historical-clock / Egyptian-sign-list documentation
+
+- Date: 2026-10-18 UTC; parent 528d4902ba81e6791107f9b4b623170923d14933.
+- Saved supplied dated photographic evidence with external links/attribution;
+  exact ENE orientation and full 1989 candidate panel remain unresolved.
+  No inaccessible local image paths or claims of uploaded inspection crops.
+- Recorded H-EGYPTIAN-SIGN-LIST with supplied context and missing edition,
+  sign mapping, normalization, direction, inverse and key; no invented glyph
+  alphabet, Unicode arithmetic, new source search or cipher experiment.
+- Existing code, tests, clock-reset certificates and result artifacts unchanged.
+- Command: `python3 -m unittest discover -s tests -v`.
+- Result: all 90 tests pass in 7.320 s; no failures/errors. This software replay
+  does not independently verify the worker's historical-source/photo inspection.

@@ -92,3 +92,25 @@ controls verify; 72 fixed formal period-11 cases are analytically subsumed, zero
 candidate-search trials. The shared-reset collision concerns identical restarted
 positionwise bijections; transposition, feedback and different keys remain outside
 scope. See [completed proof and receipts](CLOCK-RESET-PROOF.md).
+
+## H-CLOCK-FACE — dated photographic update
+
+The [historical-inscription report](../docs/historical-clock-inscriptions.md)
+preserves the worker's direct inspection of dated 1972, 1984, 1989 and 2015
+photographs. Differences occur even before 1990; a generic pre-restoration image
+cannot establish 1989. Exact true-ENE orientation and the full 1989 candidate
+panel remain unresolved. External source links/attribution are provided; no local
+image crop is claimed uploaded. The clock-reset proof and its scope are unchanged.
+
+## H-EGYPTIAN-SIGN-LIST
+
+User-proposed hieroglyphics hypothesis; [evidence and feasibility boundary](../docs/egyptian-sign-list-feasibility.md).
+Egypt has genuine context through K3's Carter text and the reported 2025
+Egypt-trip clue, but no hieroglyphic mechanism is proven. The Met's printed
+pages 47–48 describe approximately 24 single consonants, bi-/triliterals, word
+signs, silent determinatives, vowel omission and reading orientation. Gardiner
+1927 is historical availability, not an artist link. Exact edition, sign
+selection/mapping, direction, normalization, inverse and key are missing.
+No invented 26-glyph alphabet or Unicode arithmetic was implemented. Simple
+one-to-one glyph renaming alone inherits the excluded monoalphabetic model;
+layered models are not excluded. No new search or experiment.
