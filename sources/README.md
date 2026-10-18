@@ -1,6 +1,10 @@
 # Sources and confirmed clues
 
-Recorded 2026-10-18. The URLs and factual baseline below were supplied in the
+Recorded 2026-10-18. **Update:** see [source verification](VERIFICATION.md) for
+successful retrievals and control-fixture provenance; the initial attempt below
+is retained as history.
+
+Recorded 2026-10-18 (initial attempt). The URLs and factual baseline below were supplied in the
 research brief. Direct retrieval during initialization failed (web fetch
 unavailable/time-out; local DNS unavailable). They have **not been independently
 re-read in this run**. Preserve this provenance until primary-source verification.

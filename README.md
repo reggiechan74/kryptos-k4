@@ -23,7 +23,9 @@ plaintext in September 2025 without deriving the cipher, and that no publicly
 accepted cryptanalytic solution is recognized by the current steward. Recovery
 of plaintext from archives and derivation of a reproducible cipher solution are
 different achievements. See [sources](sources/README.md) for the supplied links
-and the source-verification limitation of this initial scaffold.
+and the initial source-verification limitation. [Subsequent verification](sources/VERIFICATION.md)
+resolves specific transcription and method gaps; the archival-recovery event
+remains attributed to the brief pending a separate checked source.
 
 Separate public facts, hypotheses, and unverified third-party experiments.
 Neither a plausible phrase nor a crib match establishes a solution. A candidate
@@ -35,10 +37,13 @@ Requires Python 3.8+; standard library only. From this directory:
 
 ```sh
 python3 experiments/check_baseline.py
+python3 experiments/check_controls.py
 python3 -m unittest discover -s tests -v
 ```
 
-These commands validate data and indexing only. They do not test cipher families.
+The baseline command validates data and indexing. The controls command checks
+full K1, both K2 variants, and K3 encryption/decryption against fixed fixtures.
+It does not establish a K4 method.
 
 ## Research documents
 
@@ -49,8 +54,9 @@ These commands validate data and indexing only. They do not test cipher families
 
 These documents were supplied as research findings dated 18 October 2026 and
 are preserved as supplied. Their statements about reviewed sources and prior
-computational checks belong to that supplied research; the repository update
-did not independently retrieve those pages or reproduce those checks. Proposed
+computational checks belong to that supplied research; the original documentation update
+did not independently retrieve those pages or reproduce those checks. Later
+verification is recorded separately in [the source ledger](sources/VERIFICATION.md). Proposed
 experiments are not completed results or a K4 solution. The source-provenance
 limitation recorded for the initial scaffold remains separate from this material.
 
@@ -70,7 +76,7 @@ limitation recorded for the initial scaffold remains separate from this material
    budgets, deterministic commands, and narrowly stated conclusions.
 
 The [research roadmap](research/ROADMAP.md) gives the next-step sequence and
-acceptance gates. This documentation update implements and runs no new searches.
+acceptance gates. See the milestone records in [the experiment log](research/EXPERIMENTS.md).
 
 See [research policy](research/POLICY.md), [hypothesis log](research/HYPOTHESES.md),
 [experiment log](research/EXPERIMENTS.md), and [published inventory](sources/EXPERIMENTS.md).

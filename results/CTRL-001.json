@@ -1,0 +1,42 @@
+{
+  "experiment": "CTRL-001",
+  "checks": [
+    {
+      "id": "k1",
+      "symbols": 63,
+      "letters": 63,
+      "question_marks": 0,
+      "ciphertext_sha256": "0da44afce6ff53845dee12a15f164036b598fcf40b6c0b3edc83996053c4e2fc",
+      "plaintext_sha256": "a4a581f02185ae92d52bbf55113cb59e73a2914f24af2634ffdb33c1d4988c15",
+      "full_known_answer_and_inverse": "PASS"
+    },
+    {
+      "id": "k2_as_inscribed",
+      "symbols": 372,
+      "letters": 369,
+      "question_marks": 3,
+      "ciphertext_sha256": "385bb27d230b5e903ba04b1256cd1a66f10c5dcc0f4f300b6b89f5879eaa714f",
+      "plaintext_sha256": "8d72075a1e12918ea532e592117094b0220dfe53d76a3ad675d6b9f21e5afad8",
+      "full_known_answer_and_inverse": "PASS"
+    },
+    {
+      "id": "k2_restored_s",
+      "symbols": 373,
+      "letters": 370,
+      "question_marks": 3,
+      "ciphertext_sha256": "db3cb71af1322e0621ab5ab7bf809993467500168bbea91473e4412757aec789",
+      "plaintext_sha256": "a2639001f870100cc924431b29d023e6769e52924898edf0372d0380f53fad21",
+      "full_known_answer_and_inverse": "PASS"
+    },
+    {
+      "id": "k3",
+      "letters": 336,
+      "displayed_separator_excluded": "?",
+      "ciphertext_sha256": "db8807dfc8354a42dc2f52aed3f0b54ac938873372c6b504b4c8d69fdfc85c35",
+      "plaintext_sha256": "ea07f4ff5bc4ffcf6cd2a3e33263d25543ea81d1089ed9a413021d75db46aafc",
+      "permutation_sha256": "e2af6f0df49f4b3f9993be7753ffeb9855613faaaf5e09d28a4ac0c1f64b64b0",
+      "full_known_answer_and_inverse": "PASS"
+    }
+  ],
+  "scope": "Full fixed K1, both K2 variants, and 336-letter K3 controls only; no K4 method inference."
+}

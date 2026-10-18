@@ -2,8 +2,10 @@
 
 Updated 18 October 2026. The approved direction is to learn and reproduce the
 designer's available procedures, then assess small, falsifiable combinations.
-This is a plan; no K1–K3 controls or language-layer searches have been implemented
-or run in this documentation update.
+The original documentation-only plan is retained below. **CTRL-001 update:**
+full K1, both K2 variants, and K3 now pass known-answer and inverse controls;
+see [experiment log](EXPERIMENTS.md) and [source verification](../sources/VERIFICATION.md).
+K3 image transcription and physical paper reconstruction remain outstanding.
 
 ## Inputs and evidence
 

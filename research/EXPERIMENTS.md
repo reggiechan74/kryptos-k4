@@ -17,3 +17,23 @@ makes no statement about a cryptographic method or historical source accuracy.
 - Seed: not applicable; deterministic, one input, no search.
 - Scope: data shape and indexing only; no cryptanalytic hypothesis tested.
 - Code version: this scaffold commit (see Git history); no external dependencies.
+
+## CTRL-001 — exact K1–K3 controls
+
+- Date: 2026-10-18 UTC; deterministic, Python 3.9.6 standard library.
+- Commands: `python3 experiments/check_controls.py > results/CTRL-001.json`
+  and `python3 -m unittest discover -s tests -v`.
+- Input: `data/controls.json`; source provenance and disagreements in
+  [verification](../sources/VERIFICATION.md). Literal expected plaintext fixtures.
+- Parameters: KRYPTOS alphabet, K=0, modular addition, PALIMPSEST / ABSCISSA;
+  question marks preserved without key advancement. K2 original and restored-S
+  variants separate. K3 8×42 CW → 24×14 CW, row-major, 336 letters.
+- Result: all four complete known-answer encrypt/decrypt comparisons PASS.
+  All 15 tests PASS, including 120 seeded synthetic text/key round trips,
+  independent opening vector, punctuation convention, and all 336 unique indices.
+- RNG: Python `random.Random(20261018)` for unit controls only; no search.
+- Runtime: under one second on the local Mac. No dependencies or network in checks.
+- Scope: exact fixtures and stated conventions only. Images not independently
+  transcribed; physical paper reconstruction not claimed. No K4 conclusion.
+- Code/version: CTRL-001 milestone commit in history; output hashes in
+  [results](../results/CTRL-001.json).
