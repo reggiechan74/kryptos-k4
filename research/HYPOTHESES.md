@@ -164,5 +164,14 @@ is explicitly superseded with its original commit retained; 1984/2015 readings
 are separate. The Narva museum model has different ring placement and cannot
 stand in for the installed 1989 clock. Its museum page records a 1972 gift and
 separate 1968 metadata; the 48-image layout assessment is attributed to the parent.
-Exact ENE calibration/full 1989 panels remain unresolved. The reported 1968 sketchbook
-source is still pending. No cipher hypothesis, key or scoped result was changed.
+Exact ENE calibration/full 1989 panels remain unresolved. The reported 1968 study
+source was subsequently supplied and is linked in the evidence report; it has no
+orientation calibration. No cipher hypothesis, key or scoped result was changed.
+
+
+Final bounded clock-source review: 1968 perspective studies supply no north
+reference or inscription schedule. The 2024 Kunsch interview identifies possible
+archival construction documents and original letter patterns, whose unpublished
+contents were not inspected and may not resolve the 1989 state. No public
+north-referenced face plan/full 1989 list was found in the supplied review. This
+negative is bounded; no outreach or new cryptanalytic search was performed.

@@ -340,3 +340,18 @@ at verification time; no visibility mutation was performed by this executor.
   clock; 1989 panel and true-ENE orientation remain unresolved. Sketchbook source pending.
 - Checked dependent current summaries and dated readings. No code, tests,
   cryptanalytic artifacts or model scope changed; no new cipher search executed.
+
+
+## Historical-clock source-note completion — documentation only
+
+- Follow-up to 4835cdd1b4c6cc500788254d1364a5828630dde6. Museum der Dinge
+  study-image source now supplied: parent visually identifies 24–25 June 1968
+  perspective studies without a north reference or inscription schedule.
+- Direct page reads confirmed the museum's 1968 calendar caption/credits and
+  B.Z.'s 23 November 2024 report of Kunsch construction records/1969 letter patterns.
+- Official project page retrieval failed; its lack of published drawings/inventory
+  remains attributed to the parent's review. Unpublished contents not inspected;
+  their ability to settle orientation/1989 state is not assumed.
+- No north-referenced public face plan or full 1989 list found in that bounded review.
+  No outreach authorized or made. Documentation consistency checks only; code and
+  cryptanalytic results unchanged, no cipher tests or searches added.

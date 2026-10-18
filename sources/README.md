@@ -98,4 +98,14 @@ not the superseded SHANGHAI transcription. Earlier Git history remains available
 The LeMO page was directly read for accession 1995/09/0108, photographer credit,
 1972 gift narrative and 1968 catalogue date. Its 48-image layout assessment is supplied
 visual evidence about a different model, not an installed 1989 panel substitute.
-The designer-sketchbook source is pending; no geographic orientation is inferred.
+The designer-study source was subsequently supplied and linked in the report;
+its perspective studies do not establish geographic orientation.
+
+
+The completed source note links the Museum der Dinge exhibition caption and
+24–25 June 1968 studies (visual assessment supplied by the parent), and the
+23 November 2024 B.Z. interview reporting Kunsch construction records and 1969
+letter patterns. No unpublished records were inspected. The official Kunsch page's
+lack of drawings/inventory is a supplied-review finding; this executor's fetch
+failed. No enquiry was authorized or sent, and neither orientation nor the full
+1989 panel is established by these leads.

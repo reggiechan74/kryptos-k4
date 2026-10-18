@@ -133,10 +133,44 @@ executor did not inspect all 48 images, and no rotation images are uploaded
 here. A gift model, even with dated museum provenance, cannot substitute for
 the installed clock's full **1989** inscription or fix its true-ENE orientation.
 
-The parent also reports that a designer's **1968 sketchbook** has no geographic
-orientation. Its specific source is pending; this remains an attributed lead,
-not a newly verified source, calibration, or basis for choosing a city/key.
-Exact true-ENE orientation and the full 1989 candidate panel remain unresolved.
+## Designer's 1968 studies: source supplied, no north calibration
+
+The previously pending source is now identified as the Museum der Dinge
+[Gestalten für Berlin exhibition page](https://museumderdinge.de/ausstellungen/gestalten-fuer-berlin-design-aus-der-kunsthochschule-berlin-weissensee/)
+and its [direct image](https://museumderdinge.de/wp-content/uploads/2026/03/Weltzeituhr_1-1200x800.jpg).
+The page caption identifies Erich John's 1968 pocket calendar with clock sketches,
+credits John as designer and **Armin Herrmann** as photographer. That caption was
+directly read by this executor.
+
+The parent's independent visual inspection identifies **24–25 June 1968**
+perspective studies, without a north arrow, geographic landmarks or an inscription
+schedule. This image assessment is attributed to that visual review; the coding
+executor did not independently inspect the image here, and no image is uploaded.
+These perspective studies do not calibrate a fixed panel to true north or establish
+the full installed 1989 inscriptions. Exact true-ENE orientation remains unresolved.
+
+## Records-custodian lead: published claim, unpublished contents
+
+In [Ralf Drescher's B.Z. interview of 23 November 2024](https://www.bz-berlin.de/berlin/mitte/weltzeituhr-reparatur),
+Stefan Kunsch says Kunsch Metallbau retains the construction documentation. The
+article also reports archival patterns for the letters used in 1969, designed by
+Erich John. Those claims were directly read during this update. Letter patterns
+are not automatically a complete dated city-name inventory or geographic plan.
+
+The parent's source review reports that the
+[official Kunsch project page](https://kunsch-metallbau.de/referenzen-/weltzeituhr-berlin-alexanderplatz/)
+publishes neither construction drawings nor an inscription inventory. This
+executor's web reader could not retrieve that page, so the absence claim remains
+attributed to the supplied review, not a new independent page inspection.
+
+This identifies a potential future archive enquiry, not public access to those
+records. Their contents have not been examined here and may not settle either
+the mounting orientation or the clock's specific 1989 state. **No outreach was
+authorized or made**, and no purchase or external submission occurred.
+
+The parent's completed bounded public-source review found no north-referenced
+face plan and no complete 1989 candidate-panel list. This is a search limit,
+not proof that such evidence does not exist. Both historical questions remain open.
 
 ## Evidence needed to close the gaps
 
@@ -151,9 +185,11 @@ Exact true-ENE orientation and the full 1989 candidate panel remain unresolved.
 3. Relevant leads already identified: Bundesarchiv's original negative/contact
    sheet holdings for Bild 183-1989-0830-028; Landesdenkmalamt Berlin monument
    record 09020854; and the 1997 restorer Hans-Joachim Kunsch's records. These
-   are leads only. No inquiry was sent and no purchase made.
+   are leads only; the Kunsch custodian claim is detailed above. No inquiry was
+   sent and no purchase made.
 
 [Monument record 09020854](https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09020854).
-No additional research or cipher search was performed by this documentation update.
+Only the specifically supplied source pages were checked during this correction;
+no broader research or cipher search was performed by this documentation update.
 The [clock-reset proof and its narrow scope](../research/CLOCK-RESET-PROOF.md)
 remain unchanged; no observed city inscription is a confirmed K4 key.
