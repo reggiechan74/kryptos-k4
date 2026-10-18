@@ -18,6 +18,8 @@ proofs and finite tests have separate scope; compatibility is not a solution.
 | H-PHONETIC-RESPELLING | English → stylized pronunciation respelling → cipher | User-proposed, not a historical Sanborn claim | User examples; bounded specification pending | PHONETIC-SUBSET-001 only | Length-preserving subset: no rescue; broader model unspecified | W→V, voiced TH→Z, unvoiced TH→S, short I→EE, final D→T, final G→K are not universal German pronunciation. Lossy/length-changing rules need an exact inverse; no flexible mapper or crib shifting |
 | H-GERMAN-TRANSLATION | English → one specified German rendering → cipher | User-proposed translation hypothesis | User proposal; bounded specification pending | No run | Missing exact rendering/inverse/codebook | Word order and length may change. No translator-choice fitting, shifted English crib positions, or claim that Berlin proves a German layer |
 
+| H-GEO-ENE | The World Clock may be ENE of another referenced place, or a reference may lie ENE of it | User-proposed geographic hypothesis with supplied source receipt | OSM centers and Berlin monument record; geographic note | No cipher run | Approximate, nonexhaustive geometry only | Fountain→clock about68.25°/471m versus ENE67.5°; no key or intentional Kryptos link established, no landmark search expansion |
+
 H-WORD-SCRAMBLE concerns interior permutation, not the K1 IQLUSION or K3
 DESPARATLY spelling anomalies. Readability is conditional; SALT/SLAT and
 FORM/FROM show that preserving endpoints does not identify an original word.

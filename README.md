@@ -130,3 +130,7 @@ original spec/results shared a commit, which does not prove preregistration.
 Current validation: [77 passing tests](results/SEQUENTIAL-BRANCHES-VALIDATION.json),
 including immutable artifact/hash replays. [Specification chronology](results/SPECIFICATION-CHRONOLOGY.json)
 records each new specification before its code and actual run.
+
+The later [World Clock / ENE geographic note](docs/world-clock-ene-geography.md)
+records supplied approximate map comparisons and uncertainty, without a cipher
+search, exhaustive landmark claim, or key derivation.
