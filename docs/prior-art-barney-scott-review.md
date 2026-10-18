@@ -225,8 +225,9 @@ verified from retained artifacts.
 
 No mass experiment, code execution from either repository, new corpus, paid
 submission, arbitrary keyword expansion or hard fingerprint filter was added.
-The public-visibility request remains pending the user's unlocking the Mac;
-this documentation does not change sharing settings. The supplied overlap review
+The Mac lock blocked this executor's earlier visibility action. Final GitHub
+metadata verification during this review subsequently reported the repository
+public; this documentation update did not change sharing settings. The supplied overlap review
 is preserved above with static-review versus third-party-report distinctions.
 
 ## Reproduce the local bookkeeping only

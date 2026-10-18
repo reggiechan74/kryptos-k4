@@ -274,4 +274,11 @@ final frozen proof specification is pending. Existing result files remain unchan
   Elonka accounts retained as supplied disputed testimony, without invented quotes.
 - Command: `python3 -m unittest discover -s tests -v`.
 - Result: 90 tests pass, 8.313 s, no failures/errors. Existing artifact replays pass.
-- Visibility change remains separately blocked by locked Mac; no bypass attempted.
+- The Mac lock initially blocked this executor's visibility action; no bypass
+  attempted. Final GitHub metadata subsequently reported public visibility. This
+  documentation update did not change sharing settings.
+
+Final public-access verification: unauthenticated web reader returned the GitHub
+repository page (Public label, Sign in link) and raw README pinned to
+4127afb315d821f86cc0240ac49450a6b41eef46. The prior visibility blocker is resolved
+at verification time; no visibility mutation was performed by this executor.
