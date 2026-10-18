@@ -166,3 +166,27 @@ Final validation after the narrow respelling follow-up: all77tests pass, no
 failures/errors, in7.300s suite time. [Validation record](../results/SEQUENTIAL-BRANCHES-VALIDATION.json)
 includes current code/test hashes. All5new run specification/code/start ordering
 checks pass in the chronology receipt. The older audited artifacts remain unchanged.
+
+## Independent audit receipt for ba10b1b
+
+A supplied independent audit of ba10b1b3f38eb7829ef45ea427348bffd51768cd
+reported no result-changing bugs. It independently verified the 37,060 GOST,
+12 autokey, 2 Fractionated Morse and 24 word-interior checks, plus specification
+chronology. This is an attributed audit receipt; this coding update does not
+claim authorship of that independent review. Local regression replay is recorded
+separately below.
+
+## DIRECT-ENIGMA-001 — exact aligned reflector boundary
+
+- Scope fixed by the requested update: position 74 K→K only; no rotor/key scan.
+- Command: `python3 -m unittest discover -s tests -p 'test_direct_enigma.py' -v`.
+- Data: unchanged 97-letter fixture and BERLINCLOCK at positions 64–74.
+- Result: position 74 has ciphertext K and confirmed plaintext K, incompatible
+  with a direct aligned standard wartime fixed-point-free reflector model.
+- Mathematical control: 26 toy bijections, Python MT19937 seed 20261018; no
+  historical wiring or sampled rotor-search claim. The general proof supplies
+  the conclusion; extra transforms are outside scope.
+- Period-map documentation preserves supplied evidence only; no additional map
+  search, German-name extraction or new cryptanalytic workload was launched.
+- Full local replay: see `results/PERIOD-MAP-ENIGMA-VALIDATION.json`. Earlier
+  validation records and audited artifacts remain historical and unchanged.

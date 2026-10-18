@@ -32,3 +32,22 @@ alignment, exact English inverse, and cipher/key scope must precede a search.
 The narrow W/final-D/final-G subset was subsequently registered and checked in
 PHONETIC-SUBSET-001. It leaves all known words unchanged and rescues none of the
 12 fixed outputs. TH/I changes and German translation remain outside that run.
+
+## Geographic branches and extraction gate
+
+The [1985 period-map report](../docs/berlin-period-map-corridor.md) separates
+H-GEO-ENE's clock-terminal approach (Neptunbrunnen WSW → clock ENE) from a
+geometric-midpoint model. The latter fixes the reflected point at
+52.52273224799, 13.41976896153; it must not be snapped to a named landmark.
+Current walking halves 532 m and 622 m make the clock unequal as a walking
+midpoint. Period map geometry supplies no printed gateway/Tor label; gateway
+wordplay is a modern architectural interpretation. German-initial extraction
+has no unique route, names, eligibility or tie rules and remains uninstantiated;
+no forced ten-feature list or key has been produced.
+
+## H-ENIGMA-DIRECT
+
+The direct aligned standard wartime reflector Enigma model is contradicted by
+one-based position 74: plaintext K and ciphertext K. See the
+[proof and exact scope](../docs/direct-enigma-boundary.md), DIRECT-ENIGMA-001.
+Extra transforms and other Enigma/composite models are outside this conclusion.

@@ -134,3 +134,11 @@ records each new specification before its code and actual run.
 The later [World Clock / ENE geographic note](docs/world-clock-ene-geography.md)
 records supplied approximate map comparisons and uncertainty, without a cipher
 search, exhaustive landmark claim, or key derivation.
+
+The [bounded 1985 map report](docs/berlin-period-map-corridor.md) separates the
+clock-terminal approach, fixed geometric reflection, and unequal walking halves.
+German-initial extraction remains uninstantiated. The
+[direct Enigma boundary](docs/direct-enigma-boundary.md) rejects only the direct
+aligned standard reflector model using the confirmed K→K at position 74.
+[Latest validation](results/PERIOD-MAP-ENIGMA-VALIDATION.json) records the local
+regression replay; earlier validation receipts are preserved.

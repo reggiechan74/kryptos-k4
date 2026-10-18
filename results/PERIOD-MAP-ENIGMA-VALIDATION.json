@@ -1,0 +1,22 @@
+{
+  "id": "PERIOD-MAP-ENIGMA-VALIDATION",
+  "status": "completed",
+  "recorded_at_utc": "2026-10-18T12:00:46.104564+00:00",
+  "parent_commit": "ba10b1b3f38eb7829ef45ea427348bffd51768cd",
+  "command": "python3 -m unittest discover -s tests -v",
+  "tests_run": 79,
+  "failures": 0,
+  "errors": 0,
+  "suite_seconds": 7.499,
+  "baseline_command": "python3 experiments/check_baseline.py",
+  "baseline_result": "PASS: 97 uppercase ASCII letters; two consistent one-based crib intervals",
+  "scope": "Existing controls/artifact replay plus two direct-Enigma boundary tests; supplied map report documented without further retrieval or search. Earlier validation receipts unchanged.",
+  "file_sha256": {
+    "README.md": "f34305d6dd60e8f48b2be74e13024cd14b95f225042ffd88441aaf909d84ec31",
+    "research/HYPOTHESES.md": "4d7348f3ce54ebe6785504ea32e825da998d66f419e599b3f5005d76f998ec2d",
+    "research/EXPERIMENTS.md": "c86c980860dec0c1c7da2ee1e4650a9aa82cd4523893cc3da54c72dfb2be27b9",
+    "docs/berlin-period-map-corridor.md": "fbbdcc08b11765587b20e8d11519bc8277bdd107fbe9df07d31be73ab2a94dfb",
+    "docs/direct-enigma-boundary.md": "d76f092a98f5e28aa809384337e2f054529d467ed2e568e2d4be41fb14879022",
+    "tests/test_direct_enigma.py": "643833fcbd835958b29288cde54c5320b6e2e3c5f998ca3de120b2a6e2cba3bc"
+  }
+}
