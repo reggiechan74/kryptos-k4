@@ -1,0 +1,28 @@
+{
+  "experiment": "BASE60-BEAUFORT-CONTINUATION-001",
+  "status": "complete",
+  "tests": {
+    "passed": 127,
+    "seconds": 8.068,
+    "previous124_preserved": true,
+    "command": "python3 -m unittest discover -s tests -v"
+  },
+  "original_checkpoint_hash_verified": true,
+  "new_input_hashes_verified": true,
+  "chunk_disjointness_and_exact_eligible_ranks_verified": true,
+  "chunk_count": 64,
+  "max_chunk_seconds": 0.555901,
+  "new_evaluated": 3140000,
+  "previous_evaluated": 100000,
+  "total_enumerated_unique_primers": 3240000,
+  "analytically_rejected_unique_primers": 23115600,
+  "total_unique_covered": 26355600,
+  "nominal_labeled_tuples_covered": 26359200,
+  "feasible": 0,
+  "unresolved": 0,
+  "remaining": 0,
+  "actual_continuation_seconds": 32.39737,
+  "raw_sha256": "ceb593731db2ef8119a46c52b70b4ac0b65f37f9bf07dee098f931f97bf66f73",
+  "original_artifact_preserved": true,
+  "scope": "Both original base60 recurrences, L2-4, direct alignment, one shared unknown bijective alphabet, trueBeaufort. No other cipher family or longer primer claim."
+}

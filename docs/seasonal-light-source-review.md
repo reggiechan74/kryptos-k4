@@ -85,3 +85,30 @@ scoring, then require full 97-letter re-encryption and controls for the complete
 pipeline. Existing confirmed cribs are not fresh blind holdouts.
 The next justified step is a validated optical model or a precise missing
 measurement, not selecting calendar dates to improve a crib score.
+
+## Pool-reflection hypothesis
+
+A reflected view of the letters is physically plausible, but no inspected image
+in the supplied independent review establishes a readable **K4** reflection.
+The [CIA description](https://www.cia.gov/legacy/headquarters/kryptos-sculpture/)
+distinguishes a calm reflective pond across from the centerpiece from the bubbling
+pool surrounded by copper. Its intentionally flipped tableau concerns reading
+from behind; that statement alone does not identify a water-mirror mechanism.
+The review inspected official [full sculpture](https://www.cia.gov/static/abd544959a29872a36a9a76b7ef28542/d8196/kryptos_sculpture_3_lg.jpg),
+[circular basin](https://www.cia.gov/static/a27ae725e303b7c021384ac9688579e8/1949f/kryptos_sculpture_5_lg.jpg)
+and [separate pond](https://www.cia.gov/static/a7fef231bde095e3adf705e4ce8e1ead/1949f/kryptos_sculpture_7_lg.jpg)
+photographs. This executor records that supplied image-review finding; it has
+not measured a reflecting plane or camera pose from those images.
+The supplied Smithsonian oral-history review says the circular pool was intended
+to spin vigorously, so it should not be assumed a calm planar mirror.
+
+For ideal level water at z=0, the virtual object image is
+`(x,y,z) -> (x,y,-z)`, then viewed in perspective. This is not automatically a
+string reversal, Atbash, or a 180° layout rotation. Object reflection differs from
+sunlight transmitted through letter apertures. If reflected glyphs are recognized
+as the same letters and merely reordered, counts are preserved, so the existing
+[permutation-only E-count boundary](../research/STRUCTURAL-FINDINGS.md) still applies.
+Optical selection, altered glyph interpretation or a composite cipher is a
+different, currently unspecified model. Before any extraction, identify an actual
+viewpoint, reflecting surface and visible letter sequence. No new render, mirror
+key sweep or outreach was performed.

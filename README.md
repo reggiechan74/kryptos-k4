@@ -187,8 +187,11 @@ all hypothetical direct repeating-key periods 1–12: the first crib requires 13
 distinct keys in 13 consecutive positions. All 118 tests pass. [Source scope](docs/silk-chart-source-and-scope.md)
 distinguishes modern provenance, checked pixels and unestablished creator use.
 
-[True-Beaufort base-60 audit](research/BASE60-BEAUFORT-FINDINGS.md) closes all
-length-2/3 primers analytically, reduces length 4 to 3,240,000 primers, and
-contradicts the first 100,000 reduced candidates. **3,140,000 remain untested**;
-this is verified partial coverage. All 124 tests pass, including modular-sum
-and complete-bijection controls. No solar geometry or language filter was used.
+[True-Beaufort base-60 audit](research/BASE60-BEAUFORT-FINDINGS.md) now has
+complete exact coverage: 23,115,600 unique primers rejected analytically and
+3,240,000 evaluated, with zero feasible or unresolved cases. The unchanged two
+recurrences at lengths 2–4 are contradicted under direct shared-alphabet
+true Beaufort. All 127 tests pass. [Continuation receipts](results/BASE60-BEAUFORT-CONTINUATION-VALIDATION.json)
+preserve exact ranges and the earlier partial checkpoint. No broader cipher-family
+exclusion follows. [Seasonal light and pool reflection](docs/seasonal-light-source-review.md)
+remain separate, source-qualified hypotheses with no optical search.

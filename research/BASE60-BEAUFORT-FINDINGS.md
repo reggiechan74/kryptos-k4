@@ -1,10 +1,17 @@
-# BASE60-BEAUFORT-001 — verified partial coverage
+# BASE60-BEAUFORT-001 — complete coverage of the fixed model
 
-18 October 2026. The genuine-Beaufort gap is real for the two reviewed base-60
-recurrences, but this bounded audit **does not close the entire length-4 space**.
-An exact parity proof excludes all length-2/3 primers and most length-4 primers.
-The first 100,000 remaining primers tested are contradicted; **3,140,000 remain
-untested**. No full plaintexts, language filters or solar geometry were used.
+18 October 2026. The checkpoint continuation completed the exact reviewed gap:
+**no feasible shared alphabet exists for either original base-60 recurrence with
+primer lengths 2–4 under direct true-Beaufort alignment**. Parity rejects
+23,115,600 unique primers; all remaining 3,240,000 were evaluated and contradicted.
+Total coverage is 26,355,600 unique tuples, or 26,359,200 nominal rule-labeled
+tuples because L2's two rules coincide. Zero remain untested or unresolved.
+This excludes only this fixed model, not longer primers, other recurrences,
+transposition, other alphabets/models or a broader cipher family. No full
+plaintexts, language filters or solar geometry were used.
+
+The initial 100,000-candidate partial result below is retained as checkpoint
+history; the completed continuation at the end supersedes its untested count.
 
 ## Frozen model and prior-art gap
 
@@ -63,7 +70,7 @@ also solves the entire binary graph and parity-capacity constraint, independentl
 matching these rows and survivor masks. This pruning is topology-specific;
 synthetic controls rebuild their own graphs.
 
-## Exact feasibility and bounded executed range
+## Exact feasibility and initial bounded executed range
 
 A component uses `X(v)=sign_v*t+offset_v mod26`. Each edge constrains
 `(sign_u+sign_v)*t=d-offset_u-offset_v`. Opposite signs give a zero-coefficient
@@ -117,6 +124,57 @@ python3 experiments/base60_beaufort.py --spec-commit 1217239dfbca5649458b89e94d3
 
 [Raw result and exact checkpoints](../results/BASE60-BEAUFORT-001.json),
 [validation receipt](../results/BASE60-BEAUFORT-VALIDATION.json).
-Continuation would need a separately frozen budget and checkpoint-aware runner.
+The separately frozen checkpoint continuation is reported below.
 Seasonal light/sundial research is separate source work and supplied no experiment
 parameters. No historical mechanism or K4 solution follows from this bounded negative.
+
+## Completed checkpoint continuation
+
+The user extended the candidate-count ceiling within the unchanged model.
+The first 100,000 took 0.986906 s, implying about 31 seconds for the remainder.
+[Continuation specification](specifications/BASE60-BEAUFORT-CONTINUATION-001.json)
+was committed before implementation at `41698a7bb46572ababd3e300300c0eade8b1eb5d`.
+The checkpoint runner was committed before execution at
+`119ec9ce21d4226e9da732265324c9ac7ff591eb`.
+
+It resumed exactly at original codes 307961 (rule 0) and 829960 (rule 1), without
+solving already processed candidates. Binary search within each ordered parity
+class starts at the saved code; eligible classes merge in original code order.
+The remaining 3,140,000 took **32.397370 seconds** in **64 atomic checkpoint chunks**;
+maximum chunk time 0.555901 s, within the frozen 5-second/50,000-candidate chunk
+and 120-second aggregate limits. Checkpoints use temporary-file/fsync/replace.
+
+| L / rule | Analytically rejected unique primers | Total actually evaluated | Final state |
+| --- | ---: | ---: | --- |
+| 2 / 0 (both rule labels) | 3,600 | 0 | exhausted analytically |
+| 3 / 0 | 216,000 | 0 | exhausted analytically |
+| 3 / 1 | 216,000 | 0 | exhausted analytically |
+| 4 / 0 | 10,530,000 | 2,430,000 | exhausted |
+| 4 / 1 | 12,150,000 | 810,000 | exhausted |
+
+All 3,240,000 enumerated cases are local sum/injectivity contradictions. There
+are zero locally compatible/global-contradictory classifications, complete
+feasible alphabets, solver-capped cases or unprocessed candidates. This distinction
+retains the exact solver's stronger feasibility categories even though none of
+these candidates reached them. Four specialized modular equations supplied by
+the independent reviewer were not needed as an added candidate filter.
+
+**127 tests pass in 8.068 seconds**, preserving all prior 124. New tests verify
+binary-search boundaries, merged ordering/no repeats, peek behavior and atomic
+checkpoint replacement. Validation checks every chunk's exact eligible-rank
+interval, first/last/next code, classification sum and continuity from the old
+checkpoint. Inputs and original checkpoint hashes match; the original partial
+result remains unchanged. No completed range was repeated.
+
+```sh
+python3 experiments/resume_base60_beaufort.py --spec-commit 41698a7bb46572ababd3e300300c0eade8b1eb5d --code-commit 119ec9ce21d4226e9da732265324c9ac7ff591eb
+```
+
+This command starts from the preserved initial checkpoint if no continuation
+output exists, resumes an interrupted output with matching hashes, and refuses
+to repeat a completed result. Preserve the committed completed result when
+reproducing in a separate copy.
+[Final result and all chunk records](../results/BASE60-BEAUFORT-CONTINUATION-001.json),
+[final validation](../results/BASE60-BEAUFORT-CONTINUATION-VALIDATION.json).
+The exact S1 true-Beaufort gap for these lengths is now closed; stop here without
+expanding cipher scope.
