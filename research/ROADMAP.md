@@ -107,3 +107,8 @@ be committed before its run and referenced by commit and exact file hash.
 was pushed before implementation/execution. No general language or masking
 family was eliminated. Further work needs a new independently motivated finite
 specification; none of these failures authorizes more variants automatically.
+
+A subsequent [narrow respelling feasibility check](PHONETIC-FEASIBILITY.md) is
+complete without search expansion. The user's length-changing phonetic rules
+and German translation idea remain distinct hypotheses requiring an exact
+rendering/inverse/alignment specification; no flexible mapper was introduced.

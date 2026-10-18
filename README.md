@@ -64,6 +64,11 @@ The requested language → masking → word-scrambling sequence is complete:
 - [Word-interior proposal](research/WORD-SCRAMBLING-FINDINGS.md): all 24fixed
   combinations fail endpoint/count invariants; no broader cipher claim follows.
 
+The subsequent [narrow respelling gate](research/PHONETIC-FEASIBILITY.md) leaves
+all four clue words unchanged and rescues none of the same 12 autokey outputs.
+Length-changing phonetic rules and German translation remain unspecified; no
+flexible decoding or shifted cribs were used.
+
 Each specification was committed before implementation and the actual run;
 immutable manifests record spec/code commits, hashes, controls, and status.
 No K4 solution is claimed. Older milestones and audited results remain preserved.
@@ -121,3 +126,7 @@ original spec/results shared a commit, which does not prove preregistration.
 
 [K3 worksheet verification](docs/k3-worksheet-verification.md) distinguishes
 336-letter computational equivalence from partly reconstructed historical procedure.
+
+Current validation: [77 passing tests](results/SEQUENTIAL-BRANCHES-VALIDATION.json),
+including immutable artifact/hash replays. [Specification chronology](results/SPECIFICATION-CHRONOLOGY.json)
+records each new specification before its code and actual run.

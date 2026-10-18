@@ -56,3 +56,9 @@ prior specification/code commits and exact hashes. Source/specification/result
 links are in the three new findings documents linked from the root README.
 These specifications genuinely precede the runs in Git history; the older b83
 registration limitation remains unchanged and is not retroactively repaired.
+
+`phonetic-subset-runs/` records the subsequent deterministic length-preserving
+respelling check. Current overall verification is
+[SEQUENTIAL-BRANCHES-VALIDATION.json](SEQUENTIAL-BRANCHES-VALIDATION.json),77tests.
+The earlier73test record remains historical. The chronology receipt now covers
+all5new runs, each with a genuinely prior specification and code commit.

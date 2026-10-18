@@ -150,3 +150,19 @@ specification commits, subsequent code commits, and actual run start times for
 all4new runs. This is independent of the older b83 preregistration limitation.
 H-PHONETIC-RESPELLING and H-GERMAN-TRANSLATION were recorded as distinct user
 proposals only; no mapper, translation fitting, or shifted cribs were implemented.
+
+## PHONETIC-SUBSET-001 — small deterministic follow-up
+
+- Prior spec:35477f6c045d4cd831f9c72e60790042e93f6ba4; code:f3b9792ae11afc81a360de12d78c63777d261bc9.
+- Only W→V and word-final D→T/G→K on explicit uppercase word tokens.
+- All four clue words unchanged; original24character masks remain identical
+  across the same12frozen autokey outputs;0rescued cases. No new keys or scores.
+- Positive synthetic vectors and WET/VET loss example pass. TH/I rules and German
+  translation not implemented; pronunciation/dictionary and alignment absent.
+- Five-second cap, one process, immutable run status/hashes;
+  [findings and record](PHONETIC-FEASIBILITY.md).
+
+Final validation after the narrow respelling follow-up: all77tests pass, no
+failures/errors, in7.300s suite time. [Validation record](../results/SEQUENTIAL-BRANCHES-VALIDATION.json)
+includes current code/test hashes. All5new run specification/code/start ordering
+checks pass in the chronology receipt. The older audited artifacts remain unchanged.

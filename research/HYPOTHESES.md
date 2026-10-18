@@ -15,7 +15,7 @@ proofs and finite tests have separate scope; compatibility is not a solution.
 | H-MASK-AUTO | One fixed-primer autokey procedure explains K4 | Exploratory historical mechanism, not identified Scheidt method | Army TM32-220; existing K1/K2 keys as inference | MASK-AUTO-001 | 12 fixed cases rejected | All regenerate C but fail the English cribs; broader autokey remains open |
 | H-MASK-FM | One of two literal Fractionated Morse maps explains K4 | Exploratory historical mechanism | ACA procedure/index; Morse artwork connection | MASK-FM-001 | Two fixed cases rejected | Both streams contain invalid internal xxx; no broader keyed/composite family conclusion |
 | H-WORD-SCRAMBLE | Preserve endpoints and permute word interiors before a cipher | User-proposed hypothesis, not established history | Fixed WORD-SCRAMBLE-001 specification | WORD-SCRAMBLE-001 | 24 fixed combinations rejected | Both assumed segmentations fail endpoints for all 12 frozen autokey settings; broader pre-scrambling plus cipher remains open |
-| H-PHONETIC-RESPELLING | English → stylized pronunciation respelling → cipher | User-proposed, not a historical Sanborn claim | User examples; bounded specification pending | No run | Await fixed rules/alignment | W→V, voiced TH→Z, unvoiced TH→S, short I→EE, final D→T, final G→K are not universal German pronunciation. Lossy/length-changing rules need an exact inverse; no flexible mapper or crib shifting |
+| H-PHONETIC-RESPELLING | English → stylized pronunciation respelling → cipher | User-proposed, not a historical Sanborn claim | User examples; bounded specification pending | PHONETIC-SUBSET-001 only | Length-preserving subset: no rescue; broader model unspecified | W→V, voiced TH→Z, unvoiced TH→S, short I→EE, final D→T, final G→K are not universal German pronunciation. Lossy/length-changing rules need an exact inverse; no flexible mapper or crib shifting |
 | H-GERMAN-TRANSLATION | English → one specified German rendering → cipher | User-proposed translation hypothesis | User proposal; bounded specification pending | No run | Missing exact rendering/inverse/codebook | Word order and length may change. No translator-choice fitting, shifted English crib positions, or claim that Berlin proves a German layer |
 
 H-WORD-SCRAMBLE concerns interior permutation, not the K1 IQLUSION or K3
@@ -27,3 +27,7 @@ H-PHONETIC-RESPELLING (requested as H-PHONETIC-RESPelling) is an English
 respelling layer, distinct from H-GERMAN-TRANSLATION. Neither was added to the
 completed finite runs. A fixed rule domain, ambiguities/losses, cross-layer
 alignment, exact English inverse, and cipher/key scope must precede a search.
+
+The narrow W/final-D/final-G subset was subsequently registered and checked in
+PHONETIC-SUBSET-001. It leaves all known words unchanged and rescues none of the
+12 fixed outputs. TH/I changes and German translation remain outside that run.

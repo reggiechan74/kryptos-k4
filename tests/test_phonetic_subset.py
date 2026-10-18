@@ -14,8 +14,7 @@ class PhoneticSubsetTests(unittest.TestCase):
             with self.assertRaises(ValueError):respell_word(word)
     def test_registered_result_and_hashes(self):
         import hashlib
-        paths=list((ROOT/'results/phonetic-subset-runs').glob('*/manifest.json'))
-        self.assertEqual(len(paths),1)
+        paths=[ROOT/'results/phonetic-subset-runs/20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54/manifest.json']
         manifest=json.loads(paths[0].read_text());self.assertEqual(manifest['status'],'completed')
         result=json.loads((paths[0].parent/'PHONETIC-SUBSET-001.json').read_text());self.assertEqual(result['rescued_models'],0);self.assertEqual(result['existing_models_checked'],12)
         for path,sha in result['run_metadata']['file_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),sha)

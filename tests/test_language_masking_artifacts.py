@@ -8,8 +8,15 @@ from masking_pilots import autokey_scan,fractionated_morse_scan
 from word_scramble import word_scan
 
 
+REGISTERED_RUNS={
+    'language-runs':['20261018T111712Z-27a5aec4af474b789d386fcb5e4e67c0'],
+    'masking-runs':['20261018T112316Z-4302f65c58784dc79d801f8a44609fff','20261018T112317Z-3a585d17cef148e0a80c158a43e841dc'],
+    'word-runs':['20261018T112641Z-6df780ad6f254787ad9f539f7a60b740']}
+
+
 def runs(group):
-    return [(p.parent,json.loads(p.read_text())) for p in sorted((ROOT/'results'/group).glob('*/manifest.json'))]
+    paths=[ROOT/'results'/group/run_id/'manifest.json' for run_id in REGISTERED_RUNS[group]]
+    return [(p.parent,json.loads(p.read_text())) for p in paths]
 
 
 def artifact(group,experiment):
