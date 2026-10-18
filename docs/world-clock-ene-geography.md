@@ -69,3 +69,11 @@ No keyword, number, plaintext, route dimensions, or encryption mechanism was
 derived. Any cipher test based on geography needs a separately fixed hypothesis,
 independent source motivation, explicit uncertainties, and a committed finite
 specification. The note does not promote geographic proximity into a solution.
+
+[Exact-bearing footprint review](world-clock-exact-axis-footprints.md) refines the
+center-versus-footprint distinction: the exact ENE ray intersects part of the
+already identified Haus der Statistik despite its off-axis center marker.
+Modern and 1985-map evidence are qualified separately; 67.5° remains distinct
+from the earlier 68.25° fountain-centre axis. No new key was extracted.
+[Inauguration/dedication astronomy](inauguration-dedication-astronomy.md) is a
+separate bounded source review, not evidence that either axis encodes a date.

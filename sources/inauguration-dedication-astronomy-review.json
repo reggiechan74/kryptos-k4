@@ -1,0 +1,50 @@
+{
+  "review": "inauguration-dedication-astronomy",
+  "recorded_date": "2026-10-18",
+  "kind": "supplied independent bounded astronomical review; executor source reads, no local ephemeris rerun",
+  "event_dates": {
+    "WorldClock_inauguration": "1969-09-30",
+    "Kryptos_dedication": "1990-11-03",
+    "Kryptos_design_selection": "1988-11",
+    "exact_design_selection_day_known": false
+  },
+  "NASA_catalogue_eclipse_on_either_event_date": false,
+  "NASA_year_entries_read_here": true,
+  "supplied_USNO_phase_times_UT": {
+    "full_moon_1969": "1969-09-25T20:21",
+    "last_quarter_1969": "1969-10-03T11:05",
+    "full_moon_1990": "1990-11-02T21:48"
+  },
+  "local_USNO_API_fetch": "webtool inaccessible; retain attribution to independent supplied review",
+  "supplied_solar_declination_noon_UT_deg": {
+    "1969-09-30": -2.84,
+    "1990-11-03": -15.07
+  },
+  "geometric_ENE_minimum_declination_deg": {
+    "Berlin": 13.47,
+    "Langley": 17.31
+  },
+  "direct_geometric_ENE_sun_on_dates": false,
+  "WSW_sun_shadow_and_reflections_excluded": false,
+  "supplied_Horizons_geocentric_apparent_ecliptic_samples": [
+    {
+      "time_UT": "1969-09-30T12:00",
+      "Mercury_longitude_deg": 184.8377,
+      "Mercury_latitude_deg": -2.1453,
+      "Uranus_longitude_deg": 184.5821,
+      "Uranus_latitude_deg": 0.6861
+    },
+    {
+      "time_UT": "1969-09-30T18:00",
+      "Mercury_longitude_deg": 184.568,
+      "Uranus_longitude_deg": 184.5979
+    }
+  ],
+  "longitude_crossing_interpolation_approx_UT": "1969-09-30T17:22",
+  "event_time_precision": "sixhour samples/interpolation, not exactsolution",
+  "separation_approx_deg": 2.8,
+  "solar_elongation_approx_deg": 3,
+  "full_Horizons_query_response_materialized_here": false,
+  "designer_intent_evidence": false,
+  "new_cipher_test": false
+}

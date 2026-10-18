@@ -1,0 +1,94 @@
+{
+  "review": "WorldClock-exact-ENE-WSW-footprints",
+  "recorded_date": "2026-10-18",
+  "source_kind": "supplied independent WGS84Vincenty/polygon and1985raster analysis; no local recomputation",
+  "origin_wgs84": {
+    "latitude": 52.5211638,
+    "longitude": 13.4133059
+  },
+  "true_bearings_deg": [
+    67.5,
+    247.5
+  ],
+  "OSM_snapshot_date": "2026-05-31",
+  "OSM_retrieved_date": "2026-10-18",
+  "polygon_intersections_m": [
+    {
+      "feature": "DieMitte",
+      "way": 24273422,
+      "bearing": 67.5,
+      "entry": 95.465,
+      "exit": 168.355,
+      "building_date": 2009
+    },
+    {
+      "feature": "Alea101",
+      "way": 159958500,
+      "bearing": 247.5,
+      "entry": 130.0,
+      "exit": 191.639,
+      "building_date": 2014
+    },
+    {
+      "feature": "HausderStatistik",
+      "way": 24271930,
+      "bearing": 67.5,
+      "entry": 326.748,
+      "exit": 352.325,
+      "historic_date": "1968-70",
+      "1985_raster_approx_m": [
+        327,
+        353
+      ]
+    },
+    {
+      "feature": "NeptuneBasin",
+      "way": 23813204,
+      "bearing": 247.5,
+      "entry": 467.71,
+      "exit": 475.01,
+      "center_hit": false
+    }
+  ],
+  "historical_raster_only": [
+    {
+      "feature": "TVtowerSouthPavilion",
+      "bearing": 247.5,
+      "entry_exit_approx_m": [
+        257,
+        291
+      ],
+      "date": "1969-72",
+      "modern_polygon_fetch": "failed"
+    },
+    {
+      "feature": "station_edge",
+      "entry_exit_approx_m": [
+        90,
+        110
+      ],
+      "status": "grazewithinrasteruncertainty; not robust solidbuilding hit"
+    }
+  ],
+  "near_miss_m": {
+    "tower_shaft": 50.4,
+    "modern_station_hall_way20144781": 5.45,
+    "Berolinahaus": 22.2,
+    "Alexanderhaus": 9.95
+  },
+  "map_source": "HistoMapK5sheet423D1985layer423_D_1985",
+  "limits": [
+    "Groundplan not3D visibility",
+    "Mapped origin notsurveyed",
+    "Engine decimals notrealworldmillimetre precision",
+    "Noexact1989mapedition",
+    "Not equalmidpoint",
+    "Keep67.5bearing distinctfrom68.25fountain-centreaxis"
+  ],
+  "library_map": {
+    "filename": "clock_axis_verified.png",
+    "parent_visually_checked": true,
+    "materialized_or_uploaded_by_this_executor": false
+  },
+  "new_cipher_test": false
+}
