@@ -1,0 +1,28 @@
+{
+  "id": "WORD-SCRAMBLE-001",
+  "status": "fixed_specification_commit_before_implementation_and_execution",
+  "classification": "user_proposed_combined_hypothesis_not_established_historical_method",
+  "pipeline": "final English P -> word-interior permutation M -> intermediate Q -> one of the existing12fixed autokey encryptions E -> ciphertext C",
+  "baseline": "data/k4.json",
+  "fixed_autokey_specification": "research/specifications/MASK-AUTO-001.json",
+  "fixed_intermediate_artifact": "results/masking-runs/20261018T112316Z-4302f65c58784dc79d801f8a44609fff/MASK-AUTO-001.json",
+  "intermediate_validation": "Exactly the registered12alphabet/primer/feedback tuples, complete97letter Q, and exact autokey forward regeneration of canonical C before checking permutation invariants.",
+  "segmentation_branches": [
+    {"id":"A_separate_direction_words","assumption":"Word boundaries are assumed, not established facts","words":[{"start":22,"end":25,"text":"EAST"},{"start":26,"end":34,"text":"NORTHEAST"},{"start":64,"end":69,"text":"BERLIN"},{"start":70,"end":74,"text":"CLOCK"}]},
+    {"id":"B_compound_direction_unit","assumption":"EASTNORTHEAST is one compound unit; boundary choice is an explicit assumption","words":[{"start":22,"end":34,"text":"EASTNORTHEAST"},{"start":64,"end":69,"text":"BERLIN"},{"start":70,"end":74,"text":"CLOCK"}]}
+  ],
+  "word_invariants": ["exact_word_length","first_letter_unchanged","last_letter_unchanged","exact_interior_letter_multiset"],
+  "indexing": "one_based_inclusive_finalEnglish_positions_unchanged_by_length_preserving_M",
+  "case_count": 24,
+  "key_fitting": "none; reuse the12complete deterministic intermediates, never derive keys from cribs",
+  "permutation_enumeration": "none; endpoint/count necessity tests only, no factorial enumeration",
+  "forbidden_variants": ["new_primers","new_shifts","new_alphabets","new_lags","new_segmentations","post_hoc_word_boundaries","arbitrary_permutations_to_fit_cribs"],
+  "survivor_meaning": "compatibility only; would still need a complete97letter P, explicit full-word boundaries, reproducible invertible permutation schedule, and exact full forward regeneration; no automatic expansion",
+  "controls": {"seed":20261018,"generator":"Python random.Random/MT19937","planted_acceptance":"all12autokey settings x2branches, using a declared reverse-interior schedule for synthetic controls only","negative_controls":["changed_endpoint","changed_interior_multiset"],"ambiguity_example":["SALT","SLAT"],"schedule_inverse":"verify full roundtrip when the synthetic permutation schedule is retained; do not claim uniqueness if it is discarded"},
+  "resource_limits": {"processes":1,"deadline_seconds":10,"checks_maximum":24},
+  "scoring": "none",
+  "null_controls": "none for deterministic necessary constraints; compatible cases are not evidence or complete solutions",
+  "readability_source": "https://www.mrc-cbu.cam.ac.uk/people/matt-davis/cmabridge/",
+  "spelling_reference": "https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/cia-kryptos-sculpture/KRYPTOS_Summary.pdf",
+  "scope_limit": "Negative results exclude only these24combinations; preserved endpoints do not guarantee readability or exact inverse. Original spelling anomalies are not evidence of an interior-permutation mask."
+}

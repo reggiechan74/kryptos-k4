@@ -1,0 +1,27 @@
+{
+  "run_id": "20261018T112316Z-4302f65c58784dc79d801f8a44609fff",
+  "started_at_utc": "2026-10-18T11:23:16.791919+00:00",
+  "label": "MASK-AUTO-001",
+  "status": "completed",
+  "specification": {
+    "commit": "9f546aa279ec065f2a4788fe4a1895efbcf87750",
+    "file": "research/specifications/MASK-AUTO-001.json",
+    "sha256": "b8ce3ba99ee0abdb05ca4dabf24026838e10edaec2027aa458e2afd99e4e99f1",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history.",
+    "implementation_commit": "705f65f50e95f8265f7227a2f91336f39091780b"
+  },
+  "jobs": [
+    {
+      "experiment": "MASK-AUTO-001",
+      "status": "completed",
+      "deadline_seconds": 10
+    }
+  ],
+  "artifacts": {
+    "MASK-AUTO-001.json": {
+      "sha256": "6c5e96c135c8b501724da0939d8e3e1b46f4749803239dca16fe28ecdfbf3dd6",
+      "bytes": 10584
+    }
+  },
+  "finished_at_utc": "2026-10-18T11:23:16.806864+00:00"
+}
