@@ -1,0 +1,13 @@
+{
+  "experiment":"BASE60-BEAUFORT-CONTINUATION-001",
+  "scope":"Exact unchanged model from BASE60-BEAUFORT-001; extends candidate count only, not cipher scope.",
+  "input_checkpoint":"results/BASE60-BEAUFORT-001.json",
+  "input_checkpoint_sha256":"9bc9019856d56fce0adb988de2d47859478a68100aeab2b8f97b75641078ab36",
+  "resume":{"L4rule0":{"already_evaluated":50000,"last_code":307959,"next_code":307961,"remaining":2380000},"L4rule1":{"already_evaluated":50000,"last_code":829958,"next_code":829960,"remaining":760000}},
+  "ordering":"Preserve ascending original base60 code within each rule; alternate up to50000 candidates per eligible configuration per chunk. Each parity-class iterator uses binary search in its ordered base30 rank to start at first code >= savednextcode; no already evaluated tuple is solved again.",
+  "model_and_solver":"Import committed stream, baseline, graph_model and exact solve from experiments/base60_beaufort.py; same self-loop parity/duplicate-edge necessary filter; no new pruning or score. Full global bijection verified for any feasible result. Per-tuple solver cap unchanged10000states/.02seconds, cappedtuple remains unresolved.",
+  "resources":{"processes":1,"max_new_candidates":3140000,"chunk_candidates":50000,"aggregate_seconds":120,"per_chunk_seconds":5,"checkpoint":"After each chunk, atomic tempfile+os.replace of aggregate JSON containing exact counters, last/next codes, all feasible witnesses and unresolvedcodes. Result remains partial until every iterator exhausted and no unresolved.","memory":"stream tuples; no whole-space arrays; retain only counts, chunk records, feasible witnesses and unresolved codes","dependencies":"Python standard library plus existing local module only; no installation/paidcompute"},
+  "verification":["Frozen old checkpoint hash and counters verified before resume","Binary-search iterator versus simple sorted toy parity-class enumeration; start before/at/after boundaries and exhausted range","First/last bounds and disjoint old/new contiguous eligible ranks, exactremainingcounts","Each chunk accounting and classifications sum; unprocessed counts never called negative","Preserve124tests; add meaningful resume/checkpoint boundary tests","Input/code/spec hashes, actual elapsedtimes and atomiccheckpoints retained; remote result/findings verified"],
+  "estimate":"100000 candidates0.986906seconds; remaining3140000 estimated30.99seconds; fixed120second ceiling allows overhead. Stop partial with precisecheckpoint on any cap/error. No unresolved can be silently excluded.",
+  "authorization":"Explicit user delegation extends prior candidate-count ceiling to finish remaining exact model within modest single-machine budget. No external outreach or solar geometry inputs."
+}
