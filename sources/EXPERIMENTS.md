@@ -21,3 +21,13 @@ Add reviewed records only; label third-party results **unverified** until reprod
 and [source-pin receipt](prior-art-review-pins.json). The 2019 attendee testimony
 remains disputed and was not independently retrieved by this coding executor.
 Third-party search/log reports are not adopted as local proof or family-wide coverage.
+
+## Exact direct-autokey follow-up
+
+[AUTOKEY-CONSTRAINT-001](../research/AUTOKEY-CONSTRAINT-FINDINGS.md) provides a
+threshold-free local affine-chain audit, with explicit overlap versus pinned
+Barney autokey_dict/gap_phr_ak/mask_autokey/backak and Scott run_p2/p2.log.
+Those additional source files were read but never executed. Forward PT chain
+propagation through unknown positions is stronger than checking only adjacent
+known pairs. All 1,152 exact local cases are classified, including zero-check
+survivors; no family-wide claim or language-based filling follows.

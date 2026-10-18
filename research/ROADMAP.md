@@ -112,3 +112,13 @@ A subsequent [narrow respelling feasibility check](PHONETIC-FEASIBILITY.md) is
 complete without search expansion. The user's length-changing phonetic rules
 and German translation idea remain distinct hypotheses requiring an exact
 rendering/inverse/alignment specification; no flexible mapper was introduced.
+
+## After the exact direct-autokey audit
+
+AUTOKEY-CONSTRAINT-001 leaves only zero-consistency-check compatible cases in
+its declared domain. Do not expand arbitrary long primers or invent plaintext.
+The next justified small proposal is a complete alphabet-feasibility check for
+one source-pinned logged Gromark survivor, with all-different constraints, planted
+controls and hard state/time limits. Freeze a separate specification before
+execution; width21 and language scores are not necessary acceptance conditions.
+No such Gromark run has been launched by this audit.

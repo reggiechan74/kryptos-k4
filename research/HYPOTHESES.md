@@ -133,3 +133,14 @@ belongs to a different 15-statistic family. No fingerprint null search was rerun
 Interrupted-key rules, fully constrained Gromark completion and Wheatstone27/26
 remain narrowly specifiable leads. No success, new experiment or general family
 elimination is claimed. The identical shared-reset proof retains its assumptions.
+
+## H-AUTOKEY-EXACT — threshold-free direct audit
+
+[AUTOKEY-CONSTRAINT-001 findings](AUTOKEY-CONSTRAINT-FINDINGS.md) classify all
+1,152 forward same-alphabet configurations (AZ/KRYPTOS, three equations, PT/CT
+feedback, arbitrary independent primer of lag1–96): 732 contradicted, 420
+compatible but underdetermined, zero untested. Every compatible case has zero
+independent consistency checks. No primer was searched or filled and no full
+plaintext produced. PT lag26 is rejected by propagation22→48→74 even though no
+immediately known predecessor pair exists. This closes the declared chain/
+threshold gap, not all autokey. Earlier fixed-primer results remain historical.

@@ -256,3 +256,14 @@ print('represented letters:', sorted({r[1] for r in members}))
 print('biconditional exceptions:', exceptions)
 PY
 ```
+
+## Local follow-up: direct autokey constraint gap
+
+[The exact local audit](../research/AUTOKEY-CONSTRAINT-FINDINGS.md) subsequently
+classifies all forward same-alphabet PT/CT-feedback lags 1–96 under three equations
+with arbitrary independent primers, including zero-check cases. Its full affine
+PT chains connect cribs across unknown intervening positions; it therefore does
+not inherit the selected prior scripts' immediate-predecessor thresholds. It
+finds 732 contradictions and 420 vacuous underdetermined cases, not a general
+autokey exclusion. Third-party source was not executed; the fixed primer
+experiments and their earlier provenance remain preserved.

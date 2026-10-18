@@ -282,3 +282,27 @@ Final public-access verification: unauthenticated web reader returned the GitHub
 repository page (Public label, Sign in link) and raw README pinned to
 4127afb315d821f86cc0240ac49450a6b41eef46. The prior visibility blocker is resolved
 at verification time; no visibility mutation was performed by this executor.
+
+## AUTOKEY-CONSTRAINT-001 — complete declared lag audit
+
+- Initial spec 44a03c9f53dd1e95107a6a5b1bb7a7dc0c79470a; pre-execution toy-mask
+  wording correction 7f83582026045f318fa8dcd2224190cc44a5b432; implementation
+  a13bd721af4bac68a1fb29b3e1ff05d61db47e80. No K4 model changed by correction.
+- Command: `python3 experiments/run_autokey_constraints.py --spec-commit 7f83582026045f318fa8dcd2224190cc44a5b432 --code-commit a13bd721af4bac68a1fb29b3e1ff05d61db47e80`.
+- Two same alphabets, three equations, PT/CT feedback, arbitrary independent
+  L-symbol primers, forward lags1–96. No minimum-check skips.
+- All 1,152 cases classified: 732 contradicted, 420 underdetermined-compatible,
+  zero untested. Every compatible case has zero independent consistency checks.
+- PT rejects 1–26/30–52; CT rejects 1–73; exact negative scope only. PT lag26
+  propagation 22→48→74 and CT lag 73/74 boundaries regress independently.
+- Controls: 1,152 synthetic positives/roundtrips/regenerations, 732 negative cases,
+  420 vacuous mutations compatible, 5,220 exhaustive toy configurations containing
+  40,536 primer decryptions (at most 16 toy primers each). No K4 primer enumeration.
+- Independent reviewer supplied expected lag sets after initial spec before execution;
+  independent implementation agrees. Own small exhaustive oracle was executed;
+  third-party source code was not. Seed 20261018, Python MT19937 for synthetic data.
+- One process, standard library, 10 s cap; actual 0.230 s. Full suite 97 pass in 8.519 s.
+- Raw snapshot: `results/autokey-constraint-runs/20261018T134147Z-7499a732804146f48f2121f5453be844/`.
+  All consulted hashes/output SHA and complete fresh record replay verified.
+- Prior artifacts preserved. No full K4 plaintext emitted. Proposed next task is
+  one pinned Gromark-survivor full-alphabet feasibility audit, not yet run.

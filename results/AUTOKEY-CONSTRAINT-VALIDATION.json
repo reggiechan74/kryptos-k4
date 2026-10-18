@@ -1,0 +1,52 @@
+{
+  "id": "AUTOKEY-CONSTRAINT-VALIDATION",
+  "status": "completed",
+  "recorded_at_utc": "2026-10-18T13:45:51.537390+00:00",
+  "command": "python3 -m unittest discover -s tests -v",
+  "tests_run": 97,
+  "failures": 0,
+  "errors": 0,
+  "suite_seconds": 8.519,
+  "registered_runtime_seconds": 0.23,
+  "classification_counts": {
+    "contradicted": 732,
+    "compatible_but_underdetermined": 420
+  },
+  "tested_cases": 1152,
+  "untested_cases": 0,
+  "compatible_cases_with_positive_checks": 0,
+  "vacuous_cases": 420,
+  "controls": {
+    "synthetic_roundtrips_and_planted_positives": 1152,
+    "planted_negative_rejections": 732,
+    "vacuous_mutations_still_compatible": 420,
+    "oracle_cases": 5220,
+    "toy_primer_decryptions": 40536,
+    "oracle_maximum_primers_per_case": 16,
+    "toy_alphabets": [
+      "ABC",
+      "ABCD"
+    ],
+    "seed": 20261018,
+    "generator": "Python random.Random MT19937",
+    "third_party_code_execution": false,
+    "K4_primer_enumerations": 0
+  },
+  "fresh_replay_all_records_groups_and_counts_equal": true,
+  "consulted_input_code_hashes_verified": true,
+  "output_sha256_verified": true,
+  "result_sha256": "d09a8a1bbe9a545eb3613c778b98bb904135d5e7f93171b4054483e78a5f8a4a",
+  "file_sha256": {
+    "experiments/autokey_constraints.py": "7ed36b29ebc54e952f7401e1824dafcf2bd978d570dd0e1931946e12f99ceb27",
+    "experiments/autokey_constraint_controls.py": "9bdb5fb3ce2fb2194a628fe6db7f0f13a9cc6971cc4a592979008189ced51ec9",
+    "experiments/run_autokey_constraints.py": "2d0e6311f03f0f8c1f7aacd3db16587b8b921ca4b4ef199fdd40eca0a3dbc5e2",
+    "tests/test_autokey_constraints.py": "bd4aba9358ee69a2408744c81c9d082c2a6c084a2c3b403f80b71438cc93eeb3",
+    "research/specifications/AUTOKEY-CONSTRAINT-001.json": "aff24ae380228c43f5eb7b24595709778149a2f36635cb332a0685bba3d23bbb"
+  },
+  "independent_comparison": "Matches supplied independent26-root-per-chain lag sets; those predictions were known after initial specification and before execution, not independently executed by this coding worker. Own exhaustive toy oracle ran as specified.",
+  "fixture_correction": "Toy full-mask alphabet wording repaired and committed before any new execution; K4 models unchanged.",
+  "prior_art_source_execution": false,
+  "full_K4_plaintexts_emitted": 0,
+  "memory_peak_measured": false,
+  "chronology_receipt": "AUTOKEY-CONSTRAINT-CHRONOLOGY.json"
+}

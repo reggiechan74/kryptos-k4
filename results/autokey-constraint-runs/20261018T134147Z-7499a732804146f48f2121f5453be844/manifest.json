@@ -1,0 +1,27 @@
+{
+  "run_id": "20261018T134147Z-7499a732804146f48f2121f5453be844",
+  "started_at_utc": "2026-10-18T13:41:47.786677+00:00",
+  "label": "AUTOKEY-CONSTRAINT-001",
+  "status": "completed",
+  "specification": {
+    "commit": "7f83582026045f318fa8dcd2224190cc44a5b432",
+    "file": "research/specifications/AUTOKEY-CONSTRAINT-001.json",
+    "sha256": "aff24ae380228c43f5eb7b24595709778149a2f36635cb332a0685bba3d23bbb",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history.",
+    "implementation_commit": "a13bd721af4bac68a1fb29b3e1ff05d61db47e80"
+  },
+  "jobs": [
+    {
+      "experiment": "AUTOKEY-CONSTRAINT-001",
+      "status": "completed",
+      "deadline_seconds": 10
+    }
+  ],
+  "artifacts": {
+    "AUTOKEY-CONSTRAINT-001.json": {
+      "sha256": "d09a8a1bbe9a545eb3613c778b98bb904135d5e7f93171b4054483e78a5f8a4a",
+      "bytes": 561438
+    }
+  },
+  "finished_at_utc": "2026-10-18T13:41:48.020232+00:00"
+}

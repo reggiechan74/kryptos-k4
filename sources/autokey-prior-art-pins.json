@@ -1,0 +1,50 @@
+{
+  "revision_date": "2026-10-18",
+  "scope": "Selected static source overlap review, not third-party execution or exhaustive repository audit",
+  "sources": [
+    {
+      "repository": "barneyjm/kryptos-k4",
+      "commit": "2db2722cc3f18c52d4d8369d7adc5a1db7e859d7",
+      "files": [
+        {
+          "path": "scripts/autokey_dict.py",
+          "git_blob_sha": "355a871c3780ada9fa66963127c63ce8c65c0bd2",
+          "read_via_authenticated_GitHub_connector": true
+        },
+        {
+          "path": "scripts/gap_phr_ak.py",
+          "git_blob_sha": "51d0f91b78f5d00dbce782d24e879bcd3bb7dee8",
+          "read_via_authenticated_GitHub_connector": true
+        },
+        {
+          "path": "scripts/mask_autokey.py",
+          "git_blob_sha": "ee9c71d38a7edf9435271c1ed3935f492280c22a",
+          "read_via_authenticated_GitHub_connector": true
+        },
+        {
+          "path": "scripts/backak.py",
+          "git_blob_sha": "44b9a2ecd1bffd18b2a5d7bd68b400388a4e9787",
+          "read_via_authenticated_GitHub_connector": true
+        }
+      ]
+    },
+    {
+      "repository": "scott-dunphy/kryptos-k4",
+      "commit": "3ce19e3ae164a54af8743222ad3de5f6a93f6faf",
+      "files": [
+        {
+          "path": "run_p2.py",
+          "git_blob_sha": "df133c7993b7938e0a21b788a5a67196050e368f",
+          "read_via_authenticated_GitHub_connector": true
+        },
+        {
+          "path": "results/p2.log",
+          "git_blob_sha": "ca53acd96ae9fec42cdb417f6376436db392abe5",
+          "read_via_authenticated_GitHub_connector": true
+        }
+      ]
+    }
+  ],
+  "local_audit": "AUTOKEY-CONSTRAINT-001",
+  "source_wordlists_or_searches_executed": false
+}

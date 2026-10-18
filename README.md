@@ -164,3 +164,8 @@ real Egyptian context and the missing reversible mapping; no new cipher run.
 2026-10-18, pins source commits and distinguishes exact overlap from incomplete
 or heuristic coverage. Third-party code was read, never executed; the 9/10
 fingerprint remains descriptive and is not a hard candidate filter.
+
+[Exact direct-autokey audit](research/AUTOKEY-CONSTRAINT-FINDINGS.md) retains
+all lags 1–96 without check-count filtering: 732 of 1,152 configurations contradicted,
+420 compatible but underdetermined, all with zero independent consistency checks.
+No primer search or full plaintext output. All 97 tests pass; existing results retained.
