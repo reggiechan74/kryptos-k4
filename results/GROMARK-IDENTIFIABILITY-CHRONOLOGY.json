@@ -1,0 +1,31 @@
+{
+  "commits": [
+    {
+      "sha": "25fa0615a08a4f629393c9b00c9cb78e92a85f38",
+      "date": "2026-10-18T14:56:48Z",
+      "parents": [
+        "8454c12e754771fb501850d93be16358e7c76c05"
+      ]
+    },
+    {
+      "sha": "bfab3d735e5e73824aeb5a2bfe5a9e471933c666",
+      "date": "2026-10-18T14:57:51Z",
+      "parents": [
+        "25fa0615a08a4f629393c9b00c9cb78e92a85f38"
+      ]
+    },
+    {
+      "sha": "5d93af5bd4a434c20b9c8a48a7f68963643ca523",
+      "date": "2026-10-18T15:03:31Z",
+      "parents": [
+        "bfab3d735e5e73824aeb5a2bfe5a9e471933c666"
+      ]
+    }
+  ],
+  "run_started_at_utc": "2026-10-18T15:03:35.382531+00:00",
+  "order_verified": true,
+  "independent_predictions_and_certificates_known_after_initial_spec_before_implementation": true,
+  "protocol_adaptation_committed_before_execution": true,
+  "query_definition_and_model_unchanged": true,
+  "blind_result_claim": false
+}

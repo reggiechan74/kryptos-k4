@@ -41,3 +41,13 @@ Local filter survival and complete alphabet existence both verify for this tuple
 this neither reproduces the 804,684-case sweep nor recovers meaningful plaintext.
 Two different gauge-fixed witnesses prove nonuniqueness. Source scripts were read,
 not executed; width-21 ranking is provenance only. Existing source scope limits remain.
+
+## Fixed-tuple identifiability follow-up
+
+[GROMARK-IDENTIFIABILITY-001](../research/GROMARK-IDENTIFIABILITY-FINDINGS.md)
+retains the same pinned tuple and arbitrary verified reference. An independently
+supplied analytic map/certificate pool arrived after the initial specification;
+a transparent pre-execution update records that provenance. Local validation
+finds 10 model-forced and63 variable noncrib positions, not new source-confirmed
+plaintext. No third-party code, new tuple or heuristic filter was used. The
+[methods note](../docs/research-strategy.md) links only existing repo evidence.

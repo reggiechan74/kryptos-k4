@@ -131,3 +131,14 @@ The next proposed small step is an exact admissible-letter domain at one-based
 position 1 (first noncrib), under the same tuple, using at most 26 edge-feasibility
 queries and a separately committed aggregate resource bound. This is not a new
 primer sweep or message generator, and has not been executed.
+
+## After the 73-position identifiability audit
+
+The later task superseded the proposed single-position domain pilot with one
+exists-different query per noncrib position. The fixed model has 10 forced and
+63 variable positions; 0 unresolved. These conditional deductions are not independent
+plaintext evidence. Stop this audit. Further progress needs an independently
+sourced alphabet/key-construction rule or new confirmed plaintext constraint,
+fixed before testing rather than fitted to these consequences. No expanded
+primer search, message generation or language-score selection is justified by
+marginal variability alone. [Evidence strategy](../docs/research-strategy.md).

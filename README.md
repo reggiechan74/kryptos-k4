@@ -174,3 +174,10 @@ No primer search or full plaintext output. All 97 tests pass; existing results r
 complete alphabet feasibility. Two distinct gauge-fixed witnesses verify, showing
 nonuniqueness; neither recovers historical alphabets or meaningful plaintext.
 All 104 tests pass. No additional survivors or width-21/fingerprint filters tested.
+
+[Fixed-tuple identifiability](research/GROMARK-IDENTIFIABILITY-FINDINGS.md) maps
+all 73 noncrib positions: 10 model-forced, 63 variable, 0 unresolved. These are conditional
+on the selected arbitrary tuple, not confirmed plaintext. Every classification
+has a checked certificate; no K4 search fallback was needed. All 112 tests pass.
+[Research strategy](docs/research-strategy.md) separates proofs, finite negatives,
+heuristic failures and underdetermination. The audit stops pending independent evidence.

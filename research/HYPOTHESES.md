@@ -175,3 +175,14 @@ archival construction documents and original letter patterns, whose unpublished
 contents were not inspected and may not resolve the 1989 state. No public
 north-referenced face plan/full 1989 list was found in the supplied review. This
 negative is bounded; no outreach or new cryptanalytic search was performed.
+
+## H-GROMARK-ONE — exact marginal identifiability
+
+[GROMARK-IDENTIFIABILITY-001](GROMARK-IDENTIFIABILITY-FINDINGS.md) freezes the
+same tuple and verifies all 73 noncrib difference-existence queries: 10 conditionally
+forced, 63 variable, 0 unresolved. All variable cases have complete checked alphabet
+counterexamples; all forced cases have exact component proofs. These are not new
+confirmed cribs or a recovered message. Marginal variation does not remove joint
+constraints or permit combining witnesses. No new primer, score or K4 search
+fallback was used. Stop here pending an independently supported alphabet/key
+construction restriction or new confirmed evidence; see the strategy note.

@@ -355,3 +355,29 @@ at verification time; no visibility mutation was performed by this executor.
 - No north-referenced public face plan or full 1989 list found in that bounded review.
   No outreach authorized or made. Documentation consistency checks only; code and
   cryptanalytic results unchanged, no cipher tests or searches added.
+
+## GROMARK-IDENTIFIABILITY-001 — 73 fixed-model difference queries
+
+- Initial spec 25fa0615a08a4f629393c9b00c9cb78e92a85f38. Independent predictions
+  and complete certificates arrived afterward; pre-execution protocol update
+  bfab3d735e5e73824aeb5a2bfe5a9e471933c666 permits validating those certificates
+  before fallback. Model, reference, 73 queries and resource caps unchanged.
+- Implementation 5d93af5bd4a434c20b9c8a48a7f68963643ca523, then command:
+  `python3 experiments/run_gromark_identifiability.py --spec-commit bfab3d735e5e73824aeb5a2bfe5a9e471933c666 --code-commit 5d93af5bd4a434c20b9c8a48a7f68963643ca523`.
+- Result: 10 forced, 63 variable, 0 unresolved, all conditional on the unchanged tuple.
+  39 unused-P swaps, 21 unused-C swaps, 3 complete supplied certificates; 10 exact
+  component proofs. No exact K4 CSP fallback invoked. No full messages emitted.
+- All variable witnesses independently check complete permutations, 24 cribs,
+  target difference and 97-character regeneration. Forced positions 38/86 are transitive proofs.
+- Controls: 231 toy bases / 9,396 permutation pairs; 515 difference queries / 27,052 pair
+  checks (425 forced / 90 variable), including missing endpoints, global AllDifferent,
+  positive/negative cases, caps and a marginally-variable/jointly-restricted toy.
+  Supplied pool disabled for toy controls; no randomness.
+- One process, 0.25 s / 10,000 states per query, 5 s controls, 20 s audit, 25 s registered cap.
+  Actual 0.018 s; maximum recorded query 0.000119 s. All 112 tests pass in 8.302 s,
+  preserving prior 104 tests and artifacts. Hashes verified; stable replay matched
+  all proof-bearing records ignoring elapsed timing fields.
+- Snapshot: `results/gromark-identifiability-runs/20261018T150335Z-5b16b46678154416add3015ab8676aa9/`.
+- Marginal variability is not absence of joint constraints. Stop this audit; next
+  need independently sourced key/alphabet restrictions or new confirmed evidence,
+  not arbitrary completion or broader search. Strategy note added from repo evidence.

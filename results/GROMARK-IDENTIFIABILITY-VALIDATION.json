@@ -1,0 +1,58 @@
+{
+  "id": "GROMARK-IDENTIFIABILITY-VALIDATION",
+  "status": "completed",
+  "recorded_at_utc": "2026-10-18T15:07:52.133259+00:00",
+  "command": "python3 -m unittest discover -s tests -v",
+  "tests_run": 112,
+  "failures": 0,
+  "errors": 0,
+  "suite_seconds": 8.302,
+  "logical_queries": 73,
+  "classification_counts": {
+    "forced": 10,
+    "variable": 63,
+    "unresolved": 0
+  },
+  "method_counts": {
+    "unused_ciphertext_swap": 21,
+    "unused_plaintext_swap": 39,
+    "supplied_complete_certificate": 3,
+    "same_component_invariant": 10
+  },
+  "exact_K4_search_queries": 0,
+  "controls": {
+    "base_graphs": 231,
+    "base_permutation_pairs": 9396,
+    "satisfiable_bases": 56,
+    "unsatisfiable_bases": 175,
+    "toy_difference_queries": 515,
+    "query_permutation_pairs": 27052,
+    "toy_forced": 425,
+    "toy_variable": 90,
+    "single_unused_symbols_global_proof_verified": true,
+    "joint_constraint_pairs_checked": 4,
+    "marginal_variability_does_not_imply_joint_freedom": true,
+    "supplied_witness_pool_disabled": true,
+    "randomness": "none"
+  },
+  "registered_seconds": 0.018,
+  "max_recorded_query_seconds": 0.000119,
+  "fresh_replay_proof_bearing_records_equal_ignoring_elapsed_fields": true,
+  "all_input_code_hashes_verified": true,
+  "result_sha256": "7a3a7e11e175bafe11ca89d2cfa89799851a440fc8b34b366184fc63c2509774",
+  "output_hashes_verified": true,
+  "file_sha256": {
+    "research/specifications/GROMARK-IDENTIFIABILITY-001.json": "13ceb386deee0f9336a629e315bcd906247eb3ae20d11eae600dbb48bdff8125",
+    "data/gromark-identifiability-counterexamples.json": "63bf364aebbf1281bb93430dd457059ed357c50ef8ab29536453fc3286c26507",
+    "experiments/gromark_identifiability.py": "f70caead340c7296dfd81f8779b7d412113397a4a586599175da312e913ff8c8",
+    "experiments/gromark_identifiability_controls.py": "ccc58fd17dd729a5f0438e8f61c3d6d1a9d6be0b135c8ff5882cec94af97faee",
+    "experiments/run_gromark_identifiability.py": "9545708916c6026d767da83cfa28c45994d2f57c22d401ed54c7832e0c59cbd1",
+    "tests/test_gromark_identifiability.py": "8e467fbe02e5c5bfc7efc8544196d61ca3a1adda0591d048c8ddf32b42fda761"
+  },
+  "chronology_receipt": "GROMARK-IDENTIFIABILITY-CHRONOLOGY.json",
+  "conditional_predictions_not_confirmed_cribs": true,
+  "marginals_not_joint_freedom": true,
+  "full_messages_emitted": false,
+  "memory_peak_measured": false,
+  "stopped_after_this_audit": true
+}

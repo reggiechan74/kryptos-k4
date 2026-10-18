@@ -1,0 +1,27 @@
+{
+  "run_id": "20261018T150335Z-5b16b46678154416add3015ab8676aa9",
+  "started_at_utc": "2026-10-18T15:03:35.382531+00:00",
+  "label": "GROMARK-IDENTIFIABILITY-001",
+  "status": "completed",
+  "specification": {
+    "commit": "bfab3d735e5e73824aeb5a2bfe5a9e471933c666",
+    "file": "research/specifications/GROMARK-IDENTIFIABILITY-001.json",
+    "sha256": "13ceb386deee0f9336a629e315bcd906247eb3ae20d11eae600dbb48bdff8125",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history.",
+    "implementation_commit": "5d93af5bd4a434c20b9c8a48a7f68963643ca523"
+  },
+  "jobs": [
+    {
+      "experiment": "GROMARK-IDENTIFIABILITY-001",
+      "status": "completed",
+      "deadline_seconds": 25
+    }
+  ],
+  "artifacts": {
+    "GROMARK-IDENTIFIABILITY-001.json": {
+      "sha256": "7a3a7e11e175bafe11ca89d2cfa89799851a440fc8b34b366184fc63c2509774",
+      "bytes": 50979
+    }
+  },
+  "finished_at_utc": "2026-10-18T15:03:35.401845+00:00"
+}
