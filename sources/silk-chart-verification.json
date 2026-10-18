@@ -192,5 +192,26 @@
     "scope": "describes reciprocal letter substitution and OTP five-letter groups; provenance not proof ofexact wartime schedule"
   },
   "primary_wartime_worked_example_for_exact_chart": "not located in supplied bounded review",
-  "pre_spec_known_deduction": "first required segment has13distinct keys in13consecutive positions, hence periods1-12 cannot work; known before this verification specification"
+  "pre_spec_known_deduction": "first required segment has13distinct keys in13consecutive positions, hence periods1-12 cannot work; known before this verification specification",
+  "historical_provenance": {
+    "Duke_url": "https://people.duke.edu/~ng46/collections/crypto-silks.htm",
+    "Duke_attribution": "WWII SOE; cites John Brunner, OSS WEAPONS (1994), p.205",
+    "Proc_url_as_supplied": "https://www.jproc.ca/crypto/silk_otp.html",
+    "Proc_url_read": "https://jproc.ca/crypto/silk_otp.html",
+    "Proc_page_date": "May12/2007 as displayed",
+    "matching_photos_establish_independent_artifact_provenance": false,
+    "public_availability_of_exact_chart_before1990": "not established",
+    "known_to_Sanborn_or_Scheidt": "not established",
+    "authentic_wartime_repeated_key_schedule": "not established; PHOENIX is a modern demonstration",
+    "primary_wartime_worked_example_for_exact_chart": "not located in supplied bounded review",
+    "Ardennes_comparison_lead": {
+      "url": "https://archives.cd08.fr/activites-culturelles/le-document-du-mois/les-mouchoirs-de-codage-des-agents-clandestins-en-france-occupee",
+      "fonds": "Georges-Henri Lallement74J35",
+      "image_status": "not inspectable in parent review; not inspected by local executor",
+      "same_chart_claim": false
+    },
+    "experiment_status": "source-backed fixed mathematical table pilot, not authenticated wartime protocol reconstruction"
+  },
+  "independent_received_JSON_sha256_reported": "ce6ee0b2399678dc55c76e2a450b2458538e44475f876f390ee5a0dc9ac846e6",
+  "reported_JSON_hash_caveat": "Formatting-dependent digest of parent-received JSON, not claimed equal to our metadata-wrapped fixture hash; source/cell and table checks determine the mapping."
 }
