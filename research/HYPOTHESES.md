@@ -51,3 +51,22 @@ The direct aligned standard wartime reflector Enigma model is contradicted by
 one-based position 74: plaintext K and ciphertext K. See the
 [proof and exact scope](../docs/direct-enigma-boundary.md), DIRECT-ENIGMA-001.
 Extra transforms and other Enigma/composite models are outside this conclusion.
+
+## H-NEPTUNE and H-CLOCK-FACE — supplied research, no cipher run
+
+The [bounded Neptune/clock-face assessment](../docs/neptune-discovery-assessment.md)
+records a real Neptune → Le Verrier → Berlin history without a documented bridge
+to Kryptos. The residual-inference analogy is methodological; NEPTUNE/Hora XXI
+key material lacks a unique extraction rule. The actual discovery observatory
+→ clock bearing is reported near 34°, contradicting that specific ENE route.
+
+Keep both fountain/clock source pairs: pinned OSM centers yield the earlier
+reported 68.25°/471 m; the new secondary points yield reported 67.76°/470 m.
+Neither is exact ENE; the earlier geometry and fixed reflected point remain pinned.
+See the report for every input coordinate and provenance limitation.
+
+BERLINCLOCK/KRASNOJARSK both having 11 letters is the user's weak length
+coincidence. A modern photo suggests an Asian arc roughly east but verifies
+neither the absolute true-ENE panel nor 1989 inscriptions. SINGAPUR is German
+spelling, not an error. An ENE approach from the fountain sees the opposite
+WSW-facing side. No city name is a confirmed key; no cipher pilot was run.

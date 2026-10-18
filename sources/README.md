@@ -35,3 +35,16 @@ relevant section, exact claim, and caveats. Prefer primary sources. Distinguish
 public fact from proposed interpretation. Do not reproduce restricted plaintext,
 private correspondence, personal data, or API secrets. Source existence does
 not establish any third-party experiment's correctness.
+
+## Supplied Neptune and clock-face review — 18 October 2026
+
+The [bounded report](../docs/neptune-discovery-assessment.md) preserves the
+research worker's completed review of Paris Observatory/IMCCE, AIP archives,
+Berlin location history, the clock designer's site, secondary coordinate points,
+the official Berlin clock description and a modern photograph. Source links,
+claims and caveats are attached to each section. The coding executor did not
+independently retrieve those sources or inspect that photograph in this update.
+The review found no documented Kryptos bridge in its bounded search. Modern
+panel observations do not verify true-ENE orientation or 1989 inscriptions.
+The two coordinate source pairs and their different reported bearings remain
+explicit; no pinned earlier geometry was replaced.

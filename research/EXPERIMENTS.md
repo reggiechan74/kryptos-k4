@@ -190,3 +190,14 @@ separately below.
   search, German-name extraction or new cryptanalytic workload was launched.
 - Full local replay: see `results/PERIOD-MAP-ENIGMA-VALIDATION.json`. Earlier
   validation records and audited artifacts remain historical and unchanged.
+
+## Neptune and clock-face documentation update
+
+- Date: 2026-10-18 UTC; parent 744853ed9ec32717bf484ed013baf8b599c382b7.
+- Preserved supplied bounded research in `docs/neptune-discovery-assessment.md`;
+  no new source retrieval, coordinate adjustment, cipher pilot or key search.
+- Existing code, tests and historical result artifacts unchanged.
+- Command: `python3 -m unittest discover -s tests -v`.
+- Result: all 79 tests passed, 7.406 s suite time; no failures/errors.
+- This replay checks existing software/artifacts, not the report's historical
+  claims, source inspection, panel orientation or reported coordinate arithmetic.

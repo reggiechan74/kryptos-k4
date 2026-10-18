@@ -142,3 +142,8 @@ German-initial extraction remains uninstantiated. The
 aligned standard reflector model using the confirmed K→K at position 74.
 [Latest validation](results/PERIOD-MAP-ENIGMA-VALIDATION.json) records the local
 regression replay; earlier validation receipts are preserved.
+
+[Neptune discovery and clock-face assessment](docs/neptune-discovery-assessment.md)
+preserves the supplied historical review, both coordinate source pairs, and
+unverified panel-orientation/1989-inscription gates. The 11-letter city-name
+coincidence is exploratory; no key or new cipher result is claimed.
