@@ -112,3 +112,8 @@ Optical selection, altered glyph interpretation or a composite cipher is a
 different, currently unspecified model. Before any extraction, identify an actual
 viewpoint, reflecting surface and visible letter sequence. No new render, mirror
 key sweep or outreach was performed.
+
+[Scott's public Sun Study review](scott-sun-study-review.md) records the supplied
+2026-10-18 source/UI audit, its script fingerprint, overlay-occlusion and layout
+limitations, solar assumptions and recommended calibration order. WebGL did not
+initialize during that audit; no working scene or new optical search was validated.
