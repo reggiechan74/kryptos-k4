@@ -1,0 +1,65 @@
+{
+  "experiment": "PHONETIC-CL-001",
+  "source_status": "Independent report reconciled; exact rule/page source read before freeze.",
+  "source": "Ripman and Archer, New Spelling, sixth edition1948, chapterI; hardC representedK. Fullsystem contractsCK and is not implemented.",
+  "classification": "Modern restricted mechanical adaptation inspired by historical spelling reform; no evidence Sanborn used it; not completeNewSpelling or pronunciation transcription.",
+  "normalization": "Only already-normalized uppercaseA-Z letterstreams accepted, length97; reject spaces,punctuation,lowercase rather than silently dropping context. Synthetic inputs are letterstreams, not claimed naturalEnglish.",
+  "forward_mask": "Simultaneously replace original C with K iff immediately followed by original L; allotherletters unchanged. Literal adjacent-stream rule, including across unknown originalwordbreaks. CK is unchanged. Identity baseline is the only other mask.",
+  "examples": {
+    "CLOCK": "KLOCK",
+    "CL": "KL",
+    "KL": "KL",
+    "CK": "CK",
+    "CYCLE": "CYKLE"
+  },
+  "loss": "CL and KL collide; no unique original spelling inverse. Recover transformedstreamQ and key separately; show at leasttwo distinct originalpreimages outsideknowncribpositions using guaranteed prefixCL/KL. No invented inverse.",
+  "alignment": "Lengthpreserving; all24 confirmedORIGINAL Englishpositions remainfixed. Only original CLOCK's firstC changes, atonebased70; transformedcribBERLINKLOCK. Ccontextrequiresknownnextsymbol; reject unsupported context instead of guessing.",
+  "cipher": "C_i=(Q_i+k_(i modp)) mod26, AZ zero-based, directalignment, no routes/resets/otheralphabets or equations.",
+  "bounds": {
+    "periods": "1-12 inclusive",
+    "keys": "All26values perphase represented symbolically through exactcribconstraints, no dictionary or brute-forcekeywordenumeration",
+    "phase": "anchoredzero atmessagefirstletter; freeglobaloffset absorbedbykeyrotation",
+    "model_cases": 24,
+    "resources": "Oneprocess, standardlibrary only,10secondscontrols,5secondsproof; deterministic complete smalloracles; no paidcompute."
+  },
+  "prior_art_difference": "Earlier W->V/finalD,G pilot didnotchangeanycrib. CL->KL changesoneknownletter and iscontextdependent/noninjective, not globalalphabetbijection. Nevertheless this selected boundedcipherfamily is alreadycontradicted by unchanged firstcrib; reuseproof, do not rerunK4keysearch.",
+  "synthetic_recovery": {
+    "generation": "Pythonrandom.Random/MT19937. Draw97lettersuniformAZ, setprefixpositions1-2 toCL, insertoriginalEASTNORTHEAST at22-34 andBERLINCLOCK at64-74; then drawp modular keyvalues fromsamePRNG. Cipher generatedaftermask. Recoveryseesonlyciphertextand24originalknownpositions, not fullP,Q or key.",
+    "cases": [
+      {
+        "seed": 104729,
+        "mask": "CL",
+        "period": 5
+      },
+      {
+        "seed": 130363,
+        "mask": "CL",
+        "period": 7
+      },
+      {
+        "seed": 155921,
+        "mask": "CL",
+        "period": 11
+      },
+      {
+        "seed": 196613,
+        "mask": "identity",
+        "period": 7
+      }
+    ],
+    "inference": "For eachmaskandperiodderivephasekeyvaluesfromtransformedknownletters, rejectinconsistentassignments. If allphasesknown decryptQ and requireQinmaskimageviaidempotence. Group identicalmask,primitivekeyandfullQaliases; retainallothercompatiblemodels andreportambiguity. No languageorcomplexityfilter removesalternatives.",
+    "success": "Exactlyonecanonicalmodel/key/transformedQgroup matchingplantedtruth percase, otherwise reportambiguityorfailureandstopbeforeK4proof. OriginalP intentionallynotuniquelyrecoverable forCLcases.",
+    "negative_controls": [
+      "Mutate firstknownciphercharacter by+1: plantedmaskandperiod mustreject; reportanyothercandidate ratherthan claiming nofalsepositives withoutchecking",
+      "Oneknownposition withperiod5 mustreport4freekeyphases andno recoveredfullstream",
+      "WrongcontextunknownfollowingC mustraise instead ofassumingcontext",
+      "SmallalphabetACKL,period1-3,inferredcandidatekeys comparedtoexhaustive4^p keyoracle withallcompatiblemodels retained"
+    ]
+  },
+  "K4_proof": "Aftercontrols only, verify retainedfirstcribknownpairwitnesses: requiredAZpluskeys atonebased22-34 are[1,11,25,2,3,2,24,24,6,2,10,0,25]. For eachp1-12 positions22 and22+p sharephase but firstrequires1 andsecondrequiresdifferentvalue. Allwitnessesavoidchangedposition70; firstcribunchangedunderbothmasks. No K4keysearch or fullplaintextoutput.",
+  "report": "Frozen spec/codecommits, sourceandbaselinehashes, allcontrols, exact24witnessrecords, genuine historicalscope and lossyrecoverylimits; preserve127tests/priorartifacts. Never adjustrule,seeds,keybounds afterresults.",
+  "source_url": "https://www.spellingsociety.org/uploaded_books/nschapter1.pdf#page=3",
+  "source_page": "printed21, PDF3",
+  "source_quote": "It is suggested that k be everywhere used to represent the sound of k.",
+  "source_adaptation": "Source explicitly contrasts kl/kr with cl/cr. Our single CL->KL rule leaves CK unchanged and is not full NewSpelling."
+}
