@@ -1,0 +1,312 @@
+{
+  "id": "GROMARK-ALPHABET-001",
+  "revision_date": "2026-10-18",
+  "fixture": "data/gromark-one-survivor.json",
+  "case_count": 1,
+  "selection": "first indented tuple in the pinned committed text log, no fallback or tuple search",
+  "baseline": "data/k4.json",
+  "baseline_ciphertext_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "model": {
+    "alphabet_symbols": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "modulus": 26,
+    "base": 16,
+    "primer": [
+      6,
+      12,
+      12,
+      4,
+      4,
+      8
+    ],
+    "lags": [
+      5,
+      6
+    ],
+    "stream": "d_i=primer_i for i0..5; d_i=(d_(i-5)+d_(i-6)) mod16 for i6..96",
+    "equation": "c_value(C_i)-p_value(P_i)=d_i mod26",
+    "alphabets": "p_value and c_value independent full bijections A-Z to0..25",
+    "direction": "plaintext-to-ciphertext addition, direct unchanged one-based crib alignment; no transposition, rephase, reversal or reset",
+    "known_plaintext": "one-based22-34 EASTNORTHEAST,64-74 BERLINCLOCK"
+  },
+  "algorithm": {
+    "graph": "observed P-letter and C-letter nodes, edge P->C offset d_i and inverse edge offset-d_i mod26. Sort roots by (side,letter), C before P, and adjacency by target/offset/input-index; each component root potential0.",
+    "local_filter": "verify all cycle offsets and distinct same-side potentials inside every connected component",
+    "global": "Assign each component a translation t in0..25. Enforce all-different on observed P values across components and separately C values. Fix component0 translation0 (global additive gauge).",
+    "search": "deterministic forward checking; choose unassigned component with fewest legal translations, tie by larger observed node count then root order; offsets increasing; stop at first witness or exact exhaustion",
+    "completion": "fill unobserved letters in alphabetical order with unused values ascending independently on each side; verify both full permutations and all24edge equations",
+    "roundtrip": "if satisfiable, decode97 and re-encrypt exactly under this arbitrary witness; verify24cribs, emit no full K4 plaintext. This is algebraic feasibility, not meaningful plaintext recovery or solution evidence."
+  },
+  "controls": {
+    "hand_streams": [
+      {
+        "base": 10,
+        "primer": [
+          1,
+          2
+        ],
+        "lags": [
+          1,
+          2
+        ],
+        "first10": [
+          1,
+          2,
+          3,
+          5,
+          8,
+          3,
+          1,
+          4,
+          5,
+          9
+        ]
+      },
+      {
+        "base": 16,
+        "primer": [
+          6,
+          12,
+          12,
+          4,
+          4,
+          8
+        ],
+        "lags": [
+          5,
+          6
+        ],
+        "first12": [
+          6,
+          12,
+          12,
+          4,
+          4,
+          8,
+          2,
+          8,
+          0,
+          8,
+          12,
+          10
+        ]
+      }
+    ],
+    "toy_oracle": {
+      "modulus3_topologies": [
+        [],
+        [
+          [
+            "A",
+            "A"
+          ]
+        ],
+        [
+          [
+            "A",
+            "A"
+          ],
+          [
+            "B",
+            "A"
+          ]
+        ],
+        [
+          [
+            "A",
+            "A"
+          ],
+          [
+            "B",
+            "A"
+          ],
+          [
+            "B",
+            "B"
+          ]
+        ],
+        [
+          [
+            "A",
+            "A"
+          ],
+          [
+            "A",
+            "B"
+          ],
+          [
+            "B",
+            "A"
+          ],
+          [
+            "B",
+            "B"
+          ]
+        ],
+        [
+          [
+            "A",
+            "A"
+          ],
+          [
+            "B",
+            "B"
+          ],
+          [
+            "C",
+            "C"
+          ]
+        ],
+        [
+          [
+            "A",
+            "A"
+          ],
+          [
+            "B",
+            "A"
+          ],
+          [
+            "B",
+            "B"
+          ],
+          [
+            "C",
+            "C"
+          ]
+        ]
+      ],
+      "all_edge_offsets": true,
+      "modulus4_fixtures": [
+        {
+          "name": "cross_component_sat",
+          "edges": [
+            [
+              "A",
+              "A",
+              0
+            ],
+            [
+              "B",
+              "A",
+              3
+            ],
+            [
+              "A",
+              "B",
+              1
+            ],
+            [
+              "C",
+              "C",
+              0
+            ],
+            [
+              "D",
+              "C",
+              3
+            ],
+            [
+              "C",
+              "D",
+              1
+            ]
+          ]
+        },
+        {
+          "name": "cross_component_unsat_local_filter_passes",
+          "edges": [
+            [
+              "A",
+              "A",
+              0
+            ],
+            [
+              "B",
+              "A",
+              3
+            ],
+            [
+              "A",
+              "B",
+              1
+            ],
+            [
+              "C",
+              "C",
+              0
+            ],
+            [
+              "D",
+              "C",
+              3
+            ],
+            [
+              "C",
+              "D",
+              2
+            ]
+          ]
+        }
+      ],
+      "oracle_graphs": 231,
+      "full_alphabet_permutation_pairs": 9396,
+      "max_pairs_per_graph": 576,
+      "method": "independent direct enumeration of all P/C permutation pairs; compare existence and independently validate any solver witness"
+    },
+    "plants": {
+      "count": 8,
+      "alphabet_size": 26,
+      "message_length": 97,
+      "first4_known_all97": true,
+      "last4_known_canonical24_positions": true,
+      "seed": 20261018,
+      "generator": "Python random.Random MT19937",
+      "checks": "planted full alphabets encrypt synthetic message, solver must return SAT; verify returned full bijections/known equations and full decode/regeneration; require original plaintext recovery only when all97known"
+    },
+    "negative_controls": [
+      "cycle contradiction",
+      "within-component same-side collision",
+      "cross-component global obstruction despite local filter success"
+    ],
+    "boundary_controls": [
+      "no edges",
+      "unobserved letters",
+      "invalid modulus/base/primer/lag/edges",
+      "state cap unresolved",
+      "initial deadline timeout"
+    ]
+  },
+  "resource_limits": {
+    "processes": 1,
+    "deadline_seconds": 10,
+    "model_search_states": 100000,
+    "controls_each_search_states": 100000,
+    "memory_target_mebibytes": 64,
+    "third_party_execution": false,
+    "sweeps_or_additional_K4_tuples": 0
+  },
+  "classification": [
+    "local_filter_rejected",
+    "local_filter_passed_complete_alphabets_exist",
+    "local_filter_passed_no_complete_alphabets_after_exact_exhaustion",
+    "unresolved_state_cap_or_timeout"
+  ],
+  "outputs": [
+    "exact_source_tuple_and_blob_pins",
+    "complete97digitstream",
+    "24edgeconstraints",
+    "component_potentials_and_local_checks",
+    "state_count_exhaustion_or_witness",
+    "complete_alphabet_witness_if_exists",
+    "crib_and_full_roundtrip_checks_without_full_plaintext",
+    "control_counts",
+    "spec_code_input_output_hashes_and_status"
+  ],
+  "no_filters": [
+    "width21",
+    "KRYPTOS_fingerprint",
+    "English_score"
+  ],
+  "stopping": "Exactly one published tuple; no new source sweep. Stop at verified SAT/UNSAT or explicit unresolved budget. No claim about other survivors or Gromark generally.",
+  "provenance": "Published tuple/model read before spec; no local feasibility calculation before commit. This is independent implementation, not execution of source scripts."
+}
