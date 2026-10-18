@@ -38,6 +38,7 @@ Requires Python 3.8+; standard library only. From this directory:
 ```sh
 python3 experiments/check_baseline.py
 python3 experiments/check_controls.py
+python3 experiments/structural_checks.py
 python3 -m unittest discover -s tests -v
 ```
 
@@ -80,3 +81,6 @@ acceptance gates. See the milestone records in [the experiment log](research/EXP
 
 See [research policy](research/POLICY.md), [hypothesis log](research/HYPOTHESES.md),
 [experiment log](research/EXPERIMENTS.md), and [published inventory](sources/EXPERIMENTS.md).
+
+Current results: [exact structural constraints](research/STRUCTURAL-FINDINGS.md)
+and [experiment log](research/EXPERIMENTS.md). No K4 solution is claimed.

@@ -55,7 +55,8 @@ separate metadata and excluded from the 336-letter permutation.
   metadata and abstract retrieved. Published 9 August 2021; DOI
   [10.3384/ecp183153](https://doi.org/10.3384/ecp183153), CC BY 4.0. The abstract
   discusses permutation tests and a Gromark hypothesis; it does not establish a
-  solution. Full PDF downloaded; any partial reproduction is recorded separately.
+  solution. Full PDF downloaded and read using local PDFKit extraction; any partial
+  reproduction is recorded separately.
 - **S3 — [Paradigm, *Project Kryptos*](https://www.paradigm.xyz/writing/kryptos):**
   retrieved directly; dated 12 June 2026, by Dan Robinson and Matt Huang. The
   steward describes K4 as unsolved and an automated private verification system.

@@ -37,3 +37,19 @@ makes no statement about a cryptographic method or historical source accuracy.
   transcribed; physical paper reconstruction not claimed. No K4 conclusion.
 - Code/version: CTRL-001 milestone commit in history; output hashes in
   [results](../results/CTRL-001.json).
+
+## STRUCT-001 — exact structural and encoding constraints
+
+- Date: 2026-10-18 UTC; Python 3.9.6 standard library; under one second.
+- Command: `python3 experiments/structural_checks.py > results/STRUCT-001.json`.
+- Inputs: unchanged `data/k4.json`; no normalization, key search, or scoring.
+- Parameters: all pairs of the 24 crib positions, periods 1–96 inclusive; literal
+  letter counts; synthetic two-character codec inventory 0–47, no framing.
+- Result: E deficit 3 required / 2 available; exactly 19 contradictory periods.
+  Full witnesses and surviving periods in [result](../results/STRUCT-001.json);
+  interpretation and prior-art limits in [findings](STRUCTURAL-FINDINGS.md).
+- Validation: all 21 tests PASS, including both bijection directions and planted
+  true-period controls for periods 1,2,7,8,10,21,42. Seed 20261018 for controls.
+- Scope: no substitution-plus-transposition conclusion; no actual language
+  converter; surviving constraints are not solutions. No novelty claim.
+- Code/version: STRUCT-001 milestone commit in history.

@@ -1,0 +1,885 @@
+{
+  "experiment": "STRUCT-001",
+  "ciphertext_counts": {
+    "A": 4,
+    "B": 5,
+    "C": 2,
+    "D": 3,
+    "E": 2,
+    "F": 4,
+    "G": 4,
+    "H": 2,
+    "I": 4,
+    "J": 3,
+    "K": 8,
+    "L": 4,
+    "M": 1,
+    "N": 3,
+    "O": 5,
+    "P": 3,
+    "Q": 4,
+    "R": 4,
+    "S": 6,
+    "T": 6,
+    "U": 6,
+    "V": 2,
+    "W": 5,
+    "X": 2,
+    "Y": 1,
+    "Z": 4
+  },
+  "crib_required_counts": {
+    "A": 2,
+    "B": 1,
+    "C": 2,
+    "E": 3,
+    "H": 1,
+    "I": 1,
+    "K": 1,
+    "L": 2,
+    "N": 2,
+    "O": 2,
+    "R": 2,
+    "S": 2,
+    "T": 3
+  },
+  "permutation_only": {
+    "compatible": false,
+    "deficits": {
+      "E": {
+        "required_by_disjoint_cribs": 3,
+        "available_ciphertext": 2
+      }
+    },
+    "scope": "Fixed literal A-Z symbols, disjoint final cribs, length 97, no insertion/deletion/substitution; any composition of permutations."
+  },
+  "periodic_bijective": {
+    "tested_periods_inclusive": [
+      1,
+      96
+    ],
+    "contradicted": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      14,
+      15,
+      17,
+      21,
+      25,
+      34,
+      42,
+      43,
+      45,
+      50
+    ],
+    "not_contradicted": [
+      8,
+      11,
+      12,
+      13,
+      16,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      44,
+      46,
+      47,
+      48,
+      49,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96
+    ],
+    "witnesses": {
+      "1": [
+        {
+          "positions_one_based": [
+            22,
+            31
+          ],
+          "cipher": "FG",
+          "plain": "EE",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            22,
+            65
+          ],
+          "cipher": "FY",
+          "plain": "EE",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            22,
+            72
+          ],
+          "cipher": "FF",
+          "plain": "EO",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            23,
+            32
+          ],
+          "cipher": "LK",
+          "plain": "AA",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            24,
+            29
+          ],
+          "cipher": "RR",
+          "plain": "ST",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            24,
+            33
+          ],
+          "cipher": "RS",
+          "plain": "SS",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            25,
+            29
+          ],
+          "cipher": "VR",
+          "plain": "TT",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            25,
+            34
+          ],
+          "cipher": "VS",
+          "plain": "TT",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            25,
+            67
+          ],
+          "cipher": "VV",
+          "plain": "TL",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            26,
+            27
+          ],
+          "cipher": "QQ",
+          "plain": "NO",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            26,
+            69
+          ],
+          "cipher": "QT",
+          "plain": "NN",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            27,
+            72
+          ],
+          "cipher": "QF",
+          "plain": "OO",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            28,
+            73
+          ],
+          "cipher": "PP",
+          "plain": "RC",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            29,
+            34
+          ],
+          "cipher": "RS",
+          "plain": "TT",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            30,
+            64
+          ],
+          "cipher": "NN",
+          "plain": "HB",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            31,
+            65
+          ],
+          "cipher": "GY",
+          "plain": "EE",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            32,
+            74
+          ],
+          "cipher": "KK",
+          "plain": "AK",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            33,
+            34
+          ],
+          "cipher": "SS",
+          "plain": "ST",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            66,
+            73
+          ],
+          "cipher": "PP",
+          "plain": "RC",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            67,
+            71
+          ],
+          "cipher": "VZ",
+          "plain": "LL",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            68,
+            69
+          ],
+          "cipher": "TT",
+          "plain": "IN",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            70,
+            73
+          ],
+          "cipher": "MP",
+          "plain": "CC",
+          "reason": "same plain, different cipher"
+        }
+      ],
+      "2": [
+        {
+          "positions_one_based": [
+            22,
+            72
+          ],
+          "cipher": "FF",
+          "plain": "EO",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            25,
+            29
+          ],
+          "cipher": "VR",
+          "plain": "TT",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            25,
+            67
+          ],
+          "cipher": "VV",
+          "plain": "TL",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            30,
+            64
+          ],
+          "cipher": "NN",
+          "plain": "HB",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            31,
+            65
+          ],
+          "cipher": "GY",
+          "plain": "EE",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            32,
+            74
+          ],
+          "cipher": "KK",
+          "plain": "AK",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            67,
+            71
+          ],
+          "cipher": "VZ",
+          "plain": "LL",
+          "reason": "same plain, different cipher"
+        }
+      ],
+      "3": [
+        {
+          "positions_one_based": [
+            22,
+            31
+          ],
+          "cipher": "FG",
+          "plain": "EE",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            23,
+            32
+          ],
+          "cipher": "LK",
+          "plain": "AA",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            24,
+            33
+          ],
+          "cipher": "RS",
+          "plain": "SS",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            25,
+            34
+          ],
+          "cipher": "VS",
+          "plain": "TT",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            25,
+            67
+          ],
+          "cipher": "VV",
+          "plain": "TL",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            27,
+            72
+          ],
+          "cipher": "QF",
+          "plain": "OO",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            28,
+            73
+          ],
+          "cipher": "PP",
+          "plain": "RC",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            32,
+            74
+          ],
+          "cipher": "KK",
+          "plain": "AK",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            70,
+            73
+          ],
+          "cipher": "MP",
+          "plain": "CC",
+          "reason": "same plain, different cipher"
+        }
+      ],
+      "4": [
+        {
+          "positions_one_based": [
+            25,
+            29
+          ],
+          "cipher": "VR",
+          "plain": "TT",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            67,
+            71
+          ],
+          "cipher": "VZ",
+          "plain": "LL",
+          "reason": "same plain, different cipher"
+        }
+      ],
+      "5": [
+        {
+          "positions_one_based": [
+            22,
+            72
+          ],
+          "cipher": "FF",
+          "plain": "EO",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            24,
+            29
+          ],
+          "cipher": "RR",
+          "plain": "ST",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            27,
+            72
+          ],
+          "cipher": "QF",
+          "plain": "OO",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            28,
+            73
+          ],
+          "cipher": "PP",
+          "plain": "RC",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            29,
+            34
+          ],
+          "cipher": "RS",
+          "plain": "TT",
+          "reason": "same plain, different cipher"
+        }
+      ],
+      "6": [
+        {
+          "positions_one_based": [
+            25,
+            67
+          ],
+          "cipher": "VV",
+          "plain": "TL",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            32,
+            74
+          ],
+          "cipher": "KK",
+          "plain": "AK",
+          "reason": "same cipher, different plain"
+        }
+      ],
+      "7": [
+        {
+          "positions_one_based": [
+            25,
+            67
+          ],
+          "cipher": "VV",
+          "plain": "TL",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            32,
+            74
+          ],
+          "cipher": "KK",
+          "plain": "AK",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            66,
+            73
+          ],
+          "cipher": "PP",
+          "plain": "RC",
+          "reason": "same cipher, different plain"
+        }
+      ],
+      "9": [
+        {
+          "positions_one_based": [
+            22,
+            31
+          ],
+          "cipher": "FG",
+          "plain": "EE",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            23,
+            32
+          ],
+          "cipher": "LK",
+          "plain": "AA",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            24,
+            33
+          ],
+          "cipher": "RS",
+          "plain": "SS",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            25,
+            34
+          ],
+          "cipher": "VS",
+          "plain": "TT",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            27,
+            72
+          ],
+          "cipher": "QF",
+          "plain": "OO",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            28,
+            73
+          ],
+          "cipher": "PP",
+          "plain": "RC",
+          "reason": "same cipher, different plain"
+        }
+      ],
+      "10": [
+        {
+          "positions_one_based": [
+            22,
+            72
+          ],
+          "cipher": "FF",
+          "plain": "EO",
+          "reason": "same cipher, different plain"
+        }
+      ],
+      "14": [
+        {
+          "positions_one_based": [
+            25,
+            67
+          ],
+          "cipher": "VV",
+          "plain": "TL",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            32,
+            74
+          ],
+          "cipher": "KK",
+          "plain": "AK",
+          "reason": "same cipher, different plain"
+        }
+      ],
+      "15": [
+        {
+          "positions_one_based": [
+            27,
+            72
+          ],
+          "cipher": "QF",
+          "plain": "OO",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            28,
+            73
+          ],
+          "cipher": "PP",
+          "plain": "RC",
+          "reason": "same cipher, different plain"
+        }
+      ],
+      "17": [
+        {
+          "positions_one_based": [
+            30,
+            64
+          ],
+          "cipher": "NN",
+          "plain": "HB",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            31,
+            65
+          ],
+          "cipher": "GY",
+          "plain": "EE",
+          "reason": "same plain, different cipher"
+        }
+      ],
+      "21": [
+        {
+          "positions_one_based": [
+            25,
+            67
+          ],
+          "cipher": "VV",
+          "plain": "TL",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            32,
+            74
+          ],
+          "cipher": "KK",
+          "plain": "AK",
+          "reason": "same cipher, different plain"
+        }
+      ],
+      "25": [
+        {
+          "positions_one_based": [
+            22,
+            72
+          ],
+          "cipher": "FF",
+          "plain": "EO",
+          "reason": "same cipher, different plain"
+        }
+      ],
+      "34": [
+        {
+          "positions_one_based": [
+            30,
+            64
+          ],
+          "cipher": "NN",
+          "plain": "HB",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            31,
+            65
+          ],
+          "cipher": "GY",
+          "plain": "EE",
+          "reason": "same plain, different cipher"
+        }
+      ],
+      "42": [
+        {
+          "positions_one_based": [
+            25,
+            67
+          ],
+          "cipher": "VV",
+          "plain": "TL",
+          "reason": "same cipher, different plain"
+        },
+        {
+          "positions_one_based": [
+            32,
+            74
+          ],
+          "cipher": "KK",
+          "plain": "AK",
+          "reason": "same cipher, different plain"
+        }
+      ],
+      "43": [
+        {
+          "positions_one_based": [
+            22,
+            65
+          ],
+          "cipher": "FY",
+          "plain": "EE",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            26,
+            69
+          ],
+          "cipher": "QT",
+          "plain": "NN",
+          "reason": "same plain, different cipher"
+        }
+      ],
+      "45": [
+        {
+          "positions_one_based": [
+            27,
+            72
+          ],
+          "cipher": "QF",
+          "plain": "OO",
+          "reason": "same plain, different cipher"
+        },
+        {
+          "positions_one_based": [
+            28,
+            73
+          ],
+          "cipher": "PP",
+          "plain": "RC",
+          "reason": "same cipher, different plain"
+        }
+      ],
+      "50": [
+        {
+          "positions_one_based": [
+            22,
+            72
+          ],
+          "cipher": "FF",
+          "plain": "EO",
+          "reason": "same cipher, different plain"
+        }
+      ]
+    },
+    "scope": "Untransposed plaintext/ciphertext alignment; one fixed bijective substitution per position phase. Necessary constraints only; no positive support from survival."
+  },
+  "language_feasibility": {
+    "48_symbols_to_26_single_symbols_globally_injective": false,
+    "exactly_two_AZ_per_intermediate_symbol_then_length_preserving_can_yield_97": false,
+    "synthetic_48_symbol_pair_codec_roundtrip": true,
+    "synthetic_all_48_encoded_length": 96,
+    "scope": "Cardinality/parity deductions only. Synthetic numerical labels have no historical significance. No translation or actual Shavian/Greek/Cyrillic converter is implemented."
+  }
+}
