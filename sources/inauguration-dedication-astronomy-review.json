@@ -46,5 +46,73 @@
   "solar_elongation_approx_deg": 3,
   "full_Horizons_query_response_materialized_here": false,
   "designer_intent_evidence": false,
-  "new_cipher_test": false
+  "new_cipher_test": false,
+  "deeper_independent_review": {
+    "ephemeris": "JPLDE441, supplied independent analysis; not run locally",
+    "longitude_conjunction_UTC_minute_precision": "1969-09-30T17:22",
+    "Berlin_CET": "1969-09-30T18:22",
+    "method": "one-minute interpolation; subsecond event precision not claimed",
+    "apparent_geocentric_ecliptic_of_date_longitude_deg": 184.59625,
+    "latitudes_deg": {
+      "Mercury": -2.07387,
+      "Uranus": 0.68609
+    },
+    "separation_deg": 2.75996,
+    "Sun_elongations_deg": {
+      "Mercury": 3.46,
+      "Uranus": 2.853
+    },
+    "Alexanderplatz_elevations_deg": {
+      "Mercury": -8.918,
+      "Uranus": -6.235,
+      "Sun": -6.232
+    },
+    "RA_conjunction_UTC_approx": "1969-09-29T13:31",
+    "closest_approach_UTC_approx": "1969-10-01T09:54",
+    "closest_separation_deg": 2.64912,
+    "sampled_longitude_conjunction_count": {
+      "start": "1960-01-01",
+      "end": "1980-01-01",
+      "daily": 28,
+      "six_hour": 28,
+      "years_with_one": 16,
+      "years_with_three": [
+        1964,
+        1969,
+        1974,
+        1979
+      ],
+      "1969_dates": [
+        "1969-08-29",
+        "1969-09-30",
+        "1969-10-16"
+      ],
+      "formal_continuous_root_proof": false,
+      "probability_of_design_intent": false
+    },
+    "quantity31": "apparent geocentric ecliptic-of-date",
+    "quantity18": {
+      "frame": "geometric heliocentric J2000 at individual target light-emissiontimes, notsimultaneousstates",
+      "Mercury_longitude_deg": 13.21377,
+      "Uranus_longitude_deg": 184.87259,
+      "difference_deg": 171.65881
+    },
+    "raw_query_urls_materialized_here": true,
+    "historical_bridge": {
+      "first_sketch_date": "1968-06-24",
+      "solar_system_top_already_present": true,
+      "designer_authorized_site": "indexedsource review; directfetchfailed",
+      "ND_excerpt": "1969-10-03page8 publicexcerpt supplied; full69wordarticlepaywalled/notread",
+      "conjunction_date_intent_found_in_consulted_sources": false,
+      "authoritative_planet_ID_angle_plan_found": false
+    },
+    "source_definition_checks_local": [
+      "JPLmanual quantity18and31",
+      "USNOglossary conjunction/appulse",
+      "PTB noDSTfrom1950table",
+      "Tagesspiegel2019sketch/SunEarthpassages"
+    ],
+    "received_query_receipt": "mercury-uranus-horizons-received-receipt.json",
+    "raw_API_responses_retrieved_or_ephemeris_executed_here": false
+  }
 }

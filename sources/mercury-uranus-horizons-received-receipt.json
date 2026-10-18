@@ -1,0 +1,370 @@
+{
+  "provenance": {
+    "received_from": "independent astronomy review supplied via parent delegation",
+    "received_on": "2026-10-18",
+    "ephemeris_executed_by_this_executor": false,
+    "raw_API_responses_retrieved_by_this_executor": false,
+    "storage": "Supplied numerical fields and13HTMLescapedqueryURLs transcribed; formatting differs from received message. Decoded URLs below only replace HTML&amp; separators.",
+    "checks_here": "JSON validity,13querynames/parameters and28events/yearcount consistency; not numerical ephemeris reproduction",
+    "precision": "Raw interpolation numbers retained as received calculation output; report1969event to minute precision only; list entries are approximate sampled crossings and pre1962UT isUT1."
+  },
+  "received_receipt": {
+    "title": "Mercury–Uranus conjunction on 30 September 1969: reproducible JPL Horizons check",
+    "computed_on": "2026-10-18",
+    "ephemeris": "JPL Horizons API version 1.2, DE441",
+    "event": {
+      "definition": "Same apparent geocentric ecliptic longitude, Horizons quantity 31; observer Earth center (500@399); IAU76/80 ecliptic of date; airless; includes light-time, gravitational light deflection and stellar aberration.",
+      "time_basis": "Horizons UT output is UTC for this 1969 event. Its pre-1962 output is UT1.",
+      "numerical_interpolated_utc": "1969-09-30T17:22:02.751457Z",
+      "recommended_reported_time_utc": "1969-09-30 17:22",
+      "recommended_reported_time_berlin": "1969-09-30 18:22 CET (UTC+01:00)",
+      "longitude_degrees": 184.59624780856345,
+      "mercury_latitude_degrees": -2.073874573752214,
+      "uranus_latitude_degrees": 0.6860865954142387,
+      "angular_separation_degrees": 2.759961169166453,
+      "sun_elongation_degrees": {
+        "mercury": 3.4598458576133893,
+        "uranus": 2.853427514568034
+      },
+      "method": "Linear interpolation of the longitude difference between 17:22 and 17:23 UTC in one-minute JPL samples. Report rounded to a minute; numerical seconds are calculation output, not a separately asserted uncertainty."
+    },
+    "other_definitions": {
+      "apparent_geocentric_ra_conjunction_utc_approx": "1969-09-29 13:31",
+      "closest_apparent_geocentric_sky_approach_utc_approx": "1969-10-01 09:54",
+      "closest_separation_degrees": 2.64911767,
+      "method": "RA equality interpolated in hourly samples of quantity 2. Closest separation is great-circle distance from apparent quantity-31 ecliptic positions, refined with a local quartic fit to five hourly distances."
+    },
+    "heliocentric_crosscheck": {
+      "quantity": 18,
+      "reference_frame": "Geometric heliocentric J2000 ecliptic longitudes/latitudes. Horizons quantity 18 evaluates each target at the instant its light left to reach the geocentric observer at the requested time; these are not simultaneous dynamical positions.",
+      "mercury_longitude_deg": 13.213774399544,
+      "uranus_longitude_deg": 184.87258641271853,
+      "longitude_difference_deg": 171.65881201317453,
+      "interpretation": "About 171.66 degrees apart in heliocentric longitude; clearly not a Sun-centered conjunction."
+    },
+    "berlin_visibility": {
+      "site_approx": {
+        "longitude_deg_east": 13.413,
+        "latitude_deg_north": 52.521,
+        "altitude_km": 0.035
+      },
+      "time_utc": "1969-09-30 17:22",
+      "airless_altitude_degrees": {
+        "mercury": -8.917940195,
+        "uranus": -6.235323681,
+        "sun": -6.231644042
+      },
+      "source_quantity": 4,
+      "interpretation": "Both planets were already below the horizon at this approximate Alexanderplatz site. The Sun was also below the horizon."
+    },
+    "frequency_check": {
+      "start": "1960-01-01 00:00",
+      "end_exclusive": "1980-01-01 00:00",
+      "step_hours": 6,
+      "samples_per_body": 29221,
+      "longitude_conjunction_count": 28,
+      "count_per_year_mean": 1.4,
+      "validation": "Same 28 crossings at daily and six-hour resolution, excluding wrap discontinuities. Examined sampled local extrema; none approach zero more closely than 2.595 degrees, giving no indication of unresolved grazing crossings. This is a numerical sampled ephemeris count, not a formal completeness proof.",
+      "1969_dates_utc": [
+        "1969-08-29",
+        "1969-09-30",
+        "1969-10-16"
+      ],
+      "event_year_counts": {
+        "1960": 1,
+        "1961": 1,
+        "1962": 1,
+        "1963": 1,
+        "1964": 3,
+        "1965": 1,
+        "1966": 1,
+        "1967": 1,
+        "1968": 1,
+        "1969": 3,
+        "1970": 1,
+        "1971": 1,
+        "1972": 1,
+        "1973": 1,
+        "1974": 3,
+        "1975": 1,
+        "1976": 1,
+        "1977": 1,
+        "1978": 1,
+        "1979": 3
+      },
+      "statistical_caution": "This bounded frequency is not a probability of intent. A preselected planet pair/date is a different statistical question from looking after the fact across many planet pairs, dates, and event definitions."
+    },
+    "primary_methods_and_time_zone_sources": [
+      {
+        "title": "JPL Horizons manual",
+        "url": "https://ssd.jpl.nasa.gov/horizons/manual.html"
+      },
+      {
+        "title": "JPL Horizons API documentation",
+        "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html"
+      },
+      {
+        "title": "USNO Astronomical Almanac glossary",
+        "url": "https://aa.usno.navy.mil/faq/asa_glossary"
+      },
+      {
+        "title": "PTB: summer time and midsummer time in Germany through 1979",
+        "url": "https://www.ptb.de/cms/ptb/fachabteilungen/abt4/fb-44/ag-441/darstellung-der-gesetzlichen-zeit/sommerzeiten-und-hochsommerzeiten-in-deutschland-bis-1979.html"
+      },
+      {
+        "title": "IANA time-zone database, Europe",
+        "url": "https://data.iana.org/time-zones/tzdb/europe"
+      }
+    ],
+    "reproduction_queries": [
+      {
+        "name": "conjunction_mercury_refine",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27199%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27500%40399%27&amp;START_TIME=%271969-09-30+17%3A00%27&amp;STOP_TIME=%271969-09-30+18%3A00%27&amp;STEP_SIZE=%271+m%27&amp;QUANTITIES=%272%2C18%2C23%2C31%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27"
+      },
+      {
+        "name": "conjunction_uranus_refine",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27799%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27500%40399%27&amp;START_TIME=%271969-09-30+17%3A00%27&amp;STOP_TIME=%271969-09-30+18%3A00%27&amp;STEP_SIZE=%271+m%27&amp;QUANTITIES=%272%2C18%2C23%2C31%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27"
+      },
+      {
+        "name": "conjunction_mercury_1960_1980",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27199%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27500%40399%27&amp;START_TIME=%271960-01-01%27&amp;STOP_TIME=%271980-01-01%27&amp;STEP_SIZE=%271+d%27&amp;QUANTITIES=%2731%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27"
+      },
+      {
+        "name": "conjunction_uranus_1960_1980",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27799%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27500%40399%27&amp;START_TIME=%271960-01-01%27&amp;STOP_TIME=%271980-01-01%27&amp;STEP_SIZE=%271+d%27&amp;QUANTITIES=%2731%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27"
+      },
+      {
+        "name": "conjunction_mercury_sky",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27199%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27500%40399%27&amp;START_TIME=%271969-09-25%27&amp;STOP_TIME=%271969-10-06%27&amp;STEP_SIZE=%271+h%27&amp;QUANTITIES=%272%2C23%2C31%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27"
+      },
+      {
+        "name": "conjunction_uranus_sky",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27799%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27500%40399%27&amp;START_TIME=%271969-09-25%27&amp;STOP_TIME=%271969-10-06%27&amp;STEP_SIZE=%271+h%27&amp;QUANTITIES=%272%2C23%2C31%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27"
+      },
+      {
+        "name": "conjunction_mercury_1960_1980_6hour",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27199%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27500%40399%27&amp;START_TIME=%271960-01-01%27&amp;STOP_TIME=%271980-01-01%27&amp;STEP_SIZE=%276+h%27&amp;QUANTITIES=%2731%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27"
+      },
+      {
+        "name": "conjunction_uranus_1960_1980_6hour",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27799%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27500%40399%27&amp;START_TIME=%271960-01-01%27&amp;STOP_TIME=%271980-01-01%27&amp;STEP_SIZE=%276+h%27&amp;QUANTITIES=%2731%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27"
+      },
+      {
+        "name": "conjunction_mercury_berlin",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27199%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27coord%40399%27&amp;START_TIME=%271969-09-30+16%3A30%27&amp;STOP_TIME=%271969-09-30+17%3A30%27&amp;STEP_SIZE=%271+m%27&amp;QUANTITIES=%274%2C23%2C31%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27&amp;COORD_TYPE=%27GEODETIC%27&amp;SITE_COORD=%2713.413%2C52.521%2C0.035%27"
+      },
+      {
+        "name": "conjunction_uranus_berlin",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27799%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27coord%40399%27&amp;START_TIME=%271969-09-30+16%3A30%27&amp;STOP_TIME=%271969-09-30+17%3A30%27&amp;STEP_SIZE=%271+m%27&amp;QUANTITIES=%274%2C23%2C31%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27&amp;COORD_TYPE=%27GEODETIC%27&amp;SITE_COORD=%2713.413%2C52.521%2C0.035%27"
+      },
+      {
+        "name": "conjunction_sun_berlin",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%2710%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27coord%40399%27&amp;START_TIME=%271969-09-30+16%3A30%27&amp;STOP_TIME=%271969-09-30+17%3A30%27&amp;STEP_SIZE=%271+m%27&amp;QUANTITIES=%274%2C23%2C31%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27&amp;COORD_TYPE=%27GEODETIC%27&amp;SITE_COORD=%2713.413%2C52.521%2C0.035%27"
+      },
+      {
+        "name": "conjunction_mercury_1969",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27199%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27500%40399%27&amp;START_TIME=%271969-08-28%27&amp;STOP_TIME=%271969-10-18%27&amp;STEP_SIZE=%271+h%27&amp;QUANTITIES=%272%2C23%2C31%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27"
+      },
+      {
+        "name": "conjunction_uranus_1969",
+        "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&amp;COMMAND=%27799%27&amp;OBJ_DATA=%27NO%27&amp;MAKE_EPHEM=%27YES%27&amp;EPHEM_TYPE=%27OBSERVER%27&amp;CENTER=%27500%40399%27&amp;START_TIME=%271969-08-28%27&amp;STOP_TIME=%271969-10-18%27&amp;STEP_SIZE=%271+h%27&amp;QUANTITIES=%272%2C23%2C31%27&amp;CSV_FORMAT=%27YES%27&amp;ANG_FORMAT=%27DEG%27&amp;EXTRA_PREC=%27YES%27"
+      }
+    ],
+    "longitude_conjunctions_1960_1979_approx": [
+      {
+        "ut_time_approx": "1960-08-23T02:24:26.640899",
+        "longitude_deg_approx": 141.96255866982662,
+        "latitude_difference_deg_approx": 0.9311241118545233
+      },
+      {
+        "ut_time_approx": "1961-08-16T19:53:49.396894",
+        "longitude_deg_approx": 145.98987206425815,
+        "latitude_difference_deg_approx": 1.0555919562026563
+      },
+      {
+        "ut_time_approx": "1962-08-10T20:07:13.136319",
+        "longitude_deg_approx": 150.04816257123133,
+        "latitude_difference_deg_approx": 0.7498806682522917
+      },
+      {
+        "ut_time_approx": "1963-08-06T00:30:28.942162",
+        "longitude_deg_approx": 154.20581875539978,
+        "latitude_difference_deg_approx": -0.03506331232211213
+      },
+      {
+        "ut_time_approx": "1964-08-03T17:10:02.716024",
+        "longitude_deg_approx": 158.59987828986655,
+        "latitude_difference_deg_approx": -1.8978944842124927
+      },
+      {
+        "ut_time_approx": "1964-09-01T17:25:05.104490",
+        "longitude_deg_approx": 160.36847446023512,
+        "latitude_difference_deg_approx": -4.750974395763776
+      },
+      {
+        "ut_time_approx": "1964-09-21T19:39:04.723138",
+        "longitude_deg_approx": 161.6185311615322,
+        "latitude_difference_deg_approx": 0.5678598121912378
+      },
+      {
+        "ut_time_approx": "1965-09-17T14:38:33.793987",
+        "longitude_deg_approx": 165.82717424204986,
+        "latitude_difference_deg_approx": 1.0938601836096464
+      },
+      {
+        "ut_time_approx": "1966-09-11T19:06:47.207265",
+        "longitude_deg_approx": 169.93083476310522,
+        "latitude_difference_deg_approx": 0.8342293741991978
+      },
+      {
+        "ut_time_approx": "1967-09-06T04:38:04.179186",
+        "longitude_deg_approx": 174.05164375864354,
+        "latitude_difference_deg_approx": 0.23759454989393458
+      },
+      {
+        "ut_time_approx": "1968-08-31T13:11:26.121509",
+        "longitude_deg_approx": 178.24645665461475,
+        "latitude_difference_deg_approx": -0.7201894423137148
+      },
+      {
+        "ut_time_approx": "1969-08-29T12:00:24.764711",
+        "longitude_deg_approx": 182.611905423312,
+        "latitude_difference_deg_approx": -2.370993724107383
+      },
+      {
+        "ut_time_approx": "1969-09-30T17:22:14.983653",
+        "longitude_deg_approx": 184.59625666180153,
+        "latitude_difference_deg_approx": -2.7598695077666884
+      },
+      {
+        "ut_time_approx": "1969-10-16T22:57:19.101139",
+        "longitude_deg_approx": 185.60798617858745,
+        "latitude_difference_deg_approx": 1.2159324125890938
+      },
+      {
+        "ut_time_approx": "1970-10-13T12:22:44.075385",
+        "longitude_deg_approx": 189.86044900761718,
+        "latitude_difference_deg_approx": 1.1288699297041305
+      },
+      {
+        "ut_time_approx": "1971-10-08T05:16:05.640182",
+        "longitude_deg_approx": 193.97442723224373,
+        "latitude_difference_deg_approx": 0.5258811460022125
+      },
+      {
+        "ut_time_approx": "1972-10-01T23:50:30.934355",
+        "longitude_deg_approx": 198.07863721032595,
+        "latitude_difference_deg_approx": -0.2650003939774018
+      },
+      {
+        "ut_time_approx": "1973-09-27T11:52:36.516704",
+        "longitude_deg_approx": 202.2227241225537,
+        "latitude_difference_deg_approx": -1.2665833411234002
+      },
+      {
+        "ut_time_approx": "1974-09-24T23:18:50.603607",
+        "longitude_deg_approx": 206.48456044506653,
+        "latitude_difference_deg_approx": -2.64620484498599
+      },
+      {
+        "ut_time_approx": "1974-10-28T05:47:19.041313",
+        "longitude_deg_approx": 208.53696452799548,
+        "latitude_difference_deg_approx": -0.5565872531442485
+      },
+      {
+        "ut_time_approx": "1974-11-11T02:40:52.952241",
+        "longitude_deg_approx": 209.39382481443815,
+        "latitude_difference_deg_approx": 1.7588313958629769
+      },
+      {
+        "ut_time_approx": "1975-11-08T15:06:21.404374",
+        "longitude_deg_approx": 213.61997005263038,
+        "latitude_difference_deg_approx": 1.0423970520163037
+      },
+      {
+        "ut_time_approx": "1976-11-02T19:55:31.847266",
+        "longitude_deg_approx": 217.6709222557485,
+        "latitude_difference_deg_approx": 0.18944376852978057
+      },
+      {
+        "ut_time_approx": "1977-10-28T21:18:53.123541",
+        "longitude_deg_approx": 221.68991534075974,
+        "latitude_difference_deg_approx": -0.6813429948406747
+      },
+      {
+        "ut_time_approx": "1978-10-24T09:56:14.409918",
+        "longitude_deg_approx": 225.7258657755323,
+        "latitude_difference_deg_approx": -1.6073806588390127
+      },
+      {
+        "ut_time_approx": "1979-10-21T09:11:50.585268",
+        "longitude_deg_approx": 229.8434234472663,
+        "latitude_difference_deg_approx": -2.6469610176163476
+      },
+      {
+        "ut_time_approx": "1979-11-24T14:37:13.106411",
+        "longitude_deg_approx": 231.94391213282947,
+        "latitude_difference_deg_approx": 1.5332620622954307
+      },
+      {
+        "ut_time_approx": "1979-12-05T19:08:23.526689",
+        "longitude_deg_approx": 232.62219751677853,
+        "latitude_difference_deg_approx": 2.1946072261907275
+      }
+    ]
+  },
+  "reproduction_queries_decoded": [
+    {
+      "name": "conjunction_mercury_refine",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27199%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%271969-09-30+17%3A00%27&STOP_TIME=%271969-09-30+18%3A00%27&STEP_SIZE=%271+m%27&QUANTITIES=%272%2C18%2C23%2C31%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27"
+    },
+    {
+      "name": "conjunction_uranus_refine",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27799%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%271969-09-30+17%3A00%27&STOP_TIME=%271969-09-30+18%3A00%27&STEP_SIZE=%271+m%27&QUANTITIES=%272%2C18%2C23%2C31%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27"
+    },
+    {
+      "name": "conjunction_mercury_1960_1980",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27199%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%271960-01-01%27&STOP_TIME=%271980-01-01%27&STEP_SIZE=%271+d%27&QUANTITIES=%2731%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27"
+    },
+    {
+      "name": "conjunction_uranus_1960_1980",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27799%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%271960-01-01%27&STOP_TIME=%271980-01-01%27&STEP_SIZE=%271+d%27&QUANTITIES=%2731%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27"
+    },
+    {
+      "name": "conjunction_mercury_sky",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27199%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%271969-09-25%27&STOP_TIME=%271969-10-06%27&STEP_SIZE=%271+h%27&QUANTITIES=%272%2C23%2C31%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27"
+    },
+    {
+      "name": "conjunction_uranus_sky",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27799%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%271969-09-25%27&STOP_TIME=%271969-10-06%27&STEP_SIZE=%271+h%27&QUANTITIES=%272%2C23%2C31%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27"
+    },
+    {
+      "name": "conjunction_mercury_1960_1980_6hour",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27199%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%271960-01-01%27&STOP_TIME=%271980-01-01%27&STEP_SIZE=%276+h%27&QUANTITIES=%2731%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27"
+    },
+    {
+      "name": "conjunction_uranus_1960_1980_6hour",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27799%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%271960-01-01%27&STOP_TIME=%271980-01-01%27&STEP_SIZE=%276+h%27&QUANTITIES=%2731%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27"
+    },
+    {
+      "name": "conjunction_mercury_berlin",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27199%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40399%27&START_TIME=%271969-09-30+16%3A30%27&STOP_TIME=%271969-09-30+17%3A30%27&STEP_SIZE=%271+m%27&QUANTITIES=%274%2C23%2C31%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%2713.413%2C52.521%2C0.035%27"
+    },
+    {
+      "name": "conjunction_uranus_berlin",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27799%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40399%27&START_TIME=%271969-09-30+16%3A30%27&STOP_TIME=%271969-09-30+17%3A30%27&STEP_SIZE=%271+m%27&QUANTITIES=%274%2C23%2C31%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%2713.413%2C52.521%2C0.035%27"
+    },
+    {
+      "name": "conjunction_sun_berlin",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%2710%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40399%27&START_TIME=%271969-09-30+16%3A30%27&STOP_TIME=%271969-09-30+17%3A30%27&STEP_SIZE=%271+m%27&QUANTITIES=%274%2C23%2C31%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%2713.413%2C52.521%2C0.035%27"
+    },
+    {
+      "name": "conjunction_mercury_1969",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27199%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%271969-08-28%27&STOP_TIME=%271969-10-18%27&STEP_SIZE=%271+h%27&QUANTITIES=%272%2C23%2C31%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27"
+    },
+    {
+      "name": "conjunction_uranus_1969",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27799%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27500%40399%27&START_TIME=%271969-08-28%27&STOP_TIME=%271969-10-18%27&STEP_SIZE=%271+h%27&QUANTITIES=%272%2C23%2C31%27&CSV_FORMAT=%27YES%27&ANG_FORMAT=%27DEG%27&EXTRA_PREC=%27YES%27"
+    }
+  ]
+}

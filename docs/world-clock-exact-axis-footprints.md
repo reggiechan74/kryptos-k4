@@ -66,3 +66,43 @@ that image, so no repository image path or byte-verification claim is made.
 [Inauguration/dedication astronomy](inauguration-dedication-astronomy.md) records
 a separate date hypothesis; these intersections were not selected from an
 astronomical alignment or used for a cipher test.
+
+## Building commonalities: a historical baseline, not a key
+
+The real commonality is the area's **late-1960s GDR redevelopment**, with older
+art incorporated into a planned ensemble:
+
+| Feature | Historical role/date in the supplied review | Relevance to the exact axis |
+| --- | --- | --- |
+| Haus der Statistik | central state statistical administration; built 1968–70 | ENE footprint hit; already identified earlier |
+| Fernsehturm | broadcasting tower; built 1965–69 | shaft misses the ray |
+| Tower's surrounding pavilions | exhibition/restaurant; built 1969–72 | WSW historical footprint hit |
+| Neptunbrunnen | sculpture from 1891, relocated here in 1969 | basin intersected off-centre |
+
+The construction dates are supported by [BIM](https://www.bim-berlin.de/landesimmobilien/projekte/haus-der-statistik)
+and the [heritage record](https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09065023,T);
+the [fountain record](https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09011281)
+is the period-location source retained in the earlier geography note. The
+statistical administration's original role must not be replaced with later
+post-reunification Stasi-records use as if that were its 1989 function.
+
+The heritage record describes a hexagonal pavilion/terrace plan and a **60°
+planning angle relative to the tower's main axis**. This executor read that
+passage. It is not a true-north bearing of 60°, nor the clock's 67.5° ENE ray.
+The supplied review places Neptune at the intersection of the tower/town-hall
+axes; that is another planning axis, not an interchangeable compass instruction.
+Most directly, this ray hits exhibition/restaurant architecture, not the broadcast
+shaft. A statistics/broadcasting/time interpretation is a broad thematic reading.
+
+The [tower operator's history](https://tv-turm.de/en//history/) explicitly relates
+the sphere to Soviet Sputnik satellites. That is documented space-age symbolism,
+not a Mercury–Uranus plan. Neptune as sea god and the fountain's river figures
+are not automatically references to the planet Neptune. The urban ensemble
+provides a baseline explanation for nearby alignments, without specifying a
+cryptographic extraction rule or establishing a Sanborn connection.
+
+A future geographic test would need eligible labels, ordering and extraction
+fixed beforehand, with adjacent-bearing comparisons. No arbitrary building-name
+initials, new target line or cipher-key search was introduced in this update.
+See the [deeper astronomical review](inauguration-dedication-astronomy.md#deeper-conjunction-review--18-october-2026)
+for the separate coordinate-frame and historical-intent limits.
