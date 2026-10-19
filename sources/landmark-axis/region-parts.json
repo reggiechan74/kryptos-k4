@@ -1,0 +1,47 @@
+{
+  "format": "Concatenateparts listedinorder torestore originalgzip; notseparategzipstreams",
+  "total_bytes": 3949292,
+  "gzip_sha256": "e768222a162ffe00e8562e61e60586d30cf66c089f9085b052ed5306c8998e92",
+  "parts": [
+    {
+      "name": "official-region.geojson.gz.part000",
+      "bytes": 524288,
+      "sha256": "40b61ea6fb1986d75238be1e36772a48d531604ff26110f0957c66e6ae347736"
+    },
+    {
+      "name": "official-region.geojson.gz.part001",
+      "bytes": 524288,
+      "sha256": "669edf5ecb79f9f3ad5a48f68419f41cb298b2c9ca02c321bc2e88d69567f179"
+    },
+    {
+      "name": "official-region.geojson.gz.part002",
+      "bytes": 524288,
+      "sha256": "3cc761f64a16f53e2e2e9b0a07d28e6630bb2b7dfc9903fd031a83180d47d969"
+    },
+    {
+      "name": "official-region.geojson.gz.part003",
+      "bytes": 524288,
+      "sha256": "b33eac47100690be49bf89bf4e195162687da770ef3925fe2486b7d97cb16283"
+    },
+    {
+      "name": "official-region.geojson.gz.part004",
+      "bytes": 524288,
+      "sha256": "13b191e952039a7a3590cf49db63712ad093d4c3725f022f2c337eb9d97c094a"
+    },
+    {
+      "name": "official-region.geojson.gz.part005",
+      "bytes": 524288,
+      "sha256": "1e22b4835dc7f85af0498bbbe81486b09a57209e695313dcb306d6f40492da7f"
+    },
+    {
+      "name": "official-region.geojson.gz.part006",
+      "bytes": 524288,
+      "sha256": "334b8d603fcb8b50e1e16e4c14d249d996782abe1e075d7bd7959e7dd6cd33d3"
+    },
+    {
+      "name": "official-region.geojson.gz.part007",
+      "bytes": 279276,
+      "sha256": "96bed229dc246fff858ae32aa3139375f95edbaeb485208f52fb34103b87d4a1"
+    }
+  ]
+}
