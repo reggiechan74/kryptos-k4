@@ -1,0 +1,503 @@
+{
+  "experiment": "LANDMARK-AXIS-001",
+  "spec_commit": "333ff330be8078de16584960d1aa9d59949360ce",
+  "inventory_commit": "63fa98dfa39a846b125d9f7414631fdf8b477171",
+  "code_commit": "53cd50ad85e443c4f22f59aa4f0115c6ba5047f2",
+  "inventory_selection": "Officialregionalheritagegeometry, nestedclusters, SHA256-IDsamplefirst200; prioraxislandmarklistnotused",
+  "historical_outline_confirmed_H0": 0,
+  "primary_is_H1_pre1990existence_current_geometry_proxy": true,
+  "rays_m_each_direction": 5000,
+  "target_axis": [
+    67.5,
+    247.5
+  ],
+  "runs": [
+    {
+      "native_edge_densification_m": 5.0,
+      "eligible_H1_sites": 175,
+      "uncertain_U_sites": 24,
+      "primary_H1_grid": {
+        "orientations": 18000,
+        "target_count": 4,
+        "median": 2.0,
+        "maximum": 6,
+        "mean": 1.9481666666666666,
+        "target_minus_median": 2.0,
+        "strict_rank_best_is1": 893,
+        "tied_orientations": 1568,
+        "equal_or_higher_angular_fraction": 0.13666666666666666
+      },
+      "primary_H1_continuous": {
+        "angular_measure_deg": {
+          "0": 27.08384951430685,
+          "1": 44.66484754582552,
+          "2": 53.670445826207256,
+          "3": 29.98142231925402,
+          "4": 15.685324128634882,
+          "5": 7.571865212340055,
+          "6": 1.342245453431408
+        },
+        "median_count": 2,
+        "maximum_on_positive_width_intervals": 6,
+        "equal_or_higher_angular_fraction": 0.13666352663559078,
+        "interpretation": "Descriptive measure on one180degreecycle; intervalendpoints havezeroangularmeasure, no statisticalpvalue."
+      },
+      "local_pm10_grid": {
+        "orientations": 2001,
+        "target_count": 4,
+        "median": 1.0,
+        "maximum": 4,
+        "mean": 1.633183408295852,
+        "target_minus_median": 3.0,
+        "strict_rank_best_is1": 1,
+        "tied_orientations": 191,
+        "equal_or_higher_angular_fraction": 0.09545227386306847
+      },
+      "uncertain_U_grid_separate": {
+        "orientations": 18000,
+        "target_count": 0,
+        "median": 0.0,
+        "maximum": 2,
+        "mean": 0.23205555555555554,
+        "target_minus_median": 0.0,
+        "strict_rank_best_is1": 3319,
+        "tied_orientations": 14682,
+        "equal_or_higher_angular_fraction": 1.0
+      },
+      "target_H1_directional_counts": {
+        "ENE": 0,
+        "WSW": 4
+      },
+      "target_H1_classes": {
+        "mixed_complex": 1,
+        "built_footprint": 3
+      },
+      "all_H1_classes": {
+        "built_footprint": 127,
+        "compact_monument": 2,
+        "mixed_complex": 42,
+        "garden_grounds": 4
+      },
+      "class_grid_statistics": {
+        "built_footprint": {
+          "orientations": 18000,
+          "target_count": 3,
+          "median": 1.0,
+          "maximum": 4,
+          "mean": 0.9211111111111111,
+          "target_minus_median": 2.0,
+          "strict_rank_best_is1": 122,
+          "tied_orientations": 724,
+          "equal_or_higher_angular_fraction": 0.04694444444444444
+        },
+        "compact_monument": {
+          "orientations": 18000,
+          "target_count": 0,
+          "median": 0.0,
+          "maximum": 1,
+          "mean": 0.0024444444444444444,
+          "target_minus_median": 0.0,
+          "strict_rank_best_is1": 45,
+          "tied_orientations": 17956,
+          "equal_or_higher_angular_fraction": 1.0
+        },
+        "garden_grounds": {
+          "orientations": 18000,
+          "target_count": 0,
+          "median": 0.0,
+          "maximum": 2,
+          "mean": 0.13766666666666666,
+          "target_minus_median": 0.0,
+          "strict_rank_best_is1": 2076,
+          "tied_orientations": 15925,
+          "equal_or_higher_angular_fraction": 1.0
+        },
+        "mixed_complex": {
+          "orientations": 18000,
+          "target_count": 1,
+          "median": 1.0,
+          "maximum": 4,
+          "mean": 0.8869444444444444,
+          "target_minus_median": 0.0,
+          "strict_rank_best_is1": 4406,
+          "tied_orientations": 6281,
+          "equal_or_higher_angular_fraction": 0.5936666666666667
+        }
+      },
+      "target_boundary_margins_deg": {
+        "09080262": 1.568718584368014,
+        "09030067": 0.08631323248687295,
+        "09095951": 1.9245424585070623,
+        "09080268": 0.047037037296775
+      },
+      "target_H1_ids": [
+        "09080262",
+        "09030067",
+        "09095951",
+        "09080268"
+      ],
+      "target_U_ids": [],
+      "coarser_grid_002": {
+        "orientations": 9000,
+        "target_count": 4,
+        "median": 2.0,
+        "maximum": 6,
+        "mean": 1.9484444444444444,
+        "target_minus_median": 2.0,
+        "strict_rank_best_is1": 448,
+        "tied_orientations": 786,
+        "equal_or_higher_angular_fraction": 0.137
+      },
+      "fixed_comparison_orientations": [
+        {
+          "orientation": 0,
+          "paired_reverse": 180,
+          "H1_count": 2
+        },
+        {
+          "orientation": 22.5,
+          "paired_reverse": 202.5,
+          "H1_count": 2
+        },
+        {
+          "orientation": 45,
+          "paired_reverse": 225,
+          "H1_count": 1
+        },
+        {
+          "orientation": 57.5,
+          "paired_reverse": 237.5,
+          "H1_count": 1
+        },
+        {
+          "orientation": 62.5,
+          "paired_reverse": 242.5,
+          "H1_count": 2
+        },
+        {
+          "orientation": 65.5,
+          "paired_reverse": 245.5,
+          "H1_count": 2
+        },
+        {
+          "orientation": 66.5,
+          "paired_reverse": 246.5,
+          "H1_count": 3
+        },
+        {
+          "orientation": 67,
+          "paired_reverse": 247,
+          "H1_count": 3
+        },
+        {
+          "orientation": 67.5,
+          "paired_reverse": 247.5,
+          "H1_count": 4
+        },
+        {
+          "orientation": 68,
+          "paired_reverse": 248,
+          "H1_count": 3
+        },
+        {
+          "orientation": 68.5,
+          "paired_reverse": 248.5,
+          "H1_count": 4
+        },
+        {
+          "orientation": 69.5,
+          "paired_reverse": 249.5,
+          "H1_count": 3
+        },
+        {
+          "orientation": 72.5,
+          "paired_reverse": 252.5,
+          "H1_count": 0
+        },
+        {
+          "orientation": 77.5,
+          "paired_reverse": 257.5,
+          "H1_count": 2
+        },
+        {
+          "orientation": 90,
+          "paired_reverse": 270,
+          "H1_count": 1
+        },
+        {
+          "orientation": 112.5,
+          "paired_reverse": 292.5,
+          "H1_count": 2
+        },
+        {
+          "orientation": 135,
+          "paired_reverse": 315,
+          "H1_count": 0
+        },
+        {
+          "orientation": 157.5,
+          "paired_reverse": 337.5,
+          "H1_count": 1
+        }
+      ]
+    },
+    {
+      "native_edge_densification_m": 2.5,
+      "eligible_H1_sites": 175,
+      "uncertain_U_sites": 24,
+      "primary_H1_grid": {
+        "orientations": 18000,
+        "target_count": 4,
+        "median": 2.0,
+        "maximum": 6,
+        "mean": 1.9481666666666666,
+        "target_minus_median": 2.0,
+        "strict_rank_best_is1": 893,
+        "tied_orientations": 1568,
+        "equal_or_higher_angular_fraction": 0.13666666666666666
+      },
+      "primary_H1_continuous": {
+        "angular_measure_deg": {
+          "0": 27.08384951428046,
+          "1": 44.66484754585188,
+          "2": 53.67044582616908,
+          "3": 29.981422319267743,
+          "4": 15.685324128659385,
+          "5": 7.571865212340033,
+          "6": 1.3422454534314205
+        },
+        "median_count": 2,
+        "maximum_on_positive_width_intervals": 6,
+        "equal_or_higher_angular_fraction": 0.13666352663572687,
+        "interpretation": "Descriptive measure on one180degreecycle; intervalendpoints havezeroangularmeasure, no statisticalpvalue."
+      },
+      "local_pm10_grid": {
+        "orientations": 2001,
+        "target_count": 4,
+        "median": 1.0,
+        "maximum": 4,
+        "mean": 1.633183408295852,
+        "target_minus_median": 3.0,
+        "strict_rank_best_is1": 1,
+        "tied_orientations": 191,
+        "equal_or_higher_angular_fraction": 0.09545227386306847
+      },
+      "uncertain_U_grid_separate": {
+        "orientations": 18000,
+        "target_count": 0,
+        "median": 0.0,
+        "maximum": 2,
+        "mean": 0.23205555555555554,
+        "target_minus_median": 0.0,
+        "strict_rank_best_is1": 3319,
+        "tied_orientations": 14682,
+        "equal_or_higher_angular_fraction": 1.0
+      },
+      "target_H1_directional_counts": {
+        "ENE": 0,
+        "WSW": 4
+      },
+      "target_H1_classes": {
+        "mixed_complex": 1,
+        "built_footprint": 3
+      },
+      "all_H1_classes": {
+        "built_footprint": 127,
+        "compact_monument": 2,
+        "mixed_complex": 42,
+        "garden_grounds": 4
+      },
+      "class_grid_statistics": {
+        "built_footprint": {
+          "orientations": 18000,
+          "target_count": 3,
+          "median": 1.0,
+          "maximum": 4,
+          "mean": 0.9211111111111111,
+          "target_minus_median": 2.0,
+          "strict_rank_best_is1": 122,
+          "tied_orientations": 724,
+          "equal_or_higher_angular_fraction": 0.04694444444444444
+        },
+        "compact_monument": {
+          "orientations": 18000,
+          "target_count": 0,
+          "median": 0.0,
+          "maximum": 1,
+          "mean": 0.0024444444444444444,
+          "target_minus_median": 0.0,
+          "strict_rank_best_is1": 45,
+          "tied_orientations": 17956,
+          "equal_or_higher_angular_fraction": 1.0
+        },
+        "garden_grounds": {
+          "orientations": 18000,
+          "target_count": 0,
+          "median": 0.0,
+          "maximum": 2,
+          "mean": 0.13766666666666666,
+          "target_minus_median": 0.0,
+          "strict_rank_best_is1": 2076,
+          "tied_orientations": 15925,
+          "equal_or_higher_angular_fraction": 1.0
+        },
+        "mixed_complex": {
+          "orientations": 18000,
+          "target_count": 1,
+          "median": 1.0,
+          "maximum": 4,
+          "mean": 0.8869444444444444,
+          "target_minus_median": 0.0,
+          "strict_rank_best_is1": 4406,
+          "tied_orientations": 6281,
+          "equal_or_higher_angular_fraction": 0.5936666666666667
+        }
+      },
+      "target_boundary_margins_deg": {
+        "09080262": 1.568718584368014,
+        "09030067": 0.08631323248687295,
+        "09095951": 1.9245424585070623,
+        "09080268": 0.047037037296775
+      },
+      "target_H1_ids": [
+        "09080262",
+        "09030067",
+        "09095951",
+        "09080268"
+      ],
+      "target_U_ids": [],
+      "coarser_grid_002": {
+        "orientations": 9000,
+        "target_count": 4,
+        "median": 2.0,
+        "maximum": 6,
+        "mean": 1.9484444444444444,
+        "target_minus_median": 2.0,
+        "strict_rank_best_is1": 448,
+        "tied_orientations": 786,
+        "equal_or_higher_angular_fraction": 0.137
+      },
+      "fixed_comparison_orientations": [
+        {
+          "orientation": 0,
+          "paired_reverse": 180,
+          "H1_count": 2
+        },
+        {
+          "orientation": 22.5,
+          "paired_reverse": 202.5,
+          "H1_count": 2
+        },
+        {
+          "orientation": 45,
+          "paired_reverse": 225,
+          "H1_count": 1
+        },
+        {
+          "orientation": 57.5,
+          "paired_reverse": 237.5,
+          "H1_count": 1
+        },
+        {
+          "orientation": 62.5,
+          "paired_reverse": 242.5,
+          "H1_count": 2
+        },
+        {
+          "orientation": 65.5,
+          "paired_reverse": 245.5,
+          "H1_count": 2
+        },
+        {
+          "orientation": 66.5,
+          "paired_reverse": 246.5,
+          "H1_count": 3
+        },
+        {
+          "orientation": 67,
+          "paired_reverse": 247,
+          "H1_count": 3
+        },
+        {
+          "orientation": 67.5,
+          "paired_reverse": 247.5,
+          "H1_count": 4
+        },
+        {
+          "orientation": 68,
+          "paired_reverse": 248,
+          "H1_count": 3
+        },
+        {
+          "orientation": 68.5,
+          "paired_reverse": 248.5,
+          "H1_count": 4
+        },
+        {
+          "orientation": 69.5,
+          "paired_reverse": 249.5,
+          "H1_count": 3
+        },
+        {
+          "orientation": 72.5,
+          "paired_reverse": 252.5,
+          "H1_count": 0
+        },
+        {
+          "orientation": 77.5,
+          "paired_reverse": 257.5,
+          "H1_count": 2
+        },
+        {
+          "orientation": 90,
+          "paired_reverse": 270,
+          "H1_count": 1
+        },
+        {
+          "orientation": 112.5,
+          "paired_reverse": 292.5,
+          "H1_count": 2
+        },
+        {
+          "orientation": 135,
+          "paired_reverse": 315,
+          "H1_count": 0
+        },
+        {
+          "orientation": 157.5,
+          "paired_reverse": 337.5,
+          "H1_count": 1
+        }
+      ],
+      "convergence_from5m": {
+        "grid_count_changes": 0,
+        "maximum_count_delta": 0,
+        "target_count_changed": false
+      }
+    }
+  ],
+  "metric_buffers": {
+    "requested_m": [
+      5,
+      10
+    ],
+    "computed": false,
+    "reason": "No independentlyvalidatedmetricbufferimplementationavailablewithoutnewdependencies; omitted per frozenfallback, not replacedwithangularbuffer. Densification andangulargrid/local-neighbor sensitivity reported."
+  },
+  "interpretation": "Descriptiveconditionalrotationalcomparison only. Knownchosenaxis, heritage/sample selection, source/mapuncertainty andcorrelatedorientations prevent discoverypvalue or designer-intent inference. H0 verifiedhistoricoutlineanalysis notestimable.",
+  "elapsed_seconds": 3.708404,
+  "input_sha256": {
+    "research/specifications/LANDMARK-AXIS-001.json": "257b57a6e833484e57bd6daacea8bed0158759234017295ba1c618c840967b90",
+    "experiments/landmark_axis.py": "113c305dd39c094c97284dffa60090444a652ee24e3c165b47609f1f8653cdc9",
+    "experiments/landmark_geometry.py": "ed8e0eebb26cbcce117d7e96042b49d531bbe75f52882555693ff6cb514cbbb3",
+    "experiments/landmark_inventory.py": "38a9eeb215570436bce30aa39e498cc954e7f1ac31e1073d7c6a8b2ffc48352e",
+    "tests/test_landmark_axis.py": "45064461f9e6113b2df4d1ac18f67684c01b1668d36c96c47da37915aa5ec1c6",
+    "data/landmark-axis/inventory.json.gz": "ea0e8cc45a9b157e6358ff22e8adc1ab73140eaf585506ed7251dec4fa55289d",
+    "sources/landmark-axis/inventory-receipt.json": "ee1c0d1f8e842b7a4b34f41e172dbc93eb8904ebe7c553cbfb17856ae3bfdd4a"
+  },
+  "artifact_sha256": {
+    "orientation-grid.csv.gz": "2cabb8891db311940c1e6f9bc613148f53b615a7c5ad53c62d410bf20e7f21c5",
+    "OFFLINE-RECEIPT-CHECK.json": "b7560f3f483f96998bb74c84a6fbfedd6c1cf054ac86391137a1acb65db10abd",
+    "site-intervals.json.gz": "7798bd28e58ffc0451db75b19e382f4e7da4b0df0e8a522f5fa696b1304f938a"
+  }
+}

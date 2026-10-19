@@ -1,0 +1,31 @@
+{
+  "experiment": "LANDMARK-AXIS-001",
+  "geometry_tests": {
+    "executed": 8,
+    "passed": 8,
+    "seconds": 0.013,
+    "command": "python3 -m unittest discover -s tests -p test_landmark_axis.py -v"
+  },
+  "prior133cipher_test_baseline": "unchanged; not rerun for this task",
+  "input_and_output_hashes_verified": true,
+  "orientation_grid_rows": 18000,
+  "target_grid_count_verified": 4,
+  "chronology_counts_verified": {
+    "H1": 175,
+    "U": 24,
+    "POST": 1,
+    "H0": 0
+  },
+  "continuous_angular_measure_sums_to180": true,
+  "densification_changed_grid_counts": 0,
+  "original_local_changes_preserved": [
+    "research/MASKING-FINDINGS.md",
+    "results/PHONETIC-CL-001.json"
+  ],
+  "score_seconds": 3.708404,
+  "raw_archive_local_verified": true,
+  "raw_archive_publication": "Included with findings and results in this publication commit; user authorized public publication on 2026-10-19",
+  "raw_archive_contains": "OfficialBerlinWFS IDs, type, public recordlinks andMultiPolygons, no credentials/privatecipherresearch",
+  "scope": "Descriptive moderngeometry proxy withpre1990siteexistence; no significance/intent/key claim",
+  "previous_automatic_rejection_reason": "Large opaque payload to public GitHub; trustedauthorization found only private repository approval"
+}
