@@ -1,0 +1,239 @@
+{
+  "regional_features": 3433,
+  "rootgroups_before_disk": 2715,
+  "native_disk_candidates": 2103,
+  "containment_pairs": [
+    [
+      "09030070",
+      "09030054"
+    ],
+    [
+      "09030072",
+      "09030054"
+    ],
+    [
+      "09035402",
+      "09030054"
+    ],
+    [
+      "09055092",
+      "09055091"
+    ],
+    [
+      "09060101",
+      "09010141"
+    ],
+    [
+      "09060114",
+      "09010141"
+    ],
+    [
+      "09065023",
+      "09011281"
+    ],
+    [
+      "09070258",
+      "09070089"
+    ],
+    [
+      "09085005",
+      "09085003"
+    ],
+    [
+      "09085005",
+      "09085004"
+    ],
+    [
+      "09095110",
+      "09095109"
+    ],
+    [
+      "09010005",
+      "09010143"
+    ],
+    [
+      "09010188",
+      "09035233"
+    ],
+    [
+      "09010189",
+      "09011358"
+    ],
+    [
+      "09010198",
+      "09095896"
+    ],
+    [
+      "09010202",
+      "09035121"
+    ],
+    [
+      "09010207",
+      "09060116"
+    ],
+    [
+      "09010207",
+      "09060117"
+    ],
+    [
+      "09010207",
+      "09060120"
+    ],
+    [
+      "09010207",
+      "09060127"
+    ],
+    [
+      "09010208",
+      "09095953"
+    ],
+    [
+      "09010209",
+      "09011311"
+    ],
+    [
+      "09045885",
+      "09066667"
+    ],
+    [
+      "09046077",
+      "09085089"
+    ],
+    [
+      "09046077",
+      "09085090"
+    ],
+    [
+      "09046078",
+      "09085068"
+    ],
+    [
+      "09046078",
+      "09085073"
+    ],
+    [
+      "09046078",
+      "09085093"
+    ],
+    [
+      "09046080",
+      "09085010"
+    ],
+    [
+      "09046083",
+      "09085179"
+    ],
+    [
+      "09046084",
+      "09085015"
+    ],
+    [
+      "09046084",
+      "09085016"
+    ],
+    [
+      "09046084",
+      "09085096"
+    ],
+    [
+      "09046097",
+      "09065233"
+    ],
+    [
+      "09046100",
+      "09090257"
+    ],
+    [
+      "09046105",
+      "09065184"
+    ],
+    [
+      "09046108",
+      "09050111"
+    ],
+    [
+      "09046157",
+      "09031186"
+    ],
+    [
+      "09046157",
+      "09031258"
+    ],
+    [
+      "09046160",
+      "09031197"
+    ],
+    [
+      "09046191",
+      "09030361"
+    ],
+    [
+      "09046192",
+      "09030383"
+    ],
+    [
+      "09046192",
+      "09030454"
+    ],
+    [
+      "09046273",
+      "09055091"
+    ],
+    [
+      "09046316",
+      "09050274"
+    ],
+    [
+      "09046317",
+      "09050346"
+    ],
+    [
+      "09046318",
+      "09050347"
+    ],
+    [
+      "09046318",
+      "09097809"
+    ],
+    [
+      "09097829",
+      "09050270"
+    ]
+  ],
+  "canonicalclusters_before_precise_disk": 2054,
+  "precise_disk_tests_before_sample_complete": 201,
+  "selected": 200,
+  "excluded_origin_sites": [
+    {
+      "id": "09011324",
+      "reason": "containsclockorigin"
+    },
+    {
+      "id": "09020854",
+      "reason": "containsclockorigin"
+    }
+  ],
+  "region_url": "https://gdi.berlin.de/services/wfs/denkmale?service=WFS&version=2.0.0&request=GetFeature&typeNames=denkmale%3Adenkmale&bbox=13.335%2C52.474%2C13.492%2C52.568%2Curn%3Aogc%3Adef%3Acrs%3AOGC%3A1.3%3ACRS84&srsName=EPSG%3A25833&outputFormat=application%2Fjson&count=10000",
+  "region_timestamp": "2026-10-19T03:07:19.101Z",
+  "region_sha256": "752249a2d206083be667d0987a4b74bfc7851b0c3fdd2d44b4330fc3ffe3c1e3",
+  "metadata_pages_requested": 206,
+  "metadata_ok": 206,
+  "chronology_counts": {
+    "H0": 0,
+    "H1": 175,
+    "U": 24,
+    "POST": 1
+  },
+  "H0_verified_historical_outlines": 0,
+  "sample_selection": "SHA256(sortedrootIDs)first200preciselydiskeligiblecanonicalsites; no angledependentselection",
+  "elapsed_seconds": 45.828,
+  "source_date_rule": "strict literal primary Fertigstellung/Datierung completed date; no Entwurf-only existence",
+  "raw_page_policy": "Retain fullresponsehash/URL/bytes and exact primarydate HTMLrows; full navigational/contact pagebody notpublished",
+  "source_receipts_sha256": {
+    "official-schema.gz": "2a77d6bc17b9bd4256b8f03eeca1623c3a4f0f57024d6c47df3f09d8ca535b12",
+    "official-capabilities.xml.gz": "9a482384971609c1a1079cff5bdd8a817918c322db5b55e84eb4bf9113735dd5",
+    "record-excerpts.json.gz": "009537f6e0d42e60e3d799f229c63dc3138450575f1c0b4d3e79e9b15fd571b2",
+    "official-region.geojson.gz": "e768222a162ffe00e8562e61e60586d30cf66c089f9085b052ed5306c8998e92"
+  },
+  "inventory_gzip_sha256": "ea0e8cc45a9b157e6358ff22e8adc1ab73140eaf585506ed7251dec4fa55289d"
+}
