@@ -1,0 +1,28 @@
+{
+  "id": "CP-CONVENTION-REPLAY-001",
+  "date": "2026-10-22",
+  "kind": "Independent known-pair replay of reported result; expected result disclosed before audit, not blind cryptanalysis.",
+  "source_url": "https://scirealm.org/CyrillicProjector.html",
+  "source_bytes": 101856,
+  "source_sha256": "b561985e56003f101c559df3661c036fa69836cdf9e7a1890e000355bc259ada",
+  "cipher_inputs": "HTML hidden input CPpart1 concatenated with CPpart2; exclude AntipodesExtra. Filter only literal characters in normal alphabet, therefore six Latin MEDUSA characters do not participate.",
+  "plaintext_inputs": "Extract visible Section1 uncorrected plaintext beginning ВЫСОЧАЙЪИМ through before These are the corrected words; Section2a uncorrected plaintext beginning ОБ ИЗГОТОВЛЕНИИ through next These are the corrected words. Preserve source typo letters; strip spaces,punctuation,LatinMEDUSA and annotation{-}; no linguistic repairs.",
+  "normal_alphabet": "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ",
+  "cipher_alphabet": "ТЕНЬАБВГДЖЗИЙКЛМОПРСУФХШЦЧЩЪЫЭЮЯ",
+  "key": "МЕДУЗА",
+  "table_source": "https://www.elonka.com/kryptos/mirrors/CPSolution.html",
+  "model": "C_i=cipher_alphabet[(normal.index(P_i)+normal.index(key[phase_i]))%32]; inverse by subtraction in normal index; key lookup in normal alphabet, not keyed alphabet.",
+  "cases": [
+    "uninterrupted phase_i=i%6",
+    "message restart phase_i=i%6 if i<777 else (i-777)%6"
+  ],
+  "gate": "Both inputs1133Cyrillicsymbols (first777,second356). Test source-published pair exactly. Save mismatch indices, segment matches and whole97? No K4 is read. Require full1133exact for restarted convention and exact independent inverse; ordinary model differences retained. Failure reports discrepancy, no phases/boundaries adjusted.",
+  "identifiability": "Restart at778 one-based algebraically equals global +3 key phase after boundary, since777mod6=3. Cannot distinguish reset from3mod6unobserved advance or prove any engraving omission. Later sculpture1997not evidence sameK4cipher.",
+  "controls": "All32symbols each6phase independent forward lookup/inverse, both segments; unit tests on toyCyrillicstream and source parser lengths. Hash all bytes, code/spec before replay. Source HTML remains scratch, receipt provides hash and extraction for reproducibility; no scripts executed from it.",
+  "budget": {
+    "seconds": 10,
+    "processes": 1,
+    "models": 2,
+    "no_search": true
+  }
+}
