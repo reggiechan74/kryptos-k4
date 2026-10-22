@@ -106,3 +106,24 @@ Both finite runtime and retained-data budgets were met. The full regression suit
 passes all 257 tests in 9.523 seconds. No larger search or
 alternative ordering follows these failures. The next decision requires a new,
 independently motivated mechanism; this batch stops here.
+
+## Independent replay — 22 October 2026
+
+The separately authored oracle is preserved unchanged under
+`independent/2026-10-22/geometric-pilot-oracle/`. Its source SHA-256 is
+`9ee330efcd2d93b633ae61264a334484a645bde793157f430c9f8b8a2c8edd88`;
+replay reproduces result SHA-256
+`0ea8a0ec15ddc26f2b06ee18c7410f45fcc9aa4ec15a157e5404bcba966f4e86` exactly.
+The local comparison matches all 24 periodic conflict/fit records and every one
+of the 3,640 full feedback plaintext outputs, not only the headline survivor
+counts. The canonical source fixture is identical.
+
+The oracle separately passes all 3,640 fixed-model round trips, 2,205 rotation
+comparisons, six periodic full-selector plants, twelve feedback full-selector
+plants and 156 alphabet-origin gauge comparisons. One feedback plant has two
+compatible plaintext/seed solutions; all are retained. These are control scopes,
+not additional novel K4 search counts or independent statistical evidence.
+Original sources/results remain byte-exact; local replay evidence is stored in
+[GEOMETRIC-FOLLOWUP-COMPARISON.json](../results/GEOMETRIC-FOLLOWUP-COMPARISON.json).
+The separate [raw-number security audit](GEOMETRIC-BASE-SECURITY-AUDIT.md) does not
+change this pilot's frozen binary-state model or initiate a root search.

@@ -1,0 +1,74 @@
+{
+  "bundles": [
+    {
+      "name": "geometric-pilot-oracle",
+      "library_id": "libfile_0f4b9471d8a08191850e4ea9cf38a9a6",
+      "archive_sha256": "09c340104522d791beeef4664b147cc8abb92cb52cec7bdb10136ed0c80f428c",
+      "archive_bytes": 22312,
+      "members": {
+        "result.json": {
+          "bytes": 41549,
+          "sha256": "0ea8a0ec15ddc26f2b06ee18c7410f45fcc9aa4ec15a157e5404bcba966f4e86"
+        },
+        "README.md": {
+          "bytes": 3923,
+          "sha256": "bfce640d3e40da96165348f31c662a77b9cfe723eba9ca9bf246e2dd0ecceeb8"
+        },
+        "manifest.json": {
+          "bytes": 1339,
+          "sha256": "2ca4ace6912e2f3f19caa27d39ca4578cfbc860b334692cc650f1210ce5eed83"
+        },
+        "k4.json": {
+          "bytes": 308,
+          "sha256": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+        },
+        "oracle.py": {
+          "bytes": 12002,
+          "sha256": "9ee330efcd2d93b633ae61264a334484a645bde793157f430c9f8b8a2c8edd88"
+        },
+        "geometry-full.json": {
+          "bytes": 89727,
+          "sha256": "e55edb5b19917dead65d8971b75693dcd5d18a0ceb995f25febcd6193af430dd"
+        },
+        "geometry-core.json": {
+          "bytes": 9604,
+          "sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010"
+        }
+      }
+    },
+    {
+      "name": "geometric-base-security",
+      "library_id": "libfile_e52f5dafc2d08191a44df4df7c1d2449",
+      "archive_sha256": "90651d68c4e1a0740b8a67085c795e2085780fc0a92b9b7997da6ff0078291fe",
+      "archive_bytes": 59781,
+      "members": {
+        "geometric-base-schedule-audit.json": {
+          "bytes": 497727,
+          "sha256": "86131bcf371db63908684d844e09f4035311ff3b5a0dbcc3b6ea95a6673b6dfc"
+        },
+        "geometric-base-schedule-audit.summary.json": {
+          "bytes": 5099,
+          "sha256": "87bd24f7b8ab61c845a7500f8f74597d17f25edfc2997fe7d40c1596631bceab"
+        },
+        "modeled-uppercase-geometry-001-core.json": {
+          "bytes": 9604,
+          "sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010"
+        },
+        "geometric-base-schedule-audit.py": {
+          "bytes": 6449,
+          "sha256": "4da3522b8a5605c6bc28ca15a87049f585d7ae34432321e4e2a02451f36a7daf"
+        }
+      }
+    }
+  ],
+  "independent_source_inspected_before_execution": true,
+  "pilot_result_replay_sha256": "0ea8a0ec15ddc26f2b06ee18c7410f45fcc9aa4ec15a157e5404bcba966f4e86",
+  "pilot_result_replay_byte_equal": true,
+  "base_security_full_and_summary_replay_json_equal": true,
+  "scope": "Independent reproduction and finite raw-number codebook security audit. No root or root-offset search.",
+  "full_regression": {
+    "tests": 261,
+    "seconds": 9.635,
+    "passed": true
+  }
+}

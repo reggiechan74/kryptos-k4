@@ -378,3 +378,11 @@ and residues collide. Feature order is declared rather than fit to K4.
 [GEOMETRIC-PILOT-001](GEOMETRIC-PILOT-FINDINGS.md) rejects the frozen code-ranked
 periodic arithmetic and 35-bit rotation/XOR feedback models. This does not
 exclude all geometric encodings. No alternative order or state rule was added.
+
+The subsequent root-digit/changing-base refinement has a separate
+[finite raw-token security audit](GEOMETRIC-BASE-SECURITY-AUDIT.md). With public
+geometry/order, known exact-number boundaries and b=d+2 over bases 2–61, only
+8 and 27 are ambiguous; all other emitted numbers identify letter and base.
+This neither attacks a root generator nor tests a new K4 modular-arithmetic
+family. That separate admissibility specification remains pending; no root,
+offset, weight-order or transform search was added.

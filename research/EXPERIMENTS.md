@@ -667,3 +667,16 @@ survivors among 3,640 raw models and 3,640 distinct outputs. All 72 complete-sel
 plants retain truth, including one ambiguous feedback plant. See
 [findings](GEOMETRIC-PILOT-FINDINGS.md) and full result/control records. No new
 null calibration is needed for these exact rejections; no scope expansion.
+
+## GEOMETRIC-FOLLOWUP-001 — independent replay and numeric security audit
+
+22 October 2026. Original independent pilot and changing-base security bundles
+are preserved unchanged with archive/member hashes and exact replay receipts.
+All 24 periodic conflict/fit records and all 3,640 prior full feedback outputs
+match the independent oracle. This is reproduction, not new K4 search coverage.
+The separate finite raw-number lookup across bases 2–61 has 1,560 letter/base
+pairs, 1,558 numbers and only the documented 8/27 ambiguities; it requires known
+token boundaries, public geometry/order and no extra transform. No roots or
+root offsets were searched. [Security findings](GEOMETRIC-BASE-SECURITY-AUDIT.md)
+and [exact comparisons](../results/GEOMETRIC-FOLLOWUP-COMPARISON.json) preserve the
+full scope, ambiguity controls and every lookup result.
