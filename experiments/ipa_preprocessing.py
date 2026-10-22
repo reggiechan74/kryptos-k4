@@ -1,5 +1,7 @@
 """Frozen Cambridge-US IPA preprocessing checks; no dialect or index search."""
 from collections import defaultdict
+import argparse
+import hashlib
 import itertools
 import json
 from pathlib import Path
@@ -218,14 +220,39 @@ def run(data,ciphertext):
     audit=input_audit(data)
     pairs=[(i,s,ciphertext[i]) for start,text in WINDOWS for i,s in enumerate(text,start)]
     phase={str(p):phase_conflicts(pairs,p) for p in range(1,13)}
+    diagnostics={}
+    for period in range(1,13):
+        paired=[(a,b) for a,b in itertools.combinations(pairs,2) if (a[0]-b[0])%period==0]
+        diagnostics[str(period)]={'same_phase_pairs':len(paired),
+            'repeated_IPA_pairs':sum(a[1]==b[1] for a,b in paired),
+            'repeated_ciphertext_pairs':sum(a[2]==b[2] for a,b in paired)}
     rows=select(ciphertext)
     return {'experiment':'IPA-PREPROCESSING-001','normalization':audit,
             'mapping_independent_periods':{'rejected':[p for p in range(1,13) if phase[str(p)]],
                                          'not_contradicted':[p for p in range(1,13) if not phase[str(p)]],
-                                         'witnesses':phase},
+                                         'witnesses':phase,'pair_diagnostics':diagnostics},
             'fixed_Latin_model_structures':48,
             'ordinary_anchor_rejected_structures':sum(bool(r['fixed_ordinary_anchor_conflicts']) for r in rows),
             'non_anchor_modular_rejected_structures':sum(not r['fixed_ordinary_anchor_conflicts'] and not r['relaxed_solution_space']['consistent'] for r in rows),
             'actual_alias_assignments_enumerated':sum(r['relaxed_alias_assignment_count'] for r in rows),
             'relaxed_training_survivor_structures':sum(r['relaxed_alias_assignment_count']>0 for r in rows),
             'rows':rows,'scope':'Fixed Cambridge US normalization, unchanged disclosed window indices, two named outer equations/alphabets, periods 1-12. No universal IPA or English spelling inverse claim.'}
+
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('mode',choices=['controls','actual'])
+    args=parser.parse_args()
+    if args.mode=='controls':value=controls()
+    else:
+        data=json.loads((ROOT/'data/ipa-cambridge-us-v1.json').read_text())
+        fixture=json.loads((ROOT/'data/k4.json').read_text())
+        assert fixture['ciphertext'][21:34]=='FLRVQQPRNGKSS'
+        assert [(x['start'],x['end'],x['plaintext']) for x in fixture['cribs']]==[(22,34,'EASTNORTHEAST'),(64,74,'BERLINCLOCK')]
+        value=run(data,fixture['ciphertext'])
+        value['source_sha256']={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in ['data/ipa-cambridge-us-v1.json','data/k4.json','research/IPA-PREPROCESSING-SPEC.md','experiments/ipa_preprocessing.py']}
+    serialized=json.dumps(value,ensure_ascii=False,indent=2)+'\n'
+    if len(serialized.encode())>256*1024*1024:raise MemoryError('frozen retained-result budget exceeded')
+    print(serialized,end='')
+
+if __name__=='__main__':main()
