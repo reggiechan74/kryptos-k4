@@ -368,3 +368,13 @@ parameter aliases or partial predictions into evidence. Homogeneous order-two
 prior-art overlap and higher-order startup freedom are explicit.
 [Results, independent replay and limitations](AUTONOMOUS-RECURRENCE-FINDINGS.md).
 The Morse/tree question and private image are separate; no tree cipher was tested.
+
+## H-LETTER-GEOMETRY — representation verified; two finite mechanisms rejected
+
+The user's refined lines/curves/orientation/placement proposal is encoded as a
+versioned idealized 35-component skeleton dictionary, not measured copper glyphs
+or pen-stroke counts. All 26 arrays and exact positional codes are unique; sums
+and residues collide. Feature order is declared rather than fit to K4.
+[GEOMETRIC-PILOT-001](GEOMETRIC-PILOT-FINDINGS.md) rejects the frozen code-ranked
+periodic arithmetic and 35-bit rotation/XOR feedback models. This does not
+exclude all geometric encodings. No alternative order or state rule was added.

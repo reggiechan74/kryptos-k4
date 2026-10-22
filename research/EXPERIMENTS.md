@@ -654,3 +654,16 @@ run was added. Earlier 160-test validation and all result artifacts unchanged.
 - Run `20261022T215356Z-4769d0b137d348e99db42ee5918dc799`, 0.087 seconds;
   242 local regression tests pass. [Findings](AUTONOMOUS-RECURRENCE-FINDINGS.md).
 - No order expansion, resets, tree layer, edits, new route, main or Site change.
+
+## ALPHABET-GEOMETRY-001 and GEOMETRIC-PILOT-001 — 22 October 2026
+
+The [representation](ALPHABET-GEOMETRY-REPRESENTATION.md) gives 26 unique binary
+arrays and exact base-2/base-3 codes; 325 pair comparisons, strict codebook
+round trips and 910 mutations pass. Ordinary sums and modulo-26 codes collide.
+The [frozen pilots](ALPHABET-GEOMETRY-PILOT-SPEC.md) were committed before K4
+evaluation. A has 18 baseline rechecks and six new geometric-alphabet cases;
+only Beaufort period 12 fits training and fails Berlin. B has zero first-crib
+survivors among 3,640 raw models and 3,640 distinct outputs. All 72 complete-selector
+plants retain truth, including one ambiguous feedback plant. See
+[findings](GEOMETRIC-PILOT-FINDINGS.md) and full result/control records. No new
+null calibration is needed for these exact rejections; no scope expansion.

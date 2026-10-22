@@ -1,0 +1,41 @@
+{
+  "library_bundle_id": "libfile_7eacca4879e481919c0e57bd95e0f45c",
+  "bundle_bytes": 173854,
+  "bundle_sha256": "0a588406588c494e4339a08e29adf930006d36b0902cd84bcb422fc2a867cff9",
+  "member_checks": {
+    "modeled-uppercase-geometry-001-core.json": {
+      "bytes": 9604,
+      "sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010"
+    },
+    "audit_modeled_uppercase_geometry.py": {
+      "bytes": 3065,
+      "sha256": "9f15bd0a298a752cbbd09456dff5f3d3b980e11379497d6923c22676e50b8ab6"
+    },
+    "modeled-uppercase-geometry-001-audit.json": {
+      "bytes": 22076,
+      "sha256": "5a7907c83db2361bdd9b997ed25b43ae606eb4c04fe455ac34f26db6fc18de3b"
+    },
+    "modeled-uppercase-geometry-001.json": {
+      "bytes": 89727,
+      "sha256": "e55edb5b19917dead65d8971b75693dcd5d18a0ceb995f25febcd6193af430dd"
+    },
+    "modeled-uppercase-geometry-001.png": {
+      "bytes": 159673,
+      "sha256": "a2cb126bdc7180f9f42a90955aab7418aa9713c606c956d003752d48ff84782f"
+    },
+    "modeled-uppercase-geometry-001.svg": {
+      "bytes": 64102,
+      "sha256": "5561ef8190633b1574caeeb11d2c1761c1c94308090018b33e867d7c3abab776"
+    }
+  },
+  "native_auditor_inspected_before_execution": true,
+  "native_auditor_replay_json_equal": true,
+  "atlas_visually_inspected": true,
+  "source_photographs_included": false,
+  "full_regression": {
+    "tests": 257,
+    "seconds": 9.523,
+    "passed": true
+  },
+  "scope": "Independent frozen representation imported unchanged; own implementation and pilot results stored separately."
+}

@@ -19,6 +19,11 @@ class IndependentFollowupTests(unittest.TestCase):
             self.assertEqual(len(b),record['bytes'])
             self.assertEqual(hashlib.sha256(b).hexdigest(),record['sha256'])
         for p in BASE.rglob('*'):
+            # This original generated contact sheet is not a third-party photo.
+            # Allow only its frozen path and exact bytes; keep all other bans.
+            if p.relative_to(BASE).as_posix()=='alphabet-geometry/modeled-uppercase-geometry-001.png':
+                self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(),'a2cb126bdc7180f9f42a90955aab7418aa9713c606c956d003752d48ff84782f')
+                continue
             self.assertNotIn(p.suffix.lower(),{'.jpg','.jpeg','.png','.webp','.pdf','.zip','.gz'})
 
     def test_independent_state_full_outputs_match_local_rank_oracle(self):

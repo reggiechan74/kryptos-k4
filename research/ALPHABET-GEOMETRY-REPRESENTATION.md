@@ -54,14 +54,23 @@ count vector bounded by M needs a frozen base M+1; binary carries cannot encode
 counts above one safely. The codec exhaustively checks 353 small vectors in bases
 2, 3 and 4, plus a 100-bit value. Decimal strings keep JSON consumers exact.
 
+The clarified base-3 weights 1, 3, 9, 27 are supported too: generated data includes
+exact decimal-string codes and strict binary-codebook decoding. The highest
+binary feature at which two vectors differ outweighs all lower positions for any
+integer base at least two, so their numeric sort order is base-invariant. Tests
+include exhaustive eight-feature binary ordering and codes above 2^53-1. This
+ordering theorem does not equate base-3 arithmetic with binary XOR state dynamics.
+
 Full codes are unique; their residues modulo 26 have only 14 distinct values.
 For example O and Z share residue 2. Feature order changes numeric codes and their
 ordering, proximity and residues; these are not intrinsic geometry or historical
 facts. A reversible identifier alone supplies no cryptographic secrecy.
 
 The frozen follow-up [pilot specification](ALPHABET-GEOMETRY-PILOT-SPEC.md) is
-separate from this representation success. No cryptanalytic result is implied by
-unique arrays. The theoretical boundaries below were checked from existing cribs,
+separate from this representation success. The completed
+[pilot findings](GEOMETRIC-PILOT-FINDINGS.md) reject both frozen mechanisms.
+No cryptanalytic result is implied by unique arrays. The theoretical boundaries
+below were checked from existing cribs,
 not discovered by a new search.
 
 ## Existing analytical boundaries
