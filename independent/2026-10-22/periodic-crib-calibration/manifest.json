@@ -1,0 +1,33 @@
+{
+  "experiment_id": "GEOMETRIC-PERIODIC-NULL-001",
+  "files": {
+    "README.md": {
+      "sha256": "984771dbc117de6f698bd75afb8b4153bd29d219c403cee0b0ea532ea6d8fe6c",
+      "bytes": 6364
+    },
+    "preregistration.json": {
+      "sha256": "e84496da6b58dbe8a5068ec4748c3c46b56d4c12f72e6abf7163b3997319213a",
+      "bytes": 1514
+    },
+    "calibrate.py": {
+      "sha256": "3b41f37b3f7d911cb55eb61a8f5ab9188f6b3bf311992ea876d86b91f634a1a7",
+      "bytes": 9080
+    },
+    "oracle.py": {
+      "sha256": "9ee330efcd2d93b633ae61264a334484a645bde793157f430c9f8b8a2c8edd88",
+      "bytes": 12002
+    },
+    "geometry-core.json": {
+      "sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010",
+      "bytes": 9604
+    },
+    "k4.json": {
+      "sha256": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
+      "bytes": 308
+    },
+    "result.json": {
+      "sha256": "60a92a64cc7e4774bc77c93b1b2e9777e18e47ca1361c87c5afdfbc3202de95f",
+      "bytes": 7514
+    }
+  }
+}

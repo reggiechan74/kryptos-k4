@@ -1,0 +1,1007 @@
+{
+  "training": {
+    "positions": [
+      22,
+      34
+    ],
+    "plaintext": "EASTNORTHEAST",
+    "ciphertext": "FLRVQQPRNGKSS"
+  },
+  "families": [
+    {
+      "alphabet": "AZ",
+      "equation": "additive",
+      "source": "P",
+      "keys": [
+        1,
+        11,
+        25,
+        2,
+        3,
+        2,
+        24,
+        24,
+        6,
+        2,
+        10,
+        0,
+        25
+      ],
+      "key_parity": "1110100000001",
+      "minimum_core": [
+        {
+          "position": 22,
+          "glyph": "E",
+          "key_parity": 1,
+          "next_key_parity": 1,
+          "possible_code_parities": [
+            0
+          ]
+        },
+        {
+          "position": 24,
+          "glyph": "S",
+          "key_parity": 1,
+          "next_key_parity": 0,
+          "possible_code_parities": [
+            0
+          ]
+        }
+      ],
+      "minimum_core_count": 5,
+      "eliminations": [
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            0
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            1
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            0
+          ],
+          "first_rejecting_position": 24
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            1
+          ],
+          "first_rejecting_position": 24
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            0
+          ],
+          "first_rejecting_position": 24
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            1
+          ],
+          "first_rejecting_position": 24
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            0
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            1
+          ],
+          "first_rejecting_position": 22
+        }
+      ],
+      "mod26_triples_examined": 17576,
+      "mod26_survivors": 0
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "additive",
+      "source": "C",
+      "keys": [
+        1,
+        11,
+        25,
+        2,
+        3,
+        2,
+        24,
+        24,
+        6,
+        2,
+        10,
+        0,
+        25
+      ],
+      "key_parity": "1110100000001",
+      "minimum_core": [
+        {
+          "position": 23,
+          "glyph": "L",
+          "key_parity": 1,
+          "next_key_parity": 1,
+          "possible_code_parities": [
+            0
+          ]
+        },
+        {
+          "position": 26,
+          "glyph": "Q",
+          "key_parity": 1,
+          "next_key_parity": 0,
+          "possible_code_parities": [
+            0
+          ]
+        }
+      ],
+      "minimum_core_count": 7,
+      "eliminations": [
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            0
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            1
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            0
+          ],
+          "first_rejecting_position": 26
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            1
+          ],
+          "first_rejecting_position": 26
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            0
+          ],
+          "first_rejecting_position": 26
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            1
+          ],
+          "first_rejecting_position": 26
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            0
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            1
+          ],
+          "first_rejecting_position": 23
+        }
+      ],
+      "mod26_triples_examined": 17576,
+      "mod26_survivors": 0
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "Beaufort",
+      "source": "P",
+      "keys": [
+        9,
+        11,
+        9,
+        14,
+        3,
+        4,
+        6,
+        10,
+        20,
+        10,
+        10,
+        10,
+        11
+      ],
+      "key_parity": "1110100000001",
+      "minimum_core": [
+        {
+          "position": 22,
+          "glyph": "E",
+          "key_parity": 1,
+          "next_key_parity": 1,
+          "possible_code_parities": [
+            0
+          ]
+        },
+        {
+          "position": 24,
+          "glyph": "S",
+          "key_parity": 1,
+          "next_key_parity": 0,
+          "possible_code_parities": [
+            0
+          ]
+        }
+      ],
+      "minimum_core_count": 5,
+      "eliminations": [
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            0
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            1
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            0
+          ],
+          "first_rejecting_position": 24
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            1
+          ],
+          "first_rejecting_position": 24
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            0
+          ],
+          "first_rejecting_position": 24
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            1
+          ],
+          "first_rejecting_position": 24
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            0
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            1
+          ],
+          "first_rejecting_position": 22
+        }
+      ],
+      "mod26_triples_examined": 17576,
+      "mod26_survivors": 0
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "Beaufort",
+      "source": "C",
+      "keys": [
+        9,
+        11,
+        9,
+        14,
+        3,
+        4,
+        6,
+        10,
+        20,
+        10,
+        10,
+        10,
+        11
+      ],
+      "key_parity": "1110100000001",
+      "minimum_core": [
+        {
+          "position": 23,
+          "glyph": "L",
+          "key_parity": 1,
+          "next_key_parity": 1,
+          "possible_code_parities": [
+            0
+          ]
+        },
+        {
+          "position": 26,
+          "glyph": "Q",
+          "key_parity": 1,
+          "next_key_parity": 0,
+          "possible_code_parities": [
+            0
+          ]
+        }
+      ],
+      "minimum_core_count": 7,
+      "eliminations": [
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            0
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            1
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            0
+          ],
+          "first_rejecting_position": 26
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            1
+          ],
+          "first_rejecting_position": 26
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            0
+          ],
+          "first_rejecting_position": 26
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            1
+          ],
+          "first_rejecting_position": 26
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            0
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            1
+          ],
+          "first_rejecting_position": 23
+        }
+      ],
+      "mod26_triples_examined": 17576,
+      "mod26_survivors": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "additive",
+      "source": "P",
+      "keys": [
+        1,
+        10,
+        21,
+        18,
+        1,
+        15,
+        2,
+        23,
+        5,
+        2,
+        19,
+        0,
+        2
+      ],
+      "key_parity": "1010110110100",
+      "minimum_core": [
+        {
+          "position": 22,
+          "glyph": "E",
+          "key_parity": 1,
+          "next_key_parity": 0,
+          "possible_code_parities": [
+            0
+          ]
+        },
+        {
+          "position": 29,
+          "glyph": "T",
+          "key_parity": 1,
+          "next_key_parity": 1,
+          "possible_code_parities": [
+            0
+          ]
+        }
+      ],
+      "minimum_core_count": 4,
+      "eliminations": [
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            0
+          ],
+          "first_rejecting_position": 29
+        },
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            1
+          ],
+          "first_rejecting_position": 29
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            0
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            1
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            0
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            1
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            0
+          ],
+          "first_rejecting_position": 29
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            1
+          ],
+          "first_rejecting_position": 29
+        }
+      ],
+      "mod26_triples_examined": 17576,
+      "mod26_survivors": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "additive",
+      "source": "C",
+      "keys": [
+        1,
+        10,
+        21,
+        18,
+        1,
+        15,
+        2,
+        23,
+        5,
+        2,
+        19,
+        0,
+        2
+      ],
+      "key_parity": "1010110110100",
+      "minimum_core": [
+        {
+          "position": 23,
+          "glyph": "L",
+          "key_parity": 0,
+          "next_key_parity": 1,
+          "possible_code_parities": [
+            0
+          ]
+        },
+        {
+          "position": 33,
+          "glyph": "S",
+          "key_parity": 0,
+          "next_key_parity": 0,
+          "possible_code_parities": [
+            0
+          ]
+        }
+      ],
+      "minimum_core_count": 5,
+      "eliminations": [
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            0
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            1
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            0
+          ],
+          "first_rejecting_position": 33
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            1
+          ],
+          "first_rejecting_position": 33
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            0
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            1
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            0
+          ],
+          "first_rejecting_position": 33
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            1
+          ],
+          "first_rejecting_position": 33
+        }
+      ],
+      "mod26_triples_examined": 17576,
+      "mod26_survivors": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "Beaufort",
+      "source": "P",
+      "keys": [
+        23,
+        24,
+        7,
+        0,
+        13,
+        25,
+        4,
+        5,
+        7,
+        24,
+        7,
+        12,
+        10
+      ],
+      "key_parity": "1010110110100",
+      "minimum_core": [
+        {
+          "position": 22,
+          "glyph": "E",
+          "key_parity": 1,
+          "next_key_parity": 0,
+          "possible_code_parities": [
+            0
+          ]
+        },
+        {
+          "position": 29,
+          "glyph": "T",
+          "key_parity": 1,
+          "next_key_parity": 1,
+          "possible_code_parities": [
+            0
+          ]
+        }
+      ],
+      "minimum_core_count": 4,
+      "eliminations": [
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            0
+          ],
+          "first_rejecting_position": 29
+        },
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            1
+          ],
+          "first_rejecting_position": 29
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            0
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            1
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            0
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            1
+          ],
+          "first_rejecting_position": 22
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            0
+          ],
+          "first_rejecting_position": 29
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            1
+          ],
+          "first_rejecting_position": 29
+        }
+      ],
+      "mod26_triples_examined": 17576,
+      "mod26_survivors": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "Beaufort",
+      "source": "C",
+      "keys": [
+        23,
+        24,
+        7,
+        0,
+        13,
+        25,
+        4,
+        5,
+        7,
+        24,
+        7,
+        12,
+        10
+      ],
+      "key_parity": "1010110110100",
+      "minimum_core": [
+        {
+          "position": 23,
+          "glyph": "L",
+          "key_parity": 0,
+          "next_key_parity": 1,
+          "possible_code_parities": [
+            0
+          ]
+        },
+        {
+          "position": 33,
+          "glyph": "S",
+          "key_parity": 0,
+          "next_key_parity": 0,
+          "possible_code_parities": [
+            0
+          ]
+        }
+      ],
+      "minimum_core_count": 5,
+      "eliminations": [
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            0
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            0,
+            0,
+            1
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            0
+          ],
+          "first_rejecting_position": 33
+        },
+        {
+          "coefficient_parities": [
+            0,
+            1,
+            1
+          ],
+          "first_rejecting_position": 33
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            0
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            1,
+            0,
+            1
+          ],
+          "first_rejecting_position": 23
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            0
+          ],
+          "first_rejecting_position": 33
+        },
+        {
+          "coefficient_parities": [
+            1,
+            1,
+            1
+          ],
+          "first_rejecting_position": 33
+        }
+      ],
+      "mod26_triples_examined": 17576,
+      "mod26_survivors": 0
+    }
+  ],
+  "positive_controls": [
+    {
+      "alphabet": "AZ",
+      "equation": "additive",
+      "source": "P",
+      "planted_coefficients": [
+        17,
+        9,
+        23
+      ],
+      "initial_key": 21,
+      "retained": true,
+      "full_key_recovery_exact": true
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "additive",
+      "source": "C",
+      "planted_coefficients": [
+        17,
+        9,
+        23
+      ],
+      "initial_key": 21,
+      "retained": true,
+      "full_key_recovery_exact": true
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "Beaufort",
+      "source": "P",
+      "planted_coefficients": [
+        17,
+        9,
+        23
+      ],
+      "initial_key": 21,
+      "retained": true,
+      "full_key_recovery_exact": true
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "Beaufort",
+      "source": "C",
+      "planted_coefficients": [
+        17,
+        9,
+        23
+      ],
+      "initial_key": 21,
+      "retained": true,
+      "full_key_recovery_exact": true
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "additive",
+      "source": "P",
+      "planted_coefficients": [
+        17,
+        9,
+        23
+      ],
+      "initial_key": 21,
+      "retained": true,
+      "full_key_recovery_exact": true
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "additive",
+      "source": "C",
+      "planted_coefficients": [
+        17,
+        9,
+        23
+      ],
+      "initial_key": 21,
+      "retained": true,
+      "full_key_recovery_exact": true
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "Beaufort",
+      "source": "P",
+      "planted_coefficients": [
+        17,
+        9,
+        23
+      ],
+      "initial_key": 21,
+      "retained": true,
+      "full_key_recovery_exact": true
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "Beaufort",
+      "source": "C",
+      "planted_coefficients": [
+        17,
+        9,
+        23
+      ],
+      "initial_key": 21,
+      "retained": true,
+      "full_key_recovery_exact": true
+    }
+  ],
+  "heldout_evaluated": false,
+  "auxiliary_direct_map_evaluated": false,
+  "geometry_controls": {
+    "glyphs": 26,
+    "dimensions": 35,
+    "bases_checked_per_glyph": 62,
+    "exact_horner_modular_parity_agree": true
+  },
+  "result": "All eight specified families are impossible; heldout not evaluated."
+}

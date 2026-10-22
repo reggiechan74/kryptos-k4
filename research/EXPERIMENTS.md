@@ -680,3 +680,26 @@ token boundaries, public geometry/order and no extra transform. No roots or
 root offsets were searched. [Security findings](GEOMETRIC-BASE-SECURITY-AUDIT.md)
 and [exact comparisons](../results/GEOMETRIC-FOLLOWUP-COMPARISON.json) preserve the
 full scope, ambiguity controls and every lookup result.
+
+## GEOMETRIC-PERIODIC-NULL-001 — requested first-crib chance calibration
+
+22 October 2026. The independent plan was frozen before null simulation, after
+the actual first-crib fit was known. Full 24-model refitting on 19,999 shuffles
+reproduces 1,731 exceedances and plus-one Monte Carlo p=0.0866; distribution
+18,268/1,728/3 for zero/one/two survivors. Exact single period-12 closure chance
+is 382/(97*96). All 479,976 outcomes match the pairwise checker, 5,256 match the
+prior oracle, and 24 plants pass. Replay numerical fields and draw/count trace
+are exact; only Python version metadata differs (3.12.14 versus local 3.9.6).
+[Report](PERIODIC-CRIB-CALIBRATION.md). No rotor or global-hypothesis calibration.
+
+## K4-FROZEN-GLYPH-AFFINE-FEEDBACK-001 — arbitrary-base relaxation
+
+22 October 2026. Original frozen specification, pre-test schema amendment and
+two independent implementations are preserved. Both replay byte for byte and
+exclude all eight formal affine feature-feedback families within the first crib,
+using minimum two-transition parity certificates and full modulo-26 checks.
+All 3,264 primary synthetic round trips and retained-coefficient controls pass.
+Arbitrary independent bases >=2 contain every proposed digit-plus-two root
+schedule, so no root/degree/radix/offset search is needed for this exact family.
+Berlin is not evaluated here; the auxiliary direct map remains separately
+labeled. [Report](RADIX-FEEDBACK-FINDINGS.md). No post-failure scope expansion.

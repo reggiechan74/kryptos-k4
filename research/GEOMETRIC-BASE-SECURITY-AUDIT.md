@@ -72,3 +72,12 @@ It neither recovers a secret root nor evaluates a later cryptographic transform.
 A proposed modular arithmetic use on K4 requires its own frozen admissibility
 specification. No root, offset, extra transform or new K4 family was searched in
 this audit, and canonical ciphertext and public cribs remain unchanged.
+
+## Later arithmetic follow-up — 22 October 2026
+
+The separately frozen [radix-feedback audit](RADIX-FEEDBACK-FINDINGS.md) now
+completes the pending modular-arithmetic admissibility step described above.
+All eight named first-order affine feature-feedback families fail inside the
+first crib, even under arbitrary independent integer bases. This is a separate
+exact-proof result and leaves the raw-token security audit's assumptions and
+scope unchanged. No root or root-offset search was performed.

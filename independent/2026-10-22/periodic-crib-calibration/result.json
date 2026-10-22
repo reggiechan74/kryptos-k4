@@ -1,0 +1,352 @@
+{
+  "experiment_id": "GEOMETRIC-PERIODIC-NULL-001",
+  "python_version": "3.12.14",
+  "seed_sha256": "70b78861c16287468db8d70a6ce9795c6d1c48ef3bfba79e61d474364aa501cb",
+  "seed_integer_decimal": "50983313327164074593607217710120790313327570259954917564373339606327874617803",
+  "N": 19999,
+  "rank_alphabet": "OCSQVXWAGZITYDPBRKLFENMHJU",
+  "observed_survivors": [
+    {
+      "family": "beaufort",
+      "period": 12,
+      "key": [
+        15,
+        24,
+        3,
+        4,
+        1,
+        18,
+        2,
+        24,
+        4,
+        13,
+        25,
+        18
+      ],
+      "training_window": "EASTNORTHEAST",
+      "second_window": "ZBVJDFKRUCA",
+      "second_check_pass": false
+    }
+  ],
+  "exact_period12_histogram_null": {
+    "add": {
+      "ciphertext_delta_mod26": 17,
+      "favorable_ordered_position_pairs": 382,
+      "all_ordered_distinct_position_pairs": 9312,
+      "probability_fraction": "191/4656",
+      "probability": 0.04102233676975945
+    },
+    "beaufort": {
+      "ciphertext_delta_mod26": 9,
+      "favorable_ordered_position_pairs": 382,
+      "all_ordered_distinct_position_pairs": 9312,
+      "probability_fraction": "191/4656",
+      "probability": 0.04102233676975945
+    }
+  },
+  "exact_union_of_both_period12_models": 0.0820446735395189,
+  "iid_uniform_single_period12_probability": 0.038461538461538464,
+  "iid_uniform_per_model_probability": {
+    "1": 1.0478999613767468e-17,
+    "2": 2.724539899579542e-16,
+    "3": 7.083803738906809e-15,
+    "4": 1.8417889721157703e-13,
+    "5": 4.788651327501003e-12,
+    "6": 1.2450493451502607e-10,
+    "7": 3.2371282973906776e-09,
+    "8": 8.416533573215762e-08,
+    "9": 2.1882987290360982e-06,
+    "10": 5.689576695493855e-05,
+    "11": 0.0014792899408284023,
+    "12": 0.038461538461538464
+  },
+  "family_null_count_distribution": {
+    "0": 18268,
+    "1": 1728,
+    "2": 3
+  },
+  "per_model_pass_counts": [
+    {
+      "family": "add",
+      "period": 1,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "add",
+      "period": 2,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "add",
+      "period": 3,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "add",
+      "period": 4,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "add",
+      "period": 5,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "add",
+      "period": 6,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "add",
+      "period": 7,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "add",
+      "period": 8,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "add",
+      "period": 9,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "add",
+      "period": 10,
+      "count": 2,
+      "frequency": 0.0001000050002500125
+    },
+    {
+      "family": "add",
+      "period": 11,
+      "count": 33,
+      "frequency": 0.0016500825041252062
+    },
+    {
+      "family": "add",
+      "period": 12,
+      "count": 849,
+      "frequency": 0.04245212260613031
+    },
+    {
+      "family": "beaufort",
+      "period": 1,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "beaufort",
+      "period": 2,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "beaufort",
+      "period": 3,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "beaufort",
+      "period": 4,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "beaufort",
+      "period": 5,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "beaufort",
+      "period": 6,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "beaufort",
+      "period": 7,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "beaufort",
+      "period": 8,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "beaufort",
+      "period": 9,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "beaufort",
+      "period": 10,
+      "count": 0,
+      "frequency": 0.0
+    },
+    {
+      "family": "beaufort",
+      "period": 11,
+      "count": 41,
+      "frequency": 0.002050102505125256
+    },
+    {
+      "family": "beaufort",
+      "period": 12,
+      "count": 809,
+      "frequency": 0.04045202260113006
+    }
+  ],
+  "family_exceedances": 1731,
+  "family_empirical_tail_frequency": 0.08655432771638583,
+  "family_plus_one_monte_carlo_p": 0.0866,
+  "family_tail_95pct_wilson_interval": [
+    0.08273629978357258,
+    0.09053115654035657
+  ],
+  "null_draw_and_count_trace_sha256": "32ab9014a3beae88d1f65b6cd0b7620664e85bd7958a9855cbee99940f5e166f",
+  "controls": {
+    "all_passed": true,
+    "synthetic_plants": [
+      {
+        "family": "add",
+        "period": 1,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 2,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 3,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 4,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 5,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 6,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 7,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 8,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 9,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 10,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 11,
+        "status": "pass"
+      },
+      {
+        "family": "add",
+        "period": 12,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 1,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 2,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 3,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 4,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 5,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 6,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 7,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 8,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 9,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 10,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 11,
+        "status": "pass"
+      },
+      {
+        "family": "beaufort",
+        "period": 12,
+        "status": "pass"
+      }
+    ],
+    "pairwise_comparisons": 479976,
+    "original_oracle_model_comparisons": 5256,
+    "exact_pair_enumeration": "both equations passed"
+  },
+  "scope_caveat": "Only this frozen 24-periodic-model family, not the larger history of investigated hypotheses, alphabets, geometries or rotor models. This is not a posterior probability that the cipher is correct.",
+  "null_caveat": "Shuffling is a specified exchangeability null, not a physical model of the unknown Kryptos encryption. The interval describes Monte Carlo uncertainty, not uncertainty over null choice."
+}

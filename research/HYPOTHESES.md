@@ -386,3 +386,13 @@ geometry/order, known exact-number boundaries and b=d+2 over bases 2–61, only
 This neither attacks a root generator nor tests a new K4 modular-arithmetic
 family. That separate admissibility specification remains pending; no root,
 offset, weight-order or transform search was added.
+
+### Changing-base follow-up completed — 22 October 2026
+
+The previously pending arithmetic admissibility specification is now frozen and
+[completed](RADIX-FEEDBACK-FINDINGS.md). All eight first-order affine geometric
+feedback families are excluded, even allowing each base to be any independent
+integer >=2. Fixed geometry/order and two designated letter equations remain
+assumptions; nonlinear updates and other cipher constructions are untested.
+The older period-12 crib fit also has a separate
+[chance calibration](PERIODIC-CRIB-CALIBRATION.md), not a positive candidate.

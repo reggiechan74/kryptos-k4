@@ -1,0 +1,4536 @@
+{
+  "audit_id": "K4-FROZEN-GLYPH-AFFINE-FEEDBACK-001",
+  "auxiliary_direct_map": [
+    {
+      "alphabet": "AZ",
+      "impossible_positions": [
+        22,
+        24,
+        25,
+        29,
+        32,
+        34
+      ],
+      "positions": [
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "ciphertext": "F",
+          "compatible_bases": [],
+          "plaintext": "E",
+          "position": 22,
+          "target_index": 5
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "ciphertext": "L",
+          "compatible_bases": [
+            5,
+            31,
+            57
+          ],
+          "plaintext": "A",
+          "position": 23,
+          "target_index": 11
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "ciphertext": "R",
+          "compatible_bases": [],
+          "plaintext": "S",
+          "position": 24,
+          "target_index": 17
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "ciphertext": "V",
+          "compatible_bases": [],
+          "plaintext": "T",
+          "position": 25,
+          "target_index": 21
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            3,
+            5,
+            8,
+            10,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "ciphertext": "Q",
+          "compatible_bases": [
+            14,
+            20,
+            24,
+            40,
+            46,
+            50
+          ],
+          "plaintext": "N",
+          "position": 26,
+          "target_index": 16
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "ciphertext": "Q",
+          "compatible_bases": [
+            16,
+            42
+          ],
+          "plaintext": "O",
+          "position": 27,
+          "target_index": 16
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "ciphertext": "P",
+          "compatible_bases": [
+            19,
+            45
+          ],
+          "plaintext": "R",
+          "position": 28,
+          "target_index": 15
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "ciphertext": "R",
+          "compatible_bases": [],
+          "plaintext": "T",
+          "position": 29,
+          "target_index": 17
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            16,
+            18,
+            19,
+            20,
+            22,
+            24,
+            25
+          ],
+          "ciphertext": "N",
+          "compatible_bases": [
+            3,
+            9,
+            13,
+            29,
+            35,
+            39,
+            55,
+            61
+          ],
+          "plaintext": "H",
+          "position": 30,
+          "target_index": 13
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "ciphertext": "G",
+          "compatible_bases": [
+            2,
+            8,
+            15,
+            21,
+            28,
+            34,
+            41,
+            47,
+            54,
+            60
+          ],
+          "plaintext": "E",
+          "position": 31,
+          "target_index": 6
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "ciphertext": "K",
+          "compatible_bases": [],
+          "plaintext": "A",
+          "position": 32,
+          "target_index": 10
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "ciphertext": "S",
+          "compatible_bases": [
+            3,
+            10,
+            16,
+            23,
+            29,
+            36,
+            42,
+            49,
+            55
+          ],
+          "plaintext": "S",
+          "position": 33,
+          "target_index": 18
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "ciphertext": "S",
+          "compatible_bases": [],
+          "plaintext": "T",
+          "position": 34,
+          "target_index": 18
+        }
+      ],
+      "possible": false
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "impossible_positions": [
+        22,
+        24,
+        26,
+        29,
+        31
+      ],
+      "positions": [
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "ciphertext": "F",
+          "compatible_bases": [],
+          "plaintext": "E",
+          "position": 22,
+          "target_index": 12
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "ciphertext": "L",
+          "compatible_bases": [
+            21,
+            47
+          ],
+          "plaintext": "A",
+          "position": 23,
+          "target_index": 17
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "ciphertext": "R",
+          "compatible_bases": [],
+          "plaintext": "S",
+          "position": 24,
+          "target_index": 1
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "ciphertext": "V",
+          "compatible_bases": [
+            2,
+            8,
+            15,
+            21,
+            28,
+            34,
+            41,
+            47,
+            54,
+            60
+          ],
+          "plaintext": "T",
+          "position": 25,
+          "target_index": 22
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            3,
+            5,
+            8,
+            10,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "ciphertext": "Q",
+          "compatible_bases": [],
+          "plaintext": "N",
+          "position": 26,
+          "target_index": 20
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "ciphertext": "Q",
+          "compatible_bases": [
+            20,
+            46
+          ],
+          "plaintext": "O",
+          "position": 27,
+          "target_index": 20
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "ciphertext": "P",
+          "compatible_bases": [
+            27,
+            53
+          ],
+          "plaintext": "R",
+          "position": 28,
+          "target_index": 3
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "ciphertext": "R",
+          "compatible_bases": [],
+          "plaintext": "T",
+          "position": 29,
+          "target_index": 1
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            16,
+            18,
+            19,
+            20,
+            22,
+            24,
+            25
+          ],
+          "ciphertext": "N",
+          "compatible_bases": [
+            17,
+            43
+          ],
+          "plaintext": "H",
+          "position": 30,
+          "target_index": 19
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "ciphertext": "G",
+          "compatible_bases": [],
+          "plaintext": "E",
+          "position": 31,
+          "target_index": 13
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "ciphertext": "K",
+          "compatible_bases": [
+            16,
+            22,
+            26,
+            42,
+            48,
+            52
+          ],
+          "plaintext": "A",
+          "position": 32,
+          "target_index": 0
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "ciphertext": "S",
+          "compatible_bases": [
+            4,
+            9,
+            17,
+            22,
+            30,
+            35,
+            43,
+            48,
+            56,
+            61
+          ],
+          "plaintext": "S",
+          "position": 33,
+          "target_index": 6
+        },
+        {
+          "attainable_code_residues": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "ciphertext": "S",
+          "compatible_bases": [
+            4,
+            5,
+            17,
+            18,
+            30,
+            31,
+            43,
+            44,
+            56,
+            57
+          ],
+          "plaintext": "T",
+          "position": 34,
+          "target_index": 6
+        }
+      ],
+      "possible": false
+    }
+  ],
+  "controls": {
+    "alignment_mutation": {
+      "correct_first_ciphertext": "H",
+      "initial_key": 3,
+      "mutation_detected": true,
+      "wrong_advanced_key": 10,
+      "wrong_preupdate_ciphertext": "O"
+    },
+    "always_even_glyphs": "DEGLMPQSTVWX",
+    "base_schedule_names": [
+      "constant_2",
+      "constant_3",
+      "constant_26",
+      "constant_27",
+      "constant_61",
+      "alternating_2_3",
+      "cycle_2_through_61",
+      "huge_alternating_parities",
+      "sqrt2_radix_10_digits_plus2",
+      "sqrt2_radix_12_digits_plus2",
+      "sqrt2_radix_16_digits_plus2",
+      "sqrt2_radix_60_digits_plus2"
+    ],
+    "full_mod26_positive_solves": [
+      {
+        "alphabet": "AZ",
+        "equation": "additive",
+        "planted": [
+          5,
+          7,
+          11
+        ],
+        "source": "ciphertext",
+        "survivor_count": 14
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "additive",
+        "planted": [
+          5,
+          7,
+          11
+        ],
+        "source": "plaintext",
+        "survivor_count": 12
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "planted": [
+          5,
+          7,
+          11
+        ],
+        "source": "ciphertext",
+        "survivor_count": 5
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "planted": [
+          5,
+          7,
+          11
+        ],
+        "source": "plaintext",
+        "survivor_count": 12
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "additive",
+        "planted": [
+          5,
+          7,
+          11
+        ],
+        "source": "ciphertext",
+        "survivor_count": 17
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "additive",
+        "planted": [
+          5,
+          7,
+          11
+        ],
+        "source": "plaintext",
+        "survivor_count": 12
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "planted": [
+          5,
+          7,
+          11
+        ],
+        "source": "ciphertext",
+        "survivor_count": 7
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "planted": [
+          5,
+          7,
+          11
+        ],
+        "source": "plaintext",
+        "survivor_count": 12
+      }
+    ],
+    "letters_per_roundtrip": 52,
+    "mod26_plants_retained": 3264,
+    "odd_code_counterexamples": [
+      {
+        "base": 2,
+        "bit0": 1,
+        "code_parity": 1,
+        "components": 2,
+        "glyph": "J"
+      },
+      {
+        "base": 3,
+        "bit0": 0,
+        "code_parity": 1,
+        "components": 3,
+        "glyph": "A"
+      },
+      {
+        "base": 2,
+        "bit0": 1,
+        "code_parity": 1,
+        "components": 3,
+        "glyph": "U"
+      },
+      {
+        "base": 3,
+        "bit0": 1,
+        "code_parity": 1,
+        "components": 3,
+        "glyph": "U"
+      }
+    ],
+    "parameter_triples_per_schedule": 34,
+    "parity_solver_plants_retained": 3264,
+    "polynomial_parity_periodicity_checks": 286,
+    "roundtrip_cases": 3264,
+    "status": "PASS",
+    "vector_reconstruction_letters": 26
+  },
+  "families": [
+    {
+      "all_training_transitions": [
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            21,
+            22,
+            25
+          ],
+          "key": 1,
+          "next_key": 11,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "F"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 11,
+          "next_key": 25,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "L"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 25,
+          "next_key": 2,
+          "next_position": 25,
+          "position": 24,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            18,
+            20,
+            24
+          ],
+          "key": 2,
+          "next_key": 3,
+          "next_position": 26,
+          "position": 25,
+          "source_glyph": "V"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 3,
+          "next_key": 2,
+          "next_position": 27,
+          "position": 26,
+          "source_glyph": "Q"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 2,
+          "next_key": 24,
+          "next_position": 28,
+          "position": 27,
+          "source_glyph": "Q"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 24,
+          "next_key": 24,
+          "next_position": 29,
+          "position": 28,
+          "source_glyph": "P"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 24,
+          "next_key": 6,
+          "next_position": 30,
+          "position": 29,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            3,
+            5,
+            8,
+            10,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "key": 6,
+          "next_key": 2,
+          "next_position": 31,
+          "position": 30,
+          "source_glyph": "N"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            14,
+            22,
+            24
+          ],
+          "key": 2,
+          "next_key": 10,
+          "next_position": 32,
+          "position": 31,
+          "source_glyph": "G"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            23,
+            24,
+            25
+          ],
+          "key": 10,
+          "next_key": 0,
+          "next_position": 33,
+          "position": 32,
+          "source_glyph": "K"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 0,
+          "next_key": 25,
+          "next_position": 34,
+          "position": 33,
+          "source_glyph": "S"
+        }
+      ],
+      "alphabet": "AZ",
+      "certificate_all_parity_triples_check": [
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            0
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            1
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            0
+          ],
+          "violated_positions": [
+            26
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            1
+          ],
+          "violated_positions": [
+            26
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            0
+          ],
+          "violated_positions": [
+            26
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            1
+          ],
+          "violated_positions": [
+            26
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            0
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            1
+          ],
+          "violated_positions": [
+            23
+          ]
+        }
+      ],
+      "equation": "additive",
+      "key_sequence": [
+        1,
+        11,
+        25,
+        2,
+        3,
+        2,
+        24,
+        24,
+        6,
+        2,
+        10,
+        0,
+        25
+      ],
+      "minimum_certificate": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 11,
+          "next_key": 25,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "L"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 3,
+          "next_key": 2,
+          "next_position": 27,
+          "position": 26,
+          "source_glyph": "Q"
+        }
+      ],
+      "mod26_survivor_count": 0,
+      "parity_survivors": [],
+      "source": "ciphertext",
+      "transition_count": 12
+    },
+    {
+      "all_training_transitions": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 1,
+          "next_key": 11,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "key": 11,
+          "next_key": 25,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "A"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 25,
+          "next_key": 2,
+          "next_position": 25,
+          "position": 24,
+          "source_glyph": "S"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "key": 2,
+          "next_key": 3,
+          "next_position": 26,
+          "position": 25,
+          "source_glyph": "T"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            3,
+            5,
+            8,
+            10,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "key": 3,
+          "next_key": 2,
+          "next_position": 27,
+          "position": 26,
+          "source_glyph": "N"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 2,
+          "next_key": 24,
+          "next_position": 28,
+          "position": 27,
+          "source_glyph": "O"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 24,
+          "next_key": 24,
+          "next_position": 29,
+          "position": 28,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "key": 24,
+          "next_key": 6,
+          "next_position": 30,
+          "position": 29,
+          "source_glyph": "T"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            16,
+            18,
+            19,
+            20,
+            22,
+            24,
+            25
+          ],
+          "key": 6,
+          "next_key": 2,
+          "next_position": 31,
+          "position": 30,
+          "source_glyph": "H"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 2,
+          "next_key": 10,
+          "next_position": 32,
+          "position": 31,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "key": 10,
+          "next_key": 0,
+          "next_position": 33,
+          "position": 32,
+          "source_glyph": "A"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 0,
+          "next_key": 25,
+          "next_position": 34,
+          "position": 33,
+          "source_glyph": "S"
+        }
+      ],
+      "alphabet": "AZ",
+      "certificate_all_parity_triples_check": [
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            0
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            1
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            0
+          ],
+          "violated_positions": [
+            24
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            1
+          ],
+          "violated_positions": [
+            24
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            0
+          ],
+          "violated_positions": [
+            24
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            1
+          ],
+          "violated_positions": [
+            24
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            0
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            1
+          ],
+          "violated_positions": [
+            22
+          ]
+        }
+      ],
+      "equation": "additive",
+      "key_sequence": [
+        1,
+        11,
+        25,
+        2,
+        3,
+        2,
+        24,
+        24,
+        6,
+        2,
+        10,
+        0,
+        25
+      ],
+      "minimum_certificate": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 1,
+          "next_key": 11,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 25,
+          "next_key": 2,
+          "next_position": 25,
+          "position": 24,
+          "source_glyph": "S"
+        }
+      ],
+      "mod26_survivor_count": 0,
+      "parity_survivors": [],
+      "source": "plaintext",
+      "transition_count": 12
+    },
+    {
+      "all_training_transitions": [
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            21,
+            22,
+            25
+          ],
+          "key": 9,
+          "next_key": 11,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "F"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 11,
+          "next_key": 9,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "L"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 9,
+          "next_key": 14,
+          "next_position": 25,
+          "position": 24,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            18,
+            20,
+            24
+          ],
+          "key": 14,
+          "next_key": 3,
+          "next_position": 26,
+          "position": 25,
+          "source_glyph": "V"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 3,
+          "next_key": 4,
+          "next_position": 27,
+          "position": 26,
+          "source_glyph": "Q"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 4,
+          "next_key": 6,
+          "next_position": 28,
+          "position": 27,
+          "source_glyph": "Q"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 6,
+          "next_key": 10,
+          "next_position": 29,
+          "position": 28,
+          "source_glyph": "P"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 10,
+          "next_key": 20,
+          "next_position": 30,
+          "position": 29,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            3,
+            5,
+            8,
+            10,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "key": 20,
+          "next_key": 10,
+          "next_position": 31,
+          "position": 30,
+          "source_glyph": "N"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            14,
+            22,
+            24
+          ],
+          "key": 10,
+          "next_key": 10,
+          "next_position": 32,
+          "position": 31,
+          "source_glyph": "G"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            23,
+            24,
+            25
+          ],
+          "key": 10,
+          "next_key": 10,
+          "next_position": 33,
+          "position": 32,
+          "source_glyph": "K"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 10,
+          "next_key": 11,
+          "next_position": 34,
+          "position": 33,
+          "source_glyph": "S"
+        }
+      ],
+      "alphabet": "AZ",
+      "certificate_all_parity_triples_check": [
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            0
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            1
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            0
+          ],
+          "violated_positions": [
+            26
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            1
+          ],
+          "violated_positions": [
+            26
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            0
+          ],
+          "violated_positions": [
+            26
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            1
+          ],
+          "violated_positions": [
+            26
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            0
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            1
+          ],
+          "violated_positions": [
+            23
+          ]
+        }
+      ],
+      "equation": "beaufort",
+      "key_sequence": [
+        9,
+        11,
+        9,
+        14,
+        3,
+        4,
+        6,
+        10,
+        20,
+        10,
+        10,
+        10,
+        11
+      ],
+      "minimum_certificate": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 11,
+          "next_key": 9,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "L"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 3,
+          "next_key": 4,
+          "next_position": 27,
+          "position": 26,
+          "source_glyph": "Q"
+        }
+      ],
+      "mod26_survivor_count": 0,
+      "parity_survivors": [],
+      "source": "ciphertext",
+      "transition_count": 12
+    },
+    {
+      "all_training_transitions": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 9,
+          "next_key": 11,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "key": 11,
+          "next_key": 9,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "A"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 9,
+          "next_key": 14,
+          "next_position": 25,
+          "position": 24,
+          "source_glyph": "S"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "key": 14,
+          "next_key": 3,
+          "next_position": 26,
+          "position": 25,
+          "source_glyph": "T"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            3,
+            5,
+            8,
+            10,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "key": 3,
+          "next_key": 4,
+          "next_position": 27,
+          "position": 26,
+          "source_glyph": "N"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 4,
+          "next_key": 6,
+          "next_position": 28,
+          "position": 27,
+          "source_glyph": "O"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 6,
+          "next_key": 10,
+          "next_position": 29,
+          "position": 28,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "key": 10,
+          "next_key": 20,
+          "next_position": 30,
+          "position": 29,
+          "source_glyph": "T"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            16,
+            18,
+            19,
+            20,
+            22,
+            24,
+            25
+          ],
+          "key": 20,
+          "next_key": 10,
+          "next_position": 31,
+          "position": 30,
+          "source_glyph": "H"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 10,
+          "next_key": 10,
+          "next_position": 32,
+          "position": 31,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "key": 10,
+          "next_key": 10,
+          "next_position": 33,
+          "position": 32,
+          "source_glyph": "A"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 10,
+          "next_key": 11,
+          "next_position": 34,
+          "position": 33,
+          "source_glyph": "S"
+        }
+      ],
+      "alphabet": "AZ",
+      "certificate_all_parity_triples_check": [
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            0
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            1
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            0
+          ],
+          "violated_positions": [
+            24
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            1
+          ],
+          "violated_positions": [
+            24
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            0
+          ],
+          "violated_positions": [
+            24
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            1
+          ],
+          "violated_positions": [
+            24
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            0
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            1
+          ],
+          "violated_positions": [
+            22
+          ]
+        }
+      ],
+      "equation": "beaufort",
+      "key_sequence": [
+        9,
+        11,
+        9,
+        14,
+        3,
+        4,
+        6,
+        10,
+        20,
+        10,
+        10,
+        10,
+        11
+      ],
+      "minimum_certificate": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 9,
+          "next_key": 11,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 9,
+          "next_key": 14,
+          "next_position": 25,
+          "position": 24,
+          "source_glyph": "S"
+        }
+      ],
+      "mod26_survivor_count": 0,
+      "parity_survivors": [],
+      "source": "plaintext",
+      "transition_count": 12
+    },
+    {
+      "all_training_transitions": [
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            21,
+            22,
+            25
+          ],
+          "key": 1,
+          "next_key": 10,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "F"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 10,
+          "next_key": 21,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "L"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 21,
+          "next_key": 18,
+          "next_position": 25,
+          "position": 24,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            18,
+            20,
+            24
+          ],
+          "key": 18,
+          "next_key": 1,
+          "next_position": 26,
+          "position": 25,
+          "source_glyph": "V"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 1,
+          "next_key": 15,
+          "next_position": 27,
+          "position": 26,
+          "source_glyph": "Q"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 15,
+          "next_key": 2,
+          "next_position": 28,
+          "position": 27,
+          "source_glyph": "Q"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 2,
+          "next_key": 23,
+          "next_position": 29,
+          "position": 28,
+          "source_glyph": "P"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 23,
+          "next_key": 5,
+          "next_position": 30,
+          "position": 29,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            3,
+            5,
+            8,
+            10,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "key": 5,
+          "next_key": 2,
+          "next_position": 31,
+          "position": 30,
+          "source_glyph": "N"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            14,
+            22,
+            24
+          ],
+          "key": 2,
+          "next_key": 19,
+          "next_position": 32,
+          "position": 31,
+          "source_glyph": "G"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            23,
+            24,
+            25
+          ],
+          "key": 19,
+          "next_key": 0,
+          "next_position": 33,
+          "position": 32,
+          "source_glyph": "K"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 0,
+          "next_key": 2,
+          "next_position": 34,
+          "position": 33,
+          "source_glyph": "S"
+        }
+      ],
+      "alphabet": "KRYPTOS",
+      "certificate_all_parity_triples_check": [
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            0
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            1
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            0
+          ],
+          "violated_positions": [
+            33
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            1
+          ],
+          "violated_positions": [
+            33
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            0
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            1
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            0
+          ],
+          "violated_positions": [
+            33
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            1
+          ],
+          "violated_positions": [
+            33
+          ]
+        }
+      ],
+      "equation": "additive",
+      "key_sequence": [
+        1,
+        10,
+        21,
+        18,
+        1,
+        15,
+        2,
+        23,
+        5,
+        2,
+        19,
+        0,
+        2
+      ],
+      "minimum_certificate": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 10,
+          "next_key": 21,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "L"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 0,
+          "next_key": 2,
+          "next_position": 34,
+          "position": 33,
+          "source_glyph": "S"
+        }
+      ],
+      "mod26_survivor_count": 0,
+      "parity_survivors": [],
+      "source": "ciphertext",
+      "transition_count": 12
+    },
+    {
+      "all_training_transitions": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 1,
+          "next_key": 10,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "key": 10,
+          "next_key": 21,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "A"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 21,
+          "next_key": 18,
+          "next_position": 25,
+          "position": 24,
+          "source_glyph": "S"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "key": 18,
+          "next_key": 1,
+          "next_position": 26,
+          "position": 25,
+          "source_glyph": "T"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            3,
+            5,
+            8,
+            10,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "key": 1,
+          "next_key": 15,
+          "next_position": 27,
+          "position": 26,
+          "source_glyph": "N"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 15,
+          "next_key": 2,
+          "next_position": 28,
+          "position": 27,
+          "source_glyph": "O"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 2,
+          "next_key": 23,
+          "next_position": 29,
+          "position": 28,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "key": 23,
+          "next_key": 5,
+          "next_position": 30,
+          "position": 29,
+          "source_glyph": "T"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            16,
+            18,
+            19,
+            20,
+            22,
+            24,
+            25
+          ],
+          "key": 5,
+          "next_key": 2,
+          "next_position": 31,
+          "position": 30,
+          "source_glyph": "H"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 2,
+          "next_key": 19,
+          "next_position": 32,
+          "position": 31,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "key": 19,
+          "next_key": 0,
+          "next_position": 33,
+          "position": 32,
+          "source_glyph": "A"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 0,
+          "next_key": 2,
+          "next_position": 34,
+          "position": 33,
+          "source_glyph": "S"
+        }
+      ],
+      "alphabet": "KRYPTOS",
+      "certificate_all_parity_triples_check": [
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            0
+          ],
+          "violated_positions": [
+            29
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            1
+          ],
+          "violated_positions": [
+            29
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            0
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            1
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            0
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            1
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            0
+          ],
+          "violated_positions": [
+            29
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            1
+          ],
+          "violated_positions": [
+            29
+          ]
+        }
+      ],
+      "equation": "additive",
+      "key_sequence": [
+        1,
+        10,
+        21,
+        18,
+        1,
+        15,
+        2,
+        23,
+        5,
+        2,
+        19,
+        0,
+        2
+      ],
+      "minimum_certificate": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 1,
+          "next_key": 10,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "key": 23,
+          "next_key": 5,
+          "next_position": 30,
+          "position": 29,
+          "source_glyph": "T"
+        }
+      ],
+      "mod26_survivor_count": 0,
+      "parity_survivors": [],
+      "source": "plaintext",
+      "transition_count": 12
+    },
+    {
+      "all_training_transitions": [
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            21,
+            22,
+            25
+          ],
+          "key": 23,
+          "next_key": 24,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "F"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 24,
+          "next_key": 7,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "L"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 7,
+          "next_key": 0,
+          "next_position": 25,
+          "position": 24,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            18,
+            20,
+            24
+          ],
+          "key": 0,
+          "next_key": 13,
+          "next_position": 26,
+          "position": 25,
+          "source_glyph": "V"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 13,
+          "next_key": 25,
+          "next_position": 27,
+          "position": 26,
+          "source_glyph": "Q"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 25,
+          "next_key": 4,
+          "next_position": 28,
+          "position": 27,
+          "source_glyph": "Q"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 4,
+          "next_key": 5,
+          "next_position": 29,
+          "position": 28,
+          "source_glyph": "P"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 5,
+          "next_key": 7,
+          "next_position": 30,
+          "position": 29,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            3,
+            5,
+            8,
+            10,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "key": 7,
+          "next_key": 24,
+          "next_position": 31,
+          "position": 30,
+          "source_glyph": "N"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            14,
+            22,
+            24
+          ],
+          "key": 24,
+          "next_key": 7,
+          "next_position": 32,
+          "position": 31,
+          "source_glyph": "G"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            23,
+            24,
+            25
+          ],
+          "key": 7,
+          "next_key": 12,
+          "next_position": 33,
+          "position": 32,
+          "source_glyph": "K"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 12,
+          "next_key": 10,
+          "next_position": 34,
+          "position": 33,
+          "source_glyph": "S"
+        }
+      ],
+      "alphabet": "KRYPTOS",
+      "certificate_all_parity_triples_check": [
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            0
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            1
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            0
+          ],
+          "violated_positions": [
+            33
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            1
+          ],
+          "violated_positions": [
+            33
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            0
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            1
+          ],
+          "violated_positions": [
+            23
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            0
+          ],
+          "violated_positions": [
+            33
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            1
+          ],
+          "violated_positions": [
+            33
+          ]
+        }
+      ],
+      "equation": "beaufort",
+      "key_sequence": [
+        23,
+        24,
+        7,
+        0,
+        13,
+        25,
+        4,
+        5,
+        7,
+        24,
+        7,
+        12,
+        10
+      ],
+      "minimum_certificate": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            16,
+            18,
+            20,
+            22,
+            24
+          ],
+          "key": 24,
+          "next_key": 7,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "L"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 12,
+          "next_key": 10,
+          "next_position": 34,
+          "position": 33,
+          "source_glyph": "S"
+        }
+      ],
+      "mod26_survivor_count": 0,
+      "parity_survivors": [],
+      "source": "ciphertext",
+      "transition_count": 12
+    },
+    {
+      "all_training_transitions": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 23,
+          "next_key": 24,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "key": 24,
+          "next_key": 7,
+          "next_position": 24,
+          "position": 23,
+          "source_glyph": "A"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 7,
+          "next_key": 0,
+          "next_position": 25,
+          "position": 24,
+          "source_glyph": "S"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "key": 0,
+          "next_key": 13,
+          "next_position": 26,
+          "position": 25,
+          "source_glyph": "T"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            3,
+            5,
+            8,
+            10,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "key": 13,
+          "next_key": 25,
+          "next_position": 27,
+          "position": 26,
+          "source_glyph": "N"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 25,
+          "next_key": 4,
+          "next_position": 28,
+          "position": 27,
+          "source_glyph": "O"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "key": 4,
+          "next_key": 5,
+          "next_position": 29,
+          "position": 28,
+          "source_glyph": "R"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "key": 5,
+          "next_key": 7,
+          "next_position": 30,
+          "position": 29,
+          "source_glyph": "T"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            16,
+            18,
+            19,
+            20,
+            22,
+            24,
+            25
+          ],
+          "key": 7,
+          "next_key": 24,
+          "next_position": 31,
+          "position": 30,
+          "source_glyph": "H"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 24,
+          "next_key": 7,
+          "next_position": 32,
+          "position": 31,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0,
+            1
+          ],
+          "code_residues_mod26": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            25
+          ],
+          "key": 7,
+          "next_key": 12,
+          "next_position": 33,
+          "position": 32,
+          "source_glyph": "A"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            18
+          ],
+          "key": 12,
+          "next_key": 10,
+          "next_position": 34,
+          "position": 33,
+          "source_glyph": "S"
+        }
+      ],
+      "alphabet": "KRYPTOS",
+      "certificate_all_parity_triples_check": [
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            0
+          ],
+          "violated_positions": [
+            29
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            0,
+            1
+          ],
+          "violated_positions": [
+            29
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            0
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            0,
+            1,
+            1
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            0
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            0,
+            1
+          ],
+          "violated_positions": [
+            22
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            0
+          ],
+          "violated_positions": [
+            29
+          ]
+        },
+        {
+          "a_c_d_mod2": [
+            1,
+            1,
+            1
+          ],
+          "violated_positions": [
+            29
+          ]
+        }
+      ],
+      "equation": "beaufort",
+      "key_sequence": [
+        23,
+        24,
+        7,
+        0,
+        13,
+        25,
+        4,
+        5,
+        7,
+        24,
+        7,
+        12,
+        10
+      ],
+      "minimum_certificate": [
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14,
+            16,
+            22
+          ],
+          "key": 23,
+          "next_key": 24,
+          "next_position": 23,
+          "position": 22,
+          "source_glyph": "E"
+        },
+        {
+          "code_parities": [
+            0
+          ],
+          "code_residues_mod26": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            20,
+            22,
+            24
+          ],
+          "key": 5,
+          "next_key": 7,
+          "next_position": 30,
+          "position": 29,
+          "source_glyph": "T"
+        }
+      ],
+      "mod26_survivor_count": 0,
+      "parity_survivors": [],
+      "source": "plaintext",
+      "transition_count": 12
+    }
+  ],
+  "geometry_sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010",
+  "heldout_evaluated": false,
+  "limits": "Only frozen-glyph first-order affine feature feedback, these two equations, two alphabets and two source choices. No claim about other geometries, feature orders, states, feedback laws or all root-driven ciphers.",
+  "primary_result": "All eight specified families excluded modulo 2 for every independent integer-base schedule b_i>=2.",
+  "root_or_digit_search_performed": false,
+  "schema_amendment_sha256": "01982c71b729ec5673c9ba52a63a6e699e3955a05af3c8ee25ead8265795683d",
+  "specification_sha256": "caa60d80cf41e7b0a498eeaff62a14b84ef250c44756762fcf84878cfb2c6e5f",
+  "training": {
+    "ciphertext": "FLRVQQPRNGKSS",
+    "plaintext": "EASTNORTHEAST",
+    "positions": [
+      22,
+      34
+    ]
+  }
+}

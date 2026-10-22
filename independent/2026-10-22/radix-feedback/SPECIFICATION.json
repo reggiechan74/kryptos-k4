@@ -1,0 +1,134 @@
+{
+  "audit_id": "K4-FROZEN-GLYPH-AFFINE-FEEDBACK-001",
+  "scope": "Necessary-condition admissibility audit, not a full Kryptos attack or test of every possible geometric cipher.",
+  "freeze_utc": "2026-10-22T22:59:21.056028+00:00",
+  "freeze_status": "Recorded before computing family feasibility; parent supplied candidate parity argument, which this audit will independently calculate and verify. This is a pre-test operational specification, not a blind or historical preregistration.",
+  "geometry_file": "modeled-uppercase-geometry-001-core.json",
+  "geometry_sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010",
+  "code": "code_b(T) = sum(v(T)[j] * b**j for j in range(35)), with the input feature order unchanged.",
+  "ciphertext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+  "alphabets": {
+    "AZ": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "KRYPTOS": "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  "plaintext_training_crib": {
+    "positions_1_based_inclusive": [
+      22,
+      34
+    ],
+    "text": "EASTNORTHEAST"
+  },
+  "training_note": "The supplied position interval has 13 positions but EASTNORTHEAST has 13 letters; validate programmatically and fail closed on any mismatch.",
+  "heldout": {
+    "positions_1_based_inclusive": [
+      64,
+      74
+    ],
+    "text": "BERLINCLOCK",
+    "policy": "Do not evaluate unless at least one family survives the training crib; do not use for tuning."
+  },
+  "families": {
+    "equations": [
+      "C_i = P_i + K_i (mod 26)",
+      "C_i = K_i - P_i (mod 26)"
+    ],
+    "source": [
+      "ciphertext glyph C_i",
+      "plaintext glyph P_i"
+    ],
+    "alphabet": [
+      "AZ",
+      "KRYPTOS"
+    ],
+    "number": 8
+  },
+  "feedback": "After encrypting/decrypting letter i, K_(i+1) = a*K_i + c + d*code_(b_i)(T_i) (mod 26).",
+  "parameters": "a,c,d are fixed independent residues in 0..25; arbitrary initial K; independent integer b_i>=2 at every position. No resets, routes, masks, feature reorder, or position-specific coefficients.",
+  "decision_rule": "Reject a family only if no (a mod 2,c mod 2,d mod 2) satisfies every within-training-crib transition, allowing each transition either possible base parity. Generate an exact contradiction certificate using the minimum number of training transitions, breaking ties lexicographically by transition index.",
+  "parity_theorem": "For integer b even, code_b(T) mod 2 = v(T)[0] mod 2; for integer b odd it is sum(v(T)) mod 2. A modular-26 recurrence must satisfy its reduction modulo 2.",
+  "cross_check": "Exhaustively enumerate all 26^3 coefficient triples with independently selectable code residues for each transition. Integer polynomial residues depend only on b mod 26, so b=2..27 cover every allowed integer base. This is an independent modular-26 consistency check, not an expansion of the family.",
+  "controls": [
+    "Reconstruct vectors from frozen glyph component names and feature order, and compare to stored vectors.",
+    "Validate every feature count and bit-0 classification; check even-code qualifying and odd-code counterexample letters at both even and odd bases.",
+    "Compare exact big-integer polynomial evaluation with Horner and modular evaluation on small and huge bases.",
+    "Generate round-trip ciphertext for all eight families using varied integer-base schedules, including digit+2 schedules for radices 10,12,16,60 and arbitrary huge bases.",
+    "Check after-letter update alignment independently and include a pre-update mutation that must fail a pinned test.",
+    "Ensure parity and modular-26 admissibility solvers retain planted coefficients in positive synthetic cases.",
+    "Independently verify each reported contradiction against all 8 parity triples."
+  ],
+  "auxiliary_closure_check": {
+    "separate": true,
+    "map": "C_i index = code_(b_i)(P_i) mod 26",
+    "alphabets": [
+      "AZ",
+      "KRYPTOS"
+    ],
+    "allowed_bases": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "base_freedom": "Independent choice at each position, covering digit+2 for radices 10,12,16,60.",
+    "data": "Same first training crib only.",
+    "rule": "Reject this separate direct map if any training position has no allowed base; this is not evidence about feedback families."
+  },
+  "stopping_rule": "If all eight primary families fail modulo 2, stop root/digit search. Report only the named first-order affine family with frozen glyphs excluded. Complete synthetic controls and replay bundle; do not evaluate heldout.",
+  "source_note": "Ciphertext and alphabets supplied by parent; source pin supplied as https://github.com/reggiechan74/kryptos-k4/blob/0d138240fb248d0b74942efc86a51d895946921d/data/k4.json. No live fetch required for deterministic input audit."
+}

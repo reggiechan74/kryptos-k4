@@ -127,3 +127,13 @@ Original sources/results remain byte-exact; local replay evidence is stored in
 [GEOMETRIC-FOLLOWUP-COMPARISON.json](../results/GEOMETRIC-FOLLOWUP-COMPARISON.json).
 The separate [raw-number security audit](GEOMETRIC-BASE-SECURITY-AUDIT.md) does not
 change this pilot's frozen binary-state model or initiate a root search.
+
+## Requested probability follow-up — 22 October 2026
+
+The subsequent [calibration](PERIODIC-CRIB-CALIBRATION.md) refits all 24 periodic
+models on each of 19,999 histogram-preserving shuffles. It reproduces 1,731
+first-crib exceedances, plus-one Monte Carlo p=0.0866. This is a separately frozen
+post-discovery calibration requested by the user, not a change to the original
+pilot or a posterior probability of correctness. The period-12 fit has only one
+closure beyond twelve fitted key values and still fails Berlin. No rotor-family
+or global research-wide probability is inferred.

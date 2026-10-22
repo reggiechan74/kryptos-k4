@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-22T23:00:05.921944+00:00",
+  "original_spec_sha256": "caa60d80cf41e7b0a498eeaff62a14b84ef250c44756762fcf84878cfb2c6e5f",
+  "reason": "Schema inspection found that frozen core contains sparse glyph primitive arrays and no vectors field. No family feasibility was computed before this amendment.",
+  "change": "Derive dense vectors from sparse glyphs and frozen feature_order. Validate by independent index-incidence versus primitive-membership construction. Do not compare to a nonexistent stored vector field. All mathematical test definitions and inputs unchanged."
+}
