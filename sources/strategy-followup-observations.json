@@ -1,0 +1,58 @@
+{
+  "id": "STRATEGY-FOLLOWUP-SOURCES-001",
+  "observed_date": "2026-10-22",
+  "worksheet": {
+    "url": "https://www.thekryptosproject.com/kryptos/images/sb_notes.jpg",
+    "bytes": 219438,
+    "sha256": "7a550e9b8790b3b20f79bcca0f2b81fa1ced0773086c98c09d2e049e21900b64",
+    "method": "Independent visual inspection of full JPEG, no OCR or complete cell transcription.",
+    "observations": [
+      "K1 second plaintext row ends ILLUSIO, next row N",
+      "Aligned key segment PALIMPCEST"
+    ],
+    "attribution_url": "https://www.thekryptosproject.com/kryptos/charts/pt_k1_k2.php",
+    "attribution_status": "Fresh retrieval failed; reported NYT-derived attribution not independently authenticated."
+  },
+  "K2": {
+    "url": "https://www.elonka.com/kryptos/CorrectedK2Announcement.html",
+    "read": "2026-10-22",
+    "publication": "2006-04-19",
+    "scope": "Public Kryptos Group correction announcement; restored ciphertext S before final8letters; intended endpoint XLAYERTWO instead of IDBYROWS; existing data/controls.json retains both. No new correction to K4."
+  },
+  "clock": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-E1003-0001-001,_Berlin,_Weltzeituhr_am_Alexanderplatz.jpg",
+    "image_bytes": 75598,
+    "image_sha256": "d11e7d21ebbf72853a914ab3a63d6574cb611177b8c5a7ee7b9884aa4ac748f3",
+    "date": "1969-10-03",
+    "credit": "Bundesarchiv Bild183-E1003-0001-001 / Koard,Peter / CC-BY-SA3.0",
+    "resolution": [
+      579,
+      786
+    ],
+    "observed_hours_left_to_right": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "partial_lower_band_labels": [
+      "CASABLANCA",
+      "ANKARA",
+      "CAIRO"
+    ],
+    "city_sector_indices": null,
+    "limitations": [
+      "No full1989inventory",
+      "No timestamp/absolute phase",
+      "Band not strict hemisphere bit",
+      "City-to-sector alignment not metrically calibrated"
+    ],
+    "constructor_url": "https://kunsch-metallbau.de/referenzen-/weltzeituhr-berlin-alexanderplatz/",
+    "restoration_url": "https://www.berliner-zeitung.de/article/20-staedtenamen-wurden-bei-der-restaurierung-ergaenzt-frisch-poliert-die-weltzeituhr-dreht-sich-bald-7079",
+    "restoration_date": "1997-12-12",
+    "restoration_claim": "20 added city names and changed time-zone assignments. Modern panels cannot stand in for1989."
+  }
+}

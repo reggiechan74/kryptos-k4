@@ -1,0 +1,65 @@
+{
+  "id": "STRATEGY-FOLLOWUP-001",
+  "date": "2026-10-22",
+  "baseline_commit": "725b81fc1bd89eaccc1c9135396765ef4f69ea46",
+  "chronology": "Commit this specification and source observations before implementing/running. Commit implementation/tests before actual K4 evaluation. No parameter expansion after outcomes.",
+  "normalization": "Canonical data/k4.json:97 uppercase letters, preceding ? excluded, zero-based internal indexing; cribs22-34 and64-74 one-based. No edits.",
+  "evolving": {
+    "models": [
+      "AZ/AZ",
+      "AZ/KRYPTOS",
+      "KRYPTOS/AZ",
+      "KRYPTOS/KRYPTOS"
+    ],
+    "alphabets": [
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+    ],
+    "equations": "C_i=S_i[index_R(P_i)]; after output move C_i to front preserving other relative order. Inverse P_i=R[index_S_i(C_i)] followed by same observed-C update. Initial S0 at i0, no resets, no primer, no other rule. Four deterministic cases; zero fitted symbols; all24 are predictions conditional on model choice, not independent historical evidence.",
+    "equivalence": "Compare full26-symbol next-letter functions after permitted ciphertext prefix D with all AZ/KRYPTOS plain/cipher-role alphabets, both signs and26 shifts (208 mixed-role affine maps). Outside this superset proves not prior fixed-tableau cursor stepping. Explicit cyclic-neighbor counterexample; no universal state-machine inequivalence claim.",
+    "gate": "All24 letters and full97 exact inverse/regeneration. Save every full rejected output, matches, first contradiction and states. Report13/11 separately, no same-letter fitting. Any positive remains crib_fit_only."
+  },
+  "blind_harness": {
+    "seed": 2026102220,
+    "plants_per_model": 8,
+    "positive_total": 32,
+    "plaintext": "Random uppercase filler from seeded Python MT19937; replace indices21:34 with EASTNORTHEAST and63:74 with BERLINCLOCK. Explicit synthetic conditioning, not natural English corpus.",
+    "nearby_negative_total": 32,
+    "nearby_negative": "Same four role pairs, cyclic-rotate S to put output C first after step; initial state fixed. These are challenging nearby generators, not accepted candidate rules.",
+    "decoys": 199,
+    "decoy_definition": "Cycle over32planted ciphertexts, independently shuffle a fresh list using same seeded RNG, then rerun entire four-model selection with exact actual24cribs. Save all model scores/maximum/compatible IDs; no claimed K4 p-value if all actual cases reject.",
+    "gate": "All32 true planted models recovered fully; declare selector useful here only if >=30/32 unique correct and zero wrong unique, <=1/32 nearby-negative false unique and <=1/199 decoy false unique. Failed gate is poor discrimination, not family exclusion.",
+    "controls": "Independent dictionary/rank decoder oracle, all26 symbols per model, permutation invariant every step, mutated crib rejection; blind selector gets no model label; count ambiguity and abstention."
+  },
+  "construction": {
+    "K1": "Use observed plaintext ILLUSION and key segment PALIMPCEST, change only canonical plaintext Q at position57 to L and key S at index56 to C in explicit complete63letter key stream. Test exact forward equality to canonical cipher; compare ordinary PALIMPSEST intended spelling as fixed control. No fitted substitutions.",
+    "K2": "Replay both accepted fixtures. Remove the specified restored S at one-based character365 (letter362) from corrected ciphertext and require exact as-inscribed cipher/plain endpoint; ? does not advance key. Log all divergent endpoint characters and full roundtrips.",
+    "limit": "No K4 corrections or algorithm transfer; image not authenticated original beyond supplied provenance. Full related-art known-pair lane remains prerequisite-gated."
+  },
+  "clock": {
+    "source": "Bundesarchiv Bild183-E1003-0001-001,3Oct1969; known observed visible consecutive hour labels10,11,12,13,14,15,16 left-to-right. q is local visible ordinal, not absolute geographical sector.",
+    "operator": "h(q)=1+((q+phi-1)%24);phi in1..24. Fit q0..2, predict q3..6, no extra phase per city. Exactly24 hypotheses, no K4 letter mapping.",
+    "gate": "Unique shared phase from first3 observed labels and exact4 withheld labels. One photo, correlated mechanical labels, not statistical cryptanalytic evidence. Reverse q is rejected by observations, not searched after scoring.",
+    "unknown": "Historical city-sector/zone correspondence not measured; date1969 is not full1989. No photo timestamp, surveyed heading or K4 city/time/letter operator. Record partial labels/bands only; stop K4 clock application."
+  },
+  "calibration": {
+    "purpose": "Small exhaustive compatible-volume synthesis, not large architecture classifier and not new K4 search. Use blind state harness for narrow discrimination.",
+    "alphabet": "ABCD",
+    "models": 576,
+    "domain": "All24 permutations R and24 permutations S; C_i=S[(index_R(P_i)+k_i)%4]. Fixed k=[0,1,3,2,1,0,2,3,0,3,1,2],length12. No key schedule fitting.",
+    "seed": 2026102221,
+    "plants": 20,
+    "matched_nulls": 20,
+    "data": "Uniform seeded plaintext and alphabet pair. One fresh histogram shuffle of each planted cipher as null. Training indices0,1,4,7; eight other plaintext positions withheld for prediction diagnostics. Null uses corresponding unchanged known plaintext constraints.",
+    "oracle": "For each candidate enumerate input symbol at each position using independent forward table; compare full compatible set to direct inverse solver. Coupled cyclic rotations of R/S form gauge orbits4; compare raw assignments, gauge classes, distinct full plaintexts and forced non-fit predictions; preserve probability mass.",
+    "prior_sensitivity": "Uniform over576 vs uniform fixed four-pair list R/S in {ABCD,ACBD}, selected before data. Report incompatible prior and disagreement rather than historical posterior claim.",
+    "gate": "Every raw set equals independent oracle; raw sizes divisible4; gauge quotient functions/predictions invariant; planted true assignment survives; every forced heldout symbol agrees with planted truth. Any failure invalidates calibration. Ambiguous models remain ambiguous; time budget does not imply impossible."
+  },
+  "budget": {
+    "seconds": 120,
+    "processes": 1,
+    "memory_MB": 256,
+    "stop": "No extra variants. Deadline exception publishes incomplete manifest only. Preserve existing files."
+  },
+  "provenance": "RunSnapshot immutable run directory plus latest pointer; record spec/code commits, exact command, Python/platform, all consulted source hashes, seeds, control/results summaries and statuses. Commit scoped code/docs/data/results locally then authorized nonforce research branch push; no main/Site/auth changes."
+}
