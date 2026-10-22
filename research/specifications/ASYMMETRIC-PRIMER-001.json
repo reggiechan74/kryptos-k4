@@ -1,0 +1,17 @@
+{
+  "id":"ASYMMETRIC-PRIMER-001",
+  "date":"2026-10-22",
+  "supersedes_for_execution":"ASYMMETRIC-FEEDBACK-001 remains committed but DEFERRED/UNRUN. Parent supplied narrower fixed-primer pilot before its implementation or execution. No scores from that design were computed.",
+  "baseline":"data/k4.json, literal97letters,24unchanged confirmed plaintext positions",
+  "hypothesis":"A fixed historically demonstrated K1 primer plus asymmetric AZ/KRYPTOS roles implements forward plaintext feedback. K1 use motivates PALIMPSEST but provides no evidence of asymmetric K4 use.",
+  "alphabet_roles":{"AZ":"ABCDEFGHIJKLMNOPQRSTUVWXYZ","KR":"KRYPTOSABCDEFGHIJLMNQUVWXZ","selection":"Ap,Ac,Ak independently AZ/KR; exclude all-equal triples;6 ordered cases, lexicographic AZ then KR"},
+  "primer":"PALIMPSEST",
+  "lag":10,
+  "equation":"C_i = Ac[(Ap.index(P_i)+Ak.index(K_i)) mod26]; K_i=PALIMPSEST[i] fori<10, otherwise literal P_(i-10). Sequential inverse P_i=Ap[(Ac.index(C_i)-Ak.index(K_i)) mod26]. Forward i=0..96. No fitting, search, shifts, signs, resets, routes or additional alphabets/primers.",
+  "prior_art":"Existing complete local autokey proof explicitly same-alphabet. Barney pinned2db2722cc3f18c52d4d8369d7adc5a1db7e859d7 scripts/autokey_dict.py PT>=8known predecessor gate skips lag10 (4pairs). Scott pinned3ce19e3ae164a54af8743222ad3de5f6a93f6faf run_p2.py actual PT max7. Both directly statically read2026-10-22; no third-party execution or claim of exhaustive literature novelty.",
+  "acceptance":"Save all6 complete deterministic outputs and exact97letter re-encryption check. Candidate requires all24cribs exact plus full regeneration. Count first13 and Berlin11 separately; no parameter is fitted to either block. Report degrees of freedom0 in all cases and label any match crib_fit_only, never independent decoding. Zero exact candidates rejects precisely6fixed models.",
+  "null":"199 independent histogram-preserving ciphertext shuffles using random.Random seed20261024, each starting from original ciphertext list. Decrypt all6models each draw; score max matched crib letters among24. Save all199 maxima and plus-one >= conditional tail (1+exceed)/200. Models correlated, exploratory postselection and resolution1/200; no correction across past research, historical intent p-value or partial-fit solution claim.",
+  "controls":"Independent encoder and sequential inverse for6role triples. Exhaust all26plaintext values x26key symbols x6roles for single-character arithmetic; alphabet bijectivity. For all6models create deterministic planted97character plaintext containing both exact known crib blocks, encrypt then recover all97characters and24cribs, regenerate original97ciphertext. Change a known crib plaintext character to demonstrate exact acceptance rejection. Compare decoder with independent numeric-ringbuffer oracle on deterministic seeded arbitrary strings. Every control gate must pass before actual run.",
+  "budget":{"model_evaluations":1200,"seconds":15,"processes":1,"memory_MB":128,"stop":"Deadline checked within loop; incomplete snapshot on error/timeout, no tuned reruns or expansion"},
+  "provenance":"Commit spec before code and actual run. Commit implementation/tests before run; verify all consulted code/input bytes against code commit, spec prior ancestor. Record exact command, hashes,Python,platform,elapsed,controls,6outputs and199nullmaxima. Existing K1-K3 and baseline checks required. Preserve completed artifacts and keep local-only."
+}
