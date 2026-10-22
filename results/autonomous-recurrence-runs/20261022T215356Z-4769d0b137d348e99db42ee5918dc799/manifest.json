@@ -1,0 +1,26 @@
+{
+  "run_id": "20261022T215356Z-4769d0b137d348e99db42ee5918dc799",
+  "started_at_utc": "2026-10-22T21:53:56.923388+00:00",
+  "label": "AUTONOMOUS-RECURRENCE-001",
+  "status": "completed",
+  "specification": {
+    "commit": "5615caf91915b75251156d6da826bdae0500d349",
+    "file": "research/specifications/AUTONOMOUS-RECURRENCE-001.json",
+    "sha256": "89b7e20ca2d9cbeafefd673a8c27e5f75dc67e6834c7897125266163b9dfcd77",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [
+    {
+      "experiment": "AUTONOMOUS-RECURRENCE-001",
+      "status": "completed",
+      "deadline_seconds": 120
+    }
+  ],
+  "artifacts": {
+    "AUTONOMOUS-RECURRENCE-001.json": {
+      "sha256": "a1c5b4f123c688ded1ff6413c369f12301512c38478bebeec73c89ce8a76fb9d",
+      "bytes": 184039
+    }
+  },
+  "finished_at_utc": "2026-10-22T21:53:57.013922+00:00"
+}

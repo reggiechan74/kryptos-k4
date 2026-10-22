@@ -632,3 +632,25 @@ run was added. Earlier 160-test validation and all result artifacts unchanged.
   Independent archive verified and exactly replayed separately; 231 tests pass.
 - [Readable findings and scope](SINGLE-BOUNDARY-RESET-FINDINGS.md). No K4 lead,
   second reset, extra model, canonical change, main or Site update.
+
+
+## AUTONOMOUS-RECURRENCE-001 — 22 October 2026
+
+- Frozen spec `5615caf`, implementation `4354cc2`, then actual evaluation.
+  Two fixed alphabets, orders 2–6, zero/fitted constant: 20 formal structures.
+- All 20 inconsistent on first-crib key values modulo 2. Affine order six has
+  F2 rank/augmented rank 6/7 and F13 7/7 in both alphabets: no CRT solution.
+- Identical six-key parity contexts with opposite next parity provide compact
+  internal certificates. Zero coefficient enumeration, prefix states or Berlin
+  forecast comparisons on actual K4; empty-set predictions are not applicable.
+- 80 literal-crib truth-inclusion plants and 12 complete small-ring parameter/seed
+  comparisons pass. Sixty planted coefficient tuples admit ambiguous prefixes;
+  nonunit/unreachable states and exact affine-union counts are checked.
+- Static pinned Barney lag-two/five-feature overlap reviewed without execution;
+  homogeneous order two is not a globally new method. Startup degeneracies audited.
+- Independent hash-verified JavaScript source and exact deterministic output replay
+  agree on all ranks/counts; 231 independent controls pass. Its unused positive
+  branch is not adopted as a general survivor solver.
+- Run `20261022T215356Z-4769d0b137d348e99db42ee5918dc799`, 0.087 seconds;
+  242 local regression tests pass. [Findings](AUTONOMOUS-RECURRENCE-FINDINGS.md).
+- No order expansion, resets, tree layer, edits, new route, main or Site change.

@@ -1,0 +1,17 @@
+{
+  "id": "AUTONOMOUS-INDEPENDENT-ORACLE-REPLAY-001",
+  "transport": "Exact source supplied inline by parent; HTML entities decoded, no code or whitespace edits. Raw transport retained outside repo.",
+  "raw_transport_bytes": 13302,
+  "raw_transport_sha256": "1ada7d200bb06a563daf1581c2f358abb7d39f53899ae1aebfb73babab69769a",
+  "source_bytes": 12929,
+  "source_sha256": "a2a4b1f6ba6bbd0826a769f354090c224539f2b1bc5c86e56284992818f933e3",
+  "result_bytes": 16388,
+  "result_sha256": "d7dce355c9ba01adab6fe1901fa965f4d58f3edbc1e71396e8d1c5c31128e763",
+  "node": "v23.9.0",
+  "command": "node independent/2026-10-22/autonomous-recurrence/k4_recurrence_oracle.js > independent/2026-10-22/autonomous-recurrence/results.json",
+  "all20_ranks_counts_match_local": true,
+  "independent_controls": 231,
+  "local_run_id": "20261022T215356Z-4769d0b137d348e99db42ee5918dc799",
+  "scope": "Independent negative proof and controls replay only, not additional novel models.",
+  "limitation": "Unused generic positive branch is illustrative/unvalidated for full plaintext counting and checks reachability only after Berlin. Actual K4 rejects before that branch. Not adopted as production solver."
+}

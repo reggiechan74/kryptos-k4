@@ -352,3 +352,19 @@ plaintext ambiguity; it is reported rather than treated as a unique recovery.
 
 [Full frozen scope, exact counts and independent replay](SINGLE-BOUNDARY-RESET-FINDINGS.md).
 The bounded test stops here; no automatic second reset or new cipher family.
+
+
+## Autonomous multi-step mathematical key generator — 22 October 2026
+
+The user-approved finite audit of orders 2–6, homogeneous/affine, in AZ/KRYPTOS
+coordinates is complete: all 20 formal structures fail the first crib modulo 2.
+Repeated six-predecessor parity states require opposite next parities, so neither
+initial seed choice nor prefix ambiguity can repair the registered formula.
+This is an exact scoped negative, not a ban on every mathematical generator.
+
+The audit retains singular coefficient and reachable-prefix spaces and verifies
+complete small-ring counts. It does not turn mod-13-only fits, zero-check fitting,
+parameter aliases or partial predictions into evidence. Homogeneous order-two
+prior-art overlap and higher-order startup freedom are explicit.
+[Results, independent replay and limitations](AUTONOMOUS-RECURRENCE-FINDINGS.md).
+The Morse/tree question and private image are separate; no tree cipher was tested.
