@@ -1,0 +1,38 @@
+{
+  "model": "MODELED-UPPERCASE-GEOMETRY-001",
+  "version": 1,
+  "created_utc": "2026-10-22",
+  "source": "Original explicitly modeled geometric skeletons; not traced from a font, handwriting guide, or Kryptos monument image.",
+  "verified": [
+    "325 letter-pair comparisons; no vector collisions",
+    "26 exact binary-weighted integer roundtrips",
+    "26 deterministic decision-tree roundtrips",
+    "Rendered all 26 skeletons and visually checked atlas"
+  ],
+  "files": {
+    "modeled-uppercase-geometry-001-core.json": {
+      "sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010",
+      "bytes": 9604
+    },
+    "audit_modeled_uppercase_geometry.py": {
+      "sha256": "9f15bd0a298a752cbbd09456dff5f3d3b980e11379497d6923c22676e50b8ab6",
+      "bytes": 3065
+    },
+    "modeled-uppercase-geometry-001-audit.json": {
+      "sha256": "5a7907c83db2361bdd9b997ed25b43ae606eb4c04fe455ac34f26db6fc18de3b",
+      "bytes": 22076
+    },
+    "modeled-uppercase-geometry-001.json": {
+      "sha256": "e55edb5b19917dead65d8971b75693dcd5d18a0ceb995f25febcd6193af430dd",
+      "bytes": 89727
+    },
+    "modeled-uppercase-geometry-001.png": {
+      "sha256": "a2cb126bdc7180f9f42a90955aab7418aa9713c606c956d003752d48ff84782f",
+      "bytes": 159673
+    },
+    "modeled-uppercase-geometry-001.svg": {
+      "sha256": "5561ef8190633b1574caeeb11d2c1761c1c94308090018b33e867d7c3abab776",
+      "bytes": 64102
+    }
+  }
+}
