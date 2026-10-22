@@ -306,3 +306,20 @@ No fitted keys or null simulation. This is textual occupancy, not surveyed
 physical geometry; row-prefix cells are excluded from K4, not missing copper.
 [Findings](OCCUPIED-CELL-FINDINGS.md) preserve exact scope and full outputs.
 Final regression suite: 195 tests pass. No new family added after scores.
+
+
+## 22 October: four-track execution after strategy comparison
+
+The four fixed AZ/KRYPTOS role-pair move-to-front models proposed in the strategy
+reset are now **tested and rejected**, each0/24. This changes the substitution
+permutation, not merely a cursor: reachable-state next-letter maps lie outside
+the prior affine-tableau superset. No global evolving-alphabet exclusion follows.
+See [STRATEGY-FOLLOWUP-001](STRATEGY-FOLLOWUP-FINDINGS.md) for full frozen scope,
+blinded planted/nearby/decoy controls and exact contradiction receipts.
+
+K1/K2 construction-stage accounts pass known-answer controls; they are not new
+K4 algorithms or corrections. Historical clock data support a shared-phase
+visible-hour control but leave a K4 letter operator underidentified. Exact toy
+compatible-volume calibration passes its oracle/gauge checks while exposing
+ambiguity and null compatibility. Broader classifier and independent recurrence
+results are not counted as locally executed work here.

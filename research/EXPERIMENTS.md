@@ -546,3 +546,23 @@ run was added. Earlier 160-test validation and all result artifacts unchanged.
 - [Findings](OCCUPIED-CELL-FINDINGS.md), [validation](../results/OCCUPIED-CELL-VALIDATION.json).
   Snapshot results/occupied-cell-routes-001-runs/20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845/.
 - Local-only, no Site change, no new optical claim, no expanded parameters/families.
+
+
+## STRATEGY-FOLLOWUP-001 — 22 October 2026
+
+- Frozen spec/source commit `4ec45e0`; implementation committed at `b238209` before
+  K4 evaluation. [Findings](STRATEGY-FOLLOWUP-FINDINGS.md) link complete provenance.
+- Four fixed move-to-front state models: all **0/24**, first contradiction at 22.
+  No fitted letters or rule expansion; full97 inverses independently checked.
+- Four reachable-state witnesses outside 207 distinct affine maps (208 raw role,
+  sign, shift descriptions) exclude equivalence to prior cursor stepping.
+- Blinded selector:32/32 unique planted recoveries;0/32 nearby-control survivors;
+  0/199 matched-decoy survivors. Actual24crib structure preserved throughout.
+- K1 observed key-entry/ILLUSION account reproduces all63 letters; K2 restored-S
+  deletion reproduces full as-inscribed stream and endpoint. No K4 correction.
+- Clock shared-phase visible-hour control passes4 heldout labels; K4 operator
+  **underidentified**, not failed or timed out. Missing1989inventory/operator.
+- Four-symbol exact volume calibration:23,040 candidate-instance checks;15/20
+  plants ambiguous,6/20 shuffles compatible. Not K4 synthesis or a large classifier.
+- Run `20261022T204842Z-17a364bb210f4d8799018ef99b496f3a`, Python3.9.6,0.3972s.
+  Independent recurrence proposal audited for overlap, not rerun locally.

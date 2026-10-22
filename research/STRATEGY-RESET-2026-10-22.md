@@ -1,5 +1,10 @@
 # K4 strategy comparison after the bounded route and feedback batches
 
+**Execution update, 22 October:** the comparison below preserves its planning
+context. The authorized four-track followup is now completed to its declared
+gates; see [results and precise source limits](STRATEGY-FOLLOWUP-FINDINGS.md).
+The four state models reject; a broader classifier remains unrun.
+
 22 October 2026. **Comparison and proposed pilots only. All pilots below are
 unrun. No new K4 search, candidate plaintext, solution or confirmed cipher clue.**
 This dated revision expands the four-direction reset first committed at

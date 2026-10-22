@@ -1,0 +1,26 @@
+{
+  "run_id": "20261022T204842Z-17a364bb210f4d8799018ef99b496f3a",
+  "started_at_utc": "2026-10-22T20:48:42.987845+00:00",
+  "label": "STRATEGY-FOLLOWUP-001",
+  "status": "completed",
+  "specification": {
+    "commit": "4ec45e0e92544e6528e8663daa4cb87f4d7a3c63",
+    "file": "research/specifications/STRATEGY-FOLLOWUP-001.json",
+    "sha256": "2ebb793130d283f36d13b28bb2388c312ed29917f1cc389011e4051efbf184b7",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [
+    {
+      "experiment": "STRATEGY-FOLLOWUP-001",
+      "status": "completed",
+      "deadline_seconds": 120
+    }
+  ],
+  "artifacts": {
+    "STRATEGY-FOLLOWUP-001.json": {
+      "sha256": "a110415a17c1f59369c65c600a19a62e578528d47d402d5b6f5efcfb3b9a4cbf",
+      "bytes": 856348
+    }
+  },
+  "finished_at_utc": "2026-10-22T20:48:43.398039+00:00"
+}
