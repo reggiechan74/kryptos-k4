@@ -566,3 +566,16 @@ run was added. Earlier 160-test validation and all result artifacts unchanged.
   plants ambiguous,6/20 shuffles compatible. Not K4 synthesis or a large classifier.
 - Run `20261022T204842Z-17a364bb210f4d8799018ef99b496f3a`, Python3.9.6,0.3972s.
   Independent recurrence proposal audited for overlap, not rerun locally.
+
+
+### Follow-on convention replication and supplied proof audit —22 October
+
+- CP-CONVENTION-REPLAY-001: fresh pinned public pair, two frozen conventions,
+  restarted key at letter778 matches1133/1133; uninterrupted matches777 then
+  fails356. Full independent inverse, no plaintext repairs or K4 reset tests.
+- RECURRENCE-CERTIFICATE-REVIEW-001: supplied AZ parity/KRYPTOS unit-determinant
+  contradictions verified from fixed fixtures. Rejects the declared affine
+  feedback grammar already in first crib, regardless of primer. Not a duplicate
+  913952-description search or a count of globally new models.
+- Exact sources, code/spec commits, immutable results and limitations are in
+  [the dated findings addendum](STRATEGY-FOLLOWUP-FINDINGS.md).

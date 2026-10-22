@@ -9,7 +9,7 @@ results, not extra K4 searches. No ciphertext correction, Site or main change.
 | Track | Completed result | What remains unsupported |
 | --- | --- | --- |
 | Evolving alphabet | All four cases match **0/24** crib letters. Every case contradicts position 22 already; AZ-reference models predict C there, KRYPTOS-reference models predict Y, versus required E | Other state rules remain open; no rule added after scoring |
-| Construction conventions | Intended K1 ILLUSION plus the observed PALIMPCEST key entry reproduces all 63 canonical ciphertext letters exactly. Removing the documented K2 restored S reproduces the complete as-inscribed ciphertext and IDBYROWS endpoint; restored version yields XLAYERTWO | Does not determine accident versus intention or justify any K4 edit. No complete independently verified related-art pair entered this run |
+| Construction conventions | Intended K1 ILLUSION plus the observed PALIMPCEST key entry reproduces all 63 canonical ciphertext letters exactly. Removing the documented K2 restored S reproduces the complete as-inscribed ciphertext and IDBYROWS endpoint; restored version yields XLAYERTWO | Does not determine accident versus intention or justify any K4 edit. Initial run had no related-art pair; the subsequent independent CP replay below resolves that input gate |
 | Historical clock | One shared phase fitted to three visible consecutive hour labels predicts four withheld labels exactly | This trivial mechanical control does not identify a city-to-letter cipher. Complete 1989 label/zone inventory, photo time, absolute phase and K4 operator remain unavailable |
 | Small calibration | Independent exact solvers agree across **23,040 model-instance checks**. Five of 20 planted toy cases determine a unique plaintext; 15 remain ambiguous. Six of 20 histogram-shuffled cases remain compatible | Compatible is not solved. No large classifier, K4 posterior or unbounded synthesis was run |
 
@@ -151,3 +151,87 @@ Next: integrate independently supplied construction/clock evidence and recurrenc
 findings after auditing their definitions and provenance. Do not add a fifth state
 rule. If those reviews yield no independently specified new constraint, stop at
 the documented data/identifiability limits rather than enlarge a key list.
+
+
+## Follow-on independent evidence review, 22 October 2026
+
+### Cyrillic Projector: a real convention recovered, physical cause unidentified
+
+After the initial run, an independent reviewer supplied a concrete published
+known-pair result. This was replayed locally under a separately frozen two-case
+[specification](specifications/CP-CONVENTION-REPLAY-001.json); expected outcomes
+were disclosed before replay, so this is replication, not a blind discovery.
+The [public solver table](https://www.elonka.com/kryptos/mirrors/CPSolution.html)
+gives the literal 32-symbol normal and cipher orders and six-letter key. The
+[published pair](https://scirealm.org/CyrillicProjector.html) was freshly fetched,
+pinned and parsed without running its JavaScript. Its uncorrected plaintext typo
+letters are preserved; Latin MEDUSA, punctuation, spacing and editorial braces
+do not enter the Cyrillic symbol stream. Antipodes continuation is excluded.
+
+- Input lengths: 777 + 356 = **1,133 Cyrillic symbols**.
+- Uninterrupted key: first 777 match exactly, all remaining 356 mismatch.
+- Key restarted at one-based Cyrillic letter **778**, beginning the second
+  message: **1,133/1,133** forward matches and independent exact inverse.
+- Restart is algebraically the same as advancing by 3 modulo 6 at that boundary,
+  since 777 modulo 6 is 3. This pair cannot distinguish a reset, phase jump or
+  unseen key advances; it does **not** prove three literal engraving omissions.
+
+The original solver's 3-mod-6 gap is an interpretation with a presumed location,
+not a surveyed count of missing metal letters. Full source bytes remain scratch;
+the reproducible parser, URL/byte hash, normalization, plaintext/ciphertext hashes,
+all mismatch indices and committed-code receipt are saved. Later 1997 work can
+reveal conventions without establishing the same algorithm for 1990 K4. The
+known-pair availability gate is resolved for this published transcription, not
+for an authenticated as-built or original manuscript. No K4 boundary sweep or
+canonical edit followed.
+
+[Replay implementation](../experiments/cp_convention_replay.py),
+[immutable result](../results/cp-convention-runs/20261022T205325Z-afe0dba6f79d4164960ef9ed793a9448/CP-CONVENTION-REPLAY-001.json),
+[manifest](../results/cp-convention-runs/20261022T205325Z-afe0dba6f79d4164960ef9ed793a9448/manifest.json).
+Spec commit `d7a407806711393cfd285e26c93316bde0f312df`; code commit
+`16b87d83b412576ac125fe2cb2ee9a093724dcd3`; 0.0269 seconds. Reproduce with
+the exact public HTML matching SHA-256
+`b561985e56003f101c559df3661c036fa69836cdf9e7a1890e000355bc259ada`:
+
+```sh
+python3 experiments/cp_convention_replay.py --html /path/to/CyrillicProjector.html --spec-commit d7a407806711393cfd285e26c93316bde0f312df
+```
+
+### Affine-feedback recurrence: short proofs reject the full declared grammar
+
+Independent supplied certificates were locally recalculated from canonical K4
+inputs, without duplicating the 913,952-description enumeration. This is an audit
+of a disclosed proof, not a newly preregistered exhaustive run.
+
+For AZ, positions 23→24 require `(K,C,targetK)=(11,11,25)` and positions 24→25
+require `(25,17,2)`. Both predictor pairs are odd/odd but target parities differ;
+fixed a,b,d cannot satisfy both modulo 2, hence cannot modulo 26. Seeds and
+unknown earlier plaintext cannot repair an internal known-crib contradiction.
+
+For KRYPTOS, the first three internal transition equations have coefficient
+matrix `[[1,1,12],[10,1,17],[21,1,1]]`, right-hand side `[10,21,18]`. Its
+determinant is 199, coprime to 26, so the coefficient solution is unique:
+`(a,b,d)=(11,23,24)`. The next transition predicts K26=21, while the crib
+requires 1. Thus no parameter description in the declared grammar survives even
+EASTNORTHEAST; Berlin need not be evaluated. This exact bounded grammar is
+rejected. It does not exclude all feedback/state recurrences. The known covered
+subfamilies above remain charged as overlap rather than newly searched trials.
+
+[Certificate verifier](../experiments/recurrence_certificate.py),
+[proof records](../results/RECURRENCE-CERTIFICATE-REVIEW-001.json),
+[provenance](../sources/recurrence-certificate-review-receipt.json).
+
+An independent classifier preview reports 125/144 held-out synthetic cases
+correct, yet 44/48 iid-uniform controls receive the same forced family label as
+K4. Its complete artifacts have not been independently replayed here, so these
+are attributed preliminary results, not a local validation. They reinforce the
+need for abstention and open-world controls; the K4 label is not positive
+evidence. A six-authored-passage bootstrap cannot establish transfer to other
+corpora. No new classifier was built on the Mac.
+
+
+Follow-on integration validation: **208 tests passed in 9.169 seconds**. The CP
+spec's editorial token "whole97?" is a wording error, not an additional gate:
+the same specification explicitly requires 1,133 symbols and forbids K4 input;
+code and results operate on the 1,133-symbol pair only. Frozen specification bytes
+are preserved rather than silently corrected after execution.

@@ -323,3 +323,14 @@ visible-hour control but leave a K4 letter operator underidentified. Exact toy
 compatible-volume calibration passes its oracle/gauge checks while exposing
 ambiguity and null compatibility. Broader classifier and independent recurrence
 results are not counted as locally executed work here.
+
+
+### Follow-on independent evidence, same date
+
+A published Cyrillic Projector pair now passes local fixed-convention replay
+(1133letters, reset at778). This supports message-boundary phase handling in that
+later artwork, not a physical3letter omission or transferable K4 algorithm.
+The supplied bounded affine-feedback recurrence is exactly contradicted by
+internal EASTNORTHEAST transitions in both alphabets; local proof verification
+did not duplicate the independent parameter run.
+See [follow-on audit](STRATEGY-FOLLOWUP-FINDINGS.md) and preserve scope/overlap.
