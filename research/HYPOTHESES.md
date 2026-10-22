@@ -247,3 +247,26 @@ Source context and exact scope are documented in the
 and [LANAKI Lesson 17](https://www.cryptogram.org/downloads/LANAKI%20Crypto%20Lessons/LESSON17.pdf).
 The 1996 lesson is explanatory, post-installation context; neither source
 establishes the exact proposed recipe or a Kryptos connection.
+
+## Completed continuation — 22 October 2026, 19:19–19:21 UTC
+
+The earlier unrun/deferred statuses are superseded by
+[CONTINUATION-FINDINGS.md](CONTINUATION-FINDINGS.md):
+
+- ASYMMETRIC-FEEDBACK-001: all 72 mixed-role AZ/KRYPTOS configurations at PT
+  lags 9–12, three equations, contradict the cribs for **every primer**. One
+  first-crib survivor has lag 12 and only one training check; its fixed roots
+  predict 2/11 Berlin letters. No all-crib fit or full plaintext candidate.
+  All-crib equality checks are 24-L, training checks 13-L; all lanes are trained.
+  Best modal-root agreement 15/24, 35/199 shuffled maxima equal/higher, tail .18.
+- SPLIT-COORDINATE-001: 32 formal cases are 32 exact distinct transformations.
+  All fixed AZ/KRYPTOS coordinate-route cases fail, best 3/24. Full-family
+  shuffled maxima equal/higher 160/199, tail .805. Widths 7/21 remain postselected.
+- Each actual run completed once after specification/code commits. Null scans
+  repeat fitting and selection end-to-end for the relevant family; .005 is the
+  minimum plus-one tail with 199 controls. No global multiple-testing correction
+  or independently obtained validation text is claimed. Regeneration is not
+  evidence of a decoding. Final suite: 174 tests pass in 9.324 seconds.
+- The provisional K3-derived two-stage route family is NOT implemented. Existing
+  ROUTE-001 covers both component widths and periods 8/10, but exact composite
+  overlap must await the full route definition and reference control.

@@ -216,3 +216,10 @@ plaintext-triggered step models fail the cribs. The six-model best score is
 is rejected. Final full suite: 160 tests pass. The broader arbitrary-primer
 audit remains registered but unrun; no score-driven parameter expansion or
 solution claim follows.
+
+[Exact feedback and coordinate-route continuation](research/CONTINUATION-FINDINGS.md):
+all 72 previously unrun mixed-alphabet feedback configurations fail for any
+primer, and all 32 distinct split-coordinate routes fail. One first-crib feedback
+fit predicts only 2/11 Berlin letters without refitting. Complete shuffled-family
+controls show no useful support. Final validation: 174 tests pass. No new
+plaintext, solution, optical conclusion or public Site change is claimed.

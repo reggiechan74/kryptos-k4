@@ -224,3 +224,12 @@ rather than evidence of what its creators used. These references support the
 general coordinate/fractionation concept, **not this exact 32-case recipe, a
 Sanborn/Scheidt link or a claim of new cryptography**. No full-document reading
 or independent historical-method verification is claimed.
+
+## Later continuation status — 22 October 2026, 19:21 UTC
+
+The earlier arbitrary-primer and split-coordinate unrun labels above are now
+historical: both proposals were executed under their committed specifications.
+All 72 feedback configurations and all 32 distinct coordinate cases are rejected.
+[Continuation findings](CONTINUATION-FINDINGS.md) preserve the exact scope,
+parameter counts, predictions, independent controls and artifacts. The earlier
+fixed-primer/stepping results and this document's original proposal remain intact.

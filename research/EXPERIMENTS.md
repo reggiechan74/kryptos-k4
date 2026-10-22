@@ -455,3 +455,38 @@ low evidence; global novelty unproved. Added parent-supplied Friedman/LANAKI
 references after targeted PDF text inspection, with historical/source limitations.
 No implementation, specification for execution, K4 scores, null controls or test
 run was added. Earlier 160-test validation and all result artifacts unchanged.
+
+## ASYMMETRIC-FEEDBACK-001 / SPLIT-COORDINATE-001 — completed continuation
+
+- Date: 22 October 2026. Initial state clean at 6eba0fd on
+  research/dynamic-key-20261022; scoped work, no Site or remote changes.
+- Reused unchanged feedback specification 56b2919e4af7bbce644ed476d5fde8c0546627b7,
+  implemented at 0a5ad2dea648397e40678177c0d1f0515d96e029, then ran once:
+  `python3 experiments/asymmetric_feedback.py --spec-commit 56b2919e4af7bbce644ed476d5fde8c0546627b7`.
+  72 configurations, no compatible primer. One training survivor, lag 12 true
+  Beaufort with Ap=Ac=AZ, Ak=KRYPTOS, predicts only 2/11 Berlin letters. All roots
+  fixed by first crib; only 13-L training consistency checks, all 11 Berlin predictions
+  untouched by current fitting (but historically public). No candidate.
+- Feedback null: 199 complete fitted-root/family scans, seed 20261023, 14,400 models,
+  .503 s under 60 s cap; modal score 15/24, 35 exceedances, plus-one tail .18.
+  Controls:72 planted recoveries/mutated rejections,108 toy cases/1,080 exhaustive
+  primer decryptions,24 same-alphabet limiting comparisons.
+- Coordinate spec afcb5e6297d868b38722b695c96e1ee8468363a3 precedes implementation
+  11ce1453f0480103af21cd7c964084f3bf1e5a4b, then ran once:
+  `python3 experiments/split_coordinate.py --spec-commit afcb5e6297d868b38722b695c96e1ee8468363a3`.
+  32 formal/32 exact distinct transformations; no candidates, max 3/24.
+  199 whole-family shuffled scans, seed 20261027, 6,400 models, .290 s under 30 s;
+  160 exceedances, plus-one tail .805. Controls:32 planted inverses/rejections,
+  64 independent matrix-oracle comparisons,21,632 source-pair checks,24 ragged-route
+  checks and 3 exact-signature identity/difference controls.
+- Independent artifact tests verify every feedback root by forward lane enumeration,
+  all rejection witnesses, Berlin predictions, all 3,104 coordinate-output letters,
+  consulted hashes, spec ancestry, null maxima and exact CIA-anchor agreement.
+- Full suite 174 tests pass 9.324 s, original artifacts retained. No repeated new
+  experiment runs, score-driven variants or language scoring.
+- Results: results/asymmetric-feedback-001-runs/20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea/
+  and results/split-coordinate-001-runs/20261022T192126Z-2ff96ae3a6914cab8db6cd9c0c7ceb5c/.
+- [Findings, parameter counts, scopes and next step](CONTINUATION-FINDINGS.md);
+  [validation receipt](../results/CONTINUATION-VALIDATION.json). Both bounded
+  families rejected; no solution. Next: compare fully specified forthcoming
+  K3-derived composite route against existing 66 permutations before any new run.
