@@ -1,0 +1,26 @@
+{
+  "run_id": "20261022T212416Z-f634e152375e406d971f9edc1dc91096",
+  "started_at_utc": "2026-10-22T21:24:16.807343+00:00",
+  "label": "SINGLE-BOUNDARY-RESET-001",
+  "status": "completed",
+  "specification": {
+    "commit": "f67e282fa3309d1fab21027cbc2f206ebf20763c",
+    "file": "research/specifications/SINGLE-BOUNDARY-RESET-001.json",
+    "sha256": "16cabc9eca2a989461e345063afb3753e17be76b195e1579526d6d2c5f00fffa",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [
+    {
+      "experiment": "SINGLE-BOUNDARY-RESET-001",
+      "status": "completed",
+      "deadline_seconds": 120
+    }
+  ],
+  "artifacts": {
+    "SINGLE-BOUNDARY-RESET-001.json": {
+      "sha256": "2bec7599cc310b1a52db3f1ef3846af1e35fb2c5dda8e3c711efe75c8d95288b",
+      "bytes": 18176298
+    }
+  },
+  "finished_at_utc": "2026-10-22T21:24:19.517134+00:00"
+}

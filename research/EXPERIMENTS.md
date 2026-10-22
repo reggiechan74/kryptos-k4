@@ -609,3 +609,26 @@ run was added. Earlier 160-test validation and all result artifacts unchanged.
   Proposed5071sensitivity variants remain unrun; canonicalK4unchanged.
 - [Final integration report](INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md): bounded
   four-track batch complete, no K4 lead; clock's specific data/operator limits remain.
+
+
+## SINGLE-BOUNDARY-RESET-001 — 22 October 2026
+
+- Spec `f67e282` committed before implementation `5c22aca` and evaluation.
+  Same state/seed/key, no reset or one of 96 internal boundaries; no edits.
+- MTF: 388 raw cases (4 covered baselines, 384 new boundaries), all first-crib
+  contradictions. QQ/SS local certificate and a fixed-four position-27 analytical
+  corollary are verified; no multi-reset sweep.
+- Affine feedback: every one of 194 alphabet/schedule structures impossible.
+  Untouched-island parity witnesses exclude the full 88,653,344 raw-description
+  upper bound; 35,152 local coefficient checks find no training survivors, so no
+  seed enumeration. Old baselines and parameter aliases are not novel trials.
+- Periodic audit: 6,984 raw descriptions → 3,476 canonical models; 48 covered
+  baselines, 3,428 new reset schedules. All fail EASTNORTHEAST. Key negation and
+  phase signatures deduplicated; no guessed completion or new period.
+- Literal-crib controls: 32/32 true MTF messages retained, 16 uniquely determined
+  and 16 ambiguous; 0/8 nearby and 0/32 shuffled acceptances. Recurrence and periodic
+  plants/inverses, zero-divisor seed ambiguity and mutation controls pass.
+- Run `20261022T212416Z-f634e152375e406d971f9edc1dc91096`, 2.465 seconds.
+  Independent archive verified and exactly replayed separately; 231 tests pass.
+- [Readable findings and scope](SINGLE-BOUNDARY-RESET-FINDINGS.md). No K4 lead,
+  second reset, extra model, canonical change, main or Site update.

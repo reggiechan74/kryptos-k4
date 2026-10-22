@@ -334,3 +334,21 @@ The supplied bounded affine-feedback recurrence is exactly contradicted by
 internal EASTNORTHEAST transitions in both alphabets; local proof verification
 did not duplicate the independent parameter run.
 See [follow-on audit](STRATEGY-FOLLOWUP-FINDINGS.md) and preserve scope/overlap.
+
+
+## Single shared-state boundary initialization — 22 October 2026
+
+Weak later-art motivation from the CP semantic phase change was tested without
+assuming a K4 sentence boundary. Exactly one unknown internal reset, to the same
+original state/seed/key, does not rescue the four fixed move-to-front mappings,
+the registered two-alphabet affine-feedback grammar or periodic arithmetic of
+periods 1–12. All reject the first crib under the bounded audit.
+
+The move-to-front doublets and independent within-island recurrence contradictions
+provide short exclusions; a fixed-four local corollary concerns arbitrary reset
+timing analytically and is not a new sweep. Neither excludes all message-based
+initialization or other alphabets/rules. Uncertain boundaries create real planted
+plaintext ambiguity; it is reported rather than treated as a unique recovery.
+
+[Full frozen scope, exact counts and independent replay](SINGLE-BOUNDARY-RESET-FINDINGS.md).
+The bounded test stops here; no automatic second reset or new cipher family.

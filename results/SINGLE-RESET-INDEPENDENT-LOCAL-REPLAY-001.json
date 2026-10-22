@@ -1,0 +1,31 @@
+{
+  "id": "SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001",
+  "python": "3.9.6",
+  "command": "python3 audit.py --output replay-results.json",
+  "original_results_sha256": "633d1616341d1c0e3b094919f23169d2b37821478904a43aa953781758726872",
+  "replay_results_sha256": "633d1616341d1c0e3b094919f23169d2b37821478904a43aa953781758726872",
+  "all_results_equal": true,
+  "script_sha256": "76c862555c832591462167b15d6790cae0b1c55bdac8ae0689c585ad33b59e65",
+  "summary": {
+    "mtf_settings_tested": 388,
+    "mtf_survivors": 0,
+    "recurrence_alphabet_boundary_settings": 194,
+    "recurrence_triples_enumerated": 3409744,
+    "recurrence_parameter_boundary_domain_size": 88653344,
+    "recurrence_surviving_parameter_settings": 0,
+    "periodic_alphabet_period_boundary_settings": 388,
+    "periodic_surviving_settings": 0,
+    "plaintext_classes": 0,
+    "forced_positions": null,
+    "scope_note": "Exact exclusion only of the preregistered models, not all reset models or K4 generally."
+  },
+  "controls": {
+    "mtf_roundtrips_and_rank_oracle": 388,
+    "recurrence_planted_controls": 88,
+    "recurrence_toy_full_enumeration": 40,
+    "periodic_planted_controls": 44,
+    "periodic_toy_full_enumeration": 36,
+    "mutation_controls": 388
+  },
+  "interpretation": "Independent replication, not additional novel hypotheses. Local pilot covers periods1..12 and first-crib train split; independent periodic audit covers additivep8/10. Empty solution forced positions not applicable."
+}
