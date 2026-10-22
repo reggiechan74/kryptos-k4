@@ -1,0 +1,876 @@
+{
+  "source_sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010",
+  "literal_cribs_preserved": true,
+  "feedback_plants": [
+    {
+      "model": [
+        "AZ",
+        "C",
+        0,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        0,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        0,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        1,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        1,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        1,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        17,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        17,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        17,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        34,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        34,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "C",
+        34,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        0,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        0,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        0,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        1,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        1,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        1,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        17,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        17,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        17,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        34,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        34,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "AZ",
+        "P",
+        34,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        0,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 2,
+      "distinct_compatible_plaintexts": 2,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        0,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        0,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        1,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        1,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        1,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        17,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        17,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        17,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        34,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        34,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "C",
+        34,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        0,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        0,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        0,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": null
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        1,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        1,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        1,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        17,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        17,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        17,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        34,
+        "A"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        34,
+        "M"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    },
+    {
+      "model": [
+        "KRYPTOS",
+        "P",
+        34,
+        "Z"
+      ],
+      "roundtrip": true,
+      "truth_included": true,
+      "compatible_parameter_descriptions": 1,
+      "distinct_compatible_plaintexts": 1,
+      "mutation_target_rejected": true,
+      "nearby_operation_order_rejected": true
+    }
+  ],
+  "periodic_plants": [
+    {
+      "period": 1,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 12,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 1,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 12,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 2,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 6,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 2,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 6,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 3,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 4,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 3,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 4,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 4,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 3,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 4,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 3,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 5,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 2,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 5,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 2,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 6,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 2,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 6,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 2,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 7,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 7,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 8,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 8,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 9,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 9,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 10,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 10,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 11,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 11,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 12,
+      "equation": "plus",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    },
+    {
+      "period": 12,
+      "equation": "beaufort",
+      "truth_included": true,
+      "roundtrip": true,
+      "compatible_structures": 1,
+      "mutation_target_rejected": true
+    }
+  ],
+  "rotation_checks": 1365,
+  "periodic_alias_control": true,
+  "runtime_seconds": 2.873535,
+  "interpretation": "Truth inclusion is tested, not assumed unique recovery. Nearby and mutation controls reject the fixed altered mechanism; no null p-value is claimed."
+}

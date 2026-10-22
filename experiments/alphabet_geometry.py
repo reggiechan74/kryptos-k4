@@ -126,8 +126,8 @@ def lookup_vector(vector, schema):
     return reverse[v]
 
 
-def lookup_code(code, schema):
-    return lookup_vector(decode_array(code, len(schema['feature_order'])), schema)
+def lookup_code(code, schema, radix=2):
+    return lookup_vector(decode_array(code, len(schema['feature_order']), radix), schema)
 
 
 def decision_tree(vectors, order):
@@ -166,6 +166,12 @@ def collision_groups(values):
 def artifacts(schema, source_sha):
     vectors = codebook(schema)
     codes = {c: encode_array(v) for c, v in vectors.items()}
+    codes3 = {c: encode_array(v, 3) for c, v in vectors.items()}
+    for c, v in vectors.items():
+        assert decode_array(codes3[c], 35, 3) == v
+        assert lookup_code(codes3[c], schema, 3) == c
+    for base in (2, 3, 4, 5, 10):
+        assert sorted(vectors, key=lambda c: encode_array(vectors[c], base)) == sorted(vectors, key=codes.get)
     tree = decision_tree(vectors, schema['feature_order'])
     pairs = []
     for a, b in itertools.combinations(AZ, 2):
@@ -192,11 +198,16 @@ def artifacts(schema, source_sha):
             'radix': 2, 'feature_order': schema['feature_order'],
             'vectors': {c: list(v) for c, v in vectors.items()},
             'codes_decimal_strings': {c: str(n) for c, n in codes.items()},
+            'codes_base3_decimal_strings': {c: str(n) for c, n in codes3.items()},
             'decision_tree': tree}
     report = {'schema_id': schema['schema_id'], 'source_sha256': source_sha,
               'dimensions': 35, 'line_features': sum(p['kind']=='line' for p in schema['primitives'].values()),
               'curve_features': sum(p['kind']=='elliptic_arc' for p in schema['primitives'].values()),
               'letters': 26, 'pair_comparisons': 325, 'pair_certificates': pairs,
+              'base3_unique_full_codes': len(set(codes3.values())),
+              'base3_integer_roundtrips': 26,
+              'base3_codes_above_js_safe_integer': [c for c, n in codes3.items() if n > 2**53-1],
+              'base_order_checks': [2, 3, 4, 5, 10],
               'unique_vectors': len(set(vectors.values())), 'unique_full_codes': len(set(codes.values())),
               'roundtrips': {'array': 26, 'integer': 26, 'tree_with_membership': 26},
               'single_bit_mutations': {'total': 910, 'valid_other_glyphs': known, 'unknown_rejected': rejected},

@@ -1633,6 +1633,19 @@
       "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
     }
   ],
+  "base3_unique_full_codes": 26,
+  "base3_integer_roundtrips": 26,
+  "base3_codes_above_js_safe_integer": [
+    "J",
+    "U"
+  ],
+  "base_order_checks": [
+    2,
+    3,
+    4,
+    5,
+    10
+  ],
   "unique_vectors": 26,
   "unique_full_codes": 26,
   "roundtrips": {

@@ -99,6 +99,18 @@ class AlphabetGeometryTests(unittest.TestCase):
         self.assertEqual(encode_array(self.v['O']),2)
         self.assertEqual(encode_array(self.v['I']),2**29)
 
+    def test_base3_codebook_and_binary_order_invariant(self):
+        for c,v in self.v.items():
+            self.assertEqual(lookup_code(encode_array(v,3),self.s,3),c)
+        for base in (2,3,4,5,10):
+            self.assertEqual(sorted(self.v,key=lambda c:encode_array(self.v[c],base)),sorted(self.v,key=lambda c:encode_array(self.v[c])))
+        # A ternary digit two is legal generic radix data, but not a binary glyph.
+        with self.assertRaises(ValueError):lookup_code(2,self.s,3)
+        self.assertTrue(any(encode_array(v,3)>2**53-1 for v in self.v.values()))
+        # Exhaustive short binary vectors check the highest-difference proof.
+        vectors=list(itertools.product((0,1),repeat=8))
+        self.assertEqual(sorted(vectors,key=lambda v:encode_array(v,2)),sorted(vectors,key=lambda v:encode_array(v,3)))
+
     def test_derived_artifacts_rebuild_exactly(self):
         data,report=artifacts(self.s,hashlib.sha256(SCHEMA.read_bytes()).hexdigest())
         self.assertEqual(data,json.loads((ROOT/'data/alphabet-features-v1.json').read_text()))
