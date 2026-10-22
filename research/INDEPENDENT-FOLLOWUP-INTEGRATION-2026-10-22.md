@@ -11,7 +11,7 @@ reviewed and integrated, with no new K4 search scope.
 Three public-safe packages, 40 original files, were received through the supported
 Library materialization flow. Archive sizes/hashes matched the sender; all supplied
 member manifests and pre-run source hashes matched. Extraction rejected traversal,
-absolute paths, links and duplicate names, with a 50MB expanded-size cap per archive.
+absolute paths, links and duplicate names, with a 50 MB expanded-size cap per archive.
 A separate private photo archive was verified and retained outside the Git checkout.
 All photo/crop hashes matched its manifest; no photos or archives enter the commit.
 
@@ -25,7 +25,7 @@ with macOS xattr on the existing verified files, without downloading again.
 
 All Python/JavaScript was read before execution. Scripts operate on fresh scratch
 copies, preserving original artifact bytes. Calibration ran in a task-local virtual
-environment with numpy2.3.5, scipy1.17.0 and scikit-learn1.8.0; system packages and
+environment with numpy 2.3.5, scipy 1.17.0 and scikit-learn 1.8.0; system packages and
 persistent authentication remain unchanged. Additional transitive versions are in
 the replay receipt. Supplied pre-generation timing is provenance, not independently
 timestamped here; verified hashes establish byte integrity, not temporal priority.
@@ -39,13 +39,13 @@ rank from the last occurrence and the number of distinct intervening symbols.
 
 Local replay reproduced all deterministic generated cases, predictions, traces and
 summaries exactly. All 388 JavaScript ranks/letters agree with its Python traces;
-all full outputs agree with our separate rank-dictionary decoder. At position22,
-state begins WBF; observed F has rank2, predicting C or Y instead of E. All four
-models still score0/24. This is independent replication, not four newly tested models.
+all full outputs agree with our separate rank-dictionary decoder. At position 22,
+state begins WBF; observed F has rank 2, predicting C or Y instead of E. All four
+models still score 0/24. This is independent replication, not four newly tested models.
 
-The package recovers32/32 synthetic literal-crib plants uniquely, rejects32/32
-nearby move-to-back controls and128/128 histogram decoys, and passes73,116 short
-strings in both inverse directions plus104 one-step cases per direction. Its nearby
+The package recovers 32/32 synthetic literal-crib plants uniquely, rejects 32/32
+nearby move-to-back controls and 128/128 histogram decoys, and passes 73,116 short
+strings in both inverse directions plus 104 one-step cases per direction. Its nearby
 negative is different from our cyclic-rotation control. Neither is a fifth candidate
 rule. These are finite synthetic checks with programmatic label blinding; no
 universal false-positive probability or natural-language recovery guarantee follows.
@@ -53,32 +53,32 @@ universal false-positive probability or natural-language recovery guarantee foll
 ## Small classifier: closed-world utility, no K4 inference
 
 Local replay matches the supplied classification results, full generated dataset
-and199 training-label-null accuracy values exactly. All288 recorded encrypt/decrypt
-pairs pass under their fixed keys. Test accuracy is125/144=86.8% on three explicitly
+and 199 training-label-null accuracy values exactly. All 288 recorded encrypt/decrypt
+pairs pass under their fixed keys. Test accuracy is 125/144=86.8% on three explicitly
 specified toy generators. Forty-eight examples share plaintext windows across the
 three families, and windows overlap within six held-out worker-authored passages;
-these are not144independent documents or six independently sampled real authors.
+these are not 144 independent documents or six independently sampled real authors.
 The six-cluster bootstrap cannot establish transfer to other authors or corpora.
 
-Critically,44/48 iid-uniform controls receive the same forced EVOLVING_ALPHABET label
+Critically, 44/48 iid-uniform controls receive the same forced EVOLVING_ALPHABET label
 as K4. There is no abstention/open-world gate, so this label is **not K4 evidence**.
 The classification generator rotates and swaps a changing alphabet and is not the
 four fixed move-to-front models. The label does not contradict their exact rejection.
-The0.005 label-randomization tail tests a conditional toy training-label diagnostic,
+The 0.005 label-randomization tail tests a conditional toy training-label diagnostic,
 not the chance that K4 belongs to a trained family. No further classifier tuning,
 new features or additional K4 architecture search followed these results.
 
 ## Synthesis: exact negative scope and verified ambiguity
 
 The original independent enumeration examines the fixed two-alphabet grammar
-C_i=P_i+K_i; K0=k; K_i=a*K_(i-1)+b+d*C_(i-1) mod26. There are913,952 raw parameter
+C_i=P_i+K_i; K0=k; K_i=a*K_(i-1)+b+d*C_(i-1) mod26. There are 913,952 raw parameter
 descriptions, including known progressive/constant-key/autokey subsets described
 in the local findings. They are not all novel mechanisms or distinct plaintexts.
 Local exact contradiction certificates already reject this grammar within the
 first crib, independently of seed or unknown preceding plaintext.
 
 The full enumeration was not repeated. Instead, the supplied reviewed auditor's
-local-equation function was executed in isolation: filter26^3coefficient triples
+local-equation function was executed in isolation: filter 26^3 coefficient triples
 per alphabet by adjacent known states, then replay seeds only for surviving triples.
 Its top-level call to the original enumerator is deliberately not executed. Full
 plaintext sets are independently decoded from its candidate descriptions and checked
@@ -96,34 +96,34 @@ against the supplied counts/ambiguities; K4 has zero candidates already on train
 Every planted description survives. A nonunit a can erase distinctions between
 fitted seeds after the first transition; this does not make a fully specified
 recurrence decrypt ambiguously. Fixed parameters determine one full decryption.
-The21-bit field encoding is four5-bit parameter slots plus an alphabet bit with
+The 21-bit field encoding is four 5-bit parameter slots plus an alphabet bit with
 unused codes, not minimum complexity or a historical probability. The supplied
 underconstrained and zero-budget controls distinguish ambiguity and timeout from
 UNSAT; those stored runs are not counted as fresh local searches.
 
 [Local-equation verification record](../results/independent-followup-review/SYNTHESIS-LOCAL-EQUATION-AUDIT-001.json),
-[review adapter](../experiments/review_supplied_synthesis.py). This audit takes0.584s
+[review adapter](../experiments/review_supplied_synthesis.py). This audit takes 0.584 s
 and adds **zero novel K4 search cases**.
 
 ## Historical clock: direct placement, limited identifiability
 
-The replay reproduces41label roundtrips and1,152integer coordinate roundtrips for
-three disconnected dated photographic segments,10panels and17panel/band cells.
-Collapsing41labels to panel/band loses24distinctions; to panel alone loses31.
-A bare24sector shift therefore cannot invert a city-label encoding without a
+The replay reproduces 41 label roundtrips and 1,152 integer coordinate roundtrips for
+three disconnected dated photographic segments, 10 panels and 17 panel/band cells.
+Collapsing 41 labels to panel/band loses 24 distinctions; to panel alone loses 31.
+A bare 24-sector shift therefore cannot invert a city-label encoding without a
 separately specified selector/rank rule. Moving numerals are exposure-specific,
 not permanent sector IDs; real global phase can be fractional.
 
 The 1970 source original and exact seam crop were independently viewed on the Mac.
 NEW YORK is between the seams separating it from the Montreal/Washington/Havanna
 panel on one side and Thule/Halifax on the other. This confirms observed relative
-placement, **not** a civil-time mistake or unchanged1989position. It is a second
+placement, **not** a civil-time mistake or unchanged 1989 position. It is a second
 AI visual check, not a new human survey. The source date/credit and crop coordinates
 are retained in the public manifest, while originals/crops stay outside the repo.
 No attempt was made to normalize the historical labels into modern time-zone lists.
 
 No K4 clock trial was executed. Missing global registration between the three
-segments, complete1989coverage and an independently specified A–Z encoder remain
+segments, complete 1989 coverage and an independently specified A–Z encoder remain
 precise prerequisite blockers. Passing reversible coordinate tests validates code,
 not historical completeness or a cryptanalytic mechanism. No extra city rotors,
 hemisphere bits or arbitrary per-character phases were added.
@@ -156,19 +156,19 @@ worker result. Corrupting the second CP transcript was rejected; changing canoni
 K4's reference was also rejected. No downloaded pages, images, cache or full artwork
 fixtures were admitted to the public repository.
 
-The separately extracted second CP transcript agrees with the first on all1,133
+The separately extracted second CP transcript agrees with the first on all 1,133
 normalized Cyrillic symbols. Plaintext/ciphertext hashes also match our previous
 local replay exactly. This is cross-publication corroboration of a transcript,
 not independent photographs of an original object. The published row layout puts
-symbol777 at row22,column32 and778 at row22,column33, with the semantic restart
-inside that line. The panel boundary is after566. None establishes a physical
+symbol 777 at row 22, column 32 and 778 at row 22, column 33, with the semantic restart
+inside that line. The panel boundary is after 566. None establishes a physical
 omission, and semantic initialization must not be conflated with panel/line resets.
 
-K2's unique omitted intended ciphertext letter is362,S, after361observed letters.
-The three preceding question marks explain character365 in the retained layout.
+K2's unique omitted intended ciphertext letter is 362, S, after 361 observed letters.
+The three preceding question marks explain character 365 in the retained layout.
 That exactly reconciles the worker's alphabet-only coordinate with our earlier
 fixture coordinate. The worksheet O/S/E versus carved U/S/R local equivalence
-also checks numerically at K2 letter115; the already retained worksheet image was
+also checks numerically at K2 letter 115; the already retained worksheet image was
 privately re-viewed, without asserting the time or cause of the discrepancy.
 The complete worksheet was not transcribed anew.
 
@@ -176,14 +176,14 @@ The complete worksheet was not transcribed anew.
 [cached derived result](../results/independent-followup-review/CONSTRUCTION-OFFLINE-REPLAY-001.json),
 [local validation](../results/independent-followup-review/CONSTRUCTION-LOCAL-REPLAY-001.json).
 The full regression suite, including these seven offline controls and new
-integrity/alignment guards, passed **222 tests in9.056seconds**. Network retrieval
+integrity/alignment guards, passed **222 tests in 9.056 seconds**. Network retrieval
 remains opt-in and is not part of ordinary regression tests.
 
-The worker's5,071raw single-edit variants, including the unchanged baseline, are
+The worker's 5,071 raw single-edit variants, including the unchanged baseline, are
 **proposed and unrun**. The arithmetic count is checked; no K4 variant generation,
 scoring, canonical edit or reset sweep occurred. All agreed tracks now have a
 replayed bounded result or a precise evidential limit. The clock remains blocked
-from cryptanalytic application by historical registration/1989coverage and the
+from cryptanalytic application by historical registration/1989 coverage and the
 absent A–Z encoder, not by an execution failure. The original recurrence exhaustive
 search and timeout-control enumeration were preserved rather than rerun; its
 local-equation auditor, planted counts and exact contradiction certificates were
