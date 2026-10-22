@@ -1,0 +1,137 @@
+{
+  "synthesis_independent_audit": [
+    {
+      "target": "K4",
+      "candidate_sets_equal": true,
+      "details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "positive_0",
+      "candidate_sets_equal": true,
+      "details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 2,
+          "first_crib_seeded_fits": 39,
+          "full_crib_seeded_fits": 39
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "positive_1",
+      "candidate_sets_equal": true,
+      "details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 2,
+          "first_crib_seeded_fits": 3,
+          "full_crib_seeded_fits": 3
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "positive_2",
+      "candidate_sets_equal": true,
+      "details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 1,
+          "first_crib_seeded_fits": 2,
+          "full_crib_seeded_fits": 2
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "positive_3",
+      "candidate_sets_equal": true,
+      "details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 2,
+          "first_crib_seeded_fits": 3,
+          "full_crib_seeded_fits": 3
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "positive_4",
+      "candidate_sets_equal": true,
+      "details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 1,
+          "first_crib_seeded_fits": 13,
+          "full_crib_seeded_fits": 13
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "positive_5",
+      "candidate_sets_equal": true,
+      "details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 1,
+          "first_crib_seeded_fits": 1,
+          "full_crib_seeded_fits": 1
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    }
+  ],
+  "all_288_encrypt_decrypt_roundtrips": true,
+  "exact_length_97_every_ciphertext": true,
+  "train_test_plaintext_overlap": 0,
+  "unique_train_windows": 48,
+  "unique_test_windows": 47,
+  "plaintext_mono_feature_invariance": true,
+  "K4_IC_independent_match": true
+}

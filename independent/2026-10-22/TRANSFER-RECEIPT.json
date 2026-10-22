@@ -1,0 +1,186 @@
+{
+  "id": "INDEPENDENT-TRANSFER-RECEIPT-20261022",
+  "transport": "Supported Library prepare_materialize signed GET into connected Mac task workspace; all returned xattrs applied. No signed URLs or completion tokens retained.",
+  "safe_extraction": "Explicit regular-file extraction only; reject absolute paths, parent traversal, backslashes, links, duplicate members; expanded size cap50MB per archive. Zip CRC read verified.",
+  "code_review": "Read all Python/JavaScript before execution; no network, credential reads or external messages; artifact output confined to scratch replay copies. Pinned calibration wheels installed only in task-local venv.",
+  "received_files": {
+    "calibration/MANIFEST.json": {
+      "bytes": 1101,
+      "sha256": "b7f01b5a0285e6b81661bdd511eb8491f45969a10bc99972b71d27974c64d6f4"
+    },
+    "calibration/PREREGISTRATION.md": {
+      "bytes": 6334,
+      "sha256": "e0f0ee230ab73758e841e1dd91d28e571c7d83fe052f70b7aedb8e68a1bd26fc"
+    },
+    "calibration/REPORT.md": {
+      "bytes": 10395,
+      "sha256": "57ad1ffa008edb79dd9295e3ecb7ea96521cf18af42ea1f239e7d1fff3566eca"
+    },
+    "calibration/audit.py": {
+      "bytes": 3536,
+      "sha256": "fd8a75bdc3ab7c2e1f4c499363bbb393068a97ab98414b6c0cf2271533822555"
+    },
+    "calibration/audit_results.json": {
+      "bytes": 3825,
+      "sha256": "044cf49f0f1dc3c2a330e983c6ae9b72ee7549d870e5dfd0afa2d1995824b520"
+    },
+    "calibration/classification_results.json": {
+      "bytes": 5100,
+      "sha256": "3968bf8c440976b7142b97fcb31974ad574619fd7d17e33a5322e6adfbaa3e37"
+    },
+    "calibration/corpus.json": {
+      "bytes": 7679,
+      "sha256": "d39c8658f80cb43cee086b30c9479e0eec4fee716b966f2f111faed7c076669e"
+    },
+    "calibration/generated_examples.json": {
+      "bytes": 360311,
+      "sha256": "4ebe173da7a48328b098d7725a9884836f4e80b463dcaa272e0cf27a34b26577"
+    },
+    "calibration/label_null_accuracy.json": {
+      "bytes": 3776,
+      "sha256": "34cc36fd9e3996d81b904be2cbb140f90043f10fae48e5cabe6c0caa373668b5"
+    },
+    "calibration/requirements.txt": {
+      "bytes": 47,
+      "sha256": "cfa889a8d30e9997012f953793fae40cb3bed01d74c29f5dea7b986387bdeea2"
+    },
+    "calibration/run_calibration.py": {
+      "bytes": 13059,
+      "sha256": "44654b1e84bfe0061f45a54c50e1b92c1d1880000448fb4200a0fc187dfc480a"
+    },
+    "calibration/run_summary.json": {
+      "bytes": 3465,
+      "sha256": "262e1829e8139d21551044189b3caaa97bd27e002877fad22065b2140708e0d8"
+    },
+    "calibration/synthesis_results.json": {
+      "bytes": 74108,
+      "sha256": "e36c164a3ff99b4d982993e37089f0ed495872826ed6322947b8c869cc0721b7"
+    },
+    "evolving-alphabet/PINNED-SPEC.md": {
+      "bytes": 21826,
+      "sha256": "fb5d1bd342310bc2c17edfc55fcbf20318a49b8f0cbf99190f1f3e5579ace17b"
+    },
+    "evolving-alphabet/PROTOCOL.json": {
+      "bytes": 3040,
+      "sha256": "b16419f7f2db94500f05d5e701af42cd23b9fc4c813a5571f70f3994fe61712d"
+    },
+    "evolving-alphabet/README.md": {
+      "bytes": 6391,
+      "sha256": "60c30878d97a53cfef642f1045e50373565d2ed05dceac2712d50fd0e163c9ed"
+    },
+    "evolving-alphabet/SHA256SUMS": {
+      "bytes": 1675,
+      "sha256": "440e64f5e16096297374277308001ef063cbbf6fcca2a1c0dbc8488c549339c1"
+    },
+    "evolving-alphabet/audit.py": {
+      "bytes": 11328,
+      "sha256": "25b1b235ed32e5e1ea72389caa80ce79f91b9c46986aebc9f3cb25062d1b2bbe"
+    },
+    "evolving-alphabet/blind_cases.json": {
+      "bytes": 31683,
+      "sha256": "eea76232b8c2000e06a5ca48a5ddaf61593f423f959a98b20b85a796bb7008b6"
+    },
+    "evolving-alphabet/blind_predictions.json": {
+      "bytes": 205091,
+      "sha256": "54358501166069826f56afacc80858ea46c7f606681dffa9117f9a4d61dc390b"
+    },
+    "evolving-alphabet/blind_selector.py": {
+      "bytes": 2631,
+      "sha256": "4a5f014a48f5164cc347eb47d63ff3dcf34eb42be343b2d00110eb04e4e1becf"
+    },
+    "evolving-alphabet/controls_summary.json": {
+      "bytes": 6597,
+      "sha256": "9032aa9614c351e36778dc565601ea1e37264ecd4ca65f64583c8b2296f435eb"
+    },
+    "evolving-alphabet/execution.log": {
+      "bytes": 3536,
+      "sha256": "3a83a0cfe2a875bf4618c095452f4f98fb8c20bf1ce5cbe10d2693baf828d514"
+    },
+    "evolving-alphabet/generate_controls.py": {
+      "bytes": 2930,
+      "sha256": "90e55762f33f9f2ea76e6021e4bcb84c5dde67d3e9e4aabbc5bcbb4c017f9fc9"
+    },
+    "evolving-alphabet/k4_full_trace.csv": {
+      "bytes": 33447,
+      "sha256": "407e51f241faace8e995d7f28858c06cf8830b8a7d0d4f0b08e31a751077368b"
+    },
+    "evolving-alphabet/k4_full_trace.json": {
+      "bytes": 111529,
+      "sha256": "37ef512b6bc592495c3fbbf6d4b131cf2ce7736619ef157f47a4b4095bd85173"
+    },
+    "evolving-alphabet/k4_results.json": {
+      "bytes": 3266,
+      "sha256": "b8dbe23bc6e5041fceab11073edd9533bada0c2c3b075bca81c9a80cad332364"
+    },
+    "evolving-alphabet/one_step_cases.json": {
+      "bytes": 13939,
+      "sha256": "4960526d8616d43dc9120df18b5181245b7589daf831fb01b387286b4681ff0d"
+    },
+    "evolving-alphabet/pre_run_sha256.txt": {
+      "bytes": 407,
+      "sha256": "5286538024d23ae9cb99248d4ef8c1fdc5a81775dd0638074b202d99ef5faea9"
+    },
+    "evolving-alphabet/primitive_summary.json": {
+      "bytes": 927,
+      "sha256": "f69c3d31977a7a1b1122753c9219dc72393a6e86ceac642abd7fb3cded3c04bb"
+    },
+    "evolving-alphabet/recency_gap_oracle.js": {
+      "bytes": 1339,
+      "sha256": "bb13955807b0e712d74de8f3f9b502f950fb3da71509a4ca2b36f500e13a0da0"
+    },
+    "evolving-alphabet/recency_gap_oracle.json": {
+      "bytes": 4417,
+      "sha256": "f66c623971a977d4429187362b42c94ea3cbfb49cc47cbe8cd0179f677d65ee6"
+    },
+    "evolving-alphabet/runtime.json": {
+      "bytes": 79,
+      "sha256": "c31c73a3a65f257ad6d015e0f6a902333c99dbba2529038166589b849fedb648"
+    },
+    "evolving-alphabet/sealed_truth.json": {
+      "bytes": 34755,
+      "sha256": "f05e3334614f005461dd702c255ec53270d11438a7f1428f58c200ef9e1d3df5"
+    },
+    "historical-clock/PHOTO_REVIEW_MANIFEST.json": {
+      "bytes": 4280,
+      "sha256": "9a0157de9fa6abc16b5d1a3b6a7872e23e1b1d009558a83c189b6c709b3262d2"
+    },
+    "historical-clock/README_REPO_INPUT.txt": {
+      "bytes": 987,
+      "sha256": "d13bf36a2f63141adb1bd04b274980fcf56457000327ff5dd3368fbb62085339"
+    },
+    "historical-clock/historical_clock_evidence.json": {
+      "bytes": 41683,
+      "sha256": "57869e45e24299d04df68b3452f38e7c3d094b91fa1df8cbc160871baf6c9205"
+    },
+    "historical-clock/historical_clock_report.txt": {
+      "bytes": 11661,
+      "sha256": "29fa477d0a685916737aab7c8c18b8f30dd9ee71c7cf9fce6962c0f40c7021fa"
+    },
+    "historical-clock/pilot.py": {
+      "bytes": 2893,
+      "sha256": "5a888581a0c404b8bb6e745f8e6905d6917e5cfa37c50eb59244b6fb3092ba65"
+    },
+    "historical-clock/pilot_results.json": {
+      "bytes": 746,
+      "sha256": "3c3ecf894653e6056eef5fbed208e258eb222b0cd807dec59afb7388af583b98"
+    }
+  },
+  "archives": [
+    {
+      "name": "k4_bounded_calibration.tar.gz",
+      "bytes": 93096,
+      "sha256": "546c965e70ed18332746e7f16e6d20f958b3098b0e4e3b5d4f30120581121a58"
+    },
+    {
+      "name": "k4-evolving-alphabet-independent-2026-10-22.tar.gz",
+      "bytes": 102351,
+      "sha256": "5d00f53d2a24c65279c7ee10c7aa2a0268e9a94b7949b565887de33257faca4e"
+    },
+    {
+      "name": "k4_historical_clock_repo_input.zip",
+      "bytes": 14320,
+      "sha256": "89b62b17a7a49a1c5cf9520412a5613be38eb3999998330b39737e3e16e9f3d5"
+    }
+  ],
+  "private_photos": "Originals/crops retained outside repository; only public photo manifest copied. All source/crop hashes verified. No photos or archives copied into repository."
+}

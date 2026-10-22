@@ -1,0 +1,246 @@
+{
+  "seed": 20261022,
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "labels": [
+    "PERIODIC",
+    "BLOCK_TRANSPOSE",
+    "EVOLVING_ALPHABET"
+  ],
+  "features": [
+    "IC",
+    "entropy_bits",
+    "distinct_symbols",
+    "largest_count",
+    "bigram_pair_collision",
+    "lag1_coincidence",
+    "max_lag2_12_coincidence",
+    "max_period2_12_residue_IC"
+  ],
+  "source_lengths": {
+    "train": [
+      484,
+      514,
+      482,
+      496,
+      495,
+      495
+    ],
+    "test": [
+      543,
+      560,
+      554,
+      535,
+      494,
+      491
+    ]
+  },
+  "metrics": {
+    "train": {
+      "n": 144,
+      "accuracy": 0.9166666666666666,
+      "macro_f1": 0.9154928939778783,
+      "confusion_matrix": [
+        [
+          40,
+          3,
+          5
+        ],
+        [
+          0,
+          48,
+          0
+        ],
+        [
+          4,
+          0,
+          44
+        ]
+      ],
+      "recall": [
+        0.8333333333333334,
+        1.0,
+        0.9166666666666666
+      ]
+    },
+    "test": {
+      "n": 144,
+      "accuracy": 0.8680555555555556,
+      "macro_f1": 0.8686260324350396,
+      "confusion_matrix": [
+        [
+          39,
+          1,
+          8
+        ],
+        [
+          2,
+          46,
+          0
+        ],
+        [
+          8,
+          0,
+          40
+        ]
+      ],
+      "recall": [
+        0.8125,
+        0.9583333333333334,
+        0.8333333333333334
+      ],
+      "source_accuracies": [
+        0.75,
+        0.9166666666666666,
+        0.875,
+        0.8333333333333334,
+        0.9166666666666666,
+        0.9166666666666666
+      ],
+      "source_bootstrap_accuracy_CI95": [
+        0.8194444444444443,
+        0.9097222222222223
+      ],
+      "source_bootstrap_effective_clusters": 6
+    }
+  },
+  "controls": {
+    "PLAINTEXT": {
+      "n": 48,
+      "forced_label_counts": [
+        18,
+        30,
+        0
+      ]
+    },
+    "MONOALPHABETIC": {
+      "n": 48,
+      "forced_label_counts": [
+        18,
+        30,
+        0
+      ]
+    },
+    "CHARACTER_SHUFFLE": {
+      "n": 48,
+      "forced_label_counts": [
+        1,
+        47,
+        0
+      ]
+    },
+    "IID_UNIFORM": {
+      "n": 48,
+      "forced_label_counts": [
+        4,
+        0,
+        44
+      ]
+    }
+  },
+  "randomized_training_label_null": {
+    "runs": 199,
+    "accuracy_mean": 0.3300530429927414,
+    "accuracy_range": [
+      0.06944444444444445,
+      0.6944444444444444
+    ],
+    "accuracy_q95": 0.5284722222222222,
+    "add_one_p": 0.005,
+    "interpretation": "Conditional toy label-randomization diagnostic, not a p-value about K4 or universal classification. Global label permutation does not model plaintext-source uncertainty."
+  },
+  "K4": {
+    "ciphertext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+    "features": [
+      0.03608247422680412,
+      4.554780920074292,
+      26.0,
+      8.0,
+      0.0021929824561403508,
+      0.0625,
+      0.1,
+      0.04401154401154401
+    ],
+    "training_standardized_features": [
+      -1.0121045882150768,
+      1.0437387967407215,
+      0.9329107292805556,
+      -0.764721539881835,
+      -0.3542148659141735,
+      0.9059969129802378,
+      0.7255207974084474,
+      -1.3860926727054494
+    ],
+    "forced_label": "EVOLVING_ALPHABET",
+    "warning": "Forced nearest-family label is NOT evidence that K4 belongs to any trained family; no class probability or K4 significance is estimated."
+  },
+  "feature_means": {
+    "train": {
+      "PERIODIC": [
+        0.04289715778923256,
+        4.419656816531838,
+        24.9375,
+        8.979166666666666,
+        0.0024625365497076028,
+        0.032335069444444454,
+        0.0819696271599147,
+        0.06736245643500989
+      ],
+      "BLOCK_TRANSPOSE": [
+        0.06503257445589918,
+        3.996870251158491,
+        20.395833333333332,
+        13.833333333333334,
+        0.004349415204678362,
+        0.052734375,
+        0.10046770836929293,
+        0.0805583286871407
+      ],
+      "EVOLVING_ALPHABET": [
+        0.038937213631156965,
+        4.4949735372597805,
+        25.5,
+        8.229166666666666,
+        0.0015122441520467836,
+        0.03776041666666666,
+        0.07224038305685486,
+        0.04997461075257283
+      ]
+    },
+    "test": {
+      "PERIODIC": [
+        0.044351374570446765,
+        4.39121406702933,
+        24.770833333333332,
+        9.3125,
+        0.0027229532163742694,
+        0.04318576388888889,
+        0.09099813133860163,
+        0.073470776459904
+      ],
+      "BLOCK_TRANSPOSE": [
+        0.06744433705612832,
+        3.954002133844982,
+        20.041666666666668,
+        13.708333333333334,
+        0.004737755847953215,
+        0.053385416666666664,
+        0.10963766126214258,
+        0.08494003388477624
+      ],
+      "EVOLVING_ALPHABET": [
+        0.03861057416953039,
+        4.497837959434505,
+        25.395833333333332,
+        8.041666666666666,
+        0.0016584429824561403,
+        0.035590277777777776,
+        0.0765526170112632,
+        0.050115565585902265
+      ]
+    }
+  }
+}

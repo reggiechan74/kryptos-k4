@@ -1,0 +1,31 @@
+# Frozen bounded K4 calibration
+
+Frozen before dataset generation or result inspection, 2026-10-22 UTC.
+Master seed: 20261022. N=97 uppercase A–Z characters throughout. No spaces or punctuation survive preprocessing. No learned plaintext model, corpus internet retrieval, crib-guided feature selection, hyperparameter tuning, architecture selection or result-driven expansion.
+
+## Question and scope
+Can eight cheap statistics discriminate three explicitly defined toy cipher architectures, out of authored plaintext-source sample, at K4 length? This is not an estimator of K4's actual architecture and does not assign posterior probabilities to K4. The source library is twelve separately authored passages, six train and six held out, with no shared passage across split. It is intentionally small and not representative natural language; overlapping windows within each passage are not independent. All three families use exactly the same 48 train plaintext windows and same 48 held-out plaintext windows. Eight windows per passage are selected with replacement among all valid offsets. No actual K4 cribs are injected into the classification plaintexts.
+
+## Frozen cipher generators
+All indices use A=0,...,Z=25. Fresh independent keys per example, no rejected keys.
+1. PERIODIC: choose period uniformly from 2..12 and each key symbol uniformly from 0..25. C_i=(P_i+key[i mod period]) mod26. No enforcement of minimal period.
+2. BLOCK_TRANSPOSE: choose block width uniformly from 5..12 and a uniformly random permutation of 0..width−1. Emit each consecutive plaintext block in that permutation order, dropping out-of-range indices in the last partial block. Same permutation for every block. This preserves exact symbol counts and is not a generic model of all transpositions or a route search.
+3. EVOLVING_ALPHABET: initialize A_0 as a uniformly random permutation of 0..25. Emit C_i=A_i[P_i]. After emitting C_i, rotate the alphabet left by (C_i+1) mod26, then swap entries at positions 0 and13. These ciphertext-dependent updates are exactly reproducible by a decoder knowing A_0; there are no resets or extra parameters. This is one toy algorithm, not representative of all evolving alphabets.
+
+## Budget, features and fit
+48 plaintexts ×3 families =144 train ciphertexts; another 48×3=144 held-out ciphertexts. No development split or feature search.
+Eight features in this order: (1) ordinary index of coincidence, (2) empirical base-2 symbol entropy, (3) distinct-symbol count, (4) maximum symbol count, (5) number of equal unordered pairs of adjacent bigrams divided by choose(96,2), (6) adjacent symbol coincidence rate, (7) maximum coincidence rate over lags2..12, (8) maximum unweighted mean within-residue IC over candidate periods2..12 (zero for a residue shorter than two).
+StandardScaler fit on training only, followed by multinomial LogisticRegression(C=1, solver=lbfgs, max_iter=2000); one fit only. Report train and held-out confusion matrices, class recall, accuracy and macro-F1. Chance is1/3 for the balanced test. Source-cluster bootstrap (2,000 resamples of six held-out passage IDs, all family outputs/windows retained per source) supplies 95% percentile accuracy intervals. These quantify only variability across this small authored source library, not universal deployment uncertainty. A supplemental Wilson interval treats outputs as independent and must be explicitly labeled optimistic if shown.
+
+## Matched-length controls and nulls
+For each of the48 held-out plaintexts, generate: unencrypted plaintext, random monoalphabetic substitution, a random shuffle of exactly the same characters, and97 iid uniform random A–Z letters. Controls are never used for training. Report their forced label distributions to expose out-of-model misclassification.
+Train-label randomization uses199 permutations of the144 training labels and repeats the identical train fit and held-out evaluation; report add-one p=(1+#null_accuracy>=observed)/200. There is one predeclared model and one primary endpoint; no feature/hyperparameter search to calibrate. The maximum-over-lags/periods features are included intact in every fit/control. Any exploratory additional result must be labeled post hoc and must not inherit this p-value.
+K4 receives only the same eight features, the forced model label, and standardized feature values. No score is treated as a K4 confidence or significance level. No comparison of K4 to cherry-picked nulls or selected architectures will be claimed.
+
+## Bounded synthesis pilot
+Use canonical97-character K4 supplied by the parent. Assert exact crib EASTNORTHEAST at1-based22..34 (13 characters) and BERLINCLOCK at64..74 (11 characters), total24 distinct positions. Do not truncate either string.
+Fixed grammar in either alphabet A–Z or KRYPTOSABCDEFGHIJLMNQUVWXZ:
+C_i=P_i+K_i (mod26); K_0=k; K_i=a*K_(i−1)+b+d*C_(i−1) (mod26).
+Parameters k,a,b,d each0..25, both alphabets. No resets, transpositions, routes, alternate signs, derived keywords or further grammar.
+Budget: exactly2*26^4=913,952 parameter descriptions per target at most; four5-bit parameter fields plus one alphabet bit=21-bit fixed parameter encoding, with unused codes; the fixed interpreter is additional constant description overhead. Exhaustive modular constraint solving by parameter enumeration, not a new SAT technique. Fit EASTNORTHEAST first, then validate BERLINCLOCK without refit; only rejection of this exact bounded grammar is admissible from a zero count.
+Synthetic positives: six separate97-letter plaintext draws from held-out passages, with the exact24 crib characters overwritten, AZ coordinate parameters a in[0,1,2,5,13,25], b,d,k drawn uniformly. These expose noninvertibility and identifiability. A seventh deliberately underconstrained run uses only the first EAST character for one positive, to ensure ambiguity reporting. Report candidate counts after first crib, after both, distinct full decryptions where inexpensive, and whether planted description survives. Distinguish UNSAT (all descriptions exhausted, zero), SAT_UNIQUE_DESCRIPTION, SAT_AMBIGUOUS_DESCRIPTIONS, and TIMEOUT (incomplete search, never UNSAT). Set a120-second wall budget per target. Seed recovery is not plaintext identifiability; do not collapse descriptions without checking the complete97-character decryption.

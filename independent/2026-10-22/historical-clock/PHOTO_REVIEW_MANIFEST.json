@@ -1,0 +1,115 @@
+{
+  "purpose": "Private visual review only; not default public-repository content",
+  "source_images": [
+    {
+      "id": "S69",
+      "date": "1969-10-03",
+      "date_basis": "Bundesarchiv caption and Commons date",
+      "creator": "Peter Koard",
+      "accession": "Bundesarchiv Bild 183-E1003-0001-001",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-E1003-0001-001,_Berlin,_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Bundesarchiv_Bild_183-E1003-0001-001%2C_Berlin%2C_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image": "1969_Koard.jpg",
+      "width": 579,
+      "height": 786,
+      "license": "CC BY-SA 3.0 DE",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "attribution": "Bundesarchiv, Bild 183-E1003-0001-001 / Koard, Peter / CC-BY-SA 3.0",
+      "observation": "Direct manual reading of source image; enlarged crop was inspected, with no generative enhancement.",
+      "retrieved_utc": "2026-10-22",
+      "sha256": "d11e7d21ebbf72853a914ab3a63d6574cb611177b8c5a7ee7b9884aa4ac748f3"
+    },
+    {
+      "id": "S70",
+      "date": "1970-01-31",
+      "date_basis": "Photographer-uploaded Commons description",
+      "creator": "Jörg Blobelt",
+      "accession": "19700131040NR",
+      "url": "https://commons.wikimedia.org/wiki/File:19700131040NR_Berlin_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/19700131040NR_Berlin_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image": "1970_Blobelt.jpg",
+      "width": 2329,
+      "height": 3054,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Jörg Blobelt / CC BY-SA 4.0",
+      "observation": "Direct manual reading of high-resolution image and non-generative crop.",
+      "retrieved_utc": "2026-10-22",
+      "sha256": "faf85753704d83bf6f0c4d259c302aa8573410bb0cf1f562b362051dcd101ddd"
+    },
+    {
+      "id": "S84",
+      "date": "1984-04",
+      "date_basis": "Commons date; original ADN caption explicitly says 19.4.84",
+      "creator": "Peter Heinz Junge",
+      "accession": "Bundesarchiv Bild 183-1984-1419-014",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1984-1419-014,_Berlin,_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Bundesarchiv_Bild_183-1984-1419-014%2C_Berlin%2C_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image": "1984_Junge.jpg",
+      "width": 581,
+      "height": 800,
+      "license": "CC BY-SA 3.0 DE",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "attribution": "Bundesarchiv, Bild 183-1984-1419-014 / Junge, Peter Heinz / CC-BY-SA 3.0",
+      "observation": "Direct manual reading of source image and non-generative enlarged crop; lower band partly cropped by original frame.",
+      "retrieved_utc": "2026-10-22",
+      "sha256": "a0d985cbb868637d16208f72b135d7bb65af521220168deb33503917fddd8980"
+    }
+  ],
+  "derived_crops": [
+    {
+      "file": "1969_Koard_inspection_crop.png",
+      "source": "S69",
+      "box_xyxy": [
+        170,
+        407,
+        555,
+        640
+      ],
+      "resize": [
+        1155,
+        699
+      ],
+      "sha256": "c2a4166dc6534cefcb615aad308e482516b76160952aa43b31a273f248189b22"
+    },
+    {
+      "file": "1970_Blobelt_inspection_crop.png",
+      "source": "S70",
+      "box_xyxy": [
+        400,
+        1180,
+        1840,
+        1970
+      ],
+      "resize": null,
+      "sha256": "27adbdb095c2b2833426282640ba2540aab5fc44f5b2e05eefa069d68753505c"
+    },
+    {
+      "file": "1970_upper_plates_seam_detail.png",
+      "source": "S70",
+      "box_xyxy": [
+        700,
+        1180,
+        1370,
+        1500
+      ],
+      "resize": null,
+      "sha256": "b3285cf54f3388d89116ba0531bda13517124a37bfd9096fe35ccec3a7684de1"
+    },
+    {
+      "file": "1984_Junge_inspection_crop.png",
+      "source": "S84",
+      "box_xyxy": [
+        50,
+        468,
+        535,
+        800
+      ],
+      "resize": [
+        970,
+        664
+      ],
+      "sha256": "ca240a31183737325578be86acb9daf08d1dd8089494070870c28dffef7bd0ce"
+    }
+  ]
+}

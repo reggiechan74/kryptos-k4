@@ -1,0 +1,130 @@
+ALEXANDERPLATZ WORLD CLOCK: PRE-1990 EVIDENCE PILOT
+Prepared 22 October 2026. Scope: historical evidence for a Kryptos K4 hypothesis, not a claimed decoding.
+
+RESULT
+41 directly read city-label observations on 10 physical panels, in three disconnected dated photo segments. Literal spelling, physical band and within-panel label order are preserved. This is NOT a complete 1989 inventory. No photograph here establishes the full clock state in 1989.
+
+A defensible reversible mechanical mapping is available at sector level: h = (s + phi) mod 24, with one global phase phi for the entire ring. Its inverse is s = (h - phi) mod 24. Keep the physical band unchanged if it is part of the coordinate. Represent dial 24 as residue 0. This is a constrained model of the clock, not an established A–Z cipher. The observations do not identify a ciphertext-to-city or ciphertext-to-coordinate encoder.
+
+1. DIRECT PHOTOGRAPHIC OBSERVATIONS
+Each segment starts its own local sector 0. Increasing local sector means photo-left to photo-right, NOT an absolute geographic or compass registration. A slash separates successive city labels; it does not mean a physical slash on the clock.
+
+EU1969, source S69: Peter Koard, 3 October 1969.
+  Local 0 upper: LONDON / LISSABON.
+          lower: CASABLANCA / CONAKRY / DAKAR.
+  Local 1 upper: BERLIN, observed as the second label. Other upper labels intentionally not transcribed here.
+          lower: ALGIER / TUNIS.
+  Local 2 upper: BUKAREST / HELSINKI / SOFIA.
+          lower: ANKARA / DAMASKUS / KAIRO.
+  Moving numerals 12, 13, 14 occur in the corresponding visible run. They are exposure-specific readings, not permanent panel identities.
+  Lower-band ANKARA and KAIRO rule out treating lower as a strict southern-hemisphere bit.
+
+AM1970, source S70: Jörg Blobelt, 31 January 1970.
+  Local 0 upper: MONTREAL / WASHINGTON / HAVANNA.
+          lower: BOGOTA / LIMA / QUITO.
+  Local 1 upper: NEW YORK.
+          lower: ASUNCION / CARACAS / LA PAZ / SANTIAGO DE CHILE.
+  Local 2 upper: THULE / HALIFAX.
+          lower: BUENOS AIRES / MONTEVIDEO / RIO DE JANEIRO / SAO PAULO.
+  SANTIAGO DE CHILE spans two printed lines: SANTIAGO then DE CHILE. Row rank in the JSON counts city labels, not baselines; raw_lines preserves this distinction.
+  The moving numerals are shifted across fixed seams: successive plates visibly overlap glyphs 3/4, 4/5, 5/6. Do not round these to permanent integer sector assignments.
+
+AS1984, source S84: Peter Heinz Junge, April 1984; original caption specifies 19 April.
+  Local 0 upper: OMSK / ALMA-ATA / TASCHKENT.
+  Local 1 upper: KRASNOJARSK / NOWOSIBIRSK.
+  Local 2 upper: IRKUTSK / ULAN BATOR.
+          lower: PEKING / SHANGHAI.
+  Local 3 upper: JAKUTSK.
+  Moving numerals 18, 19, 20, 21 run left-to-right. The original frame cuts off much of the lower band. Empty JSON arrays mean untranscribed/unknown, NOT an observed empty panel.
+
+2. REPRODUCIBLE NEW YORK CHECK
+This is a physical placement observation, NOT a declaration that the clock was wrong.
+
+Original S70 resolution: 2329 by 3054 pixels, origin at top left.
+Tight inspection crop: (700,1180) to (1370,1500), saved as 1970_upper_plates_seam_detail.png. No AI enhancement was used; this crop retains original pixels.
+Visible pale seams fall near x=750–765, x=947–956 and x=1153–1166, with slant varying by image height. MONTREAL/WASHINGTON/HAVANNA lie left of the middle seam. NEW YORK lies entirely between the middle and right seams; approximate text box x=995–1110, y=1308–1336. THULE/HALIFAX lie to the right. These seams continue down toward the hour band, so the assignment is not based solely on text centering.
+
+Label reading confidence: high, manual single-reader.
+Relative panel-assignment confidence: high, manual single-reader, rechecked in the tight crop.
+Explanation of the placement: unknown. Do not replace it with a modern civil-timezone assignment. No assertion of unchanged placement in 1989 is justified. A second independent human transcription would strengthen this observation before any consequential cryptographic use.
+
+3. WHAT THE SOURCES CONSTRAIN, AND WHAT THEY DO NOT
+The constructor describes two city rings with 24 panels each, a numbered middle ring rotating once per day, and a simplified planetary ornament rotating as a whole once per minute. Thus 24-sector order and a single shared moving phase have a physical basis. Actual planetary orbital periods do not have a basis in that mechanism. The constructor's general hemisphere description must not override directly visible city placement.
+
+The 12 December 1997 Berliner Zeitung restoration report says 20 city names were added and time-zone assignments were changed, specifically discussing Kyiv relative to Moscow. A 20 December 1997 taz/dpa report also mentions additions and updated names such as St. Petersburg. These support a historical-version barrier; they do NOT supply a complete original inventory or prove that everything stayed unchanged from 1969 to 1989.
+
+Exact underdetermination:
+  - The three photographic runs have no observed overlap in this pilot. Their global relative offsets are not established. No joined 24-sector ring is supplied.
+  - A photograph supplies an exposure-specific moving phase, not Sanborn's intended phase, epoch, traversal, or start point.
+  - The source images do not define how 26 letters map to 24 sectors, or to multiple labels in the same sector.
+  - Several city labels share a sector and band. Selecting a city per letter would add unobserved free choices.
+  - A physical band is a spatial category, not a validated hemisphere bit, cipher bit, or A–M/N–Z divider.
+  - City-label rank versus printed-line rank is a distinct choice when a city wraps across lines.
+  - Exact German labels, accents, spacing, and historical names cannot be silently normalized into modern English forms.
+
+A fully reversible label lookup exists only when the observation's source/segment, sector, physical band and label rank are retained. Collapsing the 41 labels to sector-plus-band produces only 17 distinct cells; collapsing them to sector produces 10. The lost distinctions cannot be recovered by a bare sector shift.
+
+4. EXECUTED PILOT
+Run after extraction: python historical_clock/pilot.py
+Results in pilot_results.json:
+  - 41 observation-identity/label round trips passed.
+  - 1,152 mechanical slot round trips passed: 24 integer phases x 24 sectors x 2 physical bands.
+  - Three segment-local numeral-order consistency checks passed.
+  - Dataset checks enforce no admitted 1989 verification and no invented civil UTC offsets.
+  - K4 trials executed: 0. There is no observation-grounded A–Z encoder to test yet.
+
+The round-trip tests establish implementation consistency, not historical truth and not evidence that K4 uses this mechanism. Fractional phase is allowed physically; the integer checks are deliberately limited software sanity tests.
+
+5. PRECISE NEXT PILOT AND STOP CONDITIONS
+Evidence reconstruction:
+  1. Obtain dated pre-1990 photographs or original drawings that overlap an admitted segment in at least two readable panels. Require visible seams, literal spelling, upper/lower assignment and sufficient numeral context.
+  2. Have a second reader independently transcribe the candidate patch before consulting a modern label list. Resolve disagreements at the pixel/source level; leave unresolved cells unknown.
+  3. Register only matching panel sequences, preserving separate historical versions when labels or placement differ. A 1969/1970/1984 collage must not be labeled a 1989 inventory.
+  4. Promote an actual 1989 candidate only after contemporaneous coverage or documented unchanged state supports every consumed label/position.
+
+Cryptographic pilot, only after an independently motivated encoder is supplied:
+  - Freeze the historical version, spelling normalization, direction, start, band/row rule and alphabet conversion before scoring K4.
+  - Use one global phase, not one phase per character. If phase is unknown, enumerate the explicitly declared global phase set once.
+  - Require a total deterministic encoder and inverse and exact round-trip tests for every symbol consumed.
+  - Do not use missing labels as free variables. Reject or suspend a candidate when it encounters an unsupported cell.
+  - Evaluate a predeclared held-out crib/region and compare against matched null controls. A model chosen to fit one known word must earn support elsewhere.
+
+Stop/suspend conditions:
+  - Stop at this partial evidence artifact when the next claim requires missing panel registration, unverified 1989 continuity, unreadable text, or an invented letter/city selector.
+  - Reject models requiring modern replacements, arbitrary per-letter city choices, independent per-character phases, actual planetary orbital periods, or a hemisphere-bit assumption.
+  - If different admissible source readings change the candidate key, report an unresolved branch; do not choose whichever yields more English.
+  - No decoded-message claim is warranted from this pilot.
+
+6. SOURCE REGISTER AND RIGHTS
+S69: Bundesarchiv Bild 183-E1003-0001-001 / Koard, Peter / CC-BY-SA 3.0 DE.
+https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-E1003-0001-001,_Berlin,_Weltzeituhr_am_Alexanderplatz.jpg
+https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+Current Commons file is a border crop. Local inspection crop is cropped and enlarged only.
+
+S70: Jörg Blobelt / CC BY-SA 4.0.
+https://commons.wikimedia.org/wiki/File:19700131040NR_Berlin_Weltzeituhr_am_Alexanderplatz.jpg
+https://creativecommons.org/licenses/by-sa/4.0/
+Local inspection crops are crops only, with no generative enhancement.
+
+S84: Bundesarchiv Bild 183-1984-1419-014 / Junge, Peter Heinz / CC-BY-SA 3.0 DE.
+https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1984-1419-014,_Berlin,_Weltzeituhr_am_Alexanderplatz.jpg
+https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+Local inspection crop is cropped and enlarged only.
+
+Constructor/mechanism:
+https://kunsch-metallbau.de/referenzen-/weltzeituhr-berlin-alexanderplatz/
+
+Restoration, 12 December 1997:
+https://www.berliner-zeitung.de/article/20-staedtenamen-wurden-bei-der-restaurierung-ergaenzt-frisch-poliert-die-weltzeituhr-dreht-sich-bald-7079
+
+Restoration, 20 December 1997:
+https://taz.de/!1367509/
+
+Rejected candidate S87: Günter Riechert, 1987; Museumsstiftung Post und Telekommunikation, 3.2011.1958.
+https://onlinesammlung.museumsstiftung.de/detail/collection/41512ee6-bec2-4e34-9a1a-80038d957bb9
+Inspected, but the clock is obstructed and its labels washed out. No admitted label. Local copyrighted source image is retained for research only and excluded from the shareable evidence bundle.
+
+All sources retrieved 22 October 2026. Original image URLs, hashes, dimensions, provenance, per-observation confidence fields and source-region coordinates are in historical_clock_evidence.json. Derived crops retain the applicable source license and attribution. The accompanying original analytical report, JSON dataset and pilot code may be reused under CC BY-SA 4.0; separately licensed original photos retain their stated licenses.
+
+PACKAGING NOTE
+The repository-input ZIP contains only original analytical text, JSON data, manifest and pilot code. It contains no third-party photographs or crops. A separate PRIVATE PHOTO REVIEW ZIP carries the three explicitly licensed source photographs and inspection crops with attribution. Do not automatically copy those images into a public repository. NEW YORK geometry must be visually reviewed by the owner before adoption; the single-reader observation is not a historical clock-error claim.

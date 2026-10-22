@@ -1,0 +1,14 @@
+{
+  "status": "PASS: evidence integrity and coordinate round trips only",
+  "label_observations": 41,
+  "disconnected_segments": 3,
+  "observed_sector_cells": 10,
+  "observed_sector_band_cells": 17,
+  "label_to_sector_band_loss": 24,
+  "label_to_sector_loss": 31,
+  "mechanical_integer_phase_roundtrips": 1152,
+  "coordinate_label_roundtrips": 41,
+  "k4_trials_executed": 0,
+  "k4_trial_blocker": "No observationally supported ciphertext-to-city/coordinate encoder; no 1989 inventory; segments have no observed global join.",
+  "interpretation": "The algebra is reversible when phase and physical band are retained. Collapsing many city labels to a panel or panel+band is not invertible. Passing sanity checks is not evidence for a K4 cipher."
+}

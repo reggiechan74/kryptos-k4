@@ -1,0 +1,174 @@
+{
+  "classification": {
+    "train": {
+      "n": 144,
+      "accuracy": 0.9166666666666666,
+      "macro_f1": 0.9154928939778783,
+      "confusion_matrix": [
+        [
+          40,
+          3,
+          5
+        ],
+        [
+          0,
+          48,
+          0
+        ],
+        [
+          4,
+          0,
+          44
+        ]
+      ],
+      "recall": [
+        0.8333333333333334,
+        1.0,
+        0.9166666666666666
+      ]
+    },
+    "test": {
+      "n": 144,
+      "accuracy": 0.8680555555555556,
+      "macro_f1": 0.8686260324350396,
+      "confusion_matrix": [
+        [
+          39,
+          1,
+          8
+        ],
+        [
+          2,
+          46,
+          0
+        ],
+        [
+          8,
+          0,
+          40
+        ]
+      ],
+      "recall": [
+        0.8125,
+        0.9583333333333334,
+        0.8333333333333334
+      ],
+      "source_accuracies": [
+        0.75,
+        0.9166666666666666,
+        0.875,
+        0.8333333333333334,
+        0.9166666666666666,
+        0.9166666666666666
+      ],
+      "source_bootstrap_accuracy_CI95": [
+        0.8194444444444443,
+        0.9097222222222223
+      ],
+      "source_bootstrap_effective_clusters": 6
+    }
+  },
+  "controls": {
+    "PLAINTEXT": {
+      "n": 48,
+      "forced_label_counts": [
+        18,
+        30,
+        0
+      ]
+    },
+    "MONOALPHABETIC": {
+      "n": 48,
+      "forced_label_counts": [
+        18,
+        30,
+        0
+      ]
+    },
+    "CHARACTER_SHUFFLE": {
+      "n": 48,
+      "forced_label_counts": [
+        1,
+        47,
+        0
+      ]
+    },
+    "IID_UNIFORM": {
+      "n": 48,
+      "forced_label_counts": [
+        4,
+        0,
+        44
+      ]
+    }
+  },
+  "null": {
+    "runs": 199,
+    "accuracy_mean": 0.3300530429927414,
+    "accuracy_range": [
+      0.06944444444444445,
+      0.6944444444444444
+    ],
+    "accuracy_q95": 0.5284722222222222,
+    "add_one_p": 0.005,
+    "interpretation": "Conditional toy label-randomization diagnostic, not a p-value about K4 or universal classification. Global label permutation does not model plaintext-source uncertainty."
+  },
+  "K4_forced_label": "EVOLVING_ALPHABET",
+  "K4_synthesis": {
+    "status": "UNSAT",
+    "descriptions_examined": 913952,
+    "counts_by_alphabet": [
+      {
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "after_first_crib": 0,
+        "after_validation": 0
+      },
+      {
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "after_first_crib": 0,
+        "after_validation": 0
+      }
+    ],
+    "parameter_candidates": 0,
+    "distinct_full_plaintexts": 0
+  },
+  "positive_synthesis_counts": [
+    {
+      "case": 0,
+      "parameter_candidates": 39,
+      "distinct_full_plaintexts": 26,
+      "planted_survives": true
+    },
+    {
+      "case": 1,
+      "parameter_candidates": 3,
+      "distinct_full_plaintexts": 2,
+      "planted_survives": true
+    },
+    {
+      "case": 2,
+      "parameter_candidates": 2,
+      "distinct_full_plaintexts": 2,
+      "planted_survives": true
+    },
+    {
+      "case": 3,
+      "parameter_candidates": 3,
+      "distinct_full_plaintexts": 2,
+      "planted_survives": true
+    },
+    {
+      "case": 4,
+      "parameter_candidates": 13,
+      "distinct_full_plaintexts": 13,
+      "planted_survives": true
+    },
+    {
+      "case": 5,
+      "parameter_candidates": 1,
+      "distinct_full_plaintexts": 1,
+      "planted_survives": true
+    }
+  ],
+  "elapsed_seconds": 3.162143150999327
+}
