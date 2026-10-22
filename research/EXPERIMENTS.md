@@ -579,3 +579,18 @@ run was added. Earlier 160-test validation and all result artifacts unchanged.
   913952-description search or a count of globally new models.
 - Exact sources, code/spec commits, immutable results and limitations are in
   [the dated findings addendum](STRATEGY-FOLLOWUP-FINDINGS.md).
+
+
+### Independent followup package replay —22 October
+
+- Three archives/member manifests verified;40original source/result files saved
+  under independent/2026-10-22. All private source photos/crops remain outside repo.
+- Independent four-state audit, its recency decoder and JS oracle agree exactly;
+  no new model cases. Classifier replay reproduces125/144,44/48uniform forced-label
+  warning,all288fixed-key inverses and199label-null values. No K4 posterior.
+- Reviewed local-equation auditor reproduces recurrence candidate/plaintext counts
+  without repeating full enumeration; known prior overlap remains documented.
+- Historical clock replay:41label and1152slot roundtrips; no K4 trial. NEW YORK
+  relative panel placement visually checked, without1989orUTCinference.
+- [Integration findings](INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md);212tests pass.
+  Construction-worker artifact still pending at this stage.

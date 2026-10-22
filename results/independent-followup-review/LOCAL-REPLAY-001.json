@@ -1,0 +1,106 @@
+{
+  "id": "INDEPENDENT-FOLLOWUP-LOCAL-REPLAY-001",
+  "status": "completed",
+  "code_commit": "d10cce2602ceb326a419530c2664a220a3030239",
+  "python": "3.9.6",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "adapter_sha256": "a8dacbc3e27e114b26ede6bcb1da28796118a7ce86e92c2850046ae7d54c3a88",
+  "transfer_receipt_sha256": "7d4abfde2f16e7b6b250023649a3fadd2a54005940912a7c3a0b651303b091c3",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "generate_controls.py"
+      ],
+      "cwd_label": "evolving-alphabet",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "python3",
+        "blind_selector.py"
+      ],
+      "cwd_label": "evolving-alphabet",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "python3",
+        "audit.py"
+      ],
+      "cwd_label": "evolving-alphabet",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/node",
+        "recency_gap_oracle.js"
+      ],
+      "cwd_label": "evolving-alphabet",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "python3",
+        "pilot.py"
+      ],
+      "cwd_label": "historical-clock",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Users/reggiechan-mini/Documents/Codex/2026-10-22/task-2/transfers-20261022/calibration-venv/bin/python",
+        "-c",
+        "import run_calibration as m; m.classification()"
+      ],
+      "cwd_label": "calibration",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Users/reggiechan-mini/Documents/Codex/2026-10-22/task-2/transfers-20261022/calibration-venv/bin/python",
+        "-m",
+        "pip",
+        "freeze"
+      ],
+      "cwd_label": "calibration",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Users/reggiechan-mini/Documents/Codex/2026-10-22/task-2/transfers-20261022/calibration-venv/bin/python",
+        "-c",
+        "import json,numpy as np,run_calibration as m; d=json.loads((m.ROOT/'generated_examples.json').read_text()); n=0; exec('for rows in d[\"data\"].values():\\n for row in rows:\\n  assert np.array_equal(m.decrypt(m.encode(row[\"ciphertext\"]),row[\"label\"],row[\"key\"]),m.encode(row[\"plaintext\"])); n+=1'); assert n==288; print(n)"
+      ],
+      "cwd_label": "calibration",
+      "returncode": 0
+    }
+  ],
+  "received_member_count": 40,
+  "state_deterministic_results_equal": true,
+  "javascript_models_and_all388ranks_equal": true,
+  "clock_results_equal": true,
+  "classification_results_equal": true,
+  "classification_roundtrips": 288,
+  "classifier_test_correct": 125,
+  "classifier_test_n": 144,
+  "uniform_controls_same_forced_K4_label": 44,
+  "uniform_control_n": 48,
+  "classification_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "calibration_environment": [
+    "cloudpickle==3.1.2",
+    "joblib==1.6.0",
+    "numpy==2.3.5",
+    "scikit-learn==1.8.0",
+    "scipy==1.17.0",
+    "threadpoolctl==3.7.0"
+  ],
+  "synthesis_enumeration_replayed": false,
+  "synthesis_reason": "Preserve independent enumeration evidence; exact K4 contradiction certificates locally checked separately. No duplicate search.",
+  "construction_artifact_status": "not yet received at replay",
+  "elapsed_seconds": 2.9766583339999997
+}

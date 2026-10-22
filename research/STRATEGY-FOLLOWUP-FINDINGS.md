@@ -235,3 +235,11 @@ spec's editorial token "whole97?" is a wording error, not an additional gate:
 the same specification explicitly requires 1,133 symbols and forbids K4 input;
 code and results operate on the 1,133-symbol pair only. Frozen specification bytes
 are preserved rather than silently corrected after execution.
+
+
+Subsequent independent-package integration: the classifier preview above is now
+locally replayed, with the same125/144 result and44/48uniform forced-label
+warning. Independent state traces/JavaScript and the partial-clock pilot also
+replay exactly. Original artifacts, full local-equation synthesis-count audit
+and limits are in the [independent integration note](INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md).
+These replications add no novel K4 search cases.
