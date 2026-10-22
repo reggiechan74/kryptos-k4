@@ -243,3 +243,11 @@ warning. Independent state traces/JavaScript and the partial-clock pilot also
 replay exactly. Original artifacts, full local-equation synthesis-count audit
 and limits are in the [independent integration note](INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md).
 These replications add no novel K4 search cases.
+
+
+Final independent construction transfer is now integrated and replayed. Fresh and
+cached source receipts/checks exactly match; second CP transcript and published-row
+coordinates corroborate the earlier local result. The complete integration passes
+222tests. All four agreed tracks are complete to their stated gates; source/data
+limits remain explicit. See the [final integration addendum](INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md).
+The proposed5071edit sensitivity arm remains unrun.

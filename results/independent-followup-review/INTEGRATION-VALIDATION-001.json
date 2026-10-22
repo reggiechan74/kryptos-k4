@@ -1,0 +1,18 @@
+{
+  "id": "INDEPENDENT-FOLLOWUP-INTEGRATION-VALIDATION-001",
+  "python": "3.9.6",
+  "command": "python3 -m unittest discover -s tests -v",
+  "tests_run": 222,
+  "failures": 0,
+  "elapsed_seconds": 9.056,
+  "source_artifact_packages": 4,
+  "received_original_files": 49,
+  "construction_offline_tests_included": 7,
+  "canonical_k4_and_controls_byte_identical_to": "725b81fc1bd89eaccc1c9135396765ef4f69ea46",
+  "private_source_images_committed": false,
+  "source_pages_or_caches_committed": false,
+  "proposed_edit_sensitivity_variants_executed": 0,
+  "full_recurrence_enumeration_repeated": false,
+  "network_tests_required_for_regression": false,
+  "independent_clock_k4_trials": 0
+}

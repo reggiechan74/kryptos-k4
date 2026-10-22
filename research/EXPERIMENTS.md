@@ -594,3 +594,18 @@ run was added. Earlier 160-test validation and all result artifacts unchanged.
   relative panel placement visually checked, without1989orUTCinference.
 - [Integration findings](INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md);212tests pass.
   Construction-worker artifact still pending at this stage.
+
+
+### Final independent construction integration —22 October
+
+- Final archive/member manifest verified;9original files added separately,49total
+  independent-original files retained across four packages. No pages/photos/caches.
+- Fresh retrieval and offline replay match all five original source hashes and
+  derived checks. Both corrupted-input controls reject. CP1133pair hashes match
+  earlier local replay; second published ciphertext transcript agrees exactly.
+- Source row22,column33 identifies semantic start778, not panel boundary566.
+  K2 intendedletter362 reconciles retainedcharacter365 via3questionmarks.
+- All222offline regressions pass, including7original construction controls.
+  Proposed5071sensitivity variants remain unrun; canonicalK4unchanged.
+- [Final integration report](INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md): bounded
+  four-track batch complete, no K4 lead; clock's specific data/operator limits remain.

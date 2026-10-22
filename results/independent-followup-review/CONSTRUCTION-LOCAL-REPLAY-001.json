@@ -1,0 +1,21 @@
+{
+  "id": "CONSTRUCTION-INDEPENDENT-LOCAL-REPLAY-001",
+  "status": "completed",
+  "python": "3.9.6",
+  "archive_sha256": "3816c7421088e7aea3aa2736abf3e2bd5abd2594617debbba884842d49ce1885",
+  "original_member_manifest_verified": true,
+  "offline_tests": 7,
+  "fresh_and_offline_checks_equal_original": true,
+  "fresh_and_offline_source_receipts_equal_original": true,
+  "corrupted_inputs_rejected": {
+    "corrupted_CP_transcript": "Published CP ciphertext transcripts differ.",
+    "corrupted_K4_reference": "Canonical source differs: inspect; never silently replace."
+  },
+  "sensitivity_variants_executed": 0,
+  "source_cache_outside_repository": true,
+  "script_sha256": "0baafd12518fd216616a740246cee9511417535ed16b97491076e024b9dc4596",
+  "raw_local_outputs": {
+    "local-fresh.json": "d685b3a66b67fc9fb3aa36b8a1717142465bf0f8a63d287571cadf94eadd0a0f",
+    "local-offline.json": "eafc5c6315fa1bc3651e11e76b807c1d430e54b1f5b69f9588cf2e50cabdb1c5"
+  }
+}

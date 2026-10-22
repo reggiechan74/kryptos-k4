@@ -2,8 +2,9 @@
 
 22 October 2026. Supplements [the locally frozen batch](STRATEGY-FOLLOWUP-FINDINGS.md),
 without replacing its chronology or inflating new search counts. No K4 lead.
-Construction-worker transfer remains pending at this integration stage; the locally
-replayed Cyrillic Projector result is already in the earlier findings.
+The initial three-package stage recorded construction as pending; the completion
+addendum below now resolves that dependency. All four independent tracks are
+reviewed and integrated, with no new K4 search scope.
 
 ## Transfer and review
 
@@ -136,3 +137,59 @@ integration should preserve original worker outputs separately from all local
 replay/audit records and retain the same absence of a K4 solution claim.
 
 Integration regression validation: **212 tests passed in 9.097 seconds**.
+
+
+## Final construction integration and bounded-batch completion
+
+The final 20,068-byte archive matched SHA-256
+`3816c7421088e7aea3aa2736abf3e2bd5abd2594617debbba884842d49ce1885`.
+Its nine original files and member manifest are preserved separately under
+[construction](../independent/2026-10-22/construction/README.md), with a
+[separate transfer receipt](../independent/2026-10-22/CONSTRUCTION-TRANSFER-RECEIPT.json).
+The earlier forty-file receipt and all original worker results remain unchanged.
+Across the four packages, **49 original files** are retained.
+
+Reviewed standard-library code ran in a fresh scratch copy. All seven original
+offline controls passed; fresh public retrieval and cached replay produced
+identical derived checks and five source-byte receipts, exactly matching the
+worker result. Corrupting the second CP transcript was rejected; changing canonical
+K4's reference was also rejected. No downloaded pages, images, cache or full artwork
+fixtures were admitted to the public repository.
+
+The separately extracted second CP transcript agrees with the first on all1,133
+normalized Cyrillic symbols. Plaintext/ciphertext hashes also match our previous
+local replay exactly. This is cross-publication corroboration of a transcript,
+not independent photographs of an original object. The published row layout puts
+symbol777 at row22,column32 and778 at row22,column33, with the semantic restart
+inside that line. The panel boundary is after566. None establishes a physical
+omission, and semantic initialization must not be conflated with panel/line resets.
+
+K2's unique omitted intended ciphertext letter is362,S, after361observed letters.
+The three preceding question marks explain character365 in the retained layout.
+That exactly reconciles the worker's alphabet-only coordinate with our earlier
+fixture coordinate. The worksheet O/S/E versus carved U/S/R local equivalence
+also checks numerically at K2 letter115; the already retained worksheet image was
+privately re-viewed, without asserting the time or cause of the discrepancy.
+The complete worksheet was not transcribed anew.
+
+[Fresh derived result](../results/independent-followup-review/CONSTRUCTION-FRESH-REPLAY-001.json),
+[cached derived result](../results/independent-followup-review/CONSTRUCTION-OFFLINE-REPLAY-001.json),
+[local validation](../results/independent-followup-review/CONSTRUCTION-LOCAL-REPLAY-001.json).
+The full regression suite, including these seven offline controls and new
+integrity/alignment guards, passed **222 tests in9.056seconds**. Network retrieval
+remains opt-in and is not part of ordinary regression tests.
+
+The worker's5,071raw single-edit variants, including the unchanged baseline, are
+**proposed and unrun**. The arithmetic count is checked; no K4 variant generation,
+scoring, canonical edit or reset sweep occurred. All agreed tracks now have a
+replayed bounded result or a precise evidential limit. The clock remains blocked
+from cryptanalytic application by historical registration/1989coverage and the
+absent A–Z encoder, not by an execution failure. The original recurrence exhaustive
+search and timeout-control enumeration were preserved rather than rerun; its
+local-equation auditor, planted counts and exact contradiction certificates were
+verified independently. Nothing unreplayed is presented as a fresh local run.
+
+This bounded batch is complete. Next work needs a separately frozen, independently
+motivated constraint; neither the forced classifier label nor the construction
+anomalies justify an adaptive expansion. Main, the public Site and persistent
+authentication/security configuration remain outside this change.

@@ -49,3 +49,13 @@ The local visual review confirms NEW YORK between the specified panel seams in
 the 1970 image, without inferring a civil-time error or unchanged1989placement.
 The construction worker's separate artifact was not yet received at this integration
 stage; the existing locally replayed CP result remains independently documented.
+
+
+## Final construction package
+
+The fourth package is now received and verified: [construction](construction/README.md),
+nine original files under a [separate receipt](CONSTRUCTION-TRANSFER-RECEIPT.json),
+with no changes to the original forty-file receipt. Fresh and cached source audits
+match the original results exactly; its seven offline controls now run in the main
+regression suite. Source cache stays outside the checkout. The proposed5,071variant
+sensitivity arm is unrun. See the [completed integration report](../../research/INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md).

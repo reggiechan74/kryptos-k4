@@ -1,0 +1,19 @@
+{
+  "python_version": "3.12.14",
+  "unit_tests": {
+    "run": 7,
+    "failures": 0,
+    "command": "python3 -m unittest -v"
+  },
+  "historical_regression": {
+    "fresh_network_retrieval": "PASS",
+    "offline_cached_replay": "PASS",
+    "fresh_and_cached_source_byte_hashes_equal": true,
+    "fresh_and_cached_derived_checks_equal": true
+  },
+  "negative_input_controls": {
+    "altered_cp_transcript_rejected": "Published CP ciphertext transcripts differ.",
+    "altered_canonical_k4_rejected": "Canonical source differs: inspect; never silently replace."
+  },
+  "third_party_full_text_or_images_bundled": false
+}

@@ -1,0 +1,49 @@
+{
+  "id": "CONSTRUCTION-INDEPENDENT-TRANSFER-20261022",
+  "archive_name": "kryptos-construction-audit-2026-10-22.zip",
+  "archive_bytes": 20068,
+  "archive_sha256": "3816c7421088e7aea3aa2736abf3e2bd5abd2594617debbba884842d49ce1885",
+  "transport": "Supported Library materialization and returned signed GET; all returned xattrs applied. No URLs or completion tokens retained.",
+  "safe_paths": "Regular members only, traversal/absolute/backslash/symlink/duplicate rejection; CRC verified;5MB expanded cap.",
+  "received_files": {
+    "construction/.gitignore": {
+      "bytes": 46,
+      "sha256": "de7e583634464a4cbed55c1d56081b7eb25ca3db447c094c5982833718dd6df2"
+    },
+    "construction/MANIFEST.json": {
+      "bytes": 1564,
+      "sha256": "0b758115ab4d4a2fd140f5085b94d01d8a8d1ae8dac9594702c6bce22a47589a"
+    },
+    "construction/README.md": {
+      "bytes": 2748,
+      "sha256": "68fb3a6adaed8ce77181a7799fbd9355dfcc1a9034ed7f2dec79c05b06058343"
+    },
+    "construction/REPORT.md": {
+      "bytes": 17232,
+      "sha256": "15b87d1b724c9adcfcc454d3935d289f4a1a54bfa93555be01e8c5cbfa656c8c"
+    },
+    "construction/audit_construction.py": {
+      "bytes": 13033,
+      "sha256": "0baafd12518fd216616a740246cee9511417535ed16b97491076e024b9dc4596"
+    },
+    "construction/construction_audit_results.json": {
+      "bytes": 4765,
+      "sha256": "282bb45af675b31a16f55d624a04674cc43c76cf04754e7dcbcbcd9e09b278d1"
+    },
+    "construction/derived_alignment_facts.json": {
+      "bytes": 2822,
+      "sha256": "474a0ae2c2fb709c27f8e0a812bfc7810946fb559f8841fcb5898ea029828556"
+    },
+    "construction/test_audit_construction.py": {
+      "bytes": 2029,
+      "sha256": "562ef93305b5a06a203c153649206e25da49797f4cd62290b7033e94df3db2a9"
+    },
+    "construction/validation_receipt.json": {
+      "bytes": 616,
+      "sha256": "30f8f82b032d62a46d443765be9b4c6f7625c4dcfebd7151c5bc40ef049eeb5d"
+    }
+  },
+  "member_manifest_verified": true,
+  "code_inspected_before_execution": true,
+  "excluded": "No downloaded pages, images, cache, full artwork fixtures, bytecode or archives included."
+}
