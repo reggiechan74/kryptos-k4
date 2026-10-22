@@ -270,3 +270,27 @@ The earlier unrun/deferred statuses are superseded by
 - The provisional K3-derived two-stage route family is NOT implemented. Existing
   ROUTE-001 covers both component widths and periods 8/10, but exact composite
   overlap must await the full route definition and reference control.
+
+## K3 and 24-sector route families — completed 22 October 2026
+
+The full parent-frozen route definition arrived after the earlier provisional
+status. [K3-CLOCK-ROUTES-001](K3-CLOCK-ROUTE-FINDINGS.md) completed once:
+
+- H-K3-COMPOSITE-PERIODIC: U14 after U42 reproduces all 336 canonical K3 letters
+  and the existing position permutation. Its 97-position permutation is new to
+  the old catalogue. All four period-8/10, unrestricted-key, additive KRYPTOS
+  single-layer-order cases fail already within the first crib.
+- H-K3-SANDWICH: both period pairs (8,10)/(10,8) fail graph cycle constraints.
+  c_train=5, c_all24=1, c_full=1 in both cases; first-crib training has zero
+  cycle checks and four plaintext-relevant free offsets. There are seven joint
+  held-out compatibility checks, only one/two individually predictable Berlin
+  edges, all failing. Actual compatible keys and plaintexts are zero.
+- H-CLOCK-24-ROUTE: 96 distinct routes / 384 raw structures; sixteen cases are
+  exact prior equivalents in route, key domain, period, equation, alphabet and
+  layer order and were skipped. All 368 new cases fail. No sandwich was skipped
+  on the basis of a one-layer prior result.
+- All 374 new structures rejected; no null simulations needed or run. No K4
+  plaintext candidate, worldwide novelty, optical or Site claim. The public
+  sources motivate the number 24, not the ragged route grammar.
+- Full suite: 187 tests pass, including independent certificate/skip audits.
+  No width/period/direction/layer was added after the results.

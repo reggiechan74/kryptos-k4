@@ -231,3 +231,12 @@ The four artifact tests independently audit the existing saved results.
 [feedback manifest](../results/asymmetric-feedback-001-runs/20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea/manifest.json),
 [coordinate result](../results/split-coordinate-001-runs/20261022T192126Z-2ff96ae3a6914cab8db6cd9c0c7ceb5c/SPLIT-COORDINATE-001.json),
 [coordinate manifest](../results/split-coordinate-001-runs/20261022T192126Z-2ff96ae3a6914cab8db6cd9c0c7ceb5c/manifest.json).
+
+## Subsequent frozen-route batch — 22 October 2026, 19:32 UTC
+
+The complete K3-derived/clock route definitions arrived and the earlier overlap
+check recommendation was completed. Sixteen full-domain prior equivalents were
+skipped; all 374 new structures were rejected. The
+[K3/clock findings](K3-CLOCK-ROUTE-FINDINGS.md) record the verified K3 reference,
+gauge-aware sandwich counts, exact certificates, controls and 187-test validation.
+This updates the earlier provisional status without changing its results.

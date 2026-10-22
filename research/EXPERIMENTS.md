@@ -490,3 +490,34 @@ run was added. Earlier 160-test validation and all result artifacts unchanged.
   [validation receipt](../results/CONTINUATION-VALIDATION.json). Both bounded
   families rejected; no solution. Next: compare fully specified forthcoming
   K3-derived composite route against existing 66 permutations before any new run.
+
+## K3-CLOCK-ROUTES-001 — 22 October 2026, 19:32 UTC
+
+- Initial clean state e83624f on research/dynamic-key-20261022. Local work only.
+- Score-free preflight: U14 after U42 matches all 336 K3 fixture letters, exact
+  existing K3 permutation and separate matrix oracle. Saved ROUTE-001 catalogue
+  matches all 66 current routes. T97 is absent; four clock routes match old IDs
+  R036/R040/R038/R042. Complete unrestricted-key plus/KRYPTOS period and layer
+  domains verified before skipping their sixteen exact structures.
+- Specification dcb246cdd997ecd2f0b4f3a4c536ca65d8a47a14, then implementation
+  9ea6b35f46a43374839096a7ac39594df94656ca, then one actual command:
+  `python3 experiments/k3_clock_routes.py --spec-commit dcb246cdd997ecd2f0b4f3a4c536ca65d8a47a14`.
+- 390 raw structures, 16 prior-equivalent skips, 374 newly tested structures.
+  F1 four single-key cases rejected; F2 two sandwich cases rejected; F3 all 368
+  new 24-sector cases rejected. No compatible keys/plaintexts or new English.
+- Both sandwich training graphs are forests: 18 vertices, 13 edges, five
+  components, zero checks, four plaintext-relevant offsets. All-crib graphs
+  c=1, full graphs d=1; seven joint held-out checks. Frozen training individually
+  predicts only one/two Berlin edges, all fail. Cycle witnesses give residuals
+  5/2 modulo 26; inconsistent cases have zero assignments despite exponent c-d=0.
+- Runtime .071886 s under 30 s; no null simulations for wholly contradicted
+  families. No additional parameter, Site edit, optical experiment or remote push.
+- Controls: 372 single-key planted inverses/mutations, two sandwich inverses/cycle
+  mutations, five exhaustive base-3 graph cases / 1,215 key assignments, gauge,
+  isolates, offset joins, parallel edges, independent K3 oracle and baseline controls.
+- Independent artifact audit verifies all 372 exact slot witnesses, both cycle
+  sums/component counts, unknown cross-component predictions, prior-domain skip
+  receipts, consulted hashes and chronology. Full suite: 187 pass, 8.941 s.
+- Snapshot: results/k3-clock-routes-001-runs/20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca/.
+- [Findings and exact rejected scope](K3-CLOCK-ROUTE-FINDINGS.md);
+  [validation](../results/K3-CLOCK-ROUTES-VALIDATION.json). No solution.

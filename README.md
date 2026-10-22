@@ -223,3 +223,10 @@ primer, and all 32 distinct split-coordinate routes fail. One first-crib feedbac
 fit predicts only 2/11 Berlin letters without refitting. Complete shuffled-family
 controls show no useful support. Final validation: 174 tests pass. No new
 plaintext, solution, optical conclusion or public Site change is claimed.
+
+[Frozen K3/24-sector route batch](research/K3-CLOCK-ROUTE-FINDINGS.md):
+the two-stage route reproduces all 336 K3 letters; sixteen exact full-domain
+prior cases were skipped. All 374 new single-key/sandwich/clock structures fail
+confirmed cribs. Both sandwich training fits have zero cycle checks and four
+free plaintext offsets; Berlin supplies seven joint checks and contradicts them.
+No candidate or null simulation. Final suite: 187 tests pass; local-only work.
