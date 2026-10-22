@@ -1,0 +1,26 @@
+{
+  "run_id": "20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11",
+  "started_at_utc": "2026-10-22T12:10:01.334882+00:00",
+  "label": "PLAINTEXT-STEP-001",
+  "status": "completed",
+  "specification": {
+    "commit": "37bc4bf1635089d51f361f33bfd771b691e836fa",
+    "file": "research/specifications/PLAINTEXT-STEP-001.json",
+    "sha256": "2f57e155111536027f54025765b0f620f4e2031b2e62de2c7452bee40493e13e",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [
+    {
+      "experiment": "PLAINTEXT-STEP-001",
+      "status": "completed",
+      "deadline_seconds": 15
+    }
+  ],
+  "artifacts": {
+    "PLAINTEXT-STEP-001.json": {
+      "sha256": "5a528c8a32a7f3fffb41df8ea4dd5b0e15933bc16d6fcade46122ef0937fee43",
+      "bytes": 54274
+    }
+  },
+  "finished_at_utc": "2026-10-22T12:10:01.439299+00:00"
+}

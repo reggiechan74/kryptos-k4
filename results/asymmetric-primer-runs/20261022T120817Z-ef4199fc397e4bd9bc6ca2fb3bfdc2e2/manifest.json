@@ -1,0 +1,26 @@
+{
+  "run_id": "20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2",
+  "started_at_utc": "2026-10-22T12:08:17.094398+00:00",
+  "label": "ASYMMETRIC-PRIMER-001",
+  "status": "completed",
+  "specification": {
+    "commit": "2d23dab6bbe773aa7d00de699834ce4df5bc446d",
+    "file": "research/specifications/ASYMMETRIC-PRIMER-001.json",
+    "sha256": "3f088b36ff4688895fad94c9bea644499967b7055029f2867716bcbf4b17ea2c",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [
+    {
+      "experiment": "ASYMMETRIC-PRIMER-001",
+      "status": "completed",
+      "deadline_seconds": 15
+    }
+  ],
+  "artifacts": {
+    "ASYMMETRIC-PRIMER-001.json": {
+      "sha256": "4999e48201888786205e8ae220e89708d6cc89ebb3d3f83336f044193456e007",
+      "bytes": 37470
+    }
+  },
+  "finished_at_utc": "2026-10-22T12:08:17.163153+00:00"
+}

@@ -208,3 +208,11 @@ and 96 fixed ciphertext-triggered extra-step cases all contradict the cribs.
 147 suite tests plus three saved-certificate audits pass. Three distinct
 mechanisms are ranked, with asymmetric-alphabet feedback recommended next after
 prior-art scope review. No new plaintext or solution is claimed.
+
+[Fixed asymmetric-feedback and plaintext-step pilots](research/FIXED-PILOT-FINDINGS.md)
+complete this batch: all six literal PALIMPSEST feedback models and twelve
+plaintext-triggered step models fail the cribs. The six-model best score is
+5/24 with conditional shuffle tail .015, but it fails 19 confirmed letters and
+is rejected. Final full suite: 160 tests pass. The broader arbitrary-primer
+audit remains registered but unrun; no score-driven parameter expansion or
+solution claim follows.

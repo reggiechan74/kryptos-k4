@@ -416,3 +416,33 @@ at verification time; no visibility mutation was performed by this executor.
 - Report, exact scopes, three ranked mechanisms and next experiment:
   [DYNAMIC-KEY-FINDINGS.md](DYNAMIC-KEY-FINDINGS.md). No geographic retest.
 - Saved run: results/dynamic-key-runs/20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0/.
+
+## ASYMMETRIC-PRIMER-001 and PLAINTEXT-STEP-001 — 2026-10-22
+
+- Verified selected pinned prior-art gaps by static source reads: Barney
+  plaintext-autokey predecessor threshold excludes lag 10; Scott P2 executes
+  through lag 7. Local complete proof assumes one shared alphabet.
+- ASYMMETRIC-FEEDBACK-001 specification 56b2919 is deferred/unrun. Parent supplied
+  narrower fixed pilot before implementation or scores, registered separately.
+- Six-case spec 2d23dab6bbe773aa7d00de699834ce4df5bc446d; implementation
+  74792b65bc2f591f99e94ac06df52b727444e5d7. PALIMPSEST, lag 10, addition,
+  independent Ap/Ac/Ak in AZ/KRYPTOS excluding all-equal triples. No fitted keys.
+  All six outputs fail, scores 1,1,0,1,1,5/24. 199 whole-family shuffled controls,
+  seed 20261024, 1,200 evaluations, .067 seconds; plus-one tail .015.
+  The best fails 19 known letters; tail is exploratory, not a recovered candidate.
+- Twelve-case spec 37bc4bf1635089d51f361f33bfd771b691e836fa; implementation
+  ea210bd (full SHA in result). Three words x two alphabets x two PT-trigger
+  classes, initial cursor 0 and 1/2 after-plaintext extra steps. Zero candidates;
+  best 3/24. 199 whole-family shuffled controls, seed 20261025, 2,400 evaluations,
+  .102 seconds; plus-one tail .54. No score-based expansion.
+- Asymmetric controls: 4,056 exhaustive symbol cases, six full planted messages
+  and altered-crib rejections, 48 numeric-oracle comparisons. PT-step controls:
+  2,600 symbol/key-phase cases, twelve planted recoveries/rejections, 96 oracles.
+- Original baseline/K1-K3 controls pass. Independent artifact audit re-encodes
+  every actual output character, verifies hashes/chronology and null accounting.
+- Final full suite: 160 tests pass, 8.876 seconds. No errors/failures.
+- Findings/ranking/scopes: [FIXED-PILOT-FINDINGS.md](FIXED-PILOT-FINDINGS.md).
+- Saved runs: results/asymmetric-primer-runs/20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2/
+  and results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/.
+  Both completed exactly once after specification and code commits.
+- No remote operation; prior experiments/results remain unchanged.

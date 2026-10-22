@@ -208,3 +208,20 @@ this part is a controlled local replication, not a new mechanism or a threshold
 coverage gap. Four first-crib fits fail Berlin with only 0–1 of 11 matches.
 199 whole-family shuffled controls provide no useful excess of crib agreement.
 No model fits all 24 known letters; no solution or new plaintext is claimed.
+
+## Fixed feedback/stepping outcomes — 2026-10-22
+
+- H-ASYMMETRIC-FEEDBACK: ASYMMETRIC-PRIMER-001 tests precisely six AZ/KRYPTOS
+  role triples, PALIMPSEST, lag 10, addition; zero candidates. Scores
+  1,1,0,1,1,5 out of 24. The best still fails 19 confirmed letters. Its six-model
+  conditional shuffle tail .015 is exploratory and does not change rejection.
+- H-PLAINTEXT-EXTRA-STEP: PLAINTEXT-STEP-001 tests three fixed words, two
+  alphabets, vowel/consonant after-plaintext steps of 1/2: twelve cases, zero
+  candidates, best 3/24, whole-family conditional shuffle tail .54.
+- Alongside the earlier ciphertext-driven step mechanism these supply three
+  distinct tested mechanisms. Progressive remains known prior-art replication.
+- ASYMMETRIC-FEEDBACK-001, the registered 72-case arbitrary-primer design, was
+  superseded for execution by the narrower parent-supplied pilot before code or
+  scoring. It remains DEFERRED/UNRUN; no general autokey-family exclusion follows.
+- Updated ranked interpretation, controls and exact scopes:
+  [FIXED-PILOT-FINDINGS.md](FIXED-PILOT-FINDINGS.md). No solution is claimed.

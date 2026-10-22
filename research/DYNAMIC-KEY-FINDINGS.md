@@ -172,3 +172,12 @@ unchanged. A new run is unnecessary to audit these results.
 [atomic manifest](../results/dynamic-key-runs/20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0/manifest.json).
 The next recommended experiment is the narrowly defined asymmetric-feedback
 constraint audit, after checking the parent's forthcoming exact prior-art scope.
+
+## Subsequent fixed pilots — 22 October 2026
+
+The asymmetric-feedback recommendation above was subsequently tested in a
+separate six-case PALIMPSEST/lag-10/addition pilot; all six cases fail. A final
+12-case plaintext-driven extra-step pilot also fails. The separate
+[fixed-pilot findings](FIXED-PILOT-FINDINGS.md) record complete outputs, controls,
+prior-art gaps, shuffle diagnostics and the updated ranking. The broader
+72-case arbitrary-primer specification remains deferred and unrun.

@@ -1,0 +1,17 @@
+{
+  "experiments": [
+    "ASYMMETRIC-PRIMER-001",
+    "PLAINTEXT-STEP-001"
+  ],
+  "status": "passed",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v",
+  "tests": 160,
+  "seconds": 8.876,
+  "python": "3.9.6",
+  "suite_log_sha256": "31d60b279ba0870f2ebaacc42e4e55d09fae5988729cd3defe00a3d39feb9094",
+  "runs": [
+    "20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2",
+    "20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11"
+  ],
+  "scope": "Full suite includes the original dynamic-key artifacts and new independent per-symbol fixed-pilot artifact checks. No repeated experimental search."
+}
