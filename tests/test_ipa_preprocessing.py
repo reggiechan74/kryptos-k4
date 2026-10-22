@@ -62,6 +62,35 @@ class IPAPreprocessingTests(unittest.TestCase):
         self.assertFalse(injective_first((0,0,4),AZ))
         self.assertFalse(injective_first((AZ.index('I'),3,4),AZ))
 
+    def test_first_crib_negative_and_phase_staging(self):
+        r=json.loads((ROOT/'results/IPA-PREPROCESSING-001.json').read_text())
+        self.assertEqual(r['mapping_independent_periods']['rejected'],[1,2,3,4,5,6,7,9,10])
+        self.assertEqual(r['mapping_independent_periods']['not_contradicted'],[8,11,12])
+        for m in (8,11,12):
+            d=r['mapping_independent_periods']['pair_diagnostics'][str(m)]
+            self.assertEqual((d['repeated_IPA_pairs'],d['repeated_ciphertext_pairs']),(0,0))
+        self.assertEqual((r['ordinary_anchor_rejected_structures'],r['non_anchor_modular_rejected_structures']),(47,1))
+        self.assertEqual(r['relaxed_training_survivor_structures'],0)
+        self.assertEqual(r['actual_alias_assignments_enumerated'],0)
+        extra=[row for row in r['rows'] if not row['fixed_ordinary_anchor_conflicts']]
+        self.assertEqual([(x['alphabet'],x['equation'],x['period']) for x in extra],[('AZ','add',10)])
+        self.assertEqual(extra[0]['modular_constraints'][0]['rhs'],13)
+        self.assertEqual((-extra[0]['modular_constraints'][1]['rhs'])%26,11)
+        for row in r['rows']:
+            self.assertFalse(row['second_window_evaluated'])
+            self.assertEqual(row['relaxed_alias_assignment_count'],0)
+            for conflict in row['fixed_ordinary_anchor_conflicts']:
+                self.assertTrue(all(22<=i<=34 for i in conflict['positions']))
+            equations=row['modular_constraints']
+            for field in row['relaxed_solution_space']['fields']:
+                if field['consistent']:continue
+                q=field['prime'];cert=field['contradiction'];weights=cert['equation_weights']
+                self.assertTrue(all(sum(w*e['coefficients'][i] for w,e in zip(weights,equations))%q==0 for i in range(3)))
+                self.assertEqual(sum(w*e['rhs'] for w,e in zip(weights,equations))%q,cert['rhs'])
+                self.assertNotEqual(cert['rhs'],0)
+        import hashlib
+        for path,digest in r['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
+
     def test_control_receipt_truth_inclusion_and_ambiguity(self):
         r=json.loads((ROOT/'results/IPA-PREPROCESSING-001-controls.json').read_text())
         self.assertEqual(r['plant_count'],48)
