@@ -200,3 +200,11 @@ remain separate, source-qualified hypotheses with no optical search.
 synthetic recovery cases and preserves original/transformed crib distinctions.
 The mask is lossy. Its periods 1–12 arithmetic models inherit existing first-crib
 contradictions: 144 saved witnesses, **no new K4 key search**. All 133 tests pass.
+
+[Stateful key continuation](research/DYNAMIC-KEY-FINDINGS.md), 22 October 2026:
+1,248 progressive-cycle cases (known prior art, controlled local replication)
+and 96 fixed ciphertext-triggered extra-step cases all contradict the cribs.
+199 whole-family shuffled controls show no useful excess of crib agreement.
+147 suite tests plus three saved-certificate audits pass. Three distinct
+mechanisms are ranked, with asymmetric-alphabet feedback recommended next after
+prior-art scope review. No new plaintext or solution is claimed.

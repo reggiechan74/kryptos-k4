@@ -1,0 +1,26 @@
+{
+  "run_id": "20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0",
+  "started_at_utc": "2026-10-22T12:01:28.661039+00:00",
+  "label": "DYNAMIC-KEY-001",
+  "status": "completed",
+  "specification": {
+    "commit": "4f0c056ee633828e88af89f9f6e066cf250a3606",
+    "file": "research/specifications/DYNAMIC-KEY-001.json",
+    "sha256": "075fca9b080d0c7ded5520d3e487319cd16ed55e815a0fad31f5b19324cd31ba",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [
+    {
+      "experiment": "DYNAMIC-KEY-001",
+      "status": "completed",
+      "deadline_seconds": 60
+    }
+  ],
+  "artifacts": {
+    "DYNAMIC-KEY-001.json": {
+      "sha256": "5c079abb244f014910106260a5d68ccc97e4210257f31f3c6a7a26e19a5e0c23",
+      "bytes": 864237
+    }
+  },
+  "finished_at_utc": "2026-10-22T12:01:32.902143+00:00"
+}

@@ -193,3 +193,18 @@ construction restriction or new confirmed evidence; see the strategy note.
 keys 1–12 are contradicted by the 13 distinct required keys at positions 22–34.
 No claim about nonperiodic/OTP keys, longer periods, other tables or added layers.
 Historical creator use and authentic repeated-key doctrine are unestablished.
+
+## Stateful key continuation — 2026-10-22
+
+[DYNAMIC-KEY-001](DYNAMIC-KEY-FINDINGS.md) ranks three distinct mechanisms:
+H-ASYMMETRIC-FEEDBACK (unrun; next priority, explicitly reindexes feedback across
+independent alphabets), H-CIPHERTEXT-EXTRA-STEP (96 finite configurations rejected),
+and H-AFFINE-DIGRAPH (unrun; pair coupling with explicit odd-edge rule). Their
+models, controls and falsification gates are recorded in the findings.
+
+The same run rejected 1,248 progressive-cycle configurations. Subsequent pinned
+source inspection identified direct progressive prior art in cokernel.py/gap1.py;
+this part is a controlled local replication, not a new mechanism or a threshold
+coverage gap. Four first-crib fits fail Berlin with only 0–1 of 11 matches.
+199 whole-family shuffled controls provide no useful excess of crib agreement.
+No model fits all 24 known letters; no solution or new plaintext is claimed.

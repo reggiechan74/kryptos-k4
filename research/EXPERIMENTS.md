@@ -391,3 +391,28 @@ at verification time; no visibility mutation was performed by this executor.
 - Controls and 118 tests pass; 0.003 seconds action time under 5 seconds cap; no randomness. Stable proof replay and artifact hash checked.
 - Snapshot `results/silk-periodic-runs/20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1/`; [validation](../results/SILK-PERIODIC-VALIDATION.json).
 - Stop at fixed-chart, direct period 1–12 scope; no historical doctrine or whole-family exclusion.
+
+## DYNAMIC-KEY-001 — stateful key continuation, 2026-10-22
+
+- Inspected active repository at 6af8caa, clean main; no applicable AGENTS.md.
+  New local branch research/dynamic-key-20261022; no remote operations.
+- Specification commit 4f0c056ee633828e88af89f9f6e066cf250a3606 precedes code
+  11bc39f705ed24d1d591f0746f8217d78d39bb6f and the one actual run.
+- Command: `python3 experiments/dynamic_key.py --spec-commit 4f0c056ee633828e88af89f9f6e066cf250a3606`.
+- Result: 1,248 progressive-cycle and 96 ciphertext vowel/consonant extra-step
+  configurations rejected; zero compatible/candidate cases. Four progressive
+  first-crib survivors predict only 0–1/11 Berlin letters. Best same-data agreement
+  is 14/24 in each family. No partial fit is treated as evidence of decoding.
+- 199 histogram-preserving whole-family shuffles, seed 20261022; 268,800 total
+  evaluations, 4.228 seconds under 60-second cap. Conditional plus-one tails:
+  progressive 1.00, extra-step .56, combined 1.00. Exploratory, no historic p-value.
+- Controls: 288 independent sequential roundtrips, 288 planted compatible models,
+  288 mutated-constraint rejections; manual examples and toy exhaustive key scores.
+- Full suite: 147 passing tests in 8.705 seconds. Added afterward: three passing
+  artifact audits in .097 seconds, including every contradiction and saved hash.
+- After run, static pinned cokernel.py/gap1.py inspection confirms progressive
+  prior art, not new invention or a threshold-gap closure. Corrected interpretation
+  preserves unchanged specification/results. No third-party code executed.
+- Report, exact scopes, three ranked mechanisms and next experiment:
+  [DYNAMIC-KEY-FINDINGS.md](DYNAMIC-KEY-FINDINGS.md). No geographic retest.
+- Saved run: results/dynamic-key-runs/20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0/.
