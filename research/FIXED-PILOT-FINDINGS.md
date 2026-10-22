@@ -171,3 +171,56 @@ decoded plaintext.
 
 [Asymmetric result](../results/asymmetric-primer-runs/20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2/ASYMMETRIC-PRIMER-001.json),
 [plaintext-step result](../results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/PLAINTEXT-STEP-001.json).
+
+## H-SPLIT-COORDINATE-ROUTES — unrun, low evidence
+
+Documentation-only addition, 22 October 2026. This independent next hypothesis
+was supplied by the parent's researcher after the completed batch. **No code,
+K4 decoding, score, null run or result exists for it. Global novelty is unproved.**
+It is a lower-evidence alternative to the registered asymmetric-feedback audit,
+not a conclusion supported by the preceding partial scores.
+
+Map each letter's zero-based AZ or KRYPTOS index into a fixed row-major grid,
+either 2 rows x 13 columns or 13 rows x 2 columns. The row coordinate and column
+coordinate form two separate 97-symbol streams. Define R_w by filling 97 cells
+left-to-right, top-to-bottom in a ragged rectangle of width w, then reading
+top-to-bottom by columns left-to-right, skipping holes. Its inverse is the exact
+inverse permutation on those same 97 occupied cells. Apply width 7 to one
+coordinate stream and width 21 to the other, or swap their assignments; choose
+forward or inverse independently for each stream. Recombine the resulting row
+and column coordinates through the same unchanged alphabet/grid.
+
+The proposed catalog has **32 formal cases**: 2 width assignments x 4 independent
+forward/inverse combinations x 2 grid shapes x 2 alphabets. Actual distinct
+transformations must be checked and any duplicates reported before execution.
+There is no padding, arbitrary shift, fitted alphabet, extra substitution or key
+search. The component ranges remain valid under their separate permutations.
+
+This differs from whole-letter transposition because independently re-pairing
+coordinates can change the letter histogram, so the existing literal-permutation
+letter-count rejection does not automatically apply. It also differs from the
+previous 2x13 modular-addition proposal: the operation here is two independent
+coordinate permutations, not arithmetic on a letter or coordinate index. This
+is a mechanistic distinction, not evidence for use in K4. Widths 7 and 21 come
+from **postselected diagnostics, not independently confirmed cipher clues**.
+
+Proposed falsification: require all 24 known plaintext positions exactly and full
+97-character regeneration. Reject each precise case on a confirmed mismatch;
+partial crib scores never establish decoding. Before a K4 run, commit a separate
+finite specification and verify all 32 planted inverse/roundtrip controls against
+an independently implemented position-permutation oracle. Use 199
+histogram-preserving shuffled-ciphertext runs, rescanning the whole declared
+family and saving the maximum crib score; report correlated cases, resolution
+1/200 and selection/multiple-testing limits. No such tests were performed here.
+
+Source context, read through web PDF text extraction on 22 October 2026:
+[Friedman, Military Cryptanalysis Part IV](https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/military-cryptanalysis/mil_crypt_IV.pdf),
+1941, PDF page 55 (zero-based 54), discusses fractionation into components within
+combined substitution/transposition systems; and
+[LANAKI Lesson 17](https://www.cryptogram.org/downloads/LANAKI%20Crypto%20Lessons/LESSON17.pdf),
+PDF pages 23-24, illustrates coordinate-based Bifid fractionation. The latter is
+dated 9 September 1996, after Kryptos's installation, and is explanatory context
+rather than evidence of what its creators used. These references support the
+general coordinate/fractionation concept, **not this exact 32-case recipe, a
+Sanborn/Scheidt link or a claim of new cryptography**. No full-document reading
+or independent historical-method verification is claimed.

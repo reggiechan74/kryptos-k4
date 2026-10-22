@@ -446,3 +446,12 @@ at verification time; no visibility mutation was performed by this executor.
   and results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/.
   Both completed exactly once after specification and code commits.
 - No remote operation; prior experiments/results remain unchanged.
+
+## Documentation-only proposal — 2026-10-22
+
+Recorded H-SPLIT-COORDINATE-ROUTES in the hypothesis log and fixed-pilot findings:
+32 formal independent row/column coordinate-route cases, explicitly unrun and
+low evidence; global novelty unproved. Added parent-supplied Friedman/LANAKI
+references after targeted PDF text inspection, with historical/source limitations.
+No implementation, specification for execution, K4 scores, null controls or test
+run was added. Earlier 160-test validation and all result artifacts unchanged.

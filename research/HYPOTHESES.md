@@ -225,3 +225,25 @@ No model fits all 24 known letters; no solution or new plaintext is claimed.
   scoring. It remains DEFERRED/UNRUN; no general autokey-family exclusion follows.
 - Updated ranked interpretation, controls and exact scopes:
   [FIXED-PILOT-FINDINGS.md](FIXED-PILOT-FINDINGS.md). No solution is claimed.
+
+## H-SPLIT-COORDINATE-ROUTES — proposed, unrun
+
+Low-evidence coordinate-fractionation hypothesis: AZ/KRYPTOS letters become
+row/column pairs in fixed row-major 2x13 or 13x2 grids. Independently route the
+two 97-coordinate streams through ragged row-fill/column-read permutations of
+widths 7 and 21, either assignment and forward/inverse independently; recombine.
+32 formal cases, with equivalence/deduplication still to verify. No padding,
+shifts, fitted alphabet or extra substitution. Unlike whole-letter permutation,
+independent coordinate re-pairing can change letter counts; unlike 2x13 modular
+addition, this is separate stream routing. Widths 7/21 are postselected diagnostics,
+not independent clues. Global novelty and creator use are unproved.
+
+Proposed gates: all 24 confirmed letters, full97 regeneration, 32 independently
+verified planted inverse controls and 199 whole-family shuffled maxima, under a
+new committed specification before any execution. **No experiment or score.**
+Source context and exact scope are documented in the
+[unrun proposal](FIXED-PILOT-FINDINGS.md#h-split-coordinate-routes--unrun-low-evidence):
+[Friedman Part IV](https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/military-cryptanalysis/mil_crypt_IV.pdf)
+and [LANAKI Lesson 17](https://www.cryptogram.org/downloads/LANAKI%20Crypto%20Lessons/LESSON17.pdf).
+The 1996 lesson is explanatory, post-installation context; neither source
+establishes the exact proposed recipe or a Kryptos connection.
