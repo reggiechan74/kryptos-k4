@@ -1,0 +1,17 @@
+{
+  "experiment": "OCCUPIED-CELL-ROUTES-001",
+  "status": "passed",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v",
+  "tests": 195,
+  "elapsed_seconds": 9.135,
+  "python": "3.9.6",
+  "suite_log_sha256": "a7f4b407302a7cfed02591041580a5ae863755057ff27324f74ff077dd7354a2",
+  "run": "20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845",
+  "spec_commit": "29bf8e997b0290f56366ad27a7adb52a50ccb1b9",
+  "code_commit": "6cc4b0d4b0d71002a55d59bd07a96c7d7ebe0332",
+  "actual_new_branches": 288,
+  "prior_skips": 0,
+  "all_rejected": true,
+  "null_simulations": 0,
+  "verification": "Full regression suite, independent per-symbol output and mask/coverage audit, and direct comparison of independent sandwich pairs with previous unchanged saved equations. No repeated actual experiment."
+}

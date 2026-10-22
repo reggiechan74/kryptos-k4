@@ -256,3 +256,23 @@ audit this result without repeating any search, run `test_k3_clock_artifacts.py`
 
 [Full result, routes, constraints and graph certificates](../results/k3-clock-routes-001-runs/20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca/K3-CLOCK-ROUTES-001.json),
 [atomic manifest](../results/k3-clock-routes-001-runs/20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca/manifest.json).
+
+## Independent direct contradictions — 22 October 2026, later cross-check
+
+The parent's independent reviewer supplied simpler two-edge certificates, which
+were compared to our unchanged saved equations and match exactly. Plaintext and
+ciphertext positions below are one-based; key residues are zero-based:
+
+- (8,10): P32=A routes to C44=S, requiring **a7+b3=25**; P64=B routes to
+  C94=K requires **the same a7+b3=18**. Impossible modulo 26.
+- (10,8): P29=T routes to C2=B, requiring **a8+b1=4**; P69=N routes to
+  C66=P requires **the same a8+b1=10**. Impossible.
+- Also (10,8): P30=H routes to C16=L, requiring **a9+b7=3**; P70=C routes
+  to C80=X requires **the same a9+b7=15**. Impossible.
+
+These pairs expose the failures without trusting graph traversal or cycle-basis
+choice. They agree with the previously saved longer cycle certificates. The
+reviewer independently reports all six K3-derived negatives and 384 raw clock
+negatives/positive controls; these are cross-checks, not additional novel search
+counts. Our sixteen prior-equivalent skips remain unchanged. A separate later
+[occupied-cell pilot](OCCUPIED-CELL-FINDINGS.md) tests 288 additional fixed branches.

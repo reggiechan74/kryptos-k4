@@ -521,3 +521,28 @@ run was added. Earlier 160-test validation and all result artifacts unchanged.
 - Snapshot: results/k3-clock-routes-001-runs/20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca/.
 - [Findings and exact rejected scope](K3-CLOCK-ROUTE-FINDINGS.md);
   [validation](../results/K3-CLOCK-ROUTES-VALIDATION.json). No solution.
+
+## OCCUPIED-CELL-ROUTES-001 — 22 October 2026, 19:39 UTC
+
+- Separate from completed K3/clock batch at 7b13316714b6fa40fd118c30b0e311fe0819beb5.
+- Score-free fixture/coverage check: OBKR columns 28–31 then three full 31-letter
+  rows, exact 97-letter baseline; eight routes distinct and absent from original 66 and
+  newer 97-route catalogues. Full prior key domains/layer orders checked; no skips.
+- Specification 29bf8e997b0290f56366ad27a7adb52a50ccb1b9, then implementation
+  6cc4b0d4b0d71002a55d59bd07a96c7d7ebe0332, then one actual run:
+  `python3 experiments/occupied_cell_routes.py --spec-commit 29bf8e997b0290f56366ad27a7adb52a50ccb1b9`.
+- 288 raw/exact unique new fixed branches: 8 routes x 18 literal phased keys x 2 orders.
+  All reject all-24 gate; max 5/24, no lead. Zero fitted parameters per branch.
+  Full outputs tagged rejected_model_output. Runtime .092467 s under 15 s cap.
+- No null simulation needed/run for entirely contradicted family; no p-value.
+- Controls:288 planted full/crib recoveries,288 altered-crib negatives,288 independent
+  explicit encoders,8 unique-index cell-oracle/inverse checks,676 symbol controls.
+- Independent artifact audit re-encodes all 27,936 output letters, checks every
+  score/signature, fixed mask, coverage, hashes/chronology and previous independent
+  simple sandwich certificates. Full suite: 195 pass, 9.135 s; earlier results intact.
+- Parent reviewer reports independent all 336 K3 matches, six K3 negatives/positives
+  and 384 raw clock negatives/positives. Attributed corroboration only; do not add
+  these as novel-search coverage. Our 16 prior skips remain 16.
+- [Findings](OCCUPIED-CELL-FINDINGS.md), [validation](../results/OCCUPIED-CELL-VALIDATION.json).
+  Snapshot results/occupied-cell-routes-001-runs/20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845/.
+- Local-only, no Site change, no new optical claim, no expanded parameters/families.

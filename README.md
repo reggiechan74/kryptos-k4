@@ -230,3 +230,9 @@ prior cases were skipped. All 374 new single-key/sandwich/clock structures fail
 confirmed cribs. Both sandwich training fits have zero cycle checks and four
 free plaintext offsets; Berlin supplies seven joint checks and contradicts them.
 No candidate or null simulation. Final suite: 187 tests pass; local-only work.
+
+[Separate occupied-cell fixed-key pilot](research/OCCUPIED-CELL-FINDINGS.md):
+all 288 predefined mask/route/word/phase/layer branches fail the exact cribs.
+Best 5/24 still fails 19 known letters; no lead or null simulation. The eight
+routes were checked against both prior catalogues before testing. Final suite:
+195 tests pass. The carved-text mask supplies no surveyed optical geometry.

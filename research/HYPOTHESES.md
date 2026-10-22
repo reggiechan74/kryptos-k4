@@ -294,3 +294,15 @@ status. [K3-CLOCK-ROUTES-001](K3-CLOCK-ROUTE-FINDINGS.md) completed once:
   sources motivate the number 24, not the ragged route grammar.
 - Full suite: 187 tests pass, including independent certificate/skip audits.
   No width/period/direction/layer was added after the results.
+
+## H-OCCUPIED-CELL-FIXED — completed separate pilot, 22 October 2026
+
+Verified K4 text mask: OBKR in first-row columns 28–31, three full 31-character
+rows afterward. Eight columnwise/inverse routes are absent from both prior
+route catalogues, so no unrestricted-key prior negative covers them. The eight
+routes with PALIMPSEST/ABSCISSA, all eighteen phases, both layer orders yield
+288 exact unique fixed branches; all rejected, best 5/24 fails 19 known letters.
+No fitted keys or null simulation. This is textual occupancy, not surveyed
+physical geometry; row-prefix cells are excluded from K4, not missing copper.
+[Findings](OCCUPIED-CELL-FINDINGS.md) preserve exact scope and full outputs.
+Final regression suite: 195 tests pass. No new family added after scores.
