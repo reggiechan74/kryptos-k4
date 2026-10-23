@@ -15,7 +15,7 @@ class HypothesisRegisterTests(unittest.TestCase):
     def test_unique_ids_fields_status_and_legacy_retention(self):
         text,current,sections=self.sections()
         ids=[i for i,_ in sections]
-        self.assertEqual(len(ids),55)
+        self.assertEqual(len(ids),56)
         self.assertEqual(len(ids),len(set(ids)))
         referenced=set(re.findall(r'\bH-[A-Z][A-Z0-9-]*',current))-{'H-PHONETIC-RESP'}
         self.assertTrue(referenced<=set(ids),referenced-set(ids))
@@ -29,7 +29,7 @@ class HypothesisRegisterTests(unittest.TestCase):
                 self.assertEqual(set(fields),{'Status','Mechanism','Evidence','Tested scope','Untested scope','Missing inputs','Next discriminating test','Dependencies','Results'})
                 self.assertIn(fields['Status'],statuses)
                 self.assertTrue(all(v.strip() for v in fields.values()))
-                self.assertIn(f'| [{i}](#{i.lower()}) |',current)
+                self.assertIn(f'| [{i}](#{i.lower()}) | {fields["Status"]} |',current)
 
     def test_reference_paths_and_specific_scope_boundaries(self):
         _,current,sections=self.sections();records=dict(sections)

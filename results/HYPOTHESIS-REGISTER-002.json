@@ -1,0 +1,19 @@
+{
+  "kind": "source integration and protocol readiness; no new K4 evaluation",
+  "entries": 56,
+  "statuses": {
+    "evidence-blocked": 14,
+    "specified but not run": 3,
+    "untested": 5,
+    "narrow negative": 22,
+    "non-identifiable": 6,
+    "analytical exclusion": 6
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "91bc3f2c8fb54d02cd3ea910c08097e696977cbfd8eb0868db1d7c1480f294b1"
+  },
+  "supersedes_status_index": "results/HYPOTHESIS-REGISTER-001.json",
+  "evidence": "results/LODESTONE-COMPASS-EVIDENCE-INTEGRATION-001.json",
+  "protocol": "research/CONDITIONAL-FACE-LAMP-SPEC.md",
+  "actual_pilots": "not run; awaiting parent protocol review"
+}

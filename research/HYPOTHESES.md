@@ -8,7 +8,7 @@ proofs and finite tests have separate scope; compatibility is not a solution.
 
 This section is the current status index within the existing hypothesis log; the historical entries below remain a dated research record. Where a historical heading says “unrun”, this section and its linked final results supersede that status. Experiment execution details remain in [EXPERIMENTS.md](EXPERIMENTS.md). This is not a worldwide novelty claim. Stable IDs must not be reused for a different mechanism. H-PHONETIC-RESPelling was an earlier prose spelling of H-PHONETIC-RESPELLING, not a second hypothesis.
 
-The three physical proposals are gated on the incoming deep source review. No compass, optical or celestial K4 trial is authorized to proceed without that review and a separately frozen, justified protocol. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
+The deep source review has now been read and integrated. Its [evidence synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md) confirms navigation context but supplies no surveyed bearing, calibrated shadow mechanism or dated celestial observation. Those physical claims remain evidence-blocked; the separately frozen conditional pilots are not measurements. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
 
 ### Status vocabulary
 
@@ -25,12 +25,13 @@ The three physical proposals are gated on the incoming deep source review. No co
 | --- | --- | --- |
 | [H-COMPASS-REVERSE](#h-compass-reverse) | evidence-blocked | ENE may denote the direction of travel while the observed object faces WSW, or conversely. |
 | [H-COMPASS-FRAMES](#h-compass-frames) | evidence-blocked | Treat engraved north, a physical needle, local lodestone attraction and true north as distinct coordinate frames. |
+| [H-CARVED-ROW-REFLECTION](#h-carved-row-reflection) | specified but not run | One uncovered carved-row reflection with periodic arithmetic. |
 | [H-GLYPH-VIEW](#h-glyph-view) | evidence-blocked | Viewing the rear can mirror glyph outlines independently of reversing the order in which positions are read. |
 | [H-OPTICAL](#h-optical) | evidence-blocked | Calibrated aperture/illumination/reflection selection of letter information. |
 | [H-SHADOW-TIME](#h-shadow-time) | evidence-blocked | A source-fixed shadow direction or observation time supplies a key or reading instruction. |
 | [H-CELESTIAL-ALTITUDE](#h-celestial-altitude) | evidence-blocked | An independently dated celestial observation supplies altitude/time material rather than a fitted astronomical coincidence. |
 | [H-CLOCK-HISTORICAL](#h-clock-historical) | evidence-blocked | Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping. |
-| [H-LAMP-MENGENLEHRE](#h-lamp-mengenlehre) | untested | Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns. |
+| [H-LAMP-MENGENLEHRE](#h-lamp-mengenlehre) | specified but not run | Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns. |
 | [H-GREEK-PHONETIC](#h-greek-phonetic) | evidence-blocked | Render English speech approximately with sourced Greek graphemes before an outer cipher. |
 | [H-LAMP-GREEK](#h-lamp-greek) | untested | A declared ordering of 24 lamp fields might index Greek symbols or generate key material. |
 | [H-TREE-STATEFUL](#h-tree-stateful) | narrow negative | Letters or geometry fragments walk a tree and update cipher state carried between letters. |
@@ -86,9 +87,9 @@ The three physical proposals are gated on the incoming deep source review. No co
 - Evidence: [source or scoped prior review](HYPOTHESES.md#geographic-branches-and-extraction-gate); historical availability or user proposal does not establish creator use.
 - Tested scope: Existing fountain/clock bearings and landmark-axis inventory are descriptive; no compass decoder.
 - Untested scope: An independently anchored reverse-bearing extraction.
-- Missing inputs: Pending deep compass/lodestone review; fixed origin, target and interpretation.
+- Missing inputs: Deep review complete; fixed origin, target, true-north registration and interpretation remain missing.
 - Next discriminating test: Check bearing reciprocity and explicit facing/travel conventions using source-identified objects before any letter extraction.
-- Dependencies: Source review from parent; H-COMPASS-FRAMES; H-GEO-ENE
+- Dependencies: Completed source review plus missing frame measurements; H-COMPASS-FRAMES; H-GEO-ENE
 - Results: [retained evidence and finite coverage](HYPOTHESES.md#geographic-branches-and-extraction-gate); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-COMPASS-FRAMES
@@ -98,10 +99,22 @@ The three physical proposals are gated on the incoming deep source review. No co
 - Evidence: [source or scoped prior review](../docs/scott-sun-geometry-audit-2026-10-22.md); historical availability or user proposal does not establish creator use.
 - Tested scope: Geometry/heading audit finds no surveyed reconstruction; no independent magnetic calibration.
 - Untested scope: Any measured conversion between the four frames.
-- Missing inputs: Pending deep source review; orientation measurements, instrument placement and epoch-dependent magnetic context.
+- Missing inputs: Deep review complete; orientation measurements, instrument placement and epoch-dependent magnetic context remain missing.
 - Next discriminating test: Build a source-tagged frame diagram and only test a transformation fixed by independent measurements.
-- Dependencies: Parent source review; no arbitrary declination or fitted angular offset
+- Dependencies: Completed source review plus independent frame measurements; no arbitrary declination or fitted angular offset
 - Results: [retained evidence and finite coverage](../docs/scott-sun-geometry-audit-2026-10-22.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-CARVED-ROW-REFLECTION
+
+- Status: specified but not run
+- Mechanism: Reverse letters within the actual four carved K4 rows, then combine with one periodic arithmetic layer in either order.
+- Evidence: CIA opposite-face description motivates a conditional reading operation but does not prescribe sequence reversal; [source synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md).
+- Tested scope: Permutation/domain coverage only: 768 aliases, 372 canonical models, 280 already covered by ROUTE-001, 92 new. No actual K4 scoring in this audit.
+- Untested scope: The 92 new unrestricted-key horizontal-row models in FACE-ROW-001.
+- Missing inputs: Parent protocol review before actual evaluation; physical interpretation remains hypothetical rather than surveyed.
+- Next discriminating test: Fit the first 13 disclosed letters with exact phase constraints, then predict all eleven Berlin letters from fully fixed keys and require complete regeneration; [frozen protocol](CONDITIONAL-FACE-LAMP-SPEC.md).
+- Dependencies: H-GLYPH-VIEW; source review is complete; no new glyph identities, padding, shifted indices, dates or bearings.
+- Results: [Exact coverage records](../results/FACE-ROW-001-COVERAGE.json); this is not a K4 negative result yet.
 
 ### H-GLYPH-VIEW
 
@@ -112,7 +125,7 @@ The three physical proposals are gated on the incoming deep source review. No co
 - Untested scope: A photographed, face-specific physical reading convention.
 - Missing inputs: Source-supported viewpoint, text face, aperture contours and distinction between reflection and order reversal.
 - Next discriminating test: Verify a fixed known K1–K3 photograph with an explicitly declared mirror/order operation before applying a K4 transformation.
-- Dependencies: Parent physical-source review; H-OPTICAL; canonical transcript cannot be edited to fit
+- Dependencies: Completed physical-source review plus remaining independent input gates; H-OPTICAL; canonical transcript cannot be edited to fit
 - Results: [retained evidence and finite coverage](../docs/scott-sun-geometry-audit-2026-10-22.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-OPTICAL
@@ -124,7 +137,7 @@ The three physical proposals are gated on the incoming deep source review. No co
 - Untested scope: A surveyed, aperture-aware optical decoder validated against independent photographs.
 - Missing inputs: Four-sheet surfaces/seams, aperture contours, true heading, receiver geometry, obstacles, water/window normals and independently timed camera calibration.
 - Next discriminating test: Fit non-K4 physical features in one photograph and predict withheld features/view; fail the calibration gate before selecting projected letters if residuals are unacceptable.
-- Dependencies: Parent physical-source review; H-COMPASS-FRAMES; H-GLYPH-VIEW; no fitted date, heading or receiver chosen from attractive K4 output.
+- Dependencies: Completed physical-source review plus remaining independent input gates; H-COMPASS-FRAMES; H-GLYPH-VIEW; no fitted date, heading or receiver chosen from attractive K4 output.
 - Results: [Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); no surveyed optical K4 decoding result exists.
 
 ### H-SHADOW-TIME
@@ -136,7 +149,7 @@ The three physical proposals are gated on the incoming deep source review. No co
 - Untested scope: A calibrated shadow-to-symbol pipeline.
 - Missing inputs: Surveyed heading/geometry, dated independent observation, receiver and unique extraction rule.
 - Next discriminating test: Validate a known-time photograph on non-K4 features with withheld geometry, then assess the fixed extraction.
-- Dependencies: Parent physical-source review; H-COMPASS-FRAMES; H-OPTICAL
+- Dependencies: Completed physical-source review plus remaining independent input gates; H-COMPASS-FRAMES; H-OPTICAL
 - Results: [retained evidence and finite coverage](../docs/seasonal-light-source-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-CELESTIAL-ALTITUDE
@@ -148,7 +161,7 @@ The three physical proposals are gated on the incoming deep source review. No co
 - Untested scope: An independent observation-to-key model, including reflected or shadow paths.
 - Missing inputs: Authenticated object/date/time/site/horizon and a justified encoding; approximate conjunction interpolation is not an observation.
 - Next discriminating test: Reproduce only an independently specified observation and test withheld event data before cipher fitting.
-- Dependencies: Parent source review; distinguish altitude, azimuth and date; no date sweep
+- Dependencies: Completed source review; distinguish altitude, azimuth and date; no date sweep
 - Results: [retained evidence and finite coverage](../docs/inauguration-dedication-astronomy.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-CLOCK-HISTORICAL
@@ -165,21 +178,21 @@ The three physical proposals are gated on the incoming deep source review. No co
 
 ### H-LAMP-MENGENLEHRE
 
-- Status: untested
+- Status: specified but not run
 - Mechanism: Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns.
-- Evidence: [source or scoped prior review](K3-CLOCK-ROUTE-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Evidence: Modern supplier [functional description](https://www.berlin-uhr.com/) confirms 4/4/11/4 rows and blinking top indicator. Historical availability and user interest do not override the confirmed World Clock referent.
 - Tested scope: No dedicated lamp experiment found in the current audit; 24-sector routes and geometric radix feedback are different finite mechanisms.
 - Untested scope: Explicit lamp-to-key or framed invertible bridge with declared progression.
-- Missing inputs: Primary ordering/color/seconds convention, sampling schedule and a non-arbitrary mapping into the ciphertext domain.
-- Next discriminating test: Proposed representation-only control: verify H=5a+b and M=5c+d, c=0..11, and roundtrip all valid hour/minute plus seconds-parity states; no K4 trial until a bridge is independently specified.
-- Dependencies: Source review; 1 seconds + 4 five-hour + 4 one-hour + 11 five-minute + 4 one-minute fields; not ordinary positional base 5
+- Missing inputs: Historical creator linkage remains absent. Bit order and one-minute sampling are explicitly our conditional assumptions, now fixed before evaluation; no color or polarity tuning.
+- Next discriminating test: [LAMP-STREAM-001](CONDITIONAL-FACE-LAMP-SPEC.md) fixes a binary lamp-state key generator, minute progression and 11,520 starting-phase/alphabet/equation descriptions; await protocol review before actual evaluation.
+- Dependencies: Source review complete; 1 seconds + 4 five-hour + 4 one-hour + 11 five-minute + 4 one-minute fields; not ordinary positional base 5
 - Results: [retained evidence and finite coverage](K3-CLOCK-ROUTE-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-GREEK-PHONETIC
 
 - Status: evidence-blocked
 - Mechanism: English speech is rendered approximately using Greek graphemes, then encrypted; speech sounds are not English or Greek letter names.
-- Evidence: User-proposed extension; [existing language-layer boundaries](../docs/language-and-alphabet-layers.md). A linguistically sourced mapping is being prepared, not yet frozen or tested.
+- Evidence: User-proposed extension; [existing language-layer boundaries](../docs/language-and-alphabet-layers.md). Arvaniti (1999), [Standard Modern Greek](https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/7/103192/files/2024/08/Arvaniti-StandardModernGreek-1999.pdf), is supplied linguistic context; no standardized English-to-Greek encoder is established. The approximate ΙΣΤ ΝΟΡΘΙΣΤ example has only ten Greek letters, not thirteen English positions.
 - Tested scope: No Greek phonetic preprocessing experiment. The fixed Cambridge-US IPA tests do not implement Greek graphemes; IPA theta alone is not this hypothesis.
 - Untested scope: A source-fixed Greek transcription and independently specified outer cipher.
 - Missing inputs: Modern versus ancient Greek, target accent and sound inventory, digraphs, stress/normalization, global lengths/alignment and explicit ambiguity or non-injective spelling recovery.
@@ -435,7 +448,7 @@ The three physical proposals are gated on the incoming deep source review. No co
 - Tested scope: Frozen inventory axis analysis is descriptive/post-hoc; chance alignments are not evidence of intent.
 - Untested scope: Independent historic footprints and a unique geographic-to-key extraction.
 - Missing inputs: Independent origin/endpoint/rule, historic geometry and source rationale.
-- Next discriminating test: Review the incoming source report; do not repeat axis counts or select a landmark from the scored map.
+- Next discriminating test: Use the completed source report and an independent extraction rule; do not repeat axis counts or select a landmark from the scored map.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
 - Results: [retained evidence and finite coverage](LANDMARK-AXIS-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 

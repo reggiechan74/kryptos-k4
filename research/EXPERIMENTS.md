@@ -763,3 +763,29 @@ The previously completed 104-setting tree pilot is linked as a narrow negative;
 future topology/state rules need a separate equivalence audit, framing/inverse,
 full-message state treatment and preregistration. Machine/book/nonlinear ideas
 remain source/specification-gated; an unrestricted OTP is non-identifiable.
+
+
+## FACE-ROW-001 / LAMP-STREAM-001 — source-gated conditional protocols
+
+The deep evidence synthesis and three source dossiers were materialized, hash-
+verified, read locally and preserved unchanged. [Integration receipt](../results/LODESTONE-COMPASS-EVIDENCE-INTEGRATION-001.json).
+The [protocol](CONDITIONAL-FACE-LAMP-SPEC.md) was frozen in 3eeb0b1 before any
+new K4 evaluation. Parent review is pending; both actual pilots remain unrun.
+
+FACE-ROW-001 coverage only: 768 orientation aliases reduce to 372 distinct full
+model signatures. 280 are covered by the retained ROUTE-001 negatives; 92
+horizontal carved-row cases remain new. [Complete coverage](../results/FACE-ROW-001-COVERAGE.json),
+reproduced by `python3 experiments/face_row_coverage.py`, reads previous results
+and never scores actual K4 ciphertext. Every new training phase is observed
+under either layer order, so no absent key entry may be guessed.
+
+LAMP-STREAM-001 proposes exactly 11,520 fixed lamp-state phase/alphabet/equation
+descriptions, not a free wiring or historical time fit. The modern supplier's
+row-count description is a source for representation only. Binary field weights
+and one-minute character sampling are declared conditional design choices.
+Mengenlehreuhr is distinct from the confirmed World Clock. No Greek label map,
+source date, surveyed bearing or historical city list is inferred.
+
+The current register now has 56 stable entries, with physical claims still
+blocked on missing independent measurements and Greek transcription still
+missing a complete codec. [Current readiness receipt](../results/HYPOTHESIS-REGISTER-002.json).

@@ -112,3 +112,13 @@ multiplicity. Berlin is publicly known and historically used, not untouched data
 No adaptive variants or additional parameters after negatives. Physical frame,
 shadow, celestial, historical city extraction, lamp/Greek and Greek phonetic
 models remain distinct entries and are not eliminated by these pilots.
+
+### Pre-evaluation feasibility annotation
+
+Recorded after the initial freeze, before K4 comparison: every non-seconds bit
+has even positional weight, while the seconds bit remains p under minute
+sampling. Therefore every lamp key satisfies K_i mod2=p. A varying required-key
+parity inside a known window would exclude every start minute at once. Check
+this necessary condition before expensive phase enumeration. This observation
+changes no model, domain or acceptance rule; if it rejects the family, count
+an analytical exclusion rather than claiming 11,520 new independent searches.
