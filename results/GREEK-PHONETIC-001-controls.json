@@ -1,0 +1,2824 @@
+{
+  "specification_commit": "7bc893f",
+  "source_sha256": {
+    "research/GREEK-SIGABA-CANDIDATE-SPEC.md": "76ae8697658b14364808fcc4e17e9094782f424f9f147b1cdd498502229351d4",
+    "data/greek-phonetic-v1.json": "559d494751631410eb4bcd1a813777643fd1fba356346d9b3c384f297ad95cb3",
+    "experiments/greek_phonetic_candidate.py": "e7c58acd7c848e508cebb207c1bace01c13ec53b817bcbd36f6633c00db80fc6",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
+    "data/ipa-cambridge-us-v1.json": "82617c33dc8ce03e46fe6dc56b247c3019b7f32718bbb0ae757e75f2497fb1a1"
+  },
+  "controls": {
+    "plants": [
+      {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 1,
+        "true_key": [
+          9
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 1,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 2,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 3,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 5,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 7,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 2,
+        "true_key": [
+          9,
+          16
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 2,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 3,
+        "true_key": [
+          9,
+          16,
+          23
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 3,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              9,
+              16,
+              23,
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 4,
+        "true_key": [
+          9,
+          16,
+          23,
+          4
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              9,
+              16,
+              23,
+              4
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 5,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 5,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              9,
+              16,
+              23,
+              4,
+              11
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 6,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 7,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 7,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 8,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 9,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6,
+          13
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6,
+              13
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 10,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6,
+          13,
+          20
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "plus",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6,
+              13,
+              20
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 1,
+        "true_key": [
+          9
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 1,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 2,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 3,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 5,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 7,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 2,
+        "true_key": [
+          9,
+          16
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 2,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 3,
+        "true_key": [
+          9,
+          16,
+          23
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 3,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              9,
+              16,
+              23,
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 4,
+        "true_key": [
+          9,
+          16,
+          23,
+          4
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              9,
+              16,
+              23,
+              4
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 5,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 5,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              9,
+              16,
+              23,
+              4,
+              11
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 6,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 7,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 7,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 8,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 9,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6,
+          13
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6,
+              13
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 10,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6,
+          13,
+          20
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "AZ",
+            "equation": "beaufort",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6,
+              13,
+              20
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 1,
+        "true_key": [
+          9
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 1,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 2,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 3,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 5,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 7,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 2,
+        "true_key": [
+          9,
+          16
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 2,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 3,
+        "true_key": [
+          9,
+          16,
+          23
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 3,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              9,
+              16,
+              23,
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 4,
+        "true_key": [
+          9,
+          16,
+          23,
+          4
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              9,
+              16,
+              23,
+              4
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 5,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 5,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              9,
+              16,
+              23,
+              4,
+              11
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 6,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 7,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 7,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 8,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 9,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6,
+          13
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6,
+              13
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 10,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6,
+          13,
+          20
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "plus",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6,
+              13,
+              20
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 1,
+        "true_key": [
+          9
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 1,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 2,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 3,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 5,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 7,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 2,
+        "true_key": [
+          9,
+          16
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 2,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16,
+              9,
+              16
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 3,
+        "true_key": [
+          9,
+          16,
+          23
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 3,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              9,
+              16,
+              23,
+              9,
+              16,
+              23
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 4,
+        "true_key": [
+          9,
+          16,
+          23,
+          4
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 4,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              9,
+              16,
+              23,
+              4
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 5,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 5,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          },
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              9,
+              16,
+              23,
+              4,
+              11
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 6,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 6,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 7,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 7,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 8,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 8,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 9,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6,
+          13
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 9,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6,
+              13
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 10,
+        "true_key": [
+          9,
+          16,
+          23,
+          4,
+          11,
+          18,
+          25,
+          6,
+          13,
+          20
+        ],
+        "true_starts": [
+          8,
+          56
+        ],
+        "truth_retained": true,
+        "compatible": [
+          {
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort",
+            "period": 10,
+            "first_start": 8,
+            "second_start": 56,
+            "key": [
+              9,
+              16,
+              23,
+              4,
+              11,
+              18,
+              25,
+              6,
+              13,
+              20
+            ],
+            "greek_plaintext": "ΑΒΓΔΕΖΗΙΣΤΝΟΡΘΙΣΤΣΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑΒΓΔΕΖΗΜΠΕΡΛΙΝΚΛΑΚΤΥΦΧΨΩΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΑ",
+            "plaintext_sha256": "e72d04c51929f6bc6c399db8ec5a1f1f8bf72a067fcc6905a239d5155255fa3d",
+            "full_regeneration": true
+          }
+        ],
+        "distinct_full_Greek_plaintexts": 1
+      }
+    ],
+    "full_selectors": 40,
+    "raw_descriptions_accounted": 4804800,
+    "phone_collision": [
+      [
+        "iː"
+      ],
+      [
+        "ɪ"
+      ],
+      "Ι"
+    ],
+    "invalid_inputs_rejected": 4,
+    "incompatible_constant_cipher_survivors": 0,
+    "seconds": 0.920475417
+  }
+}
