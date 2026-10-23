@@ -1,0 +1,253 @@
+{
+  "controls": {
+    "literal_crib_plants": [
+      {
+        "origin": 1,
+        "input": "AZ",
+        "matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 1,
+        "input": "AZ",
+        "matrix": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 1,
+        "input": "AZ",
+        "matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 1,
+        "input": "AZ",
+        "matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 2,
+        "input": "AZ",
+        "matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 2,
+        "input": "AZ",
+        "matrix": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 2,
+        "input": "AZ",
+        "matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 2,
+        "input": "AZ",
+        "matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 1,
+        "input": "KRYPTOS",
+        "matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 1,
+        "input": "KRYPTOS",
+        "matrix": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 1,
+        "input": "KRYPTOS",
+        "matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 1,
+        "input": "KRYPTOS",
+        "matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 2,
+        "input": "KRYPTOS",
+        "matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 2,
+        "input": "KRYPTOS",
+        "matrix": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 2,
+        "input": "KRYPTOS",
+        "matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "truth_included": true
+      },
+      {
+        "origin": 2,
+        "input": "KRYPTOS",
+        "matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "truth_included": true
+      }
+    ],
+    "complete_small_ring_comparisons": 36
+  },
+  "source_sha256": {
+    "experiments/affine_digraph_crossed.py": "475653ec75519cf18a43cb4857c00a7480b0a5c62ce2d8fb8ee70d8d399d4a4e",
+    "research/AFFINE-DIGRAPH-CROSSED-SPEC.md": "9e4422cddf949fa9754309dbcc2bb0c3d57147be108d13bbb98c5dc5e25cb593",
+    "experiments/exact_linear.py": "b325dca592ff0ffd7bc50d83fb757c79569969890aa88f35ed3b79ab86b3a617",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}
