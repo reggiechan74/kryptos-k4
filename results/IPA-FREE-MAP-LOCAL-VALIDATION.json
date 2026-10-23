@@ -1,0 +1,25 @@
+{
+  "specification_commit": "bbe781befaa7d007055012896c1b90ea6b5a0b6b",
+  "implementation_before_actual_commit": "633bb9485784652d893387f5d12e4a7b5cee3fa6",
+  "source_hashes": {
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
+    "data/ipa-cambridge-us-v1.json": "82617c33dc8ce03e46fe6dc56b247c3019b7f32718bbb0ae757e75f2497fb1a1",
+    "research/IPA-FREE-MAP-SPEC.md": "98c1566b701f80a99d62f51f62ac62892f61af2b843cc6706f1c5aa9418b90a5",
+    "experiments/ipa_free_map.py": "a46caa0aaf6d330e7245d6e6b35275f7272d542ef3fcaaea46649ac75b9f950d",
+    "experiments/route_key_graph.py": "bc13a7d454bde09d1736f440411fd74121ff459a75215f4cf35f9f4007946495"
+  },
+  "actual_result_sha256": "96f1884d99e91ca99287974c28fe1ea50db471474611b6c5f5bd662a114647f5",
+  "control_result_sha256": "a5fc2d10de1b445126afab70995fc6db9ee346cb6b0e3fcfe027d488bb0c1a43",
+  "canonical_structures": 24,
+  "training_rejections": 14,
+  "second_stage_rejections": 10,
+  "complete_survivors": 0,
+  "budget_unresolved": 0,
+  "full_regression_before_native_integration": {
+    "tests": 285,
+    "seconds": 11.782,
+    "passed": true
+  },
+  "native_replay_status_at_this_milestone": "pending independent bundle; no replay claim",
+  "scope": "Exact observed-subset compatibility/counting only; no full plaintext, codebook or significance claim."
+}

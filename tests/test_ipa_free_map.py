@@ -82,6 +82,43 @@ class IPAFreeMapTests(unittest.TestCase):
         self.assertEqual(r['plant_count'],24)
         self.assertTrue(all(x['true_description_retained'] and x['fixed_model_full_roundtrip'] and x['global_translation_gauges_checked']==26 for x in r['plants']))
 
+    def test_actual_exact_counts_and_certificates(self):
+        r=json.loads((ROOT/'results/IPA-FREE-MAP-001.json').read_text())
+        expected={'AZ':{7:14,8:380,10:175560,11:3862320,12:96909120},
+                  'KRYPTOS':{7:13,8:380,10:175560,11:3862320,12:96909120}}
+        self.assertEqual(len(r['rows']),24)
+        second=0
+        for row in r['rows']:
+            self.assertNotEqual(row['status'],'budget_unresolved')
+            self.assertEqual(row['training_count']['gauge_fixed_count'],expected[row['alphabet']].get(row['period'],0))
+            self.assertEqual(row['training_count']['ungauged_count'],26*row['training_count']['gauge_fixed_count'])
+            models=[row['training']]
+            if row['second_block_evaluated']:
+                second+=1;models.append(row['full'])
+                self.assertEqual(row['full_count']['gauge_fixed_count'],0)
+                for pred in row['first_stage_existing_glyph_predictions']:
+                    self.assertEqual(sum(pred['counts_by_cipher_value']),row['training_count']['gauge_fixed_count'])
+            for m in models:
+                g=m['graph']
+                self.assertEqual(g['independent_cycle_checks'],len(m['edges'])-len(m['node_labels'])+g['component_count'])
+                cert=g['first_conflict']
+                if cert is None:continue
+                edge=m['edges'][cert['closing_edge_index']]
+                self.assertEqual(cert['required_delta'],edge['delta'])
+                total=0;current=edge['u']
+                for step in cert['tree_path']:
+                    e=m['edges'][step['edge_index']]
+                    self.assertEqual(step['source'],current);current=step['target']
+                    delta=e['delta'] if (step['source'],step['target'])==(e['u'],e['v']) else -e['delta']
+                    self.assertEqual(step['potential_difference_mod'],delta%26);total+=delta
+                self.assertEqual(current,edge['v'])
+                self.assertEqual(total%26,cert['implied_delta'])
+                self.assertEqual((total-edge['delta'])%26,cert['residual'])
+                self.assertNotEqual(cert['residual'],0)
+        self.assertEqual(second,10)
+        import hashlib
+        for path,digest in r['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
+
     def test_budget_failure_is_unresolved_not_zero(self):
         m=model([(0,'a',0),(1,'b',0),(3,'c',2)],2,4)
         with self.assertRaises(TimeoutError):count_injections(m,max_states=0)
