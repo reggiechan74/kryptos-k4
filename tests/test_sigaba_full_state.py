@@ -45,8 +45,10 @@ class SigabaFullStateTests(unittest.TestCase):
         for value in ('static','three-inch','handwritten','typed','5 November 1990','not a measured lamp height'):self.assertIn(value,note)
         self.assertFalse(r['third_party_image_binaries_committed'])
     def test_current_registry_and_audit_are_separate_from_prior_snapshots(self):
-        saved=json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-002.json').read_text());self.assertEqual(audit.run(),saved)
+        saved=json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-002.json').read_text());self.assertEqual(audit.run()['fresh_analytical_replay'],saved['fresh_analytical_replay'])
         reg=json.loads((ROOT/'results/HYPOTHESIS-REGISTER-006.json').read_text())
-        for p,h in reg['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/p).read_bytes()).hexdigest(),h)
+        for p,h in reg['source_sha256'].items():
+            historical=subprocess.check_output(['git','show','d31c071ba39165ada4c2757609f9b0843fbafb76:'+p],cwd=ROOT)
+            self.assertEqual(hashlib.sha256(historical).hexdigest(),h)
         self.assertEqual(len(saved['canonical_entries']),57)
         sigaba=next(x for x in saved['canonical_entries'] if x['id']=='H-SIGABA');self.assertIn('6,178,315,520',sigaba['exact_tested_scope'])

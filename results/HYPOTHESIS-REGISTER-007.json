@@ -1,0 +1,25 @@
+{
+  "kind": "Joint-state feasibility and exact non-rotor structural constraints",
+  "entries": 58,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 25,
+    "analytical exclusion": 10,
+    "untested": 2,
+    "non-identifiable": 6,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "7e3e3ebcda52471f9be9d8035a58bd8d68653578c04b7628e26c6068955ac2fd"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-006.json",
+  "previous_snapshot_commit": "d31c071ba39165ada4c2757609f9b0843fbafb76",
+  "joint_SIGABA_inference": "not_implemented_budget_unresolved",
+  "new_actual_SIGABA_trials": 0,
+  "nonlinear_structures": 8,
+  "nonlinear_compatible_keys": "0",
+  "cyclic_disc_key_enumeration": 0,
+  "M138A_authentic_inventory_tested": false,
+  "source_table_repaired": false,
+  "extra_rounds_added": false
+}

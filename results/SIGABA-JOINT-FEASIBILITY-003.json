@@ -19,64 +19,65 @@
     "27": 4383,
     "30": 5017
   },
-  "quotient_seconds": 1.3577,
+  "quotient_seconds": 1.319485083,
   "control_start_tuples": 11881376,
+  "moving_control_cycle_states": 17576,
   "two_layout_quotient_controller_descriptions": 1569719871616,
   "raw_full_machine_start_descriptions": "28233419130675200000",
   "synthetic_benchmarks": [
     {
-      "seconds": 0.006944375000000003,
+      "seconds": 0.006818041000000052,
       "joined_states": 648,
       "truth_retained": true
     },
     {
-      "seconds": 0.00688825000000004,
+      "seconds": 0.0068950830000000796,
       "joined_states": 678,
       "truth_retained": true
     },
     {
-      "seconds": 0.006830458000000039,
+      "seconds": 0.006735166999999986,
       "joined_states": 684,
       "truth_retained": true
     },
     {
-      "seconds": 0.006702250000000021,
+      "seconds": 0.006730582999999957,
       "joined_states": 678,
       "truth_retained": true
     },
     {
-      "seconds": 0.00677333400000002,
+      "seconds": 0.0063799159999999855,
       "joined_states": 663,
       "truth_retained": true
     },
     {
-      "seconds": 0.0068292080000000865,
+      "seconds": 0.0065183339999999035,
       "joined_states": 663,
       "truth_retained": true
     },
     {
-      "seconds": 0.00682991700000013,
+      "seconds": 0.006652290999999977,
       "joined_states": 707,
       "truth_retained": true
     },
     {
-      "seconds": 0.006682041999999999,
+      "seconds": 0.006378291999999952,
       "joined_states": 697,
       "truth_retained": true
     },
     {
-      "seconds": 0.006687209000000083,
+      "seconds": 0.00637449999999995,
       "joined_states": 681,
       "truth_retained": true
     },
     {
-      "seconds": 0.006800042000000062,
+      "seconds": 0.006518125000000152,
       "joined_states": 694,
       "truth_retained": true
     }
   ],
-  "empirical_join_seconds_per_schedule": 0.006796708500000049,
-  "naive_projected_seconds": 10668928394.031452,
+  "empirical_join_seconds_per_schedule": 0.006600033199999999,
+  "naive_projected_seconds": 10360203267.365335,
   "projection_is_lower_bound": false,
   "installed_constraint_backends": {
     "z3": false,
@@ -85,7 +86,7 @@
   "status": "not_implemented_budget_unresolved",
   "interpretation": "Static-index aliases are exactly collapsed, but remaining joint controller inference is not implemented. This timing projection is not an impossibility proof or a K4 exclusion. Arbitrary feasible masks relax rather than implement authentic control dynamics.",
   "source_sha256": {
-    "experiments/sigaba_joint_feasibility.py": "f39302e967179ae36ccd5bd19b10cc9b871a2430fd1dfb3ecd6a47bcaf94018d",
+    "experiments/sigaba_joint_feasibility.py": "f4de1358b1fd34e01442e1194deceed916330601225a7c43adea957aa2ac68d8",
     "research/SIGABA-JOINT-FEASIBILITY-SPEC.md": "84d8d91b88646576c04a33acb9e4c591b807cb44a6f2cb6c913f8561e3ec527e",
     "experiments/sigaba_csp889.py": "2f12042cc4ee838edbe5d1619d42a9d4c856b7586bbd41e91dd4f5f6ada27516",
     "experiments/sigaba_state_inference.py": "2c5ae34171d3324e06956c40fcb0643ddbfd50c5b0d0c109dc5b4e5cb18c514c"

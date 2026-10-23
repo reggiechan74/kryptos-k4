@@ -38,8 +38,9 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 | [H-SIGABA-INSPIRED](#h-sigaba-inspired) | narrow negative | Fixed custom three-bank irregular-stepping rotor cipher with a restricted starting-key domain. |
 | [H-SIGABA](#h-sigaba) | narrow negative | Use historical irregular stepping from a complete, specified SIGABA mechanism. |
 | [H-WHEATSTONE](#h-wheatstone) | untested | Unequal 27/26 rings and skip/blank stepping alter substitution state. |
-| [H-M138A](#h-m138a) | untested | Historical strip selection/alignment produces a row-dependent alphabet. |
-| [H-NONLINEAR-BLOCK](#h-nonlinear-block) | untested | A fixed nonlinear block transformation couples several plaintext letters. |
+| [H-M94-CYCLIC](#h-m94-cyclic) | analytical exclusion | One common cyclic row displacement per 25-letter block on arbitrary valid permutation discs. |
+| [H-M138A](#h-m138a) | evidence-blocked | Historical strip selection/alignment produces a row-dependent alphabet. |
+| [H-NONLINEAR-BLOCK](#h-nonlinear-block) | narrow negative | A fixed nonlinear block transformation couples several plaintext letters. |
 | [H-BOOK-CODEBOOK](#h-book-codebook) | evidence-blocked | An independently identified edition/page/codebook supplies symbols or running-key material. |
 | [H-OTP](#h-otp) | non-identifiable | An unrestricted independent pad can explain any chosen plaintext of the same length. |
 | [H-PERM](#h-perm) | analytical exclusion | Pure permutation preserves the letter multiset. |
@@ -243,7 +244,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Mechanism: Authentic CSP-889 three-bank irregular stepping with the published simulator wiring set.
 - Evidence: [Historical convention and frozen domain](SIGABA-CSP889-SPEC.md), twelve published Sullivan-attributed vectors reproduced after source-derived fixture translation; not wartime hardware certification or Sanborn-use evidence.
 - Tested scope: SIGABA-CSP889-001: two fixed layouts, normal orientations, repeated cipher/index starts and one variable fast-control start; 13,520 raw repeated-start keys plus full five-independent-cipher-start inference over the same 520 schedules: 6,178,315,520 raw state descriptions, including that old subset; zero first-crib survivors, continuous 97-position schedules. Simulator large-wheel wirings are not recovered wartime secret wirings.
-- Untested scope: All other wheel orders/orientations, unrestricted independent control/index starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.
+- Untested scope: [Joint controller/index inference remains unimplemented/budget-unresolved](JOINT-STATE-NONROTOR-FINDINGS.md), despite exact reduction of 100,000 index starts to 66,058 functions; All other wheel orders/orientations, unrestricted independent control/index starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.
 - Missing inputs: Independently motivated key restrictions or historical wiring/key evidence for a broader cryptanalytic search.
 - Next discriminating test: Validate an independently specified historical key-sheet domain before spending on another search; arbitrary starting-key expansion alone is weakly motivated.
 - Dependencies: Published vector translation and source conventions; fixed literal A-Z 97-symbol alignment.
@@ -261,29 +262,41 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Dependencies: Do not call plain Wheatstone new; do not conflate it with vowel/consonant cursor pilots
 - Results: [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
+### H-M94-CYCLIC
+
+- Status: analytical exclusion
+- Mechanism: A cyclic permutation alphabet per disc, one shared row displacement within each 25-letter block.
+- Evidence: Original 1942 FM24-5 Section V describes the mechanism; no Sanborn-use evidence. The museum transcription has two non-permutation rows and is not admitted as a key set.
+- Tested scope: Fixed and changed letters in the same block exclude every valid disc permutation/order, even permitting zero displacement; symbolic invariant, zero key enumeration. This is reused fixed-point reasoning, not a new cryptographic theorem.
+- Untested scope: Outer substitutions/routes, different framing, per-letter row choices and other device variants; no blanket strip-cipher exclusion.
+- Missing inputs: Independently validated inventory is needed for other table-specific models, not for this invariant.
+- Next discriminating test: Resolve original source/table provenance before a materially different sourced strip model; do not repair alphabets to fit K4.
+- Dependencies: Fixed literal A-Z cribs, block origin 1 and common row within each 25-letter block; no Site dependency.
+- Results: [Frozen pivot](NONROTOR-STRUCTURAL-SPEC.md), [findings and limits](JOINT-STATE-NONROTOR-FINDINGS.md), [raw proof](../results/NONROTOR-STRUCTURAL-004.json), [rejected source strings](../data/m94-source-quality.json).
+
 ### H-M138A
 
-- Status: untested
+- Status: evidence-blocked
 - Mechanism: Historical strip selection/alignment produces a row-dependent alphabet.
 - Evidence: [source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.
 - Tested scope: The pinned survey calls full M-138 untested within that survey; no dedicated local full M-138-A result.
 - Untested scope: A specific authentic strip inventory, ordering and readable-row rule.
-- Missing inputs: Versioned strip source, key/state restrictions, framing and historical link.
+- Missing inputs: Original versioned strip inventory and operating-source access; public maritime manual retrieval returned HTTP403. The defective museum M-94 transcription is neither this inventory nor a replacement.
 - Next discriminating test: Validate a published example and identifiability under the fixed strips before any bounded K4 key domain.
 - Dependencies: Historical source gate; random tables and arbitrary alphabets are not authentic strip tests
 - Results: [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-NONLINEAR-BLOCK
 
-- Status: untested
+- Status: narrow negative
 - Mechanism: A fixed nonlinear block transformation couples several plaintext letters.
 - Evidence: [source or scoped prior review](UNRUN-GAPS-2026-10-23.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Adjacent fixed 2×2 affine maps are analytically excluded; autonomous linear recurrences and fixed Trifid cases do not cover general nonlinear blocks.
-- Untested scope: An independently motivated nonlinear block grammar.
+- Tested scope: Eight two-round additive Feistel structures with arbitrary shared F/G functions reject; four on first-crib F collisions, four on a forced Berlin letter. Older affine exclusions cover only the affine subset.
+- Untested scope: Three or more rounds, other explicit block constructions, final swaps or changing/stateful functions.
 - Missing inputs: Block size/origin, invertible operation, key budget and source-based rationale.
 - Next discriminating test: Freeze one small reversible block operator; prove inverse and compare complete compatible-key sets on planted and matched incompatible cases.
 - Dependencies: H-AFFINE-DIGRAPH is a boundary, not a broad polygraphic rejection; no generic brute-force program search
-- Results: [retained evidence and finite coverage](UNRUN-GAPS-2026-10-23.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Exact nonlinear function constraints](JOINT-STATE-NONROTOR-FINDINGS.md) and [retained evidence and finite coverage](UNRUN-GAPS-2026-10-23.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-BOOK-CODEBOOK
 

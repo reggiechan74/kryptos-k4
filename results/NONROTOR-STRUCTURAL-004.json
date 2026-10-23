@@ -1,0 +1,410 @@
+{
+  "actual": {
+    "cyclic_disc_analytical_witnesses": [
+      {
+        "fixed_position": 33,
+        "fixed_plain": "S",
+        "fixed_cipher": "S",
+        "changed_position": 26,
+        "changed_plain": "N",
+        "changed_cipher": "Q",
+        "block_one_based": 2,
+        "reason": "Fixed symbol forces row displacement0; changed symbol in same block forbids0, for any valid cyclic disc alphabets."
+      },
+      {
+        "fixed_position": 74,
+        "fixed_plain": "K",
+        "fixed_cipher": "K",
+        "changed_position": 64,
+        "changed_plain": "B",
+        "changed_cipher": "N",
+        "block_one_based": 3,
+        "reason": "Fixed symbol forces row displacement0; changed symbol in same block forbids0, for any valid cyclic disc alphabets."
+      }
+    ],
+    "disc_keys_enumerated": 0,
+    "feistel_structures": [
+      {
+        "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pair_origin": 1,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "18": 11,
+                "13": 2,
+                "17": 2,
+                "7": 24,
+                "0": 2,
+                "19": 0
+              },
+              "G": {
+                "22": 1,
+                "11": 25,
+                "21": 3,
+                "16": 24,
+                "17": 6,
+                "6": 10,
+                "18": 25
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "all_cribs": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 21,
+              "first_value": 3,
+              "second_value": 11,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                67,
+                68
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "all_crib_compatible_keys": "0",
+        "training_forced_Berlin_letters": [
+          {
+            "position": 68,
+            "predicted": "Q",
+            "required": "I"
+          }
+        ],
+        "Berlin_is_public": true
+      },
+      {
+        "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pair_origin": 2,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 19,
+              "first_value": 25,
+              "second_value": 24,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                28,
+                29
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "all_cribs": null,
+        "second_stage_evaluated": false,
+        "all_crib_compatible_keys": "0",
+        "training_forced_Berlin_letters": [],
+        "Berlin_is_public": true
+      },
+      {
+        "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pair_origin": 1,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "18": 17,
+                "13": 3,
+                "17": 6,
+                "7": 8,
+                "0": 9,
+                "19": 14
+              },
+              "G": {
+                "23": 8,
+                "17": 9,
+                "22": 7,
+                "20": 12,
+                "1": 12,
+                "13": 0,
+                "6": 13
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "all_cribs": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 22,
+              "first_value": 7,
+              "second_value": 22,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                67,
+                68
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "all_crib_compatible_keys": "0",
+        "training_forced_Berlin_letters": [
+          {
+            "position": 68,
+            "predicted": "X",
+            "required": "I"
+          }
+        ],
+        "Berlin_is_public": true
+      },
+      {
+        "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pair_origin": 2,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 19,
+              "first_value": 9,
+              "second_value": 12,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                28,
+                29
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "all_cribs": null,
+        "second_stage_evaluated": false,
+        "all_crib_compatible_keys": "0",
+        "training_forced_Berlin_letters": [],
+        "Berlin_is_public": true
+      },
+      {
+        "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pair_origin": 1,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "6": 4,
+                "19": 17,
+                "1": 11,
+                "14": 13,
+                "7": 21,
+                "4": 12
+              },
+              "G": {
+                "22": 20,
+                "11": 11,
+                "21": 23,
+                "16": 14,
+                "17": 25,
+                "6": 3,
+                "18": 14
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "all_cribs": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 21,
+              "first_value": 23,
+              "second_value": 4,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                67,
+                68
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "all_crib_compatible_keys": "0",
+        "training_forced_Berlin_letters": [
+          {
+            "position": 68,
+            "predicted": "V",
+            "required": "I"
+          }
+        ],
+        "Berlin_is_public": true
+      },
+      {
+        "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pair_origin": 2,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 4,
+              "first_value": 11,
+              "second_value": 14,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                28,
+                29
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "all_cribs": null,
+        "second_stage_evaluated": false,
+        "all_crib_compatible_keys": "0",
+        "training_forced_Berlin_letters": [],
+        "Berlin_is_public": true
+      },
+      {
+        "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pair_origin": 1,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "6": 10,
+                "19": 18,
+                "1": 15,
+                "14": 23,
+                "7": 2,
+                "4": 0
+              },
+              "G": {
+                "23": 1,
+                "17": 21,
+                "22": 1,
+                "20": 2,
+                "1": 5,
+                "13": 19,
+                "6": 2
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "all_cribs": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 22,
+              "first_value": 1,
+              "second_value": 15,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                67,
+                68
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "all_crib_compatible_keys": "0",
+        "training_forced_Berlin_letters": [
+          {
+            "position": 68,
+            "predicted": "P",
+            "required": "I"
+          }
+        ],
+        "Berlin_is_public": true
+      },
+      {
+        "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pair_origin": 2,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 4,
+              "first_value": 21,
+              "second_value": 2,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                28,
+                29
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "all_cribs": null,
+        "second_stage_evaluated": false,
+        "all_crib_compatible_keys": "0",
+        "training_forced_Berlin_letters": [],
+        "Berlin_is_public": true
+      }
+    ]
+  },
+  "source_sha256": {
+    "experiments/nonrotor_structural.py": "d775efe289cf43f6c903ba8ee6e6b0e523ced88fae15dd3275388f8075a3e024",
+    "research/NONROTOR-STRUCTURAL-SPEC.md": "47f1b8a265a884cebc2d27a978fd5eff8954160c1ec96b726476b4520355e571",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}

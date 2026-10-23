@@ -1,0 +1,37 @@
+{
+  "id": "JOINT-NONROTOR-VALIDATION-001",
+  "tests": 344,
+  "seconds": 20.735,
+  "passed": true,
+  "log_sha256": "690b13bec0c19d4bbb5ac88c3de65ccdef6048725da23ea7a774611471873485",
+  "joint_SIGABA_selector_executed": false,
+  "joint_SIGABA_selector_timed_out": false,
+  "joint_SIGABA_exclusion_claimed": false,
+  "static_index_tuples_checked": 100000,
+  "static_magnet_function_classes": 66058,
+  "nonlinear_structures": 8,
+  "training_negatives": 4,
+  "second_stage_negatives": 4,
+  "first_fit_key_descriptions_per_surviving_structure": "15274273784216769021564085930704478424313742483024510976",
+  "actual_K4_survivors": 0,
+  "initial_diagnostic_source_commit": "9c63b2e6d1797809b4577d9125aa7dd8fe22122b",
+  "initial_diagnostic_hashes_verified_against_commit": true,
+  "original_M138A_inventory_recovered": false,
+  "M94_invalid_source_rows": [
+    5,
+    25
+  ],
+  "source_repairs_performed": false,
+  "canonical_records": 58,
+  "site_changed": false,
+  "source_sha256": {
+    "research/HYPOTHESES.md": "7e3e3ebcda52471f9be9d8035a58bd8d68653578c04b7628e26c6068955ac2fd",
+    "research/JOINT-STATE-NONROTOR-FINDINGS.md": "27097680ed8019b04d3eced4bfe8e7f8efeb65191c039bf8f8e12eab022e59d8",
+    "experiments/nonrotor_structural.py": "d775efe289cf43f6c903ba8ee6e6b0e523ced88fae15dd3275388f8075a3e024",
+    "experiments/nonrotor_structural_oracle.mjs": "a1ea08e83974efe19075da195a831a16320f8b286c1512554beff32240ae0bef",
+    "experiments/sigaba_joint_feasibility.py": "f4de1358b1fd34e01442e1194deceed916330601225a7c43adea957aa2ac68d8",
+    "data/m94-source-quality.json": "fb3fe92604bbdb6590c776df8e0fa0f3da5df15d2fc1d93a0d15a8fd4fa4d9f3",
+    "results/NONROTOR-STRUCTURAL-004.json": "8c481acc51716af0bd90e01af474e4c620fb54f7f424419d831a4d36eb0d3e21",
+    "results/SIGABA-JOINT-FEASIBILITY-003.json": "cacfb92ef389c9a41304987a7dfeaa9f869fb1a2441331bef82b187295491680"
+  }
+}

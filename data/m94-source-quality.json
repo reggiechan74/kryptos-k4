@@ -1,0 +1,70 @@
+{
+  "source": "https://www.cryptomuseum.com/crypto/usa/m94/",
+  "source_html_sha256": "4f207a6b5a896456f51876e5ca9af246a27da1912a34686dbfad1d7619560018",
+  "source_disc_strings": [
+    "ABCEIGDJFVUYMHTQKZOLRXSPWN",
+    "ACDEHFIJKTLMOUVYGZNPQXRWSB",
+    "ADKOMJUBGEPHSCZINXFYQRTVWL",
+    "AEDCBIFGJHLKMRUOQVPTNWYXZS",
+    "AFNQUKDOPITJBRHCUSLWEMZVXG",
+    "AGPOCIXLURNDYZHWBJSQFKVMET",
+    "AHXJEZBNIKPVROGSYDULCFMQTW",
+    "AIHPJOBWKCVFZLQERYNSUMGTDX",
+    "AJDSKQOIVTZEFHGYUNLPMBXWCR",
+    "AKELBDFJGHONMTPRQSVZUXYWIC",
+    "ALTMSXVQPNOHUWDIZYCGKRFBEJ",
+    "AMNFLHQGCUJTBYPZKXISRDVEWO",
+    "ANCJILDHBMKGXUZTSWQYVORPFE",
+    "AODWPKJVIUQHZCTXBLEGNYRSMF",
+    "APBVHIYKSGUENTCXOWFQDRLJZM",
+    "AQJNUBTGIMWZRVLXCSHDEOKFPY",
+    "ARMYOFTHEUSZJXDPCWGQIBKLNV",
+    "ASDMCNEQBOZPLGVJRKYTFUIWXH",
+    "ATOJYLFXNGWHVCMIRBSEKUPDZQ",
+    "AUTRZXQLYIOVBPESNHJWMDGFCK",
+    "AVNKHRGOXEYBFSJMUDQCLZWTIP",
+    "AWVSFDLIEBHKNRJQZGMXPUCOTY",
+    "AXKWREVDTUFOYHMLSIQNJCPGBZ",
+    "AYJPXMVKBQWUGLOSTECHNZFRID",
+    "AZDNBUKYFWJLVGRCQMPSOEXTKI"
+  ],
+  "invalid_rows": [
+    {
+      "disc": 5,
+      "source_string": "AFNQUKDOPITJBRHCUSLWEMZVXG",
+      "missing": [
+        "Y"
+      ],
+      "repeated": {
+        "U": 2
+      }
+    },
+    {
+      "disc": 25,
+      "source_string": "AZDNBUKYFWJLVGRCQMPSOEXTKI",
+      "missing": [
+        "H"
+      ],
+      "repeated": {
+        "K": 2
+      }
+    }
+  ],
+  "admitted_as_crypto_key_inventory": false,
+  "repairs_performed": false,
+  "known_answer_validation_completed": false,
+  "original_manual_url": "https://www.cryptomuseum.com/crypto/usa/m94/files/FM24-5_1942_pp70-81.pdf",
+  "manual_pdf_sha256": "5cbbcacace87079358d6192884b4b2766db3f430432e2c8cedac308c04a17f0c",
+  "manual_scope": "Original printed operational description, not a verified complete inventory. Source-independent cyclic permutation proof remains valid.",
+  "M138A_inventory_recovered": false,
+  "access_failures": [
+    {
+      "target": "https://maritime.org/tech/csp845inst.php",
+      "result": "HTTP403 from direct public retrieval; not retried"
+    },
+    {
+      "target": "https://maritime.org/tech/csp845.htm",
+      "result": "HTTP403 reported by web reader; not retried"
+    }
+  ]
+}

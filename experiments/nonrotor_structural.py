@@ -108,13 +108,13 @@ def actual():
     records=[]
     for ai,ao,origin in itertools.product((AZ,KR),(AZ,KR),(1,2)):
         cv=[ao.index(x) for x in c];train={i:ai.index(p) for i,p in known.items() if i<34};allknown={i:ai.index(p) for i,p in known.items()}
-        tr=infer(pairs(cv,train,origin));full=infer(pairs(cv,allknown,origin));pred=[]
+        tr=infer(pairs(cv,train,origin));full=infer(pairs(cv,allknown,origin)) if tr['completed'] and tr['branches'] else None;pred=[]
         if tr['branches']:
             ds=domains([(cv[i],cv[i+1]) for i in range(origin-1,96,2)],tr['branches'],26)
             for i in range(63,74):
                 k=i-(origin-1)
                 if 0<=k<len(ds) and len(ds[k])==1:pred.append(dict(position=i+1,predicted=ai[ds[k][0]],required=known[i]))
-        records.append(dict(input_alphabet=ai,output_alphabet=ao,pair_origin=origin,training=tr,all_cribs=full,training_forced_Berlin_letters=pred,Berlin_is_public=True))
+        records.append(dict(input_alphabet=ai,output_alphabet=ao,pair_origin=origin,training=tr,all_cribs=full,second_stage_evaluated=full is not None,all_crib_compatible_keys='0' if tr['completed'] and tr['key_count']=='0' else (full['key_count'] if full is not None else None),training_forced_Berlin_letters=pred,Berlin_is_public=True))
     return dict(cyclic_disc_analytical_witnesses=witnesses,disc_keys_enumerated=0,feistel_structures=records)
 
 def main():

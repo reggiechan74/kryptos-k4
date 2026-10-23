@@ -1,0 +1,209 @@
+{
+  "kind": "Post-run independent exact-entry certificates; actual models contradict before unsupported latent branch handling",
+  "structures": [
+    {
+      "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "pair_origin": 1,
+      "training": {
+        "compatible": true,
+        "F_entries": 6,
+        "G_entries": 7,
+        "key_count": "15274273784216769021564085930704478424313742483024510976"
+      },
+      "all_cribs": {
+        "compatible": false,
+        "contradiction": {
+          "function": "G",
+          "input": 21,
+          "first_value": 3,
+          "second_value": 11,
+          "first_source": [
+            25,
+            26
+          ],
+          "second_source": [
+            67,
+            68
+          ]
+        }
+      }
+    },
+    {
+      "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "pair_origin": 2,
+      "training": {
+        "compatible": false,
+        "contradiction": {
+          "function": "F",
+          "input": 19,
+          "first_value": 25,
+          "second_value": 24,
+          "first_source": [
+            24,
+            25
+          ],
+          "second_source": [
+            28,
+            29
+          ]
+        }
+      },
+      "all_cribs": null
+    },
+    {
+      "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "pair_origin": 1,
+      "training": {
+        "compatible": true,
+        "F_entries": 6,
+        "G_entries": 7,
+        "key_count": "15274273784216769021564085930704478424313742483024510976"
+      },
+      "all_cribs": {
+        "compatible": false,
+        "contradiction": {
+          "function": "G",
+          "input": 22,
+          "first_value": 7,
+          "second_value": 22,
+          "first_source": [
+            25,
+            26
+          ],
+          "second_source": [
+            67,
+            68
+          ]
+        }
+      }
+    },
+    {
+      "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "pair_origin": 2,
+      "training": {
+        "compatible": false,
+        "contradiction": {
+          "function": "F",
+          "input": 19,
+          "first_value": 9,
+          "second_value": 12,
+          "first_source": [
+            24,
+            25
+          ],
+          "second_source": [
+            28,
+            29
+          ]
+        }
+      },
+      "all_cribs": null
+    },
+    {
+      "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "pair_origin": 1,
+      "training": {
+        "compatible": true,
+        "F_entries": 6,
+        "G_entries": 7,
+        "key_count": "15274273784216769021564085930704478424313742483024510976"
+      },
+      "all_cribs": {
+        "compatible": false,
+        "contradiction": {
+          "function": "G",
+          "input": 21,
+          "first_value": 23,
+          "second_value": 4,
+          "first_source": [
+            25,
+            26
+          ],
+          "second_source": [
+            67,
+            68
+          ]
+        }
+      }
+    },
+    {
+      "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "pair_origin": 2,
+      "training": {
+        "compatible": false,
+        "contradiction": {
+          "function": "F",
+          "input": 4,
+          "first_value": 11,
+          "second_value": 14,
+          "first_source": [
+            24,
+            25
+          ],
+          "second_source": [
+            28,
+            29
+          ]
+        }
+      },
+      "all_cribs": null
+    },
+    {
+      "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "pair_origin": 1,
+      "training": {
+        "compatible": true,
+        "F_entries": 6,
+        "G_entries": 7,
+        "key_count": "15274273784216769021564085930704478424313742483024510976"
+      },
+      "all_cribs": {
+        "compatible": false,
+        "contradiction": {
+          "function": "G",
+          "input": 22,
+          "first_value": 1,
+          "second_value": 15,
+          "first_source": [
+            25,
+            26
+          ],
+          "second_source": [
+            67,
+            68
+          ]
+        }
+      }
+    },
+    {
+      "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "pair_origin": 2,
+      "training": {
+        "compatible": false,
+        "contradiction": {
+          "function": "F",
+          "input": 4,
+          "first_value": 21,
+          "second_value": 2,
+          "first_source": [
+            24,
+            25
+          ],
+          "second_source": [
+            28,
+            29
+          ]
+        }
+      },
+      "all_cribs": null
+    }
+  ]
+}
