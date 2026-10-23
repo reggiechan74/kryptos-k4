@@ -1,0 +1,30 @@
+{
+  "classification": "Published modern operational reconstructions; not newly authenticated physical-machine vectors",
+  "symbol_for_space": "_",
+  "vectors": [
+    {
+      "source": "https://mysterytwister.org/media/challenges/pdf/mtc3-madness-04-wheatstone-01-en.pdf",
+      "pages_one_based": [7, 8, 9, 10],
+      "original_message": "MEET AT DAWN",
+      "processed_message": "MEQT_AT_DAWN_",
+      "outer": "_ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "inner": "SAMZEBNCDORFPGQTHUKIVJWYLX",
+      "initial_outer": 0,
+      "initial_inner": 0,
+      "ciphertext": "GNKJMZWZCBAIN",
+      "preprocessing": "Second E replaced by Q; an enciphered terminal space appended. Original spelling recovery is ambiguous."
+    },
+    {
+      "source": "https://www.cipherchallenge.org/wp-content/uploads/2022/09/A-Book-on-Classical-Cryptography-by-Madness.pdf",
+      "pdf_pages_zero_based": [382, 383, 384, 385],
+      "original_message": "SECRET MESSAGE",
+      "processed_message": "SECRET_MESXSAGE_",
+      "outer": "_ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "inner": "WBPHCQEDRAFUTGVSIXJYOKZNLM",
+      "initial_outer": 0,
+      "initial_inner": 0,
+      "ciphertext": "YEQORNCXFLHMRVGA",
+      "preprocessing": "X inserted between doubled S; enciphered terminal space appended. Processed stream rather than original English is reversible."
+    }
+  ]
+}

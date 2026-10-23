@@ -1,0 +1,553 @@
+{
+  "controls": {
+    "external_vectors": [
+      {
+        "source": "https://mysterytwister.org/media/challenges/pdf/mtc3-madness-04-wheatstone-01-en.pdf",
+        "ciphertext": "GNKJMZWZCBAIN",
+        "processed_plaintext": "MEQT_AT_DAWN_",
+        "trace": [
+          {
+            "input": "M",
+            "output": "G",
+            "outer": 13,
+            "inner": 13,
+            "steps": 13
+          },
+          {
+            "input": "E",
+            "output": "N",
+            "outer": 5,
+            "inner": 6,
+            "steps": 19
+          },
+          {
+            "input": "Q",
+            "output": "K",
+            "outer": 17,
+            "inner": 18,
+            "steps": 12
+          },
+          {
+            "input": "T",
+            "output": "J",
+            "outer": 20,
+            "inner": 21,
+            "steps": 3
+          },
+          {
+            "input": "_",
+            "output": "M",
+            "outer": 0,
+            "inner": 2,
+            "steps": 7
+          },
+          {
+            "input": "A",
+            "output": "Z",
+            "outer": 1,
+            "inner": 3,
+            "steps": 1
+          },
+          {
+            "input": "T",
+            "output": "W",
+            "outer": 20,
+            "inner": 22,
+            "steps": 19
+          },
+          {
+            "input": "_",
+            "output": "Z",
+            "outer": 0,
+            "inner": 3,
+            "steps": 7
+          },
+          {
+            "input": "D",
+            "output": "C",
+            "outer": 4,
+            "inner": 7,
+            "steps": 4
+          },
+          {
+            "input": "A",
+            "output": "B",
+            "outer": 1,
+            "inner": 5,
+            "steps": 24
+          },
+          {
+            "input": "W",
+            "output": "A",
+            "outer": 23,
+            "inner": 1,
+            "steps": 22
+          },
+          {
+            "input": "N",
+            "output": "I",
+            "outer": 14,
+            "inner": 19,
+            "steps": 18
+          },
+          {
+            "input": "_",
+            "output": "N",
+            "outer": 0,
+            "inner": 6,
+            "steps": 13
+          }
+        ],
+        "external_known_answer_pass": true
+      },
+      {
+        "source": "https://www.cipherchallenge.org/wp-content/uploads/2022/09/A-Book-on-Classical-Cryptography-by-Madness.pdf",
+        "ciphertext": "YEQORNCXFLHMRVGA",
+        "processed_plaintext": "SECRET_MESXSAGE_",
+        "trace": [
+          {
+            "input": "S",
+            "output": "Y",
+            "outer": 19,
+            "inner": 19,
+            "steps": 19
+          },
+          {
+            "input": "E",
+            "output": "E",
+            "outer": 5,
+            "inner": 6,
+            "steps": 13
+          },
+          {
+            "input": "C",
+            "output": "Q",
+            "outer": 3,
+            "inner": 5,
+            "steps": 25
+          },
+          {
+            "input": "R",
+            "output": "O",
+            "outer": 18,
+            "inner": 20,
+            "steps": 15
+          },
+          {
+            "input": "E",
+            "output": "R",
+            "outer": 5,
+            "inner": 8,
+            "steps": 14
+          },
+          {
+            "input": "T",
+            "output": "N",
+            "outer": 20,
+            "inner": 23,
+            "steps": 15
+          },
+          {
+            "input": "_",
+            "output": "C",
+            "outer": 0,
+            "inner": 4,
+            "steps": 7
+          },
+          {
+            "input": "M",
+            "output": "X",
+            "outer": 13,
+            "inner": 17,
+            "steps": 13
+          },
+          {
+            "input": "E",
+            "output": "F",
+            "outer": 5,
+            "inner": 10,
+            "steps": 19
+          },
+          {
+            "input": "S",
+            "output": "L",
+            "outer": 19,
+            "inner": 24,
+            "steps": 14
+          },
+          {
+            "input": "X",
+            "output": "H",
+            "outer": 24,
+            "inner": 3,
+            "steps": 5
+          },
+          {
+            "input": "S",
+            "output": "M",
+            "outer": 19,
+            "inner": 25,
+            "steps": 22
+          },
+          {
+            "input": "A",
+            "output": "R",
+            "outer": 1,
+            "inner": 8,
+            "steps": 9
+          },
+          {
+            "input": "G",
+            "output": "V",
+            "outer": 7,
+            "inner": 14,
+            "steps": 6
+          },
+          {
+            "input": "E",
+            "output": "G",
+            "outer": 5,
+            "inner": 13,
+            "steps": 25
+          },
+          {
+            "input": "_",
+            "output": "A",
+            "outer": 0,
+            "inner": 9,
+            "steps": 22
+          }
+        ],
+        "external_known_answer_pass": true
+      }
+    ],
+    "repeated_cipher_requires_26_steps": true,
+    "unprepared_plaintext_repeat_rejects": true,
+    "toy": {
+      "rotation_quotient_rows": [
+        {
+          "outer_size": 3,
+          "inner_size": 2,
+          "outer_rotation_representatives": 2,
+          "inner_rotation_representatives": 1,
+          "represented_outer_permutations": 6,
+          "represented_inner_permutations": 2,
+          "all_inner_states": true
+        },
+        {
+          "outer_size": 4,
+          "inner_size": 3,
+          "outer_rotation_representatives": 6,
+          "inner_rotation_representatives": 2,
+          "represented_outer_permutations": 24,
+          "represented_inner_permutations": 6,
+          "all_inner_states": true
+        },
+        {
+          "outer_size": 5,
+          "inner_size": 4,
+          "outer_rotation_representatives": 24,
+          "inner_rotation_representatives": 6,
+          "represented_outer_permutations": 120,
+          "represented_inner_permutations": 24,
+          "all_inner_states": true
+        },
+        {
+          "outer_size": 6,
+          "inner_size": 5,
+          "outer_rotation_representatives": 120,
+          "inner_rotation_representatives": 24,
+          "represented_outer_permutations": 720,
+          "represented_inner_permutations": 120,
+          "all_inner_states": true
+        }
+      ],
+      "state_transition_comparisons": 443976,
+      "naive_complete_size3_size4": [
+        {
+          "outer_size": 3,
+          "comparisons": 144,
+          "equality_events": 72
+        },
+        {
+          "outer_size": 4,
+          "comparisons": 5184,
+          "equality_events": 1728
+        }
+      ],
+      "rotation_is_coordinate_gauge": true
+    },
+    "continuous_literal_crib_plants": [
+      {
+        "outer": "GRFQLVXKY_NTOAMSCJBIPZEUWDH",
+        "inner": "KEZNGLXVWBRSFCOTMAJHUDQIYP",
+        "initial_outer": 6,
+        "initial_inner": 19,
+        "continuous_plaintext": "ULYDSJKLXAJRTOPTIBKVKEASTNORTHEASTCWFLUMLBJELTFOLEZYRGMFPTWHGJVBERLINCLOCKMTEWQPCWKYJDEDSDVBQYGRE",
+        "ciphertext": "RJQCGXIDIGWHNGFGFFZENJRFBBSESKITAOHEXWEHRYYNFHSDOXXUOOZABEOMAWIROUIFGRPVSNRWHDEJTIVWAPIKAEWDVFLXE",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "IJPRQGNOWT_KLYFZDSEMCVUHBAX",
+        "inner": "NDRBUKHMAILJYVXQEPZGWOTSCF",
+        "initial_outer": 8,
+        "initial_inner": 16,
+        "continuous_plaintext": "MJXADRPTESWSNCSBTXGDOEASTNORTHEASTQZSDKGYFBUXOIPKZWZSTKOCSUYSMXBERLINCLOCKAESEJPKZOZOEDGOSBMZGXFE",
+        "ciphertext": "DLIIDQQTKKSHTLAQDZCIDYGYKBUDMOPCPLHPGGQLZGBRHXALGSPCNGOZKBANUHVYMGRPSJUNVKGVVXCFAYKVHPEHAZFOZIUGS",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "RAUFWZTOXEQS_MDBIJHCNGVLPYK",
+        "inner": "GBARLEWYMQDUJVTSPNZXHKCOIF",
+        "initial_outer": 11,
+        "initial_inner": 25,
+        "continuous_plaintext": "FKXGWERSQOJPQRGYERGXMEASTNORTHEASTSDJSAUOIVJTLQLITJBWVIQFKAEHXEBERLINCLOCKZDQTYCLZFSAOIHUZVHVLCPM",
+        "ciphertext": "ZSIUKGZRRBUZECNKWIXYJQAJMCDLDCTYNVZKIXDUPFEBNMCQRHELHJYACXKRJRLDEOHTZZCYXGWSJQAOBDQNMTOFDVLBEWRMI",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "DXZBQLU_WOYGFNHCJVTAMIPKRSE",
+        "inner": "YHWONLGACRDIZJMUVSXTEKFBQP",
+        "initial_outer": 6,
+        "initial_inner": 16,
+        "continuous_plaintext": "BRIJWZIQZESKLQIZDXVWHEASTNORTHEASTLAXILTCPLOKLYVSDSQNBDQVADKXEHBERLINCLOCKBOCFZHIJITMSVCEHPOUJLRM",
+        "ciphertext": "MRAOFSDETSSVPPVQBQMGZQXQXMIYKXNQNQZYROMHPGVECSFOIJZXHXVEARSMTXABETHSDZOAJKWCMZOUFXBKBWKELEWVMQMAN",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "SMJWHB_XFALOECRDZQVGYNIKUPT",
+        "inner": "IYGHBEDMUVKNFLRWXJOSCQATZP",
+        "initial_outer": 9,
+        "initial_inner": 11,
+        "continuous_plaintext": "YDOBFEPUCYDPEVCNAPSBOEASTNORTHEASTGANYZYICIXIXCAZKXPLRVBNVHZEBJBERLINCLOCKLFRAOBAUZKHSPWOFWUWRYSK",
+        "ciphertext": "AOWKLJBBCYTMQYTECKFJTZARRKYBXQHYSSLBXXLJSNCDQMLKJZVYLJQVPTKASLNRQTCDDPTZIKZTHPYAIWUWTCSZDBIQYFOPA",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "JG_LVWXSMEPFBIRZAQKDYCHTOUN",
+        "inner": "JZIURVADGXQSOCYHBEFPWLTKNM",
+        "initial_outer": 19,
+        "initial_inner": 9,
+        "continuous_plaintext": "OHCUGKBCTZGQRJRECZACDEASTNORTHEASTAQBEJPTUJWVHXINVQJAIEAEGLTLKTBERLINCLOCKDHOICXSPBEXELAKXBDYJNDX",
+        "ciphertext": "YCCEWSAHEQKCSNOGWHBLWSFQJUIPIIBKHVMJTWOTXSCFFQLIHWDEDVIXUTNFMYPXDOIOMLRMKLTMZEMSOHEHCBSNJHLIUQQRF",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "JBFSPHVACQUNDKEY_XOZLTRGWIM",
+        "inner": "ZTWERDIMXLNSYJQAHGOBCPKUFV",
+        "initial_outer": 22,
+        "initial_inner": 24,
+        "continuous_plaintext": "DZPCBFGBNZBNFYDNDOASMEASTNORTHEASTYVRDVKFEPMQCVBSTDZIXOVWDHBJLDBERLINCLOCKSKVKCDTOQYGHYLZDILFSLJC",
+        "ciphertext": "AKXYIMWMGVXONUPPKWOAYTPONTXYYUIZUANWOLRSTJRZNNLDMVGFRUFJDCQSSDFQTLXJZFNLZDKIZMEMHQIYCEJOOYVPRDKES",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "VXLTSNCYFDEPMAOKJHRGI_UQBZW",
+        "inner": "JMRZKGIOWDQETAUHCFLNVXYPBS",
+        "initial_outer": 1,
+        "initial_inner": 7,
+        "continuous_plaintext": "BLWZSJMKDBWADCZFUHPCVEASTNORTHEASTJSGVKSJGUETVHBOFLXVUYAQFRSXCWBERLINCLOCKUSQUIASHGYPGTOXITJATYPK",
+        "ciphertext": "KDOOASYSVDESYVAPEORBNZIBBJDASAOQRRHKNMCILXBAOGYZVHQQQILBWVKFHVUAJWNEPBXOJDCSLLFEZCLOENKHZYINFWTCV",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "ABQOJFSU_MPELYWHNRCVKXGDTIZ",
+        "inner": "TXALUFCBJOYDRHPKWGVQSNIEMZ",
+        "initial_outer": 16,
+        "initial_inner": 21,
+        "continuous_plaintext": "DWYTIZXICBYJDWSIZNIFHEASTNORTHEASTJIOPSQNWKICERWODKQWPWCQCFQHAHBERLINCLOCKWCDKAJFOEOKSYKLSFBKPHYO",
+        "ciphertext": "ASSFCBLBXDEKJTQRHUHSUXGEKJIYGOCIASXIXJFAWKNTSPSVJATONVITDXKHTRXPMUTHFBASODCYKHSMZMCZWLYGYFFANRGWB",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "YNKLOMXSDHUTQVI_FGPBZAERCJW",
+        "inner": "JQZWLHNBRAXKUDIVPTCSEFOMGY",
+        "initial_outer": 17,
+        "initial_inner": 12,
+        "continuous_plaintext": "QEQNQKYGUGWOKHINMSJNIEASTNORTHEASTGEVCKRBWRKFLCOLZEWANGFSJORJRSBERLINCLOCKWYMLAPNECFRSZQHOWRNDQRB",
+        "ciphertext": "RCAYXQJTKCQNHUTHAKWNSQQICAUHESNNSMWRJKPKRVDSBFPMMIPEPMDDHMWOGMREMGHPLQBRZBHNKXZJXHBJBCHGOCIUTGZDX",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "DMUKPTHYQWRZFLVNC_JOISABGXE",
+        "inner": "SDFBEMNIZRCPAJKGYWXOLUVHQT",
+        "initial_outer": 19,
+        "initial_inner": 8,
+        "continuous_plaintext": "ECHYINYBWDXFYAKGBIDJGEASTNORTHEASTKWAXCXSKUWTCLWSHRCDAMHBSIHLTWBERLINCLOCKYQCYUIHTBLKYECNADFGFTEU",
+        "ciphertext": "GNHQPISYBULZEODVVLDOTDQQROHGPANBBKJONRDCIYYHLMBSAQFZOGUSWYYBCBIUQRAOGYKLXNCPOPITAAEUAYRSSIAQCTOKW",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "SLMXHIFTUKOVCDZGNY_BJWPREAQ",
+        "inner": "NVEXWSOZRTPCKFDBGJYIUQAHLM",
+        "initial_outer": 11,
+        "initial_inner": 24,
+        "continuous_plaintext": "LEZHUWITGUYNSDCLMFROSEASTNORTHEASTPJOZITLJBHVJDWJKSTXNKUIFIKEDIBERLINCLOCKAKNSYBONRHAXAPMVGQVISFJ",
+        "ciphertext": "BKXULCALONTTUZZHLEIZLAHMOBPHRONVXPMLBICFRVVFUXHSSQFUJWLLAHHVGOMFYYHVKTMRPRLTGVYUKYMZEZXVRJQOYFTBX",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "_EXLQCDJIWMFAZOTSGNYHKPURVB",
+        "inner": "YEZDGMKAFHCUINLJTXRPSWBOVQ",
+        "initial_outer": 17,
+        "initial_inner": 15,
+        "continuous_plaintext": "XVFZLACNVHAJFEZAWTOFAEASTNORTHEASTIXSHZVUVQBOVZXRCDAGQIGLALOFTGBERLINCLOCKCMBWKLYQPBOURCKMEXUAFPC",
+        "ciphertext": "EVUNGNASEOTITAPPXOOWBIOEEGEUDFTEMMQSFIKRXPQWCWCYBGMUTGFXGNMTLRSDMZFNOUCWNDLPHPMLGTFIECUPHQXRNDDLV",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "UPTWMCON_EIFVGZSXBQHYLKRJDA",
+        "inner": "DSHCFVEXWBAJTOKGZQIPLMUNYR",
+        "initial_outer": 19,
+        "initial_inner": 6,
+        "continuous_plaintext": "TNMAUXSYWFHTZEUMBTWFPEASTNORTHEASTAUWUIOUQLRHZJZEJDKJISCZKSUZBYBERLINCLOCKUYJWIFTGBATQBODNKLTHMUP",
+        "ciphertext": "ZMPGZEEJMCJMXCMRTYRXYENOSEENCLJHIEFVWEZOWDCVHYWRMAJBJYCLCJVQVWJBHZGVCHIFFMDLYFJTFGPHVMMJFOHHASOAJ",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "EXNPMTWBSRGUOFKCHVIQYJD_ZLA",
+        "inner": "BWMVRGQFYOZASUCKEDPXIJLNTH",
+        "initial_outer": 0,
+        "initial_inner": 3,
+        "continuous_plaintext": "LWVUGDCHKGODLNQIWBLTXEASTNORTHEASTWPVPBAYKAUNMFTISINKHCVTMOVCASBERLINCLOCKYPEOISFXWIDGKORZDXZGZFG",
+        "ciphertext": "MZJEEMLNLXJGYSVVPXAPKKKTLIRMHZJJRMVWKMQHIKWUGFEOLUNYILLTUUJBHZXXULSQDRCMGGAJXGAMFLWUDQZOFLJWTAHKU",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "Q_DXTFBCHJKVMAGSWEZYILPONUR",
+        "inner": "WTAQFMJHNGBISXLKEUYRCVDPOZ",
+        "initial_outer": 0,
+        "initial_inner": 11,
+        "continuous_plaintext": "GFZTDASLIQDFWFOTLSVYREASTNORTHEASTFSNMJFVTXJMCUMUKMWFMPJRGXTGJDBERLINCLOCKDSKQMIVTBFJPHAFGFWICLRX",
+        "ciphertext": "ZUFUETQGGEYVJDLDXNMXCSGITVVOQHEXKMJEZLSGKGGKYLJCHRVZKDJCIWEUTPUVJKIIKZXKWQDGMDNENAFFNVNXJKHYDBOQH",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "T_GDSIYZUFOKHRWPEXBALQJNMVC",
+        "inner": "YSRNDCEMZOKGXHWIAVQTFLJUPB",
+        "initial_outer": 3,
+        "initial_inner": 2,
+        "continuous_plaintext": "PAOSKDPRYVCXBOUWTYGELEASTNORTHEASTIETRNJODRAKWMJDUWKNTPSDPVOGCHBERLINCLOCKSFMFSXRYJACXVCBSXOBCPID",
+        "ciphertext": "WQKCXCVAKNDJUAILZWGBNYNIXOUYWYDMTALEVDWWNUMHEOTQYCGOLBWDDAYXCNAJLTYXDMRTOLIFOLVDSLGOAZAVKUKDXFKSY",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "_QOFKATHNEWSRZLUMVBDGJYCPXI",
+        "inner": "CUIVPAHWJRKENSDFXGTQOYMZBL",
+        "initial_outer": 7,
+        "initial_inner": 25,
+        "continuous_plaintext": "OBOZOYXLTAYAPNTJYAELPEASTNORTHEASTKMCERDGTWEMANFOMTAFKHGFUQDBHRBERLINCLOCKEXCJZCYJPNCESVYRSQSORGV",
+        "ciphertext": "YEMWZGOKVVOPZJWMZWEXCNRFESJTSDXSQFDCWOZPATMMVQMTTHZZMZCSZRMDDPRFWKNBWMDVBHEUCLTIIIAXATOCAMMSZFLWA",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "FBK_XMLTPVEADOQIHGJRZNCWSUY",
+        "inner": "ULGECQFADVZNSOJKMWHTPYIRBX",
+        "initial_outer": 11,
+        "initial_inner": 1,
+        "continuous_plaintext": "JCADEQCGPDLXPZGWTIVKAEASTNORTHEASTFJVLXYCZYQMJGECGZQIQYOGCUVHKGBERLINCLOCKSOFXIAKXWMKBPTJWIYWFQST",
+        "ciphertext": "DSGEGFJZGFLUCMJPQODGNNSXVRMINPKMEOAXWKJZAFSLTFFUSDNFAATANMTCNBOBAMCOTPQSYGBJGFWJFDLZDDKKUQBVANXVT",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "KVUHEFZQDAYPI_ORGCXLSNBMTJW",
+        "inner": "DUORQYBPFHWCMKXNLEIGSTAZJV",
+        "initial_outer": 26,
+        "initial_inner": 8,
+        "continuous_plaintext": "JNGZETJPFUTODPRBIZFETEASTNORTHEASTBNHFMIZUARCWGRSFTUWHVLEVBILIZBERLINCLOCKCMJMHRHINCMNLWNABWZJWXW",
+        "ciphertext": "FYUIECMVSIXYDRPXYDDDSUBETGKXZRQHSJZZBFDLCFNTZBZZOXPMWXKYENWUFOZKAPCYXCKHMAKGTSUKOCSEZATOJKDQCQYJB",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "HBJUYOKIZQNTDSMLEVRA_WXFCPG",
+        "inner": "DSBGFEOYKWLVZIJXCMHNTPAURQ",
+        "initial_outer": 24,
+        "initial_inner": 8,
+        "continuous_plaintext": "ETRZHKEYXBAITIOWHVTNSEASTNORTHEASTHEPBKGEBMCLOHREWXCGWRXYHZUWRFBERLINCLOCKRNZQPVAVTWHSUBRXTSUORPO",
+        "ciphertext": "SUFPJTFNVMWRBQRJTVOOWZXLWWEHZBHPCXEPFYZOUWAORXVGBYKLZKOLNCRTZLXTWVWBENVBPFCWKWQHTNJRFMKYRBHTVIDYJ",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "PMAOHBCTDXSWNUKVZJYR_EGLFIQ",
+        "inner": "HOPSNAVTQLJYRXBMUEKIFGCZDW",
+        "initial_outer": 12,
+        "initial_inner": 1,
+        "continuous_plaintext": "SAYKPOHOLSRSRAFHCFGZIEASTNORTHEASTKBLKRMRNXIVJHUEUYJYXHFTLRVQDXBERLINCLOCKORBOGDGPLVHYRDEOCWBOUZW",
+        "ciphertext": "HILVICZZEABVMWGPNCGUWCNRJMTZRJOLEMCBVDSRNDCRSAIPJSQQLOZEOEBYCAVSIKCDRTDAQUVCLQOBPTNZXOPKABECEUHSW",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "DOEZJWMXNLHUQFTKYG_VBSAICRP",
+        "inner": "XENWCUKBJOFLPVIGTYDRZQAMSH",
+        "initial_outer": 26,
+        "initial_inner": 13,
+        "continuous_plaintext": "LQLOCAQUHFALJBXCUWETOEASTNORTHEASTFSAYRGRBHJGFXHGTDGEYRVBAWHVRPBERLINCLOCKHZGSNWRELJBKGXZTMXQJNUR",
+        "ciphertext": "MXSYIVCCCBTCXTCQOCNINWMMYPKCZYFCCSSKBNLCPJHZBCHNOBZLMLZGTDNBTAMDESOMOHLCERGOMEGVBLDICXNRTEZQXRMXI",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      },
+      {
+        "outer": "TGENUORFQCDXMV_APZYJSLBHWKI",
+        "inner": "RTALEJQGPINHYBWZUKVMDSOXFC",
+        "initial_outer": 21,
+        "initial_inner": 23,
+        "continuous_plaintext": "IKEQKZRLHTQTUJODTCWKXEASTNORTHEASTABHIVIEQDXTICRPIKIRNKIQVLDPGIBERLINCLOCKTCWXPQCDSNLDXQBWOSJEOLE",
+        "ciphertext": "AAQYLOYTLGZPYTWMNMPIOWTQBUVMWHKEIUJYBUEKDRALMMLTHSSOLTXFGYDNUATFJIFLGBCNWEQZEVXUKVAYEDSMGIKQQUMIK",
+        "full_roundtrip": true,
+        "invariant_accepts": true,
+        "opposed_equality_mutation_rejects": true
+      }
+    ]
+  },
+  "source_sha256": {
+    "experiments/wheatstone_transition.py": "ca1b1c2bd363ea496c9581e2fd183f9c01edcc6afa2a46d7dfa161a86efe8941",
+    "research/WHEATSTONE-TRANSITION-SPEC.md": "37a50512d287cebfbeaf883f0fc417e4710e953cc8929a0b4c20238285b403d7",
+    "data/wheatstone-reference-vectors.json": "1b62afe0a97c641a33c1b7b1a20029f7510a5a1f7d570bdbd12710606882b15b",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}
