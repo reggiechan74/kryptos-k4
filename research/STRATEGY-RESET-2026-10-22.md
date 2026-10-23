@@ -38,6 +38,10 @@ revision changes documentation only and does not rerun that regression suite.
 | 4. Blind architecture diagnosis | Synthetic recovery was already proposed locally and exists in reviewed external work. New-to-ledger target is blind cross-family discrimination with abstention and sealed evaluation | Tests whether our available statistics separate specified families at length 97; may establish only an equivalence/ambiguity class | Frozen generators, disjoint-source/key benchmark, confusion and abstention tables; small CPU feasibility run before scaling | Predeclared evaluation gate and uncertainty; failure stops use of that diagnostic. Success validates a method on represented generators, not K4 classification truth |
 | 5. Compatible-key volume and bounded synthesis | SAT, graph potentials and marginal identifiability are already implemented. New target is predictive volume across a small new grammar, charging all fitted choices | Separates impossible, compatible-but-ambiguous and forced predictions; requires quotienting harmless gauges and retaining real free offsets | Exhaustive four-symbol counting oracle, then a separately frozen grammar only if justified; toy is tiny, full counting may be expensive | Exact counts/gauge-invariant predictions or explicit unresolved result. Success measures capacity and predictions under assumptions, not historical posterior probability |
 
+**Status correction, 23 October 2026:** the historical affine-digraph backlog
+entry below is superseded by [four exact parity exclusions](AFFINE-DIGRAPH-PARITY-BOUNDARY.md).
+It is not a genuinely open unrun recipe. See the [current local gap note](UNRUN-GAPS-2026-10-23.md).
+
 ## What the ledger already covers
 
 Read dated outcomes together with older unrun headings. Local novelty is not
