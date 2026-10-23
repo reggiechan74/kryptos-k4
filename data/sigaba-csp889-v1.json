@@ -70,6 +70,400 @@
   "vectors": [
     {
       "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherposition": "AAAAA",
+      "controlposition": "AAAAA",
+      "indexposition": "00000",
+      "cipherorientation": "00000",
+      "controlorientation": "00000",
+      "indexorientation": "00000",
+      "output": "XEWLGAEBVDKOBNSUUZBGFHCSMFLCZSTOVIXCZXFNKYYRDURUHDVUHIKZEJLDOENKPPEUPHAXCBWDNYOQYAUSSWWYOZNKDXDIQFMPCLLFUTSXQL",
+      "n": 1,
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherposition": "AAAAA",
+      "controlposition": "AAAAA",
+      "indexposition": "00000",
+      "cipherorientation": "00000",
+      "controlorientation": "00000",
+      "indexorientation": "10000",
+      "output": "XIXUKMCFOFETQRFFSPRWBAYVWQYWVLHUCYLOPQTACFQMFXBDRCPBDAGPOFOTQYTUKYGWGDXCNUHTOAJERVQIKSQPTIZWRQULIZXUWEFLJIMCZH",
+      "n": 2,
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherposition": "AAAAA",
+      "controlposition": "AAAAA",
+      "indexposition": "00000",
+      "cipherorientation": "00000",
+      "controlorientation": "00000",
+      "indexorientation": "11111",
+      "output": "XPCYIVPMQKHVKXKKXFZRFNJHINUQIGEQADFZWNTIOKBMFJZSVOTLAGRUAAIYIFPITKUTROVFVRCKIXOXPFHDJHIKMOBQFLIEEAJTIPEFDKXMYW",
+      "n": 3,
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherposition": "AAAAB",
+      "controlposition": "AAAAA",
+      "indexposition": "00000",
+      "cipherorientation": "00000",
+      "controlorientation": "00000",
+      "indexorientation": "00000",
+      "output": "TFORHPBTNVQGTTMDOPTEOZPYSVDWAKLJNCPOODLWCWQXVKXKDNGAWXGEWBHVKJFCHHKQZUBUDHLJDNBGIGZFDBMQPRTGYGIANKSL",
+      "n": 4,
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherposition": "AAAAA",
+      "controlposition": "AAAAB",
+      "indexposition": "00000",
+      "cipherorientation": "00000",
+      "controlorientation": "00000",
+      "indexorientation": "00000",
+      "output": "XBRZUAMFDWGXWEPNOBPSAMAUQEENILZUQHGSICSSOXZIJDAOJLUEHHXKINYULNIGXHBPNNDZJRGLVCONUCJCZPCEJNCNQARJNZSQ",
+      "n": 5,
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherposition": "AAAAA",
+      "controlposition": "AAAAA",
+      "indexposition": "10000",
+      "cipherorientation": "00000",
+      "controlorientation": "00000",
+      "indexorientation": "00000",
+      "output": "XPBJSRIGYZMFBPHGDYROZAJGJCCSLRZBOGTEFFCKYEZYXXRNPINHZPBLDXYIWGDTBIGTGLVBLORUFACGIHSVMYEJMFPDMPQYIOTY",
+      "n": 6,
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherposition": "AAAAA",
+      "controlposition": "AAAAA",
+      "indexposition": "00000",
+      "cipherorientation": "00001",
+      "controlorientation": "00000",
+      "indexorientation": "00000",
+      "output": "CQOWYKDTOVYSYNDMFJUHZECGTPINRKLQNTPZJETFOZVCVECEMOKFRSPYBBWWTDFHHHPZAHSWOBGDXIOAJHTSHVGRGSBVFPCFPETA",
+      "n": 7,
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherposition": "AAAAA",
+      "controlposition": "AAAAA",
+      "indexposition": "00000",
+      "cipherorientation": "00000",
+      "controlorientation": "00001",
+      "indexorientation": "00000",
+      "output": "XBRGYEDUJSRKRNNEWNPOYURLZFEFQMMJGBIUPWIPSEALRCQOURPKXFFCAQISJGYWGGEUZYHKXSQRDWLPNATSLTCHMXKABNFFHRGF",
+      "n": 8,
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherposition": "AAAAA",
+      "controlposition": "AAAAA",
+      "indexposition": "00000",
+      "cipherorientation": "00001",
+      "controlorientation": "00001",
+      "indexorientation": "00000",
+      "output": "CPLSQBINJSCYCNNFLBPLNTRDREOPAJJIRTTBIDMZLDSKRUISUCBPMCZMPNJGGFKKVVPEWDGVPUABOYXAZULRKSVIWWLLMYUQWCRJ",
+      "n": 9,
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherposition": "OOOOO",
+      "controlposition": "OOOOO",
+      "indexposition": "00000",
+      "cipherorientation": "00000",
+      "controlorientation": "00000",
+      "indexorientation": "00000",
+      "output": "OKSHKNYRLPJYAWMNSDIWHCQWXNVQKAMYTTWSRXIRNGFPLCJQHLBDMMAYBBQKQXHDYACWZHARYRSCZIZEOWCZXQFUBMBHZMGQEKQK",
+      "n": 10,
+      "input": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "cipherrotors": [
+        2,
+        1,
+        5,
+        4,
+        7
+      ],
+      "controlrotors": [
+        6,
+        10,
+        8,
+        3,
+        9
+      ],
+      "indexrotors": [
+        5,
+        1,
+        2,
+        4,
+        3
+      ],
+      "cipherposition": "ZDJWF",
+      "controlposition": "GTHSR",
+      "indexposition": "93224",
+      "cipherorientation": "01101",
+      "controlorientation": "10110",
+      "indexorientation": "00000",
+      "output": "XPSMBJVRXLPILEPVRTKKAXZDLDQBOYJWAYMJDXLNFSXNFAGNPADNDCDHZKVOFAMMBOKQVRKOXNRZMECKZIIPXJYONEIDDFCKWOIKXDJTIDRYKMYBPIDPTVOFJPAOTTJZIA",
+      "n": 11,
+      "input": "ABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYX"
+    },
+    {
+      "cipherrotors": [
+        2,
+        1,
+        5,
+        4,
+        7
+      ],
+      "controlrotors": [
+        6,
+        10,
+        8,
+        3,
+        9
+      ],
+      "indexrotors": [
+        5,
+        1,
+        2,
+        4,
+        3
+      ],
+      "cipherposition": "ZDJWF",
+      "controlposition": "GTHSR",
+      "indexposition": "93224",
+      "cipherorientation": "01101",
+      "controlorientation": "10110",
+      "indexorientation": "11000",
+      "output": "XVJDTHEIIHCXPGEMCPJDUGKLZAAGHMKVMXNNDBIZDATLLPHMFBDEAKTPYYMYHQURZVWSMXDWXKDQWBCDOJPNVIVPXWHNJLUVYXMQYUJMWFOXYTMSTMDVFQQNXQJNQTNSVO",
+      "n": 12,
+      "input": "ABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYX"
+    }
+  ],
+  "source_sha256": {
+    "SIGABAConstants.cs": "9b4649674f1e4c2b4972c522951a3889c84479c56515713a6e901a6a45a19fe9",
+    "SigabaTest.cs": "a18ff296ffbc91a2030723eb6b2dea97ae58aa3d44317dfd729505e56df7d1aa",
+    "SIGABAImplementation.cs": "cef5d7e45e5375c009eb8875713b3df843896aa7641597b9fb868f9c8f00e6b0",
+    "old-rotor.cs": "1209d515cdc5103d1ca5a792143dd591b0298a817ff80a92d6bdd45cb03e2d6c",
+    "old-core.cs": "cb171c89fef5fe15d84a1a3dc47b6dc010bf83f3f71733faba4c2af1d99a94ec",
+    "old-constants.cs": "8b7f184225db1fd21001210b5f892e96045f9976843b40696cfd93c8baefaef5"
+  },
+  "original_vector_settings": [
+    {
+      "cipherrotors": [
         10,
         1,
         2,
@@ -453,9 +847,6 @@
       "input": "ABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYXABCDEFGHIJKLMNOPQRSTUVWXYX"
     }
   ],
-  "source_sha256": {
-    "SIGABAConstants.cs": "9b4649674f1e4c2b4972c522951a3889c84479c56515713a6e901a6a45a19fe9",
-    "SigabaTest.cs": "a18ff296ffbc91a2030723eb6b2dea97ae58aa3d44317dfd729505e56df7d1aa",
-    "SIGABAImplementation.cs": "cef5d7e45e5375c009eb8875713b3df843896aa7641597b9fb868f9c8f00e6b0"
-  }
+  "vector_translation": "Original experimental plugin numbers YCHL... as wheel10, INPX... as wheel1; normalized table numbers these 1 and2. Original control wheel order/orientation is right-to-left while control position string is left-to-right. Translate wheel x to x%10+1, reverse control wheel and orientation lists, retain all position strings; ciphertext and plaintext unchanged. Derived by reading original source, not fitting K4.",
+  "vector_era_commit": "09f118381086b4ea09ba455786f683ea81f4670d"
 }

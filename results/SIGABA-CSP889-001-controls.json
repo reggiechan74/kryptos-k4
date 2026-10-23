@@ -1,0 +1,73 @@
+{
+  "source_sha256": {
+    "data/sigaba-csp889-v1.json": "8326857b0b2997d64be94a4685185992ce00702235964c0a985f183d92fc3c5b",
+    "research/SIGABA-CSP889-SPEC.md": "4207af6d6f54884b5957035de78b54843d72722856d3448b358f07c0d7373d9a",
+    "experiments/sigaba_csp889.py": "4fd35b367dbbf9407316460fcec944c3a48c70cfea8d0fa0fc37612fdae4dae5"
+  },
+  "controls": {
+    "external_vectors_both_directions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contact_and_inverse_checks": 14520,
+    "independent_805_step_cases": 3,
+    "plants": [
+      {
+        "key": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_fits": 1,
+        "plaintexts": 1,
+        "truth_included": true
+      },
+      {
+        "key": [
+          1,
+          25,
+          25,
+          9
+        ],
+        "raw_fits": 1,
+        "plaintexts": 1,
+        "truth_included": true
+      },
+      {
+        "key": [
+          0,
+          7,
+          14,
+          3
+        ],
+        "raw_fits": 1,
+        "plaintexts": 1,
+        "truth_included": true
+      },
+      {
+        "key": [
+          1,
+          13,
+          2,
+          4
+        ],
+        "raw_fits": 1,
+        "plaintexts": 1,
+        "truth_included": true
+      }
+    ],
+    "constant_negative": true,
+    "mutated_vector_rejected": true
+  }
+}
