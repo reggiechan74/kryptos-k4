@@ -4,6 +4,8 @@ These archives preserve inspected source deltas from the separately published
 Kryptos Light Laboratory. They are repository documentation, not a complete Site
 checkout or a redeployment operation.
 
+- [Version 15: live manual fold overlay](manual-overlay-v15/README.md), source commit
+  `086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea`; owner-reported publication and code tests, with rendered-browser QA blocked.
 - [Version 14: entrance installation](entrance-v14/README.md), source commit
   `d4155931cd760d4222c9f66916551110eb40053b`.
 - [Version 13: confirmed-only K4 row](confirmed-clues-v13/README.md), source commit

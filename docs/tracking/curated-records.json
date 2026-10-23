@@ -507,6 +507,15 @@
       ],
       "outcome": "134 frames retained; no unusual excess under declared controls; optics uncalibrated",
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
+    },
+    "LOG-5BA1042A0F": {
+      "title": "SITE-OVERLAY-015 \u2014 live Site source handoff and static validation",
+      "categories": [
+        "Site source archive",
+        "static data validation"
+      ],
+      "outcome": "Live v15 and 87 code tests owner-reported; local bytes/oracle data match; rendered QA blocked",
+      "basis": "New canonical integration entry and original source handoff, with local static checks and publication attribution kept separate."
     }
   }
 }

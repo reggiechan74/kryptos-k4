@@ -924,3 +924,15 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Code: [native evaluator](../experiments/monument_slide.py), [independent pixel oracle](../experiments/monument_slide_oracle.mjs).
 - Receipt: [exact positions and masks](../results/FOLD-SLIDE-020-actual.json); [findings and limitations](MONUMENT-FOLD-SLIDE-FINDINGS.md).
 - No measured optical calibration, plaintext extraction, Site change or new decoding candidate.
+
+
+## SITE-OVERLAY-015 — live Site source handoff and static validation
+
+- Date: 2026-10-23 UTC, integration record date; exact original Site-test and publication times were not supplied.
+- Type: Site source archive and static data validation, not an additional K4 cipher experiment.
+- The parent relayed native publication confirmation: Site version 15 live, public access revision 2 unchanged. Source commit `086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea`, based on `d4155931cd760d4222c9f66916551110eb40053b`. No deployment performed here.
+- Exact local patch archived; all 25 changed paths and 18 new-file bodies independently match the source commit, with no child-checkout write. Candidate/dist new modules agree.
+- Input/glyph values and all 134 embedded column-frame oracle records match retained research data. Local validation is static and executes no handed-off JavaScript.
+- Owner reports 87 code tests passed. Actual rendered-browser QA remained blocked by locked Mac; no local full Site suite or native-browser replay is claimed.
+- Row movement is exploratory; no systematic row scan or inherited column-only null p-value.
+- [Archive and limitations](../docs/site-source/manual-overlay-v15/README.md), [receipt](../results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json), [static verifier](../experiments/verify_manual_overlay_handoff.py).

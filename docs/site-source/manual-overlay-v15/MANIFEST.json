@@ -1,0 +1,17 @@
+{
+  "source_commit": "086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea",
+  "base_commit": "d4155931cd760d4222c9f66916551110eb40053b",
+  "patch_sha256": "48c7192fddf2414d1993b7edcf58852b74910e8d450248a8c440920ec8abafe1",
+  "patch_bytes": 250118,
+  "original_member_sha256": {
+    "source/core.mjs": "353937f1c001a108db33727c52898373e0625c6870a0bb427bb0e87ed3a18f70",
+    "source/data.mjs": "521fc368f317078de65bc22e09f55d7e285c76f4285f151a1096b5453ed738ba",
+    "source/module.mjs": "e2e2a733fd59fb464dd43c24088c6ace9d80be825d1426ea8c8f89cb1b9f0c48",
+    "source/view.mjs": "db496eda89c09dc703fcceba0b9b75ffb737875442914a8faa291639c858129b",
+    "ORIGINAL-HANDOFF.md": "f07cd860206086b633fcb6ba04260366697acfe000b7734f455f7f3f39313f00",
+    "original-tests/fold-overlay.test.mjs": "7c3361d0faf9ce1f364002c7d092b30b9a3fa6e865aee35b77d687aae52f8a3a",
+    "original-tests/fold-offline-records.json": "6c248f0f4ec759676ebb3802faaa217bce2a7e83c5dbf9b1bced85188944a7e0",
+    "qa/fold-overlay.html": "762c6db984c7886f44b379236b71d44ab07d0a3ee7654a40cd73df290e2bd820"
+  },
+  "scope": "Original copies only; explanatory guides and later deployment receipt are separate."
+}

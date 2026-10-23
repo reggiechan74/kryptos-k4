@@ -1,0 +1,135 @@
+{
+  "id": "SITE-OVERLAY-015",
+  "kind": "Live Site source archive and static data validation; not a new K4 experiment",
+  "recorded_at_utc": "2026-10-23T13:32:55.553417Z",
+  "source_commit": "086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea",
+  "base_commit": "d4155931cd760d4222c9f66916551110eb40053b",
+  "deployment": {
+    "version": 15,
+    "status": "live",
+    "url": "https://kryptos-light-laboratory-rc2026.milky-lion-6014.chatgpt.site",
+    "public_access_revision": 2,
+    "attribution": "Parent relayed the Site owner\u2019s successful native publication result; this repository task did not deploy or independently browser-check the Site.",
+    "exact_published_at_utc": null
+  },
+  "owner_reported_validation": {
+    "site_tests_passed": 87,
+    "all_134_column_frame_code_checks_passed": true,
+    "rendered_browser_QA": "blocked: Mac locked",
+    "row_statistical_scan_performed": false,
+    "exact_original_test_start_utc": null,
+    "exact_original_test_end_utc": null
+  },
+  "local_verification": {
+    "mode": "static only; no handed-off JavaScript executed",
+    "full_site_suite_rerun": false,
+    "site_checkout_modified": false,
+    "site_deployed_here": false,
+    "read_only_source_commit_check": {
+      "source_commit": "086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea",
+      "base_commit": "d4155931cd760d4222c9f66916551110eb40053b",
+      "original_patch_bytes": 250118,
+      "original_patch_sha256": "48c7192fddf2414d1993b7edcf58852b74910e8d450248a8c440920ec8abafe1",
+      "all_new_members_match_source_commit": true,
+      "new_members_compared": 18,
+      "canonical_full_git_diff_equals_patch": true,
+      "source_git_read_only": true,
+      "javaScript_executed": false
+    }
+  },
+  "static_checks": {
+    "patch_bytes": 250118,
+    "patch_sha256": "48c7192fddf2414d1993b7edcf58852b74910e8d450248a8c440920ec8abafe1",
+    "patch_paths": [
+      "FOLD_OVERLAY_HANDOFF.md",
+      "candidate/app.mjs",
+      "candidate/fold-overlay/MONUMENT-FOLD-SLIDE-FINDINGS.md",
+      "candidate/fold-overlay/MONUMENT-SLIDE-OVERLAY-SPEC.md",
+      "candidate/fold-overlay/MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md",
+      "candidate/fold-overlay/core.mjs",
+      "candidate/fold-overlay/data.mjs",
+      "candidate/fold-overlay/module.mjs",
+      "candidate/fold-overlay/view.mjs",
+      "candidate/index.html",
+      "candidate/style.css",
+      "dist/RELEASE_MANIFEST.json",
+      "dist/app.mjs",
+      "dist/fold-overlay/MONUMENT-FOLD-SLIDE-FINDINGS.md",
+      "dist/fold-overlay/MONUMENT-SLIDE-OVERLAY-SPEC.md",
+      "dist/fold-overlay/MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md",
+      "dist/fold-overlay/core.mjs",
+      "dist/fold-overlay/data.mjs",
+      "dist/fold-overlay/module.mjs",
+      "dist/fold-overlay/view.mjs",
+      "dist/index.html",
+      "dist/style.css",
+      "qa/fold-overlay.html",
+      "tests/fold-offline-records.json",
+      "tests/fold-overlay.test.mjs"
+    ],
+    "new_git_blobs": {
+      "FOLD_OVERLAY_HANDOFF.md": "37aa9d113e71b5999291ddeec14df0bde17e8a69",
+      "candidate/fold-overlay/MONUMENT-FOLD-SLIDE-FINDINGS.md": "fafb9d1d8d00083c3f9ae65a84d4fafdd7756c0c",
+      "candidate/fold-overlay/MONUMENT-SLIDE-OVERLAY-SPEC.md": "8fd1a3ab3a8eda6f5f6617b344c27974b02ca463",
+      "candidate/fold-overlay/MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md": "ab3ca734a1f1ec1ce60ec96f7a5ef2fd8d86946c",
+      "candidate/fold-overlay/core.mjs": "0d37e3e068b5c28375633619aa778ad41cc6f1fa",
+      "candidate/fold-overlay/data.mjs": "30287efa4c79a1185743d867a3eeaa950305d1e6",
+      "candidate/fold-overlay/module.mjs": "9246f533069a10d43b27960cdef9c8a3de3ce8aa",
+      "candidate/fold-overlay/view.mjs": "688ae237f20fb5d676e8a248994c4f6d05a6977f",
+      "dist/fold-overlay/MONUMENT-FOLD-SLIDE-FINDINGS.md": "fafb9d1d8d00083c3f9ae65a84d4fafdd7756c0c",
+      "dist/fold-overlay/MONUMENT-SLIDE-OVERLAY-SPEC.md": "8fd1a3ab3a8eda6f5f6617b344c27974b02ca463",
+      "dist/fold-overlay/MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md": "ab3ca734a1f1ec1ce60ec96f7a5ef2fd8d86946c",
+      "dist/fold-overlay/core.mjs": "0d37e3e068b5c28375633619aa778ad41cc6f1fa",
+      "dist/fold-overlay/data.mjs": "30287efa4c79a1185743d867a3eeaa950305d1e6",
+      "dist/fold-overlay/module.mjs": "9246f533069a10d43b27960cdef9c8a3de3ce8aa",
+      "dist/fold-overlay/view.mjs": "688ae237f20fb5d676e8a248994c4f6d05a6977f",
+      "qa/fold-overlay.html": "f86095bebddacebe05f75ec665474e89845b36ea",
+      "tests/fold-offline-records.json": "da86c037578e201d2850ff693bbf2b062af7404c",
+      "tests/fold-overlay.test.mjs": "c1316d0d91c27c2d56f0d13d69671ece8bbda0f6"
+    },
+    "new_release_hashes": {
+      "fold-overlay/MONUMENT-FOLD-SLIDE-FINDINGS.md": "9da1efc49b0742bad6dc6df592ff0dd58c0406f46510d2a4d4086b55660b8a2c",
+      "fold-overlay/MONUMENT-SLIDE-OVERLAY-SPEC.md": "1d6fe9ea1a5da313879212b4081f318fbba75273f05e0952e4dc3ba32149f111",
+      "fold-overlay/MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md": "e32dab320d85f76ab246ebf5ac8f289674ccf787d5f709538ae88a96bfd07b0b",
+      "fold-overlay/core.mjs": "353937f1c001a108db33727c52898373e0625c6870a0bb427bb0e87ed3a18f70",
+      "fold-overlay/data.mjs": "521fc368f317078de65bc22e09f55d7e285c76f4285f151a1096b5453ed738ba",
+      "fold-overlay/module.mjs": "e2e2a733fd59fb464dd43c24088c6ace9d80be825d1426ea8c8f89cb1b9f0c48",
+      "fold-overlay/view.mjs": "db496eda89c09dc703fcceba0b9b75ffb737875442914a8faa291639c858129b"
+    },
+    "archived_member_sha256": {
+      "source/core.mjs": "353937f1c001a108db33727c52898373e0625c6870a0bb427bb0e87ed3a18f70",
+      "source/data.mjs": "521fc368f317078de65bc22e09f55d7e285c76f4285f151a1096b5453ed738ba",
+      "source/module.mjs": "e2e2a733fd59fb464dd43c24088c6ace9d80be825d1426ea8c8f89cb1b9f0c48",
+      "source/view.mjs": "db496eda89c09dc703fcceba0b9b75ffb737875442914a8faa291639c858129b",
+      "ORIGINAL-HANDOFF.md": "f07cd860206086b633fcb6ba04260366697acfe000b7734f455f7f3f39313f00",
+      "original-tests/fold-overlay.test.mjs": "7c3361d0faf9ce1f364002c7d092b30b9a3fa6e865aee35b77d687aae52f8a3a",
+      "original-tests/fold-offline-records.json": "6c248f0f4ec759676ebb3802faaa217bce2a7e83c5dbf9b1bced85188944a7e0",
+      "qa/fold-overlay.html": "762c6db984c7886f44b379236b71d44ab07d0a3ee7654a40cd73df290e2bd820"
+    },
+    "input_identical": true,
+    "glyphs_identical": true,
+    "offline_column_records_equal": 134,
+    "source_artifact_sha256": "8aa6e64f92260302c66a279bae1420180d28b7b335734a910b528d089582949a",
+    "research_source_commit": "e75ecbbba1c0913d98f51a5b8ac23192dac9723e",
+    "handed_off_JavaScript_executed": false,
+    "rows_statistically_scanned": false
+  },
+  "scope": "Manual row/column UI; prior systematic null controls cover dy=0 only. Approximate glyph masks are not measured sculpture apertures.",
+  "repository_regressions": {
+    "Python 3.9": {
+      "count": 475,
+      "passed": true,
+      "seconds": 43.466
+    },
+    "Python 3.12": {
+      "count": 475,
+      "passed": true,
+      "seconds": 34.219
+    }
+  },
+  "repository_regression_log_sha256": {
+    "results/SITE-OVERLAY-V15-py39.log": "bc1a7cb37ec34bfc499d6304665c5d9fb5d541301e9124e44f9e4edc729dfd7a",
+    "results/SITE-OVERLAY-V15-py312.log": "3c8ed6733e9953340686e25f3133aca4e019f47f31ebe20740425fcae7b8c4cb"
+  },
+  "regression_recorded_at_utc": "2026-10-23T13:35:34.895913Z"
+}

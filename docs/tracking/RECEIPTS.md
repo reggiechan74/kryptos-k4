@@ -44,6 +44,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/DOCUMENTATION-LINK-AUDIT-021.json](../../results/DOCUMENTATION-LINK-AUDIT-021.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-022.json](../../results/DOCUMENTATION-LINK-AUDIT-022.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-023.json](../../results/DOCUMENTATION-LINK-AUDIT-023.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
+| [results/DOCUMENTATION-LINK-AUDIT-024.json](../../results/DOCUMENTATION-LINK-AUDIT-024.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DYNAMIC-KEY-VALIDATION.json](../../results/DYNAMIC-KEY-VALIDATION.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
 | [results/ENE-NOTE-CHECKS.json](../../results/ENE-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-001.json](../../results/EXCLUSION-SCOPE-AUDIT-001.json) |  | Exact run start/end unknown; inspect original |
@@ -65,6 +66,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/EXCLUSION-SCOPE-AUDIT-017.json](../../results/EXCLUSION-SCOPE-AUDIT-017.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-018.json](../../results/EXCLUSION-SCOPE-AUDIT-018.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-019.json](../../results/EXCLUSION-SCOPE-AUDIT-019.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-020.json](../../results/EXCLUSION-SCOPE-AUDIT-020.json) |  | Exact run start/end unknown; inspect original |
 | [results/FACE-ROW-001-COVERAGE.json](../../results/FACE-ROW-001-COVERAGE.json) | prior-coverage audit; zero K4 evaluations | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005-controls.json](../../results/FEISTEL-SYMMETRY-005-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005.json](../../results/FEISTEL-SYMMETRY-005.json) |  | Exact run start/end unknown; inspect original |
@@ -175,6 +177,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001.json](../../results/SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001.json) | SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001 | Exact run start/end unknown; inspect original |
 | [results/SITE-CONFIRMED-CLUES-SOURCE-HANDOFF.json](../../results/SITE-CONFIRMED-CLUES-SOURCE-HANDOFF.json) |  | Exact run start/end unknown; inspect original |
 | [results/SITE-ENTRANCE-V14-SOURCE-HANDOFF.json](../../results/SITE-ENTRANCE-V14-SOURCE-HANDOFF.json) |  | Exact run start/end unknown; inspect original |
+| [results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json](../../results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json) | SITE-OVERLAY-015; Live Site source archive and static data validation; not a new K4 experiment | receipt recording: 2026-10-23T13:32:55.553417Z |
 | [results/SOLAR-BOUNDS-NOTE-CHECKS.json](../../results/SOLAR-BOUNDS-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
 | [results/SPECIFICATION-CHRONOLOGY.json](../../results/SPECIFICATION-CHRONOLOGY.json) |  | Exact run start/end unknown; inspect original |
 | [results/STAT-001-summary.json](../../results/STAT-001-summary.json) | STAT-001 | Exact run start/end unknown; inspect original |

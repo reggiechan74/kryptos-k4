@@ -2645,6 +2645,45 @@
         "results/FOLD-SLIDE-020-actual.json"
       ],
       "original_entry": "- Date: 2026-10-23 UTC. Exact run start/end were not recorded and are unknown; commit/publication times are distinct.\n- Type: actual inscription-layout comparison with approximate optical apertures, not a K4 decryption search.\n- Protocol: [frozen progressive model](MONUMENT-SLIDE-OVERLAY-SPEC.md), [pre-score registration amendment](MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md).\n- Input: full canonical cipher/tableau rows and existing modeled font; MYVGT/AABCD anchor reproduced with no row shift.\n- Coverage: 134 frames across two registrations, −33…+33 inclusive; 130 active. Every frame retained.\n- Outcome: zero-shift primary 35/856 identical letters; no unusual full-scan label/area excess under 1,999 row shuffles and 1,999 movable-row rotations. Four-report adjusted p=1 for each endpoint/scheme.\n- Code: [native evaluator](../experiments/monument_slide.py), [independent pixel oracle](../experiments/monument_slide_oracle.mjs).\n- Receipt: [exact positions and masks](../results/FOLD-SLIDE-020-actual.json); [findings and limitations](MONUMENT-FOLD-SLIDE-FINDINGS.md).\n- No measured optical calibration, plaintext extraction, Site change or new decoding candidate."
+    },
+    {
+      "record_id": "LOG-5BA1042A0F",
+      "experiment_ids": [
+        "SITE-OVERLAY-015"
+      ],
+      "title": "SITE-OVERLAY-015 — live Site source handoff and static validation",
+      "categories": [
+        "Site source archive",
+        "static data validation"
+      ],
+      "outcome": "Live v15 and 87 code tests owner-reported; local bytes/oracle data match; rendered QA blocked",
+      "classification_basis": "New canonical integration entry and original source handoff, with local static checks and publication attribution kept separate.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-23 UTC, integration record date; exact original Site-test and publication times were not supplied.",
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-23T13:32:55.553417Z",
+          "original": "2026-10-23T13:32:55.553417Z"
+        }
+      ],
+      "links": [
+        "docs/site-source/manual-overlay-v15/README.md",
+        "experiments/verify_manual_overlay_handoff.py",
+        "results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json"
+      ],
+      "receipt_paths": [
+        "results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json"
+      ],
+      "original_entry": "- Date: 2026-10-23 UTC, integration record date; exact original Site-test and publication times were not supplied.\n- Type: Site source archive and static data validation, not an additional K4 cipher experiment.\n- The parent relayed native publication confirmation: Site version 15 live, public access revision 2 unchanged. Source commit `086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea`, based on `d4155931cd760d4222c9f66916551110eb40053b`. No deployment performed here.\n- Exact local patch archived; all 25 changed paths and 18 new-file bodies independently match the source commit, with no child-checkout write. Candidate/dist new modules agree.\n- Input/glyph values and all 134 embedded column-frame oracle records match retained research data. Local validation is static and executes no handed-off JavaScript.\n- Owner reports 87 code tests passed. Actual rendered-browser QA remained blocked by locked Mac; no local full Site suite or native-browser replay is claimed.\n- Row movement is exploratory; no systematic row scan or inherited column-only null p-value.\n- [Archive and limitations](../docs/site-source/manual-overlay-v15/README.md), [receipt](../results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json), [static verifier](../experiments/verify_manual_overlay_handoff.py)."
     }
   ],
   "receipts": [
@@ -3028,6 +3067,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-024.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -3171,6 +3219,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-019.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-020.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -4142,6 +4197,23 @@
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json",
+      "labels": [
+        "SITE-OVERLAY-015",
+        "Live Site source archive and static data validation; not a new K4 experiment"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-23T13:32:55.553417Z",
+          "original": "2026-10-23T13:32:55.553417Z"
+        }
+      ],
+      "time_status": "explicit receipt fields",
       "status": null
     },
     {
