@@ -1,0 +1,2224 @@
+{
+  "protocol_sha256": "37e585fdeb16ea01a7f83330d1f77872e19e6e4db3853591cfae60aed4207470",
+  "source_sha256": "08a9b898f59eda13b6bc3ee962c42b90356358627d7dbba9e3a5dc8b893b361f",
+  "trees": {
+    "geometry": {
+      "slots": [
+        "I",
+        "T",
+        "H",
+        "F",
+        "L",
+        "E",
+        "Z",
+        "M",
+        "Y",
+        "V",
+        "K",
+        "N",
+        "X",
+        "W",
+        "A",
+        "P",
+        "R",
+        "B",
+        "D",
+        "G",
+        "C",
+        "S",
+        "O",
+        "Q",
+        "J",
+        "U"
+      ],
+      "paths": {
+        "I": "000000000000000000",
+        "T": "000000000000000001",
+        "H": "000000000000000010",
+        "F": "000000000000000011",
+        "L": "00000000000000010",
+        "E": "00000000000000011",
+        "Z": "000000000000001",
+        "M": "000000000000010",
+        "Y": "000000000000011",
+        "V": "0000000000001",
+        "K": "000000000001",
+        "N": "000000000010",
+        "X": "000000000011",
+        "W": "0000000001",
+        "A": "000000001",
+        "P": "000000010",
+        "R": "000000011",
+        "B": "0000001",
+        "D": "000001",
+        "G": "00001",
+        "C": "0001",
+        "S": "001",
+        "O": "010",
+        "Q": "011",
+        "J": "10",
+        "U": "11"
+      }
+    },
+    "morse": {
+      "slots": [
+        "E",
+        "I",
+        "S",
+        "H",
+        "V",
+        "U",
+        "F",
+        "A",
+        "R",
+        "L",
+        "W",
+        "P",
+        "J",
+        "T",
+        "N",
+        "D",
+        "B",
+        "X",
+        "K",
+        "C",
+        "Y",
+        "M",
+        "G",
+        "Z",
+        "Q",
+        "O"
+      ],
+      "paths": {
+        "E": ".",
+        "I": "..",
+        "S": "...",
+        "H": "....",
+        "V": "...-",
+        "U": "..-",
+        "F": "..-.",
+        "A": ".-",
+        "R": ".-.",
+        "L": ".-..",
+        "W": ".--",
+        "P": ".--.",
+        "J": ".---",
+        "T": "-",
+        "N": "-.",
+        "D": "-..",
+        "B": "-...",
+        "X": "-..-",
+        "K": "-.-",
+        "C": "-.-.",
+        "Y": "-.--",
+        "M": "--",
+        "G": "--.",
+        "Z": "--..",
+        "Q": "--.-",
+        "O": "---"
+      }
+    }
+  },
+  "controls": {
+    "roundtrip_and_path_checks": 520,
+    "bijection_letter_checks": 70304,
+    "planted_selectors": [
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 0,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 0,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 1,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 1,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 2,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 2,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 3,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 3,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 4,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 4,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 5,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 5,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 6,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 6,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 7,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 7,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 8,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 8,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 9,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 9,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 10,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 10,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 11,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 11,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 12,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 12,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 13,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 13,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 14,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 14,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 15,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 15,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 16,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 16,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 17,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 17,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 18,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 18,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 19,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 19,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 20,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 20,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 21,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 21,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 22,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 22,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 23,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 23,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 24,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 24,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "seed": 25,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": 1,
+            "seed": 25,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 0,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 0,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 1,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 1,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 2,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 2,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 3,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 3,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 4,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 4,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 5,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 5,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 6,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 6,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 7,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 7,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 8,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 8,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 9,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 9,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 10,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 10,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 11,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 11,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 12,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 12,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 13,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 13,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 14,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 14,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 15,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 15,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 16,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 16,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 17,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 17,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 18,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 18,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 19,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 19,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 20,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 20,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 21,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 21,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 22,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 22,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 23,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 23,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 24,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 24,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "seed": 25,
+        "compatible_models": [
+          {
+            "tree": "geometry",
+            "direction": -1,
+            "seed": 25,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 0,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 0,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 1,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 1,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 2,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 2,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 3,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 3,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 4,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 4,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 5,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 5,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 6,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 6,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 7,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 7,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 8,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 8,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 9,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 9,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 10,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 10,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 11,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 11,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 12,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 12,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 13,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 13,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 14,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 14,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 15,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 15,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 16,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 16,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 17,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 17,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 18,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 18,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 19,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 19,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 20,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 20,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 21,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 21,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 22,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 22,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 23,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 23,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 24,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 24,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "seed": 25,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": 1,
+            "seed": 25,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 0,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 0,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 1,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 1,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 2,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 2,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 3,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 3,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 4,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 4,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 5,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 5,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 6,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 6,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 7,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 7,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 8,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 8,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 9,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 9,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 10,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 10,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 11,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 11,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 12,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 12,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 13,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 13,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 14,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 14,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 15,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 15,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 16,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 16,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 17,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 17,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 18,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 18,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 19,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 19,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 20,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 20,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 21,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 21,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 22,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 22,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 23,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 23,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 24,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 24,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "seed": 25,
+        "compatible_models": [
+          {
+            "tree": "morse",
+            "direction": -1,
+            "seed": 25,
+            "first_pass": true,
+            "second_pass": true,
+            "all_pass": true,
+            "plaintext_sha256": "cdc51cefc5eb61431ac3fd474bbc56141935d391f3de5bd66f1ae7d841b93737",
+            "first_prediction": "EASTNORTHEAST",
+            "second_prediction": "BERLINCLOCK",
+            "regenerates": true
+          }
+        ],
+        "distinct_compatible_plaintexts": 1
+      }
+    ],
+    "selector_decodes": 10816,
+    "timing_mutants_detected": 104,
+    "non_global_rotation_witnesses": {
+      "geometry": {
+        "plaintext": "A",
+        "direction": 1,
+        "state_after": "HKMOQSUXABCDEFGIJLNPRTVWYZ"
+      },
+      "morse": {
+        "plaintext": "A",
+        "direction": 1,
+        "state_after": "MABCDEFLGHIJKNOPQRSTUVWXYZ"
+      }
+    },
+    "checks": 70824,
+    "seconds": 12.848256874999999
+  }
+}
