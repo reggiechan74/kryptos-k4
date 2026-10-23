@@ -1,0 +1,274 @@
+{
+  "controls": {
+    "complete_toy_comparisons": [
+      {
+        "modulus": 2,
+        "case": 0,
+        "complete_set_size": 32,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 2,
+        "case": 1,
+        "complete_set_size": 32,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 2,
+        "case": 2,
+        "complete_set_size": 32,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 2,
+        "case": 3,
+        "complete_set_size": 32,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 3,
+        "case": 0,
+        "complete_set_size": 81,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 3,
+        "case": 1,
+        "complete_set_size": 81,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 3,
+        "case": 2,
+        "complete_set_size": 81,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 3,
+        "case": 3,
+        "complete_set_size": 81,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 4,
+        "case": 0,
+        "complete_set_size": 512,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 4,
+        "case": 1,
+        "complete_set_size": 512,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 4,
+        "case": 2,
+        "complete_set_size": 512,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 4,
+        "case": 3,
+        "complete_set_size": 512,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 6,
+        "case": 0,
+        "complete_set_size": 2592,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 6,
+        "case": 1,
+        "complete_set_size": 2592,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 6,
+        "case": 2,
+        "complete_set_size": 2592,
+        "true_state_included": true,
+        "mutation_rejected": true
+      },
+      {
+        "modulus": 6,
+        "case": 3,
+        "complete_set_size": 2592,
+        "true_state_included": true,
+        "mutation_rejected": true
+      }
+    ],
+    "literal_crib_plants": [
+      {
+        "key": {
+          "cipherrotors": [
+            10,
+            1,
+            2,
+            3,
+            4
+          ],
+          "controlrotors": [
+            9,
+            8,
+            7,
+            6,
+            5
+          ],
+          "indexrotors": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cipherorientation": "00000",
+          "controlorientation": "00000",
+          "indexorientation": "00000",
+          "cipherposition": "AZBYC",
+          "controlposition": "AAAAA",
+          "indexposition": "00000"
+        },
+        "selector_schedules": 520,
+        "truth_included": true,
+        "compatible_keys": 1,
+        "distinct_plaintexts": 1
+      },
+      {
+        "key": {
+          "cipherrotors": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "controlrotors": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "indexrotors": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cipherorientation": "00000",
+          "controlorientation": "00000",
+          "indexorientation": "00000",
+          "cipherposition": "ZAYBX",
+          "controlposition": "AAZAA",
+          "indexposition": "99999"
+        },
+        "selector_schedules": 520,
+        "truth_included": true,
+        "compatible_keys": 1,
+        "distinct_plaintexts": 1
+      },
+      {
+        "key": {
+          "cipherrotors": [
+            10,
+            1,
+            2,
+            3,
+            4
+          ],
+          "controlrotors": [
+            9,
+            8,
+            7,
+            6,
+            5
+          ],
+          "indexrotors": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cipherorientation": "00000",
+          "controlorientation": "00000",
+          "indexorientation": "00000",
+          "cipherposition": "HLNRT",
+          "controlposition": "AAOAA",
+          "indexposition": "33333"
+        },
+        "selector_schedules": 1,
+        "truth_included": true,
+        "compatible_keys": 1,
+        "distinct_plaintexts": 1
+      },
+      {
+        "key": {
+          "cipherrotors": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "controlrotors": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "indexrotors": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cipherorientation": "00000",
+          "controlorientation": "00000",
+          "indexorientation": "00000",
+          "cipherposition": "CDFHL",
+          "controlposition": "AACAA",
+          "indexposition": "44444"
+        },
+        "selector_schedules": 1,
+        "truth_included": true,
+        "compatible_keys": 1,
+        "distinct_plaintexts": 1
+      }
+    ],
+    "direct_26_power_5_comparison": {
+      "schedules": 1,
+      "raw_starts": 11881376,
+      "compatible_states": 648,
+      "sets_equal": true
+    },
+    "known_external_reference_vectors": 12
+  },
+  "source_sha256": {
+    "experiments/sigaba_state_inference.py": "2c5ae34171d3324e06956c40fcb0643ddbfd50c5b0d0c109dc5b4e5cb18c514c",
+    "research/SIGABA-CSP889-STATE-SPEC.md": "1525563af2871039d20f12ae1772dc3e533c41a3143917762b1629a53812d09c",
+    "experiments/sigaba_csp889.py": "2f12042cc4ee838edbe5d1619d42a9d4c856b7586bbd41e91dd4f5f6ada27516",
+    "data/sigaba-csp889-v1.json": "8326857b0b2997d64be94a4685185992ce00702235964c0a985f183d92fc3c5b",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}
