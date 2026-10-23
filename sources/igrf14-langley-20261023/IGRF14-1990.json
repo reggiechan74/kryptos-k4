@@ -1,0 +1,83 @@
+{
+    "geomagnetic-field-model-result": {
+        "model": "igrf",
+        "model_revision": "14",
+        "date": {
+            "value": "1990-01-01"
+        },
+        "coordinates": {
+            "latitude": {
+                "units": "deg (north)",
+                "value": 38.951
+            },
+            "longitude": {
+                "units": "deg (east)",
+                "value": -77.146
+            },
+            "altitude": {
+                "units": "km",
+                "value": 0.00
+            }
+        },
+        "field-value": {
+            "total-intensity": {
+                "units": "nT",
+                "value": 54568
+            },
+            "declination": {
+                "units": "deg (east)",
+                "value": -9.716
+            },
+            "inclination": {
+                "units": "deg (down)",
+                "value": 68.176
+            },
+            "north-intensity": {
+                "units": "nT",
+                "value": 19995
+            },
+            "east-intensity": {
+                "units": "nT",
+                "value": -3424
+            },
+            "vertical-intensity": {
+                "units": "nT",
+                "value": 50657
+            },
+            "horizontal-intensity": {
+                "units": "nT",
+                "value": 20286
+            }
+        },
+        "secular-variation": {
+            "total-intensity": {
+                "units": "nT/y",
+                "value": -95.5
+            },
+            "declination": {
+                "units": "arcmin/y (east)",
+                "value": -6.1
+            },
+            "inclination": {
+                "units": "arcmin/y (down)",
+                "value": -3.7
+            },
+            "north-intensity": {
+                "units": "nT/y",
+                "value": 12.8
+            },
+            "east-intensity": {
+                "units": "nT/y",
+                "value": -38.4
+            },
+            "vertical-intensity": {
+                "units": "nT/y",
+                "value": -110.5
+            },
+            "horizontal-intensity": {
+                "units": "nT/y",
+                "value": 19.1
+            }
+        }
+    }
+}

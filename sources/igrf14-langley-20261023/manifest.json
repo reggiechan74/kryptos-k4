@@ -1,0 +1,41 @@
+{
+  "model": "BGS IGRF-14",
+  "retrieved_utc": "2026-10-23T01:37:13.114449+00:00",
+  "coordinate_assumption": {
+    "latitude_north": 38.951,
+    "longitude_east": -77.146,
+    "altitude_km_above_WGS84_ellipsoid": 0
+  },
+  "receipts": [
+    {
+      "date": "1988-01-01",
+      "path": "sources/igrf14-langley-20261023/IGRF14-1988.json",
+      "sha256": "8d2853a4acdea899adcd523984c9c4c0f80ec7f033015f3019cb7971b3d99801",
+      "url": "https://geomag.bgs.ac.uk/web_service/GMModels/igrf/14/?altitude=0&date=1988-01-01&format=json&latitude=38.951&longitude=-77.146",
+      "declination_degrees_east": -9.54
+    },
+    {
+      "date": "1989-01-01",
+      "path": "sources/igrf14-langley-20261023/IGRF14-1989.json",
+      "sha256": "c0a99a496a149fa6dac195f4e6c2885c4cfca37b4f6f70235cc87b9d50131a82",
+      "url": "https://geomag.bgs.ac.uk/web_service/GMModels/igrf/14/?altitude=0&date=1989-01-01&format=json&latitude=38.951&longitude=-77.146",
+      "declination_degrees_east": -9.628
+    },
+    {
+      "date": "1990-01-01",
+      "path": "sources/igrf14-langley-20261023/IGRF14-1990.json",
+      "sha256": "81c48dcfa1d46e6da28356f4f390a443da0821354f1d4b75b7c02d02b471d58f",
+      "url": "https://geomag.bgs.ac.uk/web_service/GMModels/igrf/14/?altitude=0&date=1990-01-01&format=json&latitude=38.951&longitude=-77.146",
+      "declination_degrees_east": -9.716
+    }
+  ],
+  "interpretation": "regional main field, not a site survey, engraved geometry or lodestone response",
+  "conditional_conversion": {
+    "assumed_magnetic_bearing_degrees": 247.5,
+    "date": "1989-01-01",
+    "formula": "true=(magnetic+east_positive_declination) mod360",
+    "true_bearing_degrees": 237.872,
+    "monument_bearing_measured": false
+  },
+  "original_research_bundle_modified": false
+}
