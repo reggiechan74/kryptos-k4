@@ -39,3 +39,22 @@ class CoupledToyTests(unittest.TestCase):
                 self.assertEqual(observed,o.schedule(f,ctl,aliases[0],97))
     def test_budget_never_becomes_a_false_negative(self):
         r=s.solve(s.fixture(3,3),[],s.Budget(seconds=-1));self.assertFalse(r['completed']);self.assertIsNone(r['exact_raw_key_count']);self.assertEqual(r['control_starts_completed'],0)
+
+    def test_cache_eviction_changes_only_performance(self):
+        f=s.fixture(5,3);p=f['plant'];cipher=o.simulate(f,f['plaintext'],p['control'],p['index'],p['cipher']);obs=[(i,f['plaintext'][i],cipher[i]) for i in (2,3,6,9)]
+        a=s.solve(f,obs,cache_cap=0);b=s.solve(f,obs,cache_cap=4096)
+        self.assertEqual(a['exact_raw_key_count'],b['exact_raw_key_count']);self.assertEqual(s.relation_masks(a),s.relation_masks(b))
+    def test_independent_truth_exhaustion_retains_partial_accounting(self):
+        f=s.fixture(3,3)
+        def stop():raise s.Limit('deliberate_test_budget')
+        with tempfile.TemporaryDirectory() as td:
+            try:o.truth(f,[],Path(td)/'truth',stop,s.Limit)
+            except s.Limit as error:
+                self.assertFalse(error.partial_truth['completed']);self.assertEqual(error.partial_truth['cipher_seeds_checked'],0)
+            else:self.fail('Expected budget stop')
+
+    def test_solver_cannot_use_planted_key_or_unobserved_message(self):
+        import copy
+        f=s.fixture(5,3);p=f['plant'];cipher=o.simulate(f,f['plaintext'],p['control'],p['index'],p['cipher']);obs=[(i,f['plaintext'][i],cipher[i]) for i in (2,3,6,9)]
+        changed=copy.deepcopy(f);changed['plant']={k:[0]*len(v) for k,v in p.items()};changed['plaintext']=[4]*97
+        a=s.solve(f,obs);b=s.solve(changed,obs);self.assertEqual(s.relation_masks(a),s.relation_masks(b));self.assertEqual(a['exact_raw_key_count'],b['exact_raw_key_count'])

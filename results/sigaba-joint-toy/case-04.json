@@ -1,0 +1,799 @@
+{
+  "case": 4,
+  "fixture": {
+    "q": 5,
+    "r": 3,
+    "index_size": 6,
+    "variant": 0,
+    "wiring_seed": 9151434,
+    "collector": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "pulses": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "notch": 2,
+    "cipher": [
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        3,
+        4,
+        2,
+        0
+      ],
+      [
+        1,
+        3,
+        0,
+        2,
+        4
+      ]
+    ],
+    "control": [
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      [
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      [
+        4,
+        2,
+        3,
+        0,
+        1
+      ]
+    ],
+    "index": [
+      [
+        3,
+        0,
+        5,
+        2,
+        1,
+        4
+      ],
+      [
+        4,
+        2,
+        5,
+        1,
+        0,
+        3
+      ]
+    ],
+    "plaintext": [
+      2,
+      0,
+      4,
+      3,
+      1,
+      4,
+      0,
+      3,
+      0,
+      1,
+      1,
+      4,
+      4,
+      0,
+      1,
+      3,
+      0,
+      1,
+      3,
+      4,
+      3,
+      1,
+      2,
+      0,
+      4,
+      1,
+      4,
+      4,
+      4,
+      0,
+      0,
+      1,
+      0,
+      2,
+      1,
+      4,
+      1,
+      3,
+      3,
+      4,
+      3,
+      4,
+      3,
+      1,
+      1,
+      4,
+      4,
+      1,
+      4,
+      2,
+      4,
+      1,
+      1,
+      1,
+      4,
+      4,
+      4,
+      3,
+      0,
+      2,
+      1,
+      1,
+      4,
+      1,
+      3,
+      2,
+      1,
+      2,
+      2,
+      1,
+      1,
+      3,
+      1,
+      3,
+      2,
+      4,
+      1,
+      2,
+      1,
+      0,
+      3,
+      2,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      0,
+      2,
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    "plant": {
+      "control": [
+        4,
+        0,
+        3
+      ],
+      "index": [
+        1,
+        0
+      ],
+      "cipher": [
+        4,
+        0,
+        2
+      ]
+    },
+    "mask": "long",
+    "observed_positions": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ]
+  },
+  "synthetic_ciphertext": [
+    4,
+    3,
+    1,
+    3,
+    3,
+    2,
+    3,
+    3,
+    2,
+    3,
+    1,
+    4,
+    1,
+    2,
+    3,
+    3,
+    4,
+    1,
+    1,
+    2,
+    1,
+    4,
+    0,
+    0,
+    2,
+    4,
+    2,
+    4,
+    2,
+    3,
+    3,
+    4,
+    3,
+    3,
+    1,
+    0,
+    4,
+    2,
+    2,
+    3,
+    2,
+    3,
+    2,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    3,
+    0,
+    4,
+    2,
+    4,
+    4,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    3,
+    2,
+    4,
+    0,
+    3,
+    1,
+    4,
+    3,
+    2,
+    1,
+    0,
+    0,
+    4,
+    0,
+    4,
+    3,
+    1,
+    1,
+    3,
+    1,
+    2,
+    0,
+    1,
+    4,
+    1,
+    1,
+    1,
+    3,
+    1,
+    1,
+    1,
+    0,
+    4
+  ],
+  "observations": [
+    [
+      21,
+      1,
+      4
+    ],
+    [
+      22,
+      2,
+      0
+    ],
+    [
+      23,
+      0,
+      0
+    ],
+    [
+      24,
+      4,
+      2
+    ],
+    [
+      25,
+      1,
+      4
+    ],
+    [
+      26,
+      4,
+      2
+    ],
+    [
+      27,
+      4,
+      4
+    ],
+    [
+      28,
+      4,
+      2
+    ],
+    [
+      29,
+      0,
+      3
+    ],
+    [
+      30,
+      0,
+      3
+    ],
+    [
+      31,
+      1,
+      4
+    ],
+    [
+      32,
+      0,
+      3
+    ],
+    [
+      33,
+      2,
+      3
+    ],
+    [
+      63,
+      1,
+      3
+    ],
+    [
+      64,
+      3,
+      3
+    ],
+    [
+      65,
+      2,
+      2
+    ],
+    [
+      66,
+      1,
+      4
+    ],
+    [
+      67,
+      2,
+      0
+    ],
+    [
+      68,
+      2,
+      3
+    ],
+    [
+      69,
+      1,
+      1
+    ],
+    [
+      70,
+      1,
+      4
+    ],
+    [
+      71,
+      3,
+      3
+    ],
+    [
+      72,
+      1,
+      2
+    ],
+    [
+      73,
+      3,
+      1
+    ]
+  ],
+  "independent_truth_requested": true,
+  "K4_evaluations": 0,
+  "solver": {
+    "completed": true,
+    "reason": null,
+    "status": "complete_compatible_relation",
+    "exact_raw_key_count": "12",
+    "found_raw_keys_lower_bound": "12",
+    "control_starts_completed": 125,
+    "control_starts_requested": 125,
+    "complete_prefix_raw_descriptions": 562500,
+    "raw_key_descriptions": 562500,
+    "reachable_index_classes": 12,
+    "index_aliases": [
+      [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    ],
+    "index_maps": [
+      [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        1,
+        0,
+        2,
+        2,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        0,
+        1,
+        1,
+        0
+      ]
+    ],
+    "relations": [
+      {
+        "control": [
+          4,
+          0,
+          3
+        ],
+        "relations": [
+          {
+            "index_classes": "0x81",
+            "cipher_starts": "0x40000080000000000000000000",
+            "final_offsets": [
+              2,
+              2,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "inference_time_steps": 74,
+    "branches_visited": 22890,
+    "max_live_branches": 8,
+    "index_mask_partitions": 24302,
+    "predicate_builds": 182,
+    "predicate_cache_hits": 5787,
+    "predicate_cache_evictions": 0,
+    "predicate_cache_peak_accounted_bytes": 49504,
+    "budget": {
+      "seconds": 0.02154600014910102,
+      "peak_RSS_bytes": 21069824,
+      "wall_cap_seconds": 600.0,
+      "RSS_cap_bytes": 1073741824,
+      "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+    },
+    "K4_evaluations": 0
+  },
+  "planted_full_roundtrip": true,
+  "planted_key_retained": true,
+  "expanded": {
+    "count": 12,
+    "bytes": 216,
+    "sha256": "5cfe905d76025c5f98aecfb175b5c2f500bd6de2b61a5f07e6c91d950661c4b7"
+  },
+  "independent_truth": {
+    "completed": true,
+    "raw_key_count": "12",
+    "bytes": 216,
+    "sha256": "5cfe905d76025c5f98aecfb175b5c2f500bd6de2b61a5f07e6c91d950661c4b7",
+    "control_starts_completed": 125
+  },
+  "full_sets_byte_equal": true,
+  "verification_completed": true,
+  "benchmark_budget": {
+    "seconds": 0.8544226670637727,
+    "peak_RSS_bytes": 21102592,
+    "wall_cap_seconds": 600.0,
+    "RSS_cap_bytes": 1073741824,
+    "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+  },
+  "source_sha256": {
+    "research/SIGABA-JOINT-TOY-SPEC.md": "b3164d2e9c5e72e82e9ba8c294ffb5655d5f08d339967fd6773c153de6937681",
+    "experiments/run_sigaba_joint_toy.py": "dfee505451aded13ba4c0510bd9b4655715771a29b67fdaa1dff40320a609e2b",
+    "experiments/sigaba_joint_toy.py": "e231abb0ed5bb2a42922a05f1662ff3ebe8c7675c14c473abbf5b3c68cf52f92",
+    "experiments/sigaba_joint_toy_oracle.py": "0711bd1f0722cb157e6029a88644ecc876942292ffef13292dd79f6bdef8d79c",
+    "data/sigaba-joint-toy-v1.json": "2ad409cafff033932a79f4aa45e3f7ac557833e540b0902bef721da4f9d03b9a"
+  }
+}

@@ -1,0 +1,1372 @@
+{
+  "case": 1,
+  "fixture": {
+    "q": 3,
+    "r": 3,
+    "index_size": 6,
+    "variant": 0,
+    "wiring_seed": 9149416,
+    "collector": [
+      0,
+      1,
+      2
+    ],
+    "pulses": [
+      0,
+      1,
+      2
+    ],
+    "notch": 1,
+    "cipher": [
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        2
+      ]
+    ],
+    "control": [
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        0
+      ]
+    ],
+    "index": [
+      [
+        1,
+        3,
+        2,
+        0,
+        5,
+        4
+      ],
+      [
+        0,
+        2,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "plaintext": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      0,
+      1,
+      0,
+      2,
+      2,
+      1,
+      0,
+      2,
+      1,
+      1,
+      2,
+      0,
+      2,
+      0,
+      1,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      2,
+      1,
+      2,
+      1,
+      0,
+      0,
+      2,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      2,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      2,
+      2,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      2,
+      1,
+      1,
+      2,
+      1,
+      2,
+      0,
+      2,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "plant": {
+      "control": [
+        1,
+        2,
+        0
+      ],
+      "index": [
+        5,
+        4
+      ],
+      "cipher": [
+        1,
+        2,
+        2
+      ]
+    },
+    "mask": "short",
+    "observed_positions": [
+      2,
+      3,
+      6,
+      9
+    ]
+  },
+  "synthetic_ciphertext": [
+    1,
+    2,
+    1,
+    1,
+    0,
+    1,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    1,
+    2,
+    1,
+    2,
+    0,
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    1,
+    2,
+    1,
+    0,
+    2,
+    0,
+    2,
+    1,
+    1,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    0,
+    1,
+    0,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    0,
+    2,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    0,
+    2,
+    1,
+    0,
+    2
+  ],
+  "observations": [
+    [
+      2,
+      2,
+      1
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      6,
+      2,
+      0
+    ],
+    [
+      9,
+      0,
+      1
+    ]
+  ],
+  "independent_truth_requested": true,
+  "K4_evaluations": 0,
+  "solver": {
+    "completed": true,
+    "reason": null,
+    "status": "complete_compatible_relation",
+    "exact_raw_key_count": "1458",
+    "found_raw_keys_lower_bound": "1458",
+    "control_starts_completed": 27,
+    "control_starts_requested": 27,
+    "complete_prefix_raw_descriptions": 26244,
+    "raw_key_descriptions": 26244,
+    "reachable_index_classes": 36,
+    "index_aliases": [
+      [
+        [
+          2,
+          4
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          4,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          5
+        ]
+      ],
+      [
+        [
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          5
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          5,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          4,
+          3
+        ]
+      ],
+      [
+        [
+          4,
+          4
+        ]
+      ],
+      [
+        [
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          4
+        ]
+      ],
+      [
+        [
+          4,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          5
+        ]
+      ],
+      [
+        [
+          3,
+          4
+        ]
+      ],
+      [
+        [
+          5,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          4,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          5
+        ]
+      ],
+      [
+        [
+          5,
+          5
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          5,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          4
+        ]
+      ],
+      [
+        [
+          5,
+          4
+        ]
+      ],
+      [
+        [
+          5,
+          1
+        ]
+      ]
+    ],
+    "index_maps": [
+      [
+        0,
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        2,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        2,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        2,
+        2,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        2,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        1,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "relations": [
+      {
+        "control": [
+          0,
+          0,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          0,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          0,
+          2
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          1,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          1,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          1,
+          2
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          2,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          2,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          2,
+          2
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          0,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          0,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          0,
+          2
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          1,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          1,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          1,
+          2
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          2,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          2,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          2,
+          2
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          2,
+          0,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          2,
+          0,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          2,
+          0,
+          2
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          2,
+          1,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          2,
+          1,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          2,
+          1,
+          2
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          2,
+          2,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          2,
+          2,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          2,
+          2,
+          2
+        ],
+        "relations": [
+          {
+            "index_classes": "0x411000182",
+            "cipher_starts": "0x4462311",
+            "final_offsets": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "inference_time_steps": 10,
+    "branches_visited": 486,
+    "max_live_branches": 4,
+    "index_mask_partitions": 486,
+    "predicate_builds": 6,
+    "predicate_cache_hits": 237,
+    "predicate_cache_evictions": 0,
+    "predicate_cache_peak_accounted_bytes": 1560,
+    "budget": {
+      "seconds": 0.0006422498263418674,
+      "peak_RSS_bytes": 20889600,
+      "wall_cap_seconds": 600.0,
+      "RSS_cap_bytes": 1073741824,
+      "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+    },
+    "K4_evaluations": 0
+  },
+  "planted_full_roundtrip": true,
+  "planted_key_retained": true,
+  "expanded": {
+    "count": 1458,
+    "bytes": 26244,
+    "sha256": "6d709a6bb5e5b6736076594dd65517fa391b530593bbbe482b4bf376013f49e6"
+  },
+  "independent_truth": {
+    "completed": true,
+    "raw_key_count": "1458",
+    "bytes": 26244,
+    "sha256": "6d709a6bb5e5b6736076594dd65517fa391b530593bbbe482b4bf376013f49e6",
+    "control_starts_completed": 27
+  },
+  "full_sets_byte_equal": true,
+  "verification_completed": true,
+  "benchmark_budget": {
+    "seconds": 0.02938537485897541,
+    "peak_RSS_bytes": 20922368,
+    "wall_cap_seconds": 600.0,
+    "RSS_cap_bytes": 1073741824,
+    "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+  },
+  "source_sha256": {
+    "research/SIGABA-JOINT-TOY-SPEC.md": "b3164d2e9c5e72e82e9ba8c294ffb5655d5f08d339967fd6773c153de6937681",
+    "experiments/run_sigaba_joint_toy.py": "dfee505451aded13ba4c0510bd9b4655715771a29b67fdaa1dff40320a609e2b",
+    "experiments/sigaba_joint_toy.py": "e231abb0ed5bb2a42922a05f1662ff3ebe8c7675c14c473abbf5b3c68cf52f92",
+    "experiments/sigaba_joint_toy_oracle.py": "0711bd1f0722cb157e6029a88644ecc876942292ffef13292dd79f6bdef8d79c",
+    "data/sigaba-joint-toy-v1.json": "2ad409cafff033932a79f4aa45e3f7ac557833e540b0902bef721da4f9d03b9a"
+  }
+}

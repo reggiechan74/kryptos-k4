@@ -1,0 +1,24 @@
+{
+  "kind": "Coupled synthetic SIGABA solver completeness and measured scaling boundary",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "f6499b9f8cb727d450d14f7897d44fbc3588c6dbdc27428743e67da7166116bc"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-011.json",
+  "previous_snapshot_commit": "2b612dfcf8b0e7fc4aed345ce97168d3b5b14512",
+  "synthetic_complete_truth_comparisons": 10,
+  "scaling_cases": 3,
+  "real_sized_gate_passed": false,
+  "new_K4_evaluations": 0,
+  "shared_index_domain": true,
+  "independent_per_time_masks": false,
+  "site_changed": false
+}
