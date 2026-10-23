@@ -1,0 +1,70 @@
+{
+  "model_id": "GREEK-PHONETIC-001",
+  "source_fixture": "data/ipa-cambridge-us-v1.json",
+  "target": "explicit approximate Standard Modern Greek graphemes; not Greek translation",
+  "phone_map": {
+    "iː": "Ι",
+    "s": "Σ",
+    "t": "Τ",
+    "n": "Ν",
+    "ɔː": "Ο",
+    "r": "Ρ",
+    "θ": "Θ",
+    "b": "ΜΠ",
+    "ɝː": "ΕΡ",
+    "l": "Λ",
+    "ɪ": "Ι",
+    "k": "Κ",
+    "ɑː": "Α"
+  },
+  "first_phones": [
+    "iː",
+    "s",
+    "t",
+    "n",
+    "ɔː",
+    "r",
+    "θ",
+    "iː",
+    "s",
+    "t"
+  ],
+  "second_phones": [
+    "b",
+    "ɝː",
+    "l",
+    "ɪ",
+    "n",
+    "k",
+    "l",
+    "ɑː",
+    "k"
+  ],
+  "first_greek": "ΙΣΤΝΟΡΘΙΣΤ",
+  "second_greek": "ΜΠΕΡΛΙΝΚΛΑΚ",
+  "greek_alphabet": "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ",
+  "cipher_alphabets": {
+    "AZ": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "KRYPTOS": "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  "periods": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "equations": [
+    "plus",
+    "beaufort"
+  ],
+  "ciphertext_length": 97,
+  "alignment": "all ordered nonoverlapping 10/11-glyph windows in97; zero-based u=0..76, v=u+10..86",
+  "normalization": "NFC uppercase Greek; no stress, vowel length, word spaces or separators in tested stream",
+  "inverse_limit": "outer Greek-character cipher injective on valid Greek strings; phonetic conversion is lossy, English spelling not recovered"
+}

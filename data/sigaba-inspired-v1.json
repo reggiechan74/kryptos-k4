@@ -1,0 +1,96 @@
+{
+  "model_id": "SIGABA-INSPIRED-001",
+  "historical_SIGABA": false,
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "cipher_wirings": [
+    "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+    "PALIMSETBCDFGHJKNOQRUVWXYZ",
+    "ABSCIDEFGHJKLMNOPQRTUVWXYZ",
+    "HIJKLMNOPQARSTFDUBGEVWXYCZ",
+    "BIJKGLMNDOPCEQRASTFHUVWXYZ"
+  ],
+  "control_wirings": [
+    "ABSCIDEFGHJKLMNOPQRTUVWXYZ",
+    "PALIMSETBCDFGHJKNOQRUVWXYZ",
+    "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+    "ABDFGHIJEKLMNOPQRSCTUVWXYZ",
+    "HIJKLMNOPQARSTFDUBGEVWXYCZ"
+  ],
+  "index_wirings": [
+    [
+      1,
+      4,
+      7,
+      0,
+      3,
+      6,
+      9,
+      2,
+      5,
+      8
+    ],
+    [
+      2,
+      9,
+      6,
+      3,
+      0,
+      7,
+      4,
+      1,
+      8,
+      5
+    ],
+    [
+      3,
+      2,
+      1,
+      0,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4
+    ],
+    [
+      4,
+      7,
+      0,
+      3,
+      6,
+      9,
+      2,
+      5,
+      8,
+      1
+    ],
+    [
+      5,
+      2,
+      9,
+      6,
+      3,
+      0,
+      7,
+      4,
+      1,
+      8
+    ]
+  ],
+  "live_control_inputs": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "control_to_index": "output mod10 (custom, not historical wiring)",
+  "index_to_cipher": "floor(output/2) (custom connection convention)",
+  "control_initial": "[0,0,q,0,0], q=0..25",
+  "cipher_initial": "[c,c,c,c,c], c=0..25",
+  "index_positions": "[r,r,r,r,r], r=0..9; static",
+  "cipher_update": "after current letter; advance each selected distinct rotor once",
+  "control_update": "after cipher update: rotor2 increments; wrap increments rotor3; its wrap increments rotor1; rotors0 and4 static",
+  "wire_operation": "W_p(x)=(W[(x+p)modn]-p)modn; inverse uses inverse W",
+  "rotor_path": "forward rotors0..4; inverse reversed rotors4..0; no reflector, plugboard or Z/space substitution"
+}
