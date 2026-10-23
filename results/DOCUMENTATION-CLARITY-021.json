@@ -1,0 +1,40 @@
+{
+  "id": "DOCUMENTATION-CLARITY-021",
+  "kind": "Reviewed tracker classification, date precision and future-run timing validation; no new cipher experiment",
+  "recorded_at_utc": "2026-10-23T13:12:02.696631Z",
+  "scope": [
+    "Precise no-unusual-excess fold wording",
+    "60 explicitly curated record classifications and outcomes",
+    "33 date-only records without inferred midnight timestamps",
+    "Future common runner records execution purpose and per-job UTC boundaries"
+  ],
+  "time_policy": "This recording time is not a historical experiment start/end. Historical receipts are not backfilled.",
+  "regressions": {
+    "Python 3.9": {
+      "tests": 472,
+      "passed": true,
+      "seconds": 54.524
+    },
+    "Python 3.12": {
+      "tests": 472,
+      "passed": true,
+      "seconds": 45.147
+    }
+  },
+  "initial_validation": {
+    "failures_per_version": 7,
+    "cause": "Historical helper-source hashes compared old run receipts to evolved working-tree runner files.",
+    "resolution": "Verify the two evolved helpers at each receipt\u2019s recorded implementation commit. Preserve all original hashes and validate current helpers with separate synthetic timing fixtures."
+  },
+  "original_result_receipts_changed": false,
+  "original_independent_artifacts_changed": false,
+  "new_cipher_experiments": 0,
+  "site_changed": false,
+  "source_commit_before_changes": "82b19ee65b0bb106090ec57de9b4429ee5e1cde0",
+  "log_sha256": {
+    "results/DOCUMENTATION-021-py39-initial.log": "00589ef84c8fabe40efd4c82eae42877b101b053d4a1f55a6da80ae2816e8571",
+    "results/DOCUMENTATION-021-py39-final.log": "fdbd133f73aaceef9c27f48099cb5697d0024b817c087e01f9efa7cd9d66b685",
+    "results/DOCUMENTATION-021-py312-initial.log": "950622b6521044825828f030ec0c840415821136a9086f88bd9bbd9a3e078390",
+    "results/DOCUMENTATION-021-py312-final.log": "2d7d64693b08ca82a79aa0996a29e23a5de2a907b5fbfa484ccfd8526b8b26d1"
+  }
+}

@@ -39,7 +39,9 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/CSP889-SPARSE-015-validation.json](../../results/CSP889-SPARSE-015-validation.json) | CSP889-SPARSE-015-validation | Exact run start/end unknown; inspect original |
 | [results/CSP889-SPARSE-015.json](../../results/CSP889-SPARSE-015.json) | CSP889-SPARSE-015 | Exact run start/end unknown; inspect original |
 | [results/CTRL-001.json](../../results/CTRL-001.json) | CTRL-001 | Exact run start/end unknown; inspect original |
+| [results/DOCUMENTATION-CLARITY-021.json](../../results/DOCUMENTATION-CLARITY-021.json) | DOCUMENTATION-CLARITY-021; Reviewed tracker classification, date precision and future-run timing validation; no new cipher experiment | receipt recording: 2026-10-23T13:12:02.696631Z |
 | [results/DOCUMENTATION-LINK-AUDIT-020.json](../../results/DOCUMENTATION-LINK-AUDIT-020.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
+| [results/DOCUMENTATION-LINK-AUDIT-021.json](../../results/DOCUMENTATION-LINK-AUDIT-021.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DYNAMIC-KEY-VALIDATION.json](../../results/DYNAMIC-KEY-VALIDATION.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
 | [results/ENE-NOTE-CHECKS.json](../../results/ENE-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-001.json](../../results/EXCLUSION-SCOPE-AUDIT-001.json) |  | Exact run start/end unknown; inspect original |
@@ -58,6 +60,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/EXCLUSION-SCOPE-AUDIT-014.json](../../results/EXCLUSION-SCOPE-AUDIT-014.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-015.json](../../results/EXCLUSION-SCOPE-AUDIT-015.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-016.json](../../results/EXCLUSION-SCOPE-AUDIT-016.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-017.json](../../results/EXCLUSION-SCOPE-AUDIT-017.json) |  | Exact run start/end unknown; inspect original |
 | [results/FACE-ROW-001-COVERAGE.json](../../results/FACE-ROW-001-COVERAGE.json) | prior-coverage audit; zero K4 evaluations | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005-controls.json](../../results/FEISTEL-SYMMETRY-005-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005.json](../../results/FEISTEL-SYMMETRY-005.json) |  | Exact run start/end unknown; inspect original |

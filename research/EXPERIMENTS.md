@@ -920,7 +920,7 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Protocol: [frozen progressive model](MONUMENT-SLIDE-OVERLAY-SPEC.md), [pre-score registration amendment](MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md).
 - Input: full canonical cipher/tableau rows and existing modeled font; MYVGT/AABCD anchor reproduced with no row shift.
 - Coverage: 134 frames across two registrations, −33…+33 inclusive; 130 active. Every frame retained.
-- Outcome: zero-shift primary 35/856 identical letters; ordinary full-scan label/area excess under 1,999 row shuffles and 1,999 movable-row rotations. Four-report adjusted p=1 for each endpoint/scheme.
+- Outcome: zero-shift primary 35/856 identical letters; no unusual full-scan label/area excess under 1,999 row shuffles and 1,999 movable-row rotations. Four-report adjusted p=1 for each endpoint/scheme.
 - Code: [native evaluator](../experiments/monument_slide.py), [independent pixel oracle](../experiments/monument_slide_oracle.mjs).
 - Receipt: [exact positions and masks](../results/FOLD-SLIDE-020-actual.json); [findings and limitations](MONUMENT-FOLD-SLIDE-FINDINGS.md).
 - No measured optical calibration, plaintext extraction, Site change or new decoding candidate.

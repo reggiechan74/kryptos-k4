@@ -27,3 +27,16 @@ class NavigationTests(unittest.TestCase):
  def test_original_root_documentation_retained_without_fabricated_history(self):
   original=subprocess.check_output(['git','show','6f269e11bec1a7b2f87e67f014b7b139708d0c61:README.md'],cwd=ROOT);self.assertEqual(original,(ROOT/'docs/history/README-before-navigation.txt').read_bytes())
   old=subprocess.check_output(['git','show','6f269e11bec1a7b2f87e67f014b7b139708d0c61:independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md'],cwd=ROOT);self.assertEqual(old,(ROOT/'independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md').read_bytes())
+
+ def test_categories_outcomes_are_explicit_reviewed_data(self):
+  import copy,tempfile
+  from unittest.mock import patch
+  saved=json.loads(nav.CURATION.read_text());records=nav.gather()['experiments'];self.assertEqual({e['record_id'] for e in records},set(saved['records']))
+  for e in records:self.assertEqual(e['categories'],saved['records'][e['record_id']]['categories']);self.assertEqual(e['outcome'],saved['records'][e['record_id']]['outcome']);self.assertNotIn('category_hint',e)
+  with tempfile.TemporaryDirectory() as tmp:
+   invalid=copy.deepcopy(saved);invalid['records'].pop(records[0]['record_id']);p=Path(tmp)/'curation.json';p.write_text(json.dumps(invalid))
+   with patch.object(nav,'CURATION',p),self.assertRaisesRegex(ValueError,'review required'):nav.gather()
+ def test_heading_dates_are_day_precision_and_never_created_midnight_timestamps(self):
+  date=nav.entry_date('23 October 2026 — a review','No execution time recorded',None);self.assertEqual(date,dict(date='2026-10-23',precision='day',source='heading',not_a_run_timestamp=True))
+  self.assertIsNone(nav.entry_date('REGISTRY-20261023','No date recorded',None))
+  records=nav.gather()['experiments'];dated=next(e for e in records if e['record_id']=='LOG-F2014ABCF5');self.assertEqual(dated['date_only']['date'],'2026-10-23');self.assertFalse(dated['timestamps'])

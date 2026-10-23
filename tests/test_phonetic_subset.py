@@ -1,5 +1,5 @@
 from pathlib import Path
-import json,sys,unittest
+import json,sys,unittest,subprocess
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'experiments'))
 from phonetic_subset import respell_word,controls
 
@@ -17,6 +17,8 @@ class PhoneticSubsetTests(unittest.TestCase):
         paths=[ROOT/'results/phonetic-subset-runs/20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54/manifest.json']
         manifest=json.loads(paths[0].read_text());self.assertEqual(manifest['status'],'completed')
         result=json.loads((paths[0].parent/'PHONETIC-SUBSET-001.json').read_text());self.assertEqual(result['rescued_models'],0);self.assertEqual(result['existing_models_checked'],12)
-        for path,sha in result['run_metadata']['file_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),sha)
+        for path,sha in result['run_metadata']['file_sha256'].items():
+            raw=subprocess.check_output(['git','show',manifest['specification']['implementation_commit']+':'+path],cwd=ROOT) if path in ('experiments/run_io.py','experiments/run_bounded.py') else (ROOT/path).read_bytes()
+            self.assertEqual(hashlib.sha256(raw).hexdigest(),sha)
 
 if __name__=='__main__':unittest.main()

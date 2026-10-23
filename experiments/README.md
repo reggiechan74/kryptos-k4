@@ -141,3 +141,7 @@ Most implementations use Python’s standard library. Some independent audits de
 - [word_scramble.py](word_scramble.py)
 
 </details>
+
+## Recording future run times
+
+Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `original`, `replay` or `validation`; the default `unspecified` deliberately makes no original-run claim. The common `run_bounded.execute` runner records timezone-bearing UTC start/end at run and job level, including failed jobs. Job timing includes action and artifact staging; snapshot end follows final publication checks. Its bounded/statistical command entrypoints are explicitly replays. Other standalone scripts retain their documented interfaces; this change does not invent historical times or imply all old scripts were migrated.

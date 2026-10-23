@@ -1,5 +1,5 @@
 """Replay only the newly registered finite scopes; preserve older audit files."""
-import hashlib,json
+import hashlib,json,subprocess
 from pathlib import Path
 import sys,unittest
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'experiments'))
@@ -35,7 +35,9 @@ class NewMilestoneArtifactTests(unittest.TestCase):
                 for name,metadata in manifest['artifacts'].items():
                     raw=(directory/name).read_bytes();self.assertEqual(hashlib.sha256(raw).hexdigest(),metadata['sha256'])
                     result=json.loads(raw);self.assertEqual(result['run_metadata']['run_id'],manifest['run_id'])
-                    for name,sha in result['run_metadata']['file_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/name).read_bytes()).hexdigest(),sha,name)
+                    for name,sha in result['run_metadata']['file_sha256'].items():
+                        raw=subprocess.check_output(['git','show',manifest['specification']['implementation_commit']+':'+name],cwd=ROOT) if name in ('experiments/run_io.py','experiments/run_bounded.py') else (ROOT/name).read_bytes()
+                        self.assertEqual(hashlib.sha256(raw).hexdigest(),sha,name)
                     count+=1
                 spec=manifest['specification'];self.assertEqual(hashlib.sha256((ROOT/spec['file']).read_bytes()).hexdigest(),spec['sha256'])
                 self.assertEqual(len(spec['commit']),40);self.assertEqual(len(spec['implementation_commit']),40)

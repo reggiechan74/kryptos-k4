@@ -1,4 +1,5 @@
 """Offline replay runner; new run snapshots never overwrite audited artifacts."""
+from datetime import datetime, timezone
 import argparse
 import gzip
 import hashlib
@@ -48,11 +49,11 @@ def payload(snapshot,name,result,hashes,started,command):
     else:snapshot.write(name+'.json',encoded)
 
 
-def execute(root,label,spec,tasks,hashes,command,validate_inputs):
-    with RunSnapshot(root,label,spec) as snapshot:
+def execute(root,label,spec,tasks,hashes,command,validate_inputs,execution_kind="unspecified"):
+    with RunSnapshot(root,label,spec,execution_kind=execution_kind) as snapshot:
         validate_inputs()
         for name,action,limit in tasks:
-            job={'experiment':name,'status':'running','deadline_seconds':limit};snapshot.manifest['jobs'].append(job)
+            job={'experiment':name,'status':'running','deadline_seconds':limit,'started_at_utc':datetime.now(timezone.utc).isoformat()};snapshot.manifest['jobs'].append(job)
             started=time.monotonic()
             try:
                 deadline_check(started,limit)
@@ -65,6 +66,8 @@ def execute(root,label,spec,tasks,hashes,command,validate_inputs):
             except BaseException:
                 job['status']='incomplete'
                 raise
+            finally:
+                job['finished_at_utc']=datetime.now(timezone.utc).isoformat()
         return snapshot.run_id
 
 
@@ -84,7 +87,7 @@ def main():
     tasks=[('ROUTE-001',lambda limit:route_scan(data_holder['data'],limit),30),
            ('RUNKEY-001',lambda limit:running_scan(data_holder['data'],data_holder['controls'],limit),30),
            ('TRIFID-001',lambda limit:trifid_scan(data_holder['data'],limit),5)]
-    run_id=execute(args.output_dir,'bounded-replay',spec,tasks,inputs_hashes(names),'python3 experiments/run_bounded.py --spec-commit '+args.spec_commit,validate_inputs)
+    run_id=execute(args.output_dir,'bounded-replay',spec,tasks,inputs_hashes(names),'python3 experiments/run_bounded.py --spec-commit '+args.spec_commit,validate_inputs,execution_kind='replay')
     print('completed run',run_id)
 
 
@@ -93,7 +96,7 @@ def statistics_main():
     args=arguments('Replay fixed diagnostic into a new atomic run snapshot')
     spec=specification(args.spec_commit,args.spec_file)
     names=['data/k4.json','experiments/statistical_diagnostics.py','experiments/run_bounded.py','experiments/run_io.py']
-    run_id=execute(args.output_dir,'statistics-replay',spec,[('STAT-001',lambda limit:run(limit=limit),60)],inputs_hashes(names),'python3 experiments/statistical_diagnostics.py --write-results --spec-commit '+args.spec_commit,lambda:validated_baseline(ROOT/'data/k4.json'))
+    run_id=execute(args.output_dir,'statistics-replay',spec,[('STAT-001',lambda limit:run(limit=limit),60)],inputs_hashes(names),'python3 experiments/statistical_diagnostics.py --write-results --spec-commit '+args.spec_commit,lambda:validated_baseline(ROOT/'data/k4.json'),execution_kind='replay')
     print('completed run',run_id)
 
 

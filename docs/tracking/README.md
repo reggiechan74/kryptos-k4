@@ -19,3 +19,9 @@ ISO 8601 UTC is canonical. Run start/end, receipt recording, artifact creation a
 Regenerate with `python3 experiments/build_research_navigation.py`. This only reads the canonical ledger and tracked receipts; it does not run searches. Edit source records, not generated tables. Historical independent artifacts remain unchanged.
 
 [Preserved original-link exceptions](PRESERVED-LINKS.md) document the only expected unresolved relative file targets in an immutable independent artifact.
+
+## Reviewed record types and future timing
+
+[Curated record classifications](curated-records.json) explicitly assign categories and concise outcomes to every current log section. Mixed records retain combined categories and outcomes. The generator rejects new or renamed entries until their classifications are reviewed; it no longer guesses from titles. Dates in headings or opening dated prose are labeled date-only records, never exact run times.
+
+The shared `RunSnapshot` writer already records UTC start/end for new runs. The common bounded runner additionally records UTC start/end per job, including failed jobs, and an execution kind (`original`, `replay`, `validation` or `unspecified`). Its replay command entrypoints explicitly use `replay`. These fields apply to future runs; no historical receipts are backfilled. Test-only synthetic timing fixtures are validation, not original K4 experiments.

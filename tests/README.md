@@ -107,3 +107,7 @@ Regression tests include baseline fixtures, planted cases, exact tiny-system com
 - [test_word_scramble.py](test_word_scramble.py)
 
 </details>
+
+## Evolved runner provenance
+
+Historical artifact checks validate the shared `run_io.py` / `run_bounded.py` bytes at each receipt’s recorded implementation commit after those helpers evolve. Other unchanged input/model files retain their working-tree hash checks. Original receipt hashes are never rewritten to match new code. Dedicated temporary-fixture timing tests validate the current runner, including failure completion and explicit replay labels.

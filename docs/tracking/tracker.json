@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "canonical_hypothesis_source": "research/HYPOTHESES.md",
   "canonical_experiment_source": "research/EXPERIMENTS.md",
   "time_policy": "Only explicit timezone-bearing receipt fields; no Git or filesystem dates inferred as run times. Date-only prose is preserved as a statement, never expanded to midnight.",
@@ -732,9 +732,19 @@
         "BASE-001"
       ],
       "title": "BASE-001 initialization run",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "baseline validation"
+      ],
+      "outcome": "Passed data integrity and indexing checks; no cryptanalysis",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": "2026-10-18 UTC.",
+      "date_only": {
+        "date": "2026-10-18",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "data/k4.json"
@@ -748,9 +758,19 @@
         "CTRL-001"
       ],
       "title": "CTRL-001 — exact K1–K3 controls",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "known-answer validation"
+      ],
+      "outcome": "Passed complete K1–K3 fixture comparisons",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": "2026-10-18 UTC; deterministic, Python 3.9.6 standard library.",
+      "date_only": {
+        "date": "2026-10-18",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "data/controls.json",
@@ -769,9 +789,19 @@
         "STRUCT-001"
       ],
       "title": "STRUCT-001 — exact structural and encoding constraints",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "analytical constraints"
+      ],
+      "outcome": "Direct permutation deficit and 19 periodic contradictions; other models remain open",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": "2026-10-18 UTC; Python 3.9.6 standard library; under one second.",
+      "date_only": {
+        "date": "2026-10-18",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "data/k4.json",
@@ -792,9 +822,19 @@
         "TRIFID-001"
       ],
       "title": "ROUTE-001, RUNKEY-001, TRIFID-001 — bounded model milestone",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "Running-key/Trifid negatives; route fits are vacuous, with no determined key",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": "2026-10-18 UTC; Python 3.9.6, standard library, single local process.",
+      "date_only": {
+        "date": "2026-10-18",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "experiments/run_bounded.py",
@@ -817,9 +857,14 @@
         "STAT-001"
       ],
       "title": "STAT-001 — published lag-pattern diagnostic and maximum correction",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "statistical diagnostic"
+      ],
+      "outcome": "Conditional lag-pattern excess; not a cipher identification or posterior",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "experiments/statistical_diagnostics.py",
@@ -838,9 +883,14 @@
         "AUDIT-001"
       ],
       "title": "AUDIT-001 — focused audit hardening and exact replay",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "regression and replication"
+      ],
+      "outcome": "Audited controls and snapshot safety; no new hypothesis domain",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "data/audited-results-b83.json",
@@ -858,9 +908,15 @@
         "LANG-001"
       ],
       "title": "LANG-001 — historically grounded encoding audit",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "representation validation",
+        "analytical constraints"
+      ],
+      "outcome": "GOST reversible on declared domain; narrow support exclusions; Shavian unspecified",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/LANGUAGE-FINDINGS.md"
@@ -877,9 +933,14 @@
         "MASK-FM-001"
       ],
       "title": "MASK-AUTO-001 and MASK-FM-001 — two frozen masking pilots",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "All 12 autokeys fail cribs; two fixed Morse maps fail parsing",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [
         {
           "receipt": "results/masking-runs/20261018T112316Z-4302f65c58784dc79d801f8a44609fff/manifest.json",
@@ -928,9 +989,15 @@
         "WORD-SCRAMBLE-001"
       ],
       "title": "WORD-SCRAMBLE-001 — user's combined hypothesis, fixed24 checks",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "analytical constraints",
+        "finite K4 model tests"
+      ],
+      "outcome": "All 24 fixed combinations fail endpoint/count requirements",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/WORD-SCRAMBLING-FINDINGS.md"
@@ -944,9 +1011,14 @@
       "record_id": "LOG-21C275007D",
       "experiment_ids": [],
       "title": "Final validation of this sequence",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "regression and replication"
+      ],
+      "outcome": "73 checks passed for the recorded sequence; no new model search",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [
         {
           "receipt": "results/LANGUAGE-MASKING-WORD-VALIDATION.json",
@@ -972,9 +1044,14 @@
         "PHONETIC-SUBSET-001"
       ],
       "title": "PHONETIC-SUBSET-001 — small deterministic follow-up",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "Narrow respelling leaves clues unchanged; rescues none of 12 prior outputs",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [
         {
           "receipt": "results/SEQUENTIAL-BRANCHES-VALIDATION.json",
@@ -998,9 +1075,14 @@
       "record_id": "LOG-5A09B41ED3",
       "experiment_ids": [],
       "title": "Independent audit receipt for ba10b1b",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "attributed independent review"
+      ],
+      "outcome": "Supplied audit reports no result-changing bugs; not a new local search",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [],
       "receipt_paths": [],
@@ -1012,9 +1094,14 @@
         "DIRECT-ENIGMA-001"
       ],
       "title": "DIRECT-ENIGMA-001 — exact aligned reflector boundary",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "analytical constraints"
+      ],
+      "outcome": "Aligned fixed-point-free reflector model excluded by K→K at position 74",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [
         {
           "receipt": "results/PERIOD-MAP-ENIGMA-VALIDATION.json",
@@ -1036,9 +1123,19 @@
       "record_id": "LOG-35BC648FE4",
       "experiment_ids": [],
       "title": "Neptune and clock-face documentation update",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "source documentation"
+      ],
+      "outcome": "Supplied Neptune/clock research preserved; no new cipher test",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": "2026-10-18 UTC; parent 744853ed9ec32717bf484ed013baf8b599c382b7.",
+      "date_only": {
+        "date": "2026-10-18",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [],
       "receipt_paths": [],
@@ -1048,9 +1145,15 @@
       "record_id": "LOG-1427CCBA44",
       "experiment_ids": [],
       "title": "Clock-reset preparation — no new K4 run",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "protocol preparation",
+        "synthetic validation"
+      ],
+      "outcome": "Prepared controls; actual reset search not run in this entry",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [],
       "receipt_paths": [],
@@ -1062,9 +1165,15 @@
         "CLOCK-BOUNDARY-REG-001"
       ],
       "title": "CLOCK-BOUNDARY-REG-001 — verification of known deductions",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "analytical constraints",
+        "replication"
+      ],
+      "outcome": "13 supplied certificates verified; no candidate search",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [
         {
           "receipt": "results/clock-boundary-runs/20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d/manifest.json",
@@ -1094,9 +1203,19 @@
       "record_id": "LOG-761714DBA1",
       "experiment_ids": [],
       "title": "Historical-clock / Egyptian-sign-list documentation",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "source documentation"
+      ],
+      "outcome": "Historical-clock evidence and Egyptian proposal recorded; inputs unresolved",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": "2026-10-18 UTC; parent 528d4902ba81e6791107f9b4b623170923d14933.",
+      "date_only": {
+        "date": "2026-10-18",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [],
       "receipt_paths": [],
@@ -1106,9 +1225,19 @@
       "record_id": "LOG-8EA2DFFFD5",
       "experiment_ids": [],
       "title": "Pinned Barney/Scott prior-art review — revision 2026-10-18",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "prior-art review"
+      ],
+      "outcome": "Pinned source coverage reviewed; external large searches not rerun",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-18",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [],
       "receipt_paths": [],
@@ -1120,9 +1249,14 @@
         "AUTOKEY-CONSTRAINT-001"
       ],
       "title": "AUTOKEY-CONSTRAINT-001 — complete declared lag audit",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "exact K4 constraints"
+      ],
+      "outcome": "732 cases contradicted; 420 compatible with zero independent checks",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [
         {
           "receipt": "results/autokey-constraint-runs/20261018T134147Z-7499a732804146f48f2121f5453be844/manifest.json",
@@ -1154,9 +1288,14 @@
         "GROMARK-ALPHABET-001"
       ],
       "title": "GROMARK-ALPHABET-001 — one pinned published tuple",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "exact K4 constraints"
+      ],
+      "outcome": "Published Gromark tuple compatible but non-identifiable; differing plaintext witnesses",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [
         {
           "receipt": "results/gromark-alphabet-runs/20261018T135606Z-4fed84af3b8340f79ec5e2491071b3a3/manifest.json",
@@ -1186,9 +1325,19 @@
       "record_id": "LOG-CAC907C2B6",
       "experiment_ids": [],
       "title": "Historical-clock correction — documentation only, 2026-10-18",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "source documentation"
+      ],
+      "outcome": "Corrected model-label transcription; 1989 inventory/orientation still unresolved",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-18",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [],
       "receipt_paths": [],
@@ -1198,9 +1347,14 @@
       "record_id": "LOG-CDF6EFF148",
       "experiment_ids": [],
       "title": "Historical-clock source-note completion — documentation only",
-      "category_hint": "source or scope review",
+      "categories": [
+        "source review"
+      ],
+      "outcome": "Finite historical-clock review completed; no north-registered 1989 schedule",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [],
       "receipt_paths": [],
@@ -1212,9 +1366,14 @@
         "GROMARK-IDENTIFIABILITY-001"
       ],
       "title": "GROMARK-IDENTIFIABILITY-001 — 73 fixed-model difference queries",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "identifiability analysis"
+      ],
+      "outcome": "10 positions forced, 63 variable under the fixed Gromark tuple; no solution",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [
         {
           "receipt": "results/gromark-identifiability-runs/20261018T150335Z-5b16b46678154416add3015ab8676aa9/manifest.json",
@@ -1246,9 +1405,20 @@
         "SILK-PERIODIC-001"
       ],
       "title": "SILK-PERIODIC-001 — 2026-10-18",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "analytical constraints",
+        "replication"
+      ],
+      "outcome": "All 12 fixed-chart periods contradicted; no keyword enumeration",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-18",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [
         {
           "receipt": "results/SILK-PERIODIC-VALIDATION.json",
@@ -1296,9 +1466,20 @@
         "DYNAMIC-KEY-001"
       ],
       "title": "DYNAMIC-KEY-001 — stateful key continuation, 2026-10-22",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "finite K4 model tests",
+        "null calibration"
+      ],
+      "outcome": "1,344 fixed stateful configurations reject; no decoding candidate",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [
         {
           "receipt": "results/dynamic-key-runs/20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0/manifest.json",
@@ -1333,9 +1514,20 @@
         "PLAINTEXT-STEP-001"
       ],
       "title": "ASYMMETRIC-PRIMER-001 and PLAINTEXT-STEP-001 — 2026-10-22",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "finite K4 model tests",
+        "null calibration"
+      ],
+      "outcome": "Six mixed-alphabet and 12 plaintext-step cases reject",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [
         {
           "receipt": "results/asymmetric-primer-runs/20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2/manifest.json",
@@ -1381,9 +1573,19 @@
       "record_id": "LOG-4836570143",
       "experiment_ids": [],
       "title": "Documentation-only proposal — 2026-10-22",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "documentation and proposal"
+      ],
+      "outcome": "32-case coordinate proposal unrun at this stage; later result retained separately",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [],
       "receipt_paths": [],
@@ -1396,9 +1598,20 @@
         "SPLIT-COORDINATE-001"
       ],
       "title": "ASYMMETRIC-FEEDBACK-001 / SPLIT-COORDINATE-001 — completed continuation",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "finite K4 model tests",
+        "null calibration"
+      ],
+      "outcome": "72 feedback and 32 split-coordinate cases reject",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": "22 October 2026. Initial state clean at 6eba0fd on",
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [
         {
           "receipt": "results/asymmetric-feedback-001-runs/20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea/manifest.json",
@@ -1450,9 +1663,19 @@
         "K3-CLOCK-ROUTES-001"
       ],
       "title": "K3-CLOCK-ROUTES-001 — 22 October 2026, 19:32 UTC",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "exact K4 constraints"
+      ],
+      "outcome": "374 new structures reject; 16 prior equivalents skipped",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [
         {
           "receipt": "results/k3-clock-routes-001-runs/20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca/manifest.json",
@@ -1487,9 +1710,19 @@
         "OCCUPIED-CELL-ROUTES-001"
       ],
       "title": "OCCUPIED-CELL-ROUTES-001 — 22 October 2026, 19:39 UTC",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "All 288 carved-mask fixed-key branches reject",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [
         {
           "receipt": "results/occupied-cell-routes-001-runs/20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845/manifest.json",
@@ -1524,9 +1757,21 @@
         "STRATEGY-FOLLOWUP-001"
       ],
       "title": "STRATEGY-FOLLOWUP-001 — 22 October 2026",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "finite K4 tests",
+        "source replication",
+        "synthetic calibration"
+      ],
+      "outcome": "Four state models reject; clock operator underidentified; synthetic fits often ambiguous",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [
         {
           "receipt": "results/strategy-followup-runs/20261022T204842Z-17a364bb210f4d8799018ef99b496f3a/manifest.json",
@@ -1559,9 +1804,20 @@
         "SINGLE-BOUNDARY-RESET-001"
       ],
       "title": "SINGLE-BOUNDARY-RESET-001 — 22 October 2026",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "exact K4 constraints",
+        "finite model tests"
+      ],
+      "outcome": "All declared single-reset families reject; no multi-reset sweep",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [
         {
           "receipt": "results/single-boundary-reset-runs/20261022T212416Z-f634e152375e406d971f9edc1dc91096/manifest.json",
@@ -1593,9 +1849,19 @@
         "AUTONOMOUS-RECURRENCE-001"
       ],
       "title": "AUTONOMOUS-RECURRENCE-001 — 22 October 2026",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "analytical constraints"
+      ],
+      "outcome": "All 20 order-2–6 structures fail first-crib parity equations",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [
         {
           "receipt": "results/autonomous-recurrence-runs/20261022T215356Z-4769d0b137d348e99db42ee5918dc799/manifest.json",
@@ -1628,9 +1894,20 @@
         "GEOMETRIC-PILOT-001"
       ],
       "title": "ALPHABET-GEOMETRY-001 and GEOMETRIC-PILOT-001 — 22 October 2026",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "representation validation",
+        "finite K4 model tests"
+      ],
+      "outcome": "Unique glyph codes verified; periodic/rotor pilots yield no all-crib candidate",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/ALPHABET-GEOMETRY-PILOT-SPEC.md",
@@ -1646,9 +1923,20 @@
         "GEOMETRIC-FOLLOWUP-001"
       ],
       "title": "GEOMETRIC-FOLLOWUP-001 — independent replay and numeric security audit",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "replication",
+        "encoding security audit"
+      ],
+      "outcome": "Prior outputs reproduced; raw-number mapping leaks almost all tested letter/base pairs",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "opening prose",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/GEOMETRIC-BASE-SECURITY-AUDIT.md",
@@ -1665,9 +1953,19 @@
         "GEOMETRIC-PERIODIC-NULL-001"
       ],
       "title": "GEOMETRIC-PERIODIC-NULL-001 — requested first-crib chance calibration",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "statistical calibration"
+      ],
+      "outcome": "Full 24-model null p=0.0866; first-crib fit fails Berlin",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "opening prose",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/PERIODIC-CRIB-CALIBRATION.md"
@@ -1681,9 +1979,19 @@
         "K4-FROZEN-GLYPH-AFFINE-FEEDBACK-001"
       ],
       "title": "K4-FROZEN-GLYPH-AFFINE-FEEDBACK-001 — arbitrary-base relaxation",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "analytical constraints"
+      ],
+      "outcome": "All eight frozen affine feature-feedback families excluded in first crib",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "source": "opening prose",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/RADIX-FEEDBACK-FINDINGS.md"
@@ -1697,9 +2005,15 @@
         "IPA-PREPROCESSING-001"
       ],
       "title": "IPA-PREPROCESSING-001 — source-fixed phonetic preprocessing",
-      "category_hint": "source or scope review",
+      "categories": [
+        "source normalization",
+        "exact K4 constraints"
+      ],
+      "outcome": "All 48 defined IPA arithmetic structures reject; no broad IPA exclusion",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/IPA-PREPROCESSING-FINDINGS.md",
@@ -1718,9 +2032,20 @@
         "AFFINE-DIGRAPH-PARITY-001"
       ],
       "title": "AFFINE-DIGRAPH-PARITY-001 — existing analytical boundary recorded",
-      "category_hint": "analytical constraint",
+      "categories": [
+        "analytical constraints",
+        "replication"
+      ],
+      "outcome": "Four same-alphabet affine-digraph structures excluded by parity",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "opening prose",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/AFFINE-DIGRAPH-PARITY-BOUNDARY.md"
@@ -1732,9 +2057,20 @@
       "record_id": "LOG-7A1A7579D4",
       "experiment_ids": [],
       "title": "23 October 2026: stateful tree/path pilot and independent IPA integration",
-      "category_hint": "source or scope review",
+      "categories": [
+        "finite K4 tests",
+        "independent replication"
+      ],
+      "outcome": "All 104 tree settings reject; unanchored IPA/codecs audits replayed",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/IPA-CODECS-INTEGRATION.md",
@@ -1747,9 +2083,14 @@
       "record_id": "LOG-E32CDBB0CC",
       "experiment_ids": [],
       "title": "REGISTRY-20261023 — current hypothesis scope and evidence gates",
-      "category_hint": "source or scope review",
+      "categories": [
+        "documentation and scope audit"
+      ],
+      "outcome": "Canonical coverage registry established; no new K4 evaluation",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/HYPOTHESES.md"
@@ -1764,9 +2105,15 @@
         "LAMP-STREAM-001"
       ],
       "title": "FACE-ROW-001 / LAMP-STREAM-001 — source-gated conditional protocols",
-      "category_hint": "source or scope review",
+      "categories": [
+        "source review",
+        "protocol preparation"
+      ],
+      "outcome": "Source review saved; FACE/LAMP actual runs still pending at this stage",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "experiments/face_row_coverage.py",
@@ -1789,9 +2136,15 @@
         "LAMP-STREAM-001"
       ],
       "title": "FACE-ROW-001 / LAMP-STREAM-001 — completed finite batch",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "exact K4 constraints",
+        "finite model tests"
+      ],
+      "outcome": "92 new FACE cases reject; frozen LAMP family excluded analytically",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/CONDITIONAL-FACE-LAMP-FINDINGS.md",
@@ -1809,9 +2162,14 @@
         "SIGABA-INSPIRED-001"
       ],
       "title": "GREEK-PHONETIC-001 / SIGABA-INSPIRED-001 — completed candidate batch",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "Defined Greek-placement and custom SIGABA-inspired domains reject",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/GREEK-SIGABA-CANDIDATE-FINDINGS.md",
@@ -1824,9 +2182,21 @@
       "record_id": "LOG-C8DE9E7E6E",
       "experiment_ids": [],
       "title": "23 October 2026 — historical SIGABA and exclusion-scope audit",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "finite K4 tests",
+        "analytical constraints",
+        "scope audit"
+      ],
+      "outcome": "13,520 historical-simulator keys reject; four crossed affine structures inconsistent",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/AFFINE-DIGRAPH-CROSSED-FINDINGS.md",
@@ -1849,9 +2219,20 @@
       "record_id": "LOG-02A279928A",
       "experiment_ids": [],
       "title": "23 October 2026 — exact full cipher-state inference and physical sources",
-      "category_hint": "source or scope review",
+      "categories": [
+        "exact K4 inference",
+        "physical source review"
+      ],
+      "outcome": "All starts under 520 fixed schedules reject; physical gaps remain",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/SIGABA-CSP889-STATE-FINDINGS.md",
@@ -1871,9 +2252,20 @@
       "record_id": "LOG-B3E944F67A",
       "experiment_ids": [],
       "title": "23 October 2026 — joint-controller boundary and exact non-rotor pivot",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "synthetic feasibility",
+        "exact K4 constraints"
+      ],
+      "outcome": "Joint controller unresolved; declared cyclic-disc/two-round Feistel models reject",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/JOINT-STATE-NONROTOR-FINDINGS.md",
@@ -1893,9 +2285,20 @@
       "record_id": "LOG-A614466742",
       "experiment_ids": [],
       "title": "23 October 2026 — exact wrapper audit, three-round ambiguity and tree-state support",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "exact K4 constraints",
+        "identifiability analysis"
+      ],
+      "outcome": "24 wrapper cases and tree relaxation reject; three-round fits non-identifiable",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/FEISTEL-EXTENSION-SPEC.md",
@@ -1909,9 +2312,19 @@
       "record_id": "LOG-E76967DAFB",
       "experiment_ids": [],
       "title": "23 October 2026 — arbitrary-key Fractionated Morse constraints",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "exact K4 constraints"
+      ],
+      "outcome": "348,160 declared Morse contexts reject without key enumeration",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/FRACTIONATED-MORSE-ARBITRARY-FINDINGS.md",
@@ -1927,9 +2340,19 @@
       "record_id": "LOG-57CEE0C89F",
       "experiment_ids": [],
       "title": "23 October 2026 — Wheatstone fixed-transition invariant",
-      "category_hint": "analytical constraint",
+      "categories": [
+        "analytical constraints"
+      ],
+      "outcome": "Aligned fixed-ring Wheatstone model excluded; other conventions outside scope",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/WHEATSTONE-TRANSITION-FINDINGS.md",
@@ -1945,9 +2368,19 @@
       "record_id": "LOG-42E6620EB8",
       "experiment_ids": [],
       "title": "23 October 2026 — disciplined frontier review, no new K4 search",
-      "category_hint": "source or scope review",
+      "categories": [
+        "documentation and frontier review"
+      ],
+      "outcome": "Nine evidence/algorithm gates recorded; no new K4 search",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/RESEARCH-FRONTIER-2026-10-23.md",
@@ -1963,9 +2396,19 @@
       "record_id": "LOG-F2014ABCF5",
       "experiment_ids": [],
       "title": "23 October 2026 — complete coupled synthetic SIGABA inference",
-      "category_hint": "synthetic engineering / validation",
+      "categories": [
+        "synthetic solver benchmark"
+      ],
+      "outcome": "Tiny exact sets agree; larger toy cases resource/validation limited; no real gate pass",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "heading",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "research/SIGABA-JOINT-TOY-FINDINGS.md",
@@ -1983,9 +2426,14 @@
         "SIGABA-TORUS-013"
       ],
       "title": "SIGABA-TORUS-013 — exact predicate reuse, unchanged coupled domain",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "synthetic solver benchmark"
+      ],
+      "outcome": "Largest toy completes with exact validation; no real-sized admission",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/SIGABA-TORUS-FINDINGS.md",
@@ -2003,9 +2451,15 @@
         "CSP889-REAL-014"
       ],
       "title": "CSP889-REAL-014 — authentic adapter, failed synthetic resource admission",
-      "category_hint": "synthetic engineering / validation",
+      "categories": [
+        "synthetic solver benchmark",
+        "known-answer validation"
+      ],
+      "outcome": "Published vectors pass; both real-sized synthetic gates stop with zero controllers",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/SIGABA-REAL-ADAPTER-FINDINGS.md",
@@ -2024,9 +2478,14 @@
         "CSP889-SPARSE-015"
       ],
       "title": "CSP889-SPARSE-015 — exact sparse ownership and reserved cache",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "synthetic solver benchmark"
+      ],
+      "outcome": "Memory reduced; both gates unresolved with zero completed controllers",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/SIGABA-SPARSE-OWNERSHIP-FINDINGS.md",
@@ -2046,9 +2505,14 @@
         "CSP889-DOMAIN-016"
       ],
       "title": "CSP889-DOMAIN-016 — profiler-supported immutable domain keys",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "synthetic solver benchmark"
+      ],
+      "outcome": "Prefix advances but zero controllers complete; resource gate unresolved",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/SIGABA-DOMAIN-IDENTITY-FINDINGS.md",
@@ -2069,9 +2533,14 @@
         "CSP889-ANCHOR-017"
       ],
       "title": "CSP889-ANCHOR-017 — exact full-torus observation anchoring",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "synthetic solver benchmark"
+      ],
+      "outcome": "Anchoring validated exactly; observed-domain memory stops full inference",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/SIGABA-FIRST-OBSERVATION-FINDINGS.md",
@@ -2094,9 +2563,14 @@
         "CSP889-COMPACT-018"
       ],
       "title": "CSP889-COMPACT-018 — exact storage, local-only measured controller progress",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "synthetic solver benchmark"
+      ],
+      "outcome": "12/14 controllers complete in fixed fixtures; full-domain totals unresolved",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/SIGABA-COMPRESSED-DOMAIN-FINDINGS.md",
@@ -2117,9 +2591,14 @@
         "CSP889-FILTER-019"
       ],
       "title": "CSP889-FILTER-019 — supplied-anchor necessary filter, local only",
-      "category_hint": "synthetic engineering / validation",
+      "categories": [
+        "synthetic filter diagnostic"
+      ],
+      "outcome": "20 supplied-anchor pairs: zero false negatives; not blind recovery/full coverage",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": null,
+      "date_only": null,
       "timestamps": [],
       "links": [
         "research/SIGABA-COLLECTOR-FILTER-FINDINGS.md",
@@ -2139,9 +2618,20 @@
         "FOLD-SLIDE-020"
       ],
       "title": "FOLD-SLIDE-020 — anchored progressive monument overlay",
-      "category_hint": "experiment or mixed controls; inspect exact scope",
+      "categories": [
+        "inscription-layout comparison",
+        "null calibration"
+      ],
+      "outcome": "134 frames retained; no unusual excess under declared controls; optics uncalibrated",
+      "classification_basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred.",
       "source": "research/EXPERIMENTS.md",
       "recorded_date_statement": "2026-10-23 UTC. Exact run start/end were not recorded and are unknown; commit/publication times are distinct.",
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
       "timestamps": [],
       "links": [
         "experiments/monument_slide.py",
@@ -2154,7 +2644,7 @@
       "receipt_paths": [
         "results/FOLD-SLIDE-020-actual.json"
       ],
-      "original_entry": "- Date: 2026-10-23 UTC. Exact run start/end were not recorded and are unknown; commit/publication times are distinct.\n- Type: actual inscription-layout comparison with approximate optical apertures, not a K4 decryption search.\n- Protocol: [frozen progressive model](MONUMENT-SLIDE-OVERLAY-SPEC.md), [pre-score registration amendment](MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md).\n- Input: full canonical cipher/tableau rows and existing modeled font; MYVGT/AABCD anchor reproduced with no row shift.\n- Coverage: 134 frames across two registrations, −33…+33 inclusive; 130 active. Every frame retained.\n- Outcome: zero-shift primary 35/856 identical letters; ordinary full-scan label/area excess under 1,999 row shuffles and 1,999 movable-row rotations. Four-report adjusted p=1 for each endpoint/scheme.\n- Code: [native evaluator](../experiments/monument_slide.py), [independent pixel oracle](../experiments/monument_slide_oracle.mjs).\n- Receipt: [exact positions and masks](../results/FOLD-SLIDE-020-actual.json); [findings and limitations](MONUMENT-FOLD-SLIDE-FINDINGS.md).\n- No measured optical calibration, plaintext extraction, Site change or new decoding candidate."
+      "original_entry": "- Date: 2026-10-23 UTC. Exact run start/end were not recorded and are unknown; commit/publication times are distinct.\n- Type: actual inscription-layout comparison with approximate optical apertures, not a K4 decryption search.\n- Protocol: [frozen progressive model](MONUMENT-SLIDE-OVERLAY-SPEC.md), [pre-score registration amendment](MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md).\n- Input: full canonical cipher/tableau rows and existing modeled font; MYVGT/AABCD anchor reproduced with no row shift.\n- Coverage: 134 frames across two registrations, −33…+33 inclusive; 130 active. Every frame retained.\n- Outcome: zero-shift primary 35/856 identical letters; no unusual full-scan label/area excess under 1,999 row shuffles and 1,999 movable-row rotations. Four-report adjusted p=1 for each endpoint/scheme.\n- Code: [native evaluator](../experiments/monument_slide.py), [independent pixel oracle](../experiments/monument_slide_oracle.mjs).\n- Receipt: [exact positions and masks](../results/FOLD-SLIDE-020-actual.json); [findings and limitations](MONUMENT-FOLD-SLIDE-FINDINGS.md).\n- No measured optical calibration, plaintext extraction, Site change or new decoding candidate."
     }
   ],
   "receipts": [
@@ -2485,7 +2975,33 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-CLARITY-021.json",
+      "labels": [
+        "DOCUMENTATION-CLARITY-021",
+        "Reviewed tracker classification, date precision and future-run timing validation; no new cipher experiment"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-23T13:12:02.696631Z",
+          "original": "2026-10-23T13:12:02.696631Z"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
       "path": "results/DOCUMENTATION-LINK-AUDIT-020.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-021.json",
       "labels": [
         "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
       ],
@@ -2616,6 +3132,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-016.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-017.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",

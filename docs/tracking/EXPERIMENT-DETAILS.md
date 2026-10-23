@@ -6,7 +6,9 @@ Generated navigation; edit the canonical ledger or receipts, then run `python3 e
 
 **BASE-001 initialization run**
 
-Exact run start/end unknown; original date statement: 2026-10-18 UTC.
+Exact run start/end unknown; date-only record: 2026-10-18 (date statement; not a run timestamp); original date statement: 2026-10-18 UTC.
+
+Type: baseline validation. Outcome: Passed data integrity and indexing checks; no cryptanalysis
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -25,7 +27,9 @@ Related files: [data/k4.json](../../data/k4.json).
 
 **CTRL-001 — exact K1–K3 controls**
 
-Exact run start/end unknown; original date statement: 2026-10-18 UTC; deterministic, Python 3.9.6 standard library.
+Exact run start/end unknown; date-only record: 2026-10-18 (date statement; not a run timestamp); original date statement: 2026-10-18 UTC; deterministic, Python 3.9.6 standard library.
+
+Type: known-answer validation. Outcome: Passed complete K1–K3 fixture comparisons
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -53,7 +57,9 @@ Related files: [data/controls.json](../../data/controls.json), [experiments/chec
 
 **STRUCT-001 — exact structural and encoding constraints**
 
-Exact run start/end unknown; original date statement: 2026-10-18 UTC; Python 3.9.6 standard library; under one second.
+Exact run start/end unknown; date-only record: 2026-10-18 (date statement; not a run timestamp); original date statement: 2026-10-18 UTC; Python 3.9.6 standard library; under one second.
+
+Type: analytical constraints. Outcome: Direct permutation deficit and 19 periodic contradictions; other models remain open
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -77,7 +83,9 @@ Related files: [data/k4.json](../../data/k4.json), [experiments/structural_check
 
 **ROUTE-001, RUNKEY-001, TRIFID-001 — bounded model milestone**
 
-Exact run start/end unknown; original date statement: 2026-10-18 UTC; Python 3.9.6, standard library, single local process.
+Exact run start/end unknown; date-only record: 2026-10-18 (date statement; not a run timestamp); original date statement: 2026-10-18 UTC; Python 3.9.6, standard library, single local process.
+
+Type: finite K4 model tests. Outcome: Running-key/Trifid negatives; route fits are vacuous, with no determined key
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -113,6 +121,8 @@ Related files: [experiments/run_bounded.py](../../experiments/run_bounded.py), [
 
 Exact run start/end unknown
 
+Type: statistical diagnostic. Outcome: Conditional lag-pattern excess; not a cipher identification or posterior
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 - Command: `python3 experiments/statistical_diagnostics.py --write-results`.
@@ -138,6 +148,8 @@ Related files: [experiments/statistical_diagnostics.py](../../experiments/statis
 
 Exact run start/end unknown
 
+Type: regression and replication. Outcome: Audited controls and snapshot safety; no new hypothesis domain
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 The original artifacts at b83b0f9 are byte-preserved; their SHA256 manifest is
@@ -157,6 +169,8 @@ Related files: [data/audited-results-b83.json](../../data/audited-results-b83.js
 
 Exact run start/end unknown
 
+Type: representation validation; analytical constraints. Outcome: GOST reversible on declared domain; narrow support exclusions; Shavian unspecified
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 - Prior spec:21c3b4c16615586c525420cfdd6014cc7a6d44c4; code:58646022bf5578e4c193a6cdc7a487ef86c5947d.
@@ -175,6 +189,8 @@ Related files: [research/LANGUAGE-FINDINGS.md](../../research/LANGUAGE-FINDINGS.
 **MASK-AUTO-001 and MASK-FM-001 — two frozen masking pilots**
 
 start: 2026-10-18T11:23:16.791919Z; end: 2026-10-18T11:23:16.806864Z; start: 2026-10-18T11:23:17.030203Z; end: 2026-10-18T11:23:17.035825Z
+
+Type: finite K4 model tests. Outcome: All 12 autokeys fail cribs; two fixed Morse maps fail parsing
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -196,6 +212,8 @@ Related files: [docs/masking-fixture-review.md](../masking-fixture-review.md), [
 
 Exact run start/end unknown
 
+Type: analytical constraints; finite K4 model tests. Outcome: All 24 fixed combinations fail endpoint/count requirements
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 - Prior spec:ef0b3c91e11159886930299878b8636a72252acf; code:30fc403b85998731414160fcd1c5cecb5ec42f73.
@@ -214,6 +232,8 @@ Related files: [research/WORD-SCRAMBLING-FINDINGS.md](../../research/WORD-SCRAMB
 
 receipt recording: 2026-10-18T11:30:39.768784Z
 
+Type: regression and replication. Outcome: 73 checks passed for the recorded sequence; no new model search
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 All 73unit/replay tests pass in7.431 s, including all 37,060GOST round trips and
@@ -231,6 +251,8 @@ Related files: [results/LANGUAGE-MASKING-WORD-VALIDATION.json](../../results/LAN
 **PHONETIC-SUBSET-001 — small deterministic follow-up**
 
 receipt recording: 2026-10-18T11:35:01.252332Z
+
+Type: finite K4 model tests. Outcome: Narrow respelling leaves clues unchanged; rescues none of 12 prior outputs
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -256,6 +278,8 @@ Related files: [research/PHONETIC-FEASIBILITY.md](../../research/PHONETIC-FEASIB
 
 Exact run start/end unknown
 
+Type: attributed independent review. Outcome: Supplied audit reports no result-changing bugs; not a new local search
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 A supplied independent audit of ba10b1b3f38eb7829ef45ea427348bffd51768cd
@@ -270,6 +294,8 @@ separately below.
 **DIRECT-ENIGMA-001 — exact aligned reflector boundary**
 
 receipt recording: 2026-10-18T12:00:46.104564Z
+
+Type: analytical constraints. Outcome: Aligned fixed-point-free reflector model excluded by K→K at position 74
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -292,7 +318,9 @@ Related files: [results/PERIOD-MAP-ENIGMA-VALIDATION.json](../../results/PERIOD-
 
 **Neptune and clock-face documentation update**
 
-Exact run start/end unknown; original date statement: 2026-10-18 UTC; parent 744853ed9ec32717bf484ed013baf8b599c382b7.
+Exact run start/end unknown; date-only record: 2026-10-18 (date statement; not a run timestamp); original date statement: 2026-10-18 UTC; parent 744853ed9ec32717bf484ed013baf8b599c382b7.
+
+Type: source documentation. Outcome: Supplied Neptune/clock research preserved; no new cipher test
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -310,6 +338,8 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 **Clock-reset preparation — no new K4 run**
 
 Exact run start/end unknown
+
+Type: protocol preparation; synthetic validation. Outcome: Prepared controls; actual reset search not run in this entry
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -335,6 +365,8 @@ final frozen proof specification is pending. Existing result files remain unchan
 **CLOCK-BOUNDARY-REG-001 — verification of known deductions**
 
 start: 2026-10-18T12:42:41.282170Z; end: 2026-10-18T12:42:41.301414Z
+
+Type: analytical constraints; replication. Outcome: 13 supplied certificates verified; no candidate search
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -363,7 +395,9 @@ Related files: [experiments/clock_boundary_regression.py](../../experiments/cloc
 
 **Historical-clock / Egyptian-sign-list documentation**
 
-Exact run start/end unknown; original date statement: 2026-10-18 UTC; parent 528d4902ba81e6791107f9b4b623170923d14933.
+Exact run start/end unknown; date-only record: 2026-10-18 (date statement; not a run timestamp); original date statement: 2026-10-18 UTC; parent 528d4902ba81e6791107f9b4b623170923d14933.
+
+Type: source documentation. Outcome: Historical-clock evidence and Egyptian proposal recorded; inputs unresolved
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -383,7 +417,9 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 **Pinned Barney/Scott prior-art review — revision 2026-10-18**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-18 (heading; not a run timestamp)
+
+Type: prior-art review. Outcome: Pinned source coverage reviewed; external large searches not rerun
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -418,6 +454,8 @@ at verification time; no visibility mutation was performed by this executor.
 
 start: 2026-10-18T13:41:47.786677Z; end: 2026-10-18T13:41:48.020232Z
 
+Type: exact K4 constraints. Outcome: 732 cases contradicted; 420 compatible with zero independent checks
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 - Initial spec 44a03c9f53dd1e95107a6a5b1bb7a7dc0c79470a; pre-execution toy-mask
@@ -450,6 +488,8 @@ Related files: [experiments/run_autokey_constraints.py](../../experiments/run_au
 
 start: 2026-10-18T13:56:06.417135Z; end: 2026-10-18T13:56:06.427233Z
 
+Type: exact K4 constraints. Outcome: Published Gromark tuple compatible but non-identifiable; differing plaintext witnesses
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 - Spec/source fixture: cd475ae00eda1eddd8b7fe1694922ecbba593270; implementation:
@@ -478,7 +518,9 @@ Related files: [experiments/run_gromark_alphabet.py](../../experiments/run_groma
 
 **Historical-clock correction — documentation only, 2026-10-18**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-18 (heading; not a run timestamp)
+
+Type: source documentation. Outcome: Corrected model-label transcription; 1989 inventory/orientation still unresolved
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -497,6 +539,8 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 **Historical-clock source-note completion — documentation only**
 
 Exact run start/end unknown
+
+Type: source review. Outcome: Finite historical-clock review completed; no north-registered 1989 schedule
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -517,6 +561,8 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 **GROMARK-IDENTIFIABILITY-001 — 73 fixed-model difference queries**
 
 start: 2026-10-18T15:03:35.382531Z; end: 2026-10-18T15:03:35.401845Z
+
+Type: identifiability analysis. Outcome: 10 positions forced, 63 variable under the fixed Gromark tuple; no solution
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -550,7 +596,9 @@ Related files: [experiments/run_gromark_identifiability.py](../../experiments/ru
 
 **SILK-PERIODIC-001 — 2026-10-18**
 
-start: 2026-10-18T15:32:21.428512Z; end: 2026-10-18T15:32:21.432293Z; start: 2026-10-18T15:32:21.428512Z; end: 2026-10-18T15:32:21.432293Z
+start: 2026-10-18T15:32:21.428512Z; end: 2026-10-18T15:32:21.432293Z; date-only record: 2026-10-18 (heading; not a run timestamp)
+
+Type: analytical constraints; replication. Outcome: All 12 fixed-chart periods contradicted; no keyword enumeration
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -568,7 +616,9 @@ Related files: [research/SILK-PERIODIC-FINDINGS.md](../../research/SILK-PERIODIC
 
 **DYNAMIC-KEY-001 — stateful key continuation, 2026-10-22**
 
-start: 2026-10-22T12:01:28.661039Z; end: 2026-10-22T12:01:32.902143Z
+start: 2026-10-22T12:01:28.661039Z; end: 2026-10-22T12:01:32.902143Z; date-only record: 2026-10-22 (heading; not a run timestamp)
+
+Type: finite K4 model tests; null calibration. Outcome: 1,344 fixed stateful configurations reject; no decoding candidate
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -601,7 +651,9 @@ Related files: [experiments/dynamic_key.py](../../experiments/dynamic_key.py), [
 
 **ASYMMETRIC-PRIMER-001 and PLAINTEXT-STEP-001 — 2026-10-22**
 
-start: 2026-10-22T12:08:17.094398Z; end: 2026-10-22T12:08:17.163153Z; start: 2026-10-22T12:10:01.334882Z; end: 2026-10-22T12:10:01.439299Z
+start: 2026-10-22T12:08:17.094398Z; end: 2026-10-22T12:08:17.163153Z; start: 2026-10-22T12:10:01.334882Z; end: 2026-10-22T12:10:01.439299Z; date-only record: 2026-10-22 (heading; not a run timestamp)
+
+Type: finite K4 model tests; null calibration. Outcome: Six mixed-alphabet and 12 plaintext-step cases reject
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -639,7 +691,9 @@ Related files: [research/FIXED-PILOT-FINDINGS.md](../../research/FIXED-PILOT-FIN
 
 **Documentation-only proposal — 2026-10-22**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-22 (heading; not a run timestamp)
+
+Type: documentation and proposal. Outcome: 32-case coordinate proposal unrun at this stage; later result retained separately
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -654,7 +708,9 @@ run was added. Earlier 160-test validation and all result artifacts unchanged.
 
 **ASYMMETRIC-FEEDBACK-001 / SPLIT-COORDINATE-001 — completed continuation**
 
-start: 2026-10-22T19:19:52.714193Z; end: 2026-10-22T19:19:53.226206Z; start: 2026-10-22T19:21:26.800516Z; end: 2026-10-22T19:21:27.093611Z; original date statement: 22 October 2026. Initial state clean at 6eba0fd on
+start: 2026-10-22T19:19:52.714193Z; end: 2026-10-22T19:19:53.226206Z; start: 2026-10-22T19:21:26.800516Z; end: 2026-10-22T19:21:27.093611Z; date-only record: 2026-10-22 (date statement; not a run timestamp); original date statement: 22 October 2026. Initial state clean at 6eba0fd on
+
+Type: finite K4 model tests; null calibration. Outcome: 72 feedback and 32 split-coordinate cases reject
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -697,7 +753,9 @@ Related files: [experiments/asymmetric_feedback.py](../../experiments/asymmetric
 
 **K3-CLOCK-ROUTES-001 — 22 October 2026, 19:32 UTC**
 
-start: 2026-10-22T19:32:38.042794Z; end: 2026-10-22T19:32:38.167873Z
+start: 2026-10-22T19:32:38.042794Z; end: 2026-10-22T19:32:38.167873Z; date-only record: 2026-10-22 (heading; not a run timestamp)
+
+Type: exact K4 constraints. Outcome: 374 new structures reject; 16 prior equivalents skipped
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -736,7 +794,9 @@ Related files: [experiments/k3_clock_routes.py](../../experiments/k3_clock_route
 
 **OCCUPIED-CELL-ROUTES-001 — 22 October 2026, 19:39 UTC**
 
-start: 2026-10-22T19:39:53.371154Z; end: 2026-10-22T19:39:53.467220Z
+start: 2026-10-22T19:39:53.371154Z; end: 2026-10-22T19:39:53.467220Z; date-only record: 2026-10-22 (heading; not a run timestamp)
+
+Type: finite K4 model tests. Outcome: All 288 carved-mask fixed-key branches reject
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -769,7 +829,9 @@ Related files: [experiments/occupied_cell_routes.py](../../experiments/occupied_
 
 **STRATEGY-FOLLOWUP-001 — 22 October 2026**
 
-start: 2026-10-22T20:48:42.987845Z; end: 2026-10-22T20:48:43.398039Z
+start: 2026-10-22T20:48:42.987845Z; end: 2026-10-22T20:48:43.398039Z; date-only record: 2026-10-22 (heading; not a run timestamp)
+
+Type: finite K4 tests; source replication; synthetic calibration. Outcome: Four state models reject; clock operator underidentified; synthetic fits often ambiguous
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -839,7 +901,9 @@ Related files: [research/INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md](../../r
 
 **SINGLE-BOUNDARY-RESET-001 — 22 October 2026**
 
-start: 2026-10-22T21:24:16.807343Z; end: 2026-10-22T21:24:19.517134Z
+start: 2026-10-22T21:24:16.807343Z; end: 2026-10-22T21:24:19.517134Z; date-only record: 2026-10-22 (heading; not a run timestamp)
+
+Type: exact K4 constraints; finite model tests. Outcome: All declared single-reset families reject; no multi-reset sweep
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -869,7 +933,9 @@ Related files: [research/SINGLE-BOUNDARY-RESET-FINDINGS.md](../../research/SINGL
 
 **AUTONOMOUS-RECURRENCE-001 — 22 October 2026**
 
-start: 2026-10-22T21:53:56.923388Z; end: 2026-10-22T21:53:57.013922Z
+start: 2026-10-22T21:53:56.923388Z; end: 2026-10-22T21:53:57.013922Z; date-only record: 2026-10-22 (heading; not a run timestamp)
+
+Type: analytical constraints. Outcome: All 20 order-2–6 structures fail first-crib parity equations
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -898,7 +964,9 @@ Related files: [research/AUTONOMOUS-RECURRENCE-FINDINGS.md](../../research/AUTON
 
 **ALPHABET-GEOMETRY-001 and GEOMETRIC-PILOT-001 — 22 October 2026**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-22 (heading; not a run timestamp)
+
+Type: representation validation; finite K4 model tests. Outcome: Unique glyph codes verified; periodic/rotor pilots yield no all-crib candidate
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -919,7 +987,9 @@ Related files: [research/ALPHABET-GEOMETRY-PILOT-SPEC.md](../../research/ALPHABE
 
 **GEOMETRIC-FOLLOWUP-001 — independent replay and numeric security audit**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-22 (opening prose; not a run timestamp)
+
+Type: replication; encoding security audit. Outcome: Prior outputs reproduced; raw-number mapping leaks almost all tested letter/base pairs
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -940,7 +1010,9 @@ Related files: [research/GEOMETRIC-BASE-SECURITY-AUDIT.md](../../research/GEOMET
 
 **GEOMETRIC-PERIODIC-NULL-001 — requested first-crib chance calibration**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-22 (opening prose; not a run timestamp)
+
+Type: statistical calibration. Outcome: Full 24-model null p=0.0866; first-crib fit fails Berlin
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -959,7 +1031,9 @@ Related files: [research/PERIODIC-CRIB-CALIBRATION.md](../../research/PERIODIC-C
 
 **K4-FROZEN-GLYPH-AFFINE-FEEDBACK-001 — arbitrary-base relaxation**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-22 (opening prose; not a run timestamp)
+
+Type: analytical constraints. Outcome: All eight frozen affine feature-feedback families excluded in first crib
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -980,6 +1054,8 @@ Related files: [research/RADIX-FEEDBACK-FINDINGS.md](../../research/RADIX-FEEDBA
 **IPA-PREPROCESSING-001 — source-fixed phonetic preprocessing**
 
 Exact run start/end unknown
+
+Type: source normalization; exact K4 constraints. Outcome: All 48 defined IPA arithmetic structures reject; no broad IPA exclusion
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1004,7 +1080,9 @@ Related files: [research/IPA-PREPROCESSING-FINDINGS.md](../../research/IPA-PREPR
 
 **AFFINE-DIGRAPH-PARITY-001 — existing analytical boundary recorded**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-23 (opening prose; not a run timestamp)
+
+Type: analytical constraints; replication. Outcome: Four same-alphabet affine-digraph structures excluded by parity
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1021,7 +1099,9 @@ Related files: [research/AFFINE-DIGRAPH-PARITY-BOUNDARY.md](../../research/AFFIN
 
 **23 October 2026: stateful tree/path pilot and independent IPA integration**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-23 (heading; not a run timestamp)
+
+Type: finite K4 tests; independent replication. Outcome: All 104 tree settings reject; unanchored IPA/codecs audits replayed
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1034,6 +1114,8 @@ Related files: [research/IPA-CODECS-INTEGRATION.md](../../research/IPA-CODECS-IN
 **REGISTRY-20261023 — current hypothesis scope and evidence gates**
 
 Exact run start/end unknown
+
+Type: documentation and scope audit. Outcome: Canonical coverage registry established; no new K4 evaluation
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1071,6 +1153,8 @@ Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md).
 
 Exact run start/end unknown
 
+Type: source review; protocol preparation. Outcome: Source review saved; FACE/LAMP actual runs still pending at this stage
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 The deep evidence synthesis and three source dossiers were materialized, hash-
@@ -1104,6 +1188,8 @@ Related files: [experiments/face_row_coverage.py](../../experiments/face_row_cov
 
 Exact run start/end unknown
 
+Type: exact K4 constraints; finite model tests. Outcome: 92 new FACE cases reject; frozen LAMP family excluded analytically
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 Parent review approved the protocol at cdefbb4. Implementation and controls were
@@ -1133,6 +1219,8 @@ Related files: [research/CONDITIONAL-FACE-LAMP-FINDINGS.md](../../research/CONDI
 
 Exact run start/end unknown
 
+Type: finite K4 model tests. Outcome: Defined Greek-placement and custom SIGABA-inspired domains reject
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 [Specification](../../research/GREEK-SIGABA-CANDIDATE-SPEC.md) committed at 7bc893f; complete
@@ -1161,7 +1249,9 @@ Related files: [research/GREEK-SIGABA-CANDIDATE-FINDINGS.md](../../research/GREE
 
 **23 October 2026 — historical SIGABA and exclusion-scope audit**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-23 (heading; not a run timestamp)
+
+Type: finite K4 tests; analytical constraints; scope audit. Outcome: 13,520 historical-simulator keys reject; four crossed affine structures inconsistent
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1175,7 +1265,9 @@ Related files: [research/AFFINE-DIGRAPH-CROSSED-FINDINGS.md](../../research/AFFI
 
 **23 October 2026 — exact full cipher-state inference and physical sources**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-23 (heading; not a run timestamp)
+
+Type: exact K4 inference; physical source review. Outcome: All starts under 520 fixed schedules reject; physical gaps remain
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1189,7 +1281,9 @@ Related files: [research/SIGABA-CSP889-STATE-FINDINGS.md](../../research/SIGABA-
 
 **23 October 2026 — joint-controller boundary and exact non-rotor pivot**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-23 (heading; not a run timestamp)
+
+Type: synthetic feasibility; exact K4 constraints. Outcome: Joint controller unresolved; declared cyclic-disc/two-round Feistel models reject
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1203,7 +1297,9 @@ Related files: [research/JOINT-STATE-NONROTOR-FINDINGS.md](../../research/JOINT-
 
 **23 October 2026 — exact wrapper audit, three-round ambiguity and tree-state support**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-23 (heading; not a run timestamp)
+
+Type: exact K4 constraints; identifiability analysis. Outcome: 24 wrapper cases and tree relaxation reject; three-round fits non-identifiable
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1219,7 +1315,9 @@ Related files: [research/FEISTEL-EXTENSION-SPEC.md](../../research/FEISTEL-EXTEN
 
 **23 October 2026 — arbitrary-key Fractionated Morse constraints**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-23 (heading; not a run timestamp)
+
+Type: exact K4 constraints. Outcome: 348,160 declared Morse contexts reject without key enumeration
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1231,7 +1329,9 @@ Related files: [research/FRACTIONATED-MORSE-ARBITRARY-FINDINGS.md](../../researc
 
 **23 October 2026 — Wheatstone fixed-transition invariant**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-23 (heading; not a run timestamp)
+
+Type: analytical constraints. Outcome: Aligned fixed-ring Wheatstone model excluded; other conventions outside scope
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1243,7 +1343,9 @@ Related files: [research/WHEATSTONE-TRANSITION-FINDINGS.md](../../research/WHEAT
 
 **23 October 2026 — disciplined frontier review, no new K4 search**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-23 (heading; not a run timestamp)
+
+Type: documentation and frontier review. Outcome: Nine evidence/algorithm gates recorded; no new K4 search
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1255,7 +1357,9 @@ Related files: [research/RESEARCH-FRONTIER-2026-10-23.md](../../research/RESEARC
 
 **23 October 2026 — complete coupled synthetic SIGABA inference**
 
-Exact run start/end unknown
+Exact run start/end unknown; date-only record: 2026-10-23 (heading; not a run timestamp)
+
+Type: synthetic solver benchmark. Outcome: Tiny exact sets agree; larger toy cases resource/validation limited; no real gate pass
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1269,6 +1373,8 @@ Related files: [research/SIGABA-JOINT-TOY-FINDINGS.md](../../research/SIGABA-JOI
 
 Exact run start/end unknown
 
+Type: synthetic solver benchmark. Outcome: Largest toy completes with exact validation; no real-sized admission
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 The largest toy inference completed all 32,768 controllers in 534.476 seconds, retaining 2 raw keys. Its declared validation status is True. This is a toy result, not a real-sized gate. Ten independent complete raw-set comparisons and one complete compact-set comparison pass. Predicate identity is checked over 6,739 predicates and 998,515 direct states. No actual K4 evaluation, real-sized gate, package install or Site change. [Protocol](../../research/SIGABA-TORUS-SPEC.md), [findings](../../research/SIGABA-TORUS-FINDINGS.md), [measured comparison](../../results/SIGABA-TORUS-013.json).
@@ -1280,6 +1386,8 @@ Related files: [research/SIGABA-TORUS-FINDINGS.md](../../research/SIGABA-TORUS-F
 **CSP889-REAL-014 — authentic adapter, failed synthetic resource admission**
 
 Exact run start/end unknown
+
+Type: synthetic solver benchmark; known-answer validation. Outcome: Published vectors pass; both real-sized synthetic gates stop with zero controllers
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1293,6 +1401,8 @@ Related files: [research/SIGABA-REAL-ADAPTER-FINDINGS.md](../../research/SIGABA-
 
 Exact run start/end unknown
 
+Type: synthetic solver benchmark. Outcome: Memory reduced; both gates unresolved with zero completed controllers
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 Both runs remain unresolved, with zero completed controllers and unknown total key counts. The dense case reaches the same time-2, 410-node envelope guard, with 202 predicate requests but only three zero-offset builds. The separated-window case still stops at time index 7 with 6,652 peak nodes and zero predicate requests; memory falls to 58.4 MiB, but prefix CPU work remains unresolved. It performed 519,540 owner transitions and 14,181 branch visits. Direct plants remain valid, but no selector recovery or full real-sized compatible-set validation is established. Same two REAL-014 fixtures and caps; six complete independent tiny raw-key comparisons, 18 cache-policy relation comparisons and complete q=3 predicate controls pass. [Protocol](../../research/SIGABA-SPARSE-OWNERSHIP-SPEC.md), [findings](../../research/SIGABA-SPARSE-OWNERSHIP-FINDINGS.md), [comparison](../../results/CSP889-SPARSE-015.json). No actual K4 evaluation or budget expansion.
@@ -1304,6 +1414,8 @@ Related files: [research/SIGABA-SPARSE-OWNERSHIP-FINDINGS.md](../../research/SIG
 **CSP889-DOMAIN-016 — profiler-supported immutable domain keys**
 
 Exact run start/end unknown
+
+Type: synthetic solver benchmark. Outcome: Prefix advances but zero controllers complete; resource gate unresolved
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1317,6 +1429,8 @@ Related files: [research/SIGABA-DOMAIN-IDENTITY-FINDINGS.md](../../research/SIGA
 
 Exact run start/end unknown
 
+Type: synthetic solver benchmark. Outcome: Anchoring validated exactly; observed-domain memory stops full inference
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 Eight complete tiny original-key streams and 24 cache-policy correlated relations agree with physical/unanchored truth, including map-dependent inverse and final offsets. The unchanged separated-window real fixture now reaches observations 21–24 in 4.310 seconds, then hits the branch-memory envelope; zero controllers complete and totals remain unknown. A premature run after an inert mutation-test failure is quarantined and not counted as official coverage. The corrected full gate passed before official rerun. [Protocol](../../research/SIGABA-FIRST-OBSERVATION-SPEC.md), [findings](../../research/SIGABA-FIRST-OBSERVATION-FINDINGS.md), [chronology](../../results/ANCHOR-017-chronology.json). No K4, statistical pruning, filter panel or cap increase.
@@ -1328,6 +1442,8 @@ Related files: [research/SIGABA-FIRST-OBSERVATION-FINDINGS.md](../../research/SI
 **CSP889-COMPACT-018 — exact storage, local-only measured controller progress**
 
 Exact run start/end unknown
+
+Type: synthetic solver benchmark. Outcome: 12/14 controllers complete in fixed fixtures; full-domain totals unresolved
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1341,6 +1457,8 @@ Related files: [research/SIGABA-COMPRESSED-DOMAIN-FINDINGS.md](../../research/SI
 
 Exact run start/end unknown
 
+Type: synthetic filter diagnostic. Outcome: 20 supplied-anchor pairs: zero false negatives; not blind recovery/full coverage
+
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter rejections, 6 false-positive passes and 2 physical feasible pairs. All 1,321,160 reachable-map trials are actually audited, including rejects; zero false negatives. Both supplied plants regenerate the full synthetic ciphertext; fixture1 advances the 29-position unknown gap and passes its second block. The smaller fixture0 panel is preserved after its 16-candidate anchor cap. Counterfactual savings are panel-only, not a full-domain speedup. [Protocol](../../research/SIGABA-COLLECTOR-FILTER-SPEC.md), [findings](../../research/SIGABA-COLLECTOR-FILTER-FINDINGS.md), [summary](../../results/CSP889-FILTER-019.json). No new full-domain controller coverage, K4, cap expansion or publication retry.
@@ -1351,7 +1469,9 @@ Related files: [research/SIGABA-COLLECTOR-FILTER-FINDINGS.md](../../research/SIG
 
 **FOLD-SLIDE-020 — anchored progressive monument overlay**
 
-Exact run start/end unknown; original date statement: 2026-10-23 UTC. Exact run start/end were not recorded and are unknown; commit/publication times are distinct.
+Exact run start/end unknown; date-only record: 2026-10-23 (date statement; not a run timestamp); original date statement: 2026-10-23 UTC. Exact run start/end were not recorded and are unknown; commit/publication times are distinct.
+
+Type: inscription-layout comparison; null calibration. Outcome: 134 frames retained; no unusual excess under declared controls; optics uncalibrated
 
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
@@ -1360,7 +1480,7 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Protocol: [frozen progressive model](../../research/MONUMENT-SLIDE-OVERLAY-SPEC.md), [pre-score registration amendment](../../research/MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md).
 - Input: full canonical cipher/tableau rows and existing modeled font; MYVGT/AABCD anchor reproduced with no row shift.
 - Coverage: 134 frames across two registrations, −33…+33 inclusive; 130 active. Every frame retained.
-- Outcome: zero-shift primary 35/856 identical letters; ordinary full-scan label/area excess under 1,999 row shuffles and 1,999 movable-row rotations. Four-report adjusted p=1 for each endpoint/scheme.
+- Outcome: zero-shift primary 35/856 identical letters; no unusual full-scan label/area excess under 1,999 row shuffles and 1,999 movable-row rotations. Four-report adjusted p=1 for each endpoint/scheme.
 - Code: [native evaluator](../../experiments/monument_slide.py), [independent pixel oracle](../../experiments/monument_slide_oracle.mjs).
 - Receipt: [exact positions and masks](../../results/FOLD-SLIDE-020-actual.json); [findings and limitations](../../research/MONUMENT-FOLD-SLIDE-FINDINGS.md).
 - No measured optical calibration, plaintext extraction, Site change or new decoding candidate.

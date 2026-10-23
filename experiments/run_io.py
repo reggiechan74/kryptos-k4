@@ -39,12 +39,13 @@ class RunSnapshot:
     artifacts. latest.json immediately marks a new attempt running/incomplete so
     an earlier successful run cannot masquerade as the current attempt.
     """
-    def __init__(self, root, label, spec, run_id=None):
+    def __init__(self, root, label, spec, run_id=None, execution_kind="unspecified"):
+        if execution_kind not in ("original","replay","validation","unspecified"):raise ValueError("invalid execution kind")
         self.root=Path(root)
         self.run_id=run_id or datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'-'+uuid.uuid4().hex
         if not re.fullmatch(r'[A-Za-z0-9_-]+',self.run_id):raise ValueError('invalid run id')
         self.stage=self.root/('.'+self.run_id+'.pending');self.final=self.root/self.run_id
-        self.manifest={'run_id':self.run_id,'started_at_utc':datetime.now(timezone.utc).isoformat(),'label':label,'status':'running','specification':spec,'jobs':[],'artifacts':{}}
+        self.manifest={'run_id':self.run_id,'started_at_utc':datetime.now(timezone.utc).isoformat(),'label':label,'execution_kind':execution_kind,'status':'running','specification':spec,'jobs':[],'artifacts':{}}
         self.files=[]
         self.final_check=None
 
