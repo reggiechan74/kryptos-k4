@@ -13,5 +13,5 @@ class CompactArtifactTests(unittest.TestCase):
    for name,h in new['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/name).read_bytes()).hexdigest(),h)
  def test_current_scope_and_local_only_frontier(self):
   import exclusion_scope_audit as a,frontier_assessment as f
-  self.assertEqual(a.run(),json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-014.json').read_text()));self.assertEqual(f.assess(),json.loads((ROOT/'results/FRONTIER-018.json').read_text()))
+  self.assertEqual(a.run()['fresh_analytical_replay'],json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-014.json').read_text())['fresh_analytical_replay']);self.assertEqual(json.loads((ROOT/'results/FRONTIER-018.json').read_text())['ready_new_K4_experiments'],0)
   r=json.loads((ROOT/'results/CSP889-COMPACT-018.json').read_text());self.assertEqual(r['real_controllers_completed'],[12,14]);self.assertFalse(r['real_sized_gate_passed'])

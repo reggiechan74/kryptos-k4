@@ -1,0 +1,51 @@
+{
+  "id": "CSP889-FILTER-019-validation",
+  "protocol_commit": "aeeb894",
+  "controlled_implementation_commit": "d72221d",
+  "source_sha256": {
+    "experiments/run_sigaba_collector_filter.py": "459b473e07f0da031cc0c44febca77464c8eb65136a1cab88909eeeeca55c509",
+    "experiments/sigaba_collector_filter.py": "b182f9380415af312085f2e1d613eb633b0a5706fa3d85bfa8b65cab7c2336ad",
+    "research/EXPERIMENTS.md": "adb60e08cf022739236b92f464608023b4facb51ff10ddd389df5ac99cd2467b",
+    "research/HYPOTHESES.md": "6dbae01a54d51a6a85a54ec3660f4a26d10b1af96ad8a3e05ca4ce22539355dc",
+    "research/SIGABA-COLLECTOR-FILTER-FINDINGS.md": "61b625b549f9b912f899ed5fcec7d9e3e881685c1a3712bed8cd1806df701211",
+    "research/SIGABA-COLLECTOR-FILTER-SPEC.md": "4494409c594391d15ac88b23e0d64720682ae2e9decd5ba094e6055697a537ec",
+    "research/specifications/FRONTIER-2026-10-23.json": "ff77af9203e3620fec894852e36511613237ff1376244d9393601d34bc44279b",
+    "results/CSP889-FILTER-019.json": "36e149a81145c9ad4e14c6cf95081bc9182c1035b842c19f71eccd8923148b1b",
+    "results/EXCLUSION-SCOPE-AUDIT-015.json": "46ae3ebc0c34d0fee5c614ffd272e9dc5885edd6cf44383a059d380b15bd5e47",
+    "results/FRONTIER-019.json": "07d808f484c34afd7f7fe646c0d995826e1d2d09ecde6cb47fed2529c6908e98",
+    "results/HYPOTHESIS-REGISTER-019.json": "0e4e251692adf50874ad20d1ec1b6d8b2d89f7c06205e74c1c73a0553a921d45",
+    "results/sigaba-collector-filter/case-0.json": "f78ec8ae282b675bd12efdc8e2a68cdccb18eaefb2ba0971d96f38a50f590d9c",
+    "results/sigaba-collector-filter/case-1.json": "2943e408dc20b8685ab82f2c7a28d29f7a12f28e74867dacfcc60890c4e14598",
+    "tests/test_frontier_assessment.py": "7a8466ebe61026959029da4859566d9371f549abec015890d8aff6d189687fca",
+    "tests/test_sigaba_collector_artifacts.py": "4a80160236e3c4c92ea6360e67d49fc6b681191e9721de1a83f7095fb7be728b",
+    "tests/test_sigaba_collector_filter.py": "9ea44d26454a068aadfc2ca8113350da75d63e2a27c5267e9bd29e00a9d33f2d",
+    "tests/test_sigaba_compact_artifacts.py": "2391d2a664aeee9ea1093804f7747713c8637a7cd30ca8445bc5820c942ec958"
+  },
+  "regression": {
+    "3.9.6": {
+      "tests": 453,
+      "passed": true,
+      "sha256": "815307cb5dd7c09081620d44e8406c10bae5221b00e608175104bc7897b970f4"
+    },
+    "3.12.2": {
+      "tests": 453,
+      "passed": true,
+      "sha256": "288af5f014f00bdad084ba1a37ef8e7c63eac338710bb4cbf5878408cb747e23"
+    }
+  },
+  "complete_tiny_legal_path_enumeration": true,
+  "disconnected_path_and_global_intersection_mutations": true,
+  "filter_pass_insufficiency_control": true,
+  "panel_pairs": 20,
+  "filter_rejections": 12,
+  "false_positive_pairs": 6,
+  "false_negatives": 0,
+  "exact_reachable_map_trials": 1321160,
+  "supplied_plant_gap_and_full_regeneration_verified": true,
+  "full_domain_controller_coverage_added": 0,
+  "real_sized_gate_passed": false,
+  "K4_evaluations": 0,
+  "publication": "Local only pending renewed explicit authorization; no publication retry or alternate transport",
+  "site_changed": false,
+  "unrelated_untracked_files_preserved": 210
+}

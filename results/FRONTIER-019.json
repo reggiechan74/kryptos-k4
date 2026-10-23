@@ -1,0 +1,1093 @@
+{
+  "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
+  "decision": "No new evidence-grounded K4 experiment is currently ready under the available inputs, implemented algorithms and access limits.",
+  "reviewed_main_commit": "f86889d99e09d22c193275da1ba146a7f46a1849",
+  "manual_judgment_not_algorithmic_exhaustiveness": true,
+  "puzzle_solved": false,
+  "registered_entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "entries": [
+    {
+      "id": "H-COMPASS-REVERSE",
+      "status": "evidence-blocked",
+      "mechanism": "ENE may denote the direction of travel while the observed object faces WSW, or conversely.",
+      "review_gates": [
+        "F-PHYSICAL"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Deep review complete; fixed origin, target, true-north registration and interpretation remain missing.",
+      "next_discriminating_test": "Check bearing reciprocity and explicit facing/travel conventions using source-identified objects before any letter extraction.",
+      "unexcluded_scope": "An independently anchored reverse-bearing extraction.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-COMPASS-FRAMES",
+      "status": "evidence-blocked",
+      "mechanism": "Treat engraved north, a physical needle, local lodestone attraction and true north as distinct coordinate frames.",
+      "review_gates": [
+        "F-PHYSICAL"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Surveyed frame orientations, instrument placement and local magnetic perturbation measurements remain missing. The historical regional IGRF declination is already documented and is not a lodestone measurement.",
+      "next_discriminating_test": "Build a source-tagged frame diagram and only test a transformation fixed by independent measurements.",
+      "unexcluded_scope": "Any measured conversion between the four frames.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-CARVED-ROW-REFLECTION",
+      "status": "narrow negative",
+      "mechanism": "Reverse letters within the actual four carved K4 rows, then combine with one periodic arithmetic layer in either order.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "None for the completed finite test. Further physical claims still need independent orientation/geometry evidence.",
+      "next_discriminating_test": "Stop this finite domain; require independent evidence and a new non-equivalent preregistration before another route or period.",
+      "unexcluded_scope": "Different source layouts, glyph transformations or cipher layers; the physical view interpretation is not measured by this result.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-GLYPH-VIEW",
+      "status": "evidence-blocked",
+      "mechanism": "Viewing the rear can mirror glyph outlines independently of reversing the order in which positions are read.",
+      "review_gates": [
+        "F-PHYSICAL"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Source-supported viewpoint, text face, aperture contours and distinction between reflection and order reversal.",
+      "next_discriminating_test": "Verify a fixed known K1\u2013K3 photograph with an explicitly declared mirror/order operation before applying a K4 transformation.",
+      "unexcluded_scope": "A photographed, face-specific physical reading convention.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-OPTICAL",
+      "status": "evidence-blocked",
+      "mechanism": "Physical apertures, illumination, reflection or receiving surfaces select or transform letter information.",
+      "review_gates": [
+        "F-PHYSICAL"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Four-sheet surfaces/seams, aperture contours, true heading, receiver geometry, obstacles, water/window normals and independently timed camera calibration.",
+      "next_discriminating_test": "Fit non-K4 physical features in one photograph and predict withheld features/view; fail the calibration gate before selecting projected letters if residuals are unacceptable.",
+      "unexcluded_scope": "A surveyed, aperture-aware optical decoder validated against independent photographs.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-SHADOW-TIME",
+      "status": "evidence-blocked",
+      "mechanism": "A source-fixed shadow direction or observation time supplies a key or reading instruction.",
+      "review_gates": [
+        "F-PHYSICAL"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Surveyed heading/geometry, dated independent observation, receiver and unique extraction rule.",
+      "next_discriminating_test": "Validate a known-time photograph on non-K4 features with withheld geometry, then assess the fixed extraction.",
+      "unexcluded_scope": "A calibrated shadow-to-symbol pipeline.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-CELESTIAL-ALTITUDE",
+      "status": "evidence-blocked",
+      "mechanism": "An independently dated celestial observation supplies altitude/time material rather than a fitted astronomical coincidence.",
+      "review_gates": [
+        "F-PHYSICAL"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Authenticated object/date/time/site/horizon and a justified encoding; approximate conjunction interpolation is not an observation.",
+      "next_discriminating_test": "Reproduce only an independently specified observation and test withheld event data before cipher fitting.",
+      "unexcluded_scope": "An independent observation-to-key model, including reflected or shadow paths.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-CLOCK-HISTORICAL",
+      "status": "evidence-blocked",
+      "mechanism": "Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping.",
+      "review_gates": [
+        "F-HISTORICAL-CLOCK"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Global segment registration, 1989 labels/time zones and an A\u2013Z bridge; hour numerals are not fixed sector IDs.",
+      "next_discriminating_test": "Recover one historical mapping from independent images and withhold a second; stop if registration remains non-identifiable.",
+      "unexcluded_scope": "A registered 1989 inventory and justified mapping into letters or key material.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-LAMP-MENGENLEHRE",
+      "status": "analytical exclusion",
+      "mechanism": "Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns.",
+      "review_gates": [
+        "F-ENCODING-AND-TREE"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "No missing input for the exact exclusion; a historical creator link and independently motivated new operator remain absent.",
+      "next_discriminating_test": "Stop the frozen family; no bit-order, color, Greek weight or sampling retune after failure. Seek independent mechanism evidence before proposing another lamp cipher.",
+      "unexcluded_scope": "Other lamp-state encodings or progression, lamp/Greek labels and complete clock-based cipher constructions remain outside this exact proof.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-GREEK-PHONETIC",
+      "status": "narrow negative",
+      "mechanism": "English speech is rendered approximately using Greek graphemes, then encrypted; speech sounds are not English or Greek letter names.",
+      "review_gates": [
+        "F-ENCODING-AND-TREE"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "None for the completed necessary-condition pilot. Historical notation/source choice and a full invertible English preprocessing layer remain unestablished.",
+      "next_discriminating_test": "Stop this frozen mapping/layer domain; require independent source motivation before another transcription or cipher layer, not an adaptive dialect/offset rescue.",
+      "unexcluded_scope": "Other Greek renderings, phonetic models, outer ciphers or global alignment mechanisms; no universal English-to-Greek encoder or spelling inverse.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-LAMP-GREEK",
+      "status": "untested",
+      "mechanism": "A declared ordering of 24 lamp fields might index Greek symbols or generate key material.",
+      "review_gates": [
+        "F-ENCODING-AND-TREE"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Why these 24 positions have that ordering; full Greek alphabet and transliteration/framing; time progression and role of state.",
+      "next_discriminating_test": "First establish an injective framed bridge or explicit key-generator output; reject a count-only correspondence as an unspecified model.",
+      "unexcluded_scope": "Any reversible lamp/Greek/A\u2013Z construction.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-TREE-STATEFUL",
+      "status": "narrow negative",
+      "mechanism": "Letters or geometry fragments walk a tree and update cipher state carried between letters.",
+      "review_gates": [
+        "F-ENCODING-AND-TREE"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "A distinct fixed tree/update/inverse and evidence beyond the failed pilot; arbitrary fitted labels would overfit.",
+      "next_discriminating_test": "Before another K4 test, freeze one demonstrably non-equivalent reversible rule; validate unique decoding and literal-crib plants through the complete selector.",
+      "unexcluded_scope": "Other independently generated trees, state transitions, framing or seed domains.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-SIGABA-INSPIRED",
+      "status": "narrow negative",
+      "mechanism": "Five custom cipher rotors are irregularly stepped by separate control and static index banks, with a fully reversible alphabet path.",
+      "review_gates": [
+        "F-JOINT-SIGABA"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "None for the completed custom pilot; historical-machine inputs remain tracked separately under H-SIGABA.",
+      "next_discriminating_test": "Stop this finite family. A materially different historical model needs its own authenticated vector and preregistration, not fitted wiring after failure.",
+      "unexcluded_scope": "Broader authentic-machine domains are tracked under H-SIGABA, whose historical-mechanism implementation and finite full-cipher-start audit are completed; other wirings/collectors, wheel order/orientation and unrestricted controller settings remain outside the custom pilot.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-SIGABA",
+      "status": "narrow negative",
+      "mechanism": "Authentic CSP-889 three-bank irregular stepping with the published simulator wiring set.",
+      "review_gates": [
+        "F-JOINT-SIGABA"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "A tractable representation and complete real-sized scaling/full-set validation for the coupled adapter, or independently motivated key restrictions; published simulator wirings do not establish unknown historical secret wirings.",
+      "next_discriminating_test": "Exact anchoring/packing and a supplied-panel collector filter are validated, but only the 12/14 prior full-domain controllers are complete. Define an unknown-anchor, connected-path integration and resource gate before applying the necessary filter at scale; retain exact reachable-map verification and do not import statistical ranking or panel savings as global performance. Another arbitrary key slice does not close the inference gap.",
+      "unexcluded_scope": "[Real-sized joint inference remains unvalidated/resource-unresolved](SIGABA-JOINT-TOY-FINDINGS.md); the authentic five-index/26-symbol adapter is implemented and reference-checked, but both frozen real-sized synthetic resource runs fail before completing a controller; no complete real-sized inference or full-set validation is established; All other wheel orders/orientations, unrestricted independent control/index starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-WHEATSTONE",
+      "status": "analytical exclusion",
+      "mechanism": "Fixed 27/26 geared rings with displacement determined by the adjacent processed plaintext pair; both ring alphabets and starting phases may be arbitrary.",
+      "review_gates": [
+        "F-HISTORICAL-MACHINES"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "A complete independently sourced materially different historical procedure and external vectors before testing such variants.",
+      "next_discriminating_test": "Stop the aligned fixed-ring domain; pursue exact original operating conventions only if they establish a distinct mechanism rather than duplicate alphabets/directions.",
+      "unexcluded_scope": "State-dependent/hidden extra moves, changing rings, outer layers and preprocessing that changes the processed-text anchors; no universal Wheatstone/Plett/Wadsworth exclusion.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-M94-CYCLIC",
+      "status": "analytical exclusion",
+      "mechanism": "A cyclic permutation alphabet per disc, one shared row displacement within each 25-letter block.",
+      "review_gates": [
+        "F-HISTORICAL-MACHINES"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Independently validated inventory is needed for other table-specific models, not for this invariant.",
+      "next_discriminating_test": "Resolve original source/table provenance before a materially different sourced strip model; do not repair alphabets to fit K4.",
+      "unexcluded_scope": "Outer substitutions/routes, different framing, per-letter row choices and other device variants; no blanket strip-cipher exclusion.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-M138A",
+      "status": "evidence-blocked",
+      "mechanism": "Historical strip selection/alignment produces a row-dependent alphabet.",
+      "review_gates": [
+        "F-HISTORICAL-MACHINES"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Original versioned strip inventory and operating-source access; public maritime manual retrieval returned HTTP403. The defective museum M-94 transcription is neither this inventory nor a replacement.",
+      "next_discriminating_test": "Validate a published example and identifiability under the fixed strips before any bounded K4 key domain.",
+      "unexcluded_scope": "A specific authentic strip inventory, ordering and readable-row rule.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-FEISTEL-2ROUND",
+      "status": "analytical exclusion",
+      "mechanism": "Two shared arbitrary round functions in X=L+F(R), Y=R+G(X), with input/output swaps around the pair map.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A materially distinct independently justified mechanism, not another completion of already excluded functions.",
+      "next_discriminating_test": "Use a source-grounded restrictive construction with a non-fit prediction; do not add a round automatically.",
+      "unexcluded_scope": "Other alphabets, state-dependent functions, extra rounds and framing; no general nonlinear-block exclusion.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-FEISTEL-3ROUND",
+      "status": "non-identifiable",
+      "mechanism": "A=L+F(R), X=R+G(A), Y=A+H(X), shared arbitrary functions.",
+      "review_gates": [
+        "F-IDENTIFIABILITY"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Independently justified restrictions or non-fit observations capable of distinguishing the large compatible family.",
+      "next_discriminating_test": "Prioritize a different constrained mechanism; additional arbitrary rounds would increase ambiguity.",
+      "unexcluded_scope": "Other frames, function restrictions and additional evidence outside the known cribs; no fourth-round sweep.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-NONLINEAR-BLOCK",
+      "status": "non-identifiable",
+      "mechanism": "A fixed nonlinear block transformation couples several plaintext letters.",
+      "review_gates": [
+        "F-IDENTIFIABILITY"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Block size/origin, invertible operation, key budget and source-based rationale.",
+      "next_discriminating_test": "Freeze one small reversible block operator; prove inverse and compare complete compatible-key sets on planted and matched incompatible cases.",
+      "unexcluded_scope": "Other three-round frames/swaps, independently restricted round functions, larger/different block constructions and changing/stateful functions; no automatic extra round.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-BOOK-CODEBOOK",
+      "status": "evidence-blocked",
+      "mechanism": "An independently identified edition/page/codebook supplies symbols or running-key material.",
+      "review_gates": [
+        "F-BOOK-CODEBOOK"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Independent evidence selecting edition, pagination, extraction and invertible framing; no source selected for crib fit.",
+      "next_discriminating_test": "Resolve one externally supported source and reproduce a known encoding example before freezing a tiny extraction domain.",
+      "unexcluded_scope": "A provenance-fixed external text or numbered codebook.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-OTP",
+      "status": "non-identifiable",
+      "mechanism": "An unrestricted independent pad can explain any chosen plaintext of the same length.",
+      "review_gates": [
+        "F-IDENTIFIABILITY"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Independent key or sharply constrained generator/source.",
+      "next_discriminating_test": "Prove the new restriction produces non-fit predictions before allocating search; an unrestricted pad is not a falsifiable K4 task.",
+      "unexcluded_scope": "Any independently restricted pad-generation mechanism.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-PERM",
+      "status": "analytical exclusion",
+      "mechanism": "Pure permutation preserves the letter multiset.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-PERIOD",
+      "status": "analytical exclusion",
+      "mechanism": "One fixed injective substitution per repeating phase.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-LANGUAGE",
+      "status": "narrow negative",
+      "mechanism": "Change language/script representation before encryption.",
+      "review_gates": [
+        "F-ENCODING-AND-TREE"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Shavian transport, sourced translation and other explicit reversible codecs.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-ROUTE",
+      "status": "narrow negative",
+      "mechanism": "One enumerated route plus periodic arithmetic.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-RUNKEY",
+      "status": "narrow negative",
+      "mechanism": "Use literal nearby solved text as a nonwrapping running key.",
+      "review_gates": [
+        "F-BOOK-CODEBOOK"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-TRIFID",
+      "status": "narrow negative",
+      "mechanism": "Apply one of the fixed Trifid cubes/directions.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-LAG",
+      "status": "non-identifiable",
+      "mechanism": "Use repeated lag patterns to diagnose an architecture.",
+      "review_gates": [
+        "F-DIAGNOSTICS"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Independent corpora, matched nulls and an abstaining decision rule.",
+      "next_discriminating_test": "Require discrimination on blinded generated cases and open-world controls before classifying K4.",
+      "unexcluded_scope": "A preregistered diagnostic that separates compatible architectures.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-MASK-AUTO",
+      "status": "narrow negative",
+      "mechanism": "Fixed-primer same-alphabet autokey.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-MASK-FM",
+      "status": "analytical exclusion",
+      "mechanism": "Standard Morse with x/xx separators, fixed trigrams and an arbitrary shared cipher-letter/trigram permutation.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A source-grounded materially different mechanism; no independently justified rescue of the fixed model exists.",
+      "next_discriminating_test": "Stop this domain; require an independently specified different procedure with non-fit predictions.",
+      "unexcluded_scope": "Nonstandard Morse, digits/punctuation, different separators/framing, state-dependent codes, routes and outer layers; not a general Morse rejection.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-WORD-SCRAMBLE",
+      "status": "narrow negative",
+      "mechanism": "Permute internal word letters while retaining endpoints before a cipher.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-PHONETIC-RESPELLING",
+      "status": "narrow negative",
+      "mechanism": "Stylized phonetic respelling precedes encryption.",
+      "review_gates": [
+        "F-ENCODING-AND-TREE"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Exact rules, inverse/ambiguity treatment and global index alignment.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "TH/I and broader lossy or length-changing rewrites.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-GERMAN-TRANSLATION",
+      "status": "evidence-blocked",
+      "mechanism": "Use one source-fixed German rendering before encryption.",
+      "review_gates": [
+        "F-ENCODING-AND-TREE"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Exact rendering, word order, inverse and index alignment; Berlin alone does not establish German.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "A specified translation layer, distinct from German-normalized names or pronunciation.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-GEO-ENE",
+      "status": "evidence-blocked",
+      "mechanism": "A geographic ENE relation supplies an instruction.",
+      "review_gates": [
+        "F-PHYSICAL"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Independent origin/endpoint/rule, historic geometry and source rationale.",
+      "next_discriminating_test": "Use the completed source report and an independent extraction rule; do not repeat axis counts or select a landmark from the scored map.",
+      "unexcluded_scope": "Independent historic footprints and a unique geographic-to-key extraction.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-ENIGMA-DIRECT",
+      "status": "analytical exclusion",
+      "mechanism": "Direct aligned standard reflector Enigma.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Layered Enigma and machines without that property.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-NEPTUNE",
+      "status": "evidence-blocked",
+      "mechanism": "Neptune/fountain/discovery context identifies an external instruction.",
+      "review_gates": [
+        "F-PHYSICAL"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Independent linkage, origin and decoding rule.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "A source-supported connection to Kryptos.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-CLOCK-FACE",
+      "status": "evidence-blocked",
+      "mechanism": "A dated historical city panel/face supplies an instruction.",
+      "review_gates": [
+        "F-HISTORICAL-CLOCK"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Complete epoch-specific inventory and north registration.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Historical sector selection and letter mapping.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-CLOCK-RESET",
+      "status": "analytical exclusion",
+      "mechanism": "Restart the same positionwise bijection at both known block starts.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Different shared-rule state models, not arbitrary independent block keys.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-EGYPTIAN-SIGN-LIST",
+      "status": "evidence-blocked",
+      "mechanism": "An Egyptian sign system represents text or key material.",
+      "review_gates": [
+        "F-ENCODING-AND-TREE"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Edition/sign choices, vowels/determinatives, direction, inverse and historical link.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "A specific sourced sign inventory and framing.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-KRYPTOS-FINGERPRINT",
+      "status": "non-identifiable",
+      "mechanism": "Selected small-alphabet distances describe crib structure.",
+      "review_gates": [
+        "F-DIAGNOSTICS"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Independent predictive evidence; current extrapolation is unsupported.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "A genuinely predeclared discriminating statistic.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-AUTOKEY-EXACT",
+      "status": "non-identifiable",
+      "mechanism": "Direct same-alphabet feedback with arbitrary independent primer.",
+      "review_gates": [
+        "F-IDENTIFIABILITY"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Cross-alphabet roles outside H-ASYMMETRIC-FEEDBACK's six fixed-primer and 72 arbitrary-primer configurations, or new independently constrained generators.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-GROMARK-ONE",
+      "status": "non-identifiable",
+      "mechanism": "One fixed published mod-16 lag-5/6 tuple with unknown alphabets.",
+      "review_gates": [
+        "F-IDENTIFIABILITY"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Source-based alphabet/key restriction; compatible completions are not recovered plaintext.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Independent restrictions selecting historical alphabets.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-SILK-PERIODIC",
+      "status": "analytical exclusion",
+      "mechanism": "Repeat a direct key from one photographed silk chart.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Nonperiodic keys, other charts and added layers.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-ASYMMETRIC-FEEDBACK",
+      "status": "narrow negative",
+      "mechanism": "Use distinct fixed AZ/KRYPTOS alphabet roles in feedback.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-CIPHERTEXT-EXTRA-STEP",
+      "status": "narrow negative",
+      "mechanism": "Advance a fixed periodic key according to ciphertext classes.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-PLAINTEXT-EXTRA-STEP",
+      "status": "narrow negative",
+      "mechanism": "Advance by one or two according to plaintext vowel/consonant membership.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-AFFINE-DIGRAPH",
+      "status": "analytical exclusion",
+      "mechanism": "One fixed 2\u00d72 affine map acts on adjacent pairs.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Alphabet roles outside the two frozen AZ/KRYPTOS choices, other block grammars and nonlinear maps; the four crossed roles are already tested.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-SPLIT-COORDINATE-ROUTES",
+      "status": "narrow negative",
+      "mechanism": "Permute two coordinate streams separately.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-K3-COMPOSITE-PERIODIC",
+      "status": "narrow negative",
+      "mechanism": "K3-verified U14 after U42 combined with periodic substitution.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-K3-SANDWICH",
+      "status": "narrow negative",
+      "mechanism": "Periodic substitution on both sides of the K3-derived route.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-CLOCK-24-ROUTE",
+      "status": "narrow negative",
+      "mechanism": "World Clock-inspired ragged 24-column routes plus periodic substitution.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-OCCUPIED-CELL-FIXED",
+      "status": "narrow negative",
+      "mechanism": "Use the actual carved K4 occupied-cell mask with fixed phased keys.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Broader mechanisms outside the exact report domain.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-LETTER-GEOMETRY",
+      "status": "narrow negative",
+      "mechanism": "Represent idealized glyph geometry with unique feature arrays/codes.",
+      "review_gates": [
+        "F-ENCODING-AND-TREE"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Other glyph conventions or operations; uniqueness of representation is not cipher evidence.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-IPA-DICTIONARY",
+      "status": "narrow negative",
+      "mechanism": "Use source-fixed dictionary IPA windows before encryption.",
+      "review_gates": [
+        "F-ENCODING-AND-TREE"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Other explicit pronunciation/outer-cipher constructions; global alignment remains conditional.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-BOUNDARY-STATE",
+      "status": "narrow negative",
+      "mechanism": "One internal boundary resets to the same shared seed/state.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Different justified state rules, not an automatic extra reset.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-AUTONOMOUS-RECURRENCE",
+      "status": "analytical exclusion",
+      "mechanism": "A fixed homogeneous/affine multi-lag modular key generator.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Nonlinear or other independently specified generators.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-RADIX-FEEDBACK",
+      "status": "analytical exclusion",
+      "mechanism": "Changing-base geometric codes enter a fixed affine key recurrence.",
+      "review_gates": [],
+      "assessment": "completed_scoped_domain_requires_new_independent_specification",
+      "missing_inputs": "A new, independently justified finite specification outside completed coverage.",
+      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "unexcluded_scope": "Nonlinear updates or different source representations; no arbitrary root search.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-ONE-EDIT",
+      "status": "specified but not run",
+      "mechanism": "A bounded construction-error sensitivity arm.",
+      "review_gates": [
+        "F-CONSTRUCTION-ERROR"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "A separate exact index-map/model budget freeze and independent motivation for an observed K4 discrepancy.",
+      "next_discriminating_test": "Retain the already replayed K2 restoration controls; require an independent K4 discrepancy and exact edit/index-map/model budget before any sensitivity sweep. Do not repair K4 post hoc.",
+      "unexcluded_scope": "Proposed 5,071 raw single-edit variants including baseline.",
+      "ready_for_new_K4_evaluation": false
+    },
+    {
+      "id": "H-ARCHITECTURE-DIAGNOSIS",
+      "status": "non-identifiable",
+      "mechanism": "Classify architecture from fixed short-text features.",
+      "review_gates": [
+        "F-DIAGNOSTICS"
+      ],
+      "assessment": "specific_gate",
+      "missing_inputs": "Independent authors/corpora and a decision needing this diagnostic.",
+      "next_discriminating_test": "Require an unknown-class rejection test before treating any K4 label as evidence.",
+      "unexcluded_scope": "Open-world abstention/transfer calibration.",
+      "ready_for_new_K4_evaluation": false
+    }
+  ],
+  "frontier_gates": [
+    {
+      "id": "F-JOINT-SIGABA",
+      "hypotheses": [
+        "H-SIGABA",
+        "H-SIGABA-INSPIRED"
+      ],
+      "blocker_type": "algorithm_and_resource",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Complete all-controller inference and independent real-sized compatible-set validation. Exact packing removes the prior memory stop on the two fixed resource runs, but only 12/14 original controllers complete before the wall cap; all remaining keys are unresolved.",
+      "available": [
+        "research/SIGABA-JOINT-FEASIBILITY-SPEC.md",
+        "research/JOINT-STATE-NONROTOR-FINDINGS.md",
+        "results/SIGABA-JOINT-FEASIBILITY-003.json",
+        "tests/test_joint_nonrotor.py",
+        "tests/test_sigaba_full_state.py",
+        "research/SIGABA-JOINT-TOY-SPEC.md",
+        "research/SIGABA-JOINT-TOY-FINDINGS.md",
+        "results/SIGABA-JOINT-TOY-012.json",
+        "tests/test_sigaba_joint_toy.py",
+        "research/SIGABA-TORUS-SPEC.md",
+        "research/SIGABA-TORUS-FINDINGS.md",
+        "results/SIGABA-TORUS-013.json",
+        "tests/test_sigaba_torus.py",
+        "research/SIGABA-REAL-ADAPTER-SPEC.md",
+        "research/SIGABA-REAL-ADAPTER-FINDINGS.md",
+        "results/sigaba-real-adapter/case-0.json",
+        "results/sigaba-real-adapter/case-1.json",
+        "tests/test_sigaba_real_adapter.py",
+        "research/SIGABA-SPARSE-OWNERSHIP-SPEC.md",
+        "research/SIGABA-SPARSE-OWNERSHIP-FINDINGS.md",
+        "results/CSP889-SPARSE-015.json",
+        "tests/test_sigaba_sparse_ownership.py",
+        "research/SIGABA-DOMAIN-IDENTITY-SPEC.md",
+        "research/SIGABA-DOMAIN-IDENTITY-FINDINGS.md",
+        "results/CSP889-DOMAIN-016.json",
+        "tests/test_sigaba_domain_identity.py",
+        "research/SIGABA-FIRST-OBSERVATION-SPEC.md",
+        "research/SIGABA-FIRST-OBSERVATION-FINDINGS.md",
+        "research/SIGABA-LITERATURE-AND-FILTER-REVIEW.md",
+        "results/CSP889-ANCHOR-017.json",
+        "tests/test_sigaba_first_observation.py",
+        "research/SIGABA-COMPRESSED-DOMAIN-SPEC.md",
+        "research/SIGABA-COMPRESSED-DOMAIN-FINDINGS.md",
+        "results/CSP889-COMPACT-018.json",
+        "tests/test_sigaba_compressed_ownership.py",
+        "research/SIGABA-COLLECTOR-FILTER-SPEC.md",
+        "research/SIGABA-COLLECTOR-FILTER-FINDINGS.md",
+        "results/CSP889-FILTER-019.json",
+        "tests/test_sigaba_collector_filter.py"
+      ],
+      "next_deliverable": "A separately frozen unknown-anchor connected cipher-DAG/collector-filter integration with exact physical reachability, complete tiny key sets and unchanged real-sized admission limits. Supplied-panel selectivity is not an all-controller complexity or success estimate.",
+      "go_no_go": "The supplied-panel diagnostic rejects 12/20 pairs without false negatives but has 6 nonphysical passes; no unknown-anchor/full-domain coverage is added. Prior full gate remains incomplete at 12/14 native controllers. No actual K4 is ready.",
+      "safe_replay_argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_sigaba_joint_toy.py"
+      ],
+      "replay_scope": "Complete synthetic coupled tiny-system comparisons and correlation/cache/budget controls; does not run the long scaling batch, implement authentic real-sized inference or evaluate K4."
+    },
+    {
+      "id": "F-PHYSICAL",
+      "hypotheses": [
+        "H-COMPASS-REVERSE",
+        "H-COMPASS-FRAMES",
+        "H-GLYPH-VIEW",
+        "H-OPTICAL",
+        "H-SHADOW-TIME",
+        "H-CELESTIAL-ALTITUDE",
+        "H-GEO-ENE",
+        "H-NEPTUNE"
+      ],
+      "blocker_type": "independent_measurements_and_mapping",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Surveyed frames/surfaces/apertures/receivers and uncertainty; an independently fixed observation or artificial-light geometry and symbol extraction. Static needle, engraved N, true north and regional magnetic field are different quantities.",
+      "available": [
+        "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
+        "docs/scott-sun-geometry-audit-2026-10-22.md",
+        "results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json",
+        "research/evidence/2026-10-23-lodestone-compass/DECLINATION-ADDENDUM.md"
+      ],
+      "next_deliverable": "Source-tagged original-resolution overlapping views or measurements with pixel picks, metric control points, camera assumptions and uncertainty; fit non-K4 features and withhold a separate view/features before any optical decoding.",
+      "go_no_go": "Stop before letter extraction if camera/shape/frame calibration is underidentified. Quantitative residual tolerances must derive from input uncertainty and be frozen before fitting; no invented tolerance, date, bearing or receiver.",
+      "safe_replay_argv": null,
+      "replay_scope": "No numerical physical experiment is runnable from the missing measurements; do not requery the exhausted 252-image public archival branch."
+    },
+    {
+      "id": "F-HISTORICAL-CLOCK",
+      "hypotheses": [
+        "H-CLOCK-HISTORICAL",
+        "H-CLOCK-FACE"
+      ],
+      "blocker_type": "historic_inventory_registration_and_encoder",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Complete sufficiently legible 1989 panel/city/time-zone inventory, registration of disconnected segments and a justified letter/key bridge.",
+      "available": [
+        "independent/2026-10-22/historical-clock/historical_clock_report.txt",
+        "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md"
+      ],
+      "next_deliverable": "Recover a source-tagged historical city/time mapping with one shared ring phase; predict a separate dated view or mapping before applying a frozen symbol encoder.",
+      "go_no_go": "No 1989 labels inferred from current panels, no rotating numerals treated as fixed sector IDs, and no fitted per-character phases. A successful coordinate roundtrip without an alphabet encoder is not a K4 trial.",
+      "safe_replay_argv": null,
+      "replay_scope": "Existing 41 labels, 10 panels and three disconnected dated segments remain insufficient."
+    },
+    {
+      "id": "F-HISTORICAL-MACHINES",
+      "hypotheses": [
+        "H-WHEATSTONE",
+        "H-M94-CYCLIC",
+        "H-M138A"
+      ],
+      "blocker_type": "source_complete_distinct_procedure_or_inventory",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "For a new strip model: an authentic versioned valid inventory and operating vector. For a new Wheatstone/Plett model: a sourced operation outside the fixed-transition invariant, or a justified processed-index map.",
+      "available": [
+        "research/WHEATSTONE-TRANSITION-FINDINGS.md",
+        "sources/wheatstone-historical-conventions-2026-10-23.json",
+        "data/m94-source-quality.json",
+        "research/JOINT-STATE-NONROTOR-FINDINGS.md"
+      ],
+      "next_deliverable": "Authenticate the exact variant and independent worked vector before specifying a bounded key domain; demonstrate why it is not already covered by a key-independent invariant.",
+      "go_no_go": "Do not repair the two defective M-94 rows by guessing. A corrected inventory would not rescue the already excluded common-row model. Obtaining the 1879 chapter alone does not remove Wheatstone's fixed-transition contradiction. Do not reopen denied sources or switch transport.",
+      "safe_replay_argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_wheatstone_transition.py"
+      ],
+      "replay_scope": "Existing modern worked vectors and conditional fixed-ring proof, not an authentic full Plett or M-138-A search."
+    },
+    {
+      "id": "F-ENCODING-AND-TREE",
+      "hypotheses": [
+        "H-LAMP-GREEK",
+        "H-LAMP-MENGENLEHRE",
+        "H-GREEK-PHONETIC",
+        "H-LANGUAGE",
+        "H-PHONETIC-RESPELLING",
+        "H-GERMAN-TRANSLATION",
+        "H-EGYPTIAN-SIGN-LIST",
+        "H-IPA-DICTIONARY",
+        "H-LETTER-GEOMETRY",
+        "H-TREE-STATEFUL"
+      ],
+      "blocker_type": "source_grounded_model_definition_and_alignment",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "An independently justified ordered inventory, normalization, framing, reversible inverse or explicit ambiguity relation, state progression and global map from final-English indices to processed symbols.",
+      "available": [
+        "research/TREE-STATE-SUPPORT-SPEC.md",
+        "research/FEISTEL-TREE-EXTENSION-FINDINGS.md",
+        "research/IPA-CODECS-INTEGRATION.md",
+        "research/GREEK-SIGABA-CANDIDATE-FINDINGS.md",
+        "research/CONDITIONAL-FACE-LAMP-FINDINGS.md"
+      ],
+      "next_deliverable": "Source a complete alternative codec or demonstrably distinct fixed tree/update/inverse, then validate unrelated messages and literal-crib alignment through the entire prefix/gap. Lamp count 24, Greek size 24 or unique glyph codes are not such an algorithm.",
+      "go_no_go": "Reject undefined ordering/framing or non-unique spelling recovery as a specification gap; preserve ambiguity rather than silently choosing aliases or intermediate offsets. No new dialects, glyph orders or tree rules solely to rescue a negative.",
+      "safe_replay_argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_feistel_tree_extensions.py"
+      ],
+      "replay_scope": "Existing fixed-tree arbitrary-start-state proof and Feistel ambiguity controls; does not test other trees or codecs."
+    },
+    {
+      "id": "F-IDENTIFIABILITY",
+      "hypotheses": [
+        "H-FEISTEL-3ROUND",
+        "H-NONLINEAR-BLOCK",
+        "H-GROMARK-ONE",
+        "H-AUTOKEY-EXACT",
+        "H-OTP"
+      ],
+      "blocker_type": "independent_restriction_or_validation",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Independent restrictions selecting round functions, alphabets, generator/primer or pad; alternatively a genuinely new verified plaintext observation that was not fitted.",
+      "available": [
+        "research/FEISTEL-TREE-EXTENSION-FINDINGS.md",
+        "research/GROMARK-IDENTIFIABILITY-FINDINGS.md",
+        "research/AUTOKEY-CONSTRAINT-FINDINGS.md"
+      ],
+      "next_deliverable": "Charge all model/key choices, preserve gauges, count compatible solutions and identify non-fit predictions before scoring a fresh external observation.",
+      "go_no_go": "No attractive English completion from known cribs. Two full different plaintext witnesses already establish ambiguity in the three-round cases; raw parameter volume is not plaintext-class count or posterior probability. More arbitrary rounds are not the missing information.",
+      "safe_replay_argv": [
+        "node",
+        "experiments/feistel_three_oracle.mjs"
+      ],
+      "replay_scope": "Eight existing training/all-crib exact counts and small controls; not new cipher variants or held-out evidence."
+    },
+    {
+      "id": "F-BOOK-CODEBOOK",
+      "hypotheses": [
+        "H-BOOK-CODEBOOK",
+        "H-RUNKEY"
+      ],
+      "blocker_type": "independently_selected_text_and_extraction",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "An independently supported edition, pagination, extraction and invertible framing; a source cannot be chosen because its key fits the cribs.",
+      "available": [
+        "research/UNRUN-GAPS-2026-10-23.md",
+        "research/BOUNDED-FINDINGS.md"
+      ],
+      "next_deliverable": "Authenticate one source and reproduce a published encoding example before freezing a small extraction/key domain.",
+      "go_no_go": "No mass book corpus, guessed offsets or independent per-letter book choices. The 28,488 negative literal running-key cases do not exclude an independently grounded book cipher.",
+      "safe_replay_argv": null,
+      "replay_scope": "No justified external text or decoder is currently admitted."
+    },
+    {
+      "id": "F-CONSTRUCTION-ERROR",
+      "hypotheses": [
+        "H-ONE-EDIT"
+      ],
+      "blocker_type": "independent_discrepancy_and_exact_index_map",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "An observed K4 discrepancy and a separately frozen edit/index-map/model budget. The proposed 5,071 alternatives are not yet a completed K4 experiment.",
+      "available": [
+        "independent/2026-10-22/construction/REPORT.md",
+        "independent/2026-10-22/construction/test_audit_construction.py",
+        "research/STRATEGY-FOLLOWUP-FINDINGS.md"
+      ],
+      "next_deliverable": "Preserve documented K2 restoration controls and identify an independent K4 textual discrepancy before applying any error arm. Separate intended text, worksheet, fabrication and observation stages.",
+      "go_no_go": "Cyrillic Projector restart/phase-jump equivalence does not identify omitted engraving. Never alter canonical K4 or silently move anchors to repair a rejected model.",
+      "safe_replay_argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "independent/2026-10-22/construction",
+        "-p",
+        "test_audit_construction.py"
+      ],
+      "replay_scope": "Existing offline construction controls, not the proposed K4 edit sweep."
+    },
+    {
+      "id": "F-DIAGNOSTICS",
+      "hypotheses": [
+        "H-ARCHITECTURE-DIAGNOSIS",
+        "H-LAG",
+        "H-KRYPTOS-FINGERPRINT"
+      ],
+      "blocker_type": "decision_relevance_and_open_world_validation",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "A concrete decision this diagnostic changes, independent corpora/authors, explicit abstention and matched unknown-class controls.",
+      "available": [
+        "research/STRATEGY-FOLLOWUP-FINDINGS.md",
+        "independent/2026-10-22/calibration/REPORT.md"
+      ],
+      "next_deliverable": "Freeze an open-world discrimination question and error/abstention criterion before any new classifier training or K4 labeling.",
+      "go_no_go": "The earlier forced K4 label was also assigned to 44/48 uniform controls. Its 125/144 closed-set accuracy is not evidence for K4 architecture or transfer to other authors.",
+      "safe_replay_argv": null,
+      "replay_scope": "No new classifier is needed merely to keep generating a label."
+    }
+  ],
+  "new_K4_evaluations": 0,
+  "replay_commands_executed": 0,
+  "ready_new_K4_experiments": 0,
+  "not_claimed": [
+    "The puzzle is solved",
+    "All possible ciphers are exhausted",
+    "A resource projection is a lower bound",
+    "A fitted or model-forced plaintext is independently confirmed",
+    "Missing inputs have been proven unobtainable forever"
+  ],
+  "source_sha256": {
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
+    "data/m94-source-quality.json": "fb3fe92604bbdb6590c776df8e0fa0f3da5df15d2fc1d93a0d15a8fd4fa4d9f3",
+    "docs/scott-sun-geometry-audit-2026-10-22.md": "8d60cfdc23372d90fe9517ef1e11a84b1022e2fd6d8988d73559df1e0fc8a2db",
+    "experiments/frontier_assessment.py": "4bc67de536170e49b2614b40ffbdc241d878eea2854f3f5bf603edcd8091f2ef",
+    "independent/2026-10-22/calibration/REPORT.md": "57ad1ffa008edb79dd9295e3ecb7ea96521cf18af42ea1f239e7d1fff3566eca",
+    "independent/2026-10-22/construction/REPORT.md": "15b87d1b724c9adcfcc454d3935d289f4a1a54bfa93555be01e8c5cbfa656c8c",
+    "independent/2026-10-22/construction/test_audit_construction.py": "562ef93305b5a06a203c153649206e25da49797f4cd62290b7033e94df3db2a9",
+    "independent/2026-10-22/historical-clock/historical_clock_report.txt": "29fa477d0a685916737aab7c8c18b8f30dd9ee71c7cf9fce6962c0f40c7021fa",
+    "research/AUTOKEY-CONSTRAINT-FINDINGS.md": "9fec6b7941a32a6c5f4a61cfbed83dcea2739f28321e6ae0322de8aa5679aa81",
+    "research/BOUNDED-FINDINGS.md": "8240eee7ce9117c4d3b79873b9ce2808ece6e04a5c9ae22c4c3a7088e0ad08cf",
+    "research/CONDITIONAL-FACE-LAMP-FINDINGS.md": "522e5c310226bf75526818a72442854aaf629c9c5ac6a071bc9cbc3b6ad37d0e",
+    "research/FEISTEL-TREE-EXTENSION-FINDINGS.md": "6518d02fc5fd92ce6f2f065ec798f8ddfafc8bbdde2cb44fd9fbe2005cf9084b",
+    "research/GREEK-SIGABA-CANDIDATE-FINDINGS.md": "1a86fbb021dfaace90fd6a52413c3cf73d914d1abb9ff141eeadfe1dd1b703c7",
+    "research/GROMARK-IDENTIFIABILITY-FINDINGS.md": "c34e9aaabccb8b59ae79a023874d2326f39cc769faecc776827adeb2c3d99189",
+    "research/HYPOTHESES.md": "6dbae01a54d51a6a85a54ec3660f4a26d10b1af96ad8a3e05ca4ce22539355dc",
+    "research/IPA-CODECS-INTEGRATION.md": "e278428adbc7a7c8572f73ddd898127d6e5d6cd782ffd7aaf78b31f772e84245",
+    "research/JOINT-STATE-NONROTOR-FINDINGS.md": "27097680ed8019b04d3eced4bfe8e7f8efeb65191c039bf8f8e12eab022e59d8",
+    "research/SIGABA-COLLECTOR-FILTER-FINDINGS.md": "61b625b549f9b912f899ed5fcec7d9e3e881685c1a3712bed8cd1806df701211",
+    "research/SIGABA-COLLECTOR-FILTER-SPEC.md": "4494409c594391d15ac88b23e0d64720682ae2e9decd5ba094e6055697a537ec",
+    "research/SIGABA-COMPRESSED-DOMAIN-FINDINGS.md": "003f3cfa3c6f4c3d105e3bb1410828a33696f25e8fa1ac6a11852802dff68659",
+    "research/SIGABA-COMPRESSED-DOMAIN-SPEC.md": "a197bca51ba5510c96872be33981367fe9056045599f7b426c7401c8e6e56c0b",
+    "research/SIGABA-DOMAIN-IDENTITY-FINDINGS.md": "0116b9eac768258981c3a34761d0896b7ef4c3fea7d066e1fb964a61b64a016a",
+    "research/SIGABA-DOMAIN-IDENTITY-SPEC.md": "b770f0cc9fbfa913e8d03214585332a265408a3f6aad3eebd430e02522fe6876",
+    "research/SIGABA-FIRST-OBSERVATION-FINDINGS.md": "eaeec2bebe4a6e7c58233aa11cea90b9ddc3f26f6315cb779f89d7c2d9239611",
+    "research/SIGABA-FIRST-OBSERVATION-SPEC.md": "3936e92057a6f6f3b1d6db52f5f0d2b10be53685dc4b96441ad23b8ef2f4d779",
+    "research/SIGABA-JOINT-FEASIBILITY-SPEC.md": "84d8d91b88646576c04a33acb9e4c591b807cb44a6f2cb6c913f8561e3ec527e",
+    "research/SIGABA-JOINT-TOY-FINDINGS.md": "5e6ef5507967ee608e3133b4c6cfb4dfede73b4dfc6d6577805e612f9a2b5134",
+    "research/SIGABA-JOINT-TOY-SPEC.md": "b3164d2e9c5e72e82e9ba8c294ffb5655d5f08d339967fd6773c153de6937681",
+    "research/SIGABA-LITERATURE-AND-FILTER-REVIEW.md": "3a6de42b51b65d9b74cec8925698f6ac32173c373c81495af061bfb0ae789b20",
+    "research/SIGABA-REAL-ADAPTER-FINDINGS.md": "3dfd9bf7dcb92ded8273efc975e19ae8e66c720252b7633818a7241b1ad086ae",
+    "research/SIGABA-REAL-ADAPTER-SPEC.md": "813f89bf650d09c7ddafb661ddd9407fd47cc01afb57cf42b67386627e2cc249",
+    "research/SIGABA-SPARSE-OWNERSHIP-FINDINGS.md": "054075642e3de2768a5bc2019860eb7f8afee1ae5331ee2891cafae029befe02",
+    "research/SIGABA-SPARSE-OWNERSHIP-SPEC.md": "ac351030ecf3201843a182b0520d8a1d1e41a192fa089994f27fd97c40d7e5aa",
+    "research/SIGABA-TORUS-FINDINGS.md": "974dc397cb99132cedbfcdbd2a0bf5ba50fe05352e4fb21ff3884d42213a7594",
+    "research/SIGABA-TORUS-SPEC.md": "73b8227f33bf30b76dee731f0de6a65e013f1ee9ef6597d83bb8ea59af6c9b57",
+    "research/STRATEGY-FOLLOWUP-FINDINGS.md": "4f958b3b73ffa77962cbd753930d22e6bdcce6ac738c86c670d6adb90f8e6b7d",
+    "research/TREE-STATE-SUPPORT-SPEC.md": "ed67876356c26e66b6dc06ca4b57a3f4a96e4aa41d917cb8fbea693e9d70f79e",
+    "research/UNRUN-GAPS-2026-10-23.md": "af1a53cf459e8a7cc5441c846a6c0df93751fe4ff97543b6b66b22d4d7968245",
+    "research/WHEATSTONE-TRANSITION-FINDINGS.md": "7fccef5c54eb365c17178ab5313d64f719b52e232c833c0b3b37abb7fa72e57d",
+    "research/evidence/2026-10-23-lodestone-compass/DECLINATION-ADDENDUM.md": "c58d7bfc2ac6522c634765643e94244a7a7c85abb85fbd9b00e2ceedf5ec471c",
+    "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md": "713793fac895ef88d2e54fbbbbc28db4619889613259e55a3a0925d123add577",
+    "research/specifications/FRONTIER-2026-10-23.json": "ff77af9203e3620fec894852e36511613237ff1376244d9393601d34bc44279b",
+    "results/CSP889-ANCHOR-017.json": "f1c98755ab24c879aa6fb7d381439b3cbbb8ceee2b0eb75ae2de8555bb0f6e31",
+    "results/CSP889-COMPACT-018.json": "b3eadb318465762c6f7497cd493d2e4ffd01f0aa4f45e13cd71e2f7718bb2630",
+    "results/CSP889-DOMAIN-016.json": "be54ea935b596838455bb25f7061cf53bb126216ca219b2a96afb9ec001b4128",
+    "results/CSP889-FILTER-019.json": "36e149a81145c9ad4e14c6cf95081bc9182c1035b842c19f71eccd8923148b1b",
+    "results/CSP889-SPARSE-015.json": "c99a9a9593b46defad3fbb32e6f28abd2e6e9d43427bb5f359b038af812b9b5f",
+    "results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json": "b0620bf924cf0d6ce0c6f5541a03f02ec51683f36c1f6c188e227109d349ef3e",
+    "results/SIGABA-JOINT-FEASIBILITY-003.json": "cacfb92ef389c9a41304987a7dfeaa9f869fb1a2441331bef82b187295491680",
+    "results/SIGABA-JOINT-TOY-012.json": "d34e6453af36d415b1d99dc8f5aa926d204826ce8568418bd19f1b9785c98b1a",
+    "results/SIGABA-TORUS-013.json": "ef88cadd3c42c595f8fc8544fe1ff4a19e8e229a391b1fda8ec1b2594cd57738",
+    "results/sigaba-real-adapter/case-0.json": "0fbe02bd0ef0220b8adab25ea2c6053b5b9ca37a0c65e58f3533a3e66f98e6fd",
+    "results/sigaba-real-adapter/case-1.json": "725ce6a6fe832bc2e5d9067e5e5bfb4520071575ab01779a9e17eb156f1c0d12",
+    "sources/wheatstone-historical-conventions-2026-10-23.json": "bdf7cccc11eae4ea7b0002509cc08b2117afcb6ac5a5af7647a39cd9b21056c8",
+    "tests/test_joint_nonrotor.py": "670c984a4722f037614d55201a023001ff4177638e7c5b2a2474ba78f4980391",
+    "tests/test_sigaba_collector_filter.py": "9ea44d26454a068aadfc2ca8113350da75d63e2a27c5267e9bd29e00a9d33f2d",
+    "tests/test_sigaba_compressed_ownership.py": "2204640fa5968290a35ed3d26840c7fccc6e2157033fbf3bb0f1512b17efb258",
+    "tests/test_sigaba_domain_identity.py": "6eef3ae5b31293a4b5f6a9ca6f27ec692ca20ee6d6060790db6f3ba14418ebfa",
+    "tests/test_sigaba_first_observation.py": "bd3c71e1ef89b4a098d3dc189ba24ffbf08dec4c535fbfc12279c1df30b19e25",
+    "tests/test_sigaba_full_state.py": "1693f740be07789b4a0eed48f3922f2e8c8538d14060dd02f5f87f662362ab89",
+    "tests/test_sigaba_joint_toy.py": "073984220108b9e6aa347eb8f9af5819ceab08d17813a160ea36e7e32fc52989",
+    "tests/test_sigaba_real_adapter.py": "22a158115853eb395a594534b17583ec373b928c386876b3fe6097566c266fc4",
+    "tests/test_sigaba_sparse_ownership.py": "3aeef25c49c9d68fa6e7b9076e77b1637b1638e65b42d9d0c382395327ab5cbc",
+    "tests/test_sigaba_torus.py": "6a6cce87a25c9fe95f16862650ef0ace61a96c88e125b443a9173a5cbb18a4f0"
+  }
+}

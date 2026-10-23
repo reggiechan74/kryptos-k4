@@ -1,0 +1,22 @@
+{
+  "kind": "Supplied-anchor collector-filter diagnostic; conditional selectivity, no new full-domain controller coverage",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "6dbae01a54d51a6a85a54ec3660f4a26d10b1af96ad8a3e05ca4ce22539355dc"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-018.json",
+  "previous_snapshot_commit": "f86889d99e09d22c193275da1ba146a7f46a1849",
+  "real_sized_gate_passed": false,
+  "new_K4_evaluations": 0,
+  "new_full_domain_controller_coverage": 0,
+  "publication": "Local only pending renewed authorization",
+  "site_changed": false
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CSP889-FILTER-019",
+  "summary": {
+    "completed_pairs": 20,
+    "filter_rejects": 12,
+    "filter_passes": 8,
+    "false_positive_pairs": 6,
+    "physical_feasible_pairs": 2,
+    "actual_map_trials": 1321160,
+    "counterfactual_map_trials_skippable": 792696,
+    "false_negatives": 0,
+    "filter_seconds": 0.0006525414064526558,
+    "physical_audit_seconds": 1.6591768751386553,
+    "cipher_point_checks": 2696855,
+    "counterfactual_cipher_checks_skippable": 1613512
+  },
+  "cases_completed": [
+    true,
+    true
+  ],
+  "anchor_panels": [
+    2,
+    3
+  ],
+  "wrong_anchor_attempts": [
+    16,
+    7
+  ],
+  "scope": "Supplied anchors/controllers; full reachable-map audit for these pairs only",
+  "full_domain_gate_passed": false,
+  "new_full_domain_controller_coverage": 0,
+  "K4_evaluations": 0,
+  "publication": "Local only; no retry",
+  "case_sha256": {
+    "results/sigaba-collector-filter/case-0.json": "f78ec8ae282b675bd12efdc8e2a68cdccb18eaefb2ba0971d96f38a50f590d9c",
+    "results/sigaba-collector-filter/case-1.json": "2943e408dc20b8685ab82f2c7a28d29f7a12f28e74867dacfcc60890c4e14598"
+  }
+}
