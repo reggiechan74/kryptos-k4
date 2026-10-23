@@ -1,0 +1,26 @@
+{
+  "primary_sources": [
+    {
+      "url": "https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/7/103192/files/2024/08/Arvaniti-StandardModernGreek-1999.pdf",
+      "role": "Modern Greek sound-system context; not our English transcription algorithm",
+      "access": "parsed primary-paper text; no source PDF redistributed"
+    },
+    {
+      "url": "https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/historical-figures-publications/publications/technology/The_SIGABA_ECM_Cipher_Machine_A_Beautiful_Idea3.pdf",
+      "role": "three-bank architecture and control-counter context, Appendix B printed32\u201333",
+      "access": "official PDF text read; authentic wiring and machine vector not validated here"
+    },
+    {
+      "url": "https://patents.google.com/patent/US6175625B1/en",
+      "role": "original patent architectural context; no patent wiring claim"
+    }
+  ],
+  "unavailable_source": {
+    "url": "https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=1125&context=etd_projects",
+    "outcome": "HTTP403 from public endpoint; no credentials or bypass used"
+  },
+  "existing_source_fixture": "data/ipa-cambridge-us-v1.json",
+  "design_choices": "phone approximation, Greek-ranked transport, all transformed-window origins, custom rotor wiring and narrow initial key domain were frozen before evaluation",
+  "source_binaries_redistributed": false,
+  "authentic_SIGABA_claimed": false
+}

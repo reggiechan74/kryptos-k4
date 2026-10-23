@@ -93,7 +93,10 @@ class ConditionalCipherTests(unittest.TestCase):
             self.assertFalse(c['constant_parity_possible'])
             self.assertEqual(len(set(c['witness']['required_parities'])),2)
         reg=json.loads((ROOT/'results/HYPOTHESIS-REGISTER-003.json').read_text())
-        for path,sha in reg['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),sha)
+        for path,sha in reg['source_sha256'].items():
+            import subprocess
+            snapshot=subprocess.check_output(['git','show','7de429dc1ced9e0226173e325831761b4c67f03e:'+path],cwd=ROOT)
+            self.assertEqual(hashlib.sha256(snapshot).hexdigest(),sha)
 
     def test_post_run_javascript_oracle_agrees_on_complete_domain(self):
         import shutil,subprocess

@@ -1,0 +1,31 @@
+{
+  "kind": "completed bounded candidate verification",
+  "specification_commit": "7bc893f",
+  "controls_commit": "6f5ba70",
+  "pre_evaluation_null_clarification_commit": "a9e4db1",
+  "aggregate_tracked_tests_passed": 321,
+  "Greek_raw_structure_alignment_descriptions": 120120,
+  "Greek_complete_survivors": 0,
+  "rotor_raw_keys": 6760,
+  "rotor_schedule_normalized_models": 3380,
+  "rotor_training_survivors": 0,
+  "authentic_SIGABA_tested": false,
+  "nulls_executed": false,
+  "null_reason": "zero complete survivors in each family; no significance claim",
+  "independent_JS_agrees": true,
+  "post_run_fixed_first_state_permutation": "OHJSURKLNBQTIAGDMPCEFVWXYZ",
+  "files_sha256": {
+    "data/greek-phonetic-v1.json": "559d494751631410eb4bcd1a813777643fd1fba356346d9b3c384f297ad95cb3",
+    "data/sigaba-inspired-v1.json": "8ff6fbfc33bd0fb1c1ad567668af76ae147e554c0516450a3b54b9a51bf585a9",
+    "experiments/greek_phonetic_candidate.py": "1062f97cd37bbd955c84b7a137fa0e3f06a23e182014e2f74d3c774290a27396",
+    "experiments/sigaba_inspired.py": "6f24d79f8545ac85027d59fc1e598e10d1c57c2ea4e7703853ef931225354ccb",
+    "experiments/greek_sigaba_oracle.mjs": "da84a4891ab0208b713cbd26d72d123ccd6ae5f2fe06290af0cc97e95262fe85",
+    "research/GREEK-SIGABA-CANDIDATE-FINDINGS.md": "1a86fbb021dfaace90fd6a52413c3cf73d914d1abb9ff141eeadfe1dd1b703c7",
+    "results/GREEK-PHONETIC-001.json": "fc51d35f07a4f33779d01e56c95c8fd95eb95e8225c79936df1d0c84b9cc5c35",
+    "results/SIGABA-INSPIRED-001.json": "4d89516521bff8a6c3cb80c46718cafac29c68775fcff5b978a2c012415d5d3c",
+    "results/GREEK-SIGABA-001-independent.json": "fe298cc6769297a86198d8a6903c6e08d893b9135bfe071232c93020b819669e",
+    "results/HYPOTHESIS-REGISTER-004.json": "6e7af729a59745a9839935126d99aaeaa91ebe9f9543a5e8f3f4735f78f0edab"
+  },
+  "scope_expanded_after_results": false,
+  "unrelated_suffix_copies_preserved": true
+}

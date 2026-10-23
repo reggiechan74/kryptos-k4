@@ -811,3 +811,26 @@ plants and timing/incompatible controls pass; aliases and logical versus simulat
 control counts are retained. The separately written post-run JS oracle agrees
 with all face classifications and lamp certificates. No null significance claim,
 new sampling rule, bit order, route or other parameter follows these negatives.
+
+
+## GREEK-PHONETIC-001 / SIGABA-INSPIRED-001 — completed candidate batch
+
+[Specification](GREEK-SIGABA-CANDIDATE-SPEC.md) committed at 7bc893f; complete
+implementation/planted controls at 6f5ba70; conditional null seeds clarified
+before actual runs at a9e4db1. [Full findings](GREEK-SIGABA-CANDIDATE-FINDINGS.md).
+
+Greek uses one fixed approximate 13-phone Modern Greek rendering and a reversible
+24-Greek-character/26-cipher-symbol periodic layer. Lossy English transcription
+is not an English inverse. All 3,003 ordered transformed-window placements,
+40 outer structures and 120,120 descriptions are covered, without assuming English
+crib offsets. Of 3,080 first-stage sites, 324 fit; all 12,664 eligible second-window
+checks fail. Zero full fits, zero null calibration, no adaptive dialect or offset.
+Forty complete selector plants preserve the true key/location and all aliases.
+
+The SIGABA-inspired model is custom, not authentic SIGABA: fixed keyword-derived
+wirings, a declared collector and restricted starts. 6,760 raw keys normalize to
+3,380 schedule/offset classes; all reject by first-crib position 25. No Berlin
+check or full actual candidate is needed. Twelve complete selector plants retain
+both raw-key schedule aliases; all 7,260 rotor inverse and carry controls pass.
+The post-run independent JS arithmetic agrees on both complete finite domains.
+Authentic historical SIGABA remains outside coverage, explicitly tracked separately.

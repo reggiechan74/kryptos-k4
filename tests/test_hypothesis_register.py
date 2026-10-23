@@ -15,7 +15,7 @@ class HypothesisRegisterTests(unittest.TestCase):
     def test_unique_ids_fields_status_and_legacy_retention(self):
         text,current,sections=self.sections()
         ids=[i for i,_ in sections]
-        self.assertEqual(len(ids),56)
+        self.assertEqual(len(ids),57)
         self.assertEqual(len(ids),len(set(ids)))
         referenced=set(re.findall(r'\bH-[A-Z][A-Z0-9-]*',current))-{'H-PHONETIC-RESP'}
         self.assertTrue(referenced<=set(ids),referenced-set(ids))
@@ -36,8 +36,10 @@ class HypothesisRegisterTests(unittest.TestCase):
         for target in re.findall(r'\]\(([^)]+)\)',current):
             if target.startswith('#') or '://' in target:continue
             self.assertTrue((ROOT/'research'/target.split('#')[0]).exists(),target)
-        for i in ('H-COMPASS-REVERSE','H-COMPASS-FRAMES','H-SHADOW-TIME','H-CELESTIAL-ALTITUDE','H-CLOCK-HISTORICAL','H-GREEK-PHONETIC'):
+        for i in ('H-COMPASS-REVERSE','H-COMPASS-FRAMES','H-SHADOW-TIME','H-CELESTIAL-ALTITUDE','H-CLOCK-HISTORICAL'):
             self.assertIn('- Status: evidence-blocked',records[i])
+        self.assertIn('- Status: narrow negative',records['H-GREEK-PHONETIC'])
+        self.assertIn('- Status: evidence-blocked',records['H-SIGABA'])
         self.assertIn('104',records['H-TREE-STATEFUL'])
         self.assertIn('not ordinary positional base 5',records['H-LAMP-MENGENLEHRE'])
         self.assertIn('non-identifiable',records['H-OTP'])

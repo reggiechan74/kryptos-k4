@@ -32,10 +32,11 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 | [H-CELESTIAL-ALTITUDE](#h-celestial-altitude) | evidence-blocked | An independently dated celestial observation supplies altitude/time material rather than a fitted astronomical coincidence. |
 | [H-CLOCK-HISTORICAL](#h-clock-historical) | evidence-blocked | Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping. |
 | [H-LAMP-MENGENLEHRE](#h-lamp-mengenlehre) | analytical exclusion | Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns. |
-| [H-GREEK-PHONETIC](#h-greek-phonetic) | evidence-blocked | Render English speech approximately with sourced Greek graphemes before an outer cipher. |
+| [H-GREEK-PHONETIC](#h-greek-phonetic) | narrow negative | Render English speech approximately with sourced Greek graphemes before an outer cipher. |
 | [H-LAMP-GREEK](#h-lamp-greek) | untested | A declared ordering of 24 lamp fields might index Greek symbols or generate key material. |
 | [H-TREE-STATEFUL](#h-tree-stateful) | narrow negative | Letters or geometry fragments walk a tree and update cipher state carried between letters. |
-| [H-SIGABA](#h-sigaba) | untested | Use historical irregular stepping from a complete, specified SIGABA mechanism. |
+| [H-SIGABA-INSPIRED](#h-sigaba-inspired) | narrow negative | Fixed custom three-bank irregular-stepping rotor cipher with a restricted starting-key domain. |
+| [H-SIGABA](#h-sigaba) | evidence-blocked | Use historical irregular stepping from a complete, specified SIGABA mechanism. |
 | [H-WHEATSTONE](#h-wheatstone) | untested | Unequal 27/26 rings and skip/blank stepping alter substitution state. |
 | [H-M138A](#h-m138a) | untested | Historical strip selection/alignment produces a row-dependent alphabet. |
 | [H-NONLINEAR-BLOCK](#h-nonlinear-block) | untested | A fixed nonlinear block transformation couples several plaintext letters. |
@@ -190,15 +191,15 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 
 ### H-GREEK-PHONETIC
 
-- Status: evidence-blocked
+- Status: narrow negative
 - Mechanism: English speech is rendered approximately using Greek graphemes, then encrypted; speech sounds are not English or Greek letter names.
 - Evidence: User-proposed extension; [existing language-layer boundaries](../docs/language-and-alphabet-layers.md). Arvaniti (1999), [Standard Modern Greek](https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/7/103192/files/2024/08/Arvaniti-StandardModernGreek-1999.pdf), is supplied linguistic context; no standardized English-to-Greek encoder is established. The approximate ΙΣΤ ΝΟΡΘΙΣΤ example has only ten Greek letters, not thirteen English positions.
-- Tested scope: No Greek phonetic preprocessing experiment. The fixed Cambridge-US IPA tests do not implement Greek graphemes; IPA theta alone is not this hypothesis.
-- Untested scope: A source-fixed Greek transcription and independently specified outer cipher.
-- Missing inputs: Modern versus ancient Greek, target accent and sound inventory, digraphs, stress/normalization, global lengths/alignment and explicit ambiguity or non-injective spelling recovery.
-- Next discriminating test: Await the sourced mapping; first audit token/glyph lengths, repeated sound patterns and framed reversibility before selecting any finite outer-cipher model. No arbitrary one-letter replacement or English-minus-two mapping.
-- Dependencies: Parent linguistic source review; separate from H-LAMP-GREEK, H-IPA-DICTIONARY and German place-name normalization.
-- Results: [Prior language experiments](LANGUAGE-FINDINGS.md) provide scoped boundaries only; no corresponding Greek cipher result exists.
+- Tested scope: GREEK-PHONETIC-001 completed: fixed 13-phone approximation gives 10/11 Greek-character windows; all 120,120 period-1..10/alphabet/equation/ordered-placement descriptions rejected. English crib offsets were not assumed.
+- Untested scope: Other Greek renderings, phonetic models, outer ciphers or global alignment mechanisms; no universal English-to-Greek encoder or spelling inverse.
+- Missing inputs: None for the completed necessary-condition pilot. Historical notation/source choice and a full invertible English preprocessing layer remain unestablished.
+- Next discriminating test: Stop this frozen mapping/layer domain; require independent source motivation before another transcription or cipher layer, not an adaptive dialect/offset rescue.
+- Dependencies: Completed source review and 40 complete planted selectors; lossy transcription is distinct from the reversible Greek-character cipher, lamp labels and prior IPA tests.
+- Results: [Completed finite findings](GREEK-SIGABA-CANDIDATE-FINDINGS.md) and [all weighted alignment constraints](../results/GREEK-PHONETIC-001.json); zero complete transformed-crib fits.
 
 ### H-LAMP-GREEK
 
@@ -224,17 +225,29 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Dependencies: TREE-PATH-CIPHER-SPEC.md; no crib-boundary resets, guessed gap states or automatic second sweep
 - Results: [retained evidence and finite coverage](TREE-PATH-CIPHER-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
+### H-SIGABA-INSPIRED
+
+- Status: narrow negative
+- Mechanism: Five custom cipher rotors are irregularly stepped by separate control and static index banks, with a fully reversible alphabet path.
+- Evidence: [Frozen source-based architecture and custom specification](GREEK-SIGABA-CANDIDATE-SPEC.md); not an authentic SIGABA emulator or creator-use claim.
+- Tested scope: 6,760 raw starting keys, 130 unique 97-position schedules, 3,380 schedule-normalized models. Every model contradicts the first crib by position 25; no Berlin evaluation needed.
+- Untested scope: Authentic SIGABA, other wirings/collectors, wheel order/orientation or unrestricted five-position settings.
+- Missing inputs: None for the completed custom pilot; historical-machine inputs remain tracked separately under H-SIGABA.
+- Next discriminating test: Stop this finite family. A materially different historical model needs its own authenticated vector and preregistration, not fitted wiring after failure.
+- Dependencies: Exact full-message autonomous state propagation, all-bank inverse checks and twelve complete planted selectors passed; no guessed state or reset at a crib.
+- Results: [Scoped outcomes](GREEK-SIGABA-CANDIDATE-FINDINGS.md) and [all canonical schedules/raw-key certificates](../results/SIGABA-INSPIRED-001.json); no general SIGABA exclusion.
+
 ### H-SIGABA
 
-- Status: untested
+- Status: evidence-blocked
 - Mechanism: Use historical irregular stepping from a complete, specified SIGABA mechanism.
 - Evidence: [source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.
-- Tested scope: No complete dedicated local SIGABA test established by the current ledger; generic feedback and direct Enigma exclusions do not cover it.
+- Tested scope: No authentic historical SIGABA emulator/keyspace test. The separately tracked H-SIGABA-INSPIRED custom construction is completed and negative, without authentic reference-vector claims.
 - Untested scope: A historically fixed machine/key domain.
-- Missing inputs: Authentic wiring, stepping, orientation and key conventions, creator relevance and a tractable frozen domain.
-- Next discriminating test: Reproduce a published machine test vector with an independently coded inverse; only then assess exact crib constraints and identifiability.
-- Dependencies: Source acquisition and prior-art equivalence audit; no free fitted wiring
-- Results: [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Missing inputs: Authenticated full historical wiring/orientation/electrical timing, an independent published machine vector and a separately justified bounded historical key domain.
+- Next discriminating test: Acquire and reproduce an authentic reference vector before any historical-machine K4 pilot; do not transfer the custom model negative to SIGABA generally.
+- Dependencies: Official NSA architectural description reviewed; custom wiring/collector and restricted starts are explicitly separate.
+- Results: [Custom-model findings and historical limits](GREEK-SIGABA-CANDIDATE-FINDINGS.md); authentic historical implementation remains untested.
 
 ### H-WHEATSTONE
 
