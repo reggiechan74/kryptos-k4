@@ -1,0 +1,54 @@
+{
+  "id": "CSP889-DOMAIN-016-validation",
+  "phase_A_spec_commit": "3bff89c",
+  "controlled_phase_B_commit": "f6c5cec",
+  "source_sha256": {
+    "experiments/profile_sigaba_sparse.py": "ce5d9ef608b03b48b1a2739fc1d5b400ee4fd30f57663790c8932b19c38c7ff1",
+    "experiments/run_sigaba_domain_identity.py": "ad63a8f869bcc3367a73b94fda04acfad61c26802bf83f2174e715046717782b",
+    "experiments/sigaba_domain_identity.py": "8684e61605e1d7d24506f3d5596e8e2125097f24a008359736043ed633bdc082",
+    "research/EXPERIMENTS.md": "84dacbe23561d65ebd34996e8a3463f7df888fd98caa8a9569613602219b7805",
+    "research/HYPOTHESES.md": "035a3db0bc1bc5060935cfc010da319ec4a9a268f43209afd1d0cbd30e0bfb26",
+    "research/SIGABA-DOMAIN-IDENTITY-FINDINGS.md": "0116b9eac768258981c3a34761d0896b7ef4c3fea7d066e1fb964a61b64a016a",
+    "research/SIGABA-DOMAIN-IDENTITY-IMPLEMENTATION.md": "73db30aad534ca1cf88542c4ed9a3c4681b417b6e90266aa5b8cc4e58f0adb95",
+    "research/SIGABA-DOMAIN-IDENTITY-SPEC.md": "b770f0cc9fbfa913e8d03214585332a265408a3f6aad3eebd430e02522fe6876",
+    "research/specifications/FRONTIER-2026-10-23.json": "dedfe7be8c14aef6b440459517d3c67391d110cddc70a5bbbbcc3b9920158cc6",
+    "results/CSP889-DOMAIN-016.json": "be54ea935b596838455bb25f7061cf53bb126216ca219b2a96afb9ec001b4128",
+    "results/EXCLUSION-SCOPE-AUDIT-012.json": "8341d335b58f27eec6e4684f80aa3a868ca13d97fa5850a5dcfa8c2a9930f6da",
+    "results/FRONTIER-016.json": "60b7225976ac1e49ffbdd9d0b44752f6d8e41fdef0a6e78629db3ece24de8206",
+    "results/HYPOTHESIS-REGISTER-016.json": "f1f2acb7adda329b5de2fcfa6b143bf1167a8b27d127beca34c2863468826ead",
+    "results/sigaba-domain-identity/case-0.json": "cca40ed9126f4556e28f12e57f31bc1ec47fb1ce9ff71c29d06f69f0c24a99e7",
+    "results/sigaba-domain-identity/case-1.json": "c3b5ff9d4530d840cbb61728c322eb4a26a9e05b2e48879421826ce93b937ea9",
+    "results/sigaba-domain-profile/case-0.json": "1c21662c34c778df8e2dd6f7367ca8cf193d41ec8989ce41063312498a56e62e",
+    "results/sigaba-domain-profile/case-1.json": "9a744217690a4bbccf460b3d8ba086bbd34d046d9ca8b4acf2789a694b4569c0",
+    "tests/test_frontier_assessment.py": "b900a5066a4f6d0dabcd90ebcfce7c8ea4e8102a68bc9a68c08098e805bb0dfa",
+    "tests/test_sigaba_domain_artifacts.py": "014c2adda6daba5b9f88cc50d41ac80caffb3984745bc3b928eef6bd63bab212",
+    "tests/test_sigaba_domain_identity.py": "6eef3ae5b31293a4b5f6a9ca6f27ec692ca20ee6d6060790db6f3ba14418ebfa",
+    "tests/test_sigaba_sparse_artifacts.py": "10ae768bb7fdca99ea8d70ba6035f0b4fbf0e4da6e19a15dfd363e1182f6b5ae"
+  },
+  "regression": {
+    "3.9.6": {
+      "tests": 420,
+      "passed": true,
+      "sha256": "5379a44d615985aba3c335e7a06cdfe08733d416c8d63d3740a2ddf87f1000ca"
+    },
+    "3.12.2": {
+      "tests": 420,
+      "passed": true,
+      "sha256": "0939866612409962a285412ea08056e2053c14266fe7b247fc68b6a2c4c2696b"
+    }
+  },
+  "raw_statistical_receipt_sha256": "f3b738c751ef590ab20be38307e3a99a6bffca965a32aa188fb303dd1996b64d",
+  "complete_tiny_raw_key_stream_comparisons": 6,
+  "tiny_cache_policy_relation_comparisons": 18,
+  "small_predicates_per_cache_policy": 243,
+  "cache_policies": 3,
+  "hash_collision_and_immutability_controls": true,
+  "real_fixtures_unchanged": true,
+  "real_controllers_completed": 0,
+  "prefix_old_time_index": 7,
+  "prefix_new_time_index": 17,
+  "real_sized_gate_passed": false,
+  "K4_evaluations": 0,
+  "site_changed": false,
+  "unrelated_untracked_files_preserved": 210
+}

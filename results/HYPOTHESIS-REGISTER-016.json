@@ -1,0 +1,20 @@
+{
+  "kind": "Profiler-supported cached exact domain keys; prefix advances but no complete real controller",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "035a3db0bc1bc5060935cfc010da319ec4a9a268f43209afd1d0cbd30e0bfb26"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-015.json",
+  "previous_snapshot_commit": "552cbdae9d253c1f4cfd62edc5fd08427f87aefa",
+  "real_sized_gate_passed": false,
+  "new_K4_evaluations": 0,
+  "site_changed": false
+}

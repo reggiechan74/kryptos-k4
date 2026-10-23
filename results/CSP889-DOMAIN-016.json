@@ -1,0 +1,324 @@
+{
+  "id": "CSP889-DOMAIN-016",
+  "records": [
+    {
+      "case": 0,
+      "fixture_unchanged": true,
+      "previous": {
+        "completed": false,
+        "reason": "conservative_branch_domain_envelope_unresolved",
+        "exact_raw_key_count": null,
+        "found_raw_keys_lower_bound": "0",
+        "control_starts_completed": 0,
+        "control_starts_requested": 11881376,
+        "relations": [],
+        "current_unfinished_control": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "current_time_zero_based": 2,
+        "peak_live_nodes": 410,
+        "peak_index_owners": 66058,
+        "owner_transitions": 132116,
+        "branches": 202,
+        "index_classes": 66058,
+        "index_raw_states": 100000,
+        "backend_metrics": {
+          "calls": 202,
+          "zero_offset_builds": 3,
+          "base_cache_hits": 146,
+          "translated_cache_hits": 53,
+          "translations": 149,
+          "cache_evictions": 121,
+          "cache_peak_accounted_bytes": 49118340,
+          "fixed_mask_bytes": 15721408,
+          "cache_cap_bytes": 50331648,
+          "value_cache_cap_bytes": 50331648,
+          "mask_cache_cap_bytes": 16777216,
+          "total_cache_cap_bytes": 67108864,
+          "mask_builds": 207,
+          "mask_evictions": 202,
+          "mask_cache_peak_bytes": 15843172,
+          "total_cache_peak_accounting_upper_bound": 64961512
+        },
+        "budget": {
+          "seconds": 3.8004360410850495,
+          "peak_RSS_bytes": 618610688,
+          "wall_cap_seconds": 60,
+          "RSS_cap_bytes": 1073741824,
+          "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+        },
+        "domain_envelope_cap_bytes": 268435456,
+        "K4_evaluations": 0
+      },
+      "current": {
+        "completed": false,
+        "reason": "conservative_branch_domain_envelope_unresolved",
+        "exact_raw_key_count": null,
+        "found_raw_keys_lower_bound": "0",
+        "control_starts_completed": 0,
+        "control_starts_requested": 11881376,
+        "relations": [],
+        "current_unfinished_control": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "current_time_zero_based": 2,
+        "peak_live_nodes": 410,
+        "peak_index_owners": 66058,
+        "owner_transitions": 132116,
+        "branches": 202,
+        "index_classes": 66058,
+        "index_raw_states": 100000,
+        "backend_metrics": {
+          "calls": 202,
+          "zero_offset_builds": 3,
+          "base_cache_hits": 146,
+          "translated_cache_hits": 53,
+          "translations": 149,
+          "cache_evictions": 121,
+          "cache_peak_accounted_bytes": 49118340,
+          "fixed_mask_bytes": 15721408,
+          "cache_cap_bytes": 50331648,
+          "value_cache_cap_bytes": 50331648,
+          "mask_cache_cap_bytes": 16777216,
+          "total_cache_cap_bytes": 67108864,
+          "mask_builds": 207,
+          "mask_evictions": 202,
+          "mask_cache_peak_bytes": 15843172,
+          "total_cache_peak_accounting_upper_bound": 64961512
+        },
+        "budget": {
+          "seconds": 3.426402500132099,
+          "peak_RSS_bytes": 572801024,
+          "wall_cap_seconds": 60,
+          "RSS_cap_bytes": 1073741824,
+          "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+        },
+        "domain_envelope_cap_bytes": 268435456,
+        "K4_evaluations": 0
+      }
+    },
+    {
+      "case": 1,
+      "fixture_unchanged": true,
+      "previous": {
+        "completed": false,
+        "reason": "wall_budget_unresolved",
+        "exact_raw_key_count": null,
+        "found_raw_keys_lower_bound": "0",
+        "control_starts_completed": 0,
+        "control_starts_requested": 11881376,
+        "relations": [],
+        "current_unfinished_control": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "current_time_zero_based": 7,
+        "peak_live_nodes": 6652,
+        "peak_index_owners": 66058,
+        "owner_transitions": 519540,
+        "branches": 14181,
+        "index_classes": 66058,
+        "index_raw_states": 100000,
+        "backend_metrics": {
+          "calls": 0,
+          "zero_offset_builds": 0,
+          "base_cache_hits": 0,
+          "translated_cache_hits": 0,
+          "translations": 0,
+          "cache_evictions": 0,
+          "cache_peak_accounted_bytes": 0,
+          "fixed_mask_bytes": 0,
+          "cache_cap_bytes": 50331648,
+          "value_cache_cap_bytes": 50331648,
+          "mask_cache_cap_bytes": 16777216,
+          "total_cache_cap_bytes": 67108864,
+          "mask_builds": 0,
+          "mask_evictions": 0,
+          "mask_cache_peak_bytes": 0,
+          "total_cache_peak_accounting_upper_bound": 0
+        },
+        "budget": {
+          "seconds": 60.01571441604756,
+          "peak_RSS_bytes": 61194240,
+          "wall_cap_seconds": 60,
+          "RSS_cap_bytes": 1073741824,
+          "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+        },
+        "domain_envelope_cap_bytes": 268435456,
+        "K4_evaluations": 0
+      },
+      "current": {
+        "completed": false,
+        "reason": "wall_budget_unresolved",
+        "exact_raw_key_count": null,
+        "found_raw_keys_lower_bound": "0",
+        "control_starts_completed": 0,
+        "control_starts_requested": 11881376,
+        "relations": [],
+        "current_unfinished_control": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "current_time_zero_based": 17,
+        "peak_live_nodes": 35290,
+        "peak_index_owners": 66058,
+        "owner_transitions": 1186963,
+        "branches": 249550,
+        "index_classes": 66058,
+        "index_raw_states": 100000,
+        "backend_metrics": {
+          "calls": 0,
+          "zero_offset_builds": 0,
+          "base_cache_hits": 0,
+          "translated_cache_hits": 0,
+          "translations": 0,
+          "cache_evictions": 0,
+          "cache_peak_accounted_bytes": 0,
+          "fixed_mask_bytes": 0,
+          "cache_cap_bytes": 50331648,
+          "value_cache_cap_bytes": 50331648,
+          "mask_cache_cap_bytes": 16777216,
+          "total_cache_cap_bytes": 67108864,
+          "mask_builds": 0,
+          "mask_evictions": 0,
+          "mask_cache_peak_bytes": 0,
+          "total_cache_peak_accounting_upper_bound": 0
+        },
+        "budget": {
+          "seconds": 60.00317941699177,
+          "peak_RSS_bytes": 88981504,
+          "wall_cap_seconds": 60,
+          "RSS_cap_bytes": 1073741824,
+          "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+        },
+        "domain_envelope_cap_bytes": 268435456,
+        "K4_evaluations": 0
+      }
+    }
+  ],
+  "profile_diagnostics": [
+    {
+      "case": 0,
+      "total_seconds": 4.093304,
+      "top_self_time": [
+        {
+          "file": "experiments/sigaba_sparse_ownership.py",
+          "line": 9,
+          "function": "translate",
+          "primitive_calls": 149,
+          "total_calls": 149,
+          "self_seconds": 2.487741708,
+          "cumulative_seconds": 3.005756335
+        },
+        {
+          "file": "experiments/sigaba_sparse_ownership.py",
+          "line": 34,
+          "function": "merge",
+          "primitive_calls": 637,
+          "total_calls": 637,
+          "self_seconds": 0.440600245,
+          "cumulative_seconds": 0.440600245
+        },
+        {
+          "file": "_pylong.py",
+          "line": 224,
+          "function": "inner",
+          "primitive_calls": 88,
+          "total_calls": 66888,
+          "self_seconds": 0.200231751,
+          "cumulative_seconds": 0.200231751
+        },
+        {
+          "file": "experiments/sigaba_real_adapter.py",
+          "line": 8,
+          "function": "__init__",
+          "primitive_calls": 1,
+          "total_calls": 1,
+          "self_seconds": 0.19177180000000002,
+          "cumulative_seconds": 0.291431167
+        },
+        {
+          "file": "_pylong.py",
+          "line": 245,
+          "function": "inner",
+          "primitive_calls": 88,
+          "total_calls": 66888,
+          "self_seconds": 0.17462554300000002,
+          "cumulative_seconds": 0.17462554300000002
+        }
+      ]
+    },
+    {
+      "case": 1,
+      "total_seconds": 60.00891220700003,
+      "top_self_time": [
+        {
+          "file": "experiments/sigaba_sparse_ownership.py",
+          "line": 34,
+          "function": "merge",
+          "primitive_calls": 68409,
+          "total_calls": 68409,
+          "self_seconds": 58.075248498,
+          "cumulative_seconds": 58.079049680000004
+        },
+        {
+          "file": "experiments/sigaba_sparse_ownership.py",
+          "line": 39,
+          "function": "admit",
+          "primitive_calls": 1612,
+          "total_calls": 1612,
+          "self_seconds": 0.353395248,
+          "cumulative_seconds": 1.076298336
+        },
+        {
+          "file": "experiments/sigaba_sparse_ownership.py",
+          "line": 28,
+          "function": "solve",
+          "primitive_calls": 1,
+          "total_calls": 1,
+          "self_seconds": 0.254921026,
+          "cumulative_seconds": 59.553958708
+        },
+        {
+          "file": "experiments/sigaba_real_adapter.py",
+          "line": 8,
+          "function": "__init__",
+          "primitive_calls": 1,
+          "total_calls": 1,
+          "self_seconds": 0.192253525,
+          "cumulative_seconds": 0.292132875
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.id>",
+          "primitive_calls": 7857650,
+          "total_calls": 7857650,
+          "self_seconds": 0.191618422,
+          "cumulative_seconds": 0.191618422
+        }
+      ]
+    }
+  ],
+  "fixtures_unchanged": true,
+  "complete_tiny_raw_sets": 6,
+  "tiny_cache_policy_relations": 18,
+  "hash_collision_controls": true,
+  "real_sized_gate_passed": false,
+  "real_controllers_completed": 0,
+  "K4_evaluations": 0
+}

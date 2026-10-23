@@ -1,6 +1,6 @@
 {
-  "id": "FRONTIER-015",
-  "reviewed_main_commit": "5273af698c956b6781ea4a9087808e92bb971833",
+  "id": "FRONTIER-016",
+  "reviewed_main_commit": "552cbdae9d253c1f4cfd62edc5fd08427f87aefa",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
   "decision": "No new evidence-grounded K4 experiment is currently ready under the available inputs, implemented algorithms and access limits.",
   "not_claimed": [
@@ -42,10 +42,14 @@
         "research/SIGABA-SPARSE-OWNERSHIP-SPEC.md",
         "research/SIGABA-SPARSE-OWNERSHIP-FINDINGS.md",
         "results/CSP889-SPARSE-015.json",
-        "tests/test_sigaba_sparse_ownership.py"
+        "tests/test_sigaba_sparse_ownership.py",
+        "research/SIGABA-DOMAIN-IDENTITY-SPEC.md",
+        "research/SIGABA-DOMAIN-IDENTITY-FINDINGS.md",
+        "results/CSP889-DOMAIN-016.json",
+        "tests/test_sigaba_domain_identity.py"
       ],
-      "next_deliverable": "The unresolved prefix cost is independent of cipher predicate construction. Even without observations the present dictionaries repeatedly use large integer cipher domains as part of their keys and rebuild offset/class partitions. Canonical domain identities with cached equality/hash, shared trajectory DAGs or symbolic continuous-controller relations are justified next representations. No profiler-based claim of a dominant CPU routine is made from these counters alone.",
-      "go_no_go": "Both runs remain unresolved, with zero completed controllers and unknown total key counts. The dense case reaches the same time-2, 410-node envelope guard, with 202 predicate requests but only three zero-offset builds. The separated-window case still stops at time index 7 with 6,652 peak nodes and zero predicate requests; memory falls to 58.4 MiB, but prefix CPU work remains unresolved. It performed 519,540 owner transitions and 14,181 branch visits. Direct plants remain valid, but no selector recovery or full real-sized compatible-set validation is established. Real-sized full-set completeness/resource gate remains failed; no K4 evaluation.",
+      "next_deliverable": "The current solver still reconstructs increasing offset/owner frontiers and repeatedly scans them for conservative resource admission. These operations are visible implementation costs, but the next dominant CPU routine has not been measured after this change, so no new profiler-based attribution is claimed. A shared trajectory DAG or incremental exact resource accounting would need a new measured correctness/performance gate. The separate dense-case limit remains nearly 1.5-MB cipher-domain payloads on many simultaneous branches. Exact compressed or multi-observation rotor relations are a plausible representation change, not implemented evidence of real-sized tractability. The immediate boundary is this implementation/resource gate, not a mathematical proof that authentic inference is impossible.",
+      "go_no_go": "The prefix run advances from time index 7 to 17, retaining all 66,058 class owners at peak and reaching 35,290 peak nodes, 1,186,963 owner transitions and 249,550 branch visits. It still completes zero controllers and makes zero predicate requests. Therefore actual controller coverage does not advance, although the partial prefix does. It times out at 60.003 seconds with 84.9 MiB peak RSS. The dense case stops at the same time-2 memory frontier after 3.426 seconds with 546.3 MiB RSS. Both total key counts remain unknown; neither is a K4 negative. Full real-sized independent set validation is missing; K4 stays unevaluated.",
       "safe_replay_argv": [
         "python3",
         "-m",

@@ -1,0 +1,1188 @@
+{
+  "id": "CSP889-DOMAIN-016-profile",
+  "profiler": "stdlib cProfile; instrumentation overhead included",
+  "source_baseline_commit": "552cbdae9d253c1f4cfd62edc5fd08427f87aefa",
+  "case": 1,
+  "result": {
+    "id": "CSP889-SPARSE-015",
+    "fixture": {
+      "number": 1,
+      "plaintext": "LTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDT",
+      "ciphertext": "CVFDESTIJMHQWVNWYKDTBVIXZXFTMLUMKHEENVPGIRHQCTMEHVSFVPXGFBJHNXYIQEIAFPDDUJCWJNSPYMFJYXZRWMZJAABUU",
+      "key": {
+        "cipherrotors": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "controlrotors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "indexrotors": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "cipherorientation": "00000",
+        "controlorientation": "00000",
+        "indexorientation": "00000",
+        "cipherposition": "ZAOCT",
+        "controlposition": "AZONH",
+        "indexposition": "97531"
+      },
+      "observations": [
+        [
+          21,
+          1,
+          21
+        ],
+        [
+          22,
+          25,
+          8
+        ],
+        [
+          23,
+          25,
+          23
+        ],
+        [
+          24,
+          1,
+          25
+        ],
+        [
+          25,
+          5,
+          23
+        ],
+        [
+          26,
+          11,
+          5
+        ],
+        [
+          27,
+          19,
+          19
+        ],
+        [
+          28,
+          3,
+          12
+        ],
+        [
+          29,
+          15,
+          11
+        ],
+        [
+          30,
+          3,
+          20
+        ],
+        [
+          31,
+          19,
+          12
+        ],
+        [
+          32,
+          11,
+          10
+        ],
+        [
+          33,
+          5,
+          7
+        ],
+        [
+          63,
+          1,
+          8
+        ],
+        [
+          64,
+          5,
+          16
+        ],
+        [
+          65,
+          11,
+          4
+        ],
+        [
+          66,
+          19,
+          8
+        ],
+        [
+          67,
+          3,
+          0
+        ],
+        [
+          68,
+          15,
+          5
+        ],
+        [
+          69,
+          3,
+          15
+        ],
+        [
+          70,
+          19,
+          3
+        ],
+        [
+          71,
+          11,
+          3
+        ],
+        [
+          72,
+          5,
+          20
+        ],
+        [
+          73,
+          1,
+          9
+        ]
+      ]
+    },
+    "preflight": {
+      "cipher_starts": 11881376,
+      "control_starts": 11881376,
+      "raw_index_starts": 100000,
+      "index_functions": 66058,
+      "raw_full_start_descriptions": "14116709565337600000",
+      "cipher_domain_payload_bytes": 1485172,
+      "index_domain_payload_bytes": 8258,
+      "one_dense_cipher_domain_per_index_function_bytes": 98107491976,
+      "estimate_is_necessary_lower_bound": false,
+      "Cartesian_table_allocated": false
+    },
+    "index_quotient_sha256": "3a257b5d35ea1aae7cd76e06786c67798e19101f147431e0031eb6a2d7e526ec",
+    "solver": {
+      "completed": false,
+      "reason": "wall_budget_unresolved",
+      "exact_raw_key_count": null,
+      "found_raw_keys_lower_bound": "0",
+      "control_starts_completed": 0,
+      "control_starts_requested": 11881376,
+      "relations": [],
+      "current_unfinished_control": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "current_time_zero_based": 7,
+      "peak_live_nodes": 6652,
+      "peak_index_owners": 66058,
+      "owner_transitions": 516524,
+      "branches": 14181,
+      "index_classes": 66058,
+      "index_raw_states": 100000,
+      "backend_metrics": {
+        "calls": 0,
+        "zero_offset_builds": 0,
+        "base_cache_hits": 0,
+        "translated_cache_hits": 0,
+        "translations": 0,
+        "cache_evictions": 0,
+        "cache_peak_accounted_bytes": 0,
+        "fixed_mask_bytes": 0,
+        "cache_cap_bytes": 50331648,
+        "value_cache_cap_bytes": 50331648,
+        "mask_cache_cap_bytes": 16777216,
+        "total_cache_cap_bytes": 67108864,
+        "mask_builds": 0,
+        "mask_evictions": 0,
+        "mask_cache_peak_bytes": 0,
+        "total_cache_peak_accounting_upper_bound": 0
+      },
+      "budget": {
+        "seconds": 60.006894959136844,
+        "peak_RSS_bytes": 62554112,
+        "wall_cap_seconds": 60,
+        "RSS_cap_bytes": 1073741824,
+        "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+      },
+      "domain_envelope_cap_bytes": 268435456,
+      "K4_evaluations": 0
+    },
+    "plant_directly_validated": true,
+    "plant_selector_recovered": null,
+    "independent_full_compatible_set_validation": false,
+    "real_sized_gate_passed": false,
+    "K4_evaluations": 0,
+    "source_sha256": {
+      "experiments/sigaba_sparse_ownership.py": "e7a0b5fc621d5f0a6d23a09a77f2754d29c98b6974fa02bb71f53a60818836b1",
+      "research/SIGABA-SPARSE-OWNERSHIP-SPEC.md": "ac351030ecf3201843a182b0520d8a1d1e41a192fa089994f27fd97c40d7e5aa",
+      "experiments/sigaba_real_adapter.py": "eed55233a96fdfcc199572947ec144ffc2b315a61a092fec4774e724d5333b86",
+      "experiments/run_sigaba_sparse_ownership.py": "5c09f5c586a7fa4ce621c088889b5be0a8a38c7e0112c0dfb826c40641bd9706",
+      "experiments/sigaba_csp889.py": "2f12042cc4ee838edbe5d1619d42a9d4c856b7586bbd41e91dd4f5f6ada27516",
+      "experiments/sigaba_torus.py": "ee49125ae2cd10760ddfe5dd54822834529c3b984772c1c2fb6662d9d0c4e5ee",
+      "experiments/sigaba_joint_toy.py": "0bf4fddec4c7416a8bb4c8d2d7243885713b847abd5183210d377734b7649ad5",
+      "data/sigaba-csp889-v1.json": "8326857b0b2997d64be94a4685185992ce00702235964c0a985f183d92fc3c5b",
+      "research/SIGABA-REAL-ADAPTER-SPEC.md": "813f89bf650d09c7ddafb661ddd9407fd47cc01afb57cf42b67386627e2cc249"
+    }
+  },
+  "profile_total_seconds": 60.00891220700003,
+  "function_table": [
+    {
+      "file": "experiments/sigaba_sparse_ownership.py",
+      "line": 34,
+      "function": "merge",
+      "primitive_calls": 68409,
+      "total_calls": 68409,
+      "self_seconds": 58.075248498,
+      "cumulative_seconds": 58.079049680000004
+    },
+    {
+      "file": "experiments/sigaba_sparse_ownership.py",
+      "line": 39,
+      "function": "admit",
+      "primitive_calls": 1612,
+      "total_calls": 1612,
+      "self_seconds": 0.353395248,
+      "cumulative_seconds": 1.076298336
+    },
+    {
+      "file": "experiments/sigaba_sparse_ownership.py",
+      "line": 28,
+      "function": "solve",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.254921026,
+      "cumulative_seconds": 59.553958708
+    },
+    {
+      "file": "experiments/sigaba_real_adapter.py",
+      "line": 8,
+      "function": "__init__",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.192253525,
+      "cumulative_seconds": 0.292132875
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.id>",
+      "primitive_calls": 7857650,
+      "total_calls": 7857650,
+      "self_seconds": 0.191618422,
+      "cumulative_seconds": 0.191618422
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method sys.getsizeof>",
+      "primitive_calls": 3930437,
+      "total_calls": 3930437,
+      "self_seconds": 0.187777258,
+      "cumulative_seconds": 0.187777258
+    },
+    {
+      "file": "experiments/sigaba_sparse_ownership.py",
+      "line": 43,
+      "function": "<genexpr>",
+      "primitive_calls": 3932049,
+      "total_calls": 3932049,
+      "self_seconds": 0.174873039,
+      "cumulative_seconds": 0.362650297
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.sum>",
+      "primitive_calls": 4837,
+      "total_calls": 4837,
+      "self_seconds": 0.161447993,
+      "cumulative_seconds": 0.5240982900000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'append' of 'list' objects>",
+      "primitive_calls": 1620284,
+      "total_calls": 1620284,
+      "self_seconds": 0.067433754,
+      "cumulative_seconds": 0.067433754
+    },
+    {
+      "file": "experiments/sigaba_sparse_ownership.py",
+      "line": 69,
+      "function": "<genexpr>",
+      "primitive_calls": 325368,
+      "total_calls": 325368,
+      "self_seconds": 0.042876751000000005,
+      "cumulative_seconds": 0.051548051000000004
+    },
+    {
+      "file": "encoder.py",
+      "line": 205,
+      "function": "iterencode",
+      "primitive_calls": 66058,
+      "total_calls": 66058,
+      "self_seconds": 0.040053147000000004,
+      "cumulative_seconds": 0.040053147000000004
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'setdefault' of 'dict' objects>",
+      "primitive_calls": 616524,
+      "total_calls": 616524,
+      "self_seconds": 0.036621579,
+      "cumulative_seconds": 0.036621579
+    },
+    {
+      "file": "experiments/sigaba_joint_toy.py",
+      "line": 18,
+      "function": "check",
+      "primitive_calls": 632320,
+      "total_calls": 632320,
+      "self_seconds": 0.033188206000000005,
+      "cumulative_seconds": 0.043340605000000004
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'index' of 'list' objects>",
+      "primitive_calls": 390560,
+      "total_calls": 390560,
+      "self_seconds": 0.026336284,
+      "cumulative_seconds": 0.026336284
+    },
+    {
+      "file": "experiments/run_sigaba_sparse_ownership.py",
+      "line": 9,
+      "function": "run",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.023226846000000002,
+      "cumulative_seconds": 60.008903333000006
+    },
+    {
+      "file": "__init__.py",
+      "line": 183,
+      "function": "dumps",
+      "primitive_calls": 66058,
+      "total_calls": 66058,
+      "self_seconds": 0.020691243,
+      "cumulative_seconds": 0.088729978
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 17,
+      "function": "inverse",
+      "primitive_calls": 15760,
+      "total_calls": 15760,
+      "self_seconds": 0.016989866000000003,
+      "cumulative_seconds": 0.043689827
+    },
+    {
+      "file": "encoder.py",
+      "line": 183,
+      "function": "encode",
+      "primitive_calls": 66058,
+      "total_calls": 66058,
+      "self_seconds": 0.016418753,
+      "cumulative_seconds": 0.063964491
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.sorted>",
+      "primitive_calls": 269,
+      "total_calls": 269,
+      "self_seconds": 0.013510504000000001,
+      "cumulative_seconds": 0.013510504000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method resource.getrusage>",
+      "primitive_calls": 8155,
+      "total_calls": 8155,
+      "self_seconds": 0.010695436000000001,
+      "cumulative_seconds": 0.010695436000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.getattr>",
+      "primitive_calls": 271140,
+      "total_calls": 271140,
+      "self_seconds": 0.0086713,
+      "cumulative_seconds": 0.0086713
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'sort' of 'list' objects>",
+      "primitive_calls": 28361,
+      "total_calls": 28361,
+      "self_seconds": 0.007522424000000001,
+      "cumulative_seconds": 0.007522424000000001
+    },
+    {
+      "file": "experiments/sigaba_real_adapter.py",
+      "line": 66,
+      "function": "path",
+      "primitive_calls": 873,
+      "total_calls": 873,
+      "self_seconds": 0.00559821,
+      "cumulative_seconds": 0.01355565
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.len>",
+      "primitive_calls": 144659,
+      "total_calls": 144659,
+      "self_seconds": 0.004809095,
+      "cumulative_seconds": 0.004809095
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.isinstance>",
+      "primitive_calls": 132172,
+      "total_calls": 132172,
+      "self_seconds": 0.004758831000000001,
+      "cumulative_seconds": 0.004758831000000001
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 24,
+      "function": "contact_oracle",
+      "primitive_calls": 4365,
+      "total_calls": 4365,
+      "self_seconds": 0.004317647,
+      "cumulative_seconds": 0.004418109
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'update' of '_hashlib.HASH' objects>",
+      "primitive_calls": 66058,
+      "total_calls": 66058,
+      "self_seconds": 0.004175087,
+      "cumulative_seconds": 0.004175087
+    },
+    {
+      "file": "encoder.py",
+      "line": 105,
+      "function": "__init__",
+      "primitive_calls": 66058,
+      "total_calls": 66058,
+      "self_seconds": 0.004074244,
+      "cumulative_seconds": 0.004074244
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'extend' of 'list' objects>",
+      "primitive_calls": 34201,
+      "total_calls": 34201,
+      "self_seconds": 0.003802432,
+      "cumulative_seconds": 0.003802432
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'encode' of 'str' objects>",
+      "primitive_calls": 66058,
+      "total_calls": 66058,
+      "self_seconds": 0.003713436,
+      "cumulative_seconds": 0.003713436
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'index' of 'str' objects>",
+      "primitive_calls": 63939,
+      "total_calls": 63939,
+      "self_seconds": 0.003508362,
+      "cumulative_seconds": 0.003508362
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 19,
+      "function": "rotor",
+      "primitive_calls": 29040,
+      "total_calls": 29040,
+      "self_seconds": 0.0031746670000000004,
+      "cumulative_seconds": 0.044040984000000005
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'join' of 'str' objects>",
+      "primitive_calls": 66076,
+      "total_calls": 66076,
+      "self_seconds": 0.0027489700000000003,
+      "cumulative_seconds": 0.002756718
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 30,
+      "function": "wheel_tables",
+      "primitive_calls": 2,
+      "total_calls": 2,
+      "self_seconds": 0.002092954,
+      "cumulative_seconds": 0.04977025
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.max>",
+      "primitive_calls": 11380,
+      "total_calls": 11380,
+      "self_seconds": 0.001201267,
+      "cumulative_seconds": 0.001201267
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'items' of 'dict' objects>",
+      "primitive_calls": 15567,
+      "total_calls": 15567,
+      "self_seconds": 0.000990785,
+      "cumulative_seconds": 0.000990785
+    },
+    {
+      "file": "experiments/sigaba_joint_toy.py",
+      "line": 25,
+      "function": "receipt",
+      "primitive_calls": 1613,
+      "total_calls": 1613,
+      "self_seconds": 0.000864941,
+      "cumulative_seconds": 0.0026553360000000003
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _io.open>",
+      "primitive_calls": 13,
+      "total_calls": 13,
+      "self_seconds": 0.0004990810000000001,
+      "cumulative_seconds": 0.0006492900000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method time.monotonic>",
+      "primitive_calls": 8157,
+      "total_calls": 8157,
+      "self_seconds": 0.000452181,
+      "cumulative_seconds": 0.000452181
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'values' of 'dict' objects>",
+      "primitive_calls": 4851,
+      "total_calls": 4851,
+      "self_seconds": 0.000389942,
+      "cumulative_seconds": 0.000389942
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 52,
+      "function": "path",
+      "primitive_calls": 873,
+      "total_calls": 873,
+      "self_seconds": 0.000353795,
+      "cumulative_seconds": 0.000353795
+    },
+    {
+      "file": "experiments/sigaba_sparse_ownership.py",
+      "line": 7,
+      "function": "__init__",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.00026045800000000003,
+      "cumulative_seconds": 0.000261458
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'read' of '_io.TextIOWrapper' objects>",
+      "primitive_calls": 4,
+      "total_calls": 4,
+      "self_seconds": 0.000201375,
+      "cumulative_seconds": 0.00020933300000000002
+    },
+    {
+      "file": "experiments/sigaba_real_adapter.py",
+      "line": 64,
+      "function": "physical",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.000183081,
+      "cumulative_seconds": 0.013902875
+    },
+    {
+      "file": "experiments/sigaba_real_adapter.py",
+      "line": 26,
+      "function": "digits",
+      "primitive_calls": 2,
+      "total_calls": 2,
+      "self_seconds": 0.00016602,
+      "cumulative_seconds": 0.00022254200000000003
+    },
+    {
+      "file": "decoder.py",
+      "line": 343,
+      "function": "raw_decode",
+      "primitive_calls": 4,
+      "total_calls": 4,
+      "self_seconds": 0.000122458,
+      "cumulative_seconds": 0.000122458
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 58,
+      "function": "step",
+      "primitive_calls": 97,
+      "total_calls": 97,
+      "self_seconds": 0.000102751,
+      "cumulative_seconds": 0.000444954
+    },
+    {
+      "file": "experiments/sigaba_real_adapter.py",
+      "line": 51,
+      "function": "stream",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 7.192200000000001e-05,
+      "cumulative_seconds": 0.000210208
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method sys.intern>",
+      "primitive_calls": 111,
+      "total_calls": 111,
+      "self_seconds": 4.5004000000000005e-05,
+      "cumulative_seconds": 4.5004000000000005e-05
+    },
+    {
+      "file": "experiments/sigaba_real_adapter.py",
+      "line": 125,
+      "function": "fixture",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 3.7425e-05,
+      "cumulative_seconds": 0.025725125
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'read' of '_io.BufferedReader' objects>",
+      "primitive_calls": 9,
+      "total_calls": 9,
+      "self_seconds": 3.6957000000000005e-05,
+      "cumulative_seconds": 3.6957000000000005e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _hashlib.openssl_sha256>",
+      "primitive_calls": 10,
+      "total_calls": 10,
+      "self_seconds": 3.6541e-05,
+      "cumulative_seconds": 3.6541e-05
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 66,
+      "function": "crypt",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 3.2513000000000005e-05,
+      "cumulative_seconds": 0.0005396670000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method '__exit__' of '_io._IOBase' objects>",
+      "primitive_calls": 13,
+      "total_calls": 13,
+      "self_seconds": 2.4750000000000002e-05,
+      "cumulative_seconds": 2.4750000000000002e-05
+    },
+    {
+      "file": "pathlib.py",
+      "line": 387,
+      "function": "_parse_path",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 2.1791000000000002e-05,
+      "cumulative_seconds": 7.7835e-05
+    },
+    {
+      "file": "experiments/sigaba_real_adapter.py",
+      "line": 70,
+      "function": "advance",
+      "primitive_calls": 383,
+      "total_calls": 383,
+      "self_seconds": 2.1017000000000002e-05,
+      "cumulative_seconds": 2.1017000000000002e-05
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 57,
+      "function": "advance",
+      "primitive_calls": 383,
+      "total_calls": 383,
+      "self_seconds": 1.9744000000000003e-05,
+      "cumulative_seconds": 1.9744000000000003e-05
+    },
+    {
+      "file": "pathlib.py",
+      "line": 437,
+      "function": "__str__",
+      "primitive_calls": 13,
+      "total_calls": 13,
+      "self_seconds": 1.7251e-05,
+      "cumulative_seconds": 0.000142792
+    },
+    {
+      "file": "<frozen posixpath>",
+      "line": 71,
+      "function": "join",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 1.1503000000000002e-05,
+      "cumulative_seconds": 2.2166e-05
+    },
+    {
+      "file": "pathlib.py",
+      "line": 407,
+      "function": "_load_parts",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 1.096e-05,
+      "cumulative_seconds": 0.00011187600000000001
+    },
+    {
+      "file": "pathlib.py",
+      "line": 358,
+      "function": "__init__",
+      "primitive_calls": 10,
+      "total_calls": 10,
+      "self_seconds": 1.0578000000000001e-05,
+      "cumulative_seconds": 1.7875e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'hexdigest' of '_hashlib.HASH' objects>",
+      "primitive_calls": 10,
+      "total_calls": 10,
+      "self_seconds": 1.054e-05,
+      "cumulative_seconds": 1.054e-05
+    },
+    {
+      "file": "pathlib.py",
+      "line": 1015,
+      "function": "read_bytes",
+      "primitive_calls": 9,
+      "total_calls": 9,
+      "self_seconds": 1.0171000000000001e-05,
+      "cumulative_seconds": 0.0005216260000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 9.250000000000001e-06,
+      "cumulative_seconds": 9.250000000000001e-06
+    },
+    {
+      "file": "pathlib.py",
+      "line": 1022,
+      "function": "read_text",
+      "primitive_calls": 4,
+      "total_calls": 4,
+      "self_seconds": 9.081e-06,
+      "cumulative_seconds": 0.00042349900000000003
+    },
+    {
+      "file": "pathlib.py",
+      "line": 380,
+      "function": "with_segments",
+      "primitive_calls": 10,
+      "total_calls": 10,
+      "self_seconds": 8.336000000000001e-06,
+      "cumulative_seconds": 4.0293e-05
+    },
+    {
+      "file": "pathlib.py",
+      "line": 551,
+      "function": "drive",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 7.124000000000001e-06,
+      "cumulative_seconds": 0.000119
+    },
+    {
+      "file": "pathlib.py",
+      "line": 1157,
+      "function": "__init__",
+      "primitive_calls": 10,
+      "total_calls": 10,
+      "self_seconds": 7.0810000000000005e-06,
+      "cumulative_seconds": 2.4956000000000003e-05
+    },
+    {
+      "file": "experiments/sigaba_real_adapter.py",
+      "line": 126,
+      "function": "<genexpr>",
+      "primitive_calls": 98,
+      "total_calls": 98,
+      "self_seconds": 7.080000000000001e-06,
+      "cumulative_seconds": 7.080000000000001e-06
+    },
+    {
+      "file": "decoder.py",
+      "line": 332,
+      "function": "decode",
+      "primitive_calls": 4,
+      "total_calls": 4,
+      "self_seconds": 6.419000000000001e-06,
+      "cumulative_seconds": 0.00013462600000000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'startswith' of 'str' objects>",
+      "primitive_calls": 15,
+      "total_calls": 15,
+      "self_seconds": 6.291e-06,
+      "cumulative_seconds": 6.291e-06
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 15,
+      "function": "data",
+      "primitive_calls": 3,
+      "total_calls": 3,
+      "self_seconds": 6.044e-06,
+      "cumulative_seconds": 0.000279459
+    },
+    {
+      "file": "<frozen posixpath>",
+      "line": 138,
+      "function": "splitroot",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 5.919e-06,
+      "cumulative_seconds": 7.000000000000001e-06
+    },
+    {
+      "file": "experiments/sigaba_sparse_ownership.py",
+      "line": 25,
+      "function": "metrics",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 5.7510000000000005e-06,
+      "cumulative_seconds": 9.875000000000001e-06
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 47,
+      "function": "__init__",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 5.6220000000000006e-06,
+      "cumulative_seconds": 0.025129541000000002
+    },
+    {
+      "file": "pathlib.py",
+      "line": 1164,
+      "function": "__new__",
+      "primitive_calls": 10,
+      "total_calls": 10,
+      "self_seconds": 4.96e-06,
+      "cumulative_seconds": 7.001e-06
+    },
+    {
+      "file": "pathlib.py",
+      "line": 447,
+      "function": "__fspath__",
+      "primitive_calls": 13,
+      "total_calls": 13,
+      "self_seconds": 4.875e-06,
+      "cumulative_seconds": 0.000147667
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'match' of 're.Pattern' objects>",
+      "primitive_calls": 8,
+      "total_calls": 8,
+      "self_seconds": 4.6230000000000005e-06,
+      "cumulative_seconds": 4.6230000000000005e-06
+    },
+    {
+      "file": "pathlib.py",
+      "line": 1005,
+      "function": "open",
+      "primitive_calls": 13,
+      "total_calls": 13,
+      "self_seconds": 4.5840000000000005e-06,
+      "cumulative_seconds": 0.0006542080000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _codecs.utf_8_decode>",
+      "primitive_calls": 4,
+      "total_calls": 4,
+      "self_seconds": 4.417e-06,
+      "cumulative_seconds": 4.417e-06
+    },
+    {
+      "file": "pathlib.py",
+      "line": 711,
+      "function": "joinpath",
+      "primitive_calls": 10,
+      "total_calls": 10,
+      "self_seconds": 4.374e-06,
+      "cumulative_seconds": 4.4667000000000004e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'split' of 'str' objects>",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 4.04e-06,
+      "cumulative_seconds": 4.04e-06
+    },
+    {
+      "file": "__init__.py",
+      "line": 299,
+      "function": "loads",
+      "primitive_calls": 4,
+      "total_calls": 4,
+      "self_seconds": 3.7920000000000003e-06,
+      "cumulative_seconds": 0.000139791
+    },
+    {
+      "file": "<frozen codecs>",
+      "line": 319,
+      "function": "decode",
+      "primitive_calls": 4,
+      "total_calls": 4,
+      "self_seconds": 3.541e-06,
+      "cumulative_seconds": 7.958e-06
+    },
+    {
+      "file": "pathlib.py",
+      "line": 719,
+      "function": "__truediv__",
+      "primitive_calls": 10,
+      "total_calls": 10,
+      "self_seconds": 3.541e-06,
+      "cumulative_seconds": 4.8208e-05
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 67,
+      "function": "<genexpr>",
+      "primitive_calls": 98,
+      "total_calls": 98,
+      "self_seconds": 3.3740000000000002e-06,
+      "cumulative_seconds": 3.3740000000000002e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.any>",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 3.334e-06,
+      "cumulative_seconds": 6.708000000000001e-06
+    },
+    {
+      "file": "pathlib.py",
+      "line": 429,
+      "function": "_format_parsed_parts",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 3.039e-06,
+      "cumulative_seconds": 5.332e-06
+    },
+    {
+      "file": "experiments/sigaba_csp889.py",
+      "line": 73,
+      "function": "key",
+      "primitive_calls": 2,
+      "total_calls": 2,
+      "self_seconds": 2.8330000000000002e-06,
+      "cumulative_seconds": 2.8330000000000002e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method posix.fspath>",
+      "primitive_calls": 32,
+      "total_calls": 32,
+      "self_seconds": 2.5020000000000004e-06,
+      "cumulative_seconds": 2.5020000000000004e-06
+    },
+    {
+      "file": "<frozen posixpath>",
+      "line": 41,
+      "function": "_get_sep",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 2.5e-06,
+      "cumulative_seconds": 3.124e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'update' of 'dict' objects>",
+      "primitive_calls": 2,
+      "total_calls": 2,
+      "self_seconds": 2.458e-06,
+      "cumulative_seconds": 2.458e-06
+    },
+    {
+      "file": "<frozen codecs>",
+      "line": 309,
+      "function": "__init__",
+      "primitive_calls": 4,
+      "total_calls": 4,
+      "self_seconds": 2.209e-06,
+      "cumulative_seconds": 2.542e-06
+    },
+    {
+      "file": "experiments/sigaba_torus.py",
+      "line": 43,
+      "function": "metrics",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 2.041e-06,
+      "cumulative_seconds": 2.041e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method __new__ of type object at 0x1024e0a48>",
+      "primitive_calls": 10,
+      "total_calls": 10,
+      "self_seconds": 2.041e-06,
+      "cumulative_seconds": 2.041e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'endswith' of 'str' objects>",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 1.5810000000000002e-06,
+      "cumulative_seconds": 1.5810000000000002e-06
+    },
+    {
+      "file": "experiments/sigaba_joint_toy.py",
+      "line": 17,
+      "function": "__init__",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 1.0420000000000001e-06,
+      "cumulative_seconds": 1.2080000000000001e-06
+    },
+    {
+      "file": "experiments/sigaba_joint_toy.py",
+      "line": 78,
+      "function": "__init__",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 1.0000000000000002e-06,
+      "cumulative_seconds": 1.0000000000000002e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _io.text_encoding>",
+      "primitive_calls": 8,
+      "total_calls": 8,
+      "self_seconds": 9.59e-07,
+      "cumulative_seconds": 9.59e-07
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'end' of 're.Match' objects>",
+      "primitive_calls": 8,
+      "total_calls": 8,
+      "self_seconds": 8.760000000000001e-07,
+      "cumulative_seconds": 8.760000000000001e-07
+    },
+    {
+      "file": "pathlib.py",
+      "line": 569,
+      "function": "_tail",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 6.67e-07,
+      "cumulative_seconds": 6.67e-07
+    },
+    {
+      "file": "pathlib.py",
+      "line": 560,
+      "function": "root",
+      "primitive_calls": 11,
+      "total_calls": 11,
+      "self_seconds": 5.420000000000001e-07,
+      "cumulative_seconds": 5.420000000000001e-07
+    },
+    {
+      "file": "<frozen codecs>",
+      "line": 260,
+      "function": "__init__",
+      "primitive_calls": 4,
+      "total_calls": 4,
+      "self_seconds": 3.3300000000000003e-07,
+      "cumulative_seconds": 3.3300000000000003e-07
+    },
+    {
+      "file": "experiments/sigaba_real_adapter.py",
+      "line": 128,
+      "function": "<genexpr>",
+      "primitive_calls": 6,
+      "total_calls": 6,
+      "self_seconds": 2.92e-07,
+      "cumulative_seconds": 2.92e-07
+    }
+  ],
+  "source_sha256": {
+    "experiments/profile_sigaba_sparse.py": "ce5d9ef608b03b48b1a2739fc1d5b400ee4fd30f57663790c8932b19c38c7ff1",
+    "research/SIGABA-DOMAIN-IDENTITY-SPEC.md": "b770f0cc9fbfa913e8d03214585332a265408a3f6aad3eebd430e02522fe6876"
+  },
+  "K4_evaluations": 0
+}

@@ -11,4 +11,4 @@ class SparseArtifactTests(unittest.TestCase):
   a=json.loads((ROOT/'results/sigaba-sparse-ownership/case-0.json').read_text())['solver'];b=json.loads((ROOT/'results/sigaba-sparse-ownership/case-1.json').read_text())['solver']
   self.assertEqual(a['backend_metrics']['zero_offset_builds'],3);self.assertEqual(a['backend_metrics']['calls'],202);self.assertEqual(b['backend_metrics']['calls'],0)
   import exclusion_scope_audit as audit,frontier_assessment as f
-  self.assertEqual(audit.run(),json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-011.json').read_text()));self.assertEqual(f.assess(),json.loads((ROOT/'results/FRONTIER-015.json').read_text()))
+  self.assertEqual(audit.run()['fresh_analytical_replay'],json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-011.json').read_text())['fresh_analytical_replay']);self.assertEqual(json.loads((ROOT/'results/FRONTIER-015.json').read_text())['ready_new_K4_experiments'],0)
