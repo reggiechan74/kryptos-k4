@@ -147,7 +147,9 @@ Final suite results are recorded in [validation receipt](../results/FIXED-PILOTS
    [DYNAMIC-KEY findings](DYNAMIC-KEY-FINDINGS.md). It is not equivalent to the
    plaintext-triggered mechanism above.
 
-The affine-digraph idea remains unrun. The next proposed computational experiment
+At this historical milestone the affine-digraph idea was unrun; the four
+specified cases were subsequently [excluded analytically](AFFINE-DIGRAPH-PARITY-BOUNDARY.md)
+on 23 October 2026, without key enumeration. The next proposed computational experiment
 is the already registered 72-case asymmetric-feedback **arbitrary-primer
 constraint** audit, if further work is requested: it asks whether any primer can
 satisfy the cribs for lags 9–12, rather than trying more words after a partial

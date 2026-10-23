@@ -138,13 +138,17 @@ The three distinct hypotheses retained for the next research decision are:
    separate rule is not claimed absent from all literature. This experiment
    rejects all 96 declared cases. Unknown triggers, variable increments and new
    alphabets require independent motivation, not rescue tuning.
-3. **H-AFFINE-DIGRAPH (unrun, lower priority).** Fixed invertible 2x2 affine
+3. **H-AFFINE-DIGRAPH (originally unrun; analytically excluded, 23 October 2026).** Fixed invertible 2x2 affine
    substitution modulo26, AZ or KRYPTOS, pair origins 0 or 1, one edge symbol copied.
    Solve rows on complete EASTNORTHEAST pairs, require determinant coprime26,
    predict Berlin then require all 24 letters and full 97-character inverse. Contradiction of
    all admissible matrices rejects this precise model. Test known matrices,
    boundary behavior and altered heldout letters, with full-family null controls.
    No K4-specific pair signal or attested teaching supports ranking it higher.
+   **Current status:** the four same-alphabet/origin cases are excluded by
+   [exact parity certificates](AFFINE-DIGRAPH-PARITY-BOUNDARY.md), without key
+   enumeration and even without requiring invertibility. The test design above
+   is preserved as the historical proposal, not a remaining unrun candidate.
 
 These are speculative mechanisms, not claims of invention. The new directions
 are exact assumptions that can fail. None is supported just because older

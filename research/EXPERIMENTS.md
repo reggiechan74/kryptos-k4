@@ -720,3 +720,12 @@ fixed IPA source strings serialize to X-SAMPA lengths 13/12; no extra cipher tes
 [Findings](IPA-PREPROCESSING-FINDINGS.md), [actual records](../results/IPA-PREPROCESSING-001.json),
 [local source/replay checks](../results/IPA-SOURCE-COMPARISON.json). Prior phonetic
 respelling records are unchanged. No scope expansion after negatives.
+
+## AFFINE-DIGRAPH-PARITY-001 — existing analytical boundary recorded
+
+23 October 2026. Four parent-supplied exact first-crib witnesses are independently
+verified against canonical fixtures. Identical two-symbol input parity has
+different output parity, excluding the specified same-AZ or same-KRYPTOS fixed
+affine 2×2 map for both pair origins, even without invertibility. Zero keys or
+matrices searched. Sixteen fixed affine positive cases and sixteen parity
+mutations pass. [Boundary and corrected status](AFFINE-DIGRAPH-PARITY-BOUNDARY.md).

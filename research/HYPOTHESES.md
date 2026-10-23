@@ -409,3 +409,11 @@ crib, 47 by ordinary anchors and one by a shared length-marker contradiction.
 No dialect/offset search, special-alias enumeration or English inverse is claimed.
 Original independent full-window certificates and the later first-window
 supplement are preserved with their distinct chronology and staging.
+
+## H-AFFINE-DIGRAPH — status correction, 23 October 2026
+
+The four fixed adjacent same-alphabet affine models (AZ/AZ and KRYPTOS/KRYPTOS,
+both pair origins) are [analytically excluded by parity](AFFINE-DIGRAPH-PARITY-BOUNDARY.md).
+No matrix search was run or required. Earlier unrun headings and the original
+frozen proposal are historical; this exact family is not an open unrun candidate.
+No claim about all polygraphic models or mixed alphabets follows.

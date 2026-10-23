@@ -210,6 +210,10 @@ complete fill/read/hole/inverse definition and reference control, compare exact
 without rerunning their cipher tests. Only a distinct fully specified route could
 justify a newly committed bounded experiment. No provisional route was implemented.
 
+**Status correction, 23 October 2026:** the four specified adjacent affine-digraph
+cases are [analytically excluded](AFFINE-DIGRAPH-PARITY-BOUNDARY.md); no key search
+is required. The following earlier next-step suggestion is historical.
+
 The previously formulated affine-digraph feasibility audit remains a lower-evidence
 alternative, unrun and requiring its own exact prior-art check. Neither suggestion
 extends this completed batch or provides a reason to tune rejected families.

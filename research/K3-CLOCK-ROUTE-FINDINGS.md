@@ -236,7 +236,9 @@ receipts with the complete prior model domain, hashes and chronology. The
 by that suite. [Validation receipt](../results/K3-CLOCK-ROUTES-VALIDATION.json).
 
 This batch stops. There is no basis here to add more clock starts, arbitrary
-phases, widths or layers. A next computational candidate remains the separately
+phases, widths or layers. **Later correction, 23 October 2026:** that four-case affine-digraph recipe is
+[analytically excluded](AFFINE-DIGRAPH-PARITY-BOUNDARY.md), without a key search.
+The following proposal is historical. A next computational candidate was the separately
 recorded low-evidence affine-digraph proposal, **only after an exact prior-art
 check and a new frozen specification**. It should begin with complete-pair
 constraints and an explicit odd-edge rule, followed by the untouched-by-current-fit
