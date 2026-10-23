@@ -1,0 +1,499 @@
+{
+  "id": "IPA-FEASIBILITY-001",
+  "source": "Cambridge Dictionary current US English pronunciation pages",
+  "segmentation": [
+    [
+      "EAST",
+      "NORTHEAST"
+    ],
+    [
+      "BERLIN",
+      "CLOCK"
+    ]
+  ],
+  "pronunciation": {
+    "EAST": "iːst",
+    "NORTH": "nɔːrθ",
+    "NORTHEAST": "ˌnɔːrθˈiːst",
+    "BERLIN": "bɝːˈlɪn",
+    "CLOCK": "klɑːk"
+  },
+  "rules": {
+    "stress": "Remove primary ˈ and secondary ˌ stress for both representations.",
+    "boundaries": "No slash delimiters, syllable dots, word spaces, or hyphens enter the encrypted stream. Word boundaries retained in metadata only.",
+    "length": "Preserve ː as part of vowel tokens in R1 and as its own Unicode code point in R2.",
+    "dialect": "Current Cambridge US, including r, not ɹ, and the English pronunciation of Berlin. No German substitution; no pronunciation variants searched.",
+    "segmentation": "EAST plus dictionary headword NORTHEAST; no EAST-NORTHEAST compound entry or phrase stress inferred. EAST NORTH EAST gives the same normalized stream but is not a third model."
+  },
+  "representations": [
+    {
+      "id": "R1",
+      "unit": "Cambridge segment token; vowel plus ː counts as one",
+      "tokens": [
+        [
+          "iː",
+          "s",
+          "t",
+          "n",
+          "ɔː",
+          "r",
+          "θ",
+          "iː",
+          "s",
+          "t"
+        ],
+        [
+          "b",
+          "ɝː",
+          "l",
+          "ɪ",
+          "n",
+          "k",
+          "l",
+          "ɑː",
+          "k"
+        ]
+      ]
+    },
+    {
+      "id": "R2",
+      "unit": "Unicode code point of normalized IPA",
+      "strings": [
+        "iːstnɔːrθiːst",
+        "bɝːlɪnklɑːk"
+      ]
+    }
+  ],
+  "crib_offsets_zero_based": [
+    21,
+    63
+  ],
+  "crib_orthographic_lengths": [
+    13,
+    11
+  ],
+  "tests": [
+    "Exact counts: orthographic letters, phoneme tokens, Unicode code points, UTF-8 bytes, JSON ASCII escaped bytes separately.",
+    "Aligned local-span length feasibility.",
+    "R2 necessary repeated-symbol consistency for deterministic periodic substitution p=1..12, no alphabet fitting or claim of sufficient feasibility.",
+    "R2 ciphertext equality within same phase versus source inequality as optional injectivity test, separately labelled.",
+    "Whole-stream same-offset assumption remains conditional because unknown prefixes have unknown transformed length.",
+    "Synthetic normalized IPA to escape serialization to decode roundtrip only, not exact-spelling recovery."
+  ],
+  "no_search": [
+    "No free phoneme-to-AZ table.",
+    "No crib sliding.",
+    "No post-hoc stress or length changes.",
+    "No global IPA exclusion.",
+    "No new outer cipher enumeration unless independently fixed A-Z serialization is supplied."
+  ],
+  "stopping": "Stop after frozen representation counts, structural constraints, alignment equation, and reversible-serialization control. Do not treat conditional structural survivors as cipher solutions.",
+  "working_freeze_utc_minute": "2026-10-22T23:38Z",
+  "preregistration_status": "The source choices, streams and periods were recorded before the first K4 structural comparison in this session. This is a working pre-test freeze, not a committed repository preregistration. Repository owner should commit the unchanged spec before implementing/replaying.",
+  "baseline": {
+    "repository": "reggiechan74/kryptos-k4",
+    "commit": "a40e69c510f74e4048403c250fc82010281779aa",
+    "ciphertext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+    "crib_ciphertext": [
+      "FLRVQQPRNGKSS",
+      "NYPVTTMZFPK"
+    ]
+  },
+  "results": {
+    "counts": [
+      {
+        "orthographic": 13,
+        "phoneme_tokens": 10,
+        "unicode_codepoints": 13,
+        "utf8_bytes": 18,
+        "ascii_escape": "i\\u02d0stn\\u0254\\u02d0r\\u03b8i\\u02d0st",
+        "ascii_escape_characters": 38,
+        "ipa_pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          1,
+          6,
+          7,
+          0,
+          1,
+          2,
+          3
+        ],
+        "cipher_pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          2,
+          6,
+          7,
+          8,
+          9,
+          9
+        ]
+      },
+      {
+        "orthographic": 11,
+        "phoneme_tokens": 9,
+        "unicode_codepoints": 11,
+        "utf8_bytes": 16,
+        "ascii_escape": "b\\u025d\\u02d0l\\u026ankl\\u0251\\u02d0k",
+        "ascii_escape_characters": 36,
+        "ipa_pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          3,
+          7,
+          2,
+          6
+        ],
+        "cipher_pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          6,
+          7,
+          2,
+          8
+        ]
+      }
+    ],
+    "periodic_constraints": [
+      {
+        "period": 1,
+        "deterministic_contradictions": 13,
+        "first_deterministic_certificate": {
+          "positions": [
+            22,
+            31
+          ],
+          "symbol": "i",
+          "ciphers": "FG"
+        },
+        "injectivity_contradictions": 8,
+        "first_injectivity_certificate": {
+          "positions": [
+            22,
+            72
+          ],
+          "symbols": [
+            "i",
+            "ɑ"
+          ],
+          "cipher": "F"
+        },
+        "same_source_same_phase_pairs": 16,
+        "same_cipher_same_phase_pairs": 11
+      },
+      {
+        "period": 2,
+        "deterministic_contradictions": 5,
+        "first_deterministic_certificate": {
+          "positions": [
+            23,
+            73
+          ],
+          "symbol": "ː",
+          "ciphers": "LP"
+        },
+        "injectivity_contradictions": 4,
+        "first_injectivity_certificate": {
+          "positions": [
+            22,
+            72
+          ],
+          "symbols": [
+            "i",
+            "ɑ"
+          ],
+          "cipher": "F"
+        },
+        "same_source_same_phase_pairs": 6,
+        "same_cipher_same_phase_pairs": 5
+      },
+      {
+        "period": 3,
+        "deterministic_contradictions": 4,
+        "first_deterministic_certificate": {
+          "positions": [
+            22,
+            31
+          ],
+          "symbol": "i",
+          "ciphers": "FG"
+        },
+        "injectivity_contradictions": 2,
+        "first_injectivity_certificate": {
+          "positions": [
+            25,
+            67
+          ],
+          "symbols": [
+            "t",
+            "l"
+          ],
+          "cipher": "V"
+        },
+        "same_source_same_phase_pairs": 5,
+        "same_cipher_same_phase_pairs": 3
+      },
+      {
+        "period": 4,
+        "deterministic_contradictions": 3,
+        "first_deterministic_certificate": {
+          "positions": [
+            28,
+            32
+          ],
+          "symbol": "ː",
+          "ciphers": "PK"
+        },
+        "injectivity_contradictions": 0,
+        "first_injectivity_certificate": null,
+        "same_source_same_phase_pairs": 3,
+        "same_cipher_same_phase_pairs": 0
+      },
+      {
+        "period": 5,
+        "deterministic_contradictions": 2,
+        "first_deterministic_certificate": {
+          "positions": [
+            23,
+            28
+          ],
+          "symbol": "ː",
+          "ciphers": "LP"
+        },
+        "injectivity_contradictions": 2,
+        "first_injectivity_certificate": {
+          "positions": [
+            22,
+            72
+          ],
+          "symbols": [
+            "i",
+            "ɑ"
+          ],
+          "cipher": "F"
+        },
+        "same_source_same_phase_pairs": 3,
+        "same_cipher_same_phase_pairs": 3
+      },
+      {
+        "period": 6,
+        "deterministic_contradictions": 0,
+        "first_deterministic_certificate": null,
+        "injectivity_contradictions": 2,
+        "first_injectivity_certificate": {
+          "positions": [
+            25,
+            67
+          ],
+          "symbols": [
+            "t",
+            "l"
+          ],
+          "cipher": "V"
+        },
+        "same_source_same_phase_pairs": 0,
+        "same_cipher_same_phase_pairs": 2
+      },
+      {
+        "period": 7,
+        "deterministic_contradictions": 0,
+        "first_deterministic_certificate": null,
+        "injectivity_contradictions": 2,
+        "first_injectivity_certificate": {
+          "positions": [
+            25,
+            67
+          ],
+          "symbols": [
+            "t",
+            "l"
+          ],
+          "cipher": "V"
+        },
+        "same_source_same_phase_pairs": 1,
+        "same_cipher_same_phase_pairs": 3
+      },
+      {
+        "period": 8,
+        "deterministic_contradictions": 0,
+        "first_deterministic_certificate": null,
+        "injectivity_contradictions": 0,
+        "first_injectivity_certificate": null,
+        "same_source_same_phase_pairs": 0,
+        "same_cipher_same_phase_pairs": 0
+      },
+      {
+        "period": 9,
+        "deterministic_contradictions": 4,
+        "first_deterministic_certificate": {
+          "positions": [
+            22,
+            31
+          ],
+          "symbol": "i",
+          "ciphers": "FG"
+        },
+        "injectivity_contradictions": 0,
+        "first_injectivity_certificate": null,
+        "same_source_same_phase_pairs": 5,
+        "same_cipher_same_phase_pairs": 1
+      },
+      {
+        "period": 10,
+        "deterministic_contradictions": 1,
+        "first_deterministic_certificate": {
+          "positions": [
+            23,
+            73
+          ],
+          "symbol": "ː",
+          "ciphers": "LP"
+        },
+        "injectivity_contradictions": 1,
+        "first_injectivity_certificate": {
+          "positions": [
+            22,
+            72
+          ],
+          "symbols": [
+            "i",
+            "ɑ"
+          ],
+          "cipher": "F"
+        },
+        "same_source_same_phase_pairs": 1,
+        "same_cipher_same_phase_pairs": 1
+      },
+      {
+        "period": 11,
+        "deterministic_contradictions": 0,
+        "first_deterministic_certificate": null,
+        "injectivity_contradictions": 0,
+        "first_injectivity_certificate": null,
+        "same_source_same_phase_pairs": 0,
+        "same_cipher_same_phase_pairs": 0
+      },
+      {
+        "period": 12,
+        "deterministic_contradictions": 0,
+        "first_deterministic_certificate": null,
+        "injectivity_contradictions": 0,
+        "first_injectivity_certificate": null,
+        "same_source_same_phase_pairs": 0,
+        "same_cipher_same_phase_pairs": 0
+      }
+    ],
+    "serialization_roundtrip": [
+      {
+        "ipa": "iːstnɔːrθiːst",
+        "ascii": "i\\u02d0stn\\u0254\\u02d0r\\u03b8i\\u02d0st",
+        "decoded": "iːstnɔːrθiːst",
+        "pass": true
+      },
+      {
+        "ipa": "bɝːlɪnklɑːk",
+        "ascii": "b\\u025d\\u02d0l\\u026ankl\\u0251\\u02d0k",
+        "decoded": "bɝːlɪnklɑːk",
+        "pass": true
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/east",
+      "us_ipa": "iːst",
+      "source_type": "Primary dictionary",
+      "access_date": "2026-10-22"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/north",
+      "us_ipa": "nɔːrθ",
+      "source_type": "Primary dictionary",
+      "access_date": "2026-10-22"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/northeast",
+      "us_ipa": "ˌnɔːrθˈiːst",
+      "source_type": "Primary dictionary",
+      "access_date": "2026-10-22"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/berlin",
+      "us_ipa": "bɝːˈlɪn",
+      "source_type": "Primary dictionary",
+      "access_date": "2026-10-22"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/clock",
+      "us_ipa": "klɑːk",
+      "source_type": "Primary dictionary",
+      "access_date": "2026-10-22"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/pronunciation/english/east-northeast",
+      "us_ipa": "ˌiːst.nɔːrθˈiːst",
+      "note": "Confirmed after freeze, not searched as another model. Removing the frozen stress/syllable boundary symbols gives exactly R2."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/help/phonetics.html",
+      "note": "Cambridge documents use of IPA, separate US pronunciations, and length/stress/syllable symbols."
+    },
+    {
+      "url": "https://www.internationalphoneticassociation.org/content/history-ipa",
+      "note": "IPA existed long before 1990; current dictionary transcription and Unicode/JSON storage do not establish a 1990 method."
+    },
+    {
+      "url": "https://github.com/cmusphinx/cmudict/blob/master/cmudict.phones",
+      "note": "Primary list has 39 phone types. CMU ARPABET is not IPA. No CMU dictionary representation or cipher search was run."
+    },
+    {
+      "url": "https://github.com/reggiechan74/kryptos-k4/blob/a40e69c510f74e4048403c250fc82010281779aa/research/PHONETIC-FEASIBILITY.md",
+      "note": "Existing test was a narrow unchanged-crib respelling pilot, not IPA."
+    }
+  ],
+  "assumptions_and_limits": [
+    "Public cribs are English orthographic plaintext at positions 22–34 and 64–74. Applying them to a phonetic input before encryption is an additional pipeline interpretation, not a verified reinterpretation of Sanborn's disclosures.",
+    "All R2 periodic tests additionally condition on the transformed crib blocks starting at unchanged offsets 21 and 63. Local length equality does not establish those offsets.",
+    "For P=A+EASTNORTHEAST+B+BERLINCLOCK+D with orthographic block lengths 21,13,29,11,23, unchanged aligned R2 and total 97 require |f(A)|=21, |f(B)|=29, |f(D)|=23. Unknown text prevents testing those conditions.",
+    "For R1 variable-length processing, unknown transformed starts are |f(A)| and |f(A)|+10+|f(B)|. The disclosed English indices do not determine these phoneme indices; no crib sliding was performed.",
+    "Period tests are necessary consistency conditions for C_i=F_(i mod p)(S_i), with injectivity separately imposed per phase. They subsume necessary repetition constraints for repeating-key A–Z ciphers after a fixed injective one-glyph recoding, but do not instantiate that recoding or a Vigenere key.",
+    "Periods 8,11,12 have no same-source/same-phase or same-cipher/same-phase pairs among known slots: their passing is vacuous for this test, not positive evidence.",
+    "The two cribs use 14 distinct R2 code points. This does not justify mapping every English phoneme or all IPA symbols injectively into 26 letters. An actual full message would require a specified inventory, codec and framing.",
+    "JSON ASCII escapes are only a reversible storage control, not an A–Z cipher input or historical encryption claim. Escaped payloads have 38 and 36 ASCII characters, excluding JSON quote delimiters.",
+    "IPA normalization is not uniquely reversible to English spelling. Homophones and discarded stress/word-boundaries can lose information; exact-spelling roundtrip would need preserved spelling/exception metadata or an explicitly nonunique inverse.",
+    "No key, plaintext outside the cribs, full 97-character reconstruction, or K4 solution was produced. This narrow result does not exclude IPA preprocessing generally."
+  ],
+  "raw_glyph_strings_retaining_source_stress": [
+    "iːstˌnɔːrθˈiːst",
+    "bɝːˈlɪnklɑːk"
+  ],
+  "normalization": "NFC; remove ˈ ˌ . / spaces and hyphens; retain ː and all phonetic letters. No optional rhotic recoding.",
+  "decision_chronology": "R2 13/11 length fit was observed during source audit with public crib lengths known. Representation choices were not blind to those lengths. Protocols were then frozen before their respective cipher-constraint evaluations, not repository-committed preregistrations.",
+  "synthetic_control_results": {
+    "cipher_roundtrips": 48,
+    "mutation_negative_controls": 4,
+    "ascii_roundtrips": 2,
+    "xsampa_subset_roundtrips": 2,
+    "independent_python_replay": "pass"
+  }
+}

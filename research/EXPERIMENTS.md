@@ -703,3 +703,20 @@ Arbitrary independent bases >=2 contain every proposed digit-plus-two root
 schedule, so no root/degree/radix/offset search is needed for this exact family.
 Berlin is not evaluated here; the auxiliary direct map remains separately
 labeled. [Report](RADIX-FEEDBACK-FINDINGS.md). No post-failure scope expansion.
+
+## IPA-PREPROCESSING-001 — source-fixed phonetic preprocessing
+
+Protocol commit 2c40fca; controls/input commit 6499d17; final interface e09593f,
+all before local actual evaluation. Source audit had already observed the local
+13/11 code-point lengths with public clue lengths known; no blind-discovery claim.
+Forty-eight synthetic complete selectors retain truth, with expected mapping
+ambiguity; nine complete small-ring and three exhaustive planted alias-domain
+comparisons pass. Local first-window CRT constraints reject 47 structures by
+ordinary anchors and AZ-additive period 10 through shared ː indices 13 versus 11.
+Zero actual aliases enumerated; no Berlin aliases fitted. The independent frozen
+anchor audit uses both windows and its 48 certificates replay exactly; a separate
+post-audit supplement confirms the stronger first-window conclusion. The same
+fixed IPA source strings serialize to X-SAMPA lengths 13/12; no extra cipher test.
+[Findings](IPA-PREPROCESSING-FINDINGS.md), [actual records](../results/IPA-PREPROCESSING-001.json),
+[local source/replay checks](../results/IPA-SOURCE-COMPARISON.json). Prior phonetic
+respelling records are unchanged. No scope expansion after negatives.

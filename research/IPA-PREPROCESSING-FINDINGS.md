@@ -71,7 +71,7 @@ Were a structure to survive, those three new values would be parameters, not
 predictions; only eight second-window positions use previously specified symbols.
 The fourteen-symbol partial model is not a universal A–Z encoding of IPA.
 
-## Controls and current verification state
+## Controls and completed independent verification
 
 All 48 synthetic literal-IPA plants pass the complete 48-structure selector,
 retain the true aliases/key and round-trip exactly. Some retain multiple second-
@@ -84,14 +84,65 @@ The [local results](../results/IPA-PREPROCESSING-001.json) preserve all 48 syste
 field ranks, certificates and first-window-only staging. The
 [control receipt](../results/IPA-PREPROCESSING-001-controls.json) records all plants.
 Reproduce with `python3 experiments/ipa_preprocessing.py controls` or `actual`.
-All 273 current repository tests pass in 9.683 seconds.
+After independent archive integration, all 277 repository tests pass in
+9.822 seconds.
 
-The corrected independent source/audit archive is supplied as Library file
-`libfile_8b54608d88708191833dd3160805090c`, expected ZIP SHA-256
+The corrected independent source/audit archive was materialized and its readable
+16,217 bytes verified against SHA-256
 `163eb3d44e38c3824b3ffd8f47887601dc3c21915236f9c419cf5a053235c850`.
-Its consumer-local materialization and replay are currently pending because the
-required fresh Library helper resource is unavailable. No original archive
-success, source-link verification or independent replay is claimed here. The
-frozen input's pending-source status records that pre-run state. The already
-supplied literal source strings were sufficient for the separate local checks.
-No dialect, period, cipher family or shifted-index variant was added after failure.
+All seven original members are preserved unchanged in
+`independent/2026-10-22/ipa-preprocessing/`; derived member hashes and separate
+replay outputs are in the [receipt](../results/IPA-INDEPENDENT-LOCAL-REPLAY.json).
+The input record's pending-source wording describes its pre-run freeze state;
+the source and replay dependency is now complete.
+
+Both native scripts pass. Their original frozen ordinary-anchor protocol uses
+both disclosed blocks and rejects all 48. Its AZ-additive period-10 certificate
+is cross-window: positions 24/64 require keys 25/12. Only 47 are ordinary-anchor
+rejections within the first crib. The separately labeled post-audit supplement
+adds the length-marker contradiction for that one remaining first-crib case.
+Those original protocols and certificates were not rewritten to imply the
+stronger staging had been the original test. The local CRT solver, independently
+frozen for first-window fitting, agrees with the first-crib-only conclusion.
+
+The [local comparison](../results/IPA-SOURCE-COMPARISON.json) validates every
+native anchor certificate, all twelve structural period records, source forms,
+source token arrays and the supplementary marker proof. Native controls separately
+pass 48 cipher round trips, four mutation negatives, two JSON storage round trips
+and two X-SAMPA subset round trips. These are reproduction/control scopes, not
+additional new K4 search counts. No special-symbol assignments were enumerated
+by either actual audit, and no significance claim is needed for exact rejection.
+
+## Source attribution and serialization control
+
+Primary pronunciation links in the supplied source audit are Cambridge US
+[EAST](https://dictionary.cambridge.org/us/pronunciation/english/east),
+[NORTH](https://dictionary.cambridge.org/us/pronunciation/english/north),
+[NORTHEAST](https://dictionary.cambridge.org/us/pronunciation/english/northeast),
+[BERLIN](https://dictionary.cambridge.org/us/pronunciation/english/berlin), and
+[CLOCK](https://dictionary.cambridge.org/us/pronunciation/english/clock).
+The [east-northeast compound](https://dictionary.cambridge.org/pronunciation/english/east-northeast)
+normalizes to the same first stream; it was not a second candidate. The independent
+worker retrieved these pages. Our local replay validates its supplied evidence,
+not an independent live page retrieval. Its NFC/hyphen normalization conventions
+have no effect on the fixed strings relative to the local frozen normalization;
+no normalization variant was scanned or introduced to rescue a result.
+
+The supplied [Unicode CLDR IPA-to-X-SAMPA table](https://github.com/unicode-org/cldr/blob/main/common/transforms/IPA-XSampa.xml)
+has recorded blob SHA `f52415305bc082ad061bf064206b40367ea6d41b`. On the same
+fixed strings the case-sensitive ASCII serialization is:
+
+```text
+i:stnO:rTi:st
+b3`:lInklA:k
+```
+
+Lengths are 13 and 12, with exact subset reverse round trips. Case and punctuation
+are part of that code: i and ɪ serialize as i and I, and t and θ as t and T.
+Uppercasing collapses distinct symbols; deleting punctuation is another lossy
+transform. This is a serialization contrast, not an additional phonetic or K4
+cipher search and not a universal X-SAMPA decoding implementation.
+
+The [earlier phonetic-respelling report](PHONETIC-FEASIBILITY.md) remains unchanged.
+This dictionary-source test is a separate model. No dialect, period, cipher family
+or shifted-index variant was added after failure. The bounded batch stops here.

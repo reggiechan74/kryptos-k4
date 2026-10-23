@@ -1,0 +1,35 @@
+{
+  "id": "IPA-FEASIBILITY-001B-SUPPLEMENT",
+  "status": "verified contradiction",
+  "chronology": "Additional algebraic check derived after the frozen full-anchor audit; not part of its original protocol. The original protocol and certificates remain unchanged.",
+  "model": "A–Z Vigenere addition, period10, unchanged first-crib offsets, ordinary glyphs preserve uppercase identity, one globally consistent alias for ː.",
+  "proof": [
+    {
+      "ordinary_position": 22,
+      "ordinary_glyph": "i",
+      "ordinary_ciphertext": "F",
+      "ordinary_P": 8,
+      "ordinary_C": 5,
+      "implied_K": 23,
+      "marker_position": 32,
+      "marker_ciphertext": "K",
+      "marker_C": 10,
+      "required_marker_alias_index": 13,
+      "required_marker_alias_letter": "N"
+    },
+    {
+      "ordinary_position": 33,
+      "ordinary_glyph": "s",
+      "ordinary_ciphertext": "S",
+      "ordinary_P": 18,
+      "ordinary_C": 18,
+      "implied_K": 0,
+      "marker_position": 23,
+      "marker_ciphertext": "L",
+      "marker_C": 11,
+      "required_marker_alias_index": 11,
+      "required_marker_alias_letter": "L"
+    }
+  ],
+  "conclusion": "The first crib alone requires ː to map to both N (13) and L (11), impossible for a single-valued global encoding. Together with the 47 first-crib ordinary-anchor rejections, all48 frozen structures are also contradicted using the first crib alone when consistent marker encoding is required. This supplementary conclusion is distinct from the original 48-case all24-slot ordinary-anchor audit."
+}

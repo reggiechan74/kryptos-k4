@@ -396,3 +396,16 @@ integer >=2. Fixed geometry/order and two designated letter equations remain
 assumptions; nonlinear updates and other cipher constructions are untested.
 The older period-12 crib fit also has a separate
 [chance calibration](PERIODIC-CRIB-CALIBRATION.md), not a positive candidate.
+
+## H-IPA-DICTIONARY — bounded current-US source model rejected
+
+The user's dictionary-phonetics proposal is tested separately from earlier
+respelling and script-transport work. The [IPA report](IPA-PREPROCESSING-FINDINGS.md)
+records frozen Cambridge US forms: R1 segment lengths 10/9, R2 code-point lengths
+13/11. Unchanged transformed-window alignment is an explicit assumption, not
+proved global alignment. Arbitrary phase injectivity leaves 8/11/12 vacuous;
+all 48 fixed-ordinary-Latin periodic arithmetic structures fail within the first
+crib, 47 by ordinary anchors and one by a shared length-marker contradiction.
+No dialect/offset search, special-alias enumeration or English inverse is claimed.
+Original independent full-window certificates and the later first-window
+supplement are preserved with their distinct chronology and staging.

@@ -1,0 +1,69 @@
+{
+  "library_id": "libfile_8b54608d88708191833dd3160805090c",
+  "archive_bytes": 16217,
+  "archive_sha256": "163eb3d44e38c3824b3ffd8f47887601dc3c21915236f9c419cf5a053235c850",
+  "fresh_helpers_retrieved": true,
+  "helper_metadata_preserved": true,
+  "members": {
+    "IPA-PILOT-README.md": {
+      "bytes": 11253,
+      "sha256": "cbc2bb0a13bcfcf018180105df99e051f339b1ab8137f68a151bc9f774e692bc"
+    },
+    "ipa-feasibility-001.json": {
+      "bytes": 16296,
+      "sha256": "0a287a9cb24d1927bec3e4e046d5b1ecdf49dd09aa48ca622093dd43449cda26"
+    },
+    "ipa-feasibility-001b-results.json": {
+      "bytes": 31049,
+      "sha256": "e04305d5767a8b4902972f27663205447fbd01a13be60879ac9bbff5c36637e0"
+    },
+    "ipa-feasibility-001b-spec.json": {
+      "bytes": 2344,
+      "sha256": "fe9407b5f22b477482b1bb81818fc32e398140adc0a595578795775eb00df3c4"
+    },
+    "ipa-first-crib-marker-supplement.json": {
+      "bytes": 1544,
+      "sha256": "e7d0d8c450f738bb2160052b7c8da1db295a1d9412720b484cb743255a79d450"
+    },
+    "replay_ipa_marker_supplement.py": {
+      "bytes": 1017,
+      "sha256": "2106c9196c5e779598d5f987ff03b4877315c1cad87fa49233dc3749a0c64568"
+    },
+    "replay_ipa_pilot.py": {
+      "bytes": 6105,
+      "sha256": "c3255487b775ea52d0d5747093ba6a0d6001fafc42709e338b14b93e5dbbc428"
+    }
+  },
+  "source_inspected_before_execution": true,
+  "main_replay": {
+    "status": "pass",
+    "k4_structures_rejected": 48,
+    "k4_special_assignments_enumerated": 0,
+    "synthetic_cipher_roundtrips": 48,
+    "mutation_negative_controls": 4,
+    "ascii_storage_roundtrips": 2,
+    "xsampa_subset_roundtrips": 2,
+    "xsampa_lengths": [
+      13,
+      12
+    ]
+  },
+  "supplement_replay": {
+    "status": "pass",
+    "supplementary_post_audit_check": true,
+    "required_marker_alias_indices": [
+      13,
+      11
+    ],
+    "single_global_marker_encoding_contradicted": true
+  },
+  "source_provenance": "Primary links and source retrieval are supplied evidence from the independent source worker; local replay verifies the provided strings, certificates and controls.",
+  "full_regression": {
+    "tests": 277,
+    "seconds": 9.822,
+    "passed": true
+  },
+  "preserved_original_whitespace": [
+    "replay_ipa_pilot.py and replay_ipa_marker_supplement.py have original extra blank lines at EOF; preserved byte-exact rather than reformatted."
+  ]
+}
