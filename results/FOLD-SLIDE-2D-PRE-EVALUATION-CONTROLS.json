@@ -1,0 +1,133 @@
+{
+  "kind": "Synthetic pre-evaluation controls; no new systematic actual ranking",
+  "recorded_at_utc": "2026-10-23T23:47:52.687828Z",
+  "spec_commit": "f6aafc4735b8ff9e4f7e01975a97baf9991e1583",
+  "unit_test_groups": 5,
+  "unit_test_groups_passed": true,
+  "controls": {
+    "checks": 472,
+    "failures": [],
+    "plants": [
+      {
+        "truth": "FORWARD:-1:-1",
+        "winners": [
+          "FORWARD:-1:-1"
+        ]
+      },
+      {
+        "truth": "FORWARD:-1:0",
+        "winners": [
+          "FORWARD:-1:0"
+        ]
+      },
+      {
+        "truth": "FORWARD:-1:1",
+        "winners": [
+          "FORWARD:-1:1"
+        ]
+      },
+      {
+        "truth": "FORWARD:0:-1",
+        "winners": [
+          "FORWARD:0:-1"
+        ]
+      },
+      {
+        "truth": "FORWARD:0:0",
+        "winners": [
+          "FORWARD:0:0"
+        ]
+      },
+      {
+        "truth": "FORWARD:0:1",
+        "winners": [
+          "FORWARD:0:1"
+        ]
+      },
+      {
+        "truth": "FORWARD:1:-1",
+        "winners": [
+          "FORWARD:1:-1"
+        ]
+      },
+      {
+        "truth": "FORWARD:1:0",
+        "winners": [
+          "FORWARD:1:0"
+        ]
+      },
+      {
+        "truth": "FORWARD:1:1",
+        "winners": [
+          "FORWARD:1:1"
+        ]
+      },
+      {
+        "truth": "REVERSED:-1:-1",
+        "winners": [
+          "REVERSED:-1:-1"
+        ]
+      },
+      {
+        "truth": "REVERSED:-1:0",
+        "winners": [
+          "REVERSED:-1:0"
+        ]
+      },
+      {
+        "truth": "REVERSED:-1:1",
+        "winners": [
+          "REVERSED:-1:1"
+        ]
+      },
+      {
+        "truth": "REVERSED:0:-1",
+        "winners": [
+          "REVERSED:0:-1"
+        ]
+      },
+      {
+        "truth": "REVERSED:0:0",
+        "winners": [
+          "REVERSED:0:0"
+        ]
+      },
+      {
+        "truth": "REVERSED:0:1",
+        "winners": [
+          "REVERSED:0:1"
+        ]
+      },
+      {
+        "truth": "REVERSED:1:-1",
+        "winners": [
+          "REVERSED:1:-1"
+        ]
+      },
+      {
+        "truth": "REVERSED:1:0",
+        "winners": [
+          "REVERSED:1:0"
+        ]
+      },
+      {
+        "truth": "REVERSED:1:1",
+        "winners": [
+          "REVERSED:1:1"
+        ]
+      }
+    ],
+    "ambiguous_tie_fixture": [
+      "ONE:0:0",
+      "TWO:0:0"
+    ],
+    "seconds": 0.20796545781195164,
+    "actual_new_rankings_examined": false
+  },
+  "implementation_sha256": {
+    "experiments/monument_slide_2d.py": "524d471870b718d3a39d88efc8636d8a2bb0a44d15367b67fb64ba39a61f7261",
+    "experiments/monument_slide_2d_oracle.mjs": "9c6a9630ec74c774dc1dc222a4c911e729c50214d82bab8936dee70fdad173ba",
+    "tests/test_monument_slide_2d.py": "653439a8eb47900873e6dc60d32eab577132f2b096641497c14a24726bb83778"
+  },
+  "historical_blindness_claim": false
+}
