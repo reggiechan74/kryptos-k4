@@ -14,6 +14,8 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | Explore the latest fold-and-slide question | [Findings](research/MONUMENT-FOLD-SLIDE-FINDINGS.md), [every shift](results/FOLD-SLIDE-020-frames.csv), [offline interactive model](research/figures/fold-slide-020.html) |
 | Reproduce the work | [Running experiments](experiments/README.md) and [test guide](tests/README.md) |
 
+**Overlay scope:** the completed scan translates columns only, with vertical displacement `dy = 0`. Manual row movement is exploratory and is not covered by the published column-scan null p-values.
+
 The detailed [hypothesis ledger](research/HYPOTHESES.md) and [experiment log](research/EXPERIMENTS.md) remain the canonical sources. Generated trackers improve navigation without replacing those records.
 
 ## What is actually known

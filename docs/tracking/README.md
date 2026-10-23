@@ -25,3 +25,7 @@ Regenerate with `python3 experiments/build_research_navigation.py`. This only re
 [Curated record classifications](curated-records.json) explicitly assign categories and concise outcomes to every current log section. Mixed records retain combined categories and outcomes. The generator rejects new or renamed entries until their classifications are reviewed; it no longer guesses from titles. Dates in headings or opening dated prose are labeled date-only records, never exact run times.
 
 The shared `RunSnapshot` writer already records UTC start/end for new runs. The common bounded runner additionally records UTC start/end per job, including failed jobs, and an execution kind (`original`, `replay`, `validation` or `unspecified`). Its replay command entrypoints explicitly use `replay`. These fields apply to future runs; no historical receipts are backfilled. Test-only synthetic timing fixtures are validation, not original K4 experiments.
+
+## Overlay scope
+
+FOLD-SLIDE-020 tested horizontal column displacements only, holding vertical displacement `dy = 0`. A live manual overlay may allow rows to move, but those explorations are not part of the frozen scan or its reported null calibration. No row-scan result or live Site implementation is recorded by this documentation note.
