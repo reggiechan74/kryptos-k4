@@ -1,0 +1,456 @@
+{
+  "controls": {
+    "complete_toy_systems": [
+      {
+        "n": 2,
+        "shape": "balanced",
+        "direction": 1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 2,
+        "shape": "balanced",
+        "direction": 1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 2,
+        "shape": "balanced",
+        "direction": -1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 2,
+        "shape": "balanced",
+        "direction": -1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 2,
+        "shape": "internal-chain",
+        "direction": 1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 2,
+        "shape": "internal-chain",
+        "direction": 1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 2,
+        "shape": "internal-chain",
+        "direction": -1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 2,
+        "shape": "internal-chain",
+        "direction": -1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 3,
+        "shape": "balanced",
+        "direction": 1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 3,
+        "shape": "balanced",
+        "direction": 1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 3,
+        "shape": "balanced",
+        "direction": -1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 3,
+        "shape": "balanced",
+        "direction": -1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 3,
+        "shape": "internal-chain",
+        "direction": 1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 3,
+        "shape": "internal-chain",
+        "direction": 1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 3,
+        "shape": "internal-chain",
+        "direction": -1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 3,
+        "shape": "internal-chain",
+        "direction": -1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 4,
+        "shape": "balanced",
+        "direction": 1,
+        "case": 0,
+        "compatible_states": 2,
+        "sets_equal": true
+      },
+      {
+        "n": 4,
+        "shape": "balanced",
+        "direction": 1,
+        "case": 1,
+        "compatible_states": 2,
+        "sets_equal": true
+      },
+      {
+        "n": 4,
+        "shape": "balanced",
+        "direction": -1,
+        "case": 0,
+        "compatible_states": 2,
+        "sets_equal": true
+      },
+      {
+        "n": 4,
+        "shape": "balanced",
+        "direction": -1,
+        "case": 1,
+        "compatible_states": 2,
+        "sets_equal": true
+      },
+      {
+        "n": 4,
+        "shape": "internal-chain",
+        "direction": 1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 4,
+        "shape": "internal-chain",
+        "direction": 1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 4,
+        "shape": "internal-chain",
+        "direction": -1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 4,
+        "shape": "internal-chain",
+        "direction": -1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 5,
+        "shape": "balanced",
+        "direction": 1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 5,
+        "shape": "balanced",
+        "direction": 1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 5,
+        "shape": "balanced",
+        "direction": -1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 5,
+        "shape": "balanced",
+        "direction": -1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 5,
+        "shape": "internal-chain",
+        "direction": 1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 5,
+        "shape": "internal-chain",
+        "direction": 1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 5,
+        "shape": "internal-chain",
+        "direction": -1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 5,
+        "shape": "internal-chain",
+        "direction": -1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 6,
+        "shape": "balanced",
+        "direction": 1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 6,
+        "shape": "balanced",
+        "direction": 1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 6,
+        "shape": "balanced",
+        "direction": -1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 6,
+        "shape": "balanced",
+        "direction": -1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 6,
+        "shape": "internal-chain",
+        "direction": 1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 6,
+        "shape": "internal-chain",
+        "direction": 1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 6,
+        "shape": "internal-chain",
+        "direction": -1,
+        "case": 0,
+        "compatible_states": 1,
+        "sets_equal": true
+      },
+      {
+        "n": 6,
+        "shape": "internal-chain",
+        "direction": -1,
+        "case": 1,
+        "compatible_states": 1,
+        "sets_equal": true
+      }
+    ],
+    "injectivity_mutation_rejections": 40,
+    "continuous_literal_crib_plants": [
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "initial": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "true_states_included": true,
+        "local_counts": [
+          "1307674368000",
+          "20922789888000"
+        ]
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "initial": "DINSXCHMRWBGLQVAFKPUZEJOTY",
+        "true_states_included": true,
+        "local_counts": [
+          "1307674368000",
+          "20922789888000"
+        ]
+      },
+      {
+        "tree": "geometry",
+        "direction": 1,
+        "initial": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "true_states_included": true,
+        "local_counts": [
+          "1307674368000",
+          "20922789888000"
+        ]
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "initial": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "true_states_included": true,
+        "local_counts": [
+          "6227020800",
+          "355687428096000"
+        ]
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "initial": "DINSXCHMRWBGLQVAFKPUZEJOTY",
+        "true_states_included": true,
+        "local_counts": [
+          "6227020800",
+          "355687428096000"
+        ]
+      },
+      {
+        "tree": "geometry",
+        "direction": -1,
+        "initial": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "true_states_included": true,
+        "local_counts": [
+          "6227020800",
+          "355687428096000"
+        ]
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "initial": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "true_states_included": true,
+        "local_counts": [
+          "121645100408832000",
+          "1307674368000"
+        ]
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "initial": "DINSXCHMRWBGLQVAFKPUZEJOTY",
+        "true_states_included": true,
+        "local_counts": [
+          "121645100408832000",
+          "1307674368000"
+        ]
+      },
+      {
+        "tree": "morse",
+        "direction": 1,
+        "initial": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "true_states_included": true,
+        "local_counts": [
+          "121645100408832000",
+          "1307674368000"
+        ]
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "initial": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "true_states_included": true,
+        "local_counts": [
+          "6227020800",
+          "6402373705728000"
+        ]
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "initial": "DINSXCHMRWBGLQVAFKPUZEJOTY",
+        "true_states_included": true,
+        "local_counts": [
+          "6227020800",
+          "6402373705728000"
+        ]
+      },
+      {
+        "tree": "morse",
+        "direction": -1,
+        "initial": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "true_states_included": true,
+        "local_counts": [
+          "6227020800",
+          "6402373705728000"
+        ]
+      }
+    ],
+    "independent_path_prefix_oracle_agrees": true
+  },
+  "source_sha256": {
+    "experiments/tree_state_support.py": "e74ea5c4ea96a3cf8d9d3d5e60681465f9d9466ae1110b9cccdf148aaa18c035",
+    "research/TREE-STATE-SUPPORT-SPEC.md": "ed67876356c26e66b6dc06ca4b57a3f4a96e4aa41d917cb8fbea693e9d70f79e",
+    "experiments/tree_path_cipher.py": "08a9b898f59eda13b6bc3ee962c42b90356358627d7dbba9e3a5dc8b893b361f",
+    "data/alphabet-skeleton-v1.json": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010"
+  }
+}
