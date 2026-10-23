@@ -100,12 +100,12 @@ def merge(target,delta,cipher_domain,h_domain):
     # Correlations are retained: never merge unequal cipher domains.
     if h_domain and cipher_domain:target[delta,cipher_domain]=target.get((delta,cipher_domain),0)|h_domain
 
-def solve(f,observations,budget=None,cache_cap=64<<20):
+def solve(f,observations,budget=None,cache_cap=64<<20,predicate_factory=None):
     b=budget or Budget();m=Model(f);q,r=m.q,m.r;fullc=(1<<(q**r))-1;fullh=(1<<len(m.maps))-1;obs=collections.defaultdict(list)
     for t,p,c in observations:
         if not(0<=p<q and 0<=c<q and t>=0):raise ValueError('bad synthetic observation')
         obs[t].append((p,c))
-    length=max(obs,default=-1)+1;pred=Predicates(m,b,cache_cap);records=[];controllers=0;branches=0;peakbranches=0;splits=0;covered=0;reason=None;complete=True
+    length=max(obs,default=-1)+1;pred=(predicate_factory or Predicates)(m,b,cache_cap);records=[];controllers=0;branches=0;peakbranches=0;splits=0;covered=0;reason=None;complete=True
     try:
         for control in itertools.product(range(q),repeat=r):
             b.check(force=True);nodes={((0,)*r,fullc):fullh};digits=m.digits(control,length)

@@ -1,0 +1,72 @@
+{
+  "completed": true,
+  "rows": [
+    {
+      "q": 2,
+      "rotors": 3,
+      "complete_offsets": 8,
+      "complete_symbol_pairs": 4,
+      "base_builds": 4,
+      "all_predicates_equal": true
+    },
+    {
+      "q": 3,
+      "rotors": 3,
+      "complete_offsets": 27,
+      "complete_symbol_pairs": 9,
+      "base_builds": 9,
+      "all_predicates_equal": true
+    },
+    {
+      "q": 4,
+      "rotors": 3,
+      "complete_offsets": 64,
+      "complete_symbol_pairs": 16,
+      "base_builds": 16,
+      "all_predicates_equal": true
+    },
+    {
+      "q": 5,
+      "rotors": 3,
+      "complete_offsets": 125,
+      "complete_symbol_pairs": 25,
+      "base_builds": 25,
+      "all_predicates_equal": true
+    },
+    {
+      "q": 2,
+      "rotors": 5,
+      "complete_offsets": 32,
+      "complete_symbol_pairs": 4,
+      "base_builds": 4,
+      "all_predicates_equal": true
+    },
+    {
+      "q": 3,
+      "rotors": 5,
+      "complete_offsets": 243,
+      "complete_symbol_pairs": 9,
+      "base_builds": 9,
+      "all_predicates_equal": true
+    }
+  ],
+  "predicates_compared": 6739,
+  "direct_seed_checks": 998515,
+  "all_subset_and_inverse_checks": 2048,
+  "budget": {
+    "seconds": 0.3871689159423113,
+    "peak_RSS_bytes": 20611072,
+    "wall_cap_seconds": 120,
+    "RSS_cap_bytes": 1073741824,
+    "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+  },
+  "K4_evaluations": 0,
+  "source_sha256": {
+    "experiments/sigaba_torus_controls.py": "64c815298dc2fc69c73f8235db1c84ac56026cc7ea87153d610a606ffbf78731",
+    "experiments/sigaba_torus.py": "ee49125ae2cd10760ddfe5dd54822834529c3b984772c1c2fb6662d9d0c4e5ee",
+    "experiments/sigaba_joint_toy.py": "0bf4fddec4c7416a8bb4c8d2d7243885713b847abd5183210d377734b7649ad5",
+    "experiments/sigaba_joint_toy_oracle.py": "0711bd1f0722cb157e6029a88644ecc876942292ffef13292dd79f6bdef8d79c",
+    "research/SIGABA-TORUS-SPEC.md": "73b8227f33bf30b76dee731f0de6a65e013f1ee9ef6597d83bb8ea59af6c9b57",
+    "data/sigaba-joint-toy-v1.json": "2ad409cafff033932a79f4aa45e3f7ac557833e540b0902bef721da4f9d03b9a"
+  }
+}

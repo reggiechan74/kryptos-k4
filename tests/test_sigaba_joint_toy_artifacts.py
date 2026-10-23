@@ -1,4 +1,4 @@
-import hashlib,json,sys,unittest
+import hashlib,json,subprocess,sys,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'experiments'))
 import summarize_sigaba_joint_toy as summary
@@ -19,7 +19,7 @@ class CoupledArtifactTests(unittest.TestCase):
     def test_every_original_receipt_pins_the_executed_source(self):
         for path in sorted((ROOT/'results/sigaba-joint-toy').glob('case-*.json')):
             r=json.loads(path.read_text());self.assertEqual(r['K4_evaluations'],0)
-            for p,h in r.get('source_sha256',{}).items():self.assertEqual(hashlib.sha256((ROOT/p).read_bytes()).hexdigest(),h)
+            for p,h in r.get('source_sha256',{}).items():self.assertEqual(hashlib.sha256(subprocess.check_output(['git','show','9840d8af781dc7291683267106f49223959117e7:'+p],cwd=ROOT)).hexdigest(),h)
             self.assertNotIn('data/k4.json',r.get('source_sha256',{}))
 
     def test_current_scope_and_frontier_retain_the_real_adapter_gate(self):
