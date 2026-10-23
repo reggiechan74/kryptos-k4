@@ -1,0 +1,31 @@
+{
+  "kind": "All-entry disciplined frontier assessment; no new cryptanalysis",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "e6b8204ca42e58d8cc344006376c13f7b982e34c1803df1403cced6770a6d171"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-010.json",
+  "previous_snapshot_commit": "5d772196d40c732a6460e947d3152140b77439d6",
+  "frontier_gates": 9,
+  "ready_new_K4_experiments": 0,
+  "new_K4_evaluations": 0,
+  "stale_scope_pointers_corrected": [
+    "H-AFFINE-DIGRAPH",
+    "H-SIGABA-INSPIRED",
+    "H-AUTOKEY-EXACT",
+    "H-SIGABA",
+    "H-COMPASS-FRAMES",
+    "H-ONE-EDIT"
+  ],
+  "puzzle_solved": false,
+  "global_exhaustion_claimed": false,
+  "site_changed": false
+}

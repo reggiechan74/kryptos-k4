@@ -1,0 +1,27 @@
+{
+  "test_count": 371,
+  "seconds": 28.517,
+  "status": "passed",
+  "log_sha256": "1a7165309a264fe14bfcf8a56f8463391df15d935910e970d981ce6124d616c2",
+  "source_sha256": {
+    "experiments/frontier_assessment.py": "4bc67de536170e49b2614b40ffbdc241d878eea2854f3f5bf603edcd8091f2ef",
+    "research/EXCLUSION-SCOPE-AUDIT-2026-10-23.md": "08f46d0a54234788e7c3212e78270aa216841f8fd6af003a3c06f4e215ed5c5a",
+    "research/EXPERIMENTS.md": "261a9ada21f07a4563743fc5d8f75f1aae4d9d017739636450f774ec5ba4ecda",
+    "research/HYPOTHESES.md": "e6b8204ca42e58d8cc344006376c13f7b982e34c1803df1403cced6770a6d171",
+    "research/RESEARCH-FRONTIER-2026-10-23.md": "07140056321aa142c846e7c50f7c29c125cba3c99d4e0a5f54d6063169cf865e",
+    "research/specifications/FRONTIER-2026-10-23.json": "078083ca33e154cc444dcba2ba52fc41f88c5d53adf8a43f1ac59f056d48ca11",
+    "results/EXCLUSION-SCOPE-AUDIT-007.json": "9f185ba320484e3fb1107ca58cb721bb27fc78ae9ad0d9eb60c6de5c4cce1510",
+    "results/FRONTIER-011.json": "4e3236d073244acd33d2eac1ccb035ce73d0d61cea22d1641ac214cd864f5fa4",
+    "results/HYPOTHESIS-REGISTER-011.json": "8fbc33418fa42a894051126910afa70908e0b215ec3eccfa2d4d284faececb08",
+    "tests/test_frontier_assessment.py": "c1501e2bbec65ebecc36aeb01497b754ae88921380e86e901ac56e733f77bbd7",
+    "tests/test_wheatstone_transition.py": "500a3f568a62ae3180f8d8910b260f41a474ee5c3c011c84f9c0b338cd130842"
+  },
+  "registered_entries_reviewed": 60,
+  "frontier_gates": 9,
+  "new_K4_experiments": 0,
+  "ready_new_K4_experiments": 0,
+  "readiness_is_human_review_not_exhaustiveness_proof": true,
+  "puzzle_solved": false,
+  "denied_sources_reopened": 0,
+  "site_changed": false
+}

@@ -10,6 +10,8 @@ This section is the current status index within the existing hypothesis log; the
 
 The deep source review has now been read and integrated. Its [evidence synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md) confirms navigation context but supplies no surveyed bearing, calibrated shadow mechanism or dated celestial observation. Those physical claims remain evidence-blocked; the separately frozen conditional pilots are not measurements. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
 
+The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every entry below and preserves concrete evidence/algorithm gates. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. No new evidence-grounded K4 evaluation is currently ready under the available inputs and implementations; this is not global exhaustion.
+
 ### Status vocabulary
 
 - **untested**: Discussed mechanism; no completed dedicated local protocol or exact source-complete test.
@@ -103,10 +105,10 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Evidence: [source or scoped prior review](../docs/scott-sun-geometry-audit-2026-10-22.md); historical availability or user proposal does not establish creator use.
 - Tested scope: Geometry/heading audit finds no surveyed reconstruction; no independent magnetic calibration. Locally inspected artist-draft and 1990 dedication scans corroborate a static/metaphorical needle; a dynamic magnetic-needle model requires separate evidence.
 - Untested scope: Any measured conversion between the four frames.
-- Missing inputs: Deep review complete; orientation measurements, instrument placement and epoch-dependent magnetic context remain missing.
+- Missing inputs: Surveyed frame orientations, instrument placement and local magnetic perturbation measurements remain missing. The historical regional IGRF declination is already documented and is not a lodestone measurement.
 - Next discriminating test: Build a source-tagged frame diagram and only test a transformation fixed by independent measurements.
 - Dependencies: Completed source review plus independent frame measurements; no arbitrary declination or fitted angular offset
-- Results: [retained evidence and finite coverage](../docs/scott-sun-geometry-audit-2026-10-22.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Regional-field model already available](evidence/2026-10-23-lodestone-compass/DECLINATION-ADDENDUM.md) and [retained geometry limits](../docs/scott-sun-geometry-audit-2026-10-22.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-CARVED-ROW-REFLECTION
 
@@ -234,7 +236,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Mechanism: Five custom cipher rotors are irregularly stepped by separate control and static index banks, with a fully reversible alphabet path.
 - Evidence: [Frozen source-based architecture and custom specification](GREEK-SIGABA-CANDIDATE-SPEC.md); not an authentic SIGABA emulator or creator-use claim.
 - Tested scope: 6,760 raw starting keys, 130 unique 97-position schedules, 3,380 schedule-normalized models. Every model contradicts the first crib by position 25; no Berlin evaluation needed.
-- Untested scope: Authentic SIGABA, other wirings/collectors, wheel order/orientation or unrestricted five-position settings.
+- Untested scope: Broader authentic-machine domains are tracked under H-SIGABA, whose historical-mechanism implementation and finite full-cipher-start audit are completed; other wirings/collectors, wheel order/orientation and unrestricted controller settings remain outside the custom pilot.
 - Missing inputs: None for the completed custom pilot; historical-machine inputs remain tracked separately under H-SIGABA.
 - Next discriminating test: Stop this finite family. A materially different historical model needs its own authenticated vector and preregistration, not fitted wiring after failure.
 - Dependencies: Exact full-message autonomous state propagation, all-bank inverse checks and twelve complete planted selectors passed; no guessed state or reset at a crib.
@@ -247,8 +249,8 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Evidence: [Historical convention and frozen domain](SIGABA-CSP889-SPEC.md), twelve published Sullivan-attributed vectors reproduced after source-derived fixture translation; not wartime hardware certification or Sanborn-use evidence.
 - Tested scope: SIGABA-CSP889-001: two fixed layouts, normal orientations, repeated cipher/index starts and one variable fast-control start; 13,520 raw repeated-start keys plus full five-independent-cipher-start inference over the same 520 schedules: 6,178,315,520 raw state descriptions, including that old subset; zero first-crib survivors, continuous 97-position schedules. Simulator large-wheel wirings are not recovered wartime secret wirings.
 - Untested scope: [Joint controller/index inference remains unimplemented/budget-unresolved](JOINT-STATE-NONROTOR-FINDINGS.md), despite exact reduction of 100,000 index starts to 66,058 functions; All other wheel orders/orientations, unrestricted independent control/index starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.
-- Missing inputs: Independently motivated key restrictions or historical wiring/key evidence for a broader cryptanalytic search.
-- Next discriminating test: Validate an independently specified historical key-sheet domain before spending on another search; arbitrary starting-key expansion alone is weakly motivated.
+- Missing inputs: A complete tractable coupled control/index/cipher-start solver, or independently motivated key restrictions; published simulator wirings do not establish unknown historical secret wirings.
+- Next discriminating test: Validate a complete joint solver on exhaustive coupled toy systems and freeze actual resource limits before another K4 evaluation; alternatively authenticate an independently specified historical key-sheet domain. Another arbitrary key slice does not close the inference gap.
 - Dependencies: Published vector translation and source conventions; fixed literal A-Z 97-symbol alignment.
 - Results: [Complete cipher-state inference](SIGABA-CSP889-STATE-FINDINGS.md) and [Known-answer controls](../results/SIGABA-CSP889-001-controls.json), [complete finite negative](../results/SIGABA-CSP889-001.json) and [findings](SIGABA-CSP889-FINDINGS.md). The custom H-SIGABA-INSPIRED result remains separate.
 
@@ -582,7 +584,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Mechanism: Direct same-alphabet feedback with arbitrary independent primer.
 - Evidence: [source or scoped prior review](AUTOKEY-CONSTRAINT-FINDINGS.md); historical availability or user proposal does not establish creator use.
 - Tested scope: 1,152 formal cases: 732 contradictory, 420 underdetermined with zero independent consistency checks.
-- Untested scope: Cross-alphabet roles or new constrained generators beyond this finite audit.
+- Untested scope: Cross-alphabet roles outside H-ASYMMETRIC-FEEDBACK's six fixed-primer and 72 arbitrary-primer configurations, or new independently constrained generators.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
@@ -654,11 +656,11 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Mechanism: One fixed 2×2 affine map acts on adjacent pairs.
 - Evidence: [source or scoped prior review](AFFINE-DIGRAPH-PARITY-BOUNDARY.md); historical availability or user proposal does not establish creator use.
 - Tested scope: Four same-alphabet origin cases impossible by parity, plus four crossed AZ/KRYPTOS roles excluded by exact F2/F13 row constraints on the first crib; all allow noninvertible matrices as a rejection relaxation.
-- Untested scope: Mixed alphabets, other block grammars and nonlinear maps.
+- Untested scope: Alphabet roles outside the two frozen AZ/KRYPTOS choices, other block grammars and nonlinear maps; the four crossed roles are already tested.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [Crossed-role exact findings](AFFINE-DIGRAPH-CROSSED-FINDINGS.md) and [retained evidence and finite coverage](AFFINE-DIGRAPH-PARITY-BOUNDARY.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Crossed-role exact findings](AFFINE-DIGRAPH-CROSSED-FINDINGS.md) and [same-alphabet certificates](AFFINE-DIGRAPH-PARITY-BOUNDARY.md) and [already completed crossed-role proof](AFFINE-DIGRAPH-CROSSED-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-SPLIT-COORDINATE-ROUTES
 
@@ -788,7 +790,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Tested scope: Construction convention replays complete; no K4 edit run.
 - Untested scope: Proposed 5,071 raw single-edit variants including baseline.
 - Missing inputs: A separate exact index-map/model budget freeze and independent motivation for an observed K4 discrepancy.
-- Next discriminating test: First validate the error channel on documented K2 deletion; do not repair K4 post hoc.
+- Next discriminating test: Retain the already replayed K2 restoration controls; require an independent K4 discrepancy and exact edit/index-map/model budget before any sensitivity sweep. Do not repair K4 post hoc.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
 - Results: [retained evidence and finite coverage](../independent/2026-10-22/construction/REPORT.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 

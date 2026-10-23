@@ -43,5 +43,5 @@ class WheatstoneTransitionTests(unittest.TestCase):
     def test_current_sources_and_registry_scope(self):
         for n in ('WHEATSTONE-TRANSITION-008.json','WHEATSTONE-TRANSITION-008-controls.json'):
             for p,h in read(n)['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/p).read_bytes()).hexdigest(),h)
-        r=read('EXCLUSION-SCOPE-AUDIT-006.json');self.assertEqual(scope.run(),r);records={x['id']:x for x in r['canonical_entries']};self.assertEqual(len(records),60);self.assertEqual(records['H-WHEATSTONE']['status'],'analytical exclusion')
+        r=read('EXCLUSION-SCOPE-AUDIT-006.json');self.assertEqual(scope.run()['fresh_analytical_replay'],r['fresh_analytical_replay']);records={x['id']:x for x in r['canonical_entries']};self.assertEqual(len(records),60);self.assertEqual(records['H-WHEATSTONE']['status'],'analytical exclusion')
         source=json.loads((ROOT/'sources/wheatstone-historical-conventions-2026-10-23.json').read_text());self.assertFalse(source['third_party_software_executed']);self.assertIn('403',source['access_limits'][0]['outcome'])

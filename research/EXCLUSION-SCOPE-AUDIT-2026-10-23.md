@@ -1,5 +1,7 @@
 # Exclusion scope and evidence audit
 
+
+Historical audit snapshot: current statuses and later results are maintained in [HYPOTHESES.md](HYPOTHESES.md) and the [latest frontier review](RESEARCH-FRONTIER-2026-10-23.md); the dated table below is retained rather than silently rewritten.
 Subsequent 23 October update: [complete cipher-state inference](SIGABA-CSP889-STATE-FINDINGS.md) removes the repeated cipher-start restriction in the same fixed schedule domain. The [primary-scan local review](evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md) supersedes the pending visual-inspection status below. The table and first audit receipt preserve the earlier snapshot; the current register and second audit receipt record later coverage.
 
 
