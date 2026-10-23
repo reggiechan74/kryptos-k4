@@ -1,0 +1,24 @@
+{
+  "kind": "Historical CSP-889 finite result and all-canonical exclusion scope review",
+  "entries": 57,
+  "statuses": {
+    "evidence-blocked": 13,
+    "narrow negative": 24,
+    "analytical exclusion": 9,
+    "untested": 4,
+    "non-identifiable": 6,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "457f42288ecfad28627a5d86fbeabbe76653ec2d28bcf5c4c9686ceebf3938c4"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-004.json",
+  "previous_snapshot_commit": "2985205002f1b4169fd77d219a6b72fa1e85ad68",
+  "actual_results": [
+    "results/SIGABA-CSP889-001.json",
+    "results/AFFINE-DIGRAPH-CROSSED-001.json"
+  ],
+  "authentic_SIGABA_mechanism_with_simulator_wiring_tested": true,
+  "exhaustive_SIGABA_exclusion": false,
+  "all_prior_searches_freshly_reenumerated": false
+}

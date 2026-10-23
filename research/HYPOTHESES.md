@@ -6,7 +6,7 @@ proofs and finite tests have separate scope; compatibility is not a solution.
 <!-- CURRENT-REGISTER:START -->
 ## Current canonical coverage register — 23 October 2026
 
-This section is the current status index within the existing hypothesis log; the historical entries below remain a dated research record. Where a historical heading says “unrun”, this section and its linked final results supersede that status. Experiment execution details remain in [EXPERIMENTS.md](EXPERIMENTS.md). This is not a worldwide novelty claim. Stable IDs must not be reused for a different mechanism. H-PHONETIC-RESPelling was an earlier prose spelling of H-PHONETIC-RESPELLING, not a second hypothesis.
+This section is the current status index within the existing hypothesis log; the historical entries below remain a dated research record. Where a historical heading says “unrun”, this section and its linked final results supersede that status. Experiment execution details remain in [EXPERIMENTS.md](EXPERIMENTS.md). The [exclusion scope audit](EXCLUSION-SCOPE-AUDIT-2026-10-23.md) separates retained evidence, fresh replays, finite domains and unresolved assumptions. This is not a worldwide novelty claim. Stable IDs must not be reused for a different mechanism. H-PHONETIC-RESPelling was an earlier prose spelling of H-PHONETIC-RESPELLING, not a second hypothesis.
 
 The deep source review has now been read and integrated. Its [evidence synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md) confirms navigation context but supplies no surveyed bearing, calibrated shadow mechanism or dated celestial observation. Those physical claims remain evidence-blocked; the separately frozen conditional pilots are not measurements. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
 
@@ -36,7 +36,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 | [H-LAMP-GREEK](#h-lamp-greek) | untested | A declared ordering of 24 lamp fields might index Greek symbols or generate key material. |
 | [H-TREE-STATEFUL](#h-tree-stateful) | narrow negative | Letters or geometry fragments walk a tree and update cipher state carried between letters. |
 | [H-SIGABA-INSPIRED](#h-sigaba-inspired) | narrow negative | Fixed custom three-bank irregular-stepping rotor cipher with a restricted starting-key domain. |
-| [H-SIGABA](#h-sigaba) | evidence-blocked | Use historical irregular stepping from a complete, specified SIGABA mechanism. |
+| [H-SIGABA](#h-sigaba) | narrow negative | Use historical irregular stepping from a complete, specified SIGABA mechanism. |
 | [H-WHEATSTONE](#h-wheatstone) | untested | Unequal 27/26 rings and skip/blank stepping alter substitution state. |
 | [H-M138A](#h-m138a) | untested | Historical strip selection/alignment produces a row-dependent alphabet. |
 | [H-NONLINEAR-BLOCK](#h-nonlinear-block) | untested | A fixed nonlinear block transformation couples several plaintext letters. |
@@ -76,8 +76,8 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 | [H-LETTER-GEOMETRY](#h-letter-geometry) | narrow negative | Represent idealized glyph geometry with unique feature arrays/codes. |
 | [H-IPA-DICTIONARY](#h-ipa-dictionary) | narrow negative | Use source-fixed dictionary IPA windows before encryption. |
 | [H-BOUNDARY-STATE](#h-boundary-state) | narrow negative | One internal boundary resets to the same shared seed/state. |
-| [H-AUTONOMOUS-RECURRENCE](#h-autonomous-recurrence) | narrow negative | A fixed homogeneous/affine multi-lag modular key generator. |
-| [H-RADIX-FEEDBACK](#h-radix-feedback) | narrow negative | Changing-base geometric codes enter a fixed affine key recurrence. |
+| [H-AUTONOMOUS-RECURRENCE](#h-autonomous-recurrence) | analytical exclusion | A fixed homogeneous/affine multi-lag modular key generator. |
+| [H-RADIX-FEEDBACK](#h-radix-feedback) | analytical exclusion | Changing-base geometric codes enter a fixed affine key recurrence. |
 | [H-ONE-EDIT](#h-one-edit) | specified but not run | A bounded construction-error sensitivity arm. |
 | [H-ARCHITECTURE-DIAGNOSIS](#h-architecture-diagnosis) | non-identifiable | Classify architecture from fixed short-text features. |
 
@@ -98,7 +98,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: evidence-blocked
 - Mechanism: Treat engraved north, a physical needle, local lodestone attraction and true north as distinct coordinate frames.
 - Evidence: [source or scoped prior review](../docs/scott-sun-geometry-audit-2026-10-22.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Geometry/heading audit finds no surveyed reconstruction; no independent magnetic calibration.
+- Tested scope: Geometry/heading audit finds no surveyed reconstruction; no independent magnetic calibration. A newly forwarded artist-draft scan calls the needle static and its deflection metaphorical; a dynamic magnetic-needle model requires separate evidence.
 - Untested scope: Any measured conversion between the four frames.
 - Missing inputs: Deep review complete; orientation measurements, instrument placement and epoch-dependent magnetic context remain missing.
 - Next discriminating test: Build a source-tagged frame diagram and only test a transformation fixed by independent measurements.
@@ -146,7 +146,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: evidence-blocked
 - Mechanism: A source-fixed shadow direction or observation time supplies a key or reading instruction.
 - Evidence: [source or scoped prior review](../docs/seasonal-light-source-review.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Conditional solar geometry and the uncalibrated rendering audit exist; no measured optical key.
+- Tested scope: Conditional solar geometry and the uncalibrated rendering audit exist; no measured optical key. Newly forwarded primary-scan reports describe a timer-controlled pool lamp; solar-only scope cannot be generalized to all illumination.
 - Untested scope: A calibrated shadow-to-symbol pipeline.
 - Missing inputs: Surveyed heading/geometry, dated independent observation, receiver and unique extraction rule.
 - Next discriminating test: Validate a known-time photograph on non-K4 features with withheld geometry, then assess the fixed extraction.
@@ -206,7 +206,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: untested
 - Mechanism: A declared ordering of 24 lamp fields might index Greek symbols or generate key material.
 - Evidence: [source or scoped prior review](../docs/language-and-alphabet-layers.md); historical availability or user proposal does not establish creator use.
-- Tested scope: No Greek converter or lamp/Greek experiment; IPA theta is not a Greek alphabet audit.
+- Tested scope: No lamp-to-Greek converter or lamp/Greek experiment; the separate Greek-phonetic outer cipher is now tested, and IPA theta is not a Greek alphabet audit.
 - Untested scope: Any reversible lamp/Greek/A–Z construction.
 - Missing inputs: Why these 24 positions have that ordering; full Greek alphabet and transliteration/framing; time progression and role of state.
 - Next discriminating test: First establish an injective framed bridge or explicit key-generator output; reject a count-only correspondence as an unspecified model.
@@ -239,15 +239,15 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 
 ### H-SIGABA
 
-- Status: evidence-blocked
-- Mechanism: Use historical irregular stepping from a complete, specified SIGABA mechanism.
-- Evidence: [source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.
-- Tested scope: No authentic historical SIGABA emulator/keyspace test. The separately tracked H-SIGABA-INSPIRED custom construction is completed and negative, without authentic reference-vector claims.
-- Untested scope: A historically fixed machine/key domain.
-- Missing inputs: Authenticated full historical wiring/orientation/electrical timing, an independent published machine vector and a separately justified bounded historical key domain.
-- Next discriminating test: Acquire and reproduce an authentic reference vector before any historical-machine K4 pilot; do not transfer the custom model negative to SIGABA generally.
-- Dependencies: Official NSA architectural description reviewed; custom wiring/collector and restricted starts are explicitly separate.
-- Results: [Custom-model findings and historical limits](GREEK-SIGABA-CANDIDATE-FINDINGS.md); authentic historical implementation remains untested.
+- Status: narrow negative
+- Mechanism: Authentic CSP-889 three-bank irregular stepping with the published simulator wiring set.
+- Evidence: [Historical convention and frozen domain](SIGABA-CSP889-SPEC.md), twelve published Sullivan-attributed vectors reproduced after source-derived fixture translation; not wartime hardware certification or Sanborn-use evidence.
+- Tested scope: SIGABA-CSP889-001: two fixed layouts, normal orientations, repeated cipher/index starts and one variable fast-control start; 13,520 raw keys, zero first-crib survivors, continuous 97-position schedules. Simulator large-wheel wirings are not recovered wartime secret wirings.
+- Untested scope: All other wheel orders/orientations, unrestricted independent starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.
+- Missing inputs: Independently motivated key restrictions or historical wiring/key evidence for a broader cryptanalytic search.
+- Next discriminating test: Validate an independently specified historical key-sheet domain before spending on another search; arbitrary starting-key expansion alone is weakly motivated.
+- Dependencies: Published vector translation and source conventions; fixed literal A-Z 97-symbol alignment.
+- Results: [Known-answer controls](../results/SIGABA-CSP889-001-controls.json), [complete finite negative](../results/SIGABA-CSP889-001.json) and [findings](SIGABA-CSP889-FINDINGS.md). The custom H-SIGABA-INSPIRED result remains separate.
 
 ### H-WHEATSTONE
 
@@ -314,7 +314,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: analytical exclusion
 - Mechanism: Pure permutation preserves the letter multiset.
 - Evidence: [source or scoped prior review](STRUCTURAL-FINDINGS.md); historical availability or user proposal does not establish creator use.
-- Tested scope: The required E count exceeds ciphertext availability; pure letter transposition cannot supply the known cribs.
+- Tested scope: With the literal A-Z 97-symbol baseline and unchanged disclosed English cribs, three required E letters exceed the two available; permutations alone cannot supply those cribs.
 - Untested scope: Broader mechanisms outside the exact report domain.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
@@ -326,7 +326,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: analytical exclusion
 - Mechanism: One fixed injective substitution per repeating phase.
 - Evidence: [source or scoped prior review](STRUCTURAL-FINDINGS.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Exactly 19 periods excluded among 1–96 by crib equality; remaining periods are not solutions.
+- Tested scope: Exactly 19 periods among 1–96 excluded for direct unchanged alignment and a fixed bijection per phase, not for transposition/preprocessing; remaining periods are merely not contradicted.
 - Untested scope: Broader mechanisms outside the exact report domain.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
@@ -614,12 +614,12 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: analytical exclusion
 - Mechanism: One fixed 2×2 affine map acts on adjacent pairs.
 - Evidence: [source or scoped prior review](AFFINE-DIGRAPH-PARITY-BOUNDARY.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Four AZ/AZ or KRYPTOS/KRYPTOS origin cases impossible by parity, even allowing noninvertible matrices.
+- Tested scope: Four same-alphabet origin cases impossible by parity, plus four crossed AZ/KRYPTOS roles excluded by exact F2/F13 row constraints on the first crib; all allow noninvertible matrices as a rejection relaxation.
 - Untested scope: Mixed alphabets, other block grammars and nonlinear maps.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](AFFINE-DIGRAPH-PARITY-BOUNDARY.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Crossed-role exact findings](AFFINE-DIGRAPH-CROSSED-FINDINGS.md) and [retained evidence and finite coverage](AFFINE-DIGRAPH-PARITY-BOUNDARY.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-SPLIT-COORDINATE-ROUTES
 
@@ -702,7 +702,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Untested scope: Other explicit pronunciation/outer-cipher constructions; global alignment remains conditional.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
-- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Dependencies: Cambridge-US glyph windows placed at the disclosed English offsets as an explicit conditional assumption; global phonetic alignment through unknown prefixes was not established.
 - Results: [retained evidence and finite coverage](IPA-CODECS-INTEGRATION.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-BOUNDARY-STATE
@@ -719,7 +719,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 
 ### H-AUTONOMOUS-RECURRENCE
 
-- Status: narrow negative
+- Status: analytical exclusion
 - Mechanism: A fixed homogeneous/affine multi-lag modular key generator.
 - Evidence: [source or scoped prior review](AUTONOMOUS-RECURRENCE-FINDINGS.md); historical availability or user proposal does not establish creator use.
 - Tested scope: All 20 order-2..6 structures inconsistent on first crib; parity certificates and field ranks retained.
@@ -731,7 +731,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 
 ### H-RADIX-FEEDBACK
 
-- Status: narrow negative
+- Status: analytical exclusion
 - Mechanism: Changing-base geometric codes enter a fixed affine key recurrence.
 - Evidence: [source or scoped prior review](RADIX-FEEDBACK-FINDINGS.md); historical availability or user proposal does not establish creator use.
 - Tested scope: Eight families impossible even allowing every independent base ≥2; covers base 5 only within that polynomial/affine family.

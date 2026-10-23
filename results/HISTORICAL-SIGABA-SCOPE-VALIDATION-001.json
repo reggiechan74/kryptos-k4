@@ -1,0 +1,31 @@
+{
+  "id": "HISTORICAL-SIGABA-SCOPE-VALIDATION-001",
+  "tests": 329,
+  "seconds": 16.797,
+  "passed": true,
+  "log_sha256": "ce59299818b0654bac012323d01c515e49ee6bf949c8c0399f07c95ea1ab4d19",
+  "test_selection": "Only git-tracked test_*.py basenames; unrelated untracked suffix copies excluded",
+  "external_vectors_both_directions": 12,
+  "csp889_raw_starting_keys": 13520,
+  "csp889_first_crib_survivors": 0,
+  "crossed_affine_structures": 4,
+  "crossed_affine_survivors": 0,
+  "canonical_scope_records": 57,
+  "claim_inventory": {
+    "documents": 104,
+    "lexical_lines": 720,
+    "not_semantic_proof_completeness": true
+  },
+  "historical_large_searches_freshly_rerun": false,
+  "main_and_site": {
+    "work_branch": "main",
+    "site_changed": false
+  },
+  "source_sha256": {
+    "data/sigaba-csp889-v1.json": "8326857b0b2997d64be94a4685185992ce00702235964c0a985f183d92fc3c5b",
+    "experiments/sigaba_csp889.py": "2f12042cc4ee838edbe5d1619d42a9d4c856b7586bbd41e91dd4f5f6ada27516",
+    "experiments/affine_digraph_crossed.py": "475653ec75519cf18a43cb4857c00a7480b0a5c62ce2d8fb8ee70d8d399d4a4e",
+    "experiments/exclusion_scope_audit.py": "861a87fa8bddd9184b953e643fcb42ea7bfe19f000cb352cff30f8cfda902988",
+    "research/HYPOTHESES.md": "457f42288ecfad28627a5d86fbeabbe76653ec2d28bcf5c4c9686ceebf3938c4"
+  }
+}

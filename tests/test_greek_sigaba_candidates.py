@@ -110,7 +110,10 @@ class GreekSigabaCandidateTests(unittest.TestCase):
         for path,sha in r['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),sha)
         reg=json.loads((ROOT/'results/HYPOTHESIS-REGISTER-004.json').read_text())
         self.assertEqual(reg['entries'],57);self.assertFalse(reg['authentic_SIGABA_tested'])
-        for path,sha in reg['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),sha)
+        for path,sha in reg['source_sha256'].items():
+            import subprocess
+            historical=subprocess.check_output(['git','show','2985205002f1b4169fd77d219a6b72fa1e85ad68:'+path],cwd=ROOT)
+            self.assertEqual(hashlib.sha256(historical).hexdigest(),sha)
 
     def test_independent_JS_replay_and_complete_domain_agreement(self):
         import shutil,subprocess

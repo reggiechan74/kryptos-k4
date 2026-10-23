@@ -1,5 +1,8 @@
 # K4 strategy comparison after the bounded route and feedback batches
 
+23 October 2026 status note: this is the preserved 22 October comparison, not the current execution status. Evolving alphabets, Greek phonetic and a bounded historical CSP-889 mechanism pilot are now completed; see the [canonical register](HYPOTHESES.md) and [scope audit](EXCLUSION-SCOPE-AUDIT-2026-10-23.md). Historical “untested” rows below are not current claims.
+
+
 **Execution update, 22 October:** the comparison below preserves its planning
 context. The authorized four-track followup is now completed to its declared
 gates; see [results and precise source limits](STRATEGY-FOLLOWUP-FINDINGS.md).

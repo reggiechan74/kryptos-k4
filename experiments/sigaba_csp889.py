@@ -110,12 +110,18 @@ def prepare():
     return d,t,groups
 
 def evaluate(cipher,prepared,records=True):
-    d,t,groups=prepared;start=time.monotonic();rows=[];fits=[];first=0;raw=0;hist=Counter();streams=set()
+    d,t,groups=prepared;start=time.monotonic();rows=[];fits=[];first=0;raw=0;hist=Counter();streams=set();all_outputs=set()
     for group in groups:
         layout=group['layout'];cr=LAYOUTS[layout][0]
         for c in range(26):
             if time.monotonic()-start>180:raise TimeoutError('budget-unresolved: selector not completed')
             raw+=len(group['aliases']);failure=None
+            output=[]
+            for i,ch in enumerate(cipher):
+                x=AZ.index(ch)
+                for j in range(4,-1,-1):x=t['large'][cr[j]-1][0][1][(group['states'][i][j]+c)%26][x]
+                output.append(AZ[x])
+            all_outputs.add(hashlib.sha256(''.join(output).encode()).hexdigest())
             # Encrypt the known first crib at continuously propagated states.
             for i,ch in enumerate(WINDOWS[0][1],21):
                 x=AZ.index(ch)
@@ -134,7 +140,7 @@ def evaluate(cipher,prepared,records=True):
                 assert Machine(k,d,t).crypt(p)==cipher
                 streams.add(p);fits.append(dict(layout=layout,c=c,aliases=group['aliases'],plaintext=p))
             if records:rows.append(dict(layout=layout,c=c,aliases=group['aliases'],berlin_evaluated=second,first_conflict=failure))
-    return dict(raw_keys=raw,schedule_classes=len(groups),schedule_normalized_descriptions=len(groups)*26,first_stage_raw_survivors=first,full_compatible=fits,distinct_surviving_plaintexts=len(streams),mismatch_histogram=dict(hist),records=rows,completed=True)
+    return dict(raw_keys=raw,schedule_classes=len(groups),schedule_normalized_descriptions=len(groups)*26,first_stage_raw_survivors=first,full_compatible=fits,distinct_surviving_plaintexts=len(streams),distinct_full_decryption_sha256=len(all_outputs),mismatch_histogram={str(k):v for k,v in hist.items()},records=rows,completed=True)
 
 def controls(prepared):
     d,t,groups=prepared;vectors=[]

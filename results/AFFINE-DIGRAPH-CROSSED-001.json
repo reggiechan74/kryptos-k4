@@ -1,0 +1,1406 @@
+{
+  "structures": [
+    {
+      "input": "AZ",
+      "output": "KRYPTOS",
+      "pair_origin": 1,
+      "training": {
+        "pair_starts_one_based": [
+          23,
+          25,
+          27,
+          29,
+          31,
+          33
+        ],
+        "matrix": [
+          [
+            0,
+            18,
+            1
+          ],
+          [
+            19,
+            13,
+            1
+          ],
+          [
+            14,
+            17,
+            1
+          ],
+          [
+            19,
+            7,
+            1
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            18,
+            19,
+            1
+          ]
+        ],
+        "rhs": [
+          [
+            17,
+            22,
+            20,
+            1,
+            13,
+            6
+          ],
+          [
+            1,
+            20,
+            3,
+            19,
+            0,
+            6
+          ]
+        ],
+        "rows": [
+          {
+            "modulus": 26,
+            "fields": [
+              {
+                "prime": 2,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 1
+                }
+              },
+              {
+                "prime": 13,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    4
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    5
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    10
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    4,
+                    5,
+                    3,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 5
+                }
+              }
+            ],
+            "consistent": false,
+            "cardinality": 0
+          },
+          {
+            "modulus": 26,
+            "fields": [
+              {
+                "prime": 2,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 1
+                }
+              },
+              {
+                "prime": 13,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    9
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    7
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    5
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    11
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    5
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    4,
+                    5,
+                    3,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 2
+                }
+              }
+            ],
+            "consistent": false,
+            "cardinality": 0
+          }
+        ]
+      },
+      "training_parameter_tuples": "0",
+      "second_stage_evaluated": false,
+      "status": "impossible_training",
+      "all_crib_parameter_tuples": "0"
+    },
+    {
+      "input": "AZ",
+      "output": "KRYPTOS",
+      "pair_origin": 2,
+      "training": {
+        "pair_starts_one_based": [
+          22,
+          24,
+          26,
+          28,
+          30,
+          32
+        ],
+        "matrix": [
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            18,
+            19,
+            1
+          ],
+          [
+            13,
+            14,
+            1
+          ],
+          [
+            17,
+            19,
+            1
+          ],
+          [
+            7,
+            4,
+            1
+          ],
+          [
+            0,
+            18,
+            1
+          ]
+        ],
+        "rhs": [
+          [
+            12,
+            1,
+            20,
+            3,
+            19,
+            0
+          ],
+          [
+            17,
+            22,
+            20,
+            1,
+            13,
+            6
+          ]
+        ],
+        "rows": [
+          {
+            "modulus": 26,
+            "fields": [
+              {
+                "prime": 2,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "rhs": 1
+                }
+              },
+              {
+                "prime": 13,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    7
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    10
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    10
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    9
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    11
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    5
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    8,
+                    11,
+                    6,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 9
+                }
+              }
+            ],
+            "consistent": false,
+            "cardinality": 0
+          },
+          {
+            "modulus": 26,
+            "fields": [
+              {
+                "prime": 2,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "rhs": 1
+                }
+              },
+              {
+                "prime": 13,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    3
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    4
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    5
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    10
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    8,
+                    11,
+                    6,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 5
+                }
+              }
+            ],
+            "consistent": false,
+            "cardinality": 0
+          }
+        ]
+      },
+      "training_parameter_tuples": "0",
+      "second_stage_evaluated": false,
+      "status": "impossible_training",
+      "all_crib_parameter_tuples": "0"
+    },
+    {
+      "input": "KRYPTOS",
+      "output": "AZ",
+      "pair_origin": 1,
+      "training": {
+        "pair_starts_one_based": [
+          23,
+          25,
+          27,
+          29,
+          31,
+          33
+        ],
+        "matrix": [
+          [
+            7,
+            6,
+            1
+          ],
+          [
+            4,
+            19,
+            1
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            4,
+            14,
+            1
+          ],
+          [
+            11,
+            7,
+            1
+          ],
+          [
+            6,
+            4,
+            1
+          ]
+        ],
+        "rhs": [
+          [
+            11,
+            21,
+            16,
+            17,
+            6,
+            18
+          ],
+          [
+            17,
+            16,
+            15,
+            13,
+            10,
+            18
+          ]
+        ],
+        "rows": [
+          {
+            "modulus": 26,
+            "fields": [
+              {
+                "prime": 2,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 1
+                }
+              },
+              {
+                "prime": 13,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    9
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    2
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    8
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    9,
+                    4,
+                    12,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 2
+                }
+              }
+            ],
+            "consistent": false,
+            "cardinality": 0
+          },
+          {
+            "modulus": 26,
+            "fields": [
+              {
+                "prime": 2,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 1
+                }
+              },
+              {
+                "prime": 13,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    9
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    2
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    7
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    7
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    7
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    9,
+                    4,
+                    12,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 7
+                }
+              }
+            ],
+            "consistent": false,
+            "cardinality": 0
+          }
+        ]
+      },
+      "training_parameter_tuples": "0",
+      "second_stage_evaluated": false,
+      "status": "impossible_training",
+      "all_crib_parameter_tuples": "0"
+    },
+    {
+      "input": "KRYPTOS",
+      "output": "AZ",
+      "pair_origin": 2,
+      "training": {
+        "pair_starts_one_based": [
+          22,
+          24,
+          26,
+          28,
+          30,
+          32
+        ],
+        "matrix": [
+          [
+            11,
+            7,
+            1
+          ],
+          [
+            6,
+            4,
+            1
+          ],
+          [
+            19,
+            5,
+            1
+          ],
+          [
+            1,
+            4,
+            1
+          ],
+          [
+            14,
+            11,
+            1
+          ],
+          [
+            7,
+            6,
+            1
+          ]
+        ],
+        "rhs": [
+          [
+            5,
+            17,
+            16,
+            15,
+            13,
+            10
+          ],
+          [
+            11,
+            21,
+            16,
+            17,
+            6,
+            18
+          ]
+        ],
+        "rows": [
+          {
+            "modulus": 26,
+            "fields": [
+              {
+                "prime": 2,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "rhs": 1
+                }
+              },
+              {
+                "prime": 13,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    6
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    12
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    11
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    7
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    1,
+                    1,
+                    10,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 2
+                }
+              }
+            ],
+            "consistent": false,
+            "cardinality": 0
+          },
+          {
+            "modulus": 26,
+            "fields": [
+              {
+                "prime": 2,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "rhs": 1
+                }
+              },
+              {
+                "prime": 13,
+                "variables": 3,
+                "equations": 6,
+                "rank": 3,
+                "augmented_rank": 4,
+                "consistent": false,
+                "pivots": [
+                  0,
+                  1,
+                  2
+                ],
+                "consistency_checks": 3,
+                "rref": [
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    8
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    9
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    12
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    6
+                  ]
+                ],
+                "particular": null,
+                "basis": null,
+                "cardinality": 0,
+                "contradiction": {
+                  "equation_weights": [
+                    1,
+                    1,
+                    10,
+                    1,
+                    0,
+                    0
+                  ],
+                  "rhs": 1
+                }
+              }
+            ],
+            "consistent": false,
+            "cardinality": 0
+          }
+        ]
+      },
+      "training_parameter_tuples": "0",
+      "second_stage_evaluated": false,
+      "status": "impossible_training",
+      "all_crib_parameter_tuples": "0"
+    }
+  ],
+  "source_sha256": {
+    "experiments/affine_digraph_crossed.py": "475653ec75519cf18a43cb4857c00a7480b0a5c62ce2d8fb8ee70d8d399d4a4e",
+    "research/AFFINE-DIGRAPH-CROSSED-SPEC.md": "9e4422cddf949fa9754309dbcc2bb0c3d57147be108d13bbb98c5dc5e25cb593",
+    "experiments/exact_linear.py": "b325dca592ff0ffd7bc50d83fb757c79569969890aa88f35ed3b79ab86b3a617",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}

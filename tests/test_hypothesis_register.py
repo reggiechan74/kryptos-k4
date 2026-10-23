@@ -39,7 +39,7 @@ class HypothesisRegisterTests(unittest.TestCase):
         for i in ('H-COMPASS-REVERSE','H-COMPASS-FRAMES','H-SHADOW-TIME','H-CELESTIAL-ALTITUDE','H-CLOCK-HISTORICAL'):
             self.assertIn('- Status: evidence-blocked',records[i])
         self.assertIn('- Status: narrow negative',records['H-GREEK-PHONETIC'])
-        self.assertIn('- Status: evidence-blocked',records['H-SIGABA'])
+        self.assertIn('- Status: narrow negative',records['H-SIGABA'])
         self.assertIn('104',records['H-TREE-STATEFUL'])
         self.assertIn('not ordinary positional base 5',records['H-LAMP-MENGENLEHRE'])
         self.assertIn('non-identifiable',records['H-OTP'])

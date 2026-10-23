@@ -834,3 +834,9 @@ check or full actual candidate is needed. Twelve complete selector plants retain
 both raw-key schedule aliases; all 7,260 rotor inverse and carry controls pass.
 The post-run independent JS arithmetic agrees on both complete finite domains.
 Authentic historical SIGABA remains outside coverage, explicitly tracked separately.
+
+## 23 October 2026 — historical SIGABA and exclusion-scope audit
+
+SIGABA-CSP889-001 implements the historical mechanism with the published simulator wiring set. Twelve external known-answer vectors pass after an explicit source-derived convention translation; no downloaded software is executed. The frozen 13,520-key domain has zero first-crib survivors; no Berlin evaluation, no broad SIGABA exclusion. [Specification](SIGABA-CSP889-SPEC.md), [findings](SIGABA-CSP889-FINDINGS.md), [controls](../results/SIGABA-CSP889-001-controls.json), [complete result](../results/SIGABA-CSP889-001.json).
+
+The [exclusion audit](EXCLUSION-SCOPE-AUDIT-2026-10-23.md) reviews all 57 canonical records with exact finite coverage, alias accounting and preprocessing assumptions; historical long searches are not represented as freshly rerun. Its concrete untested affine-digraph gap led to AFFINE-DIGRAPH-CROSSED-001: four crossed-role structures, all inconsistent on the first crib, with sixteen literal plants and thirty-six complete small-ring comparisons. [Frozen protocol](AFFINE-DIGRAPH-CROSSED-SPEC.md), [findings](AFFINE-DIGRAPH-CROSSED-FINDINGS.md), [proofs](../results/AFFINE-DIGRAPH-CROSSED-001.json).
