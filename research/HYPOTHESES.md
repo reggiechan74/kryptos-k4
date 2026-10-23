@@ -37,7 +37,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 | [H-TREE-STATEFUL](#h-tree-stateful) | narrow negative | Letters or geometry fragments walk a tree and update cipher state carried between letters. |
 | [H-SIGABA-INSPIRED](#h-sigaba-inspired) | narrow negative | Fixed custom three-bank irregular-stepping rotor cipher with a restricted starting-key domain. |
 | [H-SIGABA](#h-sigaba) | narrow negative | Use historical irregular stepping from a complete, specified SIGABA mechanism. |
-| [H-WHEATSTONE](#h-wheatstone) | untested | Unequal 27/26 rings and skip/blank stepping alter substitution state. |
+| [H-WHEATSTONE](#h-wheatstone) | analytical exclusion | Direct aligned fixed 27/26 rings, including arbitrary ring permutations. |
 | [H-M94-CYCLIC](#h-m94-cyclic) | analytical exclusion | One common cyclic row displacement per 25-letter block on arbitrary valid permutation discs. |
 | [H-M138A](#h-m138a) | evidence-blocked | Historical strip selection/alignment produces a row-dependent alphabet. |
 | [H-FEISTEL-2ROUND](#h-feistel-2round) | analytical exclusion | Exact two-round additive Feistel with arbitrary round functions, fixed coordinates and swaps. |
@@ -254,15 +254,15 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 
 ### H-WHEATSTONE
 
-- Status: untested
-- Mechanism: Unequal 27/26 rings and skip/blank stepping alter substitution state.
-- Evidence: [source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Pinned Barney fe_wheatstone.py covers specified outer alphabets/blank slots and arbitrary inner alphabet; its imported generator explicitly includes reversed outer alphabets. This is reviewed prior art, not a new local run or a fresh replay of its full sweep.
-- Untested scope: Only historically justified domains demonstrably outside that exact source scope.
-- Missing inputs: A precise non-equivalent convention, initial state and independently fixed ring/key restriction.
-- Next discriminating test: Compare exact conventions before compute; reproduce a historical reference vector and skip any model already excluded by the pinned audit.
-- Dependencies: Do not call plain Wheatstone new; do not conflate it with vowel/consonant cursor pilots
-- Results: [Pinned source-direction audit](../sources/wheatstone-direction-coverage-review.json) and [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Status: analytical exclusion
+- Mechanism: Fixed 27/26 geared rings with displacement determined by the adjacent processed plaintext pair; both ring alphabets and starting phases may be arbitrary.
+- Evidence: Published MysteryTwister/CrypTool reconstruction and worked vectors; institutional historical context; original 1879 full operating text and authentic Plett variants not completely recovered.
+- Tested scope: WHEATSTONE-TRANSITION-008: ST at positions 24–25 and 33–34 has opposed ciphertext equality (RV versus SS), impossible for one fixed displacement. Covers arbitrary fixed outer/inner permutations without key enumeration, beyond the finite outer dictionary in pinned prior art. Two external worked vectors and complete small systems pass; no Berlin evaluation.
+- Untested scope: State-dependent/hidden extra moves, changing rings, outer layers and preprocessing that changes the processed-text anchors; no universal Wheatstone/Plett/Wadsworth exclusion.
+- Missing inputs: A complete independently sourced materially different historical procedure and external vectors before testing such variants.
+- Next discriminating test: Stop the aligned fixed-ring domain; pursue exact original operating conventions only if they establish a distinct mechanism rather than duplicate alphabets/directions.
+- Dependencies: Adjacent disclosed processed letters aligned with adjacent ciphertext; spaces emit symbols and no silent gap motion is invented; repeated-letter preprocessing is lossy.
+- Results: [Source audit, proof and limits](WHEATSTONE-TRANSITION-FINDINGS.md), [exact certificate](../results/WHEATSTONE-TRANSITION-008.json), [source receipts](../sources/wheatstone-historical-conventions-2026-10-23.json), and [prior alphabet-direction audit](../sources/wheatstone-direction-coverage-review.json).
 
 ### H-M94-CYCLIC
 

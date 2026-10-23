@@ -1,0 +1,28 @@
+{
+  "method": "Post-run independent arbitrary fixed transition-table relaxation: each plaintext digram has one displacement modulo26; no ring alphabet inference",
+  "injective_key_controls": 3446,
+  "mutation_controls": 2,
+  "first": {
+    "consistent": false,
+    "contradictions": [
+      {
+        "pair": "ST",
+        "observations": [
+          {
+            "position": 24,
+            "ciphertext_pair": "RV",
+            "equal": false
+          },
+          {
+            "position": 33,
+            "ciphertext_pair": "SS",
+            "equal": true
+          }
+        ],
+        "allowed_displacements_mod26": []
+      }
+    ]
+  },
+  "Berlin_evaluations": 0,
+  "key_enumeration_for_K4": 0
+}

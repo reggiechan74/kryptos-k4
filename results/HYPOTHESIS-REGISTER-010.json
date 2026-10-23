@@ -1,0 +1,22 @@
+{
+  "kind": "Source-grounded arbitrary-ring Wheatstone analytical exclusion",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "d473daa8cfbf6029472d3c79d32b6b3e047c49a79e15a7f44bcb23fddac36678"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-009.json",
+  "previous_snapshot_commit": "7a36366cfd21d2ada4d7b1bd72ae1f5ee33c5a16",
+  "K4_key_enumeration": 0,
+  "Berlin_evaluations": 0,
+  "external_modern_vectors": 2,
+  "authentic_original_1879_full_text_inspected": false,
+  "site_changed": false
+}

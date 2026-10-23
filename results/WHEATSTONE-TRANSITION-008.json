@@ -1,0 +1,125 @@
+{
+  "actual": {
+    "first": {
+      "compatible_necessary_condition": false,
+      "certificates": [
+        {
+          "kind": "same_processed_plaintext_pair_opposed_cipher_equality",
+          "first": {
+            "positions": [
+              24,
+              25
+            ],
+            "plaintext_pair": "ST",
+            "ciphertext_pair": "RV",
+            "equal_cipher": false
+          },
+          "second": {
+            "positions": [
+              33,
+              34
+            ],
+            "plaintext_pair": "ST",
+            "ciphertext_pair": "SS",
+            "equal_cipher": true
+          }
+        }
+      ],
+      "ordered_pair_classes": {
+        "EA": {
+          "positions": [
+            22,
+            23
+          ],
+          "plaintext_pair": "EA",
+          "ciphertext_pair": "FL",
+          "equal_cipher": false
+        },
+        "AS": {
+          "positions": [
+            23,
+            24
+          ],
+          "plaintext_pair": "AS",
+          "ciphertext_pair": "LR",
+          "equal_cipher": false
+        },
+        "ST": {
+          "positions": [
+            24,
+            25
+          ],
+          "plaintext_pair": "ST",
+          "ciphertext_pair": "RV",
+          "equal_cipher": false
+        },
+        "TN": {
+          "positions": [
+            25,
+            26
+          ],
+          "plaintext_pair": "TN",
+          "ciphertext_pair": "VQ",
+          "equal_cipher": false
+        },
+        "NO": {
+          "positions": [
+            26,
+            27
+          ],
+          "plaintext_pair": "NO",
+          "ciphertext_pair": "QQ",
+          "equal_cipher": true
+        },
+        "OR": {
+          "positions": [
+            27,
+            28
+          ],
+          "plaintext_pair": "OR",
+          "ciphertext_pair": "QP",
+          "equal_cipher": false
+        },
+        "RT": {
+          "positions": [
+            28,
+            29
+          ],
+          "plaintext_pair": "RT",
+          "ciphertext_pair": "PR",
+          "equal_cipher": false
+        },
+        "TH": {
+          "positions": [
+            29,
+            30
+          ],
+          "plaintext_pair": "TH",
+          "ciphertext_pair": "RN",
+          "equal_cipher": false
+        },
+        "HE": {
+          "positions": [
+            30,
+            31
+          ],
+          "plaintext_pair": "HE",
+          "ciphertext_pair": "NG",
+          "equal_cipher": false
+        }
+      }
+    },
+    "second": null,
+    "second_stage_evaluated": false,
+    "K4_keys_enumerated": 0,
+    "scope": "Arbitrary fixed permutation rings with displacement depending only on adjacent processed plaintext symbols; disclosed processed positions aligned, no hidden moves",
+    "historically_untouched_checks": 0,
+    "discovery_chronology": "Invariant/witness identified from public cribs during source review, then frozen and mechanically verified; not a blind discovery"
+  },
+  "source_sha256": {
+    "experiments/wheatstone_transition.py": "ca1b1c2bd363ea496c9581e2fd183f9c01edcc6afa2a46d7dfa161a86efe8941",
+    "research/WHEATSTONE-TRANSITION-SPEC.md": "37a50512d287cebfbeaf883f0fc417e4710e953cc8929a0b4c20238285b403d7",
+    "data/wheatstone-reference-vectors.json": "1b62afe0a97c641a33c1b7b1a20029f7510a5a1f7d570bdbd12710606882b15b",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}

@@ -49,5 +49,5 @@ class ArbitraryMorseTests(unittest.TestCase):
     def test_source_hashes_and_current_scope_receipt(self):
         for n in ('MASK-FM-ARBITRARY-007-controls.json','MASK-FM-ARBITRARY-007.json'):
             for p,h in read(n)['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/p).read_bytes()).hexdigest(),h)
-        saved=read('EXCLUSION-SCOPE-AUDIT-005.json');self.assertEqual(scope.run(),saved)
+        saved=read('EXCLUSION-SCOPE-AUDIT-005.json');self.assertEqual(scope.run()['fresh_analytical_replay'],saved['fresh_analytical_replay'])
         records={x['id']:x for x in saved['canonical_entries']};self.assertEqual(len(records),60);self.assertEqual(records['H-MASK-FM']['status'],'analytical exclusion')

@@ -1,0 +1,54 @@
+{
+  "review_date": "2026-10-23",
+  "sources": [
+    {
+      "url": "https://mysterytwister.org/media/challenges/pdf/mtc3-madness-04-wheatstone-01-en.pdf",
+      "author": "madness",
+      "publication": "MysteryTwister / CrypTool, April 2021",
+      "scope": "Author's own operational reconstruction and worked vector, pages 2-3 and 7-10. Not a historical physical-machine KAT.",
+      "observations": ["Outer plaintext alphabet has A-Z plus space; inner is a permutation of A-Z.", "Hands move equal symbol steps clockwise, 27/26 angular ratio.", "Repeated plaintext letter replacement and optional enciphered terminal space are explicit.", "MEQT_AT_DAWN_ with the published key produces GNKJMZWZCBAIN."]
+    },
+    {
+      "url": "https://www.cipherchallenge.org/wp-content/uploads/2022/09/A-Book-on-Classical-Cryptography-by-Madness.pdf",
+      "author": "madness",
+      "section": "Unit 120, zero-based PDF pages 380-387; section modified 2022-04-14",
+      "scope": "Same modern author's reconstruction, not independent historical provenance from the challenge.",
+      "observations": ["Repeated plaintext must be disguised for reversible decoding.", "Spaces emit ciphertext; pointer advancement does not include discretionary extra revolutions.", "A second worked vector uses SECRET_MESXSAGE_ and yields YEQORNCXFLHMRVGA.", "Pletts' mixed-plaintext-ring extension is described, but no complete independent physical Plett validation is claimed here."]
+    },
+    {
+      "url": "https://ietarchivesblog.org/2020/02/17/sir-charles-wheatstone-1802-1875-the-playfair-cipher/",
+      "scope": "Institutional archive context: Cryptograph's inner/outer dial and 26/27 ratio; correspondence/diagrams accessible by appointment, not obtained."
+    },
+    {
+      "url": "https://cryptologicfoundation.org/ncf-history/wheatstone-cryptograph-and-wheatstone-plett-cipher/",
+      "scope": "Institutional collection history distinguishes Wheatstone and Wheatstone-Plett devices; no detailed operating specification or original test vectors recovered from this page."
+    },
+    {
+      "url": "https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/friedman-documents/patent-equipment/FOLDER_515/41788379082740.pdf",
+      "scope": "Primary Wadsworth device record and correspondence; confirms a distinct device, not a substitute specification for Wheatstone or permission to merge ring sizes."
+    },
+    {
+      "url": "https://www.cambridge.org/core/books/abs/scientific-papers-of-sir-charles-wheatstone/instructions-for-the-employment-of-wheatstones-cryptograph/60180505AB1EAA07371FB64FD1A8555E",
+      "scope": "Publisher metadata identifies original 1879 chapter pp342-347 and public first-page preview. Full original chapter not inspected; no claim of checking its exact repeated-letter wording."
+    }
+  ],
+  "access_limits": [
+    {"url": "https://eprint.iacr.org/2020/1492.pdf", "outcome": "403 Forbidden; no retry through another route; full paper not read"},
+    {"url": "https://books.google.com/books?id=CtGEAAAAIAAJ", "outcome": "Book metadata read; observed Download PDF link returned 403; no alternate download attempted"},
+    {"url": "https://archive.org/details/scientificpaper00londgoog", "outcome": "Tool timeout; no original pages admitted"},
+    {"url": "https://www.marshallfoundation.org/library/methods-solution-ciphers", "outcome": "Not accessible through tool; Friedman 1918 brochure not read"},
+    {"url": "https://www.campx.ca/Several_Machine_Ciphers.pdf", "outcome": "Not accessible through tool; no download admitted"},
+    {"url": "https://www.nsa.gov/Portals/70/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_238/41748889078809.pdf", "outcome": "Not accessible through tool; no manual contents inferred"}
+  ],
+  "prior_coverage": {
+    "repository": "https://github.com/barneyjm/kryptos-k4",
+    "commit": "2db2722cc3f18c52d4d8369d7adc5a1db7e859d7",
+    "files": ["scripts/fe_wheatstone.py", "scripts/fe_common.py", "scripts/rk_mixed.py"],
+    "receipt": "sources/wheatstone-direction-coverage-review.json",
+    "covered": "Finite generated outer alphabets with all blank slots and reversals, arbitrary inner permutation and free inter-island phase. No prior dictionary sweep rerun or extra negative count.",
+    "gap_closed": "Invariant verifies impossibility for arbitrary fixed outer/inner permutations under aligned processed-text, fixed-transition assumptions.",
+    "not_covered": "State-dependent moves, changing rings, hidden operations, unknown preprocessing/alignment and full authentic Plett/Wadsworth conventions."
+  },
+  "third_party_software_executed": false,
+  "copyright_images_or_complete_text_added": false
+}

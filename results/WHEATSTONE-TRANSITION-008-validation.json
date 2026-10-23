@@ -1,0 +1,33 @@
+{
+  "test_count": 367,
+  "seconds": 28.061,
+  "status": "passed",
+  "log_sha256": "3be5757632b7eeaf09df517f6a54d9056477a1512a1d98b0f65020c9d4813013",
+  "source_sha256": {
+    "data/wheatstone-reference-vectors.json": "1b62afe0a97c641a33c1b7b1a20029f7510a5a1f7d570bdbd12710606882b15b",
+    "experiments/wheatstone_transition.py": "ca1b1c2bd363ea496c9581e2fd183f9c01edcc6afa2a46d7dfa161a86efe8941",
+    "experiments/wheatstone_transition_oracle.mjs": "56738ca5dd98a16e66f17536efa7017cc9971ae3bbb14de2c15941d5d068b242",
+    "research/EXPERIMENTS.md": "165b5137832f50181ef3815df79e58c8d8dbbbae7d338d9d55c861175c368835",
+    "research/HYPOTHESES.md": "d473daa8cfbf6029472d3c79d32b6b3e047c49a79e15a7f44bcb23fddac36678",
+    "research/WHEATSTONE-TRANSITION-FINDINGS.md": "7fccef5c54eb365c17178ab5313d64f719b52e232c833c0b3b37abb7fa72e57d",
+    "research/WHEATSTONE-TRANSITION-SPEC.md": "37a50512d287cebfbeaf883f0fc417e4710e953cc8929a0b4c20238285b403d7",
+    "results/EXCLUSION-SCOPE-AUDIT-006.json": "78ab9bff549c59346a2d75f6ce4a1c74eab092f0f6aa9dc2a532d4ed260d4dfc",
+    "results/HYPOTHESIS-REGISTER-010.json": "0620536bb4aafaa07c3a81e861579a0f9b4654a87019d036d59347614506f702",
+    "results/WHEATSTONE-TRANSITION-008-controls.json": "a3813acddf9967f9832c8b645a9af44c54fc080f79e7855cf22cf61124a8bde8",
+    "results/WHEATSTONE-TRANSITION-008-independent.json": "76d7b2b99b68fa0bfac70048567ec1d0ffd2314deaf505f0544e1f53bef3a7b0",
+    "results/WHEATSTONE-TRANSITION-008.json": "7badd0cdb5c5a806bd6365040e54aaf06471c0e4f52b4ba83dda82a3ffa682e0",
+    "sources/wheatstone-historical-conventions-2026-10-23.json": "bdf7cccc11eae4ea7b0002509cc08b2117afcb6ac5a5af7647a39cd9b21056c8",
+    "tests/test_fractionated_morse_constraints.py": "6e2d36819f49c6a13f05ea3ac6f29a71b465d9251b2b9fca6b735f970b53e431",
+    "tests/test_wheatstone_transition.py": "bec46b5e3eb2d68f3a0bb67c31762e683e03ae8b10790d085255a765fe4fb1d6"
+  },
+  "external_modern_worked_vectors": 2,
+  "complete_rotation_quotient_transition_checks": 443976,
+  "naive_complete_transition_checks": 5328,
+  "continuous_literal_crib_plants": 24,
+  "K4_keys_enumerated": 0,
+  "Berlin_evaluations": 0,
+  "independent_displacement_certificate_agrees": true,
+  "original_1879_full_text_read": false,
+  "site_changed": false,
+  "unrelated_untracked_files_preserved": 210
+}
