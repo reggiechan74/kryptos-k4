@@ -3,6 +3,745 @@
 Use [the template](templates/hypothesis.md) for new hypotheses. Exact structural
 proofs and finite tests have separate scope; compatibility is not a solution.
 
+<!-- CURRENT-REGISTER:START -->
+## Current canonical coverage register — 23 October 2026
+
+This section is the current status index within the existing hypothesis log; the historical entries below remain a dated research record. Where a historical heading says “unrun”, this section and its linked final results supersede that status. Experiment execution details remain in [EXPERIMENTS.md](EXPERIMENTS.md). This is not a worldwide novelty claim. Stable IDs must not be reused for a different mechanism. H-PHONETIC-RESPelling was an earlier prose spelling of H-PHONETIC-RESPELLING, not a second hypothesis.
+
+The three physical proposals are gated on the incoming deep source review. No compass, optical or celestial K4 trial is authorized to proceed without that review and a separately frozen, justified protocol. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
+
+### Status vocabulary
+
+- **untested**: Discussed mechanism; no completed dedicated local protocol or exact source-complete test.
+- **evidence-blocked**: A required independent observation/source/mapping is absent; no manufactured numerical trial.
+- **specified but not run**: A finite proposal exists but has not been executed; prerequisites may still be outstanding.
+- **narrow negative**: The linked finite implementation failed; the broader mechanism is not eliminated.
+- **analytical exclusion**: A proof rules out the stated exact model, without implying a search was run.
+- **non-identifiable**: Compatible fits or diagnostics do not determine the sought mechanism/plaintext; not positive evidence.
+
+### Index
+
+| Stable ID | Current status | Mechanism |
+| --- | --- | --- |
+| [H-COMPASS-REVERSE](#h-compass-reverse) | evidence-blocked | ENE may denote the direction of travel while the observed object faces WSW, or conversely. |
+| [H-COMPASS-FRAMES](#h-compass-frames) | evidence-blocked | Treat engraved north, a physical needle, local lodestone attraction and true north as distinct coordinate frames. |
+| [H-GLYPH-VIEW](#h-glyph-view) | evidence-blocked | Viewing the rear can mirror glyph outlines independently of reversing the order in which positions are read. |
+| [H-OPTICAL](#h-optical) | evidence-blocked | Calibrated aperture/illumination/reflection selection of letter information. |
+| [H-SHADOW-TIME](#h-shadow-time) | evidence-blocked | A source-fixed shadow direction or observation time supplies a key or reading instruction. |
+| [H-CELESTIAL-ALTITUDE](#h-celestial-altitude) | evidence-blocked | An independently dated celestial observation supplies altitude/time material rather than a fitted astronomical coincidence. |
+| [H-CLOCK-HISTORICAL](#h-clock-historical) | evidence-blocked | Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping. |
+| [H-LAMP-MENGENLEHRE](#h-lamp-mengenlehre) | untested | Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns. |
+| [H-GREEK-PHONETIC](#h-greek-phonetic) | evidence-blocked | Render English speech approximately with sourced Greek graphemes before an outer cipher. |
+| [H-LAMP-GREEK](#h-lamp-greek) | untested | A declared ordering of 24 lamp fields might index Greek symbols or generate key material. |
+| [H-TREE-STATEFUL](#h-tree-stateful) | narrow negative | Letters or geometry fragments walk a tree and update cipher state carried between letters. |
+| [H-SIGABA](#h-sigaba) | untested | Use historical irregular stepping from a complete, specified SIGABA mechanism. |
+| [H-WHEATSTONE](#h-wheatstone) | untested | Unequal 27/26 rings and skip/blank stepping alter substitution state. |
+| [H-M138A](#h-m138a) | untested | Historical strip selection/alignment produces a row-dependent alphabet. |
+| [H-NONLINEAR-BLOCK](#h-nonlinear-block) | untested | A fixed nonlinear block transformation couples several plaintext letters. |
+| [H-BOOK-CODEBOOK](#h-book-codebook) | evidence-blocked | An independently identified edition/page/codebook supplies symbols or running-key material. |
+| [H-OTP](#h-otp) | non-identifiable | An unrestricted independent pad can explain any chosen plaintext of the same length. |
+| [H-PERM](#h-perm) | analytical exclusion | Pure permutation preserves the letter multiset. |
+| [H-PERIOD](#h-period) | analytical exclusion | One fixed injective substitution per repeating phase. |
+| [H-LANGUAGE](#h-language) | narrow negative | Change language/script representation before encryption. |
+| [H-ROUTE](#h-route) | narrow negative | One enumerated route plus periodic arithmetic. |
+| [H-RUNKEY](#h-runkey) | narrow negative | Use literal nearby solved text as a nonwrapping running key. |
+| [H-TRIFID](#h-trifid) | narrow negative | Apply one of the fixed Trifid cubes/directions. |
+| [H-LAG](#h-lag) | non-identifiable | Use repeated lag patterns to diagnose an architecture. |
+| [H-MASK-AUTO](#h-mask-auto) | narrow negative | Fixed-primer same-alphabet autokey. |
+| [H-MASK-FM](#h-mask-fm) | narrow negative | Two literal Fractionated Morse maps. |
+| [H-WORD-SCRAMBLE](#h-word-scramble) | narrow negative | Permute internal word letters while retaining endpoints before a cipher. |
+| [H-PHONETIC-RESPELLING](#h-phonetic-respelling) | narrow negative | Stylized phonetic respelling precedes encryption. |
+| [H-GERMAN-TRANSLATION](#h-german-translation) | evidence-blocked | Use one source-fixed German rendering before encryption. |
+| [H-GEO-ENE](#h-geo-ene) | evidence-blocked | A geographic ENE relation supplies an instruction. |
+| [H-ENIGMA-DIRECT](#h-enigma-direct) | analytical exclusion | Direct aligned standard reflector Enigma. |
+| [H-NEPTUNE](#h-neptune) | evidence-blocked | Neptune/fountain/discovery context identifies an external instruction. |
+| [H-CLOCK-FACE](#h-clock-face) | evidence-blocked | A dated historical city panel/face supplies an instruction. |
+| [H-CLOCK-RESET](#h-clock-reset) | analytical exclusion | Restart the same positionwise bijection at both known block starts. |
+| [H-EGYPTIAN-SIGN-LIST](#h-egyptian-sign-list) | evidence-blocked | An Egyptian sign system represents text or key material. |
+| [H-KRYPTOS-FINGERPRINT](#h-kryptos-fingerprint) | non-identifiable | Selected small-alphabet distances describe crib structure. |
+| [H-AUTOKEY-EXACT](#h-autokey-exact) | non-identifiable | Direct same-alphabet feedback with arbitrary independent primer. |
+| [H-GROMARK-ONE](#h-gromark-one) | non-identifiable | One fixed published mod-16 lag-5/6 tuple with unknown alphabets. |
+| [H-SILK-PERIODIC](#h-silk-periodic) | analytical exclusion | Repeat a direct key from one photographed silk chart. |
+| [H-ASYMMETRIC-FEEDBACK](#h-asymmetric-feedback) | narrow negative | Use distinct fixed AZ/KRYPTOS alphabet roles in feedback. |
+| [H-CIPHERTEXT-EXTRA-STEP](#h-ciphertext-extra-step) | narrow negative | Advance a fixed periodic key according to ciphertext classes. |
+| [H-PLAINTEXT-EXTRA-STEP](#h-plaintext-extra-step) | narrow negative | Advance by one or two according to plaintext vowel/consonant membership. |
+| [H-AFFINE-DIGRAPH](#h-affine-digraph) | analytical exclusion | One fixed 2×2 affine map acts on adjacent pairs. |
+| [H-SPLIT-COORDINATE-ROUTES](#h-split-coordinate-routes) | narrow negative | Permute two coordinate streams separately. |
+| [H-K3-COMPOSITE-PERIODIC](#h-k3-composite-periodic) | narrow negative | K3-verified U14 after U42 combined with periodic substitution. |
+| [H-K3-SANDWICH](#h-k3-sandwich) | narrow negative | Periodic substitution on both sides of the K3-derived route. |
+| [H-CLOCK-24-ROUTE](#h-clock-24-route) | narrow negative | World Clock-inspired ragged 24-column routes plus periodic substitution. |
+| [H-OCCUPIED-CELL-FIXED](#h-occupied-cell-fixed) | narrow negative | Use the actual carved K4 occupied-cell mask with fixed phased keys. |
+| [H-LETTER-GEOMETRY](#h-letter-geometry) | narrow negative | Represent idealized glyph geometry with unique feature arrays/codes. |
+| [H-IPA-DICTIONARY](#h-ipa-dictionary) | narrow negative | Use source-fixed dictionary IPA windows before encryption. |
+| [H-BOUNDARY-STATE](#h-boundary-state) | narrow negative | One internal boundary resets to the same shared seed/state. |
+| [H-AUTONOMOUS-RECURRENCE](#h-autonomous-recurrence) | narrow negative | A fixed homogeneous/affine multi-lag modular key generator. |
+| [H-RADIX-FEEDBACK](#h-radix-feedback) | narrow negative | Changing-base geometric codes enter a fixed affine key recurrence. |
+| [H-ONE-EDIT](#h-one-edit) | specified but not run | A bounded construction-error sensitivity arm. |
+| [H-ARCHITECTURE-DIAGNOSIS](#h-architecture-diagnosis) | non-identifiable | Classify architecture from fixed short-text features. |
+
+### H-COMPASS-REVERSE
+
+- Status: evidence-blocked
+- Mechanism: ENE may denote the direction of travel while the observed object faces WSW, or conversely.
+- Evidence: [source or scoped prior review](HYPOTHESES.md#geographic-branches-and-extraction-gate); historical availability or user proposal does not establish creator use.
+- Tested scope: Existing fountain/clock bearings and landmark-axis inventory are descriptive; no compass decoder.
+- Untested scope: An independently anchored reverse-bearing extraction.
+- Missing inputs: Pending deep compass/lodestone review; fixed origin, target and interpretation.
+- Next discriminating test: Check bearing reciprocity and explicit facing/travel conventions using source-identified objects before any letter extraction.
+- Dependencies: Source review from parent; H-COMPASS-FRAMES; H-GEO-ENE
+- Results: [retained evidence and finite coverage](HYPOTHESES.md#geographic-branches-and-extraction-gate); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-COMPASS-FRAMES
+
+- Status: evidence-blocked
+- Mechanism: Treat engraved north, a physical needle, local lodestone attraction and true north as distinct coordinate frames.
+- Evidence: [source or scoped prior review](../docs/scott-sun-geometry-audit-2026-10-22.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Geometry/heading audit finds no surveyed reconstruction; no independent magnetic calibration.
+- Untested scope: Any measured conversion between the four frames.
+- Missing inputs: Pending deep source review; orientation measurements, instrument placement and epoch-dependent magnetic context.
+- Next discriminating test: Build a source-tagged frame diagram and only test a transformation fixed by independent measurements.
+- Dependencies: Parent source review; no arbitrary declination or fitted angular offset
+- Results: [retained evidence and finite coverage](../docs/scott-sun-geometry-audit-2026-10-22.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-GLYPH-VIEW
+
+- Status: evidence-blocked
+- Mechanism: Viewing the rear can mirror glyph outlines independently of reversing the order in which positions are read.
+- Evidence: [source or scoped prior review](../docs/scott-sun-geometry-audit-2026-10-22.md); historical availability or user proposal does not establish creator use.
+- Tested scope: The tableau is intentionally seen mirrored from the opposite side; route catalogues test listed index permutations, not actual mirrored glyph identities.
+- Untested scope: A photographed, face-specific physical reading convention.
+- Missing inputs: Source-supported viewpoint, text face, aperture contours and distinction between reflection and order reversal.
+- Next discriminating test: Verify a fixed known K1–K3 photograph with an explicitly declared mirror/order operation before applying a K4 transformation.
+- Dependencies: Parent physical-source review; H-OPTICAL; canonical transcript cannot be edited to fit
+- Results: [retained evidence and finite coverage](../docs/scott-sun-geometry-audit-2026-10-22.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-OPTICAL
+
+- Status: evidence-blocked
+- Mechanism: Physical apertures, illumination, reflection or receiving surfaces select or transform letter information.
+- Evidence: [Current geometry audit](../docs/scott-sun-geometry-audit-2026-10-22.md) distinguishes measured facts, reported dimensions, placeholders and rendering defects.
+- Tested scope: Conditional visual/solar scenarios, ray-model audits and source review; the live Site is a tool, not a calibrated decoding experiment. Landmark counts are separate.
+- Untested scope: A surveyed, aperture-aware optical decoder validated against independent photographs.
+- Missing inputs: Four-sheet surfaces/seams, aperture contours, true heading, receiver geometry, obstacles, water/window normals and independently timed camera calibration.
+- Next discriminating test: Fit non-K4 physical features in one photograph and predict withheld features/view; fail the calibration gate before selecting projected letters if residuals are unacceptable.
+- Dependencies: Parent physical-source review; H-COMPASS-FRAMES; H-GLYPH-VIEW; no fitted date, heading or receiver chosen from attractive K4 output.
+- Results: [Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); no surveyed optical K4 decoding result exists.
+
+### H-SHADOW-TIME
+
+- Status: evidence-blocked
+- Mechanism: A source-fixed shadow direction or observation time supplies a key or reading instruction.
+- Evidence: [source or scoped prior review](../docs/seasonal-light-source-review.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Conditional solar geometry and the uncalibrated rendering audit exist; no measured optical key.
+- Untested scope: A calibrated shadow-to-symbol pipeline.
+- Missing inputs: Surveyed heading/geometry, dated independent observation, receiver and unique extraction rule.
+- Next discriminating test: Validate a known-time photograph on non-K4 features with withheld geometry, then assess the fixed extraction.
+- Dependencies: Parent physical-source review; H-COMPASS-FRAMES; H-OPTICAL
+- Results: [retained evidence and finite coverage](../docs/seasonal-light-source-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-CELESTIAL-ALTITUDE
+
+- Status: evidence-blocked
+- Mechanism: An independently dated celestial observation supplies altitude/time material rather than a fitted astronomical coincidence.
+- Evidence: [source or scoped prior review](../docs/inauguration-dedication-astronomy.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Bounded event-date astronomy review; no eclipse on either listed event date; direct visible ENE sunlight incompatible under its stated assumptions.
+- Untested scope: An independent observation-to-key model, including reflected or shadow paths.
+- Missing inputs: Authenticated object/date/time/site/horizon and a justified encoding; approximate conjunction interpolation is not an observation.
+- Next discriminating test: Reproduce only an independently specified observation and test withheld event data before cipher fitting.
+- Dependencies: Parent source review; distinguish altitude, azimuth and date; no date sweep
+- Results: [retained evidence and finite coverage](../docs/inauguration-dedication-astronomy.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-CLOCK-HISTORICAL
+
+- Status: evidence-blocked
+- Mechanism: Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping.
+- Evidence: [source or scoped prior review](../independent/2026-10-22/historical-clock/historical_clock_report.txt); historical availability or user proposal does not establish creator use.
+- Tested scope: 41 literal labels in 10 panels and three disconnected dated segments; coordinate roundtrips and 1,152 shift checks, not a K4 decoder.
+- Untested scope: A registered 1989 inventory and justified mapping into letters or key material.
+- Missing inputs: Global segment registration, 1989 labels/time zones and an A–Z bridge; hour numerals are not fixed sector IDs.
+- Next discriminating test: Recover one historical mapping from independent images and withhold a second; stop if registration remains non-identifiable.
+- Dependencies: H-CLOCK-FACE; parent World Clock review; no invented labels or north/south-band bit
+- Results: [retained evidence and finite coverage](../independent/2026-10-22/historical-clock/historical_clock_report.txt); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-LAMP-MENGENLEHRE
+
+- Status: untested
+- Mechanism: Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns.
+- Evidence: [source or scoped prior review](K3-CLOCK-ROUTE-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: No dedicated lamp experiment found in the current audit; 24-sector routes and geometric radix feedback are different finite mechanisms.
+- Untested scope: Explicit lamp-to-key or framed invertible bridge with declared progression.
+- Missing inputs: Primary ordering/color/seconds convention, sampling schedule and a non-arbitrary mapping into the ciphertext domain.
+- Next discriminating test: Proposed representation-only control: verify H=5a+b and M=5c+d, c=0..11, and roundtrip all valid hour/minute plus seconds-parity states; no K4 trial until a bridge is independently specified.
+- Dependencies: Source review; 1 seconds + 4 five-hour + 4 one-hour + 11 five-minute + 4 one-minute fields; not ordinary positional base 5
+- Results: [retained evidence and finite coverage](K3-CLOCK-ROUTE-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-GREEK-PHONETIC
+
+- Status: evidence-blocked
+- Mechanism: English speech is rendered approximately using Greek graphemes, then encrypted; speech sounds are not English or Greek letter names.
+- Evidence: User-proposed extension; [existing language-layer boundaries](../docs/language-and-alphabet-layers.md). A linguistically sourced mapping is being prepared, not yet frozen or tested.
+- Tested scope: No Greek phonetic preprocessing experiment. The fixed Cambridge-US IPA tests do not implement Greek graphemes; IPA theta alone is not this hypothesis.
+- Untested scope: A source-fixed Greek transcription and independently specified outer cipher.
+- Missing inputs: Modern versus ancient Greek, target accent and sound inventory, digraphs, stress/normalization, global lengths/alignment and explicit ambiguity or non-injective spelling recovery.
+- Next discriminating test: Await the sourced mapping; first audit token/glyph lengths, repeated sound patterns and framed reversibility before selecting any finite outer-cipher model. No arbitrary one-letter replacement or English-minus-two mapping.
+- Dependencies: Parent linguistic source review; separate from H-LAMP-GREEK, H-IPA-DICTIONARY and German place-name normalization.
+- Results: [Prior language experiments](LANGUAGE-FINDINGS.md) provide scoped boundaries only; no corresponding Greek cipher result exists.
+
+### H-LAMP-GREEK
+
+- Status: untested
+- Mechanism: A declared ordering of 24 lamp fields might index Greek symbols or generate key material.
+- Evidence: [source or scoped prior review](../docs/language-and-alphabet-layers.md); historical availability or user proposal does not establish creator use.
+- Tested scope: No Greek converter or lamp/Greek experiment; IPA theta is not a Greek alphabet audit.
+- Untested scope: Any reversible lamp/Greek/A–Z construction.
+- Missing inputs: Why these 24 positions have that ordering; full Greek alphabet and transliteration/framing; time progression and role of state.
+- Next discriminating test: First establish an injective framed bridge or explicit key-generator output; reject a count-only correspondence as an unspecified model.
+- Dependencies: H-LAMP-MENGENLEHRE; Greek is not English with two letters removed; no fitted Greek order
+- Results: [retained evidence and finite coverage](../docs/language-and-alphabet-layers.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-TREE-STATEFUL
+
+- Status: narrow negative
+- Mechanism: Letters or geometry fragments walk a tree and update cipher state carried between letters.
+- Evidence: [source or scoped prior review](TREE-PATH-CIPHER-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Two fixed trees, two subtree-cycle directions and 26 seeds: 104 unique full decryptions, zero first-crib survivors; 104 complete planted selectors.
+- Untested scope: Other independently generated trees, state transitions, framing or seed domains.
+- Missing inputs: A distinct fixed tree/update/inverse and evidence beyond the failed pilot; arbitrary fitted labels would overfit.
+- Next discriminating test: Before another K4 test, freeze one demonstrably non-equivalent reversible rule; validate unique decoding and literal-crib plants through the complete selector.
+- Dependencies: TREE-PATH-CIPHER-SPEC.md; no crib-boundary resets, guessed gap states or automatic second sweep
+- Results: [retained evidence and finite coverage](TREE-PATH-CIPHER-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-SIGABA
+
+- Status: untested
+- Mechanism: Use historical irregular stepping from a complete, specified SIGABA mechanism.
+- Evidence: [source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.
+- Tested scope: No complete dedicated local SIGABA test established by the current ledger; generic feedback and direct Enigma exclusions do not cover it.
+- Untested scope: A historically fixed machine/key domain.
+- Missing inputs: Authentic wiring, stepping, orientation and key conventions, creator relevance and a tractable frozen domain.
+- Next discriminating test: Reproduce a published machine test vector with an independently coded inverse; only then assess exact crib constraints and identifiability.
+- Dependencies: Source acquisition and prior-art equivalence audit; no free fitted wiring
+- Results: [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-WHEATSTONE
+
+- Status: untested
+- Mechanism: Unequal 27/26 rings and skip/blank stepping alter substitution state.
+- Evidence: [source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Pinned Barney fe_wheatstone.py covers specified outer alphabets/blank slots and arbitrary inner alphabet; this is prior art, not a new local run.
+- Untested scope: Only historically justified domains demonstrably outside that exact source scope.
+- Missing inputs: A precise non-equivalent convention, initial state and independently fixed ring/key restriction.
+- Next discriminating test: Compare exact conventions before compute; reproduce a historical reference vector and skip any model already excluded by the pinned audit.
+- Dependencies: Do not call plain Wheatstone new; do not conflate it with vowel/consonant cursor pilots
+- Results: [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-M138A
+
+- Status: untested
+- Mechanism: Historical strip selection/alignment produces a row-dependent alphabet.
+- Evidence: [source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.
+- Tested scope: The pinned survey calls full M-138 untested within that survey; no dedicated local full M-138-A result.
+- Untested scope: A specific authentic strip inventory, ordering and readable-row rule.
+- Missing inputs: Versioned strip source, key/state restrictions, framing and historical link.
+- Next discriminating test: Validate a published example and identifiability under the fixed strips before any bounded K4 key domain.
+- Dependencies: Historical source gate; random tables and arbitrary alphabets are not authentic strip tests
+- Results: [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-NONLINEAR-BLOCK
+
+- Status: untested
+- Mechanism: A fixed nonlinear block transformation couples several plaintext letters.
+- Evidence: [source or scoped prior review](UNRUN-GAPS-2026-10-23.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Adjacent fixed 2×2 affine maps are analytically excluded; autonomous linear recurrences and fixed Trifid cases do not cover general nonlinear blocks.
+- Untested scope: An independently motivated nonlinear block grammar.
+- Missing inputs: Block size/origin, invertible operation, key budget and source-based rationale.
+- Next discriminating test: Freeze one small reversible block operator; prove inverse and compare complete compatible-key sets on planted and matched incompatible cases.
+- Dependencies: H-AFFINE-DIGRAPH is a boundary, not a broad polygraphic rejection; no generic brute-force program search
+- Results: [retained evidence and finite coverage](UNRUN-GAPS-2026-10-23.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-BOOK-CODEBOOK
+
+- Status: evidence-blocked
+- Mechanism: An independently identified edition/page/codebook supplies symbols or running-key material.
+- Evidence: [source or scoped prior review](UNRUN-GAPS-2026-10-23.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 28,488 literal nearby running-key cases fail; these do not cover an independently grounded external codebook.
+- Untested scope: A provenance-fixed external text or numbered codebook.
+- Missing inputs: Independent evidence selecting edition, pagination, extraction and invertible framing; no source selected for crib fit.
+- Next discriminating test: Resolve one externally supported source and reproduce a known encoding example before freezing a tiny extraction domain.
+- Dependencies: H-RUNKEY; no mass book corpus or guessed page/word offsets
+- Results: [retained evidence and finite coverage](UNRUN-GAPS-2026-10-23.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-OTP
+
+- Status: non-identifiable
+- Mechanism: An unrestricted independent pad can explain any chosen plaintext of the same length.
+- Evidence: [source or scoped prior review](GROMARK-IDENTIFIABILITY-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Algebraic identifiability boundary; no pad search. Gromark witnesses separately demonstrate ambiguity within their finite model.
+- Untested scope: Any independently restricted pad-generation mechanism.
+- Missing inputs: Independent key or sharply constrained generator/source.
+- Next discriminating test: Prove the new restriction produces non-fit predictions before allocating search; an unrestricted pad is not a falsifiable K4 task.
+- Dependencies: Do not infer a solution from one compatible pad or recover the pad from the same cribs as validation
+- Results: [retained evidence and finite coverage](GROMARK-IDENTIFIABILITY-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-PERM
+
+- Status: analytical exclusion
+- Mechanism: Pure permutation preserves the letter multiset.
+- Evidence: [source or scoped prior review](STRUCTURAL-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: The required E count exceeds ciphertext availability; pure letter transposition cannot supply the known cribs.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](STRUCTURAL-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-PERIOD
+
+- Status: analytical exclusion
+- Mechanism: One fixed injective substitution per repeating phase.
+- Evidence: [source or scoped prior review](STRUCTURAL-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Exactly 19 periods excluded among 1–96 by crib equality; remaining periods are not solutions.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](STRUCTURAL-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-LANGUAGE
+
+- Status: narrow negative
+- Mechanism: Change language/script representation before encryption.
+- Evidence: [source or scoped prior review](LANGUAGE-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Restricted GOST transport and historical alphabet feasibility tested; no universal language rejection.
+- Untested scope: Shavian transport, sourced translation and other explicit reversible codecs.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](LANGUAGE-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-ROUTE
+
+- Status: narrow negative
+- Mechanism: One enumerated route plus periodic arithmetic.
+- Evidence: [source or scoped prior review](BOUNDED-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 13,056 descriptions, 66 routes; 282 retained identity-route fits have zero repeated-phase checks and are vacuous.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](BOUNDED-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-RUNKEY
+
+- Status: narrow negative
+- Mechanism: Use literal nearby solved text as a nonwrapping running key.
+- Evidence: [source or scoped prior review](BOUNDED-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 28,488 declared cases fail all-crib compatibility.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](BOUNDED-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-TRIFID
+
+- Status: narrow negative
+- Mechanism: Apply one of the fixed Trifid cubes/directions.
+- Evidence: [source or scoped prior review](BOUNDED-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 144 declared cases fail; inverse controls pass.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](BOUNDED-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-LAG
+
+- Status: non-identifiable
+- Mechanism: Use repeated lag patterns to diagnose an architecture.
+- Evidence: [source or scoped prior review](EXPERIMENTS.md#stat-001--published-lag-pattern-diagnostic-and-maximum-correction); historical availability or user proposal does not establish creator use.
+- Tested scope: Lag-21 duplicate excess replicated with multiple-lag correction; no cipher uniquely identified.
+- Untested scope: A preregistered diagnostic that separates compatible architectures.
+- Missing inputs: Independent corpora, matched nulls and an abstaining decision rule.
+- Next discriminating test: Require discrimination on blinded generated cases and open-world controls before classifying K4.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](EXPERIMENTS.md#stat-001--published-lag-pattern-diagnostic-and-maximum-correction); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-MASK-AUTO
+
+- Status: narrow negative
+- Mechanism: Fixed-primer same-alphabet autokey.
+- Evidence: [source or scoped prior review](MASKING-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 12 fixed complete models reject; broader direct coverage is indexed by H-AUTOKEY-EXACT.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](MASKING-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-MASK-FM
+
+- Status: narrow negative
+- Mechanism: Two literal Fractionated Morse maps.
+- Evidence: [source or scoped prior review](MASKING-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Two fixed maps fail internal separator parsing; no general Morse rejection.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](MASKING-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-WORD-SCRAMBLE
+
+- Status: narrow negative
+- Mechanism: Permute internal word letters while retaining endpoints before a cipher.
+- Evidence: [source or scoped prior review](WORD-SCRAMBLING-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 24 fixed combinations reject; endpoint readability does not imply a unique inverse.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](WORD-SCRAMBLING-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-PHONETIC-RESPELLING
+
+- Status: narrow negative
+- Mechanism: Stylized phonetic respelling precedes encryption.
+- Evidence: [source or scoped prior review](PHONETIC-FEASIBILITY.md); historical availability or user proposal does not establish creator use.
+- Tested scope: W/final-D/final-G subset leaves cribs unchanged and rescues no fixed output.
+- Untested scope: TH/I and broader lossy or length-changing rewrites.
+- Missing inputs: Exact rules, inverse/ambiguity treatment and global index alignment.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](PHONETIC-FEASIBILITY.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-GERMAN-TRANSLATION
+
+- Status: evidence-blocked
+- Mechanism: Use one source-fixed German rendering before encryption.
+- Evidence: [source or scoped prior review](../docs/linguistic-feasibility-boundary.md); historical availability or user proposal does not establish creator use.
+- Tested scope: No exact translation/decoder test.
+- Untested scope: A specified translation layer, distinct from German-normalized names or pronunciation.
+- Missing inputs: Exact rendering, word order, inverse and index alignment; Berlin alone does not establish German.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](../docs/linguistic-feasibility-boundary.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-GEO-ENE
+
+- Status: evidence-blocked
+- Mechanism: A geographic ENE relation supplies an instruction.
+- Evidence: [source or scoped prior review](LANDMARK-AXIS-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Frozen inventory axis analysis is descriptive/post-hoc; chance alignments are not evidence of intent.
+- Untested scope: Independent historic footprints and a unique geographic-to-key extraction.
+- Missing inputs: Independent origin/endpoint/rule, historic geometry and source rationale.
+- Next discriminating test: Review the incoming source report; do not repeat axis counts or select a landmark from the scored map.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](LANDMARK-AXIS-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-ENIGMA-DIRECT
+
+- Status: analytical exclusion
+- Mechanism: Direct aligned standard reflector Enigma.
+- Evidence: [source or scoped prior review](../docs/direct-enigma-boundary.md); historical availability or user proposal does not establish creator use.
+- Tested scope: K→K at position 74 excludes the direct self-nonenciphering model.
+- Untested scope: Layered Enigma and machines without that property.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](../docs/direct-enigma-boundary.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-NEPTUNE
+
+- Status: evidence-blocked
+- Mechanism: Neptune/fountain/discovery context identifies an external instruction.
+- Evidence: [source or scoped prior review](../docs/neptune-discovery-assessment.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Bounded history and bearings reviewed; no unique cipher extraction.
+- Untested scope: A source-supported connection to Kryptos.
+- Missing inputs: Independent linkage, origin and decoding rule.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](../docs/neptune-discovery-assessment.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-CLOCK-FACE
+
+- Status: evidence-blocked
+- Mechanism: A dated historical city panel/face supplies an instruction.
+- Evidence: [source or scoped prior review](../docs/historical-clock-inscriptions.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Dated photo labels reviewed and 1972 correction retained; full 1989 face/true-ENE registration unresolved.
+- Untested scope: Historical sector selection and letter mapping.
+- Missing inputs: Complete epoch-specific inventory and north registration.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](../docs/historical-clock-inscriptions.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-CLOCK-RESET
+
+- Status: analytical exclusion
+- Mechanism: Restart the same positionwise bijection at both known block starts.
+- Evidence: [source or scoped prior review](CLOCK-RESET-PROOF.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Exact equal-offset collision subsumes 72 fixed period-11 formal cases without a key search.
+- Untested scope: Different shared-rule state models, not arbitrary independent block keys.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](CLOCK-RESET-PROOF.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-EGYPTIAN-SIGN-LIST
+
+- Status: evidence-blocked
+- Mechanism: An Egyptian sign system represents text or key material.
+- Evidence: [source or scoped prior review](../docs/egyptian-sign-list-feasibility.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Historical availability/linguistic feasibility only; no invented 26-glyph codec.
+- Untested scope: A specific sourced sign inventory and framing.
+- Missing inputs: Edition/sign choices, vowels/determinatives, direction, inverse and historical link.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](../docs/egyptian-sign-list-feasibility.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-KRYPTOS-FINGERPRINT
+
+- Status: non-identifiable
+- Mechanism: Selected small-alphabet distances describe crib structure.
+- Evidence: [source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Descriptive postselected pattern has exceptions; not a hard filter or calibrated key inference.
+- Untested scope: A genuinely predeclared discriminating statistic.
+- Missing inputs: Independent predictive evidence; current extrapolation is unsupported.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-AUTOKEY-EXACT
+
+- Status: non-identifiable
+- Mechanism: Direct same-alphabet feedback with arbitrary independent primer.
+- Evidence: [source or scoped prior review](AUTOKEY-CONSTRAINT-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 1,152 formal cases: 732 contradictory, 420 underdetermined with zero independent consistency checks.
+- Untested scope: Cross-alphabet roles or new constrained generators beyond this finite audit.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](AUTOKEY-CONSTRAINT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-GROMARK-ONE
+
+- Status: non-identifiable
+- Mechanism: One fixed published mod-16 lag-5/6 tuple with unknown alphabets.
+- Evidence: [source or scoped prior review](GROMARK-IDENTIFIABILITY-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Complete alphabet witnesses fit cribs/regenerate but differ elsewhere; among 73 noncrib positions, 10 conditionally forced and 63 variable.
+- Untested scope: Independent restrictions selecting historical alphabets.
+- Missing inputs: Source-based alphabet/key restriction; compatible completions are not recovered plaintext.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](GROMARK-IDENTIFIABILITY-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-SILK-PERIODIC
+
+- Status: analytical exclusion
+- Mechanism: Repeat a direct key from one photographed silk chart.
+- Evidence: [source or scoped prior review](SILK-PERIODIC-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Periods 1–12 contradicted by 13 distinct required key values within the first crib.
+- Untested scope: Nonperiodic keys, other charts and added layers.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](SILK-PERIODIC-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-ASYMMETRIC-FEEDBACK
+
+- Status: narrow negative
+- Mechanism: Use distinct fixed AZ/KRYPTOS alphabet roles in feedback.
+- Evidence: [source or scoped prior review](CONTINUATION-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Six fixed PALIMPSEST lag-10 cases and 72 arbitrary-primer configurations rejected in their exact scopes.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](CONTINUATION-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-CIPHERTEXT-EXTRA-STEP
+
+- Status: narrow negative
+- Mechanism: Advance a fixed periodic key according to ciphertext classes.
+- Evidence: [source or scoped prior review](DYNAMIC-KEY-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 96 ciphertext-driven finite configurations reject; 1,248 progressive cases are replication, not new mechanisms.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](DYNAMIC-KEY-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-PLAINTEXT-EXTRA-STEP
+
+- Status: narrow negative
+- Mechanism: Advance by one or two according to plaintext vowel/consonant membership.
+- Evidence: [source or scoped prior review](FIXED-PILOT-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 12 fixed-word/alphabet/trigger models reject; no arbitrary trigger search.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](FIXED-PILOT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-AFFINE-DIGRAPH
+
+- Status: analytical exclusion
+- Mechanism: One fixed 2×2 affine map acts on adjacent pairs.
+- Evidence: [source or scoped prior review](AFFINE-DIGRAPH-PARITY-BOUNDARY.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Four AZ/AZ or KRYPTOS/KRYPTOS origin cases impossible by parity, even allowing noninvertible matrices.
+- Untested scope: Mixed alphabets, other block grammars and nonlinear maps.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](AFFINE-DIGRAPH-PARITY-BOUNDARY.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-SPLIT-COORDINATE-ROUTES
+
+- Status: narrow negative
+- Mechanism: Permute two coordinate streams separately.
+- Evidence: [source or scoped prior review](CONTINUATION-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 32 frozen coordinate-route cases rejected; historical proposed/unrun heading is superseded.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](CONTINUATION-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-K3-COMPOSITE-PERIODIC
+
+- Status: narrow negative
+- Mechanism: K3-verified U14 after U42 combined with periodic substitution.
+- Evidence: [source or scoped prior review](K3-CLOCK-ROUTE-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: All 336 K3 letters reproduced; four unrestricted-key layer-order/period cases contradict first crib.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](K3-CLOCK-ROUTE-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-K3-SANDWICH
+
+- Status: narrow negative
+- Mechanism: Periodic substitution on both sides of the K3-derived route.
+- Evidence: [source or scoped prior review](K3-CLOCK-ROUTE-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Two period-pair models fail held-out cycle labels; exact component/gauge counts retained.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](K3-CLOCK-ROUTE-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-CLOCK-24-ROUTE
+
+- Status: narrow negative
+- Mechanism: World Clock-inspired ragged 24-column routes plus periodic substitution.
+- Evidence: [source or scoped prior review](K3-CLOCK-ROUTE-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 384 raw constructions: 16 covered equivalents skipped and 368 newly evaluated negatives; not a lamp or historical-city decoder.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](K3-CLOCK-ROUTE-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-OCCUPIED-CELL-FIXED
+
+- Status: narrow negative
+- Mechanism: Use the actual carved K4 occupied-cell mask with fixed phased keys.
+- Evidence: [source or scoped prior review](OCCUPIED-CELL-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 288 fixed-key raw branches reject after coverage audit; no physical-angle inference.
+- Untested scope: Broader mechanisms outside the exact report domain.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](OCCUPIED-CELL-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-LETTER-GEOMETRY
+
+- Status: narrow negative
+- Mechanism: Represent idealized glyph geometry with unique feature arrays/codes.
+- Evidence: [source or scoped prior review](GEOMETRIC-PILOT-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 35-feature representation verified; 24 periodic code-ranked cases and 3,640 binary-state descriptions rejected.
+- Untested scope: Other glyph conventions or operations; uniqueness of representation is not cipher evidence.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](GEOMETRIC-PILOT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-IPA-DICTIONARY
+
+- Status: narrow negative
+- Mechanism: Use source-fixed dictionary IPA windows before encryption.
+- Evidence: [source or scoped prior review](IPA-CODECS-INTEGRATION.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 48 ordinary-alias arithmetic cases and 24 fully free injective-map structures reject; source-fixed codec feasibility also complete.
+- Untested scope: Other explicit pronunciation/outer-cipher constructions; global alignment remains conditional.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](IPA-CODECS-INTEGRATION.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-BOUNDARY-STATE
+
+- Status: narrow negative
+- Mechanism: One internal boundary resets to the same shared seed/state.
+- Evidence: [source or scoped prior review](SINGLE-BOUNDARY-RESET-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: 388 MTF settings, 194 affine structures and finite periodic restart domains excluded; exact certificates avoid a larger key search.
+- Untested scope: Different justified state rules, not an automatic extra reset.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](SINGLE-BOUNDARY-RESET-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-AUTONOMOUS-RECURRENCE
+
+- Status: narrow negative
+- Mechanism: A fixed homogeneous/affine multi-lag modular key generator.
+- Evidence: [source or scoped prior review](AUTONOMOUS-RECURRENCE-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: All 20 order-2..6 structures inconsistent on first crib; parity certificates and field ranks retained.
+- Untested scope: Nonlinear or other independently specified generators.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](AUTONOMOUS-RECURRENCE-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-RADIX-FEEDBACK
+
+- Status: narrow negative
+- Mechanism: Changing-base geometric codes enter a fixed affine key recurrence.
+- Evidence: [source or scoped prior review](RADIX-FEEDBACK-FINDINGS.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Eight families impossible even allowing every independent base ≥2; covers base 5 only within that polynomial/affine family.
+- Untested scope: Nonlinear updates or different source representations; no arbitrary root search.
+- Missing inputs: A new, independently justified finite specification outside completed coverage.
+- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](RADIX-FEEDBACK-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-ONE-EDIT
+
+- Status: specified but not run
+- Mechanism: A bounded construction-error sensitivity arm.
+- Evidence: [source or scoped prior review](../independent/2026-10-22/construction/REPORT.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Construction convention replays complete; no K4 edit run.
+- Untested scope: Proposed 5,071 raw single-edit variants including baseline.
+- Missing inputs: A separate exact index-map/model budget freeze and independent motivation for an observed K4 discrepancy.
+- Next discriminating test: First validate the error channel on documented K2 deletion; do not repair K4 post hoc.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](../independent/2026-10-22/construction/REPORT.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-ARCHITECTURE-DIAGNOSIS
+
+- Status: non-identifiable
+- Mechanism: Classify architecture from fixed short-text features.
+- Evidence: [source or scoped prior review](INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md); historical availability or user proposal does not establish creator use.
+- Tested scope: Small closed-world calibration done; 44/48 uniform controls receive the same forced label as K4.
+- Untested scope: Open-world abstention/transfer calibration.
+- Missing inputs: Independent authors/corpora and a decision needing this diagnostic.
+- Next discriminating test: Require an unknown-class rejection test before treating any K4 label as evidence.
+- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Results: [retained evidence and finite coverage](INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+<!-- CURRENT-REGISTER:END -->
+
+## Historical entries (preserved)
 | ID | Claim | Evidence class | Related sources | Experiment IDs | Status | Narrow conclusion |
 | --- | --- | --- | --- | --- | --- | --- |
 | H-PERM | A literal permutation-only pipeline produces K4 | Hypothesis | Fixed public cribs | STRUCT-001 | Contradicted under stated model | E counts cannot match; no substitution component tested |

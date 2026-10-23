@@ -734,3 +734,32 @@ mutations pass. [Boundary and corrected status](AFFINE-DIGRAPH-PARITY-BOUNDARY.m
 ## 23 October 2026: stateful tree/path pilot and independent IPA integration
 
 The two fixed tree/subtree-permutation constructions were implemented, controlled and tested continuously across all 97 positions. All 104 settings fail the first crib; this is a bounded negative, not a general tree-cipher exclusion. See [TREE-PATH-CIPHER-FINDINGS.md](TREE-PATH-CIPHER-FINDINGS.md). Independent free-map IPA and source-fixed pronunciation codec audits now replay exactly; see [IPA-CODECS-INTEGRATION.md](IPA-CODECS-INTEGRATION.md). No additional search was launched after these failures.
+
+
+## REGISTRY-20261023 — current hypothesis scope and evidence gates
+
+Documentation and coverage audit only; zero new K4 evaluations. The current
+[canonical section in HYPOTHESES.md](HYPOTHESES.md#current-canonical-coverage-register--23-october-2026)
+tracks 55 stable mechanisms with evidence, finite coverage, missing inputs,
+dependencies and the next discriminating test. Historical entries are preserved.
+The template now uses the same status vocabulary and required fields. Registry
+regressions check ID uniqueness, previous-ID retention, required fields and local
+reference existence; these are documentation checks, not cryptanalysis trials.
+
+Compass frames/reverse bearings, physical mirror/order conventions, shadow/time,
+celestial observations and historical World Clock extraction await the incoming
+source review and independent measurement gates. No geometry, date, label or
+orientation was fitted. Lamp/Greek models lack a declared invertible bridge or
+key-generation rule. Greek phonetic rendering separately awaits its sourced
+mapping. No lamp/Greek count correspondence was promoted into a cipher.
+
+A proposed lamp representation control would audit H=5a+b, M=5c+d with c up to
+11 and retain seconds parity explicitly. The seconds lamp cannot recover all 60
+seconds from one bit: full-second timestamps must not be claimed reversible.
+This is a preflight proposal, not a frozen or executed K4 experiment. A clock-to-key
+operator and progression must be justified separately before a K4 protocol.
+
+The previously completed 104-setting tree pilot is linked as a narrow negative;
+future topology/state rules need a separate equivalence audit, framing/inverse,
+full-message state treatment and preregistration. Machine/book/nonlinear ideas
+remain source/specification-gated; an unrestricted OTP is non-identifiable.

@@ -1,0 +1,27 @@
+{
+  "kind": "documentation coverage audit; no K4 evaluation",
+  "canonical_register": "research/HYPOTHESES.md",
+  "entries": 55,
+  "statuses": {
+    "evidence-blocked": 14,
+    "untested": 6,
+    "narrow negative": 22,
+    "non-identifiable": 6,
+    "analytical exclusion": 6,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "8c821c22f65d96ba4c0aba05684435558974254947dd73dd982f5c7ae13889f1"
+  },
+  "checks": [
+    "unique stable IDs",
+    "previous IDs retained",
+    "all required fields present",
+    "all referenced hypothesis IDs resolve",
+    "local reference paths exist"
+  ],
+  "tests_passed": 297,
+  "test_selection": "all tracked test basenames plus new register regression; unrelated untracked suffix copies preserved and not executed",
+  "physical_tests": "pending parent source review; not run",
+  "lamp_and_greek_tests": "missing explicit sourced mapping/progression; not run"
+}
