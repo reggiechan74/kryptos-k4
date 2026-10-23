@@ -1,0 +1,1235 @@
+{
+  "case": 0,
+  "fixture_sha256": "2ad409cafff033932a79f4aa45e3f7ac557833e540b0902bef721da4f9d03b9a",
+  "fixture": {
+    "q": 2,
+    "r": 3,
+    "index_size": 6,
+    "variant": 0,
+    "wiring_seed": 9148407,
+    "collector": [
+      0,
+      1
+    ],
+    "pulses": [
+      0,
+      1
+    ],
+    "notch": 1,
+    "cipher": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "control": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "index": [
+      [
+        4,
+        1,
+        2,
+        5,
+        0,
+        3
+      ],
+      [
+        5,
+        0,
+        3,
+        2,
+        1,
+        4
+      ]
+    ],
+    "plaintext": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "plant": {
+      "control": [
+        1,
+        0,
+        1
+      ],
+      "index": [
+        4,
+        3
+      ],
+      "cipher": [
+        0,
+        1,
+        0
+      ]
+    },
+    "mask": "short",
+    "observed_positions": [
+      2,
+      3,
+      6,
+      9
+    ]
+  },
+  "synthetic_ciphertext": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "observations": [
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      3,
+      1,
+      1
+    ],
+    [
+      6,
+      0,
+      0
+    ],
+    [
+      9,
+      1,
+      1
+    ]
+  ],
+  "solver": {
+    "completed": true,
+    "reason": null,
+    "status": "complete_compatible_relation",
+    "exact_raw_key_count": "2304",
+    "found_raw_keys_lower_bound": "2304",
+    "control_starts_completed": 8,
+    "control_starts_requested": 8,
+    "complete_prefix_raw_descriptions": 2304,
+    "raw_key_descriptions": 2304,
+    "reachable_index_classes": 18,
+    "index_aliases": [
+      [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      [
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      [
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    ],
+    "index_maps": [
+      [
+        0,
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        0,
+        2,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        2,
+        2,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "relations": [
+      {
+        "control": [
+          0,
+          0,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x3",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x300",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0xcc",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x30000",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0x3030",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0xcc00",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          0,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x3",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x300",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0xcc",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x30000",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0x3030",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0xcc00",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          1,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x3",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x300",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0xcc",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x30000",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0x3030",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0xcc00",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          0,
+          1,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x3",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x300",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0xcc",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x30000",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0x3030",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0xcc00",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          0,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x3",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x300",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0xcc",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x30000",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0x3030",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0xcc00",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          0,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x3",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x300",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0xcc",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x30000",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0x3030",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0xcc00",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          1,
+          0
+        ],
+        "relations": [
+          {
+            "index_classes": "0x3",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x300",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0xcc",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x30000",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0x3030",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0xcc00",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "control": [
+          1,
+          1,
+          1
+        ],
+        "relations": [
+          {
+            "index_classes": "0x3",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x300",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0xcc",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "index_classes": "0x30000",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0x3030",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "index_classes": "0xcc00",
+            "cipher_starts": "0xff",
+            "final_offsets": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "inference_time_steps": 10,
+    "branches_visited": 280,
+    "max_live_branches": 6,
+    "index_mask_partitions": 432,
+    "predicate_builds": 2,
+    "predicate_cache_hits": 105,
+    "predicate_cache_evictions": 0,
+    "predicate_cache_peak_accounted_bytes": 3108,
+    "budget": {
+      "seconds": 0.0004382920451462269,
+      "peak_RSS_bytes": 20791296,
+      "wall_cap_seconds": 600.0,
+      "RSS_cap_bytes": 1073741824,
+      "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+    },
+    "K4_evaluations": 0
+  },
+  "backend_metrics": {
+    "calls": 112,
+    "zero_offset_builds": 2,
+    "base_cache_hits": 5,
+    "translated_cache_hits": 105,
+    "translations": 7,
+    "cache_evictions": 0,
+    "cache_peak_accounted_bytes": 3108,
+    "fixed_mask_bytes": 552,
+    "cache_cap_bytes": 67108864
+  },
+  "K4_evaluations": 0,
+  "planted_full_roundtrip": true,
+  "verification_completed": true,
+  "planted_key_retained": true,
+  "baseline_comparison": {
+    "scope": "full",
+    "controllers": 8,
+    "canonical_sets_byte_equal": true,
+    "new_rows": {
+      "rows": 288,
+      "raw_key_count": "2304",
+      "bytes": 6624,
+      "sha256": "5555dc3a310f97a6381c39b405945a6fd72f66a0c7385ff6dbd43d542d0543fd",
+      "controller_prefix": 8
+    },
+    "old_rows": {
+      "rows": 288,
+      "raw_key_count": "2304",
+      "bytes": 6624,
+      "sha256": "5555dc3a310f97a6381c39b405945a6fd72f66a0c7385ff6dbd43d542d0543fd",
+      "controller_prefix": 8
+    }
+  },
+  "expanded": {
+    "count": 2304,
+    "bytes": 41472,
+    "sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44"
+  },
+  "independent_truth": {
+    "completed": true,
+    "raw_key_count": "2304",
+    "bytes": 41472,
+    "sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+    "control_starts_completed": 8
+  },
+  "full_sets_byte_equal": true,
+  "benchmark_budget": {
+    "seconds": 0.012920500012114644,
+    "peak_RSS_bytes": 20889600,
+    "wall_cap_seconds": 600.0,
+    "RSS_cap_bytes": 1073741824,
+    "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+  },
+  "source_sha256": {
+    "experiments/run_sigaba_torus.py": "25fe25d2db89202cb8c98fe7c37e2e327a70c15964e2bf9ec17dc2c3c3193c10",
+    "research/SIGABA-TORUS-SPEC.md": "73b8227f33bf30b76dee731f0de6a65e013f1ee9ef6597d83bb8ea59af6c9b57",
+    "research/SIGABA-JOINT-TOY-SPEC.md": "b3164d2e9c5e72e82e9ba8c294ffb5655d5f08d339967fd6773c153de6937681",
+    "experiments/sigaba_joint_toy.py": "0bf4fddec4c7416a8bb4c8d2d7243885713b847abd5183210d377734b7649ad5",
+    "experiments/sigaba_joint_toy_oracle.py": "0711bd1f0722cb157e6029a88644ecc876942292ffef13292dd79f6bdef8d79c",
+    "experiments/sigaba_torus.py": "ee49125ae2cd10760ddfe5dd54822834529c3b984772c1c2fb6662d9d0c4e5ee",
+    "experiments/sigaba_compact_oracle.py": "9524243a8b0865c00578532237df0c8d1765f801101b984049487ef75f418500",
+    "data/sigaba-joint-toy-v1.json": "2ad409cafff033932a79f4aa45e3f7ac557833e540b0902bef721da4f9d03b9a"
+  }
+}

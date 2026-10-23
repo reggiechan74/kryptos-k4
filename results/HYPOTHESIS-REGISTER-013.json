@@ -1,0 +1,25 @@
+{
+  "kind": "Exact torus translation reuse on unchanged coupled synthetic fixtures",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "5f6c30673d849c59c1e1e4e67dabe28fbc86930ad044e641b614079719eba702"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-012.json",
+  "previous_snapshot_commit": "9840d8af781dc7291683267106f49223959117e7",
+  "synthetic_complete_truth_comparisons": 10,
+  "synthetic_complete_compact_truth_comparisons": 1,
+  "all_declared_toy_verifications_passed": true,
+  "real_sized_gate_passed": false,
+  "new_K4_evaluations": 0,
+  "shared_index_domain": true,
+  "independent_per_time_masks": false,
+  "site_changed": false
+}

@@ -1,6 +1,6 @@
 {
-  "id": "FRONTIER-012",
-  "reviewed_main_commit": "2b612dfcf8b0e7fc4aed345ce97168d3b5b14512",
+  "id": "FRONTIER-013",
+  "reviewed_main_commit": "9840d8af781dc7291683267106f49223959117e7",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
   "decision": "No new evidence-grounded K4 experiment is currently ready under the available inputs, implemented algorithms and access limits.",
   "not_claimed": [
@@ -29,10 +29,14 @@
         "research/SIGABA-JOINT-TOY-SPEC.md",
         "research/SIGABA-JOINT-TOY-FINDINGS.md",
         "results/SIGABA-JOINT-TOY-012.json",
-        "tests/test_sigaba_joint_toy.py"
+        "tests/test_sigaba_joint_toy.py",
+        "research/SIGABA-TORUS-SPEC.md",
+        "research/SIGABA-TORUS-FINDINGS.md",
+        "results/SIGABA-TORUS-013.json",
+        "tests/test_sigaba_torus.py"
       ],
-      "next_deliverable": "First test the exact identity D_delta(p,c)={s:s+delta in D_0(p,c)} as a torus-translation predicate backend against complete tiny truth; then benchmark under a new freeze. Factorized rotor relations/symbolic control starts are further options. Real-sized synthetic adapter and external-reference validation still precede K4.",
-      "go_no_go": "The complete coupled toy comparisons now pass. The frozen q=8 five-wheel case hit 600 seconds after 5,080/32,768 control starts, while q=4 scaling verification hit the output cap. Preserve those failures. A new representation needs a separately frozen benchmark, then an authentic real-sized adapter/reference validation before K4; no automatic budget expansion.",
+      "next_deliverable": "Define and validate an authentic real-sized synthetic adapter with five index rotors, 26-symbol contacts, collector and real timing; freeze its finite domain, independent reference comparisons and resource gate before any K4 evaluation. Toy scaling now passes its declared validation, but is not real-sized evidence.",
+      "go_no_go": "The largest toy inference completed all 32,768 controllers in 534.476 seconds, retaining 2 raw keys. Its declared validation status is True. This is a toy result, not a real-sized gate. Real-sized adapter/reference validation is still missing; no actual K4 run is admitted.",
       "safe_replay_argv": [
         "python3",
         "-m",

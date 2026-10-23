@@ -35,3 +35,9 @@ class TorusTests(unittest.TestCase):
         with self.assertRaises(ValueError):t.translate(1<<8,(0,0,0))
         with self.assertRaises(ValueError):t.translate(-1,(0,0,0))
         self.assertEqual(t.cache_bytes,0)
+
+    def test_composition_on_every_subset_of_small_torus(self):
+        t=TorusPredicates(b.Model(b.fixture(2,3)),b.Budget(),cap=0);offsets=list(itertools.product(range(2),repeat=3))
+        for value in range(256):
+            for a in offsets:
+                for z in offsets:self.assertEqual(t.translate(t.translate(value,a),z),t.translate(value,tuple(x+y for x,y in zip(a,z))))

@@ -1,0 +1,859 @@
+{
+  "case": 5,
+  "fixture_sha256": "2ad409cafff033932a79f4aa45e3f7ac557833e540b0902bef721da4f9d03b9a",
+  "fixture": {
+    "q": 6,
+    "r": 3,
+    "index_size": 6,
+    "variant": 1,
+    "wiring_seed": 9257172,
+    "collector": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pulses": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "notch": 3,
+    "cipher": [
+      [
+        0,
+        5,
+        2,
+        4,
+        3,
+        1
+      ],
+      [
+        3,
+        0,
+        1,
+        2,
+        5,
+        4
+      ],
+      [
+        0,
+        2,
+        5,
+        4,
+        1,
+        3
+      ]
+    ],
+    "control": [
+      [
+        4,
+        2,
+        3,
+        5,
+        0,
+        1
+      ],
+      [
+        4,
+        5,
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        4,
+        5,
+        3
+      ]
+    ],
+    "index": [
+      [
+        1,
+        3,
+        5,
+        4,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        5,
+        4,
+        3
+      ]
+    ],
+    "plaintext": [
+      1,
+      4,
+      1,
+      0,
+      1,
+      4,
+      3,
+      0,
+      1,
+      2,
+      1,
+      0,
+      5,
+      2,
+      5,
+      2,
+      3,
+      0,
+      5,
+      2,
+      3,
+      4,
+      3,
+      0,
+      1,
+      0,
+      1,
+      2,
+      5,
+      2,
+      3,
+      4,
+      5,
+      4,
+      5,
+      2,
+      3,
+      4,
+      3,
+      0,
+      1,
+      2,
+      5,
+      2,
+      3,
+      4,
+      5,
+      4,
+      5,
+      4,
+      1,
+      2,
+      5,
+      4,
+      3,
+      0,
+      1,
+      4,
+      3,
+      0,
+      3,
+      0,
+      5,
+      2,
+      3,
+      4,
+      3,
+      0,
+      5,
+      2,
+      5,
+      0,
+      1,
+      2,
+      3,
+      2,
+      1,
+      2,
+      5,
+      2,
+      3,
+      4,
+      5,
+      4,
+      3,
+      4,
+      5,
+      2,
+      3,
+      2,
+      5,
+      4,
+      1,
+      2,
+      5,
+      0,
+      1
+    ],
+    "plant": {
+      "control": [
+        4,
+        1,
+        2
+      ],
+      "index": [
+        3,
+        2
+      ],
+      "cipher": [
+        3,
+        2,
+        5
+      ]
+    },
+    "mask": "long",
+    "observed_positions": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ]
+  },
+  "synthetic_ciphertext": [
+    2,
+    4,
+    1,
+    0,
+    1,
+    0,
+    5,
+    2,
+    3,
+    4,
+    3,
+    4,
+    5,
+    4,
+    5,
+    1,
+    2,
+    0,
+    4,
+    2,
+    3,
+    4,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5,
+    1,
+    4,
+    5,
+    3,
+    4,
+    1,
+    2,
+    1,
+    1,
+    2,
+    0,
+    4,
+    5,
+    0,
+    5,
+    5,
+    0,
+    1,
+    2,
+    4,
+    5,
+    4,
+    2,
+    3,
+    3,
+    5,
+    3,
+    2,
+    3,
+    2,
+    5,
+    4,
+    4,
+    4,
+    2,
+    4,
+    5,
+    0,
+    0,
+    2,
+    2,
+    0,
+    5,
+    0,
+    1,
+    2,
+    3,
+    0,
+    3,
+    4,
+    3,
+    2,
+    3,
+    4,
+    5,
+    3,
+    1,
+    2,
+    4,
+    3,
+    4,
+    1,
+    0,
+    3,
+    2,
+    3,
+    5,
+    0,
+    1
+  ],
+  "observations": [
+    [
+      21,
+      4,
+      4
+    ],
+    [
+      22,
+      3,
+      2
+    ],
+    [
+      23,
+      0,
+      2
+    ],
+    [
+      24,
+      1,
+      3
+    ],
+    [
+      25,
+      0,
+      3
+    ],
+    [
+      26,
+      1,
+      4
+    ],
+    [
+      27,
+      2,
+      5
+    ],
+    [
+      28,
+      5,
+      1
+    ],
+    [
+      29,
+      2,
+      4
+    ],
+    [
+      30,
+      3,
+      5
+    ],
+    [
+      31,
+      4,
+      3
+    ],
+    [
+      32,
+      5,
+      4
+    ],
+    [
+      33,
+      4,
+      1
+    ],
+    [
+      63,
+      2,
+      4
+    ],
+    [
+      64,
+      3,
+      5
+    ],
+    [
+      65,
+      4,
+      0
+    ],
+    [
+      66,
+      3,
+      0
+    ],
+    [
+      67,
+      0,
+      2
+    ],
+    [
+      68,
+      5,
+      2
+    ],
+    [
+      69,
+      2,
+      0
+    ],
+    [
+      70,
+      5,
+      5
+    ],
+    [
+      71,
+      0,
+      0
+    ],
+    [
+      72,
+      1,
+      1
+    ],
+    [
+      73,
+      2,
+      2
+    ]
+  ],
+  "solver": {
+    "completed": true,
+    "reason": null,
+    "status": "complete_compatible_relation",
+    "exact_raw_key_count": "2",
+    "found_raw_keys_lower_bound": "2",
+    "control_starts_completed": 216,
+    "control_starts_requested": 216,
+    "complete_prefix_raw_descriptions": 1679616,
+    "raw_key_descriptions": 1679616,
+    "reachable_index_classes": 14,
+    "index_aliases": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      [
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      [
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    ],
+    "index_maps": [
+      [
+        0,
+        0,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        1,
+        2,
+        2,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        0,
+        1,
+        0,
+        1
+      ]
+    ],
+    "relations": [
+      {
+        "control": [
+          4,
+          1,
+          2
+        ],
+        "relations": [
+          {
+            "index_classes": "0x2",
+            "cipher_starts": "0x20000000000000000000000000000000",
+            "final_offsets": [
+              3,
+              2,
+              4
+            ]
+          }
+        ]
+      }
+    ],
+    "inference_time_steps": 74,
+    "branches_visited": 49658,
+    "max_live_branches": 14,
+    "index_mask_partitions": 53183,
+    "predicate_builds": 21,
+    "predicate_cache_hits": 9670,
+    "predicate_cache_evictions": 0,
+    "predicate_cache_peak_accounted_bytes": 296116,
+    "budget": {
+      "seconds": 0.045637709088623524,
+      "peak_RSS_bytes": 21528576,
+      "wall_cap_seconds": 600.0,
+      "RSS_cap_bytes": 1073741824,
+      "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+    },
+    "K4_evaluations": 0
+  },
+  "backend_metrics": {
+    "calls": 10591,
+    "zero_offset_builds": 21,
+    "base_cache_hits": 900,
+    "translated_cache_hits": 9670,
+    "translations": 921,
+    "cache_evictions": 0,
+    "cache_peak_accounted_bytes": 296116,
+    "fixed_mask_bytes": 3500,
+    "cache_cap_bytes": 67108864
+  },
+  "K4_evaluations": 0,
+  "planted_full_roundtrip": true,
+  "verification_completed": true,
+  "planted_key_retained": true,
+  "baseline_comparison": {
+    "scope": "full",
+    "controllers": 216,
+    "canonical_sets_byte_equal": true,
+    "new_rows": {
+      "rows": 2,
+      "raw_key_count": "2",
+      "bytes": 106,
+      "sha256": "4da373e2c95f96277023d16f1c7572791b018066bbc109f7ef6e1a0211900994",
+      "controller_prefix": 216
+    },
+    "old_rows": {
+      "rows": 2,
+      "raw_key_count": "2",
+      "bytes": 106,
+      "sha256": "4da373e2c95f96277023d16f1c7572791b018066bbc109f7ef6e1a0211900994",
+      "controller_prefix": 216
+    }
+  },
+  "expanded": {
+    "count": 2,
+    "bytes": 36,
+    "sha256": "254ded03fde55e0b27d682a7f662174be2ea8ea452944985c789e54311e08a34"
+  },
+  "independent_truth": {
+    "completed": true,
+    "raw_key_count": "2",
+    "bytes": 36,
+    "sha256": "254ded03fde55e0b27d682a7f662174be2ea8ea452944985c789e54311e08a34",
+    "control_starts_completed": 216
+  },
+  "full_sets_byte_equal": true,
+  "benchmark_budget": {
+    "seconds": 1.6915162089280784,
+    "peak_RSS_bytes": 21676032,
+    "wall_cap_seconds": 600.0,
+    "RSS_cap_bytes": 1073741824,
+    "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+  },
+  "source_sha256": {
+    "experiments/run_sigaba_torus.py": "25fe25d2db89202cb8c98fe7c37e2e327a70c15964e2bf9ec17dc2c3c3193c10",
+    "research/SIGABA-TORUS-SPEC.md": "73b8227f33bf30b76dee731f0de6a65e013f1ee9ef6597d83bb8ea59af6c9b57",
+    "research/SIGABA-JOINT-TOY-SPEC.md": "b3164d2e9c5e72e82e9ba8c294ffb5655d5f08d339967fd6773c153de6937681",
+    "experiments/sigaba_joint_toy.py": "0bf4fddec4c7416a8bb4c8d2d7243885713b847abd5183210d377734b7649ad5",
+    "experiments/sigaba_joint_toy_oracle.py": "0711bd1f0722cb157e6029a88644ecc876942292ffef13292dd79f6bdef8d79c",
+    "experiments/sigaba_torus.py": "ee49125ae2cd10760ddfe5dd54822834529c3b984772c1c2fb6662d9d0c4e5ee",
+    "experiments/sigaba_compact_oracle.py": "9524243a8b0865c00578532237df0c8d1765f801101b984049487ef75f418500",
+    "data/sigaba-joint-toy-v1.json": "2ad409cafff033932a79f4aa45e3f7ac557833e540b0902bef721da4f9d03b9a"
+  }
+}

@@ -57,3 +57,8 @@ There is a specific exact reuse opportunity before changing the model. If `D_del
 A further reasoned representation would retain factorized rotor-path table relations and symbolic control-start variables, or a decision-diagram/constraint backend, instead of enumerating every controller and storing a dense cipher-start bitset for each branch. Index positions could likewise remain coupled composition variables rather than flattening all reachable maps. Such a representation may reduce the materialization/caching costs but must preserve the correlations tested here; its viability is **unproved and unimplemented**. It needs its own complete toy comparisons and resource protocol before any real-sized synthetic test, then external-reference validation before K4.
 
 The algorithmic frontier is therefore narrower: a working complete coupled toy solver exists, but sound scaling and an authenticated real-sized adapter remain missing. K4 remains unsolved, and no full SIGABA exclusion or positive K4 lead follows.
+
+
+## Subsequent engineering replication — 23 October 2026
+
+[Exact torus predicate reuse](SIGABA-TORUS-FINDINGS.md) uses the same thirteen fixtures and original resource caps. It resolves the q=4 complete-output comparison using independent compact canonical sets, while preserving the original receipts and their historical limitations. Consult the later report for measured scaling outcomes; no actual K4 evaluation was added.
