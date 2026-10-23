@@ -1,0 +1,65 @@
+{
+  "id": "FOLD-SLIDE-2D-001",
+  "recorded_at_utc": "2026-10-23T23:42:20.625097Z",
+  "purpose": "Item 1 only: systematic integer row-plus-column overlay, not a cipher/key search",
+  "baseline_commit": "a0d825e7424e5090501421720dd9b100775cdb8c",
+  "models": [
+    "OBSERVED_RENDER33",
+    "DUNIN_HEADER33"
+  ],
+  "width": 33,
+  "height": 28,
+  "dx_min": -33,
+  "dx_max": 33,
+  "dy_min": -28,
+  "dy_max": 28,
+  "raw_frames": 7638,
+  "active_frames": 7150,
+  "prior_row_zero_frames": 134,
+  "new_nonzero_row_frames": 7504,
+  "new_active_nonzero_row_frames": 7020,
+  "transformation": "Same-facing double reflection, then C[r,c] versus T[r-dy,c-dx]; positive dx right, positive dy down; no wrapping.",
+  "registration": "Unchanged centered ragged 33-column rows, literal header sensitivity and MYVGT/AABCD anchor; no new row registration, crop or glyph choice.",
+  "readout": "Exact A-Z identities only; fixed cipher row-major order. Preserve all source/raw/grid coordinates, glyph/stream/K4 positions and full strings for every frame. No English scoring, path extraction or reading-order search.",
+  "apertures": "Unchanged 5x7 bridged surrogate. Blank/padding solid; punctuation not a label wildcard; any positive pixel AND is modeled transmission; full equal masks separate. Flat coincident equal-scale/baseline sheets, normal rays; no measured optics.",
+  "denominators": "Geometric=(33-abs(dx))*(28-abs(dy)); comparable A-Z pairs separate; common/union pixel ratio descriptive; zero overlap gives zero counts and undefined ratios/no p-value.",
+  "endpoints": [
+    "label_matches",
+    "common_pixel_area"
+  ],
+  "nulls": [
+    {
+      "scheme": "shuffle",
+      "seed": 20261023233511,
+      "draws": 1999
+    },
+    {
+      "scheme": "rotation",
+      "seed": 20261023233512,
+      "draws": 1999
+    }
+  ],
+  "conditioning": "Fixed tableau and five original cipher anchor letters. Independently shuffle each row\u2019s other A-Z slots or rotate its movable-letter sequence. Preserve per-row histograms, punctuation/padding and anchor coordinates.",
+  "expectations": "Exact common-denominator integer means from movable row frequencies plus fixed glyph contributions. Both conditional null schemes have the same means.",
+  "statistic": "(value-E)/sqrt(max(E,1)). Exact ranking via signed squared rational comparison: n=value*D-N, M=max(N,D), compare sign(n) and signed n^2/M; D common. Floating display only, no normal approximation.",
+  "selector": "For every draw rescore every active dx/dy/registration. Retain the maximum for each endpoint; calibrate actual family maximum and every frame against that distribution. No overlap-fraction ranking or minimum-overlap filter.",
+  "multiplicity": "Plus-one p=(exceedances+1)/2000. Multiply by four (two endpoints/two null reports), capped at 1. This covers only the frozen item-1 selector, not all historical hypotheses or eight future investigations.",
+  "display": "Report top five per endpoint by frozen statistic, with denominators and all ties counted; stable tie order model order, dy ascending, dx ascending. Raw counts/fractions and matched strings descriptive only.",
+  "algorithm": "Exact carry-free integer-polynomial cross-correlation with row stride 2W-1; 16-bit coefficient digits for actual label/pixel counts, 64-bit digits for scaled exact expectations. Prove coefficient bounds and compare every lag against independent cell traversal.",
+  "controls": "18 planted 5x4 overlays (two model choices times dx,dy in {-1,0,1}), truth included in complete maximum set; explicit ambiguous ties retained. Exact small-grid cross-correlations, expectations versus exhaustive row permutations/rotations, boundary/punctuation/mask controls, both reflections, fixed-anchor null invariants, full-selector seed replay. Independent JS cell-forward/pixel oracle on toys and all 7638 actual frames; row-zero counts/means match old 134 records.",
+  "budgets": {
+    "actual_seconds": 120,
+    "independent_seconds": 120,
+    "null_seconds_per_scheme": 300,
+    "controls_seconds": 60,
+    "rss_bytes": 1073741824
+  },
+  "stopping": "No extra registrations, row/column ranges, extraction, font, thresholds, seed or sample-size retuning after scores. Timeout/incomplete is unresolved, not rejection. Do not start items 2-8.",
+  "scope_limits": "Public/manual UI and prior column results already known. Protocol precedes new systematic rankings, not historically blind. Conditional coincidence excess does not specify an encryption inverse or prove physical folding/Sanborn intent.",
+  "source_sha256": {
+    "data/monument-slide-input-v2.json": "a87af48ecbdfbdb4bc0ae5680f89c162c5cb0639773acb64b30d9f09d6f884b4",
+    "data/fold-aperture-surrogate-v1.json": "e53413e17026ca7d353da550008606b813cd59dda3550549733b6639f4479baa",
+    "experiments/monument_slide.py": "e012a0d77e83e851d940da4b1e10258f8909bdddcb6eb483c88236ac479afc5f",
+    "results/FOLD-SLIDE-020-actual.json": "a245203d52880b3c0238ac0068b65caa1d8d8d3e284bec5134b10931b41706a3"
+  }
+}
