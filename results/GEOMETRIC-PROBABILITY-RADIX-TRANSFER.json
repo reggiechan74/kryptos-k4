@@ -1,0 +1,101 @@
+{
+  "bundles": [
+    {
+      "name": "periodic-crib-calibration",
+      "library_id": "libfile_5bfc7d475acc8191aeec09e656a9dfa5",
+      "archive_bytes": 18025,
+      "archive_sha256": "82e64742457729d04d92a9a02bc819c83cee85f03c02e6628436502cde9f575e",
+      "members": {
+        "README.md": {
+          "bytes": 6364,
+          "sha256": "984771dbc117de6f698bd75afb8b4153bd29d219c403cee0b0ea532ea6d8fe6c"
+        },
+        "calibrate.py": {
+          "bytes": 9080,
+          "sha256": "3b41f37b3f7d911cb55eb61a8f5ab9188f6b3bf311992ea876d86b91f634a1a7"
+        },
+        "geometry-core.json": {
+          "bytes": 9604,
+          "sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010"
+        },
+        "k4.json": {
+          "bytes": 308,
+          "sha256": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+        },
+        "manifest.json": {
+          "bytes": 1003,
+          "sha256": "cde72eb626d224a8c790c5b6410942a8b4e897b29541940352004130579ff7fb"
+        },
+        "oracle.py": {
+          "bytes": 12002,
+          "sha256": "9ee330efcd2d93b633ae61264a334484a645bde793157f430c9f8b8a2c8edd88"
+        },
+        "preregistration.json": {
+          "bytes": 1514,
+          "sha256": "e84496da6b58dbe8a5068ec4748c3c46b56d4c12f72e6abf7163b3997319213a"
+        },
+        "result.json": {
+          "bytes": 7514,
+          "sha256": "60a92a64cc7e4774bc77c93b1b2e9777e18e47ca1361c87c5afdfbc3202de95f"
+        }
+      }
+    },
+    {
+      "name": "radix-feedback",
+      "library_id": "libfile_b38034d0ccf48191b24daa0613620c9a",
+      "archive_bytes": 29293,
+      "archive_sha256": "9bfdf80275d668281e7309e4ea97a5c1e604dd76dcc15cb956ca61c23839ad84",
+      "members": {
+        "INDEPENDENT_REVIEW.md": {
+          "bytes": 4226,
+          "sha256": "ead3735d58a899b7ee525806ddad8ff2f410541cfbe08c86fd20a50ad32f0123"
+        },
+        "README.md": {
+          "bytes": 2111,
+          "sha256": "40b1c299656a7cae4083c1b177fe9f3678e641727c592d4b35171c903df305fe"
+        },
+        "REPORT.md": {
+          "bytes": 9563,
+          "sha256": "fe978b81ac3d099214928d197a12724f20b1b3b4e14c2f489d12440e90ccaa15"
+        },
+        "SCHEMA_AMENDMENT.json": {
+          "bytes": 589,
+          "sha256": "01982c71b729ec5673c9ba52a63a6e699e3955a05af3c8ee25ead8265795683d"
+        },
+        "SHA256SUMS": {
+          "bytes": 853,
+          "sha256": "ae66562621ecdb8c63d44580abe0af3d39fcc0398bcea72263f76fed78acd7e3"
+        },
+        "SPECIFICATION.json": {
+          "bytes": 5334,
+          "sha256": "caa60d80cf41e7b0a498eeaff62a14b84ef250c44756762fcf84878cfb2c6e5f"
+        },
+        "audit.py": {
+          "bytes": 16425,
+          "sha256": "27fc77e413ec424c296e40d1a02e658f4d27015d64ebdf0ab27ca6e02cdcc46d"
+        },
+        "independent-results.json": {
+          "bytes": 19235,
+          "sha256": "3f572b8988e1573ea7055748a5da77dd286132f5e7e2f407152fa69a058b9291"
+        },
+        "independent_verify.py": {
+          "bytes": 8915,
+          "sha256": "b86eb07d4a29b29cc0fc7970046b1e983ba24a2555ad4eefe43a8fe473250c60"
+        },
+        "modeled-uppercase-geometry-001-core.json": {
+          "bytes": 9604,
+          "sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010"
+        },
+        "results.json": {
+          "bytes": 82951,
+          "sha256": "dc7253ba8619df6e8994852b474e2b90e79ce7acf1cb2e0c45e946a2094cbc3e"
+        }
+      }
+    }
+  ],
+  "source_inspected_before_execution": true,
+  "library_helper_metadata_verified": true,
+  "helper_runtime": "Python 3.12.2 with existing macOS CA bundle; no persistent settings changed",
+  "replay_runtime": "Python 3.9.6",
+  "private_source_images_or_archives_committed": false
+}

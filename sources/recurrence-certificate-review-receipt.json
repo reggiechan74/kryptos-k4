@@ -1,0 +1,15 @@
+{
+  "id": "RECURRENCE-CERTIFICATE-REVIEW-RECEIPT-001",
+  "code_commit": "9bc66dc72cc2d76a8c1af3ef01b9bdfd96413b59",
+  "python": "3.9.6",
+  "command": "python3 experiments/recurrence_certificate.py > results/RECURRENCE-CERTIFICATE-REVIEW-001.json",
+  "expected_result_supplied_before_audit": true,
+  "not_preregistered_new_search": true,
+  "kind": "Independent supplied certificate verification, not parameter enumeration",
+  "sha256": {
+    "experiments/recurrence_certificate.py": "87f3b5c8d92351d25d24699fbc5198012dde27326f4914b15a74fbc1e41d8ed4",
+    "tests/test_recurrence_certificate.py": "e3ee467911c72de990ee8b5ff1b9552a6759225029b21eed77599fe32ed7d67d",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  },
+  "artifact_sha256": "03bbae7ed8950b72da8c132ad028ad714aa92126d77ce39bac33c816a0029f25"
+}

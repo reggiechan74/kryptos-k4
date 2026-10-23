@@ -1,0 +1,21 @@
+{
+  "experiment": "DYNAMIC-KEY-001",
+  "suite": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v",
+    "tests": 147,
+    "seconds": 8.705,
+    "status": "passed"
+  },
+  "artifact_audits": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p test_dynamic_key_artifacts.py -v",
+    "tests": 3,
+    "seconds": 0.097,
+    "status": "passed"
+  },
+  "note": "Artifact audits were added after the full suite; no full-suite rerun or repeated K4/null search was needed.",
+  "suite_log_sha256": "0ba88791c4f68f72c96d6c0140c5222beb1f3c18a42c309e6fd956031667b0cc",
+  "python": "3.9.6",
+  "run": "20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0",
+  "spec_commit": "4f0c056ee633828e88af89f9f6e066cf250a3606",
+  "code_commit": "11bc39f705ed24d1d591f0746f8217d78d39bb6f"
+}

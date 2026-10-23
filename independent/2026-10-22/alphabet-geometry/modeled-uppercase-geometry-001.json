@@ -1,0 +1,5333 @@
+{
+  "schema_id": "MODELED-UPPERCASE-GEOMETRY-001",
+  "version": 1,
+  "status": "Provisional canonical model, not measured monument glyphs; no cryptanalytic result.",
+  "scope": "An explicitly modeled uppercase Latin skeleton. Geometry identifies the selected glyphs, not letter meaning or an encryption mechanism.",
+  "coordinates": {
+    "origin": "bottom-left",
+    "x": "right",
+    "y": "up",
+    "bounds": [
+      0,
+      1
+    ],
+    "line_semantics": "Undirected straight segment with exact endpoints; intersections do not subdivide it.",
+    "arc_semantics": "For 0<=t<=1, x=cx+rx*cos((start_degrees+t*sweep_degrees)*pi/180), y=cy+ry*sin(...). The whole declared arc is one curved primitive. A full 360-degree arc is closed.",
+    "precision": "Coordinates and degree values are exact declarations. Trigonometric evaluation is only needed to render; vectorization does not round them."
+  },
+  "choices": {
+    "I": "single vertical, no top/bottom bars",
+    "J": "unbarred hooked J",
+    "G": "one near-closed arc and inward horizontal bar; no vertical spur",
+    "Q": "closed oval with straight lower-right tail",
+    "S": "two opposite-bending lobes",
+    "U": "two upper vertical legs and one lower semicircle",
+    "M": "central valley at y=0.5",
+    "W": "central peak at y=0.5",
+    "serifs": "absent",
+    "pen_lifts": "not represented or inferred"
+  },
+  "vectorization": {
+    "dimensions": 35,
+    "index_base": 0,
+    "feature_order_rule": "ASCII lexicographic order of the frozen primitive IDs; explicit feature_order below is authoritative.",
+    "entry": "Number of occurrences of that exact geometric primitive in the glyph. All current entries are 0 or 1.",
+    "unknown_primitives": "Reject; do not append silently. A changed geometry or dictionary needs a new model version.",
+    "invertibility": "Within this frozen dictionary, vectors recover the exact unordered primitive multiset. They do not preserve writing order or pen direction.",
+    "glyph_array_note": "glyphs below are sparse named-component arrays, not dense fixed-length vectors. vectors below are the dense fixed-length arrays.",
+    "incidence_note": "This is a component-incidence vector, not a graph vertex-edge incidence matrix. Geometric touching/crossing can be derived separately."
+  },
+  "primitives": {
+    "H_TOP_FULL": {
+      "kind": "line",
+      "p0": [
+        0,
+        1
+      ],
+      "p1": [
+        1,
+        1
+      ]
+    },
+    "H_MIDDLE_FULL": {
+      "kind": "line",
+      "p0": [
+        0,
+        0.5
+      ],
+      "p1": [
+        1,
+        0.5
+      ]
+    },
+    "H_BOTTOM_FULL": {
+      "kind": "line",
+      "p0": [
+        0,
+        0
+      ],
+      "p1": [
+        1,
+        0
+      ]
+    },
+    "H_MIDDLE_CENTRAL": {
+      "kind": "line",
+      "p0": [
+        0.25,
+        0.5
+      ],
+      "p1": [
+        0.75,
+        0.5
+      ]
+    },
+    "H_MIDDLE_RIGHT": {
+      "kind": "line",
+      "p0": [
+        0.5,
+        0.5
+      ],
+      "p1": [
+        1,
+        0.5
+      ]
+    },
+    "V_LEFT_FULL": {
+      "kind": "line",
+      "p0": [
+        0,
+        0
+      ],
+      "p1": [
+        0,
+        1
+      ]
+    },
+    "V_CENTRE_FULL": {
+      "kind": "line",
+      "p0": [
+        0.5,
+        0
+      ],
+      "p1": [
+        0.5,
+        1
+      ]
+    },
+    "V_RIGHT_FULL": {
+      "kind": "line",
+      "p0": [
+        1,
+        0
+      ],
+      "p1": [
+        1,
+        1
+      ]
+    },
+    "V_LEFT_UPPER": {
+      "kind": "line",
+      "p0": [
+        0,
+        0.5
+      ],
+      "p1": [
+        0,
+        1
+      ]
+    },
+    "V_RIGHT_UPPER": {
+      "kind": "line",
+      "p0": [
+        1,
+        0.5
+      ],
+      "p1": [
+        1,
+        1
+      ]
+    },
+    "V_CENTRE_LOWER": {
+      "kind": "line",
+      "p0": [
+        0.5,
+        0
+      ],
+      "p1": [
+        0.5,
+        0.5
+      ]
+    },
+    "D_RISING_FULL": {
+      "kind": "line",
+      "p0": [
+        0,
+        0
+      ],
+      "p1": [
+        1,
+        1
+      ]
+    },
+    "D_FALLING_FULL": {
+      "kind": "line",
+      "p0": [
+        0,
+        1
+      ],
+      "p1": [
+        1,
+        0
+      ]
+    },
+    "D_RISING_LEFTBASE_TO_APEX": {
+      "kind": "line",
+      "p0": [
+        0,
+        0
+      ],
+      "p1": [
+        0.5,
+        1
+      ]
+    },
+    "D_FALLING_APEX_TO_RIGHTBASE": {
+      "kind": "line",
+      "p0": [
+        0.5,
+        1
+      ],
+      "p1": [
+        1,
+        0
+      ]
+    },
+    "D_RISING_LEFTMIDDLE_TO_TOPRIGHT": {
+      "kind": "line",
+      "p0": [
+        0,
+        0.5
+      ],
+      "p1": [
+        1,
+        1
+      ]
+    },
+    "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT": {
+      "kind": "line",
+      "p0": [
+        0,
+        0.5
+      ],
+      "p1": [
+        1,
+        0
+      ]
+    },
+    "D_FALLING_TOPLEFT_TO_CENTRE": {
+      "kind": "line",
+      "p0": [
+        0,
+        1
+      ],
+      "p1": [
+        0.5,
+        0.5
+      ]
+    },
+    "D_RISING_CENTRE_TO_TOPRIGHT": {
+      "kind": "line",
+      "p0": [
+        0.5,
+        0.5
+      ],
+      "p1": [
+        1,
+        1
+      ]
+    },
+    "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE": {
+      "kind": "line",
+      "p0": [
+        0,
+        1
+      ],
+      "p1": [
+        0.5,
+        0
+      ]
+    },
+    "D_RISING_BOTTOMCENTRE_TO_TOPRIGHT": {
+      "kind": "line",
+      "p0": [
+        0.5,
+        0
+      ],
+      "p1": [
+        1,
+        1
+      ]
+    },
+    "D_FALLING_TOPLEFT_TO_QUARTERBASE": {
+      "kind": "line",
+      "p0": [
+        0,
+        1
+      ],
+      "p1": [
+        0.25,
+        0
+      ]
+    },
+    "D_RISING_QUARTERBASE_TO_CENTRE": {
+      "kind": "line",
+      "p0": [
+        0.25,
+        0
+      ],
+      "p1": [
+        0.5,
+        0.5
+      ]
+    },
+    "D_FALLING_CENTRE_TO_THREEQUARTERBASE": {
+      "kind": "line",
+      "p0": [
+        0.5,
+        0.5
+      ],
+      "p1": [
+        0.75,
+        0
+      ]
+    },
+    "D_RISING_THREEQUARTERBASE_TO_TOPRIGHT": {
+      "kind": "line",
+      "p0": [
+        0.75,
+        0
+      ],
+      "p1": [
+        1,
+        1
+      ]
+    },
+    "D_FALLING_SHORT_LOWERRIGHT": {
+      "kind": "line",
+      "p0": [
+        0.75,
+        0.25
+      ],
+      "p1": [
+        1,
+        0
+      ]
+    },
+    "ARC_RIGHT_UPPER_HALF": {
+      "kind": "elliptic_arc",
+      "center": [
+        0,
+        0.75
+      ],
+      "radii": [
+        1,
+        0.25
+      ],
+      "start_degrees": -90,
+      "sweep_degrees": 180,
+      "closed": false
+    },
+    "ARC_RIGHT_LOWER_HALF": {
+      "kind": "elliptic_arc",
+      "center": [
+        0,
+        0.25
+      ],
+      "radii": [
+        1,
+        0.25
+      ],
+      "start_degrees": -90,
+      "sweep_degrees": 180,
+      "closed": false
+    },
+    "ARC_RIGHT_FULL_HALF": {
+      "kind": "elliptic_arc",
+      "center": [
+        0,
+        0.5
+      ],
+      "radii": [
+        1,
+        0.5
+      ],
+      "start_degrees": -90,
+      "sweep_degrees": 180,
+      "closed": false
+    },
+    "ARC_OPEN_RIGHT": {
+      "kind": "elliptic_arc",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radii": [
+        0.5,
+        0.5
+      ],
+      "start_degrees": 45,
+      "sweep_degrees": 270,
+      "closed": false
+    },
+    "ARC_OPEN_UPPER_RIGHT": {
+      "kind": "elliptic_arc",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radii": [
+        0.5,
+        0.5
+      ],
+      "start_degrees": 45,
+      "sweep_degrees": 315,
+      "closed": false
+    },
+    "ARC_CLOSED_OVAL": {
+      "kind": "elliptic_arc",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radii": [
+        0.5,
+        0.5
+      ],
+      "start_degrees": 0,
+      "sweep_degrees": 360,
+      "closed": true
+    },
+    "ARC_BOTTOM_HALF": {
+      "kind": "elliptic_arc",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radii": [
+        0.5,
+        0.5
+      ],
+      "start_degrees": 180,
+      "sweep_degrees": 180,
+      "closed": false
+    },
+    "ARC_UPPER_LEFT_THREEQUARTER": {
+      "kind": "elliptic_arc",
+      "center": [
+        0.5,
+        0.75
+      ],
+      "radii": [
+        0.5,
+        0.25
+      ],
+      "start_degrees": 0,
+      "sweep_degrees": 270,
+      "closed": false
+    },
+    "ARC_LOWER_RIGHT_THREEQUARTER": {
+      "kind": "elliptic_arc",
+      "center": [
+        0.5,
+        0.25
+      ],
+      "radii": [
+        0.5,
+        0.25
+      ],
+      "start_degrees": 90,
+      "sweep_degrees": -270,
+      "closed": false
+    }
+  },
+  "feature_order": [
+    "ARC_BOTTOM_HALF",
+    "ARC_CLOSED_OVAL",
+    "ARC_LOWER_RIGHT_THREEQUARTER",
+    "ARC_OPEN_RIGHT",
+    "ARC_OPEN_UPPER_RIGHT",
+    "ARC_RIGHT_FULL_HALF",
+    "ARC_RIGHT_LOWER_HALF",
+    "ARC_RIGHT_UPPER_HALF",
+    "ARC_UPPER_LEFT_THREEQUARTER",
+    "D_FALLING_APEX_TO_RIGHTBASE",
+    "D_FALLING_CENTRE_TO_THREEQUARTERBASE",
+    "D_FALLING_FULL",
+    "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT",
+    "D_FALLING_SHORT_LOWERRIGHT",
+    "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE",
+    "D_FALLING_TOPLEFT_TO_CENTRE",
+    "D_FALLING_TOPLEFT_TO_QUARTERBASE",
+    "D_RISING_BOTTOMCENTRE_TO_TOPRIGHT",
+    "D_RISING_CENTRE_TO_TOPRIGHT",
+    "D_RISING_FULL",
+    "D_RISING_LEFTBASE_TO_APEX",
+    "D_RISING_LEFTMIDDLE_TO_TOPRIGHT",
+    "D_RISING_QUARTERBASE_TO_CENTRE",
+    "D_RISING_THREEQUARTERBASE_TO_TOPRIGHT",
+    "H_BOTTOM_FULL",
+    "H_MIDDLE_CENTRAL",
+    "H_MIDDLE_FULL",
+    "H_MIDDLE_RIGHT",
+    "H_TOP_FULL",
+    "V_CENTRE_FULL",
+    "V_CENTRE_LOWER",
+    "V_LEFT_FULL",
+    "V_LEFT_UPPER",
+    "V_RIGHT_FULL",
+    "V_RIGHT_UPPER"
+  ],
+  "glyphs": {
+    "A": [
+      "D_RISING_LEFTBASE_TO_APEX",
+      "D_FALLING_APEX_TO_RIGHTBASE",
+      "H_MIDDLE_CENTRAL"
+    ],
+    "B": [
+      "V_LEFT_FULL",
+      "ARC_RIGHT_UPPER_HALF",
+      "ARC_RIGHT_LOWER_HALF"
+    ],
+    "C": [
+      "ARC_OPEN_RIGHT"
+    ],
+    "D": [
+      "V_LEFT_FULL",
+      "ARC_RIGHT_FULL_HALF"
+    ],
+    "E": [
+      "V_LEFT_FULL",
+      "H_TOP_FULL",
+      "H_MIDDLE_FULL",
+      "H_BOTTOM_FULL"
+    ],
+    "F": [
+      "V_LEFT_FULL",
+      "H_TOP_FULL",
+      "H_MIDDLE_FULL"
+    ],
+    "G": [
+      "ARC_OPEN_UPPER_RIGHT",
+      "H_MIDDLE_RIGHT"
+    ],
+    "H": [
+      "V_LEFT_FULL",
+      "V_RIGHT_FULL",
+      "H_MIDDLE_FULL"
+    ],
+    "I": [
+      "V_CENTRE_FULL"
+    ],
+    "J": [
+      "V_RIGHT_UPPER",
+      "ARC_BOTTOM_HALF"
+    ],
+    "K": [
+      "V_LEFT_FULL",
+      "D_RISING_LEFTMIDDLE_TO_TOPRIGHT",
+      "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    ],
+    "L": [
+      "V_LEFT_FULL",
+      "H_BOTTOM_FULL"
+    ],
+    "M": [
+      "V_LEFT_FULL",
+      "V_RIGHT_FULL",
+      "D_FALLING_TOPLEFT_TO_CENTRE",
+      "D_RISING_CENTRE_TO_TOPRIGHT"
+    ],
+    "N": [
+      "V_LEFT_FULL",
+      "V_RIGHT_FULL",
+      "D_FALLING_FULL"
+    ],
+    "O": [
+      "ARC_CLOSED_OVAL"
+    ],
+    "P": [
+      "V_LEFT_FULL",
+      "ARC_RIGHT_UPPER_HALF"
+    ],
+    "Q": [
+      "ARC_CLOSED_OVAL",
+      "D_FALLING_SHORT_LOWERRIGHT"
+    ],
+    "R": [
+      "V_LEFT_FULL",
+      "ARC_RIGHT_UPPER_HALF",
+      "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    ],
+    "S": [
+      "ARC_UPPER_LEFT_THREEQUARTER",
+      "ARC_LOWER_RIGHT_THREEQUARTER"
+    ],
+    "T": [
+      "H_TOP_FULL",
+      "V_CENTRE_FULL"
+    ],
+    "U": [
+      "V_LEFT_UPPER",
+      "V_RIGHT_UPPER",
+      "ARC_BOTTOM_HALF"
+    ],
+    "V": [
+      "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE",
+      "D_RISING_BOTTOMCENTRE_TO_TOPRIGHT"
+    ],
+    "W": [
+      "D_FALLING_TOPLEFT_TO_QUARTERBASE",
+      "D_RISING_QUARTERBASE_TO_CENTRE",
+      "D_FALLING_CENTRE_TO_THREEQUARTERBASE",
+      "D_RISING_THREEQUARTERBASE_TO_TOPRIGHT"
+    ],
+    "X": [
+      "D_FALLING_FULL",
+      "D_RISING_FULL"
+    ],
+    "Y": [
+      "D_FALLING_TOPLEFT_TO_CENTRE",
+      "D_RISING_CENTRE_TO_TOPRIGHT",
+      "V_CENTRE_LOWER"
+    ],
+    "Z": [
+      "H_TOP_FULL",
+      "H_BOTTOM_FULL",
+      "D_RISING_FULL"
+    ]
+  },
+  "vectors": {
+    "A": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "C": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "D": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "E": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "F": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "G": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "H": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "I": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "J": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "K": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "L": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "M": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "N": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "O": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "P": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Q": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "R": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "S": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "T": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "U": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "W": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "X": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Y": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Z": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "derived_counts": {
+    "A": {
+      "horizontal": 1,
+      "vertical": 0,
+      "rising_diagonal": 1,
+      "falling_diagonal": 1,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "B": {
+      "horizontal": 0,
+      "vertical": 1,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 2,
+      "closed_curve": 0
+    },
+    "C": {
+      "horizontal": 0,
+      "vertical": 0,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 1,
+      "closed_curve": 0
+    },
+    "D": {
+      "horizontal": 0,
+      "vertical": 1,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 1,
+      "closed_curve": 0
+    },
+    "E": {
+      "horizontal": 3,
+      "vertical": 1,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "F": {
+      "horizontal": 2,
+      "vertical": 1,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "G": {
+      "horizontal": 1,
+      "vertical": 0,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 1,
+      "closed_curve": 0
+    },
+    "H": {
+      "horizontal": 1,
+      "vertical": 2,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "I": {
+      "horizontal": 0,
+      "vertical": 1,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "J": {
+      "horizontal": 0,
+      "vertical": 1,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 1,
+      "closed_curve": 0
+    },
+    "K": {
+      "horizontal": 0,
+      "vertical": 1,
+      "rising_diagonal": 1,
+      "falling_diagonal": 1,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "L": {
+      "horizontal": 1,
+      "vertical": 1,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "M": {
+      "horizontal": 0,
+      "vertical": 2,
+      "rising_diagonal": 1,
+      "falling_diagonal": 1,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "N": {
+      "horizontal": 0,
+      "vertical": 2,
+      "rising_diagonal": 0,
+      "falling_diagonal": 1,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "O": {
+      "horizontal": 0,
+      "vertical": 0,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 1,
+      "closed_curve": 1
+    },
+    "P": {
+      "horizontal": 0,
+      "vertical": 1,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 1,
+      "closed_curve": 0
+    },
+    "Q": {
+      "horizontal": 0,
+      "vertical": 0,
+      "rising_diagonal": 0,
+      "falling_diagonal": 1,
+      "curve": 1,
+      "closed_curve": 1
+    },
+    "R": {
+      "horizontal": 0,
+      "vertical": 1,
+      "rising_diagonal": 0,
+      "falling_diagonal": 1,
+      "curve": 1,
+      "closed_curve": 0
+    },
+    "S": {
+      "horizontal": 0,
+      "vertical": 0,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 2,
+      "closed_curve": 0
+    },
+    "T": {
+      "horizontal": 1,
+      "vertical": 1,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "U": {
+      "horizontal": 0,
+      "vertical": 2,
+      "rising_diagonal": 0,
+      "falling_diagonal": 0,
+      "curve": 1,
+      "closed_curve": 0
+    },
+    "V": {
+      "horizontal": 0,
+      "vertical": 0,
+      "rising_diagonal": 1,
+      "falling_diagonal": 1,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "W": {
+      "horizontal": 0,
+      "vertical": 0,
+      "rising_diagonal": 2,
+      "falling_diagonal": 2,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "X": {
+      "horizontal": 0,
+      "vertical": 0,
+      "rising_diagonal": 1,
+      "falling_diagonal": 1,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "Y": {
+      "horizontal": 0,
+      "vertical": 1,
+      "rising_diagonal": 1,
+      "falling_diagonal": 1,
+      "curve": 0,
+      "closed_curve": 0
+    },
+    "Z": {
+      "horizontal": 2,
+      "vertical": 0,
+      "rising_diagonal": 1,
+      "falling_diagonal": 0,
+      "curve": 0,
+      "closed_curve": 0
+    }
+  },
+  "collision_audit": {
+    "letters": 26,
+    "dimensions": 35,
+    "pairs_checked": 325,
+    "collisions": [],
+    "all_pairs": [
+      {
+        "letters": "AB",
+        "different_indices": [
+          6,
+          7,
+          9,
+          20,
+          25,
+          31
+        ]
+      },
+      {
+        "letters": "AC",
+        "different_indices": [
+          3,
+          9,
+          20,
+          25
+        ]
+      },
+      {
+        "letters": "AD",
+        "different_indices": [
+          5,
+          9,
+          20,
+          25,
+          31
+        ]
+      },
+      {
+        "letters": "AE",
+        "different_indices": [
+          9,
+          20,
+          24,
+          25,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "AF",
+        "different_indices": [
+          9,
+          20,
+          25,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "AG",
+        "different_indices": [
+          4,
+          9,
+          20,
+          25,
+          27
+        ]
+      },
+      {
+        "letters": "AH",
+        "different_indices": [
+          9,
+          20,
+          25,
+          26,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "AI",
+        "different_indices": [
+          9,
+          20,
+          25,
+          29
+        ]
+      },
+      {
+        "letters": "AJ",
+        "different_indices": [
+          0,
+          9,
+          20,
+          25,
+          34
+        ]
+      },
+      {
+        "letters": "AK",
+        "different_indices": [
+          9,
+          12,
+          20,
+          21,
+          25,
+          31
+        ]
+      },
+      {
+        "letters": "AL",
+        "different_indices": [
+          9,
+          20,
+          24,
+          25,
+          31
+        ]
+      },
+      {
+        "letters": "AM",
+        "different_indices": [
+          9,
+          15,
+          18,
+          20,
+          25,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "AN",
+        "different_indices": [
+          9,
+          11,
+          20,
+          25,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "AO",
+        "different_indices": [
+          1,
+          9,
+          20,
+          25
+        ]
+      },
+      {
+        "letters": "AP",
+        "different_indices": [
+          7,
+          9,
+          20,
+          25,
+          31
+        ]
+      },
+      {
+        "letters": "AQ",
+        "different_indices": [
+          1,
+          9,
+          13,
+          20,
+          25
+        ]
+      },
+      {
+        "letters": "AR",
+        "different_indices": [
+          7,
+          9,
+          12,
+          20,
+          25,
+          31
+        ]
+      },
+      {
+        "letters": "AS",
+        "different_indices": [
+          2,
+          8,
+          9,
+          20,
+          25
+        ]
+      },
+      {
+        "letters": "AT",
+        "different_indices": [
+          9,
+          20,
+          25,
+          28,
+          29
+        ]
+      },
+      {
+        "letters": "AU",
+        "different_indices": [
+          0,
+          9,
+          20,
+          25,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "AV",
+        "different_indices": [
+          9,
+          14,
+          17,
+          20,
+          25
+        ]
+      },
+      {
+        "letters": "AW",
+        "different_indices": [
+          9,
+          10,
+          16,
+          20,
+          22,
+          23,
+          25
+        ]
+      },
+      {
+        "letters": "AX",
+        "different_indices": [
+          9,
+          11,
+          19,
+          20,
+          25
+        ]
+      },
+      {
+        "letters": "AY",
+        "different_indices": [
+          9,
+          15,
+          18,
+          20,
+          25,
+          30
+        ]
+      },
+      {
+        "letters": "AZ",
+        "different_indices": [
+          9,
+          19,
+          20,
+          24,
+          25,
+          28
+        ]
+      },
+      {
+        "letters": "BC",
+        "different_indices": [
+          3,
+          6,
+          7,
+          31
+        ]
+      },
+      {
+        "letters": "BD",
+        "different_indices": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "letters": "BE",
+        "different_indices": [
+          6,
+          7,
+          24,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "BF",
+        "different_indices": [
+          6,
+          7,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "BG",
+        "different_indices": [
+          4,
+          6,
+          7,
+          27,
+          31
+        ]
+      },
+      {
+        "letters": "BH",
+        "different_indices": [
+          6,
+          7,
+          26,
+          33
+        ]
+      },
+      {
+        "letters": "BI",
+        "different_indices": [
+          6,
+          7,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "BJ",
+        "different_indices": [
+          0,
+          6,
+          7,
+          31,
+          34
+        ]
+      },
+      {
+        "letters": "BK",
+        "different_indices": [
+          6,
+          7,
+          12,
+          21
+        ]
+      },
+      {
+        "letters": "BL",
+        "different_indices": [
+          6,
+          7,
+          24
+        ]
+      },
+      {
+        "letters": "BM",
+        "different_indices": [
+          6,
+          7,
+          15,
+          18,
+          33
+        ]
+      },
+      {
+        "letters": "BN",
+        "different_indices": [
+          6,
+          7,
+          11,
+          33
+        ]
+      },
+      {
+        "letters": "BO",
+        "different_indices": [
+          1,
+          6,
+          7,
+          31
+        ]
+      },
+      {
+        "letters": "BP",
+        "different_indices": [
+          6
+        ]
+      },
+      {
+        "letters": "BQ",
+        "different_indices": [
+          1,
+          6,
+          7,
+          13,
+          31
+        ]
+      },
+      {
+        "letters": "BR",
+        "different_indices": [
+          6,
+          12
+        ]
+      },
+      {
+        "letters": "BS",
+        "different_indices": [
+          2,
+          6,
+          7,
+          8,
+          31
+        ]
+      },
+      {
+        "letters": "BT",
+        "different_indices": [
+          6,
+          7,
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "BU",
+        "different_indices": [
+          0,
+          6,
+          7,
+          31,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "BV",
+        "different_indices": [
+          6,
+          7,
+          14,
+          17,
+          31
+        ]
+      },
+      {
+        "letters": "BW",
+        "different_indices": [
+          6,
+          7,
+          10,
+          16,
+          22,
+          23,
+          31
+        ]
+      },
+      {
+        "letters": "BX",
+        "different_indices": [
+          6,
+          7,
+          11,
+          19,
+          31
+        ]
+      },
+      {
+        "letters": "BY",
+        "different_indices": [
+          6,
+          7,
+          15,
+          18,
+          30,
+          31
+        ]
+      },
+      {
+        "letters": "BZ",
+        "different_indices": [
+          6,
+          7,
+          19,
+          24,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "CD",
+        "different_indices": [
+          3,
+          5,
+          31
+        ]
+      },
+      {
+        "letters": "CE",
+        "different_indices": [
+          3,
+          24,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "CF",
+        "different_indices": [
+          3,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "CG",
+        "different_indices": [
+          3,
+          4,
+          27
+        ]
+      },
+      {
+        "letters": "CH",
+        "different_indices": [
+          3,
+          26,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "CI",
+        "different_indices": [
+          3,
+          29
+        ]
+      },
+      {
+        "letters": "CJ",
+        "different_indices": [
+          0,
+          3,
+          34
+        ]
+      },
+      {
+        "letters": "CK",
+        "different_indices": [
+          3,
+          12,
+          21,
+          31
+        ]
+      },
+      {
+        "letters": "CL",
+        "different_indices": [
+          3,
+          24,
+          31
+        ]
+      },
+      {
+        "letters": "CM",
+        "different_indices": [
+          3,
+          15,
+          18,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "CN",
+        "different_indices": [
+          3,
+          11,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "CO",
+        "different_indices": [
+          1,
+          3
+        ]
+      },
+      {
+        "letters": "CP",
+        "different_indices": [
+          3,
+          7,
+          31
+        ]
+      },
+      {
+        "letters": "CQ",
+        "different_indices": [
+          1,
+          3,
+          13
+        ]
+      },
+      {
+        "letters": "CR",
+        "different_indices": [
+          3,
+          7,
+          12,
+          31
+        ]
+      },
+      {
+        "letters": "CS",
+        "different_indices": [
+          2,
+          3,
+          8
+        ]
+      },
+      {
+        "letters": "CT",
+        "different_indices": [
+          3,
+          28,
+          29
+        ]
+      },
+      {
+        "letters": "CU",
+        "different_indices": [
+          0,
+          3,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "CV",
+        "different_indices": [
+          3,
+          14,
+          17
+        ]
+      },
+      {
+        "letters": "CW",
+        "different_indices": [
+          3,
+          10,
+          16,
+          22,
+          23
+        ]
+      },
+      {
+        "letters": "CX",
+        "different_indices": [
+          3,
+          11,
+          19
+        ]
+      },
+      {
+        "letters": "CY",
+        "different_indices": [
+          3,
+          15,
+          18,
+          30
+        ]
+      },
+      {
+        "letters": "CZ",
+        "different_indices": [
+          3,
+          19,
+          24,
+          28
+        ]
+      },
+      {
+        "letters": "DE",
+        "different_indices": [
+          5,
+          24,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "DF",
+        "different_indices": [
+          5,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "DG",
+        "different_indices": [
+          4,
+          5,
+          27,
+          31
+        ]
+      },
+      {
+        "letters": "DH",
+        "different_indices": [
+          5,
+          26,
+          33
+        ]
+      },
+      {
+        "letters": "DI",
+        "different_indices": [
+          5,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "DJ",
+        "different_indices": [
+          0,
+          5,
+          31,
+          34
+        ]
+      },
+      {
+        "letters": "DK",
+        "different_indices": [
+          5,
+          12,
+          21
+        ]
+      },
+      {
+        "letters": "DL",
+        "different_indices": [
+          5,
+          24
+        ]
+      },
+      {
+        "letters": "DM",
+        "different_indices": [
+          5,
+          15,
+          18,
+          33
+        ]
+      },
+      {
+        "letters": "DN",
+        "different_indices": [
+          5,
+          11,
+          33
+        ]
+      },
+      {
+        "letters": "DO",
+        "different_indices": [
+          1,
+          5,
+          31
+        ]
+      },
+      {
+        "letters": "DP",
+        "different_indices": [
+          5,
+          7
+        ]
+      },
+      {
+        "letters": "DQ",
+        "different_indices": [
+          1,
+          5,
+          13,
+          31
+        ]
+      },
+      {
+        "letters": "DR",
+        "different_indices": [
+          5,
+          7,
+          12
+        ]
+      },
+      {
+        "letters": "DS",
+        "different_indices": [
+          2,
+          5,
+          8,
+          31
+        ]
+      },
+      {
+        "letters": "DT",
+        "different_indices": [
+          5,
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "DU",
+        "different_indices": [
+          0,
+          5,
+          31,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "DV",
+        "different_indices": [
+          5,
+          14,
+          17,
+          31
+        ]
+      },
+      {
+        "letters": "DW",
+        "different_indices": [
+          5,
+          10,
+          16,
+          22,
+          23,
+          31
+        ]
+      },
+      {
+        "letters": "DX",
+        "different_indices": [
+          5,
+          11,
+          19,
+          31
+        ]
+      },
+      {
+        "letters": "DY",
+        "different_indices": [
+          5,
+          15,
+          18,
+          30,
+          31
+        ]
+      },
+      {
+        "letters": "DZ",
+        "different_indices": [
+          5,
+          19,
+          24,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "EF",
+        "different_indices": [
+          24
+        ]
+      },
+      {
+        "letters": "EG",
+        "different_indices": [
+          4,
+          24,
+          26,
+          27,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "EH",
+        "different_indices": [
+          24,
+          28,
+          33
+        ]
+      },
+      {
+        "letters": "EI",
+        "different_indices": [
+          24,
+          26,
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "EJ",
+        "different_indices": [
+          0,
+          24,
+          26,
+          28,
+          31,
+          34
+        ]
+      },
+      {
+        "letters": "EK",
+        "different_indices": [
+          12,
+          21,
+          24,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "EL",
+        "different_indices": [
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "EM",
+        "different_indices": [
+          15,
+          18,
+          24,
+          26,
+          28,
+          33
+        ]
+      },
+      {
+        "letters": "EN",
+        "different_indices": [
+          11,
+          24,
+          26,
+          28,
+          33
+        ]
+      },
+      {
+        "letters": "EO",
+        "different_indices": [
+          1,
+          24,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "EP",
+        "different_indices": [
+          7,
+          24,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "EQ",
+        "different_indices": [
+          1,
+          13,
+          24,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "ER",
+        "different_indices": [
+          7,
+          12,
+          24,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "ES",
+        "different_indices": [
+          2,
+          8,
+          24,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "ET",
+        "different_indices": [
+          24,
+          26,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "EU",
+        "different_indices": [
+          0,
+          24,
+          26,
+          28,
+          31,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "EV",
+        "different_indices": [
+          14,
+          17,
+          24,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "EW",
+        "different_indices": [
+          10,
+          16,
+          22,
+          23,
+          24,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "EX",
+        "different_indices": [
+          11,
+          19,
+          24,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "EY",
+        "different_indices": [
+          15,
+          18,
+          24,
+          26,
+          28,
+          30,
+          31
+        ]
+      },
+      {
+        "letters": "EZ",
+        "different_indices": [
+          19,
+          26,
+          31
+        ]
+      },
+      {
+        "letters": "FG",
+        "different_indices": [
+          4,
+          26,
+          27,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "FH",
+        "different_indices": [
+          28,
+          33
+        ]
+      },
+      {
+        "letters": "FI",
+        "different_indices": [
+          26,
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "FJ",
+        "different_indices": [
+          0,
+          26,
+          28,
+          31,
+          34
+        ]
+      },
+      {
+        "letters": "FK",
+        "different_indices": [
+          12,
+          21,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "FL",
+        "different_indices": [
+          24,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "FM",
+        "different_indices": [
+          15,
+          18,
+          26,
+          28,
+          33
+        ]
+      },
+      {
+        "letters": "FN",
+        "different_indices": [
+          11,
+          26,
+          28,
+          33
+        ]
+      },
+      {
+        "letters": "FO",
+        "different_indices": [
+          1,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "FP",
+        "different_indices": [
+          7,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "FQ",
+        "different_indices": [
+          1,
+          13,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "FR",
+        "different_indices": [
+          7,
+          12,
+          26,
+          28
+        ]
+      },
+      {
+        "letters": "FS",
+        "different_indices": [
+          2,
+          8,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "FT",
+        "different_indices": [
+          26,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "FU",
+        "different_indices": [
+          0,
+          26,
+          28,
+          31,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "FV",
+        "different_indices": [
+          14,
+          17,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "FW",
+        "different_indices": [
+          10,
+          16,
+          22,
+          23,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "FX",
+        "different_indices": [
+          11,
+          19,
+          26,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "FY",
+        "different_indices": [
+          15,
+          18,
+          26,
+          28,
+          30,
+          31
+        ]
+      },
+      {
+        "letters": "FZ",
+        "different_indices": [
+          19,
+          24,
+          26,
+          31
+        ]
+      },
+      {
+        "letters": "GH",
+        "different_indices": [
+          4,
+          26,
+          27,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "GI",
+        "different_indices": [
+          4,
+          27,
+          29
+        ]
+      },
+      {
+        "letters": "GJ",
+        "different_indices": [
+          0,
+          4,
+          27,
+          34
+        ]
+      },
+      {
+        "letters": "GK",
+        "different_indices": [
+          4,
+          12,
+          21,
+          27,
+          31
+        ]
+      },
+      {
+        "letters": "GL",
+        "different_indices": [
+          4,
+          24,
+          27,
+          31
+        ]
+      },
+      {
+        "letters": "GM",
+        "different_indices": [
+          4,
+          15,
+          18,
+          27,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "GN",
+        "different_indices": [
+          4,
+          11,
+          27,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "GO",
+        "different_indices": [
+          1,
+          4,
+          27
+        ]
+      },
+      {
+        "letters": "GP",
+        "different_indices": [
+          4,
+          7,
+          27,
+          31
+        ]
+      },
+      {
+        "letters": "GQ",
+        "different_indices": [
+          1,
+          4,
+          13,
+          27
+        ]
+      },
+      {
+        "letters": "GR",
+        "different_indices": [
+          4,
+          7,
+          12,
+          27,
+          31
+        ]
+      },
+      {
+        "letters": "GS",
+        "different_indices": [
+          2,
+          4,
+          8,
+          27
+        ]
+      },
+      {
+        "letters": "GT",
+        "different_indices": [
+          4,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "letters": "GU",
+        "different_indices": [
+          0,
+          4,
+          27,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "GV",
+        "different_indices": [
+          4,
+          14,
+          17,
+          27
+        ]
+      },
+      {
+        "letters": "GW",
+        "different_indices": [
+          4,
+          10,
+          16,
+          22,
+          23,
+          27
+        ]
+      },
+      {
+        "letters": "GX",
+        "different_indices": [
+          4,
+          11,
+          19,
+          27
+        ]
+      },
+      {
+        "letters": "GY",
+        "different_indices": [
+          4,
+          15,
+          18,
+          27,
+          30
+        ]
+      },
+      {
+        "letters": "GZ",
+        "different_indices": [
+          4,
+          19,
+          24,
+          27,
+          28
+        ]
+      },
+      {
+        "letters": "HI",
+        "different_indices": [
+          26,
+          29,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "HJ",
+        "different_indices": [
+          0,
+          26,
+          31,
+          33,
+          34
+        ]
+      },
+      {
+        "letters": "HK",
+        "different_indices": [
+          12,
+          21,
+          26,
+          33
+        ]
+      },
+      {
+        "letters": "HL",
+        "different_indices": [
+          24,
+          26,
+          33
+        ]
+      },
+      {
+        "letters": "HM",
+        "different_indices": [
+          15,
+          18,
+          26
+        ]
+      },
+      {
+        "letters": "HN",
+        "different_indices": [
+          11,
+          26
+        ]
+      },
+      {
+        "letters": "HO",
+        "different_indices": [
+          1,
+          26,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "HP",
+        "different_indices": [
+          7,
+          26,
+          33
+        ]
+      },
+      {
+        "letters": "HQ",
+        "different_indices": [
+          1,
+          13,
+          26,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "HR",
+        "different_indices": [
+          7,
+          12,
+          26,
+          33
+        ]
+      },
+      {
+        "letters": "HS",
+        "different_indices": [
+          2,
+          8,
+          26,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "HT",
+        "different_indices": [
+          26,
+          28,
+          29,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "HU",
+        "different_indices": [
+          0,
+          26,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "letters": "HV",
+        "different_indices": [
+          14,
+          17,
+          26,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "HW",
+        "different_indices": [
+          10,
+          16,
+          22,
+          23,
+          26,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "HX",
+        "different_indices": [
+          11,
+          19,
+          26,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "HY",
+        "different_indices": [
+          15,
+          18,
+          26,
+          30,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "HZ",
+        "different_indices": [
+          19,
+          24,
+          26,
+          28,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "IJ",
+        "different_indices": [
+          0,
+          29,
+          34
+        ]
+      },
+      {
+        "letters": "IK",
+        "different_indices": [
+          12,
+          21,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "IL",
+        "different_indices": [
+          24,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "IM",
+        "different_indices": [
+          15,
+          18,
+          29,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "IN",
+        "different_indices": [
+          11,
+          29,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "IO",
+        "different_indices": [
+          1,
+          29
+        ]
+      },
+      {
+        "letters": "IP",
+        "different_indices": [
+          7,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "IQ",
+        "different_indices": [
+          1,
+          13,
+          29
+        ]
+      },
+      {
+        "letters": "IR",
+        "different_indices": [
+          7,
+          12,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "IS",
+        "different_indices": [
+          2,
+          8,
+          29
+        ]
+      },
+      {
+        "letters": "IT",
+        "different_indices": [
+          28
+        ]
+      },
+      {
+        "letters": "IU",
+        "different_indices": [
+          0,
+          29,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "IV",
+        "different_indices": [
+          14,
+          17,
+          29
+        ]
+      },
+      {
+        "letters": "IW",
+        "different_indices": [
+          10,
+          16,
+          22,
+          23,
+          29
+        ]
+      },
+      {
+        "letters": "IX",
+        "different_indices": [
+          11,
+          19,
+          29
+        ]
+      },
+      {
+        "letters": "IY",
+        "different_indices": [
+          15,
+          18,
+          29,
+          30
+        ]
+      },
+      {
+        "letters": "IZ",
+        "different_indices": [
+          19,
+          24,
+          28,
+          29
+        ]
+      },
+      {
+        "letters": "JK",
+        "different_indices": [
+          0,
+          12,
+          21,
+          31,
+          34
+        ]
+      },
+      {
+        "letters": "JL",
+        "different_indices": [
+          0,
+          24,
+          31,
+          34
+        ]
+      },
+      {
+        "letters": "JM",
+        "different_indices": [
+          0,
+          15,
+          18,
+          31,
+          33,
+          34
+        ]
+      },
+      {
+        "letters": "JN",
+        "different_indices": [
+          0,
+          11,
+          31,
+          33,
+          34
+        ]
+      },
+      {
+        "letters": "JO",
+        "different_indices": [
+          0,
+          1,
+          34
+        ]
+      },
+      {
+        "letters": "JP",
+        "different_indices": [
+          0,
+          7,
+          31,
+          34
+        ]
+      },
+      {
+        "letters": "JQ",
+        "different_indices": [
+          0,
+          1,
+          13,
+          34
+        ]
+      },
+      {
+        "letters": "JR",
+        "different_indices": [
+          0,
+          7,
+          12,
+          31,
+          34
+        ]
+      },
+      {
+        "letters": "JS",
+        "different_indices": [
+          0,
+          2,
+          8,
+          34
+        ]
+      },
+      {
+        "letters": "JT",
+        "different_indices": [
+          0,
+          28,
+          29,
+          34
+        ]
+      },
+      {
+        "letters": "JU",
+        "different_indices": [
+          32
+        ]
+      },
+      {
+        "letters": "JV",
+        "different_indices": [
+          0,
+          14,
+          17,
+          34
+        ]
+      },
+      {
+        "letters": "JW",
+        "different_indices": [
+          0,
+          10,
+          16,
+          22,
+          23,
+          34
+        ]
+      },
+      {
+        "letters": "JX",
+        "different_indices": [
+          0,
+          11,
+          19,
+          34
+        ]
+      },
+      {
+        "letters": "JY",
+        "different_indices": [
+          0,
+          15,
+          18,
+          30,
+          34
+        ]
+      },
+      {
+        "letters": "JZ",
+        "different_indices": [
+          0,
+          19,
+          24,
+          28,
+          34
+        ]
+      },
+      {
+        "letters": "KL",
+        "different_indices": [
+          12,
+          21,
+          24
+        ]
+      },
+      {
+        "letters": "KM",
+        "different_indices": [
+          12,
+          15,
+          18,
+          21,
+          33
+        ]
+      },
+      {
+        "letters": "KN",
+        "different_indices": [
+          11,
+          12,
+          21,
+          33
+        ]
+      },
+      {
+        "letters": "KO",
+        "different_indices": [
+          1,
+          12,
+          21,
+          31
+        ]
+      },
+      {
+        "letters": "KP",
+        "different_indices": [
+          7,
+          12,
+          21
+        ]
+      },
+      {
+        "letters": "KQ",
+        "different_indices": [
+          1,
+          12,
+          13,
+          21,
+          31
+        ]
+      },
+      {
+        "letters": "KR",
+        "different_indices": [
+          7,
+          21
+        ]
+      },
+      {
+        "letters": "KS",
+        "different_indices": [
+          2,
+          8,
+          12,
+          21,
+          31
+        ]
+      },
+      {
+        "letters": "KT",
+        "different_indices": [
+          12,
+          21,
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "KU",
+        "different_indices": [
+          0,
+          12,
+          21,
+          31,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "KV",
+        "different_indices": [
+          12,
+          14,
+          17,
+          21,
+          31
+        ]
+      },
+      {
+        "letters": "KW",
+        "different_indices": [
+          10,
+          12,
+          16,
+          21,
+          22,
+          23,
+          31
+        ]
+      },
+      {
+        "letters": "KX",
+        "different_indices": [
+          11,
+          12,
+          19,
+          21,
+          31
+        ]
+      },
+      {
+        "letters": "KY",
+        "different_indices": [
+          12,
+          15,
+          18,
+          21,
+          30,
+          31
+        ]
+      },
+      {
+        "letters": "KZ",
+        "different_indices": [
+          12,
+          19,
+          21,
+          24,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "LM",
+        "different_indices": [
+          15,
+          18,
+          24,
+          33
+        ]
+      },
+      {
+        "letters": "LN",
+        "different_indices": [
+          11,
+          24,
+          33
+        ]
+      },
+      {
+        "letters": "LO",
+        "different_indices": [
+          1,
+          24,
+          31
+        ]
+      },
+      {
+        "letters": "LP",
+        "different_indices": [
+          7,
+          24
+        ]
+      },
+      {
+        "letters": "LQ",
+        "different_indices": [
+          1,
+          13,
+          24,
+          31
+        ]
+      },
+      {
+        "letters": "LR",
+        "different_indices": [
+          7,
+          12,
+          24
+        ]
+      },
+      {
+        "letters": "LS",
+        "different_indices": [
+          2,
+          8,
+          24,
+          31
+        ]
+      },
+      {
+        "letters": "LT",
+        "different_indices": [
+          24,
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "LU",
+        "different_indices": [
+          0,
+          24,
+          31,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "LV",
+        "different_indices": [
+          14,
+          17,
+          24,
+          31
+        ]
+      },
+      {
+        "letters": "LW",
+        "different_indices": [
+          10,
+          16,
+          22,
+          23,
+          24,
+          31
+        ]
+      },
+      {
+        "letters": "LX",
+        "different_indices": [
+          11,
+          19,
+          24,
+          31
+        ]
+      },
+      {
+        "letters": "LY",
+        "different_indices": [
+          15,
+          18,
+          24,
+          30,
+          31
+        ]
+      },
+      {
+        "letters": "LZ",
+        "different_indices": [
+          19,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "MN",
+        "different_indices": [
+          11,
+          15,
+          18
+        ]
+      },
+      {
+        "letters": "MO",
+        "different_indices": [
+          1,
+          15,
+          18,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "MP",
+        "different_indices": [
+          7,
+          15,
+          18,
+          33
+        ]
+      },
+      {
+        "letters": "MQ",
+        "different_indices": [
+          1,
+          13,
+          15,
+          18,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "MR",
+        "different_indices": [
+          7,
+          12,
+          15,
+          18,
+          33
+        ]
+      },
+      {
+        "letters": "MS",
+        "different_indices": [
+          2,
+          8,
+          15,
+          18,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "MT",
+        "different_indices": [
+          15,
+          18,
+          28,
+          29,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "MU",
+        "different_indices": [
+          0,
+          15,
+          18,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "letters": "MV",
+        "different_indices": [
+          14,
+          15,
+          17,
+          18,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "MW",
+        "different_indices": [
+          10,
+          15,
+          16,
+          18,
+          22,
+          23,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "MX",
+        "different_indices": [
+          11,
+          15,
+          18,
+          19,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "MY",
+        "different_indices": [
+          30,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "MZ",
+        "different_indices": [
+          15,
+          18,
+          19,
+          24,
+          28,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "NO",
+        "different_indices": [
+          1,
+          11,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "NP",
+        "different_indices": [
+          7,
+          11,
+          33
+        ]
+      },
+      {
+        "letters": "NQ",
+        "different_indices": [
+          1,
+          11,
+          13,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "NR",
+        "different_indices": [
+          7,
+          11,
+          12,
+          33
+        ]
+      },
+      {
+        "letters": "NS",
+        "different_indices": [
+          2,
+          8,
+          11,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "NT",
+        "different_indices": [
+          11,
+          28,
+          29,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "NU",
+        "different_indices": [
+          0,
+          11,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "letters": "NV",
+        "different_indices": [
+          11,
+          14,
+          17,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "NW",
+        "different_indices": [
+          10,
+          11,
+          16,
+          22,
+          23,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "NX",
+        "different_indices": [
+          19,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "NY",
+        "different_indices": [
+          11,
+          15,
+          18,
+          30,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "NZ",
+        "different_indices": [
+          11,
+          19,
+          24,
+          28,
+          31,
+          33
+        ]
+      },
+      {
+        "letters": "OP",
+        "different_indices": [
+          1,
+          7,
+          31
+        ]
+      },
+      {
+        "letters": "OQ",
+        "different_indices": [
+          13
+        ]
+      },
+      {
+        "letters": "OR",
+        "different_indices": [
+          1,
+          7,
+          12,
+          31
+        ]
+      },
+      {
+        "letters": "OS",
+        "different_indices": [
+          1,
+          2,
+          8
+        ]
+      },
+      {
+        "letters": "OT",
+        "different_indices": [
+          1,
+          28,
+          29
+        ]
+      },
+      {
+        "letters": "OU",
+        "different_indices": [
+          0,
+          1,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "OV",
+        "different_indices": [
+          1,
+          14,
+          17
+        ]
+      },
+      {
+        "letters": "OW",
+        "different_indices": [
+          1,
+          10,
+          16,
+          22,
+          23
+        ]
+      },
+      {
+        "letters": "OX",
+        "different_indices": [
+          1,
+          11,
+          19
+        ]
+      },
+      {
+        "letters": "OY",
+        "different_indices": [
+          1,
+          15,
+          18,
+          30
+        ]
+      },
+      {
+        "letters": "OZ",
+        "different_indices": [
+          1,
+          19,
+          24,
+          28
+        ]
+      },
+      {
+        "letters": "PQ",
+        "different_indices": [
+          1,
+          7,
+          13,
+          31
+        ]
+      },
+      {
+        "letters": "PR",
+        "different_indices": [
+          12
+        ]
+      },
+      {
+        "letters": "PS",
+        "different_indices": [
+          2,
+          7,
+          8,
+          31
+        ]
+      },
+      {
+        "letters": "PT",
+        "different_indices": [
+          7,
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "PU",
+        "different_indices": [
+          0,
+          7,
+          31,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "PV",
+        "different_indices": [
+          7,
+          14,
+          17,
+          31
+        ]
+      },
+      {
+        "letters": "PW",
+        "different_indices": [
+          7,
+          10,
+          16,
+          22,
+          23,
+          31
+        ]
+      },
+      {
+        "letters": "PX",
+        "different_indices": [
+          7,
+          11,
+          19,
+          31
+        ]
+      },
+      {
+        "letters": "PY",
+        "different_indices": [
+          7,
+          15,
+          18,
+          30,
+          31
+        ]
+      },
+      {
+        "letters": "PZ",
+        "different_indices": [
+          7,
+          19,
+          24,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "QR",
+        "different_indices": [
+          1,
+          7,
+          12,
+          13,
+          31
+        ]
+      },
+      {
+        "letters": "QS",
+        "different_indices": [
+          1,
+          2,
+          8,
+          13
+        ]
+      },
+      {
+        "letters": "QT",
+        "different_indices": [
+          1,
+          13,
+          28,
+          29
+        ]
+      },
+      {
+        "letters": "QU",
+        "different_indices": [
+          0,
+          1,
+          13,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "QV",
+        "different_indices": [
+          1,
+          13,
+          14,
+          17
+        ]
+      },
+      {
+        "letters": "QW",
+        "different_indices": [
+          1,
+          10,
+          13,
+          16,
+          22,
+          23
+        ]
+      },
+      {
+        "letters": "QX",
+        "different_indices": [
+          1,
+          11,
+          13,
+          19
+        ]
+      },
+      {
+        "letters": "QY",
+        "different_indices": [
+          1,
+          13,
+          15,
+          18,
+          30
+        ]
+      },
+      {
+        "letters": "QZ",
+        "different_indices": [
+          1,
+          13,
+          19,
+          24,
+          28
+        ]
+      },
+      {
+        "letters": "RS",
+        "different_indices": [
+          2,
+          7,
+          8,
+          12,
+          31
+        ]
+      },
+      {
+        "letters": "RT",
+        "different_indices": [
+          7,
+          12,
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "letters": "RU",
+        "different_indices": [
+          0,
+          7,
+          12,
+          31,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "RV",
+        "different_indices": [
+          7,
+          12,
+          14,
+          17,
+          31
+        ]
+      },
+      {
+        "letters": "RW",
+        "different_indices": [
+          7,
+          10,
+          12,
+          16,
+          22,
+          23,
+          31
+        ]
+      },
+      {
+        "letters": "RX",
+        "different_indices": [
+          7,
+          11,
+          12,
+          19,
+          31
+        ]
+      },
+      {
+        "letters": "RY",
+        "different_indices": [
+          7,
+          12,
+          15,
+          18,
+          30,
+          31
+        ]
+      },
+      {
+        "letters": "RZ",
+        "different_indices": [
+          7,
+          12,
+          19,
+          24,
+          28,
+          31
+        ]
+      },
+      {
+        "letters": "ST",
+        "different_indices": [
+          2,
+          8,
+          28,
+          29
+        ]
+      },
+      {
+        "letters": "SU",
+        "different_indices": [
+          0,
+          2,
+          8,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "SV",
+        "different_indices": [
+          2,
+          8,
+          14,
+          17
+        ]
+      },
+      {
+        "letters": "SW",
+        "different_indices": [
+          2,
+          8,
+          10,
+          16,
+          22,
+          23
+        ]
+      },
+      {
+        "letters": "SX",
+        "different_indices": [
+          2,
+          8,
+          11,
+          19
+        ]
+      },
+      {
+        "letters": "SY",
+        "different_indices": [
+          2,
+          8,
+          15,
+          18,
+          30
+        ]
+      },
+      {
+        "letters": "SZ",
+        "different_indices": [
+          2,
+          8,
+          19,
+          24,
+          28
+        ]
+      },
+      {
+        "letters": "TU",
+        "different_indices": [
+          0,
+          28,
+          29,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "TV",
+        "different_indices": [
+          14,
+          17,
+          28,
+          29
+        ]
+      },
+      {
+        "letters": "TW",
+        "different_indices": [
+          10,
+          16,
+          22,
+          23,
+          28,
+          29
+        ]
+      },
+      {
+        "letters": "TX",
+        "different_indices": [
+          11,
+          19,
+          28,
+          29
+        ]
+      },
+      {
+        "letters": "TY",
+        "different_indices": [
+          15,
+          18,
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "letters": "TZ",
+        "different_indices": [
+          19,
+          24,
+          29
+        ]
+      },
+      {
+        "letters": "UV",
+        "different_indices": [
+          0,
+          14,
+          17,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "UW",
+        "different_indices": [
+          0,
+          10,
+          16,
+          22,
+          23,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "UX",
+        "different_indices": [
+          0,
+          11,
+          19,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "UY",
+        "different_indices": [
+          0,
+          15,
+          18,
+          30,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "UZ",
+        "different_indices": [
+          0,
+          19,
+          24,
+          28,
+          32,
+          34
+        ]
+      },
+      {
+        "letters": "VW",
+        "different_indices": [
+          10,
+          14,
+          16,
+          17,
+          22,
+          23
+        ]
+      },
+      {
+        "letters": "VX",
+        "different_indices": [
+          11,
+          14,
+          17,
+          19
+        ]
+      },
+      {
+        "letters": "VY",
+        "different_indices": [
+          14,
+          15,
+          17,
+          18,
+          30
+        ]
+      },
+      {
+        "letters": "VZ",
+        "different_indices": [
+          14,
+          17,
+          19,
+          24,
+          28
+        ]
+      },
+      {
+        "letters": "WX",
+        "different_indices": [
+          10,
+          11,
+          16,
+          19,
+          22,
+          23
+        ]
+      },
+      {
+        "letters": "WY",
+        "different_indices": [
+          10,
+          15,
+          16,
+          18,
+          22,
+          23,
+          30
+        ]
+      },
+      {
+        "letters": "WZ",
+        "different_indices": [
+          10,
+          16,
+          19,
+          22,
+          23,
+          24,
+          28
+        ]
+      },
+      {
+        "letters": "XY",
+        "different_indices": [
+          11,
+          15,
+          18,
+          19,
+          30
+        ]
+      },
+      {
+        "letters": "XZ",
+        "different_indices": [
+          11,
+          24,
+          28
+        ]
+      },
+      {
+        "letters": "YZ",
+        "different_indices": [
+          15,
+          18,
+          19,
+          24,
+          28,
+          30
+        ]
+      }
+    ]
+  },
+  "tree_rule": "At each node choose the lowest-index feature whose values differ among remaining glyphs; branch by its count. A leaf returns its unique glyph. This is deterministic representation lookup, not cipher inference.",
+  "decision_tree": {
+    "feature_index": 0,
+    "feature_id": "ARC_BOTTOM_HALF",
+    "branches": {
+      "0": {
+        "feature_index": 1,
+        "feature_id": "ARC_CLOSED_OVAL",
+        "branches": {
+          "0": {
+            "feature_index": 2,
+            "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER",
+            "branches": {
+              "0": {
+                "feature_index": 3,
+                "feature_id": "ARC_OPEN_RIGHT",
+                "branches": {
+                  "0": {
+                    "feature_index": 4,
+                    "feature_id": "ARC_OPEN_UPPER_RIGHT",
+                    "branches": {
+                      "0": {
+                        "feature_index": 5,
+                        "feature_id": "ARC_RIGHT_FULL_HALF",
+                        "branches": {
+                          "0": {
+                            "feature_index": 6,
+                            "feature_id": "ARC_RIGHT_LOWER_HALF",
+                            "branches": {
+                              "0": {
+                                "feature_index": 7,
+                                "feature_id": "ARC_RIGHT_UPPER_HALF",
+                                "branches": {
+                                  "0": {
+                                    "feature_index": 9,
+                                    "feature_id": "D_FALLING_APEX_TO_RIGHTBASE",
+                                    "branches": {
+                                      "0": {
+                                        "feature_index": 10,
+                                        "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE",
+                                        "branches": {
+                                          "0": {
+                                            "feature_index": 11,
+                                            "feature_id": "D_FALLING_FULL",
+                                            "branches": {
+                                              "0": {
+                                                "feature_index": 12,
+                                                "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT",
+                                                "branches": {
+                                                  "0": {
+                                                    "feature_index": 14,
+                                                    "feature_id": "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE",
+                                                    "branches": {
+                                                      "0": {
+                                                        "feature_index": 15,
+                                                        "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE",
+                                                        "branches": {
+                                                          "0": {
+                                                            "feature_index": 19,
+                                                            "feature_id": "D_RISING_FULL",
+                                                            "branches": {
+                                                              "0": {
+                                                                "feature_index": 24,
+                                                                "feature_id": "H_BOTTOM_FULL",
+                                                                "branches": {
+                                                                  "0": {
+                                                                    "feature_index": 26,
+                                                                    "feature_id": "H_MIDDLE_FULL",
+                                                                    "branches": {
+                                                                      "0": {
+                                                                        "feature_index": 28,
+                                                                        "feature_id": "H_TOP_FULL",
+                                                                        "branches": {
+                                                                          "0": {
+                                                                            "letter": "I"
+                                                                          },
+                                                                          "1": {
+                                                                            "letter": "T"
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "1": {
+                                                                        "feature_index": 28,
+                                                                        "feature_id": "H_TOP_FULL",
+                                                                        "branches": {
+                                                                          "0": {
+                                                                            "letter": "H"
+                                                                          },
+                                                                          "1": {
+                                                                            "letter": "F"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "1": {
+                                                                    "feature_index": 26,
+                                                                    "feature_id": "H_MIDDLE_FULL",
+                                                                    "branches": {
+                                                                      "0": {
+                                                                        "letter": "L"
+                                                                      },
+                                                                      "1": {
+                                                                        "letter": "E"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "1": {
+                                                                "letter": "Z"
+                                                              }
+                                                            }
+                                                          },
+                                                          "1": {
+                                                            "feature_index": 30,
+                                                            "feature_id": "V_CENTRE_LOWER",
+                                                            "branches": {
+                                                              "0": {
+                                                                "letter": "M"
+                                                              },
+                                                              "1": {
+                                                                "letter": "Y"
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "1": {
+                                                        "letter": "V"
+                                                      }
+                                                    }
+                                                  },
+                                                  "1": {
+                                                    "letter": "K"
+                                                  }
+                                                }
+                                              },
+                                              "1": {
+                                                "feature_index": 19,
+                                                "feature_id": "D_RISING_FULL",
+                                                "branches": {
+                                                  "0": {
+                                                    "letter": "N"
+                                                  },
+                                                  "1": {
+                                                    "letter": "X"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "1": {
+                                            "letter": "W"
+                                          }
+                                        }
+                                      },
+                                      "1": {
+                                        "letter": "A"
+                                      }
+                                    }
+                                  },
+                                  "1": {
+                                    "feature_index": 12,
+                                    "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT",
+                                    "branches": {
+                                      "0": {
+                                        "letter": "P"
+                                      },
+                                      "1": {
+                                        "letter": "R"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "1": {
+                                "letter": "B"
+                              }
+                            }
+                          },
+                          "1": {
+                            "letter": "D"
+                          }
+                        }
+                      },
+                      "1": {
+                        "letter": "G"
+                      }
+                    }
+                  },
+                  "1": {
+                    "letter": "C"
+                  }
+                }
+              },
+              "1": {
+                "letter": "S"
+              }
+            }
+          },
+          "1": {
+            "feature_index": 13,
+            "feature_id": "D_FALLING_SHORT_LOWERRIGHT",
+            "branches": {
+              "0": {
+                "letter": "O"
+              },
+              "1": {
+                "letter": "Q"
+              }
+            }
+          }
+        }
+      },
+      "1": {
+        "feature_index": 32,
+        "feature_id": "V_LEFT_UPPER",
+        "branches": {
+          "0": {
+            "letter": "J"
+          },
+          "1": {
+            "letter": "U"
+          }
+        }
+      }
+    }
+  },
+  "integer_encoding": {
+    "ordinary_sum": {
+      "formula": "sum(v[i])",
+      "values": {
+        "A": 3,
+        "B": 3,
+        "C": 1,
+        "D": 2,
+        "E": 4,
+        "F": 3,
+        "G": 2,
+        "H": 3,
+        "I": 1,
+        "J": 2,
+        "K": 3,
+        "L": 2,
+        "M": 4,
+        "N": 3,
+        "O": 1,
+        "P": 2,
+        "Q": 2,
+        "R": 3,
+        "S": 2,
+        "T": 2,
+        "U": 3,
+        "V": 2,
+        "W": 4,
+        "X": 2,
+        "Y": 3,
+        "Z": 3
+      },
+      "groups": {
+        "1": [
+          "C",
+          "I",
+          "O"
+        ],
+        "2": [
+          "D",
+          "G",
+          "J",
+          "L",
+          "P",
+          "Q",
+          "S",
+          "T",
+          "V",
+          "X"
+        ],
+        "3": [
+          "A",
+          "B",
+          "F",
+          "H",
+          "K",
+          "N",
+          "R",
+          "U",
+          "Y",
+          "Z"
+        ],
+        "4": [
+          "E",
+          "M",
+          "W"
+        ]
+      },
+      "unique_on_this_alphabet": false,
+      "interpretation": "Only counts primitives. In this model every letter shares its sum with at least one other letter."
+    },
+    "binary_weighted_sum": {
+      "formula": "N = sum(v[i] * 2^i), with zero-based i in the frozen feature_order.",
+      "codes_decimal_strings": {
+        "A": "34603520",
+        "B": "2147483840",
+        "C": "8",
+        "D": "2147483680",
+        "E": "2499805184",
+        "F": "2483027968",
+        "G": "134217744",
+        "H": "10804527104",
+        "I": "536870912",
+        "J": "17179869185",
+        "K": "2149584896",
+        "L": "2164260864",
+        "M": "10737713152",
+        "N": "10737420288",
+        "O": "2",
+        "P": "2147483776",
+        "Q": "8194",
+        "R": "2147487872",
+        "S": "260",
+        "T": "805306368",
+        "U": "21474836481",
+        "V": "147456",
+        "W": "12649472",
+        "X": "526336",
+        "Y": "1074036736",
+        "Z": "285736960"
+      },
+      "exact_decode": "Use arbitrary-precision integer arithmetic. For i=0..34, v[i]=(N >> i) & 1. In JavaScript, N must be BigInt: Number((BigInt(decimalString) >> BigInt(i)) & 1n). Never apply Number bitwise operators, which truncate to 32 bits. Require 0 <= N < 2^35, then optionally require membership in the 26-glyph codebook.",
+      "serialization": "Store decimal strings or arbitrary-precision integers. Although the present 35-bit bound fits JavaScript's exact integer range, use BigInt in implementations so a later dimension increase does not silently round.",
+      "prerequisite": "All vector entries must be binary. Reject entries outside {0,1}.",
+      "unique_codes": 26,
+      "roundtrip_checks": [
+        {
+          "letter": "A",
+          "roundtrip": true
+        },
+        {
+          "letter": "B",
+          "roundtrip": true
+        },
+        {
+          "letter": "C",
+          "roundtrip": true
+        },
+        {
+          "letter": "D",
+          "roundtrip": true
+        },
+        {
+          "letter": "E",
+          "roundtrip": true
+        },
+        {
+          "letter": "F",
+          "roundtrip": true
+        },
+        {
+          "letter": "G",
+          "roundtrip": true
+        },
+        {
+          "letter": "H",
+          "roundtrip": true
+        },
+        {
+          "letter": "I",
+          "roundtrip": true
+        },
+        {
+          "letter": "J",
+          "roundtrip": true
+        },
+        {
+          "letter": "K",
+          "roundtrip": true
+        },
+        {
+          "letter": "L",
+          "roundtrip": true
+        },
+        {
+          "letter": "M",
+          "roundtrip": true
+        },
+        {
+          "letter": "N",
+          "roundtrip": true
+        },
+        {
+          "letter": "O",
+          "roundtrip": true
+        },
+        {
+          "letter": "P",
+          "roundtrip": true
+        },
+        {
+          "letter": "Q",
+          "roundtrip": true
+        },
+        {
+          "letter": "R",
+          "roundtrip": true
+        },
+        {
+          "letter": "S",
+          "roundtrip": true
+        },
+        {
+          "letter": "T",
+          "roundtrip": true
+        },
+        {
+          "letter": "U",
+          "roundtrip": true
+        },
+        {
+          "letter": "V",
+          "roundtrip": true
+        },
+        {
+          "letter": "W",
+          "roundtrip": true
+        },
+        {
+          "letter": "X",
+          "roundtrip": true
+        },
+        {
+          "letter": "Y",
+          "roundtrip": true
+        },
+        {
+          "letter": "Z",
+          "roundtrip": true
+        }
+      ],
+      "valid_number_bound_exclusive": "34359738368"
+    },
+    "bounded_count_generalization": {
+      "formula": "If each entry is an integer 0 <= v[i] <= M, freeze b=M+1 and encode N=sum(v[i]*b^i).",
+      "exact_decode": "Repeated integer division by b: v[i]=N mod b; N=floor(N/b). After d digits require N=0.",
+      "warning": "Do not keep base2 if counts may exceed1; carries would create collisions. Base, dimensions, and feature order are part of the schema version."
+    },
+    "cipher_boundary": "This is an exact geometric identifier/codebook, not encryption. Numerical arithmetic on these identifiers would be a separate hypothesis, and depends on the arbitrary but frozen feature order."
+  },
+  "limitations": [
+    "The modeled glyphs are not measurements of Kryptos lettering or historical handwriting.",
+    "Changing fonts, bars, serifs, curve conventions, or geometry can change the vectors.",
+    "Unique arrays establish a representation only. They do not establish encryption, a key, plaintext, or creator intent.",
+    "Primitive order is intentionally ignored. Any ordered stroke-sequence hypothesis requires a separate schema.",
+    "A few coarse line/curve totals may collide even when the full geometry vectors do not."
+  ]
+}

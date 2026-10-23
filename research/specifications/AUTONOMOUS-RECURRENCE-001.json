@@ -1,0 +1,64 @@
+{
+  "id": "AUTONOMOUS-RECURRENCE-001",
+  "date": "2026-10-22",
+  "baseline_commit": "953a85b599a73978683a4e38f8311ab75da13af3",
+  "motivation": "User-approved multi-step autonomous generator. No reset, ciphertext feedback, tree walk, edits, route, new alphabet or inferred sentence boundary. Mathematical capacity audit, not a claim of designer use.",
+  "domain": {
+    "alphabets": [
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+    ],
+    "orders": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "constant_modes": [
+      "zero",
+      "fitted"
+    ],
+    "formal_structures": 20,
+    "model": "C_i=A[(index_A(P_i)+K_i)%26]; K0..K_(r-1) arbitrary seed; for i>=r, K_i=b+sum(a_j*K_(i-j),j1..r)mod26. In homogeneous case b=0, fitted case b free0..25. Same coefficients through all97positions. All coefficients and seed symbols in0..25."
+  },
+  "inputs": "Canonical97uppercaseletters data/k4.json. Train only one-based22..34 EASTNORTHEAST, validate64..74 BERLINCLOCK. Keep fixed alignment, no repeated-pair/EAST extra evidence.",
+  "training": "Derive13requiredkeyvalues indexC-indexP. Build13-r equations using only internal training keys; variables a1..ar and optionally b last. Exact Gaussian affine solution sets overF2 andF13 with CRT. Preserve inconsistent witnesses, exact ranks, nullities, particular vectors, all basis vectors, equation-rank consistency-check counts per field and exact coefficient-set sizes. No dropping singular or nonunit cases. Order6affine has7equations7unknowns and can have zero training checks; such a fit is not evidence.",
+  "forecast": "For each full coefficient solution, use the known end-of-first-island r-key state to forecast indices34..96, including29gap positions34..62 and all11Berlin63..73. Check the entire11-symbol forecast under one shared coefficient tuple. Never pick separate witnesses by position. Keep training prediction sets and Berlin-compatible tuples separately; marginal letter sets are descriptive, not independent predictions.",
+  "prefix": "For each fitted coefficient tuple, propagate a linear-affine map from r initial seed symbols to known state K21..K_(21+r-1). Solve reachable seeds exactly overF2/F13 with CRT; inconsistent prefix means coefficient fit not a full97model. No backward invertibility assumption. Save seed bases/cardinalities and their image in21unknownprefixpositions. A fixed coefficient plus fixed seed uniquely decrypts; all seed solutions retained symbolically.",
+  "counting": "Group reachable completions by identical fixed tail K21..K96. Within each tail, canonical affine prefix subspaces overF2 andF13 define product spaces; exact union cardinal by deduplicated signed intersections. Distinct tails are disjoint. Record raw coefficient/seed descriptions separately from distinct fullplaintext multiplicity. If union budget exceeded, report unresolved, not upperboundasexactcount. Optionally enumerate all complete messages only below declared cap to audit cross-alphabet/order aliases; otherwise per-structure exact counts and global union unresolved. Zero compatible cases gives exact global0.",
+  "alias_audit": "Record fitted b=0/homogeneous overlap, trailing zero coefficients and exact count of reachable seeds satisfying the missing earlier recurrence equations of the reduced-order rule. A zero last coefficient alone does not prove global equivalence because higher order leaves extra startup symbols. Deduplicate identical full plaintexts when enumerated; never call raw parameters independent hypotheses or minimal descriptions. Static Barney homogeneous order2 overlap noted below, other degenerate lower-order relations may also overlap existing tests.",
+  "prior_art": {
+    "repository": "barneyjm/kryptos-k4",
+    "commit": "2db2722cc3f18c52d4d8369d7adc5a1db7e859d7",
+    "path": "scripts/linear.py",
+    "review": "Read source only, never execute. Its maximum5features andlag2grammar contains homogeneous order2 expansion C_i=P_i+a1*C_(i-1)-a1*P_(i-1)+a2*C_(i-2)-a2*P_(i-2). Affine order2 generically needs6features, orders3..6 unavailablelag3+. Static containment, not a globally novel method or proof of a completed external run. Gromark mod16lag5/6 withunknownalphabets isdifferent."
+  },
+  "controls": {
+    "seed": 2026102223,
+    "literal_plants": 80,
+    "plant_design": "20structures times last-coefficient cases1,2,13,0. Other coefficients/constant and initialrseed uniform seeded;97randomplainfiller with actual24cribstrings at fixedindices, encode with autonomous generator. Check plantedcoefficient liesin full affine coefficient set, plantedseed liesin reachableprefixset, complete independent inverse/forward, and full29gap+11Berlin forecast equals true stream. Symbolic truth inclusion, not claimeduniqueunknown-model recovery.",
+    "small_ring_full_comparisons": 12,
+    "toy_design": "q2,3,6; order2; homogeneous/fitted constant;2plantedcases each. Length12, training indices3..7 and holdout9..11. Enumerate every coefficient/seed description independently (max6^5=7776percase), compare exact train and heldout complete parameter sets and distinct fullstreams to CRT/prefix method. Composite6tests nonunit coefficients without field assumption.",
+    "linear_oracle": "Additional deterministic prime-field systems and CRTcount checks, including inconsistent and rank-deficient cases. Prefix affine union/intersection cardinality compared with explicit small finite sets. Forced positions over empty solution sets are not applicable.",
+    "no_statistical_claims": "No K4 p-value, architecture posterior or English score planned. All-crib survivors are compatible under assumptions, not independent decoding. Any future significance claim requires a separately frozen whole-selector matched control; no adaptive search after this batch."
+  },
+  "budget": {
+    "seconds": 120,
+    "processes": 1,
+    "memory_MB": 256,
+    "coefficient_vectors_per_structure": 20000,
+    "coefficient_vectors_total": 50000,
+    "prefix_union_terms_per_tail_group": 4096,
+    "prefix_union_terms_total": 20000,
+    "optional_complete_message_enumerations_total": 20000,
+    "stop": "Excess coefficient space retainedsymbolically and classifiedbudget-unresolved, never sampled. Prefixunionexcess markedunresolvedwithconditionalspacesretained. Deadline/error publishesincompleteimmutablemanifest; no cap escalation or higherorder after scores."
+  },
+  "outcomes": [
+    "impossible",
+    "compatible_but_ambiguous",
+    "unique_under_assumptions",
+    "budget_unresolved"
+  ],
+  "provenance": "Commit specbeforeimplementationandK4evaluation; preserveconsultedcode/inputhashes and sourcepin, originalartifacts. RunSnapshotimmutable results, exact command/version/seed, regressiontests, scopedresearchbranchcommit/push. Main,Site,persistentauth/securityunchanged. Tree-walkquestionseparate. Stopafterthisfiniteaudit."
+}

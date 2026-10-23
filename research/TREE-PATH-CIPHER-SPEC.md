@@ -1,0 +1,17 @@
+# Stateful tree/path cipher pilot: frozen specification
+
+Frozen before K4 evaluation on 23 October 2026. These are our constructions, not evidence of Sanborn’s method. The existing feature lookup tree alone is not a cipher.
+
+Two trees: (G) the existing frozen 35-feature geometry dictionary, SHA256 6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010, split recursively on the lowest feature index distinguishing remaining letters, child 0 before 1; (M) the ordinary International Morse A–Z trie, dot before dash. Traverse each tree in preorder, visiting a letter-bearing node before its children. Geometry letters are leaves; Morse letters can occupy internal nodes. This defines 26 ordered slots. The Morse table is explicitly pinned in the implementation, not optimized against K4.
+
+State S is a permutation of A–Z labels on slots. Initially S[j]=AZ[(j+s) mod 26], s=0..25. Locate plaintext P by its fixed tree path and output the current label on its slot. After output, visit the chosen child subtrees along P’s path, root to terminal. For each subtree, rotate its labels by one step in its preorder slot list: direction +1 moves the final label to the first slot; direction -1 moves the first to the final slot. Singleton cycles do nothing. The root itself is not cycled. The state persists between letters. Decode by finding the unique slot currently labeled by C, recover its fixed plaintext letter, then perform exactly the same path updates.
+
+Framing is one A–Z ciphertext character per plaintext character. Paths are internal instructions, not an unseparated Morse bit stream. Thus Morse prefix ambiguity is not used as a hidden delimiter rule. Input outside uppercase A–Z is rejected; the empty string is allowed. No resets, alternate alphabets, independently fitted labels, routes, edits, or other update rules.
+
+Exactly 2 trees × 2 directions × 26 seeds = 104 raw descriptions. Preserve equivalent outputs and complete compatible sets. Fixed-model decoding is unique by induction because each state is a permutation and each update is a composition of permutations. This is a small experimental cipher, not a secure modern design.
+
+Before evaluating K4: validate all 104 models on unrelated messages; compare an independent direct subtree-update oracle; exhaust all 26 choices at each tested state; test framed path decoding and malformed paths; run the complete 104-model selector on one literal-crib plant per model, retaining every survivor and testing truth inclusion rather than assuming key uniqueness. Mutation controls must detect incorrect update timing. Record a non-global-rotation state witness and comparison with previous move-to-front/cursor mechanisms.
+
+Actual evaluation decrypts all 97 characters from position 1, without guessing state at either crib. First filter EASTNORTHEAST at 22–34, then check public BERLINCLOCK at 64–74 without refitting. Require all 24 letters and exact full regeneration for compatibility. The second phrase is not historically untouched evidence. Reject only this bounded domain if no survivor; no partial-English or partial-match significance claim. If survivors remain, report ambiguity and stop for matched full-selector calibration, not extra parameters.
+
+Budget: at most 104 actual decodes, 10,816 planted selector decodes, 120 seconds wall time for each control/actual stage, and 64 MiB result output. No expansion after outcomes. Deterministic protocol and source hashes will accompany results.

@@ -1,0 +1,1816 @@
+{
+  "schema_id": "MODELED-UPPERCASE-GEOMETRY-001",
+  "source_sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010",
+  "dimensions": 35,
+  "line_features": 26,
+  "curve_features": 9,
+  "letters": 26,
+  "pair_comparisons": 325,
+  "pair_certificates": [
+    {
+      "letters": "AB",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "AC",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "AD",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "AE",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AF",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AG",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "AH",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AI",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AJ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "AK",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AL",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AM",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AN",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "AP",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "AQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "AR",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "AS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "AT",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "AV",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AW",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AX",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AY",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "AZ",
+      "first_different_index": 9,
+      "feature_id": "D_FALLING_APEX_TO_RIGHTBASE"
+    },
+    {
+      "letters": "BC",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "BD",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "BE",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BF",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BG",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "BH",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BI",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BJ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "BK",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BL",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BM",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BN",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "BP",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "BR",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "BT",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "BV",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BW",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BX",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BY",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "BZ",
+      "first_different_index": 6,
+      "feature_id": "ARC_RIGHT_LOWER_HALF"
+    },
+    {
+      "letters": "CD",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CE",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CF",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CG",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CH",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CI",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CJ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "CK",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CL",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CM",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CN",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "CP",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "CR",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "CT",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "CV",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CW",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CX",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CY",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "CZ",
+      "first_different_index": 3,
+      "feature_id": "ARC_OPEN_RIGHT"
+    },
+    {
+      "letters": "DE",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DF",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DG",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "DH",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DI",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DJ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "DK",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DL",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DM",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DN",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "DP",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "DR",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "DT",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "DV",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DW",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DX",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DY",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "DZ",
+      "first_different_index": 5,
+      "feature_id": "ARC_RIGHT_FULL_HALF"
+    },
+    {
+      "letters": "EF",
+      "first_different_index": 24,
+      "feature_id": "H_BOTTOM_FULL"
+    },
+    {
+      "letters": "EG",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "EH",
+      "first_different_index": 24,
+      "feature_id": "H_BOTTOM_FULL"
+    },
+    {
+      "letters": "EI",
+      "first_different_index": 24,
+      "feature_id": "H_BOTTOM_FULL"
+    },
+    {
+      "letters": "EJ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "EK",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "EL",
+      "first_different_index": 26,
+      "feature_id": "H_MIDDLE_FULL"
+    },
+    {
+      "letters": "EM",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "EN",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "EO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "EP",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "EQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "ER",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "ES",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "ET",
+      "first_different_index": 24,
+      "feature_id": "H_BOTTOM_FULL"
+    },
+    {
+      "letters": "EU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "EV",
+      "first_different_index": 14,
+      "feature_id": "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE"
+    },
+    {
+      "letters": "EW",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "EX",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "EY",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "EZ",
+      "first_different_index": 19,
+      "feature_id": "D_RISING_FULL"
+    },
+    {
+      "letters": "FG",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "FH",
+      "first_different_index": 28,
+      "feature_id": "H_TOP_FULL"
+    },
+    {
+      "letters": "FI",
+      "first_different_index": 26,
+      "feature_id": "H_MIDDLE_FULL"
+    },
+    {
+      "letters": "FJ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "FK",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "FL",
+      "first_different_index": 24,
+      "feature_id": "H_BOTTOM_FULL"
+    },
+    {
+      "letters": "FM",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "FN",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "FO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "FP",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "FQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "FR",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "FS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "FT",
+      "first_different_index": 26,
+      "feature_id": "H_MIDDLE_FULL"
+    },
+    {
+      "letters": "FU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "FV",
+      "first_different_index": 14,
+      "feature_id": "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE"
+    },
+    {
+      "letters": "FW",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "FX",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "FY",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "FZ",
+      "first_different_index": 19,
+      "feature_id": "D_RISING_FULL"
+    },
+    {
+      "letters": "GH",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GI",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GJ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "GK",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GL",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GM",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GN",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "GP",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "GR",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "GT",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "GV",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GW",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GX",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GY",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "GZ",
+      "first_different_index": 4,
+      "feature_id": "ARC_OPEN_UPPER_RIGHT"
+    },
+    {
+      "letters": "HI",
+      "first_different_index": 26,
+      "feature_id": "H_MIDDLE_FULL"
+    },
+    {
+      "letters": "HJ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "HK",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "HL",
+      "first_different_index": 24,
+      "feature_id": "H_BOTTOM_FULL"
+    },
+    {
+      "letters": "HM",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "HN",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "HO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "HP",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "HQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "HR",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "HS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "HT",
+      "first_different_index": 26,
+      "feature_id": "H_MIDDLE_FULL"
+    },
+    {
+      "letters": "HU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "HV",
+      "first_different_index": 14,
+      "feature_id": "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE"
+    },
+    {
+      "letters": "HW",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "HX",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "HY",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "HZ",
+      "first_different_index": 19,
+      "feature_id": "D_RISING_FULL"
+    },
+    {
+      "letters": "IJ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "IK",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "IL",
+      "first_different_index": 24,
+      "feature_id": "H_BOTTOM_FULL"
+    },
+    {
+      "letters": "IM",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "IN",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "IO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "IP",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "IQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "IR",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "IS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "IT",
+      "first_different_index": 28,
+      "feature_id": "H_TOP_FULL"
+    },
+    {
+      "letters": "IU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "IV",
+      "first_different_index": 14,
+      "feature_id": "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE"
+    },
+    {
+      "letters": "IW",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "IX",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "IY",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "IZ",
+      "first_different_index": 19,
+      "feature_id": "D_RISING_FULL"
+    },
+    {
+      "letters": "JK",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JL",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JM",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JN",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JO",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JP",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JQ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JR",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JS",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JT",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JU",
+      "first_different_index": 32,
+      "feature_id": "V_LEFT_UPPER"
+    },
+    {
+      "letters": "JV",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JW",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JX",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JY",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "JZ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "KL",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "KM",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "KN",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "KO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "KP",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "KQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "KR",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "KS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "KT",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "KU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "KV",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "KW",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "KX",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "KY",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "KZ",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "LM",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "LN",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "LO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "LP",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "LQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "LR",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "LS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "LT",
+      "first_different_index": 24,
+      "feature_id": "H_BOTTOM_FULL"
+    },
+    {
+      "letters": "LU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "LV",
+      "first_different_index": 14,
+      "feature_id": "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE"
+    },
+    {
+      "letters": "LW",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "LX",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "LY",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "LZ",
+      "first_different_index": 19,
+      "feature_id": "D_RISING_FULL"
+    },
+    {
+      "letters": "MN",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "MO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "MP",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "MQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "MR",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "MS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "MT",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "MU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "MV",
+      "first_different_index": 14,
+      "feature_id": "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE"
+    },
+    {
+      "letters": "MW",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "MX",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "MY",
+      "first_different_index": 30,
+      "feature_id": "V_CENTRE_LOWER"
+    },
+    {
+      "letters": "MZ",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "NO",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "NP",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "NQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "NR",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "NS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "NT",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "NU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "NV",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "NW",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "NX",
+      "first_different_index": 19,
+      "feature_id": "D_RISING_FULL"
+    },
+    {
+      "letters": "NY",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "NZ",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "OP",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "OQ",
+      "first_different_index": 13,
+      "feature_id": "D_FALLING_SHORT_LOWERRIGHT"
+    },
+    {
+      "letters": "OR",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "OS",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "OT",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "OU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "OV",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "OW",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "OX",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "OY",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "OZ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "PQ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "PR",
+      "first_different_index": 12,
+      "feature_id": "D_FALLING_LEFTMIDDLE_TO_BOTTOMRIGHT"
+    },
+    {
+      "letters": "PS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "PT",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "PU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "PV",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "PW",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "PX",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "PY",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "PZ",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "QR",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "QS",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "QT",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "QU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "QV",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "QW",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "QX",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "QY",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "QZ",
+      "first_different_index": 1,
+      "feature_id": "ARC_CLOSED_OVAL"
+    },
+    {
+      "letters": "RS",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "RT",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "RU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "RV",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "RW",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "RX",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "RY",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "RZ",
+      "first_different_index": 7,
+      "feature_id": "ARC_RIGHT_UPPER_HALF"
+    },
+    {
+      "letters": "ST",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "SU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "SV",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "SW",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "SX",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "SY",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "SZ",
+      "first_different_index": 2,
+      "feature_id": "ARC_LOWER_RIGHT_THREEQUARTER"
+    },
+    {
+      "letters": "TU",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "TV",
+      "first_different_index": 14,
+      "feature_id": "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE"
+    },
+    {
+      "letters": "TW",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "TX",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "TY",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    },
+    {
+      "letters": "TZ",
+      "first_different_index": 19,
+      "feature_id": "D_RISING_FULL"
+    },
+    {
+      "letters": "UV",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "UW",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "UX",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "UY",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "UZ",
+      "first_different_index": 0,
+      "feature_id": "ARC_BOTTOM_HALF"
+    },
+    {
+      "letters": "VW",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "VX",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "VY",
+      "first_different_index": 14,
+      "feature_id": "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE"
+    },
+    {
+      "letters": "VZ",
+      "first_different_index": 14,
+      "feature_id": "D_FALLING_TOPLEFT_TO_BOTTOMCENTRE"
+    },
+    {
+      "letters": "WX",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "WY",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "WZ",
+      "first_different_index": 10,
+      "feature_id": "D_FALLING_CENTRE_TO_THREEQUARTERBASE"
+    },
+    {
+      "letters": "XY",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "XZ",
+      "first_different_index": 11,
+      "feature_id": "D_FALLING_FULL"
+    },
+    {
+      "letters": "YZ",
+      "first_different_index": 15,
+      "feature_id": "D_FALLING_TOPLEFT_TO_CENTRE"
+    }
+  ],
+  "base3_unique_full_codes": 26,
+  "base3_integer_roundtrips": 26,
+  "base3_codes_above_js_safe_integer": [
+    "J",
+    "U"
+  ],
+  "base_order_checks": [
+    2,
+    3,
+    4,
+    5,
+    10
+  ],
+  "unique_vectors": 26,
+  "unique_full_codes": 26,
+  "roundtrips": {
+    "array": 26,
+    "integer": 26,
+    "tree_with_membership": 26
+  },
+  "single_bit_mutations": {
+    "total": 910,
+    "valid_other_glyphs": 12,
+    "unknown_rejected": 898
+  },
+  "ordinary_sum_groups": [
+    {
+      "value": 1,
+      "letters": [
+        "C",
+        "I",
+        "O"
+      ]
+    },
+    {
+      "value": 2,
+      "letters": [
+        "D",
+        "G",
+        "J",
+        "L",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "V",
+        "X"
+      ]
+    },
+    {
+      "value": 3,
+      "letters": [
+        "A",
+        "B",
+        "F",
+        "H",
+        "K",
+        "N",
+        "R",
+        "U",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "value": 4,
+      "letters": [
+        "E",
+        "M",
+        "W"
+      ]
+    }
+  ],
+  "modulo_26_groups": [
+    {
+      "value": 0,
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "value": 2,
+      "letters": [
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "value": 4,
+      "letters": [
+        "D",
+        "K",
+        "Q",
+        "W"
+      ]
+    },
+    {
+      "value": 6,
+      "letters": [
+        "E",
+        "I",
+        "Y"
+      ]
+    },
+    {
+      "value": 7,
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "value": 8,
+      "letters": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "value": 10,
+      "letters": [
+        "M",
+        "N",
+        "R",
+        "V"
+      ]
+    },
+    {
+      "value": 11,
+      "letters": [
+        "J"
+      ]
+    },
+    {
+      "value": 12,
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "value": 16,
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "value": 18,
+      "letters": [
+        "F",
+        "X"
+      ]
+    },
+    {
+      "value": 20,
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "value": 22,
+      "letters": [
+        "P",
+        "T"
+      ]
+    },
+    {
+      "value": 24,
+      "letters": [
+        "G"
+      ]
+    }
+  ],
+  "code_sorted_alphabet": "OCSQVXWAGZITYDPBRKLFENMHJU",
+  "pen_stroke_anchors_only": {
+    "A": 3,
+    "B": 2,
+    "C": 1,
+    "D": 2,
+    "E": 4
+  },
+  "scope": "Representation only; no ciphertext read or cryptanalysis executed."
+}

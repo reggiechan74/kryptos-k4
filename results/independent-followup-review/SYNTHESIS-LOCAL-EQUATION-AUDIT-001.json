@@ -1,0 +1,185 @@
+{
+  "id": "SUPPLIED-SYNTHESIS-LOCAL-EQUATION-AUDIT-001",
+  "status": "completed",
+  "code_commit": "38abaa848b2abc9e4ca10d6b7b853d67c148570b",
+  "python": "3.12.2",
+  "numpy": "2.3.5",
+  "adapter_sha256": "5a2f817126f8492c77cb9fe7c3f642bf6fa3e7c55342c1f613272abda6b79f48",
+  "source_sha256": {
+    "audit.py": "fd8a75bdc3ab7c2e1f4c499363bbb393068a97ab98414b6c0cf2271533822555",
+    "run_calibration.py": "44654b1e84bfe0061f45a54c50e1b92c1d1880000448fb4200a0fc187dfc480a",
+    "synthesis_results.json": "e36c164a3ff99b4d982993e37089f0ed495872826ed6322947b8c869cc0721b7"
+  },
+  "method": "Reviewed adjacent-known-state coefficient constraints only; replay seeds only for surviving triples; never call synthesize()",
+  "raw_coefficient_triples_per_alphabet": 17576,
+  "targets": [
+    {
+      "target": "K4",
+      "parameter_candidates": 0,
+      "distinct_full_plaintexts": 0,
+      "ambiguous_positions": [],
+      "local_constraint_details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "0",
+      "parameter_candidates": 39,
+      "distinct_full_plaintexts": 26,
+      "ambiguous_positions": [
+        {
+          "position_1based": 1,
+          "possible_characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        }
+      ],
+      "local_constraint_details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 2,
+          "first_crib_seeded_fits": 39,
+          "full_crib_seeded_fits": 39
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "1",
+      "parameter_candidates": 3,
+      "distinct_full_plaintexts": 2,
+      "ambiguous_positions": [
+        {
+          "position_1based": 1,
+          "possible_characters": "ER"
+        }
+      ],
+      "local_constraint_details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 2,
+          "first_crib_seeded_fits": 3,
+          "full_crib_seeded_fits": 3
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "2",
+      "parameter_candidates": 2,
+      "distinct_full_plaintexts": 2,
+      "ambiguous_positions": [
+        {
+          "position_1based": 1,
+          "possible_characters": "CP"
+        }
+      ],
+      "local_constraint_details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 1,
+          "first_crib_seeded_fits": 2,
+          "full_crib_seeded_fits": 2
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "3",
+      "parameter_candidates": 3,
+      "distinct_full_plaintexts": 2,
+      "ambiguous_positions": [
+        {
+          "position_1based": 1,
+          "possible_characters": "DQ"
+        }
+      ],
+      "local_constraint_details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 2,
+          "first_crib_seeded_fits": 3,
+          "full_crib_seeded_fits": 3
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "4",
+      "parameter_candidates": 13,
+      "distinct_full_plaintexts": 13,
+      "ambiguous_positions": [
+        {
+          "position_1based": 1,
+          "possible_characters": "BDFHJLNPRTVXZ"
+        }
+      ],
+      "local_constraint_details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 1,
+          "first_crib_seeded_fits": 13,
+          "full_crib_seeded_fits": 13
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    },
+    {
+      "target": "5",
+      "parameter_candidates": 1,
+      "distinct_full_plaintexts": 1,
+      "ambiguous_positions": [],
+      "local_constraint_details": [
+        {
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "adjacent_crib_coefficient_triples": 1,
+          "first_crib_seeded_fits": 1,
+          "full_crib_seeded_fits": 1
+        },
+        {
+          "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "adjacent_crib_coefficient_triples": 0,
+          "first_crib_seeded_fits": 0,
+          "full_crib_seeded_fits": 0
+        }
+      ]
+    }
+  ],
+  "full_parameter_enumeration_repeated": false,
+  "additional_novel_K4_searches": 0,
+  "elapsed_seconds": 0.5835158328991383
+}

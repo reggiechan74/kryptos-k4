@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "experiments": [
+    "ASYMMETRIC-FEEDBACK-001",
+    "SPLIT-COORDINATE-001"
+  ],
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v",
+  "tests": 174,
+  "elapsed_seconds": 9.324,
+  "python": "3.9.6",
+  "suite_log_sha256": "be7850d045c30f3bbc9284489f35037f4b6c3c3d51c1ecb2de197c2b999153a6",
+  "runs": [
+    "20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea",
+    "20261022T192126Z-2ff96ae3a6914cab8db6cd9c0c7ceb5c"
+  ],
+  "scope": "Full suite plus independent root/ciphertext certificates; no repeated actual experiment or null search. Four primary-source anchors supplied by reviewer exactly match fixture."
+}

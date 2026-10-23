@@ -1,0 +1,793 @@
+{
+  "config": {
+    "version": "1.0",
+    "frozenAt": "2026-10-22T21:46:43Z",
+    "orders": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "alphabets": {
+      "AZ": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "KRYPTOS": "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+    },
+    "affineModes": [
+      false,
+      true
+    ],
+    "coefficientEnumerationCapPerStructure": 250000,
+    "millisecondsPerStructure": 30000,
+    "model": "C_i=P_i+K_i mod26; K_i=b+sum_{j=1}^r a_j K_{i-j}; one-based positions; no resets/refitting; all leading-zero degeneracies retained"
+  },
+  "ciphertext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+  "firstCrib": {
+    "start": 22,
+    "text": "EASTNORTHEAST"
+  },
+  "secondCrib": {
+    "start": 64,
+    "text": "BERLINCLOCK"
+  },
+  "controls": {
+    "checks": 231,
+    "failures": [],
+    "planted": [
+      {
+        "r": 2,
+        "affine": false,
+        "coefficients": [
+          1,
+          2
+        ],
+        "seed": [
+          7,
+          11
+        ],
+        "lastCoefficient": 2,
+        "trainingSolutionCount": 2,
+        "seedSolutionCount": 2,
+        "pass": true
+      },
+      {
+        "r": 3,
+        "affine": true,
+        "coefficients": [
+          5,
+          9,
+          13,
+          4
+        ],
+        "seed": [
+          6,
+          17,
+          23
+        ],
+        "lastCoefficient": 13,
+        "trainingSolutionCount": 26,
+        "seedSolutionCount": 13,
+        "pass": true
+      },
+      {
+        "r": 4,
+        "affine": true,
+        "coefficients": [
+          3,
+          5,
+          7,
+          0,
+          9
+        ],
+        "seed": [
+          4,
+          8,
+          15,
+          16
+        ],
+        "lastCoefficient": 0,
+        "trainingSolutionCount": 26,
+        "seedSolutionCount": 26,
+        "pass": true
+      },
+      {
+        "r": 6,
+        "affine": true,
+        "coefficients": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "seed": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "lastCoefficient": 12,
+        "trainingSolutionCount": 64,
+        "seedSolutionCount": 64,
+        "pass": true
+      }
+    ]
+  },
+  "structures": [
+    {
+      "alphabet": "AZ",
+      "order": 2,
+      "affine": false,
+      "equations": 11,
+      "parameters": 2,
+      "field2": {
+        "rank": 2,
+        "augmentedRank": 3,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 2,
+        "augmentedRank": 3,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "AZ",
+      "order": 2,
+      "affine": true,
+      "equations": 11,
+      "parameters": 3,
+      "field2": {
+        "rank": 3,
+        "augmentedRank": 4,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 3,
+        "augmentedRank": 4,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "AZ",
+      "order": 3,
+      "affine": false,
+      "equations": 10,
+      "parameters": 3,
+      "field2": {
+        "rank": 3,
+        "augmentedRank": 4,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 3,
+        "augmentedRank": 4,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "AZ",
+      "order": 3,
+      "affine": true,
+      "equations": 10,
+      "parameters": 4,
+      "field2": {
+        "rank": 4,
+        "augmentedRank": 5,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 4,
+        "augmentedRank": 5,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "AZ",
+      "order": 4,
+      "affine": false,
+      "equations": 9,
+      "parameters": 4,
+      "field2": {
+        "rank": 4,
+        "augmentedRank": 5,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 4,
+        "augmentedRank": 5,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "AZ",
+      "order": 4,
+      "affine": true,
+      "equations": 9,
+      "parameters": 5,
+      "field2": {
+        "rank": 5,
+        "augmentedRank": 6,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 5,
+        "augmentedRank": 6,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "AZ",
+      "order": 5,
+      "affine": false,
+      "equations": 8,
+      "parameters": 5,
+      "field2": {
+        "rank": 5,
+        "augmentedRank": 6,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 5,
+        "augmentedRank": 6,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "AZ",
+      "order": 5,
+      "affine": true,
+      "equations": 8,
+      "parameters": 6,
+      "field2": {
+        "rank": 6,
+        "augmentedRank": 7,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 6,
+        "augmentedRank": 7,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "AZ",
+      "order": 6,
+      "affine": false,
+      "equations": 7,
+      "parameters": 6,
+      "field2": {
+        "rank": 5,
+        "augmentedRank": 6,
+        "nullity": 1,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 6,
+        "augmentedRank": 7,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "AZ",
+      "order": 6,
+      "affine": true,
+      "equations": 7,
+      "parameters": 7,
+      "field2": {
+        "rank": 6,
+        "augmentedRank": 7,
+        "nullity": 1,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 7,
+        "augmentedRank": 7,
+        "nullity": 0,
+        "solutionCount": 1
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "order": 2,
+      "affine": false,
+      "equations": 11,
+      "parameters": 2,
+      "field2": {
+        "rank": 2,
+        "augmentedRank": 3,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 2,
+        "augmentedRank": 3,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "order": 2,
+      "affine": true,
+      "equations": 11,
+      "parameters": 3,
+      "field2": {
+        "rank": 3,
+        "augmentedRank": 4,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 3,
+        "augmentedRank": 4,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "order": 3,
+      "affine": false,
+      "equations": 10,
+      "parameters": 3,
+      "field2": {
+        "rank": 3,
+        "augmentedRank": 4,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 3,
+        "augmentedRank": 4,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "order": 3,
+      "affine": true,
+      "equations": 10,
+      "parameters": 4,
+      "field2": {
+        "rank": 4,
+        "augmentedRank": 5,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 4,
+        "augmentedRank": 5,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "order": 4,
+      "affine": false,
+      "equations": 9,
+      "parameters": 4,
+      "field2": {
+        "rank": 4,
+        "augmentedRank": 5,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 4,
+        "augmentedRank": 5,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "order": 4,
+      "affine": true,
+      "equations": 9,
+      "parameters": 5,
+      "field2": {
+        "rank": 5,
+        "augmentedRank": 6,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 5,
+        "augmentedRank": 6,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "order": 5,
+      "affine": false,
+      "equations": 8,
+      "parameters": 5,
+      "field2": {
+        "rank": 5,
+        "augmentedRank": 6,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 5,
+        "augmentedRank": 6,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "order": 5,
+      "affine": true,
+      "equations": 8,
+      "parameters": 6,
+      "field2": {
+        "rank": 6,
+        "augmentedRank": 7,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 6,
+        "augmentedRank": 7,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "order": 6,
+      "affine": false,
+      "equations": 7,
+      "parameters": 6,
+      "field2": {
+        "rank": 5,
+        "augmentedRank": 6,
+        "nullity": 1,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 6,
+        "augmentedRank": 7,
+        "nullity": 0,
+        "solutionCount": 0
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "order": 6,
+      "affine": true,
+      "equations": 7,
+      "parameters": 7,
+      "field2": {
+        "rank": 6,
+        "augmentedRank": 7,
+        "nullity": 1,
+        "solutionCount": 0
+      },
+      "field13": {
+        "rank": 7,
+        "augmentedRank": 7,
+        "nullity": 0,
+        "solutionCount": 1
+      },
+      "trainingCoefficientCount": 0,
+      "enumerated": 0,
+      "status": "impossible_training",
+      "berlinSurvivorCoefficients": 0,
+      "distinctFullPlaintextClasses": 0
+    }
+  ],
+  "certificates": [
+    {
+      "alphabet": "AZ",
+      "keyFirst": [
+        1,
+        11,
+        25,
+        2,
+        3,
+        2,
+        24,
+        24,
+        6,
+        2,
+        10,
+        0,
+        25
+      ],
+      "parity": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "constraintPositions": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "lambdaMod2": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "selectedPositions": [
+        33,
+        34
+      ],
+      "selectedRows": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "selectedRhs": [
+        0,
+        1
+      ],
+      "lhsCombination": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rhsCombination": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "keyFirst": [
+        1,
+        10,
+        21,
+        18,
+        1,
+        15,
+        2,
+        23,
+        5,
+        2,
+        19,
+        0,
+        2
+      ],
+      "parity": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "constraintPositions": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "lambdaMod2": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "selectedPositions": [
+        30,
+        33
+      ],
+      "selectedRows": [
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "selectedRhs": [
+        1,
+        0
+      ],
+      "lhsCombination": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rhsCombination": 1
+    }
+  ],
+  "conclusion": {
+    "formalStructures": 20,
+    "trainingCoefficientTuples": 0,
+    "berlinEvaluations": 0,
+    "initialStatesExamined": 0,
+    "distinctFullPlaintextClasses": 0,
+    "budgetUnresolved": 0,
+    "predictions": "Not applicable: no first-crib training solutions. No common-prediction or post-Berlin selection claim is made.",
+    "reachability": "Not needed for K4 rejection. Any unknown-prefix state would still have to satisfy the inconsistent local equations. Seed reachability is separately tested using linear state propagation, including singular/nonunit transitions.",
+    "scope": "Only autonomous constant-coefficient recurrences of orders 2 through 6 under C=P+K mod26 in the specified two alphabets, homogeneous or affine. No general impossibility or novelty claim."
+  }
+}

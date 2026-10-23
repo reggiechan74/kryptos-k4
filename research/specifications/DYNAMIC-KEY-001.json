@@ -1,0 +1,51 @@
+{
+  "id": "DYNAMIC-KEY-001",
+  "date": "2026-10-22",
+  "baseline_commit": "6af8caadff18",
+  "purpose": "Exact bounded tests of two dynamic-key mechanisms; no solution or historical attribution.",
+  "ranked_hypotheses": [
+    {
+      "rank": 1,
+      "id": "H-PROGRESSIVE-CYCLE",
+      "model": "C_i = sigma*P_i + key[i mod p] + d*floor(i/p) mod26. i=0..96, sigma in [1,-1], p=1..12,d=0..25, alphabet AZ or KRYPTOS. Arbitrary p-symbol primer. Global origin0; no shifts, routes, crib movement or key guessing. A global phase origin is absorbed by arbitrary phase keys.",
+      "motivation": "K1/K2 demonstrate periodic substitution; progressive cycle offsets are a distinct state mechanism not subject to identical-phase key invariants. Speculative; no claim of artist use.",
+      "cases": 1248
+    },
+    {
+      "rank": 2,
+      "id": "H-CIPHERTEXT-STEP",
+      "model": "u_0=0; C_i=sigma*P_i+key[u_i mod p] mod26; u_(i+1)=u_i+1+indicator(C_i in trigger). trigger=AEIOU or BCDFGHJKLMNPQRSTVWXYZ; alphabet AZ or KRYPTOS; sigma in [1,-1];p=1..12. Update AFTER the current ciphertext letter. No unknown plaintext trigger, reset, tuning or extra alphabets. Global phase is absorbed by key.",
+      "motivation": "The ledger explicitly leaves event-driven keys open beyond identical resets. Published interrupted-key prior art is acknowledged, not claimed novel; these exact cursor rules and their null calibration are the new local test.",
+      "cases": 96
+    },
+    {
+      "rank": 3,
+      "id": "H-AFFINE-DIGRAPH",
+      "model": "Fixed invertible2x2 matrix M and 2-vector b modulo26; C_pair=M*P_pair+b, AZ/KRYPTOS; pair origin0 or1; sole edge symbol passed through unchanged. No transposition or padding.",
+      "motivation": "Pair coupling breaks direct monoalphabetic assumptions while preserving length and crib positions. Lower rank because no K4-specific digraph evidence or attested teaching.",
+      "test_design": "DEFERRED. Solve affine row constraints on complete EASTNORTHEAST pairs, require determinant coprime26; predict BERLINCLOCK pairs then all24 crib positions/full inverse. Reject if no model satisfies all24. Synthetic known-matrix recovery and mutated holds; same whole-family shuffled null. Odd edge must be explicit. No actual run in this round."
+    }
+  ],
+  "inputs": [
+    "data/k4.json"
+  ],
+  "source_basis": [
+    "sources/VERIFICATION.md",
+    "docs/prior-art-barney-scott-review.md",
+    "research/STRUCTURAL-FINDINGS.md",
+    "research/AUTOKEY-CONSTRAINT-FINDINGS.md",
+    "research/LANDMARK-AXIS-FINDINGS.md"
+  ],
+  "constraint_method": "For each configuration derive required base key from each known P/C position; group by cursor phase. Compatibility requires equality in each phase. Record all conflicting models with first one-based witness, occupied/free phases,24-occupied independent equality constraints. No free-key filling or language scoring. sigma=-1 includes true Beaufort; key negation makes separate C=P-K duplicate of sigma=+1.",
+  "validation_split": "Fit only13 EASTNORTHEAST letters; record training survivors. Predict11 BERLINCLOCK letters only at trained phases, report withheld matches/checkable and uncheckable. Candidate gate: all24 constraints compatible, zero free key phases, all11 holdout letters checkable and matched, exact full97 roundtrip. It remains a crib fit, never independent decoding. All24 were known before design; split is a generalization diagnostic, not independent evidence.",
+  "null": "199 independent Random(seed=20261022) histogram-preserving ciphertext shuffles (sequential generator), fixed crib positions/values. Rerun BOTH whole parameter families. Statistic per family=max over configs sum over phase buckets of maximum required-key-symbol frequency. This is best possible same-data crib agreement with free phase keys, upper bound24; compare plus-one >= tail; save every null maximum and compatible count. Include combined-family maximum and its empirical tail, resolution1/200. Correlated/overlapping models not independent trials; no inferential claim beyond conditional exploratory shuffle model or across prior research.",
+  "controls": "Independent sequential encrypt/decrypt oracle for each family; seeded arbitrary plaintext/key and both alphabets/signs, periods1..12; step updates use independently generated ciphertext. Positive planted model compatibility and full roundtrip; altered observed constraint rejects planted model; progressive d=0 matches ordinary periodic required-key grouping; minimal toy group modal score compared with exhaustive keys. Validate original baseline and existing K1-K3 controls before actual run.",
+  "budget": {
+    "max_model_evaluations": 268800,
+    "seconds": 60,
+    "processes": 1,
+    "memory_MB": 256,
+    "stop": "Abort on deadline/candidate cap; atomic RunSnapshot marked incomplete; no scope expansion, no reruns with tuned settings."
+  },
+  "provenance": "Commit this specification before implementation and actual K4/null run. Commit code/tests before actual runner. Record exact command, spec/code commit and hashes, environment, elapsed time, all per-model records and controls; preserve all earlier results. No external verification submissions, messages, paid calls or remote pushes."
+}

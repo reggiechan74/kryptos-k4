@@ -1,0 +1,47 @@
+{
+  "schema": "IPA-CAMBRIDGE-US-DISCLOSED-WINDOWS-001",
+  "source_status": "Exact Cambridge US strings supplied by parent source audit; independent archive replay pending.",
+  "source_archive_library_id": "libfile_8b54608d88708191833dd3160805090c",
+  "entries": {
+    "east": "/iːst/",
+    "north": "/nɔːrθ/",
+    "northeast": "/ˌnɔːrθˈiːst/",
+    "berlin": "/bɝːˈlɪn/",
+    "clock": "/klɑːk/",
+    "east-northeast": "/ˌiːst.nɔːrθˈiːst/"
+  },
+  "normalization": "Remove source delimiters, stress marks U+02C8/U+02CC, whitespace and full-stop syllable separators; preserve all remaining code points including U+02D0.",
+  "alignment_assumption": "R2 windows occupy unchanged English disclosed spans 22-34 and 64-74; unknown-prefix phonetic alignment unproved.",
+  "English_disclosures": [
+    {
+      "start": 22,
+      "end": 34,
+      "text": "EASTNORTHEAST"
+    },
+    {
+      "start": 64,
+      "end": 74,
+      "text": "BERLINCLOCK"
+    }
+  ],
+  "partial_Latin_identity": {
+    "i": "I",
+    "s": "S",
+    "t": "T",
+    "n": "N",
+    "r": "R",
+    "b": "B",
+    "l": "L",
+    "k": "K"
+  },
+  "first_special_order": [
+    "ː",
+    "ɔ",
+    "θ"
+  ],
+  "second_new_special_order": [
+    "ɝ",
+    "ɪ",
+    "ɑ"
+  ]
+}

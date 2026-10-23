@@ -1,0 +1,53 @@
+{
+  "id": "SINGLE-BOUNDARY-RESET-001-SUMMARY",
+  "status": "completed",
+  "run_id": "20261022T212416Z-f634e152375e406d971f9edc1dc91096",
+  "spec_commit": "f67e282fa3309d1fab21027cbc2f206ebf20763c",
+  "code_commit": "5c22acab1866680d01e2dc1387e38be8630bd016",
+  "result_sha256": "2bec7599cc310b1a52db3f1ef3846af1e35fb2c5dda8e3c711efe75c8d95288b",
+  "full_result_path": "results/single-boundary-reset-runs/20261022T212416Z-f634e152375e406d971f9edc1dc91096/SINGLE-BOUNDARY-RESET-001.json",
+  "elapsed_seconds": 2.4651632080000003,
+  "mtf": {
+    "raw_cases": 388,
+    "covered_no_reset_cases": 4,
+    "new_boundary_cases": 384,
+    "training_description_count": 0,
+    "compatible_description_count": 0,
+    "compatible_distinct_plaintexts": 0,
+    "all_output_distinct_plaintexts": 388
+  },
+  "recurrence": {
+    "structures": 194,
+    "raw_description_upper_bound": 88653344,
+    "full_parameter_enumeration": false,
+    "coefficient_triples_checked": 35152,
+    "training_parameter_count": 0,
+    "compatible_parameters": 0,
+    "compatible_distinct_plaintexts": 0
+  },
+  "periodic": {
+    "raw_shapes": 6984,
+    "canonical_shapes": 3476,
+    "covered_canonical_baselines": 48,
+    "new_canonical_schedules": 3428,
+    "canonical_compatible": 0
+  },
+  "controls": {
+    "mtf_plants": 32,
+    "truth_included": 32,
+    "unique_correct_descriptions": 16,
+    "unique_plaintexts": 16,
+    "ambiguous_plaintexts": 16,
+    "nearby_compatible": 0,
+    "histogram_compatible": 0
+  },
+  "heldout_forced_positions_status": "not_applicable_empty_training_solution_sets",
+  "regression": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "tests": 231,
+    "failures": 0,
+    "elapsed_seconds": 9.367
+  },
+  "independent_replay": "results/SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001.json",
+  "interpretation": "Exact negatives within registered single-reset models. Raw descriptions include covered/equivalent models; not novel-simulation count. No multi-reset sweep."
+}

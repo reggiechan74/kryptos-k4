@@ -1,0 +1,40 @@
+{
+  "audit": "independent-geometric-code-pilots-2026-10-22",
+  "status": "bounded_negative; all_controls_passed",
+  "geometry_core_sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010",
+  "geometry_full_sha256": "e55edb5b19917dead65d8971b75693dcd5d18a0ceb995f25febcd6193af430dd",
+  "result_counts": {
+    "pilot1_models": 24,
+    "pilot1_first_crib_survivors": 1,
+    "pilot1_exact_survivors": 0,
+    "pilot2_models": 3640,
+    "pilot2_first_crib_survivors": 0,
+    "pilot2_exact_survivors": 0
+  },
+  "files": {
+    "README.md": {
+      "sha256": "bfce640d3e40da96165348f31c662a77b9cfe723eba9ca9bf246e2dd0ecceeb8",
+      "bytes": 3923
+    },
+    "geometry-core.json": {
+      "sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010",
+      "bytes": 9604
+    },
+    "geometry-full.json": {
+      "sha256": "e55edb5b19917dead65d8971b75693dcd5d18a0ceb995f25febcd6193af430dd",
+      "bytes": 89727
+    },
+    "k4.json": {
+      "sha256": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
+      "bytes": 308
+    },
+    "oracle.py": {
+      "sha256": "9ee330efcd2d93b633ae61264a334484a645bde793157f430c9f8b8a2c8edd88",
+      "bytes": 12002
+    },
+    "result.json": {
+      "sha256": "0ea8a0ec15ddc26f2b06ee18c7410f45fcc9aa4ec15a157e5404bcba966f4e86",
+      "bytes": 41549
+    }
+  }
+}

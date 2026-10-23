@@ -1,0 +1,206 @@
+{
+  "checks": {
+    "original_members_verified": 19,
+    "calibration_exact_closure": {
+      "add": {
+        "favorable": 382,
+        "denominator": 9312,
+        "fraction": "191/4656"
+      },
+      "beaufort": {
+        "favorable": 382,
+        "denominator": 9312,
+        "fraction": "191/4656"
+      }
+    },
+    "calibration_distribution": {
+      "0": 18268,
+      "1": 1728,
+      "2": 3
+    },
+    "plus_one_monte_carlo_p": 0.0866,
+    "calibration_pairwise_comparisons": 479976,
+    "calibration_original_oracle_checks": 5256,
+    "first_crib_only_certificates": [
+      {
+        "alphabet": "AZ",
+        "equation": "additive",
+        "source": "ciphertext",
+        "positions": [
+          23,
+          26
+        ],
+        "glyphs": [
+          "L",
+          "Q"
+        ],
+        "key_parity": 1,
+        "opposed_output_parities": [
+          1,
+          0
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "additive",
+        "source": "plaintext",
+        "positions": [
+          22,
+          24
+        ],
+        "glyphs": [
+          "E",
+          "S"
+        ],
+        "key_parity": 1,
+        "opposed_output_parities": [
+          1,
+          0
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "source": "ciphertext",
+        "positions": [
+          23,
+          26
+        ],
+        "glyphs": [
+          "L",
+          "Q"
+        ],
+        "key_parity": 1,
+        "opposed_output_parities": [
+          1,
+          0
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "source": "plaintext",
+        "positions": [
+          22,
+          24
+        ],
+        "glyphs": [
+          "E",
+          "S"
+        ],
+        "key_parity": 1,
+        "opposed_output_parities": [
+          1,
+          0
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "additive",
+        "source": "ciphertext",
+        "positions": [
+          23,
+          33
+        ],
+        "glyphs": [
+          "L",
+          "S"
+        ],
+        "key_parity": 0,
+        "opposed_output_parities": [
+          1,
+          0
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "additive",
+        "source": "plaintext",
+        "positions": [
+          22,
+          29
+        ],
+        "glyphs": [
+          "E",
+          "T"
+        ],
+        "key_parity": 1,
+        "opposed_output_parities": [
+          0,
+          1
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "source": "ciphertext",
+        "positions": [
+          23,
+          33
+        ],
+        "glyphs": [
+          "L",
+          "S"
+        ],
+        "key_parity": 0,
+        "opposed_output_parities": [
+          1,
+          0
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "source": "plaintext",
+        "positions": [
+          22,
+          29
+        ],
+        "glyphs": [
+          "E",
+          "T"
+        ],
+        "key_parity": 1,
+        "opposed_output_parities": [
+          0,
+          1
+        ]
+      }
+    ],
+    "radix_families_excluded": 8,
+    "radix_roundtrips": 3264,
+    "auxiliary_direct_E_residues": [
+      0,
+      2,
+      4,
+      6,
+      10,
+      14,
+      16,
+      22
+    ],
+    "root_searches_added": 0,
+    "scope": "Calibration: frozen 24 periodic models only. Radix audit: frozen eight first-order affine feature-feedback families only."
+  },
+  "calibration": {
+    "numeric_and_trace_fields_exactly_equal": true,
+    "differing_metadata_fields": [
+      "python_version"
+    ],
+    "original_python_version": "3.12.14",
+    "local_python_version": "3.9.6",
+    "original_result_sha256": "60a92a64cc7e4774bc77c93b1b2e9777e18e47ca1361c87c5afdfbc3202de95f",
+    "local_result_sha256": "10c614cf56b73ee5192eaac27f6597a7bb7324c3dae0cda60d7de8e5a51d0a87",
+    "null_trace_sha256": "32ab9014a3beae88d1f65b6cd0b7620664e85bd7958a9855cbee99940f5e166f"
+  },
+  "radix_primary_byte_equal": true,
+  "radix_primary_sha256": "dc7253ba8619df6e8994852b474e2b90e79ce7acf1cb2e0c45e946a2094cbc3e",
+  "radix_independent_byte_equal": true,
+  "radix_independent_sha256": "3f572b8988e1573ea7055748a5da77dd286132f5e7e2f407152fa69a058b9291",
+  "original_files_modified": false,
+  "full_regression": {
+    "tests": 267,
+    "seconds": 9.545,
+    "passed": true
+  }
+}

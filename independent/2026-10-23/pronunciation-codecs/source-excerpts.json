@@ -1,0 +1,107 @@
+{
+  "access_date": "2026-10-23",
+  "cmu_lines": [
+    "berlin B ER0 L IH1 N",
+    "clock K L AA1 K",
+    "east IY1 S T",
+    "north N AO1 R TH",
+    "northeast N AO2 R TH IY1 S T"
+  ],
+  "cmu_source_url": "https://raw.githubusercontent.com/cmusphinx/cmudict/master/cmudict.dict",
+  "cmu_metadata": {
+    "scrapeId": "01a16613-2b23-733b-9e77-f0d3f47ab86f",
+    "sourceURL": "https://raw.githubusercontent.com/cmusphinx/cmudict/master/cmudict.dict",
+    "url": "https://raw.githubusercontent.com/cmusphinx/cmudict/master/cmudict.dict",
+    "statusCode": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "timezone": "America/New_York",
+    "proxyUsed": "basic",
+    "cacheState": "miss",
+    "indexId": "4f993001-a51f-48f7-bdf1-bda5269e5c3c",
+    "creditsUsed": 1,
+    "concurrencyLimited": false
+  },
+  "cambridge": [
+    {
+      "word": "east",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/east",
+      "forms": [
+        "UK/iːst/",
+        "US/iːst/"
+      ],
+      "cached_at": "2026-10-22T23:37:35.913Z"
+    },
+    {
+      "word": "north",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/north",
+      "forms": [
+        "UK/nɔːθ/",
+        "US/nɔːrθ/"
+      ],
+      "cached_at": "2026-10-22T23:37:36.616Z"
+    },
+    {
+      "word": "northeast",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/northeast",
+      "forms": [
+        "UK/ˌnɔːθˈiːst/",
+        "US/ˌnɔːrθˈiːst/"
+      ],
+      "cached_at": "2026-10-22T23:37:35.712Z"
+    },
+    {
+      "word": "berlin",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/berlin",
+      "forms": [
+        "UK/bɜːˈlɪn/",
+        "US/bɝːˈlɪn/"
+      ],
+      "cached_at": "2026-10-22T23:40:03.217Z"
+    },
+    {
+      "word": "clock",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/clock",
+      "forms": [
+        "UK/klɒk/",
+        "US/klɑːk/"
+      ],
+      "cached_at": "2026-10-22T23:40:03.553Z"
+    }
+  ],
+  "ahd_northeast_exact_html": "(nôrth-<font face=\"Minion New\">ē</font>st<font face=\"Minion New\"></font>, nôr-<font face=\"Minion New\">ē</font>st<font face=\"Minion New\"></font>)",
+  "cmu_pinned_url": "https://raw.githubusercontent.com/cmusphinx/cmudict/74790861f652b15e4ac49015a90074ad62a27690/cmudict.dict",
+  "cmu_pinned_identical_to_retrieved_master": true,
+  "historical_sources": [
+    {
+      "scheme": "ARPABET",
+      "date": "1976-04",
+      "url": "https://archive.org/stream/dr_dobbs_journal_vol_01/dr_dobbs_journal_vol_01_djvu.txt",
+      "location": "Lloyd Rice, Hardware & software for speech synthesis, original pp. 6-8, collected pp. 92-94",
+      "finding": "Original article identifies ARPABET and prints one- and two-character codes."
+    },
+    {
+      "scheme": "SAMPA",
+      "date": "1989-07",
+      "url": "https://doi.org/10.1017/S0025100300005892",
+      "finding": "Original journal paper describes printable 7-bit ASCII SAM-PA; 2009 is online publication, not original year."
+    },
+    {
+      "scheme": "X-SAMPA",
+      "date": "1995-04-28",
+      "url": "https://www.w3.org/TR/2006/WD-pronunciation-lexicon-20061026/#Informative-References",
+      "finding": "W3C bibliography dates Wells extension to 1995. Original UCL PDF retrieval failed; used only to quarantine as post-1990, not to instantiate a new cipher."
+    },
+    {
+      "scheme": "AHD",
+      "date": "1978 spring",
+      "url": "https://www.spellingsociety.org/uploaded_bulletins/b78spring-bulletin-1420024612.pdf",
+      "location": "Gertrude Hildreth, Dictionary Respellings of English Words, printed pp. 12-15",
+      "finding": "Contemporaneous study describes AHD 1969 key as 45 symbols including 15 digraphs; does not establish unchanged modern clue entries."
+    }
+  ],
+  "independent_JS_verification": {
+    "normalized_count_rows": 7,
+    "all_match_python": true,
+    "fixed_target_border_lengths": []
+  }
+}

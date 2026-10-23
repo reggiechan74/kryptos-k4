@@ -1,0 +1,43 @@
+{
+  "all_passed": true,
+  "exhaustive_inverse_directions_per_string": 2,
+  "exhaustive_strings_lengths_0_through_3": 73116,
+  "full_length_97_independent_roundtrips": 32,
+  "full_trace_comparison_states": 3104,
+  "non_rotation_witness": {
+    "added_cyclic_edges": [
+      [
+        "C",
+        "E"
+      ],
+      [
+        "D",
+        "A"
+      ],
+      [
+        "Z",
+        "D"
+      ]
+    ],
+    "before": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "claim_limit": "Not mere cyclic stepping over a fixed alphabet. No global novelty or arbitrary state-machine inequivalence claim.",
+    "move_to_front_D": "DABCEFGHIJKLMNOPQRSTUVWXYZ",
+    "removed_cyclic_edges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "Z",
+        "A"
+      ]
+    ],
+    "rotation_starting_D": "DEFGHIJKLMNOPQRSTUVWXYZABC"
+  },
+  "one_step_ciphertext_cases": 104,
+  "one_step_plaintext_cases": 104
+}

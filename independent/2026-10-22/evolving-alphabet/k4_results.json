@@ -1,0 +1,90 @@
+{
+  "ciphertext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+  "ciphertext_sha256_ascii_no_newline": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "models": [
+    {
+      "crib_window_22_34": "CELXWAWDWOQNA",
+      "crib_window_64_74": "CZUVOAZQIFP",
+      "first_contradiction": {
+        "ciphertext": "F",
+        "known_match": false,
+        "known_plaintext": "E",
+        "plaintext": "C",
+        "position_1based": 22,
+        "rank_0based": 2,
+        "state_after": "FWBILOSUHGXRKACDEJMNPQTVYZ",
+        "state_before": "WBFILOSUHGXRKACDEJMNPQTVYZ"
+      },
+      "full_plaintext": "OCLRUEXBLMEPIUGDPPFAXCELXWAWDWOQNANXMBJEWCCAWHZAHVIIFPTXUHICPTUCZUVOAZQIFPLVODGYJSZGQIISZBTBVEIEZ",
+      "matched_known": 0,
+      "matched_positions_1based": [],
+      "model": "R=AZ,S0=AZ",
+      "regenerated_exactly_97": true,
+      "status": "rejected_exact_crib_contradiction",
+      "total_known": 24
+    },
+    {
+      "crib_window_22_34": "CELYYAQDYOQNA",
+      "crib_window_64_74": "CXUVOAZQIFP",
+      "first_contradiction": {
+        "ciphertext": "F",
+        "known_match": false,
+        "known_plaintext": "E",
+        "plaintext": "C",
+        "position_1based": 22,
+        "rank_0based": 2,
+        "state_after": "FWBILOSUHGXRKYPTACDEJMNQVZ",
+        "state_before": "WBFILOSUHGXRKYPTACDEJMNQVZ"
+      },
+      "full_plaintext": "FICDVEYBPQETIMGDSSFAYCELYYAQDYOQNANSMBJEXCCAXHZAHWIIFPTYUHICPTUCXUVOAZQIFPLVODGYJSZGQIISZBTBVEIEZ",
+      "matched_known": 0,
+      "matched_positions_1based": [],
+      "model": "R=AZ,S0=KRYPTOS",
+      "regenerated_exactly_97": true,
+      "status": "rejected_exact_crib_contradiction",
+      "total_known": 24
+    },
+    {
+      "crib_window_22_34": "YTEWVKVPVHJGK",
+      "crib_window_64_74": "YZQUHKZJBOI",
+      "first_contradiction": {
+        "ciphertext": "F",
+        "known_match": false,
+        "known_plaintext": "E",
+        "plaintext": "Y",
+        "position_1based": 22,
+        "rank_0based": 2,
+        "state_after": "FWBILOSUHGXRKACDEJMNPQTVYZ",
+        "state_before": "WBFILOSUHGXRKACDEJMNPQTVYZ"
+      },
+      "full_plaintext": "HYELQTWREFTIBQSPIIOKWYTEWVKVPVHJGKGWFRCTVYYKVAZKAUBBOINWQABYINQYZQUHKZJBOIEUHPSXCMZSJBBMZRNRUTBTZ",
+      "matched_known": 0,
+      "matched_positions_1based": [],
+      "model": "R=KRYPTOS,S0=AZ",
+      "regenerated_exactly_97": true,
+      "status": "rejected_exact_crib_contradiction",
+      "total_known": 24
+    },
+    {
+      "crib_window_22_34": "YTEXXKJPXHJGK",
+      "crib_window_64_74": "YWQUHKZJBOI",
+      "first_contradiction": {
+        "ciphertext": "F",
+        "known_match": false,
+        "known_plaintext": "E",
+        "plaintext": "Y",
+        "position_1based": 22,
+        "rank_0based": 2,
+        "state_after": "FWBILOSUHGXRKYPTACDEJMNQVZ",
+        "state_before": "WBFILOSUHGXRKYPTACDEJMNQVZ"
+      },
+      "full_plaintext": "OBYPUTXRIJTNBFSPMMOKXYTEXXKJPXHJGKGMFRCTWYYKWAZKAVBBOINXQABYINQYWQUHKZJBOIEUHPSXCMZSJBBMZRNRUTBTZ",
+      "matched_known": 0,
+      "matched_positions_1based": [],
+      "model": "R=KRYPTOS,S0=KRYPTOS",
+      "regenerated_exactly_97": true,
+      "status": "rejected_exact_crib_contradiction",
+      "total_known": 24
+    }
+  ]
+}

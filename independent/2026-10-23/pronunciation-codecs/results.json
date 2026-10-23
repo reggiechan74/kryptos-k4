@@ -1,0 +1,1612 @@
+{
+  "id": "PRONUNCIATION-CODECS-003",
+  "spec_sha256": "b6777de6da458df38b51306732e4dd884c2bdd98cdd3311d8b757470c801e5a5",
+  "codecs": [
+    {
+      "id": "CMU_ARPABET",
+      "words": {
+        "EAST": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "IY1 S T",
+              "codepoints": 7,
+              "utf8_bytes": 7,
+              "glyph_inventory": [
+                " ",
+                "1",
+                "I",
+                "S",
+                "T",
+                "Y"
+              ],
+              "glyph_domain_size": 6,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "IYST",
+              "codepoints": 4,
+              "utf8_bytes": 4,
+              "glyph_inventory": [
+                "I",
+                "S",
+                "T",
+                "Y"
+              ],
+              "glyph_domain_size": 4,
+              "literal_AZ": true
+            },
+            "tokens": [
+              "IY",
+              "S",
+              "T"
+            ],
+            "token_count": 3
+          }
+        ],
+        "NORTH": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "N AO1 R TH",
+              "codepoints": 10,
+              "utf8_bytes": 10,
+              "glyph_inventory": [
+                " ",
+                "1",
+                "A",
+                "H",
+                "N",
+                "O",
+                "R",
+                "T"
+              ],
+              "glyph_domain_size": 8,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "NAORTH",
+              "codepoints": 6,
+              "utf8_bytes": 6,
+              "glyph_inventory": [
+                "A",
+                "H",
+                "N",
+                "O",
+                "R",
+                "T"
+              ],
+              "glyph_domain_size": 6,
+              "literal_AZ": true
+            },
+            "tokens": [
+              "N",
+              "AO",
+              "R",
+              "TH"
+            ],
+            "token_count": 4
+          }
+        ],
+        "NORTHEAST": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "N AO2 R TH IY1 S T",
+              "codepoints": 18,
+              "utf8_bytes": 18,
+              "glyph_inventory": [
+                " ",
+                "1",
+                "2",
+                "A",
+                "H",
+                "I",
+                "N",
+                "O",
+                "R",
+                "S",
+                "T",
+                "Y"
+              ],
+              "glyph_domain_size": 12,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "NAORTHIYST",
+              "codepoints": 10,
+              "utf8_bytes": 10,
+              "glyph_inventory": [
+                "A",
+                "H",
+                "I",
+                "N",
+                "O",
+                "R",
+                "S",
+                "T",
+                "Y"
+              ],
+              "glyph_domain_size": 9,
+              "literal_AZ": true
+            },
+            "tokens": [
+              "N",
+              "AO",
+              "R",
+              "TH",
+              "IY",
+              "S",
+              "T"
+            ],
+            "token_count": 7
+          }
+        ],
+        "BERLIN": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "B ER0 L IH1 N",
+              "codepoints": 13,
+              "utf8_bytes": 13,
+              "glyph_inventory": [
+                " ",
+                "0",
+                "1",
+                "B",
+                "E",
+                "H",
+                "I",
+                "L",
+                "N",
+                "R"
+              ],
+              "glyph_domain_size": 10,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "BERLIHN",
+              "codepoints": 7,
+              "utf8_bytes": 7,
+              "glyph_inventory": [
+                "B",
+                "E",
+                "H",
+                "I",
+                "L",
+                "N",
+                "R"
+              ],
+              "glyph_domain_size": 7,
+              "literal_AZ": true
+            },
+            "tokens": [
+              "B",
+              "ER",
+              "L",
+              "IH",
+              "N"
+            ],
+            "token_count": 5
+          }
+        ],
+        "CLOCK": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "K L AA1 K",
+              "codepoints": 9,
+              "utf8_bytes": 9,
+              "glyph_inventory": [
+                " ",
+                "1",
+                "A",
+                "K",
+                "L"
+              ],
+              "glyph_domain_size": 5,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "KLAAK",
+              "codepoints": 5,
+              "utf8_bytes": 5,
+              "glyph_inventory": [
+                "A",
+                "K",
+                "L"
+              ],
+              "glyph_domain_size": 3,
+              "literal_AZ": true
+            },
+            "tokens": [
+              "K",
+              "L",
+              "AA",
+              "K"
+            ],
+            "token_count": 4
+          }
+        ]
+      },
+      "streams": [
+        {
+          "block": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "variant_indices": [
+            0,
+            0
+          ],
+          "normalized": {
+            "text": "IYSTNAORTHIYST",
+            "codepoints": 14,
+            "utf8_bytes": 14,
+            "glyph_inventory": [
+              "A",
+              "H",
+              "I",
+              "N",
+              "O",
+              "R",
+              "S",
+              "T",
+              "Y"
+            ],
+            "glyph_domain_size": 9,
+            "literal_AZ": true
+          },
+          "raw_lexical_concatenation": {
+            "text": "IY1 S TN AO2 R TH IY1 S T",
+            "codepoints": 25,
+            "utf8_bytes": 25,
+            "glyph_inventory": [
+              " ",
+              "1",
+              "2",
+              "A",
+              "H",
+              "I",
+              "N",
+              "O",
+              "R",
+              "S",
+              "T",
+              "Y"
+            ],
+            "glyph_domain_size": 12,
+            "literal_AZ": false
+          },
+          "tokens": [
+            "IY",
+            "S",
+            "T",
+            "N",
+            "AO",
+            "R",
+            "TH",
+            "IY",
+            "S",
+            "T"
+          ],
+          "token_count": 10,
+          "one_letter_per_token_local_length_match": false,
+          "one_letter_per_codepoint_local_length_match": false,
+          "word_token_boundaries": [
+            3,
+            7
+          ],
+          "word_codepoint_boundaries": [
+            4,
+            10
+          ],
+          "framed_tokens_roundtrip": true,
+          "stressed_compact_audit": {
+            "text": "IY1STNAO2RTHIY1ST",
+            "codepoints": 17,
+            "utf8_bytes": 17,
+            "glyph_inventory": [
+              "1",
+              "2",
+              "A",
+              "H",
+              "I",
+              "N",
+              "O",
+              "R",
+              "S",
+              "T",
+              "Y"
+            ],
+            "glyph_domain_size": 11,
+            "literal_AZ": false
+          },
+          "stressed_space_delimited_audit": {
+            "text": "IY1 S T N AO2 R TH IY1 S T",
+            "codepoints": 26,
+            "utf8_bytes": 26,
+            "glyph_inventory": [
+              " ",
+              "1",
+              "2",
+              "A",
+              "H",
+              "I",
+              "N",
+              "O",
+              "R",
+              "S",
+              "T",
+              "Y"
+            ],
+            "glyph_domain_size": 12,
+            "literal_AZ": false
+          },
+          "stressless_space_delimited_audit": {
+            "text": "IY S T N AO R TH IY S T",
+            "codepoints": 23,
+            "utf8_bytes": 23,
+            "glyph_inventory": [
+              " ",
+              "A",
+              "H",
+              "I",
+              "N",
+              "O",
+              "R",
+              "S",
+              "T",
+              "Y"
+            ],
+            "glyph_domain_size": 10,
+            "literal_AZ": false
+          },
+          "source_EAST_token_prefix_suffix": true
+        },
+        {
+          "block": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "variant_indices": [
+            0,
+            0
+          ],
+          "normalized": {
+            "text": "BERLIHNKLAAK",
+            "codepoints": 12,
+            "utf8_bytes": 12,
+            "glyph_inventory": [
+              "A",
+              "B",
+              "E",
+              "H",
+              "I",
+              "K",
+              "L",
+              "N",
+              "R"
+            ],
+            "glyph_domain_size": 9,
+            "literal_AZ": true
+          },
+          "raw_lexical_concatenation": {
+            "text": "B ER0 L IH1 NK L AA1 K",
+            "codepoints": 22,
+            "utf8_bytes": 22,
+            "glyph_inventory": [
+              " ",
+              "0",
+              "1",
+              "A",
+              "B",
+              "E",
+              "H",
+              "I",
+              "K",
+              "L",
+              "N",
+              "R"
+            ],
+            "glyph_domain_size": 12,
+            "literal_AZ": false
+          },
+          "tokens": [
+            "B",
+            "ER",
+            "L",
+            "IH",
+            "N",
+            "K",
+            "L",
+            "AA",
+            "K"
+          ],
+          "token_count": 9,
+          "one_letter_per_token_local_length_match": false,
+          "one_letter_per_codepoint_local_length_match": false,
+          "word_token_boundaries": [
+            5,
+            4
+          ],
+          "word_codepoint_boundaries": [
+            7,
+            5
+          ],
+          "framed_tokens_roundtrip": true,
+          "stressed_compact_audit": {
+            "text": "BER0LIH1NKLAA1K",
+            "codepoints": 15,
+            "utf8_bytes": 15,
+            "glyph_inventory": [
+              "0",
+              "1",
+              "A",
+              "B",
+              "E",
+              "H",
+              "I",
+              "K",
+              "L",
+              "N",
+              "R"
+            ],
+            "glyph_domain_size": 11,
+            "literal_AZ": false
+          },
+          "stressed_space_delimited_audit": {
+            "text": "B ER0 L IH1 N K L AA1 K",
+            "codepoints": 23,
+            "utf8_bytes": 23,
+            "glyph_inventory": [
+              " ",
+              "0",
+              "1",
+              "A",
+              "B",
+              "E",
+              "H",
+              "I",
+              "K",
+              "L",
+              "N",
+              "R"
+            ],
+            "glyph_domain_size": 12,
+            "literal_AZ": false
+          },
+          "stressless_space_delimited_audit": {
+            "text": "B ER L IH N K L AA K",
+            "codepoints": 20,
+            "utf8_bytes": 20,
+            "glyph_inventory": [
+              " ",
+              "A",
+              "B",
+              "E",
+              "H",
+              "I",
+              "K",
+              "L",
+              "N",
+              "R"
+            ],
+            "glyph_domain_size": 10,
+            "literal_AZ": false
+          }
+        }
+      ],
+      "observed_token_inventory": [
+        "AA",
+        "AO",
+        "B",
+        "ER",
+        "IH",
+        "IY",
+        "K",
+        "L",
+        "N",
+        "R",
+        "S",
+        "T",
+        "TH"
+      ],
+      "observed_token_domain_size": 13,
+      "observed_glyph_inventory": [
+        "A",
+        "B",
+        "E",
+        "H",
+        "I",
+        "K",
+        "L",
+        "N",
+        "O",
+        "R",
+        "S",
+        "T",
+        "Y"
+      ],
+      "observed_glyph_domain_size": 13
+    },
+    {
+      "id": "SAMPA_ENGLISH_UK",
+      "words": {
+        "EAST": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "iːst",
+              "codepoints": 4,
+              "utf8_bytes": 5,
+              "glyph_inventory": [
+                "i",
+                "s",
+                "t",
+                "ː"
+              ],
+              "glyph_domain_size": 4,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "i:st",
+              "codepoints": 4,
+              "utf8_bytes": 4,
+              "glyph_inventory": [
+                ":",
+                "i",
+                "s",
+                "t"
+              ],
+              "glyph_domain_size": 4,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "i:",
+              "s",
+              "t"
+            ],
+            "token_count": 3
+          }
+        ],
+        "NORTH": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "nɔːθ",
+              "codepoints": 4,
+              "utf8_bytes": 7,
+              "glyph_inventory": [
+                "n",
+                "ɔ",
+                "ː",
+                "θ"
+              ],
+              "glyph_domain_size": 4,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "nO:T",
+              "codepoints": 4,
+              "utf8_bytes": 4,
+              "glyph_inventory": [
+                ":",
+                "O",
+                "T",
+                "n"
+              ],
+              "glyph_domain_size": 4,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "n",
+              "O:",
+              "T"
+            ],
+            "token_count": 3
+          }
+        ],
+        "NORTHEAST": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "ˌnɔːθˈiːst",
+              "codepoints": 10,
+              "utf8_bytes": 16,
+              "glyph_inventory": [
+                "i",
+                "n",
+                "s",
+                "t",
+                "ɔ",
+                "ˈ",
+                "ˌ",
+                "ː",
+                "θ"
+              ],
+              "glyph_domain_size": 9,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "nO:Ti:st",
+              "codepoints": 8,
+              "utf8_bytes": 8,
+              "glyph_inventory": [
+                ":",
+                "O",
+                "T",
+                "i",
+                "n",
+                "s",
+                "t"
+              ],
+              "glyph_domain_size": 7,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "n",
+              "O:",
+              "T",
+              "i:",
+              "s",
+              "t"
+            ],
+            "token_count": 6
+          }
+        ],
+        "BERLIN": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "bɜːˈlɪn",
+              "codepoints": 7,
+              "utf8_bytes": 11,
+              "glyph_inventory": [
+                "b",
+                "l",
+                "n",
+                "ɜ",
+                "ɪ",
+                "ˈ",
+                "ː"
+              ],
+              "glyph_domain_size": 7,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "b3:lIn",
+              "codepoints": 6,
+              "utf8_bytes": 6,
+              "glyph_inventory": [
+                "3",
+                ":",
+                "I",
+                "b",
+                "l",
+                "n"
+              ],
+              "glyph_domain_size": 6,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "b",
+              "3:",
+              "l",
+              "I",
+              "n"
+            ],
+            "token_count": 5
+          }
+        ],
+        "CLOCK": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "klɒk",
+              "codepoints": 4,
+              "utf8_bytes": 5,
+              "glyph_inventory": [
+                "k",
+                "l",
+                "ɒ"
+              ],
+              "glyph_domain_size": 3,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "klQk",
+              "codepoints": 4,
+              "utf8_bytes": 4,
+              "glyph_inventory": [
+                "Q",
+                "k",
+                "l"
+              ],
+              "glyph_domain_size": 3,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "k",
+              "l",
+              "Q",
+              "k"
+            ],
+            "token_count": 4
+          }
+        ]
+      },
+      "streams": [
+        {
+          "block": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "variant_indices": [
+            0,
+            0
+          ],
+          "normalized": {
+            "text": "i:stnO:Ti:st",
+            "codepoints": 12,
+            "utf8_bytes": 12,
+            "glyph_inventory": [
+              ":",
+              "O",
+              "T",
+              "i",
+              "n",
+              "s",
+              "t"
+            ],
+            "glyph_domain_size": 7,
+            "literal_AZ": false
+          },
+          "raw_lexical_concatenation": {
+            "text": "iːstˌnɔːθˈiːst",
+            "codepoints": 14,
+            "utf8_bytes": 21,
+            "glyph_inventory": [
+              "i",
+              "n",
+              "s",
+              "t",
+              "ɔ",
+              "ˈ",
+              "ˌ",
+              "ː",
+              "θ"
+            ],
+            "glyph_domain_size": 9,
+            "literal_AZ": false
+          },
+          "tokens": [
+            "i:",
+            "s",
+            "t",
+            "n",
+            "O:",
+            "T",
+            "i:",
+            "s",
+            "t"
+          ],
+          "token_count": 9,
+          "one_letter_per_token_local_length_match": false,
+          "one_letter_per_codepoint_local_length_match": false,
+          "word_token_boundaries": [
+            3,
+            6
+          ],
+          "word_codepoint_boundaries": [
+            4,
+            8
+          ],
+          "framed_tokens_roundtrip": true,
+          "source_EAST_token_prefix_suffix": true
+        },
+        {
+          "block": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "variant_indices": [
+            0,
+            0
+          ],
+          "normalized": {
+            "text": "b3:lInklQk",
+            "codepoints": 10,
+            "utf8_bytes": 10,
+            "glyph_inventory": [
+              "3",
+              ":",
+              "I",
+              "Q",
+              "b",
+              "k",
+              "l",
+              "n"
+            ],
+            "glyph_domain_size": 8,
+            "literal_AZ": false
+          },
+          "raw_lexical_concatenation": {
+            "text": "bɜːˈlɪnklɒk",
+            "codepoints": 11,
+            "utf8_bytes": 16,
+            "glyph_inventory": [
+              "b",
+              "k",
+              "l",
+              "n",
+              "ɒ",
+              "ɜ",
+              "ɪ",
+              "ˈ",
+              "ː"
+            ],
+            "glyph_domain_size": 9,
+            "literal_AZ": false
+          },
+          "tokens": [
+            "b",
+            "3:",
+            "l",
+            "I",
+            "n",
+            "k",
+            "l",
+            "Q",
+            "k"
+          ],
+          "token_count": 9,
+          "one_letter_per_token_local_length_match": false,
+          "one_letter_per_codepoint_local_length_match": false,
+          "word_token_boundaries": [
+            5,
+            4
+          ],
+          "word_codepoint_boundaries": [
+            6,
+            4
+          ],
+          "framed_tokens_roundtrip": true
+        }
+      ],
+      "observed_token_inventory": [
+        "3:",
+        "I",
+        "O:",
+        "Q",
+        "T",
+        "b",
+        "i:",
+        "k",
+        "l",
+        "n",
+        "s",
+        "t"
+      ],
+      "observed_token_domain_size": 12,
+      "observed_glyph_inventory": [
+        "3",
+        ":",
+        "I",
+        "O",
+        "Q",
+        "T",
+        "b",
+        "i",
+        "k",
+        "l",
+        "n",
+        "s",
+        "t"
+      ],
+      "observed_glyph_domain_size": 13
+    },
+    {
+      "id": "AHD",
+      "words": {
+        "EAST": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "ēst",
+              "codepoints": 3,
+              "utf8_bytes": 4,
+              "glyph_inventory": [
+                "s",
+                "t",
+                "ē"
+              ],
+              "glyph_domain_size": 3,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "ēst",
+              "codepoints": 3,
+              "utf8_bytes": 4,
+              "glyph_inventory": [
+                "s",
+                "t",
+                "ē"
+              ],
+              "glyph_domain_size": 3,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "ē",
+              "s",
+              "t"
+            ],
+            "token_count": 3
+          }
+        ],
+        "NORTH": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "nôrth",
+              "codepoints": 5,
+              "utf8_bytes": 6,
+              "glyph_inventory": [
+                "h",
+                "n",
+                "r",
+                "t",
+                "ô"
+              ],
+              "glyph_domain_size": 5,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "nôrth",
+              "codepoints": 5,
+              "utf8_bytes": 6,
+              "glyph_inventory": [
+                "h",
+                "n",
+                "r",
+                "t",
+                "ô"
+              ],
+              "glyph_domain_size": 5,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "n",
+              "ôr",
+              "th"
+            ],
+            "token_count": 3
+          }
+        ],
+        "NORTHEAST": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "nôrth-ēst",
+              "codepoints": 10,
+              "utf8_bytes": 14,
+              "glyph_inventory": [
+                "-",
+                "h",
+                "n",
+                "r",
+                "s",
+                "t",
+                "ô",
+                "ē",
+                ""
+              ],
+              "glyph_domain_size": 9,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "nôrthēst",
+              "codepoints": 8,
+              "utf8_bytes": 10,
+              "glyph_inventory": [
+                "h",
+                "n",
+                "r",
+                "s",
+                "t",
+                "ô",
+                "ē"
+              ],
+              "glyph_domain_size": 7,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "n",
+              "ôr",
+              "th",
+              "ē",
+              "s",
+              "t"
+            ],
+            "token_count": 6
+          },
+          {
+            "variant": 1,
+            "raw": {
+              "text": "nôr-ēst",
+              "codepoints": 8,
+              "utf8_bytes": 12,
+              "glyph_inventory": [
+                "-",
+                "n",
+                "r",
+                "s",
+                "t",
+                "ô",
+                "ē",
+                ""
+              ],
+              "glyph_domain_size": 8,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "nôrēst",
+              "codepoints": 6,
+              "utf8_bytes": 8,
+              "glyph_inventory": [
+                "n",
+                "r",
+                "s",
+                "t",
+                "ô",
+                "ē"
+              ],
+              "glyph_domain_size": 6,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "n",
+              "ôr",
+              "ē",
+              "s",
+              "t"
+            ],
+            "token_count": 5
+          }
+        ],
+        "BERLIN": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "bûr-lĭn",
+              "codepoints": 8,
+              "utf8_bytes": 12,
+              "glyph_inventory": [
+                "-",
+                "b",
+                "l",
+                "n",
+                "r",
+                "û",
+                "ĭ",
+                ""
+              ],
+              "glyph_domain_size": 8,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "bûrlĭn",
+              "codepoints": 6,
+              "utf8_bytes": 8,
+              "glyph_inventory": [
+                "b",
+                "l",
+                "n",
+                "r",
+                "û",
+                "ĭ"
+              ],
+              "glyph_domain_size": 6,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "b",
+              "ûr",
+              "l",
+              "ĭ",
+              "n"
+            ],
+            "token_count": 5
+          }
+        ],
+        "CLOCK": [
+          {
+            "variant": 0,
+            "raw": {
+              "text": "klŏk",
+              "codepoints": 4,
+              "utf8_bytes": 5,
+              "glyph_inventory": [
+                "k",
+                "l",
+                "ŏ"
+              ],
+              "glyph_domain_size": 3,
+              "literal_AZ": false
+            },
+            "normalized": {
+              "text": "klŏk",
+              "codepoints": 4,
+              "utf8_bytes": 5,
+              "glyph_inventory": [
+                "k",
+                "l",
+                "ŏ"
+              ],
+              "glyph_domain_size": 3,
+              "literal_AZ": false
+            },
+            "tokens": [
+              "k",
+              "l",
+              "ŏ",
+              "k"
+            ],
+            "token_count": 4
+          }
+        ]
+      },
+      "streams": [
+        {
+          "block": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "variant_indices": [
+            0,
+            0
+          ],
+          "normalized": {
+            "text": "ēstnôrthēst",
+            "codepoints": 11,
+            "utf8_bytes": 14,
+            "glyph_inventory": [
+              "h",
+              "n",
+              "r",
+              "s",
+              "t",
+              "ô",
+              "ē"
+            ],
+            "glyph_domain_size": 7,
+            "literal_AZ": false
+          },
+          "raw_lexical_concatenation": {
+            "text": "ēstnôrth-ēst",
+            "codepoints": 13,
+            "utf8_bytes": 18,
+            "glyph_inventory": [
+              "-",
+              "h",
+              "n",
+              "r",
+              "s",
+              "t",
+              "ô",
+              "ē",
+              ""
+            ],
+            "glyph_domain_size": 9,
+            "literal_AZ": false
+          },
+          "tokens": [
+            "ē",
+            "s",
+            "t",
+            "n",
+            "ôr",
+            "th",
+            "ē",
+            "s",
+            "t"
+          ],
+          "token_count": 9,
+          "one_letter_per_token_local_length_match": false,
+          "one_letter_per_codepoint_local_length_match": false,
+          "word_token_boundaries": [
+            3,
+            6
+          ],
+          "word_codepoint_boundaries": [
+            3,
+            8
+          ],
+          "framed_tokens_roundtrip": true,
+          "source_EAST_token_prefix_suffix": true
+        },
+        {
+          "block": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "variant_indices": [
+            0,
+            1
+          ],
+          "normalized": {
+            "text": "ēstnôrēst",
+            "codepoints": 9,
+            "utf8_bytes": 12,
+            "glyph_inventory": [
+              "n",
+              "r",
+              "s",
+              "t",
+              "ô",
+              "ē"
+            ],
+            "glyph_domain_size": 6,
+            "literal_AZ": false
+          },
+          "raw_lexical_concatenation": {
+            "text": "ēstnôr-ēst",
+            "codepoints": 11,
+            "utf8_bytes": 16,
+            "glyph_inventory": [
+              "-",
+              "n",
+              "r",
+              "s",
+              "t",
+              "ô",
+              "ē",
+              ""
+            ],
+            "glyph_domain_size": 8,
+            "literal_AZ": false
+          },
+          "tokens": [
+            "ē",
+            "s",
+            "t",
+            "n",
+            "ôr",
+            "ē",
+            "s",
+            "t"
+          ],
+          "token_count": 8,
+          "one_letter_per_token_local_length_match": false,
+          "one_letter_per_codepoint_local_length_match": false,
+          "word_token_boundaries": [
+            3,
+            5
+          ],
+          "word_codepoint_boundaries": [
+            3,
+            6
+          ],
+          "framed_tokens_roundtrip": true,
+          "source_EAST_token_prefix_suffix": true
+        },
+        {
+          "block": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "variant_indices": [
+            0,
+            0
+          ],
+          "normalized": {
+            "text": "bûrlĭnklŏk",
+            "codepoints": 10,
+            "utf8_bytes": 13,
+            "glyph_inventory": [
+              "b",
+              "k",
+              "l",
+              "n",
+              "r",
+              "û",
+              "ĭ",
+              "ŏ"
+            ],
+            "glyph_domain_size": 8,
+            "literal_AZ": false
+          },
+          "raw_lexical_concatenation": {
+            "text": "bûr-lĭnklŏk",
+            "codepoints": 12,
+            "utf8_bytes": 17,
+            "glyph_inventory": [
+              "-",
+              "b",
+              "k",
+              "l",
+              "n",
+              "r",
+              "û",
+              "ĭ",
+              "ŏ",
+              ""
+            ],
+            "glyph_domain_size": 10,
+            "literal_AZ": false
+          },
+          "tokens": [
+            "b",
+            "ûr",
+            "l",
+            "ĭ",
+            "n",
+            "k",
+            "l",
+            "ŏ",
+            "k"
+          ],
+          "token_count": 9,
+          "one_letter_per_token_local_length_match": false,
+          "one_letter_per_codepoint_local_length_match": false,
+          "word_token_boundaries": [
+            5,
+            4
+          ],
+          "word_codepoint_boundaries": [
+            6,
+            4
+          ],
+          "framed_tokens_roundtrip": true
+        }
+      ],
+      "observed_token_inventory": [
+        "b",
+        "k",
+        "l",
+        "n",
+        "s",
+        "t",
+        "th",
+        "ôr",
+        "ûr",
+        "ē",
+        "ĭ",
+        "ŏ"
+      ],
+      "observed_token_domain_size": 12,
+      "observed_glyph_inventory": [
+        "b",
+        "h",
+        "k",
+        "l",
+        "n",
+        "r",
+        "s",
+        "t",
+        "ô",
+        "û",
+        "ē",
+        "ĭ",
+        "ŏ"
+      ],
+      "observed_glyph_domain_size": 13
+    }
+  ],
+  "controls": {
+    "synthetic_variable_length_border": "ABCDEFGHIJKABCDE",
+    "synthetic_prefix_suffix": "ABCDE",
+    "mutation_breaks_expected_border": true,
+    "unframed_ambiguity_witnesses": [
+      {
+        "a": [
+          "NG"
+        ],
+        "b": [
+          "N",
+          "G"
+        ],
+        "same_text": "NG"
+      },
+      {
+        "a": [
+          "tS"
+        ],
+        "b": [
+          "t",
+          "S"
+        ],
+        "same_text": "tS"
+      },
+      {
+        "a": [
+          "th"
+        ],
+        "b": [
+          "t",
+          "h"
+        ],
+        "same_text": "th"
+      }
+    ],
+    "cmu_spelling_noninvertibility": {
+      "NIGHT": [
+        "N",
+        "AY1",
+        "T"
+      ],
+      "KNIGHT": [
+        "N",
+        "AY1",
+        "T"
+      ]
+    },
+    "arpa_base_inventory": [
+      "AA",
+      "AE",
+      "AH",
+      "AO",
+      "AW",
+      "AY",
+      "B",
+      "CH",
+      "D",
+      "DH",
+      "EH",
+      "ER",
+      "EY",
+      "F",
+      "G",
+      "HH",
+      "IH",
+      "IY",
+      "JH",
+      "K",
+      "L",
+      "M",
+      "N",
+      "NG",
+      "OW",
+      "OY",
+      "P",
+      "R",
+      "S",
+      "SH",
+      "T",
+      "TH",
+      "UH",
+      "UW",
+      "V",
+      "W",
+      "Y",
+      "Z",
+      "ZH"
+    ],
+    "arpa_base_inventory_size": 39,
+    "arpa_base_char_inventory": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "Y",
+      "Z"
+    ],
+    "sampa_english_inventory": [
+      "p",
+      "b",
+      "t",
+      "d",
+      "k",
+      "g",
+      "tS",
+      "dZ",
+      "f",
+      "v",
+      "T",
+      "D",
+      "s",
+      "z",
+      "S",
+      "Z",
+      "h",
+      "m",
+      "n",
+      "N",
+      "r",
+      "l",
+      "w",
+      "j",
+      "I",
+      "e",
+      "{",
+      "Q",
+      "V",
+      "U",
+      "@",
+      "i:",
+      "eI",
+      "aI",
+      "OI",
+      "u:",
+      "@U",
+      "aU",
+      "3:",
+      "A:",
+      "O:",
+      "I@",
+      "e@",
+      "U@"
+    ],
+    "sampa_english_inventory_size": 44,
+    "sampa_char_inventory": [
+      "3",
+      ":",
+      "@",
+      "A",
+      "D",
+      "I",
+      "N",
+      "O",
+      "Q",
+      "S",
+      "T",
+      "U",
+      "V",
+      "Z",
+      "a",
+      "b",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "p",
+      "r",
+      "s",
+      "t",
+      "u",
+      "v",
+      "w",
+      "z",
+      "{"
+    ],
+    "token_roundtrips": "All frozen words and blocks passed lossless JSON token-array roundtrips. No exact-English inverse claimed."
+  },
+  "border_certificate": {
+    "ciphertext": "FLRVQQPRNGKSS",
+    "proper_border_lengths": [],
+    "F_positions_zero_based": [
+      0
+    ],
+    "conclusion": "No non-erasing context-free concatenative token code maps any frozen first stream exactly onto this fixed window.",
+    "conditions": [
+      "This window is the complete encoded EAST+NORTHEAST block.",
+      "The same input token always emits the same nonempty output codeword.",
+      "No outer stateful cipher, transposition, positional salt or inserted padding."
+    ]
+  }
+}

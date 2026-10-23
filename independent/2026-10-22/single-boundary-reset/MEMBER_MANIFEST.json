@@ -1,0 +1,27 @@
+{
+  "format_version": 1,
+  "root_directory": "k4-single-boundary-independent-audit",
+  "payload_members": [
+    {
+      "name": "PREREGISTRATION.md",
+      "bytes": 2500,
+      "sha256": "03e3913b08e26ac8591daf7314e54d0755ffc0099ae19db296f297f3ec4f01d3"
+    },
+    {
+      "name": "audit.py",
+      "bytes": 14855,
+      "sha256": "76c862555c832591462167b15d6790cae0b1c55bdac8ae0689c585ad33b59e65"
+    },
+    {
+      "name": "results.json",
+      "bytes": 319010,
+      "sha256": "633d1616341d1c0e3b094919f23169d2b37821478904a43aa953781758726872"
+    },
+    {
+      "name": "REPORT.md",
+      "bytes": 8642,
+      "sha256": "b823cf7bd4d97c8277c025c403f191d1178ffeecba366073def29ad60d8ffb00"
+    }
+  ],
+  "manifest_note": "SHA256SUMS also covers this member manifest. No circular self-hash is claimed. Archive identity is provided separately."
+}

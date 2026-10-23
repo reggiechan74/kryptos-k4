@@ -1,0 +1,36 @@
+{
+  "id": "ipa-unanchored-002",
+  "frozen_before_comparison": true,
+  "date_utc": "2026-10-23",
+  "purpose": "One bounded necessary-condition relaxation of the Latin-preserving IPA pilot: remove every Latin identity anchor, without changing source, alignment, periods or alphabet family.",
+  "ciphertext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+  "source_bundle_sha256": "163eb3d44e38c3824b3ffd8f47887601dc3c21915236f9c419cf5a053235c850",
+  "source_description": "Frozen Cambridge US strings from the preceding pilot, stress marks, spaces and syllable dots removed; length marks retained. No fresh source lookup or alternative pronunciation selection.",
+  "windows": [
+    {"stage": "fit", "one_based_start": 22, "glyphs": "iːstnɔːrθiːst"},
+    {"stage": "check", "one_based_start": 64, "glyphs": "bɝːlɪnklɑːk"}
+  ],
+  "alignment_warning": "These are stipulated unchanged transformed-glyph positions, conditional on the prior pilot alignment. They are not a proved 97-character phonetic transcription. Phoneme counts are 10 and 9, raw glyph lengths 13 and 11.",
+  "alphabets": {"AZ": "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "KRYPTOS": "KRYPTOSABCDEFGHIJLMNQUVWXZ"},
+  "periods": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+  "number_of_canonical_structures": 24,
+  "equation": "C_i = f(P_i) + k_(zero_based_i mod p) mod 26; equivalently f(P_i) - q_(zero_based_i mod p) = C_i with q = -k.",
+  "glyph_values": "Every one of the 14 observed glyphs has an unknown value in Z/26Z. Values are shared and injective across glyphs; ordinary IPA Latin letters have no Latin-value anchors.",
+  "key": "An unrestricted periodic sequence in Z/26Z; no keyword or language scoring.",
+  "canonicalization": "One key-phase convention. Plus/minus key and phase changes do not add structures. True Beaufort is equivalent by negating the completely free glyph map. Global simultaneous f/q shifts are a 26-fold gauge, fixed by f(i)=0 when counting. This is not a Latin identity anchor.",
+  "analysis": [
+    "Construct the exact weighted bipartite graph over glyph and phase nodes for the first window, and separately for both windows.",
+    "Solve each connected component with modular potentials. A nonzero cycle residual is an exact rejection certificate.",
+    "Reject distinct glyphs with equal potentials within a component. Otherwise each component has one free additive gauge; require disjoint shifted glyph-value sets across components.",
+    "Retain every solution as compact exact graph potentials and gauge-disjointness constraints, or exact counts if feasible. Never pick an appealing assignment as evidence.",
+    "For Berlin checks, distinguish first-stage forced outputs, gauge-dependent outputs and outputs requiring newly introduced glyph values. New glyph assignments are never predictions.",
+    "Stop after the 24 structures: no extra periods, transpositions, dialects, source variants or language optimization. A fit is compatibility, not evidence of the hypothesis or a complete decryption."
+  ],
+  "validation": [
+    "One reproducible synthetic positive control per canonical structure, using all 14 symbols, an injective random glyph map and unrestricted random key, then verifying the generating assignment and graph solution.",
+    "Independent exhaustive tiny-ring checks comparing graph/gauge counts and feasibility with direct enumeration of injective glyph maps and all keys.",
+    "Machine-check every reported cycle or within-component collision certificate against the original equations."
+  ],
+  "scope_limit": "The complete IPA vocabulary has more than 26 symbols. This only tests a necessary-condition relaxation on the 14 glyphs occurring in these two windows; it is not a universal IPA codec.",
+  "counting_limit": "Use exact symbolic graph records whenever full first-stage enumeration is too large. If a bounded counter stops, label the count unknown and preserve the exact constraints; do not claim completed enumeration."
+}

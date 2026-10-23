@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "verified_original_members": 7,
+    "source_normalized_forms_match": true,
+    "structural_period_records_match": 12,
+    "native_full_window_anchor_certificates_verified": 48,
+    "native_cross_window_certificate": [
+      {
+        "alphabet": "AZ",
+        "equation": "add",
+        "period": 10,
+        "positions": [
+          24,
+          64
+        ],
+        "key_values": [
+          25,
+          12
+        ]
+      }
+    ],
+    "local_first_window_ordinary_anchor_rejections": 47,
+    "supplementary_first_window_marker_indices": [
+      13,
+      11
+    ],
+    "local_first_window_relaxed_rejections": 48,
+    "xsampa_subset_strings": [
+      "i:stnO:rTi:st",
+      "b3`:lInklA:k"
+    ],
+    "xsampa_lengths": [
+      13,
+      12
+    ],
+    "native_normalization_extra_rules_change_fixed_inputs": false,
+    "source_retrieval_claim": "Supplied source-worker evidence, not independently re-fetched pages.",
+    "new_cipher_families_or_alias_trials_added": 0
+  },
+  "native_replays": {
+    "main_replay": {
+      "status": "pass",
+      "k4_structures_rejected": 48,
+      "k4_special_assignments_enumerated": 0,
+      "synthetic_cipher_roundtrips": 48,
+      "mutation_negative_controls": 4,
+      "ascii_storage_roundtrips": 2,
+      "xsampa_subset_roundtrips": 2,
+      "xsampa_lengths": [
+        13,
+        12
+      ]
+    },
+    "supplement_replay": {
+      "status": "pass",
+      "supplementary_post_audit_check": true,
+      "required_marker_alias_indices": [
+        13,
+        11
+      ],
+      "single_global_marker_encoding_contradicted": true
+    }
+  },
+  "original_files_modified": false
+}

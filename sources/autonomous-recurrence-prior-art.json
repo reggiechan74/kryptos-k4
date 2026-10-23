@@ -1,0 +1,17 @@
+{
+  "id": "AUTONOMOUS-RECURRENCE-PRIOR-ART-001",
+  "mode": "static_source_review_only_no_third_party_code_execution",
+  "repository": "barneyjm/kryptos-k4",
+  "commit": "2db2722cc3f18c52d4d8369d7adc5a1db7e859d7",
+  "path": "scripts/linear.py",
+  "url": "https://raw.githubusercontent.com/barneyjm/kryptos-k4/2db2722cc3f18c52d4d8369d7adc5a1db7e859d7/scripts/linear.py",
+  "bytes": 2562,
+  "sha256": "202c86d7e6b554dfc154eb77cb056d8af7d6bfbb95490d63401643d9ba25c947",
+  "features_max": 5,
+  "largest_predecessor_lag": 2,
+  "homogeneous_order2": "Contained after expanding K=C-P into P0,C-1,P-1,C-2,P-2 with coupled coefficients; do not claim this method new.",
+  "affine_order2": "Generic constant adds a sixth feature, outside its max5feature loop; degenerate subcases may overlap.",
+  "orders3through6": "Generic predecessor lags3+ unavailable; no claim global novelty.",
+  "external_completion": "Source containment verified, not proof of a separately completed third-party run.",
+  "other_model": "Existing fixed mod16lag5/6 Gromark withunknownalphabets isdifferent."
+}

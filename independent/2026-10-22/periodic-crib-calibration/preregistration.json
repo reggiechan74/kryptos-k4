@@ -1,0 +1,18 @@
+{
+  "experiment_id": "GEOMETRIC-PERIODIC-NULL-001",
+  "recorded_before_simulation": true,
+  "fixed_alphabet": "OCSQVXWAGZITYDPBRKLFENMHJU",
+  "frozen_geometry_sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010",
+  "family": "All 24 models: periods 1 through 12, equations C=P+K and C=K-P modulo 26; unrestricted periodic key entries",
+  "training_crib": {"start_one_based":22,"plaintext":"EASTNORTHEAST"},
+  "second_check": {"start_one_based":64,"plaintext":"BERLINCLOCK","used_in_null_statistic":false},
+  "null": "Uniformly shuffle all 97 ciphertext positions, preserving the entire observed letter histogram; refit all 24 models to each shuffle",
+  "statistic": "Number of models passing the full 13-letter training crib",
+  "observed_statistic": 1,
+  "tail": "Number of passing models at least the observed value",
+  "N": 19999,
+  "seed_rule": "int.from_bytes(SHA256(UTF8(experiment_id)).digest(), byteorder='big')",
+  "random_generator": "Python standard-library random.Random(seed), random.shuffle of the original ciphertext list separately in every replicate",
+  "reporting": "Null count distribution, per-model pass counts, empirical exceedance fraction, plus-one Monte Carlo p=(b+1)/(N+1), descriptive 95% Wilson binomial interval for the null exceedance probability",
+  "scope": "Only this frozen 24-periodic-model family, not the larger history of investigated hypotheses, alphabets, geometries or rotor models. This is not a posterior probability that the cipher is correct."
+}

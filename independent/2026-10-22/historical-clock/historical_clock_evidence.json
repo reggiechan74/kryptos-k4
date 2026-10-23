@@ -1,0 +1,1399 @@
+{
+  "schema_version": 1,
+  "scope": "Partial pre-1990 observations; NOT a complete 1989 inventory, NOT a solved K4 mapping.",
+  "sources": [
+    {
+      "id": "S69",
+      "date": "1969-10-03",
+      "date_basis": "Bundesarchiv caption and Commons date",
+      "creator": "Peter Koard",
+      "accession": "Bundesarchiv Bild 183-E1003-0001-001",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-E1003-0001-001,_Berlin,_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Bundesarchiv_Bild_183-E1003-0001-001%2C_Berlin%2C_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image": "1969_Koard.jpg",
+      "width": 579,
+      "height": 786,
+      "license": "CC BY-SA 3.0 DE",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "attribution": "Bundesarchiv, Bild 183-E1003-0001-001 / Koard, Peter / CC-BY-SA 3.0",
+      "observation": "Direct manual reading of source image; enlarged crop was inspected, with no generative enhancement.",
+      "retrieved_utc": "2026-10-22",
+      "sha256": "d11e7d21ebbf72853a914ab3a63d6574cb611177b8c5a7ee7b9884aa4ac748f3"
+    },
+    {
+      "id": "S70",
+      "date": "1970-01-31",
+      "date_basis": "Photographer-uploaded Commons description",
+      "creator": "Jörg Blobelt",
+      "accession": "19700131040NR",
+      "url": "https://commons.wikimedia.org/wiki/File:19700131040NR_Berlin_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/19700131040NR_Berlin_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image": "1970_Blobelt.jpg",
+      "width": 2329,
+      "height": 3054,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Jörg Blobelt / CC BY-SA 4.0",
+      "observation": "Direct manual reading of high-resolution image and non-generative crop.",
+      "retrieved_utc": "2026-10-22",
+      "sha256": "faf85753704d83bf6f0c4d259c302aa8573410bb0cf1f562b362051dcd101ddd"
+    },
+    {
+      "id": "S84",
+      "date": "1984-04",
+      "date_basis": "Commons date; original ADN caption explicitly says 19.4.84",
+      "creator": "Peter Heinz Junge",
+      "accession": "Bundesarchiv Bild 183-1984-1419-014",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1984-1419-014,_Berlin,_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Bundesarchiv_Bild_183-1984-1419-014%2C_Berlin%2C_Weltzeituhr_am_Alexanderplatz.jpg",
+      "image": "1984_Junge.jpg",
+      "width": 581,
+      "height": 800,
+      "license": "CC BY-SA 3.0 DE",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "attribution": "Bundesarchiv, Bild 183-1984-1419-014 / Junge, Peter Heinz / CC-BY-SA 3.0",
+      "observation": "Direct manual reading of source image and non-generative enlarged crop; lower band partly cropped by original frame.",
+      "retrieved_utc": "2026-10-22",
+      "sha256": "a0d985cbb868637d16208f72b135d7bb65af521220168deb33503917fddd8980"
+    },
+    {
+      "id": "S87_REJECTED",
+      "date": "1987",
+      "date_basis": "Museum catalog",
+      "creator": "Günter Riechert",
+      "accession": "Museumsstiftung Post und Telekommunikation 3.2011.1958",
+      "url": "https://onlinesammlung.museumsstiftung.de/detail/collection/41512ee6-bec2-4e34-9a1a-80038d957bb9",
+      "image_url": "https://onlinesammlung.museumsstiftung.de/iiif/iiif/2/429d357f-0758-43bf-b823-396fed0fbaf4/full/max/0/default.jpg",
+      "image": "1987_Riechert.jpg",
+      "width": 3000,
+      "height": 2107,
+      "license": "Copyright; no reuse grant established",
+      "observation": "Retrieved and inspected; clock is obstructed and washed out. No label admitted to evidence. Do not redistribute the local image in a public artifact.",
+      "retrieved_utc": "2026-10-22",
+      "sha256": "046f444fff9eeff0f9cb3d167c5e45dae5e065ee5267e881b13d54cc8919504b"
+    }
+  ],
+  "segments": [
+    {
+      "id": "EU1969",
+      "source_id": "S69",
+      "order_convention": "photo-left to photo-right; local index only",
+      "globally_registered": false,
+      "slot_anchor": "LONDON/LISSABON plate",
+      "photo_hour_evidence": "12, 13, 14 occur consecutively under these three plates in this exposure; these are moving display numerals, not permanent sector IDs.",
+      "slots": [
+        {
+          "s": 0,
+          "upper": [
+            "LONDON",
+            "LISSABON"
+          ],
+          "lower": [
+            "CASABLANCA",
+            "CONAKRY",
+            "DAKAR"
+          ],
+          "upper_complete": true,
+          "lower_complete": true,
+          "region_xyxy": [
+            299,
+            416,
+            362,
+            635
+          ],
+          "display_near": 12
+        },
+        {
+          "s": 1,
+          "upper": [
+            "BERLIN"
+          ],
+          "upper_rank_override": [
+            2
+          ],
+          "lower": [
+            "ALGIER",
+            "TUNIS"
+          ],
+          "upper_complete": false,
+          "lower_complete": true,
+          "region_xyxy": [
+            362,
+            416,
+            422,
+            635
+          ],
+          "display_near": 13
+        },
+        {
+          "s": 2,
+          "upper": [
+            "BUKAREST",
+            "HELSINKI",
+            "SOFIA"
+          ],
+          "lower": [
+            "ANKARA",
+            "DAMASKUS",
+            "KAIRO"
+          ],
+          "upper_complete": true,
+          "lower_complete": true,
+          "region_xyxy": [
+            422,
+            426,
+            479,
+            635
+          ],
+          "display_near": 14
+        }
+      ]
+    },
+    {
+      "id": "AM1970",
+      "source_id": "S70",
+      "order_convention": "photo-left to photo-right; local index only",
+      "globally_registered": false,
+      "slot_anchor": "MONTREAL/WASHINGTON/HAVANNA plate",
+      "photo_hour_evidence": "Moving glyphs 3/4, 4/5, 5/6 overlap successive fixed panels; approximately halfway phase. No integer hour assigned to an entire fixed plate.",
+      "slots": [
+        {
+          "s": 0,
+          "upper": [
+            "MONTREAL",
+            "WASHINGTON",
+            "HAVANNA"
+          ],
+          "lower": [
+            "BOGOTA",
+            "LIMA",
+            "QUITO"
+          ],
+          "upper_complete": true,
+          "lower_complete": true,
+          "region_xyxy": [
+            751,
+            1200,
+            955,
+            1920
+          ],
+          "overlapping_display_numerals": [
+            3,
+            4
+          ]
+        },
+        {
+          "s": 1,
+          "upper": [
+            "NEW YORK"
+          ],
+          "lower": [
+            "ASUNCION",
+            "CARACAS",
+            "LA PAZ",
+            "SANTIAGO DE CHILE"
+          ],
+          "upper_complete": true,
+          "lower_complete": true,
+          "region_xyxy": [
+            955,
+            1200,
+            1154,
+            1920
+          ],
+          "overlapping_display_numerals": [
+            4,
+            5
+          ]
+        },
+        {
+          "s": 2,
+          "upper": [
+            "THULE",
+            "HALIFAX"
+          ],
+          "lower": [
+            "BUENOS AIRES",
+            "MONTEVIDEO",
+            "RIO DE JANEIRO",
+            "SAO PAULO"
+          ],
+          "upper_complete": true,
+          "lower_complete": true,
+          "region_xyxy": [
+            1154,
+            1200,
+            1357,
+            1920
+          ],
+          "overlapping_display_numerals": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AS1984",
+      "source_id": "S84",
+      "order_convention": "photo-left to photo-right; local index only",
+      "globally_registered": false,
+      "slot_anchor": "OMSK/ALMA-ATA/TASCHKENT plate",
+      "photo_hour_evidence": "Moving glyph sequence 18, 19, 20, 21 is visible across the same left-to-right run. Some glyphs cross fixed-panel seams.",
+      "slots": [
+        {
+          "s": 0,
+          "upper": [
+            "OMSK",
+            "ALMA-ATA",
+            "TASCHKENT"
+          ],
+          "lower": [],
+          "upper_complete": true,
+          "lower_complete": false,
+          "region_xyxy": [
+            51,
+            477,
+            181,
+            800
+          ],
+          "display_near": 18
+        },
+        {
+          "s": 1,
+          "upper": [
+            "KRASNOJARSK",
+            "NOWOSIBIRSK"
+          ],
+          "lower": [],
+          "upper_complete": true,
+          "lower_complete": false,
+          "region_xyxy": [
+            181,
+            468,
+            309,
+            800
+          ],
+          "display_near": 19
+        },
+        {
+          "s": 2,
+          "upper": [
+            "IRKUTSK",
+            "ULAN BATOR"
+          ],
+          "lower": [
+            "PEKING",
+            "SHANGHAI"
+          ],
+          "upper_complete": true,
+          "lower_complete": false,
+          "region_xyxy": [
+            309,
+            469,
+            433,
+            800
+          ],
+          "display_near": 20
+        },
+        {
+          "s": 3,
+          "upper": [
+            "JAKUTSK"
+          ],
+          "lower": [],
+          "upper_complete": true,
+          "lower_complete": false,
+          "region_xyxy": [
+            433,
+            477,
+            534,
+            800
+          ],
+          "display_near": 21
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "id": "EU1969.0.upper.1",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 0,
+      "physical_band": "upper",
+      "row_rank": 1,
+      "raw_label": "LONDON",
+      "raw_lines": [
+        "LONDON"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        299,
+        416,
+        362,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.0.upper.2",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 0,
+      "physical_band": "upper",
+      "row_rank": 2,
+      "raw_label": "LISSABON",
+      "raw_lines": [
+        "LISSABON"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        299,
+        416,
+        362,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.0.lower.1",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 0,
+      "physical_band": "lower",
+      "row_rank": 1,
+      "raw_label": "CASABLANCA",
+      "raw_lines": [
+        "CASABLANCA"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        299,
+        416,
+        362,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.0.lower.2",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 0,
+      "physical_band": "lower",
+      "row_rank": 2,
+      "raw_label": "CONAKRY",
+      "raw_lines": [
+        "CONAKRY"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        299,
+        416,
+        362,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.0.lower.3",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 0,
+      "physical_band": "lower",
+      "row_rank": 3,
+      "raw_label": "DAKAR",
+      "raw_lines": [
+        "DAKAR"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        299,
+        416,
+        362,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.1.upper.2",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 1,
+      "physical_band": "upper",
+      "row_rank": 2,
+      "raw_label": "BERLIN",
+      "raw_lines": [
+        "BERLIN"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        362,
+        416,
+        422,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.1.lower.1",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 1,
+      "physical_band": "lower",
+      "row_rank": 1,
+      "raw_label": "ALGIER",
+      "raw_lines": [
+        "ALGIER"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        362,
+        416,
+        422,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.1.lower.2",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 1,
+      "physical_band": "lower",
+      "row_rank": 2,
+      "raw_label": "TUNIS",
+      "raw_lines": [
+        "TUNIS"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        362,
+        416,
+        422,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.2.upper.1",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 2,
+      "physical_band": "upper",
+      "row_rank": 1,
+      "raw_label": "BUKAREST",
+      "raw_lines": [
+        "BUKAREST"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        422,
+        426,
+        479,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.2.upper.2",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 2,
+      "physical_band": "upper",
+      "row_rank": 2,
+      "raw_label": "HELSINKI",
+      "raw_lines": [
+        "HELSINKI"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        422,
+        426,
+        479,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.2.upper.3",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 2,
+      "physical_band": "upper",
+      "row_rank": 3,
+      "raw_label": "SOFIA",
+      "raw_lines": [
+        "SOFIA"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        422,
+        426,
+        479,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.2.lower.1",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 2,
+      "physical_band": "lower",
+      "row_rank": 1,
+      "raw_label": "ANKARA",
+      "raw_lines": [
+        "ANKARA"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        422,
+        426,
+        479,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.2.lower.2",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 2,
+      "physical_band": "lower",
+      "row_rank": 2,
+      "raw_label": "DAMASKUS",
+      "raw_lines": [
+        "DAMASKUS"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        422,
+        426,
+        479,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "EU1969.2.lower.3",
+      "source_id": "S69",
+      "segment": "EU1969",
+      "local_sector": 2,
+      "physical_band": "lower",
+      "row_rank": 3,
+      "raw_label": "KAIRO",
+      "raw_lines": [
+        "KAIRO"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        422,
+        426,
+        479,
+        635
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.0.upper.1",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 0,
+      "physical_band": "upper",
+      "row_rank": 1,
+      "raw_label": "MONTREAL",
+      "raw_lines": [
+        "MONTREAL"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        751,
+        1200,
+        955,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "tight_crop": "1970_upper_plates_seam_detail.png; original crop (700,1180)-(1370,1500)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.0.upper.2",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 0,
+      "physical_band": "upper",
+      "row_rank": 2,
+      "raw_label": "WASHINGTON",
+      "raw_lines": [
+        "WASHINGTON"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        751,
+        1200,
+        955,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "tight_crop": "1970_upper_plates_seam_detail.png; original crop (700,1180)-(1370,1500)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.0.upper.3",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 0,
+      "physical_band": "upper",
+      "row_rank": 3,
+      "raw_label": "HAVANNA",
+      "raw_lines": [
+        "HAVANNA"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        751,
+        1200,
+        955,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "tight_crop": "1970_upper_plates_seam_detail.png; original crop (700,1180)-(1370,1500)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.0.lower.1",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 0,
+      "physical_band": "lower",
+      "row_rank": 1,
+      "raw_label": "BOGOTA",
+      "raw_lines": [
+        "BOGOTA"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        751,
+        1200,
+        955,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.0.lower.2",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 0,
+      "physical_band": "lower",
+      "row_rank": 2,
+      "raw_label": "LIMA",
+      "raw_lines": [
+        "LIMA"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        751,
+        1200,
+        955,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.0.lower.3",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 0,
+      "physical_band": "lower",
+      "row_rank": 3,
+      "raw_label": "QUITO",
+      "raw_lines": [
+        "QUITO"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        751,
+        1200,
+        955,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.1.upper.1",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 1,
+      "physical_band": "upper",
+      "row_rank": 1,
+      "raw_label": "NEW YORK",
+      "raw_lines": [
+        "NEW YORK"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        955,
+        1200,
+        1154,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "tight_crop": "1970_upper_plates_seam_detail.png; original crop (700,1180)-(1370,1500)",
+      "text_bbox_approx_xyxy": [
+        995,
+        1308,
+        1110,
+        1336
+      ],
+      "panel_seams_approx_x_ranges": [
+        [
+          947,
+          956
+        ],
+        [
+          1153,
+          1166
+        ]
+      ],
+      "interpretation_warning": "Observed on a panel immediately right of MONTREAL/WASHINGTON/HAVANNA. This is not designated a clock error, not assigned a civil UTC offset, and not assumed unchanged in 1989.",
+      "independent_review_completed": false,
+      "owner_visual_review_required": true
+    },
+    {
+      "id": "AM1970.1.lower.1",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 1,
+      "physical_band": "lower",
+      "row_rank": 1,
+      "raw_label": "ASUNCION",
+      "raw_lines": [
+        "ASUNCION"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        955,
+        1200,
+        1154,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.1.lower.2",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 1,
+      "physical_band": "lower",
+      "row_rank": 2,
+      "raw_label": "CARACAS",
+      "raw_lines": [
+        "CARACAS"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        955,
+        1200,
+        1154,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.1.lower.3",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 1,
+      "physical_band": "lower",
+      "row_rank": 3,
+      "raw_label": "LA PAZ",
+      "raw_lines": [
+        "LA PAZ"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        955,
+        1200,
+        1154,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.1.lower.4",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 1,
+      "physical_band": "lower",
+      "row_rank": 4,
+      "raw_label": "SANTIAGO DE CHILE",
+      "raw_lines": [
+        "SANTIAGO",
+        "DE CHILE"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        955,
+        1200,
+        1154,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.2.upper.1",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 2,
+      "physical_band": "upper",
+      "row_rank": 1,
+      "raw_label": "THULE",
+      "raw_lines": [
+        "THULE"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        1154,
+        1200,
+        1357,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "tight_crop": "1970_upper_plates_seam_detail.png; original crop (700,1180)-(1370,1500)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.2.upper.2",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 2,
+      "physical_band": "upper",
+      "row_rank": 2,
+      "raw_label": "HALIFAX",
+      "raw_lines": [
+        "HALIFAX"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        1154,
+        1200,
+        1357,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "tight_crop": "1970_upper_plates_seam_detail.png; original crop (700,1180)-(1370,1500)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.2.lower.1",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 2,
+      "physical_band": "lower",
+      "row_rank": 1,
+      "raw_label": "BUENOS AIRES",
+      "raw_lines": [
+        "BUENOS AIRES"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        1154,
+        1200,
+        1357,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.2.lower.2",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 2,
+      "physical_band": "lower",
+      "row_rank": 2,
+      "raw_label": "MONTEVIDEO",
+      "raw_lines": [
+        "MONTEVIDEO"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        1154,
+        1200,
+        1357,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.2.lower.3",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 2,
+      "physical_band": "lower",
+      "row_rank": 3,
+      "raw_label": "RIO DE JANEIRO",
+      "raw_lines": [
+        "RIO DE JANEIRO"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        1154,
+        1200,
+        1357,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AM1970.2.lower.4",
+      "source_id": "S70",
+      "segment": "AM1970",
+      "local_sector": 2,
+      "physical_band": "lower",
+      "row_rank": 4,
+      "raw_label": "SAO PAULO",
+      "raw_lines": [
+        "SAO PAULO"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        1154,
+        1200,
+        1357,
+        1920
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "reproduction_crop": "1970_Blobelt_inspection_crop.png; original crop (400,1180)-(1840,1970)",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AS1984.0.upper.1",
+      "source_id": "S84",
+      "segment": "AS1984",
+      "local_sector": 0,
+      "physical_band": "upper",
+      "row_rank": 1,
+      "raw_label": "OMSK",
+      "raw_lines": [
+        "OMSK"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        51,
+        477,
+        181,
+        800
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AS1984.0.upper.2",
+      "source_id": "S84",
+      "segment": "AS1984",
+      "local_sector": 0,
+      "physical_band": "upper",
+      "row_rank": 2,
+      "raw_label": "ALMA-ATA",
+      "raw_lines": [
+        "ALMA-ATA"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        51,
+        477,
+        181,
+        800
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AS1984.0.upper.3",
+      "source_id": "S84",
+      "segment": "AS1984",
+      "local_sector": 0,
+      "physical_band": "upper",
+      "row_rank": 3,
+      "raw_label": "TASCHKENT",
+      "raw_lines": [
+        "TASCHKENT"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        51,
+        477,
+        181,
+        800
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AS1984.1.upper.1",
+      "source_id": "S84",
+      "segment": "AS1984",
+      "local_sector": 1,
+      "physical_band": "upper",
+      "row_rank": 1,
+      "raw_label": "KRASNOJARSK",
+      "raw_lines": [
+        "KRASNOJARSK"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        181,
+        468,
+        309,
+        800
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AS1984.1.upper.2",
+      "source_id": "S84",
+      "segment": "AS1984",
+      "local_sector": 1,
+      "physical_band": "upper",
+      "row_rank": 2,
+      "raw_label": "NOWOSIBIRSK",
+      "raw_lines": [
+        "NOWOSIBIRSK"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        181,
+        468,
+        309,
+        800
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AS1984.2.upper.1",
+      "source_id": "S84",
+      "segment": "AS1984",
+      "local_sector": 2,
+      "physical_band": "upper",
+      "row_rank": 1,
+      "raw_label": "IRKUTSK",
+      "raw_lines": [
+        "IRKUTSK"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        309,
+        469,
+        433,
+        800
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AS1984.2.upper.2",
+      "source_id": "S84",
+      "segment": "AS1984",
+      "local_sector": 2,
+      "physical_band": "upper",
+      "row_rank": 2,
+      "raw_label": "ULAN BATOR",
+      "raw_lines": [
+        "ULAN BATOR"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        309,
+        469,
+        433,
+        800
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AS1984.2.lower.1",
+      "source_id": "S84",
+      "segment": "AS1984",
+      "local_sector": 2,
+      "physical_band": "lower",
+      "row_rank": 1,
+      "raw_label": "PEKING",
+      "raw_lines": [
+        "PEKING"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        309,
+        469,
+        433,
+        800
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AS1984.2.lower.2",
+      "source_id": "S84",
+      "segment": "AS1984",
+      "local_sector": 2,
+      "physical_band": "lower",
+      "row_rank": 2,
+      "raw_label": "SHANGHAI",
+      "raw_lines": [
+        "SHANGHAI"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        309,
+        469,
+        433,
+        800
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    },
+    {
+      "id": "AS1984.3.upper.1",
+      "source_id": "S84",
+      "segment": "AS1984",
+      "local_sector": 3,
+      "physical_band": "upper",
+      "row_rank": 1,
+      "raw_label": "JAKUTSK",
+      "raw_lines": [
+        "JAKUTSK"
+      ],
+      "status": "direct_visual_observation",
+      "bbox_context_xyxy": [
+        433,
+        477,
+        534,
+        800
+      ],
+      "verified_for_1989": false,
+      "semantic_timezone_utc": null,
+      "label_reading_confidence": "high_manual_single_reader",
+      "panel_assignment_confidence": "high_manual_single_reader",
+      "row_rank_confidence": "high_manual_single_reader",
+      "independent_review_completed": false
+    }
+  ],
+  "prohibitions": [
+    "No modern labels used to fill gaps.",
+    "No physical band inferred from hemisphere.",
+    "No actual civil timezone inferred from plate position.",
+    "No disconnected photo segments globally joined.",
+    "No arbitrary city choice or independent phase per ciphertext character."
+  ],
+  "inference_only": {
+    "mechanical_mapping": "h = (s + phi) mod 24 with one global phase per exposure; inverse s = (h - phi) mod 24. Optional physical band identifier is retained unchanged, not interpreted as a hemisphere bit.",
+    "cipher_mapping_status": "Underdetermined: no historically established A-Z encoder, row-selection rule, traversal, global sector origin, or 1989 inventory."
+  },
+  "adoption_status": "Provisional single-reader evidence. NEW YORK panel assignment requires owner visual review before adoption. No 1989 encoder is authorized by these observations."
+}

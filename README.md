@@ -200,3 +200,39 @@ remain separate, source-qualified hypotheses with no optical search.
 synthetic recovery cases and preserves original/transformed crib distinctions.
 The mask is lossy. Its periods 1–12 arithmetic models inherit existing first-crib
 contradictions: 144 saved witnesses, **no new K4 key search**. All 133 tests pass.
+
+[Stateful key continuation](research/DYNAMIC-KEY-FINDINGS.md), 22 October 2026:
+1,248 progressive-cycle cases (known prior art, controlled local replication)
+and 96 fixed ciphertext-triggered extra-step cases all contradict the cribs.
+199 whole-family shuffled controls show no useful excess of crib agreement.
+147 suite tests plus three saved-certificate audits pass. Three distinct
+mechanisms are ranked, with asymmetric-alphabet feedback recommended next after
+prior-art scope review. No new plaintext or solution is claimed.
+
+[Fixed asymmetric-feedback and plaintext-step pilots](research/FIXED-PILOT-FINDINGS.md)
+complete this batch: all six literal PALIMPSEST feedback models and twelve
+plaintext-triggered step models fail the cribs. The six-model best score is
+5/24 with conditional shuffle tail .015, but it fails 19 confirmed letters and
+is rejected. Final full suite: 160 tests pass. The broader arbitrary-primer
+audit remains registered but unrun; no score-driven parameter expansion or
+solution claim follows.
+
+[Exact feedback and coordinate-route continuation](research/CONTINUATION-FINDINGS.md):
+all 72 previously unrun mixed-alphabet feedback configurations fail for any
+primer, and all 32 distinct split-coordinate routes fail. One first-crib feedback
+fit predicts only 2/11 Berlin letters without refitting. Complete shuffled-family
+controls show no useful support. Final validation: 174 tests pass. No new
+plaintext, solution, optical conclusion or public Site change is claimed.
+
+[Frozen K3/24-sector route batch](research/K3-CLOCK-ROUTE-FINDINGS.md):
+the two-stage route reproduces all 336 K3 letters; sixteen exact full-domain
+prior cases were skipped. All 374 new single-key/sandwich/clock structures fail
+confirmed cribs. Both sandwich training fits have zero cycle checks and four
+free plaintext offsets; Berlin supplies seven joint checks and contradicts them.
+No candidate or null simulation. Final suite: 187 tests pass; local-only work.
+
+[Separate occupied-cell fixed-key pilot](research/OCCUPIED-CELL-FINDINGS.md):
+all 288 predefined mask/route/word/phase/layer branches fail the exact cribs.
+Best 5/24 still fails 19 known letters; no lead or null simulation. The eight
+routes were checked against both prior catalogues before testing. Final suite:
+195 tests pass. The carved-text mask supplies no surveyed optical geometry.

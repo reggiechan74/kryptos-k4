@@ -1,0 +1,36 @@
+{
+  "id": "SINGLE-RESET-INDEPENDENT-TRANSFER-001",
+  "archive_name": "k4-single-boundary-independent-audit-2026-10-22.tar.gz",
+  "archive_bytes": 16158,
+  "archive_sha256": "85fed390a386e07f3d14f6537b2fe6911d9aab60c63c673b07feb0437262d779",
+  "transport": "Supported Library prepare_materialize signed GET and returned xattrs; no transfer URLs/tokens retained.",
+  "safe_extraction": "Regular files only, no absolute paths/traversal/backslashes/links/duplicates,5MBexpanded cap",
+  "original_files": {
+    "MEMBER_MANIFEST.json": {
+      "bytes": 845,
+      "sha256": "c74515f2c6e4b153e6c2f3200c92987ad94a73e9d5033ce4801e376c01e2ba92"
+    },
+    "PREREGISTRATION.md": {
+      "bytes": 2500,
+      "sha256": "03e3913b08e26ac8591daf7314e54d0755ffc0099ae19db296f297f3ec4f01d3"
+    },
+    "REPORT.md": {
+      "bytes": 8642,
+      "sha256": "b823cf7bd4d97c8277c025c403f191d1178ffeecba366073def29ad60d8ffb00"
+    },
+    "SHA256SUMS": {
+      "bytes": 402,
+      "sha256": "36aba592df69b63c63fdd04ec6b2c8caf5b43564dede2eb903972fc377339d18"
+    },
+    "audit.py": {
+      "bytes": 14855,
+      "sha256": "76c862555c832591462167b15d6790cae0b1c55bdac8ae0689c585ad33b59e65"
+    },
+    "results.json": {
+      "bytes": 319010,
+      "sha256": "633d1616341d1c0e3b094919f23169d2b37821478904a43aa953781758726872"
+    }
+  },
+  "member_manifests_verified": true,
+  "code_inspected_before_execution": true
+}

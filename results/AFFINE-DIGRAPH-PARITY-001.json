@@ -1,0 +1,134 @@
+{
+  "model": "C_pair=M*P_pair+b mod26, same AZ/AZ or KRYPTOS/KRYPTOS coordinates, adjacent pair origins 1 or 2 one-based",
+  "certificates": [
+    {
+      "alphabet": "AZ",
+      "pair_origin_one_based": 1,
+      "positions": [
+        25,
+        29
+      ],
+      "plaintext_pairs": [
+        "TN",
+        "TH"
+      ],
+      "ciphertext_pairs": [
+        "VQ",
+        "RN"
+      ],
+      "input_parity": [
+        1,
+        1
+      ],
+      "opposed_output_parities": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "alphabet": "AZ",
+      "pair_origin_one_based": 2,
+      "positions": [
+        22,
+        32
+      ],
+      "plaintext_pairs": [
+        "EA",
+        "AS"
+      ],
+      "ciphertext_pairs": [
+        "FL",
+        "KS"
+      ],
+      "input_parity": [
+        0,
+        0
+      ],
+      "opposed_output_parities": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "pair_origin_one_based": 1,
+      "positions": [
+        27,
+        31
+      ],
+      "plaintext_pairs": [
+        "OR",
+        "EA"
+      ],
+      "ciphertext_pairs": [
+        "QP",
+        "GK"
+      ],
+      "input_parity": [
+        1,
+        1
+      ],
+      "opposed_output_parities": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "pair_origin_one_based": 2,
+      "positions": [
+        22,
+        26
+      ],
+      "plaintext_pairs": [
+        "EA",
+        "NO"
+      ],
+      "ciphertext_pairs": [
+        "FL",
+        "QQ"
+      ],
+      "input_parity": [
+        1,
+        1
+      ],
+      "opposed_output_parities": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "analytic_exclusions": 4,
+  "matrices_or_keys_searched": 0,
+  "invertibility_not_required_for_exclusion": true,
+  "controls": {
+    "fixed_affine_positive_cases": 16,
+    "parity_mutation_negatives": 16
+  },
+  "source": "Exact witnesses supplied by parent; independently checked against unchanged canonical English cribs/ciphertext.",
+  "scope": "Not all polygraphic ciphers, mixed alphabets, variable matrices, reordered pairs or other preprocessing."
+}

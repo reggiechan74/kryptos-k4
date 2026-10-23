@@ -1,0 +1,25 @@
+{
+  "run_id": "20261022T205325Z-afe0dba6f79d4164960ef9ed793a9448",
+  "started_at_utc": "2026-10-22T20:53:25.705501+00:00",
+  "label": "CP-CONVENTION-REPLAY-001",
+  "status": "completed",
+  "specification": {
+    "commit": "d7a407806711393cfd285e26c93316bde0f312df",
+    "file": "research/specifications/CP-CONVENTION-REPLAY-001.json",
+    "sha256": "7c9630eed3463a31ec6a9522a5aede24e0c4f9c440ea14037cc50b38f3f55bde",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [
+    {
+      "experiment": "CP-CONVENTION-REPLAY-001",
+      "status": "completed"
+    }
+  ],
+  "artifacts": {
+    "CP-CONVENTION-REPLAY-001.json": {
+      "sha256": "05dc96c905c3b2c5f8f041765a508c03d57f182165be50397259fe4129f787ae",
+      "bytes": 6774
+    }
+  },
+  "finished_at_utc": "2026-10-22T20:53:25.733379+00:00"
+}

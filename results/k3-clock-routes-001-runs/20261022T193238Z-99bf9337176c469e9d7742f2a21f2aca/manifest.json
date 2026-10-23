@@ -1,0 +1,26 @@
+{
+  "run_id": "20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca",
+  "started_at_utc": "2026-10-22T19:32:38.042794+00:00",
+  "label": "K3-CLOCK-ROUTES-001",
+  "status": "completed",
+  "specification": {
+    "commit": "dcb246cdd997ecd2f0b4f3a4c536ca65d8a47a14",
+    "file": "research/specifications/K3-CLOCK-ROUTES-001.json",
+    "sha256": "be76729b6cc1abea825fcf576dcdfaba3314f082c53b8450f46643b87b61f0aa",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [
+    {
+      "experiment": "K3-CLOCK-ROUTES-001",
+      "status": "completed",
+      "deadline_seconds": 30
+    }
+  ],
+  "artifacts": {
+    "K3-CLOCK-ROUTES-001.json": {
+      "sha256": "d85ab4b35f52652c3a40546d6e0e96e538044a33cccf8edbe1b20aaca23c9769",
+      "bytes": 3887627
+    }
+  },
+  "finished_at_utc": "2026-10-22T19:32:38.167873+00:00"
+}

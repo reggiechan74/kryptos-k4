@@ -1,0 +1,70 @@
+{
+  "id": "RECURRENCE-CERTIFICATE-REVIEW-001",
+  "status": "verified_contradictions",
+  "origin": "Independent supplied certificates, locally recalculated from canonical fixtures",
+  "grammar": "C_i=P_i+K_i;K0=k;K_i=a*K_(i-1)+b+d*C_(i-1) mod26, no reset, AZ or KRYPTOS",
+  "parameter_descriptions": 913952,
+  "parameter_search_executed": false,
+  "proofs": [
+    {
+      "alphabet": "AZ",
+      "certificate": "identical predictor parity, different target parity",
+      "rows": [
+        {
+          "from_position_one_based": 23,
+          "key": 11,
+          "cipher": 11,
+          "target_position_one_based": 24,
+          "target_key": 25
+        },
+        {
+          "from_position_one_based": 24,
+          "key": 25,
+          "cipher": 17,
+          "target_position_one_based": 25,
+          "target_key": 2
+        }
+      ],
+      "contradicted": true
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "matrix": [
+        [
+          1,
+          1,
+          12
+        ],
+        [
+          10,
+          1,
+          17
+        ],
+        [
+          21,
+          1,
+          1
+        ]
+      ],
+      "rhs": [
+        10,
+        21,
+        18
+      ],
+      "determinant": 199,
+      "determinant_is_unit": true,
+      "unique_coefficients_a_b_d": [
+        11,
+        23,
+        24
+      ],
+      "next_from_position_one_based": 25,
+      "target_position_one_based": 26,
+      "predicted_key": 21,
+      "required_key": 1,
+      "contradicted": true
+    }
+  ],
+  "training_compatible": 0,
+  "interpretation": "All descriptions impossible already within first crib, regardless of seed/history. This is a symbolic certificate audit, not913952new local trials; known overlap remains documented."
+}

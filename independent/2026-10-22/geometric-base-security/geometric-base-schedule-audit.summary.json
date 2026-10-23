@@ -1,0 +1,182 @@
+{
+  "audit_schema": "GEOMETRIC-BASE-SCHEDULE-AUDIT-001",
+  "model_schema": "MODELED-UPPERCASE-GEOMETRY-001",
+  "model_sha256": "6a5c6eae644dedf88afb68df911f0c3161a969af3815972aa5694479155aa010",
+  "formula": "C(letter, base) = sum(v_letter[i] * base**i), i = 0..34",
+  "arithmetic": "Exact arbitrary-precision integers; code values serialized as decimal strings.",
+  "assumptions": [
+    "The public, frozen model and feature order are known.",
+    "Each observed token is the exact weighted-sum integer with known boundaries.",
+    "Each position's base is its root digit plus 2; no later secret transformation is applied.",
+    "Only digit radices 10, 12, 16, and 60 are audited; root parameters and digits are not needed."
+  ],
+  "finding": "Inspect the enumerated collision classes for each range. Every code not in a collision class identifies both letter and base uniquely.",
+  "scope_warning": "Finite-model result, not a proof of uniqueness for arbitrary bases or changed glyphs, and not a K4 result.",
+  "cases": [
+    {
+      "root_digit_radix": 10,
+      "digit_to_weight_base": "base = digit + 2",
+      "weight_bases_inclusive": [
+        2,
+        11
+      ],
+      "letter_base_pairs": 260,
+      "distinct_numeric_codes": 259,
+      "collision_classes": [
+        {
+          "code": "8",
+          "candidates": [
+            {
+              "letter": "C",
+              "base": 2
+            },
+            {
+              "letter": "O",
+              "base": 8
+            }
+          ]
+        }
+      ],
+      "collision_class_count": 1,
+      "colliding_unordered_pair_counts": {
+        "all": 1,
+        "same_letter": 0,
+        "different_letters": 1,
+        "same_base": 0,
+        "different_bases": 1
+      },
+      "letter_ambiguous_numeric_codes": 1,
+      "letter_base_pairs_with_ambiguous_letter": 2,
+      "letter_base_pairs_uniquely_recoverable": 258,
+      "max_candidate_letters_per_code": 2,
+      "max_candidate_pairs_per_code": 2
+    },
+    {
+      "root_digit_radix": 12,
+      "digit_to_weight_base": "base = digit + 2",
+      "weight_bases_inclusive": [
+        2,
+        13
+      ],
+      "letter_base_pairs": 312,
+      "distinct_numeric_codes": 311,
+      "collision_classes": [
+        {
+          "code": "8",
+          "candidates": [
+            {
+              "letter": "C",
+              "base": 2
+            },
+            {
+              "letter": "O",
+              "base": 8
+            }
+          ]
+        }
+      ],
+      "collision_class_count": 1,
+      "colliding_unordered_pair_counts": {
+        "all": 1,
+        "same_letter": 0,
+        "different_letters": 1,
+        "same_base": 0,
+        "different_bases": 1
+      },
+      "letter_ambiguous_numeric_codes": 1,
+      "letter_base_pairs_with_ambiguous_letter": 2,
+      "letter_base_pairs_uniquely_recoverable": 310,
+      "max_candidate_letters_per_code": 2,
+      "max_candidate_pairs_per_code": 2
+    },
+    {
+      "root_digit_radix": 16,
+      "digit_to_weight_base": "base = digit + 2",
+      "weight_bases_inclusive": [
+        2,
+        17
+      ],
+      "letter_base_pairs": 416,
+      "distinct_numeric_codes": 415,
+      "collision_classes": [
+        {
+          "code": "8",
+          "candidates": [
+            {
+              "letter": "C",
+              "base": 2
+            },
+            {
+              "letter": "O",
+              "base": 8
+            }
+          ]
+        }
+      ],
+      "collision_class_count": 1,
+      "colliding_unordered_pair_counts": {
+        "all": 1,
+        "same_letter": 0,
+        "different_letters": 1,
+        "same_base": 0,
+        "different_bases": 1
+      },
+      "letter_ambiguous_numeric_codes": 1,
+      "letter_base_pairs_with_ambiguous_letter": 2,
+      "letter_base_pairs_uniquely_recoverable": 414,
+      "max_candidate_letters_per_code": 2,
+      "max_candidate_pairs_per_code": 2
+    },
+    {
+      "root_digit_radix": 60,
+      "digit_to_weight_base": "base = digit + 2",
+      "weight_bases_inclusive": [
+        2,
+        61
+      ],
+      "letter_base_pairs": 1560,
+      "distinct_numeric_codes": 1558,
+      "collision_classes": [
+        {
+          "code": "8",
+          "candidates": [
+            {
+              "letter": "C",
+              "base": 2
+            },
+            {
+              "letter": "O",
+              "base": 8
+            }
+          ]
+        },
+        {
+          "code": "27",
+          "candidates": [
+            {
+              "letter": "C",
+              "base": 3
+            },
+            {
+              "letter": "O",
+              "base": 27
+            }
+          ]
+        }
+      ],
+      "collision_class_count": 2,
+      "colliding_unordered_pair_counts": {
+        "all": 2,
+        "same_letter": 0,
+        "different_letters": 2,
+        "same_base": 0,
+        "different_bases": 2
+      },
+      "letter_ambiguous_numeric_codes": 2,
+      "letter_base_pairs_with_ambiguous_letter": 4,
+      "letter_base_pairs_uniquely_recoverable": 1556,
+      "max_candidate_letters_per_code": 2,
+      "max_candidate_pairs_per_code": 2
+    }
+  ]
+}

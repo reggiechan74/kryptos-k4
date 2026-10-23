@@ -11,6 +11,25 @@ validated**. This executor's web retrieval also could not access the artifact.
 No third-party source is republished here; the artifact was not modified and no
 new experiment was run.
 
+## 22 October 2026 update: current v2 audit
+
+The [complete geometry and measurement audit](scott-sun-geometry-audit-2026-10-22.md)
+covers the newer **ray-traced v2** retrieved on 22 October 2026. It models both
+pools and includes analytic occlusion. The statements below about absent pools
+and the earlier default overlay's missing occlusion describe the **18 October
+version only** and are stale as descriptions of v2. The new audit documents
+remaining geometry, calibration, aperture and optical-path limitations; the
+presence of pools or occlusion does not establish physical accuracy.
+
+The full audit is preserved verbatim from the researcher's supplied Markdown:
+24,143 UTF-8 bytes, SHA-256
+`8d60cfdc23372d90fe9517ef1e11a84b1022e2fd6d8988d73559df1e0fc8a2db`.
+Its source inspections and measurements belong to that dated audit; this
+repository-preservation step did not independently repeat them. The companion
+PDF remains in the user's Library and is not included in this checkout because
+its supported Library-to-Mac transfer failed. The dated historical review below
+is retained unchanged.
+
 ## What the inspected implementation supports
 
 The code has actual font-shaped alpha cutouts and shadow mapping. It is more

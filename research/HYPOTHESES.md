@@ -193,3 +193,232 @@ construction restriction or new confirmed evidence; see the strategy note.
 keys 1–12 are contradicted by the 13 distinct required keys at positions 22–34.
 No claim about nonperiodic/OTP keys, longer periods, other tables or added layers.
 Historical creator use and authentic repeated-key doctrine are unestablished.
+
+## Stateful key continuation — 2026-10-22
+
+[DYNAMIC-KEY-001](DYNAMIC-KEY-FINDINGS.md) ranks three distinct mechanisms:
+H-ASYMMETRIC-FEEDBACK (unrun; next priority, explicitly reindexes feedback across
+independent alphabets), H-CIPHERTEXT-EXTRA-STEP (96 finite configurations rejected),
+and H-AFFINE-DIGRAPH (unrun; pair coupling with explicit odd-edge rule). Their
+models, controls and falsification gates are recorded in the findings.
+
+The same run rejected 1,248 progressive-cycle configurations. Subsequent pinned
+source inspection identified direct progressive prior art in cokernel.py/gap1.py;
+this part is a controlled local replication, not a new mechanism or a threshold
+coverage gap. Four first-crib fits fail Berlin with only 0–1 of 11 matches.
+199 whole-family shuffled controls provide no useful excess of crib agreement.
+No model fits all 24 known letters; no solution or new plaintext is claimed.
+
+## Fixed feedback/stepping outcomes — 2026-10-22
+
+- H-ASYMMETRIC-FEEDBACK: ASYMMETRIC-PRIMER-001 tests precisely six AZ/KRYPTOS
+  role triples, PALIMPSEST, lag 10, addition; zero candidates. Scores
+  1,1,0,1,1,5 out of 24. The best still fails 19 confirmed letters. Its six-model
+  conditional shuffle tail .015 is exploratory and does not change rejection.
+- H-PLAINTEXT-EXTRA-STEP: PLAINTEXT-STEP-001 tests three fixed words, two
+  alphabets, vowel/consonant after-plaintext steps of 1/2: twelve cases, zero
+  candidates, best 3/24, whole-family conditional shuffle tail .54.
+- Alongside the earlier ciphertext-driven step mechanism these supply three
+  distinct tested mechanisms. Progressive remains known prior-art replication.
+- ASYMMETRIC-FEEDBACK-001, the registered 72-case arbitrary-primer design, was
+  superseded for execution by the narrower parent-supplied pilot before code or
+  scoring. It remains DEFERRED/UNRUN; no general autokey-family exclusion follows.
+- Updated ranked interpretation, controls and exact scopes:
+  [FIXED-PILOT-FINDINGS.md](FIXED-PILOT-FINDINGS.md). No solution is claimed.
+
+## H-SPLIT-COORDINATE-ROUTES — proposed, unrun
+
+Low-evidence coordinate-fractionation hypothesis: AZ/KRYPTOS letters become
+row/column pairs in fixed row-major 2x13 or 13x2 grids. Independently route the
+two 97-coordinate streams through ragged row-fill/column-read permutations of
+widths 7 and 21, either assignment and forward/inverse independently; recombine.
+32 formal cases, with equivalence/deduplication still to verify. No padding,
+shifts, fitted alphabet or extra substitution. Unlike whole-letter permutation,
+independent coordinate re-pairing can change letter counts; unlike 2x13 modular
+addition, this is separate stream routing. Widths 7/21 are postselected diagnostics,
+not independent clues. Global novelty and creator use are unproved.
+
+Proposed gates: all 24 confirmed letters, full97 regeneration, 32 independently
+verified planted inverse controls and 199 whole-family shuffled maxima, under a
+new committed specification before any execution. **No experiment or score.**
+Source context and exact scope are documented in the
+[unrun proposal](FIXED-PILOT-FINDINGS.md#h-split-coordinate-routes--unrun-low-evidence):
+[Friedman Part IV](https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/military-cryptanalysis/mil_crypt_IV.pdf)
+and [LANAKI Lesson 17](https://www.cryptogram.org/downloads/LANAKI%20Crypto%20Lessons/LESSON17.pdf).
+The 1996 lesson is explanatory, post-installation context; neither source
+establishes the exact proposed recipe or a Kryptos connection.
+
+## Completed continuation — 22 October 2026, 19:19–19:21 UTC
+
+The earlier unrun/deferred statuses are superseded by
+[CONTINUATION-FINDINGS.md](CONTINUATION-FINDINGS.md):
+
+- ASYMMETRIC-FEEDBACK-001: all 72 mixed-role AZ/KRYPTOS configurations at PT
+  lags 9–12, three equations, contradict the cribs for **every primer**. One
+  first-crib survivor has lag 12 and only one training check; its fixed roots
+  predict 2/11 Berlin letters. No all-crib fit or full plaintext candidate.
+  All-crib equality checks are 24-L, training checks 13-L; all lanes are trained.
+  Best modal-root agreement 15/24, 35/199 shuffled maxima equal/higher, tail .18.
+- SPLIT-COORDINATE-001: 32 formal cases are 32 exact distinct transformations.
+  All fixed AZ/KRYPTOS coordinate-route cases fail, best 3/24. Full-family
+  shuffled maxima equal/higher 160/199, tail .805. Widths 7/21 remain postselected.
+- Each actual run completed once after specification/code commits. Null scans
+  repeat fitting and selection end-to-end for the relevant family; .005 is the
+  minimum plus-one tail with 199 controls. No global multiple-testing correction
+  or independently obtained validation text is claimed. Regeneration is not
+  evidence of a decoding. Final suite: 174 tests pass in 9.324 seconds.
+- The provisional K3-derived two-stage route family is NOT implemented. Existing
+  ROUTE-001 covers both component widths and periods 8/10, but exact composite
+  overlap must await the full route definition and reference control.
+
+## K3 and 24-sector route families — completed 22 October 2026
+
+The full parent-frozen route definition arrived after the earlier provisional
+status. [K3-CLOCK-ROUTES-001](K3-CLOCK-ROUTE-FINDINGS.md) completed once:
+
+- H-K3-COMPOSITE-PERIODIC: U14 after U42 reproduces all 336 canonical K3 letters
+  and the existing position permutation. Its 97-position permutation is new to
+  the old catalogue. All four period-8/10, unrestricted-key, additive KRYPTOS
+  single-layer-order cases fail already within the first crib.
+- H-K3-SANDWICH: both period pairs (8,10)/(10,8) fail graph cycle constraints.
+  c_train=5, c_all24=1, c_full=1 in both cases; first-crib training has zero
+  cycle checks and four plaintext-relevant free offsets. There are seven joint
+  held-out compatibility checks, only one/two individually predictable Berlin
+  edges, all failing. Actual compatible keys and plaintexts are zero.
+- H-CLOCK-24-ROUTE: 96 distinct routes / 384 raw structures; sixteen cases are
+  exact prior equivalents in route, key domain, period, equation, alphabet and
+  layer order and were skipped. All 368 new cases fail. No sandwich was skipped
+  on the basis of a one-layer prior result.
+- All 374 new structures rejected; no null simulations needed or run. No K4
+  plaintext candidate, worldwide novelty, optical or Site claim. The public
+  sources motivate the number 24, not the ragged route grammar.
+- Full suite: 187 tests pass, including independent certificate/skip audits.
+  No width/period/direction/layer was added after the results.
+
+## H-OCCUPIED-CELL-FIXED — completed separate pilot, 22 October 2026
+
+Verified K4 text mask: OBKR in first-row columns 28–31, three full 31-character
+rows afterward. Eight columnwise/inverse routes are absent from both prior
+route catalogues, so no unrestricted-key prior negative covers them. The eight
+routes with PALIMPSEST/ABSCISSA, all eighteen phases, both layer orders yield
+288 exact unique fixed branches; all rejected, best 5/24 fails 19 known letters.
+No fitted keys or null simulation. This is textual occupancy, not surveyed
+physical geometry; row-prefix cells are excluded from K4, not missing copper.
+[Findings](OCCUPIED-CELL-FINDINGS.md) preserve exact scope and full outputs.
+Final regression suite: 195 tests pass. No new family added after scores.
+
+
+## 22 October: four-track execution after strategy comparison
+
+The four fixed AZ/KRYPTOS role-pair move-to-front models proposed in the strategy
+reset are now **tested and rejected**, each0/24. This changes the substitution
+permutation, not merely a cursor: reachable-state next-letter maps lie outside
+the prior affine-tableau superset. No global evolving-alphabet exclusion follows.
+See [STRATEGY-FOLLOWUP-001](STRATEGY-FOLLOWUP-FINDINGS.md) for full frozen scope,
+blinded planted/nearby/decoy controls and exact contradiction receipts.
+
+K1/K2 construction-stage accounts pass known-answer controls; they are not new
+K4 algorithms or corrections. Historical clock data support a shared-phase
+visible-hour control but leave a K4 letter operator underidentified. Exact toy
+compatible-volume calibration passes its oracle/gauge checks while exposing
+ambiguity and null compatibility. Broader classifier and independent recurrence
+results are not counted as locally executed work here.
+
+
+### Follow-on independent evidence, same date
+
+A published Cyrillic Projector pair now passes local fixed-convention replay
+(1133letters, reset at778). This supports message-boundary phase handling in that
+later artwork, not a physical3letter omission or transferable K4 algorithm.
+The supplied bounded affine-feedback recurrence is exactly contradicted by
+internal EASTNORTHEAST transitions in both alphabets; local proof verification
+did not duplicate the independent parameter run.
+See [follow-on audit](STRATEGY-FOLLOWUP-FINDINGS.md) and preserve scope/overlap.
+
+
+## Single shared-state boundary initialization — 22 October 2026
+
+Weak later-art motivation from the CP semantic phase change was tested without
+assuming a K4 sentence boundary. Exactly one unknown internal reset, to the same
+original state/seed/key, does not rescue the four fixed move-to-front mappings,
+the registered two-alphabet affine-feedback grammar or periodic arithmetic of
+periods 1–12. All reject the first crib under the bounded audit.
+
+The move-to-front doublets and independent within-island recurrence contradictions
+provide short exclusions; a fixed-four local corollary concerns arbitrary reset
+timing analytically and is not a new sweep. Neither excludes all message-based
+initialization or other alphabets/rules. Uncertain boundaries create real planted
+plaintext ambiguity; it is reported rather than treated as a unique recovery.
+
+[Full frozen scope, exact counts and independent replay](SINGLE-BOUNDARY-RESET-FINDINGS.md).
+The bounded test stops here; no automatic second reset or new cipher family.
+
+
+## Autonomous multi-step mathematical key generator — 22 October 2026
+
+The user-approved finite audit of orders 2–6, homogeneous/affine, in AZ/KRYPTOS
+coordinates is complete: all 20 formal structures fail the first crib modulo 2.
+Repeated six-predecessor parity states require opposite next parities, so neither
+initial seed choice nor prefix ambiguity can repair the registered formula.
+This is an exact scoped negative, not a ban on every mathematical generator.
+
+The audit retains singular coefficient and reachable-prefix spaces and verifies
+complete small-ring counts. It does not turn mod-13-only fits, zero-check fitting,
+parameter aliases or partial predictions into evidence. Homogeneous order-two
+prior-art overlap and higher-order startup freedom are explicit.
+[Results, independent replay and limitations](AUTONOMOUS-RECURRENCE-FINDINGS.md).
+The Morse/tree question and private image are separate; no tree cipher was tested.
+
+## H-LETTER-GEOMETRY — representation verified; two finite mechanisms rejected
+
+The user's refined lines/curves/orientation/placement proposal is encoded as a
+versioned idealized 35-component skeleton dictionary, not measured copper glyphs
+or pen-stroke counts. All 26 arrays and exact positional codes are unique; sums
+and residues collide. Feature order is declared rather than fit to K4.
+[GEOMETRIC-PILOT-001](GEOMETRIC-PILOT-FINDINGS.md) rejects the frozen code-ranked
+periodic arithmetic and 35-bit rotation/XOR feedback models. This does not
+exclude all geometric encodings. No alternative order or state rule was added.
+
+The subsequent root-digit/changing-base refinement has a separate
+[finite raw-token security audit](GEOMETRIC-BASE-SECURITY-AUDIT.md). With public
+geometry/order, known exact-number boundaries and b=d+2 over bases 2–61, only
+8 and 27 are ambiguous; all other emitted numbers identify letter and base.
+This neither attacks a root generator nor tests a new K4 modular-arithmetic
+family. That separate admissibility specification remains pending; no root,
+offset, weight-order or transform search was added.
+
+### Changing-base follow-up completed — 22 October 2026
+
+The previously pending arithmetic admissibility specification is now frozen and
+[completed](RADIX-FEEDBACK-FINDINGS.md). All eight first-order affine geometric
+feedback families are excluded, even allowing each base to be any independent
+integer >=2. Fixed geometry/order and two designated letter equations remain
+assumptions; nonlinear updates and other cipher constructions are untested.
+The older period-12 crib fit also has a separate
+[chance calibration](PERIODIC-CRIB-CALIBRATION.md), not a positive candidate.
+
+## H-IPA-DICTIONARY — bounded current-US source model rejected
+
+The user's dictionary-phonetics proposal is tested separately from earlier
+respelling and script-transport work. The [IPA report](IPA-PREPROCESSING-FINDINGS.md)
+records frozen Cambridge US forms: R1 segment lengths 10/9, R2 code-point lengths
+13/11. Unchanged transformed-window alignment is an explicit assumption, not
+proved global alignment. Arbitrary phase injectivity leaves 8/11/12 vacuous;
+all 48 fixed-ordinary-Latin periodic arithmetic structures fail within the first
+crib, 47 by ordinary anchors and one by a shared length-marker contradiction.
+No dialect/offset search, special-alias enumeration or English inverse is claimed.
+Original independent full-window certificates and the later first-window
+supplement are preserved with their distinct chronology and staging.
+
+## H-AFFINE-DIGRAPH — status correction, 23 October 2026
+
+The four fixed adjacent same-alphabet affine models (AZ/AZ and KRYPTOS/KRYPTOS,
+both pair origins) are [analytically excluded by parity](AFFINE-DIGRAPH-PARITY-BOUNDARY.md).
+No matrix search was run or required. Earlier unrun headings and the original
+frozen proposal are historical; this exact family is not an open unrun candidate.
+No claim about all polygraphic models or mixed alphabets follows.
+
+
+## 23 October 2026: stateful tree/path pilot and independent IPA integration
+
+The two fixed tree/subtree-permutation constructions were implemented, controlled and tested continuously across all 97 positions. All 104 settings fail the first crib; this is a bounded negative, not a general tree-cipher exclusion. See [TREE-PATH-CIPHER-FINDINGS.md](TREE-PATH-CIPHER-FINDINGS.md). Independent free-map IPA and source-fixed pronunciation codec audits now replay exactly; see [IPA-CODECS-INTEGRATION.md](IPA-CODECS-INTEGRATION.md). No additional search was launched after these failures.

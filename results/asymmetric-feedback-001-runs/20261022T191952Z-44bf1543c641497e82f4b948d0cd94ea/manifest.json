@@ -1,0 +1,26 @@
+{
+  "run_id": "20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea",
+  "started_at_utc": "2026-10-22T19:19:52.714193+00:00",
+  "label": "ASYMMETRIC-FEEDBACK-001",
+  "status": "completed",
+  "specification": {
+    "commit": "56b2919e4af7bbce644ed476d5fde8c0546627b7",
+    "file": "research/specifications/ASYMMETRIC-FEEDBACK-001.json",
+    "sha256": "e64371b8007e4e27a4b45a8d5b7686cd68fb5e42d926ac3729e3b77f71b6c9d5",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [
+    {
+      "experiment": "ASYMMETRIC-FEEDBACK-001",
+      "status": "completed",
+      "deadline_seconds": 60
+    }
+  ],
+  "artifacts": {
+    "ASYMMETRIC-FEEDBACK-001.json": {
+      "sha256": "8e715537c2235fc2d32ef3e268dc2b28bcf3fd7d7dc16673f766cfaf7c1b4d1a",
+      "bytes": 534256
+    }
+  },
+  "finished_at_utc": "2026-10-22T19:19:53.226206+00:00"
+}

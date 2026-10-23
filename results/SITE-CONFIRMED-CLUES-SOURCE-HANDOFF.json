@@ -1,0 +1,30 @@
+{
+  "site_title": "Kryptos Light Laboratory",
+  "published_version_supplied": 13,
+  "source_commit_supplied": "0ab12260bba31ed3bd03e2a78213482ea6fd72dd",
+  "base_source_commit_supplied": "5b266eb0fc6744c5eda45e30ad089731be97cb35",
+  "base_site_version_supplied": 12,
+  "patch_sha256": "875e1498327b30b55134f3235ba310120960af6d4befb98e3a9f07f1930449a3",
+  "patch_bytes": 99546,
+  "extracted_module_sha256": "d8af9b8a4d6fa13300e2642bf976d75a6549ee351879ef3df39313e78613768d",
+  "candidate_and_dist_new_module_identical": true,
+  "matches_release_manifest_module_sha256": true,
+  "integration_mode": "Documentation/source delta archive; patch not applied to absent candidate/dist runtime; Site not republished.",
+  "local_validation": "4 isolated module/mask/grid/DOM/invalid-anchor Node tests passed; rendered layout not repeated.",
+  "child_reported_validation": {
+    "site_tests": 76,
+    "rendered_widths_px": [
+      390,
+      1280
+    ],
+    "maximum_alignment_error_px": 0,
+    "overflow": false,
+    "independently_repeated_here": false
+  },
+  "canonical_display": {
+    "positions": 97,
+    "known": 24,
+    "unknown": 73,
+    "leading_padding_cells": 27
+  }
+}

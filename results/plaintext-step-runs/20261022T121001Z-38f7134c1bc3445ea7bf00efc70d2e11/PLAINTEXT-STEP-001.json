@@ -1,0 +1,3824 @@
+{
+  "id": "PLAINTEXT-STEP-001",
+  "status": "completed",
+  "spec_commit": "37bc4bf1635089d51f361f33bfd771b691e836fa",
+  "code_commit": "ea210bd5c63ce21e9b3c21e65226cc81f99a858e",
+  "command": "python3 experiments/plaintext_step.py --spec-commit 37bc4bf1635089d51f361f33bfd771b691e836fa",
+  "python": "3.9.6",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "controls": {
+    "symbol_phase_roundtrips": 2600,
+    "planted_full_recoveries": 12,
+    "planted_crib_recoveries": 12,
+    "mutated_crib_rejections": 12,
+    "numeric_oracle_comparisons": 96
+  },
+  "normalization": "97 literal uppercase letters; fixed one-based crib intervals, internal zero-based",
+  "observed": [
+    {
+      "word": "KRYPTOS",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "trigger": "AEIOU",
+      "plaintext": "EDVYGWNXIOCBKUVXQVKDHMXZLZSADVWTUZAJFVBZVYIULWHPFCEVSBDFTHIYWHMUGFEEFUIQWWEPFVGJBZLFTNWCXDCFLWKQA",
+      "matched_positions_one_based": [],
+      "matched_crib_letters": 0,
+      "east_matches": 0,
+      "berlin_matches": 0,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "KRYPTOS",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "trigger": "BCDFGHJKLMNPQRSTVWXYZ",
+      "plaintext": "EKVDKQEAOXWSJBZXYHINMHSZESXXAPNSBDABFEXAZSZAUTKLMCAVAUWKQJHUVODUKFXAFCBMXTHSTMGFCUJLRRWKJBIKGRKJC",
+      "matched_positions_one_based": [
+        70
+      ],
+      "matched_crib_letters": 1,
+      "east_matches": 0,
+      "berlin_matches": 1,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "KRYPTOS",
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "trigger": "AEIOU",
+      "plaintext": "OSWWJZXTEDJEAPRFCFAOMSLKQLJXUMEVRKOYQKISILYROZWVNYXJZILOIONDGFAJXXJTPJVBXQWFBWUMTISSDAZNEJRUCWORR",
+      "matched_positions_one_based": [
+        31
+      ],
+      "matched_crib_letters": 1,
+      "east_matches": 1,
+      "berlin_matches": 0,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "KRYPTOS",
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "trigger": "BCDFGHJKLMNPQRSTVWXYZ",
+      "plaintext": "OAXWIOWYBHNGYOPGCESTLEIXLQMZUNEWRSPKLPLRJMYKDWQZUTZJXGIDGPLHJAYMZXVYKFXCXKUDOQXUKDBAEBKNDIAQBUPSX",
+      "matched_positions_one_based": [
+        22,
+        31,
+        74
+      ],
+      "matched_crib_letters": 3,
+      "east_matches": 2,
+      "berlin_matches": 1,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "PALIMPSEST",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "trigger": "AEIOU",
+      "plaintext": "ZBZJIWTWNSUDPDWHQMMBLXZCDMYWCNVCGDWPEEFKXBAAPKONHIBQVLJVWLEQUFQFMARBAMOTAGERDZRLEFKKTGZMVFICLVCPJ",
+      "matched_positions_one_based": [],
+      "matched_crib_letters": 0,
+      "east_matches": 0,
+      "berlin_matches": 0,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "PALIMPSEST",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "trigger": "BCDFGHJKLMNPQRSTVWXYZ",
+      "plaintext": "ZQYZCZMCODBLTDKSIUTMSMLJGMXPJYCRSKZPDTIGRYDHSSHKLOERSWJRQIDICTJVJENEBUGFHVSNDCKTAUCVTCRUWILQLKUOC",
+      "matched_positions_one_based": [
+        33
+      ],
+      "matched_crib_letters": 1,
+      "east_matches": 1,
+      "berlin_matches": 0,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "PALIMPSEST",
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "trigger": "AEIOU",
+      "plaintext": "YRCFPYMQAETYJPZSCBOLBQHUJJLVDTUQUYYWSILKOJPZQEVNFRKGNKSMFRFCIONRZWEKREDQKQFAACDSRDXTESCSVMRDOWYJF",
+      "matched_positions_one_based": [],
+      "matched_crib_letters": 0,
+      "east_matches": 0,
+      "berlin_matches": 0,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "PALIMPSEST",
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "trigger": "BCDFGHJKLMNPQRSTVWXYZ",
+      "plaintext": "YLBUDRLJDPLDNPQGBWOYLCKCJHLFCGAVZLYNNWOHDHPIVWHUQJFDQHTMCRQXRSYJEHNNKEBQWQQVMQNUWRSZEDCPBIPHVWXPQ",
+      "matched_positions_one_based": [
+        65
+      ],
+      "matched_crib_letters": 1,
+      "east_matches": 0,
+      "berlin_matches": 1,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "ABSCISSA",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "trigger": "AEIOU",
+      "plaintext": "OJIZCOWWEPCLBRWJANBBVNJJDYQPQVESASNBUBYSJPAKMSZZVILRSLULGSEIMNZFGXVTSURNXKWFLIHFTJBLGYSCHUIMMSCAZ",
+      "matched_positions_one_based": [
+        31,
+        74
+      ],
+      "matched_crib_letters": 2,
+      "east_matches": 1,
+      "berlin_matches": 1,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "ABSCISSA",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "trigger": "BCDFGHJKLMNPQRSTVWXYZ",
+      "plaintext": "OASJCOWMOPUKZAWLQXJBEDTRUYIXRMECASNREBQAHYSRCSZYUSBJSDCDQSEINNTVYXNBTUXNPJUYLKHPBJKVQGSMPUZSMKBYZ",
+      "matched_positions_one_based": [
+        31
+      ],
+      "matched_crib_letters": 1,
+      "east_matches": 1,
+      "berlin_matches": 0,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "ABSCISSA",
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "trigger": "AEIOU",
+      "plaintext": "XKQMSZMXSSIYYKXDAPNYLOCUAHGVNGTEKZXVLUHKCGXKYENMJZXAQEHYCXBCGOKGNHJXWENPHQLSPMNIXDYPATEIAIMITNRRM",
+      "matched_positions_one_based": [],
+      "matched_crib_letters": 0,
+      "east_matches": 0,
+      "berlin_matches": 0,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    },
+    {
+      "word": "ABSCISSA",
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "trigger": "BCDFGHJKLMNPQRSTVWXYZ",
+      "plaintext": "XYEUIXJVABHEZKXCSSRKHSDNGHGUUDAQZKJXJXOKCFWKTMJNJZURQDIRCKICTSRGGWIVUPNOUQBAPMJMWBKTBOQSBHRSONRXU",
+      "matched_positions_one_based": [
+        72
+      ],
+      "matched_crib_letters": 1,
+      "east_matches": 0,
+      "berlin_matches": 1,
+      "all24_match": false,
+      "full97_regeneration": true,
+      "free_parameters": 0,
+      "initial_cursor": 0,
+      "evidence_class": "rejected_model_output"
+    }
+  ],
+  "free_parameters_per_model": 0,
+  "initial_cursor": 0,
+  "nulls": [
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        1,
+        0,
+        1,
+        3,
+        1,
+        0,
+        1,
+        4,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        1,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        0,
+        3,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        4,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        3,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        4,
+        1,
+        4,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        3,
+        0,
+        1,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        3,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        4,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        1,
+        3,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        3,
+        0,
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        1,
+        2,
+        3,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 5,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        5,
+        1,
+        0,
+        3,
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        4,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        2,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        3,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        3,
+        0,
+        2,
+        2,
+        1,
+        3,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        3,
+        0,
+        1,
+        3,
+        0,
+        4,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        3,
+        2,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1,
+        3,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        3,
+        2,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        3,
+        3,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        3,
+        2,
+        1,
+        1,
+        2,
+        3,
+        3,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        0,
+        3,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        3,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        3,
+        0,
+        3
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        2,
+        3,
+        0,
+        2,
+        3,
+        3,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        3,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        3,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        4,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        3,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0,
+        2,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        2,
+        1,
+        0,
+        2,
+        1,
+        1,
+        2,
+        2,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        2,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        3,
+        2,
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        4,
+        2,
+        0,
+        2,
+        3,
+        3,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        3,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2,
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        0,
+        1,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "max_matches": 6,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        2,
+        3,
+        0,
+        3,
+        0,
+        6,
+        4,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        3,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        4,
+        1,
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        0,
+        1,
+        2,
+        2,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        3,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        2,
+        2,
+        3,
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        3,
+        1,
+        2,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 5,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        5,
+        0,
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        3,
+        2,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        1,
+        1,
+        0,
+        2,
+        3,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        1,
+        1,
+        3,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        3,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        3,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        2,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        3,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        4,
+        1,
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        2,
+        3,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        2,
+        0,
+        2,
+        3,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        0,
+        1,
+        3,
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        2,
+        0,
+        1,
+        2,
+        2,
+        0,
+        1,
+        3,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        1,
+        3,
+        1,
+        0,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        3,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        3,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        0,
+        0,
+        4,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        2,
+        1,
+        2,
+        1,
+        2,
+        3,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        3,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 5,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        2,
+        5,
+        1,
+        2,
+        4,
+        5,
+        0,
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        3,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        3,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        2,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 5,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        1,
+        1,
+        5,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        2,
+        1,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        4,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        3,
+        0,
+        0,
+        1,
+        1,
+        1,
+        3,
+        0,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        3,
+        2,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        0,
+        2,
+        3,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        3,
+        2,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "max_matches": 1,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        3,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "max_matches": 2,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        2,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        2,
+        0,
+        2,
+        1,
+        2,
+        1,
+        3,
+        2,
+        1,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        3,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "max_matches": 3,
+      "candidates": 0,
+      "per_model_matches": [
+        1,
+        3,
+        2,
+        0,
+        1,
+        2,
+        3,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        3,
+        3,
+        1,
+        1,
+        4,
+        0,
+        2,
+        3,
+        4,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "max_matches": 4,
+      "candidates": 0,
+      "per_model_matches": [
+        4,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "seed": 20261025,
+  "rng": "random.Random MT19937; fresh original list each draw",
+  "best_matches": 3,
+  "exceedances": 107,
+  "plus_one_conditional_tail": 0.54,
+  "model_evaluations": 2400,
+  "elapsed_seconds": 0.10244904199999999,
+  "file_sha256": {
+    "research/specifications/PLAINTEXT-STEP-001.json": "2f57e155111536027f54025765b0f620f4e2031b2e62de2c7452bee40493e13e",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
+    "data/controls.json": "54f19ff0ecd1e058a6b84c6ddb4ad75a297e4181edb45803647ed208d8fc011b",
+    "experiments/plaintext_step.py": "2cb1267fe346a41b6569a56d961f066481b7a3b3063ccbabaf4db4a2d9020e51",
+    "tests/test_plaintext_step.py": "0600304c61f063756022be7da9980dd31038036f500ad2894928e3016dccf6ba",
+    "experiments/run_io.py": "fde8855c7e73f8654e39661fd6df6593492ef89829f2814d42c6c43bc2775601",
+    "experiments/run_bounded.py": "0bb744f14eb9fd773f378c7042fd3c661483a05f28c8999d0eaa7c8c8572756e",
+    "experiments/check_baseline.py": "d1e00b2dc1c7c56ab00fa8237d9b65e87c6b6a9344846537e7278854b401399f",
+    "experiments/check_controls.py": "e2a64bc2602e577b6caa87339b9a118379389b4d9a25a956bbcbb537baedb249",
+    "experiments/ciphers.py": "c5cdf265e62788128ff44ef3311c8ac2391c3ee5707e510cf1bfaaad7f61617c"
+  },
+  "interpretation": "Fixed-model outputs, no fits or solution claims on partial scores. Regeneration tests invertibility only. Null maxima cover this12model family, correlated, exploratory and resolution1/200; no correction across other experiments or historical-intent interpretation."
+}

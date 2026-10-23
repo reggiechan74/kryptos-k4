@@ -1,0 +1,71 @@
+{
+  "scope": "Sparse source-attributed audit facts; no complete third-party ciphertext/plaintext fixture.",
+  "index_convention": "One-based alphabet-letter positions; punctuation and literal MEDUSA excluded unless explicitly stated.",
+  "facts": [
+    {
+      "id": "k1_local_cell",
+      "position": 57,
+      "worksheet_triple": {
+        "plain": "L",
+        "key": "C",
+        "cipher": "K"
+      },
+      "inscribed_standard_key_triple": {
+        "plain": "Q",
+        "key": "S",
+        "cipher": "K"
+      },
+      "stage": "Extant worksheet / inscription comparison; original intention and production chronology unestablished.",
+      "sources": [
+        "https://www.thekryptosproject.com/kryptos/images/sb_notes.jpg",
+        "https://www.thekryptosproject.com/kryptos/charts/pt_k1_k2.php",
+        "https://elonka.com/kryptos/transcript.html"
+      ]
+    },
+    {
+      "id": "k2_undergruund_cell",
+      "position": 115,
+      "worksheet_triple": {
+        "plain": "O",
+        "key": "S",
+        "cipher": "E"
+      },
+      "inscribed_standard_key_triple": {
+        "plain": "U",
+        "key": "S",
+        "cipher": "R"
+      },
+      "stage": "Worksheet / inscription discrepancy; exact revision/copy/fabrication event unestablished.",
+      "sources": [
+        "https://www.thekryptosproject.com/kryptos/images/sb_notes.jpg",
+        "https://elonka.com/kryptos/transcript.html"
+      ]
+    },
+    {
+      "id": "k2_omitted_letter",
+      "intended_cipher_position": 362,
+      "cipher_symbol": "S",
+      "insert_after_observed_cipher_position": 361,
+      "stage": "Historically confirmed omission in inscribed ciphertext, not a modern reader-transcription correction.",
+      "sources": [
+        "https://elonka.com/kryptos/CorrectedK2Announcement.html",
+        "https://www.wired.com/2006/04/typo-confounds-kryptos-sleuths/"
+      ]
+    },
+    {
+      "id": "cp_semantic_restart",
+      "restart_position": 778,
+      "phase_delta_mod_6": 3,
+      "period": 6,
+      "stage": "A convention inferred and exactly verified on the published pair. Physical omission is not identified.",
+      "original_solver_gap_coordinates": "Published near 777–780 without explicit zero/one-based or MEDUSA-counting convention.",
+      "original_solver_gap_length_class": "3 modulo 6: 3, 9, 15, ... hypothetical consumed positions, not a determined length.",
+      "sources": [
+        "https://www.elonka.com/kryptos/mirrors/CPSolution.html",
+        "https://scirealm.org/CyrillicProjector.html",
+        "https://elonka.com/kryptos/cyrillic.html"
+      ]
+    }
+  ],
+  "rights": "No redistribution licence for complete source pages, images or full artwork transcripts established. Fetch externally at runtime into an ignored cache; do not assume public availability grants public-repository rights."
+}

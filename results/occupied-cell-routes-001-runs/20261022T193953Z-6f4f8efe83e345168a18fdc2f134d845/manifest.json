@@ -1,0 +1,26 @@
+{
+  "run_id": "20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845",
+  "started_at_utc": "2026-10-22T19:39:53.371154+00:00",
+  "label": "OCCUPIED-CELL-ROUTES-001",
+  "status": "completed",
+  "specification": {
+    "commit": "29bf8e997b0290f56366ad27a7adb52a50ccb1b9",
+    "file": "research/specifications/OCCUPIED-CELL-ROUTES-001.json",
+    "sha256": "de185b0fd8489d39446398d16b256e67ba4ac3bce2280f1479a01ab6980633e9",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [
+    {
+      "experiment": "OCCUPIED-CELL-ROUTES-001",
+      "status": "completed",
+      "deadline_seconds": 15
+    }
+  ],
+  "artifacts": {
+    "OCCUPIED-CELL-ROUTES-001.json": {
+      "sha256": "10896a0ce91adb2be22c4a52419e2a0c23019a2e4d6dc7f8e225aff59c467076",
+      "bytes": 264537
+    }
+  },
+  "finished_at_utc": "2026-10-22T19:39:53.467220+00:00"
+}

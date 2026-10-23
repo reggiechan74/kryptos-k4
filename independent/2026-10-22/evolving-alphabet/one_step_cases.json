@@ -1,0 +1,626 @@
+[
+  {
+    "ciphertext": "A",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "A",
+    "state_after": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "B",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "B",
+    "state_after": "BACDEFGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "C",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "C",
+    "state_after": "CABDEFGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "D",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "D",
+    "state_after": "DABCEFGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "E",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "E",
+    "state_after": "EABCDFGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "F",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "F",
+    "state_after": "FABCDEGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "G",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "G",
+    "state_after": "GABCDEFHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "H",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "H",
+    "state_after": "HABCDEFGIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "I",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "I",
+    "state_after": "IABCDEFGHJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "J",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "J",
+    "state_after": "JABCDEFGHIKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "K",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "K",
+    "state_after": "KABCDEFGHIJLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "L",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "L",
+    "state_after": "LABCDEFGHIJKMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "M",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "M",
+    "state_after": "MABCDEFGHIJKLNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "N",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "N",
+    "state_after": "NABCDEFGHIJKLMOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "O",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "O",
+    "state_after": "OABCDEFGHIJKLMNPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "P",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "P",
+    "state_after": "PABCDEFGHIJKLMNOQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "Q",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "Q",
+    "state_after": "QABCDEFGHIJKLMNOPRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "R",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "R",
+    "state_after": "RABCDEFGHIJKLMNOPQSTUVWXYZ"
+  },
+  {
+    "ciphertext": "S",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "S",
+    "state_after": "SABCDEFGHIJKLMNOPQRTUVWXYZ"
+  },
+  {
+    "ciphertext": "T",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "T",
+    "state_after": "TABCDEFGHIJKLMNOPQRSUVWXYZ"
+  },
+  {
+    "ciphertext": "U",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "U",
+    "state_after": "UABCDEFGHIJKLMNOPQRSTVWXYZ"
+  },
+  {
+    "ciphertext": "V",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "V",
+    "state_after": "VABCDEFGHIJKLMNOPQRSTUWXYZ"
+  },
+  {
+    "ciphertext": "W",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "W",
+    "state_after": "WABCDEFGHIJKLMNOPQRSTUVXYZ"
+  },
+  {
+    "ciphertext": "X",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "X",
+    "state_after": "XABCDEFGHIJKLMNOPQRSTUVWYZ"
+  },
+  {
+    "ciphertext": "Y",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "Y",
+    "state_after": "YABCDEFGHIJKLMNOPQRSTUVWXZ"
+  },
+  {
+    "ciphertext": "Z",
+    "model": "R=AZ,S0=AZ",
+    "plaintext": "Z",
+    "state_after": "ZABCDEFGHIJKLMNOPQRSTUVWXY"
+  },
+  {
+    "ciphertext": "K",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "A",
+    "state_after": "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "R",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "B",
+    "state_after": "RKYPTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "Y",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "C",
+    "state_after": "YKRPTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "P",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "D",
+    "state_after": "PKRYTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "T",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "E",
+    "state_after": "TKRYPOSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "O",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "F",
+    "state_after": "OKRYPTSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "S",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "G",
+    "state_after": "SKRYPTOABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "A",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "H",
+    "state_after": "AKRYPTOSBCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "B",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "I",
+    "state_after": "BKRYPTOSACDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "C",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "J",
+    "state_after": "CKRYPTOSABDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "D",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "K",
+    "state_after": "DKRYPTOSABCEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "E",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "L",
+    "state_after": "EKRYPTOSABCDFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "F",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "M",
+    "state_after": "FKRYPTOSABCDEGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "G",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "N",
+    "state_after": "GKRYPTOSABCDEFHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "H",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "O",
+    "state_after": "HKRYPTOSABCDEFGIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "I",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "P",
+    "state_after": "IKRYPTOSABCDEFGHJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "J",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "Q",
+    "state_after": "JKRYPTOSABCDEFGHILMNQUVWXZ"
+  },
+  {
+    "ciphertext": "L",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "R",
+    "state_after": "LKRYPTOSABCDEFGHIJMNQUVWXZ"
+  },
+  {
+    "ciphertext": "M",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "S",
+    "state_after": "MKRYPTOSABCDEFGHIJLNQUVWXZ"
+  },
+  {
+    "ciphertext": "N",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "T",
+    "state_after": "NKRYPTOSABCDEFGHIJLMQUVWXZ"
+  },
+  {
+    "ciphertext": "Q",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "U",
+    "state_after": "QKRYPTOSABCDEFGHIJLMNUVWXZ"
+  },
+  {
+    "ciphertext": "U",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "V",
+    "state_after": "UKRYPTOSABCDEFGHIJLMNQVWXZ"
+  },
+  {
+    "ciphertext": "V",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "W",
+    "state_after": "VKRYPTOSABCDEFGHIJLMNQUWXZ"
+  },
+  {
+    "ciphertext": "W",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "X",
+    "state_after": "WKRYPTOSABCDEFGHIJLMNQUVXZ"
+  },
+  {
+    "ciphertext": "X",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "Y",
+    "state_after": "XKRYPTOSABCDEFGHIJLMNQUVWZ"
+  },
+  {
+    "ciphertext": "Z",
+    "model": "R=AZ,S0=KRYPTOS",
+    "plaintext": "Z",
+    "state_after": "ZKRYPTOSABCDEFGHIJLMNQUVWX"
+  },
+  {
+    "ciphertext": "H",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "A",
+    "state_after": "HABCDEFGIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "I",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "B",
+    "state_after": "IABCDEFGHJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "J",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "C",
+    "state_after": "JABCDEFGHIKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "K",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "D",
+    "state_after": "KABCDEFGHIJLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "L",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "E",
+    "state_after": "LABCDEFGHIJKMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "M",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "F",
+    "state_after": "MABCDEFGHIJKLNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "N",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "G",
+    "state_after": "NABCDEFGHIJKLMOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "O",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "H",
+    "state_after": "OABCDEFGHIJKLMNPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "P",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "I",
+    "state_after": "PABCDEFGHIJKLMNOQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "Q",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "J",
+    "state_after": "QABCDEFGHIJKLMNOPRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "A",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "K",
+    "state_after": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "R",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "L",
+    "state_after": "RABCDEFGHIJKLMNOPQSTUVWXYZ"
+  },
+  {
+    "ciphertext": "S",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "M",
+    "state_after": "SABCDEFGHIJKLMNOPQRTUVWXYZ"
+  },
+  {
+    "ciphertext": "T",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "N",
+    "state_after": "TABCDEFGHIJKLMNOPQRSUVWXYZ"
+  },
+  {
+    "ciphertext": "F",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "O",
+    "state_after": "FABCDEGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "D",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "P",
+    "state_after": "DABCEFGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "U",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "Q",
+    "state_after": "UABCDEFGHIJKLMNOPQRSTVWXYZ"
+  },
+  {
+    "ciphertext": "B",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "R",
+    "state_after": "BACDEFGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "G",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "S",
+    "state_after": "GABCDEFHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "E",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "T",
+    "state_after": "EABCDFGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "V",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "U",
+    "state_after": "VABCDEFGHIJKLMNOPQRSTUWXYZ"
+  },
+  {
+    "ciphertext": "W",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "V",
+    "state_after": "WABCDEFGHIJKLMNOPQRSTUVXYZ"
+  },
+  {
+    "ciphertext": "X",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "W",
+    "state_after": "XABCDEFGHIJKLMNOPQRSTUVWYZ"
+  },
+  {
+    "ciphertext": "Y",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "X",
+    "state_after": "YABCDEFGHIJKLMNOPQRSTUVWXZ"
+  },
+  {
+    "ciphertext": "C",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "Y",
+    "state_after": "CABDEFGHIJKLMNOPQRSTUVWXYZ"
+  },
+  {
+    "ciphertext": "Z",
+    "model": "R=KRYPTOS,S0=AZ",
+    "plaintext": "Z",
+    "state_after": "ZABCDEFGHIJKLMNOPQRSTUVWXY"
+  },
+  {
+    "ciphertext": "A",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "A",
+    "state_after": "AKRYPTOSBCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "B",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "B",
+    "state_after": "BKRYPTOSACDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "C",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "C",
+    "state_after": "CKRYPTOSABDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "D",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "D",
+    "state_after": "DKRYPTOSABCEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "E",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "E",
+    "state_after": "EKRYPTOSABCDFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "F",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "F",
+    "state_after": "FKRYPTOSABCDEGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "G",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "G",
+    "state_after": "GKRYPTOSABCDEFHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "H",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "H",
+    "state_after": "HKRYPTOSABCDEFGIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "I",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "I",
+    "state_after": "IKRYPTOSABCDEFGHJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "J",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "J",
+    "state_after": "JKRYPTOSABCDEFGHILMNQUVWXZ"
+  },
+  {
+    "ciphertext": "K",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "K",
+    "state_after": "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "L",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "L",
+    "state_after": "LKRYPTOSABCDEFGHIJMNQUVWXZ"
+  },
+  {
+    "ciphertext": "M",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "M",
+    "state_after": "MKRYPTOSABCDEFGHIJLNQUVWXZ"
+  },
+  {
+    "ciphertext": "N",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "N",
+    "state_after": "NKRYPTOSABCDEFGHIJLMQUVWXZ"
+  },
+  {
+    "ciphertext": "O",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "O",
+    "state_after": "OKRYPTSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "P",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "P",
+    "state_after": "PKRYTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "Q",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "Q",
+    "state_after": "QKRYPTOSABCDEFGHIJLMNUVWXZ"
+  },
+  {
+    "ciphertext": "R",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "R",
+    "state_after": "RKYPTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "S",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "S",
+    "state_after": "SKRYPTOABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "T",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "T",
+    "state_after": "TKRYPOSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "U",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "U",
+    "state_after": "UKRYPTOSABCDEFGHIJLMNQVWXZ"
+  },
+  {
+    "ciphertext": "V",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "V",
+    "state_after": "VKRYPTOSABCDEFGHIJLMNQUWXZ"
+  },
+  {
+    "ciphertext": "W",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "W",
+    "state_after": "WKRYPTOSABCDEFGHIJLMNQUVXZ"
+  },
+  {
+    "ciphertext": "X",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "X",
+    "state_after": "XKRYPTOSABCDEFGHIJLMNQUVWZ"
+  },
+  {
+    "ciphertext": "Y",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "Y",
+    "state_after": "YKRPTOSABCDEFGHIJLMNQUVWXZ"
+  },
+  {
+    "ciphertext": "Z",
+    "model": "R=KRYPTOS,S0=KRYPTOS",
+    "plaintext": "Z",
+    "state_after": "ZKRYPTOSABCDEFGHIJLMNQUVWX"
+  }
+]

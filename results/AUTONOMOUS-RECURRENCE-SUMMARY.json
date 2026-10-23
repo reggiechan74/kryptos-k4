@@ -1,0 +1,368 @@
+{
+  "id": "AUTONOMOUS-RECURRENCE-001-SUMMARY",
+  "run_id": "20261022T215356Z-4769d0b137d348e99db42ee5918dc799",
+  "spec_commit": "5615caf91915b75251156d6da826bdae0500d349",
+  "code_commit": "4354cc26f354ffb7955c6b6304428d8a3c1ce966",
+  "full_result_path": "results/autonomous-recurrence-runs/20261022T215356Z-4769d0b137d348e99db42ee5918dc799/AUTONOMOUS-RECURRENCE-001.json",
+  "full_result_sha256": "a1c5b4f123c688ded1ff6413c369f12301512c38478bebeec73c89ce8a76fb9d",
+  "formal_structures": 20,
+  "impossible_training": 20,
+  "compatible_coefficient_tuples": 0,
+  "compatible_full_plaintexts": 0,
+  "Berlin_forecast_comparisons": 0,
+  "actual_prefix_states_examined": 0,
+  "budget_unresolved": 0,
+  "forced_positions": "not_applicable_empty_training_solution_sets",
+  "rank_rows": [
+    {
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "order": 2,
+      "constant_mode": "zero",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 2,
+          "augmented_rank": 3
+        },
+        {
+          "prime": 13,
+          "rank": 2,
+          "augmented_rank": 3
+        }
+      ]
+    },
+    {
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "order": 2,
+      "constant_mode": "fitted",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 3,
+          "augmented_rank": 4
+        },
+        {
+          "prime": 13,
+          "rank": 3,
+          "augmented_rank": 4
+        }
+      ]
+    },
+    {
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "order": 3,
+      "constant_mode": "zero",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 3,
+          "augmented_rank": 4
+        },
+        {
+          "prime": 13,
+          "rank": 3,
+          "augmented_rank": 4
+        }
+      ]
+    },
+    {
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "order": 3,
+      "constant_mode": "fitted",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 4,
+          "augmented_rank": 5
+        },
+        {
+          "prime": 13,
+          "rank": 4,
+          "augmented_rank": 5
+        }
+      ]
+    },
+    {
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "order": 4,
+      "constant_mode": "zero",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 4,
+          "augmented_rank": 5
+        },
+        {
+          "prime": 13,
+          "rank": 4,
+          "augmented_rank": 5
+        }
+      ]
+    },
+    {
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "order": 4,
+      "constant_mode": "fitted",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 5,
+          "augmented_rank": 6
+        },
+        {
+          "prime": 13,
+          "rank": 5,
+          "augmented_rank": 6
+        }
+      ]
+    },
+    {
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "order": 5,
+      "constant_mode": "zero",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 5,
+          "augmented_rank": 6
+        },
+        {
+          "prime": 13,
+          "rank": 5,
+          "augmented_rank": 6
+        }
+      ]
+    },
+    {
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "order": 5,
+      "constant_mode": "fitted",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 6,
+          "augmented_rank": 7
+        },
+        {
+          "prime": 13,
+          "rank": 6,
+          "augmented_rank": 7
+        }
+      ]
+    },
+    {
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "order": 6,
+      "constant_mode": "zero",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 5,
+          "augmented_rank": 6
+        },
+        {
+          "prime": 13,
+          "rank": 6,
+          "augmented_rank": 7
+        }
+      ]
+    },
+    {
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "order": 6,
+      "constant_mode": "fitted",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 6,
+          "augmented_rank": 7
+        },
+        {
+          "prime": 13,
+          "rank": 7,
+          "augmented_rank": 7
+        }
+      ]
+    },
+    {
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "order": 2,
+      "constant_mode": "zero",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 2,
+          "augmented_rank": 3
+        },
+        {
+          "prime": 13,
+          "rank": 2,
+          "augmented_rank": 3
+        }
+      ]
+    },
+    {
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "order": 2,
+      "constant_mode": "fitted",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 3,
+          "augmented_rank": 4
+        },
+        {
+          "prime": 13,
+          "rank": 3,
+          "augmented_rank": 4
+        }
+      ]
+    },
+    {
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "order": 3,
+      "constant_mode": "zero",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 3,
+          "augmented_rank": 4
+        },
+        {
+          "prime": 13,
+          "rank": 3,
+          "augmented_rank": 4
+        }
+      ]
+    },
+    {
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "order": 3,
+      "constant_mode": "fitted",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 4,
+          "augmented_rank": 5
+        },
+        {
+          "prime": 13,
+          "rank": 4,
+          "augmented_rank": 5
+        }
+      ]
+    },
+    {
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "order": 4,
+      "constant_mode": "zero",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 4,
+          "augmented_rank": 5
+        },
+        {
+          "prime": 13,
+          "rank": 4,
+          "augmented_rank": 5
+        }
+      ]
+    },
+    {
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "order": 4,
+      "constant_mode": "fitted",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 5,
+          "augmented_rank": 6
+        },
+        {
+          "prime": 13,
+          "rank": 5,
+          "augmented_rank": 6
+        }
+      ]
+    },
+    {
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "order": 5,
+      "constant_mode": "zero",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 5,
+          "augmented_rank": 6
+        },
+        {
+          "prime": 13,
+          "rank": 5,
+          "augmented_rank": 6
+        }
+      ]
+    },
+    {
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "order": 5,
+      "constant_mode": "fitted",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 6,
+          "augmented_rank": 7
+        },
+        {
+          "prime": 13,
+          "rank": 6,
+          "augmented_rank": 7
+        }
+      ]
+    },
+    {
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "order": 6,
+      "constant_mode": "zero",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 5,
+          "augmented_rank": 6
+        },
+        {
+          "prime": 13,
+          "rank": 6,
+          "augmented_rank": 7
+        }
+      ]
+    },
+    {
+      "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "order": 6,
+      "constant_mode": "fitted",
+      "field_ranks": [
+        {
+          "prime": 2,
+          "rank": 6,
+          "augmented_rank": 7
+        },
+        {
+          "prime": 13,
+          "rank": 7,
+          "augmented_rank": 7
+        }
+      ]
+    }
+  ],
+  "literal_crib_plants": 80,
+  "ambiguous_planted_prefixes": 60,
+  "complete_small_ring_comparisons": 12,
+  "local_elapsed_seconds": 0.08696879099999999,
+  "local_regression_tests": 242,
+  "regression_failures": 0,
+  "regression_elapsed_seconds": 9.439,
+  "independent_numerical_controls": 231,
+  "independent_result_sha256": "d7dce355c9ba01adab6fe1901fa965f4d58f3edbc1e71396e8d1c5c31128e763",
+  "scope": "No resets, feedback, edits, new alphabet, route, higher order or tree model; formal structures include prior/degenerate overlap, not global novelty."
+}

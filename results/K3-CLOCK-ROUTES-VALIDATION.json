@@ -1,0 +1,20 @@
+{
+  "experiment": "K3-CLOCK-ROUTES-001",
+  "status": "passed",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v",
+  "tests": 187,
+  "elapsed_seconds": 8.941,
+  "python": "3.9.6",
+  "suite_log_sha256": "7f25c759a48be093d89e8df6b4007f8708ce728c9aaa1716946d2b74ab2835c0",
+  "run": "20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca",
+  "spec_commit": "dcb246cdd997ecd2f0b4f3a4c536ca65d8a47a14",
+  "code_commit": "9ea6b35f46a43374839096a7ac39594df94656ca",
+  "scope": {
+    "raw_structures": 390,
+    "skipped_exact_prior_models": 16,
+    "actual_new_models": 374,
+    "all_rejected": true,
+    "null_simulations": 0
+  },
+  "verification": "Complete previous suite, all new planted and graph controls, independent exact certificate and prior-domain receipt audits. No repeated actual experiment."
+}

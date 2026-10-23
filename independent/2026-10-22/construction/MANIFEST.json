@@ -1,0 +1,48 @@
+{
+  "bundle": "kryptos-construction-audit",
+  "version": "1.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 46,
+      "sha256": "de7e583634464a4cbed55c1d56081b7eb25ca3db447c094c5982833718dd6df2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2748,
+      "sha256": "68fb3a6adaed8ce77181a7799fbd9355dfcc1a9034ed7f2dec79c05b06058343"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 17232,
+      "sha256": "15b87d1b724c9adcfcc454d3935d289f4a1a54bfa93555be01e8c5cbfa656c8c"
+    },
+    {
+      "path": "audit_construction.py",
+      "bytes": 13033,
+      "sha256": "0baafd12518fd216616a740246cee9511417535ed16b97491076e024b9dc4596"
+    },
+    {
+      "path": "construction_audit_results.json",
+      "bytes": 4765,
+      "sha256": "282bb45af675b31a16f55d624a04674cc43c76cf04754e7dcbcbcd9e09b278d1"
+    },
+    {
+      "path": "derived_alignment_facts.json",
+      "bytes": 2822,
+      "sha256": "474a0ae2c2fb709c27f8e0a812bfc7810946fb559f8841fcb5898ea029828556"
+    },
+    {
+      "path": "test_audit_construction.py",
+      "bytes": 2029,
+      "sha256": "562ef93305b5a06a203c153649206e25da49797f4cd62290b7033e94df3db2a9"
+    },
+    {
+      "path": "validation_receipt.json",
+      "bytes": 616,
+      "sha256": "30f8f82b032d62a46d443765be9b4c6f7625c4dcfebd7151c5bc40ef049eeb5d"
+    }
+  ],
+  "manifest_scope": "All payload files except this manifest; archive SHA-256 supplied separately.",
+  "excluded": "Third-party pages, worksheet/document images, downloaded cache, complete artwork ciphertext/plaintext fixtures, Python bytecode."
+}

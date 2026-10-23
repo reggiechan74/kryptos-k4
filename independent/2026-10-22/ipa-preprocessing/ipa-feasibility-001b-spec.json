@@ -1,0 +1,64 @@
+{
+  "id": "IPA-FEASIBILITY-001B",
+  "preregistration_status": "Working freeze before evaluation; repository owner should commit spec before replay.",
+  "source_profile": "Exactly IPA-FEASIBILITY-001 R2; no altered transcription or normalization.",
+  "fixed_ascii_identity": {
+    "i": "I",
+    "s": "S",
+    "t": "T",
+    "n": "N",
+    "r": "R",
+    "b": "B",
+    "l": "L",
+    "k": "K"
+  },
+  "special_glyphs": [
+    "ː",
+    "ɔ",
+    "θ",
+    "ɝ",
+    "ɪ",
+    "ɑ"
+  ],
+  "special_rule": "One shared injective map of six special glyphs into A–Z excluding I,S,T,N,R,B,L,K; consider all assignments, never choose one after fit. 18P6=13,366,080 conceptual assignments.",
+  "alphabets": [
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+  ],
+  "families": [
+    {
+      "name": "Vigenere addition",
+      "equation": "C=P+K mod26",
+      "implied_key": "K=C-P mod26"
+    },
+    {
+      "name": "true Beaufort",
+      "equation": "C=K-P mod26",
+      "implied_key": "K=C+P mod26"
+    }
+  ],
+  "periods": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "phase": "Global zero-based ciphertext index mod p; no per-word resets.",
+  "structures": 48,
+  "procedure": [
+    "Construct implied key residues from ordinary-glyph positions only, using rank in the chosen alphabet for P,C. Any unequal key residues for one phase rejects the structure for every special assignment.",
+    "For ordinary-anchor survivors only, enumerate all 18P3=4896 injective assignments of first-crib specials ː,ɔ,θ, then all 15P3=2730 assignments of ɝ,ɪ,ɑ, or use an exactly equivalent constraint solver. Keep every compatible assignment and unconstrained key residue.",
+    "Report each rejection certificate and actual enumeration count. If all structures fail anchor gate, stop without special-map enumeration.",
+    "Never call surviving constraints a solution, historical encoding, or complete 26-letter phoneme alphabet."
+  ],
+  "assumptions": "Additional conditional prephonetic reading of the English crib disclosures and unchanged transformed block offsets; only observed14 glyph subset, no assertion all IPA/English phones fit26.",
+  "stopping": "All48 structures definitively contradicted or completely classified; no expansion of period, alphabet, dialect, keys or normalization."
+}

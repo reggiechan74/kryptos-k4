@@ -1,0 +1,151 @@
+{
+  "audit_version": "1.0",
+  "run_at_utc": "2026-10-22T21:06:43.750507+00:00",
+  "source_receipts": {
+    "cp": {
+      "url": "https://scirealm.org/CyrillicProjector.html",
+      "bytes": 101856,
+      "sha256_bytes": "b561985e56003f101c559df3661c036fa69836cdf9e7a1890e000355bc259ada"
+    },
+    "cp_elonka": {
+      "url": "https://elonka.com/kryptos/cyrillic.html",
+      "bytes": 29232,
+      "sha256_bytes": "1a87c5335bd8b2766a352ca614a722229397ec7b3e0417bedfaa9ef510ca8f3c"
+    },
+    "corr": {
+      "url": "https://www.elonka.com/kryptos/mirrors/CPSolution.html",
+      "bytes": 26234,
+      "sha256_bytes": "4f8264341ee79cbacaca7f1d15cb9e54b0a5a71d8d2796cff49dcc5638ea545d"
+    },
+    "kryptos_transcript": {
+      "url": "https://elonka.com/kryptos/transcript.html",
+      "bytes": 4050,
+      "sha256_bytes": "4ce3ce302046b85612c5fcd119ab57cbe4bc9ddf291d234d90aee3a6bbdf0aae"
+    },
+    "k2_correction": {
+      "url": "https://elonka.com/kryptos/CorrectedK2Announcement.html",
+      "bytes": 14564,
+      "sha256_bytes": "e06f061ef6a8b8988694dd9fe51ebfc6ce0e81628008df214b47f60395d52bcb"
+    }
+  },
+  "checks": {
+    "cyrillic_projector": {
+      "n_cipher_symbols_excluding_MEDUSA": 1133,
+      "n_published_plain_symbols": 1133,
+      "two_published_transcripts_match": true,
+      "cipher_sha256_utf8": "d7233bdf379ecff94694f7dca3d2cdec8cd51e44e7d1116de24842a67aee988b",
+      "published_plain_sha256_utf8": "84be71b155da1704e34977a0dbc95ecb3f81550037517232a461f428602b6886",
+      "continuous_key_matches": 777,
+      "restart_at_778_matches": 1133,
+      "restart_reencryption_hamming_distance": 0,
+      "relative_phase_runs": [
+        {
+          "start_1_based": 1,
+          "end_1_based": 777,
+          "phase_delta_mod_6": 0
+        },
+        {
+          "start_1_based": 778,
+          "end_1_based": 1133,
+          "phase_delta_mod_6": 3
+        }
+      ],
+      "phase_delta_controls_matches_out_of_1133": {
+        "0": 777,
+        "1": 777,
+        "2": 777,
+        "3": 1133,
+        "4": 777,
+        "5": 777
+      },
+      "normal_keyed_alphabet_control_matches": 1028,
+      "kryptos_style_keyed_plain_and_key_control_matches": 62,
+      "physical_row_lengths_including_MEDUSA": [
+        36,
+        35,
+        36,
+        35,
+        37,
+        36,
+        35,
+        34,
+        36,
+        37,
+        35,
+        36,
+        36,
+        35,
+        37,
+        36,
+        37,
+        35,
+        35,
+        35,
+        37,
+        33,
+        36,
+        34,
+        36,
+        35,
+        37,
+        36,
+        34,
+        36,
+        36,
+        35
+      ],
+      "panel_boundary_after_symbol": 566,
+      "semantic_boundary_coordinates": {
+        "777": {
+          "row_1_based": 22,
+          "column_1_based_including_MEDUSA": 32
+        },
+        "778": {
+          "row_1_based": 22,
+          "column_1_based_including_MEDUSA": 33
+        }
+      },
+      "boundary_plain_excerpt_1_based_761_through_800": "ЧНОСТНЫХОТНОШЕНИЙОБИЗГОТОВЛЕНИИСАХАРОВЫМ",
+      "literal_MEDUSA_insertion_after_cyrillic_symbol": 480,
+      "identifiability": "A key restart at the second-message boundary and a +3 mod 6 phase jump are identical on all retained symbols. Literal omitted text is not identified; insertion lengths 3+6m have the same downstream phase. Skipping MEDUSA or advancing six key positions is also indistinguishable."
+    },
+    "kryptos_k1_k2": {
+      "k1_symbols": 63,
+      "k1_published_plain_matches": true,
+      "k1_single_local_key_exception_reconstructs_inscribed_63_symbols": true,
+      "k1_anomaly_position_1_based": 57,
+      "k1_local_equivalence": {
+        "plain_L_key_C": "K",
+        "plain_Q_key_S": "K",
+        "plain_L_key_S": "W"
+      },
+      "k2_inscribed_letters": 369,
+      "k2_question_marks_ignored_for_key_advance": 3,
+      "k2_corrected_letters": 370,
+      "unique_deleted_intended_cipher_position_1_based": 362,
+      "deleted_cipher_symbol": "S",
+      "insert_after_observed_letters": 361,
+      "k2_old_tail": "WESTIDBYROWS",
+      "k2_corrected_tail": "WESTXLAYERTWO",
+      "k2_worksheet_difference_position_1_based_letters": 115,
+      "k2_local_equivalence": {
+        "plain_O_key_S": "E",
+        "plain_U_key_S": "R"
+      },
+      "k2_correction_reencryption_then_deletion_hamming_distance": 0
+    },
+    "k4_reference_only": {
+      "length": 97,
+      "sha256_utf8": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+      "physical_row_lengths": [
+        4,
+        31,
+        31,
+        31
+      ],
+      "mutations_applied": 0,
+      "candidate_plaintexts_generated": 0
+    }
+  },
+  "scope": "Historical convention regression test, not a K4 solution or evidence that K4 is erroneous."
+}

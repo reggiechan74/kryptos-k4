@@ -1,0 +1,65 @@
+{
+  "id": "SINGLE-BOUNDARY-RESET-001",
+  "date": "2026-10-22",
+  "baseline_commit": "da958eb409a75af7b066ce971d60db4d31661972",
+  "motivation": "Later1997 Cyrillic Projector published pair has semantic-boundary phase change, indistinguishable from reset versus+3phase advance. Weak later-art context, not evidence K4 uses a reset or has a known sentence boundary. Do not equate semantic and carved boundaries.",
+  "normalization": "Literal canonical97letters; no preceding separator, edits, permutation or crib shifts. Internal zero-based indices; known EASTNORTHEAST21..33 and BERLINCLOCK63..73 inclusive. All schedules share same rule/state parameters.",
+  "schedules": "b=None no reset or b=1..96 resetting BEFORE ciphertext indexb (one-based new-block positionb+1). Exactly97schedule descriptions. No boundary0/97duplicates, no second reset, no independent block seeds/keys.",
+  "mtf": {
+    "models": "R,S0 independently AZ or KRYPTOS; same emitted-C move-to-front rule as STRATEGY-FOLLOWUP-001. Atb restore S0, R unchanged. Four times97=388raw cases including4coveredno-reset baselines.",
+    "dedup": "Exact full97decoded strings conditional on fixed ciphertext, with all description aliases retained. Label observational equivalence, not global rule identity. No score-driven model changes.",
+    "training": "Select structural cases on first13 only, report all11second-island outputs as predictions per selected complete model, numberforced across training-compatible plaintexts, all24survivors and distinct full plaintexts. Public clues historically known; model/boundary choice charged to388descriptions; no numerical posterior."
+  },
+  "affine_feedback": {
+    "grammar": "C_i=A[(index_A(P_i)+K_i)%26],K0=k;K_i=a*K_(i-1)+c+d*index_A(C_(i-1))mod26. Atb setK_b=k instead of applying previous transition. a,c,d,k each0..25, same acrossbothblocks; AZ/KRYPTOS only. c here names the previous specification b coefficient, to distinguish boundaryb.",
+    "raw_upper_bound": 88653344,
+    "raw_description_count_explanation": "97schedules times2times26^4; not distinct transformations and not a promised enumeration. No-reset grammar already rejected. Zero compatible descriptions means zero distinct plaintexts; do not enumerate degenerate parameter aliases solely to inflate counts.",
+    "cheap_proof": "Verify supplied parity witnesses separately within each disjoint crib island. A single reset removes only a transition whose target is boundaryb; at least one whole island remains untouched. Prove full family impossible if an untouched valid witness exists; no full seed enumeration then. Witnesses disclosed before this frozen specification, so verification not blind discovery.",
+    "supplied_witnesses_one_based": {
+      "AZ": [
+        [
+          22,
+          24
+        ],
+        [
+          64,
+          67
+        ]
+      ],
+      "KRYPTOS": [
+        [
+          22,
+          26
+        ],
+        [
+          65,
+          67
+        ]
+      ]
+    },
+    "exact_training_counts": "First crib only: derive required K_i from its13letters. Enumerate26^3coefficient triples per alphabet, retain only triples with at most1violated internal transition. A violation can be removed only when its target equalsboundaryb;0violations permitallschedules. For surviving schedule/triple, propagate K_i=u_i*k+v_i to index33 with resetu=1,v=0, enumerate26possiblek against13trainingequations; no division modulo26. Save exact trainparameter/distinctplaintext counts and forced heldout positions if any, but never use Berlin to fit. Full-family rejection uses untouched-island certificates."
+  },
+  "periodic_audit": {
+    "scope": "Periods1..12,twoalphabets,existing plus/minus/Beaufort equations,oneshared unrestricted periodic key,phase0restart atb. No dictionary guesses,otherperiods or shiftedcribs.",
+    "raw_shapes": 6984,
+    "equations": "C=sigma*P+tau*K mod26:plus(1,1),minus(1,-1),Beaufort(-1,1). Canonicalize effective keytau*K:plus/minussamefamily with unrestricted symbols, not independent evidence.",
+    "dedup": "Canonical full97phase equality signature by first occurrence, fixedperiod/alphabet/sigma. Boundarymultipleofperiod equalsno-reset baseline; phase relabeling exact arbitrary-key equivalence. Retain allrawaliases, markcoveredbaselinecases, no new counted key trials forcoveredcases. Existing2reset-at22/64proof isdifferent schedule; p8/10untouched-island constraints supplied beforefreeze willbe independentlyverified.",
+    "constraints": "Fit required effectivekeybyphase on13trainletters, detect conflicts; evaluateBerlin onlyin alreadyfixedphases asindividualpredictions; newphases spendfreeparameters. Recordjoint checks11-newphases, all24compatibility,freephases,26^free exactkey/fullplaintext count whencompatible. Do not fill unknown phases or print attractive completions."
+  },
+  "controls": {
+    "seed": 2026102222,
+    "mtf_positives": "32=4initialpairs times4trueboundaries[None,21,63,74]times2replicates. Seededrandom97letterfiller withactual24cribstringsatfixedpositions. Blindedselectorgetsno label/plaintext; generatingcase included and its fullplantedmessage exactlyrecovered. Report ambiguity ratherthanrequireuniqueboundary; b74 isafterlastcrib and canbe unidentifiable.",
+    "mtf_negative": "8nearbycyclic-rotation cases=4pairs times2replicates,no reset; useexistingfixed negative generator only.32histogramshuffles,oneperpositive,full388selectorandidentical24constraints. Descriptivecompatibilitycounts,no false-positivepvalue.",
+    "mtf_oracle": "Independentrecency-prefix state reconstruction resetatb, all26one-step symbols, knownfixedmessageinverses, and preservedbaselineoracle.",
+    "recurrence_positives": "32fixedparameterknown-answer plants:2alphabets times4coefficient/seedtuples[(0,4,16,4),(2,17,7,16),(25,15,20,14),(1,0,0,5)]times4boundaries[None,21,63,74]. Actual24cribstrings, fullinverse, predictedinternaledgesexceptcut, nofalseproofattrueboundary. Checknonunitseedalias andstationary-stateallboundaryalias; notunknownparameterblindrecovery.",
+    "periodic_positives": "216known-answer plants=2alphabets times3equations times12periods times3boundaries[None,21,63]. Seededkey, actual24strings, exact fullinverse, trueconstraintscompatible. Mutateoneknownlettersharingphasewithanother torejecttruefixedmodel."
+  },
+  "acceptance": "All24fixedlettersandfull97regenerationforcompletecases; anysurvivor iscrib_fit_only. Reportrawdescriptionsversusdeduplicatedcompleteplaintexts and unknownphasevolume. No partialEnglish,candidateclaimorindependentvalidation. Ifexactlyrejected,noK4nullsignificance simulation. Descriptivecontrolfalseacceptancesmustremainvisible; do not tune afterfailure.",
+  "budget": {
+    "seconds": 120,
+    "processes": 1,
+    "memory_MB": 256,
+    "stop": "Deadline/error publishesincompleteimmutablemanifest,nofurtherboundaryorparameterexpansion. No automaticsecondreset."
+  },
+  "provenance": "Commit frozen specification before implementation and actual evaluation; verifybaseline/consultedcommittedbytes, runexistingK1-K3controls, RunSnapshot withallcases,aliases,proofs,controlcounts,seeds,hashes,versions,exactcommand. Localcodeandscopedresearchbranchpushauthorized; preserveoriginalartifacts,main,Siteandsecurityconfiguration."
+}
