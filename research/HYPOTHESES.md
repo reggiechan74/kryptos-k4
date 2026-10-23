@@ -127,12 +127,12 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: evidence-blocked
 - Mechanism: Viewing the rear can mirror glyph outlines independently of reversing the order in which positions are read.
 - Evidence: [source or scoped prior review](../docs/scott-sun-geometry-audit-2026-10-22.md); historical availability or user proposal does not establish creator use.
-- Tested scope: The tableau is intentionally seen mirrored from the opposite side; route catalogues test listed index permutations, not actual mirrored glyph identities.
-- Untested scope: A photographed, face-specific physical reading convention.
-- Missing inputs: Source-supported viewpoint, text face, aperture contours and distinction between reflection and order reversal.
+- Tested scope: FOLD-SLIDE-020 tests the user-anchored MYVGT/AABCD double-reflection overlay at every integer displacement −33 through +33 under two explicit transcript registrations (134 frames). Conditional full-scan nulls show no unusual label or modeled aperture excess. This is distinct from route permutations.
+- Untested scope: Measured aperture contours, calibrated face-specific registration and actual physical light transmission remain untested.
+- Missing inputs: The intended initial view and fold are declared; actual aperture contours, pitch, sheet pose and light geometry remain unmeasured.
 - Next discriminating test: Verify a fixed known K1–K3 photograph with an explicitly declared mirror/order operation before applying a K4 transformation.
 - Dependencies: Completed physical-source review plus remaining independent input gates; H-OPTICAL; canonical transcript cannot be edited to fit
-- Results: [retained evidence and finite coverage](../docs/scott-sun-geometry-audit-2026-10-22.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [retained evidence and finite coverage](../docs/scott-sun-geometry-audit-2026-10-22.md); [completed conditional fold/slide experiment](MONUMENT-FOLD-SLIDE-FINDINGS.md); the physical optical model remains evidence-blocked.
 
 ### H-OPTICAL
 

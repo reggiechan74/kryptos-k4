@@ -53,3 +53,10 @@ PYTHONPYCACHEPREFIX=/tmp/k4-pycache python3 experiments/frontier_assessment.py -
 This checks all 60 stable entries, gate references and available local artifacts, then reproduces the saved review. It performs **no network request, cipher fit, search launch or replay execution**. File presence is not historical authentication. Each gate's `safe_replay_argv` preserves an existing executable validation command and explicitly says what it does not establish. Those commands are replays, not newly approved cipher domains. `null` means the necessary inputs or runnable implementation do not exist; there is no fabricated command behind it.
 
 A genuinely new observation, authenticated distinct procedure or sound solver implementation can reopen a specific gate. It must receive a new versioned protocol, independent controls and honest fitted-versus-predicted accounting before K4 evaluation. Until then, progress is blocked by those concrete information/algorithm gaps—not by lack of permission, and not by a claim that K4 or all cryptography has been exhausted.
+
+
+## Later completed overlay checkpoint and visitor navigation
+
+FOLD-SLIDE-020 completes the user-anchored double-reflection transcript overlay, with every integer column displacement, full-family conditional controls and exact position readouts. [Findings](MONUMENT-FOLD-SLIDE-FINDINGS.md) distinguish same-facing glyph labels from uncalibrated modeled common apertures. This adds no decryption candidate and does not remove the missing measured-geometry gate. [FRONTIER-020](../results/FRONTIER-020.json) supersedes the readiness snapshot; prior receipts remain historical.
+
+The [visitor trackers](../docs/tracking/README.md) index the current 60-family canonical register and original experiment log. They preserve unknown run times rather than infer them from commits. This documentation work does not run another cipher search or change the live Site.

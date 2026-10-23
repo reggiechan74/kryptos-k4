@@ -1,0 +1,301 @@
+# Result and run receipts
+
+Generated navigation; edit the canonical ledger or receipts, then run `python3 experiments/build_research_navigation.py`. The JSON retains complete scope fields and original log entries. No experiment is executed by this generator.
+
+One row per tracked top-level JSON result artifact. Several artifacts can describe the same run; do not add rows as search counts. Original timestamps and their field names are retained in tracker.json. Nested metadata may contain additional detail; unknown here is not a claim that the experiment never ran.
+
+| Artifact | Recorded label / kind | Explicit timestamp roles (UTC) |
+| --- | --- | --- |
+| [results/AFFINE-DIGRAPH-CROSSED-001-controls.json](../../results/AFFINE-DIGRAPH-CROSSED-001-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/AFFINE-DIGRAPH-CROSSED-001.json](../../results/AFFINE-DIGRAPH-CROSSED-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/AFFINE-DIGRAPH-PARITY-001.json](../../results/AFFINE-DIGRAPH-PARITY-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/ALPHABET-GEOMETRY-001.json](../../results/ALPHABET-GEOMETRY-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/ALPHABET-GEOMETRY-LOCAL-REPLAY.json](../../results/ALPHABET-GEOMETRY-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
+| [results/ANCHOR-017-chronology.json](../../results/ANCHOR-017-chronology.json) |  | Exact run start/end unknown; inspect original |
+| [results/AUDIT-001.json](../../results/AUDIT-001.json) | focused audit hardening and exact archived-scope replay; AUDIT-001; audit-a461e1c98a75446dad164a533f5ae45f | Exact run start/end unknown; inspect original |
+| [results/AUTOKEY-CONSTRAINT-CHRONOLOGY.json](../../results/AUTOKEY-CONSTRAINT-CHRONOLOGY.json) |  | start: 2026-10-18T13:41:47.786677Z |
+| [results/AUTOKEY-CONSTRAINT-VALIDATION.json](../../results/AUTOKEY-CONSTRAINT-VALIDATION.json) | AUTOKEY-CONSTRAINT-VALIDATION | receipt recording: 2026-10-18T13:45:51.537390Z |
+| [results/AUTONOMOUS-RECURRENCE-SUMMARY.json](../../results/AUTONOMOUS-RECURRENCE-SUMMARY.json) | AUTONOMOUS-RECURRENCE-001-SUMMARY; 20261022T215356Z-4769d0b137d348e99db42ee5918dc799 | Exact run start/end unknown; inspect original |
+| [results/BASE60-BEAUFORT-001.json](../../results/BASE60-BEAUFORT-001.json) | BASE60-BEAUFORT-001 | artifact creation: 2026-10-18T16:38:35.658145Z |
+| [results/BASE60-BEAUFORT-CONTINUATION-001.json](../../results/BASE60-BEAUFORT-CONTINUATION-001.json) | BASE60-BEAUFORT-CONTINUATION-001 | artifact creation: 2026-10-18T16:46:16.039116Z; end: 2026-10-18T16:46:48.436619Z |
+| [results/BASE60-BEAUFORT-CONTINUATION-VALIDATION.json](../../results/BASE60-BEAUFORT-CONTINUATION-VALIDATION.json) | BASE60-BEAUFORT-CONTINUATION-001 | Exact run start/end unknown; inspect original |
+| [results/BASE60-BEAUFORT-VALIDATION.json](../../results/BASE60-BEAUFORT-VALIDATION.json) | BASE60-BEAUFORT-001 | Exact run start/end unknown; inspect original |
+| [results/CLOCK-BOUNDARY-CHRONOLOGY.json](../../results/CLOCK-BOUNDARY-CHRONOLOGY.json) |  | start: 2026-10-18T12:42:41.282170Z |
+| [results/CLOCK-BOUNDARY-VALIDATION.json](../../results/CLOCK-BOUNDARY-VALIDATION.json) | CLOCK-BOUNDARY-VALIDATION | receipt recording: 2026-10-18T12:43:31.200356Z |
+| [results/CONDITIONAL-FACE-LAMP-001-VALIDATION.json](../../results/CONDITIONAL-FACE-LAMP-001-VALIDATION.json) | bounded completed batch verification | Exact run start/end unknown; inspect original |
+| [results/CONDITIONAL-FACE-LAMP-001-controls.json](../../results/CONDITIONAL-FACE-LAMP-001-controls.json) | controls before actual K4 evaluation | Exact run start/end unknown; inspect original |
+| [results/CONDITIONAL-FACE-LAMP-001-independent.json](../../results/CONDITIONAL-FACE-LAMP-001-independent.json) |  | Exact run start/end unknown; inspect original |
+| [results/CONDITIONAL-FACE-LAMP-001.json](../../results/CONDITIONAL-FACE-LAMP-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/CONTINUATION-VALIDATION.json](../../results/CONTINUATION-VALIDATION.json) |  | Exact run start/end unknown; inspect original |
+| [results/CSP889-ANCHOR-017-validation.json](../../results/CSP889-ANCHOR-017-validation.json) | CSP889-ANCHOR-017-validation | Exact run start/end unknown; inspect original |
+| [results/CSP889-ANCHOR-017.json](../../results/CSP889-ANCHOR-017.json) | CSP889-ANCHOR-017 | Exact run start/end unknown; inspect original |
+| [results/CSP889-COMPACT-018-validation.json](../../results/CSP889-COMPACT-018-validation.json) | CSP889-COMPACT-018-validation | Exact run start/end unknown; inspect original |
+| [results/CSP889-COMPACT-018.json](../../results/CSP889-COMPACT-018.json) | CSP889-COMPACT-018 | Exact run start/end unknown; inspect original |
+| [results/CSP889-DOMAIN-016-validation.json](../../results/CSP889-DOMAIN-016-validation.json) | CSP889-DOMAIN-016-validation | Exact run start/end unknown; inspect original |
+| [results/CSP889-DOMAIN-016.json](../../results/CSP889-DOMAIN-016.json) | CSP889-DOMAIN-016 | Exact run start/end unknown; inspect original |
+| [results/CSP889-FILTER-019-validation.json](../../results/CSP889-FILTER-019-validation.json) | CSP889-FILTER-019-validation | Exact run start/end unknown; inspect original |
+| [results/CSP889-FILTER-019.json](../../results/CSP889-FILTER-019.json) | CSP889-FILTER-019 | Exact run start/end unknown; inspect original |
+| [results/CSP889-REAL-014-validation.json](../../results/CSP889-REAL-014-validation.json) | CSP889-REAL-014-validation | Exact run start/end unknown; inspect original |
+| [results/CSP889-SPARSE-015-validation.json](../../results/CSP889-SPARSE-015-validation.json) | CSP889-SPARSE-015-validation | Exact run start/end unknown; inspect original |
+| [results/CSP889-SPARSE-015.json](../../results/CSP889-SPARSE-015.json) | CSP889-SPARSE-015 | Exact run start/end unknown; inspect original |
+| [results/CTRL-001.json](../../results/CTRL-001.json) | CTRL-001 | Exact run start/end unknown; inspect original |
+| [results/DOCUMENTATION-LINK-AUDIT-020.json](../../results/DOCUMENTATION-LINK-AUDIT-020.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
+| [results/DYNAMIC-KEY-VALIDATION.json](../../results/DYNAMIC-KEY-VALIDATION.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
+| [results/ENE-NOTE-CHECKS.json](../../results/ENE-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-001.json](../../results/EXCLUSION-SCOPE-AUDIT-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-002.json](../../results/EXCLUSION-SCOPE-AUDIT-002.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-003.json](../../results/EXCLUSION-SCOPE-AUDIT-003.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-004.json](../../results/EXCLUSION-SCOPE-AUDIT-004.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-005.json](../../results/EXCLUSION-SCOPE-AUDIT-005.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-006.json](../../results/EXCLUSION-SCOPE-AUDIT-006.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-007.json](../../results/EXCLUSION-SCOPE-AUDIT-007.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-008.json](../../results/EXCLUSION-SCOPE-AUDIT-008.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-009.json](../../results/EXCLUSION-SCOPE-AUDIT-009.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-010.json](../../results/EXCLUSION-SCOPE-AUDIT-010.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-011.json](../../results/EXCLUSION-SCOPE-AUDIT-011.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-012.json](../../results/EXCLUSION-SCOPE-AUDIT-012.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-013.json](../../results/EXCLUSION-SCOPE-AUDIT-013.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-014.json](../../results/EXCLUSION-SCOPE-AUDIT-014.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-015.json](../../results/EXCLUSION-SCOPE-AUDIT-015.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-016.json](../../results/EXCLUSION-SCOPE-AUDIT-016.json) |  | Exact run start/end unknown; inspect original |
+| [results/FACE-ROW-001-COVERAGE.json](../../results/FACE-ROW-001-COVERAGE.json) | prior-coverage audit; zero K4 evaluations | Exact run start/end unknown; inspect original |
+| [results/FEISTEL-SYMMETRY-005-controls.json](../../results/FEISTEL-SYMMETRY-005-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/FEISTEL-SYMMETRY-005.json](../../results/FEISTEL-SYMMETRY-005.json) |  | Exact run start/end unknown; inspect original |
+| [results/FEISTEL-THREE-005-controls.json](../../results/FEISTEL-THREE-005-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/FEISTEL-THREE-005-independent.json](../../results/FEISTEL-THREE-005-independent.json) |  | Exact run start/end unknown; inspect original |
+| [results/FEISTEL-THREE-005.json](../../results/FEISTEL-THREE-005.json) |  | Exact run start/end unknown; inspect original |
+| [results/FEISTEL-TREE-VALIDATION-005.json](../../results/FEISTEL-TREE-VALIDATION-005.json) |  | Exact run start/end unknown; inspect original |
+| [results/FIXED-PILOTS-VALIDATION.json](../../results/FIXED-PILOTS-VALIDATION.json) |  | Exact run start/end unknown; inspect original |
+| [results/FOLD-DOCS-VALIDATION-020.json](../../results/FOLD-DOCS-VALIDATION-020.json) | FOLD-DOCS-VALIDATION-020; Completed fold overlay and reader-navigation validation; no K4 solution or Site deployment | receipt recording: 2026-10-23T13:02:45.393979Z |
+| [results/FOLD-SLIDE-020-actual.json](../../results/FOLD-SLIDE-020-actual.json) | FOLD-SLIDE-020 | Exact run start/end unknown; inspect original |
+| [results/FOLD-SLIDE-020-export.json](../../results/FOLD-SLIDE-020-export.json) |  | Exact run start/end unknown; inspect original |
+| [results/FOLD-SLIDE-020-null-rotation.json](../../results/FOLD-SLIDE-020-null-rotation.json) |  | Exact run start/end unknown; inspect original |
+| [results/FOLD-SLIDE-020-null-shuffle.json](../../results/FOLD-SLIDE-020-null-shuffle.json) |  | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-011-validation.json](../../results/FRONTIER-011-validation.json) |  | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-011.json](../../results/FRONTIER-011.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-012.json](../../results/FRONTIER-012.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-013.json](../../results/FRONTIER-013.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-014.json](../../results/FRONTIER-014.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-015.json](../../results/FRONTIER-015.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-016.json](../../results/FRONTIER-016.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-017.json](../../results/FRONTIER-017.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-018.json](../../results/FRONTIER-018.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-019.json](../../results/FRONTIER-019.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-020.json](../../results/FRONTIER-020.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FULL-STATE-PHYSICAL-VALIDATION-001.json](../../results/FULL-STATE-PHYSICAL-VALIDATION-001.json) | FULL-STATE-PHYSICAL-VALIDATION-001 | Exact run start/end unknown; inspect original |
+| [results/GEOMETRIC-FOLLOWUP-COMPARISON.json](../../results/GEOMETRIC-FOLLOWUP-COMPARISON.json) |  | Exact run start/end unknown; inspect original |
+| [results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json](../../results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
+| [results/GEOMETRIC-PILOT-001-controls.json](../../results/GEOMETRIC-PILOT-001-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/GEOMETRIC-PILOT-001.json](../../results/GEOMETRIC-PILOT-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/GEOMETRIC-PROBABILITY-RADIX-LOCAL-REPLAY.json](../../results/GEOMETRIC-PROBABILITY-RADIX-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
+| [results/GEOMETRIC-PROBABILITY-RADIX-TRANSFER.json](../../results/GEOMETRIC-PROBABILITY-RADIX-TRANSFER.json) |  | Exact run start/end unknown; inspect original |
+| [results/GREEK-PHONETIC-001-controls.json](../../results/GREEK-PHONETIC-001-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/GREEK-PHONETIC-001.json](../../results/GREEK-PHONETIC-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/GREEK-SIGABA-001-VALIDATION.json](../../results/GREEK-SIGABA-001-VALIDATION.json) | completed bounded candidate verification | Exact run start/end unknown; inspect original |
+| [results/GREEK-SIGABA-001-independent.json](../../results/GREEK-SIGABA-001-independent.json) | post-run separate implementation in same executor | Exact run start/end unknown; inspect original |
+| [results/GROMARK-ALPHABET-CHRONOLOGY.json](../../results/GROMARK-ALPHABET-CHRONOLOGY.json) |  | start: 2026-10-18T13:56:06.417135Z |
+| [results/GROMARK-ALPHABET-INDEPENDENT-CROSSCHECK.json](../../results/GROMARK-ALPHABET-INDEPENDENT-CROSSCHECK.json) | GROMARK-ALPHABET-INDEPENDENT-CROSSCHECK | Exact run start/end unknown; inspect original |
+| [results/GROMARK-ALPHABET-VALIDATION.json](../../results/GROMARK-ALPHABET-VALIDATION.json) | GROMARK-ALPHABET-VALIDATION | receipt recording: 2026-10-18T14:00:18.828937Z |
+| [results/GROMARK-IDENTIFIABILITY-CHRONOLOGY.json](../../results/GROMARK-IDENTIFIABILITY-CHRONOLOGY.json) |  | start: 2026-10-18T15:03:35.382531Z |
+| [results/GROMARK-IDENTIFIABILITY-VALIDATION.json](../../results/GROMARK-IDENTIFIABILITY-VALIDATION.json) | GROMARK-IDENTIFIABILITY-VALIDATION | receipt recording: 2026-10-18T15:07:52.133259Z |
+| [results/HISTORICAL-SIGABA-SCOPE-VALIDATION-001.json](../../results/HISTORICAL-SIGABA-SCOPE-VALIDATION-001.json) | HISTORICAL-SIGABA-SCOPE-VALIDATION-001 | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-001.json](../../results/HYPOTHESIS-REGISTER-001.json) | documentation coverage audit; no K4 evaluation | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-002.json](../../results/HYPOTHESIS-REGISTER-002.json) | source integration and protocol readiness; no new K4 evaluation | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-003.json](../../results/HYPOTHESIS-REGISTER-003.json) | completed finite tests and exact analytical exclusion | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-004.json](../../results/HYPOTHESIS-REGISTER-004.json) | completed Greek approximation and custom SIGABA-inspired finite pilots | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-005.json](../../results/HYPOTHESIS-REGISTER-005.json) | Historical CSP-889 finite result and all-canonical exclusion scope review | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-006.json](../../results/HYPOTHESIS-REGISTER-006.json) | Full cipher-state inference and locally verified physical addendum | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-007.json](../../results/HYPOTHESIS-REGISTER-007.json) | Joint-state feasibility and exact non-rotor structural constraints | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-008.json](../../results/HYPOTHESIS-REGISTER-008.json) | Exact Feistel family audit, three-round ambiguity and arbitrary-state tree support | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-009.json](../../results/HYPOTHESIS-REGISTER-009.json) | Arbitrary-key Fractionated Morse exact local exclusion | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-010.json](../../results/HYPOTHESIS-REGISTER-010.json) | Source-grounded arbitrary-ring Wheatstone analytical exclusion | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-011.json](../../results/HYPOTHESIS-REGISTER-011.json) | All-entry disciplined frontier assessment; no new cryptanalysis | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-012.json](../../results/HYPOTHESIS-REGISTER-012.json) | Coupled synthetic SIGABA solver completeness and measured scaling boundary | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-013.json](../../results/HYPOTHESIS-REGISTER-013.json) | Exact torus translation reuse on unchanged coupled synthetic fixtures | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-014.json](../../results/HYPOTHESIS-REGISTER-014.json) | Authentic coupled CSP-889 adapter with failed real-sized synthetic resource gate | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-015.json](../../results/HYPOTHESIS-REGISTER-015.json) | Exact sparse ownership and reserved predicate cache: unchanged real-sized admission remains unresolved | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-016.json](../../results/HYPOTHESIS-REGISTER-016.json) | Profiler-supported cached exact domain keys; prefix advances but no complete real controller | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-017.json](../../results/HYPOTHESIS-REGISTER-017.json) | Exact full-torus first-observation anchoring; observed-domain memory gate remains unresolved | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-018.json](../../results/HYPOTHESIS-REGISTER-018.json) | Exact compressed cipher sets: 12/14 complete synthetic controllers; remaining full domain unresolved, local only | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-019.json](../../results/HYPOTHESIS-REGISTER-019.json) | Supplied-anchor collector-filter diagnostic; conditional selectivity, no new full-domain controller coverage | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-020.json](../../results/HYPOTHESIS-REGISTER-020.json) | Completed conditional fold/slide and visitor documentation; no cipher-solution claim | Exact run start/end unknown; inspect original |
+| [results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json](../../results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json) |  | Exact run start/end unknown; inspect original |
+| [results/IPA-FREE-MAP-001-controls.json](../../results/IPA-FREE-MAP-001-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/IPA-FREE-MAP-001.json](../../results/IPA-FREE-MAP-001.json) | IPA-FREE-MAP-001 | Exact run start/end unknown; inspect original |
+| [results/IPA-FREE-MAP-LOCAL-VALIDATION.json](../../results/IPA-FREE-MAP-LOCAL-VALIDATION.json) |  | Exact run start/end unknown; inspect original |
+| [results/IPA-INDEPENDENT-LOCAL-REPLAY.json](../../results/IPA-INDEPENDENT-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
+| [results/IPA-PREPROCESSING-001-controls.json](../../results/IPA-PREPROCESSING-001-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/IPA-PREPROCESSING-001.json](../../results/IPA-PREPROCESSING-001.json) | IPA-PREPROCESSING-001 | Exact run start/end unknown; inspect original |
+| [results/IPA-SOURCE-COMPARISON.json](../../results/IPA-SOURCE-COMPARISON.json) |  | Exact run start/end unknown; inspect original |
+| [results/JOINT-NONROTOR-VALIDATION-001.json](../../results/JOINT-NONROTOR-VALIDATION-001.json) | JOINT-NONROTOR-VALIDATION-001 | Exact run start/end unknown; inspect original |
+| [results/K3-CLOCK-ROUTES-VALIDATION.json](../../results/K3-CLOCK-ROUTES-VALIDATION.json) | K3-CLOCK-ROUTES-001 | Exact run start/end unknown; inspect original |
+| [results/LANGUAGE-MASKING-WORD-VALIDATION.json](../../results/LANGUAGE-MASKING-WORD-VALIDATION.json) | LANGUAGE-MASKING-WORD-VALIDATION; validation-59dbd3aa44564bb689f39b39034617e2 | receipt recording: 2026-10-18T11:30:39.768784Z |
+| [results/LETTER-ACROSTIC-SOURCE-CHECK.json](../../results/LETTER-ACROSTIC-SOURCE-CHECK.json) |  | Exact run start/end unknown; inspect original |
+| [results/LODESTONE-COMPASS-EVIDENCE-INTEGRATION-001.json](../../results/LODESTONE-COMPASS-EVIDENCE-INTEGRATION-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/MASK-FM-ARBITRARY-007-controls.json](../../results/MASK-FM-ARBITRARY-007-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/MASK-FM-ARBITRARY-007-independent.json](../../results/MASK-FM-ARBITRARY-007-independent.json) |  | Exact run start/end unknown; inspect original |
+| [results/MASK-FM-ARBITRARY-007-validation.json](../../results/MASK-FM-ARBITRARY-007-validation.json) |  | Exact run start/end unknown; inspect original |
+| [results/MASK-FM-ARBITRARY-007.json](../../results/MASK-FM-ARBITRARY-007.json) |  | Exact run start/end unknown; inspect original |
+| [results/NONROTOR-STRUCTURAL-004-controls.json](../../results/NONROTOR-STRUCTURAL-004-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/NONROTOR-STRUCTURAL-004-independent.json](../../results/NONROTOR-STRUCTURAL-004-independent.json) | Post-run independent exact-entry certificates; actual models contradict before unsupported latent branch handling | Exact run start/end unknown; inspect original |
+| [results/NONROTOR-STRUCTURAL-004-initial-diagnostic.json](../../results/NONROTOR-STRUCTURAL-004-initial-diagnostic.json) |  | Exact run start/end unknown; inspect original |
+| [results/NONROTOR-STRUCTURAL-004.json](../../results/NONROTOR-STRUCTURAL-004.json) |  | Exact run start/end unknown; inspect original |
+| [results/OCCUPIED-CELL-VALIDATION.json](../../results/OCCUPIED-CELL-VALIDATION.json) | OCCUPIED-CELL-ROUTES-001 | Exact run start/end unknown; inspect original |
+| [results/PERIOD-MAP-ENIGMA-VALIDATION.json](../../results/PERIOD-MAP-ENIGMA-VALIDATION.json) | PERIOD-MAP-ENIGMA-VALIDATION | receipt recording: 2026-10-18T12:00:46.104564Z |
+| [results/PHONETIC-CL-001-summary.json](../../results/PHONETIC-CL-001-summary.json) | PHONETIC-CL-001 | Exact run start/end unknown; inspect original |
+| [results/PHONETIC-CL-VALIDATION.json](../../results/PHONETIC-CL-VALIDATION.json) | PHONETIC-CL-001 | Exact run start/end unknown; inspect original |
+| [results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json](../../results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json) | PHYSICAL-ADDENDUM-LOCAL-REVIEW-001 | Exact run start/end unknown; inspect original |
+| [results/RECURRENCE-CERTIFICATE-REVIEW-001.json](../../results/RECURRENCE-CERTIFICATE-REVIEW-001.json) | RECURRENCE-CERTIFICATE-REVIEW-001 | Exact run start/end unknown; inspect original |
+| [results/ROUTE-001-summary.json](../../results/ROUTE-001-summary.json) | ROUTE-001 | Exact run start/end unknown; inspect original |
+| [results/RUNKEY-001.json](../../results/RUNKEY-001.json) | RUNKEY-001 | Exact run start/end unknown; inspect original |
+| [results/SEQUENTIAL-BRANCHES-VALIDATION.json](../../results/SEQUENTIAL-BRANCHES-VALIDATION.json) | SEQUENTIAL-BRANCHES-VALIDATION; validation-fd34175c5c884c318517ee9bff84ef5d | receipt recording: 2026-10-18T11:35:01.252332Z |
+| [results/SIGABA-CSP889-001-controls.json](../../results/SIGABA-CSP889-001-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-CSP889-001.json](../../results/SIGABA-CSP889-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-CSP889-STATE-002-controls.json](../../results/SIGABA-CSP889-STATE-002-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-CSP889-STATE-002.json](../../results/SIGABA-CSP889-STATE-002.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-INSPIRED-001-controls.json](../../results/SIGABA-INSPIRED-001-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-INSPIRED-001.json](../../results/SIGABA-INSPIRED-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-JOINT-FEASIBILITY-003.json](../../results/SIGABA-JOINT-FEASIBILITY-003.json) | SIGABA-JOINT-FEASIBILITY-003 | Exact run start/end unknown; inspect original |
+| [results/SIGABA-JOINT-TOY-012-validation.json](../../results/SIGABA-JOINT-TOY-012-validation.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-JOINT-TOY-012.json](../../results/SIGABA-JOINT-TOY-012.json) | SIGABA-JOINT-TOY-012 | Exact run start/end unknown; inspect original |
+| [results/SIGABA-STATE-PROTOTYPE-LOCAL-REPLAY.json](../../results/SIGABA-STATE-PROTOTYPE-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-STATE-PROTOTYPE-ORIGINAL.json](../../results/SIGABA-STATE-PROTOTYPE-ORIGINAL.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-TORUS-013-controls.json](../../results/SIGABA-TORUS-013-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-TORUS-013-validation.json](../../results/SIGABA-TORUS-013-validation.json) | SIGABA-TORUS-013-validation | Exact run start/end unknown; inspect original |
+| [results/SIGABA-TORUS-013.json](../../results/SIGABA-TORUS-013.json) | SIGABA-TORUS-013 | Exact run start/end unknown; inspect original |
+| [results/SILK-PERIODIC-VALIDATION.json](../../results/SILK-PERIODIC-VALIDATION.json) | SILK-PERIODIC-001; 20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1 | start: 2026-10-18T15:32:21.428512Z; end: 2026-10-18T15:32:21.432293Z |
+| [results/SINGLE-BOUNDARY-RESET-SUMMARY.json](../../results/SINGLE-BOUNDARY-RESET-SUMMARY.json) | SINGLE-BOUNDARY-RESET-001-SUMMARY; 20261022T212416Z-f634e152375e406d971f9edc1dc91096 | Exact run start/end unknown; inspect original |
+| [results/SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001.json](../../results/SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001.json) | SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001 | Exact run start/end unknown; inspect original |
+| [results/SITE-CONFIRMED-CLUES-SOURCE-HANDOFF.json](../../results/SITE-CONFIRMED-CLUES-SOURCE-HANDOFF.json) |  | Exact run start/end unknown; inspect original |
+| [results/SITE-ENTRANCE-V14-SOURCE-HANDOFF.json](../../results/SITE-ENTRANCE-V14-SOURCE-HANDOFF.json) |  | Exact run start/end unknown; inspect original |
+| [results/SOLAR-BOUNDS-NOTE-CHECKS.json](../../results/SOLAR-BOUNDS-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
+| [results/SPECIFICATION-CHRONOLOGY.json](../../results/SPECIFICATION-CHRONOLOGY.json) |  | Exact run start/end unknown; inspect original |
+| [results/STAT-001-summary.json](../../results/STAT-001-summary.json) | STAT-001 | Exact run start/end unknown; inspect original |
+| [results/STAT-CROSSVERSION-014-python312.json](../../results/STAT-CROSSVERSION-014-python312.json) |  | Exact run start/end unknown; inspect original |
+| [results/STAT-CROSSVERSION-014-python39.json](../../results/STAT-CROSSVERSION-014-python39.json) |  | Exact run start/end unknown; inspect original |
+| [results/STRUCT-001.json](../../results/STRUCT-001.json) | STRUCT-001 | Exact run start/end unknown; inspect original |
+| [results/TREE-PATH-CIPHER-001-controls.json](../../results/TREE-PATH-CIPHER-001-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/TREE-PATH-CIPHER-001.json](../../results/TREE-PATH-CIPHER-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/TREE-STATE-SUPPORT-006-controls.json](../../results/TREE-STATE-SUPPORT-006-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/TREE-STATE-SUPPORT-006.json](../../results/TREE-STATE-SUPPORT-006.json) |  | Exact run start/end unknown; inspect original |
+| [results/TRIFID-001.json](../../results/TRIFID-001.json) | TRIFID-001 | Exact run start/end unknown; inspect original |
+| [results/WESTSOUTHWEST-NOTE-CHECKS.json](../../results/WESTSOUTHWEST-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
+| [results/WHEATSTONE-TRANSITION-008-controls.json](../../results/WHEATSTONE-TRANSITION-008-controls.json) |  | Exact run start/end unknown; inspect original |
+| [results/WHEATSTONE-TRANSITION-008-independent.json](../../results/WHEATSTONE-TRANSITION-008-independent.json) |  | Exact run start/end unknown; inspect original |
+| [results/WHEATSTONE-TRANSITION-008-validation.json](../../results/WHEATSTONE-TRANSITION-008-validation.json) |  | Exact run start/end unknown; inspect original |
+| [results/WHEATSTONE-TRANSITION-008.json](../../results/WHEATSTONE-TRANSITION-008.json) |  | Exact run start/end unknown; inspect original |
+| [results/asymmetric-feedback-001-runs/20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea/ASYMMETRIC-FEEDBACK-001.json](../../results/asymmetric-feedback-001-runs/20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea/ASYMMETRIC-FEEDBACK-001.json) | ASYMMETRIC-FEEDBACK-001 | Exact run start/end unknown; inspect original |
+| [results/asymmetric-feedback-001-runs/20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea/manifest.json](../../results/asymmetric-feedback-001-runs/20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea/manifest.json) | ASYMMETRIC-FEEDBACK-001; 20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea | start: 2026-10-22T19:19:52.714193Z; end: 2026-10-22T19:19:53.226206Z |
+| [results/asymmetric-feedback-001-runs/latest.json](../../results/asymmetric-feedback-001-runs/latest.json) | 20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea | Exact run start/end unknown; inspect original |
+| [results/asymmetric-primer-runs/20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2/ASYMMETRIC-PRIMER-001.json](../../results/asymmetric-primer-runs/20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2/ASYMMETRIC-PRIMER-001.json) | ASYMMETRIC-PRIMER-001 | Exact run start/end unknown; inspect original |
+| [results/asymmetric-primer-runs/20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2/manifest.json](../../results/asymmetric-primer-runs/20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2/manifest.json) | ASYMMETRIC-PRIMER-001; 20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2 | start: 2026-10-22T12:08:17.094398Z; end: 2026-10-22T12:08:17.163153Z |
+| [results/asymmetric-primer-runs/latest.json](../../results/asymmetric-primer-runs/latest.json) | 20261022T120817Z-ef4199fc397e4bd9bc6ca2fb3bfdc2e2 | Exact run start/end unknown; inspect original |
+| [results/autokey-constraint-runs/20261018T134147Z-7499a732804146f48f2121f5453be844/AUTOKEY-CONSTRAINT-001.json](../../results/autokey-constraint-runs/20261018T134147Z-7499a732804146f48f2121f5453be844/AUTOKEY-CONSTRAINT-001.json) | AUTOKEY-CONSTRAINT-001 | Exact run start/end unknown; inspect original |
+| [results/autokey-constraint-runs/20261018T134147Z-7499a732804146f48f2121f5453be844/manifest.json](../../results/autokey-constraint-runs/20261018T134147Z-7499a732804146f48f2121f5453be844/manifest.json) | AUTOKEY-CONSTRAINT-001; 20261018T134147Z-7499a732804146f48f2121f5453be844 | start: 2026-10-18T13:41:47.786677Z; end: 2026-10-18T13:41:48.020232Z |
+| [results/autokey-constraint-runs/latest.json](../../results/autokey-constraint-runs/latest.json) | 20261018T134147Z-7499a732804146f48f2121f5453be844 | Exact run start/end unknown; inspect original |
+| [results/autonomous-recurrence-runs/20261022T215356Z-4769d0b137d348e99db42ee5918dc799/AUTONOMOUS-RECURRENCE-001.json](../../results/autonomous-recurrence-runs/20261022T215356Z-4769d0b137d348e99db42ee5918dc799/AUTONOMOUS-RECURRENCE-001.json) | AUTONOMOUS-RECURRENCE-001 | Exact run start/end unknown; inspect original |
+| [results/autonomous-recurrence-runs/20261022T215356Z-4769d0b137d348e99db42ee5918dc799/manifest.json](../../results/autonomous-recurrence-runs/20261022T215356Z-4769d0b137d348e99db42ee5918dc799/manifest.json) | AUTONOMOUS-RECURRENCE-001; 20261022T215356Z-4769d0b137d348e99db42ee5918dc799 | start: 2026-10-22T21:53:56.923388Z; end: 2026-10-22T21:53:57.013922Z |
+| [results/autonomous-recurrence-runs/latest.json](../../results/autonomous-recurrence-runs/latest.json) | 20261022T215356Z-4769d0b137d348e99db42ee5918dc799 | Exact run start/end unknown; inspect original |
+| [results/clock-boundary-runs/20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d/CLOCK-BOUNDARY-REG-001.json](../../results/clock-boundary-runs/20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d/CLOCK-BOUNDARY-REG-001.json) | CLOCK-BOUNDARY-REG-001 | Exact run start/end unknown; inspect original |
+| [results/clock-boundary-runs/20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d/manifest.json](../../results/clock-boundary-runs/20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d/manifest.json) | CLOCK-BOUNDARY-REG-001; 20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d | start: 2026-10-18T12:42:41.282170Z; end: 2026-10-18T12:42:41.301414Z |
+| [results/clock-boundary-runs/latest.json](../../results/clock-boundary-runs/latest.json) | 20261018T124241Z-f156ac09cb06401b8bfbcc8e48b8383d | Exact run start/end unknown; inspect original |
+| [results/cp-convention-runs/20261022T205325Z-afe0dba6f79d4164960ef9ed793a9448/CP-CONVENTION-REPLAY-001.json](../../results/cp-convention-runs/20261022T205325Z-afe0dba6f79d4164960ef9ed793a9448/CP-CONVENTION-REPLAY-001.json) | CP-CONVENTION-REPLAY-001 | Exact run start/end unknown; inspect original |
+| [results/cp-convention-runs/20261022T205325Z-afe0dba6f79d4164960ef9ed793a9448/manifest.json](../../results/cp-convention-runs/20261022T205325Z-afe0dba6f79d4164960ef9ed793a9448/manifest.json) | CP-CONVENTION-REPLAY-001; 20261022T205325Z-afe0dba6f79d4164960ef9ed793a9448 | start: 2026-10-22T20:53:25.705501Z; end: 2026-10-22T20:53:25.733379Z |
+| [results/cp-convention-runs/latest.json](../../results/cp-convention-runs/latest.json) | 20261022T205325Z-afe0dba6f79d4164960ef9ed793a9448 | Exact run start/end unknown; inspect original |
+| [results/dynamic-key-runs/20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0/DYNAMIC-KEY-001.json](../../results/dynamic-key-runs/20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0/DYNAMIC-KEY-001.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
+| [results/dynamic-key-runs/20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0/manifest.json](../../results/dynamic-key-runs/20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0/manifest.json) | DYNAMIC-KEY-001; 20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0 | start: 2026-10-22T12:01:28.661039Z; end: 2026-10-22T12:01:32.902143Z |
+| [results/dynamic-key-runs/latest.json](../../results/dynamic-key-runs/latest.json) | 20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0 | Exact run start/end unknown; inspect original |
+| [results/gromark-alphabet-runs/20261018T135606Z-4fed84af3b8340f79ec5e2491071b3a3/GROMARK-ALPHABET-001.json](../../results/gromark-alphabet-runs/20261018T135606Z-4fed84af3b8340f79ec5e2491071b3a3/GROMARK-ALPHABET-001.json) | GROMARK-ALPHABET-001 | Exact run start/end unknown; inspect original |
+| [results/gromark-alphabet-runs/20261018T135606Z-4fed84af3b8340f79ec5e2491071b3a3/manifest.json](../../results/gromark-alphabet-runs/20261018T135606Z-4fed84af3b8340f79ec5e2491071b3a3/manifest.json) | GROMARK-ALPHABET-001; 20261018T135606Z-4fed84af3b8340f79ec5e2491071b3a3 | start: 2026-10-18T13:56:06.417135Z; end: 2026-10-18T13:56:06.427233Z |
+| [results/gromark-alphabet-runs/latest.json](../../results/gromark-alphabet-runs/latest.json) | 20261018T135606Z-4fed84af3b8340f79ec5e2491071b3a3 | Exact run start/end unknown; inspect original |
+| [results/gromark-identifiability-runs/20261018T150335Z-5b16b46678154416add3015ab8676aa9/GROMARK-IDENTIFIABILITY-001.json](../../results/gromark-identifiability-runs/20261018T150335Z-5b16b46678154416add3015ab8676aa9/GROMARK-IDENTIFIABILITY-001.json) | GROMARK-IDENTIFIABILITY-001 | Exact run start/end unknown; inspect original |
+| [results/gromark-identifiability-runs/20261018T150335Z-5b16b46678154416add3015ab8676aa9/manifest.json](../../results/gromark-identifiability-runs/20261018T150335Z-5b16b46678154416add3015ab8676aa9/manifest.json) | GROMARK-IDENTIFIABILITY-001; 20261018T150335Z-5b16b46678154416add3015ab8676aa9 | start: 2026-10-18T15:03:35.382531Z; end: 2026-10-18T15:03:35.401845Z |
+| [results/gromark-identifiability-runs/latest.json](../../results/gromark-identifiability-runs/latest.json) | 20261018T150335Z-5b16b46678154416add3015ab8676aa9 | Exact run start/end unknown; inspect original |
+| [results/independent-followup-review/CONSTRUCTION-FRESH-REPLAY-001.json](../../results/independent-followup-review/CONSTRUCTION-FRESH-REPLAY-001.json) |  | run instant: 2026-10-22T21:05:59.809001Z |
+| [results/independent-followup-review/CONSTRUCTION-LOCAL-REPLAY-001.json](../../results/independent-followup-review/CONSTRUCTION-LOCAL-REPLAY-001.json) | CONSTRUCTION-INDEPENDENT-LOCAL-REPLAY-001 | Exact run start/end unknown; inspect original |
+| [results/independent-followup-review/CONSTRUCTION-OFFLINE-REPLAY-001.json](../../results/independent-followup-review/CONSTRUCTION-OFFLINE-REPLAY-001.json) |  | run instant: 2026-10-22T21:06:43.750507Z |
+| [results/independent-followup-review/INTEGRATION-VALIDATION-001.json](../../results/independent-followup-review/INTEGRATION-VALIDATION-001.json) | INDEPENDENT-FOLLOWUP-INTEGRATION-VALIDATION-001 | Exact run start/end unknown; inspect original |
+| [results/independent-followup-review/LOCAL-REPLAY-001.json](../../results/independent-followup-review/LOCAL-REPLAY-001.json) | INDEPENDENT-FOLLOWUP-LOCAL-REPLAY-001 | Exact run start/end unknown; inspect original |
+| [results/independent-followup-review/SYNTHESIS-LOCAL-EQUATION-AUDIT-001.json](../../results/independent-followup-review/SYNTHESIS-LOCAL-EQUATION-AUDIT-001.json) | SUPPLIED-SYNTHESIS-LOCAL-EQUATION-AUDIT-001 | Exact run start/end unknown; inspect original |
+| [results/k3-clock-routes-001-runs/20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca/K3-CLOCK-ROUTES-001.json](../../results/k3-clock-routes-001-runs/20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca/K3-CLOCK-ROUTES-001.json) | K3-CLOCK-ROUTES-001 | Exact run start/end unknown; inspect original |
+| [results/k3-clock-routes-001-runs/20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca/manifest.json](../../results/k3-clock-routes-001-runs/20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca/manifest.json) | K3-CLOCK-ROUTES-001; 20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca | start: 2026-10-22T19:32:38.042794Z; end: 2026-10-22T19:32:38.167873Z |
+| [results/k3-clock-routes-001-runs/latest.json](../../results/k3-clock-routes-001-runs/latest.json) | 20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca | Exact run start/end unknown; inspect original |
+| [results/landmark-axis/LANDMARK-AXIS-001.json](../../results/landmark-axis/LANDMARK-AXIS-001.json) | LANDMARK-AXIS-001 | Exact run start/end unknown; inspect original |
+| [results/landmark-axis/OFFLINE-RECEIPT-CHECK.json](../../results/landmark-axis/OFFLINE-RECEIPT-CHECK.json) |  | Exact run start/end unknown; inspect original |
+| [results/landmark-axis/VALIDATION.json](../../results/landmark-axis/VALIDATION.json) | LANDMARK-AXIS-001 | Exact run start/end unknown; inspect original |
+| [results/language-runs/20261018T111712Z-27a5aec4af474b789d386fcb5e4e67c0/LANG-001.json](../../results/language-runs/20261018T111712Z-27a5aec4af474b789d386fcb5e4e67c0/LANG-001.json) | LANG-001 | Exact run start/end unknown; inspect original |
+| [results/language-runs/20261018T111712Z-27a5aec4af474b789d386fcb5e4e67c0/manifest.json](../../results/language-runs/20261018T111712Z-27a5aec4af474b789d386fcb5e4e67c0/manifest.json) | historical-language-feasibility; 20261018T111712Z-27a5aec4af474b789d386fcb5e4e67c0 | start: 2026-10-18T11:17:12.099975Z; end: 2026-10-18T11:17:12.598504Z |
+| [results/language-runs/latest.json](../../results/language-runs/latest.json) | 20261018T111712Z-27a5aec4af474b789d386fcb5e4e67c0 | Exact run start/end unknown; inspect original |
+| [results/masking-runs/20261018T112316Z-4302f65c58784dc79d801f8a44609fff/MASK-AUTO-001.json](../../results/masking-runs/20261018T112316Z-4302f65c58784dc79d801f8a44609fff/MASK-AUTO-001.json) | MASK-AUTO-001 | Exact run start/end unknown; inspect original |
+| [results/masking-runs/20261018T112316Z-4302f65c58784dc79d801f8a44609fff/manifest.json](../../results/masking-runs/20261018T112316Z-4302f65c58784dc79d801f8a44609fff/manifest.json) | MASK-AUTO-001; 20261018T112316Z-4302f65c58784dc79d801f8a44609fff | start: 2026-10-18T11:23:16.791919Z; end: 2026-10-18T11:23:16.806864Z |
+| [results/masking-runs/20261018T112317Z-3a585d17cef148e0a80c158a43e841dc/MASK-FM-001.json](../../results/masking-runs/20261018T112317Z-3a585d17cef148e0a80c158a43e841dc/MASK-FM-001.json) | MASK-FM-001 | Exact run start/end unknown; inspect original |
+| [results/masking-runs/20261018T112317Z-3a585d17cef148e0a80c158a43e841dc/manifest.json](../../results/masking-runs/20261018T112317Z-3a585d17cef148e0a80c158a43e841dc/manifest.json) | MASK-FM-001; 20261018T112317Z-3a585d17cef148e0a80c158a43e841dc | start: 2026-10-18T11:23:17.030203Z; end: 2026-10-18T11:23:17.035825Z |
+| [results/masking-runs/latest.json](../../results/masking-runs/latest.json) | 20261018T112317Z-3a585d17cef148e0a80c158a43e841dc | Exact run start/end unknown; inspect original |
+| [results/occupied-cell-routes-001-runs/20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845/OCCUPIED-CELL-ROUTES-001.json](../../results/occupied-cell-routes-001-runs/20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845/OCCUPIED-CELL-ROUTES-001.json) | OCCUPIED-CELL-ROUTES-001 | Exact run start/end unknown; inspect original |
+| [results/occupied-cell-routes-001-runs/20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845/manifest.json](../../results/occupied-cell-routes-001-runs/20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845/manifest.json) | OCCUPIED-CELL-ROUTES-001; 20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845 | start: 2026-10-22T19:39:53.371154Z; end: 2026-10-22T19:39:53.467220Z |
+| [results/occupied-cell-routes-001-runs/latest.json](../../results/occupied-cell-routes-001-runs/latest.json) | 20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845 | Exact run start/end unknown; inspect original |
+| [results/phonetic-subset-runs/20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54/PHONETIC-SUBSET-001.json](../../results/phonetic-subset-runs/20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54/PHONETIC-SUBSET-001.json) | PHONETIC-SUBSET-001 | Exact run start/end unknown; inspect original |
+| [results/phonetic-subset-runs/20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54/manifest.json](../../results/phonetic-subset-runs/20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54/manifest.json) | synthetic-respelling-subset; 20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54 | start: 2026-10-18T11:33:29.920979Z; end: 2026-10-18T11:33:29.922359Z |
+| [results/phonetic-subset-runs/latest.json](../../results/phonetic-subset-runs/latest.json) | 20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54 | Exact run start/end unknown; inspect original |
+| [results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/PLAINTEXT-STEP-001.json](../../results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/PLAINTEXT-STEP-001.json) | PLAINTEXT-STEP-001 | Exact run start/end unknown; inspect original |
+| [results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/manifest.json](../../results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/manifest.json) | PLAINTEXT-STEP-001; 20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11 | start: 2026-10-22T12:10:01.334882Z; end: 2026-10-22T12:10:01.439299Z |
+| [results/plaintext-step-runs/latest.json](../../results/plaintext-step-runs/latest.json) | 20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11 | Exact run start/end unknown; inspect original |
+| [results/sigaba-collector-filter/case-0.json](../../results/sigaba-collector-filter/case-0.json) | CSP889-FILTER-019 | Exact run start/end unknown; inspect original |
+| [results/sigaba-collector-filter/case-1.json](../../results/sigaba-collector-filter/case-1.json) | CSP889-FILTER-019 | Exact run start/end unknown; inspect original |
+| [results/sigaba-compressed-ownership/case-0.json](../../results/sigaba-compressed-ownership/case-0.json) | CSP889-COMPACT-018 | Exact run start/end unknown; inspect original |
+| [results/sigaba-compressed-ownership/case-1.json](../../results/sigaba-compressed-ownership/case-1.json) | CSP889-COMPACT-018 | Exact run start/end unknown; inspect original |
+| [results/sigaba-domain-identity/case-0.json](../../results/sigaba-domain-identity/case-0.json) | CSP889-DOMAIN-016 | Exact run start/end unknown; inspect original |
+| [results/sigaba-domain-identity/case-1.json](../../results/sigaba-domain-identity/case-1.json) | CSP889-DOMAIN-016 | Exact run start/end unknown; inspect original |
+| [results/sigaba-domain-profile/case-0.json](../../results/sigaba-domain-profile/case-0.json) | CSP889-DOMAIN-016-profile | Exact run start/end unknown; inspect original |
+| [results/sigaba-domain-profile/case-1.json](../../results/sigaba-domain-profile/case-1.json) | CSP889-DOMAIN-016-profile | Exact run start/end unknown; inspect original |
+| [results/sigaba-first-observation-premature/case-0.json](../../results/sigaba-first-observation-premature/case-0.json) | CSP889-ANCHOR-017 | Exact run start/end unknown; inspect original |
+| [results/sigaba-first-observation-premature/case-1.json](../../results/sigaba-first-observation-premature/case-1.json) | CSP889-ANCHOR-017 | Exact run start/end unknown; inspect original |
+| [results/sigaba-first-observation/case-0.json](../../results/sigaba-first-observation/case-0.json) | CSP889-ANCHOR-017 | Exact run start/end unknown; inspect original |
+| [results/sigaba-first-observation/case-1.json](../../results/sigaba-first-observation/case-1.json) | CSP889-ANCHOR-017 | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-00.json](../../results/sigaba-joint-toy/case-00.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-01.json](../../results/sigaba-joint-toy/case-01.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-02.json](../../results/sigaba-joint-toy/case-02.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-03.json](../../results/sigaba-joint-toy/case-03.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-04.json](../../results/sigaba-joint-toy/case-04.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-05.json](../../results/sigaba-joint-toy/case-05.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-06.json](../../results/sigaba-joint-toy/case-06.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-07.json](../../results/sigaba-joint-toy/case-07.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-08.json](../../results/sigaba-joint-toy/case-08.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-09.json](../../results/sigaba-joint-toy/case-09.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-10.json](../../results/sigaba-joint-toy/case-10.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-11.json](../../results/sigaba-joint-toy/case-11.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-joint-toy/case-12.json](../../results/sigaba-joint-toy/case-12.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-payload-profile/case-0.json](../../results/sigaba-payload-profile/case-0.json) | CSP889-COMPACT-018-profile | Exact run start/end unknown; inspect original |
+| [results/sigaba-payload-profile/case-1.json](../../results/sigaba-payload-profile/case-1.json) | CSP889-COMPACT-018-profile | Exact run start/end unknown; inspect original |
+| [results/sigaba-real-adapter/case-0.json](../../results/sigaba-real-adapter/case-0.json) | CSP889-REAL-014 | Exact run start/end unknown; inspect original |
+| [results/sigaba-real-adapter/case-1.json](../../results/sigaba-real-adapter/case-1.json) | CSP889-REAL-014 | Exact run start/end unknown; inspect original |
+| [results/sigaba-sparse-ownership/case-0.json](../../results/sigaba-sparse-ownership/case-0.json) | CSP889-SPARSE-015 | Exact run start/end unknown; inspect original |
+| [results/sigaba-sparse-ownership/case-1.json](../../results/sigaba-sparse-ownership/case-1.json) | CSP889-SPARSE-015 | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-00.json](../../results/sigaba-torus/case-00.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-01.json](../../results/sigaba-torus/case-01.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-02.json](../../results/sigaba-torus/case-02.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-03.json](../../results/sigaba-torus/case-03.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-04.json](../../results/sigaba-torus/case-04.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-05.json](../../results/sigaba-torus/case-05.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-06.json](../../results/sigaba-torus/case-06.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-07.json](../../results/sigaba-torus/case-07.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-08.json](../../results/sigaba-torus/case-08.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-09.json](../../results/sigaba-torus/case-09.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-10.json](../../results/sigaba-torus/case-10.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-11.json](../../results/sigaba-torus/case-11.json) |  | Exact run start/end unknown; inspect original |
+| [results/sigaba-torus/case-12.json](../../results/sigaba-torus/case-12.json) |  | Exact run start/end unknown; inspect original |
+| [results/silk-periodic-runs/20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1/SILK-PERIODIC-001.json](../../results/silk-periodic-runs/20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1/SILK-PERIODIC-001.json) | SILK-PERIODIC-001 | Exact run start/end unknown; inspect original |
+| [results/silk-periodic-runs/20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1/manifest.json](../../results/silk-periodic-runs/20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1/manifest.json) | SILK-PERIODIC-001; 20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1 | start: 2026-10-18T15:32:21.428512Z; end: 2026-10-18T15:32:21.432293Z |
+| [results/silk-periodic-runs/latest.json](../../results/silk-periodic-runs/latest.json) | 20261018T153221Z-b7f6cad7292747f6ba81099de8a671e1 | Exact run start/end unknown; inspect original |
+| [results/single-boundary-reset-runs/20261022T212416Z-f634e152375e406d971f9edc1dc91096/SINGLE-BOUNDARY-RESET-001.json](../../results/single-boundary-reset-runs/20261022T212416Z-f634e152375e406d971f9edc1dc91096/SINGLE-BOUNDARY-RESET-001.json) | SINGLE-BOUNDARY-RESET-001 | Exact run start/end unknown; inspect original |
+| [results/single-boundary-reset-runs/20261022T212416Z-f634e152375e406d971f9edc1dc91096/manifest.json](../../results/single-boundary-reset-runs/20261022T212416Z-f634e152375e406d971f9edc1dc91096/manifest.json) | SINGLE-BOUNDARY-RESET-001; 20261022T212416Z-f634e152375e406d971f9edc1dc91096 | start: 2026-10-22T21:24:16.807343Z; end: 2026-10-22T21:24:19.517134Z |
+| [results/single-boundary-reset-runs/latest.json](../../results/single-boundary-reset-runs/latest.json) | 20261022T212416Z-f634e152375e406d971f9edc1dc91096 | Exact run start/end unknown; inspect original |
+| [results/split-coordinate-001-runs/20261022T192126Z-2ff96ae3a6914cab8db6cd9c0c7ceb5c/SPLIT-COORDINATE-001.json](../../results/split-coordinate-001-runs/20261022T192126Z-2ff96ae3a6914cab8db6cd9c0c7ceb5c/SPLIT-COORDINATE-001.json) | SPLIT-COORDINATE-001 | Exact run start/end unknown; inspect original |
+| [results/split-coordinate-001-runs/20261022T192126Z-2ff96ae3a6914cab8db6cd9c0c7ceb5c/manifest.json](../../results/split-coordinate-001-runs/20261022T192126Z-2ff96ae3a6914cab8db6cd9c0c7ceb5c/manifest.json) | SPLIT-COORDINATE-001; 20261022T192126Z-2ff96ae3a6914cab8db6cd9c0c7ceb5c | start: 2026-10-22T19:21:26.800516Z; end: 2026-10-22T19:21:27.093611Z |
+| [results/split-coordinate-001-runs/latest.json](../../results/split-coordinate-001-runs/latest.json) | 20261022T192126Z-2ff96ae3a6914cab8db6cd9c0c7ceb5c | Exact run start/end unknown; inspect original |
+| [results/strategy-followup-runs/20261022T204842Z-17a364bb210f4d8799018ef99b496f3a/STRATEGY-FOLLOWUP-001.json](../../results/strategy-followup-runs/20261022T204842Z-17a364bb210f4d8799018ef99b496f3a/STRATEGY-FOLLOWUP-001.json) | STRATEGY-FOLLOWUP-001 | Exact run start/end unknown; inspect original |
+| [results/strategy-followup-runs/20261022T204842Z-17a364bb210f4d8799018ef99b496f3a/manifest.json](../../results/strategy-followup-runs/20261022T204842Z-17a364bb210f4d8799018ef99b496f3a/manifest.json) | STRATEGY-FOLLOWUP-001; 20261022T204842Z-17a364bb210f4d8799018ef99b496f3a | start: 2026-10-22T20:48:42.987845Z; end: 2026-10-22T20:48:43.398039Z |
+| [results/strategy-followup-runs/latest.json](../../results/strategy-followup-runs/latest.json) | 20261022T204842Z-17a364bb210f4d8799018ef99b496f3a | Exact run start/end unknown; inspect original |
+| [results/word-runs/20261018T112641Z-6df780ad6f254787ad9f539f7a60b740/WORD-SCRAMBLE-001.json](../../results/word-runs/20261018T112641Z-6df780ad6f254787ad9f539f7a60b740/WORD-SCRAMBLE-001.json) | WORD-SCRAMBLE-001 | Exact run start/end unknown; inspect original |
+| [results/word-runs/20261018T112641Z-6df780ad6f254787ad9f539f7a60b740/manifest.json](../../results/word-runs/20261018T112641Z-6df780ad6f254787ad9f539f7a60b740/manifest.json) | word-interior-compatibility; 20261018T112641Z-6df780ad6f254787ad9f539f7a60b740 | start: 2026-10-18T11:26:41.668926Z; end: 2026-10-18T11:26:41.739302Z |
+| [results/word-runs/latest.json](../../results/word-runs/latest.json) | 20261018T112641Z-6df780ad6f254787ad9f539f7a60b740 | Exact run start/end unknown; inspect original |

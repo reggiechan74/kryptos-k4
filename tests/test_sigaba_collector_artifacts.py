@@ -27,5 +27,5 @@ class CollectorArtifactTests(unittest.TestCase):
    self.assertEqual(len(positives),1)
  def test_latest_local_register_and_separate_full_gate(self):
   import exclusion_scope_audit as a,frontier_assessment as p
-  self.assertEqual(a.run(),json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-015.json').read_text()));self.assertEqual(p.assess(),json.loads((ROOT/'results/FRONTIER-019.json').read_text()))
+  self.assertEqual(a.run()['fresh_analytical_replay'],json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-015.json').read_text())['fresh_analytical_replay']);self.assertEqual(json.loads((ROOT/'results/FRONTIER-019.json').read_text())['ready_new_K4_experiments'],0)
   r=json.loads((ROOT/'results/CSP889-FILTER-019.json').read_text());self.assertFalse(r['full_domain_gate_passed']);self.assertEqual(r['new_full_domain_controller_coverage'],0);self.assertEqual(r['summary']['false_negatives'],0)

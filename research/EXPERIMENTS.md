@@ -911,3 +911,16 @@ Actual native controller coverage advances from zero to 12 completed controllers
 ## CSP889-FILTER-019 — supplied-anchor necessary filter, local only
 
 Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter rejections, 6 false-positive passes and 2 physical feasible pairs. All 1,321,160 reachable-map trials are actually audited, including rejects; zero false negatives. Both supplied plants regenerate the full synthetic ciphertext; fixture1 advances the 29-position unknown gap and passes its second block. The smaller fixture0 panel is preserved after its 16-candidate anchor cap. Counterfactual savings are panel-only, not a full-domain speedup. [Protocol](SIGABA-COLLECTOR-FILTER-SPEC.md), [findings](SIGABA-COLLECTOR-FILTER-FINDINGS.md), [summary](../results/CSP889-FILTER-019.json). No new full-domain controller coverage, K4, cap expansion or publication retry.
+
+
+## FOLD-SLIDE-020 — anchored progressive monument overlay
+
+- Date: 2026-10-23 UTC. Exact run start/end were not recorded and are unknown; commit/publication times are distinct.
+- Type: actual inscription-layout comparison with approximate optical apertures, not a K4 decryption search.
+- Protocol: [frozen progressive model](MONUMENT-SLIDE-OVERLAY-SPEC.md), [pre-score registration amendment](MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md).
+- Input: full canonical cipher/tableau rows and existing modeled font; MYVGT/AABCD anchor reproduced with no row shift.
+- Coverage: 134 frames across two registrations, −33…+33 inclusive; 130 active. Every frame retained.
+- Outcome: zero-shift primary 35/856 identical letters; ordinary full-scan label/area excess under 1,999 row shuffles and 1,999 movable-row rotations. Four-report adjusted p=1 for each endpoint/scheme.
+- Code: [native evaluator](../experiments/monument_slide.py), [independent pixel oracle](../experiments/monument_slide_oracle.mjs).
+- Receipt: [exact positions and masks](../results/FOLD-SLIDE-020-actual.json); [findings and limitations](MONUMENT-FOLD-SLIDE-FINDINGS.md).
+- No measured optical calibration, plaintext extraction, Site change or new decoding candidate.

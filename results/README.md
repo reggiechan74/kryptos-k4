@@ -62,3 +62,8 @@ respelling check. Current overall verification is
 [SEQUENTIAL-BRANCHES-VALIDATION.json](SEQUENTIAL-BRANCHES-VALIDATION.json),77tests.
 The earlier73test record remains historical. The chronology receipt now covers
 all5new runs, each with a genuinely prior specification and code commit.
+
+
+## Current navigation
+
+See the [project overview](../README.md), [hypothesis tracker](../docs/tracking/HYPOTHESES.md), [experiment tracker](../docs/tracking/EXPERIMENTS.md) and [receipt index](../docs/tracking/RECEIPTS.md). Older entries above are retained historical documentation; current exact scopes live in the canonical ledger.

@@ -1,6 +1,6 @@
 {
-  "id": "FRONTIER-019",
-  "reviewed_main_commit": "f86889d99e09d22c193275da1ba146a7f46a1849",
+  "id": "FRONTIER-020",
+  "reviewed_main_commit": "6f269e11bec1a7b2f87e67f014b7b139708d0c61",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
   "decision": "No new evidence-grounded K4 experiment is currently ready under the available inputs, implemented algorithms and access limits.",
   "not_claimed": [
@@ -89,12 +89,15 @@
       ],
       "blocker_type": "independent_measurements_and_mapping",
       "ready_for_new_K4_evaluation": false,
-      "missing": "Surveyed frames/surfaces/apertures/receivers and uncertainty; an independently fixed observation or artificial-light geometry and symbol extraction. Static needle, engraved N, true north and regional magnetic field are different quantities.",
+      "missing": "Surveyed frames/surfaces/apertures/receivers and uncertainty; an independently fixed observation or artificial-light geometry and symbol extraction. Static needle, engraved N, true north and regional magnetic field are different quantities. FOLD-SLIDE-020 completes a conditional flat transcript overlay, not measured physical apertures or illumination.",
       "available": [
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
         "docs/scott-sun-geometry-audit-2026-10-22.md",
         "results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json",
-        "research/evidence/2026-10-23-lodestone-compass/DECLINATION-ADDENDUM.md"
+        "research/evidence/2026-10-23-lodestone-compass/DECLINATION-ADDENDUM.md",
+        "research/MONUMENT-FOLD-SLIDE-FINDINGS.md",
+        "research/MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md",
+        "experiments/monument_slide.py"
       ],
       "next_deliverable": "Source-tagged original-resolution overlapping views or measurements with pixel picks, metric control points, camera assumptions and uncertainty; fit non-K4 features and withhold a separate view/features before any optical decoding.",
       "go_no_go": "Stop before letter extraction if camera/shape/frame calibration is underidentified. Quantitative residual tolerances must derive from input uncertainty and be frozen before fitting; no invented tolerance, date, bearing or receiver.",

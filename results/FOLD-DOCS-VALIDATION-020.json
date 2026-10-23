@@ -1,0 +1,32 @@
+{
+  "id": "FOLD-DOCS-VALIDATION-020",
+  "recorded_at_utc": "2026-10-23T13:02:45.393979Z",
+  "kind": "Completed fold overlay and reader-navigation validation; no K4 solution or Site deployment",
+  "tests": {
+    "python3.9": {
+      "count": 467,
+      "passed": true,
+      "log": "results/FOLD-DOCS-020-py39.log"
+    },
+    "python3.12": {
+      "count": 467,
+      "passed": true,
+      "log": "results/FOLD-DOCS-020-py312.log"
+    }
+  },
+  "original_overlay_run_start_utc": null,
+  "original_overlay_run_end_utc": null,
+  "time_note": "Recording timestamp above is not an inferred native overlay run time. Exact historical start/end were not recorded.",
+  "independent_oracle_frames": 134,
+  "offline_slider_compute_frames": 134,
+  "null_controls_per_scheme": 1999,
+  "tracked_family_count": 60,
+  "unrelated_suffix_copies_preserved": 210,
+  "site_deployed": false,
+  "physical_apertures_measured": false,
+  "prior_remote_verified": "6f269e11bec1a7b2f87e67f014b7b139708d0c61",
+  "log_sha256": {
+    "py39": "27d5353a8aaa8ff02d1010a3e4e8304308f345220c1d760d93aa4c7159d8321a",
+    "py312": "ae15fe53bb8c91bed1800cb31e8f865fdd0a657eefc087754f12f3731edcea71"
+  }
+}

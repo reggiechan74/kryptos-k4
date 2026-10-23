@@ -1,0 +1,22 @@
+{
+  "kind": "Completed conditional fold/slide and visitor documentation; no cipher-solution claim",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "9c7a97bcabde157deadb57e86c7fbc07020acbcca1c0354262193a0d4bc6b9b0"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-019.json",
+  "previous_snapshot_commit": "6f269e11bec1a7b2f87e67f014b7b139708d0c61",
+  "real_sized_gate_passed": false,
+  "new_K4_decryption_candidates": 0,
+  "inscription_overlay_frames": 134,
+  "publication": "Local receipt; remote publication is verified separately",
+  "site_changed": false
+}

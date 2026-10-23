@@ -116,3 +116,8 @@ failed. No enquiry was authorized or sent, and neither orientation nor the full
 [24-cell verification receipt](silk-chart-verification.json) pin both image hashes.
 Modern attributions do not establish pre-1990 availability or creator knowledge.
 PHOENIX example corrected from pixels before pilot; repeating key is hypothetical.
+
+
+## Current navigation
+
+See the [project overview](../README.md), [hypothesis tracker](../docs/tracking/HYPOTHESES.md), [experiment tracker](../docs/tracking/EXPERIMENTS.md) and [receipt index](../docs/tracking/RECEIPTS.md). Older entries above are retained historical documentation; current exact scopes live in the canonical ledger.

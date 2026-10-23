@@ -1,0 +1,13 @@
+{
+  "exports": [
+    "results/FOLD-SLIDE-020-frames.csv",
+    "results/FOLD-SLIDE-020-matches.csv",
+    "research/figures/fold-slide-020.html",
+    "research/figures/fold-slide-counts-020.svg"
+  ],
+  "source_sha256": {
+    "results/FOLD-SLIDE-020-actual.json": "a245203d52880b3c0238ac0068b65caa1d8d8d3e284bec5134b10931b41706a3",
+    "results/FOLD-SLIDE-020-null-shuffle.json": "a4119cad2055e6e4564fabc2ed76ee4615552404b670bcf821d9248ed6906561",
+    "results/FOLD-SLIDE-020-null-rotation.json": "2427d8ab081a21cfe8d82fd7e526bed00b354489a04ccdbe37d28b04b1d6e4b7"
+  }
+}

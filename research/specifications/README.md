@@ -1,0 +1,37 @@
+# specifications
+
+<!-- FOLDER-GUIDE: navigation only; original inputs and results are preserved. -->
+
+Read the canonical hypothesis and experiment ledgers here. Specifications freeze model choices; findings explain outcomes and limits. Evidence and computational results have different strength.
+
+[Project overview](../../README.md) · [Trackers](../../docs/tracking/README.md)
+
+## Contents
+
+- [ASYMMETRIC-FEEDBACK-001.json](ASYMMETRIC-FEEDBACK-001.json)
+- [ASYMMETRIC-PRIMER-001.json](ASYMMETRIC-PRIMER-001.json)
+- [AUTOKEY-CONSTRAINT-001.json](AUTOKEY-CONSTRAINT-001.json)
+- [AUTONOMOUS-RECURRENCE-001.json](AUTONOMOUS-RECURRENCE-001.json)
+- [BASE60-BEAUFORT-001.json](BASE60-BEAUFORT-001.json)
+- [BASE60-BEAUFORT-CONTINUATION-001.json](BASE60-BEAUFORT-CONTINUATION-001.json)
+- [CLOCK-BOUNDARY-REG-001.json](CLOCK-BOUNDARY-REG-001.json)
+- [CP-CONVENTION-REPLAY-001.json](CP-CONVENTION-REPLAY-001.json)
+- [DYNAMIC-KEY-001.json](DYNAMIC-KEY-001.json)
+- [FRONTIER-2026-10-23.json](FRONTIER-2026-10-23.json)
+- [GROMARK-ALPHABET-001.json](GROMARK-ALPHABET-001.json)
+- [GROMARK-IDENTIFIABILITY-001.json](GROMARK-IDENTIFIABILITY-001.json)
+- [K3-CLOCK-ROUTES-001.json](K3-CLOCK-ROUTES-001.json)
+- [LANDMARK-AXIS-001.json](LANDMARK-AXIS-001.json)
+- [LANG-001.json](LANG-001.json)
+- [LANGUAGE-PREPARATION.json](LANGUAGE-PREPARATION.json)
+- [MASK-AUTO-001.json](MASK-AUTO-001.json)
+- [MASK-FM-001.json](MASK-FM-001.json)
+- [OCCUPIED-CELL-ROUTES-001.json](OCCUPIED-CELL-ROUTES-001.json)
+- [PHONETIC-CL-001.json](PHONETIC-CL-001.json)
+- [PHONETIC-SUBSET-001.json](PHONETIC-SUBSET-001.json)
+- [PLAINTEXT-STEP-001.json](PLAINTEXT-STEP-001.json)
+- [SILK-PERIODIC-001.json](SILK-PERIODIC-001.json)
+- [SINGLE-BOUNDARY-RESET-001.json](SINGLE-BOUNDARY-RESET-001.json)
+- [SPLIT-COORDINATE-001.json](SPLIT-COORDINATE-001.json)
+- [STRATEGY-FOLLOWUP-001.json](STRATEGY-FOLLOWUP-001.json)
+- [WORD-SCRAMBLE-001.json](WORD-SCRAMBLE-001.json)
