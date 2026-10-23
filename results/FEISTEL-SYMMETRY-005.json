@@ -1,0 +1,1143 @@
+{
+  "actual": {
+    "new_records": [
+      {
+        "label": {
+          "id": "AZ-AZ-I0-O1",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": false,
+          "output_swap": true
+        },
+        "origin": 1,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "18": 17,
+                "13": 23,
+                "17": 1,
+                "7": 20,
+                "0": 6,
+                "19": 0
+              },
+              "G": {
+                "5": 18,
+                "17": 19,
+                "16": 8,
+                "15": 25,
+                "13": 10,
+                "10": 6,
+                "18": 25
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 13,
+              "first_value": 10,
+              "second_value": 0,
+              "first_source": [
+                29,
+                30
+              ],
+              "second_source": [
+                63,
+                64
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-AZ-I0-O1",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": false,
+          "output_swap": true
+        },
+        "origin": 2,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 19,
+              "first_value": 3,
+              "second_value": 0,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                28,
+                29
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-AZ-I1-O0",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": true,
+          "output_swap": false
+        },
+        "origin": 1,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 19,
+              "first_value": 8,
+              "second_value": 10,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                29,
+                30
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-AZ-I1-O0",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": true,
+          "output_swap": false
+        },
+        "origin": 2,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "4": 5,
+                "18": 24,
+                "13": 2,
+                "17": 22,
+                "7": 9,
+                "0": 18
+              },
+              "G": {
+                "5": 7,
+                "17": 3,
+                "16": 3,
+                "15": 0,
+                "13": 25,
+                "10": 18,
+                "18": 21
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 13,
+              "first_value": 25,
+              "second_value": 23,
+              "first_source": [
+                30,
+                31
+              ],
+              "second_source": [
+                64,
+                65
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-AZ-I1-O1",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": true,
+          "output_swap": true
+        },
+        "origin": 1,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 19,
+              "first_value": 3,
+              "second_value": 6,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                29,
+                30
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-AZ-I1-O1",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": true,
+          "output_swap": true
+        },
+        "origin": 2,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "4": 11,
+                "18": 2,
+                "13": 2,
+                "17": 24,
+                "7": 2,
+                "0": 0
+              },
+              "G": {
+                "11": 1,
+                "21": 25,
+                "16": 3,
+                "17": 24,
+                "6": 6,
+                "18": 10,
+                "14": 25
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 21,
+              "first_value": 25,
+              "second_value": 24,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                66,
+                67
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-KR-I0-O1",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": false,
+          "output_swap": true
+        },
+        "origin": 1,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "18": 1,
+                "13": 1,
+                "17": 15,
+                "7": 0,
+                "0": 22,
+                "19": 14
+              },
+              "G": {
+                "12": 19,
+                "1": 25,
+                "20": 9,
+                "3": 3,
+                "19": 20,
+                "0": 13,
+                "6": 13
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 19,
+              "first_value": 20,
+              "second_value": 7,
+              "first_source": [
+                29,
+                30
+              ],
+              "second_source": [
+                63,
+                64
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-KR-I0-O1",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": false,
+          "output_swap": true
+        },
+        "origin": 2,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 19,
+              "first_value": 4,
+              "second_value": 10,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                28,
+                29
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-KR-I1-O0",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": true,
+          "output_swap": false
+        },
+        "origin": 1,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 19,
+              "first_value": 9,
+              "second_value": 20,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                29,
+                30
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-KR-I1-O0",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": true,
+          "output_swap": false
+        },
+        "origin": 2,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "4": 12,
+                "18": 8,
+                "13": 6,
+                "17": 10,
+                "7": 15,
+                "0": 8
+              },
+              "G": {
+                "12": 13,
+                "1": 4,
+                "20": 7,
+                "3": 10,
+                "19": 6,
+                "0": 6,
+                "6": 12
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 19,
+              "first_value": 6,
+              "second_value": 1,
+              "first_source": [
+                30,
+                31
+              ],
+              "second_source": [
+                64,
+                65
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-KR-I1-O1",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": true,
+          "output_swap": true
+        },
+        "origin": 1,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 19,
+              "first_value": 7,
+              "second_value": 12,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                29,
+                30
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "AZ-KR-I1-O1",
+          "ai": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": true,
+          "output_swap": true
+        },
+        "origin": 2,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "4": 17,
+                "18": 3,
+                "13": 6,
+                "17": 8,
+                "7": 9,
+                "0": 14
+              },
+              "G": {
+                "17": 8,
+                "22": 9,
+                "20": 7,
+                "1": 12,
+                "13": 12,
+                "6": 0,
+                "5": 13
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 22,
+              "first_value": 9,
+              "second_value": 12,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                66,
+                67
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-AZ-I0-O1",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": false,
+          "output_swap": true
+        },
+        "origin": 1,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "6": 10,
+                "19": 12,
+                "1": 10,
+                "14": 9,
+                "7": 25,
+                "4": 12
+              },
+              "G": {
+                "5": 11,
+                "17": 5,
+                "16": 2,
+                "15": 15,
+                "13": 3,
+                "10": 25,
+                "18": 14
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 13,
+              "first_value": 3,
+              "second_value": 19,
+              "first_source": [
+                29,
+                30
+              ],
+              "second_source": [
+                63,
+                64
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-AZ-I0-O1",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": false,
+          "output_swap": true
+        },
+        "origin": 2,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 4,
+              "first_value": 15,
+              "second_value": 16,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                28,
+                29
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-AZ-I1-O0",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": true,
+          "output_swap": false
+        },
+        "origin": 1,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 4,
+              "first_value": 2,
+              "second_value": 3,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                29,
+                30
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-AZ-I1-O0",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": true,
+          "output_swap": false
+        },
+        "origin": 2,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "11": 24,
+                "6": 13,
+                "19": 11,
+                "1": 11,
+                "14": 2,
+                "7": 4
+              },
+              "G": {
+                "5": 0,
+                "17": 15,
+                "16": 23,
+                "15": 16,
+                "13": 18,
+                "10": 11,
+                "18": 10
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 13,
+              "first_value": 18,
+              "second_value": 16,
+              "first_source": [
+                30,
+                31
+              ],
+              "second_source": [
+                64,
+                65
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-AZ-I1-O1",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": true,
+          "output_swap": true
+        },
+        "origin": 1,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 4,
+              "first_value": 23,
+              "second_value": 25,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                29,
+                30
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-AZ-I1-O1",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "input_swap": true,
+          "output_swap": true
+        },
+        "origin": 2,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "11": 4,
+                "6": 17,
+                "19": 11,
+                "1": 13,
+                "14": 21,
+                "7": 12
+              },
+              "G": {
+                "11": 20,
+                "21": 11,
+                "16": 23,
+                "17": 14,
+                "6": 25,
+                "18": 3,
+                "14": 14
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 21,
+              "first_value": 11,
+              "second_value": 14,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                66,
+                67
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-KR-I0-O1",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": false,
+          "output_swap": true
+        },
+        "origin": 1,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "6": 20,
+                "19": 16,
+                "1": 24,
+                "14": 15,
+                "7": 15,
+                "4": 0
+              },
+              "G": {
+                "12": 12,
+                "1": 11,
+                "20": 3,
+                "3": 19,
+                "19": 13,
+                "0": 6,
+                "6": 2
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 19,
+              "first_value": 13,
+              "second_value": 0,
+              "first_source": [
+                29,
+                30
+              ],
+              "second_source": [
+                63,
+                64
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-KR-I0-O1",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": false,
+          "output_swap": true
+        },
+        "origin": 2,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 4,
+              "first_value": 16,
+              "second_value": 0,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                28,
+                29
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-KR-I1-O0",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": true,
+          "output_swap": false
+        },
+        "origin": 1,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 4,
+              "first_value": 3,
+              "second_value": 13,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                29,
+                30
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-KR-I1-O0",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": true,
+          "output_swap": false
+        },
+        "origin": 2,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "11": 5,
+                "6": 23,
+                "19": 15,
+                "1": 25,
+                "14": 8,
+                "7": 20
+              },
+              "G": {
+                "12": 6,
+                "1": 16,
+                "20": 1,
+                "3": 0,
+                "19": 25,
+                "0": 25,
+                "6": 1
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 19,
+              "first_value": 25,
+              "second_value": 20,
+              "first_source": [
+                30,
+                31
+              ],
+              "second_source": [
+                64,
+                65
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-KR-I1-O1",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": true,
+          "output_swap": true
+        },
+        "origin": 1,
+        "training": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "F",
+              "input": 4,
+              "first_value": 1,
+              "second_value": 5,
+              "first_source": [
+                25,
+                26
+              ],
+              "second_source": [
+                29,
+                30
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage": null,
+        "second_stage_evaluated": false,
+        "compatible_keys": "0"
+      },
+      {
+        "label": {
+          "id": "KR-KR-I1-O1",
+          "ai": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "ao": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+          "input_swap": true,
+          "output_swap": true
+        },
+        "origin": 2,
+        "training": {
+          "branches": [
+            {
+              "F": {
+                "11": 10,
+                "6": 18,
+                "19": 15,
+                "1": 23,
+                "14": 2,
+                "7": 0
+              },
+              "G": {
+                "17": 1,
+                "22": 21,
+                "20": 1,
+                "1": 2,
+                "13": 5,
+                "6": 19,
+                "5": 2
+              }
+            }
+          ],
+          "key_count": "15274273784216769021564085930704478424313742483024510976",
+          "contradictions": [],
+          "completed": true,
+          "branch_disjointness": "Every branch split fixes a previously free G entry to a different value; descendants retain it."
+        },
+        "second_stage": {
+          "branches": [],
+          "key_count": "0",
+          "contradictions": [
+            {
+              "function": "G",
+              "input": 22,
+              "first_value": 21,
+              "second_value": 2,
+              "first_source": [
+                24,
+                25
+              ],
+              "second_source": [
+                66,
+                67
+              ]
+            }
+          ],
+          "completed": true
+        },
+        "second_stage_evaluated": true,
+        "compatible_keys": "0"
+      }
+    ],
+    "old_eight_skipped": true,
+    "old_result": "results/NONROTOR-STRUCTURAL-004.json",
+    "all_32_distinct_proved": true
+  },
+  "source_sha256": {
+    "experiments/feistel_symmetry.py": "1e99b0bf639f7b8b4a28101fe6023833c4ad9d1e25ce2fed27bbda3778fe1c69",
+    "research/FEISTEL-EXTENSION-SPEC.md": "c1e489d080bf14567e2384e9846f1020a15e0b7e62067fcaa896aea8c52ba748",
+    "experiments/nonrotor_structural.py": "d775efe289cf43f6c903ba8ee6e6b0e523ced88fae15dd3275388f8075a3e024",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}

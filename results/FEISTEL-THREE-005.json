@@ -1,0 +1,2898 @@
+{
+  "actual": [
+    {
+      "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "origin": 1,
+      "training": {
+        "completed": true,
+        "status": "compatible",
+        "raw_key_count": "89270182765174462863807973217630178674601911280960974225639851748677990642118540727523737600",
+        "gauge_fixed_key_count": "3433468567891325494761845123755006872100073510806191316370763528795307332389174643366297600",
+        "graph": {
+          "consistent": true,
+          "components": [
+            {
+              "root": "F:0",
+              "potentials": {
+                "F:0": 0,
+                "Q:6": 20
+              },
+              "points": [
+                {
+                  "a": 4,
+                  "b": 6,
+                  "positions": [
+                    31,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:13",
+              "potentials": {
+                "F:13": 0,
+                "Q:21": 3
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 8,
+                  "positions": [
+                    25,
+                    26
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:17",
+              "potentials": {
+                "F:17": 0,
+                "Q:16": 25
+              },
+              "points": [
+                {
+                  "a": 14,
+                  "b": 25,
+                  "positions": [
+                    27,
+                    28
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:18",
+              "potentials": {
+                "F:18": 0,
+                "Q:11": 9
+              },
+              "points": [
+                {
+                  "a": 0,
+                  "b": 19,
+                  "positions": [
+                    23,
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:19",
+              "potentials": {
+                "F:19": 0,
+                "Q:18": 0
+              },
+              "points": [
+                {
+                  "a": 18,
+                  "b": 25,
+                  "positions": [
+                    33,
+                    34
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:7",
+              "potentials": {
+                "F:7": 0,
+                "Q:17": 6
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 10,
+                  "positions": [
+                    29,
+                    30
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:22",
+              "potentials": {
+                "Q:22": 0
+              },
+              "points": [
+                {
+                  "a": 5,
+                  "b": 18,
+                  "positions": [
+                    21,
+                    22
+                  ]
+                }
+              ]
+            }
+          ],
+          "observed_F": 6,
+          "observed_H": 7,
+          "equations": 6
+        },
+        "anchor": 0,
+        "core_assignments": 1,
+        "singleton_components": 6,
+        "free_F_H_entries": 39,
+        "witness": {
+          "F": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0,
+            13,
+            2,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "G": [
+            8,
+            25,
+            19,
+            10,
+            6,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "H": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            14,
+            10,
+            17,
+            0,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "count_semantics": "Complete F/G/H parameter descriptions. One global translation gauge removed then restored. Not distinct cipher functions or 97-character plaintexts."
+      },
+      "all_cribs": {
+        "completed": true,
+        "status": "compatible",
+        "raw_key_count": "2059056308067754762131486904627329906195170125981240958505421920830226432000",
+        "gauge_fixed_key_count": "79194473387221337005057188639512688699814235614663113788670073878085632000",
+        "graph": {
+          "consistent": true,
+          "components": [
+            {
+              "root": "F:0",
+              "potentials": {
+                "F:0": 0,
+                "Q:6": 20
+              },
+              "points": [
+                {
+                  "a": 4,
+                  "b": 6,
+                  "positions": [
+                    31,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:10",
+              "potentials": {
+                "F:10": 0,
+                "Q:15": 18
+              },
+              "points": [
+                {
+                  "a": 2,
+                  "b": 5,
+                  "positions": [
+                    73,
+                    74
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:13",
+              "potentials": {
+                "F:13": 0,
+                "F:8": 11,
+                "Q:21": 3
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 8,
+                  "positions": [
+                    25,
+                    26
+                  ]
+                },
+                {
+                  "a": 22,
+                  "b": 13,
+                  "positions": [
+                    67,
+                    68
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:14",
+              "potentials": {
+                "F:14": 0,
+                "Q:25": 6
+              },
+              "points": [
+                {
+                  "a": 11,
+                  "b": 11,
+                  "positions": [
+                    71,
+                    72
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:17",
+              "potentials": {
+                "F:17": 0,
+                "Q:16": 25,
+                "Q:24": 15
+              },
+              "points": [
+                {
+                  "a": 14,
+                  "b": 25,
+                  "positions": [
+                    27,
+                    28
+                  ]
+                },
+                {
+                  "a": 4,
+                  "b": 7,
+                  "positions": [
+                    65,
+                    66
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:18",
+              "potentials": {
+                "F:18": 0,
+                "Q:11": 9
+              },
+              "points": [
+                {
+                  "a": 0,
+                  "b": 19,
+                  "positions": [
+                    23,
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:19",
+              "potentials": {
+                "F:19": 0,
+                "Q:18": 0
+              },
+              "points": [
+                {
+                  "a": 18,
+                  "b": 25,
+                  "positions": [
+                    33,
+                    34
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:2",
+              "potentials": {
+                "F:2": 0,
+                "Q:19": 1
+              },
+              "points": [
+                {
+                  "a": 13,
+                  "b": 17,
+                  "positions": [
+                    69,
+                    70
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:7",
+              "potentials": {
+                "F:7": 0,
+                "Q:17": 6
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 10,
+                  "positions": [
+                    29,
+                    30
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:1",
+              "potentials": {
+                "Q:1": 0
+              },
+              "points": [
+                {
+                  "a": 13,
+                  "b": 0,
+                  "positions": [
+                    63,
+                    64
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:22",
+              "potentials": {
+                "Q:22": 0
+              },
+              "points": [
+                {
+                  "a": 5,
+                  "b": 18,
+                  "positions": [
+                    21,
+                    22
+                  ]
+                }
+              ]
+            }
+          ],
+          "observed_F": 10,
+          "observed_H": 12,
+          "equations": 11
+        },
+        "anchor": 2,
+        "core_assignments": 26,
+        "singleton_components": 9,
+        "free_F_H_entries": 30,
+        "witness": {
+          "F": [
+            22,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            13,
+            11,
+            0,
+            25,
+            0,
+            0,
+            0,
+            17,
+            0,
+            0,
+            0,
+            3,
+            22,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "G": [
+            6,
+            5,
+            11,
+            19,
+            7,
+            17,
+            10,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            25,
+            0,
+            0,
+            0,
+            0,
+            8,
+            0,
+            0,
+            13,
+            0,
+            0,
+            0
+          ],
+          "H": [
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0,
+            9,
+            1,
+            7,
+            4,
+            7,
+            0,
+            23,
+            23,
+            0,
+            11,
+            3
+          ]
+        },
+        "count_semantics": "Complete F/G/H parameter descriptions. One global translation gauge removed then restored. Not distinct cipher functions or 97-character plaintexts."
+      },
+      "plaintext_witnesses": [
+        {
+          "kind": "arbitrary_crib_fit_not_solution",
+          "key": {
+            "F": [
+              22,
+              0,
+              18,
+              0,
+              0,
+              0,
+              0,
+              13,
+              11,
+              0,
+              25,
+              0,
+              0,
+              0,
+              17,
+              0,
+              0,
+              0,
+              3,
+              22,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "G": [
+              6,
+              5,
+              11,
+              19,
+              7,
+              17,
+              10,
+              0,
+              18,
+              0,
+              0,
+              0,
+              0,
+              0,
+              25,
+              0,
+              0,
+              0,
+              0,
+              8,
+              0,
+              0,
+              13,
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              6,
+              0,
+              0,
+              0,
+              0,
+              10,
+              0,
+              0,
+              0,
+              0,
+              14,
+              0,
+              0,
+              0,
+              9,
+              1,
+              7,
+              4,
+              7,
+              0,
+              23,
+              23,
+              0,
+              11,
+              3
+            ]
+          },
+          "plaintext": "BJSKOVOYXGLUMBUOFRVBIEASTNORTHEASTTGWJRQQJSTKEWMDDRIMKDBICLWFWHBERLINCLOCKJWKDUZRIDJGYVKHHYAKEAWR",
+          "regeneration_verified": true
+        },
+        {
+          "kind": "distinct_compatible_plaintext_ambiguity_witness",
+          "key": {
+            "F": [
+              22,
+              0,
+              18,
+              0,
+              0,
+              0,
+              0,
+              13,
+              11,
+              0,
+              25,
+              0,
+              0,
+              0,
+              17,
+              0,
+              0,
+              0,
+              3,
+              22,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "G": [
+              6,
+              5,
+              11,
+              19,
+              7,
+              17,
+              10,
+              0,
+              18,
+              0,
+              0,
+              0,
+              0,
+              0,
+              25,
+              0,
+              0,
+              0,
+              0,
+              8,
+              0,
+              0,
+              13,
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              6,
+              0,
+              0,
+              0,
+              0,
+              10,
+              0,
+              0,
+              0,
+              0,
+              14,
+              0,
+              0,
+              1,
+              9,
+              1,
+              7,
+              4,
+              7,
+              0,
+              23,
+              23,
+              0,
+              11,
+              3
+            ]
+          },
+          "plaintext": "PISKOVOYXGLUMBTOFRVBIEASTNORTHEASTBOWJRQQJSTKEWMDDRIMKDBICLWFWHBERLINCLOCKJWKDUZRIDJGYVKHHYAKEAWR",
+          "regeneration_verified": true
+        }
+      ],
+      "independently_unseen_plaintext_checks": 0,
+      "first_stage_marginal_predictions_not_computed": true
+    },
+    {
+      "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "origin": 1,
+      "training": {
+        "completed": true,
+        "status": "compatible",
+        "raw_key_count": "89270182765174462863807973217630178674601911280960974225639851748677990642118540727523737600",
+        "gauge_fixed_key_count": "3433468567891325494761845123755006872100073510806191316370763528795307332389174643366297600",
+        "graph": {
+          "consistent": true,
+          "components": [
+            {
+              "root": "F:0",
+              "potentials": {
+                "F:0": 0,
+                "Q:13": 4
+              },
+              "points": [
+                {
+                  "a": 4,
+                  "b": 13,
+                  "positions": [
+                    31,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:13",
+              "potentials": {
+                "F:13": 0,
+                "Q:22": 25
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 9,
+                  "positions": [
+                    25,
+                    26
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:17",
+              "potentials": {
+                "F:17": 0,
+                "Q:20": 11
+              },
+              "points": [
+                {
+                  "a": 14,
+                  "b": 3,
+                  "positions": [
+                    27,
+                    28
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:18",
+              "potentials": {
+                "F:18": 0,
+                "Q:17": 25
+              },
+              "points": [
+                {
+                  "a": 0,
+                  "b": 25,
+                  "positions": [
+                    23,
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:19",
+              "potentials": {
+                "F:19": 0,
+                "Q:6": 12
+              },
+              "points": [
+                {
+                  "a": 18,
+                  "b": 13,
+                  "positions": [
+                    33,
+                    34
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:7",
+              "potentials": {
+                "F:7": 0,
+                "Q:1": 0
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 20,
+                  "positions": [
+                    29,
+                    30
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:23",
+              "potentials": {
+                "Q:23": 0
+              },
+              "points": [
+                {
+                  "a": 12,
+                  "b": 19,
+                  "positions": [
+                    21,
+                    22
+                  ]
+                }
+              ]
+            }
+          ],
+          "observed_F": 6,
+          "observed_H": 7,
+          "equations": 6
+        },
+        "anchor": 0,
+        "core_assignments": 1,
+        "singleton_components": 6,
+        "free_F_H_entries": 39,
+        "witness": {
+          "F": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0,
+            13,
+            2,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "G": [
+            9,
+            3,
+            25,
+            20,
+            13,
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "H": [
+            0,
+            16,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            22,
+            0,
+            0,
+            0,
+            25,
+            0,
+            0,
+            2,
+            0,
+            20,
+            7,
+            0,
+            0
+          ]
+        },
+        "count_semantics": "Complete F/G/H parameter descriptions. One global translation gauge removed then restored. Not distinct cipher functions or 97-character plaintexts."
+      },
+      "all_cribs": {
+        "completed": true,
+        "status": "compatible",
+        "raw_key_count": "16168193697202177819511178175846244781225476210067623843076343135082769285120",
+        "gauge_fixed_key_count": "621853603738545300750429929840240183893287546541062455502936274426260357120",
+        "graph": {
+          "consistent": true,
+          "components": [
+            {
+              "root": "F:0",
+              "potentials": {
+                "F:0": 0,
+                "Q:13": 4
+              },
+              "points": [
+                {
+                  "a": 4,
+                  "b": 13,
+                  "positions": [
+                    31,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:10",
+              "potentials": {
+                "F:10": 0,
+                "Q:3": 2
+              },
+              "points": [
+                {
+                  "a": 2,
+                  "b": 19,
+                  "positions": [
+                    73,
+                    74
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:13",
+              "potentials": {
+                "F:13": 0,
+                "F:8": 18,
+                "Q:22": 25
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 9,
+                  "positions": [
+                    25,
+                    26
+                  ]
+                },
+                {
+                  "a": 3,
+                  "b": 14,
+                  "positions": [
+                    67,
+                    68
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:14",
+              "potentials": {
+                "F:14": 0,
+                "Q:25": 25
+              },
+              "points": [
+                {
+                  "a": 11,
+                  "b": 11,
+                  "positions": [
+                    71,
+                    72
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:17",
+              "potentials": {
+                "F:17": 0,
+                "Q:2": 1,
+                "Q:20": 11
+              },
+              "points": [
+                {
+                  "a": 14,
+                  "b": 3,
+                  "positions": [
+                    27,
+                    28
+                  ]
+                },
+                {
+                  "a": 4,
+                  "b": 11,
+                  "positions": [
+                    65,
+                    66
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:18",
+              "potentials": {
+                "F:18": 0,
+                "Q:17": 25
+              },
+              "points": [
+                {
+                  "a": 0,
+                  "b": 25,
+                  "positions": [
+                    23,
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:19",
+              "potentials": {
+                "F:19": 0,
+                "Q:6": 12
+              },
+              "points": [
+                {
+                  "a": 18,
+                  "b": 13,
+                  "positions": [
+                    33,
+                    34
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:2",
+              "potentials": {
+                "F:2": 0,
+                "Q:4": 21
+              },
+              "points": [
+                {
+                  "a": 13,
+                  "b": 2,
+                  "positions": [
+                    69,
+                    70
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:7",
+              "potentials": {
+                "F:7": 0,
+                "Q:1": 0
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 20,
+                  "positions": [
+                    29,
+                    30
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:23",
+              "potentials": {
+                "Q:23": 0
+              },
+              "points": [
+                {
+                  "a": 12,
+                  "b": 19,
+                  "positions": [
+                    21,
+                    22
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:8",
+              "potentials": {
+                "Q:8": 0
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 7,
+                  "positions": [
+                    63,
+                    64
+                  ]
+                }
+              ]
+            }
+          ],
+          "observed_F": 10,
+          "observed_H": 12,
+          "equations": 11
+        },
+        "anchor": 2,
+        "core_assignments": 26,
+        "singleton_components": 9,
+        "free_F_H_entries": 30,
+        "witness": {
+          "F": [
+            22,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            13,
+            18,
+            0,
+            25,
+            0,
+            0,
+            0,
+            19,
+            0,
+            0,
+            0,
+            2,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "G": [
+            13,
+            19,
+            25,
+            14,
+            11,
+            2,
+            20,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "H": [
+            0,
+            13,
+            25,
+            25,
+            13,
+            0,
+            6,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            25,
+            0,
+            0,
+            15,
+            0,
+            1,
+            11,
+            0,
+            8
+          ]
+        },
+        "count_semantics": "Complete F/G/H parameter descriptions. One global translation gauge removed then restored. Not distinct cipher functions or 97-character plaintexts."
+      },
+      "plaintext_witnesses": [
+        {
+          "kind": "arbitrary_crib_fit_not_solution",
+          "key": {
+            "F": [
+              22,
+              0,
+              18,
+              0,
+              0,
+              0,
+              0,
+              13,
+              18,
+              0,
+              25,
+              0,
+              0,
+              0,
+              19,
+              0,
+              0,
+              0,
+              2,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "G": [
+              13,
+              19,
+              25,
+              14,
+              11,
+              2,
+              20,
+              7,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              0,
+              9,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              13,
+              25,
+              25,
+              13,
+              0,
+              6,
+              0,
+              12,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              25,
+              0,
+              0,
+              15,
+              0,
+              1,
+              11,
+              0,
+              8
+            ]
+          },
+          "plaintext": "IFOHXTFWPKRVCIRFMPEIBEASTNORTHEASTEUAORUUQSTAYRZWXDQVAKVPIEMETHBERLINCLOCKCYAXQZDQKJNPZACOIHAYPCR",
+          "regeneration_verified": true
+        },
+        {
+          "kind": "distinct_compatible_plaintext_ambiguity_witness",
+          "key": {
+            "F": [
+              22,
+              0,
+              18,
+              0,
+              0,
+              0,
+              0,
+              13,
+              18,
+              0,
+              25,
+              0,
+              0,
+              0,
+              19,
+              0,
+              0,
+              0,
+              2,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "G": [
+              13,
+              19,
+              25,
+              14,
+              11,
+              2,
+              20,
+              7,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              0,
+              9,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              13,
+              25,
+              25,
+              13,
+              1,
+              6,
+              0,
+              12,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              25,
+              0,
+              0,
+              15,
+              0,
+              1,
+              11,
+              0,
+              8
+            ]
+          },
+          "plaintext": "HYOHXTFWPKRVCIQFMPEIBEASTNORTHEASTDRAORUUQSTAYRZWXDQVAKVPIEMETHBERLINCLOCKCYAXQZDQKJNPZACOIHAYPCR",
+          "regeneration_verified": true
+        }
+      ],
+      "independently_unseen_plaintext_checks": 0,
+      "first_stage_marginal_predictions_not_computed": true
+    },
+    {
+      "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "origin": 1,
+      "training": {
+        "completed": true,
+        "status": "compatible",
+        "raw_key_count": "38813122941380201245133901398969642902000830991722162706799935542903474192225452490227712000",
+        "gauge_fixed_key_count": "1492812420822315432505150053806524727000031961220083181030766751650133622777902018854912000",
+        "graph": {
+          "consistent": true,
+          "components": [
+            {
+              "root": "F:1",
+              "potentials": {
+                "F:1": 0,
+                "Q:16": 16
+              },
+              "points": [
+                {
+                  "a": 5,
+                  "b": 15,
+                  "positions": [
+                    27,
+                    28
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:14",
+              "potentials": {
+                "F:14": 0,
+                "Q:17": 17
+              },
+              "points": [
+                {
+                  "a": 4,
+                  "b": 3,
+                  "positions": [
+                    29,
+                    30
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:19",
+              "potentials": {
+                "F:19": 0,
+                "Q:21": 14
+              },
+              "points": [
+                {
+                  "a": 4,
+                  "b": 2,
+                  "positions": [
+                    25,
+                    26
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:4",
+              "potentials": {
+                "F:4": 0,
+                "Q:18": 14
+              },
+              "points": [
+                {
+                  "a": 6,
+                  "b": 14,
+                  "positions": [
+                    33,
+                    34
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:6",
+              "potentials": {
+                "F:6": 0,
+                "Q:11": 16
+              },
+              "points": [
+                {
+                  "a": 7,
+                  "b": 5,
+                  "positions": [
+                    23,
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:7",
+              "potentials": {
+                "F:7": 0,
+                "Q:6": 1
+              },
+              "points": [
+                {
+                  "a": 11,
+                  "b": 25,
+                  "positions": [
+                    31,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:22",
+              "potentials": {
+                "Q:22": 0
+              },
+              "points": [
+                {
+                  "a": 5,
+                  "b": 11,
+                  "positions": [
+                    21,
+                    22
+                  ]
+                }
+              ]
+            }
+          ],
+          "observed_F": 6,
+          "observed_H": 7,
+          "equations": 6
+        },
+        "anchor": 0,
+        "core_assignments": 1,
+        "singleton_components": 6,
+        "free_F_H_entries": 39,
+        "witness": {
+          "F": [
+            0,
+            0,
+            0,
+            0,
+            22,
+            0,
+            22,
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            22,
+            0,
+            0,
+            0,
+            0,
+            23,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "G": [
+            3,
+            2,
+            14,
+            5,
+            25,
+            15,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "H": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            10,
+            13,
+            16,
+            0,
+            0,
+            15,
+            25,
+            0,
+            0,
+            0
+          ]
+        },
+        "count_semantics": "Complete F/G/H parameter descriptions. One global translation gauge removed then restored. Not distinct cipher functions or 97-character plaintexts."
+      },
+      "all_cribs": {
+        "completed": true,
+        "status": "compatible",
+        "raw_key_count": "2059056308067754762131486904627329906195170125981240958505421920830226432000",
+        "gauge_fixed_key_count": "79194473387221337005057188639512688699814235614663113788670073878085632000",
+        "graph": {
+          "consistent": true,
+          "components": [
+            {
+              "root": "F:0",
+              "potentials": {
+                "F:0": 0,
+                "Q:15": 25
+              },
+              "points": [
+                {
+                  "a": 9,
+                  "b": 15,
+                  "positions": [
+                    73,
+                    74
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:1",
+              "potentials": {
+                "F:1": 0,
+                "Q:16": 16,
+                "Q:24": 22
+              },
+              "points": [
+                {
+                  "a": 5,
+                  "b": 15,
+                  "positions": [
+                    27,
+                    28
+                  ]
+                },
+                {
+                  "a": 11,
+                  "b": 23,
+                  "positions": [
+                    65,
+                    66
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:14",
+              "potentials": {
+                "F:14": 0,
+                "Q:17": 17
+              },
+              "points": [
+                {
+                  "a": 4,
+                  "b": 3,
+                  "positions": [
+                    29,
+                    30
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:15",
+              "potentials": {
+                "F:15": 0,
+                "F:19": 10,
+                "Q:21": 24
+              },
+              "points": [
+                {
+                  "a": 14,
+                  "b": 2,
+                  "positions": [
+                    25,
+                    26
+                  ]
+                },
+                {
+                  "a": 17,
+                  "b": 6,
+                  "positions": [
+                    67,
+                    68
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:4",
+              "potentials": {
+                "F:4": 0,
+                "Q:18": 14
+              },
+              "points": [
+                {
+                  "a": 6,
+                  "b": 14,
+                  "positions": [
+                    33,
+                    34
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:5",
+              "potentials": {
+                "F:5": 0,
+                "Q:25": 12
+              },
+              "points": [
+                {
+                  "a": 17,
+                  "b": 20,
+                  "positions": [
+                    71,
+                    72
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:6",
+              "potentials": {
+                "F:6": 0,
+                "Q:11": 16
+              },
+              "points": [
+                {
+                  "a": 7,
+                  "b": 5,
+                  "positions": [
+                    23,
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:7",
+              "potentials": {
+                "F:7": 0,
+                "Q:6": 1
+              },
+              "points": [
+                {
+                  "a": 11,
+                  "b": 25,
+                  "positions": [
+                    31,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:9",
+              "potentials": {
+                "F:9": 0,
+                "Q:19": 7
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 10,
+                  "positions": [
+                    69,
+                    70
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:1",
+              "potentials": {
+                "Q:1": 0
+              },
+              "points": [
+                {
+                  "a": 13,
+                  "b": 19,
+                  "positions": [
+                    63,
+                    64
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:22",
+              "potentials": {
+                "Q:22": 0
+              },
+              "points": [
+                {
+                  "a": 5,
+                  "b": 11,
+                  "positions": [
+                    21,
+                    22
+                  ]
+                }
+              ]
+            }
+          ],
+          "observed_F": 10,
+          "observed_H": 12,
+          "equations": 11
+        },
+        "anchor": 1,
+        "core_assignments": 26,
+        "singleton_components": 9,
+        "free_F_H_entries": 30,
+        "witness": {
+          "F": [
+            22,
+            0,
+            0,
+            0,
+            21,
+            11,
+            22,
+            19,
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            22,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "G": [
+            3,
+            14,
+            20,
+            5,
+            25,
+            15,
+            10,
+            19,
+            11,
+            0,
+            0,
+            23,
+            0,
+            0,
+            2,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "H": [
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0,
+            5,
+            10,
+            13,
+            17,
+            6,
+            0,
+            2,
+            23,
+            0,
+            4,
+            3
+          ]
+        },
+        "count_semantics": "Complete F/G/H parameter descriptions. One global translation gauge removed then restored. Not distinct cipher functions or 97-character plaintexts."
+      },
+      "plaintext_witnesses": [
+        {
+          "kind": "arbitrary_crib_fit_not_solution",
+          "key": {
+            "F": [
+              22,
+              0,
+              0,
+              0,
+              21,
+              11,
+              22,
+              19,
+              0,
+              13,
+              0,
+              0,
+              0,
+              0,
+              22,
+              0,
+              0,
+              0,
+              0,
+              10,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "G": [
+              3,
+              14,
+              20,
+              5,
+              25,
+              15,
+              10,
+              19,
+              11,
+              0,
+              0,
+              23,
+              0,
+              0,
+              2,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              6,
+              0,
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0,
+              14,
+              0,
+              0,
+              0,
+              5,
+              10,
+              13,
+              17,
+              6,
+              0,
+              2,
+              23,
+              0,
+              4,
+              3
+            ]
+          },
+          "plaintext": "OKVTHMHURMEWFRELUNURBEASTNORTHEASTWHVVWOPCSTITVZPLAHEGPIIOEZOXABERLINCLOCKCVDPQZAHPWSXQDRAXKITKZR",
+          "regeneration_verified": true
+        },
+        {
+          "kind": "distinct_compatible_plaintext_ambiguity_witness",
+          "key": {
+            "F": [
+              22,
+              0,
+              0,
+              0,
+              21,
+              11,
+              22,
+              19,
+              0,
+              13,
+              0,
+              0,
+              0,
+              0,
+              22,
+              0,
+              0,
+              0,
+              0,
+              10,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "G": [
+              3,
+              14,
+              20,
+              5,
+              25,
+              15,
+              10,
+              19,
+              11,
+              0,
+              0,
+              23,
+              0,
+              0,
+              2,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              6,
+              0,
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0,
+              14,
+              0,
+              0,
+              1,
+              5,
+              10,
+              13,
+              17,
+              6,
+              0,
+              2,
+              23,
+              0,
+              4,
+              3
+            ]
+          },
+          "plaintext": "KEVTHMHURMEWFRHHUNURBEASTNORTHEASTVHVVWOPCSTITVZPLAHEGPIIOEZOXABERLINCLOCKCVDPQZAHPWSXQDRAXKITKZR",
+          "regeneration_verified": true
+        }
+      ],
+      "independently_unseen_plaintext_checks": 0,
+      "first_stage_marginal_predictions_not_computed": true
+    },
+    {
+      "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "origin": 1,
+      "training": {
+        "completed": true,
+        "status": "compatible",
+        "raw_key_count": "38813122941380201245133901398969642902000830991722162706799935542903474192225452490227712000",
+        "gauge_fixed_key_count": "1492812420822315432505150053806524727000031961220083181030766751650133622777902018854912000",
+        "graph": {
+          "consistent": true,
+          "components": [
+            {
+              "root": "F:1",
+              "potentials": {
+                "F:1": 0,
+                "Q:20": 2
+              },
+              "points": [
+                {
+                  "a": 5,
+                  "b": 19,
+                  "positions": [
+                    27,
+                    28
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:14",
+              "potentials": {
+                "F:14": 0,
+                "Q:1": 11
+              },
+              "points": [
+                {
+                  "a": 4,
+                  "b": 13,
+                  "positions": [
+                    29,
+                    30
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:19",
+              "potentials": {
+                "F:19": 0,
+                "Q:22": 10
+              },
+              "points": [
+                {
+                  "a": 4,
+                  "b": 3,
+                  "positions": [
+                    25,
+                    26
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:4",
+              "potentials": {
+                "F:4": 0,
+                "Q:6": 0
+              },
+              "points": [
+                {
+                  "a": 6,
+                  "b": 2,
+                  "positions": [
+                    33,
+                    34
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:6",
+              "potentials": {
+                "F:6": 0,
+                "Q:17": 6
+              },
+              "points": [
+                {
+                  "a": 7,
+                  "b": 11,
+                  "positions": [
+                    23,
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:7",
+              "potentials": {
+                "F:7": 0,
+                "Q:13": 11
+              },
+              "points": [
+                {
+                  "a": 11,
+                  "b": 6,
+                  "positions": [
+                    31,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:23",
+              "potentials": {
+                "Q:23": 0
+              },
+              "points": [
+                {
+                  "a": 12,
+                  "b": 12,
+                  "positions": [
+                    21,
+                    22
+                  ]
+                }
+              ]
+            }
+          ],
+          "observed_F": 6,
+          "observed_H": 7,
+          "equations": 6
+        },
+        "anchor": 0,
+        "core_assignments": 1,
+        "singleton_components": 6,
+        "free_F_H_entries": 39,
+        "witness": {
+          "F": [
+            0,
+            0,
+            0,
+            0,
+            22,
+            0,
+            22,
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            22,
+            0,
+            0,
+            0,
+            0,
+            23,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "G": [
+            13,
+            3,
+            2,
+            11,
+            6,
+            19,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "H": [
+            0,
+            19,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            22,
+            0,
+            0,
+            0,
+            24,
+            0,
+            0,
+            24,
+            0,
+            19,
+            6,
+            0,
+            0
+          ]
+        },
+        "count_semantics": "Complete F/G/H parameter descriptions. One global translation gauge removed then restored. Not distinct cipher functions or 97-character plaintexts."
+      },
+      "all_cribs": {
+        "completed": true,
+        "status": "compatible",
+        "raw_key_count": "2059056308067754762131486904627329906195170125981240958505421920830226432000",
+        "gauge_fixed_key_count": "79194473387221337005057188639512688699814235614663113788670073878085632000",
+        "graph": {
+          "consistent": true,
+          "components": [
+            {
+              "root": "F:0",
+              "potentials": {
+                "F:0": 0,
+                "Q:3": 9
+              },
+              "points": [
+                {
+                  "a": 9,
+                  "b": 3,
+                  "positions": [
+                    73,
+                    74
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:1",
+              "potentials": {
+                "F:1": 0,
+                "Q:2": 8,
+                "Q:20": 2
+              },
+              "points": [
+                {
+                  "a": 5,
+                  "b": 19,
+                  "positions": [
+                    27,
+                    28
+                  ]
+                },
+                {
+                  "a": 11,
+                  "b": 1,
+                  "positions": [
+                    65,
+                    66
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:14",
+              "potentials": {
+                "F:14": 0,
+                "Q:1": 11
+              },
+              "points": [
+                {
+                  "a": 4,
+                  "b": 13,
+                  "positions": [
+                    29,
+                    30
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:15",
+              "potentials": {
+                "F:15": 0,
+                "F:19": 3,
+                "Q:22": 13
+              },
+              "points": [
+                {
+                  "a": 7,
+                  "b": 3,
+                  "positions": [
+                    25,
+                    26
+                  ]
+                },
+                {
+                  "a": 17,
+                  "b": 7,
+                  "positions": [
+                    67,
+                    68
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:4",
+              "potentials": {
+                "F:4": 0,
+                "Q:6": 0
+              },
+              "points": [
+                {
+                  "a": 6,
+                  "b": 2,
+                  "positions": [
+                    33,
+                    34
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:5",
+              "potentials": {
+                "F:5": 0,
+                "Q:25": 5
+              },
+              "points": [
+                {
+                  "a": 17,
+                  "b": 20,
+                  "positions": [
+                    71,
+                    72
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:6",
+              "potentials": {
+                "F:6": 0,
+                "Q:17": 6
+              },
+              "points": [
+                {
+                  "a": 7,
+                  "b": 11,
+                  "positions": [
+                    23,
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:7",
+              "potentials": {
+                "F:7": 0,
+                "Q:13": 11
+              },
+              "points": [
+                {
+                  "a": 11,
+                  "b": 6,
+                  "positions": [
+                    31,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "F:9",
+              "potentials": {
+                "F:9": 0,
+                "Q:4": 1
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 21,
+                  "positions": [
+                    69,
+                    70
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:23",
+              "potentials": {
+                "Q:23": 0
+              },
+              "points": [
+                {
+                  "a": 12,
+                  "b": 12,
+                  "positions": [
+                    21,
+                    22
+                  ]
+                }
+              ]
+            },
+            {
+              "root": "Q:8",
+              "potentials": {
+                "Q:8": 0
+              },
+              "points": [
+                {
+                  "a": 19,
+                  "b": 0,
+                  "positions": [
+                    63,
+                    64
+                  ]
+                }
+              ]
+            }
+          ],
+          "observed_F": 10,
+          "observed_H": 12,
+          "equations": 11
+        },
+        "anchor": 1,
+        "core_assignments": 26,
+        "singleton_components": 9,
+        "free_F_H_entries": 30,
+        "witness": {
+          "F": [
+            24,
+            0,
+            0,
+            0,
+            21,
+            11,
+            22,
+            19,
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            22,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "G": [
+            13,
+            2,
+            20,
+            11,
+            6,
+            19,
+            21,
+            3,
+            12,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "H": [
+            0,
+            19,
+            18,
+            19,
+            12,
+            0,
+            5,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            22,
+            0,
+            0,
+            0,
+            24,
+            0,
+            0,
+            24,
+            0,
+            13,
+            4,
+            0,
+            10
+          ]
+        },
+        "count_semantics": "Complete F/G/H parameter descriptions. One global translation gauge removed then restored. Not distinct cipher functions or 97-character plaintexts."
+      },
+      "plaintext_witnesses": [
+        {
+          "kind": "arbitrary_crib_fit_not_solution",
+          "key": {
+            "F": [
+              24,
+              0,
+              0,
+              0,
+              21,
+              11,
+              22,
+              19,
+              0,
+              13,
+              0,
+              0,
+              0,
+              0,
+              22,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "G": [
+              13,
+              2,
+              20,
+              11,
+              6,
+              19,
+              21,
+              3,
+              12,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              19,
+              18,
+              19,
+              12,
+              0,
+              5,
+              0,
+              10,
+              0,
+              0,
+              0,
+              0,
+              22,
+              0,
+              0,
+              0,
+              24,
+              0,
+              0,
+              24,
+              0,
+              13,
+              4,
+              0,
+              10
+            ]
+          },
+          "plaintext": "ONRXOYQOMGUHVBLXFIXBBEASTNORTHEASTTZKDBBQJSTKXIZPFTXHNDUAFEVCNCBERLINCLOCKCWKWHZTXWCGIWKZHYAKXESR",
+          "regeneration_verified": true
+        },
+        {
+          "kind": "distinct_compatible_plaintext_ambiguity_witness",
+          "key": {
+            "F": [
+              24,
+              0,
+              0,
+              0,
+              21,
+              11,
+              22,
+              19,
+              0,
+              13,
+              0,
+              0,
+              0,
+              0,
+              22,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "G": [
+              13,
+              2,
+              20,
+              11,
+              6,
+              19,
+              21,
+              3,
+              12,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              19,
+              18,
+              19,
+              12,
+              1,
+              5,
+              0,
+              10,
+              0,
+              0,
+              0,
+              0,
+              22,
+              0,
+              0,
+              0,
+              24,
+              0,
+              0,
+              24,
+              0,
+              13,
+              4,
+              0,
+              10
+            ]
+          },
+          "plaintext": "AYRXOYQOMGUHVBOOFIXBBEASTNORTHEASTPQKDBBQJSTKXIZPFTXHNDUAFEVCNCBERLINCLOCKCWKWHZTXWCGIWKZHYAKXESR",
+          "regeneration_verified": true
+        }
+      ],
+      "independently_unseen_plaintext_checks": 0,
+      "first_stage_marginal_predictions_not_computed": true
+    }
+  ],
+  "source_sha256": {
+    "experiments/feistel_three.py": "a3e9aac90039c4ad7ca54e19fdb1187337a6f30d02909b09bb7a86797d0ca828",
+    "research/FEISTEL-EXTENSION-SPEC.md": "c1e489d080bf14567e2384e9846f1020a15e0b7e62067fcaa896aea8c52ba748",
+    "experiments/nonrotor_structural.py": "d775efe289cf43f6c903ba8ee6e6b0e523ced88fae15dd3275388f8075a3e024",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}

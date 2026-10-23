@@ -1,0 +1,19 @@
+{
+  "commit": "2db2722cc3f18c52d4d8369d7adc5a1db7e859d7",
+  "repository": "https://github.com/barneyjm/kryptos-k4",
+  "source_paths": [
+    "scripts/fe_wheatstone.py",
+    "scripts/fe_common.py",
+    "scripts/rk_mixed.py"
+  ],
+  "read_only": true,
+  "downloaded_source_executed": false,
+  "sha256_by_local_source_name": {
+    "k4-wheatstone-scope.py": "6b01b60494001cf67fc1bb642e8f6aa80af7b29a4c054ebbbb977b41de2d676e",
+    "k4-wheatstone-common-scope.py": "91008c8d893c45751a26c8544814ae8afd72f073e5b1194df2881616546f2fd4",
+    "k4-wheatstone-alphabets-scope.py": "ce1a8508b825d54c88404c05f080329af44af10fa2331e87a6daf97c8ec35d5e"
+  },
+  "verified_scope": "rk_mixed.alph_list inserts a[::-1] for each straight/transposed keyed alphabet; fe_common.all_alphabets imports that list; fe_wheatstone inserts the blank in all 26 cyclically distinct slots and allows arbitrary inner labels plus a shift between islands.",
+  "not_verified": "Third-party complete sweep/results and physical-machine reference vector not independently replayed in this follow-up.",
+  "new_K4_tests": 0
+}

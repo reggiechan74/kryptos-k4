@@ -201,6 +201,6 @@ def main():
     ap=argparse.ArgumentParser();ap.add_argument('--controls',action='store_true');ap.add_argument('--actual',action='store_true');ap.add_argument('--output',required=True);a=ap.parse_args();out={}
     if a.controls:out['controls']=controls()
     if a.actual:out['actual']=actual()
-    out['source_sha256']={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (Path(__file__),ROOT/'research/FEISTEL-EXTENSION-SPEC.md',ROOT/'experiments/nonrotor_structural.py')}
+    out['source_sha256']={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (Path(__file__),ROOT/'research/FEISTEL-EXTENSION-SPEC.md',ROOT/'experiments/nonrotor_structural.py',ROOT/'data/k4.json')}
     Path(a.output).write_text(json.dumps(out,indent=2)+'\n')
 if __name__=='__main__':main()

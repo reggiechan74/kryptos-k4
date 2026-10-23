@@ -40,7 +40,9 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 | [H-WHEATSTONE](#h-wheatstone) | untested | Unequal 27/26 rings and skip/blank stepping alter substitution state. |
 | [H-M94-CYCLIC](#h-m94-cyclic) | analytical exclusion | One common cyclic row displacement per 25-letter block on arbitrary valid permutation discs. |
 | [H-M138A](#h-m138a) | evidence-blocked | Historical strip selection/alignment produces a row-dependent alphabet. |
-| [H-NONLINEAR-BLOCK](#h-nonlinear-block) | narrow negative | A fixed nonlinear block transformation couples several plaintext letters. |
+| [H-FEISTEL-2ROUND](#h-feistel-2round) | analytical exclusion | Exact two-round additive Feistel with arbitrary round functions, fixed coordinates and swaps. |
+| [H-FEISTEL-3ROUND](#h-feistel-3round) | non-identifiable | Canonical three-round arbitrary-function cipher, exact key volume and plaintext ambiguity. |
+| [H-NONLINEAR-BLOCK](#h-nonlinear-block) | non-identifiable | A fixed nonlinear block transformation couples several plaintext letters. |
 | [H-BOOK-CODEBOOK](#h-book-codebook) | evidence-blocked | An independently identified edition/page/codebook supplies symbols or running-key material. |
 | [H-OTP](#h-otp) | non-identifiable | An unrestricted independent pad can explain any chosen plaintext of the same length. |
 | [H-PERM](#h-perm) | analytical exclusion | Pure permutation preserves the letter multiset. |
@@ -219,12 +221,12 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: narrow negative
 - Mechanism: Letters or geometry fragments walk a tree and update cipher state carried between letters.
 - Evidence: [source or scoped prior review](TREE-PATH-CIPHER-FINDINGS.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Two fixed trees, two subtree-cycle directions and 26 seeds: 104 unique full decryptions, zero first-crib survivors; 104 complete planted selectors.
+- Tested scope: Original 104 cyclic-seed settings reject. The same two trees/directions now fail each crib island even with an arbitrary cipher-label permutation at its start, a necessary-condition relaxation covering any continuous unknown prefix/gap state.
 - Untested scope: Other independently generated trees, state transitions, framing or seed domains.
 - Missing inputs: A distinct fixed tree/update/inverse and evidence beyond the failed pilot; arbitrary fitted labels would overfit.
 - Next discriminating test: Before another K4 test, freeze one demonstrably non-equivalent reversible rule; validate unique decoding and literal-crib plants through the complete selector.
 - Dependencies: TREE-PATH-CIPHER-SPEC.md; no crib-boundary resets, guessed gap states or automatic second sweep
-- Results: [retained evidence and finite coverage](TREE-PATH-CIPHER-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Arbitrary-state support certificates](../results/TREE-STATE-SUPPORT-006.json), [scope and limits](FEISTEL-TREE-EXTENSION-FINDINGS.md), and [retained evidence and finite coverage](TREE-PATH-CIPHER-FINDINGS.md).
 
 ### H-SIGABA-INSPIRED
 
@@ -255,12 +257,12 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: untested
 - Mechanism: Unequal 27/26 rings and skip/blank stepping alter substitution state.
 - Evidence: [source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Pinned Barney fe_wheatstone.py covers specified outer alphabets/blank slots and arbitrary inner alphabet; this is prior art, not a new local run.
+- Tested scope: Pinned Barney fe_wheatstone.py covers specified outer alphabets/blank slots and arbitrary inner alphabet; its imported generator explicitly includes reversed outer alphabets. This is reviewed prior art, not a new local run or a fresh replay of its full sweep.
 - Untested scope: Only historically justified domains demonstrably outside that exact source scope.
 - Missing inputs: A precise non-equivalent convention, initial state and independently fixed ring/key restriction.
 - Next discriminating test: Compare exact conventions before compute; reproduce a historical reference vector and skip any model already excluded by the pinned audit.
 - Dependencies: Do not call plain Wheatstone new; do not conflate it with vowel/consonant cursor pilots
-- Results: [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Pinned source-direction audit](../sources/wheatstone-direction-coverage-review.json) and [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-M94-CYCLIC
 
@@ -286,17 +288,41 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Dependencies: Historical source gate; random tables and arbitrary alphabets are not authentic strip tests
 - Results: [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
+### H-FEISTEL-2ROUND
+
+- Status: analytical exclusion
+- Mechanism: Two shared arbitrary round functions in X=L+F(R), Y=R+G(X), with input/output swaps around the pair map.
+- Evidence: General historical Feistel context only; this Z26 construction and finite choices are hypotheses, not attributed creator use.
+- Tested scope: 32 proved unequal wrapper/coordinate/origin families; eight old labels skipped, all 24 new labels rejected by exact shared-entry constraints. Complete synthetic pair-map counterexamples verify non-aliases.
+- Untested scope: Other alphabets, state-dependent functions, extra rounds and framing; no general nonlinear-block exclusion.
+- Missing inputs: A materially distinct independently justified mechanism, not another completion of already excluded functions.
+- Next discriminating test: Use a source-grounded restrictive construction with a non-fit prediction; do not add a round automatically.
+- Dependencies: Fixed literal A-Z crib alignment, exactly two rounds, no unannounced preprocessing.
+- Results: [Scope and proofs](FEISTEL-TREE-EXTENSION-FINDINGS.md), [new constraints](../results/FEISTEL-SYMMETRY-005.json), [non-alias witnesses](../results/FEISTEL-SYMMETRY-005-controls.json).
+
+### H-FEISTEL-3ROUND
+
+- Status: non-identifiable
+- Mechanism: A=L+F(R), X=R+G(A), Y=A+H(X), shared arbitrary functions.
+- Evidence: Hypothetical Z26 model; added flexibility is not historical evidence or statistical support.
+- Tested scope: Four canonical coordinate-role cases, origin 1; exact full key counts agree with independent sign-potential/sequential-color counting. Each has two different 97-letter plaintext witnesses matching all 24 cribs and regenerating ciphertext.
+- Untested scope: Other frames, function restrictions and additional evidence outside the known cribs; no fourth-round sweep.
+- Missing inputs: Independently justified restrictions or non-fit observations capable of distinguishing the large compatible family.
+- Next discriminating test: Prioritize a different constrained mechanism; additional arbitrary rounds would increase ambiguity.
+- Dependencies: Known-right partial-pair scope, one harmless translation gauge, complete arbitrary-function key descriptions distinct from plaintext/function classes.
+- Results: [Exact counts and limits](FEISTEL-TREE-EXTENSION-FINDINGS.md), [full family and witnesses](../results/FEISTEL-THREE-005.json), [independent counts](../results/FEISTEL-THREE-005-independent.json).
+
 ### H-NONLINEAR-BLOCK
 
-- Status: narrow negative
+- Status: non-identifiable
 - Mechanism: A fixed nonlinear block transformation couples several plaintext letters.
 - Evidence: [source or scoped prior review](UNRUN-GAPS-2026-10-23.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Eight two-round additive Feistel structures with arbitrary shared F/G functions reject; four on first-crib F collisions, four on a forced Berlin letter. Older affine exclusions cover only the affine subset.
-- Untested scope: Three or more rounds, other explicit block constructions, final swaps or changing/stateful functions.
+- Tested scope: All 32 frozen two-round wrapper/coordinate/origin families reject (eight covered, 24 new); four canonical three-round coordinate cases have exact huge compatible-key volumes and differing full plaintext witnesses, not a decoding.
+- Untested scope: Other three-round frames/swaps, independently restricted round functions, larger/different block constructions and changing/stateful functions; no automatic extra round.
 - Missing inputs: Block size/origin, invertible operation, key budget and source-based rationale.
 - Next discriminating test: Freeze one small reversible block operator; prove inverse and compare complete compatible-key sets on planted and matched incompatible cases.
 - Dependencies: H-AFFINE-DIGRAPH is a boundary, not a broad polygraphic rejection; no generic brute-force program search
-- Results: [Exact nonlinear function constraints](JOINT-STATE-NONROTOR-FINDINGS.md) and [retained evidence and finite coverage](UNRUN-GAPS-2026-10-23.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Exact symmetry, three-round ambiguity and prioritized tree audit](FEISTEL-TREE-EXTENSION-FINDINGS.md) and [Exact nonlinear function constraints](JOINT-STATE-NONROTOR-FINDINGS.md) and [retained evidence and finite coverage](UNRUN-GAPS-2026-10-23.md).
 
 ### H-BOOK-CODEBOOK
 

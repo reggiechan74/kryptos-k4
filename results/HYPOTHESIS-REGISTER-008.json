@@ -1,0 +1,24 @@
+{
+  "kind": "Exact Feistel family audit, three-round ambiguity and arbitrary-state tree support",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 24,
+    "analytical exclusion": 11,
+    "untested": 2,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "5ddc9117f56218ef4504a49fcdb9b45bd68132eb5572544f2413d28e58cae0d2"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-007.json",
+  "previous_snapshot_commit": "4b4d6771e0eed9429034ac4fd6434816641fa664",
+  "new_two_round_structures": 24,
+  "old_two_round_structures_skipped": 8,
+  "three_round_structures": 4,
+  "three_round_compatible_but_nonidentifiable": true,
+  "fourth_round_tested": false,
+  "tree_fixed_primitives_arbitrary_local_states_excluded": 4,
+  "site_changed": false
+}

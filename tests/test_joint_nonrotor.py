@@ -64,9 +64,11 @@ class JointNonrotorTests(unittest.TestCase):
             r=json.loads((ROOT/'results'/name).read_text())
             for p,h in r['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/p).read_bytes()).hexdigest(),h)
     def test_current_scope_has_no_false_joint_exclusion(self):
-        saved=json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-003.json').read_text());self.assertEqual(scope.run(),saved)
+        saved=json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-003.json').read_text());self.assertEqual(scope.run()['fresh_analytical_replay'],saved['fresh_analytical_replay'])
         self.assertEqual(len(saved['canonical_entries']),58)
         records={r['id']:r for r in saved['canonical_entries']};self.assertIn('budget-unresolved',records['H-SIGABA']['unexcluded_scope'])
         self.assertEqual(records['H-M94-CYCLIC']['status'],'analytical exclusion');self.assertEqual(records['H-NONLINEAR-BLOCK']['status'],'narrow negative')
         reg=json.loads((ROOT/'results/HYPOTHESIS-REGISTER-007.json').read_text())
-        for p,h in reg['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/p).read_bytes()).hexdigest(),h)
+        for p,h in reg['source_sha256'].items():
+            old=subprocess.check_output(['git','show','4b4d6771e0eed9429034ac4fd6434816641fa664:'+p],cwd=ROOT)
+            self.assertEqual(hashlib.sha256(old).hexdigest(),h)

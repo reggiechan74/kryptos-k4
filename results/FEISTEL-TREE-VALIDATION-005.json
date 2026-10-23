@@ -1,0 +1,33 @@
+{
+  "test_count": 353,
+  "seconds": 21.062,
+  "status": "passed",
+  "suite": "All git-tracked test basenames; unrelated untracked suffix copies excluded",
+  "log_sha256": "7d49736168357bafb37c3eaa7d7455126147234a5d9e185ea06a90f6761a17a6",
+  "scoped_files_sha256": {
+    "experiments/exclusion_scope_audit.py": "47247d71e423b0454cb6574fbe862fec8348c458fe95be08f924be54a0cd842d",
+    "experiments/feistel_symmetry.py": "1e99b0bf639f7b8b4a28101fe6023833c4ad9d1e25ce2fed27bbda3778fe1c69",
+    "experiments/feistel_three.py": "a3e9aac90039c4ad7ca54e19fdb1187337a6f30d02909b09bb7a86797d0ca828",
+    "experiments/feistel_three_oracle.mjs": "57326c0eaf3abe5f5b654b538a043b81f5cad9c63566047df6afbd4310304fe8",
+    "experiments/tree_state_support.py": "b0adacb29c00b1a775b863790174471be4a73f9452912722d5715a0440d808c8",
+    "research/EXPERIMENTS.md": "c80e4773d4192f2151871fc815b2c6fe161058895bf1942d7ea7f9345a3399f8",
+    "research/FEISTEL-TREE-EXTENSION-FINDINGS.md": "6518d02fc5fd92ce6f2f065ec798f8ddfafc8bbdde2cb44fd9fbe2005cf9084b",
+    "research/HYPOTHESES.md": "5ddc9117f56218ef4504a49fcdb9b45bd68132eb5572544f2413d28e58cae0d2",
+    "results/EXCLUSION-SCOPE-AUDIT-004.json": "1516e74ee8709df511a2c3c0ad260d6bdfdbf1968cf621f6e09f3c0a49842d20",
+    "results/FEISTEL-SYMMETRY-005-controls.json": "6ef1af54ae51b041a2031b661aecef0d44b1aae529ed13798d22682faae616b4",
+    "results/FEISTEL-SYMMETRY-005.json": "fa6cf8f259e7c40e28d84504fbf5eabafbc421c3e4556322e48dcb28cb17a8e4",
+    "results/FEISTEL-THREE-005-controls.json": "1febc5099dd8c5ee34e0c603aad7488f711e825a37b050b3d02c98cfe9a59ae4",
+    "results/FEISTEL-THREE-005-independent.json": "0843b0d6acd7b14cb45bdc1260e1428aa0abc31a264d380bde7ebdc420521b7b",
+    "results/FEISTEL-THREE-005.json": "e055555b8da08e110c1fa105f65b587555a5f1b9efe735ad14e7bc5208cd40d4",
+    "results/HYPOTHESIS-REGISTER-008.json": "4a9c5aa4890d6fbfa9b7bc578cb62fa82b404b094d0ed380bb70460d07309d2c",
+    "results/TREE-STATE-SUPPORT-006-controls.json": "7d2a693eba57fbee96a7b266e8d7ba28b8f63c9f69e3652c5dad06b3224c5cb4",
+    "results/TREE-STATE-SUPPORT-006.json": "3b708494ce3896a9daf80bd3b6ab5268ce054ab96946c7590ca65cb9daeb66fc",
+    "sources/wheatstone-direction-coverage-review.json": "8d8e8198d1a7d728640dc5935c1392a3f1d1ff99639169d7cef3ae442743c116",
+    "tests/test_feistel_tree_extensions.py": "c7efbf9224524761da265371494a17f1ea3714dd4a65df3a73aee1caf9d2ae3c",
+    "tests/test_hypothesis_register.py": "60d1385fae4a1f09e031c92684fde74575fe60dda22e98108a98a6473f9b01ff",
+    "tests/test_joint_nonrotor.py": "670c984a4722f037614d55201a023001ff4177638e7c5b2a2474ba78f4980391"
+  },
+  "independent_replay": "Eight exact three-round training/all-crib counts agree with separate JavaScript counter",
+  "private_images_or_source_caches_added": false,
+  "site_changed": false
+}

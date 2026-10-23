@@ -1,0 +1,109 @@
+{
+  "method": "Independent sign-potential propagation and sequential existing/new color-allocation recurrence with BigInt; post-run verification, not new model counts",
+  "controls": [
+    {
+      "q": 2,
+      "case": 0,
+      "raw_keys": "8"
+    },
+    {
+      "q": 2,
+      "case": 1,
+      "raw_keys": "8"
+    },
+    {
+      "q": 2,
+      "case": 2,
+      "raw_keys": "8"
+    },
+    {
+      "q": 3,
+      "case": 0,
+      "raw_keys": "243"
+    },
+    {
+      "q": 3,
+      "case": 1,
+      "raw_keys": "243"
+    },
+    {
+      "q": 3,
+      "case": 2,
+      "raw_keys": "243"
+    }
+  ],
+  "records": [
+    {
+      "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "training": {
+        "raw_key_count": "89270182765174462863807973217630178674601911280960974225639851748677990642118540727523737600",
+        "gauge_fixed_key_count": "3433468567891325494761845123755006872100073510806191316370763528795307332389174643366297600",
+        "core_assignments": 1,
+        "components": 7,
+        "free_F_H_entries": 39
+      },
+      "all_cribs": {
+        "raw_key_count": "2059056308067754762131486904627329906195170125981240958505421920830226432000",
+        "gauge_fixed_key_count": "79194473387221337005057188639512688699814235614663113788670073878085632000",
+        "core_assignments": 26,
+        "components": 11,
+        "free_F_H_entries": 30
+      }
+    },
+    {
+      "input_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "training": {
+        "raw_key_count": "89270182765174462863807973217630178674601911280960974225639851748677990642118540727523737600",
+        "gauge_fixed_key_count": "3433468567891325494761845123755006872100073510806191316370763528795307332389174643366297600",
+        "core_assignments": 1,
+        "components": 7,
+        "free_F_H_entries": 39
+      },
+      "all_cribs": {
+        "raw_key_count": "16168193697202177819511178175846244781225476210067623843076343135082769285120",
+        "gauge_fixed_key_count": "621853603738545300750429929840240183893287546541062455502936274426260357120",
+        "core_assignments": 26,
+        "components": 11,
+        "free_F_H_entries": 30
+      }
+    },
+    {
+      "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "output_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "training": {
+        "raw_key_count": "38813122941380201245133901398969642902000830991722162706799935542903474192225452490227712000",
+        "gauge_fixed_key_count": "1492812420822315432505150053806524727000031961220083181030766751650133622777902018854912000",
+        "core_assignments": 1,
+        "components": 7,
+        "free_F_H_entries": 39
+      },
+      "all_cribs": {
+        "raw_key_count": "2059056308067754762131486904627329906195170125981240958505421920830226432000",
+        "gauge_fixed_key_count": "79194473387221337005057188639512688699814235614663113788670073878085632000",
+        "core_assignments": 26,
+        "components": 11,
+        "free_F_H_entries": 30
+      }
+    },
+    {
+      "input_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "output_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "training": {
+        "raw_key_count": "38813122941380201245133901398969642902000830991722162706799935542903474192225452490227712000",
+        "gauge_fixed_key_count": "1492812420822315432505150053806524727000031961220083181030766751650133622777902018854912000",
+        "core_assignments": 1,
+        "components": 7,
+        "free_F_H_entries": 39
+      },
+      "all_cribs": {
+        "raw_key_count": "2059056308067754762131486904627329906195170125981240958505421920830226432000",
+        "gauge_fixed_key_count": "79194473387221337005057188639512688699814235614663113788670073878085632000",
+        "core_assignments": 26,
+        "components": 11,
+        "free_F_H_entries": 30
+      }
+    }
+  ]
+}

@@ -108,6 +108,6 @@ def main():
     if a.controls:out['controls']=controls()
     if a.actual:
         audited=json.loads((ROOT/'results/FEISTEL-SYMMETRY-005-controls.json').read_text())['alias_audit'];out['actual']=actual(audited)
-    out['source_sha256']={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (Path(__file__),ROOT/'research/FEISTEL-EXTENSION-SPEC.md',ROOT/'experiments/nonrotor_structural.py')}
+    out['source_sha256']={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (Path(__file__),ROOT/'research/FEISTEL-EXTENSION-SPEC.md',ROOT/'experiments/nonrotor_structural.py',ROOT/'data/k4.json')}
     Path(a.output).write_text(json.dumps(out,indent=2)+'\n')
 if __name__=='__main__':main()

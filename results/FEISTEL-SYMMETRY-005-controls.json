@@ -10522,8 +10522,9 @@
     "pair_roundtrips": 10816
   },
   "source_sha256": {
-    "experiments/feistel_symmetry.py": "51bb16f7e9d9cca4700c2a90a35dd2d401c266dc0568d6a1b8ad95a1f2161048",
+    "experiments/feistel_symmetry.py": "1e99b0bf639f7b8b4a28101fe6023833c4ad9d1e25ce2fed27bbda3778fe1c69",
     "research/FEISTEL-EXTENSION-SPEC.md": "c1e489d080bf14567e2384e9846f1020a15e0b7e62067fcaa896aea8c52ba748",
-    "experiments/nonrotor_structural.py": "d775efe289cf43f6c903ba8ee6e6b0e523ced88fae15dd3275388f8075a3e024"
+    "experiments/nonrotor_structural.py": "d775efe289cf43f6c903ba8ee6e6b0e523ced88fae15dd3275388f8075a3e024",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
   }
 }
