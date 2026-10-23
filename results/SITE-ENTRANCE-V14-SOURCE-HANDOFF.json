@@ -1,0 +1,52 @@
+{
+  "published_version_supplied": 14,
+  "supplied_source_commit": "d4155931cd760d4222c9f66916551110eb40053b",
+  "patch_bytes": 139833,
+  "patch_sha256": "c86dab6ac8231ee931f5a602211ffa21921bbfedb19459c632fbc19ee42eacd3",
+  "patch_paths": [
+    "ENTRANCE_INSTALLATION_HANDOFF.md",
+    "ENTRANCE_REFERENCE_LEDGER.json",
+    "K4_CLUES_HANDOFF.md",
+    "candidate/app.mjs",
+    "candidate/entrance-installation.mjs",
+    "candidate/index.html",
+    "candidate/style.css",
+    "dist/RELEASE_MANIFEST.json",
+    "dist/app.mjs",
+    "dist/entrance-installation.mjs",
+    "dist/index.html",
+    "dist/style.css",
+    "qa/entrance-view.html",
+    "tests/entrance-installation.test.mjs",
+    "tests/front-back-apertures.test.mjs"
+  ],
+  "extracted_module_sha256": "3ebcafcdba599a1a441a1082ba134d55425c82a1af522bc50b0245b2b7ea2d4c",
+  "candidate_dist_module_identical": true,
+  "source_archive_not_complete_site_checkout": true,
+  "child_reported_validation": {
+    "tests_passed": 80,
+    "render_widths_px": [
+      390,
+      1280
+    ],
+    "front_back_aperture_tests_passed": true,
+    "optical_geometry_unchanged": true,
+    "final_live_browser_check": "blocked by locked Mac; native deployment and packaged assets verified",
+    "independently_repeated_here": false
+  },
+  "local_validation": {
+    "scope": "isolated drawing and control source; archived original tests requiring missing dist modules not run",
+    "node_tests_passed": 3
+  },
+  "redeployed_here": false,
+  "private_photographs_included": false,
+  "preserved_files_sha256": {
+    "docs/site-source/entrance-v14/ORIGINAL-HANDOFF.md": "6ec0b56f2106d03edb6b06f72f083a629365ffa05ed2ffa3b0cac4476b0e3f1a",
+    "docs/site-source/entrance-v14/original-qa.html": "52aa71a0e2158c0241fc23029d40d631bb80fdcae9f3cf14b81171db7eeec824",
+    "docs/site-source/entrance-v14/ENTRANCE_REFERENCE_LEDGER.json": "8ea885b9144541b108c39a2d80abb04c633d573a90119c488c952c715a9ebab1",
+    "docs/site-source/entrance-v14/kryptos-entrance-installation-main.patch": "c86dab6ac8231ee931f5a602211ffa21921bbfedb19459c632fbc19ee42eacd3",
+    "docs/site-source/entrance-v14/source/entrance-installation.mjs": "3ebcafcdba599a1a441a1082ba134d55425c82a1af522bc50b0245b2b7ea2d4c",
+    "docs/site-source/entrance-v14/original-tests/front-back-apertures.test.mjs": "096ba895127227f4e54663d7bc8fff90df5dadf5d2cbc82ecd5ccc686f8e56b3",
+    "docs/site-source/entrance-v14/original-tests/entrance-installation.test.mjs": "cdb9a786cb4ec4346fde0bd3373435e6b41b583a09e138b52152ccf2d3c3c921"
+  }
+}

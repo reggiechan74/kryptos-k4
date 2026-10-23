@@ -1,0 +1,41 @@
+{
+  "status": "illustrative visual representation, not a surveyed reconstruction",
+  "referencePhotographs": [
+    {
+      "url": "https://www.elonka.com/kryptos/KryptosAerial.jpg",
+      "sha256": "9155f7f127a3ca867bdab19793b99cf95949eac811f880ca03b76d3a049e9386",
+      "bytes": 103857,
+      "pixelsInspected": true,
+      "redistributed": false
+    },
+    {
+      "url": "https://www.elonka.com/kryptos/AerialImages/WalkwayEnlarged.jpg",
+      "sha256": "a0afe1e895f5bc89fc473ed5542fea2824c591842304f21844d0dd3786018a37",
+      "bytes": 30012,
+      "pixelsInspected": true,
+      "redistributed": false
+    },
+    {
+      "url": "https://www.voynich.net/Kryptos/full/compass1.jpg",
+      "sha256": "6c9b63f757a415186fb01bc1544abdb4134ae7a6095f3161921a30366c7c98af",
+      "bytes": 216489,
+      "pixelsInspected": true,
+      "redistributed": false
+    }
+  ],
+  "documentarySources": [
+    "https://www.cia.gov/legacy/headquarters/kryptos-sculpture/",
+    "https://www.elonka.com/kryptos/KryptosAerial.html",
+    "https://www.thekryptosproject.com/events/dinners/pdfs/2005/2005_hanson.pdf"
+  ],
+  "observed": "flat granite slab; simple circular engraved rose and cardinal letters; elongated fixed carved needle; adjacent irregular rock; separate entrance/courtyard locations",
+  "assumptions": "all drawing dimensions, relief, spacing, local orientation, mineral speckle and faceted rock shape; no metric units or true-north registration",
+  "notPerformed": [
+    "magnetic-field calculation",
+    "magnetic needle animation",
+    "cryptanalysis",
+    "survey calibration",
+    "hypothesis bearing fit"
+  ],
+  "repositoryIntegrationTarget": "main"
+}

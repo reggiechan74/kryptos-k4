@@ -1,0 +1,13 @@
+# Published Site source handoffs
+
+These archives preserve inspected source deltas from the separately published
+Kryptos Light Laboratory. They are repository documentation, not a complete Site
+checkout or a redeployment operation.
+
+- [Version 14: entrance installation](entrance-v14/README.md), source commit
+  `d4155931cd760d4222c9f66916551110eb40053b`.
+- [Version 13: confirmed-only K4 row](confirmed-clues-v13/README.md), source commit
+  `0ab12260bba31ed3bd03e2a78213482ea6fd72dd`.
+
+Each handoff separates owner-reported full Site/browser validation from locally
+repeated isolated tests and identifies its absent runtime-baseline requirements.
