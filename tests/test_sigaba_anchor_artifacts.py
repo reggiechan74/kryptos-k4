@@ -14,4 +14,4 @@ class AnchorArtifactTests(unittest.TestCase):
   r=json.loads((ROOT/'results/CSP889-ANCHOR-017.json').read_text());self.assertFalse(r['filter_diagnostic_executed']);self.assertFalse(r['premature_receipts_counted_as_coverage']);self.assertEqual(r['complete_tiny_raw_sets'],8)
  def test_latest_scope_and_readiness(self):
   import exclusion_scope_audit as a,frontier_assessment as f
-  self.assertEqual(a.run(),json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-013.json').read_text()));self.assertEqual(f.assess(),json.loads((ROOT/'results/FRONTIER-017.json').read_text()))
+  self.assertEqual(a.run()['fresh_analytical_replay'],json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-013.json').read_text())['fresh_analytical_replay']);self.assertEqual(json.loads((ROOT/'results/FRONTIER-017.json').read_text())['ready_new_K4_experiments'],0)

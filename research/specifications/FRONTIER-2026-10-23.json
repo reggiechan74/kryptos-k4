@@ -1,6 +1,6 @@
 {
-  "id": "FRONTIER-017",
-  "reviewed_main_commit": "03f77ff6707de30821904d614185ff992f1098ae",
+  "id": "FRONTIER-018",
+  "reviewed_main_commit": "c481ba3",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
   "decision": "No new evidence-grounded K4 experiment is currently ready under the available inputs, implemented algorithms and access limits.",
   "not_claimed": [
@@ -19,7 +19,7 @@
       ],
       "blocker_type": "algorithm_and_resource",
       "ready_for_new_K4_evaluation": false,
-      "missing": "A tractable coupled representation and complete real-sized independent compatible-set validation. The authentic adapter/reference gate now passes but both full-domain synthetic resource runs stop before one controller completes.",
+      "missing": "Complete all-controller inference and independent real-sized compatible-set validation. Exact packing removes the prior memory stop on the two fixed resource runs, but only 12/14 original controllers complete before the wall cap; all remaining keys are unresolved.",
       "available": [
         "research/SIGABA-JOINT-FEASIBILITY-SPEC.md",
         "research/JOINT-STATE-NONROTOR-FINDINGS.md",
@@ -51,10 +51,14 @@
         "research/SIGABA-FIRST-OBSERVATION-FINDINGS.md",
         "research/SIGABA-LITERATURE-AND-FILTER-REVIEW.md",
         "results/CSP889-ANCHOR-017.json",
-        "tests/test_sigaba_first_observation.py"
+        "tests/test_sigaba_first_observation.py",
+        "research/SIGABA-COMPRESSED-DOMAIN-SPEC.md",
+        "research/SIGABA-COMPRESSED-DOMAIN-FINDINGS.md",
+        "results/CSP889-COMPACT-018.json",
+        "tests/test_sigaba_compressed_ownership.py"
       ],
-      "next_deliverable": "Exact compressed/multi-observation cipher constraints or layered path DAG validated on complete original-key truth and unchanged authentic fixtures. Published mask-consistency filter requires a separately frozen selectivity/soundness diagnostic; it does not replace a reachable physical map.",
-      "go_no_go": "Anchoring correctness passes eight complete tiny sets and map-dependent inverses. Real observations are reached at index21 but memory guard stops at24; both fixtures complete zero controllers. Full real-sized compatible-set validation/resource admission fails; K4 stays unevaluated.",
+      "next_deliverable": "Exact packing removes the measured dense-set memory barrier on these two runs, but full-domain inference is still far beyond this completed prefix. Work now includes 81,066,780 and 88,043,284 candidate checks in completed sparse-filter calls, plus millions of owner transitions and frontier operations. If interruption occurs within a filter call, its partial candidate work is not added to this counter; the reported checks are lower bounds on actual work, not exact total instruction counts. A fresh profile is needed before attributing dominant CPU time or choosing a further optimization. No throughput projection is asserted as a lower bound or proof of feasibility. Published repeated-collector consistency/path-DAG filters remain proposed, separately specified work; they cannot replace shared physical reachability or full-domain validation.",
+      "go_no_go": "Actual native controller coverage advances from zero to 12 completed controllers on the dense fixture and 14 on the separated-window fixture. They stop at the unchanged 60-second wall limit, not the old memory envelope, at 162.6 and 152.8 MiB peak RSS. No compatible raw keys occur in either completed controller prefix; the remaining 11,881,364 and 11,881,362 controllers are unresolved. The unfinished controller is retained explicitly. Total key counts remain unknown, not zero. The completed prefixes represent 14,257,651,200,000 and 16,633,926,400,000 raw start descriptions respectively, including index aliases; those are model-domain descriptions, not independent hypotheses or unique plaintexts. No actual K4 or full real-sized gate pass.",
       "safe_replay_argv": [
         "python3",
         "-m",

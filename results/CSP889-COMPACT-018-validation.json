@@ -1,0 +1,62 @@
+{
+  "id": "CSP889-COMPACT-018-validation",
+  "local_baseline_commit": "c481ba3",
+  "protocol_commit": "ef57599",
+  "density_and_representation_commit": "f5cb4aa",
+  "controlled_implementation_commit": "e288739",
+  "source_sha256": {
+    "experiments/profile_sigaba_payload.py": "6e5d2c450453f9e9730e960076472db1590c16497b22aa633d244752756bf382",
+    "experiments/run_sigaba_compressed_ownership.py": "ef0e9b7082ea2ef4be977443214113d6ecdffc69cbb6d915fe7e4beb3bb2e979",
+    "experiments/run_sigaba_payload_profile.py": "a1b2e33e2881aadb8c802fbe3d24637bb96eec0b2d828c11210bc45ba13c0dec",
+    "experiments/sigaba_compact_domain.py": "a04a7296f7d0d291bce480a659efa671d7811a320316d83ec6f59b95b0f1eed9",
+    "experiments/sigaba_compressed_ownership.py": "66db721c3683116bf27bb3735bb14000571f92b48973b7218d29eeff091388cf",
+    "research/EXPERIMENTS.md": "9be293ef968817342ebd17038ef18abb8f528e7c23d7605fcb38362915166235",
+    "research/HYPOTHESES.md": "d6ec795e2e6544b23b012aa4cf6baf4e37e2cc6c1cfce89a9ab977d82b2810fd",
+    "research/SIGABA-COMPRESSED-DOMAIN-FINDINGS.md": "003f3cfa3c6f4c3d105e3bb1410828a33696f25e8fa1ac6a11852802dff68659",
+    "research/SIGABA-COMPRESSED-DOMAIN-IMPLEMENTATION.md": "08c03369267cac8b4cce8d2fe6bce52dd0810a4dea52167ef1cf517689addc9c",
+    "research/SIGABA-COMPRESSED-DOMAIN-SPEC.md": "a197bca51ba5510c96872be33981367fe9056045599f7b426c7401c8e6e56c0b",
+    "research/specifications/FRONTIER-2026-10-23.json": "db9104d316c50a38924ee6ccd8a5c25a437cd35dfe3e271e960562712e261fc1",
+    "results/CSP889-COMPACT-018.json": "b3eadb318465762c6f7497cd493d2e4ffd01f0aa4f45e13cd71e2f7718bb2630",
+    "results/EXCLUSION-SCOPE-AUDIT-014.json": "517ae8a13109dbbffc3d18fe77db1a7f9b9c181c05279ac3e8bd771befb3d12b",
+    "results/FRONTIER-018.json": "69155ddd21b79f4c3ed3471ce78e823f5c6a5f88d648c7fec26f3881d50baebd",
+    "results/HYPOTHESIS-REGISTER-018.json": "65ce42aabebfbb31b1c29d476dc48f211a936f84c61b45dd91ea77d6b6e14fbb",
+    "results/sigaba-compressed-ownership/case-0.json": "6051475c6be40a362ff9f60a3d5fdd23f5eb99c6ae4e17ea723ea81376392234",
+    "results/sigaba-compressed-ownership/case-1.json": "9dbf4bfe9e7f1a2a46e9fda20a3e14a579f69cf62f3a34914b6a5b7844ae76c3",
+    "results/sigaba-payload-profile/case-0.json": "7ea3086cbf181dc47a7d249afa7e283543f978eaabd8d6cb55cd9d92ae182d4b",
+    "results/sigaba-payload-profile/case-1.json": "14bfa5987a53b33bbbcf657ac3f87d2b2a6ea15ad50eb462edce94e5b62e7ddf",
+    "tests/test_frontier_assessment.py": "7a92d5b1c310a19bd28fbc5fc5c9d81a14e88c5053b877fded0ef65f9bf3d611",
+    "tests/test_sigaba_anchor_artifacts.py": "5f857f28d6704b0186b1615214e770267f5a421c6e7a06876efcd1af2706df67",
+    "tests/test_sigaba_compact_artifacts.py": "62a2feb539c1877e27c4818095c0d773fcbcceba1a4c3f9783481baa9da6113c",
+    "tests/test_sigaba_compressed_ownership.py": "2204640fa5968290a35ed3d26840c7fccc6e2157033fbf3bb0f1512b17efb258"
+  },
+  "regression": {
+    "3.9.6": {
+      "tests": 443,
+      "passed": true,
+      "sha256": "23c340284931e44e7b02bd750723e7b97393ad60cd70d5d5cb9dac8b0835bdc7"
+    },
+    "3.12.2": {
+      "tests": 443,
+      "passed": true,
+      "sha256": "747ec2e799c10079d422ab8b32a412dc9a23399e23f6e034d69f1233cb9fa0ca"
+    }
+  },
+  "complete_tiny_fixtures": 8,
+  "representations": 3,
+  "cache_policies": 3,
+  "complete_tiny_raw_stream_comparisons": 24,
+  "correlated_relation_comparisons": 72,
+  "real_packed_filter_physical_layout_panels": 12,
+  "real_fixtures_unchanged": true,
+  "native_real_controllers_completed": [
+    12,
+    14
+  ],
+  "independent_complete_real_compatible_set_validation": false,
+  "real_sized_gate_passed": false,
+  "K4_evaluations": 0,
+  "publication": "Local commits only pending renewed explicit authorization; no publication retry or alternate transport.",
+  "site_changed": false,
+  "raw_statistical_receipt_sha256": "f3b738c751ef590ab20be38307e3a99a6bffca965a32aa188fb303dd1996b64d",
+  "unrelated_untracked_files_preserved": 210
+}

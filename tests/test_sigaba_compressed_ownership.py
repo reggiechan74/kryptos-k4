@@ -113,3 +113,20 @@ class CompressedOwnershipTests(unittest.TestCase):
   for ids in ([1,1],[2,1],[-1],[2**32]):
    with self.assertRaises(ValueError):Domain.from_ids(ids)
   with self.assertRaises(ValueError):Domain.decode({'encoding':'u32lehex','data':'00','cardinality':1})
+
+ def test_real_packed_filter_matches_physical_contacts_on_pinned_layouts(self):
+  import sigaba_csp889 as sig
+  import sigaba_real_adapter as real
+  d=sig.data()
+  for number,key in enumerate(d['vectors']):
+   model=real.RealModel(key,quotient=False);seed=0
+   for ch in key['cipherposition']:seed=seed*26+sig.AZ.index(ch)
+   ids=sorted({(seed+137*i)%(26**5) for i in range(6)});delta=tuple((number+3*j)%26 for j in range(5));p=sig.AZ.index(key['input'][0]);outs={}
+   for index in ids:
+    state=t.unpack(index,26,5);x=p
+    for j,wheel in enumerate(model.orders[0]):
+     wire=[sig.AZ.index(ch) for ch in d['large'][wheel-1]];x=sig.contact_oracle(wire,(state[j]+delta[j])%26,model.rev[0][j])[x]
+    outs[index]=x
+   target=outs[ids[0]];expected=[i for i in ids if outs[i]==target]
+   for policy in ('auto','packed'):
+    domain=Domain.from_ids(ids,policy);self.assertEqual(domain.kind,'u32le');actual,checks=domain.intersect(delta,p,target,model,a.ReservedPredicates(model,t.Budget(10),0),t.Budget(10));self.assertEqual(list(actual.ids()),expected);self.assertEqual(checks,len(ids))

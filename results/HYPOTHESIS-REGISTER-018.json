@@ -1,0 +1,21 @@
+{
+  "kind": "Exact compressed cipher sets: 12/14 complete synthetic controllers; remaining full domain unresolved, local only",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "d6ec795e2e6544b23b012aa4cf6baf4e37e2cc6c1cfce89a9ab977d82b2810fd"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-017.json",
+  "previous_snapshot_commit": "c481ba3",
+  "real_sized_gate_passed": false,
+  "new_K4_evaluations": 0,
+  "publication": "Local only pending renewed authorization",
+  "site_changed": false
+}
