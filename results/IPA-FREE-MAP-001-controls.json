@@ -1,0 +1,496 @@
+{
+  "complete_small_ring_comparisons": [
+    {
+      "modulus": 4,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 4,
+      "period": 2,
+      "gauge_fixed_count": 2,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 7,
+      "period": 4,
+      "gauge_fixed_count": 120,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 5,
+      "period": 1,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 5,
+      "period": 1,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 3,
+      "period": 1,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 3,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 3,
+      "period": 3,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 3,
+      "period": 1,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 3,
+      "period": 2,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 3,
+      "period": 3,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 3,
+      "period": 1,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 3,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 4,
+      "period": 1,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 4,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 4,
+      "period": 3,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 4,
+      "period": 1,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 4,
+      "period": 2,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 4,
+      "period": 3,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 4,
+      "period": 1,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 4,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 5,
+      "period": 1,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 5,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 5,
+      "period": 3,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 5,
+      "period": 1,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 5,
+      "period": 2,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 5,
+      "period": 3,
+      "gauge_fixed_count": 3,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 5,
+      "period": 1,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 5,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 6,
+      "period": 1,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 6,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 6,
+      "period": 3,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 6,
+      "period": 1,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 6,
+      "period": 2,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 6,
+      "period": 3,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 6,
+      "period": 1,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 6,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 7,
+      "period": 1,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 7,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 7,
+      "period": 3,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 7,
+      "period": 1,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 7,
+      "period": 2,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 7,
+      "period": 3,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 7,
+      "period": 1,
+      "gauge_fixed_count": 1,
+      "complete_enumeration_equal": true
+    },
+    {
+      "modulus": 7,
+      "period": 2,
+      "gauge_fixed_count": 0,
+      "complete_enumeration_equal": true
+    }
+  ],
+  "small_ring_count": 45,
+  "translation_symmetry_count_is_two": true,
+  "plants": [
+    {
+      "alphabet": "AZ",
+      "period": 1,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 1,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "AZ",
+      "period": 2,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 1,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "AZ",
+      "period": 3,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 13,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "AZ",
+      "period": 4,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 1,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "AZ",
+      "period": 5,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 1,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "AZ",
+      "period": 6,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 13,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "AZ",
+      "period": 7,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 13,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "AZ",
+      "period": 8,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 380,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "AZ",
+      "period": 9,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 2422728000,
+      "full_observed_subset_count": 616
+    },
+    {
+      "alphabet": "AZ",
+      "period": 10,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 175560,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "AZ",
+      "period": 11,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 3862320,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "AZ",
+      "period": 12,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 96909120,
+      "full_observed_subset_count": 130
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 1,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 1,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 2,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 1,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 3,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 13,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 4,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 1,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 5,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 1,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 6,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 13,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 7,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 13,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 8,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 380,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 9,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 2422728000,
+      "full_observed_subset_count": 616
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 10,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 175560,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 11,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 3862320,
+      "full_observed_subset_count": 1
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "period": 12,
+      "true_description_retained": true,
+      "fixed_model_full_roundtrip": true,
+      "global_translation_gauges_checked": 26,
+      "training_count": 96909120,
+      "full_observed_subset_count": 130
+    }
+  ],
+  "plant_count": 24,
+  "scope": "Counts and truth inclusion, not unique recovery or K4 evidence."
+}
