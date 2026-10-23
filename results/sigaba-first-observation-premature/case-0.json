@@ -1,0 +1,190 @@
+{
+  "id": "CSP889-ANCHOR-017",
+  "fixture": {
+    "number": 0,
+    "plaintext": "LTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDT",
+    "ciphertext": "MYZIOKYZRNFFAIJGASWJOJXDTPXOECNKGQRYPBOMFMFKXOFEBIKIXQDLUCQKGDVIWOCEWRFKHMABSABRPYNQMLIKIUKFUCHEG",
+    "key": {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherorientation": "00000",
+      "controlorientation": "00000",
+      "indexorientation": "00000",
+      "cipherposition": "DFHLN",
+      "controlposition": "BOZOJ",
+      "indexposition": "13579"
+    },
+    "observations": [
+      [
+        0,
+        11,
+        12
+      ],
+      [
+        1,
+        19,
+        24
+      ],
+      [
+        2,
+        3,
+        25
+      ],
+      [
+        3,
+        15,
+        8
+      ],
+      [
+        4,
+        3,
+        14
+      ],
+      [
+        5,
+        19,
+        10
+      ],
+      [
+        6,
+        11,
+        24
+      ],
+      [
+        7,
+        5,
+        25
+      ],
+      [
+        8,
+        1,
+        17
+      ],
+      [
+        9,
+        25,
+        13
+      ],
+      [
+        10,
+        25,
+        5
+      ],
+      [
+        11,
+        1,
+        5
+      ],
+      [
+        12,
+        5,
+        0
+      ]
+    ]
+  },
+  "preflight": {
+    "cipher_starts": 11881376,
+    "control_starts": 11881376,
+    "raw_index_starts": 100000,
+    "index_functions": 66058,
+    "raw_full_start_descriptions": "14116709565337600000",
+    "cipher_domain_payload_bytes": 1485172,
+    "index_domain_payload_bytes": 8258,
+    "one_dense_cipher_domain_per_index_function_bytes": 98107491976,
+    "estimate_is_necessary_lower_bound": false,
+    "Cartesian_table_allocated": false
+  },
+  "index_quotient_sha256": "3a257b5d35ea1aae7cd76e06786c67798e19101f147431e0031eb6a2d7e526ec",
+  "solver": {
+    "first_observed_time": 0,
+    "map_dependent_classes_reconstructed": 0,
+    "completed": false,
+    "reason": "conservative_branch_domain_envelope_unresolved",
+    "exact_raw_key_count": null,
+    "found_raw_keys_lower_bound": "0",
+    "control_starts_completed": 0,
+    "control_starts_requested": 11881376,
+    "relations": [],
+    "current_unfinished_control": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "current_time_zero_based": 2,
+    "peak_live_nodes": 410,
+    "peak_index_owners": 66058,
+    "owner_transitions": 132116,
+    "branches": 202,
+    "index_classes": 66058,
+    "index_raw_states": 100000,
+    "backend_metrics": {
+      "calls": 202,
+      "zero_offset_builds": 3,
+      "base_cache_hits": 146,
+      "translated_cache_hits": 53,
+      "translations": 149,
+      "cache_evictions": 121,
+      "cache_peak_accounted_bytes": 49118340,
+      "fixed_mask_bytes": 15721408,
+      "cache_cap_bytes": 50331648,
+      "value_cache_cap_bytes": 50331648,
+      "mask_cache_cap_bytes": 16777216,
+      "total_cache_cap_bytes": 67108864,
+      "mask_builds": 207,
+      "mask_evictions": 202,
+      "mask_cache_peak_bytes": 15843172,
+      "total_cache_peak_accounting_upper_bound": 64961512
+    },
+    "budget": {
+      "seconds": 3.421549249906093,
+      "peak_RSS_bytes": 564330496,
+      "wall_cap_seconds": 60,
+      "RSS_cap_bytes": 1073741824,
+      "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+    },
+    "domain_envelope_cap_bytes": 268435456,
+    "K4_evaluations": 0
+  },
+  "plant_directly_validated": true,
+  "plant_selector_recovered": null,
+  "independent_full_compatible_set_validation": false,
+  "real_sized_gate_passed": false,
+  "K4_evaluations": 0,
+  "source_sha256": {
+    "experiments/sigaba_first_observation.py": "ab78da87147f5646e63dbfd2bf8d163bfa2aa62420f719c4210c80b03c4fe22a",
+    "research/SIGABA-FIRST-OBSERVATION-SPEC.md": "3936e92057a6f6f3b1d6db52f5f0d2b10be53685dc4b96441ad23b8ef2f4d779",
+    "experiments/sigaba_domain_identity.py": "8684e61605e1d7d24506f3d5596e8e2125097f24a008359736043ed633bdc082",
+    "research/SIGABA-DOMAIN-IDENTITY-SPEC.md": "b770f0cc9fbfa913e8d03214585332a265408a3f6aad3eebd430e02522fe6876",
+    "research/SIGABA-DOMAIN-IDENTITY-IMPLEMENTATION.md": "73db30aad534ca1cf88542c4ed9a3c4681b417b6e90266aa5b8cc4e58f0adb95",
+    "experiments/sigaba_sparse_ownership.py": "e7a0b5fc621d5f0a6d23a09a77f2754d29c98b6974fa02bb71f53a60818836b1",
+    "research/SIGABA-SPARSE-OWNERSHIP-SPEC.md": "ac351030ecf3201843a182b0520d8a1d1e41a192fa089994f27fd97c40d7e5aa",
+    "experiments/sigaba_real_adapter.py": "eed55233a96fdfcc199572947ec144ffc2b315a61a092fec4774e724d5333b86",
+    "experiments/run_sigaba_first_observation.py": "0bd253d87693aa912d19ba343a8c8a4ae5df98d48dc4b617d2e160f41a985fc7",
+    "experiments/sigaba_csp889.py": "2f12042cc4ee838edbe5d1619d42a9d4c856b7586bbd41e91dd4f5f6ada27516",
+    "experiments/sigaba_torus.py": "ee49125ae2cd10760ddfe5dd54822834529c3b984772c1c2fb6662d9d0c4e5ee",
+    "experiments/sigaba_joint_toy.py": "0bf4fddec4c7416a8bb4c8d2d7243885713b847abd5183210d377734b7649ad5",
+    "data/sigaba-csp889-v1.json": "8326857b0b2997d64be94a4685185992ce00702235964c0a985f183d92fc3c5b",
+    "research/SIGABA-REAL-ADAPTER-SPEC.md": "813f89bf650d09c7ddafb661ddd9407fd47cc01afb57cf42b67386627e2cc249"
+  }
+}

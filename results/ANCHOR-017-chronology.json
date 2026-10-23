@@ -1,0 +1,13 @@
+{
+  "protocol_commit": "55bef8c",
+  "implementation_commit": "1c2b992",
+  "premature_run": "results/sigaba-first-observation-premature",
+  "reason": "Shell continued after one added mutation test failed. The replacement collector set was identical on full-contact q=3, so it was an inert test mutation, not a failed set-equivalence proof.",
+  "core_exact_gate_original_tests_passed": 4,
+  "inert_added_mutation_failure": true,
+  "correction": "At an unobserved time, an empty collector set deliberately skips a real cipher transition; altered complete relation is detected.",
+  "corrected_tiny_controls_passed": 5,
+  "premature_receipts_are_not_official_benchmark": true,
+  "implementation_algorithm_changed_after_premature_run": false,
+  "official_rerun_uses_identical_fixtures_and_budgets": true
+}

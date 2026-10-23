@@ -51,7 +51,7 @@ class FirstObservationTests(unittest.TestCase):
   broken=t.Model(f);digits=broken.digits
   def skipped(control,length):
    values=digits(control,length)
-   if length>5:values[5]=values[0]
+   if length>5:values[5]=()
    return values
   broken.digits=skipped
   self.assertNotEqual(correlated(a.solve(broken,obs,t.Budget(15))),expected)
