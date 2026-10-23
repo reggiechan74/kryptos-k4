@@ -1,0 +1,22 @@
+{
+  "kind": "completed finite tests and exact analytical exclusion",
+  "entries": 56,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 7,
+    "untested": 5,
+    "non-identifiable": 6,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "6c1ea3beeb86b775b11381de42af376752545a20427e9792ce2dcad4c211a327"
+  },
+  "prior_snapshot_receipt": "results/HYPOTHESIS-REGISTER-002.json",
+  "prior_snapshot_commit": "ac6a3f19ac74e0c6df97d56a4abbb5455be7419a",
+  "results": "results/CONDITIONAL-FACE-LAMP-001.json",
+  "controls_commit": "25e107f",
+  "new_face_models_tested": 92,
+  "lamp_actual_phase_models_enumerated": 0,
+  "scope_expanded_after_results": false
+}

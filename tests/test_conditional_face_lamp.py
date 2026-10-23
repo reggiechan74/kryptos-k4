@@ -69,3 +69,46 @@ class ConditionalCipherTests(unittest.TestCase):
         self.assertTrue(any(p['distinct_full_plaintexts']>1 for p in r['face']['literal_plants']))
         self.assertEqual(len(r['lamp']['literal_plants']),32)
         self.assertTrue(all(p['truth_retained'] and p['raw_descriptions_accounted']==11520 for p in r['lamp']['literal_plants']))
+
+    def test_actual_row_predictions_and_lamp_exact_certificates(self):
+        import hashlib
+        r=json.loads((ROOT/'results/CONDITIONAL-FACE-LAMP-001.json').read_text())
+        for path,sha in r['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),sha)
+        face=r['face'];self.assertEqual((face['models_tested'],face['previously_covered_skipped'],face['first_crib_survivors'],face['all_crib_survivors']),(92,280,2,0))
+        trained=[x for x in face['records'] if x['training']['consistent']]
+        self.assertEqual({x['predicted_berlin'] for x in trained},{'HSTZCLZPDSB','LQHXLMKCWIQ'})
+        self.assertTrue(all(x['training']['fitted_key_entries']==12 and x['training']['redundant_training_equalities']==1 and x['predicted_positions']==11 and x['berlin_matches']==0 and x['full_regeneration'] for x in trained))
+        by={x['case_id']:x for x in face_cases()}
+        for row in face['records']:
+            if row['training']['consistent']:continue
+            cert=row['training']['first_conflict'];a=ALPHABETS[row['alphabet']]
+            self.assertEqual(cert['first']['phase'],cert['second']['phase'])
+            self.assertNotEqual(cert['first']['required_key'],cert['second']['required_key'])
+            for edge in cert.values():
+                k=(a.index(edge['ciphertext'])+(-1 if row['equation']=='plus' else 1)*a.index(edge['plaintext']))%26
+                self.assertEqual(k,edge['required_key'])
+        lamp=r['lamp'];self.assertEqual(lamp['status'],'analytical_exclusion')
+        self.assertEqual(lamp['actual_phase_models_enumerated'],0);self.assertFalse(lamp['berlin_consulted'])
+        for c in lamp['certificates']:
+            self.assertFalse(c['constant_parity_possible'])
+            self.assertEqual(len(set(c['witness']['required_parities'])),2)
+        reg=json.loads((ROOT/'results/HYPOTHESIS-REGISTER-003.json').read_text())
+        for path,sha in reg['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),sha)
+
+    def test_post_run_javascript_oracle_agrees_on_complete_domain(self):
+        import shutil,subprocess
+        p=ROOT/'results/CONDITIONAL-FACE-LAMP-001-independent.json'
+        oracle=json.loads(p.read_text());actual=json.loads((ROOT/'results/CONDITIONAL-FACE-LAMP-001.json').read_text())
+        by={(r['alphabet'],r['equation'],r['period'],r['order']):r for r in oracle['face']}
+        self.assertEqual(len(by),92)
+        for r in actual['face']['records']:
+            q=by[r['alphabet'],r['equation'],r['period'],r['order']]
+            self.assertEqual(r['training']['consistent'],q['training_consistent'])
+            if q['training_consistent']:
+                self.assertEqual(q['plaintext'],r['plaintext']);self.assertEqual(q['key'],r['training']['key'])
+        for r,q in zip(actual['lamp']['certificates'],oracle['lamp_parity']):
+            self.assertEqual(r['witness']['positions'],q['positions']);self.assertEqual(r['witness']['required_keys'],q['required_keys'])
+        node=shutil.which('node') or '/opt/homebrew/bin/node'
+        if not Path(node).is_file():self.skipTest('Node unavailable for independent replay')
+        result=subprocess.run([node,str(ROOT/'experiments/conditional_face_lamp_oracle.mjs')],capture_output=True,text=True,timeout=30)
+        self.assertEqual(result.returncode,0,result.stderr);self.assertEqual(json.loads(result.stdout),oracle)

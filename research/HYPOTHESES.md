@@ -25,13 +25,13 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 | --- | --- | --- |
 | [H-COMPASS-REVERSE](#h-compass-reverse) | evidence-blocked | ENE may denote the direction of travel while the observed object faces WSW, or conversely. |
 | [H-COMPASS-FRAMES](#h-compass-frames) | evidence-blocked | Treat engraved north, a physical needle, local lodestone attraction and true north as distinct coordinate frames. |
-| [H-CARVED-ROW-REFLECTION](#h-carved-row-reflection) | specified but not run | One uncovered carved-row reflection with periodic arithmetic. |
+| [H-CARVED-ROW-REFLECTION](#h-carved-row-reflection) | narrow negative | One uncovered carved-row reflection with periodic arithmetic. |
 | [H-GLYPH-VIEW](#h-glyph-view) | evidence-blocked | Viewing the rear can mirror glyph outlines independently of reversing the order in which positions are read. |
 | [H-OPTICAL](#h-optical) | evidence-blocked | Calibrated aperture/illumination/reflection selection of letter information. |
 | [H-SHADOW-TIME](#h-shadow-time) | evidence-blocked | A source-fixed shadow direction or observation time supplies a key or reading instruction. |
 | [H-CELESTIAL-ALTITUDE](#h-celestial-altitude) | evidence-blocked | An independently dated celestial observation supplies altitude/time material rather than a fitted astronomical coincidence. |
 | [H-CLOCK-HISTORICAL](#h-clock-historical) | evidence-blocked | Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping. |
-| [H-LAMP-MENGENLEHRE](#h-lamp-mengenlehre) | specified but not run | Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns. |
+| [H-LAMP-MENGENLEHRE](#h-lamp-mengenlehre) | analytical exclusion | Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns. |
 | [H-GREEK-PHONETIC](#h-greek-phonetic) | evidence-blocked | Render English speech approximately with sourced Greek graphemes before an outer cipher. |
 | [H-LAMP-GREEK](#h-lamp-greek) | untested | A declared ordering of 24 lamp fields might index Greek symbols or generate key material. |
 | [H-TREE-STATEFUL](#h-tree-stateful) | narrow negative | Letters or geometry fragments walk a tree and update cipher state carried between letters. |
@@ -106,15 +106,15 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 
 ### H-CARVED-ROW-REFLECTION
 
-- Status: specified but not run
+- Status: narrow negative
 - Mechanism: Reverse letters within the actual four carved K4 rows, then combine with one periodic arithmetic layer in either order.
 - Evidence: CIA opposite-face description motivates a conditional reading operation but does not prescribe sequence reversal; [source synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md).
-- Tested scope: Permutation/domain coverage only: 768 aliases, 372 canonical models, 280 already covered by ROUTE-001, 92 new. No actual K4 scoring in this audit.
-- Untested scope: The 92 new unrestricted-key horizontal-row models in FACE-ROW-001.
-- Missing inputs: Parent protocol review before actual evaluation; physical interpretation remains hypothetical rather than surveyed.
-- Next discriminating test: Fit the first 13 disclosed letters with exact phase constraints, then predict all eleven Berlin letters from fully fixed keys and require complete regeneration; [frozen protocol](CONDITIONAL-FACE-LAMP-SPEC.md).
-- Dependencies: H-GLYPH-VIEW; source review is complete; no new glyph identities, padding, shifted indices, dates or bearings.
-- Results: [Exact coverage records](../results/FACE-ROW-001-COVERAGE.json); this is not a K4 negative result yet.
+- Tested scope: FACE-ROW-001 completed: 280 covered canonical models skipped; 92 new horizontal-row models tested, two period-12 first-crib fits and zero all-24-letter fits. Both full training decryptions regenerate but fail all eleven Berlin letters.
+- Untested scope: Different source layouts, glyph transformations or cipher layers; the physical view interpretation is not measured by this result.
+- Missing inputs: None for the completed finite test. Further physical claims still need independent orientation/geometry evidence.
+- Next discriminating test: Stop this finite domain; require independent evidence and a new non-equivalent preregistration before another route or period.
+- Dependencies: H-GLYPH-VIEW; completed source review and pre-run controls; no guessed gaps or crib resets.
+- Results: [Completed scoped findings](CONDITIONAL-FACE-LAMP-FINDINGS.md) and [all constraints](../results/CONDITIONAL-FACE-LAMP-001.json); first-crib fits are not candidates after Berlin fails.
 
 ### H-GLYPH-VIEW
 
@@ -178,15 +178,15 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 
 ### H-LAMP-MENGENLEHRE
 
-- Status: specified but not run
+- Status: analytical exclusion
 - Mechanism: Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns.
 - Evidence: Modern supplier [functional description](https://www.berlin-uhr.com/) confirms 4/4/11/4 rows and blinking top indicator. Historical availability and user interest do not override the confirmed World Clock referent.
-- Tested scope: No dedicated lamp experiment found in the current audit; 24-sector routes and geometric radix feedback are different finite mechanisms.
-- Untested scope: Explicit lamp-to-key or framed invertible bridge with declared progression.
-- Missing inputs: Historical creator linkage remains absent. Bit order and one-minute sampling are explicitly our conditional assumptions, now fixed before evaluation; no color or polarity tuning.
-- Next discriminating test: [LAMP-STREAM-001](CONDITIONAL-FACE-LAMP-SPEC.md) fixes a binary lamp-state key generator, minute progression and 11,520 starting-phase/alphabet/equation descriptions; await protocol review before actual evaluation.
-- Dependencies: Source review complete; 1 seconds + 4 five-hour + 4 one-hour + 11 five-minute + 4 one-minute fields; not ordinary positional base 5
-- Results: [retained evidence and finite coverage](K3-CLOCK-ROUTE-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Tested scope: Only LAMP-STREAM-001: fixed 24-bit order, seconds at bit 0, minute-per-character sampling, modulo-26 output, two alphabets and two equations. Four first-crib parity certificates exclude 11,520 descriptions with zero actual phase enumeration.
+- Untested scope: Other lamp-state encodings or progression, lamp/Greek labels and complete clock-based cipher constructions remain outside this exact proof.
+- Missing inputs: No missing input for the exact exclusion; a historical creator link and independently motivated new operator remain absent.
+- Next discriminating test: Stop the frozen family; no bit-order, color, Greek weight or sampling retune after failure. Seek independent mechanism evidence before proposing another lamp cipher.
+- Dependencies: Source review and validated display inverse complete; Mengenlehreuhr remains distinct from the confirmed World Clock. This is not ordinary positional base 5.
+- Results: [Scoped proof and controls](CONDITIONAL-FACE-LAMP-FINDINGS.md) and [parity certificates](../results/CONDITIONAL-FACE-LAMP-001.json); no general lamp-family rejection.
 
 ### H-GREEK-PHONETIC
 

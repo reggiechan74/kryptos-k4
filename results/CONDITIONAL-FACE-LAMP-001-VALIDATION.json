@@ -1,0 +1,25 @@
+{
+  "kind": "bounded completed batch verification",
+  "frozen_protocol_commit": "cdefbb4bc4cf6f2420789bba9876149d8e8dad57",
+  "controls_commit": "25e107f",
+  "aggregate_tracked_tests_passed": 311,
+  "seconds": null,
+  "actual_face_models": 92,
+  "covered_canonical_models_skipped": 280,
+  "face_training_survivors": 2,
+  "face_all_crib_survivors": 0,
+  "lamp_result": "analytical exclusion of exact frozen family",
+  "actual_lamp_phase_models_enumerated": 0,
+  "matched_null_run": false,
+  "null_reason": "zero exact survivors; no significance claim",
+  "post_run_JS_agrees": true,
+  "files_sha256": {
+    "experiments/conditional_face_lamp_oracle.mjs": "aaae1656ce111aacd21305752b0123ae29bf632cbe66e453628601e70e6cacf7",
+    "research/CONDITIONAL-FACE-LAMP-FINDINGS.md": "522e5c310226bf75526818a72442854aaf629c9c5ac6a071bc9cbc3b6ad37d0e",
+    "results/CONDITIONAL-FACE-LAMP-001.json": "b13d863361d1ba12d18bf05e59b1476a0811e0df95032cd959567dbeb6d5f0ce",
+    "results/CONDITIONAL-FACE-LAMP-001-independent.json": "f80bbb69bb4f3ec31b9155e14a21e9eb7e86fe9cb99f7a4d2e2b741531dea026",
+    "results/HYPOTHESIS-REGISTER-003.json": "808e2cc00ef1fc70fe1ee30891e54814ced093eef1cf8e7115738f935be18856"
+  },
+  "stopped_at_frozen_scope": true,
+  "unrelated_suffix_copies_preserved": true
+}

@@ -1,4 +1,4 @@
-import hashlib,json,sys,unittest
+import hashlib,json,sys,unittest,subprocess
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'experiments'))
@@ -13,7 +13,9 @@ class ConditionalPreflightTests(unittest.TestCase):
             p=ROOT/path;self.assertEqual(p.suffix,'.md');self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(),sha)
         self.assertFalse(r['original_sources_refetched_here'])
         reg=json.loads((ROOT/'results/HYPOTHESIS-REGISTER-002.json').read_text())
-        for path,sha in reg['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),sha)
+        for path,sha in reg['source_sha256'].items():
+            snapshot=subprocess.check_output(['git','show','ac6a3f19ac74e0c6df97d56a4abbb5455be7419a:'+path],cwd=ROOT)
+            self.assertEqual(hashlib.sha256(snapshot).hexdigest(),sha)
 
     def test_complete_coordinate_inverse_and_exact_model_coverage(self):
         cells=occupied_cells();labels=dict(zip(cells,range(97)))

@@ -789,3 +789,25 @@ source date, surveyed bearing or historical city list is inferred.
 The current register now has 56 stable entries, with physical claims still
 blocked on missing independent measurements and Greek transcription still
 missing a complete codec. [Current readiness receipt](../results/HYPOTHESIS-REGISTER-002.json).
+
+
+## FACE-ROW-001 / LAMP-STREAM-001 — completed finite batch
+
+Parent review approved the protocol at cdefbb4. Implementation and controls were
+committed at 25e107f before K4 evaluation. [Findings](CONDITIONAL-FACE-LAMP-FINDINGS.md)
+and [complete actual result](../results/CONDITIONAL-FACE-LAMP-001.json).
+
+FACE-ROW-001 tested 92 new canonical structures and skipped 280 exact previously
+covered ones. Ninety reject in training; two KRYPTOS/additive period-12 structures
+fit twelve values plus one closure, then predict HSTZCLZPDSB or LQHXLMKCWIQ:
+both zero of eleven Berlin letters. Both full decryptions regenerate C; zero
+all-crib candidates. All 92 literal plants retain truth through the full selector;
+eight have two compatible plaintexts and remain explicitly ambiguous.
+
+LAMP-STREAM-001 has four exact first-crib parity contradictions. All 11,520 raw
+descriptions are excluded analytically; zero actual phase models were enumerated,
+and Berlin was not used by this proof. Display/inverse, 32 complete-selector
+plants and timing/incompatible controls pass; aliases and logical versus simulated
+control counts are retained. The separately written post-run JS oracle agrees
+with all face classifications and lamp certificates. No null significance claim,
+new sampling rule, bit order, route or other parameter follows these negatives.
