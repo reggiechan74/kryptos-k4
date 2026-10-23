@@ -1,4 +1,4 @@
-import json,sys,unittest
+import filecmp,json,sys,tempfile,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'experiments'))
 import sigaba_csp889 as sig
@@ -23,6 +23,10 @@ class RealAdapterTests(unittest.TestCase):
     observations=[(i,f['plaintext'][i],c[i]) for i in f['observed_positions']]
     old=toy.solve(f,observations);new=real.guarded_solve(m,observations,toy.Budget(10),cache_cap=0)
     self.assertTrue(new['completed']);self.assertEqual(new['exact_raw_key_count'],old['exact_raw_key_count']);self.assertEqual(toy.relation_masks(new),toy.relation_masks(old))
+    with tempfile.TemporaryDirectory() as td:
+     a=Path(td)/'native';b=Path(td)/'physical';budget=toy.Budget(10)
+     toy.write_keys(new,f,a,budget);oracle.truth(f,observations,b,budget.check,toy.Limit)
+     self.assertTrue(filecmp.cmp(a,b,shallow=False))
  def test_declared_fixtures_and_resource_failure_are_not_false_negatives(self):
   for i in (0,1):
    f=real.fixture(i);m=real.RealModel(f['key'],quotient=False)

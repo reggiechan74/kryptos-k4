@@ -881,3 +881,8 @@ SIGABA-JOINT-TOY-012 implements a shared reachable index-domain constraint solve
 ## SIGABA-TORUS-013 — exact predicate reuse, unchanged coupled domain
 
 The largest toy inference completed all 32,768 controllers in 534.476 seconds, retaining 2 raw keys. Its declared validation status is True. This is a toy result, not a real-sized gate. Ten independent complete raw-set comparisons and one complete compact-set comparison pass. Predicate identity is checked over 6,739 predicates and 998,515 direct states. No actual K4 evaluation, real-sized gate, package install or Site change. [Protocol](SIGABA-TORUS-SPEC.md), [findings](SIGABA-TORUS-FINDINGS.md), [measured comparison](../results/SIGABA-TORUS-013.json).
+
+
+## CSP889-REAL-014 — authentic adapter, failed synthetic resource admission
+
+Twelve published vectors pass both directions through adapter, direct machine and physical contacts; six complete tiny systems match independent full raw-key truth. The two frozen real-sized fixtures stop at 17.223 seconds (branch envelope) and 60.161 seconds (wall), both with zero completed controllers. Totals are unknown; no K4 evaluation or negative key coverage. [Protocol](SIGABA-REAL-ADAPTER-SPEC.md), [findings](SIGABA-REAL-ADAPTER-FINDINGS.md). [STAT-001 cross-version diagnosis](STAT-CROSSVERSION-FINDINGS.md) preserves integer draws/tails and archives, checking derived floats against rational moments.

@@ -1,0 +1,24 @@
+{
+  "kind": "Authentic coupled CSP-889 adapter with failed real-sized synthetic resource gate",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "ca70f6a72a5f2e2231a23d13f239408b2cb8139268e61fbee2f6268c7c1ed10b"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-013.json",
+  "previous_snapshot_commit": "a1cf4c00b9553f888d74b3e88b2c711517f79d56",
+  "external_vectors_both_directions": 12,
+  "complete_tiny_raw_set_comparisons": 6,
+  "real_resource_runs": 2,
+  "real_controllers_completed": 0,
+  "real_sized_gate_passed": false,
+  "new_K4_evaluations": 0,
+  "site_changed": false
+}

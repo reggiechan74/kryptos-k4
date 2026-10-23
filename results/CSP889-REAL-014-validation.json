@@ -1,0 +1,50 @@
+{
+  "id": "CSP889-REAL-014-validation",
+  "specification_commit": "2fc80eb",
+  "implementation_commit": "88ce73f",
+  "source_sha256": {
+    "experiments/run_sigaba_real_adapter.py": "ad72d49f1da6eaeb209a3496dac890fbbd2340410e74e574acdd2c4a205474b4",
+    "experiments/sigaba_real_adapter.py": "eed55233a96fdfcc199572947ec144ffc2b315a61a092fec4774e724d5333b86",
+    "experiments/statistical_receipt_compare.py": "e40c04812be6f1b8da7cf74ff40c8a4b2a14ec449bf8eeb9dfb1f94953fb85b0",
+    "research/EXPERIMENTS.md": "a5de1cec7c39f2fb442a5bac915db3d34ac023df0c8ec011d581195aeec5f00c",
+    "research/HYPOTHESES.md": "ca70f6a72a5f2e2231a23d13f239408b2cb8139268e61fbee2f6268c7c1ed10b",
+    "research/SIGABA-REAL-ADAPTER-FINDINGS.md": "3dfd9bf7dcb92ded8273efc975e19ae8e66c720252b7633818a7241b1ad086ae",
+    "research/SIGABA-REAL-ADAPTER-SPEC.md": "813f89bf650d09c7ddafb661ddd9407fd47cc01afb57cf42b67386627e2cc249",
+    "research/STAT-CROSSVERSION-FINDINGS.md": "5a68cd5752170f6e7a9cfb1322863c4ca52eb139fc39576e8e0e0156b49939da",
+    "research/specifications/FRONTIER-2026-10-23.json": "b137bd085c277601f2931467c2e29f62ea1f12f25a35263023681a2024f42e9b",
+    "results/EXCLUSION-SCOPE-AUDIT-010.json": "557e298641d089937985ad0f6eecc06b78aef9769a4f2951f0b45d8eaff3dad2",
+    "results/FRONTIER-014.json": "16e363a0e1f78ddac80decde65ffddc8cb3e5664b818c5519d46c5fe71891529",
+    "results/HYPOTHESIS-REGISTER-014.json": "50662953d38be8a1f6c85acee7e2e0d1e02ecaaecd23099db2b0be89b1da1a79",
+    "results/STAT-CROSSVERSION-014-python312.json": "4b29b9dc8c8a15fc8d5bf7ba161e04eebbc84a25bd3df8e95c6f9171dfddd743",
+    "results/STAT-CROSSVERSION-014-python39.json": "4ec492cdbfdcba22c52d9ab32fb1e0318e25b55593c25222e4f098a2a1033ed1",
+    "results/sigaba-real-adapter/case-0.json": "0fbe02bd0ef0220b8adab25ea2c6053b5b9ca37a0c65e58f3533a3e66f98e6fd",
+    "results/sigaba-real-adapter/case-1.json": "725ce6a6fe832bc2e5d9067e5e5bfb4520071575ab01779a9e17eb156f1c0d12",
+    "tests/test_audit_hardening.py": "31e4af443dacec2c5374581c9e7844327be52b0fa46ea4f2f969abaa21e87a56",
+    "tests/test_frontier_assessment.py": "ff223c220560c31544025ecb26553816cf8968ddf64a614f51cc9e8a40a7ff23",
+    "tests/test_sigaba_real_adapter.py": "22a158115853eb395a594534b17583ec373b928c386876b3fe6097566c266fc4",
+    "tests/test_sigaba_real_artifacts.py": "b5f7aaf6c195551bfab8562a521f85e08da77fc7a8f0938c5d496de8d74f700b",
+    "tests/test_sigaba_torus_artifacts.py": "3e2cb9d99c4d06783d9e7a8659405299f4aec591909e6982dc0c5d01b740a924",
+    "tests/test_statistical_receipt_compare.py": "e0e95fc1051dff448504d6958a5d958c616917d73183e3068d60901347809c63"
+  },
+  "regression": {
+    "3.9.6": {
+      "tests": 406,
+      "passed": true,
+      "sha256": "9e5fc6f27a0038f147dda2777667556b40fce3801537007297c37f93791c9931"
+    },
+    "3.12.2": {
+      "tests": 406,
+      "passed": true,
+      "sha256": "7dc09c779763308362ed9476c02a56775571df31a91b8ddc7a5f507b5a1ba59c"
+    }
+  },
+  "real_sized_gate_passed": false,
+  "real_controllers_completed": 0,
+  "K4_evaluations": 0,
+  "complete_tiny_raw_sets": 6,
+  "external_vectors_both_directions": 12,
+  "archived_statistical_receipt_sha256": "f3b738c751ef590ab20be38307e3a99a6bffca965a32aa188fb303dd1996b64d",
+  "statistical_integer_draws_and_tail_decisions_unchanged": true,
+  "site_changed": false,
+  "unrelated_untracked_files_preserved": 210
+}

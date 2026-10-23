@@ -1,0 +1,26 @@
+{
+  "exact_integer_draws_and_tail_decisions": true,
+  "rational_mean_variance_reference": true,
+  "derived_rounding_limit_scaled_ULP": 16,
+  "fields": {
+    "calibration_means": {
+      "values": 48,
+      "max_actual_reference_scaled_ULP": 0.0,
+      "max_archived_reference_scaled_ULP": 0.0,
+      "max_cross_version_scaled_ULP": 0.0
+    },
+    "calibration_sample_sd": {
+      "values": 48,
+      "max_actual_reference_scaled_ULP": 1.0,
+      "max_archived_reference_scaled_ULP": 1.0,
+      "max_cross_version_scaled_ULP": 0.0
+    },
+    "evaluation_maxima_z": {
+      "values": 5000,
+      "max_actual_reference_scaled_ULP": 1.0,
+      "max_archived_reference_scaled_ULP": 1.0,
+      "max_cross_version_scaled_ULP": 0.0
+    }
+  },
+  "python": "3.9.6"
+}

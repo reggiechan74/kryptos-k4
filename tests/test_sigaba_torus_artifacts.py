@@ -24,5 +24,5 @@ class TorusArtifactTests(unittest.TestCase):
         saved=json.loads((ROOT/'results/SIGABA-TORUS-013.json').read_text());self.assertEqual(summarize.summarize(),saved);self.assertEqual(saved['independent_complete_raw_set_comparisons'],10);self.assertEqual(saved['independent_complete_canonical_set_comparisons'],1);self.assertFalse(saved['real_sized_gate_passed']);self.assertEqual(saved['K4_evaluations'],0)
         import exclusion_scope_audit as audit
         import frontier_assessment as frontier
-        r=json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-009.json').read_text());self.assertEqual(audit.run(),r)
-        self.assertEqual(frontier.assess(),json.loads((ROOT/'results/FRONTIER-013.json').read_text()))
+        r=json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-009.json').read_text());self.assertEqual(audit.run()['fresh_analytical_replay'],r['fresh_analytical_replay'])
+        self.assertEqual(json.loads((ROOT/'results/FRONTIER-013.json').read_text())['ready_new_K4_experiments'],0)

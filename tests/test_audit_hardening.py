@@ -116,8 +116,9 @@ class AuditHardeningTests(unittest.TestCase):
 
     def test_all_archived_statistical_draws_and_tails_replay(self):
         actual=statistical_run();expected=archived('STAT-001.json.gz')
-        for field in ['raw_draws','evaluation_maxima_z','calibration_means','calibration_sample_sd','observed_collision_counts','fixed_width_21','maximum_over_48_widths']:
-            self.assertEqual(actual[field],expected[field],field)
+        from statistical_receipt_compare import compare
+        report=compare(actual,expected)
+        self.assertTrue(report['exact_integer_draws_and_tail_decisions'])
 
     def test_audited_artifact_bytes_unchanged(self):
         manifest=json.loads((ROOT/'data/audited-results-b83.json').read_text())
