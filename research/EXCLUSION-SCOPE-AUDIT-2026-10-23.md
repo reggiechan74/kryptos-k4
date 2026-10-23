@@ -1,5 +1,8 @@
 # Exclusion scope and evidence audit
 
+Subsequent 23 October update: [complete cipher-state inference](SIGABA-CSP889-STATE-FINDINGS.md) removes the repeated cipher-start restriction in the same fixed schedule domain. The [primary-scan local review](evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md) supersedes the pending visual-inspection status below. The table and first audit receipt preserve the earlier snapshot; the current register and second audit receipt record later coverage.
+
+
 23 October 2026. This audit reviews every one of the **57 canonical hypothesis records**, indexes exclusion wording across tracked Markdown, and distinguishes exact model proofs from finite search negatives and non-identifiable fits. The [canonical register](HYPOTHESES.md) remains the status source of truth. The [machine-readable evidence map](../results/EXCLUSION-SCOPE-AUDIT-001.json) preserves each exact tested scope, unexcluded region, prerequisites, linked code/results and source hashes. It also inventories original worker reports without rewriting them.
 
 This is an evidence-chain and scope review, **not a claim that every historical search has been independently rerun**. Long base-60, running-key and other prior runs retain their original receipts and controls; passing current regressions is different from fresh full enumeration. The lexical inventory is reproducible using an explicit vocabulary, not an exhaustive semantic proof checker. It includes policy statements, proposed rejection criteria and negative-control descriptions as well as actual exclusions. Those line counts must never be added as independent hypotheses or used to assert universal coverage.

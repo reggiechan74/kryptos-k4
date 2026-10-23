@@ -65,10 +65,13 @@ class HistoricalSigabaScopeTests(unittest.TestCase):
                 for f in s['fields']:crossed.verify_certificate(row['training']['matrix'],y,f)
     def test_scope_inventory_replays_and_current_receipt(self):
         actual=scope.run();saved=json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-001.json').read_text())
-        self.assertEqual(actual,saved);self.assertEqual(len(saved['canonical_entries']),57)
+        self.assertEqual(actual['fresh_analytical_replay'],saved['fresh_analytical_replay']);self.assertEqual(len(saved['canonical_entries']),57)
         self.assertEqual(len(set(x['id'] for x in saved['canonical_entries'])),57)
         self.assertTrue(saved['fresh_analytical_replay']['structural_receipt_exact_match'])
         for d in saved['documents']:
-            self.assertEqual(hashlib.sha256((ROOT/d['path']).read_bytes()).hexdigest(),d['sha256'])
+            historical=subprocess.check_output(['git','show','60cf7937a28154f12289feca1bf51ca5c93bca38:'+d['path']],cwd=ROOT)
+            self.assertEqual(hashlib.sha256(historical).hexdigest(),d['sha256'])
         reg=json.loads((ROOT/'results/HYPOTHESIS-REGISTER-005.json').read_text())
-        for p,h in reg['source_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/p).read_bytes()).hexdigest(),h)
+        for p,h in reg['source_sha256'].items():
+            historical=subprocess.check_output(['git','show','60cf7937a28154f12289feca1bf51ca5c93bca38:'+p],cwd=ROOT)
+            self.assertEqual(hashlib.sha256(historical).hexdigest(),h)

@@ -1,0 +1,23 @@
+{
+  "kind": "Full cipher-state inference and locally verified physical addendum",
+  "entries": 57,
+  "statuses": {
+    "evidence-blocked": 13,
+    "narrow negative": 24,
+    "analytical exclusion": 9,
+    "untested": 4,
+    "non-identifiable": 6,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "28f3aad019389b351698bcfd335c3e39017a6aceea98b4e4b30e912bc70d2d92"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-005.json",
+  "previous_snapshot_commit": "60cf7937a28154f12289feca1bf51ca5c93bca38",
+  "cipher_state_descriptions_covered": 6178315520,
+  "previous_repeated_start_subset": 13520,
+  "all_SIGABA_settings_excluded": false,
+  "physical_geometry_surveyed": false,
+  "source_scans_locally_viewed": 11,
+  "site_changed": false
+}

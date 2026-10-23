@@ -98,7 +98,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: evidence-blocked
 - Mechanism: Treat engraved north, a physical needle, local lodestone attraction and true north as distinct coordinate frames.
 - Evidence: [source or scoped prior review](../docs/scott-sun-geometry-audit-2026-10-22.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Geometry/heading audit finds no surveyed reconstruction; no independent magnetic calibration. A newly forwarded artist-draft scan calls the needle static and its deflection metaphorical; a dynamic magnetic-needle model requires separate evidence.
+- Tested scope: Geometry/heading audit finds no surveyed reconstruction; no independent magnetic calibration. Locally inspected artist-draft and 1990 dedication scans corroborate a static/metaphorical needle; a dynamic magnetic-needle model requires separate evidence.
 - Untested scope: Any measured conversion between the four frames.
 - Missing inputs: Deep review complete; orientation measurements, instrument placement and epoch-dependent magnetic context remain missing.
 - Next discriminating test: Build a source-tagged frame diagram and only test a transformation fixed by independent measurements.
@@ -133,7 +133,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 
 - Status: evidence-blocked
 - Mechanism: Physical apertures, illumination, reflection or receiving surfaces select or transform letter information.
-- Evidence: [Current geometry audit](../docs/scott-sun-geometry-audit-2026-10-22.md) distinguishes measured facts, reported dimensions, placeholders and rendering defects.
+- Evidence: [Primary-scan addendum and local visual review](evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md); [Current geometry audit](../docs/scott-sun-geometry-audit-2026-10-22.md) distinguishes measured facts, reported dimensions, placeholders and rendering defects.
 - Tested scope: Conditional visual/solar scenarios, ray-model audits and source review; the live Site is a tool, not a calibrated decoding experiment. Landmark counts are separate.
 - Untested scope: A surveyed, aperture-aware optical decoder validated against independent photographs.
 - Missing inputs: Four-sheet surfaces/seams, aperture contours, true heading, receiver geometry, obstacles, water/window normals and independently timed camera calibration.
@@ -146,7 +146,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: evidence-blocked
 - Mechanism: A source-fixed shadow direction or observation time supplies a key or reading instruction.
 - Evidence: [source or scoped prior review](../docs/seasonal-light-source-review.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Conditional solar geometry and the uncalibrated rendering audit exist; no measured optical key. Newly forwarded primary-scan reports describe a timer-controlled pool lamp; solar-only scope cannot be generalized to all illumination.
+- Tested scope: Conditional solar geometry and the uncalibrated rendering audit exist; no measured optical key. Locally inspected 1990 typed instructions place the timer-controlled lamp in the small pool; solar-only scope cannot be generalized to all illumination, and beam geometry remains unknown.
 - Untested scope: A calibrated shadow-to-symbol pipeline.
 - Missing inputs: Surveyed heading/geometry, dated independent observation, receiver and unique extraction rule.
 - Next discriminating test: Validate a known-time photograph on non-K4 features with withheld geometry, then assess the fixed extraction.
@@ -242,12 +242,12 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 - Status: narrow negative
 - Mechanism: Authentic CSP-889 three-bank irregular stepping with the published simulator wiring set.
 - Evidence: [Historical convention and frozen domain](SIGABA-CSP889-SPEC.md), twelve published Sullivan-attributed vectors reproduced after source-derived fixture translation; not wartime hardware certification or Sanborn-use evidence.
-- Tested scope: SIGABA-CSP889-001: two fixed layouts, normal orientations, repeated cipher/index starts and one variable fast-control start; 13,520 raw keys, zero first-crib survivors, continuous 97-position schedules. Simulator large-wheel wirings are not recovered wartime secret wirings.
-- Untested scope: All other wheel orders/orientations, unrestricted independent starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.
+- Tested scope: SIGABA-CSP889-001: two fixed layouts, normal orientations, repeated cipher/index starts and one variable fast-control start; 13,520 raw repeated-start keys plus full five-independent-cipher-start inference over the same 520 schedules: 6,178,315,520 raw state descriptions, including that old subset; zero first-crib survivors, continuous 97-position schedules. Simulator large-wheel wirings are not recovered wartime secret wirings.
+- Untested scope: All other wheel orders/orientations, unrestricted independent control/index starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.
 - Missing inputs: Independently motivated key restrictions or historical wiring/key evidence for a broader cryptanalytic search.
 - Next discriminating test: Validate an independently specified historical key-sheet domain before spending on another search; arbitrary starting-key expansion alone is weakly motivated.
 - Dependencies: Published vector translation and source conventions; fixed literal A-Z 97-symbol alignment.
-- Results: [Known-answer controls](../results/SIGABA-CSP889-001-controls.json), [complete finite negative](../results/SIGABA-CSP889-001.json) and [findings](SIGABA-CSP889-FINDINGS.md). The custom H-SIGABA-INSPIRED result remains separate.
+- Results: [Complete cipher-state inference](SIGABA-CSP889-STATE-FINDINGS.md) and [Known-answer controls](../results/SIGABA-CSP889-001-controls.json), [complete finite negative](../results/SIGABA-CSP889-001.json) and [findings](SIGABA-CSP889-FINDINGS.md). The custom H-SIGABA-INSPIRED result remains separate.
 
 ### H-WHEATSTONE
 

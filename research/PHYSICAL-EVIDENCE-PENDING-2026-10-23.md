@@ -1,5 +1,8 @@
 # Forwarded primary-scan findings awaiting full evidence addendum
 
+Later 23 October update: the full addendum is now [saved with local visual verification](evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md). Eleven selected scans, including dedication corroboration and the conflicting handwritten seasonal wording, were inspected. The pending status below records the earlier handoff; it is not the current verification status.
+
+
 23 October 2026. These findings were forwarded by the parent research task, whose worker reports visual inspection of the Smithsonian scans. They have **not been visually replayed by this repository integration task**. Preserve this attribution and staging; the forthcoming full addendum should carry the source transcriptions, dates and inspection receipt. No physical cipher or Site geometry change is based on this note.
 
 - Sanborn maintenance instructions, reported as 1990, Box 6 Folder 10, manifest aaa-sanbojim-ref75, folder pages 13–14, images AAA-AAA_sanbojim_4111605-000001 and 4111606-000001: a timer-controlled 500-watt quartz lamp in the small pool, intended on 17:00–24:00 in fall/winter and 20:00–24:00 in spring/summer. Pump intended 08:00–20:00, April 1–December 1. [Scan](https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4111606-000001/full/full/0/default.jpg). Intended operation is not verified uptime; light position/direction and an extraction mechanism remain unmeasured. Solar-only feasibility does not exclude artificial illumination.

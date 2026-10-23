@@ -1,0 +1,24 @@
+{
+  "id": "FULL-STATE-PHYSICAL-VALIDATION-001",
+  "tests": 336,
+  "seconds": 21.484,
+  "passed": true,
+  "log_sha256": "369d4f78d9b624c2899f3c4d58c60c39eafb99cdccca2f18c8ef53ad00097888",
+  "complete_small_ring_python_js_count_comparisons": 16,
+  "actual_K4_training_survivors": 0,
+  "raw_cipher_state_descriptions": 6178315520,
+  "raw_descriptions_not_independent_hypotheses": true,
+  "explicit_full_raw_state_enumeration_per_control_schedule": 11881376,
+  "physical_scans_locally_inspected": 11,
+  "entire_252_image_survey_independently_repeated": false,
+  "site_changed": false,
+  "source_sha256": {
+    "experiments/sigaba_state_inference.py": "2c5ae34171d3324e06956c40fcb0643ddbfd50c5b0d0c109dc5b4e5cb18c514c",
+    "experiments/reference/csp889_state_toy_oracle.js": "739bd19dd37a2e7eed7160dd8822938024f02b1d3275bff39d4647c8460cc5bc",
+    "research/SIGABA-CSP889-STATE-SPEC.md": "1525563af2871039d20f12ae1772dc3e533c41a3143917762b1629a53812d09c",
+    "research/SIGABA-CSP889-STATE-FINDINGS.md": "ec170c446e9b29f0b03a13d66489f11d949f531a46d7ed5e2122e99e0ef5f2c1",
+    "research/HYPOTHESES.md": "28f3aad019389b351698bcfd335c3e39017a6aceea98b4e4b30e912bc70d2d92",
+    "results/SIGABA-CSP889-STATE-002.json": "9709eaf07758f02e9a23c723512196d496dbf5ddc58b3a80a9e8268ec3e9743c",
+    "results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json": "b0620bf924cf0d6ce0c6f5541a03f02ec51683f36c1f6c188e227109d349ef3e"
+  }
+}

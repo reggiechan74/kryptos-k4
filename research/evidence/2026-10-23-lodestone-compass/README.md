@@ -13,3 +13,8 @@ external record. No photographic binaries or full source scrapes are included.
 The [historical declination addendum](DECLINATION-ADDENDUM.md) was created later
 and is excluded from the original ZIP hash. It independently preserves official
 BGS main-field model receipts, not an on-site magnetic or bearing measurement.
+
+
+## 23 October primary-scan addendum
+
+[Original supplied research](KRYPTOS-PHYSICAL-EVIDENCE-ADDENDUM-2026-10-23.md) and [eleven-scan local visual verification](PHYSICAL-ADDENDUM-LOCAL-REVIEW.md) are separate from the earlier ZIP. The original bundle hash is unchanged and does not include these later files. New reported dimensions remain conflicting source alternatives; static-needle symbolism and small-pool lighting do not supply a measured optical cipher.

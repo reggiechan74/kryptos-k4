@@ -1,0 +1,152 @@
+{
+  "cases": [
+    {
+      "modulus": 2,
+      "case": 0,
+      "raw_states": 32,
+      "compatible": 32,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 2,
+      "case": 1,
+      "raw_states": 32,
+      "compatible": 32,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 2,
+      "case": 2,
+      "raw_states": 32,
+      "compatible": 32,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 2,
+      "case": 3,
+      "raw_states": 32,
+      "compatible": 32,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 3,
+      "case": 0,
+      "raw_states": 243,
+      "compatible": 81,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 3,
+      "case": 1,
+      "raw_states": 243,
+      "compatible": 81,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 3,
+      "case": 2,
+      "raw_states": 243,
+      "compatible": 81,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 3,
+      "case": 3,
+      "raw_states": 243,
+      "compatible": 81,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 4,
+      "case": 0,
+      "raw_states": 1024,
+      "compatible": 512,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 4,
+      "case": 1,
+      "raw_states": 1024,
+      "compatible": 512,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 4,
+      "case": 2,
+      "raw_states": 1024,
+      "compatible": 512,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 4,
+      "case": 3,
+      "raw_states": 1024,
+      "compatible": 512,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 6,
+      "case": 0,
+      "raw_states": 7776,
+      "compatible": 2592,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 6,
+      "case": 1,
+      "raw_states": 7776,
+      "compatible": 2592,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 6,
+      "case": 2,
+      "raw_states": 7776,
+      "compatible": 2592,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    },
+    {
+      "modulus": 6,
+      "case": 3,
+      "raw_states": 7776,
+      "compatible": 2592,
+      "truth_included": true,
+      "complete_sets_equal": true,
+      "mutation_rejected": true
+    }
+  ],
+  "complete_set_comparisons": 16,
+  "mutation_comparisons": 16,
+  "K4_evaluations": 0,
+  "location": "Orchestration JavaScript runtime while Mac executor unavailable; not a Mac production replay"
+}

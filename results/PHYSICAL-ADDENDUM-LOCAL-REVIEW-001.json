@@ -1,0 +1,87 @@
+{
+  "id": "PHYSICAL-ADDENDUM-LOCAL-REVIEW-001",
+  "date": "2026-10-23",
+  "inspection": "Direct pixel review via view_image of all eleven listed scans, not OCR or automatic captions",
+  "images": [
+    {
+      "image": "4129077",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4129077/full/full/0/default.jpg",
+      "bytes": 1938596,
+      "sha256": "46b7905034d027101d0954933bcdcc544ac071b371af0f904be4232084fd33ba"
+    },
+    {
+      "image": "4129085",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4129085/full/full/0/default.jpg",
+      "bytes": 2096315,
+      "sha256": "b6c8250d6dc2c8a0c9fedca90ff31e7cf262e27a413009c3e6e222ecf8214853"
+    },
+    {
+      "image": "4111606-000001",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4111606-000001/full/full/0/default.jpg",
+      "bytes": 1749427,
+      "sha256": "ab5dab2d6c4fe7a1643ce54304578fc282d1a31a6fdad2f4990fefa2467d402d"
+    },
+    {
+      "image": "4111603-000001",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4111603-000001/full/full/0/default.jpg",
+      "bytes": 1752309,
+      "sha256": "951c2e7a41f10564cfeded7efc44c30497c5addaf2688b888d3af3230de79386"
+    },
+    {
+      "image": "4129058",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4129058/full/full/0/default.jpg",
+      "bytes": 2062499,
+      "sha256": "dd2b8764e21ec9fa74321e0ab07619a0448ecd55680db72c827dd25d296ee60b"
+    },
+    {
+      "image": "4129149",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4129149/full/full/0/default.jpg",
+      "bytes": 1934738,
+      "sha256": "327b3d4ef064b4f4681ef8d1895fffff65860a475bb5bcd31a59e28ae648b38a"
+    },
+    {
+      "image": "4111605-000001",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4111605-000001/full/full/0/default.jpg",
+      "bytes": 1860663,
+      "sha256": "7bcfa6b9f6a27408e054a65d0829418d83d1536e2f5f30c3a888cf0a6b97d8ce"
+    },
+    {
+      "image": "4129165",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4129165/full/full/0/default.jpg",
+      "bytes": 1958284,
+      "sha256": "c1deba5a87f93608029fde177e8fc003744191b4777903e440265ca118f10e99"
+    },
+    {
+      "image": "4129174",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4129174/full/full/0/default.jpg",
+      "bytes": 2396072,
+      "sha256": "4fee7c3f4b04007fe404f02c3e8f72bebac41b5df8eea6e75f837791de90f411"
+    },
+    {
+      "image": "4129179",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4129179/full/full/0/default.jpg",
+      "bytes": 2438736,
+      "sha256": "1eaf01abd6b59a6d9325125a76c05f4a4ca04015a010928cf40fa81ca0fa3221"
+    },
+    {
+      "image": "4111615-000001",
+      "url": "https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4111615-000001/full/full/0/default.jpg",
+      "bytes": 2485212,
+      "sha256": "61d2876a2de4a8dded0175d5abeb9f8a986d88e9572f718400af776b0678d12b"
+    }
+  ],
+  "local_visual_inspections": 11,
+  "original_worker_screening_pages": 203,
+  "later_reported_worker_screening_images": 215,
+  "entire_worker_survey_independently_repeated": false,
+  "full_artwork_geometry_measured": false,
+  "site_changed": false,
+  "third_party_image_binaries_committed": false,
+  "source_sha256": {
+    "research/evidence/2026-10-23-lodestone-compass/KRYPTOS-PHYSICAL-EVIDENCE-ADDENDUM-2026-10-23.md": "4998386d19e3232e32df1419c2ea3915ac651f5a75f210ca7d25812afc35a861",
+    "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md": "713793fac895ef88d2e54fbbbbc28db4619889613259e55a3a0925d123add577"
+  },
+  "final_reported_worker_screening_images": 252,
+  "final_reported_worker_folders": 7,
+  "codes_research_folder_inspection": "Worker reports bounded 37-image negative; not independently visually replayed by integration task"
+}
