@@ -134,9 +134,22 @@ def controls(d):
 def metadata():
     return {'specification_commit':FROZEN,'source_sha256':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (SPEC,DATA,Path(__file__),ROOT/'data/k4.json',ROOT/'data/ipa-cambridge-us-v1.json')}}
 
+def matched_null(cipher,d,observed):
+    import random
+    if observed==0:return {'executed':False,'reason':'zero complete survivors; no significance claim'}
+    rng=random.Random(2026102301);started=time.monotonic();counts=[]
+    for _ in range(199):
+        letters=list(cipher);rng.shuffle(letters);text=''.join(letters);found=select(text,d)
+        counts.append(len(found['compatible']))
+        if time.monotonic()-started>120:raise TimeoutError('Greek null calibration unresolved')
+    return {'executed':True,'seed':2026102301,'draws':199,'statistic':'complete compatible model/alignment descriptions','observed':observed,'null_counts':counts,'plus_one_p':(1+sum(x>=observed for x in counts))/200}
+
+
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('stage',choices=('controls','actual'));parser.add_argument('--output',type=Path,required=True);args=parser.parse_args();d=schema();result=metadata()
     if args.stage=='controls':result['controls']=controls(d)
-    else:result['actual']=select(json.loads((ROOT/'data/k4.json').read_text())['ciphertext'],d,True)
+    else:
+        cipher=json.loads((ROOT/'data/k4.json').read_text())['ciphertext'];result['actual']=select(cipher,d,True)
+        result['null']=matched_null(cipher,d,len(result['actual']['compatible']))
     raw=json.dumps(result,ensure_ascii=False,indent=2)+'\n';assert len(raw.encode())<128*1024**2
     args.output.write_text(raw)

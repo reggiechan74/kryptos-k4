@@ -1,9 +1,9 @@
 {
   "specification_commit": "7bc893f",
   "source_sha256": {
-    "research/GREEK-SIGABA-CANDIDATE-SPEC.md": "76ae8697658b14364808fcc4e17e9094782f424f9f147b1cdd498502229351d4",
+    "research/GREEK-SIGABA-CANDIDATE-SPEC.md": "d4f51e928a4e26a0ca37a2cce9b8f6898521176a7e7a6863561cf87067a26ca1",
     "data/greek-phonetic-v1.json": "559d494751631410eb4bcd1a813777643fd1fba356346d9b3c384f297ad95cb3",
-    "experiments/greek_phonetic_candidate.py": "e7c58acd7c848e508cebb207c1bace01c13ec53b817bcbd36f6633c00db80fc6",
+    "experiments/greek_phonetic_candidate.py": "1062f97cd37bbd955c84b7a137fa0e3f06a23e182014e2f74d3c774290a27396",
     "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
     "data/ipa-cambridge-us-v1.json": "82617c33dc8ce03e46fe6dc56b247c3019b7f32718bbb0ae757e75f2497fb1a1"
   },
@@ -2819,6 +2819,6 @@
     ],
     "invalid_inputs_rejected": 4,
     "incompatible_constant_cipher_survivors": 0,
-    "seconds": 0.920475417
+    "seconds": 0.903800208
   }
 }

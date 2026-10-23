@@ -2,9 +2,9 @@
   "specification_commit": "7bc893f",
   "authentic_SIGABA": false,
   "source_sha256": {
-    "research/GREEK-SIGABA-CANDIDATE-SPEC.md": "76ae8697658b14364808fcc4e17e9094782f424f9f147b1cdd498502229351d4",
+    "research/GREEK-SIGABA-CANDIDATE-SPEC.md": "d4f51e928a4e26a0ca37a2cce9b8f6898521176a7e7a6863561cf87067a26ca1",
     "data/sigaba-inspired-v1.json": "8ff6fbfc33bd0fb1c1ad567668af76ae147e554c0516450a3b54b9a51bf585a9",
-    "experiments/sigaba_inspired.py": "6b692f010ba9dbb3f465712bf32337e5e8d817321d770afabfaac56124cdc3f3",
+    "experiments/sigaba_inspired.py": "6f24d79f8545ac85027d59fc1e598e10d1c57c2ea4e7703853ef931225354ccb",
     "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
   },
   "raw_starting_keys": 6760,
@@ -90605,6 +90605,6 @@
     "raw_keys_accounted": 81120,
     "timing_mutations_detected": 12,
     "constant_cipher_survivors": 0,
-    "seconds": 0.06621454200000002
+    "seconds": 0.06719450000000002
   }
 }

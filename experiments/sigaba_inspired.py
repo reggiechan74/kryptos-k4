@@ -160,10 +160,23 @@ def controls(m,groups):
 def metadata():
     return {'specification_commit':'7bc893f','authentic_SIGABA':False,'source_sha256':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (SPEC,DATA,Path(__file__),ROOT/'data/k4.json')}}
 
+def matched_null(cipher,m,groups,observed):
+    import random
+    if observed==0:return {'executed':False,'reason':'zero complete survivors; no significance claim'}
+    rng=random.Random(2026102302);started=time.monotonic();counts=[]
+    for _ in range(199):
+        letters=list(cipher);rng.shuffle(letters);found=select(''.join(letters),m,groups)
+        counts.append(found['raw_compatible_keys'])
+        if time.monotonic()-started>120:raise TimeoutError('SIGABA-inspired null calibration unresolved')
+    return {'executed':True,'seed':2026102302,'draws':199,'statistic':'complete compatible raw keys','observed':observed,'null_counts':counts,'plus_one_p':(1+sum(x>=observed for x in counts))/200}
+
+
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('stage',choices=('controls','actual'));parser.add_argument('--output',type=Path,required=True);args=parser.parse_args();m=machine();groups,hist=schedules(m);result=metadata()
     result.update(raw_starting_keys=6760,distinct_stepping_schedules=len(groups),schedule_aliases=groups,selector_cardinality_histogram=hist)
     if args.stage=='controls':result['controls']=controls(m,groups)
-    else:result['actual']=select(json.loads((ROOT/'data/k4.json').read_text())['ciphertext'],m,groups,True)
+    else:
+        cipher=json.loads((ROOT/'data/k4.json').read_text())['ciphertext'];result['actual']=select(cipher,m,groups,True)
+        result['null']=matched_null(cipher,m,groups,result['actual']['raw_compatible_keys'])
     encoded=json.dumps(result,indent=2)+'\n';assert len(encoded.encode())<128*1024**2
     args.output.write_text(encoded)

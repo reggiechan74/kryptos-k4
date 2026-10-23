@@ -147,3 +147,12 @@ an additional 120-second cap per family. Report plus-one resolution 1/200, no
 posterior or correction over all previous research. A timeout is unresolved.
 Regardless of outcomes, finish both declared families, save findings/registry/tests,
 push main and stop this batch. No adaptive fifth variant or Site change.
+
+### Null reproducibility clarification before evaluation
+
+Before either actual comparison, fix Python MT19937 seeds 2026102301 for Greek
+and 2026102302 for the rotor model. If triggered, the statistic is the count of
+complete compatible model/alignment descriptions for Greek, or raw compatible
+keys for the rotor model; every null reruns the identical complete selector.
+This clarifies the already declared conditional calibration, changing no cipher,
+parameter domain, alignment or success criterion. No null is run for zero survivors.
