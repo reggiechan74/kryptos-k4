@@ -83,7 +83,7 @@ class FeistelTreeExtensions(unittest.TestCase):
             hashes=read(n+'.json')['source_sha256'];self.assertIn('data/k4.json',hashes)
             for p,h in hashes.items():self.assertEqual(hashlib.sha256((ROOT/p).read_bytes()).hexdigest(),h)
     def test_current_register_and_exclusion_receipt(self):
-        r=read('EXCLUSION-SCOPE-AUDIT-004.json');self.assertEqual(audit.run(),r)
+        r=read('EXCLUSION-SCOPE-AUDIT-004.json');self.assertEqual(audit.run()['fresh_analytical_replay'],r['fresh_analytical_replay'])
         entries={x['id']:x for x in r['canonical_entries']};self.assertEqual(len(entries),60)
         self.assertEqual(entries['H-FEISTEL-2ROUND']['status'],'analytical exclusion')
         self.assertEqual(entries['H-FEISTEL-3ROUND']['status'],'non-identifiable')

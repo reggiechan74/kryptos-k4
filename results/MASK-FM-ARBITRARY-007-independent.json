@@ -1,0 +1,111 @@
+{
+  "method": "Independent coordinate-slot contradiction oracle; post-run verification, not additional K4 models",
+  "controls": [
+    {
+      "word": "COMEATONCE",
+      "phase": 0,
+      "compatible": true
+    },
+    {
+      "word": "COMEATONCE",
+      "phase": 1,
+      "compatible": true
+    },
+    {
+      "word": "COMEATONCE",
+      "phase": 2,
+      "compatible": true
+    },
+    {
+      "word": "EASTNORTHEAST",
+      "phase": 0,
+      "compatible": true
+    },
+    {
+      "word": "EASTNORTHEAST",
+      "phase": 1,
+      "compatible": true
+    },
+    {
+      "word": "EASTNORTHEAST",
+      "phase": 2,
+      "compatible": true
+    },
+    {
+      "word": "BERLINCLOCK",
+      "phase": 0,
+      "compatible": true
+    },
+    {
+      "word": "BERLINCLOCK",
+      "phase": 1,
+      "compatible": true
+    },
+    {
+      "word": "BERLINCLOCK",
+      "phase": 2,
+      "compatible": true
+    }
+  ],
+  "contexts": 348160,
+  "compatible_contexts": 0,
+  "complete_certificate_stream_sha256": "b649b0ef2c4007360dc6fbcf836f988b511b93a23bb1bcb4a53d68a2097326ad",
+  "rejection_counts": {
+    "same_cipher_coordinate_conflict:0": 225152,
+    "same_cipher_coordinate_conflict:1": 77568,
+    "same_cipher_coordinate_conflict:2": 45440
+  },
+  "examples": {
+    "same_cipher_coordinate_conflict:0": {
+      "mask": 0,
+      "offset": 42,
+      "certificate": {
+        "kind": "same_cipher_coordinate_conflict",
+        "cipher": "B",
+        "coordinate": 0,
+        "first": {
+          "index": 12,
+          "symbol": "."
+        },
+        "second": {
+          "index": 15,
+          "symbol": "-"
+        }
+      }
+    },
+    "same_cipher_coordinate_conflict:1": {
+      "mask": 0,
+      "offset": 43,
+      "certificate": {
+        "kind": "same_cipher_coordinate_conflict",
+        "cipher": "B",
+        "coordinate": 1,
+        "first": {
+          "index": 12,
+          "symbol": "."
+        },
+        "second": {
+          "index": 15,
+          "symbol": "-"
+        }
+      }
+    },
+    "same_cipher_coordinate_conflict:2": {
+      "mask": 0,
+      "offset": 44,
+      "certificate": {
+        "kind": "same_cipher_coordinate_conflict",
+        "cipher": "B",
+        "coordinate": 2,
+        "first": {
+          "index": 12,
+          "symbol": "."
+        },
+        "second": {
+          "index": 15,
+          "symbol": "-"
+        }
+      }
+    }
+  }
+}

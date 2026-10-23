@@ -1,0 +1,29 @@
+{
+  "test_count": 360,
+  "seconds": 27.598,
+  "status": "passed",
+  "log_sha256": "5bc9161956af543e4dee819ce43b1369d9b2f5bdf18aa1e91682f08e7c1cf65b",
+  "scope": "All tracked test basenames; unrelated suffix copies excluded",
+  "source_sha256": {
+    "experiments/fractionated_morse_constraints.py": "b8f321f30f9939da9362ca41c0f434e02aa696dd41d9c7e948b7119c18c3188f",
+    "experiments/fractionated_morse_oracle.mjs": "87f8f3636d1db9fb6f80f22f62f2cf6488efdb6926e8e4c5b0fe40f2caf0a4b5",
+    "research/EXPERIMENTS.md": "897027151ac57e28ae7f3237ff3b30a4b0533c94eff976af63f815a6e6d80b53",
+    "research/FRACTIONATED-MORSE-ARBITRARY-FINDINGS.md": "4df8625d143d6dcb79a279e73d6f7ac8a13c1e71e7cfa8e763433b5c824c2af2",
+    "research/FRACTIONATED-MORSE-ARBITRARY-SPEC.md": "b8a4af8aaa9d2e3ee815fe2d79d8ea73d25e532be367e997488c42ed5cbdc1ae",
+    "research/HYPOTHESES.md": "f1cb7f5505294afdb7c621b36f53194d8e28f01db2243bf9e2d00f90792a6b49",
+    "results/EXCLUSION-SCOPE-AUDIT-005.json": "a9efc2a4bd212bdb6a008eeefe84cbd9c60f24327f9fbf1dbc9a93e018c69205",
+    "results/HYPOTHESIS-REGISTER-009.json": "b0dd99d76f6cfeabfa7a8319d7f05fdf1c48c9b36b3cc052719764c9df736bfd",
+    "results/MASK-FM-ARBITRARY-007-controls.json": "cdfb00b7fd28b901f8ea60c426e0384bbc080cd45cda9a0e1e7d16d9c3fd7996",
+    "results/MASK-FM-ARBITRARY-007-independent.json": "5a1377ccde6fbe0bbc811e44907ca102aed1f68dc1eebb58c15764178f7cb019",
+    "results/MASK-FM-ARBITRARY-007.json": "513fb058172426d1309723f7aff23415b5b2aa9959d10010ae8199b6e5f8acb6",
+    "tests/test_feistel_tree_extensions.py": "7ca5ce738f671ac187ab7521f1dce2de7b5ce384423a9efbad8ec75323c4b21d",
+    "tests/test_fractionated_morse_constraints.py": "bb42b62df6f4737591c7fd5c8033fdd13e1a742fbfb32c929029f660d81757d1"
+  },
+  "first_stage_contexts": 348160,
+  "all_rejected": true,
+  "second_stage_evaluations": 0,
+  "independent_coordinate_oracle_agrees": true,
+  "synthetic_complete_first_selectors": 6,
+  "small_complete_mapping_comparisons": 100,
+  "site_changed": false
+}

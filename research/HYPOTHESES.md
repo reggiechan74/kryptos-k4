@@ -53,7 +53,7 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 | [H-TRIFID](#h-trifid) | narrow negative | Apply one of the fixed Trifid cubes/directions. |
 | [H-LAG](#h-lag) | non-identifiable | Use repeated lag patterns to diagnose an architecture. |
 | [H-MASK-AUTO](#h-mask-auto) | narrow negative | Fixed-primer same-alphabet autokey. |
-| [H-MASK-FM](#h-mask-fm) | narrow negative | Two literal Fractionated Morse maps. |
+| [H-MASK-FM](#h-mask-fm) | analytical exclusion | Direct standard Fractionated Morse with arbitrary cipher/trigram alphabet. |
 | [H-WORD-SCRAMBLE](#h-word-scramble) | narrow negative | Permute internal word letters while retaining endpoints before a cipher. |
 | [H-PHONETIC-RESPELLING](#h-phonetic-respelling) | narrow negative | Stylized phonetic respelling precedes encryption. |
 | [H-GERMAN-TRANSLATION](#h-german-translation) | evidence-blocked | Use one source-fixed German rendering before encryption. |
@@ -446,15 +446,15 @@ The deep source review has now been read and integrated. Its [evidence synthesis
 
 ### H-MASK-FM
 
-- Status: narrow negative
-- Mechanism: Two literal Fractionated Morse maps.
-- Evidence: [source or scoped prior review](MASKING-FINDINGS.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Two fixed maps fail internal separator parsing; no general Morse rejection.
-- Untested scope: Broader mechanisms outside the exact report domain.
-- Missing inputs: A new, independently justified finite specification outside completed coverage.
-- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
-- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](MASKING-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Status: analytical exclusion
+- Mechanism: Standard Morse with x/xx separators, fixed trigrams and an arbitrary shared cipher-letter/trigram permutation.
+- Evidence: ACA procedure and historical context; no creator-use evidence. Earlier two-map pilot preserved.
+- Tested scope: All 4,096 internal first-crib word-break masks and stream offsets 42–126 reject: 348,160 necessary contexts, zero compatible records, zero Berlin evaluations. Independent coordinate certificates agree. This closes the arbitrary-key gap without 26! enumeration or aligning cipher and plaintext indices.
+- Untested scope: Nonstandard Morse, digits/punctuation, different separators/framing, state-dependent codes, routes and outer layers; not a general Morse rejection.
+- Missing inputs: A source-grounded materially different mechanism; no independently justified rescue of the fixed model exists.
+- Next discriminating test: Stop this domain; require an independently specified different procedure with non-fit predictions.
+- Dependencies: Disclosed decoded English indices, standard A-Z codes, memoryless three-symbol grouping, no crib resets or invented prefix.
+- Results: [Arbitrary-key findings](FRACTIONATED-MORSE-ARBITRARY-FINDINGS.md), [all context tallies](../results/MASK-FM-ARBITRARY-007.json), [independent certificates](../results/MASK-FM-ARBITRARY-007-independent.json), and [original fixed-map report](MASKING-FINDINGS.md).
 
 ### H-WORD-SCRAMBLE
 

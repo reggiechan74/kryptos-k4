@@ -1,0 +1,22 @@
+{
+  "kind": "Arbitrary-key Fractionated Morse exact local exclusion",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 12,
+    "untested": 2,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "f1cb7f5505294afdb7c621b36f53194d8e28f01db2243bf9e2d00f90792a6b49"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-008.json",
+  "previous_snapshot_commit": "d3ecb56b736d65f3859227ae655f242b2c7228ba",
+  "morse_contexts": 348160,
+  "compatible_local_records": 0,
+  "second_stage_evaluations": 0,
+  "key_enumeration": false,
+  "site_changed": false
+}

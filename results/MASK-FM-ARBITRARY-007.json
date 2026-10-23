@@ -1,0 +1,30 @@
+{
+  "actual": {
+    "first": {
+      "completed": true,
+      "status": "impossible_local_constraints",
+      "raw_contexts": 348160,
+      "word_break_masks": 4096,
+      "rejection_tally": {
+        "repeated_cipher_empty_domain": 348160
+      },
+      "unique_domain_records": 0,
+      "compatible_contexts": 0,
+      "records": [],
+      "seconds": 0.57195025
+    },
+    "second": null,
+    "second_stage_evaluated": false,
+    "scope": "Local necessary-condition relaxation only; no global prefix/gap parsing or full plaintext claim",
+    "crib_positions_are_decoded_letter_positions": true,
+    "cipher_positions_not_assumed_equal": true,
+    "key_counts_across_contexts_not_added": true
+  },
+  "source_sha256": {
+    "experiments/fractionated_morse_constraints.py": "b8f321f30f9939da9362ca41c0f434e02aa696dd41d9c7e948b7119c18c3188f",
+    "research/FRACTIONATED-MORSE-ARBITRARY-SPEC.md": "b8a4af8aaa9d2e3ee815fe2d79d8ea73d25e532be367e997488c42ed5cbdc1ae",
+    "research/specifications/MASK-FM-001.json": "ff12227427a1ed79679445e33596be3463e4abb4e940b7bd3e48247869f26d39",
+    "experiments/masking_pilots.py": "99a0ee8bded21aea1616f5ee088efb5b9277cfb0ab2f1b6d51b9c294ccffaad6",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}
