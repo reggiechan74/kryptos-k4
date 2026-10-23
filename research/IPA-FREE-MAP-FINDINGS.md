@@ -128,8 +128,9 @@ python3 -m unittest discover -s tests -v
 The [full local result](../results/IPA-FREE-MAP-001.json) preserves every structure,
 source hashes, raw edges, components, counts, exact prediction marginals and
 certificates. [Controls](../results/IPA-FREE-MAP-001-controls.json) are separate.
-An independent native replay is being supplied and will be recorded separately;
-it is not yet claimed in this local report. No codec, period, route, notation or
+The independent native audit has now reproduced byte for byte locally. All 24
+classifications, exact counts and prediction domains agree; the separate
+[integration report](IPA-CODECS-INTEGRATION.md) records provenance and controls. No codec, period, route, notation or
 mapping rule was added after the failures. The bounded family stops here.
 
 At the local pre-native milestone, all 285 repository tests pass in 11.782 seconds.

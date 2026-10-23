@@ -1,0 +1,148 @@
+{
+  "id": "PRONUNCIATION-CODECS-003",
+  "frozen_at": "2026-10-23T00:11:00Z",
+  "note": "Working protocol frozen before running count, parsing or ciphertext-border program. Not blind to crib lengths, which were already known and considered during research. Not a repository preregistration.",
+  "segmentation": [
+    [
+      "EAST",
+      "NORTHEAST"
+    ],
+    [
+      "BERLIN",
+      "CLOCK"
+    ]
+  ],
+  "word_metadata_only": true,
+  "codecs": [
+    {
+      "id": "CMU_ARPABET",
+      "edition": "cmusphinx/cmudict commit 74790861f652b15e4ac49015a90074ad62a27690; current proxy, not pre-1990 dictionary",
+      "raw": {
+        "EAST": "IY1 S T",
+        "NORTH": "N AO1 R TH",
+        "NORTHEAST": "N AO2 R TH IY1 S T",
+        "BERLIN": "B ER0 L IH1 N",
+        "CLOCK": "K L AA1 K"
+      },
+      "alternates": "No numbered alternatives for the five headwords in frozen dictionary",
+      "normalization": "Split on ASCII spaces; remove final stress digit 0,1,2 from each vowel token; concatenate tokens. Stress retained additionally as an audit representation, not another cipher candidate.",
+      "domain": "39 base phones; 69 stressed lexical phone labels (24 consonants + 15 vowels times 3 stress levels); source symbols file additionally lists 15 bare vowels, hence 84 entries."
+    },
+    {
+      "id": "SAMPA_ENGLISH_UK",
+      "edition": "English SAMPA as documented in EAGLES 1995 section A.1.2, with Cambridge current UK lexical entries",
+      "raw": {
+        "EAST": "iːst",
+        "NORTH": "nɔːθ",
+        "NORTHEAST": "ˌnɔːθˈiːst",
+        "BERLIN": "bɜːˈlɪn",
+        "CLOCK": "klɒk"
+      },
+      "alternates": "One UK entry per word on frozen Cambridge pages. US entries are a different dialect model, not mixed into this one.",
+      "normalization": "Remove IPA stress ˈ and ˌ, separators / . hyphen and spaces; retain length; convert each IPA token using fixed English SAMPA mapping iː=i:, ɔː=O:, θ=T, ɜː=3:, ɪ=I, ɒ=Q; unchanged b,k,l,n,s,t.",
+      "tokens": {
+        "EAST": [
+          "i:",
+          "s",
+          "t"
+        ],
+        "NORTH": [
+          "n",
+          "O:",
+          "T"
+        ],
+        "NORTHEAST": [
+          "n",
+          "O:",
+          "T",
+          "i:",
+          "s",
+          "t"
+        ],
+        "BERLIN": [
+          "b",
+          "3:",
+          "l",
+          "I",
+          "n"
+        ],
+        "CLOCK": [
+          "k",
+          "l",
+          "Q",
+          "k"
+        ]
+      },
+      "domain": "44 English phoneme tokens (24 consonants, 20 vowels); optional weak-vowel indeterminacy i,u in the source are excluded from this lexical subset, not silently collapsed."
+    },
+    {
+      "id": "AHD",
+      "edition": "American Heritage Dictionary Fifth Edition online, copyright 2022; present-day proxy",
+      "raw": {
+        "EAST": "ēst",
+        "NORTH": "nôrth",
+        "NORTHEAST": [
+          "nôrth-ēst",
+          "nôr-ēst"
+        ],
+        "BERLIN": "bûr-lĭn",
+        "CLOCK": "klŏk"
+      },
+      "alternates": "Both entire NORTHEAST alternatives retained. BERLIN is the city entry, not the carriage or personal-name entries.",
+      "normalization": "NFC; strip enclosing parentheses, lexical syllable hyphen, primary stress U+E01F and secondary prime U+2032 if present; omit interword spaces. Retain every diacritic and th digraph.",
+      "tokens": {
+        "EAST": [
+          "ē",
+          "s",
+          "t"
+        ],
+        "NORTH": [
+          "n",
+          "ôr",
+          "th"
+        ],
+        "NORTHEAST": [
+          [
+            "n",
+            "ôr",
+            "th",
+            "ē",
+            "s",
+            "t"
+          ],
+          [
+            "n",
+            "ôr",
+            "ē",
+            "s",
+            "t"
+          ]
+        ],
+        "BERLIN": [
+          "b",
+          "ûr",
+          "l",
+          "ĭ",
+          "n"
+        ],
+        "CLOCK": [
+          "k",
+          "l",
+          "ŏ",
+          "k"
+        ]
+      },
+      "token_note": "These are explicitly chart-key units using composite ôr and ûr, not asserted physical phones or Unicode glyphs. AHD th is one key unit and two characters."
+    }
+  ],
+  "counts": "For each whole raw lexical entry and joined normalized stream report chart/phone tokens, NFC Unicode code points, UTF-8 bytes, observed character inventory and observed token inventory. Raw lexical concatenations exclude interword separators but preserve internal source punctuation; raw ARPABET retains token spaces.",
+  "tests": [
+    "Verify fixed token arrays join to normalized source-derived streams.",
+    "Check same-unit one-to-one A-Z feasibility against local lengths 13 and 11; do not equate code points and phones.",
+    "Check source-prefix/suffix EAST token repetition, and target proper borders of FLRVQQPRNGKSS. A deterministic non-erasing concatenative token code preserves that border regardless of variable codeword length. No outer key, shifts or cipher enumeration.",
+    "Run codec roundtrip controls for explicit framed token arrays, and construct unframed ambiguity witnesses NG versus N+G and tS versus t+S.",
+    "Demonstrate known lexical phonetic ambiguity with CMU NIGHT/KNIGHT in the same snapshot, not a selected phrase recovery."
+  ],
+  "alignment": "A fixed 13-letter first and 11-letter second ciphertext block is conditional: public orthographic positions do not prove transformed-stream positions. A variable-length outer serialization generally moves starts to |f(A)| and |f(A)|+|f(EASTNORTHEAST)|+|f(B)|; these are unknown. No freely shifted crib is tested.",
+  "stopping": "Stop after counts, source inventory, parsing controls and border certificate. No whole K4 solution, key search, period rerun, soundex/metaphone or arbitrary replacement spellings."
+}

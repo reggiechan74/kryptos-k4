@@ -729,3 +729,8 @@ different output parity, excluding the specified same-AZ or same-KRYPTOS fixed
 affine 2×2 map for both pair origins, even without invertibility. Zero keys or
 matrices searched. Sixteen fixed affine positive cases and sixteen parity
 mutations pass. [Boundary and corrected status](AFFINE-DIGRAPH-PARITY-BOUNDARY.md).
+
+
+## 23 October 2026: stateful tree/path pilot and independent IPA integration
+
+The two fixed tree/subtree-permutation constructions were implemented, controlled and tested continuously across all 97 positions. All 104 settings fail the first crib; this is a bounded negative, not a general tree-cipher exclusion. See [TREE-PATH-CIPHER-FINDINGS.md](TREE-PATH-CIPHER-FINDINGS.md). Independent free-map IPA and source-fixed pronunciation codec audits now replay exactly; see [IPA-CODECS-INTEGRATION.md](IPA-CODECS-INTEGRATION.md). No additional search was launched after these failures.

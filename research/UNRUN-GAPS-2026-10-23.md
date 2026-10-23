@@ -50,7 +50,7 @@ A separate source/ledger review is being supplied and may refine these statuses.
   search awaiting implementation. The four [parity certificates](AFFINE-DIGRAPH-PARITY-BOUNDARY.md)
   supersede historical unrun headings without a matrix search.
 - Fixed-alias IPA and the free-map periodic extension have local exact negative
-  outcomes. ARPABET/SAMPA/AHD source feasibility is a separate incoming audit;
+  outcomes. ARPABET/SAMPA/AHD source feasibility is now a completed separate audit;
   a codec comparison is not an executed outer-key search or proof of full
   phonetic alignment. No additional codec model is launched by this note.
 
