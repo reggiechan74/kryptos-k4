@@ -1,0 +1,670 @@
+{
+  "controls": {
+    "ACA_example_verified": true,
+    "complete_small_permutation_comparisons": [
+      {
+        "q": 2,
+        "case": 0,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 1,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 2,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 3,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 4,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 5,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 6,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 7,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 8,
+        "count": 1
+      },
+      {
+        "q": 2,
+        "case": 9,
+        "count": 1
+      },
+      {
+        "q": 2,
+        "case": 10,
+        "count": 1
+      },
+      {
+        "q": 2,
+        "case": 11,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 12,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 13,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 14,
+        "count": 0
+      },
+      {
+        "q": 2,
+        "case": 15,
+        "count": 1
+      },
+      {
+        "q": 2,
+        "case": 16,
+        "count": 1
+      },
+      {
+        "q": 2,
+        "case": 17,
+        "count": 1
+      },
+      {
+        "q": 2,
+        "case": 18,
+        "count": 1
+      },
+      {
+        "q": 2,
+        "case": 19,
+        "count": 0
+      },
+      {
+        "q": 3,
+        "case": 0,
+        "count": 0
+      },
+      {
+        "q": 3,
+        "case": 1,
+        "count": 1
+      },
+      {
+        "q": 3,
+        "case": 2,
+        "count": 3
+      },
+      {
+        "q": 3,
+        "case": 3,
+        "count": 1
+      },
+      {
+        "q": 3,
+        "case": 4,
+        "count": 0
+      },
+      {
+        "q": 3,
+        "case": 5,
+        "count": 2
+      },
+      {
+        "q": 3,
+        "case": 6,
+        "count": 0
+      },
+      {
+        "q": 3,
+        "case": 7,
+        "count": 0
+      },
+      {
+        "q": 3,
+        "case": 8,
+        "count": 0
+      },
+      {
+        "q": 3,
+        "case": 9,
+        "count": 2
+      },
+      {
+        "q": 3,
+        "case": 10,
+        "count": 1
+      },
+      {
+        "q": 3,
+        "case": 11,
+        "count": 0
+      },
+      {
+        "q": 3,
+        "case": 12,
+        "count": 1
+      },
+      {
+        "q": 3,
+        "case": 13,
+        "count": 0
+      },
+      {
+        "q": 3,
+        "case": 14,
+        "count": 1
+      },
+      {
+        "q": 3,
+        "case": 15,
+        "count": 1
+      },
+      {
+        "q": 3,
+        "case": 16,
+        "count": 1
+      },
+      {
+        "q": 3,
+        "case": 17,
+        "count": 2
+      },
+      {
+        "q": 3,
+        "case": 18,
+        "count": 0
+      },
+      {
+        "q": 3,
+        "case": 19,
+        "count": 1
+      },
+      {
+        "q": 4,
+        "case": 0,
+        "count": 1
+      },
+      {
+        "q": 4,
+        "case": 1,
+        "count": 1
+      },
+      {
+        "q": 4,
+        "case": 2,
+        "count": 4
+      },
+      {
+        "q": 4,
+        "case": 3,
+        "count": 7
+      },
+      {
+        "q": 4,
+        "case": 4,
+        "count": 2
+      },
+      {
+        "q": 4,
+        "case": 5,
+        "count": 2
+      },
+      {
+        "q": 4,
+        "case": 6,
+        "count": 0
+      },
+      {
+        "q": 4,
+        "case": 7,
+        "count": 0
+      },
+      {
+        "q": 4,
+        "case": 8,
+        "count": 3
+      },
+      {
+        "q": 4,
+        "case": 9,
+        "count": 1
+      },
+      {
+        "q": 4,
+        "case": 10,
+        "count": 2
+      },
+      {
+        "q": 4,
+        "case": 11,
+        "count": 0
+      },
+      {
+        "q": 4,
+        "case": 12,
+        "count": 0
+      },
+      {
+        "q": 4,
+        "case": 13,
+        "count": 8
+      },
+      {
+        "q": 4,
+        "case": 14,
+        "count": 4
+      },
+      {
+        "q": 4,
+        "case": 15,
+        "count": 4
+      },
+      {
+        "q": 4,
+        "case": 16,
+        "count": 1
+      },
+      {
+        "q": 4,
+        "case": 17,
+        "count": 0
+      },
+      {
+        "q": 4,
+        "case": 18,
+        "count": 0
+      },
+      {
+        "q": 4,
+        "case": 19,
+        "count": 0
+      },
+      {
+        "q": 5,
+        "case": 0,
+        "count": 12
+      },
+      {
+        "q": 5,
+        "case": 1,
+        "count": 10
+      },
+      {
+        "q": 5,
+        "case": 2,
+        "count": 6
+      },
+      {
+        "q": 5,
+        "case": 3,
+        "count": 10
+      },
+      {
+        "q": 5,
+        "case": 4,
+        "count": 7
+      },
+      {
+        "q": 5,
+        "case": 5,
+        "count": 2
+      },
+      {
+        "q": 5,
+        "case": 6,
+        "count": 6
+      },
+      {
+        "q": 5,
+        "case": 7,
+        "count": 0
+      },
+      {
+        "q": 5,
+        "case": 8,
+        "count": 10
+      },
+      {
+        "q": 5,
+        "case": 9,
+        "count": 18
+      },
+      {
+        "q": 5,
+        "case": 10,
+        "count": 0
+      },
+      {
+        "q": 5,
+        "case": 11,
+        "count": 1
+      },
+      {
+        "q": 5,
+        "case": 12,
+        "count": 0
+      },
+      {
+        "q": 5,
+        "case": 13,
+        "count": 0
+      },
+      {
+        "q": 5,
+        "case": 14,
+        "count": 0
+      },
+      {
+        "q": 5,
+        "case": 15,
+        "count": 4
+      },
+      {
+        "q": 5,
+        "case": 16,
+        "count": 1
+      },
+      {
+        "q": 5,
+        "case": 17,
+        "count": 0
+      },
+      {
+        "q": 5,
+        "case": 18,
+        "count": 4
+      },
+      {
+        "q": 5,
+        "case": 19,
+        "count": 14
+      },
+      {
+        "q": 6,
+        "case": 0,
+        "count": 0
+      },
+      {
+        "q": 6,
+        "case": 1,
+        "count": 6
+      },
+      {
+        "q": 6,
+        "case": 2,
+        "count": 4
+      },
+      {
+        "q": 6,
+        "case": 3,
+        "count": 9
+      },
+      {
+        "q": 6,
+        "case": 4,
+        "count": 4
+      },
+      {
+        "q": 6,
+        "case": 5,
+        "count": 13
+      },
+      {
+        "q": 6,
+        "case": 6,
+        "count": 30
+      },
+      {
+        "q": 6,
+        "case": 7,
+        "count": 7
+      },
+      {
+        "q": 6,
+        "case": 8,
+        "count": 0
+      },
+      {
+        "q": 6,
+        "case": 9,
+        "count": 16
+      },
+      {
+        "q": 6,
+        "case": 10,
+        "count": 36
+      },
+      {
+        "q": 6,
+        "case": 11,
+        "count": 6
+      },
+      {
+        "q": 6,
+        "case": 12,
+        "count": 14
+      },
+      {
+        "q": 6,
+        "case": 13,
+        "count": 11
+      },
+      {
+        "q": 6,
+        "case": 14,
+        "count": 7
+      },
+      {
+        "q": 6,
+        "case": 15,
+        "count": 3
+      },
+      {
+        "q": 6,
+        "case": 16,
+        "count": 8
+      },
+      {
+        "q": 6,
+        "case": 17,
+        "count": 3
+      },
+      {
+        "q": 6,
+        "case": 18,
+        "count": 0
+      },
+      {
+        "q": 6,
+        "case": 19,
+        "count": 0
+      }
+    ],
+    "literal_crib_plants": [
+      {
+        "complete_first_selector_contexts": 348160,
+        "complete_first_selector_truth_retained": true,
+        "seed": 0,
+        "alphabet": "VKDQWLUOFNMTJCSHRAEGBZPIYX",
+        "plaintext_letters": 97,
+        "ciphertext_letters": 143,
+        "full_roundtrip": true,
+        "windows": [
+          {
+            "start": 22,
+            "offset": 95,
+            "mask": 2202,
+            "local_key_count": "1307674368000",
+            "true_key_retained": true
+          },
+          {
+            "start": 64,
+            "offset": 271,
+            "mask": 718,
+            "local_key_count": "41845579776000",
+            "true_key_retained": true
+          }
+        ]
+      },
+      {
+        "complete_first_selector_contexts": 348160,
+        "complete_first_selector_truth_retained": true,
+        "seed": 1,
+        "alphabet": "DFXJHBOVNIAMPQKRCLSEUTZWYG",
+        "plaintext_letters": 97,
+        "ciphertext_letters": 144,
+        "full_roundtrip": true,
+        "windows": [
+          {
+            "start": 22,
+            "offset": 101,
+            "mask": 157,
+            "local_key_count": "20922789888000",
+            "true_key_retained": true
+          },
+          {
+            "start": 64,
+            "offset": 282,
+            "mask": 142,
+            "local_key_count": "87178291200",
+            "true_key_retained": true
+          }
+        ]
+      },
+      {
+        "complete_first_selector_contexts": 348160,
+        "complete_first_selector_truth_retained": true,
+        "seed": 2,
+        "alphabet": "IKLVWSPHDXFBUCNEZQARGOYJTM",
+        "plaintext_letters": 97,
+        "ciphertext_letters": 146,
+        "full_roundtrip": true,
+        "windows": [
+          {
+            "start": 22,
+            "offset": 104,
+            "mask": 3028,
+            "local_key_count": "146459529216000",
+            "true_key_retained": true
+          },
+          {
+            "start": 64,
+            "offset": 289,
+            "mask": 332,
+            "local_key_count": "146459529216000",
+            "true_key_retained": true
+          }
+        ]
+      },
+      {
+        "complete_first_selector_contexts": 348160,
+        "complete_first_selector_truth_retained": true,
+        "seed": 3,
+        "alphabet": "ULCBKTMERHQSZDXGJWAFVYONPI",
+        "plaintext_letters": 97,
+        "ciphertext_letters": 148,
+        "full_roundtrip": true,
+        "windows": [
+          {
+            "start": 22,
+            "offset": 102,
+            "mask": 3554,
+            "local_key_count": "37362124800",
+            "true_key_retained": true
+          },
+          {
+            "start": 64,
+            "offset": 281,
+            "mask": 437,
+            "local_key_count": "9153720576000",
+            "true_key_retained": true
+          }
+        ]
+      },
+      {
+        "complete_first_selector_contexts": 348160,
+        "complete_first_selector_truth_retained": true,
+        "seed": 4,
+        "alphabet": "AKWJQBODGVIYNEFLMUXZTPSRHC",
+        "plaintext_letters": 97,
+        "ciphertext_letters": 138,
+        "full_roundtrip": true,
+        "windows": [
+          {
+            "start": 22,
+            "offset": 86,
+            "mask": 3755,
+            "local_key_count": "348713164800",
+            "true_key_retained": true
+          },
+          {
+            "start": 64,
+            "offset": 257,
+            "mask": 456,
+            "local_key_count": "4311014400",
+            "true_key_retained": true
+          }
+        ]
+      },
+      {
+        "complete_first_selector_contexts": 348160,
+        "complete_first_selector_truth_retained": true,
+        "seed": 5,
+        "alphabet": "LTHAMXKRBWZDQJVSFUEPYGIONC",
+        "plaintext_letters": 97,
+        "ciphertext_letters": 144,
+        "full_roundtrip": true,
+        "windows": [
+          {
+            "start": 22,
+            "offset": 103,
+            "mask": 3148,
+            "local_key_count": "2615348736000",
+            "true_key_retained": true
+          },
+          {
+            "start": 64,
+            "offset": 278,
+            "mask": 193,
+            "local_key_count": "37362124800",
+            "true_key_retained": true
+          }
+        ]
+      }
+    ],
+    "direct_substring_checks": 102,
+    "injectivity_mutation_rejected": true,
+    "empty_domain_mutation_rejected": true,
+    "budget_unresolved_not_rejection": true
+  },
+  "source_sha256": {
+    "experiments/fractionated_morse_constraints.py": "b8f321f30f9939da9362ca41c0f434e02aa696dd41d9c7e948b7119c18c3188f",
+    "research/FRACTIONATED-MORSE-ARBITRARY-SPEC.md": "b8a4af8aaa9d2e3ee815fe2d79d8ea73d25e532be367e997488c42ed5cbdc1ae",
+    "research/specifications/MASK-FM-001.json": "ff12227427a1ed79679445e33596be3463e4abb4e940b7bd3e48247869f26d39",
+    "experiments/masking_pilots.py": "99a0ee8bded21aea1616f5ee088efb5b9277cfb0ab2f1b6d51b9c294ccffaad6",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}
