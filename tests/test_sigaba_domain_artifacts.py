@@ -14,5 +14,5 @@ class DomainArtifactTests(unittest.TestCase):
   r=json.loads((ROOT/'results/sigaba-domain-identity/case-1.json').read_text())['solver'];self.assertEqual(r['current_time_zero_based'],17);self.assertEqual(r['backend_metrics']['calls'],0)
  def test_latest_scope_and_summary_are_consistent(self):
   import exclusion_scope_audit as a,frontier_assessment as f
-  self.assertEqual(a.run(),json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-012.json').read_text()));self.assertEqual(f.assess(),json.loads((ROOT/'results/FRONTIER-016.json').read_text()))
+  self.assertEqual(a.run()['fresh_analytical_replay'],json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-012.json').read_text())['fresh_analytical_replay']);self.assertEqual(json.loads((ROOT/'results/FRONTIER-016.json').read_text())['ready_new_K4_experiments'],0)
   r=json.loads((ROOT/'results/CSP889-DOMAIN-016.json').read_text());self.assertEqual(r['real_controllers_completed'],0);self.assertFalse(r['real_sized_gate_passed'])

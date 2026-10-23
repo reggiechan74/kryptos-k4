@@ -1,0 +1,21 @@
+{
+  "kind": "Exact full-torus first-observation anchoring; observed-domain memory gate remains unresolved",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "ad70abadd4996bc18a6267e5e177ce07411f1e938f65c932286804377154affc"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-016.json",
+  "previous_snapshot_commit": "03f77ff6707de30821904d614185ff992f1098ae",
+  "real_sized_gate_passed": false,
+  "new_K4_evaluations": 0,
+  "filter_panel_executed": false,
+  "site_changed": false
+}

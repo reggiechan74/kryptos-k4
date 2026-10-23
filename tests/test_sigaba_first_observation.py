@@ -71,3 +71,19 @@ class FirstObservationTests(unittest.TestCase):
    with tempfile.TemporaryDirectory() as td:
     x=Path(td)/'anchored';y=Path(td)/'physical';budget=t.Budget(15);t.write_keys(r,f,x,budget);o.truth(f,obs,y,budget.check,t.Limit);self.assertTrue(filecmp.cmp(x,y,shallow=False))
   self.assertTrue(has_alias)
+
+ def test_nonfull_contact_absolute_time_and_gap_trace(self):
+  f=t.fixture(5,3);m=t.Model(f);control=f['plant']['control'];seed=tuple(f['plant']['cipher']);digits=m.digits(control,74);anchor=21;chosen=None
+  for h,aliases in enumerate(m.aliases):
+   def mask_at(time):return {m.maps[h][d] for d in digits[time]}
+   if any(mask_at(time)!=mask_at(time-anchor) for time in range(anchor,73)):
+    chosen=h;break
+  self.assertIsNotNone(chosen);h=chosen;index=m.aliases[h][0];cipher=o.simulate(f,f['plaintext'],control,index,seed);physical=o.schedule(f,control,index,74);prefix=a.prefix_delta(m,digits,h,anchor,t.Budget(10));self.assertEqual(prefix,physical[anchor]);state=tuple((seed[j]+prefix[j])%5 for j in range(3));self.assertEqual(tuple((state[j]-prefix[j])%5 for j in range(3)),seed);wrong=state;timing_mutation_detected=False
+  for time in range(anchor,74):
+   self.assertEqual(state,tuple((seed[j]+physical[time][j])%5 for j in range(3)))
+   x=f['plaintext'][time]
+   for j in range(3):x=m.cf[j][state[j]][x]
+   self.assertEqual(x,cipher[time])
+   actual={m.maps[h][d] for d in digits[time]};shifted={m.maps[h][d] for d in digits[time-anchor]}
+   state=tuple((v-(j in actual))%5 for j,v in enumerate(state));wrong=tuple((v-(j in shifted))%5 for j,v in enumerate(wrong));timing_mutation_detected|=wrong!=state
+  self.assertTrue(timing_mutation_detected)

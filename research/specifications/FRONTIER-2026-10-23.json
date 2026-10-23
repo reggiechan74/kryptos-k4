@@ -1,6 +1,6 @@
 {
-  "id": "FRONTIER-016",
-  "reviewed_main_commit": "552cbdae9d253c1f4cfd62edc5fd08427f87aefa",
+  "id": "FRONTIER-017",
+  "reviewed_main_commit": "03f77ff6707de30821904d614185ff992f1098ae",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
   "decision": "No new evidence-grounded K4 experiment is currently ready under the available inputs, implemented algorithms and access limits.",
   "not_claimed": [
@@ -46,10 +46,15 @@
         "research/SIGABA-DOMAIN-IDENTITY-SPEC.md",
         "research/SIGABA-DOMAIN-IDENTITY-FINDINGS.md",
         "results/CSP889-DOMAIN-016.json",
-        "tests/test_sigaba_domain_identity.py"
+        "tests/test_sigaba_domain_identity.py",
+        "research/SIGABA-FIRST-OBSERVATION-SPEC.md",
+        "research/SIGABA-FIRST-OBSERVATION-FINDINGS.md",
+        "research/SIGABA-LITERATURE-AND-FILTER-REVIEW.md",
+        "results/CSP889-ANCHOR-017.json",
+        "tests/test_sigaba_first_observation.py"
       ],
-      "next_deliverable": "The current solver still reconstructs increasing offset/owner frontiers and repeatedly scans them for conservative resource admission. These operations are visible implementation costs, but the next dominant CPU routine has not been measured after this change, so no new profiler-based attribution is claimed. A shared trajectory DAG or incremental exact resource accounting would need a new measured correctness/performance gate. The separate dense-case limit remains nearly 1.5-MB cipher-domain payloads on many simultaneous branches. Exact compressed or multi-observation rotor relations are a plausible representation change, not implemented evidence of real-sized tractability. The immediate boundary is this implementation/resource gate, not a mathematical proof that authentic inference is impossible.",
-      "go_no_go": "The prefix run advances from time index 7 to 17, retaining all 66,058 class owners at peak and reaching 35,290 peak nodes, 1,186,963 owner transitions and 249,550 branch visits. It still completes zero controllers and makes zero predicate requests. Therefore actual controller coverage does not advance, although the partial prefix does. It times out at 60.003 seconds with 84.9 MiB peak RSS. The dense case stops at the same time-2 memory frontier after 3.426 seconds with 546.3 MiB RSS. Both total key counts remain unknown; neither is a K4 negative. Full real-sized independent set validation is missing; K4 stays unevaluated.",
+      "next_deliverable": "Exact compressed/multi-observation cipher constraints or layered path DAG validated on complete original-key truth and unchanged authentic fixtures. Published mask-consistency filter requires a separately frozen selectivity/soundness diagnostic; it does not replace a reachable physical map.",
+      "go_no_go": "Anchoring correctness passes eight complete tiny sets and map-dependent inverses. Real observations are reached at index21 but memory guard stops at24; both fixtures complete zero controllers. Full real-sized compatible-set validation/resource admission fails; K4 stays unevaluated.",
       "safe_replay_argv": [
         "python3",
         "-m",

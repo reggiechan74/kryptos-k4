@@ -1,0 +1,63 @@
+{
+  "id": "CSP889-ANCHOR-017-validation",
+  "protocol_commit": "55bef8c",
+  "implementation_commit": "1c2b992",
+  "corrected_control_gate_commit": "efb97af",
+  "source_sha256": {
+    "experiments/run_sigaba_first_observation.py": "0bd253d87693aa912d19ba343a8c8a4ae5df98d48dc4b617d2e160f41a985fc7",
+    "experiments/sigaba_first_observation.py": "ab78da87147f5646e63dbfd2bf8d163bfa2aa62420f719c4210c80b03c4fe22a",
+    "research/EXPERIMENTS.md": "5d3f8f79499da8ab4d05c62bd2db46b7b58d95ba0330a243fd089add9739b94a",
+    "research/HYPOTHESES.md": "ad70abadd4996bc18a6267e5e177ce07411f1e938f65c932286804377154affc",
+    "research/SIGABA-FIRST-OBSERVATION-FINDINGS.md": "eaeec2bebe4a6e7c58233aa11cea90b9ddc3f26f6315cb779f89d7c2d9239611",
+    "research/SIGABA-FIRST-OBSERVATION-SPEC.md": "3936e92057a6f6f3b1d6db52f5f0d2b10be53685dc4b96441ad23b8ef2f4d779",
+    "research/SIGABA-LITERATURE-AND-FILTER-REVIEW.md": "3a6de42b51b65d9b74cec8925698f6ac32173c373c81495af061bfb0ae789b20",
+    "research/specifications/FRONTIER-2026-10-23.json": "a3f9ebf74c5554280df9c9bd57805c91301d56f339ca17a8daf696f127581880",
+    "results/ANCHOR-017-chronology.json": "8ab70e580a782b69ea09db4c81df1f31c2cf060170061f356df187f8e3007175",
+    "results/CSP889-ANCHOR-017.json": "f1c98755ab24c879aa6fb7d381439b3cbbb8ceee2b0eb75ae2de8555bb0f6e31",
+    "results/EXCLUSION-SCOPE-AUDIT-013.json": "ab2da9ea65d81297b7fb6ca4cfa51dd264121ccbf401467de45c6a6b16d1f914",
+    "results/FRONTIER-017.json": "2b491c8d478cea2bf4b04438c194a8e26c6e2259a5f5416f1df09739f5514f74",
+    "results/HYPOTHESIS-REGISTER-017.json": "95bb87dba4defcf97cf7fbe0f8e854a741d307a596572c65fc52e239579d529c",
+    "results/sigaba-first-observation-premature/case-0.json": "9410002c22d58d167866b6376bc673046063346c37008183b0bb456706a5944b",
+    "results/sigaba-first-observation-premature/case-1.json": "5a73a200727a00257938c55628f4557d9821f7ad514226c7cf68654310008fe0",
+    "results/sigaba-first-observation/case-0.json": "c6b5ad3624be9d375efdc8617fbb95a3a552becca923a3f8629c81c63b48667f",
+    "results/sigaba-first-observation/case-1.json": "1fa578cdba5b1ef10cd4f8a09068f4db0b6ce6c9c9456ff92b5da2b67f234e4b",
+    "sources/sigaba-literature-anchoring-2026-10-23.json": "3c8df63ba9881e8f1e7c4f835804b95e84593bed397708adbe10e4e38e7d6673",
+    "tests/test_frontier_assessment.py": "3ea2824eec5a79946967e290ac213cfe632f6c6a1cd5bdacb4d9d57e47eb077a",
+    "tests/test_sigaba_anchor_artifacts.py": "3a960631c003b665619dfd78fb58450362a5b7317ded415b424cbb51e68f4111",
+    "tests/test_sigaba_domain_artifacts.py": "5e609dcbfd60485b70564bf29619e208c5782aa88d5006538844e4f60748353f",
+    "tests/test_sigaba_first_observation.py": "bd3c71e1ef89b4a098d3dc189ba24ffbf08dec4c535fbfc12279c1df30b19e25"
+  },
+  "regression": {
+    "3.9.6": {
+      "tests": 430,
+      "passed": true,
+      "sha256": "3e095a64377b07e62775cedb39b0f1b9b3dda21af86d3030cc2bddef2e1e31a7"
+    },
+    "3.12.2": {
+      "tests": 430,
+      "passed": true,
+      "sha256": "915f1b9fd6e428ab6d704c568eeded7cc112892dc09902bb52999177089fbfb5"
+    }
+  },
+  "early_aggregate_source_pin_failures": {
+    "count_per_runtime": 2,
+    "cause": "Findings were updated with an extra physical timing control after current frontier receipt generation; receipt regenerated, targeted and both complete suites pass.",
+    "algorithm_or_archived_results_changed": false
+  },
+  "chronology_receipt": "results/ANCHOR-017-chronology.json",
+  "premature_runs_not_counted_as_official_coverage": true,
+  "complete_tiny_raw_key_stream_comparisons": 8,
+  "tiny_cache_policy_correlated_relations": 24,
+  "binary_subset_preimage_checks": 2048,
+  "nonfull_contact_continuous_time_physical_trace_passed": true,
+  "map_dependent_inverse_and_wrong_prefix_controls": true,
+  "real_fixtures_unchanged": true,
+  "real_controllers_completed": 0,
+  "real_sized_gate_passed": false,
+  "filter_panel_executed": false,
+  "K4_evaluations": 0,
+  "site_changed": false,
+  "raw_statistical_receipt_sha256": "f3b738c751ef590ab20be38307e3a99a6bffca965a32aa188fb303dd1996b64d",
+  "unrelated_untracked_files_preserved_before_this_receipt": 210,
+  "publication": "Denied by automatic approval review before command execution; local verified HEAD efb97af, remote main03f77ff. No retry or alternate transport attempted."
+}

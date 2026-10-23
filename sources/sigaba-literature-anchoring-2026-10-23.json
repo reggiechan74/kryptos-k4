@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-23",
+  "original_synthesis": "Parent-supplied independent research, preserved in research/SIGABA-LITERATURE-AND-FILTER-REVIEW.md",
+  "synthesis_sha256": "3a6de42b51b65d9b74cec8925698f6ac32173c373c81495af061bfb0ae789b20",
+  "local_direct_reads": [
+    {
+      "url": "https://ep.liu.se/ecp/158/005/ecp19158005.pdf",
+      "scope": "2019 primary paper; sections 2.2\u20132.6 and resource/validation assumptions"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/357104979_Cracking_SIGABA_in_less_than_24_hours_on_a_consumer_PC",
+      "scope": "Public author copy; sections 4.3.2\u20134.3.3 and 100-known-symbol assumption"
+    }
+  ],
+  "parent_reviewed_not_locally_retrieved": [
+    "https://www.cs.sjsu.edu/faculty/stamp/papers/Sigaba2.pdf"
+  ],
+  "anchoring": "Independent engineering derivation supplied by parent; locally implemented and verified, not attributed as a runtime result from the papers",
+  "published_filter": "Necessary condition only; physical reachable-index and connected-path verification required",
+  "filter_panel_status": "Proposed/unrun; not the full-domain admission gate",
+  "full_third_party_source_copies_saved": false
+}
