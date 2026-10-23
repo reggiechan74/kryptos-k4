@@ -1,0 +1,47 @@
+{
+  "id": "CSP889-SPARSE-015-validation",
+  "specification_commit": "37443df",
+  "controlled_implementation_commit": "c63b9ab",
+  "source_sha256": {
+    "experiments/run_sigaba_sparse_ownership.py": "5c09f5c586a7fa4ce621c088889b5be0a8a38c7e0112c0dfb826c40641bd9706",
+    "experiments/sigaba_sparse_ownership.py": "e7a0b5fc621d5f0a6d23a09a77f2754d29c98b6974fa02bb71f53a60818836b1",
+    "research/EXPERIMENTS.md": "710b95e3056828b1754f31b6ed7430d163d97a986b8e383a6ee23035e16e379f",
+    "research/HYPOTHESES.md": "a1eac72001317c0b128b2ece1a38c703da1a40af15498401e87eaeaae9756d97",
+    "research/SIGABA-SPARSE-OWNERSHIP-FINDINGS.md": "054075642e3de2768a5bc2019860eb7f8afee1ae5331ee2891cafae029befe02",
+    "research/SIGABA-SPARSE-OWNERSHIP-SPEC.md": "ac351030ecf3201843a182b0520d8a1d1e41a192fa089994f27fd97c40d7e5aa",
+    "research/specifications/FRONTIER-2026-10-23.json": "91f585ece54f9653ed4895aeb616b060105c2d2fe066389ac81c48cf0b4613f2",
+    "results/CSP889-SPARSE-015.json": "c99a9a9593b46defad3fbb32e6f28abd2e6e9d43427bb5f359b038af812b9b5f",
+    "results/EXCLUSION-SCOPE-AUDIT-011.json": "589f3fabe8a1f749e712025d04fb77e1f2853f1da6d2878908d8076aa4b59387",
+    "results/FRONTIER-015.json": "ea691b38ca88b84625c5454631ab93f4e382348a5832aff50b9f3c0510927658",
+    "results/HYPOTHESIS-REGISTER-015.json": "03cc5123d3b85381bd02e964403408a99ab6c6c074ef059b354405591ad3776c",
+    "results/sigaba-sparse-ownership/case-0.json": "c4dd6a7a25bb1a6bfd08ec99410d94b1f872e89b4564d054a0aaffb0f860b252",
+    "results/sigaba-sparse-ownership/case-1.json": "c4ee5fcf7916bfd219120e9ba31e8c54bd8e02d6c54cc42d9edf076363196ebe",
+    "tests/test_frontier_assessment.py": "b455c8f2683e9ee3c444ba5aaa2a6b1f6a781a87c4cdaa6551db8736643cc404",
+    "tests/test_sigaba_real_artifacts.py": "87bbc07f156e89c9e8872f11305ec02f4926ec25909392a301cbfe73bc91c650",
+    "tests/test_sigaba_sparse_artifacts.py": "51519bbbb9316ceb161d5a40b8985a64f81ffaa991c6725b2ec71e5f6af07c6a",
+    "tests/test_sigaba_sparse_ownership.py": "3aeef25c49c9d68fa6e7b9076e77b1637b1638e65b42d9d0c382395327ab5cbc"
+  },
+  "regression": {
+    "3.9.6": {
+      "tests": 412,
+      "passed": true,
+      "sha256": "3066a379389e8a1cde380300b49428bc021444517ba7364c61b6297d45a8ec56"
+    },
+    "3.12.2": {
+      "tests": 412,
+      "passed": true,
+      "sha256": "878942b9c1b185cb64678729128eb6ed5f15c9ef90ebb52f728a62cbd5f97292"
+    }
+  },
+  "raw_statistical_receipt_sha256": "f3b738c751ef590ab20be38307e3a99a6bffca965a32aa188fb303dd1996b64d",
+  "complete_tiny_raw_key_stream_comparisons": 6,
+  "complete_tiny_relation_cache_comparisons": 18,
+  "all_small_torus_predicates_per_cache_policy": 243,
+  "cache_policies": 3,
+  "real_fixtures_unchanged": true,
+  "real_controllers_completed": 0,
+  "real_sized_gate_passed": false,
+  "K4_evaluations": 0,
+  "site_changed": false,
+  "unrelated_untracked_files_preserved": 210
+}

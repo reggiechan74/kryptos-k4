@@ -1,0 +1,20 @@
+{
+  "kind": "Exact sparse ownership and reserved predicate cache: unchanged real-sized admission remains unresolved",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "a1eac72001317c0b128b2ece1a38c703da1a40af15498401e87eaeaae9756d97"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-014.json",
+  "previous_snapshot_commit": "5273af698c956b6781ea4a9087808e92bb971833",
+  "real_sized_gate_passed": false,
+  "new_K4_evaluations": 0,
+  "site_changed": false
+}

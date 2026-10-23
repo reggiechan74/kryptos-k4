@@ -1,6 +1,6 @@
 {
-  "id": "FRONTIER-014",
-  "reviewed_main_commit": "a1cf4c00b9553f888d74b3e88b2c711517f79d56",
+  "id": "FRONTIER-015",
+  "reviewed_main_commit": "5273af698c956b6781ea4a9087808e92bb971833",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
   "decision": "No new evidence-grounded K4 experiment is currently ready under the available inputs, implemented algorithms and access limits.",
   "not_claimed": [
@@ -38,10 +38,14 @@
         "research/SIGABA-REAL-ADAPTER-FINDINGS.md",
         "results/sigaba-real-adapter/case-0.json",
         "results/sigaba-real-adapter/case-1.json",
-        "tests/test_sigaba_real_adapter.py"
+        "tests/test_sigaba_real_adapter.py",
+        "research/SIGABA-SPARSE-OWNERSHIP-SPEC.md",
+        "research/SIGABA-SPARSE-OWNERSHIP-FINDINGS.md",
+        "results/CSP889-SPARSE-015.json",
+        "tests/test_sigaba_sparse_ownership.py"
       ],
-      "next_deliverable": "Separately freeze sparse index-class trajectory ownership or symbolic controller inference and a cache reservation policy; compare full tiny truth and the same real fixtures without budget increases or free per-time masks.",
-      "go_no_go": "Twelve external vectors and six complete tiny systems pass. Real fixtures hit branch-domain and wall guards with zero completed controllers. Full real-sized totals are unknown, not zero, and no full-set validation passed. No K4 evaluation is ready.",
+      "next_deliverable": "The unresolved prefix cost is independent of cipher predicate construction. Even without observations the present dictionaries repeatedly use large integer cipher domains as part of their keys and rebuild offset/class partitions. Canonical domain identities with cached equality/hash, shared trajectory DAGs or symbolic continuous-controller relations are justified next representations. No profiler-based claim of a dominant CPU routine is made from these counters alone.",
+      "go_no_go": "Both runs remain unresolved, with zero completed controllers and unknown total key counts. The dense case reaches the same time-2, 410-node envelope guard, with 202 predicate requests but only three zero-offset builds. The separated-window case still stops at time index 7 with 6,652 peak nodes and zero predicate requests; memory falls to 58.4 MiB, but prefix CPU work remains unresolved. It performed 519,540 owner transitions and 14,181 branch visits. Direct plants remain valid, but no selector recovery or full real-sized compatible-set validation is established. Real-sized full-set completeness/resource gate remains failed; no K4 evaluation.",
       "safe_replay_argv": [
         "python3",
         "-m",

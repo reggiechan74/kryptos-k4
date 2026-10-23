@@ -886,3 +886,8 @@ The largest toy inference completed all 32,768 controllers in 534.476 seconds, r
 ## CSP889-REAL-014 — authentic adapter, failed synthetic resource admission
 
 Twelve published vectors pass both directions through adapter, direct machine and physical contacts; six complete tiny systems match independent full raw-key truth. The two frozen real-sized fixtures stop at 17.223 seconds (branch envelope) and 60.161 seconds (wall), both with zero completed controllers. Totals are unknown; no K4 evaluation or negative key coverage. [Protocol](SIGABA-REAL-ADAPTER-SPEC.md), [findings](SIGABA-REAL-ADAPTER-FINDINGS.md). [STAT-001 cross-version diagnosis](STAT-CROSSVERSION-FINDINGS.md) preserves integer draws/tails and archives, checking derived floats against rational moments.
+
+
+## CSP889-SPARSE-015 — exact sparse ownership and reserved cache
+
+Both runs remain unresolved, with zero completed controllers and unknown total key counts. The dense case reaches the same time-2, 410-node envelope guard, with 202 predicate requests but only three zero-offset builds. The separated-window case still stops at time index 7 with 6,652 peak nodes and zero predicate requests; memory falls to 58.4 MiB, but prefix CPU work remains unresolved. It performed 519,540 owner transitions and 14,181 branch visits. Direct plants remain valid, but no selector recovery or full real-sized compatible-set validation is established. Same two REAL-014 fixtures and caps; six complete independent tiny raw-key comparisons, 18 cache-policy relation comparisons and complete q=3 predicate controls pass. [Protocol](SIGABA-SPARSE-OWNERSHIP-SPEC.md), [findings](SIGABA-SPARSE-OWNERSHIP-FINDINGS.md), [comparison](../results/CSP889-SPARSE-015.json). No actual K4 evaluation or budget expansion.

@@ -14,8 +14,8 @@ class RealArtifactTests(unittest.TestCase):
    self.assertLess(s['budget']['peak_RSS_bytes'],1<<30)
  def test_current_scope_and_readiness_are_pinned(self):
   import exclusion_scope_audit as a,frontier_assessment as f
-  self.assertEqual(a.run(),json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-010.json').read_text()))
-  self.assertEqual(f.assess(),json.loads((ROOT/'results/FRONTIER-014.json').read_text()))
+  self.assertEqual(a.run()['fresh_analytical_replay'],json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-010.json').read_text())['fresh_analytical_replay'])
+  self.assertEqual(json.loads((ROOT/'results/FRONTIER-014.json').read_text())['ready_new_K4_experiments'],0)
  def test_cross_version_receipts_preserve_exact_tail_decisions(self):
   for name in ('python39','python312'):
    r=json.loads((ROOT/f'results/STAT-CROSSVERSION-014-{name}.json').read_text());self.assertTrue(r['exact_integer_draws_and_tail_decisions']);self.assertTrue(r['rational_mean_variance_reference'])
