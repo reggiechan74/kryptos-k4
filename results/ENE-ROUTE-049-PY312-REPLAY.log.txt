@@ -1,0 +1,19 @@
+{"id": "ENE-ROUTE-049", "raw_routes": 56454, "unique_routes": 34569, "operators": 656811, "max_crib": 8, "hits": 0, "null_maxima": [7, 7, 8, 8, 7, 8, 7, 8, 8, 8, 7, 8, 7, 7, 8, 8, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 7, 7, 8, 7, 8], "controls": {"raw_route_descriptions": 56454, "by_geometry": {"literal_no_wrap": 18818, "literal_torus": 18818, "digital_ene_no_wrap": 18818}, "complete_independent_coordinate_route_checks": 28227, "both_inverse_directions_checked": true, "finite_blank_orbits_asserted": true, "all_width_inverse_arithmetic_plants": 11058, "all_starts_covered_by_bijection_controls": true}}
+       14.10 real        14.03 user         0.05 sys
+           132644864  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               10097  page reclaims
+                  36  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  19  voluntary context switches
+                2135  involuntary context switches
+        467876511277  instructions retired
+         64595539319  cycles elapsed
+           112411200  peak memory footprint

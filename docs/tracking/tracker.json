@@ -290,7 +290,7 @@
       "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
       "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[Original baseline necessary constraints](STRUCTURAL-FINDINGS.md), [final bounded periodic edit sensitivity](ONE-EDIT-028-FINDINGS.md), [all masks/keys/failed forecasts](../results/one-edit-028/README.md). [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error."
+      "Results": "[Original baseline necessary constraints](STRUCTURAL-FINDINGS.md), [final bounded periodic edit sensitivity](ONE-EDIT-028-FINDINGS.md), [all masks/keys/failed forecasts](../results/one-edit-028/README.md). [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error. [048 fixed-source preflight](CANDIDATE-FIRST-048-FINDINGS.md) retains42free-key cases across all constructors but no exact source key; [050 fixed-key depth-three grammar](HAND-GRAMMAR-050-FINDINGS.md) remains a narrow additional finite model."
     },
     {
       "id": "H-LANGUAGE",
@@ -314,7 +314,7 @@
       "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
       "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](BOUNDED-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[retained evidence and finite coverage](BOUNDED-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [049 literal/digital ENE routes](ENE-ROUTE-049-FINDINGS.md) and [050 fixed-key grammar](HAND-GRAMMAR-050-FINDINGS.md) complete their frozen domains without full crib survivors, retaining all inverse/alias coverage and null controls."
     },
     {
       "id": "H-RUNKEY",
@@ -422,7 +422,7 @@
       "Missing inputs": "Independent origin/endpoint/rule, historic geometry and source rationale.",
       "Next discriminating test": "Use the completed source report and an independent extraction rule; do not repeat axis counts or select a landmark from the scored map.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](LANDMARK-AXIS-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[retained evidence and finite coverage](LANDMARK-AXIS-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [049 finite2:1 versus22.5degree digital-route test](ENE-ROUTE-049-FINDINGS.md) is complete for its fixed keys/edge rules; it establishes no physical heading or general route-key exclusion."
     },
     {
       "id": "H-ENIGMA-DIRECT",
@@ -506,7 +506,7 @@
       "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
       "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](AUTOKEY-CONSTRAINT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error."
+      "Results": "[retained evidence and finite coverage](AUTOKEY-CONSTRAINT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error. [048 exact source-passage primer test](CANDIDATE-FIRST-048-FINDINGS.md) includes all three equations/two alphabets and lengths1–32, with zeroadmissible source keys; unrestricted primers remain distinct."
     },
     {
       "id": "H-GROMARK-ONE",
@@ -746,7 +746,7 @@
       "Missing inputs": "Independent source-selected codebook, outer cipher/key family, tokenization and extraction selector; actual decrypted cover to validate instead of choosing its unknown letters from a phrase bank.",
       "Next discriminating test": "Freeze those choices independently, recover a complete cover from ciphertext, replay all 97 letters and assess extracted output with whole-pipeline controls excluding forced clue material.",
       "Dependencies": "Canonical English positions22..34 and64..74 remain unchanged; output word spaces are separate, ENE/EN segmentation explicit, global word phase continuous, selected short words fail rather than skip.",
-      "Results": "[Length-free ordinary-prose/cipher-facing study](PROSE-COVER-035-FINDINGS.md), [Core findings](COVER-EXTRACTION-033-FINDINGS.md), [short-phrase study](COVER-PHRASE-034-FINDINGS.md), [sources](COVER-033-034-SOURCES.md), [core receipt](../results/COVER-EXTRACTION-033-ORIGINAL.json), [corpus receipt](../results/COVER-PHRASE-034-original-summary.json). General family remains non-identifiable, with no recovered key or plaintext. [Seven-family matrix](SEVEN-FAMILY-REVIEW-046.md), [boundary-free038](COVER-SELECTOR-038-FINDINGS.md), [non-veto language045](COVER-LANGUAGE-045-FINDINGS.md)."
+      "Results": "[Length-free ordinary-prose/cipher-facing study](PROSE-COVER-035-FINDINGS.md), [Core findings](COVER-EXTRACTION-033-FINDINGS.md), [short-phrase study](COVER-PHRASE-034-FINDINGS.md), [sources](COVER-033-034-SOURCES.md), [core receipt](../results/COVER-EXTRACTION-033-ORIGINAL.json), [corpus receipt](../results/COVER-PHRASE-034-original-summary.json). General family remains non-identifiable, with no recovered key or plaintext. [Seven-family matrix](SEVEN-FAMILY-REVIEW-046.md), [boundary-free038](COVER-SELECTOR-038-FINDINGS.md), [non-veto language045](COVER-LANGUAGE-045-FINDINGS.md). [048 source-admissible candidate-first preflight](CANDIDATE-FIRST-048-FINDINGS.md) finds no first-stage inputs in its fixed582description/Brown domain; no generated bank or hidden-extraction rejection is claimed."
     },
     {
       "id": "H-CYLINDRICAL-MIRROR-SAMPLER",
@@ -4480,9 +4480,229 @@
         "results/PHOTO-NATIVE-047-VALIDATION.json"
       ],
       "original_entry": "- Date: 2026-10-24 UTC. Frozen protocol saved at `2026-10-24T19:17:13.787510+00:00`; native inspection finished at `2026-10-24T19:19:56.054606+00:00`. Validation/replay times are separate.\n- Scope: one verified 3384 × 4283 LOC exposure, initial 800 × 800 ROI plus eight native crops; ten rejected bright-feature boxes. Zero certified material-point pairs, no geometric fit and no K4 evaluation. This is bounded manual failure to establish identities, not proof the photo can never yield them.\n- [Findings](PHOTO-NATIVE-047-FINDINGS.md); [frozen protocol](PHOTO-NATIVE-047-SPEC.md); [native crops/transforms/annotations](evidence/2026-10-24-native-loc/README.md); [exact crop check](../results/PHOTO-NATIVE-047-CROP-CHECK.json); [validation](../results/PHOTO-NATIVE-047-VALIDATION.json). Local only."
+    },
+    {
+      "record_id": "LOG-17280EC9B8",
+      "experiment_ids": [
+        "CANDIDATE-FIRST-048"
+      ],
+      "title": "CANDIDATE-FIRST-048 — exact source-key preflight before message generation",
+      "categories": [
+        "analytical constraints",
+        "synthetic validation"
+      ],
+      "outcome": "582models;42free-key survivors, zeroBrown source-key/97letter plaintext matches; conditional bank omitted",
+      "classification_basis": "Explicit review of audited frozen finite model, complete original/replay receipts, positive/reference controls, whole-family nulls and unexcluded scope; not title-derived.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-24 UTC. Original calculation started `2026-10-24T19:40:49.963515+00:00`, finished `2026-10-24T19:40:52.486912+00:00`. Replay and regression timings are separate.",
+      "date_only": {
+        "date": "2026-10-24",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/CANDIDATE-FIRST-048-ORIGINAL.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:40:49.963515Z",
+          "original": "2026-10-24T19:40:49.963515+00:00"
+        },
+        {
+          "receipt": "results/CANDIDATE-FIRST-048-ORIGINAL.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:40:52.486912Z",
+          "original": "2026-10-24T19:40:52.486912+00:00"
+        },
+        {
+          "receipt": "results/CANDIDATE-FIRST-048-REPLAY.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:51:27.981620Z",
+          "original": "2026-10-24T19:51:27.981620+00:00"
+        },
+        {
+          "receipt": "results/CANDIDATE-FIRST-048-REPLAY.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:51:30.294733Z",
+          "original": "2026-10-24T19:51:30.294733+00:00"
+        }
+      ],
+      "links": [
+        "research/048-050-PRIOR-COVERAGE.md",
+        "research/CANDIDATE-FIRST-048-FINDINGS.md",
+        "research/CANDIDATE-FIRST-048-SPEC.md",
+        "results/048-050-REPLAY-VALIDATION.json",
+        "results/CANDIDATE-FIRST-048-ORIGINAL.json",
+        "results/CANDIDATE-FIRST-048-REPLAY.json"
+      ],
+      "receipt_paths": [
+        "results/048-050-REPLAY-VALIDATION.json",
+        "results/CANDIDATE-FIRST-048-ORIGINAL.json",
+        "results/CANDIDATE-FIRST-048-REPLAY.json"
+      ],
+      "original_entry": "- Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:40:49.963515+00:00`, finished `2026-10-24T19:40:52.486912+00:00`. Replay and regression timings are separate.\n- Result/scope: 582 models;42 free-key survivors, zeroBrown source-key/97 letter plaintext matches; conditional bank omitted. No global family exclusion.\n- [Findings](CANDIDATE-FIRST-048-FINDINGS.md); [frozen protocol](CANDIDATE-FIRST-048-SPEC.md); [original receipt](../results/CANDIDATE-FIRST-048-ORIGINAL.json); [full Python 3.12 replay](../results/CANDIDATE-FIRST-048-REPLAY.json); [shared replay/resource verification](../results/048-050-REPLAY-VALIDATION.json); [prior coverage](048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push."
+    },
+    {
+      "record_id": "LOG-9F394BCB00",
+      "experiment_ids": [
+        "ENE-ROUTE-049"
+      ],
+      "title": "ENE-ROUTE-049 — literal and digital ENE with fixed arithmetic",
+      "categories": [
+        "finite K4 model tests",
+        "synthetic validation"
+      ],
+      "outcome": "56,454descriptions/34,569routes/656,811fixed cases; zero24letter hits; actual/null maxima8versus7–8",
+      "classification_basis": "Explicit review of audited frozen finite model, complete original/replay receipts, positive/reference controls, whole-family nulls and unexcluded scope; not title-derived.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-24 UTC. Original calculation started `2026-10-24T19:45:19.185573+00:00`, finished `2026-10-24T19:45:36.969399+00:00`. Replay and regression timings are separate.",
+      "date_only": {
+        "date": "2026-10-24",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/ENE-ROUTE-049-ORIGINAL.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:45:19.185573Z",
+          "original": "2026-10-24T19:45:19.185573+00:00"
+        },
+        {
+          "receipt": "results/ENE-ROUTE-049-ORIGINAL.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:45:36.969399Z",
+          "original": "2026-10-24T19:45:36.969399+00:00"
+        },
+        {
+          "receipt": "results/ENE-ROUTE-049-REPLAY.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:51:30.356028Z",
+          "original": "2026-10-24T19:51:30.356028+00:00"
+        },
+        {
+          "receipt": "results/ENE-ROUTE-049-REPLAY.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:51:44.413999Z",
+          "original": "2026-10-24T19:51:44.413999+00:00"
+        }
+      ],
+      "links": [
+        "research/048-050-PRIOR-COVERAGE.md",
+        "research/ENE-ROUTE-049-FINDINGS.md",
+        "research/ENE-ROUTE-049-SPEC.md",
+        "results/048-050-REPLAY-VALIDATION.json",
+        "results/ENE-ROUTE-049-ORIGINAL.json",
+        "results/ENE-ROUTE-049-REPLAY.json"
+      ],
+      "receipt_paths": [
+        "results/048-050-REPLAY-VALIDATION.json",
+        "results/ENE-ROUTE-049-ORIGINAL.json",
+        "results/ENE-ROUTE-049-REPLAY.json"
+      ],
+      "original_entry": "- Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:45:19.185573+00:00`, finished `2026-10-24T19:45:36.969399+00:00`. Replay and regression timings are separate.\n- Result/scope: 56,454 descriptions/34,569 routes/656,811 fixed cases; zero 24 letter hits; actual/null maxima 8 versus 7–8. No global family exclusion.\n- [Findings](ENE-ROUTE-049-FINDINGS.md); [frozen protocol](ENE-ROUTE-049-SPEC.md); [original receipt](../results/ENE-ROUTE-049-ORIGINAL.json); [full Python 3.12 replay](../results/ENE-ROUTE-049-REPLAY.json); [shared replay/resource verification](../results/048-050-REPLAY-VALIDATION.json); [prior coverage](048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push."
+    },
+    {
+      "record_id": "LOG-A9DC171AB1",
+      "experiment_ids": [
+        "HAND-GRAMMAR-050"
+      ],
+      "title": "HAND-GRAMMAR-050 — complete fixed-key hand-operation grammar",
+      "categories": [
+        "finite K4 model tests",
+        "synthetic validation"
+      ],
+      "outcome": "56,355depth0–3descriptions/27,323operators; no24letter hit; maximum7versus null6–8; keys/widths fixed",
+      "classification_basis": "Explicit review of audited frozen finite model, complete original/replay receipts, positive/reference controls, whole-family nulls and unexcluded scope; not title-derived.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-24 UTC. Original calculation started `2026-10-24T19:49:16.853596+00:00`, finished `2026-10-24T19:49:24.990209+00:00`. Replay and regression timings are separate.",
+      "date_only": {
+        "date": "2026-10-24",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/HAND-GRAMMAR-050-ORIGINAL.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:49:16.853596Z",
+          "original": "2026-10-24T19:49:16.853596+00:00"
+        },
+        {
+          "receipt": "results/HAND-GRAMMAR-050-ORIGINAL.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:49:24.990209Z",
+          "original": "2026-10-24T19:49:24.990209+00:00"
+        },
+        {
+          "receipt": "results/HAND-GRAMMAR-050-REPLAY.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:51:44.463055Z",
+          "original": "2026-10-24T19:51:44.463055+00:00"
+        },
+        {
+          "receipt": "results/HAND-GRAMMAR-050-REPLAY.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:51:51.024770Z",
+          "original": "2026-10-24T19:51:51.024770+00:00"
+        }
+      ],
+      "links": [
+        "research/048-050-PRIOR-COVERAGE.md",
+        "research/HAND-GRAMMAR-050-FINDINGS.md",
+        "research/HAND-GRAMMAR-050-SPEC.md",
+        "results/048-050-REPLAY-VALIDATION.json",
+        "results/HAND-GRAMMAR-050-ORIGINAL.json",
+        "results/HAND-GRAMMAR-050-REPLAY.json"
+      ],
+      "receipt_paths": [
+        "results/048-050-REPLAY-VALIDATION.json",
+        "results/HAND-GRAMMAR-050-ORIGINAL.json",
+        "results/HAND-GRAMMAR-050-REPLAY.json"
+      ],
+      "original_entry": "- Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:49:16.853596+00:00`, finished `2026-10-24T19:49:24.990209+00:00`. Replay and regression timings are separate.\n- Result/scope: 56,355 depth 0–3 descriptions/27,323 operators; no 24 letter hit; maximum 7 versus null 6–8; keys/widths fixed. No global family exclusion.\n- [Findings](HAND-GRAMMAR-050-FINDINGS.md); [frozen protocol](HAND-GRAMMAR-050-SPEC.md); [original receipt](../results/HAND-GRAMMAR-050-ORIGINAL.json); [full Python 3.12 replay](../results/HAND-GRAMMAR-050-REPLAY.json); [shared replay/resource verification](../results/048-050-REPLAY-VALIDATION.json); [prior coverage](048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push."
     }
   ],
   "receipts": [
+    {
+      "path": "results/048-050-FINAL-VALIDATION.json",
+      "labels": [
+        "Full regression verification after audited048–050local studies; not original run timing"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T20:03:12.520653Z",
+          "original": "2026-10-24T20:03:12.520653+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/048-050-REPLAY-VALIDATION.json",
+      "labels": [
+        "Full Python3.12 semantic replays; wall/RSS logs independent of original experimental times"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
     {
       "path": "results/AFFINE-DIGRAPH-CROSSED-001-controls.json",
       "labels": [],
@@ -4630,6 +4850,50 @@
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/CANDIDATE-FIRST-048-ORIGINAL.json",
+      "labels": [
+        "CANDIDATE-FIRST-048"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:40:49.963515Z",
+          "original": "2026-10-24T19:40:49.963515+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:40:52.486912Z",
+          "original": "2026-10-24T19:40:52.486912+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/CANDIDATE-FIRST-048-REPLAY.json",
+      "labels": [
+        "CANDIDATE-FIRST-048"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:51:27.981620Z",
+          "original": "2026-10-24T19:51:27.981620+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:51:30.294733Z",
+          "original": "2026-10-24T19:51:30.294733+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
       "status": null
     },
     {
@@ -5542,6 +5806,50 @@
       "status": null
     },
     {
+      "path": "results/ENE-ROUTE-049-ORIGINAL.json",
+      "labels": [
+        "ENE-ROUTE-049"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:45:19.185573Z",
+          "original": "2026-10-24T19:45:19.185573+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:45:36.969399Z",
+          "original": "2026-10-24T19:45:36.969399+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/ENE-ROUTE-049-REPLAY.json",
+      "labels": [
+        "ENE-ROUTE-049"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:51:30.356028Z",
+          "original": "2026-10-24T19:51:30.356028+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:51:44.413999Z",
+          "original": "2026-10-24T19:51:44.413999+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
       "path": "results/EXCLUSION-SCOPE-AUDIT-001.json",
       "labels": [],
       "timestamps": [],
@@ -6368,6 +6676,66 @@
       ],
       "time_status": "explicit receipt fields",
       "status": "completed"
+    },
+    {
+      "path": "results/HAND-GRAMMAR-050-ORIGINAL.json",
+      "labels": [
+        "FIXED-KEY-HAND-GRAMMAR-050"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:49:16.853596Z",
+          "original": "2026-10-24T19:49:16.853596+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:49:24.990209Z",
+          "original": "2026-10-24T19:49:24.990209+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/HAND-GRAMMAR-050-PREFLIGHT-INITIAL.json",
+      "labels": [
+        "Preserved pre-K4 implementation-control failure"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T19:49:16.718016Z",
+          "original": "2026-10-24T19:49:16.718016+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/HAND-GRAMMAR-050-REPLAY.json",
+      "labels": [
+        "FIXED-KEY-HAND-GRAMMAR-050"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T19:51:44.463055Z",
+          "original": "2026-10-24T19:51:44.463055+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T19:51:51.024770Z",
+          "original": "2026-10-24T19:51:51.024770+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
     },
     {
       "path": "results/HISTORICAL-SIGABA-SCOPE-VALIDATION-001.json",

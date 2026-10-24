@@ -63,9 +63,12 @@ def controls(prim):
      assert f.apply(vector,op,q)==bytes(expected);assert f.apply(f.apply(vector,op,q),f.invert(op,q),q)==bytes(vector);count+=1
  known=json.loads((ROOT/'data/controls.json').read_text());kat=[]
  for name in ('k1','k2_as_inscribed','k2_restored_s'):
-  row=known[name];n=len(row['plaintext']);key=row['key'];op=(bytes(range(n)),1,bytes(f.A.index(key[i%len(key)]) for i in range(n))) if n<256 else None
-  # General-length reference for historical vectors; byte permutation storage is97only.
-  result=''.join(f.A[(f.A.index(x)+f.A.index(key[i%len(key)]))%26] for i,x in enumerate(row['plaintext']));assert result==row['ciphertext'];kat.append(dict(name=name,letters=n,forward_exact=True))
+  row=known[name];key=row['key'];result=[];position=0
+  # Historical literal? passes through without advancing key; K4 itself is97A-Z.
+  for x in row['plaintext']:
+   if x=='?':result.append('?')
+   else:result.append(f.A[(f.A.index(x)+f.A.index(key[position%len(key)]))%26]);position+=1
+  assert ''.join(result)==row['ciphertext'];kat.append(dict(name=name,symbols=len(result),letters=position,question_marks=len(result)-position,forward_exact=True))
  for record in prim:
   d=record['aliases'][0];op=record['op']
   for constant in range(26):

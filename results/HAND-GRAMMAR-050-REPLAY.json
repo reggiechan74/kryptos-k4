@@ -1,0 +1,994 @@
+{
+  "id": "FIXED-KEY-HAND-GRAMMAR-050",
+  "started_at_utc": "2026-10-24T19:51:44.463055+00:00",
+  "finished_at_utc": "2026-10-24T19:51:51.024770+00:00",
+  "complete": true,
+  "controls": {
+    "raw_primitive_descriptions": 38,
+    "unique_primitives": 38,
+    "levels": [
+      {
+        "depth": 0,
+        "raw_descriptions": 1,
+        "distinct_operators_at_depth": 1
+      },
+      {
+        "depth": 1,
+        "raw_descriptions": 38,
+        "distinct_operators_at_depth": 38
+      },
+      {
+        "depth": 2,
+        "raw_descriptions": 1444,
+        "distinct_operators_at_depth": 995
+      },
+      {
+        "depth": 3,
+        "raw_descriptions": 54872,
+        "distinct_operators_at_depth": 27124
+      }
+    ],
+    "all_description_independent_reference_comparisons": 56355,
+    "all_description_inverse_roundtrips": 56355,
+    "complete_small_alphabet_input_composition_checks": 6080,
+    "historical_known_answers": [
+      {
+        "name": "k1",
+        "symbols": 63,
+        "letters": 63,
+        "question_marks": 0,
+        "forward_exact": true
+      },
+      {
+        "name": "k2_as_inscribed",
+        "symbols": 372,
+        "letters": 369,
+        "question_marks": 3,
+        "forward_exact": true
+      },
+      {
+        "name": "k2_restored_s",
+        "symbols": 373,
+        "letters": 370,
+        "question_marks": 3,
+        "forward_exact": true
+      }
+    ],
+    "all_primitive_input_symbol_checks": 988
+  },
+  "primitive_inventory": [
+    [
+      {
+        "kind": "columnar",
+        "key": "KRYPTOS",
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "columnar",
+        "key": "KRYPTOS",
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "columnar",
+        "key": "PALIMPSEST",
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "columnar",
+        "key": "PALIMPSEST",
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "columnar",
+        "key": "ABSCISSA",
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "columnar",
+        "key": "ABSCISSA",
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 2,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 2,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 3,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 3,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 4,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 4,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 5,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 5,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 6,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 6,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 7,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 7,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 8,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 8,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 9,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 9,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 10,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 10,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 11,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 11,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 12,
+        "direction": "direct"
+      }
+    ],
+    [
+      {
+        "kind": "skip",
+        "step": 12,
+        "direction": "inverse"
+      }
+    ],
+    [
+      {
+        "kind": "reversal"
+      }
+    ],
+    [
+      {
+        "kind": "arithmetic",
+        "key": "KRYPTOS",
+        "equation": "plus"
+      }
+    ],
+    [
+      {
+        "kind": "arithmetic",
+        "key": "KRYPTOS",
+        "equation": "minus"
+      }
+    ],
+    [
+      {
+        "kind": "arithmetic",
+        "key": "KRYPTOS",
+        "equation": "beaufort"
+      }
+    ],
+    [
+      {
+        "kind": "arithmetic",
+        "key": "PALIMPSEST",
+        "equation": "plus"
+      }
+    ],
+    [
+      {
+        "kind": "arithmetic",
+        "key": "PALIMPSEST",
+        "equation": "minus"
+      }
+    ],
+    [
+      {
+        "kind": "arithmetic",
+        "key": "PALIMPSEST",
+        "equation": "beaufort"
+      }
+    ],
+    [
+      {
+        "kind": "arithmetic",
+        "key": "ABSCISSA",
+        "equation": "plus"
+      }
+    ],
+    [
+      {
+        "kind": "arithmetic",
+        "key": "ABSCISSA",
+        "equation": "minus"
+      }
+    ],
+    [
+      {
+        "kind": "arithmetic",
+        "key": "ABSCISSA",
+        "equation": "beaufort"
+      }
+    ]
+  ],
+  "unique_operators": 27323,
+  "catalogue_uncompressed_sha256": "bed61d01a91b04b6a48cd9169cc0eee34f0d7c5025c4478bd55f3c1963676388",
+  "prior_overlap": {
+    "previous_route_family_exact_operator_subset": 470,
+    "previous_route_receipt_sha256": "64bf94288500683df4f02c276d8c43374fe0df8915c2fc147a94e095341f27fb",
+    "recent049_fixed_operator_intersection": 89,
+    "recent049_catalogue_sha256": "eaf4e884645ea24d49c239fc401e34bc32d1d6dfd61d0f04420e1ab70e18bc8c",
+    "overlap_not_counted_as_independent_negative": true,
+    "foreign_depth_three_audit": "Author reports substitution/columnar/substitution domains and gaps; no unverified proof/numerical total inherited, no worldwide novelty claim."
+  },
+  "full_selector_plants": [
+    {
+      "word": [],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        0
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        1
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        2
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        3
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        4
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        5
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        6
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        7
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        8
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        9
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        10
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        11
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        12
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        13
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        14
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        15
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        16
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        17
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        18
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        19
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        20
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        21
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        22
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        23
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        24
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        25
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        26
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        27
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        28
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        29
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        30
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        31
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        32
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        33
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        34
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        35
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        36
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        37
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        0,
+        1
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        3,
+        17
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        4,
+        25,
+        37
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "word": [
+        36,
+        9,
+        2
+      ],
+      "full_selector_true_plaintext_recovered": true,
+      "exact_operator_hits": 1,
+      "distinct_plaintexts": 1
+    }
+  ],
+  "actual": {
+    "complete": true,
+    "operators_evaluated": 27323,
+    "max_crib_matches": 7,
+    "exact_operator_hits": 0,
+    "distinct_compatible_plaintexts": 0,
+    "hits": []
+  },
+  "nulls": [
+    {
+      "index": 0,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 1,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 2,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 3,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 4,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 8,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 5,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 6,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 8,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 7,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 8,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 9,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 10,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 11,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 12,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 13,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 14,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 15,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 16,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 17,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 18,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 19,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 20,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 21,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 22,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 23,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 24,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 25,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 26,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 8,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 27,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 28,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 29,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 7,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    },
+    {
+      "index": 30,
+      "complete": true,
+      "operators_evaluated": 27323,
+      "max_crib_matches": 6,
+      "exact_operator_hits": 0,
+      "distinct_compatible_plaintexts": 0,
+      "hits": null
+    }
+  ],
+  "null_seed": 50001,
+  "columnar_widths": [
+    7,
+    10,
+    8
+  ],
+  "literal_keys": [
+    "KRYPTOS",
+    "PALIMPSEST",
+    "ABSCISSA"
+  ],
+  "unrestricted_keys_tested": false,
+  "other_hand_ciphers_excluded": false,
+  "pushed": false,
+  "source_sha256": {
+    "research/HAND-GRAMMAR-050-SPEC.md": "68ca6ee76444f326e1d9f9d5910e502ecf72c1d7221e4046875aabe4ba6661af",
+    "experiments/hand_grammar_050.py": "984ed6e4edc733cd2f1de9e19ccc1ad20a253a852c80ff0c24a9fddc34879031",
+    "experiments/finite_hand_operators.py": "a2147d9e642dac5697af5009f7d5a85cffc54b3eb19d0ace718c2127a3f214aa",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}

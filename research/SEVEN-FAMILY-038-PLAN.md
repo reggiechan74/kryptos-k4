@@ -22,4 +22,8 @@ The approved032–037publication is now verified at043924dwith original history 
 
 ## User-directed follow-through queue after the native photo attempt
 
-The [047 native photo attempt](PHOTO-NATIVE-047-FINDINGS.md) is locally completed at57671d8without certified pairs or a fit. Three new finite designs are specified for parent audit, not yet fully run: [048 candidate-first/source-admissible keys](CANDIDATE-FIRST-048-SPEC.md), [049 literal ENE/digital routes](ENE-ROUTE-049-SPEC.md), then [050 finite hand-operation grammar](HAND-GRAMMAR-050-SPEC.md). They remain within the existing seven families, with no Site change or publication authorization. Full candidate/route/grammar searches wait for the requested design audit; crib-only and synthetic preflight may proceed afterward.
+The [047 native photo attempt](PHOTO-NATIVE-047-FINDINGS.md) is locally completed at 57671 d 8 without certified pairs or a fit. Three new finite designs are specified for parent audit, not yet fully run: [048 candidate-first/source-admissible keys](CANDIDATE-FIRST-048-SPEC.md), [049 literal ENE/digital routes](ENE-ROUTE-049-SPEC.md), then [050 finite hand-operation grammar](HAND-GRAMMAR-050-SPEC.md). They remain within the existing seven families, with no Site change or publication authorization. Full candidate/route/grammar searches wait for the requested design audit; crib-only and synthetic preflight may proceed afterward.
+
+## Audited 048–050 execution complete
+
+The subsequent parent audit was recorded before execution. All three finite domains now complete with positive/reference controls,31 whole-family nulls each and exact Python 3.12 semantic replays. No source-admissible plaintext survives 048, so its conditional 1,000 message assembly is intentionally omitted. No full crib survivor occurs in 049 or 050. Results and limits are linked from the current coverage matrix; these remain local, and all broader source/key/procedure gaps remain explicit.

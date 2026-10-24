@@ -121,3 +121,5 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Seven-family local review
 
 New local 038–046 receipts preserve exact UTC original/replay times. [Coverage matrix](../research/SEVEN-FAMILY-REVIEW-046.md) maps them to narrow results and open gates; 044 profiles are counterfactual minimum sets, 045 maxima are not confirmed decryptions, and 046 controls are late supplements.
+
+048–050original and replay receipts distinguish models, aliases, source occurrences and full plaintexts. Complete compressed route/operator catalogues preserve coverage; replay logs record wall/RSS separately. Empty048preflight means no message bank was generated. See [findings and prior scope](../research/048-050-PRIOR-COVERAGE.md).

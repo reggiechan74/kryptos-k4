@@ -2050,3 +2050,51 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - [Findings](../../research/PHOTO-NATIVE-047-FINDINGS.md); [frozen protocol](../../research/PHOTO-NATIVE-047-SPEC.md); [native crops/transforms/annotations](../../research/evidence/2026-10-24-native-loc/README.md); [exact crop check](../../results/PHOTO-NATIVE-047-CROP-CHECK.json); [validation](../../results/PHOTO-NATIVE-047-VALIDATION.json). Local only.
 
 Related files: [research/PHOTO-NATIVE-047-FINDINGS.md](../../research/PHOTO-NATIVE-047-FINDINGS.md), [research/PHOTO-NATIVE-047-SPEC.md](../../research/PHOTO-NATIVE-047-SPEC.md), [research/evidence/2026-10-24-native-loc/README.md](../../research/evidence/2026-10-24-native-loc/README.md), [results/PHOTO-NATIVE-047-CROP-CHECK.json](../../results/PHOTO-NATIVE-047-CROP-CHECK.json), [results/PHOTO-NATIVE-047-VALIDATION.json](../../results/PHOTO-NATIVE-047-VALIDATION.json).
+
+## LOG-17280EC9B8
+
+**CANDIDATE-FIRST-048 — exact source-key preflight before message generation**
+
+start: 2026-10-24T19:40:49.963515Z; end: 2026-10-24T19:40:52.486912Z; start: 2026-10-24T19:51:27.981620Z; end: 2026-10-24T19:51:30.294733Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC. Original calculation started `2026-10-24T19:40:49.963515+00:00`, finished `2026-10-24T19:40:52.486912+00:00`. Replay and regression timings are separate.
+
+Type: analytical constraints; synthetic validation. Outcome: 582models;42free-key survivors, zeroBrown source-key/97letter plaintext matches; conditional bank omitted
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:40:49.963515+00:00`, finished `2026-10-24T19:40:52.486912+00:00`. Replay and regression timings are separate.
+- Result/scope: 582 models;42 free-key survivors, zeroBrown source-key/97 letter plaintext matches; conditional bank omitted. No global family exclusion.
+- [Findings](../../research/CANDIDATE-FIRST-048-FINDINGS.md); [frozen protocol](../../research/CANDIDATE-FIRST-048-SPEC.md); [original receipt](../../results/CANDIDATE-FIRST-048-ORIGINAL.json); [full Python 3.12 replay](../../results/CANDIDATE-FIRST-048-REPLAY.json); [shared replay/resource verification](../../results/048-050-REPLAY-VALIDATION.json); [prior coverage](../../research/048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push.
+
+Related files: [research/048-050-PRIOR-COVERAGE.md](../../research/048-050-PRIOR-COVERAGE.md), [research/CANDIDATE-FIRST-048-FINDINGS.md](../../research/CANDIDATE-FIRST-048-FINDINGS.md), [research/CANDIDATE-FIRST-048-SPEC.md](../../research/CANDIDATE-FIRST-048-SPEC.md), [results/048-050-REPLAY-VALIDATION.json](../../results/048-050-REPLAY-VALIDATION.json), [results/CANDIDATE-FIRST-048-ORIGINAL.json](../../results/CANDIDATE-FIRST-048-ORIGINAL.json), [results/CANDIDATE-FIRST-048-REPLAY.json](../../results/CANDIDATE-FIRST-048-REPLAY.json).
+
+## LOG-9F394BCB00
+
+**ENE-ROUTE-049 — literal and digital ENE with fixed arithmetic**
+
+start: 2026-10-24T19:45:19.185573Z; end: 2026-10-24T19:45:36.969399Z; start: 2026-10-24T19:51:30.356028Z; end: 2026-10-24T19:51:44.413999Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC. Original calculation started `2026-10-24T19:45:19.185573+00:00`, finished `2026-10-24T19:45:36.969399+00:00`. Replay and regression timings are separate.
+
+Type: finite K4 model tests; synthetic validation. Outcome: 56,454descriptions/34,569routes/656,811fixed cases; zero24letter hits; actual/null maxima8versus7–8
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:45:19.185573+00:00`, finished `2026-10-24T19:45:36.969399+00:00`. Replay and regression timings are separate.
+- Result/scope: 56,454 descriptions/34,569 routes/656,811 fixed cases; zero 24 letter hits; actual/null maxima 8 versus 7–8. No global family exclusion.
+- [Findings](../../research/ENE-ROUTE-049-FINDINGS.md); [frozen protocol](../../research/ENE-ROUTE-049-SPEC.md); [original receipt](../../results/ENE-ROUTE-049-ORIGINAL.json); [full Python 3.12 replay](../../results/ENE-ROUTE-049-REPLAY.json); [shared replay/resource verification](../../results/048-050-REPLAY-VALIDATION.json); [prior coverage](../../research/048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push.
+
+Related files: [research/048-050-PRIOR-COVERAGE.md](../../research/048-050-PRIOR-COVERAGE.md), [research/ENE-ROUTE-049-FINDINGS.md](../../research/ENE-ROUTE-049-FINDINGS.md), [research/ENE-ROUTE-049-SPEC.md](../../research/ENE-ROUTE-049-SPEC.md), [results/048-050-REPLAY-VALIDATION.json](../../results/048-050-REPLAY-VALIDATION.json), [results/ENE-ROUTE-049-ORIGINAL.json](../../results/ENE-ROUTE-049-ORIGINAL.json), [results/ENE-ROUTE-049-REPLAY.json](../../results/ENE-ROUTE-049-REPLAY.json).
+
+## LOG-A9DC171AB1
+
+**HAND-GRAMMAR-050 — complete fixed-key hand-operation grammar**
+
+start: 2026-10-24T19:49:16.853596Z; end: 2026-10-24T19:49:24.990209Z; start: 2026-10-24T19:51:44.463055Z; end: 2026-10-24T19:51:51.024770Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC. Original calculation started `2026-10-24T19:49:16.853596+00:00`, finished `2026-10-24T19:49:24.990209+00:00`. Replay and regression timings are separate.
+
+Type: finite K4 model tests; synthetic validation. Outcome: 56,355depth0–3descriptions/27,323operators; no24letter hit; maximum7versus null6–8; keys/widths fixed
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:49:16.853596+00:00`, finished `2026-10-24T19:49:24.990209+00:00`. Replay and regression timings are separate.
+- Result/scope: 56,355 depth 0–3 descriptions/27,323 operators; no 24 letter hit; maximum 7 versus null 6–8; keys/widths fixed. No global family exclusion.
+- [Findings](../../research/HAND-GRAMMAR-050-FINDINGS.md); [frozen protocol](../../research/HAND-GRAMMAR-050-SPEC.md); [original receipt](../../results/HAND-GRAMMAR-050-ORIGINAL.json); [full Python 3.12 replay](../../results/HAND-GRAMMAR-050-REPLAY.json); [shared replay/resource verification](../../results/048-050-REPLAY-VALIDATION.json); [prior coverage](../../research/048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push.
+
+Related files: [research/048-050-PRIOR-COVERAGE.md](../../research/048-050-PRIOR-COVERAGE.md), [research/HAND-GRAMMAR-050-FINDINGS.md](../../research/HAND-GRAMMAR-050-FINDINGS.md), [research/HAND-GRAMMAR-050-SPEC.md](../../research/HAND-GRAMMAR-050-SPEC.md), [results/048-050-REPLAY-VALIDATION.json](../../results/048-050-REPLAY-VALIDATION.json), [results/HAND-GRAMMAR-050-ORIGINAL.json](../../results/HAND-GRAMMAR-050-ORIGINAL.json), [results/HAND-GRAMMAR-050-REPLAY.json](../../results/HAND-GRAMMAR-050-REPLAY.json).

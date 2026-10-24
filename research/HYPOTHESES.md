@@ -375,7 +375,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [Original baseline necessary constraints](STRUCTURAL-FINDINGS.md), [final bounded periodic edit sensitivity](ONE-EDIT-028-FINDINGS.md), [all masks/keys/failed forecasts](../results/one-edit-028/README.md). [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error.
+- Results: [Original baseline necessary constraints](STRUCTURAL-FINDINGS.md), [final bounded periodic edit sensitivity](ONE-EDIT-028-FINDINGS.md), [all masks/keys/failed forecasts](../results/one-edit-028/README.md). [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error. [048 fixed-source preflight](CANDIDATE-FIRST-048-FINDINGS.md) retains42free-key cases across all constructors but no exact source key; [050 fixed-key depth-three grammar](HAND-GRAMMAR-050-FINDINGS.md) remains a narrow additional finite model.
 
 ### H-LANGUAGE
 
@@ -399,7 +399,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](BOUNDED-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [retained evidence and finite coverage](BOUNDED-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [049 literal/digital ENE routes](ENE-ROUTE-049-FINDINGS.md) and [050 fixed-key grammar](HAND-GRAMMAR-050-FINDINGS.md) complete their frozen domains without full crib survivors, retaining all inverse/alias coverage and null controls.
 
 ### H-RUNKEY
 
@@ -507,7 +507,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Missing inputs: Independent origin/endpoint/rule, historic geometry and source rationale.
 - Next discriminating test: Use the completed source report and an independent extraction rule; do not repeat axis counts or select a landmark from the scored map.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](LANDMARK-AXIS-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [retained evidence and finite coverage](LANDMARK-AXIS-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [049 finite2:1 versus22.5degree digital-route test](ENE-ROUTE-049-FINDINGS.md) is complete for its fixed keys/edge rules; it establishes no physical heading or general route-key exclusion.
 
 ### H-ENIGMA-DIRECT
 
@@ -591,7 +591,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](AUTOKEY-CONSTRAINT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error.
+- Results: [retained evidence and finite coverage](AUTOKEY-CONSTRAINT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error. [048 exact source-passage primer test](CANDIDATE-FIRST-048-FINDINGS.md) includes all three equations/two alphabets and lengths1–32, with zeroadmissible source keys; unrestricted primers remain distinct.
 
 ### H-GROMARK-ONE
 
@@ -831,7 +831,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Missing inputs: Independent source-selected codebook, outer cipher/key family, tokenization and extraction selector; actual decrypted cover to validate instead of choosing its unknown letters from a phrase bank.
 - Next discriminating test: Freeze those choices independently, recover a complete cover from ciphertext, replay all 97 letters and assess extracted output with whole-pipeline controls excluding forced clue material.
 - Dependencies: Canonical English positions22..34 and64..74 remain unchanged; output word spaces are separate, ENE/EN segmentation explicit, global word phase continuous, selected short words fail rather than skip.
-- Results: [Length-free ordinary-prose/cipher-facing study](PROSE-COVER-035-FINDINGS.md), [Core findings](COVER-EXTRACTION-033-FINDINGS.md), [short-phrase study](COVER-PHRASE-034-FINDINGS.md), [sources](COVER-033-034-SOURCES.md), [core receipt](../results/COVER-EXTRACTION-033-ORIGINAL.json), [corpus receipt](../results/COVER-PHRASE-034-original-summary.json). General family remains non-identifiable, with no recovered key or plaintext. [Seven-family matrix](SEVEN-FAMILY-REVIEW-046.md), [boundary-free038](COVER-SELECTOR-038-FINDINGS.md), [non-veto language045](COVER-LANGUAGE-045-FINDINGS.md).
+- Results: [Length-free ordinary-prose/cipher-facing study](PROSE-COVER-035-FINDINGS.md), [Core findings](COVER-EXTRACTION-033-FINDINGS.md), [short-phrase study](COVER-PHRASE-034-FINDINGS.md), [sources](COVER-033-034-SOURCES.md), [core receipt](../results/COVER-EXTRACTION-033-ORIGINAL.json), [corpus receipt](../results/COVER-PHRASE-034-original-summary.json). General family remains non-identifiable, with no recovered key or plaintext. [Seven-family matrix](SEVEN-FAMILY-REVIEW-046.md), [boundary-free038](COVER-SELECTOR-038-FINDINGS.md), [non-veto language045](COVER-LANGUAGE-045-FINDINGS.md). [048 source-admissible candidate-first preflight](CANDIDATE-FIRST-048-FINDINGS.md) finds no first-stage inputs in its fixed582description/Brown domain; no generated bank or hidden-extraction rejection is claimed.
 
 ### H-CYLINDRICAL-MIRROR-SAMPLER
 

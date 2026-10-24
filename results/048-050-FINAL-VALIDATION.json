@@ -1,0 +1,34 @@
+{
+  "kind": "Full regression verification after audited048\u2013050local studies; not original run timing",
+  "runs": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T19:58:09.808831+00:00",
+      "finished_at_utc": "2026-10-24T19:59:27.048945+00:00",
+      "returncode": 0,
+      "tests": 718,
+      "seconds": 76.954,
+      "log": "results/048-050-python39-regression.log.txt",
+      "sha256": "3bbc30cab74d60346e9b2a0075e465d19322a21639fe8ec953f116e1ffc49140"
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T19:59:27.049041+00:00",
+      "finished_at_utc": "2026-10-24T20:00:29.641705+00:00",
+      "returncode": 0,
+      "tests": 718,
+      "seconds": 62.274,
+      "log": "results/048-050-python312-regression.log.txt",
+      "sha256": "cf7fd7cea1caebf6930a1a8ca3ab2a864263608387456b84637fba5535a2d04c"
+    }
+  ],
+  "all_passed": true,
+  "new_results_local_only": true,
+  "prior_full_and_partial_logs_retained": true,
+  "recorded_at_utc": "2026-10-24T20:03:12.520653+00:00",
+  "full_semantic_replay_receipt": "results/048-050-REPLAY-VALIDATION.json",
+  "canonical_ciphertext_unchanged": true,
+  "Site_and_maps_unchanged": true,
+  "no_paid_or_external_candidate_validation": true,
+  "source_bank_generated_messages": 0
+}

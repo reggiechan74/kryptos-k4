@@ -199,3 +199,5 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Seven-family local review
 
 Local review 038–046 adds cover_selector_038, context_spelling_039, physical_identifiability_040, sigaba_support_signature_041, clock_civil_042, compress_transport_043, minimum_repair_044, cover_language_045 and late reviewer controls. Follow their linked frozen specs in the [coverage matrix](../research/SEVEN-FAMILY-REVIEW-046.md); scripts have different roles and are not an interchangeable search launcher.
+
+Audited local048–050scripts run exact source-key preflight, three ENE route conventions and a fixed-key depth-three grammar. Follow each frozen protocol; keys, widths and source sets are not free. See [findings and prior scope](../research/048-050-PRIOR-COVERAGE.md).

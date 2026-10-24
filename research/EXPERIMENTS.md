@@ -1210,3 +1210,21 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Date: 2026-10-24 UTC. Frozen protocol saved at `2026-10-24T19:17:13.787510+00:00`; native inspection finished at `2026-10-24T19:19:56.054606+00:00`. Validation/replay times are separate.
 - Scope: one verified 3384 × 4283 LOC exposure, initial 800 × 800 ROI plus eight native crops; ten rejected bright-feature boxes. Zero certified material-point pairs, no geometric fit and no K4 evaluation. This is bounded manual failure to establish identities, not proof the photo can never yield them.
 - [Findings](PHOTO-NATIVE-047-FINDINGS.md); [frozen protocol](PHOTO-NATIVE-047-SPEC.md); [native crops/transforms/annotations](evidence/2026-10-24-native-loc/README.md); [exact crop check](../results/PHOTO-NATIVE-047-CROP-CHECK.json); [validation](../results/PHOTO-NATIVE-047-VALIDATION.json). Local only.
+
+## CANDIDATE-FIRST-048 — exact source-key preflight before message generation
+
+- Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:40:49.963515+00:00`, finished `2026-10-24T19:40:52.486912+00:00`. Replay and regression timings are separate.
+- Result/scope: 582 models;42 free-key survivors, zeroBrown source-key/97 letter plaintext matches; conditional bank omitted. No global family exclusion.
+- [Findings](CANDIDATE-FIRST-048-FINDINGS.md); [frozen protocol](CANDIDATE-FIRST-048-SPEC.md); [original receipt](../results/CANDIDATE-FIRST-048-ORIGINAL.json); [full Python 3.12 replay](../results/CANDIDATE-FIRST-048-REPLAY.json); [shared replay/resource verification](../results/048-050-REPLAY-VALIDATION.json); [prior coverage](048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push.
+
+## ENE-ROUTE-049 — literal and digital ENE with fixed arithmetic
+
+- Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:45:19.185573+00:00`, finished `2026-10-24T19:45:36.969399+00:00`. Replay and regression timings are separate.
+- Result/scope: 56,454 descriptions/34,569 routes/656,811 fixed cases; zero 24 letter hits; actual/null maxima 8 versus 7–8. No global family exclusion.
+- [Findings](ENE-ROUTE-049-FINDINGS.md); [frozen protocol](ENE-ROUTE-049-SPEC.md); [original receipt](../results/ENE-ROUTE-049-ORIGINAL.json); [full Python 3.12 replay](../results/ENE-ROUTE-049-REPLAY.json); [shared replay/resource verification](../results/048-050-REPLAY-VALIDATION.json); [prior coverage](048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push.
+
+## HAND-GRAMMAR-050 — complete fixed-key hand-operation grammar
+
+- Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:49:16.853596+00:00`, finished `2026-10-24T19:49:24.990209+00:00`. Replay and regression timings are separate.
+- Result/scope: 56,355 depth 0–3 descriptions/27,323 operators; no 24 letter hit; maximum 7 versus null 6–8; keys/widths fixed. No global family exclusion.
+- [Findings](HAND-GRAMMAR-050-FINDINGS.md); [frozen protocol](HAND-GRAMMAR-050-SPEC.md); [original receipt](../results/HAND-GRAMMAR-050-ORIGINAL.json); [full Python 3.12 replay](../results/HAND-GRAMMAR-050-REPLAY.json); [shared replay/resource verification](../results/048-050-REPLAY-VALIDATION.json); [prior coverage](048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push.

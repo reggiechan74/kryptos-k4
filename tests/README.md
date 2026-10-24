@@ -141,3 +141,7 @@ Historical artifact checks validate the shared `run_io.py` / `run_bounded.py` by
 The seven-family review adds complete tiny-system oracles, all-witness replay and late-control tests. Full SIGABA control scripts run in their own subprocess so a measured per-run RSS cap is not contaminated by earlier tests. [Final scope/matrix](../research/SEVEN-FAMILY-REVIEW-046.md).
 
 Full local review verification at 851f98f: 702 tracked tests passed under both Python 3.9 and Python 3.12. A later wording/cardinality correction adds two tests and passes all 39 affected checks on both versions, without claiming a repeated full suite; [UTC receipt and complete logs](../results/SEVEN-FAMILY-REVIEW-046-VALIDATION.json). This is regression timing, not an original experiment timestamp.
+
+New048–050tests check complete tiny source/key relations, exact route/operator catalogues, inverse/alias closure, packed match counting and full cross-version semantic receipts. See [findings and prior scope](../research/048-050-PRIOR-COVERAGE.md).
+
+Latest local 048–050 integration: **718 tracked tests pass under both Python 3.9 and Python 3.12**, with [separate UTC receipts and complete logs](../results/048-050-FINAL-VALIDATION.json). Earlier 702-test and focused-correction/photo receipts remain unchanged as historical verification.

@@ -64,12 +64,13 @@
       "id": "F1-OUTER",
       "branch": "Historically plausible outer cipher",
       "status": "model_blocked",
-      "coverage": "Complete prior105456lag27 descriptions replay exactly;045reweights the same space, not new key coverage.",
+      "coverage": "Complete prior105456lag27 descriptions replay exactly;045reweights the same space, not new key coverage. 048checks582fixed-source models:42pass free-key crib preflight, zeroadmit a Brown key passage, so no message bank is generated. This does not exclude other source keys.",
       "missing_input": "Independently restricted outer method/key. Full-length free key gives26^73compatible pairs.",
       "next_discriminating_work": "Use a source/invariant to select a restrictive first stage before more phrase generation.",
       "evidence": [
         "research/COVER-SELECTOR-038-FINDINGS.md",
-        "research/COVER-LANGUAGE-045-FINDINGS.md"
+        "research/COVER-LANGUAGE-045-FINDINGS.md",
+        "research/CANDIDATE-FIRST-048-FINDINGS.md"
       ],
       "whole_family_excluded": false
     },
@@ -328,12 +329,13 @@
       "id": "F5-DIRECTION",
       "branch": "Compass, shadow and astronomy navigation",
       "status": "evidence_blocked",
-      "coverage": "Physical item2 conditional ENEsolar reachability/opposite-shadow and ray-height bounds retained; engraved frames are not a survey.",
+      "coverage": "Physical item2 conditional ENEsolar reachability/opposite-shadow and ray-height bounds retained; engraved frames are not a survey. 049 completes 56,454 declared reading-route descriptions and 656,811 fixed-arithmetic cases: no full crib hit; actual/null maxima are 8 versus 7\u20138. Physical heading/key inference remains separate.",
       "missing_input": "True-north/needle/stone/receiver relation, date/time/horizon/source if needed.",
       "next_discriminating_work": "These bounds do not exclude pool lamps/reflections; no geographic sightseeing or guessed angle key follows.",
       "evidence": [
         "research/PHYSICAL-SOLAR-002-FINDINGS.md",
-        "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md"
+        "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
+        "research/ENE-ROUTE-049-FINDINGS.md"
       ],
       "whole_family_excluded": false
     },
@@ -425,12 +427,15 @@
       "id": "F7-CLASSICAL",
       "branch": "Periodic and autokey constructions",
       "status": "scoped_negative",
-      "coverage": "044all1536analytic repair profiles; short1..12 minima11/10/20, long-key zero-repair fits remain underdetermined.",
+      "coverage": "044all1536analytic repair profiles; short1..12 minima11/10/20, long-key zero-repair fits remain underdetermined. 048 checks 582 fixed-source models with no exact Brown key; 049 checks 656,811 fixed route/arithmetic cases; 050 exhausts its fixed-key depth-three grammar, 56,355 descriptions and 27,323 operators, with no full crib survivor. Other keys, sources, widths and layers remain outside scope.",
       "missing_input": "Independent method/key restriction before another larger-key search.",
       "next_discriminating_work": "Minimum distance is not evidence of an error or English text; preserve complete original no-error audit.",
       "evidence": [
         "research/AUTOKEY-CONSTRAINT-FINDINGS.md",
-        "research/MINIMUM-REPAIR-044-FINDINGS.md"
+        "research/MINIMUM-REPAIR-044-FINDINGS.md",
+        "research/CANDIDATE-FIRST-048-FINDINGS.md",
+        "research/ENE-ROUTE-049-FINDINGS.md",
+        "research/HAND-GRAMMAR-050-FINDINGS.md"
       ],
       "whole_family_excluded": false
     },
@@ -510,5 +515,17 @@
     "fit_performed": false,
     "manual_attempt_complete": true,
     "all_possible_photo_assignments_exhausted": false
+  },
+  "post_review_finite_follow_through": {
+    "recorded_at_utc": "2026-10-24T19:56:53.295074+00:00",
+    "studies": [
+      "CANDIDATE-FIRST-048",
+      "ENE-ROUTE-049",
+      "FIXED-KEY-HAND-GRAMMAR-050"
+    ],
+    "all_declared_domains_complete": true,
+    "candidate_messages_generated": 0,
+    "all_three_python312_semantic_replays_equal": true,
+    "other_keys_procedures_sources_unexcluded": true
   }
 }

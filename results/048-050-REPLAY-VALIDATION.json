@@ -1,0 +1,61 @@
+{
+  "kind": "Full Python3.12 semantic replays; wall/RSS logs independent of original experimental times",
+  "runs": [
+    {
+      "id": "CANDIDATE-FIRST-048",
+      "started_at_utc": "2026-10-24T19:51:27.909902+00:00",
+      "finished_at_utc": "2026-10-24T19:51:30.324789+00:00",
+      "argv": [
+        "/usr/bin/time",
+        "-l",
+        "/usr/local/bin/python3.12",
+        "experiments/candidate_first_048.py",
+        "--brown",
+        "/tmp/k4-brown-033.zip",
+        "--output",
+        "results/CANDIDATE-FIRST-048-REPLAY.json"
+      ],
+      "returncode": 0,
+      "semantic_receipts_equal": true,
+      "log": "results/CANDIDATE-FIRST-048-PY312-REPLAY.log.txt",
+      "sha256": "469fe41a124a8e0765a576c3101762b738cfa474e751d6dd81ae5f1b1ef548f3"
+    },
+    {
+      "id": "ENE-ROUTE-049",
+      "started_at_utc": "2026-10-24T19:51:30.324874+00:00",
+      "finished_at_utc": "2026-10-24T19:51:44.437609+00:00",
+      "argv": [
+        "/usr/bin/time",
+        "-l",
+        "/usr/local/bin/python3.12",
+        "experiments/ene_route_049.py",
+        "--output",
+        "results/ENE-ROUTE-049-REPLAY.json"
+      ],
+      "returncode": 0,
+      "semantic_receipts_equal": true,
+      "log": "results/ENE-ROUTE-049-PY312-REPLAY.log.txt",
+      "sha256": "348c0b6de0c67c5b23fc0321514a31ed01192963268d55ef6f53b2d048496f3d"
+    },
+    {
+      "id": "HAND-GRAMMAR-050",
+      "started_at_utc": "2026-10-24T19:51:44.437703+00:00",
+      "finished_at_utc": "2026-10-24T19:51:51.070796+00:00",
+      "argv": [
+        "/usr/bin/time",
+        "-l",
+        "/usr/local/bin/python3.12",
+        "experiments/hand_grammar_050.py",
+        "--output",
+        "results/HAND-GRAMMAR-050-REPLAY.json"
+      ],
+      "returncode": 0,
+      "semantic_receipts_equal": true,
+      "log": "results/HAND-GRAMMAR-050-PY312-REPLAY.log.txt",
+      "sha256": "26a6d81113bc0eb9e4f233e0f85e3466e4264a89ea16087646d634619e32b862"
+    }
+  ],
+  "all_equal": true,
+  "no_external_verifier": true,
+  "pushed": false
+}
