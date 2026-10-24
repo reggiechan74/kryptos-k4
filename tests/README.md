@@ -127,3 +127,7 @@ Historical artifact checks validate the shared `run_io.py` / `run_bounded.py` by
 ## Final item 8 checkpoint
 
 [One-edit core tests](test_one_edit_core.py) cover all tagged maps, complete tiny truth sets and table-based inverses. [Artifact tests](test_one_edit_artifacts.py) verify immutable hashes, full-selector accounting, lossless storage and independent exact union/certificate replay. Large control JSON is streamed rather than fully loaded during regression.
+
+## Projection-concurrence diagnostic
+
+`test_projection_concurrence.py` checks projective fitting, independent scalar arithmetic, uncertainty controls and retained synthetic fixtures. Synthetic validation is not real correspondence certification.

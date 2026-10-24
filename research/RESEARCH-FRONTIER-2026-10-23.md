@@ -1,5 +1,7 @@
 # K4 frontier: what can responsibly happen next
 
+Current physical diagnostic update (24 October 2026): [projection concurrence](PROJECTION-CONCURRENCE-029-FINDINGS.md) now has a runnable preregistration, independent scalar checks and synthetic positive/negative/degenerate fixtures. Zero certified real pairs; no monument fit or K4 search. Current readiness is [snapshot029](../results/FRONTIER-029.json). Historical snapshots below are preserved.
+
 Subsequent engineering update: [a complete coupled toy solver now exists](SIGABA-JOINT-TOY-FINDINGS.md); the real-sized adapter and scaling gate remain unresolved. The original assessment below is preserved as a dated snapshot; current details are in the canonical register, updated gate specification and [new readiness snapshot](../results/FRONTIER-012.json).
 
 Current item 5 update (24 October 2026): [three complete exploratory lamp/Greek constructions](LAMP-GREEK-025-FINDINGS.md) have now been implemented and narrowly rejected. The count-only gap below describes the original dated assessment, not current untested status. Current readiness is in [snapshot 025](../results/FRONTIER-025.json); the complete coupled SIGABA solver remains resource-limited as [item 4](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md) records. No general exhaustion or automatic next search is claimed.

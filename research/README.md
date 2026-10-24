@@ -136,3 +136,7 @@ Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLEC
 ## Final item 8 checkpoint
 
 [Eight-item status summary](EIGHT-ITEM-INVESTIGATION-SUMMARY.md) separates finite negatives, solver limits and evidence gates. [Item 8 findings](ONE-EDIT-028-FINDINGS.md) record complete edit sensitivity without proposing a canonical correction.
+
+## Projection-concurrence diagnostic
+
+[Projection diagnostic](PROJECTION-CONCURRENCE-029-FINDINGS.md): synthetic image-ray/uncertainty controls and a preregistered real correspondence gate; no monument fit.

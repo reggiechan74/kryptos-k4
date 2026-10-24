@@ -1,0 +1,46 @@
+{
+  "kind": "Final projection diagnostic regression; not original synthetic or photographic exposure timing",
+  "recorded_at_utc": "2026-10-24T12:02:53.891823+00:00",
+  "suites": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T12:00:36.905355+00:00",
+      "finished_at_utc": "2026-10-24T12:01:37.863983+00:00",
+      "elapsed_seconds": 60.958129542,
+      "exit_code": 0,
+      "log": "results/PROJECTION-CONCURRENCE-029-python39.log.txt",
+      "sha256": "7e875115ef3d67825b7ed45f0683e3aa196030ae1695e144348c4f5dd5b97cb3",
+      "tests_passed": 587
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T12:01:37.864223+00:00",
+      "finished_at_utc": "2026-10-24T12:02:25.686244+00:00",
+      "elapsed_seconds": 47.821691125,
+      "exit_code": 0,
+      "log": "results/PROJECTION-CONCURRENCE-029-python312.log.txt",
+      "sha256": "092996f7a3bdfa50baf1fd3b7edb3103ae61500c6cd7edba3aca86456ec078c2",
+      "tests_passed": 587
+    }
+  ],
+  "source_sha256": {
+    "experiments/projection_concurrence.py": "90e0ec05860c98fbec9e32d92b31b744c0b4d93bb29b63db0c2941accbbd5f8d",
+    "experiments/projection_concurrence_reference.py": "ed48749d1875c9124f0b11deba10540d9aaf78ea51d2c4b4dfcb1649797cf2be",
+    "experiments/run_projection_concurrence.py": "1f32637a012d1aaa933630fba1ae339dda2b99aaa58ac2d41cbe7631f5df177c",
+    "experiments/projection_local_controls.py": "c81515d521e4ce57b72a6a315f3b24466404cf6c0bb51b168a64f76a3ebbc652",
+    "tests/test_projection_concurrence.py": "0852904f8237ed8e44d1422b54d5e740b4e3d9360a1185fad92907ba99e31d8b"
+  },
+  "focused_projection_tests": 18,
+  "preserved_engineering_receipts": [
+    "results/PROJECTION-CONCURRENCE-029-INITIAL-QA.json",
+    "results/PROJECTION-CONCURRENCE-029-DEGENERACY-QA.json",
+    "results/PROJECTION-CONCURRENCE-029-REGRESSION-INITIAL.json",
+    "results/PROJECTION-CONCURRENCE-029-INVENTORY-RETRY.json"
+  ],
+  "real_certified_pairs": 0,
+  "real_fits": 0,
+  "K4_trials": 0,
+  "canonical_ciphertext_changed": false,
+  "site_changed_by_research_checkout": false,
+  "site_source_handoff_received": false
+}

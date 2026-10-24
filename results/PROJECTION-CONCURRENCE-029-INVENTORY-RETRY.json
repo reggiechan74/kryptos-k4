@@ -1,0 +1,18 @@
+{
+  "kind": "Preserved generated-inventory ordering retry; scientific controls passed",
+  "attempt": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T11:58:31.573710+00:00",
+      "finished_at_utc": "2026-10-24T11:59:32.951974+00:00",
+      "elapsed_seconds": 61.37777025,
+      "exit_code": 1,
+      "log": "/tmp/k4-projection029-python39.log"
+    }
+  ],
+  "tests_run": 587,
+  "failures": 2,
+  "reason": "Scope audit indexes generated navigation Markdown. Navigation regenerated after the audit, leaving two exact audit-equality checks stale.",
+  "fix": "Stage all receipts, generate navigation first, then scope audit last; no scientific source/fixture change",
+  "log": "results/PROJECTION-CONCURRENCE-029-inventory-retry.log.txt"
+}

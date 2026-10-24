@@ -37,6 +37,12 @@ class ProjectionTests(unittest.TestCase):
   pairs=[dict(z,aperture=transform(z['aperture']),receiver=transform(z['receiver'])) for z in f['pairs']];o=p.fit(pairs,1000,800,f['training']);truth=transform([120,-80])
   for a,b in zip(o['source_image_finite'],truth):self.assertAlmostEqual(a,b,places=7)
   for z in pairs:self.assertLess(abs(p.residual(z,o['source_normalized_homogeneous'],1000,800)['signed_miss_px']),1e-7)
+ def test_finite_3d_emitter_can_have_infinite_image(self):
+  source=[120.,-80.,0.];pairs=[]
+  for i in range(12):
+   a=[200.+100*(i%4),100.+100*(i//4),100.+10*i];g=[source[j]+2*(a[j]-source[j]) for j in range(3)]
+   pairs.append(dict(aperture=[a[0]/a[2],a[1]/a[2]],receiver=[g[0]/g[2],g[1]/g[2]],sigma_px=.01))
+  out=p.fit(pairs,10,10,self.f['finite']['training']);h=out['source_image_homogeneous'];self.assertLess(abs(h[2]),1e-12);self.assertAlmostEqual(h[1]/h[0],-2/3)
  def test_coordinate_scale(self):
   f=self.f['finite'];pairs=[dict(z,aperture=[2*x for x in z['aperture']],receiver=[2*x for x in z['receiver']],sigma_px=2*z['sigma_px']) for z in f['pairs']];o=p.fit(pairs,2000,1600,f['training'])
   self.assertAlmostEqual(o['source_image_finite'][0],240);self.assertAlmostEqual(o['source_image_finite'][1],-160)
@@ -72,3 +78,19 @@ class ProjectionArtifacts(unittest.TestCase):
    for name in ('finite','distant_finite','infinity','noisy_finite'):self.assertTrue(d['records'][name][factor]['conditional_line_gate_pass'])
    for name in ('heldout_mutation','mixed_sources','coincident_lines'):self.assertFalse(d['records'][name][factor]['conditional_line_gate_pass'])
    self.assertEqual(d['records']['collapsed'][factor]['status'],'inadmissible_geometry')
+
+class LocalMismatchControls(unittest.TestCase):
+ def test_full_local_panel_and_unchanged_native_hashes(self):
+  import json,hashlib
+  root=Path(__file__).resolve().parents[1];d=json.loads((root/'results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json').read_text());self.assertEqual(len(d['records']),11);self.assertFalse(d['original_thresholds_changed']);self.assertEqual(d['real_pairs'],0);self.assertEqual(d['real_fits'],0)
+  for path,sha in d['source_sha256'].items():self.assertEqual(hashlib.sha256((root/path).read_bytes()).hexdigest(),sha)
+  self.assertLess(d['elapsed_seconds'],60);self.assertLess(d['peak_rss_bytes'],256*1024**2)
+ def test_local_false_compatibility_is_retained(self):
+  import json
+  d=json.loads((Path(__file__).resolve().parents[1]/'results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json').read_text())
+  for row in d['records']:
+   expected=row['kind']=='correlated_all_receivers_translation' or row['offset_px']<=1
+   self.assertEqual(row['result']['conditional_line_gate_pass'],expected)
+   if row['kind']=='nearby_heldout_mismatch':
+    for z in row['result']['residuals']:
+     if z['role']=='heldout':self.assertAlmostEqual(abs(z['signed_miss_px']),row['offset_px'],places=8)

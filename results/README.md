@@ -93,3 +93,7 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Final item 8 checkpoint
 
 [Original one-edit run and maps](one-edit-028/README.md), [lossless preflight](one-edit-028-preflight/README.md), [independent actual/union audit](ONE-EDIT-028-INDEPENDENT-AUDIT.json). Large candidate volumes are non-identifiability, not search work or a solved message.
+
+## Projection-concurrence diagnostic
+
+[Projection diagnostic complete synthetic receipt](PROJECTION-CONCURRENCE-029-SYNTHETIC.json), [initial QA](PROJECTION-CONCURRENCE-029-INITIAL-QA.json) and [training-degeneracy correction](PROJECTION-CONCURRENCE-029-DEGENERACY-QA.json). Zero real correspondences/fits.

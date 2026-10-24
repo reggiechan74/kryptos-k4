@@ -1036,3 +1036,16 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - [Independent actual solver/union/certificate audit](../results/ONE-EDIT-028-INDEPENDENT-AUDIT.json), [preflight](../results/one-edit-028-preflight/README.md). Canonical data unchanged; no Site change, no ninth investigation.
 
 - Final item 8 aggregate validation: 568 tests pass on Python 3.9 and 3.12; [UTC receipt and complete logs](../results/ONE-EDIT-028-VALIDATION.json). All eight investigations are complete at their declared scope; [overview](EIGHT-ITEM-INVESTIGATION-SUMMARY.md). No ninth investigation or Site change.
+
+## PROJECTION-CONCURRENCE-029 — synthetic image-ray validation and physical-data gate
+
+- Date: 24 October 2026 UTC; separately authorized after the eight-item sequence, not a cipher search.
+- Kind: synthetic geometric diagnostic, independent scalar checks and real-data admission protocol; zero certified monument pairs, real fits or K4 trials.
+- [Preregistered protocol](PROJECTION-CONCURRENCE-029-SPEC.md), [findings](PROJECTION-CONCURRENCE-029-FINDINGS.md), [API/data contract](PROJECTION-CONCURRENCE-029-API.md), [native code](../experiments/projection_concurrence.py), [independent checks](../experiments/projection_concurrence_reference.py), [tests](../tests/test_projection_concurrence.py).
+- Original corrected diagnostic UTC start/end:2026-10-24T11:50:23.445087+00:00 /2026-10-24T11:50:23.802297+00:00. [Complete fixtures/outputs](../results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json): 24 uncertainty configurations, 21 evaluated and3 collapsed; finite/infinity/noisy positives pass, heldout/mixed-source negatives fail, coincident rays unidentifiable despite zero residual.
+- Initial parallel/infinity QA misconception and undefined-training-ray gate error are preserved separately, corrected before any real fitting; no discarded points or threshold easing.
+- Actual physical-data stage remains evidence-blocked. Line concurrence predicts only line incidence, not complete spot position or solar/time identity. [Source acquisition review](evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md) and [local LOC check](evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json) integrated: additional views/observation ROIs, still zero certified pairs; no synthetic success promoted to monument evidence.
+
+- [Separately frozen local-control supplement](PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS-SPEC.md) and [eleven complete outputs](../results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json): small wrong picks and a correlated receiver shift can pass. This exposes conditional-gate limits; no tolerance retuning or real-data fit.
+
+- Final regression:587 tests pass on Python3.9 and3.12; [separate UTC receipt/full logs](../results/PROJECTION-CONCURRENCE-029-VALIDATION.json). [Complete Python3.12 record replay](../results/PROJECTION-CONCURRENCE-029-PY312-REPLAY.json) agrees within declared1e-8 absolute/1e-9 relative tolerance. Real-data stage is evidence-blocked, not a monument negative.

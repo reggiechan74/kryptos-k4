@@ -1,0 +1,19 @@
+{
+  "kind": "Projection diagnostic register snapshot; physical family remains evidence-blocked",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 24,
+    "analytical exclusion": 13,
+    "non-identifiable": 9
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "f7ae482ccb042def45fd8b528124b7c103560d9459ee030a2d4f281a47b9f6a5"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-028.json",
+  "previous_snapshot_commit": "ff80821cd93d00f2c85dc4d39a71fd73b3f56cbf",
+  "certified_real_pairs": 0,
+  "real_fits": 0,
+  "new_K4_trials": 0,
+  "site_changed": false
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "Independent Python3.12 replay of complete original/supplementary synthetic record payloads",
+  "recorded_at_utc": "2026-10-24T11:59:24.450218+00:00",
+  "absolute_tolerance": 1e-08,
+  "relative_tolerance": 1e-09,
+  "replays": [
+    {
+      "original": "results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json",
+      "replay_started_at_utc": "2026-10-24T11:59:23.960273+00:00",
+      "replay_finished_at_utc": "2026-10-24T11:59:24.233556+00:00",
+      "replay_sha256": "af5c95b584496e112ccdd020131a8a91f659f059ce54ebf30b4eabef87022c8a",
+      "records_match": true,
+      "replay": "results/PROJECTION-CONCURRENCE-029-PY312-SYNTHETIC-REPLAY.json"
+    },
+    {
+      "original": "results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json",
+      "replay_started_at_utc": "2026-10-24T11:59:24.271327+00:00",
+      "replay_finished_at_utc": "2026-10-24T11:59:24.415380+00:00",
+      "replay_sha256": "7fad0aff49e5adfbc99f8dd89e7a7c1eb730c3e80fecaaece6bdf54555293a11",
+      "records_match": true,
+      "replay": "results/PROJECTION-CONCURRENCE-029-PY312-LOCAL-REPLAY.json"
+    }
+  ],
+  "real_fits": 0
+}

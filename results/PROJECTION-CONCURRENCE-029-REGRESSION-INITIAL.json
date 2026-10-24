@@ -1,0 +1,18 @@
+{
+  "kind": "Preserved initial aggregate regression before navigation/source inventory regeneration",
+  "attempt": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T11:52:14.515842+00:00",
+      "finished_at_utc": "2026-10-24T11:53:15.837654+00:00",
+      "elapsed_seconds": 61.321315875,
+      "exit_code": 1,
+      "log": "/tmp/k4-projection029-python39.log"
+    }
+  ],
+  "tests_run": 584,
+  "failures": 3,
+  "reason": "New scope-audit JSON was generated before becoming git-tracked; new documentation audit was staged after navigation generation. Three current-inventory equality tests caught stale generated listings. No scientific model or fixture failure.",
+  "correction": "Stage all new receipts first, then regenerate tracked inventories/navigation and rerun both suites",
+  "log": "results/PROJECTION-CONCURRENCE-029-regression-initial.log.txt"
+}

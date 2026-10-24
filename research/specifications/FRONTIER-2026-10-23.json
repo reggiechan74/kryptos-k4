@@ -1,8 +1,8 @@
 {
-  "id": "FRONTIER-024",
-  "reviewed_main_commit": "f6c5d2637fe0ab529c2019a2317d8e9375462da2",
+  "id": "FRONTIER-029",
+  "reviewed_main_commit": "ff80821cd93d00f2c85dc4d39a71fd73b3f56cbf",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "All eight requested investigations complete to declared scopes. Final one-edit arm rejects48 periodic structures at full constraints while unrestricted permutations are massively non-identifiable. No canonical correction, solution, automatic new search or ninth investigation.",
+  "decision": "Eight-item sequence complete at declared scope. Separately authorized projection diagnostic passes synthetic controls; real correspondence acquisition/certification remains blocked. No new K4 search, physical fit or solution.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -97,7 +97,7 @@
       ],
       "blocker_type": "independent_measurements_and_mapping",
       "ready_for_new_K4_evaluation": false,
-      "missing": "Surveyed frames/surfaces/apertures/receivers and uncertainty; an independently fixed observation or artificial-light geometry and symbol extraction. Static needle, engraved N, true north and regional magnetic field are different quantities. FOLD-SLIDE-020 completes a conditional flat transcript overlay, not measured physical apertures or illumination. The completed item-1 2D transcript scan is not a substitute for measured apertures/pose or an encryption inverse. Item 2 original-resolution LOC inspection established no certified aperture-to-ground identity pairs; emitter height is not supplied by pool/water-level wording.",
+      "missing": "Surveyed frames/surfaces/apertures/receivers and uncertainty; an independently fixed observation or artificial-light geometry and symbol extraction. Static needle, engraved N, true north and regional magnetic field are different quantities. FOLD-SLIDE-020 completes a conditional flat transcript overlay, not measured physical apertures or illumination. The completed item-1 2D transcript scan is not a substitute for measured apertures/pose or an encryption inverse. Item 2 original-resolution LOC inspection established no certified aperture-to-ground identity pairs; emitter height is not supplied by pool/water-level wording. PROJECTION-CONCURRENCE-029 is synthetic-validated only: zero certified aperture/ground material-point pairs. Heldout line incidence is not full receiver-position prediction.",
       "available": [
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
         "docs/scott-sun-geometry-audit-2026-10-22.md",
@@ -114,7 +114,17 @@
         "research/PHYSICAL-SOLAR-002-FINDINGS.md",
         "experiments/physical_solar_002.py",
         "sources/physical-solar-002/SOURCE-RECEIPT.json",
-        "independent/2026-10-24/physical-item2/README.md"
+        "independent/2026-10-24/physical-item2/README.md",
+        "research/PROJECTION-CONCURRENCE-029-SPEC.md",
+        "research/PROJECTION-CONCURRENCE-029-FINDINGS.md",
+        "research/PROJECTION-CONCURRENCE-029-API.md",
+        "experiments/projection_concurrence.py",
+        "experiments/projection_concurrence_reference.py",
+        "results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json",
+        "research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md",
+        "research/evidence/2026-10-24-projection-acquisition/SOURCE-INVENTORY-AND-GATE.json",
+        "research/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS-SPEC.md",
+        "results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json"
       ],
       "next_deliverable": "Source-tagged original-resolution overlapping views or measurements with pixel picks, metric control points, camera assumptions and uncertainty; fit non-K4 features and withhold a separate view/features before any optical decoding.",
       "go_no_go": "Stop before letter extraction if camera/shape/frame calibration is underidentified. Quantitative residual tolerances must derive from input uncertainty and be frozen before fitting; no invented tolerance, date, bearing or receiver.",

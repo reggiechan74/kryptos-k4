@@ -171,3 +171,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Final item 8 checkpoint
 
 [Final one-edit runner](run_one_edit.py), [channel/index maps](one_edit_channel.py), [exact models](one_edit_models.py), [independent reference](one_edit_reference.py), [controls](one_edit_controls.py), [post-run audit](audit_one_edit.py). Read the [frozen scope](../research/ONE-EDIT-028-SPEC.md) before replay; gzip retains all ambiguity.
+
+## Projection-concurrence diagnostic
+
+[Projection concurrence](projection_concurrence.py), [independent scalar checks](projection_concurrence_reference.py), [synthetic runner](run_projection_concurrence.py); line prediction is not full spot prediction or a K4 test.

@@ -139,12 +139,12 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: evidence-blocked
 - Mechanism: Physical apertures, illumination, reflection or receiving surfaces select or transform letter information.
 - Evidence: [Primary-scan addendum and local visual review](evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md); [Current geometry audit](../docs/scott-sun-geometry-audit-2026-10-22.md) distinguishes measured facts, reported dimensions, placeholders and rendering defects.
-- Tested scope: PHYSICAL-SOLAR-002 completes conditional solar/ray-plane checks and independent finite-source/thickness arithmetic. Full-resolution LOC exposure inspected; no certified aperture-to-ground pairs or calibrated decoding fit established. The live Site is a tool; landmark counts are separate.
+- Tested scope: PHYSICAL-SOLAR-002 completes conditional solar/ray-plane checks and independent finite-source/thickness arithmetic. Full-resolution LOC exposure inspected; no certified aperture-to-ground pairs or calibrated decoding fit established. PROJECTION-CONCURRENCE-029 adds synthetic-validated image-line inference with uncertainty/degeneracy controls; zero certified real pairs and zero real fits. The live Site is a tool; landmark counts are separate.
 - Untested scope: A surveyed, aperture-aware optical decoder validated against independent photographs.
 - Missing inputs: Four-sheet surfaces/seams, aperture contours, true heading, receiver geometry, obstacles, water/window normals and independently timed camera calibration.
-- Next discriminating test: Fit non-K4 physical features in one photograph and predict withheld features/view; fail the calibration gate before selecting projected letters if residuals are unacceptable.
+- Next discriminating test: Certify non-K4 aperture/receiving material-point pairs, freeze8 fitting/4 heldout distributed picks and error budget, then test heldout line incidence. Full spot prediction needs additional camera/receiver calibration; no fit with invented pairs.
 - Dependencies: Completed physical-source review plus remaining independent input gates; H-COMPASS-FRAMES; H-GLYPH-VIEW; no fitted date, heading or receiver chosen from attractive K4 output.
-- Results: [Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); [Item 2 conditional physical checks and evidence gate](PHYSICAL-SOLAR-002-FINDINGS.md); no surveyed optical K4 decoding result exists.
+- Results: [Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); [Item 2 conditional physical checks and evidence gate](PHYSICAL-SOLAR-002-FINDINGS.md); [Projection diagnostic and data gate](PROJECTION-CONCURRENCE-029-FINDINGS.md); no surveyed optical K4 decoding result exists.
 
 ### H-SHADOW-TIME
 
