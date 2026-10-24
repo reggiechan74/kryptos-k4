@@ -1,0 +1,24 @@
+{
+  "kind": "Lossless numeric archives and margin export; no copied Site program source",
+  "recorded_at_utc": "2026-10-24T15:43:57.798161+00:00",
+  "files": {
+    "results/SITE-CYLINDER-037-SOURCE-SNAPSHOT.json.gz": {
+      "bytes": 2643611,
+      "sha256": "702e319a0663e5a7838fc9ba9a931588d20cb0f7fcc94dd7944aee4f806572af"
+    },
+    "results/SITE-CYLINDER-037-ORIGINAL.json.gz": {
+      "bytes": 5393334,
+      "sha256": "14113ad08c4151c400f556f2c5d512989a73d961c43269d052fbbe1a4e3e2457"
+    },
+    "results/SITE-CYLINDER-037-PY312-REPLAY.json.gz": {
+      "bytes": 5395934,
+      "sha256": "37d3bd4d51327bdf93b25160e9ff3a8df72378aca6d13d2ed589cb447fc90b98"
+    },
+    "results/SITE-CYLINDER-037-DEFAULT-MARGINS.csv": {
+      "bytes": 10702,
+      "sha256": "88849a3e4d2432769348c1387aba9fe5414526970652a9c09b10ab8a65240699"
+    }
+  },
+  "raw_original_sha256": "0bb12b85b2820395d78c3bda813f9f4f1b9a9c219a966d842b3a02fbb0e3d37c",
+  "csv_line_endings": "LF; same numerical records"
+}

@@ -77,6 +77,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/DOCUMENTATION-LINK-AUDIT-037.json](../../results/DOCUMENTATION-LINK-AUDIT-037.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-038.json](../../results/DOCUMENTATION-LINK-AUDIT-038.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-039.json](../../results/DOCUMENTATION-LINK-AUDIT-039.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
+| [results/DOCUMENTATION-LINK-AUDIT-040.json](../../results/DOCUMENTATION-LINK-AUDIT-040.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DYNAMIC-KEY-VALIDATION.json](../../results/DYNAMIC-KEY-VALIDATION.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
 | [results/ENE-NOTE-CHECKS.json](../../results/ENE-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-001.json](../../results/EXCLUSION-SCOPE-AUDIT-001.json) |  | Exact run start/end unknown; inspect original |
@@ -114,6 +115,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/EXCLUSION-SCOPE-AUDIT-034.json](../../results/EXCLUSION-SCOPE-AUDIT-034.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-035.json](../../results/EXCLUSION-SCOPE-AUDIT-035.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-036.json](../../results/EXCLUSION-SCOPE-AUDIT-036.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-037.json](../../results/EXCLUSION-SCOPE-AUDIT-037.json) |  | Exact run start/end unknown; inspect original |
 | [results/FACE-ROW-001-COVERAGE.json](../../results/FACE-ROW-001-COVERAGE.json) | prior-coverage audit; zero K4 evaluations | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005-controls.json](../../results/FEISTEL-SYMMETRY-005-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005.json](../../results/FEISTEL-SYMMETRY-005.json) |  | Exact run start/end unknown; inspect original |
@@ -157,6 +159,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/FRONTIER-034.json](../../results/FRONTIER-034.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-035.json](../../results/FRONTIER-035.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-036.json](../../results/FRONTIER-036.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-037.json](../../results/FRONTIER-037.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FULL-STATE-PHYSICAL-VALIDATION-001.json](../../results/FULL-STATE-PHYSICAL-VALIDATION-001.json) | FULL-STATE-PHYSICAL-VALIDATION-001 | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-COMPARISON.json](../../results/GEOMETRIC-FOLLOWUP-COMPARISON.json) |  | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json](../../results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
@@ -208,6 +211,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/HYPOTHESIS-REGISTER-032.json](../../results/HYPOTHESIS-REGISTER-032.json) | Local deliberate-spelling family/source-gate addition; not K4 evaluation | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-034.json](../../results/HYPOTHESIS-REGISTER-034.json) | Local word-cover extraction family and exact scope addition; not K4 evaluation | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-036.json](../../results/HYPOTHESIS-REGISTER-036.json) | Invented ideal-mirror family addition and source/stability gate; not actual K4 evaluation | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-037.json](../../results/HYPOTHESIS-REGISTER-037.json) | Exact Site-model validation coverage update; no new hypothesis or actual K4 test | Exact run start/end unknown; inspect original |
 | [results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json](../../results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001-controls.json](../../results/IPA-FREE-MAP-001-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001.json](../../results/IPA-FREE-MAP-001.json) | IPA-FREE-MAP-001 | Exact run start/end unknown; inspect original |
@@ -281,6 +285,11 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/SINGLE-BOUNDARY-RESET-SUMMARY.json](../../results/SINGLE-BOUNDARY-RESET-SUMMARY.json) | SINGLE-BOUNDARY-RESET-001-SUMMARY; 20261022T212416Z-f634e152375e406d971f9edc1dc91096 | Exact run start/end unknown; inspect original |
 | [results/SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001.json](../../results/SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001.json) | SINGLE-RESET-INDEPENDENT-LOCAL-REPLAY-001 | Exact run start/end unknown; inspect original |
 | [results/SITE-CONFIRMED-CLUES-SOURCE-HANDOFF.json](../../results/SITE-CONFIRMED-CLUES-SOURCE-HANDOFF.json) |  | Exact run start/end unknown; inspect original |
+| [results/SITE-CYLINDER-037-ARCHIVE-MANIFEST.json](../../results/SITE-CYLINDER-037-ARCHIVE-MANIFEST.json) | Lossless numeric archives and margin export; no copied Site program source | receipt recording: 2026-10-24T15:43:57.798161Z |
+| [results/SITE-CYLINDER-037-PY312-COMPARISON.json](../../results/SITE-CYLINDER-037-PY312-COMPARISON.json) | Complete sequential-memory cross-version model replay; every discrete value exact, all floats absolute tolerance1e-9 | start: 2026-10-24T15:40:19.981325Z; end: 2026-10-24T15:40:23.010407Z |
+| [results/SITE-CYLINDER-037-RESOURCE-REPLAY.json](../../results/SITE-CYLINDER-037-RESOURCE-REPLAY.json) | Whole-process resource measurement for unchanged frozen037 computation with streamed output | receipt recording: 2026-10-24T15:33:51.594977Z |
+| [results/SITE-CYLINDER-037-SUMMARY.json](../../results/SITE-CYLINDER-037-SUMMARY.json) | SITE-CYLINDER-037; Exact inspected Site vertical-tableau numeric replay, margins and finite manual sensitivity; not K4 or Site UI QA | start: 2026-10-24T15:28:59.235487Z; end: 2026-10-24T15:29:03.878526Z |
+| [results/SITE-CYLINDER-037-VALIDATION.json](../../results/SITE-CYLINDER-037-VALIDATION.json) | Completed local exact vertical Site numeric/default and finite physical stability validation | receipt recording: 2026-10-24T15:46:58.897398Z |
 | [results/SITE-ENTRANCE-V14-SOURCE-HANDOFF.json](../../results/SITE-ENTRANCE-V14-SOURCE-HANDOFF.json) |  | Exact run start/end unknown; inspect original |
 | [results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json](../../results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json) | SITE-OVERLAY-015; Live Site source archive and static data validation; not a new K4 experiment | receipt recording: 2026-10-23T13:32:55.553417Z |
 | [results/SITE-PROJECTION-030-VALIDATION.json](../../results/SITE-PROJECTION-030-VALIDATION.json) | Final source-archive aggregate regression, not Site deployment or optical experiment timing | receipt recording: 2026-10-24T12:21:21.929364Z |

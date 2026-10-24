@@ -113,3 +113,7 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Curved optical sampler
 
 [Summary036](CURVED-SAMPLER-036-SUMMARY.json), full lossless original/replay and pose archives, independent ray/cell audits and nominal/failure Site fixtures preserve every finite outcome. Four tested utility cases fail stability;50other nominal cases remain untested for robustness. [Interpretation](../research/CURVED-SAMPLER-036-FINDINGS.md). No actual K4 evaluation or Site edit by this task.
+
+## Exact Site cylinder follow-through
+
+[Summary037](SITE-CYLINDER-037-SUMMARY.json), [all default margins](SITE-CYLINDER-037-DEFAULT-MARGINS.csv), full numeric source/original/replay archives and whole-process resource receipt preserve exact Source validation without bundling Site program code. Nominal validity and tiny-pupil subset passes do not prove manual robustness. [Interpretation](../research/SITE-CYLINDER-037-FINDINGS.md).

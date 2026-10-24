@@ -671,6 +671,17 @@
       ],
       "outcome": "54nominal keys;4tested utility poses unstable;50other nominal robustness unresolved; no actual K4 evaluation or physical replica",
       "basis": "Full frozen geometry/ray/cell replay, four-key held-out synthetic recovery, complete perturbation/pupil outputs and explicitly distinct Site contract"
+    },
+    "LOG-2F26BB26A8": {
+      "title": "SITE-CYLINDER-037 — exact vertical Site replay and physical-scale sensitivity",
+      "categories": [
+        "exact source-model replay",
+        "finite sensitivity benchmark",
+        "synthetic codec controls",
+        "physical-scale and eye-model limits"
+      ],
+      "outcome": "Default97valid confirmed;all11selected assembly cases fail atboth scales; some tiny-pupil subsets pass, no full manual validation or actual K4",
+      "basis": "Pinned source read-only numeric snapshot, independent71198sample replay,729neighbors,all3564sensitivity outputs,full tolerant cross-version comparison and whole-process streaming measurement"
     }
   }
 }

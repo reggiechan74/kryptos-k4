@@ -191,3 +191,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Curved optical sampler
 
 `curved_sampler.py` / `curved_sampler_reference.py` implement the invented ideal mirror and independent rays. `run_curved_sampler.py` executes the frozen synthetic panel; `audit_curved_sampler.py` independently checks every cell; `compare_curved_sampler.py` compares full cross-version results; `export_curved_sampler_fixtures.py` exports nominal/failure cases. [Scope/API](../research/CURVED-SAMPLER-036-API.md).
+
+## Exact Site cylinder follow-through
+
+`site_cylinder_validation.py` independently replays the exact vertical apparatus; `run_site_cylinder_validation.py` runs the frozen neighborhood/stability panels. `snapshot_site_cylinder037.mjs` reads separately inspected pinned local Site math read-only. `replay_site_cylinder037_stream.py` changes output IO only; `compare_site_cylinder037.py` verifies every discrete value and float; `export_site_cylinder037.py` preserves full data and per-cell CSV. [Scope](../research/SITE-CYLINDER-037-FINDINGS.md).

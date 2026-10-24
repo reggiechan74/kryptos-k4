@@ -1,0 +1,2148 @@
+{
+  "id": "SITE-CYLINDER-037",
+  "kind": "Exact inspected Site vertical-tableau numeric replay, margins and finite manual sensitivity; not K4 or Site UI QA",
+  "started_at_utc": "2026-10-24T15:28:59.235487+00:00",
+  "finished_at_utc": "2026-10-24T15:29:03.878526+00:00",
+  "complete": true,
+  "source_head": "5b7e88365f174106ef7a7f290a0bdcc671014f01",
+  "source_core_sha256": {
+    "candidate/cylindrical-study/core.mjs": "192cb557b5c3afe1cb92ab6de175b7a12e1eee1776aa9b36ec0de309d2715f46",
+    "candidate/cylindrical-study/PARAMETER_CONTRACT.md": "6b0b6f610456a4ea4f5acbc1a2663c073af7b9a646f020c09d85bd3dcf97a2a2",
+    "candidate/transcript.mjs": "1cfb4bec17695e6b13c4ded220b4b006ea915ac6d984e3f469fcfb3bcc4cd8a5",
+    "tests/cylindrical-study.test.mjs": "540543bfb00256f176c7ada6297eb6bc279a0019cb8d570f0df43bc4a052e647"
+  },
+  "source_sha256": {
+    "research/SITE-CYLINDER-037-SPEC.md": "5bb3f73ba6dcd7e17bf758f430efe6035958e795c7be40f0aa1701971893b888",
+    "experiments/site_cylinder_validation.py": "c50039655c7b7a837fe926c52a4f99cc33d0ffd677d68d9a043b4d0dc29ba624",
+    "experiments/run_site_cylinder_validation.py": "2e0c0e06b911ec95a093f77651e3f2c2b998df2601d0e551a541d11810e7da26"
+  },
+  "source_snapshot_sha256": "702e319a0663e5a7838fc9ba9a931588d20cb0f7fcc94dd7944aee4f806572af",
+  "recorded_computation_peak_rss_bytes_before_final_serialization": 427835392,
+  "original_archive": {
+    "bytes": 5393334,
+    "sha256": "14113ad08c4151c400f556f2c5d512989a73d961c43269d052fbbe1a4e3e2457",
+    "raw_sha256": "0bb12b85b2820395d78c3bda813f9f4f1b9a9c219a966d842b3a02fbb0e3d37c"
+  },
+  "actual_K4_evaluations": 0,
+  "source_files_modified": false,
+  "Site_source_archived": false,
+  "default": {
+    "id": 364,
+    "state": {
+      "version": 1,
+      "radius": 0.8,
+      "eyeDistance": 4,
+      "tableauDistance": 6,
+      "shiftX": 0.037,
+      "shiftY": 0.043,
+      "reticleWidth": 0.225,
+      "selected": 1,
+      "obstruction": false,
+      "view": "mirror",
+      "screenYaw": 0
+    },
+    "result": {
+      "validCount": 97,
+      "invalidCount": 0,
+      "key": "BCDEHIJLLMNQUUVWXXZKRRYPTTOSAABCDEFJLMNNQUVWWXZKKRYPPTOSSABCCDEFGHLMNQQUVWXXZKRRYPTTOSAABCDDEFGHI",
+      "minimum_margin": 0.01784193946678414,
+      "distinct_cells": 79,
+      "cell_path": [
+        [
+          13,
+          26
+        ],
+        [
+          13,
+          27
+        ],
+        [
+          13,
+          28
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          14,
+          17
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          14,
+          22
+        ],
+        [
+          14,
+          23
+        ],
+        [
+          14,
+          24
+        ],
+        [
+          14,
+          24
+        ],
+        [
+          14,
+          25
+        ],
+        [
+          14,
+          26
+        ],
+        [
+          14,
+          27
+        ],
+        [
+          14,
+          28
+        ],
+        [
+          14,
+          29
+        ],
+        [
+          15,
+          5
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          15,
+          12
+        ],
+        [
+          15,
+          12
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          15,
+          22
+        ],
+        [
+          15,
+          23
+        ],
+        [
+          15,
+          24
+        ],
+        [
+          15,
+          24
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          15,
+          26
+        ],
+        [
+          15,
+          27
+        ],
+        [
+          15,
+          28
+        ],
+        [
+          15,
+          29
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          17,
+          10
+        ],
+        [
+          17,
+          11
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          17,
+          14
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          17,
+          21
+        ],
+        [
+          17,
+          21
+        ],
+        [
+          17,
+          22
+        ],
+        [
+          17,
+          23
+        ],
+        [
+          17,
+          24
+        ],
+        [
+          17,
+          24
+        ],
+        [
+          17,
+          25
+        ],
+        [
+          17,
+          26
+        ],
+        [
+          17,
+          27
+        ],
+        [
+          17,
+          28
+        ],
+        [
+          17,
+          29
+        ]
+      ],
+      "admitted_cell_path": [
+        [
+          13,
+          26
+        ],
+        [
+          13,
+          27
+        ],
+        [
+          13,
+          28
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          14,
+          17
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          14,
+          22
+        ],
+        [
+          14,
+          23
+        ],
+        [
+          14,
+          24
+        ],
+        [
+          14,
+          24
+        ],
+        [
+          14,
+          25
+        ],
+        [
+          14,
+          26
+        ],
+        [
+          14,
+          27
+        ],
+        [
+          14,
+          28
+        ],
+        [
+          14,
+          29
+        ],
+        [
+          15,
+          5
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          15,
+          12
+        ],
+        [
+          15,
+          12
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          15,
+          22
+        ],
+        [
+          15,
+          23
+        ],
+        [
+          15,
+          24
+        ],
+        [
+          15,
+          24
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          15,
+          26
+        ],
+        [
+          15,
+          27
+        ],
+        [
+          15,
+          28
+        ],
+        [
+          15,
+          29
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          17,
+          10
+        ],
+        [
+          17,
+          11
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          17,
+          14
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          17,
+          21
+        ],
+        [
+          17,
+          21
+        ],
+        [
+          17,
+          22
+        ],
+        [
+          17,
+          23
+        ],
+        [
+          17,
+          24
+        ],
+        [
+          17,
+          24
+        ],
+        [
+          17,
+          25
+        ],
+        [
+          17,
+          26
+        ],
+        [
+          17,
+          27
+        ],
+        [
+          17,
+          28
+        ],
+        [
+          17,
+          29
+        ]
+      ],
+      "statuses": [
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid"
+      ],
+      "margins": [
+        0.17978441453365335,
+        0.16023982838907358,
+        0.13846081117444342,
+        0.11425258914403003,
+        0.35114934219464367,
+        0.30081369637503386,
+        0.21526800844043947,
+        0.09871157287594556,
+        0.045122987339698994,
+        0.2128928641382064,
+        0.4015814011803194,
+        0.39155513913347306,
+        0.16903252876891806,
+        0.06682306133044413,
+        0.3138419394667924,
+        0.43001806989297364,
+        0.16669731658209663,
+        0.10194252086771982,
+        0.374097192102111,
+        0.3520000000000003,
+        0.07809719210210986,
+        0.19405747913227955,
+        0.4599724689317988,
+        0.273981930107027,
+        0.017841939466791246,
+        0.22917693866955346,
+        0.46503252876891565,
+        0.31244486086652756,
+        0.10558140118032,
+        0.08310713586179475,
+        0.2508770126603004,
+        0.39471157287594494,
+        0.48873199155956115,
+        0.40318630362496677,
+        0.3528506578053552,
+        0.14208419638134195,
+        0.15015360372481368,
+        0.1574132761296898,
+        0.09871157287594556,
+        0.045122987339698994,
+        0.17493807033263664,
+        0.17952169854785183,
+        0.1835396073331239,
+        0.16903252876891806,
+        0.06682306133044413,
+        0.19247269077530937,
+        0.1944799525922889,
+        0.16669731658209663,
+        0.10194252086771982,
+        0.19778178849832528,
+        0.1980000000000004,
+        0.07809719210210986,
+        0.19405747913227955,
+        0.1960275310682036,
+        0.1944799525922889,
+        0.017841939466791246,
+        0.18999219750430107,
+        0.18702144262167764,
+        0.1835396073331239,
+        0.10558140118032,
+        0.08310713586179475,
+        0.16975383462217053,
+        0.16392813817788365,
+        0.1574132761296898,
+        0.15015360372481368,
+        0.14208419638134195,
+        0.22974741085597117,
+        0.20553918882555777,
+        0.18376017161092761,
+        0.09871157287595089,
+        0.04512298733969722,
+        0.13118578900209243,
+        0.11743490435643977,
+        0.10538117800062352,
+        0.09493567213496235,
+        0.06682306133044236,
+        0.07858192767406891,
+        0.07256014222312857,
+        0.06791740679538805,
+        0.06462280880978355,
+        0.06265463450501585,
+        0.062000000000001165,
+        0.06265463450501585,
+        0.06462280880978355,
+        0.06791740679538805,
+        0.07256014222312857,
+        0.01784193946678414,
+        0.0860234074870938,
+        0.09493567213496235,
+        0.10538117800062352,
+        0.10558140118030579,
+        0.08310713586178053,
+        0.14673849613348366,
+        0.1642155854663443,
+        0.18376017161092761,
+        0.20553918882555777,
+        0.22974741085597117
+      ],
+      "letters": [
+        "B",
+        "C",
+        "D",
+        "E",
+        "H",
+        "I",
+        "J",
+        "L",
+        "L",
+        "M",
+        "N",
+        "Q",
+        "U",
+        "U",
+        "V",
+        "W",
+        "X",
+        "X",
+        "Z",
+        "K",
+        "R",
+        "R",
+        "Y",
+        "P",
+        "T",
+        "T",
+        "O",
+        "S",
+        "A",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "J",
+        "L",
+        "M",
+        "N",
+        "N",
+        "Q",
+        "U",
+        "V",
+        "W",
+        "W",
+        "X",
+        "Z",
+        "K",
+        "K",
+        "R",
+        "Y",
+        "P",
+        "P",
+        "T",
+        "O",
+        "S",
+        "S",
+        "A",
+        "B",
+        "C",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "L",
+        "M",
+        "N",
+        "Q",
+        "Q",
+        "U",
+        "V",
+        "W",
+        "X",
+        "X",
+        "Z",
+        "K",
+        "R",
+        "R",
+        "Y",
+        "P",
+        "T",
+        "T",
+        "O",
+        "S",
+        "A",
+        "A",
+        "B",
+        "C",
+        "D",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ]
+    }
+  },
+  "default_min_margin_fraction": 0.01784193946678414,
+  "default_min_margin_sample_indices": [
+    25,
+    56,
+    87
+  ],
+  "fixture_comparison": {
+    "cases": [
+      {
+        "id": "default",
+        "validCount": 97
+      },
+      {
+        "id": "obstruction",
+        "validCount": 0
+      },
+      {
+        "id": "wide_reticle",
+        "validCount": 27
+      },
+      {
+        "id": "boundary20",
+        "validCount": 87
+      },
+      {
+        "id": "padded_blank20",
+        "validCount": 49
+      }
+    ],
+    "samples_compared": 71198,
+    "maximum_coordinate_error": 7.318590178329032e-13
+  },
+  "neighborhood": {
+    "states": 729,
+    "complete97": 441,
+    "invalid97": 288,
+    "same_default_cells_and_admission": 186,
+    "same_default_key": 186,
+    "distinct_complete_keys": 11,
+    "selected_ids": [
+      364,
+      166,
+      169,
+      271,
+      274,
+      277,
+      113,
+      116,
+      110,
+      221,
+      224
+    ],
+    "full_stability_selected": 11,
+    "unselected_complete_states": 430
+  },
+  "default_axial_sensitivity": [
+    {
+      "parameter": "radius",
+      "value": 0.796,
+      "floor_cell_changes": 0,
+      "admission_changes": 0,
+      "same_key": true,
+      "validCount": 97,
+      "minimum_margin": 0.033820134215410746
+    },
+    {
+      "parameter": "eyeDistance",
+      "value": 3.99,
+      "floor_cell_changes": 0,
+      "admission_changes": 0,
+      "same_key": true,
+      "validCount": 97,
+      "minimum_margin": 0.026115764163989752
+    },
+    {
+      "parameter": "tableauDistance",
+      "value": 5.99,
+      "floor_cell_changes": 0,
+      "admission_changes": 0,
+      "same_key": true,
+      "validCount": 97,
+      "minimum_margin": 0.011241870047257407
+    },
+    {
+      "parameter": "shiftX",
+      "value": 0.032,
+      "floor_cell_changes": 0,
+      "admission_changes": 0,
+      "same_key": true,
+      "validCount": 97,
+      "minimum_margin": 0.025122987339697644
+    },
+    {
+      "parameter": "shiftY",
+      "value": 0.038,
+      "floor_cell_changes": 0,
+      "admission_changes": 0,
+      "same_key": true,
+      "validCount": 97,
+      "minimum_margin": 0.01784193946678414
+    },
+    {
+      "parameter": "reticleWidth",
+      "value": 0.22275,
+      "floor_cell_changes": 6,
+      "admission_changes": 0,
+      "same_key": false,
+      "validCount": 97,
+      "minimum_margin": 0.019551185934854942
+    },
+    {
+      "parameter": "reticleWidth",
+      "value": 0.22725,
+      "floor_cell_changes": 3,
+      "admission_changes": 6,
+      "same_key": false,
+      "validCount": 91,
+      "minimum_margin": 0.0008729383622636533
+    },
+    {
+      "parameter": "shiftY",
+      "value": 0.048,
+      "floor_cell_changes": 0,
+      "admission_changes": 0,
+      "same_key": true,
+      "validCount": 97,
+      "minimum_margin": 0.01784193946678414
+    },
+    {
+      "parameter": "shiftX",
+      "value": 0.042,
+      "floor_cell_changes": 3,
+      "admission_changes": 3,
+      "same_key": false,
+      "validCount": 94,
+      "minimum_margin": 0.002158060533208328
+    },
+    {
+      "parameter": "tableauDistance",
+      "value": 6.01,
+      "floor_cell_changes": 0,
+      "admission_changes": 0,
+      "same_key": true,
+      "validCount": 97,
+      "minimum_margin": 0.024442008886310873
+    },
+    {
+      "parameter": "eyeDistance",
+      "value": 4.01,
+      "floor_cell_changes": 0,
+      "admission_changes": 3,
+      "same_key": false,
+      "validCount": 94,
+      "minimum_margin": 0.009651557356185947
+    },
+    {
+      "parameter": "radius",
+      "value": 0.804,
+      "floor_cell_changes": 6,
+      "admission_changes": 6,
+      "same_key": false,
+      "validCount": 91,
+      "minimum_margin": 0.004454583117745159
+    }
+  ],
+  "stability_cases": [
+    {
+      "neighbor_id": 364,
+      "state": {
+        "version": 1,
+        "radius": 0.8,
+        "eyeDistance": 4,
+        "tableauDistance": 6,
+        "shiftX": 0.037,
+        "shiftY": 0.043,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.01784193946678414,
+      "nominal_margin_mm": 0.4460484866696035,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.001804454754811502,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.001071933629205546,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 364,
+      "state": {
+        "version": 1,
+        "radius": 0.8,
+        "eyeDistance": 4,
+        "tableauDistance": 6,
+        "shiftX": 0.037,
+        "shiftY": 0.043,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.01784193946678414,
+      "nominal_margin_mm": 1.393901520842511,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.010583676132750242,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.000560000000000116,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 166,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4.01,
+        "tableauDistance": 5.99,
+        "shiftX": 0.032,
+        "shiftY": 0.043,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.04505323366939962,
+      "nominal_margin_mm": 1.1263308417349904,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.019420465372677498,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.00037120251916888947,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 166,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4.01,
+        "tableauDistance": 5.99,
+        "shiftX": 0.032,
+        "shiftY": 0.043,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.04505323366939962,
+      "nominal_margin_mm": 3.519783880421845,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.0368483013288774,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.0010583378054178638,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 169,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4.01,
+        "tableauDistance": 5.99,
+        "shiftX": 0.032,
+        "shiftY": 0.048,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.04505323366939962,
+      "nominal_margin_mm": 1.1263308417349904,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.019420465372677498,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.000713338857289969,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 169,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4.01,
+        "tableauDistance": 5.99,
+        "shiftX": 0.032,
+        "shiftY": 0.048,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.04505323366939962,
+      "nominal_margin_mm": 3.519783880421845,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.0368483013288774,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.013272835820899331,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 271,
+      "state": {
+        "version": 1,
+        "radius": 0.8,
+        "eyeDistance": 3.99,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.038,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.0449170186752923,
+      "nominal_margin_mm": 1.1229254668823074,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.01983797603316262,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.0002654970933235745,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 271,
+      "state": {
+        "version": 1,
+        "radius": 0.8,
+        "eyeDistance": 3.99,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.038,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.0449170186752923,
+      "nominal_margin_mm": 3.5091420840072107,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.036893884683181,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.0023074265777669467,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 274,
+      "state": {
+        "version": 1,
+        "radius": 0.8,
+        "eyeDistance": 3.99,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.043,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.0449170186752923,
+      "nominal_margin_mm": 1.1229254668823074,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.01983797603316262,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.000164394669459611,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 274,
+      "state": {
+        "version": 1,
+        "radius": 0.8,
+        "eyeDistance": 3.99,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.043,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.0449170186752923,
+      "nominal_margin_mm": 3.5091420840072107,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.036893884683181,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.00748743718592948,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 277,
+      "state": {
+        "version": 1,
+        "radius": 0.8,
+        "eyeDistance": 3.99,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.048,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.0449170186752923,
+      "nominal_margin_mm": 1.1229254668823074,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.01983797603316262,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 8.100792407716995e-05,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 277,
+      "state": {
+        "version": 1,
+        "radius": 0.8,
+        "eyeDistance": 3.99,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.048,
+        "reticleWidth": 0.225,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.0449170186752923,
+      "nominal_margin_mm": 3.5091420840072107,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.036893884683181,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.016883995778831817,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 113,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.043,
+        "reticleWidth": 0.22725,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.047368770468628085,
+      "nominal_margin_mm": 1.1842192617157021,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.019676170251965885,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 7.19008989378267e-05,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 113,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.043,
+        "reticleWidth": 0.22725,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.047368770468628085,
+      "nominal_margin_mm": 3.7006851928615694,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.038510428149459486,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.0006135281455321717,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 116,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.048,
+        "reticleWidth": 0.22725,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.047368770468628085,
+      "nominal_margin_mm": 1.1842192617157021,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.019676170251965885,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.0007984227614663553,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 116,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.048,
+        "reticleWidth": 0.22725,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.047368770468628085,
+      "nominal_margin_mm": 3.7006851928615694,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.038510428149459486,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.0006135281455321717,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 110,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.038,
+        "reticleWidth": 0.22725,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.04380000000000095,
+      "nominal_margin_mm": 1.0950000000000237,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.019676170251965885,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.0003159013454752113,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 110,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4,
+        "tableauDistance": 6,
+        "shiftX": 0.032,
+        "shiftY": 0.038,
+        "reticleWidth": 0.22725,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.04380000000000095,
+      "nominal_margin_mm": 3.421875000000074,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.038510428149459486,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.00032705678819766604,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 221,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4.01,
+        "tableauDistance": 6.01,
+        "shiftX": 0.032,
+        "shiftY": 0.043,
+        "reticleWidth": 0.22725,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.04264759905138504,
+      "nominal_margin_mm": 1.066189976284626,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.016026850266040782,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.00046784798512078396,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 221,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4.01,
+        "tableauDistance": 6.01,
+        "shiftX": 0.032,
+        "shiftY": 0.043,
+        "reticleWidth": 0.22725,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.04264759905138504,
+      "nominal_margin_mm": 3.3318436758894565,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.03412611483689787,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.00013190154514219898,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 224,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4.01,
+        "tableauDistance": 6.01,
+        "shiftX": 0.032,
+        "shiftY": 0.048,
+        "reticleWidth": 0.22725,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "U100",
+      "mm_per_unit": 100,
+      "nominal_minimum_margin": 0.04264759905138504,
+      "nominal_margin_mm": 1.066189976284626,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.016026850266040782,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.0005362266373580837,
+          "records": 9
+        }
+      }
+    },
+    {
+      "neighbor_id": 224,
+      "state": {
+        "version": 1,
+        "radius": 0.796,
+        "eyeDistance": 4.01,
+        "tableauDistance": 6.01,
+        "shiftX": 0.032,
+        "shiftY": 0.048,
+        "reticleWidth": 0.22725,
+        "selected": 1,
+        "obstruction": false,
+        "view": "mirror",
+        "screenYaw": 0
+      },
+      "scale": "R250",
+      "mm_per_unit": 312.5,
+      "nominal_minimum_margin": 0.04264759905138504,
+      "nominal_margin_mm": 3.3318436758894565,
+      "assembly_cell_stable": false,
+      "assembly_key_stable": false,
+      "primary_corner_cell_stable": false,
+      "nuisance_cell_stable": false,
+      "pupil": {
+        "0.05": {
+          "cell_stable": true,
+          "key_stable": true,
+          "minimum_margin": 0.03412611483689787,
+          "records": 9
+        },
+        "1.5": {
+          "cell_stable": false,
+          "key_stable": false,
+          "minimum_margin": 0.00046451224585908335,
+          "records": 9
+        }
+      }
+    }
+  ],
+  "stability_counts": {
+    "U100": {
+      "cases": 11,
+      "assembly_cell_passes": 0,
+      "assembly_key_passes": 0,
+      "tiny_pupil_passes": 10,
+      "human_scale_pupil_passes": 0
+    },
+    "R250": {
+      "cases": 11,
+      "assembly_cell_passes": 0,
+      "assembly_key_passes": 0,
+      "tiny_pupil_passes": 11,
+      "human_scale_pupil_passes": 0
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "id": "FRONTIER-036",
-  "reviewed_main_commit": "817566c6ef416b8c781e90dd6de51d59be9b53b2",
+  "id": "FRONTIER-037",
+  "reviewed_main_commit": "e9307503418fb4f60d6f8f4acf296b7da33aeaa0",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Invented horizontal cylindrical-mirror sampler tested locally:54 nominal97-cell keys,4utility cases fail assembly/pupil panels,source-selected K4 geometry absent. Other50nominal stability and actual copper/Site models remain separate. No actual K4 or publication.",
+  "decision": "Exact vertical Site model validated independently:default97 valid,729nearby states/11selected full stability panels. Default is margin-sensitive; subset tiny-aperture passes do not establish full manual apparatus. No actual K4, Source edits, owner-source archive or publication.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -422,7 +422,7 @@
       ],
       "blocker_type": "source_selected_geometry_and_physical_stability",
       "ready_for_new_K4_evaluation": false,
-      "missing": "Independent visual assembly/key rationale and a bench/source-grounded model with stable readable samples. Four tested utility cases fail tolerance panels; other50nominal poses not stability-tested.",
+      "missing": "Physical repeatable readable apparatus and independent K4 geometry/key rationale. Horizontal036 and vertical037 remain separate. Vertical default/selected states fail complete assembly panels despite tiny-aperture subset passes; other430complete neighbors not fully stability-tested.",
       "available": [
         "research/CURVED-SAMPLER-036-SPEC.md",
         "research/CURVED-SAMPLER-036-FINDINGS.md",
@@ -430,7 +430,11 @@
         "data/curved-sampler-v1.json",
         "experiments/curved_sampler.py",
         "results/CURVED-SAMPLER-036-SUMMARY.json",
-        "results/CURVED-SAMPLER-036-SITE-FIXTURES.json"
+        "results/CURVED-SAMPLER-036-SITE-FIXTURES.json",
+        "research/SITE-CYLINDER-037-SPEC.md",
+        "research/SITE-CYLINDER-037-FINDINGS.md",
+        "results/SITE-CYLINDER-037-SUMMARY.json",
+        "results/SITE-CYLINDER-037-DEFAULT-MARGINS.csv"
       ],
       "safe_replay_argv": [
         "python3",

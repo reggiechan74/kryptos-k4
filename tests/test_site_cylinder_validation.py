@@ -4,7 +4,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'experiments
 import site_cylinder_validation as s
 class SiteCylinderValidationTests(unittest.TestCase):
  @classmethod
- def setUpClass(cls):cls.source=json.load(gzip.open(ROOT/'results/SITE-CYLINDER-037-SOURCE-SNAPSHOT.json.gz','rt'));cls.rows=cls.source['tableau_rows']
+ def setUpClass(cls):full=json.load(gzip.open(ROOT/'results/SITE-CYLINDER-037-SOURCE-SNAPSHOT.json.gz','rt'));cls.source={k:v for k,v in full.items() if k!='neighborhood'};cls.rows=cls.source['tableau_rows']
  def test_source_default_and_all_invalid_fixtures(self):
   for case in self.source['cases']:
    actual=s.generate(case['state'],self.rows);self.assertEqual(actual['key'],case['result']['key']);self.assertEqual(actual['validCount'],case['result']['validCount'])
@@ -34,6 +34,6 @@ class SiteCylinderValidationTests(unittest.TestCase):
  def test_frozen_neighborhood_global_and_codec(self):
   rows=list(s.neighborhood());self.assertEqual(len(rows),729);self.assertEqual(len({tuple(x[1][k] for k in s.PARAMS) for x in rows}),729);self.assertEqual(sum(x[1]==s.DEFAULTS for x in rows),1)
   for _,state in rows:s.validate(state)
-  default=s.generate(s.DEFAULTS,self.rows);cipher=s.addition(self.source['synthetic']['message'],default['key']);self.assertEqual(cipher,self.source['synthetic']['cipher']);self.assertEqual(s.addition(cipher,default['key'],True),self.source['synthetic']['message'])
+  default=s.generate(s.DEFAULTS,self.rows);self.assertEqual(s.generate(dict(s.DEFAULTS,selected=97,view='screen',screenYaw=60),self.rows),default);cipher=s.addition(self.source['synthetic']['message'],default['key']);self.assertEqual(cipher,self.source['synthetic']['cipher']);self.assertEqual(s.addition(cipher,default['key'],True),self.source['synthetic']['message'])
  def test_card_touch_and_explicit_transcript_registration(self):
   self.assertTrue(s.blocked((0,1,4),(0,1,.8)));self.assertFalse(s.blocked((2,1,4),(2,1,.8)));self.assertEqual(len(self.rows),28);self.assertFalse(self.rows[0].startswith(' '));self.assertEqual(self.rows[14].count('L'),2)

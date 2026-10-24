@@ -1,0 +1,19 @@
+{
+  "kind": "Exact Site-model validation coverage update; no new hypothesis or actual K4 test",
+  "entries": 63,
+  "statuses": {
+    "evidence-blocked": 16,
+    "narrow negative": 24,
+    "analytical exclusion": 13,
+    "non-identifiable": 10
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "1479f1f4ced5d9a3cec8bf156c75c55a5818d4a6d40a72a15b965b958697ba55"
+  },
+  "updated_stable_id": "H-CYLINDRICAL-MIRROR-SAMPLER",
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-036.json",
+  "previous_snapshot_commit": "e9307503418fb4f60d6f8f4acf296b7da33aeaa0",
+  "actual_K4_evaluations": 0,
+  "publication_authorized": false,
+  "Site_source_edited_or_archived": false
+}

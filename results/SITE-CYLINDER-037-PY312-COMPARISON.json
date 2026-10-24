@@ -1,0 +1,18 @@
+{
+  "kind": "Complete sequential-memory cross-version model replay; every discrete value exact, all floats absolute tolerance1e-9",
+  "started_at_utc": "2026-10-24T15:40:19.981325+00:00",
+  "finished_at_utc": "2026-10-24T15:40:23.010407+00:00",
+  "complete": true,
+  "discrete_structure_sha256": "901ab56bc6619bd5b68a81d9df1d1815fcf18be613a549718c2479958f1a3312",
+  "floats_compared": 494004,
+  "maximum_absolute_float_difference": 1.8038903704109543e-12,
+  "different_floats": 158699,
+  "excluded_metadata": [
+    "*_utc",
+    "elapsed_seconds",
+    "peak_rss_bytes"
+  ],
+  "actual_K4_evaluations": 0,
+  "geometry_unchanged": true,
+  "io_only_replay_adapter": "experiments/replay_site_cylinder037_stream.py"
+}

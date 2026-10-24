@@ -6,7 +6,9 @@ This repository records an attempt to understand **K4, the final 97-letter secti
 
 **New physical diagnostic:** [projection-ray concurrence](research/PROJECTION-CONCURRENCE-029-FINDINGS.md) is now synthetic-validated and preregistered for independent photo correspondences. Real-data fitting remains evidence-blocked; no measured monument result is claimed.
 
-**Latest local investigation:** [ideal curved-mirror sampler](research/CURVED-SAMPLER-036-FINDINGS.md) generates 54 nominal keys; the four utility cases tested fail assembly/pupil stability. This invented horizontal-table model is separate from actual copper and the Site’s vertical-tableau illustration. No K4 fit or physical replica.
+**Latest local investigation:** [exact Site cylinder validation](research/SITE-CYLINDER-037-FINDINGS.md) confirms all 97 nominal default samples, but the tested default/nearby assemblies are sensitive. Per-cell margins, size/aperture tradeoffs and untested physical limits are explicit. No actual K4 fit, Site edits or push.
+
+**Prior local investigation:** [ideal curved-mirror sampler](research/CURVED-SAMPLER-036-FINDINGS.md) generates 54 nominal keys; the four utility cases tested fail assembly/pupil stability. This invented horizontal-table model is separate from actual copper and the Site’s vertical-tableau illustration. No K4 fit or physical replica.
 
 **Prior local investigation:** [ordinary prose covers without a 15-word assumption](research/PROSE-COVER-035-FINDINGS.md) derives length from full word lattices. A complete 105,456-setting autokey domain produced no covers in the tested lexicons; calibration also exposes missing genuine English words. The broader hypothesis remains open. No push or Site change.
 
@@ -16,7 +18,7 @@ This repository records an attempt to understand **K4, the final 97-letter secti
 
 K1–K3 serve as known-answer controls. Public reports of archival plaintext recovery are distinct from a published, reproducible cryptanalytic solution; see the [source verification](docs/source-verification-2026-10-18.md). This workspace does not claim independently to know all of K4’s plaintext.
 
-**[Open the live Kryptos Light Laboratory on ChatGPT](https://kryptos-light-laboratory-rc2026.milky-lion-6014.chatgpt.site)** for interactive monument, light and cipher visualizations. Its geometry is illustrative, not a surveyed physical reconstruction. The downloadable fold-and-slide HTML below is a separate offline research artifact; the live Site includes the manual row/column overlay and synthetic projection diagnostic ([version 17 source/provenance](docs/site-source/projection-v17-20261024/README.md)). The photographic view has zero certified pairs or real fits. The predefined integer row/column scan is now calibrated in the research report below; other manual exploration remains descriptive.
+**[Open the live Kryptos Light Laboratory on ChatGPT](https://kryptos-light-laboratory-rc2026.milky-lion-6014.chatgpt.site)** for interactive monument, light and cipher visualizations. Its geometry is illustrative, not a surveyed physical reconstruction. The downloadable fold-and-slide HTML below is a separate offline research artifact; the live Site includes the manual row/column overlay and synthetic projection diagnostic ([archived version 17 source/provenance](docs/site-source/projection-v17-20261024/README.md)). The photographic view has zero certified pairs or real fits. The predefined integer row/column scan is now calibrated in the research report below; other manual exploration remains descriptive.
 
 ## Start here
 
@@ -24,7 +26,7 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | --- | --- |
 | Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 63 stable family IDs, linked to exact coverage |
 | Find an experiment, its date, result, code and receipts | [Experiment tracker](docs/tracking/EXPERIMENTS.md) and [recorded run receipts](docs/tracking/RECEIPTS.md) |
-| See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-036.json) |
+| See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-037.json) |
 | Explore item 1’s systematic row-plus-column scan | [Findings](research/FOLD-SLIDE-2D-FINDINGS.md), [every 2D shift](results/FOLD-SLIDE-2D-001-frames.csv), [count maps](research/figures/fold-slide-2d-001.svg); the [earlier offline slider](research/figures/fold-slide-020.html) is column-only |
 | Compare all eight scopes and outcomes | [Eight-item summary](research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md) — complete investigation does not mean a solved or exhausted family |
 | Inspect the final one-edit robustness study | [Exact counts, ambiguity and controls](research/ONE-EDIT-028-FINDINGS.md); canonical ciphertext is unchanged |

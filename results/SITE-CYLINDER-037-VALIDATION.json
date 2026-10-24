@@ -1,0 +1,71 @@
+{
+  "kind": "Completed local exact vertical Site numeric/default and finite physical stability validation",
+  "recorded_at_utc": "2026-10-24T15:46:58.897398+00:00",
+  "regressions": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T15:44:00.246899+00:00",
+      "finished_at_utc": "2026-10-24T15:45:10.249453+00:00",
+      "elapsed_seconds": 70.002425291,
+      "exit_code": 0,
+      "log": "results/SITE-CYLINDER-037-python39.log.txt",
+      "tests": 665,
+      "log_sha256": "d34a1796f91b4cd154e30ead2179485d2d6f0b6bee5bf63a3c6322cc239d1d7d"
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T15:45:10.249678+00:00",
+      "finished_at_utc": "2026-10-24T15:46:06.952545+00:00",
+      "elapsed_seconds": 56.702537459,
+      "exit_code": 0,
+      "log": "results/SITE-CYLINDER-037-python312.log.txt",
+      "tests": 665,
+      "log_sha256": "1a6c7c7a7f0ad8ef7e78cec0cb6f95766c219315688ee820239b40a29501ee4f"
+    }
+  ],
+  "source_sha256": {
+    "research/SITE-CYLINDER-037-SPEC.md": "5bb3f73ba6dcd7e17bf758f430efe6035958e795c7be40f0aa1701971893b888",
+    "research/SITE-CYLINDER-037-FINDINGS.md": "cda2f767644d8d5fc06974a365a0ff8f12d276d03f29c84e89bc2ebcaadd83eb",
+    "experiments/site_cylinder_validation.py": "c50039655c7b7a837fe926c52a4f99cc33d0ffd677d68d9a043b4d0dc29ba624",
+    "experiments/run_site_cylinder_validation.py": "2e0c0e06b911ec95a093f77651e3f2c2b998df2601d0e551a541d11810e7da26",
+    "experiments/replay_site_cylinder037_stream.py": "eaf21bb7640ca2be472411642e05a7b0235aa26fa51bb36ac47e62004ded3cc6",
+    "experiments/compare_site_cylinder037.py": "341ba6366a19ab98d85de48fb04176524d08e1d4bc964898239cf6e6656f6a8e",
+    "experiments/export_site_cylinder037.py": "564dd2dffed68c0cf0c0e56e2d61891039794b817fccdeb641980aa88177c6b5",
+    "experiments/snapshot_site_cylinder037.mjs": "4f7e8036b1e07f007f83d56af7086b5bbb21a0d60bfdf2441ca36cd984fc8f5b",
+    "results/SITE-CYLINDER-037-SUMMARY.json": "63a80165d6964cb01a21ac1419c6cf23b81cf672ce87a065b0ee48f567a039f7",
+    "results/SITE-CYLINDER-037-DEFAULT-MARGINS.csv": "88849a3e4d2432769348c1387aba9fe5414526970652a9c09b10ab8a65240699",
+    "results/SITE-CYLINDER-037-SOURCE-SNAPSHOT.json.gz": "702e319a0663e5a7838fc9ba9a931588d20cb0f7fcc94dd7944aee4f806572af",
+    "results/SITE-CYLINDER-037-PY312-COMPARISON.json": "0680e58f1d81d054ff3157abfc5594a70abd381b7873cc803079de36ceb1f563",
+    "results/SITE-CYLINDER-037-RESOURCE-REPLAY.json": "e6b389caf17c3a2b37cf84368db04547bee20c0c1cd0593e69bdedaa052b0716"
+  },
+  "Site_source_tested_commit": "5b7e88365f174106ef7a7f290a0bdcc671014f01",
+  "source_numeric_samples_compared": 71198,
+  "default_valid_samples": 97,
+  "neighborhood_states": 729,
+  "neighborhood_complete_states": 441,
+  "selected_full_stability_states": 11,
+  "unselected_complete_states": 430,
+  "scales": 2,
+  "full_assembly_passes": 0,
+  "default_margin_pitch": 0.01784193946678414,
+  "default_min_margin_samples": [
+    25,
+    56,
+    87
+  ],
+  "default_tiny_pupil_pass": {
+    "U100": false,
+    "R250": true
+  },
+  "human_scale_pupil_passes": 0,
+  "original_whole_process_serialization_peak": "not measured; IO-only streaming replay independently measured under cap",
+  "actual_K4_evaluations": 0,
+  "Site_source_modified": false,
+  "Site_program_source_archived": false,
+  "Site_UI_tests_executed": false,
+  "publication_authorized": false,
+  "push_attempted": false,
+  "canonical_K4_unchanged": true,
+  "prior036_unchanged": true,
+  "unrelated_untracked_preserved": 210
+}

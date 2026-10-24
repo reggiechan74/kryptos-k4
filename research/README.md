@@ -156,3 +156,7 @@ Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLEC
 ## Curved optical sampler
 
 [Ideal cylindrical sampler036](CURVED-SAMPLER-036-FINDINGS.md): nominal97-sample feasibility, finite sensitivity failures and independent ray/cell validation. [API/Site distinction](CURVED-SAMPLER-036-API.md). No actual K4 domain or physical replica.
+
+## Exact Site cylinder follow-through
+
+[Exact vertical Site model037](SITE-CYLINDER-037-FINDINGS.md) independently confirms default/invalid rays and729neighbors, exports all97default margins and tests physical-scale/pupil sensitivity. Preserve horizontal036 separately; no actual K4 or owner-source archive.

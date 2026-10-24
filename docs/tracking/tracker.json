@@ -751,14 +751,14 @@
     {
       "id": "H-CYLINDRICAL-MIRROR-SAMPLER",
       "Status": "evidence-blocked",
-      "Mechanism": "Eight global ideal-cylinder/eye/reticle/table parameters select 97 public-tableau cell labels, followed by ordinary reversible keyed arithmetic; actual curved-copper viewing is a separate mechanism.",
+      "Mechanism": "Global ideal-cylinder/eye/reticle/table parameters (eight for horizontal036, six source parameters for vertical037) select 97 public-tableau cell labels, followed by ordinary reversible keyed arithmetic; actual curved-copper viewing is a separate mechanism.",
       "Evidence": "User's artistic/manual-process proposal and actual monument curvature motivate exploration, not a historical mirror/geometry key. Classical reflection predates Kryptos; no AI guarantee or creator attribution follows.",
-      "Tested scope": "CURVED-SAMPLER-036 synthetic horizontal-table model: 560 optical settings, 45,252 global table poses, 54 nominal complete keys; four utility-gate poses fail declared assembly and both pupil panels. All 54,320 rays and 4,389,444 cell decisions independently replay. Four-key synthetic panel plants recover with held-out letters; 31 matched nulls complete. Zero actual K4 evaluations.",
-      "Untested scope": "Stability of 50 other complete lower-density poses, continuous geometry outside the finite panel, physical replicas/real glyph recognition, actual copper reflectance/contours, and the Site's different vertical-tableau model. Failures do not exclude all optical mechanisms.",
+      "Tested scope": "CURVED-SAMPLER-036 synthetic horizontal-table model: 560 optical settings, 45,252 global table poses, 54 nominal complete keys; four utility-gate poses fail declared assembly and both pupil panels. All 54,320 rays and 4,389,444 cell decisions independently replay. Four-key synthetic panel plants recover with held-out letters; 31 matched nulls complete. SITE-CYLINDER-037 independently replays the actual vertical Site default/invalid fixtures and729 nearby states;441 complete,186 preserve default key. All11 selected states fail full assembly panels at2scales; tiny-aperture subsets pass, human-scale pupil subsets fail. Per-cell margins and complete replay retained. Zero actual K4 evaluations.",
+      "Untested scope": "Stability of 50 other complete lower-density poses, continuous geometry outside the finite panel, physical replicas/real glyph recognition, actual copper reflectance/contours, 430 other complete vertical037 neighbor states not full stability-tested, and continuous Source geometry outside037. Full eye optics/physical replica remain untested. Failures do not exclude all optical mechanisms.",
       "Missing inputs": "Source-selected apparatus/reticle/alignment/key rule, demonstrated bench stability/readability and an independently justified actual K4 geometry domain. The monument is not established as this ideal polished cylinder.",
       "Next discriminating test": "Freeze a source-supported visual assembly or controlled physical replica with uncertainty/occlusion/readability and held-out observations; do not fit97 positions or add arbitrary geometry after English-looking outcomes.",
       "Dependencies": "Same public transcript cells and fixed 4/31/31/31 reticle, no per-point adjustment; keep symbolic cell identity separate from measured apertures, mirror imagery and transmitted light. Point-eye/pupil assumptions and parameter registration must be explicit.",
-      "Results": "[Findings](CURVED-SAMPLER-036-FINDINGS.md), [API/model distinction](CURVED-SAMPLER-036-API.md), [complete summary](../results/CURVED-SAMPLER-036-SUMMARY.json), [nominal and failure fixtures](../results/CURVED-SAMPLER-036-SITE-FIXTURES.json). Nominal feasibility is not a robust manual device, physical monument result or recovered K4 key."
+      "Results": "[Exact Site vertical-model validation037](SITE-CYLINDER-037-FINDINGS.md), [Findings](CURVED-SAMPLER-036-FINDINGS.md), [API/model distinction](CURVED-SAMPLER-036-API.md), [complete summary](../results/CURVED-SAMPLER-036-SUMMARY.json), [nominal and failure fixtures](../results/CURVED-SAMPLER-036-SITE-FIXTURES.json). Nominal feasibility is not a robust manual device, physical monument result or recovered K4 key."
     }
   ],
   "experiments": [
@@ -3863,6 +3863,91 @@
         "results/CURVED-SAMPLER-036-VALIDATION.json"
       ],
       "original_entry": "- Date: 24 October 2026 UTC; synthetic horizontal-table sampler only, no actual K4 fit or publication.\n- [Frozen protocol](CURVED-SAMPLER-036-SPEC.md), [findings](CURVED-SAMPLER-036-FINDINGS.md), [API](CURVED-SAMPLER-036-API.md), [full summary](../results/CURVED-SAMPLER-036-SUMMARY.json), [lossless original](../results/CURVED-SAMPLER-036-ORIGINAL.json.gz), [all poses](../results/CURVED-SAMPLER-036-poses.jsonl.gz).\n- Original UTC start/end: 2026-10-24T15:02:42.758132+00:00 / 2026-10-24T15:02:55.969582+00:00. 560 optical settings, 419 complete/141 invalid footprints, 45,252 table poses, 54 nominal 97-cell keys. Four utility cases (82–83 cells/all 26 letters) fail assembly/pupil benchmark; 50 lower-density complete cases not stability-tested. No continuous-domain exclusion.\n- [Independent 54,320-ray validation](../results/CURVED-SAMPLER-036-RAY-VALIDATION.json), [independent 4,389,444-cell audit](../results/CURVED-SAMPLER-036-INDEPENDENT-CELL-AUDIT.json), [full Python3.12 comparison](../results/CURVED-SAMPLER-036-PY312-COMPARISON.json): discrete exact, floats within 1e-9 absolute.\n- Supplied four-key panel:all 4 plants recovered,13 known letters leave 2 classes and 11 held-out retain 1; 31 synthetic whole-family nulls maximum 5/24, zero full matches. Not continuous geometry recovery or real K4 significance.\n- [Site fixtures](../results/CURVED-SAMPLER-036-SITE-FIXTURES.json) and [read-only Site contract comparison](../results/CURVED-SAMPLER-036-SITE-CONTRACT-COMPARISON.json). Site vertical tableau is different from research horizontal table; no Site test/deployment/source archive performed here. Physical replica, glyph/reflectance/pupil realism and independent K4 geometry rationale remain unresolved.\n\n- Final local aggregate validation: 651 tests pass on Python3.9/3.12; [UTC receipt/full logs](../results/CURVED-SAMPLER-036-VALIDATION.json). No actual K4 fit, repository publication, Site edit or owner-source archive by this task."
+    },
+    {
+      "record_id": "LOG-2F26BB26A8",
+      "experiment_ids": [
+        "SITE-CYLINDER-037"
+      ],
+      "title": "SITE-CYLINDER-037 — exact vertical Site replay and physical-scale sensitivity",
+      "categories": [
+        "exact source-model replay",
+        "finite sensitivity benchmark",
+        "synthetic codec controls",
+        "physical-scale and eye-model limits"
+      ],
+      "outcome": "Default97valid confirmed;all11selected assembly cases fail atboth scales; some tiny-pupil subsets pass, no full manual validation or actual K4",
+      "classification_basis": "Pinned source read-only numeric snapshot, independent71198sample replay,729neighbors,all3564sensitivity outputs,full tolerant cross-version comparison and whole-process streaming measurement",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "24 October 2026 UTC. Local exact-source optical validation, not actual K4 or Site UI/publication work.",
+      "date_only": {
+        "date": "2026-10-24",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/SITE-CYLINDER-037-PY312-COMPARISON.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T15:40:19.981325Z",
+          "original": "2026-10-24T15:40:19.981325+00:00"
+        },
+        {
+          "receipt": "results/SITE-CYLINDER-037-PY312-COMPARISON.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T15:40:23.010407Z",
+          "original": "2026-10-24T15:40:23.010407+00:00"
+        },
+        {
+          "receipt": "results/SITE-CYLINDER-037-RESOURCE-REPLAY.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:33:51.594977Z",
+          "original": "2026-10-24T15:33:51.594977+00:00"
+        },
+        {
+          "receipt": "results/SITE-CYLINDER-037-SUMMARY.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T15:28:59.235487Z",
+          "original": "2026-10-24T15:28:59.235487+00:00"
+        },
+        {
+          "receipt": "results/SITE-CYLINDER-037-SUMMARY.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T15:29:03.878526Z",
+          "original": "2026-10-24T15:29:03.878526+00:00"
+        },
+        {
+          "receipt": "results/SITE-CYLINDER-037-VALIDATION.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:46:58.897398Z",
+          "original": "2026-10-24T15:46:58.897398+00:00"
+        }
+      ],
+      "links": [
+        "research/SITE-CYLINDER-037-FINDINGS.md",
+        "research/SITE-CYLINDER-037-SPEC.md",
+        "results/SITE-CYLINDER-037-DEFAULT-MARGINS.csv",
+        "results/SITE-CYLINDER-037-ORIGINAL.json.gz",
+        "results/SITE-CYLINDER-037-PY312-COMPARISON.json",
+        "results/SITE-CYLINDER-037-RESOURCE-REPLAY.json",
+        "results/SITE-CYLINDER-037-SOURCE-SNAPSHOT.json.gz",
+        "results/SITE-CYLINDER-037-SUMMARY.json",
+        "results/SITE-CYLINDER-037-VALIDATION.json"
+      ],
+      "receipt_paths": [
+        "results/SITE-CYLINDER-037-PY312-COMPARISON.json",
+        "results/SITE-CYLINDER-037-RESOURCE-REPLAY.json",
+        "results/SITE-CYLINDER-037-SUMMARY.json",
+        "results/SITE-CYLINDER-037-VALIDATION.json"
+      ],
+      "original_entry": "- Date: 24 October 2026 UTC. Local exact-source optical validation, not actual K4 or Site UI/publication work.\n- [Frozen protocol](SITE-CYLINDER-037-SPEC.md), [findings](SITE-CYLINDER-037-FINDINGS.md), [summary](../results/SITE-CYLINDER-037-SUMMARY.json), [all default margins](../results/SITE-CYLINDER-037-DEFAULT-MARGINS.csv), [numeric source snapshot](../results/SITE-CYLINDER-037-SOURCE-SNAPSHOT.json.gz), [complete original](../results/SITE-CYLINDER-037-ORIGINAL.json.gz).\n- Original computation UTC start/end: 2026-10-24T15:28:59.235487+00:00 / 2026-10-24T15:29:03.878526+00:00; final archive-write resources separate. Pinned inspected Site core5b7e883, same vertical-tableau contract. Independent485fixture and70713neighbor sample comparisons agree to1e-9; default97valid, minmargin0.017841939pitch at25/56/87.\n- Frozen729neighbors:441complete,186same default key,11keys. Baseline plus10margin-ranked states:22state/scale cases,all full assembly panels fail; tiny pupil10/11U100 and11/11R250 pass, human-scale0/22. Other430complete states not full stability-tested. All3564configurations/per-cell outputs retained; no probabilities or continuous exclusion.\n- [Complete semantic replay](../results/SITE-CYLINDER-037-PY312-COMPARISON.json), [whole-process streaming resource receipt](../results/SITE-CYLINDER-037-RESOURCE-REPLAY.json): unchanged geometry, full data, peak356155392bytes/4.65seconds on measured replay. Original pre-serialization RSS does not claim final write peak.\n- Actual copper and horizontal036 remain distinct. No Site source copied/edited/archived; read-only inspected math/data executed to snapshot factual outputs. No repository push, paid check or actual K4 candidate.\n\n- Final local aggregate validation: 665 tests pass on Python3.9/3.12; [UTC receipt/full logs](../results/SITE-CYLINDER-037-VALIDATION.json). Prior036 preserved, no actual K4 comparison or Source edit/archive/publication."
     }
   ],
   "receipts": [
@@ -4681,6 +4766,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-040.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -4936,6 +5030,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-036.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-037.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -5333,6 +5434,15 @@
     },
     {
       "path": "results/FRONTIER-036.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-037.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -5802,6 +5912,15 @@
       "path": "results/HYPOTHESIS-REGISTER-036.json",
       "labels": [
         "Invented ideal-mirror family addition and source/stability gate; not actual K4 evaluation"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/HYPOTHESIS-REGISTER-037.json",
+      "labels": [
+        "Exact Site-model validation coverage update; no new hypothesis or actual K4 test"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -6646,6 +6765,99 @@
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/SITE-CYLINDER-037-ARCHIVE-MANIFEST.json",
+      "labels": [
+        "Lossless numeric archives and margin export; no copied Site program source"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:43:57.798161Z",
+          "original": "2026-10-24T15:43:57.798161+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/SITE-CYLINDER-037-PY312-COMPARISON.json",
+      "labels": [
+        "Complete sequential-memory cross-version model replay; every discrete value exact, all floats absolute tolerance1e-9"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T15:40:19.981325Z",
+          "original": "2026-10-24T15:40:19.981325+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T15:40:23.010407Z",
+          "original": "2026-10-24T15:40:23.010407+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/SITE-CYLINDER-037-RESOURCE-REPLAY.json",
+      "labels": [
+        "Whole-process resource measurement for unchanged frozen037 computation with streamed output"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:33:51.594977Z",
+          "original": "2026-10-24T15:33:51.594977+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/SITE-CYLINDER-037-SUMMARY.json",
+      "labels": [
+        "SITE-CYLINDER-037",
+        "Exact inspected Site vertical-tableau numeric replay, margins and finite manual sensitivity; not K4 or Site UI QA"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T15:28:59.235487Z",
+          "original": "2026-10-24T15:28:59.235487+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T15:29:03.878526Z",
+          "original": "2026-10-24T15:29:03.878526+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/SITE-CYLINDER-037-VALIDATION.json",
+      "labels": [
+        "Completed local exact vertical Site numeric/default and finite physical stability validation"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:46:58.897398Z",
+          "original": "2026-10-24T15:46:58.897398+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
       "status": null
     },
     {

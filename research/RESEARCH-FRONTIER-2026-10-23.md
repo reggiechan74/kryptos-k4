@@ -1,5 +1,7 @@
 # K4 frontier: what can responsibly happen next
 
+Latest local validation: [exact vertical Site default037](SITE-CYLINDER-037-FINDINGS.md) closes the cross-model loop. Nominal97valid independently verified; physical-scale sensitivity remains, no full manual apparatus or K4 geometry key. [Readiness snapshot037](../results/FRONTIER-037.json).
+
 Latest local update: [ideal cylindrical sampler036](CURVED-SAMPLER-036-FINDINGS.md) has54nominal keys, four utility cases failing tolerance panels and an open physical/source gate. Actual copper and the Site’s vertical-tableau model are distinct; no actual K4 fit. [Readiness snapshot036](../results/FRONTIER-036.json).
 
 Latest local update: [ordinary prose cover study035](PROSE-COVER-035-FINDINGS.md) derives lengths without forced boundaries and exhausts the minimum-compatible lag27 cipher slice. Zero lexical survivors is vocabulary-conditioned; K3 calibration fails too. General extraction remains non-identifiable. [Readiness snapshot035](../results/FRONTIER-035.json) itself performs no cipher evaluation.

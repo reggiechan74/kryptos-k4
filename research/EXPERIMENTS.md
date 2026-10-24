@@ -1120,3 +1120,14 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - [Site fixtures](../results/CURVED-SAMPLER-036-SITE-FIXTURES.json) and [read-only Site contract comparison](../results/CURVED-SAMPLER-036-SITE-CONTRACT-COMPARISON.json). Site vertical tableau is different from research horizontal table; no Site test/deployment/source archive performed here. Physical replica, glyph/reflectance/pupil realism and independent K4 geometry rationale remain unresolved.
 
 - Final local aggregate validation: 651 tests pass on Python3.9/3.12; [UTC receipt/full logs](../results/CURVED-SAMPLER-036-VALIDATION.json). No actual K4 fit, repository publication, Site edit or owner-source archive by this task.
+
+## SITE-CYLINDER-037 — exact vertical Site replay and physical-scale sensitivity
+
+- Date: 24 October 2026 UTC. Local exact-source optical validation, not actual K4 or Site UI/publication work.
+- [Frozen protocol](SITE-CYLINDER-037-SPEC.md), [findings](SITE-CYLINDER-037-FINDINGS.md), [summary](../results/SITE-CYLINDER-037-SUMMARY.json), [all default margins](../results/SITE-CYLINDER-037-DEFAULT-MARGINS.csv), [numeric source snapshot](../results/SITE-CYLINDER-037-SOURCE-SNAPSHOT.json.gz), [complete original](../results/SITE-CYLINDER-037-ORIGINAL.json.gz).
+- Original computation UTC start/end: 2026-10-24T15:28:59.235487+00:00 / 2026-10-24T15:29:03.878526+00:00; final archive-write resources separate. Pinned inspected Site core5b7e883, same vertical-tableau contract. Independent485fixture and70713neighbor sample comparisons agree to1e-9; default97valid, minmargin0.017841939pitch at25/56/87.
+- Frozen729neighbors:441complete,186same default key,11keys. Baseline plus10margin-ranked states:22state/scale cases,all full assembly panels fail; tiny pupil10/11U100 and11/11R250 pass, human-scale0/22. Other430complete states not full stability-tested. All3564configurations/per-cell outputs retained; no probabilities or continuous exclusion.
+- [Complete semantic replay](../results/SITE-CYLINDER-037-PY312-COMPARISON.json), [whole-process streaming resource receipt](../results/SITE-CYLINDER-037-RESOURCE-REPLAY.json): unchanged geometry, full data, peak356155392bytes/4.65seconds on measured replay. Original pre-serialization RSS does not claim final write peak.
+- Actual copper and horizontal036 remain distinct. No Site source copied/edited/archived; read-only inspected math/data executed to snapshot factual outputs. No repository push, paid check or actual K4 candidate.
+
+- Final local aggregate validation: 665 tests pass on Python3.9/3.12; [UTC receipt/full logs](../results/SITE-CYLINDER-037-VALIDATION.json). Prior036 preserved, no actual K4 comparison or Source edit/archive/publication.
