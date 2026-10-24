@@ -1,0 +1,41 @@
+{
+  "kind": "Corrected version 17 source archive aggregate regression, not Site deployment or real optical fitting",
+  "recorded_at_utc": "2026-10-24T12:27:17.009807+00:00",
+  "suites": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T12:24:54.141663+00:00",
+      "finished_at_utc": "2026-10-24T12:25:57.194344+00:00",
+      "elapsed_seconds": 63.052220084,
+      "exit_code": 0,
+      "log": "results/SITE-PROJECTION-V17-python39.log.txt",
+      "sha256": "6288f55f6a661d2c1db8c9a2a8154d9905bd249e7066901d70f268c37ba613b1",
+      "tests_passed": 595
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T12:25:57.194569+00:00",
+      "finished_at_utc": "2026-10-24T12:26:47.128903+00:00",
+      "elapsed_seconds": 49.934026749999994,
+      "exit_code": 0,
+      "log": "results/SITE-PROJECTION-V17-python312.log.txt",
+      "sha256": "52cf35f4a5a716ed1ab3eaacc3e4a5a17af1acb981c85fb75e1fec788790c1c4",
+      "tests_passed": 595
+    }
+  ],
+  "version": 17,
+  "source_commit": "2cb85a7714e12a627495f42dd3a7581c09b0b809",
+  "owner_Site_tests_attributed": 107,
+  "handed_off_JavaScript_executed": false,
+  "version16_archive_unchanged": true,
+  "real_fits": 0,
+  "new_K4_trials": 0,
+  "canonical_ciphertext_changed": false,
+  "site_deployed_here": false,
+  "parent_cloud_Chrome_QA": "Verified v17 encoding/residual wording fixes plus earlier full fixture/control/photo/export/iframe/fold review; not physical-device emulation or local Mac QA",
+  "raw_derived_patch_whitespace": "One exact Git diff blank-context line has a preserved space; excluded from authored-file whitespace check",
+  "source_sha256": {
+    "experiments/verify_projection_v17_handoff.py": "ecfe62bd952e387731870a473e42a38c231ba886e5e7aa4d97e76126b1300f5b",
+    "tests/test_projection_v17_handoff.py": "a0a6b57d0958f611386cdc5af211169d6b7c3ce5e61518d79ad53a6fc834e1b9"
+  }
+}

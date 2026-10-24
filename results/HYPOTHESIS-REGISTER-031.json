@@ -1,0 +1,18 @@
+{
+  "kind": "Corrected version 17 Site source archive snapshot; no physical-model result",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 24,
+    "analytical exclusion": 13,
+    "non-identifiable": 9
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "aafc1832383cf4c3707142907cca3cf9607542820122ff0ea125d0825a8ec9ea"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-030.json",
+  "previous_snapshot_commit": "d157fa4d1aa7113ac6a313828826e8708d8e1094",
+  "real_fits": 0,
+  "new_K4_trials": 0,
+  "archive_integration_deployed_Site": false
+}

@@ -1,8 +1,8 @@
 {
-  "id": "FRONTIER-030",
-  "reviewed_main_commit": "dab2f73e6d1a3b06269ad3c9107768138fb77e13",
+  "id": "FRONTIER-031",
+  "reviewed_main_commit": "d157fa4d1aa7113ac6a313828826e8708d8e1094",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Projection diagnostic and live version16 source archive validated at stated synthetic/static scopes. Real correspondence gate remains blocked, zero physical fits or new K4 searches; no solution claim.",
+  "decision": "Corrected live version 17 source delta and full-feature archive verified; real physical correspondence gate remains blocked. No new K4 evaluation or solution claim.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -126,7 +126,9 @@
         "research/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS-SPEC.md",
         "results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json",
         "docs/site-source/projection-20261024/README.md",
-        "results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json"
+        "results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json",
+        "docs/site-source/projection-v17-20261024/README.md",
+        "results/SITE-PROJECTION-V17-SOURCE-HANDOFF.json"
       ],
       "next_deliverable": "Source-tagged original-resolution overlapping views or measurements with pixel picks, metric control points, camera assumptions and uncertainty; fit non-K4 features and withhold a separate view/features before any optical decoding.",
       "go_no_go": "Stop before letter extraction if camera/shape/frame calibration is underidentified. Quantitative residual tolerances must derive from input uncertainty and be frozen before fitting; no invented tolerance, date, bearing or receiver.",

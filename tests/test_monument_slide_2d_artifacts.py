@@ -56,7 +56,7 @@ class TwoDimensionalArtifactTests(unittest.TestCase):
   import audit_monument_slide_2d_controls as supplement
   retained=json.loads((ROOT/'results/FOLD-SLIDE-2D-CONTROL-SUPPLEMENT-001.json').read_text());self.assertEqual(supplement.audit()['results'],retained['results']);self.assertEqual(retained['truth_in_label_statistic_maximum'],18);self.assertEqual(retained['truth_in_area_statistic_maximum'],18)
   import frontier_assessment as f,exclusion_scope_audit as a
-  entries=f.canonical((ROOT/'research/HYPOTHESES.md').read_text());sig=entries['H-SIGABA']['Untested scope'];self.assertIn('12 and 14 controllers',sig);self.assertNotIn('fail before completing a controller',sig);self.assertIn('7,638',entries['H-GLYPH-VIEW']['Tested scope']);self.assertEqual(f.assess(),json.loads((ROOT/'results/FRONTIER-030.json').read_text()));self.assertEqual(a.run(),json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-030.json').read_text()))
+  entries=f.canonical((ROOT/'research/HYPOTHESES.md').read_text());sig=entries['H-SIGABA']['Untested scope'];self.assertIn('12 and 14 controllers',sig);self.assertNotIn('fail before completing a controller',sig);self.assertIn('7,638',entries['H-GLYPH-VIEW']['Tested scope']);self.assertEqual(f.assess(),json.loads((ROOT/'results/FRONTIER-031.json').read_text()));self.assertEqual(a.run(),json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-031.json').read_text()))
 def collections_default():
  import collections
  return collections.defaultdict(lambda:[0,0,0])

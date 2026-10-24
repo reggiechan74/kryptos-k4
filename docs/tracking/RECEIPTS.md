@@ -56,6 +56,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/DOCUMENTATION-LINK-AUDIT-032.json](../../results/DOCUMENTATION-LINK-AUDIT-032.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-033.json](../../results/DOCUMENTATION-LINK-AUDIT-033.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-034.json](../../results/DOCUMENTATION-LINK-AUDIT-034.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
+| [results/DOCUMENTATION-LINK-AUDIT-035.json](../../results/DOCUMENTATION-LINK-AUDIT-035.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DYNAMIC-KEY-VALIDATION.json](../../results/DYNAMIC-KEY-VALIDATION.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
 | [results/ENE-NOTE-CHECKS.json](../../results/ENE-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-001.json](../../results/EXCLUSION-SCOPE-AUDIT-001.json) |  | Exact run start/end unknown; inspect original |
@@ -88,6 +89,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/EXCLUSION-SCOPE-AUDIT-028.json](../../results/EXCLUSION-SCOPE-AUDIT-028.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-029.json](../../results/EXCLUSION-SCOPE-AUDIT-029.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-030.json](../../results/EXCLUSION-SCOPE-AUDIT-030.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-031.json](../../results/EXCLUSION-SCOPE-AUDIT-031.json) |  | Exact run start/end unknown; inspect original |
 | [results/FACE-ROW-001-COVERAGE.json](../../results/FACE-ROW-001-COVERAGE.json) | prior-coverage audit; zero K4 evaluations | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005-controls.json](../../results/FEISTEL-SYMMETRY-005-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005.json](../../results/FEISTEL-SYMMETRY-005.json) |  | Exact run start/end unknown; inspect original |
@@ -126,6 +128,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/FRONTIER-028.json](../../results/FRONTIER-028.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-029.json](../../results/FRONTIER-029.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-030.json](../../results/FRONTIER-030.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-031.json](../../results/FRONTIER-031.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FULL-STATE-PHYSICAL-VALIDATION-001.json](../../results/FULL-STATE-PHYSICAL-VALIDATION-001.json) | FULL-STATE-PHYSICAL-VALIDATION-001 | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-COMPARISON.json](../../results/GEOMETRIC-FOLLOWUP-COMPARISON.json) |  | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json](../../results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
@@ -173,6 +176,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/HYPOTHESIS-REGISTER-028.json](../../results/HYPOTHESIS-REGISTER-028.json) | Final eight-item register snapshot with completed one-edit counterfactual | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-029.json](../../results/HYPOTHESIS-REGISTER-029.json) | Projection diagnostic register snapshot; physical family remains evidence-blocked | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-030.json](../../results/HYPOTHESIS-REGISTER-030.json) | Live projection Site source archive register snapshot; physical family still evidence-blocked | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-031.json](../../results/HYPOTHESIS-REGISTER-031.json) | Corrected version 17 Site source archive snapshot; no physical-model result | Exact run start/end unknown; inspect original |
 | [results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json](../../results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001-controls.json](../../results/IPA-FREE-MAP-001-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001.json](../../results/IPA-FREE-MAP-001.json) | IPA-FREE-MAP-001 | Exact run start/end unknown; inspect original |
@@ -244,6 +248,8 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json](../../results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json) | SITE-OVERLAY-015; Live Site source archive and static data validation; not a new K4 experiment | receipt recording: 2026-10-23T13:32:55.553417Z |
 | [results/SITE-PROJECTION-030-VALIDATION.json](../../results/SITE-PROJECTION-030-VALIDATION.json) | Final source-archive aggregate regression, not Site deployment or optical experiment timing | receipt recording: 2026-10-24T12:21:21.929364Z |
 | [results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json](../../results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json) | Projection Site source handoff integrity; not a deployment | receipt recording: 2026-10-24T12:13:37.323660Z |
+| [results/SITE-PROJECTION-V17-SOURCE-HANDOFF.json](../../results/SITE-PROJECTION-V17-SOURCE-HANDOFF.json) | Version 17 projection Site handoff, static archive integrity and owner deployment provenance | receipt recording: 2026-10-24T12:23:26.128087Z |
+| [results/SITE-PROJECTION-V17-VALIDATION.json](../../results/SITE-PROJECTION-V17-VALIDATION.json) | Corrected version 17 source archive aggregate regression, not Site deployment or real optical fitting | receipt recording: 2026-10-24T12:27:17.009807Z |
 | [results/SOLAR-BOUNDS-NOTE-CHECKS.json](../../results/SOLAR-BOUNDS-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
 | [results/SPECIFICATION-CHRONOLOGY.json](../../results/SPECIFICATION-CHRONOLOGY.json) |  | Exact run start/end unknown; inspect original |
 | [results/STAT-001-summary.json](../../results/STAT-001-summary.json) | STAT-001 | Exact run start/end unknown; inspect original |

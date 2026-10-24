@@ -1,0 +1,294 @@
+{
+  "kind": "Version 17 projection Site handoff, static archive integrity and owner deployment provenance",
+  "recorded_at_utc": "2026-10-24T12:23:26.128087+00:00",
+  "archives": {
+    "from-v16.zip": {
+      "bytes": 20582,
+      "sha256": "4ea0fb9a1826c40cce7dce3dc1f4ac361a494678769569655b659d3bdfb1dda3",
+      "members": 8,
+      "manifest_files": 7,
+      "base_commit": "543634f866b74a778b7f1b4de58a4815237dcb2f",
+      "source_commit": "2cb85a7714e12a627495f42dd3a7581c09b0b809",
+      "source_git_blobs_equal": true,
+      "manifest": {
+        "baseCommit": "543634f866b74a778b7f1b4de58a4815237dcb2f",
+        "sourceCommit": "2cb85a7714e12a627495f42dd3a7581c09b0b809",
+        "version": 17,
+        "publicAccessRevision": 2,
+        "tests": 107,
+        "renderedQA": "parent cloud browser passed v16 fixtures/photo/export/layouts; v17 encoding and residual wording recheck pending",
+        "files": [
+          {
+            "path": "PROJECTION_CONCURRENCE_QA.md",
+            "sha256": "98cf658165860cf22e6cb1ed0b06be7135d449b24239b6fa907a352c90fa1eef",
+            "bytes": 3859
+          },
+          {
+            "path": "candidate/projection-test/module.mjs",
+            "sha256": "9c9ae4e4051d757e8e2abe789afa35c5586876face6cb53e9bf5b0ddaadc6be1",
+            "bytes": 10534
+          },
+          {
+            "path": "candidate/qa/projection-mobile.html",
+            "sha256": "c47e139f67ea2a21c3d8c884192eaddcc0429376bd7e748c390adefa64bcd506",
+            "bytes": 887
+          },
+          {
+            "path": "dist/RELEASE_MANIFEST.json",
+            "sha256": "5e95b934c65de44125ab50582e8acbe40d31dd07db3d3c0f30949b06ecbacb0a",
+            "bytes": 11410
+          },
+          {
+            "path": "dist/projection-test/module.mjs",
+            "sha256": "9c9ae4e4051d757e8e2abe789afa35c5586876face6cb53e9bf5b0ddaadc6be1",
+            "bytes": 10534
+          },
+          {
+            "path": "dist/qa/projection-mobile.html",
+            "sha256": "c47e139f67ea2a21c3d8c884192eaddcc0429376bd7e748c390adefa64bcd506",
+            "bytes": 887
+          },
+          {
+            "path": "tests/projection-concurrence.test.mjs",
+            "sha256": "47e362bf9e60ab16d5a06402ce214faf4927bb58e6afcc0d139a576f2c4208a3",
+            "bytes": 8350
+          }
+        ]
+      }
+    },
+    "full-feature.zip": {
+      "bytes": 2596256,
+      "sha256": "309a8349c9bbf6b3ff5ba61d394a29c3dba21d4c22d489d373ceb290549dca0c",
+      "members": 32,
+      "manifest_files": 31,
+      "base_commit": "086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea",
+      "source_commit": "2cb85a7714e12a627495f42dd3a7581c09b0b809",
+      "source_git_blobs_equal": true,
+      "manifest": {
+        "baseCommit": "086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea",
+        "sourceCommit": "2cb85a7714e12a627495f42dd3a7581c09b0b809",
+        "version": 17,
+        "publicAccessRevision": 2,
+        "tests": 107,
+        "renderedQA": "parent cloud browser passed v16 fixtures/photo/export/layouts; v17 encoding and residual wording recheck pending",
+        "files": [
+          {
+            "path": "PROJECTION_CONCURRENCE_INTEGRATION_PLAN.md",
+            "sha256": "1b17fce9f098d2332593a27e90f7e0be4b7fb25069d4dc86742d7a04bdf13365",
+            "bytes": 6139
+          },
+          {
+            "path": "PROJECTION_CONCURRENCE_QA.md",
+            "sha256": "98cf658165860cf22e6cb1ed0b06be7135d449b24239b6fa907a352c90fa1eef",
+            "bytes": 3859
+          },
+          {
+            "path": "candidate/app.mjs",
+            "sha256": "d2acf2ba9dd0ff978e207c97aaadf3a5262f57c4ffbca1b0bdf57b8601bc7f42",
+            "bytes": 41277
+          },
+          {
+            "path": "candidate/index.html",
+            "sha256": "1830d2ccf873165a795e361b757fa08a4b5505c57ecd2f73b83de5877308e8f4",
+            "bytes": 18963
+          },
+          {
+            "path": "candidate/projection-test/RESEARCH_API.md",
+            "sha256": "c6462184de85a2f0cac9916a05a54671fc1e30443ac64f6a31565a7d8b6f242b",
+            "bytes": 4749
+          },
+          {
+            "path": "candidate/projection-test/core.mjs",
+            "sha256": "c9b39ada9f2122b6c6f49f11e9157704e2ea5f4104c8ccddf127ef8a12cbca4f",
+            "bytes": 5050
+          },
+          {
+            "path": "candidate/projection-test/fixtures.mjs",
+            "sha256": "b714d0f71d1c12d1112fb9ae6c1c38a87538893c23b08e294d8d13a0fc71e88f",
+            "bytes": 8847
+          },
+          {
+            "path": "candidate/projection-test/loc-highsmith-site.jpg",
+            "sha256": "cab93103a992620c5d20fa426c77468d70ec83197ab8a1c7484d790f4354c50d",
+            "bytes": 1239216
+          },
+          {
+            "path": "candidate/projection-test/module.mjs",
+            "sha256": "9c9ae4e4051d757e8e2abe789afa35c5586876face6cb53e9bf5b0ddaadc6be1",
+            "bytes": 10534
+          },
+          {
+            "path": "candidate/projection-test/photo-provenance.json",
+            "sha256": "d78e07df3f216b4fbaed944742cf3b6a118460e7f23034a5904905efe852338c",
+            "bytes": 883
+          },
+          {
+            "path": "candidate/projection-test/synthetic.mjs",
+            "sha256": "b9d32cb648585cf800d28d4ba4c051de425200a709be33c90a8c23d0c1063a7c",
+            "bytes": 1536
+          },
+          {
+            "path": "candidate/projection-test/view.mjs",
+            "sha256": "a17ef0ddd24f33cbf903cf297bdad4276145f078aead4bfab44113c5d3d42bca",
+            "bytes": 2719
+          },
+          {
+            "path": "candidate/qa/projection-mobile.html",
+            "sha256": "c47e139f67ea2a21c3d8c884192eaddcc0429376bd7e748c390adefa64bcd506",
+            "bytes": 887
+          },
+          {
+            "path": "candidate/style.css",
+            "sha256": "b00c451e0520b82c624ff05d0b813581637cdc1c34107ad8349ce8499ced3f6e",
+            "bytes": 11625
+          },
+          {
+            "path": "dist/RELEASE_MANIFEST.json",
+            "sha256": "5e95b934c65de44125ab50582e8acbe40d31dd07db3d3c0f30949b06ecbacb0a",
+            "bytes": 11410
+          },
+          {
+            "path": "dist/app.mjs",
+            "sha256": "1f01b5c47fbb823520b47f8f777dbecb9b21bc89fa6d05462cd3c638bdb2b986",
+            "bytes": 41284
+          },
+          {
+            "path": "dist/index.html",
+            "sha256": "25aef49e6d99a98fa1fcd374155420ff9b170fdf6bbe6be429ae92a7837545d2",
+            "bytes": 18646
+          },
+          {
+            "path": "dist/projection-test/RESEARCH_API.md",
+            "sha256": "c6462184de85a2f0cac9916a05a54671fc1e30443ac64f6a31565a7d8b6f242b",
+            "bytes": 4749
+          },
+          {
+            "path": "dist/projection-test/core.mjs",
+            "sha256": "c9b39ada9f2122b6c6f49f11e9157704e2ea5f4104c8ccddf127ef8a12cbca4f",
+            "bytes": 5050
+          },
+          {
+            "path": "dist/projection-test/fixtures.mjs",
+            "sha256": "b714d0f71d1c12d1112fb9ae6c1c38a87538893c23b08e294d8d13a0fc71e88f",
+            "bytes": 8847
+          },
+          {
+            "path": "dist/projection-test/loc-highsmith-site.jpg",
+            "sha256": "cab93103a992620c5d20fa426c77468d70ec83197ab8a1c7484d790f4354c50d",
+            "bytes": 1239216
+          },
+          {
+            "path": "dist/projection-test/module.mjs",
+            "sha256": "9c9ae4e4051d757e8e2abe789afa35c5586876face6cb53e9bf5b0ddaadc6be1",
+            "bytes": 10534
+          },
+          {
+            "path": "dist/projection-test/photo-provenance.json",
+            "sha256": "d78e07df3f216b4fbaed944742cf3b6a118460e7f23034a5904905efe852338c",
+            "bytes": 883
+          },
+          {
+            "path": "dist/projection-test/synthetic.mjs",
+            "sha256": "b9d32cb648585cf800d28d4ba4c051de425200a709be33c90a8c23d0c1063a7c",
+            "bytes": 1536
+          },
+          {
+            "path": "dist/projection-test/view.mjs",
+            "sha256": "a17ef0ddd24f33cbf903cf297bdad4276145f078aead4bfab44113c5d3d42bca",
+            "bytes": 2719
+          },
+          {
+            "path": "dist/qa/projection-mobile.html",
+            "sha256": "c47e139f67ea2a21c3d8c884192eaddcc0429376bd7e748c390adefa64bcd506",
+            "bytes": 887
+          },
+          {
+            "path": "dist/style.css",
+            "sha256": "b00c451e0520b82c624ff05d0b813581637cdc1c34107ad8349ce8499ced3f6e",
+            "bytes": 11625
+          },
+          {
+            "path": "tests/projection-concurrence.test.mjs",
+            "sha256": "47e362bf9e60ab16d5a06402ce214faf4927bb58e6afcc0d139a576f2c4208a3",
+            "bytes": 8350
+          },
+          {
+            "path": "tests/projection-local-reference.json",
+            "sha256": "d0a268a2c1b8a4b6bd898833d2b833615614eb73c30514fa71be72db4819cc7f",
+            "bytes": 95711
+          },
+          {
+            "path": "tests/projection-navigation.test.mjs",
+            "sha256": "e8f990e38fee172667a31f850cda7a0f07a6adf773f62187cf3808d49a5aa515",
+            "bytes": 1965
+          },
+          {
+            "path": "tests/projection-reference-results.json",
+            "sha256": "1a80b5ba5874d4729b2fb0ff253c5d88e6a1994074c52ef6f20502a3f047fcb3",
+            "bytes": 147239
+          }
+        ]
+      }
+    }
+  },
+  "derived_patch_sha256": "0cda4506e4f147706de5d06e48f4ce0ef858b142a8eb92e4446128f3661c5670",
+  "derived_patch_bytes": 37509,
+  "derived_patch_from_read_only_owner_git": true,
+  "source_commit": "2cb85a7714e12a627495f42dd3a7581c09b0b809",
+  "previous_source_commit": "543634f866b74a778b7f1b4de58a4815237dcb2f",
+  "deployed_version": 17,
+  "public_access_revision": 2,
+  "owner_reported_tests": 107,
+  "rendered_QA": "Parent cloud Chrome: v17 encoding and residual wording passed; earlier full v16 fixtures, controls, photo, JSON export, 390/768 iframe layouts and fold/slide/reset passed. Not physical-device emulation or local Mac QA.",
+  "Mac_rendered_QA": "blocked: locked Mac",
+  "site_deployed_here": false,
+  "JavaScript_executed_here": false,
+  "previous_archive_unchanged": true,
+  "full_feature_equals_v16_plus_delta": true,
+  "real_fits": 0,
+  "K4_trials": 0,
+  "static_checks": {
+    "archives": {
+      "from-v16.zip": {
+        "sha256": "4ea0fb9a1826c40cce7dce3dc1f4ac361a494678769569655b659d3bdfb1dda3",
+        "bytes": 20582,
+        "manifest_files": 7,
+        "original_members": 8
+      },
+      "full-feature.zip": {
+        "sha256": "309a8349c9bbf6b3ff5ba61d394a29c3dba21d4c22d489d373ceb290549dca0c",
+        "bytes": 2596256,
+        "manifest_files": 31,
+        "original_members": 32
+      }
+    },
+    "changed_paths": [
+      "PROJECTION_CONCURRENCE_QA.md",
+      "candidate/projection-test/module.mjs",
+      "candidate/qa/projection-mobile.html",
+      "dist/RELEASE_MANIFEST.json",
+      "dist/projection-test/module.mjs",
+      "dist/qa/projection-mobile.html",
+      "tests/projection-concurrence.test.mjs"
+    ],
+    "source_commit": "2cb85a7714e12a627495f42dd3a7581c09b0b809",
+    "full_feature_equals_v16_plus_delta": true,
+    "numeric_core_fixtures_and_export_code_unchanged": true,
+    "encoding_and_residual_wording_verified": true,
+    "reference_payloads_unchanged": true,
+    "handed_off_JavaScript_executed": false,
+    "site_deployed_here": false
+  },
+  "cloud_rendered_QA_verified_by_parent": {
+    "version17_targeted_fixes": "passed",
+    "wrong_pair_display": "60.000 px · residual computed",
+    "heldout_rms_px": 60,
+    "fitted_image_intersection_px": [
+      120,
+      -80
+    ],
+    "earlier_full_checks": "all eight cases, controls, JSON export, credited photo, 390/768 iframe widths, fold/slide/reset",
+    "environment": "cloud Chrome rendering, not physical-device emulation",
+    "local_Mac_QA": "blocked: locked Mac"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "baseCommit": "543634f866b74a778b7f1b4de58a4815237dcb2f",
+  "sourceCommit": "2cb85a7714e12a627495f42dd3a7581c09b0b809",
+  "version": 17,
+  "publicAccessRevision": 2,
+  "tests": 107,
+  "renderedQA": "parent cloud browser passed v16 fixtures/photo/export/layouts; v17 encoding and residual wording recheck pending",
+  "files": [
+    {
+      "path": "PROJECTION_CONCURRENCE_QA.md",
+      "sha256": "98cf658165860cf22e6cb1ed0b06be7135d449b24239b6fa907a352c90fa1eef",
+      "bytes": 3859
+    },
+    {
+      "path": "candidate/projection-test/module.mjs",
+      "sha256": "9c9ae4e4051d757e8e2abe789afa35c5586876face6cb53e9bf5b0ddaadc6be1",
+      "bytes": 10534
+    },
+    {
+      "path": "candidate/qa/projection-mobile.html",
+      "sha256": "c47e139f67ea2a21c3d8c884192eaddcc0429376bd7e748c390adefa64bcd506",
+      "bytes": 887
+    },
+    {
+      "path": "dist/RELEASE_MANIFEST.json",
+      "sha256": "5e95b934c65de44125ab50582e8acbe40d31dd07db3d3c0f30949b06ecbacb0a",
+      "bytes": 11410
+    },
+    {
+      "path": "dist/projection-test/module.mjs",
+      "sha256": "9c9ae4e4051d757e8e2abe789afa35c5586876face6cb53e9bf5b0ddaadc6be1",
+      "bytes": 10534
+    },
+    {
+      "path": "dist/qa/projection-mobile.html",
+      "sha256": "c47e139f67ea2a21c3d8c884192eaddcc0429376bd7e748c390adefa64bcd506",
+      "bytes": 887
+    },
+    {
+      "path": "tests/projection-concurrence.test.mjs",
+      "sha256": "47e362bf9e60ab16d5a06402ce214faf4927bb58e6afcc0d139a576f2c4208a3",
+      "bytes": 8350
+    }
+  ]
+}

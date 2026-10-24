@@ -1059,3 +1059,13 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Original copied contract has8 repository-relative links in its two source copies; preserve exact bytes with explicit original-source link exceptions and working canonical links in the archive guide. No silent source repair. Zero real-photo fits or new K4 trials.
 
 - Local aggregate archive regression:592 tests on Python3.9/3.12, [UTC receipt/logs](../results/SITE-PROJECTION-030-VALIDATION.json). Parent cloud review confirms version16 fixtures/controls/photo/export, with narrow QA-page encoding correction still pending source handoff; no corrected version is claimed archived.
+
+## SITE-PROJECTION-031 — corrected version 17 source archive
+
+- Date: 24 October 2026 UTC. Source archive integrity and publication provenance only; no new cipher or physical fit.
+- [Current source guide](../docs/site-source/projection-v17-20261024/README.md), [original seven-file manifest](../docs/site-source/projection-v17-20261024/snapshot/HANDOFF_MANIFEST.json), [static verifier](../experiments/verify_projection_v17_handoff.py), [UTC handoff receipt](../results/SITE-PROJECTION-V17-SOURCE-HANDOFF.json).
+- Parent-relayed native owner publication confirms version 17 live, source `2cb85a7714e12a627495f42dd3a7581c09b0b809`, public access revision 2 unchanged. Owner reports 107 tests; this full Site suite was not rerun here. Exact publication time unknown.
+- Seven-file delta and 31-file full-feature ZIP match manifest hashes and source Git blobs. Full feature equals immutable version 16 source plus delta. Encoding/visible residual wording corrected; numerical core, fixtures, photo and export code unchanged.
+- Parent cloud Chrome rendered QA passed targeted v17 fixes after earlier full eight-case/control/photo/export/390-and-768-iframe/fold checks. Not physical-device emulation or local Mac QA. No handed-off JavaScript executed or Site redeployed by archive integration.
+
+- Final local aggregate regression: 595 tests pass on Python 3.9 and 3.12; [UTC receipt and full logs](../results/SITE-PROJECTION-V17-VALIDATION.json). Version 16 archive is unchanged; corrected version 17 is separately archived.
