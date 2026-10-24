@@ -1,0 +1,34 @@
+{
+  "models": [],
+  "accounting": {
+    "L": {
+      "raw_descriptions": 23040,
+      "support_or_length_pruned": 0,
+      "first_constraints_tested": 23040,
+      "full_decryptions": 0,
+      "first_survivors": 0,
+      "all_survivors": 0
+    },
+    "B": {
+      "raw_descriptions": 23040,
+      "support_or_length_pruned": 0,
+      "first_constraints_tested": 23040,
+      "full_decryptions": 0,
+      "first_survivors": 0,
+      "all_survivors": 0
+    },
+    "G": {
+      "raw_descriptions": 23040,
+      "support_or_length_pruned": 23040,
+      "first_constraints_tested": 0,
+      "full_decryptions": 0,
+      "first_survivors": 0,
+      "all_survivors": 0
+    }
+  },
+  "first_survivors": 0,
+  "all_survivors": 0,
+  "distinct_all_plaintexts": 0,
+  "started_at_utc": "2026-10-24T01:51:39.584120+00:00",
+  "finished_at_utc": "2026-10-24T01:51:39.593230+00:00"
+}

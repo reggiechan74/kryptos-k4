@@ -1,0 +1,32 @@
+{
+  "greek_order": "\u0391\u0392\u0393\u0394\u0395\u0396\u0397\u0398\u0399\u039a\u039b\u039c\u039d\u039e\u039f\u03a0\u03a1\u03a3\u03a4\u03a5\u03a6\u03a7\u03a8\u03a9",
+  "naive_mod24_collisions": [
+    [
+      "A",
+      "Y"
+    ],
+    [
+      "B",
+      "Z"
+    ]
+  ],
+  "letter_distinct_key_streams": 5760,
+  "letter_raw_clock_descriptions": 5760,
+  "letter_streams_equal_old_binary_streams": 0,
+  "letter_descriptions_equal_old_binary_streams": 0,
+  "pair_distinct_key_streams": 5568,
+  "ordinal_ranges": [
+    {
+      "order": "row_major",
+      "minimum": 0,
+      "maximum": 295
+    },
+    {
+      "order": "reverse",
+      "minimum": 0,
+      "maximum": 284
+    }
+  ],
+  "started_at_utc": "2026-10-24T01:51:39.518587+00:00",
+  "finished_at_utc": "2026-10-24T01:51:39.583666+00:00"
+}

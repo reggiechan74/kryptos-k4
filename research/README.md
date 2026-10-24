@@ -120,3 +120,7 @@ Item 2: [conditional solar/light findings](PHYSICAL-SOLAR-002-FINDINGS.md) and [
 Item 3: [historical World Clock registration/phase analysis](WORLD-CLOCK-003-FINDINGS.md); conditional mapping constraints are distinct from a K4 cipher test.
 
 Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md), with preserved original failures and exact byte-mask comparison; no K4 gate pass.
+
+## Item 5 checkpoint
+
+[Ordinal lamp/Greek findings](LAMP-GREEK-025-FINDINGS.md) and [frozen specification](LAMP-GREEK-025-SPEC.md): three complete constructions, no first-crib survivor. Scope and variable-length alignment are explicit; broader Greek/clock mechanisms remain open.

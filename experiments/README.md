@@ -155,3 +155,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 `world_clock_003.py` enumerates exact conditional partial-inventory registrations and phase invariants; [protocol](../research/WORLD-CLOCK-003-SPEC.md), [receipts](../results/world-clock-003/README.md). It assigns no historical UTC offsets or cipher symbols.
 
 `run_sigaba_unknown_anchor.py` and `run_sigaba_unknown_anchor_byte_masks.py` are separately frozen synthetic resource comparisons; [protocol](../research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md) and [findings](../research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md). Neither reads K4 ciphertext.
+
+## Item 5: ordinal lamp/Greek codecs
+
+[Implementation](lamp_greek.py), [immutable original/replay runner](run_lamp_greek.py), [independent direct-selector validation](audit_lamp_greek.py), and [certificate replay](lamp_greek_certificates.py). Read the [frozen protocol](../research/LAMP-GREEK-025-SPEC.md) before running. These are exploratory constructions, not historical World Clock evidence.

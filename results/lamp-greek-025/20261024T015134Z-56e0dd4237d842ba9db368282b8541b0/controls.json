@@ -1,0 +1,858 @@
+{
+  "status": "passed",
+  "state_checks": 5760,
+  "escape_strings_checked": 18279,
+  "rank_checks": 702,
+  "invalid_codes_rejected": 5,
+  "raw_roundtrips": 69120,
+  "literal_plants": [
+    {
+      "planted_model": {
+        "role": "L",
+        "order": "row_major",
+        "start_minute": 0,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "L",
+            "order": "row_major",
+            "start_minute": 0,
+            "indicator": 0,
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "L",
+        "order": "row_major",
+        "start_minute": 58,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "L",
+            "order": "row_major",
+            "start_minute": 58,
+            "indicator": 1,
+            "alphabet": "KRYPTOS",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "L",
+        "order": "row_major",
+        "start_minute": 719,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "L",
+            "order": "row_major",
+            "start_minute": 719,
+            "indicator": 0,
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "L",
+        "order": "row_major",
+        "start_minute": 1438,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "L",
+            "order": "row_major",
+            "start_minute": 1438,
+            "indicator": 1,
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "L",
+        "order": "reverse",
+        "start_minute": 0,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "L",
+            "order": "reverse",
+            "start_minute": 0,
+            "indicator": 0,
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "L",
+        "order": "reverse",
+        "start_minute": 58,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "L",
+            "order": "reverse",
+            "start_minute": 58,
+            "indicator": 1,
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "L",
+        "order": "reverse",
+        "start_minute": 719,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "L",
+            "order": "reverse",
+            "start_minute": 719,
+            "indicator": 0,
+            "alphabet": "KRYPTOS",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "L",
+        "order": "reverse",
+        "start_minute": 1438,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "L",
+            "order": "reverse",
+            "start_minute": 1438,
+            "indicator": 1,
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "B",
+        "order": "row_major",
+        "start_minute": 0,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "B",
+            "order": "row_major",
+            "start_minute": 0,
+            "indicator": 1,
+            "alphabet": "KRYPTOS",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "B",
+        "order": "row_major",
+        "start_minute": 58,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "B",
+            "order": "row_major",
+            "start_minute": 58,
+            "indicator": 0,
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        },
+        {
+          "model": {
+            "role": "B",
+            "order": "row_major",
+            "start_minute": 598,
+            "indicator": 1,
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext": "WRYJUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "57eebfabdd92e2379e640ed886fee884467ec22ea31036f4b28c4c2798f85884",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 2
+    },
+    {
+      "planted_model": {
+        "role": "B",
+        "order": "row_major",
+        "start_minute": 719,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "B",
+            "order": "row_major",
+            "start_minute": 719,
+            "indicator": 1,
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "B",
+        "order": "row_major",
+        "start_minute": 1438,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "B",
+            "order": "row_major",
+            "start_minute": 1438,
+            "indicator": 0,
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "B",
+        "order": "reverse",
+        "start_minute": 0,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "B",
+            "order": "reverse",
+            "start_minute": 0,
+            "indicator": 1,
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "B",
+        "order": "reverse",
+        "start_minute": 58,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "B",
+            "order": "reverse",
+            "start_minute": 58,
+            "indicator": 0,
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "B",
+        "order": "reverse",
+        "start_minute": 719,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "B",
+            "order": "reverse",
+            "start_minute": 719,
+            "indicator": 1,
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "B",
+        "order": "reverse",
+        "start_minute": 1438,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "ciphertext_length": 97,
+      "greek_window_starts_zero_based": null,
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "B",
+            "order": "reverse",
+            "start_minute": 1438,
+            "indicator": 0,
+            "alphabet": "KRYPTOS",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "G",
+        "order": "row_major",
+        "start_minute": 0,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "ciphertext_length": 104,
+      "greek_window_starts_zero_based": [
+        25,
+        69
+      ],
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "G",
+            "order": "row_major",
+            "start_minute": 0,
+            "indicator": 0,
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "G",
+        "order": "row_major",
+        "start_minute": 58,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "ciphertext_length": 104,
+      "greek_window_starts_zero_based": [
+        25,
+        69
+      ],
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "G",
+            "order": "row_major",
+            "start_minute": 58,
+            "indicator": 1,
+            "alphabet": "KRYPTOS",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "G",
+        "order": "row_major",
+        "start_minute": 719,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 104,
+      "greek_window_starts_zero_based": [
+        25,
+        69
+      ],
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "G",
+            "order": "row_major",
+            "start_minute": 719,
+            "indicator": 0,
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "G",
+        "order": "row_major",
+        "start_minute": 1438,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 104,
+      "greek_window_starts_zero_based": [
+        25,
+        69
+      ],
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "G",
+            "order": "row_major",
+            "start_minute": 1438,
+            "indicator": 1,
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "G",
+        "order": "reverse",
+        "start_minute": 0,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 104,
+      "greek_window_starts_zero_based": [
+        25,
+        69
+      ],
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "G",
+            "order": "reverse",
+            "start_minute": 0,
+            "indicator": 0,
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        },
+        {
+          "model": {
+            "role": "G",
+            "order": "reverse",
+            "start_minute": 0,
+            "indicator": 1,
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "G",
+        "order": "reverse",
+        "start_minute": 58,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "ciphertext_length": 104,
+      "greek_window_starts_zero_based": [
+        25,
+        69
+      ],
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "G",
+            "order": "reverse",
+            "start_minute": 58,
+            "indicator": 0,
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        },
+        {
+          "model": {
+            "role": "G",
+            "order": "reverse",
+            "start_minute": 58,
+            "indicator": 1,
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "G",
+        "order": "reverse",
+        "start_minute": 719,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "ciphertext_length": 104,
+      "greek_window_starts_zero_based": [
+        25,
+        69
+      ],
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "G",
+            "order": "reverse",
+            "start_minute": 719,
+            "indicator": 0,
+            "alphabet": "KRYPTOS",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        },
+        {
+          "model": {
+            "role": "G",
+            "order": "reverse",
+            "start_minute": 719,
+            "indicator": 1,
+            "alphabet": "KRYPTOS",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    },
+    {
+      "planted_model": {
+        "role": "G",
+        "order": "reverse",
+        "start_minute": 1438,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "ciphertext_length": 104,
+      "greek_window_starts_zero_based": [
+        25,
+        69
+      ],
+      "truth_retained": true,
+      "compatible_models": [
+        {
+          "model": {
+            "role": "G",
+            "order": "reverse",
+            "start_minute": 1438,
+            "indicator": 0,
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        },
+        {
+          "model": {
+            "role": "G",
+            "order": "reverse",
+            "start_minute": 1438,
+            "indicator": 1,
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext": "XYZQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUXCKBROWNFOYJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "plaintext_sha256": "f8ddc9d2b3b6bdb5fa83af47db88f659f5de8d5abfe74102562f19a8ee0bb059",
+          "predicted_berlin": "BERLINCLOCK",
+          "all_pass": true,
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1
+    }
+  ],
+  "timing_mutations_detected": 24,
+  "known_symbol_mutations_detected": 24,
+  "elapsed_seconds": 5.092182583,
+  "started_at_utc": "2026-10-24T01:51:34.425418+00:00",
+  "finished_at_utc": "2026-10-24T01:51:39.517632+00:00"
+}

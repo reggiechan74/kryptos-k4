@@ -35,7 +35,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 | [H-CLOCK-HISTORICAL](#h-clock-historical) | evidence-blocked | Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping. |
 | [H-LAMP-MENGENLEHRE](#h-lamp-mengenlehre) | analytical exclusion | Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns. |
 | [H-GREEK-PHONETIC](#h-greek-phonetic) | narrow negative | Render English speech approximately with sourced Greek graphemes before an outer cipher. |
-| [H-LAMP-GREEK](#h-lamp-greek) | untested | A declared ordering of 24 lamp fields might index Greek symbols or generate key material. |
+| [H-LAMP-GREEK](#h-lamp-greek) | narrow negative | A declared ordering of 24 lamp fields might index Greek symbols or generate key material. |
 | [H-TREE-STATEFUL](#h-tree-stateful) | narrow negative | Letters or geometry fragments walk a tree and update cipher state carried between letters. |
 | [H-SIGABA-INSPIRED](#h-sigaba-inspired) | narrow negative | Fixed custom three-bank irregular-stepping rotor cipher with a restricted starting-key domain. |
 | [H-SIGABA](#h-sigaba) | narrow negative | Use historical irregular stepping from a complete, specified SIGABA mechanism. |
@@ -188,11 +188,11 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Mechanism: Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns.
 - Evidence: Modern supplier [functional description](https://www.berlin-uhr.com/) confirms 4/4/11/4 rows and blinking top indicator. Historical availability and user interest do not override the confirmed World Clock referent.
 - Tested scope: Only LAMP-STREAM-001: fixed 24-bit order, seconds at bit 0, minute-per-character sampling, modulo-26 output, two alphabets and two equations. Four first-crib parity certificates exclude 11,520 descriptions with zero actual phase enumeration.
-- Untested scope: Other lamp-state encodings or progression, lamp/Greek labels and complete clock-based cipher constructions remain outside this exact proof.
+- Untested scope: Other lamp-state encodings or progression remain outside this exact parity proof. Three separate ordinal lamp/Greek constructions are now narrowly tested under H-LAMP-GREEK, not covered by the old parity argument.
 - Missing inputs: No missing input for the exact exclusion; a historical creator link and independently motivated new operator remain absent.
 - Next discriminating test: Stop the frozen family; no bit-order, color, Greek weight or sampling retune after failure. Seek independent mechanism evidence before proposing another lamp cipher.
 - Dependencies: Source review and validated display inverse complete; Mengenlehreuhr remains distinct from the confirmed World Clock. This is not ordinary positional base 5.
-- Results: [Scoped proof and controls](CONDITIONAL-FACE-LAMP-FINDINGS.md) and [parity certificates](../results/CONDITIONAL-FACE-LAMP-001.json); no general lamp-family rejection.
+- Results: [Scoped proof and controls](CONDITIONAL-FACE-LAMP-FINDINGS.md) and [parity certificates](../results/CONDITIONAL-FACE-LAMP-001.json); [separate ordinal Greek pilot](LAMP-GREEK-025-FINDINGS.md), no general lamp-family rejection.
 
 ### H-GREEK-PHONETIC
 
@@ -208,15 +208,15 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 
 ### H-LAMP-GREEK
 
-- Status: untested
+- Status: narrow negative
 - Mechanism: A declared ordering of 24 lamp fields might index Greek symbols or generate key material.
-- Evidence: [source or scoped prior review](../docs/language-and-alphabet-layers.md); historical availability or user proposal does not establish creator use.
-- Tested scope: No lamp-to-Greek converter or lamp/Greek experiment; the separate Greek-phonetic outer cipher is now tested, and IPA theta is not a Greek alphabet audit.
-- Untested scope: Any reversible lamp/Greek/A–Z construction.
-- Missing inputs: Why these 24 positions have that ordering; full Greek alphabet and transliteration/framing; time progression and role of state.
-- Next discriminating test: First establish an injective framed bridge or explicit key-generator output; reject a count-only correspondence as an unspecified model.
-- Dependencies: H-LAMP-MENGENLEHRE; Greek is not English with two letters removed; no fitted Greek order
-- Results: [retained evidence and finite coverage](../docs/language-and-alphabet-layers.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Evidence: User-proposed count correspondence and [language-layer boundaries](../docs/language-and-alphabet-layers.md), not historical creator evidence. Greek ordinals are declared weights, not ancient numerals or phonetics.
+- Tested scope: LAMP-GREEK-025 implements row-major/reverse ordinal-sum letter keys, adjacent-pair rank keys with complete Greek base-24 bridges, and a prefix-framed Greek stream. 46,080 fixed L/B descriptions fail first-crib constraints; 23,040 G descriptions are support-excluded before phase enumeration. All 24 literal plants retained, including ambiguous alternatives; independent complete-selector replay agrees.
+- Untested scope: Other independently justified orders, weights, colors, rates, state updates, framing/serialization and phonetic or historical Greek mechanisms; no general Greek/lamp exclusion.
+- Missing inputs: No missing input for the completed exploratory domain; historical creator linkage and independently motivated alternatives remain absent.
+- Next discriminating test: Stop the frozen domain; require new independent mechanism evidence before tuning the ordering, bridge or timing. Count correspondence alone is not an algorithm.
+- Dependencies: H-LAMP-MENGENLEHRE; Mengenlehreuhr differs from the confirmed World Clock. Expanded G streams are parsed fully before applying English clue positions; no crib reset.
+- Results: [Item 5 findings](LAMP-GREEK-025-FINDINGS.md), [frozen protocol](LAMP-GREEK-025-SPEC.md), [original receipts](../results/lamp-greek-025/README.md). No first-crib survivor and no positive significance claim.
 
 ### H-TREE-STATEFUL
 

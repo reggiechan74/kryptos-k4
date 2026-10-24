@@ -106,11 +106,11 @@
       "Mechanism": "Use the Mengenlehreuhr lamp-count representation, not abstract World Clock columns.",
       "Evidence": "Modern supplier [functional description](https://www.berlin-uhr.com/) confirms 4/4/11/4 rows and blinking top indicator. Historical availability and user interest do not override the confirmed World Clock referent.",
       "Tested scope": "Only LAMP-STREAM-001: fixed 24-bit order, seconds at bit 0, minute-per-character sampling, modulo-26 output, two alphabets and two equations. Four first-crib parity certificates exclude 11,520 descriptions with zero actual phase enumeration.",
-      "Untested scope": "Other lamp-state encodings or progression, lamp/Greek labels and complete clock-based cipher constructions remain outside this exact proof.",
+      "Untested scope": "Other lamp-state encodings or progression remain outside this exact parity proof. Three separate ordinal lamp/Greek constructions are now narrowly tested under H-LAMP-GREEK, not covered by the old parity argument.",
       "Missing inputs": "No missing input for the exact exclusion; a historical creator link and independently motivated new operator remain absent.",
       "Next discriminating test": "Stop the frozen family; no bit-order, color, Greek weight or sampling retune after failure. Seek independent mechanism evidence before proposing another lamp cipher.",
       "Dependencies": "Source review and validated display inverse complete; Mengenlehreuhr remains distinct from the confirmed World Clock. This is not ordinary positional base 5.",
-      "Results": "[Scoped proof and controls](CONDITIONAL-FACE-LAMP-FINDINGS.md) and [parity certificates](../results/CONDITIONAL-FACE-LAMP-001.json); no general lamp-family rejection."
+      "Results": "[Scoped proof and controls](CONDITIONAL-FACE-LAMP-FINDINGS.md) and [parity certificates](../results/CONDITIONAL-FACE-LAMP-001.json); [separate ordinal Greek pilot](LAMP-GREEK-025-FINDINGS.md), no general lamp-family rejection."
     },
     {
       "id": "H-GREEK-PHONETIC",
@@ -126,15 +126,15 @@
     },
     {
       "id": "H-LAMP-GREEK",
-      "Status": "untested",
+      "Status": "narrow negative",
       "Mechanism": "A declared ordering of 24 lamp fields might index Greek symbols or generate key material.",
-      "Evidence": "[source or scoped prior review](../docs/language-and-alphabet-layers.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "No lamp-to-Greek converter or lamp/Greek experiment; the separate Greek-phonetic outer cipher is now tested, and IPA theta is not a Greek alphabet audit.",
-      "Untested scope": "Any reversible lamp/Greek/A–Z construction.",
-      "Missing inputs": "Why these 24 positions have that ordering; full Greek alphabet and transliteration/framing; time progression and role of state.",
-      "Next discriminating test": "First establish an injective framed bridge or explicit key-generator output; reject a count-only correspondence as an unspecified model.",
-      "Dependencies": "H-LAMP-MENGENLEHRE; Greek is not English with two letters removed; no fitted Greek order",
-      "Results": "[retained evidence and finite coverage](../docs/language-and-alphabet-layers.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Evidence": "User-proposed count correspondence and [language-layer boundaries](../docs/language-and-alphabet-layers.md), not historical creator evidence. Greek ordinals are declared weights, not ancient numerals or phonetics.",
+      "Tested scope": "LAMP-GREEK-025 implements row-major/reverse ordinal-sum letter keys, adjacent-pair rank keys with complete Greek base-24 bridges, and a prefix-framed Greek stream. 46,080 fixed L/B descriptions fail first-crib constraints; 23,040 G descriptions are support-excluded before phase enumeration. All 24 literal plants retained, including ambiguous alternatives; independent complete-selector replay agrees.",
+      "Untested scope": "Other independently justified orders, weights, colors, rates, state updates, framing/serialization and phonetic or historical Greek mechanisms; no general Greek/lamp exclusion.",
+      "Missing inputs": "No missing input for the completed exploratory domain; historical creator linkage and independently motivated alternatives remain absent.",
+      "Next discriminating test": "Stop the frozen domain; require new independent mechanism evidence before tuning the ordering, bridge or timing. Count correspondence alone is not an algorithm.",
+      "Dependencies": "H-LAMP-MENGENLEHRE; Mengenlehreuhr differs from the confirmed World Clock. Expanded G streams are parsed fully before applying English clue positions; no crib reset.",
+      "Results": "[Item 5 findings](LAMP-GREEK-025-FINDINGS.md), [frozen protocol](LAMP-GREEK-025-SPEC.md), [original receipts](../results/lamp-greek-025/README.md). No first-crib survivor and no positive significance claim."
     },
     {
       "id": "H-TREE-STATEFUL",
@@ -2968,6 +2968,62 @@
         "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/summary.json"
       ],
       "original_entry": "- Kind: synthetic exact-solver engineering, not new K4 cryptanalysis. Original and corrective run timestamps are recorded separately in linked manifests and every child receipt; no historical exposure time is inferred.\n- Frozen primary protocol `950ba4c`; [specification](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md), [method/proof](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-METHOD.md), [findings](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md), [coupled implementation](../experiments/sigaba_unknown_anchor_collector.py). Twelve published simulator vectors remain controls, not hardware certification.\n- Complete correctness: 70 original explicit graph comparisons/12 independent physical raw-key streams; 124 supplementary varying-input graph/controller checks/12 further raw-key streams, four genuinely varying fixtures. Byte masks match 9,743 small subset/translation cases and declared real boundary points. Prefix/gap, disconnected paths and deliberate resource controls pass.\n- Original comparison [manifest](../results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/manifest.json), [summary](../results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/summary.json): fresh baseline completes 9/7 controllers, original integrated children hit the 65-second watchdog without native coverage/RSS. Preserve unknown, not zero.\n- Correction [manifest](../results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/manifest.json), [summary](../results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/summary.json): exact byte-generated masks applied to BOTH backends, same fixtures/domains/caps; baseline completes 9/9, integrated 11/11 before wall limits. Each requests 11,881,376 controllers and all 66,058 reachable maps. Almost all remain unresolved.\n- These first-eleven prefixes are contained in prior COMPACT-018 first-12/14 coverage; no new historical full-domain coverage or K4 inference. No real-sized gate pass, no claim of recovered plant from the full selector, and no statistical speedup/general SIGABA exclusion.\n- Initial receipt bug and supplementary control assumption are preserved with [bounded diagnostic evidence](../results/sigaba-unknown-anchor-diagnostic/README.md). No new fixture or cache/time expansion after the byte-mask comparison. The proposed canonical support-signature reuse is unrun.\n- Item 5 and public Site unchanged. Publication follows the later renewed owner approval; no denied transport workaround.\n- Final validation: 519 tests pass on both supported Python versions; [separate UTC validation receipt/logs](../results/CSP889-COUPLED-024-VALIDATION.json). Original and corrected synthetic run windows remain in their manifests, not inferred from publication."
+    },
+    {
+      "record_id": "LOG-9A9514387C",
+      "experiment_ids": [
+        "LAMP-GREEK-025"
+      ],
+      "title": "LAMP-GREEK-025 — item 5 ordinal lamp labels and complete Greek codecs",
+      "categories": [
+        "finite K4 model tests",
+        "analytical constraints",
+        "synthetic validation"
+      ],
+      "outcome": "No first-crib survivor: 46,080 finite descriptions reject; 23,040 framed descriptions support-excluded; planted ambiguity retained",
+      "classification_basis": "Reviewed original UTC receipts, complete direct-selector audit and exact first-crib/support certificates; no broad Greek or clock rejection.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": null,
+      "timestamps": [
+        {
+          "receipt": "results/LAMP-GREEK-025-CERTIFICATES.json",
+          "field": "created_at_utc",
+          "role": "artifact creation",
+          "utc": "2026-10-24T01:53:20.771533Z",
+          "original": "2026-10-24T01:53:20.771533+00:00"
+        },
+        {
+          "receipt": "results/LAMP-GREEK-025-INDEPENDENT-VALIDATION.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:52:16.680577Z",
+          "original": "2026-10-24T01:52:16.680577+00:00"
+        },
+        {
+          "receipt": "results/LAMP-GREEK-025-INDEPENDENT-VALIDATION.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:52:27.185959Z",
+          "original": "2026-10-24T01:52:27.185959+00:00"
+        }
+      ],
+      "links": [
+        "experiments/audit_lamp_greek.py",
+        "experiments/lamp_greek.py",
+        "research/LAMP-GREEK-025-FINDINGS.md",
+        "research/LAMP-GREEK-025-SPEC.md",
+        "results/LAMP-GREEK-025-CERTIFICATES.json",
+        "results/LAMP-GREEK-025-INDEPENDENT-VALIDATION.json",
+        "results/LAMP-GREEK-025-VALIDATION.json",
+        "results/lamp-greek-025/README.md"
+      ],
+      "receipt_paths": [
+        "results/LAMP-GREEK-025-CERTIFICATES.json",
+        "results/LAMP-GREEK-025-INDEPENDENT-VALIDATION.json",
+        "results/LAMP-GREEK-025-VALIDATION.json"
+      ],
+      "original_entry": "- Kind: finite K4 model tests plus a support exclusion and synthetic complete-selector controls. No historical creator claim or Site change.\n- Frozen specification `b19f89c` precedes actual comparison. [Protocol](LAMP-GREEK-025-SPEC.md), [findings](LAMP-GREEK-025-FINDINGS.md), [source](../experiments/lamp_greek.py), [original run/UTC manifest](../results/lamp-greek-025/README.md).\n- Original controls start/end UTC: 2026-10-24T01:51:34.425418+00:00 / 2026-10-24T01:51:39.517632+00:00; actual selection 2026-10-24T01:51:39.584120+00:00 / 2026-10-24T01:51:39.593230+00:00. Null panel ends 2026-10-24T01:51:41.494966+00:00. These are computation timestamps, not publication or historical clock observations.\n- Scope: two physical orders, ordinal lit-field sums, 1,440 starts, two indicator states, AZ/KRYPTOS and addition/true Beaufort. Letter and adjacent-pair roles each test 23,040 descriptions and fail first-crib constraints. Framed Greek role support-excludes 23,040 descriptions with zero phase simulation; no alignment assumption needed for that invariant.\n- Results: no first-crib or Berlin-stage candidate; no full solution. All 199 histogram-shuffled whole-family controls also have zero first fits; descriptive baseline only, no significance claim.\n- Controls: 5,760 display/order comparisons, 18,279 prefix-code string roundtrips, 702 rank inverses, 69,120 raw-model unrelated-message roundtrips, all 24 literal plants retained. One pair plant has two distinct all-crib-compatible plaintexts; preserve that ambiguity. Four framed plants have two descriptions/one plaintext.\n- Separate [direct checker](../experiments/audit_lamp_greek.py) verifies complete candidate sets for 24 plants and K4, using independent row arithmetic and direct decoding; same-author implementation, not external blinded verification. [Validation receipt](../results/LAMP-GREEK-025-INDEPENDENT-VALIDATION.json); [finite phase/support certificates](../results/LAMP-GREEK-025-CERTIFICATES.json).\n- The Greek frame expands the plant 97→104 tokens and computes clue offsets after full parsing; ordinal Greek labels are not phonetic Greek. Other mechanisms remain outside coverage. Stop before item 6.\n- Final validation: 529 tests pass in both Python 3.9 and 3.12; [validation receipt and logs](../results/LAMP-GREEK-025-VALIDATION.json). No new documentation-link errors; no configured CI workflows."
     }
   ],
   "receipts": [
@@ -3406,6 +3462,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-029.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -3584,6 +3649,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-024.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-025.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -3882,6 +3954,15 @@
     },
     {
       "path": "results/FRONTIER-024.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-025.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -4267,6 +4348,15 @@
       "status": null
     },
     {
+      "path": "results/HYPOTHESIS-REGISTER-025.json",
+      "labels": [
+        "Item 5 finite ordinal lamp Greek codecs; no general Greek rejection"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json",
       "labels": [],
       "timestamps": [],
@@ -4343,6 +4433,53 @@
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
       "status": "passed"
+    },
+    {
+      "path": "results/LAMP-GREEK-025-CERTIFICATES.json",
+      "labels": [
+        "post_outcome_explanatory_replay_not_new_model_search"
+      ],
+      "timestamps": [
+        {
+          "field": "created_at_utc",
+          "role": "artifact creation",
+          "utc": "2026-10-24T01:53:20.771533Z",
+          "original": "2026-10-24T01:53:20.771533+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/LAMP-GREEK-025-INDEPENDENT-VALIDATION.json",
+      "labels": [
+        "post_outcome_independent_validation_not_original_run"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:52:16.680577Z",
+          "original": "2026-10-24T01:52:16.680577+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:52:27.185959Z",
+          "original": "2026-10-24T01:52:27.185959+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/LAMP-GREEK-025-VALIDATION.json",
+      "labels": [
+        "Aggregate post-experiment regression validation, not original K4 run"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
     },
     {
       "path": "results/LANGUAGE-MASKING-WORD-VALIDATION.json",
@@ -5414,6 +5551,125 @@
       "path": "results/k3-clock-routes-001-runs/latest.json",
       "labels": [
         "20261022T193238Z-99bf9337176c469e9d7742f2a21f2aca"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "completed"
+    },
+    {
+      "path": "results/lamp-greek-025/20261024T015134Z-56e0dd4237d842ba9db368282b8541b0/actual.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:51:39.584120Z",
+          "original": "2026-10-24T01:51:39.584120+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:51:39.593230Z",
+          "original": "2026-10-24T01:51:39.593230+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/lamp-greek-025/20261024T015134Z-56e0dd4237d842ba9db368282b8541b0/controls.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:51:34.425418Z",
+          "original": "2026-10-24T01:51:34.425418+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:51:39.517632Z",
+          "original": "2026-10-24T01:51:39.517632+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "passed"
+    },
+    {
+      "path": "results/lamp-greek-025/20261024T015134Z-56e0dd4237d842ba9db368282b8541b0/inputs.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/lamp-greek-025/20261024T015134Z-56e0dd4237d842ba9db368282b8541b0/manifest.json",
+      "labels": [
+        "Item5 ordinal lamp Greek codecs",
+        "20261024T015134Z-56e0dd4237d842ba9db368282b8541b0"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:51:34.424240Z",
+          "original": "2026-10-24T01:51:34.424240+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:51:41.498275Z",
+          "original": "2026-10-24T01:51:41.498275+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "completed"
+    },
+    {
+      "path": "results/lamp-greek-025/20261024T015134Z-56e0dd4237d842ba9db368282b8541b0/nulls.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:51:39.593506Z",
+          "original": "2026-10-24T01:51:39.593506+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:51:41.494966Z",
+          "original": "2026-10-24T01:51:41.494966+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/lamp-greek-025/20261024T015134Z-56e0dd4237d842ba9db368282b8541b0/representation.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:51:39.518587Z",
+          "original": "2026-10-24T01:51:39.518587+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:51:39.583666Z",
+          "original": "2026-10-24T01:51:39.583666+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/lamp-greek-025/latest.json",
+      "labels": [
+        "20261024T015134Z-56e0dd4237d842ba9db368282b8541b0"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",

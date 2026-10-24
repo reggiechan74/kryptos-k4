@@ -2,6 +2,8 @@
 
 Subsequent engineering update: [a complete coupled toy solver now exists](SIGABA-JOINT-TOY-FINDINGS.md); the real-sized adapter and scaling gate remain unresolved. The original assessment below is preserved as a dated snapshot; current details are in the canonical register, updated gate specification and [new readiness snapshot](../results/FRONTIER-012.json).
 
+Current item 5 update (24 October 2026): [three complete exploratory lamp/Greek constructions](LAMP-GREEK-025-FINDINGS.md) have now been implemented and narrowly rejected. The count-only gap below describes the original dated assessment, not current untested status. Current readiness is in [snapshot 025](../results/FRONTIER-025.json); the complete coupled SIGABA solver remains resource-limited as [item 4](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md) records. No general exhaustion or automatic next search is claimed.
+
 23 October 2026, after verified main `5d772196d40c732a6460e947d3152140b77439d6`.
 
 **K4 remains unsolved.** Review of all 60 current registered hypotheses found no new evidence-grounded K4 experiment ready with the inputs, implemented algorithms and access presently available. This is a practical research assessment, not a proof that every cipher has been exhausted. The standing authorization to continue is not the missing ingredient. No new K4 search ran for this report.

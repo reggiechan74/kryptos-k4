@@ -1,0 +1,327 @@
+{
+  "kind": "post_outcome_independent_validation_not_original_run",
+  "started_at_utc": "2026-10-24T01:52:16.680577+00:00",
+  "finished_at_utc": "2026-10-24T01:52:27.185959+00:00",
+  "elapsed_seconds": 10.505352084,
+  "complete_raw_selectors_compared": 25,
+  "plant_comparisons": [
+    {
+      "model": {
+        "role": "L",
+        "order": "row_major",
+        "start_minute": 0,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "first_survivors": 2,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "L",
+        "order": "row_major",
+        "start_minute": 58,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "first_survivors": 2,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "L",
+        "order": "row_major",
+        "start_minute": 719,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "L",
+        "order": "row_major",
+        "start_minute": 1438,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "first_survivors": 3,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "L",
+        "order": "reverse",
+        "start_minute": 0,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "first_survivors": 2,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "L",
+        "order": "reverse",
+        "start_minute": 58,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "first_survivors": 3,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "L",
+        "order": "reverse",
+        "start_minute": 719,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "first_survivors": 2,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "L",
+        "order": "reverse",
+        "start_minute": 1438,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "B",
+        "order": "row_major",
+        "start_minute": 0,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "B",
+        "order": "row_major",
+        "start_minute": 58,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "first_survivors": 2,
+      "all_survivors": 2,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "B",
+        "order": "row_major",
+        "start_minute": 719,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "B",
+        "order": "row_major",
+        "start_minute": 1438,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "B",
+        "order": "reverse",
+        "start_minute": 0,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "B",
+        "order": "reverse",
+        "start_minute": 58,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "B",
+        "order": "reverse",
+        "start_minute": 719,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "B",
+        "order": "reverse",
+        "start_minute": 1438,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "G",
+        "order": "row_major",
+        "start_minute": 0,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "G",
+        "order": "row_major",
+        "start_minute": 58,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "G",
+        "order": "row_major",
+        "start_minute": 719,
+        "indicator": 0,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "G",
+        "order": "row_major",
+        "start_minute": 1438,
+        "indicator": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "first_survivors": 1,
+      "all_survivors": 1,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "G",
+        "order": "reverse",
+        "start_minute": 0,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "first_survivors": 2,
+      "all_survivors": 2,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "G",
+        "order": "reverse",
+        "start_minute": 58,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "first_survivors": 2,
+      "all_survivors": 2,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "G",
+        "order": "reverse",
+        "start_minute": 719,
+        "indicator": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "first_survivors": 2,
+      "all_survivors": 2,
+      "complete_set_equal": true
+    },
+    {
+      "model": {
+        "role": "G",
+        "order": "reverse",
+        "start_minute": 1438,
+        "indicator": 1,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "first_survivors": 2,
+      "all_survivors": 2,
+      "complete_set_equal": true
+    }
+  ],
+  "actual_survivors": 0,
+  "independent_clock_entries": 5760,
+  "source_sha256": {
+    "audit_lamp_greek.py": "6e5540dd399353b1fbfa550bb401c97f9808250b7e43b31ea087752822fb9f3f"
+  },
+  "limitations": "Same author, separate arithmetic and direct decoder; not an external blinded audit."
+}

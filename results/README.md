@@ -77,3 +77,7 @@ See the [project overview](../README.md), [hypothesis tracker](../docs/tracking/
 [Item 3 partial World Clock analysis](world-clock-003/README.md) preserves all conditional registrations and ambiguity domains with original UTC execution timestamps.
 
 Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/README.md), [byte-mask correction](sigaba-unknown-anchor-024b/README.md) and [diagnostic failures](sigaba-unknown-anchor-diagnostic/README.md) separately.
+
+## Item 5 checkpoint
+
+[Original lamp/Greek receipts and all plants/nulls](lamp-greek-025/README.md), [independent complete-selector audit](LAMP-GREEK-025-INDEPENDENT-VALIDATION.json), [finite support/phase certificates](LAMP-GREEK-025-CERTIFICATES.json). Original run and post-outcome validation times are separate. No first-crib survivor, no significance claim.

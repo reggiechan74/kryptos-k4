@@ -1,0 +1,681 @@
+{
+  "kind": "post_outcome_explanatory_replay_not_new_model_search",
+  "created_at_utc": "2026-10-24T01:53:20.771533+00:00",
+  "support": [
+    {
+      "alphabet": "AZ",
+      "serialized_support": "ABCDEFGHIJKLMNOPQRSTUVWX",
+      "absent_actual_symbols": [
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "serialized_support": "KRYPTOSABCDEFGHIJLMNQUVW",
+      "absent_actual_symbols": [
+        "X",
+        "Z"
+      ]
+    }
+  ],
+  "first_stage_eliminations": [
+    {
+      "role": "L",
+      "alphabet": "AZ",
+      "equation": "plus",
+      "order": "row_major",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 21,
+          "allowed_keys": [
+            1
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 114
+        },
+        {
+          "operation_index": 22,
+          "allowed_keys": [
+            11
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "L",
+      "alphabet": "AZ",
+      "equation": "plus",
+      "order": "reverse",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 21,
+          "allowed_keys": [
+            1
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 115
+        },
+        {
+          "operation_index": 22,
+          "allowed_keys": [
+            11
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "L",
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "order": "row_major",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 21,
+          "allowed_keys": [
+            9
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 116
+        },
+        {
+          "operation_index": 22,
+          "allowed_keys": [
+            11
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 1
+        },
+        {
+          "operation_index": 23,
+          "allowed_keys": [
+            9
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "L",
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "order": "reverse",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 21,
+          "allowed_keys": [
+            9
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 105
+        },
+        {
+          "operation_index": 22,
+          "allowed_keys": [
+            11
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 20
+        },
+        {
+          "operation_index": 23,
+          "allowed_keys": [
+            9
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "L",
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "order": "row_major",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 21,
+          "allowed_keys": [
+            1
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 114
+        },
+        {
+          "operation_index": 22,
+          "allowed_keys": [
+            10
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "L",
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "order": "reverse",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 21,
+          "allowed_keys": [
+            1
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 115
+        },
+        {
+          "operation_index": 22,
+          "allowed_keys": [
+            10
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "L",
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "order": "row_major",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 21,
+          "allowed_keys": [
+            23
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 115
+        },
+        {
+          "operation_index": 22,
+          "allowed_keys": [
+            24
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 2
+        },
+        {
+          "operation_index": 23,
+          "allowed_keys": [
+            7
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "L",
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "order": "reverse",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 21,
+          "allowed_keys": [
+            23
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 116
+        },
+        {
+          "operation_index": 22,
+          "allowed_keys": [
+            24
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 30
+        },
+        {
+          "operation_index": 23,
+          "allowed_keys": [
+            7
+          ],
+          "modulus": 26,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "B",
+      "alphabet": "AZ",
+      "equation": "plus",
+      "order": "row_major",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 10,
+          "allowed_keys": [
+            1,
+            27,
+            53,
+            79,
+            105,
+            131,
+            157,
+            183,
+            209,
+            235,
+            261,
+            287,
+            313,
+            339,
+            365,
+            391,
+            417,
+            443,
+            469,
+            495,
+            521,
+            547,
+            573,
+            599,
+            625,
+            651
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 114
+        },
+        {
+          "operation_index": 11,
+          "allowed_keys": [
+            285
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 2
+        },
+        {
+          "operation_index": 12,
+          "allowed_keys": [
+            55
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "B",
+      "alphabet": "AZ",
+      "equation": "plus",
+      "order": "reverse",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 10,
+          "allowed_keys": [
+            1,
+            27,
+            53,
+            79,
+            105,
+            131,
+            157,
+            183,
+            209,
+            235,
+            261,
+            287,
+            313,
+            339,
+            365,
+            391,
+            417,
+            443,
+            469,
+            495,
+            521,
+            547,
+            573,
+            599,
+            625,
+            651
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 115
+        },
+        {
+          "operation_index": 11,
+          "allowed_keys": [
+            285
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "B",
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "order": "row_major",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 10,
+          "allowed_keys": [
+            9,
+            35,
+            61,
+            87,
+            113,
+            139,
+            165,
+            191,
+            217,
+            243,
+            269,
+            295,
+            321,
+            347,
+            373,
+            399,
+            425,
+            451,
+            477,
+            503,
+            529,
+            555,
+            581,
+            607,
+            633,
+            659
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 116
+        },
+        {
+          "operation_index": 11,
+          "allowed_keys": [
+            321
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "B",
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "order": "reverse",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 10,
+          "allowed_keys": [
+            9,
+            35,
+            61,
+            87,
+            113,
+            139,
+            165,
+            191,
+            217,
+            243,
+            269,
+            295,
+            321,
+            347,
+            373,
+            399,
+            425,
+            451,
+            477,
+            503,
+            529,
+            555,
+            581,
+            607,
+            633,
+            659
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 105
+        },
+        {
+          "operation_index": 11,
+          "allowed_keys": [
+            321
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "B",
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "order": "row_major",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 10,
+          "allowed_keys": [
+            1,
+            27,
+            53,
+            79,
+            105,
+            131,
+            157,
+            183,
+            209,
+            235,
+            261,
+            287,
+            313,
+            339,
+            365,
+            391,
+            417,
+            443,
+            469,
+            495,
+            521,
+            547,
+            573,
+            599,
+            625,
+            651
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 114
+        },
+        {
+          "operation_index": 11,
+          "allowed_keys": [
+            255
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "B",
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "order": "reverse",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 10,
+          "allowed_keys": [
+            1,
+            27,
+            53,
+            79,
+            105,
+            131,
+            157,
+            183,
+            209,
+            235,
+            261,
+            287,
+            313,
+            339,
+            365,
+            391,
+            417,
+            443,
+            469,
+            495,
+            521,
+            547,
+            573,
+            599,
+            625,
+            651
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 115
+        },
+        {
+          "operation_index": 11,
+          "allowed_keys": [
+            255
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "B",
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "order": "row_major",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 10,
+          "allowed_keys": [
+            23,
+            49,
+            75,
+            101,
+            127,
+            153,
+            179,
+            205,
+            231,
+            257,
+            283,
+            309,
+            335,
+            361,
+            387,
+            413,
+            439,
+            465,
+            491,
+            517,
+            543,
+            569,
+            595,
+            621,
+            647,
+            673
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 115
+        },
+        {
+          "operation_index": 11,
+          "allowed_keys": [
+            631
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    },
+    {
+      "role": "B",
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "order": "reverse",
+      "initial_clock_descriptions": 2880,
+      "stages": [
+        {
+          "operation_index": 10,
+          "allowed_keys": [
+            23,
+            49,
+            75,
+            101,
+            127,
+            153,
+            179,
+            205,
+            231,
+            257,
+            283,
+            309,
+            335,
+            361,
+            387,
+            413,
+            439,
+            465,
+            491,
+            517,
+            543,
+            569,
+            595,
+            621,
+            647,
+            673
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 116
+        },
+        {
+          "operation_index": 11,
+          "allowed_keys": [
+            631
+          ],
+          "modulus": 676,
+          "remaining_clock_descriptions": 0
+        }
+      ],
+      "final_remaining": 0
+    }
+  ],
+  "limits": "Finite clock-domain certificates, not all Greek or lamp mechanisms."
+}

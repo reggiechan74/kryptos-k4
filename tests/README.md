@@ -111,3 +111,7 @@ Regression tests include baseline fixtures, planted cases, exact tiny-system com
 ## Evolved runner provenance
 
 Historical artifact checks validate the shared `run_io.py` / `run_bounded.py` bytes at each receipt’s recorded implementation commit after those helpers evolve. Other unchanged input/model files retain their working-tree hash checks. Original receipt hashes are never rewritten to match new code. Dedicated temporary-fixture timing tests validate the current runner, including failure completion and explicit replay labels.
+
+## Item 5 controls
+
+[test_lamp_greek.py](test_lamp_greek.py) checks the complete display, Greek framing/ranks, local-key constraint equivalence, preserved original receipt hashes, support exclusion and complete independent-selector results. Full expensive original selectors are retained as receipts and separately runnable; regression checks do not silently rerun model searches.

@@ -1,0 +1,35 @@
+{
+  "kind": "Aggregate post-experiment regression validation, not original K4 run",
+  "suites": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T01:55:08.943736+00:00",
+      "finished_at_utc": "2026-10-24T01:56:09.704377+00:00",
+      "elapsed_seconds": 60.760276333,
+      "exit_code": 0,
+      "log": "results/LAMP-GREEK-025-python39.log.txt",
+      "sha256": "fe3627b2db9b520eaaf2b6b6093a6c999393322a8fb6261360c0ec7c6ebc41cb",
+      "tests_passed": 529
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T01:56:09.704641+00:00",
+      "finished_at_utc": "2026-10-24T01:56:57.910407+00:00",
+      "elapsed_seconds": 48.205577000000005,
+      "exit_code": 0,
+      "log": "results/LAMP-GREEK-025-python312.log.txt",
+      "sha256": "16461061a006c2d62d22759e374a968cd2f3c03571bd8275a9fb8588da992464",
+      "tests_passed": 529
+    }
+  ],
+  "source_sha256": {
+    "experiments/lamp_greek.py": "9b505a07301ac078b882b85f8d809df156ee1cc3e10ef59a06b5272ecbc48caf",
+    "experiments/audit_lamp_greek.py": "6e5540dd399353b1fbfa550bb401c97f9808250b7e43b31ea087752822fb9f3f",
+    "experiments/lamp_greek_certificates.py": "eae04e98812bd8a777654773ea40972d656ce72a2a740b6dbf6c25b437409100",
+    "tests/test_lamp_greek.py": "7a75f8c95505fecaa34bfd4081767c91d1d53a536da4ef889a11c8a52cdaf633"
+  },
+  "independent_implementation": "Complete raw candidate sets agree for 24 plants and actual; same author, separate direct decoder",
+  "focused_test_correction": "An initial test expectation put the expanded first clue at index 24; actual fixed plant gives index 25, as correctly computed by original run. Only the test expectation changed; code and original results unchanged.",
+  "site_changed": false,
+  "item_6_started": false
+}
