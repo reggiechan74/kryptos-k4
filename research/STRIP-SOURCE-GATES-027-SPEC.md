@@ -1,0 +1,21 @@
+# Item 7 frozen conditional strip invariants and source gates
+
+24 October 2026 UTC, before new automated replay. This protocol does not invent an M-138-A strip inventory or operating vector. It reuses the existing cyclic-row fixed-point theorem, with a new all-registration check, pending independent historical source review. Known K4 fixed points and the likely first-crib witness were inspected during design: this is not blind discovery.
+
+## Exact conditional mathematical family
+
+Each strip is any permutation W of A–Z. Encryption at a column is W[(index_W(P)+d) mod26]; decryption uses −d. Strip selection/order can be arbitrary, even changed between blocks; one d is shared across each block. Nonzero d gives no fixed letter; zero d gives the identity in every column. This necessary condition is independent of any strip table.
+
+For first-crib observations, record every identical plaintext/ciphertext pair. Test separately: (a) historical non-plaintext row, d!=0: any fixed point is impossible, regardless of block dimensions or registration; (b) relaxation permitting d=0 per block: any mixed fixed/changed observation in one block is impossible. Explicit finite registration audit uses widths1..30, every origin modulo width, total465 descriptions. This is width/origin accounting, NOT465 independent cipher searches or historical variants. Width1 with free per-letter zero/nonzero choice may pass this necessary condition and must not be called solved. Prove the stronger all-width>=2 statement from three consecutive observations changed/fixed/changed: any block containing the middle must contain one neighbor. No fixed width or source claim is inferred from this proof.
+
+Prior M-94 work used width25/origin1 and this same fixed-point logic. Mark that overlap; new bookkeeping removes the registration restriction, and authentic M-138 applicability remains conditional on the sourced procedure. Do not label arbitrary synthetic strip tables historical inventory.
+
+## Controls and source admission
+
+Before actual replay, exhaust all toy strip permutations q2..6 and all shifts, checking forward/inverse/fixed-point equivalence with an independently constructed full-row matrix. Validate all width/origin classifications against an independent explicit block partition for the toy observations. Twenty-four continuous literal-English-crib plants use declared deterministic synthetic valid strips, widths[2,3,5,25,30,30], four origin/row cases each. Include zero/nonzero block offsets, partial edge blocks and timing/row mutation controls; require exact regeneration and no false necessary-condition rejection. Synthetic plants validate mathematics, not historical machine calibration.
+
+Freeze actual ciphertext and English clue positions from data/k4.json. First block first; retain exact witnesses, zero actual key enumeration. Berlin is public, not untouched; no need to consult it if the first block rejects. No new null significance control for an exact invariant. Budget60seconds/256MiB per control or actual stage, no broad brute force. Record UTC start/end and hashes; preserve any incomplete attempt.
+
+Historical source report must be reviewed before item7 finalization. If a valid versioned M-138-A inventory and independent operating vector arrive, validate strip permutations and implement that specific sourced mechanism without silently repairing strings. If unavailable, publish only the conditional invariant and exact admission gap. Distinct Plett/Wadsworth operating conventions need actual sources/vectors; do not sweep invented hidden moves. Existing Wheatstone fixed-transition theorem remains scoped.
+
+For book/codebook, Egyptian signs and German translation: require independently selected edition/source, literal inventory, extraction/normalization, direction/ordering, full inverse or explicit ambiguity relation and global English-to-processed alignment. No invented book key, translated phrase or 26-sign mapping to force a run. State precise blocked inputs, available evidence and next discriminating source. No fabricated computational exclusion, outreach, paid access, denied-URL workaround, Site change or item8. Preserve source report and local review separately; publish validated work under standing approval only after report integration.
