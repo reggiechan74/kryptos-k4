@@ -1080,3 +1080,21 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Independent controls: 394 tiny alignment sets, 436 function-count systems, 24 planted substitutions, 624 affine and 126 mask roundtrips; all pass. General contextual correction family remains evidence-blocked, not universally excluded.
 
 - Final local validation: 608 tests pass on Python 3.9/3.12; [UTC receipt and full logs](../results/SPELLING-CORRECTION-032-VALIDATION.json), [complete cross-version replay](../results/SPELLING-CORRECTION-032-PY312-REPLAY.json). No new K4 trial or publication.
+
+## COVER-EXTRACTION-033 — post-decryption word-cover and fixed-letter constraints
+
+- Date: 24 October 2026 UTC. Local only, no push or Site change.
+- [Frozen protocol](COVER-EXTRACTION-033-SPEC.md), [findings](COVER-EXTRACTION-033-FINDINGS.md), [sources](COVER-033-034-SOURCES.md), [native solver](../experiments/cover_extraction.py), [independent oracle](../experiments/cover_extraction_reference.py), [complete original receipt](../results/COVER-EXTRACTION-033-ORIGINAL.json).
+- Original UTC start/end: 2026-10-24T13:55:39.526279+00:00 / 2026-10-24T13:55:39.790810+00:00. Strict NATO full unanchored lattice has zero covers. Four explicit custom dictionaries have huge exact cover counts; A30-ENE exact15 has 3,787,080 covers and necessary pattern ???ENE????BC???. No unknown text was decrypted.
+- Four fixed letter positions and global N1/N2 schedules, both N2 phases; all feasible coverword counts and exact15 strata, 84 nonempty lanes. Selected short words fail, no counter reset or arbitrary per-word index. ENE versus EN is separate.
+- Independent complete tiny languages, 252 real-sized fixed-message count checks and 21 synthetic Caesar roundtrip/recovery plants pass. Outer cipher/codebook supplied in controls; zero actual K4 cipher/key trials. [Cross-version replay](../results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json).
+
+## COVER-PHRASE-034 — bounded Brown short-phrase feasibility and capacity controls
+
+- Date: 24 October 2026 UTC. Local only, no push or Site change.
+- [Frozen protocol](COVER-PHRASE-034-SPEC.md), [findings](COVER-PHRASE-034-FINDINGS.md), [source pins](../results/COVER-033-034-SOURCES.json), [runner](../experiments/run_cover_phrase.py), [original summary](../results/COVER-PHRASE-034-original-summary.json), [all matched references/counts](../results/COVER-PHRASE-034-original-windows.jsonl.gz), [all controls](../results/COVER-PHRASE-034-original-controls.json.gz).
+- Original UTC start/end: 2026-10-24T14:01:20.542852+00:00 / 2026-10-24T14:01:29.259691+00:00. All 500 frozen Brown texts, 2,673,853 contiguous 2..5-word windows, 1,771,338 eligible occurrences and 1,335,926 distinct joined strings processed. No arbitrary word-product generation.
+- All-word initials have zero matches. Exact15/all-word readout has zero for all k; every-other-word cases may produce 7/8-letter output. General family has 6,358 matched occurrence references, 3,139 joined strings / 3,147 spaced strings, mostly N2. These are compatibility counts, not recovered messages or keys.
+- Six deterministic eligible synthetic plants re-encrypt full97 letters; no missing exact15 ENE plant invented. Whole-family 31 capacity draws: 24 dictionary-splittable, zero contiguous-bank matches. Not an observed K4 significance test. [Independent positive-count audit](../results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json) verifies 7,266 message/lane counts; complete tiny negative controls and exact Python3.12 replay retained. No claim of a second exhaustive corpus false-negative implementation.
+
+- Final aggregate local validation for COVER-033/034: 625 tests pass on Python3.9/3.12; [separate UTC receipt/full logs](../results/COVER-033-034-VALIDATION.json). Canonical ciphertext unchanged, no push or Site change.

@@ -1,0 +1,54 @@
+{
+  "initial_validation_failure": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T14:21:41.616211+00:00",
+      "finished_at_utc": "2026-10-24T14:22:46.311251+00:00",
+      "elapsed_seconds": 64.69422825000001,
+      "exit_code": 1,
+      "log": "results/COVER-033-034-initial-documentation-failure.log.txt"
+    }
+  ],
+  "initial_failure_reason": "Generated tracker preceded finalized new audit receipt labels; corrected generation order, then reran both full suites.",
+  "kind": "Completed local cover extraction and corpus feasibility validation; no K4 decryption or publication",
+  "recorded_at_utc": "2026-10-24T14:25:43.810244+00:00",
+  "regressions": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T14:23:31.617662+00:00",
+      "finished_at_utc": "2026-10-24T14:24:37.234364+00:00",
+      "elapsed_seconds": 65.616187042,
+      "exit_code": 0,
+      "log": "results/COVER-033-034-python39.log.txt",
+      "tests": 625,
+      "log_sha256": "9cfa1f79e867949269e667c3baa7e5e17a80110d04abe93efcb9ded12e838295"
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T14:24:37.234614+00:00",
+      "finished_at_utc": "2026-10-24T14:25:30.107144+00:00",
+      "elapsed_seconds": 52.872176083,
+      "exit_code": 0,
+      "log": "results/COVER-033-034-python312.log.txt",
+      "tests": 625,
+      "log_sha256": "d1c81e35d58faba0b647aa5399259ce9e9ba66d770029fe8812f0f55d264df00"
+    }
+  ],
+  "actual_K4_cipher_trials": 0,
+  "canonical_k4_unchanged": true,
+  "publication_authorized": false,
+  "pushed": false,
+  "Site_changed": false,
+  "unrelated_untracked_files_preserved": 210,
+  "original_core": "results/COVER-EXTRACTION-033-ORIGINAL.json",
+  "original_corpus": "results/COVER-PHRASE-034-original-summary.json",
+  "independent_positive_audit": "results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json",
+  "cross_version_payload_replay": "results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json",
+  "limitations": [
+    "Conditional source/language feasibility, not decryption",
+    "No independent outer cipher/key/codebook",
+    "Corpus negative is finite",
+    "Independent positive audit does not establish second exhaustive corpus false-negative scan",
+    "Capacity controls do not give observed K4 significance"
+  ]
+}

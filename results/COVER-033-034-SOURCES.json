@@ -1,0 +1,47 @@
+{
+  "kind": "Source pins and factual context; no raw corpus/software or full webpages committed",
+  "pages": [
+    {
+      "id": "nato",
+      "url": "https://www.nato.int/cps/en/natohq/declassified_136216.htm",
+      "status": 200,
+      "recorded_at_utc": "2026-10-24T14:12:01.931701+00:00",
+      "markdown_sha256": "cfd12026032fc38fce02a062deec2c5dc375f80edadc28890f7176942dd46e1a",
+      "raw_copy_committed": false
+    },
+    {
+      "id": "brown_manual",
+      "url": "https://listings.lib.msu.edu/public-corpora/cd421/manuals/brown/INDEX.HTM",
+      "status": 200,
+      "recorded_at_utc": "2026-10-24T14:12:01.931878+00:00",
+      "markdown_sha256": "9b55130652d02ed5e583f420e2bc0354158cad15a27049c6d3ccd5854491b97a",
+      "raw_copy_committed": false
+    },
+    {
+      "id": "world_clock_context",
+      "url": "https://www.scientificamerican.com/article/cia-kryptos-puzzle-creator-releases-final-clues/",
+      "status": 200,
+      "recorded_at_utc": "2026-10-24T14:12:01.932026+00:00",
+      "markdown_sha256": "7f59b0ba304eae133dce6a4ef7f235b3a298b94d8f276f272511de69ae7cf0bf",
+      "raw_copy_committed": false
+    }
+  ],
+  "brown_data": {
+    "source_repository": "nltk/nltk_data",
+    "source_commit": "18fcb5421e3d590673282ee5c1624facf960b52c",
+    "path": "packages/corpora/brown.zip",
+    "git_blob_sha": "8bdf3124ebe861cf11b04865fb3d552ddfb8f1fa",
+    "bytes": 3314357,
+    "sha256": "9b275f9b3b95d7bd66ccfb7cd259f445a13bbe5d1f4107aba09fd3e8364bafa6",
+    "download_method": "GitHub read-only blob API; data only, no downloaded software execution"
+  },
+  "nltk_reader_source": {
+    "commit": "ad9c96ba00a16923ffe917eacf63f1707bfa2d08",
+    "path": "nltk/corpus/reader/tagged.py",
+    "sha256": "df7198d6789cdfd1c8444dea8beb753b41fff5e6ba4463dd0f75766ec302b63c",
+    "read_statically_only": true,
+    "newline_sentence_tokenizer": true
+  },
+  "Brown_license_readme": "Distribution with copyright-holder permission; redistribution permitted. No raw corpus republished.",
+  "Brown500_member_hashes": "results/COVER-PHRASE-034-original-summary.json#corpus.member_hashes"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "Local word-cover extraction family and exact scope addition; not K4 evaluation",
+  "entries": 62,
+  "statuses": {
+    "evidence-blocked": 15,
+    "narrow negative": 24,
+    "analytical exclusion": 13,
+    "non-identifiable": 10
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "83e61225698b9afab82402e36e5caae5664307e9d82ddd3d7b4705efe8fa30d6"
+  },
+  "new_stable_id": "H-WORD-COVER-EXTRACTION",
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-032.json",
+  "previous_snapshot_commit": "97f017a7ab27b11e4638d2ac9d94e881579f5a5a",
+  "new_K4_trials": 0,
+  "publication_authorized": false,
+  "Site_changed": false
+}

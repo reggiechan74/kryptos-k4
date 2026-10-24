@@ -28,3 +28,7 @@ Pinned inputs and modeled representations. The canonical K4 ciphertext and one-b
 - [sigaba-joint-toy-v1.json](sigaba-joint-toy-v1.json)
 - [silk-red-black-chart.json](silk-red-black-chart.json)
 - [wheatstone-reference-vectors.json](wheatstone-reference-vectors.json)
+
+## Conditional cover vocabularies
+
+[cover-codebooks-033.json](cover-codebooks-033.json) exports the frozen NATO/custom vocabularies. It is a post-run convenience export, not independent creator evidence. Raw Brown corpus is not bundled; [source pins](../results/COVER-033-034-SOURCES.json).

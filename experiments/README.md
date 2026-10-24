@@ -179,3 +179,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Local deliberate-spelling study
 
 [Source constraints](spelling_correction.py), [independent edit/congruence oracles](spelling_correction_reference.py), [local runner](run_spelling_correction.py). This runner evaluates known source consistency, not K4.
+
+## Word-cover and phrase diagnostics
+
+`cover_extraction.py` / `cover_extraction_reference.py` count complete conditional covers; `run_cover_extraction.py` reproduces core counts. `cover_phrase.py` / `run_cover_phrase.py` scan the pinned Brown data-only archive; `audit_cover_phrase.py` independently checks every positive count. See [reports](../research/COVER-PHRASE-034-FINDINGS.md). No actual K4 cipher sweep.

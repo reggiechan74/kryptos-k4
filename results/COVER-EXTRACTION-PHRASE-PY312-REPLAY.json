@@ -1,0 +1,22 @@
+{
+  "kind": "Complete Python3.12 core/phrase/control payload replay; metadata times remain separate",
+  "core_models_and_plants_equal": true,
+  "phrase_counts_and_eligible_plants_equal": true,
+  "phrase_started_at_utc": "2026-10-24T14:07:44.116650+00:00",
+  "phrase_finished_at_utc": "2026-10-24T14:07:50.283484+00:00",
+  "payloads": [
+    {
+      "original": "results/COVER-PHRASE-034-original-windows.jsonl.gz",
+      "decompressed_sha256": "6fd479c7329a3fd76c1137f850ac8ec0ac1317233c5b09c37fbd3eb8c50ab474",
+      "decompressed_bytes": 1687895,
+      "exactly_equal": true
+    },
+    {
+      "original": "results/COVER-PHRASE-034-original-controls.json.gz",
+      "decompressed_sha256": "0f2e6ad3bbc160f28f63adb06399f235a9d437daf039845c35e9a12c4827c7f2",
+      "decompressed_bytes": 1564145,
+      "exactly_equal": true
+    }
+  ],
+  "K4_trials": 0
+}

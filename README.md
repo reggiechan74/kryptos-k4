@@ -6,7 +6,9 @@ This repository records an attempt to understand **K4, the final 97-letter secti
 
 **New physical diagnostic:** [projection-ray concurrence](research/PROJECTION-CONCURRENCE-029-FINDINGS.md) is now synthetic-validated and preregistered for independent photo correspondences. Real-data fitting remains evidence-blocked; no measured monument result is claimed.
 
-**Local investigation awaiting publication:** [deliberate misspelling/correction](research/SPELLING-CORRECTION-032-FINDINGS.md) found no consistent rule in the declared source tests. No new K4 trial or correction was made.
+**Local investigations awaiting publication:** [word-cover extraction](research/COVER-EXTRACTION-033-FINDINGS.md) and [short-phrase controls](research/COVER-PHRASE-034-FINDINGS.md) are complete. Custom covers remain non-identifiable; no all-word initials phrase matched the frozen Brown corpus. No actual K4 cipher trials.
+
+**Separate completed local study:** [deliberate misspelling/correction](research/SPELLING-CORRECTION-032-FINDINGS.md) found no consistent rule in the declared source tests. No new K4 trial or correction was made.
 
 K1–K3 serve as known-answer controls. Public reports of archival plaintext recovery are distinct from a published, reproducible cryptanalytic solution; see the [source verification](docs/source-verification-2026-10-18.md). This workspace does not claim independently to know all of K4’s plaintext.
 
@@ -16,9 +18,9 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 
 | If you want to… | Read |
 | --- | --- |
-| Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 61 stable family IDs, linked to exact coverage |
+| Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 62 stable family IDs, linked to exact coverage |
 | Find an experiment, its date, result, code and receipts | [Experiment tracker](docs/tracking/EXPERIMENTS.md) and [recorded run receipts](docs/tracking/RECEIPTS.md) |
-| See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-032.json) |
+| See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-034.json) |
 | Explore item 1’s systematic row-plus-column scan | [Findings](research/FOLD-SLIDE-2D-FINDINGS.md), [every 2D shift](results/FOLD-SLIDE-2D-001-frames.csv), [count maps](research/figures/fold-slide-2d-001.svg); the [earlier offline slider](research/figures/fold-slide-020.html) is column-only |
 | Compare all eight scopes and outcomes | [Eight-item summary](research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md) — complete investigation does not mean a solved or exhausted family |
 | Inspect the final one-edit robustness study | [Exact counts, ambiguity and controls](research/ONE-EDIT-028-FINDINGS.md); canonical ciphertext is unchanged |

@@ -1,8 +1,8 @@
 {
-  "id": "FRONTIER-032",
-  "reviewed_main_commit": "341d811ec894c375c18f160824ef47839d763313",
+  "id": "FRONTIER-034",
+  "reviewed_main_commit": "97f017a7ab27b11e4638d2ac9d94e881579f5a5a",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Local deliberate-spelling source analysis found no consistent rule in its declared uniform families. The new general family remains evidence-blocked on an independently specified trigger/stage/inverse; no K4 evaluation, push or Site change.",
+  "decision": "Local word-cover extraction studies complete: conditional cover counts and finite corpus queries do not identify an outer cipher or plaintext. General family non-identifiable; zero K4 cipher trials, no publication or Site change.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -164,7 +164,7 @@
         "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK-INVENTORY.json",
         "research/WORLD-CLOCK-003-SOURCE-AMENDMENT.md"
       ],
-      "next_deliverable": "Identified 2006 Alexander Strau\u00df FH Potsdam conservation thesis/provenance or authenticated overlapping 1989 views and revision-specific schedules; withhold independent observations before extraction.",
+      "next_deliverable": "Identified 2006 Alexander Strauß FH Potsdam conservation thesis/provenance or authenticated overlapping 1989 views and revision-specific schedules; withhold independent observations before extraction.",
       "go_no_go": "No 1989 labels inferred from current panels, no rotating numerals treated as fixed sector IDs, and no fitted per-character phases. A successful coordinate roundtrip without an alphabet encoder is not a K4 trial.",
       "safe_replay_argv": [
         "python3",
@@ -385,6 +385,32 @@
         "/tmp/spelling-correction-replay.json"
       ],
       "stop_condition": "No K4 scoring or new contexts until an independent rule reproduces unchanged source letters and predicts an unused anomaly without fitted exceptions."
+    },
+    {
+      "id": "F-COVER-STAGE",
+      "hypotheses": [
+        "H-WORD-COVER-EXTRACTION"
+      ],
+      "blocker_type": "source_selected_codebook_outer_cipher_and_tokenization",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Independent codebook, outer cipher/key family, token boundaries and global selector. Backward corpus feasibility alone does not use ciphertext.",
+      "available": [
+        "research/COVER-EXTRACTION-033-SPEC.md",
+        "research/COVER-EXTRACTION-033-FINDINGS.md",
+        "research/COVER-PHRASE-034-SPEC.md",
+        "research/COVER-PHRASE-034-FINDINGS.md",
+        "research/COVER-033-034-SOURCES.md",
+        "experiments/cover_extraction.py",
+        "results/COVER-EXTRACTION-033-ORIGINAL.json",
+        "results/COVER-PHRASE-034-original-summary.json"
+      ],
+      "safe_replay_argv": [
+        "python3",
+        "experiments/run_cover_extraction.py",
+        "--output",
+        "/tmp/cover-core-replay.json"
+      ],
+      "stop_condition": "Do not expand vocabularies/selectors to obtain attractive English. A new outer cipher requires separate independent specification and full-channel validation."
     }
   ],
   "default_for_other_registered_entries": {
@@ -392,5 +418,5 @@
     "ready_for_new_K4_evaluation": false,
     "next_deliverable": "Use the canonical tested scope, check equivalence and source motivation, and freeze a materially different finite protocol before evaluation. Untested complement alone is not a recommended experiment."
   },
-  "expected_register_entries": 61
+  "expected_register_entries": 62
 }

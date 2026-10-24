@@ -85,6 +85,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 | [H-RADIX-FEEDBACK](#h-radix-feedback) | analytical exclusion | Changing-base geometric codes enter a fixed affine key recurrence. |
 | [H-ONE-EDIT](#h-one-edit) | non-identifiable | A bounded construction-error sensitivity arm. |
 | [H-ARCHITECTURE-DIAGNOSIS](#h-architecture-diagnosis) | non-identifiable | Classify architecture from fixed short-text features. |
+| [H-WORD-COVER-EXTRACTION](#h-word-cover-extraction) | non-identifiable | Decode complete word covers, then extract one fixed letter from each selected word. |
 | [H-DELIBERATE-SPELLING](#h-deliberate-spelling) | evidence-blocked | A consistent deliberate respelling or correction stream supplies transformation information. |
 
 ### H-COMPASS-REVERSE
@@ -818,6 +819,18 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Next discriminating test: Freeze a trigger independent of the known error sites, apply it to all matching source text and predict a previously unused anomaly without new exceptions.
 - Dependencies: Preserve canonical ciphertext/cribs; source attribution and all unchanged letters matter. K2 omitted ciphertext S is a separate construction channel; prior misspelling keys are not novel coverage here.
 - Results: [Local findings](SPELLING-CORRECTION-032-FINDINGS.md), [source/prior review](SPELLING-CORRECTION-032-SOURCES.md), [original receipt](../results/SPELLING-CORRECTION-032-ORIGINAL.json). Descriptive correction extraction is not a predictive transformation or recovered key.
+
+### H-WORD-COVER-EXTRACTION
+
+- Status: non-identifiable
+- Mechanism: Decrypt the full 97-letter English cover, tokenize into codewords and extract fixed letter k from every word or every other word at a global phase.
+- Evidence: User's BERLIN CLOCK and EAST NORTH EAST examples; historical NATO vocabulary is authentic, but the four custom adaptations and token boundaries are exploratory assumptions, not creator evidence.
+- Tested scope: COVER-EXTRACTION-033 exact complete-cover counts, strict NATO unanchored lattice, four custom codebooks with ENE/EN alternatives, k1..4 and N1/N2 phases, all feasible lengths and exact15 coverwords; 84 nonempty lanes. COVER-PHRASE-034 scans all 500 frozen Brown texts/2,673,853 within-sentence 2..5-word windows; all-word initials have zero matches, other selectors have ambiguous compatible covers. Independent counts/plants/31 whole-family capacity controls pass; zero actual K4 cipher trials.
+- Untested scope: Other codebooks, unknown word boundaries, N>=3, variable per-word indices, other corpora and independently selected outer ciphers. A finite corpus nonmatch is not a universal English exclusion; a backward compatible cover is not decryption.
+- Missing inputs: Independent source-selected codebook, outer cipher/key family, tokenization and extraction selector; actual decrypted cover to validate instead of choosing its unknown letters from a phrase bank.
+- Next discriminating test: Freeze those choices independently, recover a complete cover from ciphertext, replay all 97 letters and assess extracted output with whole-pipeline controls excluding forced clue material.
+- Dependencies: Canonical English positions22..34 and64..74 remain unchanged; output word spaces are separate, ENE/EN segmentation explicit, global word phase continuous, selected short words fail rather than skip.
+- Results: [Core findings](COVER-EXTRACTION-033-FINDINGS.md), [short-phrase study](COVER-PHRASE-034-FINDINGS.md), [sources](COVER-033-034-SOURCES.md), [core receipt](../results/COVER-EXTRACTION-033-ORIGINAL.json), [corpus receipt](../results/COVER-PHRASE-034-original-summary.json). General family remains non-identifiable, with no recovered key or plaintext.
 
 <!-- CURRENT-REGISTER:END -->
 

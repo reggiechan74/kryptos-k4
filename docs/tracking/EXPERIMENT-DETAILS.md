@@ -1770,3 +1770,41 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Final local validation: 608 tests pass on Python 3.9/3.12; [UTC receipt and full logs](../../results/SPELLING-CORRECTION-032-VALIDATION.json), [complete cross-version replay](../../results/SPELLING-CORRECTION-032-PY312-REPLAY.json). No new K4 trial or publication.
 
 Related files: [experiments/spelling_correction.py](../../experiments/spelling_correction.py), [experiments/spelling_correction_reference.py](../../experiments/spelling_correction_reference.py), [research/SPELLING-CORRECTION-032-FINDINGS.md](../../research/SPELLING-CORRECTION-032-FINDINGS.md), [research/SPELLING-CORRECTION-032-SOURCES.md](../../research/SPELLING-CORRECTION-032-SOURCES.md), [research/SPELLING-CORRECTION-032-SPEC.md](../../research/SPELLING-CORRECTION-032-SPEC.md), [results/SPELLING-CORRECTION-032-ORIGINAL.json](../../results/SPELLING-CORRECTION-032-ORIGINAL.json), [results/SPELLING-CORRECTION-032-PY312-REPLAY.json](../../results/SPELLING-CORRECTION-032-PY312-REPLAY.json), [results/SPELLING-CORRECTION-032-VALIDATION.json](../../results/SPELLING-CORRECTION-032-VALIDATION.json).
+
+## LOG-40A846EF5A
+
+**COVER-EXTRACTION-033 — post-decryption word-cover and fixed-letter constraints**
+
+start: 2026-10-24T13:55:39.526279Z; end: 2026-10-24T13:55:39.790810Z; start: 2026-10-24T14:12:04.924656Z; end: 2026-10-24T14:12:05.127524Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 24 October 2026 UTC. Local only, no push or Site change.
+
+Type: exact conditional cover constraints; synthetic reversible controls. Outcome: Strict NATO fails this full-cover vocabulary; custom covers are numerous and non-identifiable; zero K4 trials
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 24 October 2026 UTC. Local only, no push or Site change.
+- [Frozen protocol](../../research/COVER-EXTRACTION-033-SPEC.md), [findings](../../research/COVER-EXTRACTION-033-FINDINGS.md), [sources](../../research/COVER-033-034-SOURCES.md), [native solver](../../experiments/cover_extraction.py), [independent oracle](../../experiments/cover_extraction_reference.py), [complete original receipt](../../results/COVER-EXTRACTION-033-ORIGINAL.json).
+- Original UTC start/end: 2026-10-24T13:55:39.526279+00:00 / 2026-10-24T13:55:39.790810+00:00. Strict NATO full unanchored lattice has zero covers. Four explicit custom dictionaries have huge exact cover counts; A30-ENE exact15 has 3,787,080 covers and necessary pattern ???ENE????BC???. No unknown text was decrypted.
+- Four fixed letter positions and global N1/N2 schedules, both N2 phases; all feasible coverword counts and exact15 strata, 84 nonempty lanes. Selected short words fail, no counter reset or arbitrary per-word index. ENE versus EN is separate.
+- Independent complete tiny languages, 252 real-sized fixed-message count checks and 21 synthetic Caesar roundtrip/recovery plants pass. Outer cipher/codebook supplied in controls; zero actual K4 cipher/key trials. [Cross-version replay](../../results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json).
+
+Related files: [experiments/cover_extraction.py](../../experiments/cover_extraction.py), [experiments/cover_extraction_reference.py](../../experiments/cover_extraction_reference.py), [research/COVER-033-034-SOURCES.md](../../research/COVER-033-034-SOURCES.md), [research/COVER-EXTRACTION-033-FINDINGS.md](../../research/COVER-EXTRACTION-033-FINDINGS.md), [research/COVER-EXTRACTION-033-SPEC.md](../../research/COVER-EXTRACTION-033-SPEC.md), [results/COVER-EXTRACTION-033-ORIGINAL.json](../../results/COVER-EXTRACTION-033-ORIGINAL.json), [results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json](../../results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json).
+
+## LOG-80D6868D4C
+
+**COVER-PHRASE-034 — bounded Brown short-phrase feasibility and capacity controls**
+
+receipt recording: 2026-10-24T14:25:43.810244Z; start: 2026-10-24T14:05:51.422791Z; end: 2026-10-24T14:05:58.083425Z; start: 2026-10-24T14:07:44.116650Z; end: 2026-10-24T14:07:50.283484Z; start: 2026-10-24T14:01:20.542852Z; end: 2026-10-24T14:01:29.259691Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 24 October 2026 UTC. Local only, no push or Site change.
+
+Type: finite corpus feasibility query; synthetic pipeline controls; whole-family capacity controls. Outcome: All-word initials: zero Brown matches; generalized selectors: ambiguous covers, not decryptions; outer cipher absent
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 24 October 2026 UTC. Local only, no push or Site change.
+- [Frozen protocol](../../research/COVER-PHRASE-034-SPEC.md), [findings](../../research/COVER-PHRASE-034-FINDINGS.md), [source pins](../../results/COVER-033-034-SOURCES.json), [runner](../../experiments/run_cover_phrase.py), [original summary](../../results/COVER-PHRASE-034-original-summary.json), [all matched references/counts](../../results/COVER-PHRASE-034-original-windows.jsonl.gz), [all controls](../../results/COVER-PHRASE-034-original-controls.json.gz).
+- Original UTC start/end: 2026-10-24T14:01:20.542852+00:00 / 2026-10-24T14:01:29.259691+00:00. All 500 frozen Brown texts, 2,673,853 contiguous 2..5-word windows, 1,771,338 eligible occurrences and 1,335,926 distinct joined strings processed. No arbitrary word-product generation.
+- All-word initials have zero matches. Exact15/all-word readout has zero for all k; every-other-word cases may produce 7/8-letter output. General family has 6,358 matched occurrence references, 3,139 joined strings / 3,147 spaced strings, mostly N2. These are compatibility counts, not recovered messages or keys.
+- Six deterministic eligible synthetic plants re-encrypt full97 letters; no missing exact15 ENE plant invented. Whole-family 31 capacity draws: 24 dictionary-splittable, zero contiguous-bank matches. Not an observed K4 significance test. [Independent positive-count audit](../../results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json) verifies 7,266 message/lane counts; complete tiny negative controls and exact Python3.12 replay retained. No claim of a second exhaustive corpus false-negative implementation.
+
+- Final aggregate local validation for COVER-033/034: 625 tests pass on Python3.9/3.12; [separate UTC receipt/full logs](../../results/COVER-033-034-VALIDATION.json). Canonical ciphertext unchanged, no push or Site change.
+
+Related files: [experiments/run_cover_phrase.py](../../experiments/run_cover_phrase.py), [research/COVER-PHRASE-034-FINDINGS.md](../../research/COVER-PHRASE-034-FINDINGS.md), [research/COVER-PHRASE-034-SPEC.md](../../research/COVER-PHRASE-034-SPEC.md), [results/COVER-033-034-SOURCES.json](../../results/COVER-033-034-SOURCES.json), [results/COVER-033-034-VALIDATION.json](../../results/COVER-033-034-VALIDATION.json), [results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json](../../results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json), [results/COVER-PHRASE-034-original-controls.json.gz](../../results/COVER-PHRASE-034-original-controls.json.gz), [results/COVER-PHRASE-034-original-summary.json](../../results/COVER-PHRASE-034-original-summary.json), [results/COVER-PHRASE-034-original-windows.jsonl.gz](../../results/COVER-PHRASE-034-original-windows.jsonl.gz).

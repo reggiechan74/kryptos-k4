@@ -27,6 +27,15 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/CONDITIONAL-FACE-LAMP-001-independent.json](../../results/CONDITIONAL-FACE-LAMP-001-independent.json) |  | Exact run start/end unknown; inspect original |
 | [results/CONDITIONAL-FACE-LAMP-001.json](../../results/CONDITIONAL-FACE-LAMP-001.json) |  | Exact run start/end unknown; inspect original |
 | [results/CONTINUATION-VALIDATION.json](../../results/CONTINUATION-VALIDATION.json) |  | Exact run start/end unknown; inspect original |
+| [results/COVER-033-034-SOURCES.json](../../results/COVER-033-034-SOURCES.json) | Source pins and factual context; no raw corpus/software or full webpages committed | Exact run start/end unknown; inspect original |
+| [results/COVER-033-034-VALIDATION.json](../../results/COVER-033-034-VALIDATION.json) | Completed local cover extraction and corpus feasibility validation; no K4 decryption or publication | receipt recording: 2026-10-24T14:25:43.810244Z |
+| [results/COVER-EXTRACTION-033-ORIGINAL.json](../../results/COVER-EXTRACTION-033-ORIGINAL.json) | COVER-EXTRACTION-033; Conditional post-decryption source-grammar feasibility; no actual K4 decryption | start: 2026-10-24T13:55:39.526279Z; end: 2026-10-24T13:55:39.790810Z |
+| [results/COVER-EXTRACTION-033-PY312-REPLAY.json](../../results/COVER-EXTRACTION-033-PY312-REPLAY.json) | COVER-EXTRACTION-033; Conditional post-decryption source-grammar feasibility; no actual K4 decryption | start: 2026-10-24T14:12:04.924656Z; end: 2026-10-24T14:12:05.127524Z |
+| [results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json](../../results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json) | Complete Python3.12 core/phrase/control payload replay; metadata times remain separate | Exact run start/end unknown; inspect original |
+| [results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json](../../results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json) | Post-outcome independent full-position audit of all recorded unique corpus positives | start: 2026-10-24T14:05:51.422791Z; end: 2026-10-24T14:05:58.083425Z |
+| [results/COVER-PHRASE-034-MESSAGE-SPLITS.json](../../results/COVER-PHRASE-034-MESSAGE-SPLITS.json) | Complete matched corpus output-word segmentation metadata, no raw corpus text | Exact run start/end unknown; inspect original |
+| [results/COVER-PHRASE-034-PY312-REPLAY-SUMMARY.json](../../results/COVER-PHRASE-034-PY312-REPLAY-SUMMARY.json) | COVER-PHRASE-034; Conditional corpus/cover capacity, not decryption or K4 significance | start: 2026-10-24T14:07:44.116650Z; end: 2026-10-24T14:07:50.283484Z |
+| [results/COVER-PHRASE-034-original-summary.json](../../results/COVER-PHRASE-034-original-summary.json) | COVER-PHRASE-034; Conditional corpus/cover capacity, not decryption or K4 significance | start: 2026-10-24T14:01:20.542852Z; end: 2026-10-24T14:01:29.259691Z |
 | [results/CSP889-ANCHOR-017-validation.json](../../results/CSP889-ANCHOR-017-validation.json) | CSP889-ANCHOR-017-validation | Exact run start/end unknown; inspect original |
 | [results/CSP889-ANCHOR-017.json](../../results/CSP889-ANCHOR-017.json) | CSP889-ANCHOR-017 | Exact run start/end unknown; inspect original |
 | [results/CSP889-COMPACT-018-validation.json](../../results/CSP889-COMPACT-018-validation.json) | CSP889-COMPACT-018-validation | Exact run start/end unknown; inspect original |
@@ -58,6 +67,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/DOCUMENTATION-LINK-AUDIT-034.json](../../results/DOCUMENTATION-LINK-AUDIT-034.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-035.json](../../results/DOCUMENTATION-LINK-AUDIT-035.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-036.json](../../results/DOCUMENTATION-LINK-AUDIT-036.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
+| [results/DOCUMENTATION-LINK-AUDIT-037.json](../../results/DOCUMENTATION-LINK-AUDIT-037.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DYNAMIC-KEY-VALIDATION.json](../../results/DYNAMIC-KEY-VALIDATION.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
 | [results/ENE-NOTE-CHECKS.json](../../results/ENE-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-001.json](../../results/EXCLUSION-SCOPE-AUDIT-001.json) |  | Exact run start/end unknown; inspect original |
@@ -92,6 +102,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/EXCLUSION-SCOPE-AUDIT-030.json](../../results/EXCLUSION-SCOPE-AUDIT-030.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-031.json](../../results/EXCLUSION-SCOPE-AUDIT-031.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-032.json](../../results/EXCLUSION-SCOPE-AUDIT-032.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-034.json](../../results/EXCLUSION-SCOPE-AUDIT-034.json) |  | Exact run start/end unknown; inspect original |
 | [results/FACE-ROW-001-COVERAGE.json](../../results/FACE-ROW-001-COVERAGE.json) | prior-coverage audit; zero K4 evaluations | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005-controls.json](../../results/FEISTEL-SYMMETRY-005-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005.json](../../results/FEISTEL-SYMMETRY-005.json) |  | Exact run start/end unknown; inspect original |
@@ -132,6 +143,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/FRONTIER-030.json](../../results/FRONTIER-030.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-031.json](../../results/FRONTIER-031.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-032.json](../../results/FRONTIER-032.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-034.json](../../results/FRONTIER-034.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FULL-STATE-PHYSICAL-VALIDATION-001.json](../../results/FULL-STATE-PHYSICAL-VALIDATION-001.json) | FULL-STATE-PHYSICAL-VALIDATION-001 | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-COMPARISON.json](../../results/GEOMETRIC-FOLLOWUP-COMPARISON.json) |  | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json](../../results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
@@ -181,6 +193,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/HYPOTHESIS-REGISTER-030.json](../../results/HYPOTHESIS-REGISTER-030.json) | Live projection Site source archive register snapshot; physical family still evidence-blocked | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-031.json](../../results/HYPOTHESIS-REGISTER-031.json) | Corrected version 17 Site source archive snapshot; no physical-model result | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-032.json](../../results/HYPOTHESIS-REGISTER-032.json) | Local deliberate-spelling family/source-gate addition; not K4 evaluation | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-034.json](../../results/HYPOTHESIS-REGISTER-034.json) | Local word-cover extraction family and exact scope addition; not K4 evaluation | Exact run start/end unknown; inspect original |
 | [results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json](../../results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001-controls.json](../../results/IPA-FREE-MAP-001-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001.json](../../results/IPA-FREE-MAP-001.json) | IPA-FREE-MAP-001 | Exact run start/end unknown; inspect original |

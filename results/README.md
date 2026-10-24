@@ -101,3 +101,7 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Local deliberate-spelling study
 
 [Original source analysis and controls](SPELLING-CORRECTION-032-ORIGINAL.json), [source retrieval hashes](SPELLING-CORRECTION-032-SOURCES.json), [independent reviewer comparison](SPELLING-CORRECTION-032-INDEPENDENT-REVIEW.json). No spelling correction of K4 is inferred.
+
+## Local word-cover and phrase studies
+
+[Core exact counts](COVER-EXTRACTION-033-ORIGINAL.json), [complete corpus summary](COVER-PHRASE-034-original-summary.json), lossless matched-reference/control gzip files, independent audit, source pins and Python3.12 replay preserve full finite coverage. See [interpretation and replay instructions](../research/COVER-PHRASE-034-FINDINGS.md). No actual K4 trials; local only.

@@ -144,3 +144,7 @@ Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLEC
 ## Local deliberate-spelling study
 
 [Deliberate spelling/correction findings](SPELLING-CORRECTION-032-FINDINGS.md) and [source/prior audit](SPELLING-CORRECTION-032-SOURCES.md): exact source constraints, no supported trigger, no K4 sweep.
+
+## Local word-cover extraction studies
+
+[Exact cover findings](COVER-EXTRACTION-033-FINDINGS.md), [Brown short-phrase study](COVER-PHRASE-034-FINDINGS.md) and [sources](COVER-033-034-SOURCES.md). Finite feasibility and controls complete; no recovered cipher/key/plaintext.

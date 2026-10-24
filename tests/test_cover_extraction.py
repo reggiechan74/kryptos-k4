@@ -1,4 +1,4 @@
-import collections,json,random,sys,unittest
+import collections,json,random,sys,unittest,itertools
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'experiments'))
 import cover_extraction as c
@@ -12,6 +12,10 @@ class CoverExtractionTests(unittest.TestCase):
      truth=ref.brute_model(m,k,N,phase);lane=c.Lane(m,k,N,phase,'all');self.assertEqual(sum(truth.values()),m.distributions()['total'])
      for text,count in truth.items():self.assertEqual(lane.count(text),count);self.assertEqual(ref.count_message(m,text,k,N,phase),count)
      self.assertEqual(lane.count('ZZZZ'),0)
+     maxout=m.total//min(map(len,m.vocab))
+     for length in range(maxout+1):
+      for letters in itertools.product('AB',repeat=length):
+       y=''.join(letters);self.assertEqual(lane.count(y),truth.get(y,0))
  def test_continuous_alternate_word_phase_and_too_short(self):
   self.assertEqual(c.extract(['EAST','NORTH','EAST','BERLIN','CLOCK'],1,2,0),'EEC');self.assertEqual(c.extract(['EAST','NORTH','EAST','BERLIN','CLOCK'],1,2,1),'NB')
   with self.assertRaises(ValueError):c.extract(['A','CLOCK'],2)

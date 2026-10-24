@@ -1,0 +1,114 @@
+{
+  "kind": "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval",
+  "checked": 3485,
+  "broken": [
+    {
+      "source": "docs/site-source/projection-20261024/snapshot/candidate/projection-test/RESEARCH_API.md",
+      "target": "../experiments/projection_concurrence.py",
+      "line": 3
+    },
+    {
+      "source": "docs/site-source/projection-20261024/snapshot/candidate/projection-test/RESEARCH_API.md",
+      "target": "../experiments/projection_concurrence_reference.py",
+      "line": 3
+    },
+    {
+      "source": "docs/site-source/projection-20261024/snapshot/candidate/projection-test/RESEARCH_API.md",
+      "target": "../results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json",
+      "line": 3
+    },
+    {
+      "source": "docs/site-source/projection-20261024/snapshot/candidate/projection-test/RESEARCH_API.md",
+      "target": "../results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json",
+      "line": 21
+    },
+    {
+      "source": "docs/site-source/projection-20261024/snapshot/dist/projection-test/RESEARCH_API.md",
+      "target": "../experiments/projection_concurrence.py",
+      "line": 3
+    },
+    {
+      "source": "docs/site-source/projection-20261024/snapshot/dist/projection-test/RESEARCH_API.md",
+      "target": "../experiments/projection_concurrence_reference.py",
+      "line": 3
+    },
+    {
+      "source": "docs/site-source/projection-20261024/snapshot/dist/projection-test/RESEARCH_API.md",
+      "target": "../results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json",
+      "line": 3
+    },
+    {
+      "source": "docs/site-source/projection-20261024/snapshot/dist/projection-test/RESEARCH_API.md",
+      "target": "../results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json",
+      "line": 21
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "HYPOTHESES.md",
+      "line": 52
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "EXPERIMENTS.md",
+      "line": 52
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "POLICY.md",
+      "line": 53
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../docs/research-strategy.md",
+      "line": 53
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../docs/designer-context.md",
+      "line": 54
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../sources/EXPERIMENTS.md",
+      "line": 55
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../docs/prior-art-barney-scott-review.md",
+      "line": 56
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "CONTINUATION-FINDINGS.md",
+      "line": 57
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "K3-CLOCK-ROUTE-FINDINGS.md",
+      "line": 58
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "OCCUPIED-CELL-FINDINGS.md",
+      "line": 59
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "GROMARK-IDENTIFIABILITY-FINDINGS.md",
+      "line": 60
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../docs/historical-clock-inscriptions.md",
+      "line": 137
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../docs/scott-sun-geometry-audit-2026-10-22.md",
+      "line": 166
+    }
+  ],
+  "markdown_fragments_checked": 204,
+  "broken_markdown_fragments": [],
+  "scope": "Fenced code blocks excluded; original independent artifacts are preserved even where their standalone-relative links are unavailable in this checkout."
+}

@@ -1,5 +1,7 @@
 # K4 frontier: what can responsibly happen next
 
+Latest local update: [word-cover constraints](COVER-EXTRACTION-033-FINDINGS.md) and [short-phrase corpus study](COVER-PHRASE-034-FINDINGS.md) are complete. General extraction remains non-identifiable pending independent codebook/outer cipher; [snapshot034](../results/FRONTIER-034.json). No actual K4 trial or publication.
+
 Latest local source-rule update (24 October 2026): [deliberate spelling/correction](SPELLING-CORRECTION-032-FINDINGS.md) has no supported rule within the declared uniform source tests. A new independent trigger/stage/inverse gate is tracked; no K4 trial or publication. [Readiness snapshot 032](../results/FRONTIER-032.json).
 
 Latest source-archive update: [corrected version 17](../docs/site-source/projection-v17-20261024/README.md) is live and statically verified; parent cloud Chrome recheck passed. Real-photo fitting remains blocked. [Snapshot 031](../results/FRONTIER-031.json).

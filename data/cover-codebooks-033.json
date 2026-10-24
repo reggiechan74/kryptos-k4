@@ -1,0 +1,221 @@
+{
+  "kind": "Export of frozen implementation vocabularies, not new codebook selection",
+  "NATO_1956": [
+    "ALFA",
+    "BRAVO",
+    "CHARLIE",
+    "DELTA",
+    "ECHO",
+    "FOXTROT",
+    "GOLF",
+    "HOTEL",
+    "INDIA",
+    "JULIETT",
+    "KILO",
+    "LIMA",
+    "MIKE",
+    "NOVEMBER",
+    "OSCAR",
+    "PAPA",
+    "QUEBEC",
+    "ROMEO",
+    "SIERRA",
+    "TANGO",
+    "UNIFORM",
+    "VICTOR",
+    "WHISKEY",
+    "XRAY",
+    "YANKEE",
+    "ZULU"
+  ],
+  "custom": [
+    {
+      "id": "A30-ENE",
+      "vocabulary": [
+        "ALFA",
+        "BERLIN",
+        "BRAVO",
+        "CHARLIE",
+        "CLOCK",
+        "DELTA",
+        "EAST",
+        "ECHO",
+        "FOXTROT",
+        "GOLF",
+        "HOTEL",
+        "INDIA",
+        "JULIETT",
+        "KILO",
+        "LIMA",
+        "MIKE",
+        "NORTH",
+        "NOVEMBER",
+        "OSCAR",
+        "PAPA",
+        "QUEBEC",
+        "ROMEO",
+        "SIERRA",
+        "TANGO",
+        "UNIFORM",
+        "VICTOR",
+        "WHISKEY",
+        "XRAY",
+        "YANKEE",
+        "ZULU"
+      ],
+      "fixed_block_A": [
+        "EAST",
+        "NORTH",
+        "EAST"
+      ],
+      "fixed_block_B": [
+        "BERLIN",
+        "CLOCK"
+      ],
+      "unknown_runs": [
+        21,
+        29,
+        23
+      ]
+    },
+    {
+      "id": "R26-ENE",
+      "vocabulary": [
+        "ALFA",
+        "BERLIN",
+        "CLOCK",
+        "DELTA",
+        "EAST",
+        "FOXTROT",
+        "GOLF",
+        "HOTEL",
+        "INDIA",
+        "JULIETT",
+        "KILO",
+        "LIMA",
+        "MIKE",
+        "NORTH",
+        "OSCAR",
+        "PAPA",
+        "QUEBEC",
+        "ROMEO",
+        "SIERRA",
+        "TANGO",
+        "UNIFORM",
+        "VICTOR",
+        "WHISKEY",
+        "XRAY",
+        "YANKEE",
+        "ZULU"
+      ],
+      "fixed_block_A": [
+        "EAST",
+        "NORTH",
+        "EAST"
+      ],
+      "fixed_block_B": [
+        "BERLIN",
+        "CLOCK"
+      ],
+      "unknown_runs": [
+        21,
+        29,
+        23
+      ]
+    },
+    {
+      "id": "A30-EN",
+      "vocabulary": [
+        "ALFA",
+        "BERLIN",
+        "BRAVO",
+        "CHARLIE",
+        "CLOCK",
+        "DELTA",
+        "EAST",
+        "ECHO",
+        "FOXTROT",
+        "GOLF",
+        "HOTEL",
+        "INDIA",
+        "JULIETT",
+        "KILO",
+        "LIMA",
+        "MIKE",
+        "NORTHEAST",
+        "NOVEMBER",
+        "OSCAR",
+        "PAPA",
+        "QUEBEC",
+        "ROMEO",
+        "SIERRA",
+        "TANGO",
+        "UNIFORM",
+        "VICTOR",
+        "WHISKEY",
+        "XRAY",
+        "YANKEE",
+        "ZULU"
+      ],
+      "fixed_block_A": [
+        "EAST",
+        "NORTHEAST"
+      ],
+      "fixed_block_B": [
+        "BERLIN",
+        "CLOCK"
+      ],
+      "unknown_runs": [
+        21,
+        29,
+        23
+      ]
+    },
+    {
+      "id": "R26-EN",
+      "vocabulary": [
+        "ALFA",
+        "BERLIN",
+        "CLOCK",
+        "DELTA",
+        "EAST",
+        "FOXTROT",
+        "GOLF",
+        "HOTEL",
+        "INDIA",
+        "JULIETT",
+        "KILO",
+        "LIMA",
+        "MIKE",
+        "NORTHEAST",
+        "OSCAR",
+        "PAPA",
+        "QUEBEC",
+        "ROMEO",
+        "SIERRA",
+        "TANGO",
+        "UNIFORM",
+        "VICTOR",
+        "WHISKEY",
+        "XRAY",
+        "YANKEE",
+        "ZULU"
+      ],
+      "fixed_block_A": [
+        "EAST",
+        "NORTHEAST"
+      ],
+      "fixed_block_B": [
+        "BERLIN",
+        "CLOCK"
+      ],
+      "unknown_runs": [
+        21,
+        29,
+        23
+      ]
+    }
+  ],
+  "source_url": "https://www.nato.int/cps/en/natohq/declassified_136216.htm",
+  "custom_historical_creator_evidence": false
+}

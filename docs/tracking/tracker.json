@@ -735,6 +735,18 @@
       "Next discriminating test": "Freeze a trigger independent of the known error sites, apply it to all matching source text and predict a previously unused anomaly without new exceptions.",
       "Dependencies": "Preserve canonical ciphertext/cribs; source attribution and all unchanged letters matter. K2 omitted ciphertext S is a separate construction channel; prior misspelling keys are not novel coverage here.",
       "Results": "[Local findings](SPELLING-CORRECTION-032-FINDINGS.md), [source/prior review](SPELLING-CORRECTION-032-SOURCES.md), [original receipt](../results/SPELLING-CORRECTION-032-ORIGINAL.json). Descriptive correction extraction is not a predictive transformation or recovered key."
+    },
+    {
+      "id": "H-WORD-COVER-EXTRACTION",
+      "Status": "non-identifiable",
+      "Mechanism": "Decrypt the full 97-letter English cover, tokenize into codewords and extract fixed letter k from every word or every other word at a global phase.",
+      "Evidence": "User's BERLIN CLOCK and EAST NORTH EAST examples; historical NATO vocabulary is authentic, but the four custom adaptations and token boundaries are exploratory assumptions, not creator evidence.",
+      "Tested scope": "COVER-EXTRACTION-033 exact complete-cover counts, strict NATO unanchored lattice, four custom codebooks with ENE/EN alternatives, k1..4 and N1/N2 phases, all feasible lengths and exact15 coverwords; 84 nonempty lanes. COVER-PHRASE-034 scans all 500 frozen Brown texts/2,673,853 within-sentence 2..5-word windows; all-word initials have zero matches, other selectors have ambiguous compatible covers. Independent counts/plants/31 whole-family capacity controls pass; zero actual K4 cipher trials.",
+      "Untested scope": "Other codebooks, unknown word boundaries, N>=3, variable per-word indices, other corpora and independently selected outer ciphers. A finite corpus nonmatch is not a universal English exclusion; a backward compatible cover is not decryption.",
+      "Missing inputs": "Independent source-selected codebook, outer cipher/key family, tokenization and extraction selector; actual decrypted cover to validate instead of choosing its unknown letters from a phrase bank.",
+      "Next discriminating test": "Freeze those choices independently, recover a complete cover from ciphertext, replay all 97 letters and assess extracted output with whole-pipeline controls excluding forced clue material.",
+      "Dependencies": "Canonical English positions22..34 and64..74 remain unchanged; output word spaces are separate, ENE/EN segmentation explicit, global word phase continuous, selected short words fail rather than skip.",
+      "Results": "[Core findings](COVER-EXTRACTION-033-FINDINGS.md), [short-phrase study](COVER-PHRASE-034-FINDINGS.md), [sources](COVER-033-034-SOURCES.md), [core receipt](../results/COVER-EXTRACTION-033-ORIGINAL.json), [corpus receipt](../results/COVER-PHRASE-034-original-summary.json). General family remains non-identifiable, with no recovered key or plaintext."
     }
   ],
   "experiments": [
@@ -3465,6 +3477,164 @@
         "results/SPELLING-CORRECTION-032-VALIDATION.json"
       ],
       "original_entry": "- Date: 24 October 2026 UTC. Local source-consistency/identifiability study; zero K4 trials, no push or Site edit.\n- [Frozen protocol](SPELLING-CORRECTION-032-SPEC.md), [findings](SPELLING-CORRECTION-032-FINDINGS.md), [source/prior coverage](SPELLING-CORRECTION-032-SOURCES.md), [native code](../experiments/spelling_correction.py), [independent oracles](../experiments/spelling_correction_reference.py).\n- Original run UTC start/end: 2026-10-24T13:18:35.633896+00:00 / 2026-10-24T13:18:35.659389+00:00; [full output and controls](../results/SPELLING-CORRECTION-032-ORIGINAL.json). Source retrieval/attribution and later regression times are separate.\n- All minimal word alignments retain Q→L, U→O and uncertain K3 A→E plus inserted E. Uniform full-source letter functions fail; 624 invertible affine changed-site maps fail; keyboard/copy/permutation/vowel constraints fail. These are overlapping exact constraints, not independent statistical trials.\n- All 42 repeated-mask phase descriptions fail on both complete primary texts (84 source applications). They are direct source-transformation diagnostics, not K4 keys or tests of every correction-derived outer cipher. No new trigger or key sweep follows.\n- Independent controls: 394 tiny alignment sets, 436 function-count systems, 24 planted substitutions, 624 affine and 126 mask roundtrips; all pass. General contextual correction family remains evidence-blocked, not universally excluded.\n\n- Final local validation: 608 tests pass on Python 3.9/3.12; [UTC receipt and full logs](../results/SPELLING-CORRECTION-032-VALIDATION.json), [complete cross-version replay](../results/SPELLING-CORRECTION-032-PY312-REPLAY.json). No new K4 trial or publication."
+    },
+    {
+      "record_id": "LOG-40A846EF5A",
+      "experiment_ids": [
+        "COVER-EXTRACTION-033"
+      ],
+      "title": "COVER-EXTRACTION-033 — post-decryption word-cover and fixed-letter constraints",
+      "categories": [
+        "exact conditional cover constraints",
+        "synthetic reversible controls"
+      ],
+      "outcome": "Strict NATO fails this full-cover vocabulary; custom covers are numerous and non-identifiable; zero K4 trials",
+      "classification_basis": "Reviewed frozen codebooks/complete97-letter constraints, exact weighted counts, corpus completeness and independent/synthetic checks; no independently constrained outer cipher or actual K4 decryption",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "24 October 2026 UTC. Local only, no push or Site change.",
+      "date_only": {
+        "date": "2026-10-24",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/COVER-EXTRACTION-033-ORIGINAL.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T13:55:39.526279Z",
+          "original": "2026-10-24T13:55:39.526279+00:00"
+        },
+        {
+          "receipt": "results/COVER-EXTRACTION-033-ORIGINAL.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T13:55:39.790810Z",
+          "original": "2026-10-24T13:55:39.790810+00:00"
+        },
+        {
+          "receipt": "results/COVER-EXTRACTION-033-PY312-REPLAY.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T14:12:04.924656Z",
+          "original": "2026-10-24T14:12:04.924656+00:00"
+        },
+        {
+          "receipt": "results/COVER-EXTRACTION-033-PY312-REPLAY.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T14:12:05.127524Z",
+          "original": "2026-10-24T14:12:05.127524+00:00"
+        }
+      ],
+      "links": [
+        "experiments/cover_extraction.py",
+        "experiments/cover_extraction_reference.py",
+        "research/COVER-033-034-SOURCES.md",
+        "research/COVER-EXTRACTION-033-FINDINGS.md",
+        "research/COVER-EXTRACTION-033-SPEC.md",
+        "results/COVER-EXTRACTION-033-ORIGINAL.json",
+        "results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json"
+      ],
+      "receipt_paths": [
+        "results/COVER-EXTRACTION-033-ORIGINAL.json",
+        "results/COVER-EXTRACTION-033-PY312-REPLAY.json",
+        "results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json"
+      ],
+      "original_entry": "- Date: 24 October 2026 UTC. Local only, no push or Site change.\n- [Frozen protocol](COVER-EXTRACTION-033-SPEC.md), [findings](COVER-EXTRACTION-033-FINDINGS.md), [sources](COVER-033-034-SOURCES.md), [native solver](../experiments/cover_extraction.py), [independent oracle](../experiments/cover_extraction_reference.py), [complete original receipt](../results/COVER-EXTRACTION-033-ORIGINAL.json).\n- Original UTC start/end: 2026-10-24T13:55:39.526279+00:00 / 2026-10-24T13:55:39.790810+00:00. Strict NATO full unanchored lattice has zero covers. Four explicit custom dictionaries have huge exact cover counts; A30-ENE exact15 has 3,787,080 covers and necessary pattern ???ENE????BC???. No unknown text was decrypted.\n- Four fixed letter positions and global N1/N2 schedules, both N2 phases; all feasible coverword counts and exact15 strata, 84 nonempty lanes. Selected short words fail, no counter reset or arbitrary per-word index. ENE versus EN is separate.\n- Independent complete tiny languages, 252 real-sized fixed-message count checks and 21 synthetic Caesar roundtrip/recovery plants pass. Outer cipher/codebook supplied in controls; zero actual K4 cipher/key trials. [Cross-version replay](../results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json)."
+    },
+    {
+      "record_id": "LOG-80D6868D4C",
+      "experiment_ids": [
+        "COVER-PHRASE-034"
+      ],
+      "title": "COVER-PHRASE-034 — bounded Brown short-phrase feasibility and capacity controls",
+      "categories": [
+        "finite corpus feasibility query",
+        "synthetic pipeline controls",
+        "whole-family capacity controls"
+      ],
+      "outcome": "All-word initials: zero Brown matches; generalized selectors: ambiguous covers, not decryptions; outer cipher absent",
+      "classification_basis": "Reviewed frozen codebooks/complete97-letter constraints, exact weighted counts, corpus completeness and independent/synthetic checks; no independently constrained outer cipher or actual K4 decryption",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "24 October 2026 UTC. Local only, no push or Site change.",
+      "date_only": {
+        "date": "2026-10-24",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/COVER-033-034-VALIDATION.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T14:25:43.810244Z",
+          "original": "2026-10-24T14:25:43.810244+00:00"
+        },
+        {
+          "receipt": "results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T14:05:51.422791Z",
+          "original": "2026-10-24T14:05:51.422791+00:00"
+        },
+        {
+          "receipt": "results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T14:05:58.083425Z",
+          "original": "2026-10-24T14:05:58.083425+00:00"
+        },
+        {
+          "receipt": "results/COVER-PHRASE-034-PY312-REPLAY-SUMMARY.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T14:07:44.116650Z",
+          "original": "2026-10-24T14:07:44.116650+00:00"
+        },
+        {
+          "receipt": "results/COVER-PHRASE-034-PY312-REPLAY-SUMMARY.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T14:07:50.283484Z",
+          "original": "2026-10-24T14:07:50.283484+00:00"
+        },
+        {
+          "receipt": "results/COVER-PHRASE-034-original-summary.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T14:01:20.542852Z",
+          "original": "2026-10-24T14:01:20.542852+00:00"
+        },
+        {
+          "receipt": "results/COVER-PHRASE-034-original-summary.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T14:01:29.259691Z",
+          "original": "2026-10-24T14:01:29.259691+00:00"
+        }
+      ],
+      "links": [
+        "experiments/run_cover_phrase.py",
+        "research/COVER-PHRASE-034-FINDINGS.md",
+        "research/COVER-PHRASE-034-SPEC.md",
+        "results/COVER-033-034-SOURCES.json",
+        "results/COVER-033-034-VALIDATION.json",
+        "results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json",
+        "results/COVER-PHRASE-034-original-controls.json.gz",
+        "results/COVER-PHRASE-034-original-summary.json",
+        "results/COVER-PHRASE-034-original-windows.jsonl.gz"
+      ],
+      "receipt_paths": [
+        "results/COVER-033-034-SOURCES.json",
+        "results/COVER-033-034-VALIDATION.json",
+        "results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json",
+        "results/COVER-PHRASE-034-PY312-REPLAY-SUMMARY.json",
+        "results/COVER-PHRASE-034-original-summary.json"
+      ],
+      "original_entry": "- Date: 24 October 2026 UTC. Local only, no push or Site change.\n- [Frozen protocol](COVER-PHRASE-034-SPEC.md), [findings](COVER-PHRASE-034-FINDINGS.md), [source pins](../results/COVER-033-034-SOURCES.json), [runner](../experiments/run_cover_phrase.py), [original summary](../results/COVER-PHRASE-034-original-summary.json), [all matched references/counts](../results/COVER-PHRASE-034-original-windows.jsonl.gz), [all controls](../results/COVER-PHRASE-034-original-controls.json.gz).\n- Original UTC start/end: 2026-10-24T14:01:20.542852+00:00 / 2026-10-24T14:01:29.259691+00:00. All 500 frozen Brown texts, 2,673,853 contiguous 2..5-word windows, 1,771,338 eligible occurrences and 1,335,926 distinct joined strings processed. No arbitrary word-product generation.\n- All-word initials have zero matches. Exact15/all-word readout has zero for all k; every-other-word cases may produce 7/8-letter output. General family has 6,358 matched occurrence references, 3,139 joined strings / 3,147 spaced strings, mostly N2. These are compatibility counts, not recovered messages or keys.\n- Six deterministic eligible synthetic plants re-encrypt full97 letters; no missing exact15 ENE plant invented. Whole-family 31 capacity draws: 24 dictionary-splittable, zero contiguous-bank matches. Not an observed K4 significance test. [Independent positive-count audit](../results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json) verifies 7,266 message/lane counts; complete tiny negative controls and exact Python3.12 replay retained. No claim of a second exhaustive corpus false-negative implementation.\n\n- Final aggregate local validation for COVER-033/034: 625 tests pass on Python3.9/3.12; [separate UTC receipt/full logs](../results/COVER-033-034-VALIDATION.json). Canonical ciphertext unchanged, no push or Site change."
     }
   ],
   "receipts": [
@@ -3685,6 +3855,163 @@
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
       "status": "passed"
+    },
+    {
+      "path": "results/COVER-033-034-SOURCES.json",
+      "labels": [
+        "Source pins and factual context; no raw corpus/software or full webpages committed"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/COVER-033-034-VALIDATION.json",
+      "labels": [
+        "Completed local cover extraction and corpus feasibility validation; no K4 decryption or publication"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T14:25:43.810244Z",
+          "original": "2026-10-24T14:25:43.810244+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/COVER-EXTRACTION-033-ORIGINAL.json",
+      "labels": [
+        "COVER-EXTRACTION-033",
+        "Conditional post-decryption source-grammar feasibility; no actual K4 decryption"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T13:55:39.526279Z",
+          "original": "2026-10-24T13:55:39.526279+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T13:55:39.790810Z",
+          "original": "2026-10-24T13:55:39.790810+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/COVER-EXTRACTION-033-PY312-REPLAY.json",
+      "labels": [
+        "COVER-EXTRACTION-033",
+        "Conditional post-decryption source-grammar feasibility; no actual K4 decryption"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T14:12:04.924656Z",
+          "original": "2026-10-24T14:12:04.924656+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T14:12:05.127524Z",
+          "original": "2026-10-24T14:12:05.127524+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json",
+      "labels": [
+        "Complete Python3.12 core/phrase/control payload replay; metadata times remain separate"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json",
+      "labels": [
+        "Post-outcome independent full-position audit of all recorded unique corpus positives"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T14:05:51.422791Z",
+          "original": "2026-10-24T14:05:51.422791+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T14:05:58.083425Z",
+          "original": "2026-10-24T14:05:58.083425+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/COVER-PHRASE-034-MESSAGE-SPLITS.json",
+      "labels": [
+        "Complete matched corpus output-word segmentation metadata, no raw corpus text"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/COVER-PHRASE-034-PY312-REPLAY-SUMMARY.json",
+      "labels": [
+        "COVER-PHRASE-034",
+        "Conditional corpus/cover capacity, not decryption or K4 significance"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T14:07:44.116650Z",
+          "original": "2026-10-24T14:07:44.116650+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T14:07:50.283484Z",
+          "original": "2026-10-24T14:07:50.283484+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/COVER-PHRASE-034-original-summary.json",
+      "labels": [
+        "COVER-PHRASE-034",
+        "Conditional corpus/cover capacity, not decryption or K4 significance"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T14:01:20.542852Z",
+          "original": "2026-10-24T14:01:20.542852+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T14:01:29.259691Z",
+          "original": "2026-10-24T14:01:29.259691+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
     },
     {
       "path": "results/CSP889-ANCHOR-017-validation.json",
@@ -3975,6 +4302,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-037.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -4209,6 +4545,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-032.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-034.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -4579,6 +4922,15 @@
     },
     {
       "path": "results/FRONTIER-032.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-034.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -5030,6 +5382,15 @@
       "path": "results/HYPOTHESIS-REGISTER-032.json",
       "labels": [
         "Local deliberate-spelling family/source-gate addition; not K4 evaluation"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/HYPOTHESIS-REGISTER-034.json",
+      "labels": [
+        "Local word-cover extraction family and exact scope addition; not K4 evaluation"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
