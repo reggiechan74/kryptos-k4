@@ -62,7 +62,7 @@
       "Missing inputs": "Four-sheet surfaces/seams, aperture contours, true heading, receiver geometry, obstacles, water/window normals and independently timed camera calibration.",
       "Next discriminating test": "Certify non-K4 aperture/receiving material-point pairs, freeze8 fitting/4 heldout distributed picks and error budget, then test heldout line incidence. Full spot prediction needs additional camera/receiver calibration; no fit with invented pairs.",
       "Dependencies": "Completed physical-source review plus remaining independent input gates; H-COMPASS-FRAMES; H-GLYPH-VIEW; no fitted date, heading or receiver chosen from attractive K4 output.",
-      "Results": "[Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); [Item 2 conditional physical checks and evidence gate](PHYSICAL-SOLAR-002-FINDINGS.md); [Projection diagnostic and data gate](PROJECTION-CONCURRENCE-029-FINDINGS.md); [Live version16 diagnostic source/provenance](../docs/site-source/projection-20261024/README.md) is a tool archive, not a real-data validation; [Current corrected version 17 archive](../docs/site-source/projection-v17-20261024/README.md) preserves the same zero-pair limitation; no surveyed optical K4 decoding result exists. [040source/depth ambiguity and off-site clarification](PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md):zero certified pairs describes reviewed/transferred records, not proof accessible photographs cannot yield them."
+      "Results": "[Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); [Item 2 conditional physical checks and evidence gate](PHYSICAL-SOLAR-002-FINDINGS.md); [Projection diagnostic and data gate](PROJECTION-CONCURRENCE-029-FINDINGS.md); [Live version16 diagnostic source/provenance](../docs/site-source/projection-20261024/README.md) is a tool archive, not a real-data validation; [Current corrected version 17 archive](../docs/site-source/projection-v17-20261024/README.md) preserves the same zero-pair limitation; no surveyed optical K4 decoding result exists. [040source/depth ambiguity and off-site clarification](PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md):zero certified pairs describes reviewed/transferred records, not proof accessible photographs cannot yield them. [047 native source inspection](PHOTO-NATIVE-047-FINDINGS.md) now attempts off-site material-point annotation on nine exact crops; zero certified pairs and no fit, without claiming the existing photo can never yield identities."
     },
     {
       "id": "H-SHADOW-TIME",
@@ -4438,6 +4438,48 @@
         "results/REVIEW-CONTROLS-046.json"
       ],
       "original_entry": "- Date: 2026-10-24 UTC.\n- Actual original calculation start: `2026-10-24T18:55:29.101871+00:00`; end: `2026-10-24T18:55:29.116792+00:00`. These are receipt values, not commit/publication times.\n- Scope/result: Active-root interruption, wrong-DST calculation and invalidflags pass; original runs unchanged. General family limits remain explicit.\n- [Findings/protocol/control links](REVIEW-CONTROLS-046.md); [original receipt](../results/REVIEW-CONTROLS-046.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).\n- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct."
+    },
+    {
+      "record_id": "LOG-6DA0BC1C60",
+      "experiment_ids": [
+        "PHOTO-NATIVE-047"
+      ],
+      "title": "PHOTO-NATIVE-047 — bounded native LOC correspondence admission",
+      "categories": [
+        "source research",
+        "physical evidence admission"
+      ],
+      "outcome": "Native-pixel attempt complete; zero certified material-point pairs, no real fit; crop registration independently exact",
+      "classification_basis": "Reviewed frozen protocol, actual inspected native crops and rejected observation boxes; not a metadata-only blockage or broad optical exclusion.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-24 UTC. Frozen protocol saved at `2026-10-24T19:17:13.787510+00:00`; native inspection finished at `2026-10-24T19:19:56.054606+00:00`. Validation/replay times are separate.",
+      "date_only": {
+        "date": "2026-10-24",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/PHOTO-NATIVE-047-VALIDATION.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T19:25:10.697950Z",
+          "original": "2026-10-24T19:25:10.697950+00:00"
+        }
+      ],
+      "links": [
+        "research/PHOTO-NATIVE-047-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-SPEC.md",
+        "research/evidence/2026-10-24-native-loc/README.md",
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+        "results/PHOTO-NATIVE-047-VALIDATION.json"
+      ],
+      "receipt_paths": [
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+        "results/PHOTO-NATIVE-047-VALIDATION.json"
+      ],
+      "original_entry": "- Date: 2026-10-24 UTC. Frozen protocol saved at `2026-10-24T19:17:13.787510+00:00`; native inspection finished at `2026-10-24T19:19:56.054606+00:00`. Validation/replay times are separate.\n- Scope: one verified 3384 × 4283 LOC exposure, initial 800 × 800 ROI plus eight native crops; ten rejected bright-feature boxes. Zero certified material-point pairs, no geometric fit and no K4 evaluation. This is bounded manual failure to establish identities, not proof the photo can never yield them.\n- [Findings](PHOTO-NATIVE-047-FINDINGS.md); [frozen protocol](PHOTO-NATIVE-047-SPEC.md); [native crops/transforms/annotations](evidence/2026-10-24-native-loc/README.md); [exact crop check](../results/PHOTO-NATIVE-047-CROP-CHECK.json); [validation](../results/PHOTO-NATIVE-047-VALIDATION.json). Local only."
     }
   ],
   "receipts": [
@@ -7024,6 +7066,40 @@
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+      "labels": [
+        "Independent PNG scanline/native-coordinate crop verification; no optical fit"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/PHOTO-NATIVE-047-CROP-REPLAY.json",
+      "labels": [
+        "Independent PNG scanline/native-coordinate crop verification; no optical fit"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/PHOTO-NATIVE-047-VALIDATION.json",
+      "labels": [
+        "Native photo crop/admission validation; no physical fit or full-suite repeat"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T19:25:10.697950Z",
+          "original": "2026-10-24T19:25:10.697950+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
       "status": null
     },
     {

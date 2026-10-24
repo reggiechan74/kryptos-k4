@@ -260,6 +260,9 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/PERIOD-MAP-ENIGMA-VALIDATION.json](../../results/PERIOD-MAP-ENIGMA-VALIDATION.json) | PERIOD-MAP-ENIGMA-VALIDATION | receipt recording: 2026-10-18T12:00:46.104564Z |
 | [results/PHONETIC-CL-001-summary.json](../../results/PHONETIC-CL-001-summary.json) | PHONETIC-CL-001 | Exact run start/end unknown; inspect original |
 | [results/PHONETIC-CL-VALIDATION.json](../../results/PHONETIC-CL-VALIDATION.json) | PHONETIC-CL-001 | Exact run start/end unknown; inspect original |
+| [results/PHOTO-NATIVE-047-CROP-CHECK.json](../../results/PHOTO-NATIVE-047-CROP-CHECK.json) | Independent PNG scanline/native-coordinate crop verification; no optical fit | Exact run start/end unknown; inspect original |
+| [results/PHOTO-NATIVE-047-CROP-REPLAY.json](../../results/PHOTO-NATIVE-047-CROP-REPLAY.json) | Independent PNG scanline/native-coordinate crop verification; no optical fit | Exact run start/end unknown; inspect original |
+| [results/PHOTO-NATIVE-047-VALIDATION.json](../../results/PHOTO-NATIVE-047-VALIDATION.json) | Native photo crop/admission validation; no physical fit or full-suite repeat | receipt recording: 2026-10-24T19:25:10.697950Z |
 | [results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json](../../results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json) | PHYSICAL-ADDENDUM-LOCAL-REVIEW-001 | Exact run start/end unknown; inspect original |
 | [results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json](../../results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json) | PHYSICAL-IDENTIFIABILITY-040 | start: 2026-10-24T17:09:08.890519Z; end: 2026-10-24T17:09:09.091089Z |
 | [results/PHYSICAL-IDENTIFIABILITY-040-REPLAY.json](../../results/PHYSICAL-IDENTIFIABILITY-040-REPLAY.json) |  | start: 2026-10-24T17:11:29.652953Z; end: 2026-10-24T17:11:29.780787Z |

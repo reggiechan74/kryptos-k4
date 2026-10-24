@@ -1,0 +1,175 @@
+{
+  "kind": "Native photo crop/admission validation; no physical fit or full-suite repeat",
+  "runs": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T19:23:56.262722+00:00",
+      "finished_at_utc": "2026-10-24T19:24:25.311120+00:00",
+      "commands": [
+        {
+          "argv": [
+            "python3",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_photo_native_047.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "argv": [
+            "python3",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_seven_family_review_046.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "argv": [
+            "python3",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_projection_concurrence.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "argv": [
+            "python3",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_frontier_assessment.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "argv": [
+            "python3",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_research_navigation.py"
+          ],
+          "returncode": 0
+        }
+      ],
+      "affected_tests": 60,
+      "log": "results/PHOTO-NATIVE-047-python39.log.txt",
+      "sha256": "e3b7f783ae34eda7a5bb0fae3438760e5fd610954d5bc34ad19bec6b01947985"
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T19:24:25.311187+00:00",
+      "finished_at_utc": "2026-10-24T19:24:48.921880+00:00",
+      "commands": [
+        {
+          "argv": [
+            "/usr/local/bin/python3.12",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_photo_native_047.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "argv": [
+            "/usr/local/bin/python3.12",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_seven_family_review_046.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "argv": [
+            "/usr/local/bin/python3.12",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_projection_concurrence.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "argv": [
+            "/usr/local/bin/python3.12",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_frontier_assessment.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "argv": [
+            "/usr/local/bin/python3.12",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_research_navigation.py"
+          ],
+          "returncode": 0
+        }
+      ],
+      "affected_tests": 60,
+      "log": "results/PHOTO-NATIVE-047-python312.log.txt",
+      "sha256": "e7cdfcb028a93c4f8afbbc5d5c7988b4da2dd0172dd6a03aee590f8e593d9f1a"
+    }
+  ],
+  "semantic_crop_replay_equal": true,
+  "all_passed": true,
+  "previous_full_regressions": "702 tests on both versions at851f98f; retained unchanged",
+  "certified_pairs": 0,
+  "fit_performed": false,
+  "initial_validation_bookkeeping_issue": {
+    "reason": "The real Python3.12 crop replay replaced a placeholder with a different descriptive kind after the navigation snapshot was generated. The second navigation equality check failed; no crop/optical calculation failed. Navigation was regenerated and both complete affected batches passed.",
+    "logs": [
+      {
+        "path": "results/PHOTO-NATIVE-047-initial-python312.log.txt",
+        "sha256": "e2deda30ffef49f64dd3a3362fedc61f18c6f221794abf8d95f59ce25c1af98a"
+      },
+      {
+        "path": "results/PHOTO-NATIVE-047-initial-python39.log.txt",
+        "sha256": "7b1d7dac395177a8a79232e1ac6d67a1f1005da046263860b64dc180edc11be1"
+      }
+    ]
+  },
+  "source_engine_sha256": "51b9e9575d50638771204b3845477f5ce6d15f49fb5a9f4ad4fb07f4bcfde95d",
+  "recorded_at_utc": "2026-10-24T19:25:10.697950+00:00"
+}

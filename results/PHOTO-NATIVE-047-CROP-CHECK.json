@@ -1,0 +1,85 @@
+{
+  "kind": "Independent PNG scanline/native-coordinate crop verification; no optical fit",
+  "source_conversion_png_sha256": "47570d24faeafa0041e342ab6138df4878be8e1848ccb3316faba17906a6a7e1",
+  "crop_checks": [
+    {
+      "file": "ground.png",
+      "native_rgb_exact": true,
+      "dimensions": [
+        800,
+        800
+      ]
+    },
+    {
+      "file": "screen-left.png",
+      "native_rgb_exact": true,
+      "dimensions": [
+        900,
+        1300
+      ]
+    },
+    {
+      "file": "screen-back.png",
+      "native_rgb_exact": true,
+      "dimensions": [
+        1300,
+        1000
+      ]
+    },
+    {
+      "file": "ground-left.png",
+      "native_rgb_exact": true,
+      "dimensions": [
+        500,
+        700
+      ]
+    },
+    {
+      "file": "ground-right.png",
+      "native_rgb_exact": true,
+      "dimensions": [
+        500,
+        700
+      ]
+    },
+    {
+      "file": "q1.png",
+      "native_rgb_exact": true,
+      "dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "file": "q2.png",
+      "native_rgb_exact": true,
+      "dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "file": "q3.png",
+      "native_rgb_exact": true,
+      "dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "file": "q4.png",
+      "native_rgb_exact": true,
+      "dimensions": [
+        400,
+        400
+      ]
+    }
+  ],
+  "admission": {
+    "certified_pairs": 0,
+    "primary_12_pair_gate_passed": false,
+    "exploratory_3_train_1_holdout_possible": false,
+    "fit_performed": false,
+    "metadata_admission_is_not_independent_identity_certification": true
+  }
+}

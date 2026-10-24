@@ -2034,3 +2034,19 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
 
 Related files: [research/REVIEW-CONTROLS-046.md](../../research/REVIEW-CONTROLS-046.md), [research/SEVEN-FAMILY-REVIEW-046.md](../../research/SEVEN-FAMILY-REVIEW-046.md), [results/REVIEW-CONTROLS-046.json](../../results/REVIEW-CONTROLS-046.json).
+
+## LOG-6DA0BC1C60
+
+**PHOTO-NATIVE-047 — bounded native LOC correspondence admission**
+
+receipt recording: 2026-10-24T19:25:10.697950Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC. Frozen protocol saved at `2026-10-24T19:17:13.787510+00:00`; native inspection finished at `2026-10-24T19:19:56.054606+00:00`. Validation/replay times are separate.
+
+Type: source research; physical evidence admission. Outcome: Native-pixel attempt complete; zero certified material-point pairs, no real fit; crop registration independently exact
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC. Frozen protocol saved at `2026-10-24T19:17:13.787510+00:00`; native inspection finished at `2026-10-24T19:19:56.054606+00:00`. Validation/replay times are separate.
+- Scope: one verified 3384 × 4283 LOC exposure, initial 800 × 800 ROI plus eight native crops; ten rejected bright-feature boxes. Zero certified material-point pairs, no geometric fit and no K4 evaluation. This is bounded manual failure to establish identities, not proof the photo can never yield them.
+- [Findings](../../research/PHOTO-NATIVE-047-FINDINGS.md); [frozen protocol](../../research/PHOTO-NATIVE-047-SPEC.md); [native crops/transforms/annotations](../../research/evidence/2026-10-24-native-loc/README.md); [exact crop check](../../results/PHOTO-NATIVE-047-CROP-CHECK.json); [validation](../../results/PHOTO-NATIVE-047-VALIDATION.json). Local only.
+
+Related files: [research/PHOTO-NATIVE-047-FINDINGS.md](../../research/PHOTO-NATIVE-047-FINDINGS.md), [research/PHOTO-NATIVE-047-SPEC.md](../../research/PHOTO-NATIVE-047-SPEC.md), [research/evidence/2026-10-24-native-loc/README.md](../../research/evidence/2026-10-24-native-loc/README.md), [results/PHOTO-NATIVE-047-CROP-CHECK.json](../../results/PHOTO-NATIVE-047-CROP-CHECK.json), [results/PHOTO-NATIVE-047-VALIDATION.json](../../results/PHOTO-NATIVE-047-VALIDATION.json).

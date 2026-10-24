@@ -17,3 +17,7 @@ Existing036/037 negative stability panels remain unchanged. The currently review
 ## Review clarification: an off-site evidence gate
 
 The [acquisition README](evidence/2026-10-24-projection-acquisition/README.md) distinguishes the worker report, consumer-transcribed ROIs and independently inspected local files. A ground crop with an unknown transform cannot yet supply original-coordinate pairs. Recovering its transform, inspecting the native public LOC image, and independently assigning distributed non-K4 aperture/spot identities are feasible off-site annotation work. They may succeed or remain ambiguous; this report does not decide that in advance. An independently documented tabletop replica is another off-site route to testing manual readability/stability. Neither requires visiting CIA grounds. Finite-source blur, thickness and explicit occlusion already have conditional checks in022/036/037; measured contours and feature identities remain separate missing inputs, not proof against optics.
+
+## Subsequent 047 native-image attempt
+
+[Native inspection and exact crop verification](PHOTO-NATIVE-047-FINDINGS.md) now complete the explicitly pending off-site manual attempt: nine crops, ten rough observation boxes, zero certified material-point pairs and no fit. This is an actual pixel/identity limitation in a bounded pass, not an absence-of-metadata shortcut or proof all annotation methods fail. The original 040 synthetic calculations and receipts remain unchanged.

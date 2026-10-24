@@ -8,7 +8,7 @@ This repository records an attempt to understand **K4, the final 97-letter secti
 
 **Published through [043924d](https://github.com/reggiechan74/kryptos-k4/commit/043924da99362c67c99afb4b2866d996e0fabdf2):** studies 032–037 and the map archive, with 668 tests passed on Python 3.9 and 3.12.
 
-**New local review:** the [seven-family coverage matrix](research/SEVEN-FAMILY-REVIEW-046.md) tracks 34 subbranches across studies 038–046. Narrow exclusions, non-identifiable fits, unresolved computation and evidence gaps remain separate. No K4 plaintext is identified. These results await review and have not changed the live Site.
+**New local review:** the [seven-family coverage matrix](research/SEVEN-FAMILY-REVIEW-046.md) tracks 34 subbranches across studies 038–046, with the [047 native-photo follow-through](research/PHOTO-NATIVE-047-FINDINGS.md). Narrow exclusions, non-identifiable fits, unresolved computation and evidence gaps remain separate. No K4 plaintext is identified. These results await review and have not changed the live Site.
 
 K1–K3 serve as known-answer controls. Public reports of archival plaintext recovery are distinct from a published, reproducible cryptanalytic solution; see the [source verification](docs/source-verification-2026-10-18.md). This workspace does not claim independently to know all of K4’s plaintext.
 

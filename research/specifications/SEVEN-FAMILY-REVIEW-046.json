@@ -132,16 +132,18 @@
       "id": "F3-PHOTO",
       "branch": "Actual curved copper transmission/projection",
       "status": "partially_tested",
-      "coverage": "029 synthetic incidence diagnostic and 040 exact image-ambiguity witnesses are complete. Acquisition-source visual inspection and local ground-crop review were attempted; systematic native-image material-point annotation and crop registration were not. No certified pairs exist in the reviewed record.",
-      "missing_input": "Independent non-K4aperture/spot identities and justified source/surface/receiver model.",
-      "next_discriminating_work": "Use the accessible native LOC 3384x4283 TIFF and known hash, annotate actual non-K4 aperture/receiver material-point identities in native pixels, or recover the existing crop transform. Do not require a new photograph, site visit, true north or exposure time merely to attempt image-plane concurrence. Correspondence ambiguity may still prevent fitting.",
+      "coverage": "047 completes the bounded native LOC manual correspondence attempt: nine exact native crops and ten rejected observation boxes, zero certified material-point pairs, no real fit. Prior029/040 diagnostics remain synthetic/analytical.",
+      "missing_input": "Defensible non-K4 material-point identities and endpoint uncertainty, with independent holdouts. Missing north/scale/time is not the initial incidence blocker.",
+      "next_discriminating_work": "Independent annotation or a separately frozen model-assisted assignment method could still find identities in the existing exposure. Do not choose matches by concurrence and call that independent validation. Additional data/replica may help but is not presumed mandatory.",
       "evidence": [
         "research/PROJECTION-CONCURRENCE-029-FINDINGS.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
-        "research/evidence/2026-10-24-projection-acquisition/README.md"
+        "research/evidence/2026-10-24-projection-acquisition/README.md",
+        "research/PHOTO-NATIVE-047-FINDINGS.md",
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json"
       ],
       "whole_family_excluded": false,
-      "feasible_follow_up_status": "not_attempted: systematic native-pixel annotation and crop registration"
+      "feasible_follow_up_status": "attempted: native-pixel manual correspondence admission failed; exact crop transforms independently verified"
     },
     {
       "family": 3,
@@ -500,5 +502,13 @@
     "source gaps are permanently unresolvable",
     "a compatible/maximum-score plaintext is independently confirmed",
     "all missing physical evidence requires onsite access"
-  ]
+  ],
+  "post_review_native_photo_follow_up": {
+    "record": "research/PHOTO-NATIVE-047-FINDINGS.md",
+    "inspection_finished_at_utc": "2026-10-24T19:19:56.054606+00:00",
+    "certified_pairs": 0,
+    "fit_performed": false,
+    "manual_attempt_complete": true,
+    "all_possible_photo_assignments_exhausted": false
+  }
 }

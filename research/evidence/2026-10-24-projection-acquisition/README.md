@@ -7,3 +7,7 @@
 [Local review](LOCAL-REVIEW.json) separately records the previously available LOC TIFF identity/dimensions and inspection of an existing ground-detail PNG. Its unknown crop transform prevents using that PNG for original-coordinate annotation without recovering the transform. No source image is republished here.
 
 The [diagnostic findings](../../PROJECTION-CONCURRENCE-029-FINDINGS.md) and [preregistered test](../../PROJECTION-CONCURRENCE-029-SPEC.md) remain distinct from acquisition evidence. No external request, purchase or permissions acceptance was made.
+
+## Subsequent native-pixel follow-through
+
+The [047 native-source attempt](../2026-10-24-native-loc/README.md) now bypasses the old crop transform by deriving nine exactly verified crops directly from the native TIFF. Manual point-identity admission was attempted and yielded zero certified pairs. This updates the work status; it does not retroactively change the earlier local-review JSON or prove the exposure cannot yield identities by other methods.

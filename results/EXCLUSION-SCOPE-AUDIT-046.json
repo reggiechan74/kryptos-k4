@@ -133,6 +133,7 @@
         "docs/site-source/projection-v17-20261024/full-feature.zip",
         "docs/site-source/projection-v17-20261024/snapshot/HANDOFF_MANIFEST.json",
         "docs/site-source/projection-v17-20261024/snapshot/README.md",
+        "experiments/photo_native_047.py",
         "experiments/physical_identifiability_040.py",
         "experiments/physical_solar_002.py",
         "experiments/projection_concurrence.py",
@@ -145,6 +146,8 @@
         "independent/2026-10-24/physical-item2/README.md",
         "independent/2026-10-24/physical-item2/physical-constraints.json",
         "independent/2026-10-24/physical-item2/replay_physical_constraints.py",
+        "research/PHOTO-NATIVE-047-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-SPEC.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-SPEC.md",
         "research/PHYSICAL-SOLAR-002-FINDINGS.md",
@@ -155,10 +158,14 @@
         "research/PROJECTION-CONCURRENCE-029-SPEC.md",
         "research/evidence/2026-10-23-lodestone-compass/KRYPTOS-PHYSICAL-EVIDENCE-ADDENDUM-2026-10-23.md",
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
+        "research/evidence/2026-10-24-native-loc/README.md",
+        "research/evidence/2026-10-24-native-loc/annotations.json",
         "research/evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json",
         "research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md",
         "research/evidence/2026-10-24-projection-acquisition/README.md",
         "research/evidence/2026-10-24-projection-acquisition/SOURCE-INVENTORY-AND-GATE.json",
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+        "results/PHOTO-NATIVE-047-VALIDATION.json",
         "results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-REPLAY.json",
@@ -202,6 +209,7 @@
         "docs/site-source/projection-20261024/snapshot/README.md",
         "docs/site-source/projection-20261024/snapshot/candidate/projection-test/photo-provenance.json",
         "experiments/check_solar_bounds.py",
+        "experiments/photo_native_047.py",
         "experiments/physical_identifiability_040.py",
         "experiments/physical_solar_002.py",
         "experiments/projection_concurrence.py",
@@ -214,6 +222,8 @@
         "independent/2026-10-24/physical-item2/README.md",
         "independent/2026-10-24/physical-item2/physical-constraints.json",
         "independent/2026-10-24/physical-item2/replay_physical_constraints.py",
+        "research/PHOTO-NATIVE-047-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-SPEC.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-SPEC.md",
         "research/PHYSICAL-SOLAR-002-FINDINGS.md",
@@ -223,10 +233,14 @@
         "research/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS-SPEC.md",
         "research/PROJECTION-CONCURRENCE-029-SPEC.md",
         "research/STRUCTURAL-FINDINGS.md",
+        "research/evidence/2026-10-24-native-loc/README.md",
+        "research/evidence/2026-10-24-native-loc/annotations.json",
         "research/evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json",
         "research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md",
         "research/evidence/2026-10-24-projection-acquisition/README.md",
         "research/evidence/2026-10-24-projection-acquisition/SOURCE-INVENTORY-AND-GATE.json",
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+        "results/PHOTO-NATIVE-047-VALIDATION.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-REPLAY.json",
         "results/PHYSICAL-SOLAR-002-VALIDATION.json",
@@ -319,10 +333,10 @@
         "experiments/audit_tree_geometry_ipa.py",
         "experiments/build_research_navigation.py",
         "experiments/cp_convention_replay.py",
+        "experiments/photo_native_047.py",
         "experiments/projection_concurrence.py",
         "experiments/projection_concurrence_reference.py",
         "experiments/recurrence_certificate.py",
-        "experiments/replay_independent_followup.py",
         "experiments/review_supplied_synthesis.py",
         "experiments/run_projection_concurrence.py",
         "experiments/run_tree_geometry_ipa.py",
@@ -335,10 +349,8 @@
         "independent/2026-10-22/CONSTRUCTION-TRANSFER-RECEIPT.json",
         "independent/2026-10-22/README.md",
         "independent/2026-10-22/TRANSFER-RECEIPT.json",
-        "independent/2026-10-22/calibration/REPORT.md",
         "independent/2026-10-22/construction/README.md",
         "independent/2026-10-22/construction/REPORT.md",
-        "independent/2026-10-22/evolving-alphabet/README.md",
         "independent/2026-10-22/historical-clock/PHOTO_REVIEW_MANIFEST.json",
         "independent/2026-10-22/historical-clock/README.md",
         "independent/2026-10-22/historical-clock/README_REPO_INPUT.txt",
@@ -378,6 +390,8 @@
         "research/OCCUPIED-CELL-FINDINGS.md",
         "research/ONE-EDIT-028-FINDINGS.md",
         "research/PHONETIC-FEASIBILITY.md",
+        "research/PHOTO-NATIVE-047-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-SPEC.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
         "research/PHYSICAL-SOLAR-002-FINDINGS.md",
         "research/POLICY.md",
@@ -410,6 +424,8 @@
         "research/WORLD-CLOCK-003-SPEC.md",
         "research/evidence/2026-10-23-lodestone-compass/KRYPTOS-PHYSICAL-EVIDENCE-ADDENDUM-2026-10-23.md",
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
+        "research/evidence/2026-10-24-native-loc/README.md",
+        "research/evidence/2026-10-24-native-loc/annotations.json",
         "research/evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json",
         "research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md",
         "research/evidence/2026-10-24-projection-acquisition/README.md",
@@ -418,6 +434,8 @@
         "research/specifications/SEVEN-FAMILY-REVIEW-046.json",
         "research/specifications/STRATEGY-FOLLOWUP-001.json",
         "results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json",
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+        "results/PHOTO-NATIVE-047-VALIDATION.json",
         "results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json",
         "results/PROJECTION-CONCURRENCE-029-DEGENERACY-QA.json",
         "results/PROJECTION-CONCURRENCE-029-INITIAL-QA.json",
@@ -753,6 +771,7 @@
         "docs/site-source/projection-20261024/snapshot/candidate/projection-test/photo-provenance.json",
         "experiments/audit_strip_source_gates.py",
         "experiments/item7_historical_source_qa.py",
+        "experiments/photo_native_047.py",
         "experiments/physical_identifiability_040.py",
         "experiments/projection_concurrence.py",
         "experiments/projection_concurrence_reference.py",
@@ -760,7 +779,6 @@
         "experiments/run_projection_concurrence.py",
         "experiments/run_strip_source_gates.py",
         "experiments/sigaba_compact_oracle.py",
-        "experiments/sigaba_real_adapter.py",
         "experiments/sigaba_support_signature_041.py",
         "experiments/sigaba_torus.py",
         "experiments/verify_projection_site_handoff.py",
@@ -769,6 +787,8 @@
         "independent/2026-10-24/item7-historical-sources/friedman-reference-source-qa.json",
         "independent/2026-10-24/item7-historical-sources/friedman_reference_source_qa.py",
         "independent/2026-10-24/item7-historical-sources/visual-transcription.json",
+        "research/PHOTO-NATIVE-047-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-SPEC.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-SPEC.md",
         "research/PROJECTION-CONCURRENCE-029-API.md",
@@ -786,9 +806,7 @@
         "research/SIGABA-JOINT-TOY-FINDINGS.md",
         "research/SIGABA-LITERATURE-AND-FILTER-REVIEW.md",
         "research/SIGABA-REAL-ADAPTER-FINDINGS.md",
-        "research/SIGABA-REAL-ADAPTER-SPEC.md",
         "research/SIGABA-SPARSE-OWNERSHIP-FINDINGS.md",
-        "research/SIGABA-SPARSE-OWNERSHIP-SPEC.md",
         "research/SIGABA-SUPPORT-SIGNATURE-041-FINDINGS.md",
         "research/SIGABA-SUPPORT-SIGNATURE-041-SPEC.md",
         "research/SIGABA-TORUS-FINDINGS.md",
@@ -801,6 +819,8 @@
         "research/STRIP-SOURCE-GATES-027-FINDINGS.md",
         "research/STRIP-SOURCE-GATES-027-PROGRESS.md",
         "research/STRIP-SOURCE-GATES-027-SPEC.md",
+        "research/evidence/2026-10-24-native-loc/README.md",
+        "research/evidence/2026-10-24-native-loc/annotations.json",
         "research/evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json",
         "research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md",
         "research/evidence/2026-10-24-projection-acquisition/README.md",
@@ -808,6 +828,8 @@
         "results/CSP889-COUPLED-024-VALIDATION.json",
         "results/ITEM7-HISTORICAL-SOURCE-QA-027.json",
         "results/ITEM7-LOCAL-SOURCE-REVIEW.json",
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+        "results/PHOTO-NATIVE-047-VALIDATION.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-REPLAY.json",
         "results/PROJECTION-CONCURRENCE-029-DEGENERACY-QA.json",
@@ -832,8 +854,6 @@
         "results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json",
         "results/STRIP-SOURCE-GATES-027-ARITHMETIC-REPLAY.json",
         "results/STRIP-SOURCE-GATES-027-VALIDATION.json",
-        "results/sigaba-real-adapter/case-0.json",
-        "results/sigaba-real-adapter/case-1.json",
         "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/manifest.json",
         "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/manifest.json",
         "results/sigaba-unknown-anchor-diagnostic/README.md",
@@ -1929,6 +1949,7 @@
         "docs/tracking/tracker.json",
         "experiments/build_research_navigation.py",
         "experiments/monument_slide_2d.py",
+        "experiments/photo_native_047.py",
         "experiments/projection_concurrence.py",
         "experiments/projection_concurrence_reference.py",
         "experiments/run_projection_concurrence.py",
@@ -1964,6 +1985,8 @@
         "research/LANGUAGE-FINDINGS.md",
         "research/MINIMUM-REPAIR-044-FINDINGS.md",
         "research/ONE-EDIT-028-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-SPEC.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
         "research/PHYSICAL-SOLAR-002-FINDINGS.md",
         "research/PROJECTION-CONCURRENCE-029-API.md",
@@ -1990,6 +2013,8 @@
         "research/WORLD-CLOCK-003-SPEC.md",
         "research/evidence/2026-10-23-lodestone-compass/KRYPTOS-PHYSICAL-EVIDENCE-ADDENDUM-2026-10-23.md",
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
+        "research/evidence/2026-10-24-native-loc/README.md",
+        "research/evidence/2026-10-24-native-loc/annotations.json",
         "research/evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json",
         "research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md",
         "research/evidence/2026-10-24-projection-acquisition/README.md",
@@ -2252,6 +2277,9 @@
         "results/PERIOD-MAP-ENIGMA-VALIDATION.json",
         "results/PHONETIC-CL-001-summary.json",
         "results/PHONETIC-CL-VALIDATION.json",
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+        "results/PHOTO-NATIVE-047-CROP-REPLAY.json",
+        "results/PHOTO-NATIVE-047-VALIDATION.json",
         "results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-REPLAY.json",
@@ -2818,6 +2846,7 @@
         "docs/site-source/projection-20261024/snapshot/README.md",
         "docs/site-source/projection-20261024/snapshot/candidate/projection-test/photo-provenance.json",
         "experiments/clock_civil_042.py",
+        "experiments/photo_native_047.py",
         "experiments/physical_identifiability_040.py",
         "experiments/projection_concurrence.py",
         "experiments/projection_concurrence_reference.py",
@@ -2828,6 +2857,8 @@
         "research/CLOCK-CIVIL-042-FINDINGS.md",
         "research/CLOCK-CIVIL-042-SPEC.md",
         "research/CLOCK-RESET-PROOF.md",
+        "research/PHOTO-NATIVE-047-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-SPEC.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-SPEC.md",
         "research/PROJECTION-CONCURRENCE-029-API.md",
@@ -2835,12 +2866,16 @@
         "research/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS-SPEC.md",
         "research/PROJECTION-CONCURRENCE-029-SPEC.md",
         "research/REVIEW-CONTROLS-046.md",
+        "research/evidence/2026-10-24-native-loc/README.md",
+        "research/evidence/2026-10-24-native-loc/annotations.json",
         "research/evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json",
         "research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md",
         "research/evidence/2026-10-24-projection-acquisition/README.md",
         "research/evidence/2026-10-24-projection-acquisition/SOURCE-INVENTORY-AND-GATE.json",
         "results/CLOCK-CIVIL-042-ORIGINAL.json",
         "results/CLOCK-CIVIL-042-REPLAY.json",
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+        "results/PHOTO-NATIVE-047-VALIDATION.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-REPLAY.json",
         "results/PROJECTION-CONCURRENCE-029-DEGENERACY-QA.json",
@@ -4170,6 +4205,7 @@
         "docs/tracking/tracker.json",
         "experiments/build_research_navigation.py",
         "experiments/monument_slide_2d.py",
+        "experiments/photo_native_047.py",
         "experiments/projection_concurrence.py",
         "experiments/projection_concurrence_reference.py",
         "experiments/run_projection_concurrence.py",
@@ -4206,6 +4242,8 @@
         "research/LANGUAGE-FINDINGS.md",
         "research/MINIMUM-REPAIR-044-FINDINGS.md",
         "research/ONE-EDIT-028-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-SPEC.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
         "research/PHYSICAL-SOLAR-002-FINDINGS.md",
         "research/PROJECTION-CONCURRENCE-029-API.md",
@@ -4232,6 +4270,8 @@
         "research/WORLD-CLOCK-003-SPEC.md",
         "research/evidence/2026-10-23-lodestone-compass/KRYPTOS-PHYSICAL-EVIDENCE-ADDENDUM-2026-10-23.md",
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
+        "research/evidence/2026-10-24-native-loc/README.md",
+        "research/evidence/2026-10-24-native-loc/annotations.json",
         "research/evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json",
         "research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md",
         "research/evidence/2026-10-24-projection-acquisition/README.md",
@@ -4494,6 +4534,9 @@
         "results/PERIOD-MAP-ENIGMA-VALIDATION.json",
         "results/PHONETIC-CL-001-summary.json",
         "results/PHONETIC-CL-VALIDATION.json",
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+        "results/PHOTO-NATIVE-047-CROP-REPLAY.json",
+        "results/PHOTO-NATIVE-047-VALIDATION.json",
         "results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json",
         "results/PHYSICAL-IDENTIFIABILITY-040-REPLAY.json",
@@ -4794,15 +4837,9 @@
         "docs/site-source/projection-20261024/snapshot/PROJECTION_CONCURRENCE_QA.md",
         "docs/site-source/projection-20261024/snapshot/README.md",
         "docs/site-source/projection-20261024/snapshot/candidate/projection-test/photo-provenance.json",
-        "docs/tracking/EXPERIMENT-DETAILS.md",
-        "docs/tracking/PRESERVED-LINKS.md",
         "docs/tracking/README.md",
-        "docs/tracking/RECEIPTS.md",
-        "docs/tracking/curated-records.json",
-        "docs/tracking/tracker.json",
-        "experiments/build_research_navigation.py",
         "experiments/compare_site_cylinder037.py",
-        "experiments/monument_slide_2d.py",
+        "experiments/photo_native_047.py",
         "experiments/physical_solar_002.py",
         "experiments/projection_concurrence.py",
         "experiments/projection_concurrence_reference.py",
@@ -4840,8 +4877,6 @@
         "research/CURVED-SAMPLER-036-FINDINGS.md",
         "research/CURVED-SAMPLER-036-SPEC.md",
         "research/FEISTEL-TREE-EXTENSION-FINDINGS.md",
-        "research/FOLD-SLIDE-2D-FINDINGS.md",
-        "research/FOLD-SLIDE-2D-SPEC.md",
         "research/GROMARK-ALPHABET-FINDINGS.md",
         "research/GROMARK-IDENTIFIABILITY-FINDINGS.md",
         "research/IPA-CODECS-INTEGRATION.md",
@@ -4849,6 +4884,8 @@
         "research/LANGUAGE-FINDINGS.md",
         "research/MINIMUM-REPAIR-044-FINDINGS.md",
         "research/ONE-EDIT-028-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-FINDINGS.md",
+        "research/PHOTO-NATIVE-047-SPEC.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
         "research/PHYSICAL-SOLAR-002-FINDINGS.md",
         "research/PHYSICAL-SOLAR-002-SPEC.md",
@@ -4877,12 +4914,12 @@
         "research/WORLD-CLOCK-003-SPEC.md",
         "research/evidence/2026-10-23-lodestone-compass/KRYPTOS-PHYSICAL-EVIDENCE-ADDENDUM-2026-10-23.md",
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
+        "research/evidence/2026-10-24-native-loc/README.md",
+        "research/evidence/2026-10-24-native-loc/annotations.json",
         "research/evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json",
         "research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md",
         "research/evidence/2026-10-24-projection-acquisition/README.md",
         "research/evidence/2026-10-24-projection-acquisition/SOURCE-INVENTORY-AND-GATE.json",
-        "research/figures/fold-slide-2d-001.svg",
-        "research/specifications/FOLD-SLIDE-2D-001.json",
         "research/specifications/SEVEN-FAMILY-REVIEW-046.json",
         "results/CURVED-SAMPLER-036-INDEPENDENT-CELL-AUDIT.json",
         "results/CURVED-SAMPLER-036-ORIGINAL.json.gz",
@@ -4893,9 +4930,8 @@
         "results/CURVED-SAMPLER-036-SUMMARY.json",
         "results/CURVED-SAMPLER-036-VALIDATION.json",
         "results/CURVED-SAMPLER-036-poses.jsonl.gz",
-        "results/FOLD-SLIDE-2D-001-frames.csv",
-        "results/FOLD-SLIDE-2D-CONTROL-SUPPLEMENT-001.json",
-        "results/FOLD-SLIDE-2D-PRE-EVALUATION-CONTROLS.json",
+        "results/PHOTO-NATIVE-047-CROP-CHECK.json",
+        "results/PHOTO-NATIVE-047-VALIDATION.json",
         "results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json",
         "results/PHYSICAL-SOLAR-002-VALIDATION.json",
         "results/PROJECTION-CONCURRENCE-029-DEGENERACY-QA.json",
@@ -4921,19 +4957,10 @@
         "results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json",
         "results/WORLD-CLOCK-003-FINAL-VALIDATION.json",
         "results/WORLD-CLOCK-003-VALIDATION.json",
-        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/actual.json",
-        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/aperture-intersections.csv.gz",
-        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/independent.json",
-        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/label-matches.csv.gz",
-        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json",
-        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/null-rotation.json",
-        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/null-shuffle.json",
-        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json",
         "results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/physical-checks.json",
         "results/world-clock-003/20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2/registration-analysis.json",
         "sources/physical-solar-002/SOURCE-RECEIPT.json",
-        "sources/world-clock-003/LOCAL-SOURCE-REVIEW.json",
-        "tests/test_monument_slide_2d.py"
+        "sources/world-clock-003/LOCAL-SOURCE-REVIEW.json"
       ],
       "verification": "Canonical scope reviewed; linked files inventoried. Fresh regression/analytical replays are listed separately. File presence alone does not validate a claim."
     }
@@ -4941,7 +4968,7 @@
   "documents": [
     {
       "path": "README.md",
-      "sha256": "2e2ce6569176ec4557d71a4f1970e6f6f3e1c9f8ca8e52929a4e78ac40a6ccb4",
+      "sha256": "9290afb245fe0fbaf4167870969832ae7ff0377a61f098cd7444470a711e3202",
       "matching_lines": 3
     },
     {
@@ -5126,12 +5153,12 @@
     },
     {
       "path": "docs/tracking/EXPERIMENT-DETAILS.md",
-      "sha256": "80ee36f638d16e8b1e8261fc3c9d25299685462644ffa2613c9ba082607231a6",
-      "matching_lines": 94
+      "sha256": "a62044480fc3804f8781d9c8761abad0901a7dbe413e1a0b39e560f63543afb4",
+      "matching_lines": 95
     },
     {
       "path": "docs/tracking/EXPERIMENTS.md",
-      "sha256": "074ac8c42a0175614f76bb200e5139407c141979873e78c22c2848a797bb0b97",
+      "sha256": "b3c22a5efd795ce0dae5c9ea10c0e0eec4d5c87ce32c8dbe26bfade5225face7",
       "matching_lines": 25
     },
     {
@@ -5146,7 +5173,7 @@
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "sha256": "f7982f35b6f58d4ea0a0cc2fe67836d20fcf0e00374bcdf8335a85f78d9c16c4",
+      "sha256": "27409c036dc165969f9de07b033adff003202f911315206e3943f26eb9be093a",
       "matching_lines": 4
     },
     {
@@ -5426,8 +5453,8 @@
     },
     {
       "path": "research/EXPERIMENTS.md",
-      "sha256": "fa4612ca45cc9f320c4e5c514076b10d6c636666c17d6fac257fb136ca246a68",
-      "matching_lines": 69
+      "sha256": "328b83563dac080e1dfec10bc5689c13d2b8561bb723f8299dd7cd6d6000e929",
+      "matching_lines": 70
     },
     {
       "path": "research/FEISTEL-EXTENSION-SPEC.md",
@@ -5491,7 +5518,7 @@
     },
     {
       "path": "research/HYPOTHESES.md",
-      "sha256": "b315825ee9306615c441849148defbc89c9e0d6e25219f53972d46419c492e61",
+      "sha256": "2a9efb5658218cbfce83dc42e6dba5a1f0e56580f1347b082158fca96c714c61",
       "matching_lines": 136
     },
     {
@@ -5615,13 +5642,18 @@
       "matching_lines": 1
     },
     {
+      "path": "research/PHOTO-NATIVE-047-SPEC.md",
+      "sha256": "448e63fe97663ac94300c2b2d0ef3e7bea4c6bed9ac2430a5734ebb3f01de715",
+      "matching_lines": 2
+    },
+    {
       "path": "research/PHYSICAL-EVIDENCE-PENDING-2026-10-23.md",
       "sha256": "8580817515ab4326e34201fc6c0a0f241d6686824c1bdfc3ee4bab91134ba868",
       "matching_lines": 1
     },
     {
       "path": "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
-      "sha256": "c94b6a985afcbc3302bedfb70e6faa552c80bee8939e0eb6cf504056ec07812a",
+      "sha256": "78b52757bebfbbb7549648fbf7cad7992d5f7e2ae0f450ce8c6734b0d3ef8147",
       "matching_lines": 2
     },
     {
@@ -5701,8 +5733,8 @@
     },
     {
       "path": "research/SEVEN-FAMILY-REVIEW-046.md",
-      "sha256": "2aabe549a6345dc2cd402791d6a85da247ab0650fcc7cafc95f4be194d91207d",
-      "matching_lines": 14
+      "sha256": "e5ca412012560864d42305dd9b8c7350fe36cc1e563e6550a2facfd7d95c3835",
+      "matching_lines": 15
     },
     {
       "path": "research/SIGABA-COLLECTOR-FILTER-FINDINGS.md",
@@ -7199,6 +7231,13 @@
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
+      "path": "docs/tracking/EXPERIMENT-DETAILS.md",
+      "line": 2049,
+      "text": "- Scope: one verified 3384 × 4283 LOC exposure, initial 800 × 800 ROI plus eight native crops; ten rejected bright-feature boxes. Zero certified material-point pairs, no geometric fit and no K4 evaluation. This is bounded manual failure to establish identities, not proof the photo can never yield them.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
       "path": "docs/tracking/EXPERIMENTS.md",
       "line": 13,
       "text": "| STRUCT-001 | STRUCT-001 — exact structural and encoding constraints | analytical constraints | Direct permutation deficit and 19 periodic contradictions; other models remain open | Exact run start/end unknown; date-only record: 2026-10-18 (date statement; not a run timestamp); original date statement: 2026-10-18 UTC; Python 3.9.6 standard library; under one second. | [Scope, result, code and receipts](EXPERIMENT-DETAILS.md#log-cb0ba28264) |",
@@ -7578,14 +7617,14 @@
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "line": 278,
+      "line": 281,
       "text": "| [results/PROSE-COVER-035-INDEPENDENT-AUDIT.json](../../results/PROSE-COVER-035-INDEPENDENT-AUDIT.json) | Independent post-outcome complete actual-domain set and lexical-negative replay | start: 2026-10-24T14:43:46.938037Z; end: 2026-10-24T14:43:49.043601Z |",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "line": 421,
+      "line": 424,
       "text": "| [results/one-edit-028-preflight/receipt.json](../../results/one-edit-028-preflight/receipt.json) | Preflight serialization-cap issue, not a cipher negative | receipt recording: 2026-10-24T02:59:14.270769Z |",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
@@ -10174,6 +10213,13 @@
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
+      "path": "research/EXPERIMENTS.md",
+      "line": 1211,
+      "text": "- Scope: one verified 3384 × 4283 LOC exposure, initial 800 × 800 ROI plus eight native crops; ten rejected bright-feature boxes. Zero certified material-point pairs, no geometric fit and no K4 evaluation. This is bounded manual failure to establish identities, not proof the photo can never yield them.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
       "path": "research/FEISTEL-EXTENSION-SPEC.md",
       "line": 7,
       "text": "Base map: A=L+F(R), B=R+G(A) modulo 26, shared arbitrary F/G. Wrapper flags independently swap the two inputs and the two outputs. Input/output alphabet roles independently AZ or KRYPTOS; adjacent pair origin 1 or 2, unpaired endpoint copied literally. There are 32 raw labels: the eight no-swap labels are covered; at most 24 swap labels are new. A coordinate change cannot be assumed an alias because addition depends on coordinate order. S T S is the inverse of T with negated/exchanged round functions, but prior encryption constraints did not test arbitrary inverse-family maps. Inverse control tests alone do not exclude that family.",
@@ -12561,6 +12607,20 @@
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
+      "path": "research/PHOTO-NATIVE-047-SPEC.md",
+      "line": 9,
+      "text": "Admissible pairs require an identifiable point on an actual aperture boundary and a corresponding boundary point of its transmitted image on the receiver, not merely similar glyph identity or an arbitrary centroid. Both endpoints must be visible, distinct and localized with a recorded native-pixel uncertainty. Require a unique defensible aperture/receiver identity, supported by contour topology and surrounding spatial order; repeated glyph shape alone is insufficient. Reject pooled light spots, surface reflections, clipped/occluded contours and points whose transmitting aperture cannot be distinguished. List candidate features and explicit reasons for rejection, rather than inventing coordinates. Rough observation boxes are not certified endpoints.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "research/PHOTO-NATIVE-047-SPEC.md",
+      "line": 15,
+      "text": "Finite Sun, plate thickness, occlusion, lens distortion and unknown radiometry can displace or blur physical edges. North, metric scale and capture time are not needed for the initial image-plane incidence test. Failure to establish pairs rejects no optical cipher. A new acquisition, outreach, paid step or physical visit is outside this attempt.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
       "path": "research/PHYSICAL-EVIDENCE-PENDING-2026-10-23.md",
       "line": 8,
       "text": "- Sanborn maintenance instructions, reported as 1990, Box 6 Folder 10, manifest aaa-sanbojim-ref75, folder pages 13–14, images AAA-AAA_sanbojim_4111605-000001 and 4111606-000001: a timer-controlled 500-watt quartz lamp in the small pool, intended on 17:00–24:00 in fall/winter and 20:00–24:00 in spring/summer. Pump intended 08:00–20:00, April 1–December 1. [Scan](https://ids.si.edu/ids/iiif/AAA-AAA_sanbojim_4111606-000001/full/full/0/default.jpg). Intended operation is not verified uptime; light position/direction and an extraction mechanism remain unmeasured. Solar-only feasibility does not exclude artificial illumination.",
@@ -12968,6 +13028,13 @@
     },
     {
       "path": "research/SEVEN-FAMILY-REVIEW-046.md",
+      "line": 43,
+      "text": "| Actual curved copper transmission/projection | partially_tested | 047 completes the bounded native LOC manual correspondence attempt: nine exact native crops and ten rejected observation boxes, zero certified material-point pairs, no real fit. Prior029/040 diagnostics remain synthetic/analytical. | Defensible non-K4 material-point identities and endpoint uncertainty, with independent holdouts. Missing north/scale/time is not the initial incidence blocker. Independent annotation or a separately frozen model-assisted assignment method could still find identities in the existing exposure. Do not choose matches by concurrence and call that independent validation. Additional data/replica may help but is not presumed mandatory. | [PROJECTION-CONCURRENCE-029-FINDINGS.md](PROJECTION-CONCURRENCE-029-FINDINGS.md), [PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md](PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md), [README.md](evidence/2026-10-24-projection-acquisition/README.md)  [047 native inspection](PHOTO-NATIVE-047-FINDINGS.md) |",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "research/SEVEN-FAMILY-REVIEW-046.md",
       "line": 56,
       "text": "| Distinct Plett/Wheatstone operation | evidence_blocked | Fixed-ring transition family excluded; historical REFERENCEvector independently replayed with source typo preserved. | A genuinely different hidden-move/state convention with primary instructions and external vector. Another alphabet reversal is already covered; do not count it as distinct historical research. | [WHEATSTONE-TRANSITION-FINDINGS.md](WHEATSTONE-TRANSITION-FINDINGS.md), [STRIP-SOURCE-GATES-027-FINDINGS.md](STRIP-SOURCE-GATES-027-FINDINGS.md) |",
       "review_unit": "authored document or retained source report",
@@ -13018,7 +13085,7 @@
     {
       "path": "research/SEVEN-FAMILY-REVIEW-046.md",
       "line": 106,
-      "text": "The exact accessible input is the [native LOC TIFF](https://cdn.loc.gov/master/pnp/highsm/13300/13337u.tif), 3384 × 4283 pixels, SHA-256 `302fb88dee8db7f484a85d9d7f9bbd39f69de37cbf7bb25ae5a2e35bf8b8cf52`. The supplied native ground ROI is `[1400,2800,2200,3600)`; it is a region, not a correspondence. Work directly in native pixels to avoid dependence on the unknown transform of the 2000 × 1500 ground-detail PNG. Record candidate non-K4 aperture and receiver material points, uncertainty and rejected/ambiguous identities; use independently selected holdouts only if genuine correspondences can be established. A north bearing, metric scale and capture time are not prerequisites for this first image-plane incidence test. Repeated letters and arbitrary glyph centroids cannot certify physical point identities. No new optical fit or annotation result is asserted in this correction.",
+      "text": "The exact inspected input is the [native LOC TIFF](https://cdn.loc.gov/master/pnp/highsm/13300/13337u.tif), 3384 × 4283 pixels, SHA-256 `302fb88dee8db7f484a85d9d7f9bbd39f69de37cbf7bb25ae5a2e35bf8b8cf52`. The 047 attempt inspected native ground ROI `[1400,2800,2200,3600)` and eight additional crops, recorded ten rejected observation boxes, and independently verified all crop transforms. It bypassed the older PNG's unknown transform. North, scale and capture time were not used as reasons to avoid the attempt. No defensible physical endpoint identities emerged, so no intersection, residual or optical K4 result was computed. All 60 affected checks pass on both Python versions; [047 evidence and UTC validation](PHOTO-NATIVE-047-FINDINGS.md) preserve this later work separately from the full 702-test runs.",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
@@ -14590,7 +14657,7 @@
     "Numerical input changes, preprocessing and transposition can invalidate direct-alignment proofs."
   ],
   "source_sha256": {
-    "research/HYPOTHESES.md": "b315825ee9306615c441849148defbc89c9e0d6e25219f53972d46419c492e61",
+    "research/HYPOTHESES.md": "2a9efb5658218cbfce83dc42e6dba5a1f0e56580f1347b082158fca96c714c61",
     "experiments/exclusion_scope_audit.py": "47247d71e423b0454cb6574fbe862fec8348c458fe95be08f924be54a0cd842d"
   }
 }

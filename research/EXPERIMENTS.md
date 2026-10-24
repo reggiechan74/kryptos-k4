@@ -1204,3 +1204,9 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Scope/result: Active-root interruption, wrong-DST calculation and invalidflags pass; original runs unchanged. General family limits remain explicit.
 - [Findings/protocol/control links](REVIEW-CONTROLS-046.md); [original receipt](../results/REVIEW-CONTROLS-046.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).
 - New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+## PHOTO-NATIVE-047 — bounded native LOC correspondence admission
+
+- Date: 2026-10-24 UTC. Frozen protocol saved at `2026-10-24T19:17:13.787510+00:00`; native inspection finished at `2026-10-24T19:19:56.054606+00:00`. Validation/replay times are separate.
+- Scope: one verified 3384 × 4283 LOC exposure, initial 800 × 800 ROI plus eight native crops; ten rejected bright-feature boxes. Zero certified material-point pairs, no geometric fit and no K4 evaluation. This is bounded manual failure to establish identities, not proof the photo can never yield them.
+- [Findings](PHOTO-NATIVE-047-FINDINGS.md); [frozen protocol](PHOTO-NATIVE-047-SPEC.md); [native crops/transforms/annotations](evidence/2026-10-24-native-loc/README.md); [exact crop check](../results/PHOTO-NATIVE-047-CROP-CHECK.json); [validation](../results/PHOTO-NATIVE-047-VALIDATION.json). Local only.

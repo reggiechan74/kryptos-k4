@@ -1,0 +1,411 @@
+{
+  "kind": "Single-exposure native-pixel correspondence attempt; not a monument fit or K4 test",
+  "protocol_saved_at_utc": "2026-10-24T19:17:13.787510+00:00",
+  "protocol_sha256": "448e63fe97663ac94300c2b2d0ef3e7bea4c6bed9ac2430a5734ebb3f01de715",
+  "inspection_finished_at_utc": "2026-10-24T19:19:56.054606+00:00",
+  "source_url": "https://cdn.loc.gov/master/pnp/highsm/13300/13337u.tif",
+  "catalogue_url": "https://www.loc.gov/pictures/item/2011631531/",
+  "source_sha256": "302fb88dee8db7f484a85d9d7f9bbd39f69de37cbf7bb25ae5a2e35bf8b8cf52",
+  "source_bytes": 43502976,
+  "source_dimensions": [
+    3384,
+    4283
+  ],
+  "converted_full_png_sha256": "47570d24faeafa0041e342ab6138df4878be8e1848ccb3316faba17906a6a7e1",
+  "full_original_not_republished": true,
+  "crops": [
+    {
+      "file": "ground.png",
+      "native_rect_ltrb": [
+        1400,
+        2800,
+        2200,
+        3600
+      ],
+      "display_to_native": {
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          1400,
+          2800
+        ]
+      },
+      "sha256": "51d04d5484237edb1f704df13f34fa58a8e51e73e3e7e96f5b45c8476a325bd0",
+      "bytes": 1174976,
+      "visually_inspected": true
+    },
+    {
+      "file": "screen-left.png",
+      "native_rect_ltrb": [
+        800,
+        1800,
+        1700,
+        3100
+      ],
+      "display_to_native": {
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          800,
+          1800
+        ]
+      },
+      "sha256": "3a72ba87ba16d93d4a5566b8e17d2f2a46f35fa865837cf8ca7b9fd56a02b39f",
+      "bytes": 2262925,
+      "visually_inspected": true
+    },
+    {
+      "file": "screen-back.png",
+      "native_rect_ltrb": [
+        1700,
+        1700,
+        3000,
+        2700
+      ],
+      "display_to_native": {
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          1700,
+          1700
+        ]
+      },
+      "sha256": "5710dc3f596391a313a9206864e06ea4140a4dada6df05eb2450ca70401f459c",
+      "bytes": 2066707,
+      "visually_inspected": true
+    },
+    {
+      "file": "ground-left.png",
+      "native_rect_ltrb": [
+        1300,
+        2700,
+        1800,
+        3400
+      ],
+      "display_to_native": {
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          1300,
+          2700
+        ]
+      },
+      "sha256": "96a3834cded18947187fb598136fe5d7d100f0d343416b07d98d55f2cf9575ac",
+      "bytes": 665906,
+      "visually_inspected": true
+    },
+    {
+      "file": "ground-right.png",
+      "native_rect_ltrb": [
+        1800,
+        2800,
+        2300,
+        3500
+      ],
+      "display_to_native": {
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          1800,
+          2800
+        ]
+      },
+      "sha256": "4651defb7157f6e8676235213a80af554814a3d916c58a7ece5903d90f0bdccb",
+      "bytes": 633293,
+      "visually_inspected": true
+    },
+    {
+      "file": "q1.png",
+      "native_rect_ltrb": [
+        1400,
+        2800,
+        1800,
+        3200
+      ],
+      "display_to_native": {
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          1400,
+          2800
+        ]
+      },
+      "sha256": "afb2b63a8af6a3d1bb0ad3c73c0f2f8c89fcc26b192eff2b037eda47e3079d02",
+      "bytes": 307277,
+      "visually_inspected": true
+    },
+    {
+      "file": "q2.png",
+      "native_rect_ltrb": [
+        1800,
+        2800,
+        2200,
+        3200
+      ],
+      "display_to_native": {
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          1800,
+          2800
+        ]
+      },
+      "sha256": "e16bf1deb144706fec07c0dc5549276cf5f57af13675f649db9529fd509bde3e",
+      "bytes": 296743,
+      "visually_inspected": true
+    },
+    {
+      "file": "q3.png",
+      "native_rect_ltrb": [
+        1400,
+        3200,
+        1800,
+        3600
+      ],
+      "display_to_native": {
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          1400,
+          3200
+        ]
+      },
+      "sha256": "f8a181c74ad87baaea8accccca2fb1632b98c91de120c8a7cf54d6e760ad6945",
+      "bytes": 288139,
+      "visually_inspected": true
+    },
+    {
+      "file": "q4.png",
+      "native_rect_ltrb": [
+        1800,
+        3200,
+        2200,
+        3600
+      ],
+      "display_to_native": {
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          1800,
+          3200
+        ]
+      },
+      "sha256": "09b1af56ed58864c2ff2eefa9bec46f688ed62e417b20eea6292bdb6b0695dd6",
+      "bytes": 288614,
+      "visually_inspected": true
+    }
+  ],
+  "candidate_features": [
+    {
+      "id": "G01",
+      "native_observation_box_ltrb": [
+        1690,
+        2810,
+        1755,
+        2840
+      ],
+      "box_is_not_an_endpoint": true,
+      "observed": "Bright ground feature in q1; observation box approximate, not an asserted glyph or contour-point identity.",
+      "certified": false,
+      "aperture_native_xy": null,
+      "receiver_native_xy": null,
+      "endpoint_uncertainty_native_px": null,
+      "identity_evidence": null,
+      "rejection_reason": "No uniquely identified transmitting aperture/material boundary point. Many repeated aperture forms and incomplete/foreshortened screen contours; brightness contour cannot be assigned to a unique aperture edge without model-dependent matching. No finite pixel uncertainty substitutes for unresolved identity."
+    },
+    {
+      "id": "G02",
+      "native_observation_box_ltrb": [
+        1650,
+        2835,
+        1700,
+        2865
+      ],
+      "box_is_not_an_endpoint": true,
+      "observed": "Bright ground feature in q1; observation box approximate, not an asserted glyph or contour-point identity.",
+      "certified": false,
+      "aperture_native_xy": null,
+      "receiver_native_xy": null,
+      "endpoint_uncertainty_native_px": null,
+      "identity_evidence": null,
+      "rejection_reason": "No uniquely identified transmitting aperture/material boundary point. Many repeated aperture forms and incomplete/foreshortened screen contours; brightness contour cannot be assigned to a unique aperture edge without model-dependent matching. No finite pixel uncertainty substitutes for unresolved identity."
+    },
+    {
+      "id": "G03",
+      "native_observation_box_ltrb": [
+        1610,
+        2852,
+        1652,
+        2882
+      ],
+      "box_is_not_an_endpoint": true,
+      "observed": "Bright ground feature in q1; observation box approximate, not an asserted glyph or contour-point identity.",
+      "certified": false,
+      "aperture_native_xy": null,
+      "receiver_native_xy": null,
+      "endpoint_uncertainty_native_px": null,
+      "identity_evidence": null,
+      "rejection_reason": "No uniquely identified transmitting aperture/material boundary point. Many repeated aperture forms and incomplete/foreshortened screen contours; brightness contour cannot be assigned to a unique aperture edge without model-dependent matching. No finite pixel uncertainty substitutes for unresolved identity."
+    },
+    {
+      "id": "G04",
+      "native_observation_box_ltrb": [
+        1710,
+        2860,
+        1768,
+        2897
+      ],
+      "box_is_not_an_endpoint": true,
+      "observed": "Bright ground feature in q1; observation box approximate, not an asserted glyph or contour-point identity.",
+      "certified": false,
+      "aperture_native_xy": null,
+      "receiver_native_xy": null,
+      "endpoint_uncertainty_native_px": null,
+      "identity_evidence": null,
+      "rejection_reason": "No uniquely identified transmitting aperture/material boundary point. Many repeated aperture forms and incomplete/foreshortened screen contours; brightness contour cannot be assigned to a unique aperture edge without model-dependent matching. No finite pixel uncertainty substitutes for unresolved identity."
+    },
+    {
+      "id": "G05",
+      "native_observation_box_ltrb": [
+        1580,
+        2880,
+        1645,
+        2910
+      ],
+      "box_is_not_an_endpoint": true,
+      "observed": "Bright ground feature in q1; observation box approximate, not an asserted glyph or contour-point identity.",
+      "certified": false,
+      "aperture_native_xy": null,
+      "receiver_native_xy": null,
+      "endpoint_uncertainty_native_px": null,
+      "identity_evidence": null,
+      "rejection_reason": "No uniquely identified transmitting aperture/material boundary point. Many repeated aperture forms and incomplete/foreshortened screen contours; brightness contour cannot be assigned to a unique aperture edge without model-dependent matching. No finite pixel uncertainty substitutes for unresolved identity."
+    },
+    {
+      "id": "G06",
+      "native_observation_box_ltrb": [
+        1680,
+        2888,
+        1735,
+        2925
+      ],
+      "box_is_not_an_endpoint": true,
+      "observed": "Bright ground feature in q1; observation box approximate, not an asserted glyph or contour-point identity.",
+      "certified": false,
+      "aperture_native_xy": null,
+      "receiver_native_xy": null,
+      "endpoint_uncertainty_native_px": null,
+      "identity_evidence": null,
+      "rejection_reason": "No uniquely identified transmitting aperture/material boundary point. Many repeated aperture forms and incomplete/foreshortened screen contours; brightness contour cannot be assigned to a unique aperture edge without model-dependent matching. No finite pixel uncertainty substitutes for unresolved identity."
+    },
+    {
+      "id": "G07",
+      "native_observation_box_ltrb": [
+        1550,
+        2905,
+        1615,
+        2938
+      ],
+      "box_is_not_an_endpoint": true,
+      "observed": "Bright ground feature in q1; observation box approximate, not an asserted glyph or contour-point identity.",
+      "certified": false,
+      "aperture_native_xy": null,
+      "receiver_native_xy": null,
+      "endpoint_uncertainty_native_px": null,
+      "identity_evidence": null,
+      "rejection_reason": "No uniquely identified transmitting aperture/material boundary point. Many repeated aperture forms and incomplete/foreshortened screen contours; brightness contour cannot be assigned to a unique aperture edge without model-dependent matching. No finite pixel uncertainty substitutes for unresolved identity."
+    },
+    {
+      "id": "G08",
+      "native_observation_box_ltrb": [
+        1640,
+        2920,
+        1700,
+        2955
+      ],
+      "box_is_not_an_endpoint": true,
+      "observed": "Bright ground feature in q1; observation box approximate, not an asserted glyph or contour-point identity.",
+      "certified": false,
+      "aperture_native_xy": null,
+      "receiver_native_xy": null,
+      "endpoint_uncertainty_native_px": null,
+      "identity_evidence": null,
+      "rejection_reason": "No uniquely identified transmitting aperture/material boundary point. Many repeated aperture forms and incomplete/foreshortened screen contours; brightness contour cannot be assigned to a unique aperture edge without model-dependent matching. No finite pixel uncertainty substitutes for unresolved identity."
+    },
+    {
+      "id": "G09",
+      "native_observation_box_ltrb": [
+        1505,
+        2940,
+        1578,
+        2978
+      ],
+      "box_is_not_an_endpoint": true,
+      "observed": "Bright ground feature in q1; observation box approximate, not an asserted glyph or contour-point identity.",
+      "certified": false,
+      "aperture_native_xy": null,
+      "receiver_native_xy": null,
+      "endpoint_uncertainty_native_px": null,
+      "identity_evidence": null,
+      "rejection_reason": "No uniquely identified transmitting aperture/material boundary point. Many repeated aperture forms and incomplete/foreshortened screen contours; brightness contour cannot be assigned to a unique aperture edge without model-dependent matching. No finite pixel uncertainty substitutes for unresolved identity."
+    },
+    {
+      "id": "G10",
+      "native_observation_box_ltrb": [
+        1610,
+        2940,
+        1680,
+        2980
+      ],
+      "box_is_not_an_endpoint": true,
+      "observed": "Bright ground feature in q1; observation box approximate, not an asserted glyph or contour-point identity.",
+      "certified": false,
+      "aperture_native_xy": null,
+      "receiver_native_xy": null,
+      "endpoint_uncertainty_native_px": null,
+      "identity_evidence": null,
+      "rejection_reason": "No uniquely identified transmitting aperture/material boundary point. Many repeated aperture forms and incomplete/foreshortened screen contours; brightness contour cannot be assigned to a unique aperture edge without model-dependent matching. No finite pixel uncertainty substitutes for unresolved identity."
+    }
+  ],
+  "selection": "Ten rough light-feature observation boxes ordered top-to-bottom by box top, left-to-right on ties, within fixed ROI. Not an exhaustive component census or all possible assignments.",
+  "observer": "One assistant visual review, not independent human certification",
+  "geometric_result": {
+    "certified_pairs": 0,
+    "fit_performed": false,
+    "fitted_image_point": null,
+    "heldout_residuals": null
+  },
+  "precision_blocker": "Unresolved physical endpoint identity, not absent north/scale/time. Soft/merged contours in right ground further impede finite endpoint localization.",
+  "bounded_inspection_complete": true,
+  "large_scale_correspondence_assignment_not_performed": true,
+  "interruption": "Executor disconnected during right-ground view; crop files persisted. Harmless availability check failed once; after reconnection files were checked and the right-ground view was completed. No uncertain write or duplicate fit.",
+  "catalogue_refresh": "Read-only LOC catalogue web request returned403; not retried. Existing source TIFF identity matched the previously verified hash.",
+  "not_performed": [
+    "cipher/plaintext evaluation",
+    "date/north/metric fitting",
+    "automatic correspondence optimization",
+    "new photo search",
+    "paid acquisition",
+    "outreach",
+    "publication",
+    "Site change"
+  ]
+}

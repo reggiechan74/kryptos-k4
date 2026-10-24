@@ -1,0 +1,35 @@
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.004s
+
+OK
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
+..................
+----------------------------------------------------------------------
+Ran 18 tests in 0.018s
+
+OK
+..............................
+----------------------------------------------------------------------
+Ran 30 tests in 14.304s
+
+OK
+..F...
+======================================================================
+FAIL: test_generated_tracker_matches_canonical_sources (test_research_navigation.NavigationTests.test_generated_tracker_matches_canonical_sources)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/reggiechan-mini/Documents/Codex/2026-10-19/make-these-changes-to-reggie-chan/work/kryptos-k4/tests/test_research_navigation.py", line 8, in test_generated_tracker_matches_canonical_sources
+    saved=json.loads((ROOT/'docs/tracking/tracker.json').read_text());self.assertEqual(nav.gather(),saved);self.assertEqual(len(saved['hypotheses']),63);self.assertEqual(len({h['id'] for h in saved['hypotheses']}),63)
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'sch[397752 chars]': ['Independent PNG scanline/native-coordinat[90714 chars]d'}]} != {'sch[397752 chars]': ['Native photo crop/admission validation; n[90719 chars]d'}]}
+Diff is 883467 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.955s
+
+FAILED (failures=1)
