@@ -1,0 +1,47 @@
+{
+  "kind": "Complete local PROSE-COVER-035 validation with exact finite cipher scope and lexical calibration limits",
+  "recorded_at_utc": "2026-10-24T14:49:08.570498+00:00",
+  "regressions": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T14:46:52.519015+00:00",
+      "finished_at_utc": "2026-10-24T14:47:58.111111+00:00",
+      "elapsed_seconds": 65.591599125,
+      "exit_code": 0,
+      "log": "results/PROSE-COVER-035-python39.log.txt",
+      "tests": 638,
+      "log_sha256": "f1d845c3f71a6432599da9df82cb99e7f9d2374ccf4d465baf9166c9ed0daac3"
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T14:47:58.111349+00:00",
+      "finished_at_utc": "2026-10-24T14:48:50.755944+00:00",
+      "elapsed_seconds": 52.644254540999995,
+      "exit_code": 0,
+      "log": "results/PROSE-COVER-035-python312.log.txt",
+      "tests": 638,
+      "log_sha256": "92bce98aad5d581448ffc30e5a3e16ebec8e77d62d4a33e823e556e3215eebfa"
+    }
+  ],
+  "actual_K4_model_key_descriptions": 105456,
+  "actual_complete": true,
+  "lexical_survivors": 0,
+  "not_a_general_English_or_extraction_exclusion": true,
+  "known_real_prose_calibration_false_negatives": true,
+  "canonical_k4_unchanged": true,
+  "publication_authorized": false,
+  "pushed": false,
+  "external_candidate_submission": false,
+  "paid_validation": false,
+  "Site_changed": false,
+  "unrelated_untracked_files_preserved": 210,
+  "source_sha256": {
+    "research/PROSE-COVER-035-FINDINGS.md": "371753501e9b51f82af74e8c448aa57e7bcb0fd83bc4b33589d21fc1ab5d1f9b",
+    "experiments/prose_cover.py": "c31b81ee85e86e15c9d9eb3a07ec8362da97bf09a9057e74422f7fd5df8f52a1",
+    "experiments/run_prose_cover.py": "6b23a06b8f0f0e237895863407935168f3e51bdcf2a47faa05bcac253abe0aed",
+    "experiments/audit_prose_cover.py": "86043d2e790fbd204e692dd08835e83756ddf84128e93ec7c93bb09611dd39e8",
+    "results/PROSE-COVER-035-ORIGINAL.json": "d36d124b182e8016b8637c2c145cb535bf0ebc772e3b2a3093e6a796ff7ad70e",
+    "results/PROSE-COVER-035-INDEPENDENT-AUDIT.json": "3c8dbad3c4093424a440759e3ecbbf0aec24f5932d0bedbc5b90a3f8e18558f0",
+    "results/PROSE-COVER-035-PY312-COMPARISON.json": "ea12b1e4ee53fa9e5eb5a11394a23576391852ee5b7f426b5b2f16e0c06df155"
+  }
+}

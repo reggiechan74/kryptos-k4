@@ -105,3 +105,7 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Local word-cover and phrase studies
 
 [Core exact counts](COVER-EXTRACTION-033-ORIGINAL.json), [complete corpus summary](COVER-PHRASE-034-original-summary.json), lossless matched-reference/control gzip files, independent audit, source pins and Python3.12 replay preserve full finite coverage. See [interpretation and replay instructions](../research/COVER-PHRASE-034-FINDINGS.md). No actual K4 trials; local only.
+
+## Ordinary prose cover follow-up
+
+[Original035](PROSE-COVER-035-ORIGINAL.json), [independent full-domain audit](PROSE-COVER-035-INDEPENDENT-AUDIT.json) and [Python3.12 comparison](PROSE-COVER-035-PY312-COMPARISON.json): complete finite results, controls and calibration, no broad English/extraction exclusion or publication.

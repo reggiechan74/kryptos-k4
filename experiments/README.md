@@ -183,3 +183,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Word-cover and phrase diagnostics
 
 `cover_extraction.py` / `cover_extraction_reference.py` count complete conditional covers; `run_cover_extraction.py` reproduces core counts. `cover_phrase.py` / `run_cover_phrase.py` scan the pinned Brown data-only archive; `audit_cover_phrase.py` independently checks every positive count. See [reports](../research/COVER-PHRASE-034-FINDINGS.md). No actual K4 cipher sweep.
+
+## Ordinary prose cover follow-up
+
+`prose_cover.py` and `run_prose_cover.py` implement exact lexical paths/lag27 domains; `audit_prose_cover.py` independently replays complete actual plaintext sets and word-break decisions. [Finite scope and replay](../research/PROSE-COVER-035-FINDINGS.md).

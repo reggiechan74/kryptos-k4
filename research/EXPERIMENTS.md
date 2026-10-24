@@ -1098,3 +1098,14 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Six deterministic eligible synthetic plants re-encrypt full97 letters; no missing exact15 ENE plant invented. Whole-family 31 capacity draws: 24 dictionary-splittable, zero contiguous-bank matches. Not an observed K4 significance test. [Independent positive-count audit](../results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json) verifies 7,266 message/lane counts; complete tiny negative controls and exact Python3.12 replay retained. No claim of a second exhaustive corpus false-negative implementation.
 
 - Final aggregate local validation for COVER-033/034: 625 tests pass on Python3.9/3.12; [separate UTC receipt/full logs](../results/COVER-033-034-VALIDATION.json). Canonical ciphertext unchanged, no push or Site change.
+
+## PROSE-COVER-035 — length-free ordinary lexicons and complete minimum-free autokey domain
+
+- Date:24 October2026 UTC. New local-only test, prior033/034 preserved.
+- [Frozen protocol](PROSE-COVER-035-SPEC.md), [findings](PROSE-COVER-035-FINDINGS.md), [native solver](../experiments/prose_cover.py), [runner](../experiments/run_prose_cover.py), [independent implementation](../experiments/audit_prose_cover.py), [original full receipt](../results/PROSE-COVER-035-ORIGINAL.json).
+- Original UTC start/end:2026-10-24T14:41:14.223979+00:00 /2026-10-24T14:41:22.639303+00:00. Three fixed Brown-derived lexicons, no forced crib boundaries or15-word limit,36 selector distributions, cover paths span7–79 words. Counts are segmentation descriptions, not typical prose or unique messages.
+- Complete lag27 plaintext-autokey minimum-free domain: six AZ/KRYPTOS/equation structures ×26^3 =105,456 descriptions; zero complete lexical covers, hence no actual candidate enters second-stage extraction. Vocabulary-conditioned negative; not an extraction or broad autokey exclusion.
+- Six97-letter source plants retained, lexical solutions1/4/1/1/12/3;31 identical-search conditional shuffles each105,456 settings, all zero. Full97-letter re-encryption and exact ambiguity retained. K1–K3 calibration demonstrates false-negative/infinite-language limits: even augmented lexicon rejects genuine K3, so no broad English exclusion.
+- [Complete independent actual-domain sets/negative replay](../results/PROSE-COVER-035-INDEPENDENT-AUDIT.json), [full Python3.12 semantic equality](../results/PROSE-COVER-035-PY312-COMPARISON.json), [interrupted verification note](../results/PROSE-COVER-035-VERIFICATION-NOTES.json). No corpus phrase selection, arbitrary97-letter key, publication or Site change.
+
+- Final local validation: 638 tests pass on Python3.9/3.12; [UTC receipt/full logs](../results/PROSE-COVER-035-VALIDATION.json). Earlier033/034 reports/receipts unchanged, no publication or Site change.

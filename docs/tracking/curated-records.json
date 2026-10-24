@@ -649,6 +649,17 @@
       ],
       "outcome": "All-word initials: zero Brown matches; generalized selectors: ambiguous covers, not decryptions; outer cipher absent",
       "basis": "Reviewed frozen codebooks/complete97-letter constraints, exact weighted counts, corpus completeness and independent/synthetic checks; no independently constrained outer cipher or actual K4 decryption"
+    },
+    "LOG-781FB4F543": {
+      "title": "PROSE-COVER-035 — length-free ordinary lexicons and complete minimum-free autokey domain",
+      "categories": [
+        "exact lexical constraint analysis",
+        "bounded actual K4 cipher search",
+        "synthetic recovery and matched null controls",
+        "source calibration"
+      ],
+      "outcome": "Minimum-free lag27 domain:zero lexical survivors; ordinary-cover length remains undetermined and vocabulary misses genuine K3; general extraction non-identifiable",
+      "basis": "Complete105456 actual descriptions,exact boundary-free distributions,full independent set replay,6recovery plants and31whole-family conditional nulls; lexical admission is not English completeness"
     }
   }
 }

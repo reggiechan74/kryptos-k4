@@ -1,0 +1,14 @@
+{
+  "kind": "Post-outcome verification execution note; no original result rewritten",
+  "recorded_at_utc": "2026-10-24T14:46:18.252838+00:00",
+  "interrupted_attempt": {
+    "operation": "Independent backward-chain and word-set replay",
+    "outcome": "interrupted_exit130",
+    "completed_receipt": false,
+    "processed_model_count": "unknown; not claimed",
+    "reason": "Repeated45,826-word length inventory per plaintext; traceback at lengths set comprehension"
+  },
+  "correction": "Hoist immutable length inventory once; same complete model set, independent decisions and120second replay cap",
+  "completed_receipt": "results/PROSE-COVER-035-INDEPENDENT-AUDIT.json",
+  "remaining_blocker": "No independently selected outer cipher or complete language criterion; publication not authorized for this study"
+}

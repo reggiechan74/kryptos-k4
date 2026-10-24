@@ -1,0 +1,12 @@
+{
+  "kind": "Full semantic cross-version replay including all36 selectors,105456 actual descriptions,6plants,31matchednulls",
+  "recorded_at_utc": "2026-10-24T14:44:24.712644+00:00",
+  "exact_payload_equality": true,
+  "excluded_metadata": [
+    "all *_utc fields",
+    "elapsed_seconds",
+    "peak_rss_bytes"
+  ],
+  "original_started_at_utc": "2026-10-24T14:41:14.223979+00:00",
+  "replay_started_at_utc": "2026-10-24T14:42:58.055974+00:00"
+}

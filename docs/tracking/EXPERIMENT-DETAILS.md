@@ -1808,3 +1808,24 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Final aggregate local validation for COVER-033/034: 625 tests pass on Python3.9/3.12; [separate UTC receipt/full logs](../../results/COVER-033-034-VALIDATION.json). Canonical ciphertext unchanged, no push or Site change.
 
 Related files: [experiments/run_cover_phrase.py](../../experiments/run_cover_phrase.py), [research/COVER-PHRASE-034-FINDINGS.md](../../research/COVER-PHRASE-034-FINDINGS.md), [research/COVER-PHRASE-034-SPEC.md](../../research/COVER-PHRASE-034-SPEC.md), [results/COVER-033-034-SOURCES.json](../../results/COVER-033-034-SOURCES.json), [results/COVER-033-034-VALIDATION.json](../../results/COVER-033-034-VALIDATION.json), [results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json](../../results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json), [results/COVER-PHRASE-034-original-controls.json.gz](../../results/COVER-PHRASE-034-original-controls.json.gz), [results/COVER-PHRASE-034-original-summary.json](../../results/COVER-PHRASE-034-original-summary.json), [results/COVER-PHRASE-034-original-windows.jsonl.gz](../../results/COVER-PHRASE-034-original-windows.jsonl.gz).
+
+## LOG-781FB4F543
+
+**PROSE-COVER-035 — length-free ordinary lexicons and complete minimum-free autokey domain**
+
+start: 2026-10-24T14:43:46.938037Z; end: 2026-10-24T14:43:49.043601Z; start: 2026-10-24T14:41:14.223979Z; end: 2026-10-24T14:41:22.639303Z; receipt recording: 2026-10-24T14:44:24.712644Z; start: 2026-10-24T14:42:58.055974Z; end: 2026-10-24T14:43:04.642202Z; receipt recording: 2026-10-24T14:49:08.570498Z; receipt recording: 2026-10-24T14:46:18.252838Z
+
+Type: exact lexical constraint analysis; bounded actual K4 cipher search; synthetic recovery and matched null controls; source calibration. Outcome: Minimum-free lag27 domain:zero lexical survivors; ordinary-cover length remains undetermined and vocabulary misses genuine K3; general extraction non-identifiable
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date:24 October2026 UTC. New local-only test, prior033/034 preserved.
+- [Frozen protocol](../../research/PROSE-COVER-035-SPEC.md), [findings](../../research/PROSE-COVER-035-FINDINGS.md), [native solver](../../experiments/prose_cover.py), [runner](../../experiments/run_prose_cover.py), [independent implementation](../../experiments/audit_prose_cover.py), [original full receipt](../../results/PROSE-COVER-035-ORIGINAL.json).
+- Original UTC start/end:2026-10-24T14:41:14.223979+00:00 /2026-10-24T14:41:22.639303+00:00. Three fixed Brown-derived lexicons, no forced crib boundaries or15-word limit,36 selector distributions, cover paths span7–79 words. Counts are segmentation descriptions, not typical prose or unique messages.
+- Complete lag27 plaintext-autokey minimum-free domain: six AZ/KRYPTOS/equation structures ×26^3 =105,456 descriptions; zero complete lexical covers, hence no actual candidate enters second-stage extraction. Vocabulary-conditioned negative; not an extraction or broad autokey exclusion.
+- Six97-letter source plants retained, lexical solutions1/4/1/1/12/3;31 identical-search conditional shuffles each105,456 settings, all zero. Full97-letter re-encryption and exact ambiguity retained. K1–K3 calibration demonstrates false-negative/infinite-language limits: even augmented lexicon rejects genuine K3, so no broad English exclusion.
+- [Complete independent actual-domain sets/negative replay](../../results/PROSE-COVER-035-INDEPENDENT-AUDIT.json), [full Python3.12 semantic equality](../../results/PROSE-COVER-035-PY312-COMPARISON.json), [interrupted verification note](../../results/PROSE-COVER-035-VERIFICATION-NOTES.json). No corpus phrase selection, arbitrary97-letter key, publication or Site change.
+
+- Final local validation: 638 tests pass on Python3.9/3.12; [UTC receipt/full logs](../../results/PROSE-COVER-035-VALIDATION.json). Earlier033/034 reports/receipts unchanged, no publication or Site change.
+
+Related files: [experiments/audit_prose_cover.py](../../experiments/audit_prose_cover.py), [experiments/prose_cover.py](../../experiments/prose_cover.py), [experiments/run_prose_cover.py](../../experiments/run_prose_cover.py), [research/PROSE-COVER-035-FINDINGS.md](../../research/PROSE-COVER-035-FINDINGS.md), [research/PROSE-COVER-035-SPEC.md](../../research/PROSE-COVER-035-SPEC.md), [results/PROSE-COVER-035-INDEPENDENT-AUDIT.json](../../results/PROSE-COVER-035-INDEPENDENT-AUDIT.json), [results/PROSE-COVER-035-ORIGINAL.json](../../results/PROSE-COVER-035-ORIGINAL.json), [results/PROSE-COVER-035-PY312-COMPARISON.json](../../results/PROSE-COVER-035-PY312-COMPARISON.json), [results/PROSE-COVER-035-VALIDATION.json](../../results/PROSE-COVER-035-VALIDATION.json), [results/PROSE-COVER-035-VERIFICATION-NOTES.json](../../results/PROSE-COVER-035-VERIFICATION-NOTES.json).

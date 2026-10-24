@@ -1,0 +1,113 @@
+{
+  "kind": "Independent post-outcome complete actual-domain set and lexical-negative replay",
+  "started_at_utc": "2026-10-24T14:43:46.938037+00:00",
+  "finished_at_utc": "2026-10-24T14:43:49.043601+00:00",
+  "elapsed_seconds": 2.105488916,
+  "source_receipt_sha256": "d36d124b182e8016b8637c2c145cb535bf0ebc772e3b2a3093e6a796ff7ad70e",
+  "model_rows": [
+    {
+      "alphabet": "AZ",
+      "equation": "plus",
+      "complete_plaintext_set_equal": true,
+      "count": 17576,
+      "sorted_plaintexts_sha256": "4643a2af7775603e58040438d8269fee933e09cad17f6cf7f4bec9002a47897f",
+      "independent_wordbreak_survivors": 0
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "minus",
+      "complete_plaintext_set_equal": true,
+      "count": 17576,
+      "sorted_plaintexts_sha256": "3b0ae21b6417724185dec3cdd337524eaea40ca21afe114220d29d4fc20a5f3b",
+      "independent_wordbreak_survivors": 0
+    },
+    {
+      "alphabet": "AZ",
+      "equation": "beaufort",
+      "complete_plaintext_set_equal": true,
+      "count": 17576,
+      "sorted_plaintexts_sha256": "98e2941b73488288cb6c9edae472503d817107d1f9883d58f09ba479ae9e1f58",
+      "independent_wordbreak_survivors": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "plus",
+      "complete_plaintext_set_equal": true,
+      "count": 17576,
+      "sorted_plaintexts_sha256": "8bdac739748c3a553898c52529e91b363e38d5da9734c53bb664935cd728b61e",
+      "independent_wordbreak_survivors": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "minus",
+      "complete_plaintext_set_equal": true,
+      "count": 17576,
+      "sorted_plaintexts_sha256": "ecdf6cdd17a365f0309059aa882f83b4d6ffe973a77b99554d35e72898b2626a",
+      "independent_wordbreak_survivors": 0
+    },
+    {
+      "alphabet": "KRYPTOS",
+      "equation": "beaufort",
+      "complete_plaintext_set_equal": true,
+      "count": 17576,
+      "sorted_plaintexts_sha256": "0e006ebee836c59df5de013614f0a745f7730859c5e1a001c3a04a6612404e95",
+      "independent_wordbreak_survivors": 0
+    }
+  ],
+  "model_key_descriptions": 105456,
+  "calibration": {
+    "k1": {
+      "S": {
+        "accepted": false,
+        "furthest_reachable_prefix": 57,
+        "full_length": 63
+      },
+      "J": {
+        "accepted": false,
+        "furthest_reachable_prefix": 57,
+        "full_length": 63
+      },
+      "O": {
+        "accepted": true,
+        "furthest_reachable_prefix": 63,
+        "full_length": 63
+      }
+    },
+    "k2_restored_s": {
+      "S": {
+        "accepted": false,
+        "furthest_reachable_prefix": 24,
+        "full_length": 370
+      },
+      "J": {
+        "accepted": false,
+        "furthest_reachable_prefix": 67,
+        "full_length": 370
+      },
+      "O": {
+        "accepted": true,
+        "furthest_reachable_prefix": 370,
+        "full_length": 370
+      }
+    },
+    "k3": {
+      "S": {
+        "accepted": false,
+        "furthest_reachable_prefix": 14,
+        "full_length": 336
+      },
+      "J": {
+        "accepted": false,
+        "furthest_reachable_prefix": 14,
+        "full_length": 336
+      },
+      "O": {
+        "accepted": false,
+        "furthest_reachable_prefix": 167,
+        "full_length": 336
+      }
+    }
+  },
+  "complete": true,
+  "new_search_domain": false
+}

@@ -1,8 +1,8 @@
 {
-  "id": "FRONTIER-034",
-  "reviewed_main_commit": "97f017a7ab27b11e4638d2ac9d94e881579f5a5a",
+  "id": "FRONTIER-035",
+  "reviewed_main_commit": "9d6db4cc4384dcad9c3e67589b32f08a07e60db1",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Local word-cover extraction studies complete: conditional cover counts and finite corpus queries do not identify an outer cipher or plaintext. General family non-identifiable; zero K4 cipher trials, no publication or Site change.",
+  "decision": "Boundary-free ordinary lexicon constraints and complete lag27 autokey domain tested locally in035:105456 descriptions,zero lexical covers, but K3 calibration also fails. General cover/extraction and longer autokey remain non-identifiable. This readiness inventory launches no new evaluation.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -393,7 +393,7 @@
       ],
       "blocker_type": "source_selected_codebook_outer_cipher_and_tokenization",
       "ready_for_new_K4_evaluation": false,
-      "missing": "Independent codebook, outer cipher/key family, token boundaries and global selector. Backward corpus feasibility alone does not use ciphertext.",
+      "missing": "An independently restricted outer cipher and source-motivated extractor; a calibrated prose model that does not reject genuine reference text. No coverword/output length is observed.",
       "available": [
         "research/COVER-EXTRACTION-033-SPEC.md",
         "research/COVER-EXTRACTION-033-FINDINGS.md",
@@ -402,7 +402,10 @@
         "research/COVER-033-034-SOURCES.md",
         "experiments/cover_extraction.py",
         "results/COVER-EXTRACTION-033-ORIGINAL.json",
-        "results/COVER-PHRASE-034-original-summary.json"
+        "results/COVER-PHRASE-034-original-summary.json",
+        "research/PROSE-COVER-035-SPEC.md",
+        "research/PROSE-COVER-035-FINDINGS.md",
+        "results/PROSE-COVER-035-ORIGINAL.json"
       ],
       "safe_replay_argv": [
         "python3",

@@ -148,3 +148,7 @@ Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLEC
 ## Local word-cover extraction studies
 
 [Exact cover findings](COVER-EXTRACTION-033-FINDINGS.md), [Brown short-phrase study](COVER-PHRASE-034-FINDINGS.md) and [sources](COVER-033-034-SOURCES.md). Finite feasibility and controls complete; no recovered cipher/key/plaintext.
+
+## Ordinary prose cover follow-up
+
+[PROSE-COVER-035](PROSE-COVER-035-FINDINGS.md) removes fixed codebooks/crib boundaries/output length; exact ordinary-word constraints and complete minimum-free autokey search, with explicit lexical false-negative calibration.
