@@ -9,7 +9,7 @@
       "Status": "evidence-blocked",
       "Mechanism": "ENE may denote the direction of travel while the observed object faces WSW, or conversely.",
       "Evidence": "[source or scoped prior review](HYPOTHESES.md#geographic-branches-and-extraction-gate); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Existing fountain/clock bearings and landmark-axis inventory are descriptive; no compass decoder.",
+      "Tested scope": "Existing fountain/clock bearings and landmark-axis inventory are descriptive; no compass decoder. PHYSICAL-SOLAR-002 verifies direct source versus opposite horizontal-ground displacement and conditional frame sensitivities, without measuring an installed axis.",
       "Untested scope": "An independently anchored reverse-bearing extraction.",
       "Missing inputs": "Deep review complete; fixed origin, target, true-north registration and interpretation remain missing.",
       "Next discriminating test": "Check bearing reciprocity and explicit facing/travel conventions using source-identified objects before any letter extraction.",
@@ -48,7 +48,7 @@
       "Tested scope": "FOLD-SLIDE-020 completes the 134 column-only frames. FOLD-SLIDE-2D-001 then completes all 7,638 integer row/column/registration frames (7,150 active), including 7,504 new nonzero-row frames. Independent traversal agrees on every count and matching position. Whole-search shuffles/rotations show no unusual label or surrogate-aperture excess; all four-report adjusted p-values are 1. This is transcript coincidence coverage, not physical optical calibration or decryption.",
       "Untested scope": "Measured aperture contours, calibrated physical registration/illumination, fractional shifts and independently specified encryption or extraction from an overlay. No untested readout is silently represented by the coincidence scan.",
       "Missing inputs": "The intended initial view and fold are declared; actual aperture contours, pitch, sheet pose and light geometry remain unmeasured.",
-      "Next discriminating test": "Obtain measured face-specific aperture/pose data before making a physical light-transmission claim; any further cipher/readout needs a separate frozen specification. The current eight-item batch stops after item 1 pending parent dispatch.",
+      "Next discriminating test": "Obtain measured face-specific aperture/pose data before making a physical light-transmission claim; any further cipher/readout needs a separate frozen specification. Item 1 is complete; item 2 tests conditional physical constraints separately and leaves surveyed optical calibration blocked.",
       "Dependencies": "Completed physical-source review plus remaining independent input gates; H-OPTICAL; canonical transcript cannot be edited to fit",
       "Results": "[Completed two-dimensional item 1 and full controls](FOLD-SLIDE-2D-FINDINGS.md), [original column-only findings](MONUMENT-FOLD-SLIDE-FINDINGS.md), [geometry evidence limits](../docs/scott-sun-geometry-audit-2026-10-22.md). Physical optical mechanisms remain evidence-blocked."
     },
@@ -57,36 +57,36 @@
       "Status": "evidence-blocked",
       "Mechanism": "Physical apertures, illumination, reflection or receiving surfaces select or transform letter information.",
       "Evidence": "[Primary-scan addendum and local visual review](evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md); [Current geometry audit](../docs/scott-sun-geometry-audit-2026-10-22.md) distinguishes measured facts, reported dimensions, placeholders and rendering defects.",
-      "Tested scope": "Conditional visual/solar scenarios, ray-model audits and source review; the live Site is a tool, not a calibrated decoding experiment. Landmark counts are separate.",
+      "Tested scope": "PHYSICAL-SOLAR-002 completes conditional solar/ray-plane checks and independent finite-source/thickness arithmetic. Full-resolution LOC exposure inspected; no certified aperture-to-ground pairs or calibrated decoding fit established. The live Site is a tool; landmark counts are separate.",
       "Untested scope": "A surveyed, aperture-aware optical decoder validated against independent photographs.",
       "Missing inputs": "Four-sheet surfaces/seams, aperture contours, true heading, receiver geometry, obstacles, water/window normals and independently timed camera calibration.",
       "Next discriminating test": "Fit non-K4 physical features in one photograph and predict withheld features/view; fail the calibration gate before selecting projected letters if residuals are unacceptable.",
       "Dependencies": "Completed physical-source review plus remaining independent input gates; H-COMPASS-FRAMES; H-GLYPH-VIEW; no fitted date, heading or receiver chosen from attractive K4 output.",
-      "Results": "[Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); no surveyed optical K4 decoding result exists."
+      "Results": "[Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); [Item 2 conditional physical checks and evidence gate](PHYSICAL-SOLAR-002-FINDINGS.md); no surveyed optical K4 decoding result exists."
     },
     {
       "id": "H-SHADOW-TIME",
       "Status": "evidence-blocked",
       "Mechanism": "A source-fixed shadow direction or observation time supplies a key or reading instruction.",
       "Evidence": "[source or scoped prior review](../docs/seasonal-light-source-review.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Conditional solar geometry and the uncalibrated rendering audit exist; no measured optical key. Locally inspected 1990 typed instructions place the timer-controlled lamp in the small pool; solar-only scope cannot be generalized to all illumination, and beam geometry remains unknown.",
+      "Tested scope": "PHYSICAL-SOLAR-002 verifies 96 fixed solar-envelope scenarios, 39 fixed calendar samples and 125 ray-height cases; these include prior exact-bearing bounds and new declared sensitivities, not K4 key trials. Conditional direct below-aperture lamp-to-lower-ground path is impossible, but actual height order is unknown. No measured optical key. Locally inspected 1990 typed instructions place the timer-controlled lamp in the small pool; solar-only scope cannot be generalized to all illumination, and beam geometry remains unknown.",
       "Untested scope": "A calibrated shadow-to-symbol pipeline.",
       "Missing inputs": "Surveyed heading/geometry, dated independent observation, receiver and unique extraction rule.",
       "Next discriminating test": "Validate a known-time photograph on non-K4 features with withheld geometry, then assess the fixed extraction.",
       "Dependencies": "Completed physical-source review plus remaining independent input gates; H-COMPASS-FRAMES; H-OPTICAL",
-      "Results": "[retained evidence and finite coverage](../docs/seasonal-light-source-review.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[Completed item 2 constraints and evidence limits](PHYSICAL-SOLAR-002-FINDINGS.md), [prior seasonal review](../docs/seasonal-light-source-review.md); no calibrated decoder."
     },
     {
       "id": "H-CELESTIAL-ALTITUDE",
       "Status": "evidence-blocked",
       "Mechanism": "An independently dated celestial observation supplies altitude/time material rather than a fitted astronomical coincidence.",
       "Evidence": "[source or scoped prior review](../docs/inauguration-dedication-astronomy.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Bounded event-date astronomy review; no eclipse on either listed event date; direct visible ENE sunlight incompatible under its stated assumptions.",
+      "Tested scope": "Bounded event-date source review retained. PHYSICAL-SOLAR-002 separately reproduces approximate declinations at fixed endpoints/noon for 1969-09-30 and both 1990-11-03/05 accounts, plus the documented 1988-11 month inventory; no unique intended observation, date or time inferred. New numerical checks are solar-only, not a repeated planet/eclipse search.",
       "Untested scope": "An independent observation-to-key model, including reflected or shadow paths.",
       "Missing inputs": "Authenticated object/date/time/site/horizon and a justified encoding; approximate conjunction interpolation is not an observation.",
       "Next discriminating test": "Reproduce only an independently specified observation and test withheld event data before cipher fitting.",
       "Dependencies": "Completed source review; distinguish altitude, azimuth and date; no date sweep",
-      "Results": "[retained evidence and finite coverage](../docs/inauguration-dedication-astronomy.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[Item 2 fixed solar calendar checks and underdetermination](PHYSICAL-SOLAR-002-FINDINGS.md), [prior event-date source review](../docs/inauguration-dedication-astronomy.md)."
     },
     {
       "id": "H-CLOCK-HISTORICAL",
@@ -2748,6 +2748,51 @@
         "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json"
       ],
       "original_entry": "- Date: 2026-10-23 UTC, original computation. Manifest start `2026-10-23T23:47:52.868636Z`, end `2026-10-23T23:49:19.600426Z`; job-level start/end are retained separately. Commit/publication times are not substituted.\n- Type: inscription-layout comparison and whole-search chance calibration, not a cipher or plaintext-generation model. Item 1 only; items 2–8 not started.\n- Frozen specification `f6aafc4735b8ff9e4f7e01975a97baf9991e1583`, validated implementation `0584bbc3340ce8a50a7fed3a53feaed202420c4f`, then original run. Later runner change adds execution-purpose metadata only, defaulting repeats to replay.\n- Domain: both existing registrations, dx −33…+33, dy −28…+28, no wrapping and same-facing double reflection. 7,638 raw frames / 7,150 active; 134 prior row-zero frames reproduce exactly, 7,504 nonzero-row frames newly covered.\n- Largest standardized label excess: 21/248 comparable pairs, dx=+19, dy=−7, primary registration. Whole-search tails 0.7475 shuffle / 0.7635 rotation. Area tails 0.6500 / 0.6090. All four-report adjusted p-values are 1. No unusual excess or cipher candidate.\n- Controls: 1,999 full-selector draws per scheme, fixed original anchor/row histograms/punctuation/tableau; exact means and exact signed-rational ranking. Independent cell/pixel code checks all 7,638 frames and positions; 18 complete-selector toy plants and ambiguity/expectation/mutation controls precede evaluation.\n- Complete positions: 57,674 label matches, 1,506,846 positive surrogate intersections. No lexical scoring or arbitrary extraction. Measured physical optics remain outside coverage.\n- [Findings](FOLD-SLIDE-2D-FINDINGS.md), [frozen protocol](FOLD-SLIDE-2D-SPEC.md), [all-frame table](../results/FOLD-SLIDE-2D-001-frames.csv), [summary](../results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json), [manifest](../results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json), [native implementation](../experiments/monument_slide_2d.py).\n- The stale current SIGABA scope wording is corrected to COMPACT-018’s 12 and 14 synthetic controllers; historical zero-controller stages remain preserved. No new SIGABA/K4 joint search, Site deployment or subsequent item."
+    },
+    {
+      "record_id": "LOG-B53BA1797D",
+      "experiment_ids": [
+        "PHYSICAL-SOLAR-002"
+      ],
+      "title": "PHYSICAL-SOLAR-002 — item 2 conditional sunlight, lamp geometry and evidence gates",
+      "categories": [
+        "analytical constraints",
+        "source research"
+      ],
+      "outcome": "Conditional solar/ray/blur limits verified; surveyed optical decoder remains evidence-blocked",
+      "classification_basis": "Reviewed against original timestamped snapshot, supplied evidence and separate local replay; no cipher search or measured installation claimed.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": null,
+      "timestamps": [
+        {
+          "receipt": "results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/manifest.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T00:17:28.772639Z",
+          "original": "2026-10-24T00:17:28.772639+00:00"
+        },
+        {
+          "receipt": "results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/manifest.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T00:17:29.483736Z",
+          "original": "2026-10-24T00:17:29.483736+00:00"
+        }
+      ],
+      "links": [
+        "experiments/physical_solar_002.py",
+        "independent/2026-10-24/physical-item2/README.md",
+        "research/PHYSICAL-SOLAR-002-FINDINGS.md",
+        "research/PHYSICAL-SOLAR-002-SPEC.md",
+        "results/PHYSICAL-SOLAR-002-VALIDATION.json",
+        "results/physical-solar-002/README.md"
+      ],
+      "receipt_paths": [
+        "results/PHYSICAL-SOLAR-002-VALIDATION.json",
+        "results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/manifest.json"
+      ],
+      "original_entry": "- Original quantitative run start/end UTC: 2026-10-24T00:17:28.772639+00:00 / 2026-10-24T00:17:29.483736+00:00. This is not a source exposure time. Independent worker run times are unknown; separate local replay receipt records validation times.\n- Kind: physical analytical constraints and source research; no K4 cipher evaluation.\n- Frozen specification: `b2cc1dffdbb71b7a11c38f8041d220f3fce82932`; [protocol](PHYSICAL-SOLAR-002-SPEC.md), [findings](PHYSICAL-SOLAR-002-FINDINGS.md), [runner](../experiments/physical_solar_002.py), [complete receipt/output](../results/physical-solar-002/README.md).\n- Scope: 96 declared solar-envelope scenarios including old exact-bearing baselines; 39 independently source-fixed calendar samples; 125 dimensionless height-order cases. 960,096 dense grid, 39 USNO/NOAA and 125 ray checks pass. No parameters fitted to K4.\n- Outcome: conditional solar and direct-ray constraints verified. ENE Sun versus ENE ground shadow differ; a below-aperture source cannot directly project onto lower ground. Actual source/aperture/receiver heights and surveyed heading remain unknown. No source-fixed optical key, decoder or intended celestial time identified.\n- Independent addition: [evidence/arithmetic package](../independent/2026-10-24/physical-item2/README.md), received with outcomes known and separately replayed. Finite solar disk, ideal thickness clipping and angular sensitivities verified; these are not measured installed blur/strokes. No original images/scrapes committed.\n- Image feasibility: original LOC TIFF SHA verified and native crop inspected; same exposure as prior service image. No certified aperture-to-ground pairs established, no camera/light fit. Proposed 12-pair calibration remains unpassed. All broader physical/navigation hypotheses retain evidence-blocked status. Item 3 not started; no Site change.\n- Aggregate validation: 497 tests pass on both supported Python versions; [validation receipt](../results/PHYSICAL-SOLAR-002-VALIDATION.json) records validation start/end separately from the original physical calculation."
     }
   ],
   "receipts": [
@@ -3149,6 +3194,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-026.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -3306,6 +3360,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-021.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-022.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -3577,6 +3638,15 @@
     },
     {
       "path": "results/FRONTIER-021.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-022.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -3935,6 +4005,15 @@
       "status": null
     },
     {
+      "path": "results/HYPOTHESIS-REGISTER-022.json",
+      "labels": [
+        "Item 2 conditional physical constraints and source review complete; actual optical decoder remains evidence-blocked"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json",
       "labels": [],
       "timestamps": [],
@@ -4152,6 +4231,16 @@
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
       "status": null
+    },
+    {
+      "path": "results/PHYSICAL-SOLAR-002-VALIDATION.json",
+      "labels": [
+        "PHYSICAL-SOLAR-002-VALIDATION",
+        "Final item 2 validation, not original physical calculation or historical exposure"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "passed"
     },
     {
       "path": "results/RECURRENCE-CERTIFICATE-REVIEW-001.json",
@@ -5273,6 +5362,45 @@
       "path": "results/phonetic-subset-runs/latest.json",
       "labels": [
         "20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "completed"
+    },
+    {
+      "path": "results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/manifest.json",
+      "labels": [
+        "PHYSICAL-SOLAR-002",
+        "20261024T001728Z-f2895d4425214b2bbed15c832235acf2"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T00:17:28.772639Z",
+          "original": "2026-10-24T00:17:28.772639+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T00:17:29.483736Z",
+          "original": "2026-10-24T00:17:29.483736+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "completed"
+    },
+    {
+      "path": "results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/physical-checks.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/physical-solar-002/latest.json",
+      "labels": [
+        "20261024T001728Z-f2895d4425214b2bbed15c832235acf2"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",

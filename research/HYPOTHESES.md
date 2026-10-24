@@ -91,7 +91,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: evidence-blocked
 - Mechanism: ENE may denote the direction of travel while the observed object faces WSW, or conversely.
 - Evidence: [source or scoped prior review](HYPOTHESES.md#geographic-branches-and-extraction-gate); historical availability or user proposal does not establish creator use.
-- Tested scope: Existing fountain/clock bearings and landmark-axis inventory are descriptive; no compass decoder.
+- Tested scope: Existing fountain/clock bearings and landmark-axis inventory are descriptive; no compass decoder. PHYSICAL-SOLAR-002 verifies direct source versus opposite horizontal-ground displacement and conditional frame sensitivities, without measuring an installed axis.
 - Untested scope: An independently anchored reverse-bearing extraction.
 - Missing inputs: Deep review complete; fixed origin, target, true-north registration and interpretation remain missing.
 - Next discriminating test: Check bearing reciprocity and explicit facing/travel conventions using source-identified objects before any letter extraction.
@@ -130,7 +130,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Tested scope: FOLD-SLIDE-020 completes the 134 column-only frames. FOLD-SLIDE-2D-001 then completes all 7,638 integer row/column/registration frames (7,150 active), including 7,504 new nonzero-row frames. Independent traversal agrees on every count and matching position. Whole-search shuffles/rotations show no unusual label or surrogate-aperture excess; all four-report adjusted p-values are 1. This is transcript coincidence coverage, not physical optical calibration or decryption.
 - Untested scope: Measured aperture contours, calibrated physical registration/illumination, fractional shifts and independently specified encryption or extraction from an overlay. No untested readout is silently represented by the coincidence scan.
 - Missing inputs: The intended initial view and fold are declared; actual aperture contours, pitch, sheet pose and light geometry remain unmeasured.
-- Next discriminating test: Obtain measured face-specific aperture/pose data before making a physical light-transmission claim; any further cipher/readout needs a separate frozen specification. The current eight-item batch stops after item 1 pending parent dispatch.
+- Next discriminating test: Obtain measured face-specific aperture/pose data before making a physical light-transmission claim; any further cipher/readout needs a separate frozen specification. Item 1 is complete; item 2 tests conditional physical constraints separately and leaves surveyed optical calibration blocked.
 - Dependencies: Completed physical-source review plus remaining independent input gates; H-OPTICAL; canonical transcript cannot be edited to fit
 - Results: [Completed two-dimensional item 1 and full controls](FOLD-SLIDE-2D-FINDINGS.md), [original column-only findings](MONUMENT-FOLD-SLIDE-FINDINGS.md), [geometry evidence limits](../docs/scott-sun-geometry-audit-2026-10-22.md). Physical optical mechanisms remain evidence-blocked.
 
@@ -139,36 +139,36 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: evidence-blocked
 - Mechanism: Physical apertures, illumination, reflection or receiving surfaces select or transform letter information.
 - Evidence: [Primary-scan addendum and local visual review](evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md); [Current geometry audit](../docs/scott-sun-geometry-audit-2026-10-22.md) distinguishes measured facts, reported dimensions, placeholders and rendering defects.
-- Tested scope: Conditional visual/solar scenarios, ray-model audits and source review; the live Site is a tool, not a calibrated decoding experiment. Landmark counts are separate.
+- Tested scope: PHYSICAL-SOLAR-002 completes conditional solar/ray-plane checks and independent finite-source/thickness arithmetic. Full-resolution LOC exposure inspected; no certified aperture-to-ground pairs or calibrated decoding fit established. The live Site is a tool; landmark counts are separate.
 - Untested scope: A surveyed, aperture-aware optical decoder validated against independent photographs.
 - Missing inputs: Four-sheet surfaces/seams, aperture contours, true heading, receiver geometry, obstacles, water/window normals and independently timed camera calibration.
 - Next discriminating test: Fit non-K4 physical features in one photograph and predict withheld features/view; fail the calibration gate before selecting projected letters if residuals are unacceptable.
 - Dependencies: Completed physical-source review plus remaining independent input gates; H-COMPASS-FRAMES; H-GLYPH-VIEW; no fitted date, heading or receiver chosen from attractive K4 output.
-- Results: [Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); no surveyed optical K4 decoding result exists.
+- Results: [Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); [Item 2 conditional physical checks and evidence gate](PHYSICAL-SOLAR-002-FINDINGS.md); no surveyed optical K4 decoding result exists.
 
 ### H-SHADOW-TIME
 
 - Status: evidence-blocked
 - Mechanism: A source-fixed shadow direction or observation time supplies a key or reading instruction.
 - Evidence: [source or scoped prior review](../docs/seasonal-light-source-review.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Conditional solar geometry and the uncalibrated rendering audit exist; no measured optical key. Locally inspected 1990 typed instructions place the timer-controlled lamp in the small pool; solar-only scope cannot be generalized to all illumination, and beam geometry remains unknown.
+- Tested scope: PHYSICAL-SOLAR-002 verifies 96 fixed solar-envelope scenarios, 39 fixed calendar samples and 125 ray-height cases; these include prior exact-bearing bounds and new declared sensitivities, not K4 key trials. Conditional direct below-aperture lamp-to-lower-ground path is impossible, but actual height order is unknown. No measured optical key. Locally inspected 1990 typed instructions place the timer-controlled lamp in the small pool; solar-only scope cannot be generalized to all illumination, and beam geometry remains unknown.
 - Untested scope: A calibrated shadow-to-symbol pipeline.
 - Missing inputs: Surveyed heading/geometry, dated independent observation, receiver and unique extraction rule.
 - Next discriminating test: Validate a known-time photograph on non-K4 features with withheld geometry, then assess the fixed extraction.
 - Dependencies: Completed physical-source review plus remaining independent input gates; H-COMPASS-FRAMES; H-OPTICAL
-- Results: [retained evidence and finite coverage](../docs/seasonal-light-source-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Completed item 2 constraints and evidence limits](PHYSICAL-SOLAR-002-FINDINGS.md), [prior seasonal review](../docs/seasonal-light-source-review.md); no calibrated decoder.
 
 ### H-CELESTIAL-ALTITUDE
 
 - Status: evidence-blocked
 - Mechanism: An independently dated celestial observation supplies altitude/time material rather than a fitted astronomical coincidence.
 - Evidence: [source or scoped prior review](../docs/inauguration-dedication-astronomy.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Bounded event-date astronomy review; no eclipse on either listed event date; direct visible ENE sunlight incompatible under its stated assumptions.
+- Tested scope: Bounded event-date source review retained. PHYSICAL-SOLAR-002 separately reproduces approximate declinations at fixed endpoints/noon for 1969-09-30 and both 1990-11-03/05 accounts, plus the documented 1988-11 month inventory; no unique intended observation, date or time inferred. New numerical checks are solar-only, not a repeated planet/eclipse search.
 - Untested scope: An independent observation-to-key model, including reflected or shadow paths.
 - Missing inputs: Authenticated object/date/time/site/horizon and a justified encoding; approximate conjunction interpolation is not an observation.
 - Next discriminating test: Reproduce only an independently specified observation and test withheld event data before cipher fitting.
 - Dependencies: Completed source review; distinguish altitude, azimuth and date; no date sweep
-- Results: [retained evidence and finite coverage](../docs/inauguration-dedication-astronomy.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Item 2 fixed solar calendar checks and underdetermination](PHYSICAL-SOLAR-002-FINDINGS.md), [prior event-date source review](../docs/inauguration-dedication-astronomy.md).
 
 ### H-CLOCK-HISTORICAL
 

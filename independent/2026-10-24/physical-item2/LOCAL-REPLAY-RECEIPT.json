@@ -1,0 +1,17 @@
+{
+  "validation_started_at_utc": "2026-10-24T00:21:17.945440+00:00",
+  "validation_finished_at_utc": "2026-10-24T00:21:17.961971+00:00",
+  "status": "passed",
+  "kind": "local replay of independently supplied arithmetic; not original worker run",
+  "source_transfer": "Parent plain text; HTML entities decoded once in Python operators. No archive hash supplied. Preserve subsequent source hash as local identity, not proof of an unavailable original byte hash.",
+  "published_worker_values_compared": 26,
+  "tolerance_absolute": 1e-12,
+  "all_output_objects_equal_to_separate_local_replay": true,
+  "original_worker_run_start_utc": null,
+  "original_worker_run_end_utc": null,
+  "local_outputs": {
+    "replay_physical_constraints.py": "c0fdfecbbcffb935f3721e514bc7a03056dd038092bf33ec22a55af2771098b4",
+    "physical-constraints.json": "fbffde08fde7b89179bedf5ac87d0d91dc3c5815d1dabe51408d970bbdca03b3",
+    "PARENT-EVIDENCE-REPORT.md": "a0f5dec231810e8928e25dbce84c3ba8a8167c276624eb788ac8ffa0b6f7c0e8"
+  }
+}

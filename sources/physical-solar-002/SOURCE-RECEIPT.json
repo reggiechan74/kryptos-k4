@@ -1,0 +1,78 @@
+{
+  "recorded_at_utc": "2026-10-24T00:18:59.363874+00:00",
+  "kind": "source retrieval and inspection receipt; not an original exposure timestamp",
+  "sources": [
+    {
+      "url": "https://aa.usno.navy.mil/faq/sun_approx",
+      "method": "Firecrawl public scrape",
+      "scrape_id": "01a16b3d-e7f4-764a-a36d-1bbb1f0c12f8",
+      "http_status": 200,
+      "cache_timestamp": "2026-10-24T00:09:34.308Z",
+      "use": "Approximate geocentric solar-coordinate formulas; stated about one arcminute in 1800\u20132200"
+    },
+    {
+      "url": "https://aa.usno.navy.mil/faq/alt_az",
+      "method": "web public read",
+      "http_status": 200,
+      "use": "Altitude/azimuth and east-positive longitude/hour-angle conventions"
+    },
+    {
+      "url": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF",
+      "method": "Firecrawl public scrape",
+      "scrape_id": "01a16b3d-eb71-727e-a3e2-b080ebacd168",
+      "http_status": 200,
+      "cache_timestamp": "2026-10-23T18:06:04.865Z",
+      "use": "Independent annual Fourier declination/equation-of-time approximation; no scraped code executed"
+    },
+    {
+      "url": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+      "method": "Firecrawl public scrape",
+      "scrape_id": "01a16b3d-ce33-7392-bc84-cc4a2cd1ebb7",
+      "http_status": 200,
+      "cache_timestamp": "2026-10-23T21:07:16.363Z",
+      "use": "Conventional sunrise zenith and variable refraction; calculator now unmaintained"
+    },
+    {
+      "url": "https://cdn.loc.gov/master/pnp/highsm/13300/13337u.tif",
+      "method": "Explicit public asset download and local visual inspection",
+      "sha256": "302fb88dee8db7f484a85d9d7f9bbd39f69de37cbf7bb25ae5a2e35bf8b8cf52",
+      "dimensions": [
+        3384,
+        4283
+      ],
+      "mode": "RGB",
+      "stored_in_repository": false,
+      "inspection": "Native macOS sips produced a 1106\u00d71400 inspection derivative in /tmp; independently viewed. Bright letter-shaped marks visible on pavers, clearer toward left and less resolved toward right. Same exposure as prior low-resolution image, not another observation. No bearing, emitter attribution, exposure time or scene scale derived.",
+      "native_crop": {
+        "top": 2700,
+        "left": 1300,
+        "height": 1500,
+        "width": 2000,
+        "pixel_origin": "top-left original TIFF",
+        "stored_in_repository": false,
+        "inspection": "Native crop independently viewed; no certified aperture-to-ground identity pairs established. No optical fit."
+      }
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "method": "web public read",
+      "http_status": 200,
+      "use": "Independently verified full solar apparent diameters 1919/1952/1887 arcseconds; not inferred installed blur"
+    }
+  ],
+  "failed_optional_retrievals": [
+    {
+      "url": "https://www.loc.gov/pictures/item/2011631531/",
+      "outcome": "web 403; no catalogue access workaround or metadata independently read in this turn"
+    },
+    {
+      "url": "https://midcdmz.nrel.gov/spa/",
+      "outcome": "Firecrawl DNS failure"
+    },
+    {
+      "url": "https://docs.nrel.gov/docs/fy08osti/34302.pdf",
+      "outcome": "web 502; no published SPA numeric validation vector adopted"
+    }
+  ],
+  "limitations": "URLs/IDs and derived notes retained, not full copyrighted scrapes. Cache timestamps are not observation times. Independent NOAA comparison is lower precision, not full SPA/ephemeris validation."
+}

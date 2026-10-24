@@ -1,0 +1,21 @@
+{
+  "run_id": "20261024T001728Z-f2895d4425214b2bbed15c832235acf2",
+  "started_at_utc": "2026-10-24T00:17:28.772639+00:00",
+  "label": "PHYSICAL-SOLAR-002",
+  "execution_kind": "original",
+  "status": "completed",
+  "specification": {
+    "commit": "b2cc1dffdbb71b7a11c38f8041d220f3fce82932",
+    "file": "research/PHYSICAL-SOLAR-002-SPEC.md",
+    "sha256": "14fb599a54901623902850599b27ed664b84af175521138d926d1a31071bd480",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [],
+  "artifacts": {
+    "physical-checks.json": {
+      "sha256": "6d1d599b7f4d5f84b64a5c6c7c0d32091b7daac9b3636f509db94eb91959a62d",
+      "bytes": 84876
+    }
+  },
+  "finished_at_utc": "2026-10-24T00:17:29.483736+00:00"
+}

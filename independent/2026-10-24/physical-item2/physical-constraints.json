@@ -1,0 +1,125 @@
+{
+  "status": "conditional_analytical_constraints_not_site_measurements",
+  "constants": {
+    "sun_full_angular_diameter_arcsec": 1919,
+    "sun_diameter_source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+    "illustrative_latitude_deg": 38.95,
+    "hypothetical_true_solar_azimuth_deg": 67.5,
+    "annual_declination_bound_deg": 23.44
+  },
+  "ene_horizon": {
+    "max_geometric_sun_center_elevation_deg": 9.550524498642613,
+    "obstacle_height_above_aperture_over_distance_cutoff": 0.1682492560181286,
+    "declination_needed_at_10deg_elevation": 23.719043041971155
+  },
+  "solar_blur_per_metre_height": [
+    {
+      "elevation_deg": 9.550524498642613,
+      "height_m": 1,
+      "ground_solar_blur_major_m": 0.33796106636566375,
+      "ground_solar_blur_minor_m": 0.056073576421672225,
+      "exact_major_m": 0.3382220523461159,
+      "exact_minor_m": 0.05609542559360567,
+      "heading_error_1deg_first_order_m": 0.10373473816765484,
+      "altitude_error_1deg_first_order_m": 0.6340072115249555
+    },
+    {
+      "elevation_deg": 15,
+      "height_m": 1,
+      "ground_solar_blur_major_m": 0.13888565150848162,
+      "ground_solar_blur_minor_m": 0.03594625170186668,
+      "exact_major_m": 0.13892852615119544,
+      "exact_minor_m": 0.035951929322574495,
+      "heading_error_1deg_first_order_m": 0.06513657444379023,
+      "altitude_error_1deg_first_order_m": 0.260546297775161
+    },
+    {
+      "elevation_deg": 30,
+      "height_m": 1,
+      "ground_solar_blur_major_m": 0.03721429816196799,
+      "ground_solar_blur_minor_m": 0.018607149080983994,
+      "exact_major_m": 0.03721698265622386,
+      "exact_minor_m": 0.01860788730239596,
+      "heading_error_1deg_first_order_m": 0.030229989403903635,
+      "altitude_error_1deg_first_order_m": 0.0698131700797732
+    },
+    {
+      "elevation_deg": 45,
+      "height_m": 1,
+      "ground_solar_blur_major_m": 0.018607149080983994,
+      "ground_solar_blur_minor_m": 0.013157241293712816,
+      "exact_major_m": 0.0186076859561336,
+      "exact_minor_m": 0.013157478559247307,
+      "heading_error_1deg_first_order_m": 0.0174532925199433,
+      "altitude_error_1deg_first_order_m": 0.0349065850398866
+    },
+    {
+      "elevation_deg": 60,
+      "height_m": 1,
+      "ground_solar_blur_major_m": 0.012404766053989328,
+      "ground_solar_blur_minor_m": 0.010742842530757605,
+      "exact_major_m": 0.01240494500953293,
+      "exact_minor_m": 0.010742958765331495,
+      "heading_error_1deg_first_order_m": 0.010076663134634546,
+      "altitude_error_1deg_first_order_m": 0.02327105669325773
+    }
+  ],
+  "hypothetical_straight_channel_clipping": [
+    {
+      "width_mm": 3,
+      "thickness_mm": 6.35,
+      "zero_overlap_threshold_deg": 25.287968261823043
+    },
+    {
+      "width_mm": 5,
+      "thickness_mm": 6.35,
+      "zero_overlap_threshold_deg": 38.21695114479886
+    },
+    {
+      "width_mm": 10,
+      "thickness_mm": 6.35,
+      "zero_overlap_threshold_deg": 57.58445267014133
+    },
+    {
+      "width_mm": 3,
+      "thickness_mm": 9.525,
+      "zero_overlap_threshold_deg": 17.482375182121544
+    },
+    {
+      "width_mm": 5,
+      "thickness_mm": 9.525,
+      "zero_overlap_threshold_deg": 27.696525494296637
+    },
+    {
+      "width_mm": 10,
+      "thickness_mm": 9.525,
+      "zero_overlap_threshold_deg": 46.393604511725925
+    },
+    {
+      "width_mm": 3,
+      "thickness_mm": 12.7,
+      "zero_overlap_threshold_deg": 13.290801411285884
+    },
+    {
+      "width_mm": 5,
+      "thickness_mm": 12.7,
+      "zero_overlap_threshold_deg": 21.489598798599005
+    },
+    {
+      "width_mm": 10,
+      "thickness_mm": 12.7,
+      "zero_overlap_threshold_deg": 38.21695114479886
+    }
+  ],
+  "checks": {
+    "first_order_blur_matches_exact_conical_footprint_to_0_1_percent": true,
+    "upward_ray_invariant": true
+  },
+  "not_performed": [
+    "site survey",
+    "aperture contour fit",
+    "timestamp inference",
+    "cipher or plaintext evaluation",
+    "new date/angle search"
+  ]
+}

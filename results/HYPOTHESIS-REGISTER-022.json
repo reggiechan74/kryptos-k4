@@ -1,0 +1,21 @@
+{
+  "kind": "Item 2 conditional physical constraints and source review complete; actual optical decoder remains evidence-blocked",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "3cbea6f90746997d4dc8728d782bf1dd60ea2cd95eb2014edc9b00d4caea1450"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-021.json",
+  "previous_snapshot_commit": "91b49e233787e3bd449407247602a1b02a7ff9ae",
+  "physical_calibration": false,
+  "new_cipher_or_plaintext_candidates": 0,
+  "item_3_started": false,
+  "site_changed": false
+}

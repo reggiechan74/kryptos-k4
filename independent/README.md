@@ -10,3 +10,5 @@ Separately supplied audits and their original source/results. Preserve worker pr
 
 - [2026-10-22/](2026-10-22/README.md)
 - [2026-10-23/](2026-10-23/README.md)
+
+[2026-10-24 item 2 physical evidence/arithmetic](2026-10-24/physical-item2/README.md) preserves attributed research and separate local validation.

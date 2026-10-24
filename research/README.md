@@ -114,3 +114,5 @@ Read the canonical hypothesis and experiment ledgers here. Specifications freeze
 ## Latest completed numbered investigation
 
 [Item 1: systematic row-plus-column overlay](FOLD-SLIDE-2D-FINDINGS.md) covers both fixed registrations over the entire declared integer domain, with whole-search controls and full positions. Original computation completed 23 October 2026 UTC; later reporting/publication is separate. Items 2–8 were not started. The physical aperture/registration gate remains open, and K4 is unsolved.
+
+Item 2: [conditional solar/light findings](PHYSICAL-SOLAR-002-FINDINGS.md) and [frozen protocol](PHYSICAL-SOLAR-002-SPEC.md); the physical decoder remains evidence-blocked.

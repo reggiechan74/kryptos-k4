@@ -1,0 +1,3732 @@
+{
+  "scope": "conditional physical constraints; no K4 evaluation or measured installed geometry",
+  "prior_coverage_reproduced": [
+    {
+      "latitude": 38.95,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          9.550524498642613
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        17.314166703418916,
+        44.06952410235104
+      ]
+    },
+    {
+      "latitude": 38.95,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          60.218035214618716
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.314166703418895,
+        38.949999999999996
+      ]
+    }
+  ],
+  "envelopes": [
+    {
+      "latitude": 38.94,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.60249753926125,
+        49.705177838567096
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.020475479945397,
+        49.705177838567096
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.60249753926125,
+        49.705177838567096
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.020475479945397,
+        49.705177838567096
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          9.5486281842981
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        17.316686340530023,
+        44.06117406921359
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          9.5486281842981
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        16.767228249879413,
+        44.06117406921359
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          9.645168059565162
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        17.316686340530023,
+        44.06117406921359
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          9.645168059565162
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        16.767228249879413,
+        44.06117406921359
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          24.395583869747455
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.727899732978221,
+        40.283083387894045
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          24.395583869747455
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.197678557780536,
+        40.283083387894045
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          24.503637612362112
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.727899732978221,
+        40.283083387894045
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          24.503637612362112
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.197678557780536,
+        40.283083387894045
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          3.074941480960332,
+          65.94545124179561
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.602497539261247,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          3.074941480960332,
+          65.94545124179561
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -26.181534948655024,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          2.99033397626858,
+          66.03005874648737
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.602497539261247,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          2.99033397626858,
+          66.03005874648737
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -26.181534948655024,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          60.2319623951099
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.316686340530005,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          60.2319623951099
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.864004949991546,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          60.32850227037697
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.316686340530005,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          60.32850227037697
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.864004949991546,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          51.54226609963514
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -8.727899732978235,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          51.54226609963514
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -9.257013370671551,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          51.6503198422498
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -8.727899732978235,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          51.6503198422498
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -9.257013370671551,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        24.434089190748733,
+        48.799713335101714
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        23.85761786837271,
+        48.799713335101714
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        24.434089190748733,
+        48.799713335101714
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        23.85761786837271,
+        48.799713335101714
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          1.4339555809805398,
+          65.267212086744
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -24.43408919074871,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          1.4339555809805398,
+          65.267212086744
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.007680172994654,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          1.3477408797497579,
+          65.35342678797478
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -24.43408919074871,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.94,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          1.3477408797497579,
+          65.35342678797478
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.007680172994654,
+        38.940000000000005
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.59823794472228,
+        49.712714986195195
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.016099494612035,
+        49.712714986195195
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.59823794472228,
+        49.712714986195195
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.016099494612035,
+        49.712714986195195
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          9.550714147924474
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        17.313914711681875,
+        44.07035913568904
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          9.550714147924474
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        16.764335151146057,
+        44.07035913568904
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          9.647230234921032
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        17.313914711681875,
+        44.07035913568904
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          9.647230234921032
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        16.764335151146057,
+        44.07035913568904
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          24.391062989802457
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.726535001498982,
+        40.29357081598726
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          24.391062989802457
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.196190188452078,
+        40.29357081598726
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          24.49907914752686
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.726535001498982,
+        40.29357081598726
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          24.49907914752686
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.196190188452078,
+        40.29357081598726
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          3.0683432478071038,
+          65.93104193359211
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.598237944722275,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          3.0683432478071038,
+          65.93104193359211
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -26.17739345259668,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          2.9837487146690567,
+          66.01563646673016
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.598237944722275,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          2.9837487146690567,
+          66.01563646673016
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -26.17739345259668,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          60.216642776468355
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.313914711681853,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          60.216642776468355
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.86135588339393,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          60.313158863464906
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.313914711681853,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          60.313158863464906
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.86135588339393,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          51.52748064827475
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -8.726535001498997,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          51.52748064827475
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -9.255772804584565,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          51.635496805999146
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -8.726535001498997,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          51.635496805999146
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -9.255772804584565,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        24.430050364248036,
+        48.80749522814498
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        23.853461648196138,
+        48.80749522814498
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        24.430050364248036,
+        48.80749522814498
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        23.853461648196138,
+        48.80749522814498
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          1.4278657637354442,
+          65.25263770344712
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -24.430050364248018,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          1.4278657637354442,
+          65.25263770344712
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.00376035711474,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          1.3416653000225873,
+          65.33883816715998
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -24.430050364248018,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.951,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          1.3416653000225873,
+          65.33883816715998
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.00376035711474,
+        38.951
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.594752182234796,
+        49.718882449675874
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.012518525980905,
+        49.718882449675874
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.594752182234796,
+        49.718882449675874
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 56.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        25.012518525980905,
+        49.718882449675874
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          9.552421137453482
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        17.311646556773315,
+        44.07787468128695
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          9.552421137453482
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        16.761967629912498,
+        44.07787468128695
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          9.648917772938809
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        17.311646556773315,
+        44.07787468128695
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 67.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          9.648917772938809
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        16.761967629912498,
+        44.07787468128695
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          24.3873674412808
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.725418165615558,
+        40.3021516075784
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          24.3873674412808
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.194972209620568,
+        40.3021516075784
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          24.495352874588104
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.725418165615558,
+        40.3021516075784
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 78.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          24.495352874588104
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        8.194972209620568,
+        40.3021516075784
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          3.0629455821191227,
+          65.91925509561261
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.59475218223479,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          3.0629455821191227,
+          65.91925509561261
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -26.174004293132004,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          2.9783616584276804,
+          66.00383901930407
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.59475218223479,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 236.25,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          2.9783616584276804,
+          66.00383901930407
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -26.174004293132004,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          60.204113122410526
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.3116465567733,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          60.204113122410526
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.859187988443388,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          60.30060975789584
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.3116465567733,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 247.5,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          60.30060975789584
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -17.859187988443388,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          51.51539010997354
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -8.725418165615574,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          51.51539010997354
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -9.254757543239602,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          0.0,
+          51.623375543280844
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -8.725418165615574,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 258.75,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          -0.833,
+          51.623375543280844
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -9.254757543239602,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        24.426745252503085,
+        48.813862918209
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        23.850060509025663,
+        48.813862918209
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        24.426745252503085,
+        48.813862918209
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 57.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [],
+      "declination_extrema_over_altitude_domain": [
+        23.850060509025663,
+        48.813862918209
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          1.4228840020278122,
+          65.24071604592511
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -24.426745252503057,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.44,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          1.4228840020278122,
+          65.24071604592511
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.000552595470126,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": 0,
+      "reachable_altitude_intervals": [
+        [
+          1.3366951828194125,
+          65.3269048651335
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -24.426745252503057,
+        38.96
+      ]
+    },
+    {
+      "latitude": 38.96,
+      "true_azimuth": 237.872,
+      "declination_cap": 23.5,
+      "minimum_center_altitude": -0.833,
+      "reachable_altitude_intervals": [
+        [
+          1.3366951828194125,
+          65.3269048651335
+        ]
+      ],
+      "declination_extrema_over_altitude_domain": [
+        -25.000552595470126,
+        38.96
+      ]
+    }
+  ],
+  "old_model_pair_conditional_required_declination": 36.02837972024121,
+  "dates": [
+    {
+      "role": "source_date_endpoint_or_noon",
+      "utc": "1969-09-30T00:00:00+00:00",
+      "usno": {
+        "jd": 2440494.5,
+        "declination": -2.642524422392647,
+        "equation_of_time_minutes": 9.811929874415341,
+        "ecliptic_longitude": 186.65484059724236,
+        "obliquity": 23.44297818
+      },
+      "noaa": {
+        "declination": -2.282408046113443,
+        "equation_of_time_minutes": 9.961451066174838
+      },
+      "declination_difference": 0.3601163762792039,
+      "eot_difference_minutes": 0.14952119175949719
+    },
+    {
+      "role": "source_date_endpoint_or_noon",
+      "utc": "1969-09-30T12:00:00+00:00",
+      "usno": {
+        "jd": 2440495.0,
+        "declination": -2.836845526568539,
+        "equation_of_time_minutes": 9.975564263640877,
+        "ecliptic_longitude": 187.14628860157845,
+        "obliquity": 23.442978
+      },
+      "noaa": {
+        "declination": -2.476939456228148,
+        "equation_of_time_minutes": 10.132050260326427
+      },
+      "declination_difference": 0.3599060703403909,
+      "eot_difference_minutes": 0.15648599668555008
+    },
+    {
+      "role": "source_date_endpoint_or_noon",
+      "utc": "1969-10-01T00:00:00+00:00",
+      "usno": {
+        "jd": 2440495.5,
+        "declination": -3.031045943321391,
+        "equation_of_time_minutes": 10.138073326833137,
+        "ecliptic_longitude": 187.63787733692158,
+        "obliquity": 23.44297782
+      },
+      "noaa": {
+        "declination": -2.6713863809535283,
+        "equation_of_time_minutes": 10.301282370934816
+      },
+      "declination_difference": 0.3596595623678627,
+      "eot_difference_minutes": 0.1632090441016789
+    },
+    {
+      "role": "source_date_endpoint_or_noon",
+      "utc": "1990-11-03T00:00:00+00:00",
+      "usno": {
+        "jd": 2448198.5,
+        "declination": -14.90971942342087,
+        "equation_of_time_minutes": 16.41120118656204,
+        "ecliptic_longitude": 220.30171107301408,
+        "obliquity": 23.44020474
+      },
+      "noaa": {
+        "declination": -14.671484626234017,
+        "equation_of_time_minutes": 16.373815803635697
+      },
+      "declination_difference": 0.2382347971868537,
+      "eot_difference_minutes": 0.03738538292634175
+    },
+    {
+      "role": "source_date_endpoint_or_noon",
+      "utc": "1990-11-03T12:00:00+00:00",
+      "usno": {
+        "jd": 2448199.0,
+        "declination": -15.066399314389871,
+        "equation_of_time_minutes": 16.41307628249649,
+        "ecliptic_longitude": 220.8024588264046,
+        "obliquity": 23.44020456
+      },
+      "noaa": {
+        "declination": -14.830251167776323,
+        "equation_of_time_minutes": 16.365260290910168
+      },
+      "declination_difference": 0.236148146613548,
+      "eot_difference_minutes": 0.047815991586322326
+    },
+    {
+      "role": "source_date_endpoint_or_noon",
+      "utc": "1990-11-04T00:00:00+00:00",
+      "usno": {
+        "jd": 2448199.5,
+        "declination": -15.222055360104086,
+        "equation_of_time_minutes": 16.41155457251068,
+        "ecliptic_longitude": 221.30333471661388,
+        "obliquity": 23.44020438
+      },
+      "noaa": {
+        "declination": -14.988004002630737,
+        "equation_of_time_minutes": 16.35329904945653
+      },
+      "declination_difference": 0.2340513574733496,
+      "eot_difference_minutes": 0.05825552305415016
+    },
+    {
+      "role": "source_date_endpoint_or_noon",
+      "utc": "1990-11-05T00:00:00+00:00",
+      "usno": {
+        "jd": 2448200.5,
+        "declination": -15.530239513081765,
+        "equation_of_time_minutes": 16.398259197483526,
+        "ecliptic_longitude": 222.3054686673116,
+        "obliquity": 23.44020402
+      },
+      "noaa": {
+        "declination": -15.300409963983292,
+        "equation_of_time_minutes": 16.319147385579015
+      },
+      "declination_difference": 0.22982954909847386,
+      "eot_difference_minutes": 0.07911181190451089
+    },
+    {
+      "role": "source_date_endpoint_or_noon",
+      "utc": "1990-11-05T12:00:00+00:00",
+      "usno": {
+        "jd": 2448201.0,
+        "declination": -15.682739426230269,
+        "equation_of_time_minutes": 16.386456838727895,
+        "ecliptic_longitude": 222.80672558129064,
+        "obliquity": 23.44020384
+      },
+      "noaa": {
+        "declination": -15.45503382829436,
+        "equation_of_time_minutes": 16.29695322715177
+      },
+      "declination_difference": 0.22770559793590905,
+      "eot_difference_minutes": 0.08950361157612363
+    },
+    {
+      "role": "source_date_endpoint_or_noon",
+      "utc": "1990-11-06T00:00:00+00:00",
+      "usno": {
+        "jd": 2448201.5,
+        "declination": -15.834159109761162,
+        "equation_of_time_minutes": 16.371200314520024,
+        "ecliptic_longitude": 223.30810833913569,
+        "obliquity": 23.44020366
+      },
+      "noaa": {
+        "declination": -15.60858546673046,
+        "equation_of_time_minutes": 16.2713458701232
+      },
+      "declination_difference": 0.22557364303070138,
+      "eot_difference_minutes": 0.09985444439682567
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-01T12:00:00+00:00",
+      "usno": {
+        "jd": 2447467.0,
+        "declination": -14.58869772413163,
+        "equation_of_time_minutes": 16.395143881519516,
+        "ecliptic_longitude": 219.28549877232754,
+        "obliquity": 23.44046808
+      },
+      "noaa": {
+        "declination": -14.243262785566573,
+        "equation_of_time_minutes": 16.38001451691928
+      },
+      "declination_difference": 0.3454349385650559,
+      "eot_difference_minutes": 0.015129364600234396
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-02T12:00:00+00:00",
+      "usno": {
+        "jd": 2447468.0,
+        "declination": -14.905141883258882,
+        "equation_of_time_minutes": 16.409153337183625,
+        "ecliptic_longitude": 220.28661765307385,
+        "obliquity": 23.44046772
+      },
+      "noaa": {
+        "declination": -14.564210377442729,
+        "equation_of_time_minutes": 16.377654424438635
+      },
+      "declination_difference": 0.34093150581615284,
+      "eot_difference_minutes": 0.03149891274498984
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-03T12:00:00+00:00",
+      "usno": {
+        "jd": 2447469.0,
+        "declination": -15.21754853572793,
+        "equation_of_time_minutes": 16.409643920395865,
+        "ecliptic_longitude": 221.28825117410173,
+        "obliquity": 23.44046736
+      },
+      "noaa": {
+        "declination": -14.881222804028505,
+        "equation_of_time_minutes": 16.361776115279703
+      },
+      "declination_difference": 0.33632573169942503,
+      "eot_difference_minutes": 0.04786780511616229
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-04T12:00:00+00:00",
+      "usno": {
+        "jd": 2447470.0,
+        "declination": -15.525804867426094,
+        "equation_of_time_minutes": 16.396487515568197,
+        "ecliptic_longitude": 222.29039491543784,
+        "obliquity": 23.440467
+      },
+      "noaa": {
+        "declination": -15.194183746719904,
+        "equation_of_time_minutes": 16.332345594847926
+      },
+      "declination_difference": 0.3316211207061901,
+      "eot_difference_minutes": 0.06414192072027092
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-05T12:00:00+00:00",
+      "usno": {
+        "jd": 2447471.0,
+        "declination": -15.829798098025545,
+        "equation_of_time_minutes": 16.369569191455298,
+        "ecliptic_longitude": 223.29304428785989,
+        "obliquity": 23.44046664
+      },
+      "noaa": {
+        "declination": -15.50297704598576,
+        "equation_of_time_minutes": 16.289343159122666
+      },
+      "declination_difference": 0.32682105203978473,
+      "eot_difference_minutes": 0.08022603233263226
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-06T12:00:00+00:00",
+      "usno": {
+        "jd": 2447472.0,
+        "declination": -16.129415542803752,
+        "equation_of_time_minutes": 16.328787647398485,
+        "ecliptic_longitude": 224.2961945339055,
+        "obliquity": 23.44046628
+      },
+      "noaa": {
+        "declination": -15.80748678239034,
+        "equation_of_time_minutes": 16.232763433913323
+      },
+      "declination_difference": 0.321928760413412,
+      "eot_difference_minutes": 0.09602421348516188
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-07T12:00:00+00:00",
+      "usno": {
+        "jd": 2447473.0,
+        "declination": -16.424544677910973,
+        "equation_of_time_minutes": 16.274055654985887,
+        "ecliptic_longitude": 225.29984072895934,
+        "obliquity": 23.44046592
+      },
+      "noaa": {
+        "declination": -16.10759735999559,
+        "equation_of_time_minutes": 16.16261539771595
+      },
+      "declination_difference": 0.3169473179153819,
+      "eot_difference_minutes": 0.1114402572699369
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-08T12:00:00+00:00",
+      "usno": {
+        "jd": 2447474.0,
+        "declination": -16.715073209090576,
+        "equation_of_time_minutes": 16.205300493514642,
+        "ecliptic_longitude": 226.30397778240788,
+        "obliquity": 23.44046556
+      },
+      "noaa": {
+        "declination": -16.403193592007767,
+        "equation_of_time_minutes": 16.07892238813852
+      },
+      "declination_difference": 0.3118796170828091,
+      "eot_difference_minutes": 0.12637810537612282
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-09T12:00:00+00:00",
+      "usno": {
+        "jd": 2447475.0,
+        "declination": -17.00088914385059,
+        "equation_of_time_minutes": 16.122464377549022,
+        "ecliptic_longitude": 227.3086004388659,
+        "obliquity": 23.4404652
+      },
+      "noaa": {
+        "declination": -16.694160788526585,
+        "equation_of_time_minutes": 15.981722091882341
+      },
+      "declination_difference": 0.30672835532400455,
+      "eot_difference_minutes": 0.1407422856666809
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-10T12:00:00+00:00",
+      "usno": {
+        "jd": 2447476.0,
+        "declination": -17.281880867072513,
+        "equation_of_time_minutes": 16.02550487478254,
+        "ecliptic_longitude": 228.31370327947937,
+        "obliquity": 23.44046484
+      },
+      "noaa": {
+        "declination": -16.980384846248295,
+        "equation_of_time_minutes": 15.871066518286149
+      },
+      "declination_difference": 0.3014960208242172,
+      "eot_difference_minutes": 0.15443835649639226
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-11T12:00:00+00:00",
+      "usno": {
+        "jd": 2447477.0,
+        "declination": -17.557937220025586,
+        "equation_of_time_minutes": 15.91439531232595,
+        "ecliptic_longitude": 229.31928072329336,
+        "obliquity": 23.44046448
+      },
+      "noaa": {
+        "declination": -17.261752339968485,
+        "equation_of_time_minutes": 15.747021956458912
+      },
+      "declination_difference": 0.2961848800571012,
+      "eot_difference_minutes": 0.1673733558670385
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-12T12:00:00+00:00",
+      "usno": {
+        "jd": 2447478.0,
+        "declination": -17.828947582747887,
+        "equation_of_time_minutes": 15.789125169465592,
+        "ecliptic_longitude": 230.325327028699,
+        "obliquity": 23.44046412
+      },
+      "noaa": {
+        "declination": -17.538150615724465,
+        "equation_of_time_minutes": 15.60966891604629
+      },
+      "declination_difference": 0.2907969670234216,
+      "eot_difference_minutes": 0.1794562534193016
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-13T12:00:00+00:00",
+      "usno": {
+        "jd": 2447479.0,
+        "declination": -18.094801959732667,
+        "equation_of_time_minutes": 15.649700454867798,
+        "ecliptic_longitude": 231.33183629494425,
+        "obliquity": 23.44046376
+      },
+      "noaa": {
+        "declination": -17.809467885412023,
+        "equation_of_time_minutes": 15.459102051695155
+      },
+      "declination_difference": 0.2853340743206445,
+      "eot_difference_minutes": 0.19059840317264332
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-14T12:00:00+00:00",
+      "usno": {
+        "jd": 2447480.0,
+        "declination": -18.355391068850736,
+        "equation_of_time_minutes": 15.496144066132842,
+        "ecliptic_longitude": 232.33880246372323,
+        "obliquity": 23.4404634
+      },
+      "noaa": {
+        "declination": -18.075593322706208,
+        "equation_of_time_minutes": 15.29543007129936
+      },
+      "declination_difference": 0.2797977461445278,
+      "eot_difference_minutes": 0.20071399483348173
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-15T12:00:00+00:00",
+      "usno": {
+        "jd": 2447481.0,
+        "declination": -18.610606433416578,
+        "equation_of_time_minutes": 15.328496129558175,
+        "ecliptic_longitude": 233.34621932083164,
+        "obliquity": 23.44046304
+      },
+      "noaa": {
+        "declination": -18.336417160111655,
+        "equation_of_time_minutes": 15.118775628129155
+      },
+      "declination_difference": 0.2741892733049234,
+      "eot_difference_minutes": 0.20972050142902
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-16T12:00:00+00:00",
+      "usno": {
+        "jd": 2447482.0,
+        "declination": -18.860340477293168,
+        "equation_of_time_minutes": 15.146814317914277,
+        "ecliptic_longitude": 234.35408049789268,
+        "obliquity": 23.44046268
+      },
+      "noaa": {
+        "declination": -18.591830786963367,
+        "equation_of_time_minutes": 14.929275196965454
+      },
+      "declination_difference": 0.2685096903298003,
+      "eot_difference_minutes": 0.21753912094882288
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-17T12:00:00+00:00",
+      "usno": {
+        "jd": 2447483.0,
+        "declination": -19.10448662291341,
+        "equation_of_time_minutes": 14.951174144006586,
+        "ecliptic_longitude": 235.3623794741583,
+        "obliquity": 23.44046232
+      },
+      "noaa": {
+        "declination": -18.841726848196014,
+        "equation_of_time_minutes": 14.727078934378696
+      },
+      "declination_difference": 0.2627597747173951,
+      "eot_difference_minutes": 0.2240952096278903
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-18T12:00:00+00:00",
+      "usno": {
+        "jd": 2447484.0,
+        "declination": -19.3429393920738,
+        "equation_of_time_minutes": 14.741669227771808,
+        "ecliptic_longitude": 236.37110957837297,
+        "obliquity": 23.44046196
+      },
+      "noaa": {
+        "declination": -19.08599934369562,
+        "equation_of_time_minutes": 14.512350523310971
+      },
+      "declination_difference": 0.25694004837817985,
+      "eot_difference_minutes": 0.22931870446083735
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-19T12:00:00+00:00",
+      "usno": {
+        "jd": 2447485.0,
+        "declination": -19.57559450934414,
+        "equation_of_time_minutes": 14.518411534654774,
+        "ecliptic_longitude": 237.38026399071413,
+        "obliquity": 23.4404616
+      },
+      "noaa": {
+        "declination": -19.324543728045683,
+        "equation_of_time_minutes": 14.285267002138106
+      },
+      "declination_difference": 0.25105078129845637,
+      "eot_difference_minutes": 0.23314453251666833
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-20T12:00:00+00:00",
+      "usno": {
+        "jd": 2447486.0,
+        "declination": -19.80234900791218,
+        "equation_of_time_minutes": 14.281531583002561,
+        "ecliptic_longitude": 238.38983574479437,
+        "obliquity": 23.44046124
+      },
+      "noaa": {
+        "declination": -19.557257010476796,
+        "equation_of_time_minutes": 14.046018578406782
+      },
+      "declination_difference": 0.24509199743538446,
+      "eot_difference_minutes": 0.23551300459577895
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-21T12:00:00+00:00",
+      "usno": {
+        "jd": 2447487.0,
+        "declination": -20.023101337669523,
+        "equation_of_time_minutes": 14.031178618247395,
+        "ecliptic_longitude": 239.39981772973857,
+        "obliquity": 23.44046088
+      },
+      "noaa": {
+        "declination": -19.78403785482734,
+        "equation_of_time_minutes": 13.794808427459575
+      },
+      "declination_difference": 0.23906348284218382,
+      "eot_difference_minutes": 0.23637019078782018
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-22T12:00:00+00:00",
+      "usno": {
+        "jd": 2447488.0,
+        "declination": -20.237751475321172,
+        "equation_of_time_minutes": 13.76752075167667,
+        "ecliptic_longitude": 240.41020269232408,
+        "obliquity": 23.44046052
+      },
+      "noaa": {
+        "declination": -20.004786679321306,
+        "equation_of_time_minutes": 13.531852476178603
+      },
+      "declination_difference": 0.23296479599986597,
+      "eot_difference_minutes": 0.23566827549806746
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-23T12:00:00+00:00",
+      "usno": {
+        "jd": 2447489.0,
+        "declination": -20.44620103628581,
+        "equation_of_time_minutes": 13.490745061646749,
+        "ecliptic_longitude": 241.42098323918776,
+        "obliquity": 23.44046016
+      },
+      "noaa": {
+        "declination": -20.219405755968435,
+        "equation_of_time_minutes": 13.2573791720959
+      },
+      "declination_difference": 0.2267952803173756,
+      "eot_difference_minutes": 0.23336588955084814
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-24T12:00:00+00:00",
+      "usno": {
+        "jd": 2447490.0,
+        "declination": -20.64835338813601,
+        "equation_of_time_minutes": 13.201057655162685,
+        "ecliptic_longitude": 242.4321518391039,
+        "obliquity": 23.4404598
+      },
+      "noaa": {
+        "declination": -20.42779930939138,
+        "equation_of_time_minutes": 12.971629238135495
+      },
+      "declination_difference": 0.2205540787446303,
+      "eot_difference_minutes": 0.22942841702719008
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-25T12:00:00+00:00",
+      "usno": {
+        "jd": 2447491.0,
+        "declination": -20.844113765305845,
+        "equation_of_time_minutes": 12.8986836878438,
+        "ecliptic_longitude": 243.44370082532078,
+        "obliquity": 23.44045944
+      },
+      "noaa": {
+        "declination": -20.62987361488469,
+        "equation_of_time_minutes": 12.67485541326949
+      },
+      "declination_difference": 0.21424015042115485,
+      "eot_difference_minutes": 0.2238282745743092
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-26T12:00:00+00:00",
+      "usno": {
+        "jd": 2447492.0,
+        "declination": -21.03338938478178,
+        "equation_of_time_minutes": 12.583867340395273,
+        "ecliptic_longitude": 244.45562239796874,
+        "obliquity": 23.44045908
+      },
+      "noaa": {
+        "declination": -20.825537095510807,
+        "equation_of_time_minutes": 12.367322179386447
+      },
+      "declination_difference": 0.2078522892709742,
+      "eot_difference_minutes": 0.21654516100882581
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-27T12:00:00+00:00",
+      "usno": {
+        "jd": 2447493.0,
+        "declination": -21.216089562470163,
+        "equation_of_time_minutes": 12.256871749839547,
+        "ecliptic_longitude": 245.4679086265254,
+        "obliquity": 23.44045872
+      },
+      "noaa": {
+        "declination": -21.014700418039464,
+        "equation_of_time_minutes": 12.0493054746868
+      },
+      "declination_difference": 0.20138914443069922,
+      "eot_difference_minutes": 0.20756627515274673
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-28T12:00:00+00:00",
+      "usno": {
+        "jd": 2447494.0,
+        "declination": -21.39212582992477,
+        "equation_of_time_minutes": 11.9179788939025,
+        "ecliptic_longitude": 246.48055145235006,
+        "obliquity": 23.44045836
+      },
+      "noaa": {
+        "declination": -21.197276587538013,
+        "equation_of_time_minutes": 11.7210923939357
+      },
+      "declination_difference": 0.1948492423867556,
+      "eot_difference_minutes": 0.19688649996679963
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-29T12:00:00+00:00",
+      "usno": {
+        "jd": 2447495.0,
+        "declination": -21.561412051097804,
+        "equation_of_time_minutes": 11.567489427118517,
+        "ecliptic_longitude": 247.4935426912735,
+        "obliquity": 23.440458
+      },
+      "noaa": {
+        "declination": -21.373181040422516,
+        "equation_of_time_minutes": 11.382980875919092
+      },
+      "declination_difference": 0.18823101067528825,
+      "eot_difference_minutes": 0.1845085511994249
+    },
+    {
+      "role": "month_inventory_noon_not_event_time",
+      "utc": "1988-11-30T12:00:00+00:00",
+      "usno": {
+        "jd": 2447496.0,
+        "declination": -21.723864538769348,
+        "equation_of_time_minutes": 11.205722467406758,
+        "ecliptic_longitude": 248.50687403625483,
+        "obliquity": 23.44045764
+      },
+      "noaa": {
+        "declination": -21.54233173578141,
+        "equation_of_time_minutes": 11.03527937846387
+      },
+      "declination_difference": 0.18153280298793817,
+      "eot_difference_minutes": 0.17044308894288918
+    }
+  ],
+  "ray_cases": [
+    {
+      "source_z": -2,
+      "aperture_z": -2,
+      "receiver_z": -2,
+      "result": {
+        "status": "coplanar"
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": -2,
+      "receiver_z": -1,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": -2,
+      "receiver_z": 0,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": -2,
+      "receiver_z": 1,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": -2,
+      "receiver_z": 2,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": -1,
+      "receiver_z": -2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": -1,
+      "receiver_z": -1,
+      "result": {
+        "status": "forward",
+        "t": 0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": -1,
+      "receiver_z": 0,
+      "result": {
+        "status": "forward",
+        "t": 1.0,
+        "intersection": [
+          2.0,
+          4.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": -1,
+      "receiver_z": 1,
+      "result": {
+        "status": "forward",
+        "t": 2.0,
+        "intersection": [
+          3.0,
+          6.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": -1,
+      "receiver_z": 2,
+      "result": {
+        "status": "forward",
+        "t": 3.0,
+        "intersection": [
+          4.0,
+          8.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 0,
+      "receiver_z": -2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 0,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.5,
+        "intersection": [
+          0.5,
+          1.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 0,
+      "receiver_z": 0,
+      "result": {
+        "status": "forward",
+        "t": 0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 0,
+      "receiver_z": 1,
+      "result": {
+        "status": "forward",
+        "t": 0.5,
+        "intersection": [
+          1.5,
+          3.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 0,
+      "receiver_z": 2,
+      "result": {
+        "status": "forward",
+        "t": 1.0,
+        "intersection": [
+          2.0,
+          4.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 1,
+      "receiver_z": -2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 1,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.6666666666666666,
+        "intersection": [
+          0.33333333333333337,
+          0.6666666666666667,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 1,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.3333333333333333,
+        "intersection": [
+          0.6666666666666667,
+          1.3333333333333335,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 1,
+      "receiver_z": 1,
+      "result": {
+        "status": "forward",
+        "t": 0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 1,
+      "receiver_z": 2,
+      "result": {
+        "status": "forward",
+        "t": 0.3333333333333333,
+        "intersection": [
+          1.3333333333333333,
+          2.6666666666666665,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 2,
+      "receiver_z": -2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 2,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.75,
+        "intersection": [
+          0.25,
+          0.5,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 2,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.5,
+        "intersection": [
+          0.5,
+          1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 2,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.25,
+        "intersection": [
+          0.75,
+          1.5,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": -2,
+      "aperture_z": 2,
+      "receiver_z": 2,
+      "result": {
+        "status": "forward",
+        "t": 0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": -2,
+      "receiver_z": -2,
+      "result": {
+        "status": "forward",
+        "t": -0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": -2,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": -2,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -2.0,
+        "intersection": [
+          -1.0,
+          -2.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": -2,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -3.0,
+        "intersection": [
+          -2.0,
+          -4.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": -2,
+      "receiver_z": 2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -4.0,
+        "intersection": [
+          -3.0,
+          -6.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": -1,
+      "receiver_z": -2,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": -1,
+      "receiver_z": -1,
+      "result": {
+        "status": "coplanar"
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": -1,
+      "receiver_z": 0,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": -1,
+      "receiver_z": 1,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": -1,
+      "receiver_z": 2,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 0,
+      "receiver_z": -2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -2.0,
+        "intersection": [
+          -1.0,
+          -2.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 0,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 0,
+      "receiver_z": 0,
+      "result": {
+        "status": "forward",
+        "t": 0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 0,
+      "receiver_z": 1,
+      "result": {
+        "status": "forward",
+        "t": 1.0,
+        "intersection": [
+          2.0,
+          4.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 0,
+      "receiver_z": 2,
+      "result": {
+        "status": "forward",
+        "t": 2.0,
+        "intersection": [
+          3.0,
+          6.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 1,
+      "receiver_z": -2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.5,
+        "intersection": [
+          -0.5,
+          -1.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 1,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 1,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.5,
+        "intersection": [
+          0.5,
+          1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 1,
+      "receiver_z": 1,
+      "result": {
+        "status": "forward",
+        "t": 0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 1,
+      "receiver_z": 2,
+      "result": {
+        "status": "forward",
+        "t": 0.5,
+        "intersection": [
+          1.5,
+          3.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 2,
+      "receiver_z": -2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.3333333333333333,
+        "intersection": [
+          -0.33333333333333326,
+          -0.6666666666666665,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 2,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 2,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.6666666666666666,
+        "intersection": [
+          0.33333333333333337,
+          0.6666666666666667,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 2,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.3333333333333333,
+        "intersection": [
+          0.6666666666666667,
+          1.3333333333333335,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": -1,
+      "aperture_z": 2,
+      "receiver_z": 2,
+      "result": {
+        "status": "forward",
+        "t": 0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": -2,
+      "receiver_z": -2,
+      "result": {
+        "status": "forward",
+        "t": -0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": -2,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.5,
+        "intersection": [
+          0.5,
+          1.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": -2,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": -2,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.5,
+        "intersection": [
+          -0.5,
+          -1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": -2,
+      "receiver_z": 2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -2.0,
+        "intersection": [
+          -1.0,
+          -2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": -1,
+      "receiver_z": -2,
+      "result": {
+        "status": "forward",
+        "t": 1.0,
+        "intersection": [
+          2.0,
+          4.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": -1,
+      "receiver_z": -1,
+      "result": {
+        "status": "forward",
+        "t": -0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": -1,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": -1,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -2.0,
+        "intersection": [
+          -1.0,
+          -2.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": -1,
+      "receiver_z": 2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -3.0,
+        "intersection": [
+          -2.0,
+          -4.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 0,
+      "receiver_z": -2,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 0,
+      "receiver_z": -1,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 0,
+      "receiver_z": 0,
+      "result": {
+        "status": "coplanar"
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 0,
+      "receiver_z": 1,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 0,
+      "receiver_z": 2,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 1,
+      "receiver_z": -2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -3.0,
+        "intersection": [
+          -2.0,
+          -4.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 1,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -2.0,
+        "intersection": [
+          -1.0,
+          -2.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 1,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 1,
+      "receiver_z": 1,
+      "result": {
+        "status": "forward",
+        "t": 0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 1,
+      "receiver_z": 2,
+      "result": {
+        "status": "forward",
+        "t": 1.0,
+        "intersection": [
+          2.0,
+          4.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 2,
+      "receiver_z": -2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -2.0,
+        "intersection": [
+          -1.0,
+          -2.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 2,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.5,
+        "intersection": [
+          -0.5,
+          -1.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 2,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 2,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.5,
+        "intersection": [
+          0.5,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 0,
+      "aperture_z": 2,
+      "receiver_z": 2,
+      "result": {
+        "status": "forward",
+        "t": 0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": -2,
+      "receiver_z": -2,
+      "result": {
+        "status": "forward",
+        "t": -0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": -2,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.3333333333333333,
+        "intersection": [
+          0.6666666666666667,
+          1.3333333333333335,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": -2,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.6666666666666666,
+        "intersection": [
+          0.33333333333333337,
+          0.6666666666666667,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": -2,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": -2,
+      "receiver_z": 2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.3333333333333333,
+        "intersection": [
+          -0.33333333333333326,
+          -0.6666666666666665,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": -1,
+      "receiver_z": -2,
+      "result": {
+        "status": "forward",
+        "t": 0.5,
+        "intersection": [
+          1.5,
+          3.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": -1,
+      "receiver_z": -1,
+      "result": {
+        "status": "forward",
+        "t": -0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": -1,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.5,
+        "intersection": [
+          0.5,
+          1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": -1,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": -1,
+      "receiver_z": 2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.5,
+        "intersection": [
+          -0.5,
+          -1.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 0,
+      "receiver_z": -2,
+      "result": {
+        "status": "forward",
+        "t": 2.0,
+        "intersection": [
+          3.0,
+          6.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 0,
+      "receiver_z": -1,
+      "result": {
+        "status": "forward",
+        "t": 1.0,
+        "intersection": [
+          2.0,
+          4.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 0,
+      "receiver_z": 0,
+      "result": {
+        "status": "forward",
+        "t": -0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 0,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 0,
+      "receiver_z": 2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -2.0,
+        "intersection": [
+          -1.0,
+          -2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 1,
+      "receiver_z": -2,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 1,
+      "receiver_z": -1,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 1,
+      "receiver_z": 0,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 1,
+      "receiver_z": 1,
+      "result": {
+        "status": "coplanar"
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 1,
+      "receiver_z": 2,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 2,
+      "receiver_z": -2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -4.0,
+        "intersection": [
+          -3.0,
+          -6.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 2,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -3.0,
+        "intersection": [
+          -2.0,
+          -4.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 2,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -2.0,
+        "intersection": [
+          -1.0,
+          -2.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 2,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 1,
+      "aperture_z": 2,
+      "receiver_z": 2,
+      "result": {
+        "status": "forward",
+        "t": 0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": -2,
+      "receiver_z": -2,
+      "result": {
+        "status": "forward",
+        "t": -0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": -2,
+      "receiver_z": -1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.25,
+        "intersection": [
+          0.75,
+          1.5,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": -2,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.5,
+        "intersection": [
+          0.5,
+          1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": -2,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.75,
+        "intersection": [
+          0.25,
+          0.5,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": -2,
+      "receiver_z": 2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": -1,
+      "receiver_z": -2,
+      "result": {
+        "status": "forward",
+        "t": 0.3333333333333333,
+        "intersection": [
+          1.3333333333333333,
+          2.6666666666666665,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": -1,
+      "receiver_z": -1,
+      "result": {
+        "status": "forward",
+        "t": -0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": -1,
+      "receiver_z": 0,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.3333333333333333,
+        "intersection": [
+          0.6666666666666667,
+          1.3333333333333335,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": -1,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.6666666666666666,
+        "intersection": [
+          0.33333333333333337,
+          0.6666666666666667,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": -1,
+      "receiver_z": 2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 0,
+      "receiver_z": -2,
+      "result": {
+        "status": "forward",
+        "t": 1.0,
+        "intersection": [
+          2.0,
+          4.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 0,
+      "receiver_z": -1,
+      "result": {
+        "status": "forward",
+        "t": 0.5,
+        "intersection": [
+          1.5,
+          3.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 0,
+      "receiver_z": 0,
+      "result": {
+        "status": "forward",
+        "t": -0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 0,
+      "receiver_z": 1,
+      "result": {
+        "status": "behind_aperture",
+        "t": -0.5,
+        "intersection": [
+          0.5,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 0,
+      "receiver_z": 2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 1,
+      "receiver_z": -2,
+      "result": {
+        "status": "forward",
+        "t": 3.0,
+        "intersection": [
+          4.0,
+          8.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 1,
+      "receiver_z": -1,
+      "result": {
+        "status": "forward",
+        "t": 2.0,
+        "intersection": [
+          3.0,
+          6.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 1,
+      "receiver_z": 0,
+      "result": {
+        "status": "forward",
+        "t": 1.0,
+        "intersection": [
+          2.0,
+          4.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 1,
+      "receiver_z": 1,
+      "result": {
+        "status": "forward",
+        "t": -0.0,
+        "intersection": [
+          1.0,
+          2.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 1,
+      "receiver_z": 2,
+      "result": {
+        "status": "behind_aperture",
+        "t": -1.0,
+        "intersection": [
+          0.0,
+          0.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 2,
+      "receiver_z": -2,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 2,
+      "receiver_z": -1,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 2,
+      "receiver_z": 0,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 2,
+      "receiver_z": 1,
+      "result": {
+        "status": "parallel_disjoint"
+      }
+    },
+    {
+      "source_z": 2,
+      "aperture_z": 2,
+      "receiver_z": 2,
+      "result": {
+        "status": "coplanar"
+      }
+    }
+  ],
+  "controls": {
+    "independent_grid_checks": 960096,
+    "date_cross_checks": 39,
+    "ray_substitution_cases": 125,
+    "all_passed": true
+  },
+  "elapsed_seconds": 0.7084860000000001,
+  "peak_rss_bytes": 14712832,
+  "source_sha256": "d0ea82fe1963d7656f5b404a4f122466c2d523ed01eef079e0c8496fcd16473f"
+}

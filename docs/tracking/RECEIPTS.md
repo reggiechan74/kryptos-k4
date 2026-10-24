@@ -46,6 +46,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/DOCUMENTATION-LINK-AUDIT-023.json](../../results/DOCUMENTATION-LINK-AUDIT-023.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-024.json](../../results/DOCUMENTATION-LINK-AUDIT-024.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-025.json](../../results/DOCUMENTATION-LINK-AUDIT-025.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
+| [results/DOCUMENTATION-LINK-AUDIT-026.json](../../results/DOCUMENTATION-LINK-AUDIT-026.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DYNAMIC-KEY-VALIDATION.json](../../results/DYNAMIC-KEY-VALIDATION.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
 | [results/ENE-NOTE-CHECKS.json](../../results/ENE-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-001.json](../../results/EXCLUSION-SCOPE-AUDIT-001.json) |  | Exact run start/end unknown; inspect original |
@@ -69,6 +70,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/EXCLUSION-SCOPE-AUDIT-019.json](../../results/EXCLUSION-SCOPE-AUDIT-019.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-020.json](../../results/EXCLUSION-SCOPE-AUDIT-020.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-021.json](../../results/EXCLUSION-SCOPE-AUDIT-021.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-022.json](../../results/EXCLUSION-SCOPE-AUDIT-022.json) |  | Exact run start/end unknown; inspect original |
 | [results/FACE-ROW-001-COVERAGE.json](../../results/FACE-ROW-001-COVERAGE.json) | prior-coverage audit; zero K4 evaluations | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005-controls.json](../../results/FEISTEL-SYMMETRY-005-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005.json](../../results/FEISTEL-SYMMETRY-005.json) |  | Exact run start/end unknown; inspect original |
@@ -98,6 +100,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/FRONTIER-019.json](../../results/FRONTIER-019.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-020.json](../../results/FRONTIER-020.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-021.json](../../results/FRONTIER-021.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-022.json](../../results/FRONTIER-022.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FULL-STATE-PHYSICAL-VALIDATION-001.json](../../results/FULL-STATE-PHYSICAL-VALIDATION-001.json) | FULL-STATE-PHYSICAL-VALIDATION-001 | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-COMPARISON.json](../../results/GEOMETRIC-FOLLOWUP-COMPARISON.json) |  | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json](../../results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
@@ -136,6 +139,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/HYPOTHESIS-REGISTER-019.json](../../results/HYPOTHESIS-REGISTER-019.json) | Supplied-anchor collector-filter diagnostic; conditional selectivity, no new full-domain controller coverage | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-020.json](../../results/HYPOTHESIS-REGISTER-020.json) | Completed conditional fold/slide and visitor documentation; no cipher-solution claim | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-021.json](../../results/HYPOTHESIS-REGISTER-021.json) | Item 1 completed: full integer 2D transcript-coincidence scan with conditional chance controls; physical optical gate retained | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-022.json](../../results/HYPOTHESIS-REGISTER-022.json) | Item 2 conditional physical constraints and source review complete; actual optical decoder remains evidence-blocked | Exact run start/end unknown; inspect original |
 | [results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json](../../results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001-controls.json](../../results/IPA-FREE-MAP-001-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001.json](../../results/IPA-FREE-MAP-001.json) | IPA-FREE-MAP-001 | Exact run start/end unknown; inspect original |
@@ -162,6 +166,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/PHONETIC-CL-001-summary.json](../../results/PHONETIC-CL-001-summary.json) | PHONETIC-CL-001 | Exact run start/end unknown; inspect original |
 | [results/PHONETIC-CL-VALIDATION.json](../../results/PHONETIC-CL-VALIDATION.json) | PHONETIC-CL-001 | Exact run start/end unknown; inspect original |
 | [results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json](../../results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json) | PHYSICAL-ADDENDUM-LOCAL-REVIEW-001 | Exact run start/end unknown; inspect original |
+| [results/PHYSICAL-SOLAR-002-VALIDATION.json](../../results/PHYSICAL-SOLAR-002-VALIDATION.json) | PHYSICAL-SOLAR-002-VALIDATION; Final item 2 validation, not original physical calculation or historical exposure | Exact run start/end unknown; inspect original |
 | [results/RECURRENCE-CERTIFICATE-REVIEW-001.json](../../results/RECURRENCE-CERTIFICATE-REVIEW-001.json) | RECURRENCE-CERTIFICATE-REVIEW-001 | Exact run start/end unknown; inspect original |
 | [results/ROUTE-001-summary.json](../../results/ROUTE-001-summary.json) | ROUTE-001 | Exact run start/end unknown; inspect original |
 | [results/RUNKEY-001.json](../../results/RUNKEY-001.json) | RUNKEY-001 | Exact run start/end unknown; inspect original |
@@ -263,6 +268,9 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/phonetic-subset-runs/20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54/PHONETIC-SUBSET-001.json](../../results/phonetic-subset-runs/20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54/PHONETIC-SUBSET-001.json) | PHONETIC-SUBSET-001 | Exact run start/end unknown; inspect original |
 | [results/phonetic-subset-runs/20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54/manifest.json](../../results/phonetic-subset-runs/20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54/manifest.json) | synthetic-respelling-subset; 20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54 | start: 2026-10-18T11:33:29.920979Z; end: 2026-10-18T11:33:29.922359Z |
 | [results/phonetic-subset-runs/latest.json](../../results/phonetic-subset-runs/latest.json) | 20261018T113329Z-3d5c35d85cbb4e2a9b9864410c053c54 | Exact run start/end unknown; inspect original |
+| [results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/manifest.json](../../results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/manifest.json) | PHYSICAL-SOLAR-002; 20261024T001728Z-f2895d4425214b2bbed15c832235acf2 | start: 2026-10-24T00:17:28.772639Z; end: 2026-10-24T00:17:29.483736Z |
+| [results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/physical-checks.json](../../results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/physical-checks.json) |  | Exact run start/end unknown; inspect original |
+| [results/physical-solar-002/latest.json](../../results/physical-solar-002/latest.json) | 20261024T001728Z-f2895d4425214b2bbed15c832235acf2 | Exact run start/end unknown; inspect original |
 | [results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/PLAINTEXT-STEP-001.json](../../results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/PLAINTEXT-STEP-001.json) | PLAINTEXT-STEP-001 | Exact run start/end unknown; inspect original |
 | [results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/manifest.json](../../results/plaintext-step-runs/20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11/manifest.json) | PLAINTEXT-STEP-001; 20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11 | start: 2026-10-22T12:10:01.334882Z; end: 2026-10-22T12:10:01.439299Z |
 | [results/plaintext-step-runs/latest.json](../../results/plaintext-step-runs/latest.json) | 20261022T121001Z-38f7134c1bc3445ea7bf00efc70d2e11 | Exact run start/end unknown; inspect original |

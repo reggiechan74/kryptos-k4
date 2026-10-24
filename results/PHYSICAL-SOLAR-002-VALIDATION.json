@@ -1,0 +1,37 @@
+{
+  "id": "PHYSICAL-SOLAR-002-VALIDATION",
+  "kind": "Final item 2 validation, not original physical calculation or historical exposure",
+  "validation_started_at_utc": "2026-10-24T00:23:24.780189+00:00",
+  "validation_finished_at_utc": "2026-10-24T00:24:56.014714+00:00",
+  "status": "passed",
+  "runs": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T00:23:24.780189+00:00",
+      "finished_at_utc": "2026-10-24T00:24:16.119181+00:00",
+      "elapsed_seconds": 51.338646458,
+      "exit_code": 0,
+      "log": "results/PHYSICAL-SOLAR-002-python39-regression.log",
+      "log_sha256": "675777850594e3e77ae1d11e4bd6d95b437c6e411d7e842b1a1158757472508d",
+      "tests_passed": 497
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T00:24:16.119474+00:00",
+      "finished_at_utc": "2026-10-24T00:24:56.014714+00:00",
+      "elapsed_seconds": 39.895066416999995,
+      "exit_code": 0,
+      "log": "results/PHYSICAL-SOLAR-002-python312-regression.log",
+      "log_sha256": "7c01a2248b196d43ed7374a9c2f7a47660398b3c8eb5a17de337f8ebc8d19823",
+      "tests_passed": 497
+    }
+  ],
+  "original_run_receipt": "results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/manifest.json",
+  "original_artifact_source_and_specification_sha256_verified": true,
+  "native_LOC_image_hash_verified": true,
+  "certified_aperture_ground_pairs": 0,
+  "physical_calibration_achieved": false,
+  "cipher_evaluation_performed": false,
+  "site_changed": false,
+  "item_3_started": false
+}

@@ -149,3 +149,5 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Systematic two-dimensional overlay, item 1
 
 [The frozen protocol](../research/FOLD-SLIDE-2D-SPEC.md) and [completed findings](../research/FOLD-SLIDE-2D-FINDINGS.md) distinguish label matches, surrogate apertures and conditional chance. `monument_slide_2d.py --controls` uses synthetic inputs only. To repeat the original fixed experiment, use `python3.12 experiments/monument_slide_2d.py --run --execution-kind replay --spec-commit f6aafc4735b8ff9e4f7e01975a97baf9991e1583`; a new immutable replay is created. The original source remains pinned at its recorded commit. `export_monument_slide_2d.py` formats retained results; `audit_monument_slide_2d_controls.py` records the separately labeled supplementary synthetic check. No Site deployment or subsequent numbered investigation is invoked.
+
+`physical_solar_002.py` reproduces item 2 conditional solar/ray-plane constraints; [protocol](../research/PHYSICAL-SOLAR-002-SPEC.md) and [outputs](../results/physical-solar-002/README.md). It does not evaluate a cipher.

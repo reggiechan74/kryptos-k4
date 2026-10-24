@@ -1529,3 +1529,24 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - The stale current SIGABA scope wording is corrected to COMPACT-018’s 12 and 14 synthetic controllers; historical zero-controller stages remain preserved. No new SIGABA/K4 joint search, Site deployment or subsequent item.
 
 Related files: [experiments/monument_slide_2d.py](../../experiments/monument_slide_2d.py), [research/FOLD-SLIDE-2D-FINDINGS.md](../../research/FOLD-SLIDE-2D-FINDINGS.md), [research/FOLD-SLIDE-2D-SPEC.md](../../research/FOLD-SLIDE-2D-SPEC.md), [results/FOLD-SLIDE-2D-001-frames.csv](../../results/FOLD-SLIDE-2D-001-frames.csv), [results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json](../../results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json), [results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json](../../results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json).
+
+## LOG-B53BA1797D
+
+**PHYSICAL-SOLAR-002 — item 2 conditional sunlight, lamp geometry and evidence gates**
+
+start: 2026-10-24T00:17:28.772639Z; end: 2026-10-24T00:17:29.483736Z
+
+Type: analytical constraints; source research. Outcome: Conditional solar/ray/blur limits verified; surveyed optical decoder remains evidence-blocked
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Original quantitative run start/end UTC: 2026-10-24T00:17:28.772639+00:00 / 2026-10-24T00:17:29.483736+00:00. This is not a source exposure time. Independent worker run times are unknown; separate local replay receipt records validation times.
+- Kind: physical analytical constraints and source research; no K4 cipher evaluation.
+- Frozen specification: `b2cc1dffdbb71b7a11c38f8041d220f3fce82932`; [protocol](../../research/PHYSICAL-SOLAR-002-SPEC.md), [findings](../../research/PHYSICAL-SOLAR-002-FINDINGS.md), [runner](../../experiments/physical_solar_002.py), [complete receipt/output](../../results/physical-solar-002/README.md).
+- Scope: 96 declared solar-envelope scenarios including old exact-bearing baselines; 39 independently source-fixed calendar samples; 125 dimensionless height-order cases. 960,096 dense grid, 39 USNO/NOAA and 125 ray checks pass. No parameters fitted to K4.
+- Outcome: conditional solar and direct-ray constraints verified. ENE Sun versus ENE ground shadow differ; a below-aperture source cannot directly project onto lower ground. Actual source/aperture/receiver heights and surveyed heading remain unknown. No source-fixed optical key, decoder or intended celestial time identified.
+- Independent addition: [evidence/arithmetic package](../../independent/2026-10-24/physical-item2/README.md), received with outcomes known and separately replayed. Finite solar disk, ideal thickness clipping and angular sensitivities verified; these are not measured installed blur/strokes. No original images/scrapes committed.
+- Image feasibility: original LOC TIFF SHA verified and native crop inspected; same exposure as prior service image. No certified aperture-to-ground pairs established, no camera/light fit. Proposed 12-pair calibration remains unpassed. All broader physical/navigation hypotheses retain evidence-blocked status. Item 3 not started; no Site change.
+- Aggregate validation: 497 tests pass on both supported Python versions; [validation receipt](../../results/PHYSICAL-SOLAR-002-VALIDATION.json) records validation start/end separately from the original physical calculation.
+
+Related files: [experiments/physical_solar_002.py](../../experiments/physical_solar_002.py), [independent/2026-10-24/physical-item2/README.md](../../independent/2026-10-24/physical-item2/README.md), [research/PHYSICAL-SOLAR-002-FINDINGS.md](../../research/PHYSICAL-SOLAR-002-FINDINGS.md), [research/PHYSICAL-SOLAR-002-SPEC.md](../../research/PHYSICAL-SOLAR-002-SPEC.md), [results/PHYSICAL-SOLAR-002-VALIDATION.json](../../results/PHYSICAL-SOLAR-002-VALIDATION.json), [results/physical-solar-002/README.md](../../results/physical-solar-002/README.md).

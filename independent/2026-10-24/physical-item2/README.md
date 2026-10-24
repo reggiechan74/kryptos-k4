@@ -1,0 +1,9 @@
+# Independent item 2 physical evidence and arithmetic
+
+[Parent evidence report](PARENT-EVIDENCE-REPORT.md) · [supplied arithmetic](replay_physical_constraints.py) · [local output](physical-constraints.json) · [timestamped replay receipt](LOCAL-REPLAY-RECEIPT.json) · [integrated findings](../../../research/PHYSICAL-SOLAR-002-FINDINGS.md).
+
+The parent supplied report, source and numeric values as text, not a hash-pinned archive. HTML transport operators were decoded once. The local output was independently replayed in a temporary directory and compared with 26 supplied numeric values at 1e-12 absolute tolerance. Original worker execution times are unknown; the receipt records local replay times only. Do not describe this as blind discovery, source byte-for-byte archive verification, a site survey or K4 decryption.
+
+The repository owner independently viewed the original-resolution LOC exposure and native ground crop and verified its TIFF hash, but did not repeat the worker's broad searches, prototype/gallery inspection or metadata extraction. Those remain attributed. No original image or raw scrape is republished. The report's prior source-space reconstruction figures were supplied by the worker; the named calibration package was not found in the current tracked tree during local integration and those figures were not independently replayed here. They do not refer to new ground-spot correspondences. Preserve the earlier geometry work and obtain its exact source package before using those figures in a new fit.
+
+Reproduce without rewriting retained output: copy `replay_physical_constraints.py` into a temporary directory, run it with Python 3.9 or 3.12, then compare its generated JSON to the retained file. The supplied script writes beside itself. New conic, channel and ray controls live in the main test suite.

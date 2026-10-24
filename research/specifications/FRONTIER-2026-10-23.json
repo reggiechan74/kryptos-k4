@@ -1,8 +1,8 @@
 {
-  "id": "FRONTIER-021",
-  "reviewed_main_commit": "a0d825e7424e5090501421720dd9b100775cdb8c",
+  "id": "FRONTIER-022",
+  "reviewed_main_commit": "bec8dad8c78884efc4a2ad7048c21686e676b406",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "The separately frozen item-1 two-dimensional transcript overlay is complete; no later numbered item is started by this assessment. Remaining physical/algorithm gates still apply; no global cipher exhaustion is claimed.",
+  "decision": "Item 2 conditional sunlight, direct-ray and finite-source constraints complete; surveyed physical decoding remains evidence-blocked. Item 3 not started. No global cipher exhaustion or new K4 joint search.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -89,7 +89,7 @@
       ],
       "blocker_type": "independent_measurements_and_mapping",
       "ready_for_new_K4_evaluation": false,
-      "missing": "Surveyed frames/surfaces/apertures/receivers and uncertainty; an independently fixed observation or artificial-light geometry and symbol extraction. Static needle, engraved N, true north and regional magnetic field are different quantities. FOLD-SLIDE-020 completes a conditional flat transcript overlay, not measured physical apertures or illumination. The completed item-1 2D transcript scan is not a substitute for measured apertures/pose or an encryption inverse.",
+      "missing": "Surveyed frames/surfaces/apertures/receivers and uncertainty; an independently fixed observation or artificial-light geometry and symbol extraction. Static needle, engraved N, true north and regional magnetic field are different quantities. FOLD-SLIDE-020 completes a conditional flat transcript overlay, not measured physical apertures or illumination. The completed item-1 2D transcript scan is not a substitute for measured apertures/pose or an encryption inverse. Item 2 original-resolution LOC inspection established no certified aperture-to-ground identity pairs; emitter height is not supplied by pool/water-level wording.",
       "available": [
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
         "docs/scott-sun-geometry-audit-2026-10-22.md",
@@ -101,12 +101,26 @@
         "research/FOLD-SLIDE-2D-FINDINGS.md",
         "research/FOLD-SLIDE-2D-SPEC.md",
         "experiments/monument_slide_2d.py",
-        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json"
+        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json",
+        "research/PHYSICAL-SOLAR-002-SPEC.md",
+        "research/PHYSICAL-SOLAR-002-FINDINGS.md",
+        "experiments/physical_solar_002.py",
+        "sources/physical-solar-002/SOURCE-RECEIPT.json",
+        "independent/2026-10-24/physical-item2/README.md"
       ],
       "next_deliverable": "Source-tagged original-resolution overlapping views or measurements with pixel picks, metric control points, camera assumptions and uncertainty; fit non-K4 features and withhold a separate view/features before any optical decoding.",
       "go_no_go": "Stop before letter extraction if camera/shape/frame calibration is underidentified. Quantitative residual tolerances must derive from input uncertainty and be frozen before fitting; no invented tolerance, date, bearing or receiver.",
-      "safe_replay_argv": null,
-      "replay_scope": "No numerical physical experiment is runnable from the missing measurements; do not requery the exhausted 252-image public archival branch."
+      "safe_replay_argv": [
+        "python3",
+        "experiments/physical_solar_002.py",
+        "--spec-commit",
+        "b2cc1dffdbb71b7a11c38f8041d220f3fce82932",
+        "--output",
+        "/tmp/k4-physical-replay",
+        "--kind",
+        "replay"
+      ],
+      "replay_scope": "Conditional angular/height-order calculations are reproducible without a survey; a numerical physical decoder is not ready. No repeat of exhausted archives or invented geometry."
     },
     {
       "id": "F-HISTORICAL-CLOCK",
