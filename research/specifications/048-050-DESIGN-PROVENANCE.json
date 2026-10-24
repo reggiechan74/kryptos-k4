@@ -1,0 +1,18 @@
+{
+  "kind": "Audit versions of three explicitly requested follow-through protocols; not experimental results",
+  "recorded_at_utc": "2026-10-24T19:34:53.890515+00:00",
+  "source_sha256": {
+    "research/CANDIDATE-FIRST-048-SPEC.md": "8e59b10b34e44ea24991bb9f6f3b53d6930d51e279c8df6274c5024c2b47d941",
+    "research/ENE-ROUTE-049-SPEC.md": "8171faa3b2ade4f074d51808c0276c358ea4afe0d6ca268be1ec393c232918af",
+    "research/HAND-GRAMMAR-050-SPEC.md": "f177de22c8e097fa8fa9c5f735bb9332346cbc82fe1ea481ab4ef8268bc6f81b"
+  },
+  "candidate_model_descriptions": 582,
+  "conditional_candidate_assembly_count": 1000,
+  "independently_model_written_whole_messages_claimed": 0,
+  "route_description_upper_bound": 56454,
+  "route_arithmetic_description_upper_bound": 1072626,
+  "grammar_primitive_upper_bound": 38,
+  "grammar_depth0_to3_description_upper_bound": 56355,
+  "full_search_started": false,
+  "publication_authorized": false
+}

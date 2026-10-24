@@ -19,3 +19,7 @@ Each stage gets its own pre-outcome specification, actual UTC receipt, independe
 ## Review pass status
 
 The approved032–037publication is now verified at043924dwith original history and maps preserved. The [34subbranch review matrix](SEVEN-FAMILY-REVIEW-046.md) records completed finite work across all seven families and precise open evidence/algorithm gates; it does not declare broad families exhausted. New038–046results are local for review. All independent review corrections have separate control receipts; final regression is recorded separately.
+
+## User-directed follow-through queue after the native photo attempt
+
+The [047 native photo attempt](PHOTO-NATIVE-047-FINDINGS.md) is locally completed at57671d8without certified pairs or a fit. Three new finite designs are specified for parent audit, not yet fully run: [048 candidate-first/source-admissible keys](CANDIDATE-FIRST-048-SPEC.md), [049 literal ENE/digital routes](ENE-ROUTE-049-SPEC.md), then [050 finite hand-operation grammar](HAND-GRAMMAR-050-SPEC.md). They remain within the existing seven families, with no Site change or publication authorization. Full candidate/route/grammar searches wait for the requested design audit; crib-only and synthetic preflight may proceed afterward.
