@@ -1,0 +1,37 @@
+{
+  "id": "WORLD-CLOCK-003-FINAL-VALIDATION",
+  "kind": "Item 3 final source-integrated engineering validation; no cipher search",
+  "validation_started_at_utc": "2026-10-24T00:57:16.599465+00:00",
+  "validation_finished_at_utc": "2026-10-24T00:59:10.695894+00:00",
+  "status": "passed",
+  "runs": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T00:57:16.599465+00:00",
+      "finished_at_utc": "2026-10-24T00:58:19.979275+00:00",
+      "elapsed_seconds": 63.379133917,
+      "exit_code": 0,
+      "log": "results/WORLD-CLOCK-003-final-python39-regression.log",
+      "log_sha256": "519b9220d46ce358b3cf01f509e42754cf2f64f4ffecda9e8a5f2e336bdc81cf",
+      "tests_passed": 508
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T00:58:19.979686+00:00",
+      "finished_at_utc": "2026-10-24T00:59:10.695894+00:00",
+      "elapsed_seconds": 50.715954458,
+      "exit_code": 0,
+      "log": "results/WORLD-CLOCK-003-final-python312-regression.log",
+      "log_sha256": "05ccfda962501b525632b707bc4bde40602797edb614a8e31ba5a20b3919e891",
+      "tests_passed": 508
+    }
+  ],
+  "fresh_parent_evidence_integrated": true,
+  "original_41_label_input_unchanged": true,
+  "original_conditional_analysis_unchanged": true,
+  "complete_1989_inventory_recovered": false,
+  "cipher_evaluation_performed": false,
+  "site_changed": false,
+  "item_4_started": false,
+  "historical_exposure_time_not_inferred_from_validation_time": true
+}

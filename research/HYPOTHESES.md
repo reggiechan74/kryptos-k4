@@ -175,12 +175,12 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: evidence-blocked
 - Mechanism: Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping.
 - Evidence: [source or scoped prior review](../independent/2026-10-22/historical-clock/historical_clock_report.txt); historical availability or user proposal does not establish creator use.
-- Tested scope: WORLD-CLOCK-003 retains the 41-label/10-panel/three-segment input and replays the old 1,152 phase checks. Conditional unchanged-inventory registration has 240 compatible layouts among 576 gauge-fixed offset pairs; every cross-segment pair remains ambiguous. This is not a reconstructed 1989 ring or K4 cipher test.
+- Tested scope: WORLD-CLOCK-003 retains the 41-label/10-panel/three-segment input and replays the old 1,152 phase checks. Conditional unchanged-inventory registration has 240 compatible layouts among 576 gauge-fixed offset pairs; every cross-segment pair remains ambiguous. Fresh source review independently confirms 1969/1971 band and 1970/1974 grouping changes; May 1989 adds five full lower-band labels but no complete ring. This is not a reconstructed 1989 ring or K4 cipher test.
 - Untested scope: A registered 1989 inventory and justified mapping into letters or key material.
 - Missing inputs: Verified historical continuity and global joins; complete 1989 labels and dated civil-zone conventions; a reversible A–Z/key bridge. Separate photographs have separate exposure phases, and moving numerals are not fixed sector IDs.
 - Next discriminating test: Recover one historical mapping from independent images and withhold a second; stop if registration remains non-identifiable.
 - Dependencies: H-CLOCK-FACE; parent World Clock review; no invented labels or north/south-band bit
-- Results: [Item 3 conditional registration and phase constraints](WORLD-CLOCK-003-FINDINGS.md), [prior evidence](../independent/2026-10-22/historical-clock/historical_clock_report.txt), [separate older dated-inscription review](../docs/historical-clock-inscriptions.md). No cipher or historical completeness claim.
+- Results: [Item 3 conditional registration and phase constraints](WORLD-CLOCK-003-FINDINGS.md), [prior evidence](../independent/2026-10-22/historical-clock/historical_clock_report.txt), [separate older dated-inscription review](../docs/historical-clock-inscriptions.md). [Fresh source-local evidence and revision boundaries](../independent/2026-10-24/world-clock-item3/README.md); no cipher or historical completeness claim.
 
 ### H-LAMP-MENGENLEHRE
 
@@ -535,11 +535,11 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: evidence-blocked
 - Mechanism: A dated historical city panel/face supplies an instruction.
 - Evidence: [source or scoped prior review](../docs/historical-clock-inscriptions.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Dated photo labels and the 1972 correction retained; WORLD-CLOCK-003 quantifies a selected three-run input conditionally, with no forced cross-segment join. Separate narrow 1989 observations are preserved; full 1989 face/true-ENE registration remains unresolved.
+- Tested scope: Dated photo labels and the 1972 correction retained; WORLD-CLOCK-003 quantifies a selected three-run input conditionally, with no forced cross-segment join. Separate narrow 1989 observations are preserved, including five full labels and six partial face positions in May. New 1971/1974 placement changes forbid treating generic pre-1990 views as one known inventory; full 1989 face/true-ENE registration remains unresolved.
 - Untested scope: Historical sector selection and letter mapping.
-- Missing inputs: Complete epoch-specific inventory and north registration.
-- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
-- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
+- Missing inputs: Complete epoch-specific inventory, true-north registration and a justified reversible symbol/key bridge; a museum-catalogued date or removed artifact does not fix installed 1989 continuity.
+- Next discriminating test: Seek revision-specific plate provenance in the identified 2006 Strauß thesis/construction archive or readable overlapping 1989 views, then test registration on independent observations before defining a decoder.
+- Dependencies: Historical version, literal city/band/rank/marks and independent registration; no live Site dependency or ciphertext-fitted city assignments
 - Results: [retained evidence and finite coverage](../docs/historical-clock-inscriptions.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
 ### H-CLOCK-RESET

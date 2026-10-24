@@ -93,12 +93,12 @@
       "Status": "evidence-blocked",
       "Mechanism": "Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping.",
       "Evidence": "[source or scoped prior review](../independent/2026-10-22/historical-clock/historical_clock_report.txt); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "WORLD-CLOCK-003 retains the 41-label/10-panel/three-segment input and replays the old 1,152 phase checks. Conditional unchanged-inventory registration has 240 compatible layouts among 576 gauge-fixed offset pairs; every cross-segment pair remains ambiguous. This is not a reconstructed 1989 ring or K4 cipher test.",
+      "Tested scope": "WORLD-CLOCK-003 retains the 41-label/10-panel/three-segment input and replays the old 1,152 phase checks. Conditional unchanged-inventory registration has 240 compatible layouts among 576 gauge-fixed offset pairs; every cross-segment pair remains ambiguous. Fresh source review independently confirms 1969/1971 band and 1970/1974 grouping changes; May 1989 adds five full lower-band labels but no complete ring. This is not a reconstructed 1989 ring or K4 cipher test.",
       "Untested scope": "A registered 1989 inventory and justified mapping into letters or key material.",
       "Missing inputs": "Verified historical continuity and global joins; complete 1989 labels and dated civil-zone conventions; a reversible A–Z/key bridge. Separate photographs have separate exposure phases, and moving numerals are not fixed sector IDs.",
       "Next discriminating test": "Recover one historical mapping from independent images and withhold a second; stop if registration remains non-identifiable.",
       "Dependencies": "H-CLOCK-FACE; parent World Clock review; no invented labels or north/south-band bit",
-      "Results": "[Item 3 conditional registration and phase constraints](WORLD-CLOCK-003-FINDINGS.md), [prior evidence](../independent/2026-10-22/historical-clock/historical_clock_report.txt), [separate older dated-inscription review](../docs/historical-clock-inscriptions.md). No cipher or historical completeness claim."
+      "Results": "[Item 3 conditional registration and phase constraints](WORLD-CLOCK-003-FINDINGS.md), [prior evidence](../independent/2026-10-22/historical-clock/historical_clock_report.txt), [separate older dated-inscription review](../docs/historical-clock-inscriptions.md). [Fresh source-local evidence and revision boundaries](../independent/2026-10-24/world-clock-item3/README.md); no cipher or historical completeness claim."
     },
     {
       "id": "H-LAMP-MENGENLEHRE",
@@ -453,11 +453,11 @@
       "Status": "evidence-blocked",
       "Mechanism": "A dated historical city panel/face supplies an instruction.",
       "Evidence": "[source or scoped prior review](../docs/historical-clock-inscriptions.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Dated photo labels and the 1972 correction retained; WORLD-CLOCK-003 quantifies a selected three-run input conditionally, with no forced cross-segment join. Separate narrow 1989 observations are preserved; full 1989 face/true-ENE registration remains unresolved.",
+      "Tested scope": "Dated photo labels and the 1972 correction retained; WORLD-CLOCK-003 quantifies a selected three-run input conditionally, with no forced cross-segment join. Separate narrow 1989 observations are preserved, including five full labels and six partial face positions in May. New 1971/1974 placement changes forbid treating generic pre-1990 views as one known inventory; full 1989 face/true-ENE registration remains unresolved.",
       "Untested scope": "Historical sector selection and letter mapping.",
-      "Missing inputs": "Complete epoch-specific inventory and north registration.",
-      "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
-      "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
+      "Missing inputs": "Complete epoch-specific inventory, true-north registration and a justified reversible symbol/key bridge; a museum-catalogued date or removed artifact does not fix installed 1989 continuity.",
+      "Next discriminating test": "Seek revision-specific plate provenance in the identified 2006 Strauß thesis/construction archive or readable overlapping 1989 views, then test registration on independent observations before defining a decoder.",
+      "Dependencies": "Historical version, literal city/band/rank/marks and independent registration; no live Site dependency or ciphertext-fitted city assignments",
       "Results": "[retained evidence and finite coverage](../docs/historical-clock-inscriptions.md); absence of a dedicated run is stated above, not represented by a fabricated result."
     },
     {
@@ -2827,16 +2827,21 @@
       ],
       "links": [
         "experiments/world_clock_003.py",
+        "independent/2026-10-24/world-clock-item3/README.md",
         "research/WORLD-CLOCK-003-FINDINGS.md",
+        "research/WORLD-CLOCK-003-SOURCE-AMENDMENT.md",
         "research/WORLD-CLOCK-003-SPEC.md",
+        "results/WORLD-CLOCK-003-FINAL-VALIDATION.json",
         "results/WORLD-CLOCK-003-VALIDATION.json",
-        "results/world-clock-003/README.md"
+        "results/world-clock-003/README.md",
+        "sources/world-clock-003/LOCAL-SOURCE-REVIEW.json"
       ],
       "receipt_paths": [
+        "results/WORLD-CLOCK-003-FINAL-VALIDATION.json",
         "results/WORLD-CLOCK-003-VALIDATION.json",
         "results/world-clock-003/20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2/manifest.json"
       ],
-      "original_entry": "- Original analysis start/end UTC: 2026-10-24T00:29:46.751515+00:00 / 2026-10-24T00:29:46.860170+00:00. Historical exposure clock times remain unknown.\n- Kind: conditional historical mapping/invariance analysis; no K4 cipher evaluation.\n- Frozen protocol commit `53aa67b86da286d45012d957a25b4763c77ab04f`; [specification](WORLD-CLOCK-003-SPEC.md), [findings](WORLD-CLOCK-003-FINDINGS.md), [source](../experiments/world_clock_003.py), [complete original results/receipts](../results/world-clock-003/README.md).\n- Selected fixed input: 41 labels/ten panels/three dated runs. Under explicitly unverified common-inventory continuity, 576 gauge-fixed offset pairs yield 240 compatible registrations and 336 exact rank conflicts. Retain all compatible layouts. No global compass registration or 1989 completeness inferred.\n- 272 within-segment pair differences forced; all 548 cross-segment pairs remain ambiguous. Pair equations are dependent, not independent clues. All 24 integer phases over 240 layouts give 236,160 inverse checks; continuous physical phase is not enumerated. Separate photos have separate exposure phases. No semantic UTC offset or per-character city mapping assigned.\n- Controls: 36 complete tiny-ring sets match independent direct unification; all 36 plants included; 117 rational phase/gauge cases and mutation checks pass. Old pilot exactly replayed in a temporary directory without overwriting original data/results.\n- Separate prior evidence: corrected 1972 inscriptions and narrow 1989 labels are retained without an unsupported join. Broader clock/face hypotheses remain evidence-blocked for an actual cipher bridge and historical calibration. Fresh parent research integration is pending; no item 4 or Site change.\n- Local engineering validation: 504 tests pass on Python 3.9 and 3.12; [separate validation receipt/logs](../results/WORLD-CLOCK-003-VALIDATION.json). Fresh source integration remains pending before finalization/publication."
+      "original_entry": "- Original analysis start/end UTC: 2026-10-24T00:29:46.751515+00:00 / 2026-10-24T00:29:46.860170+00:00. Historical exposure clock times remain unknown.\n- Kind: conditional historical mapping/invariance analysis; no K4 cipher evaluation.\n- Frozen protocol commit `53aa67b86da286d45012d957a25b4763c77ab04f`; [specification](WORLD-CLOCK-003-SPEC.md), [findings](WORLD-CLOCK-003-FINDINGS.md), [source](../experiments/world_clock_003.py), [complete original results/receipts](../results/world-clock-003/README.md).\n- Selected fixed input: 41 labels/ten panels/three dated runs. Under explicitly unverified common-inventory continuity, 576 gauge-fixed offset pairs yield 240 compatible registrations and 336 exact rank conflicts. Retain all compatible layouts. No global compass registration or 1989 completeness inferred.\n- 272 within-segment pair differences forced; all 548 cross-segment pairs remain ambiguous. Pair equations are dependent, not independent clues. All 24 integer phases over 240 layouts give 236,160 inverse checks; continuous physical phase is not enumerated. Separate photos have separate exposure phases. No semantic UTC offset or per-character city mapping assigned.\n- Controls: 36 complete tiny-ring sets match independent direct unification; all 36 plants included; 117 rational phase/gauge cases and mutation checks pass. Old pilot exactly replayed in a temporary directory without overwriting original data/results.\n- Separate prior evidence: corrected 1972 inscriptions and narrow 1989 labels are retained without an unsupported join. Broader clock/face hypotheses remain evidence-blocked for an actual cipher bridge and historical calibration. Fresh parent research is integrated separately: two dated arrangement discrepancies, five full May 1989 lower labels, explicitly post-1989 comparison and an undated removed plate. Original three-run input/results remain unchanged; no item 4 or Site change.\n- Local engineering validation: 504 tests pass on Python 3.9 and 3.12; [separate validation receipt/logs](../results/WORLD-CLOCK-003-VALIDATION.json). That checkpoint preceded the final separately recorded source integration.\n- Final evidence: [supplied report/inventory](../independent/2026-10-24/world-clock-item3/README.md), [independent local source checks](../sources/world-clock-003/LOCAL-SOURCE-REVIEW.json), [post-outcome analytical revision amendment](WORLD-CLOCK-003-SOURCE-AMENDMENT.md). Known dates are day/month/year precision as documented; unknown worker execution times remain unknown.\n- Final source-integrated validation: 508 tests pass on both supported Python versions; [separate final receipt/logs](../results/WORLD-CLOCK-003-FINAL-VALIDATION.json). Unknown historical exposure times remain unknown."
     }
   ],
   "receipts": [
@@ -4085,7 +4090,7 @@
     {
       "path": "results/HYPOTHESIS-REGISTER-023.json",
       "labels": [
-        "Item 3 conditional partial World Clock registration; source integration pending"
+        "Item 3 conditional registration and new date-separated historical evidence complete; actual decoder remains evidence-blocked"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -4660,6 +4665,16 @@
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
       "status": null
+    },
+    {
+      "path": "results/WORLD-CLOCK-003-FINAL-VALIDATION.json",
+      "labels": [
+        "WORLD-CLOCK-003-FINAL-VALIDATION",
+        "Item 3 final source-integrated engineering validation; no cipher search"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "passed"
     },
     {
       "path": "results/WORLD-CLOCK-003-VALIDATION.json",

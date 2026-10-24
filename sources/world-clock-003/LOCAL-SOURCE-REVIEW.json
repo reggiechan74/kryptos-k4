@@ -1,0 +1,128 @@
+{
+  "recorded_at_utc": "2026-10-24T00:46:34.264282+00:00",
+  "kind": "Independent local source reading; not exposure timestamp or final source review",
+  "original_1969_review": {
+    "verified_at_utc": "2026-10-24T00:42:52.161198+00:00",
+    "source_id": "S69",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Bundesarchiv_Bild_183-E1003-0001-001%2C_Berlin%2C_Weltzeituhr_am_Alexanderplatz.jpg",
+    "sha256": "d11e7d21ebbf72853a914ab3a63d6574cb611177b8c5a7ee7b9884aa4ac748f3",
+    "matched_retained_manifest": true,
+    "local_visual_review": "Original full frame independently inspected. Supports LONDON/LISSABON upper panel left of BERLIN panel and ALGIER/TUNIS lower BERLIN panel. No new 1989 continuity or numeric phase inferred.",
+    "new_1971_DHM_image_inspected": false,
+    "publication_status": "Pending parent fresh report; no image rehosting."
+  },
+  "new_sources": [
+    {
+      "id": "DHM71",
+      "catalog_url": "https://db.dhm.de/objekt/BA107448",
+      "catalog_accession": "BA107448",
+      "inventory_number": "Schmidt 2198/1",
+      "photographer": "Martin Schmidt",
+      "catalog_date": "1971",
+      "date_precision": "year",
+      "catalog_scrape_status": 200,
+      "catalog_scrape_id": "01a16b5e-be0b-7449-86f3-61886c07784d",
+      "catalog_cache_timestamp": "2026-10-24T00:42:17.664Z",
+      "image_url": "https://iiif.deutsche-digitale-bibliothek.de/image/2/43271fbb-7db3-4fe3-9d20-db1d8e0abd62/full/full/0/default.jpg",
+      "image_sha256": "ab45196a369facd6bfd6a3b1f82c84552fd05c1f8794b8fcfd098488de007259",
+      "image_copied_to_repository": false,
+      "local_visual_review": "Independently read DUBLIN / LISSABON / ALGIER on the upper panel left of BERLIN; lower BERLIN panel reads KOPENHAGEN / LONDON / WIEN / ROM / BELGRAD / TUNIS. This differs from the separately rechecked 1969 exposure; neither photo establishes 1989 continuity."
+    },
+    {
+      "id": "STRAUSS-REMOVED",
+      "catalog_url": "https://www.strauss-restaurierung.de/project/schriftplatten-der-weltzeituhr-berlin-1969/",
+      "catalog_scrape_status": 200,
+      "catalog_scrape_id": "01a16b5e-c15c-719e-8758-96266375fe01",
+      "catalog_cache_timestamp": "2026-10-24T00:42:02.661Z",
+      "image_url": "https://www.strauss-restaurierung.de/wp-content/uploads/2026/01/Weltzeit.jpg",
+      "image_sha256": "a6354f8ffb40da7fbb62821494c58c6d4955531b0fc04470e199750dae0c6ffc",
+      "image_copied_to_repository": false,
+      "raw_labels": [
+        "HANOI",
+        "BANGKOK",
+        "PNOM PENH",
+        "SINGAPUR+",
+        "JAKARTA"
+      ],
+      "literal_plus_preserved": true,
+      "installation_date": null,
+      "removal_date": null,
+      "verified_for_1989": false,
+      "local_visual_review": "Literal labels independently read. Conservator describes removed original plates used for anodized-aluminium cleaning/conservation trials. Clock construction date/title and URL path do not date this specific plate installation/removal."
+    }
+  ],
+  "band_observations": [
+    {
+      "id": "S69-LONDON",
+      "source": "S69",
+      "date": "1969-10-03",
+      "date_precision": "day",
+      "raw_label": "LONDON",
+      "physical_band": "upper",
+      "panel_reference": "left of BERLIN panel",
+      "retained_observation_id": "EU1969.0.upper.1"
+    },
+    {
+      "id": "DHM71-LONDON",
+      "source": "DHM71",
+      "date": "1971",
+      "date_precision": "year",
+      "raw_label": "LONDON",
+      "physical_band": "lower",
+      "panel_reference": "same fixed panel as BERLIN upper labels",
+      "row_rank": 2
+    }
+  ],
+  "no_new_civil_offsets_assigned": true,
+  "no_new_geographic_registration": true,
+  "no_images_or_raw_scrapes_republished": true,
+  "fresh_full_parent_report_status": "integrated as separately attributed report and conservative JSON; no cross-date merge",
+  "completion_recorded_at_utc": "2026-10-24T00:55:52.980538+00:00",
+  "additional_reviews": [
+    {
+      "source": "J74",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Berlin_Januar_1974%2C_Weltzeituhr_mit_Haus_des_Lehrers.jpg",
+      "sha256": "3dfc062e06ee0e9acb32110d16fd7bc77221fe0a6b63fbce784df2c18c242319",
+      "local_visual_review": "Native crop top 700 left 1250 height 350 width 650 independently viewed. NEW YORK belongs to the MONTREAL/WASHINGTON/HAVANNA panel; compared with separately viewed hash-matched 1970 native crop where NEW YORK occupies the next panel.",
+      "image_copied_to_repository": false
+    },
+    {
+      "source": "M89",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/45beeac9-0001-0004-0000-000001472122_w1840_r1.5348011363636365_fpx52.11_fpy49.97.webp",
+      "sha256": "f06482a75580ac780162adee4c4c93a36dcf867a19876d237ed8c7f14efc37f3",
+      "local_visual_review": "Full 1840-pixel image independently viewed: PERTH, SYDNEY/CANBERRA/MELBOURNE, intervening map-bearing face, WELLINGTON. Obscured names not restored. DATUMSGRENZE visible; precise whole-face assignment remains unknown.",
+      "image_copied_to_repository": false
+    },
+    {
+      "source": "W90",
+      "image_url": "https://wwsf.deutsche-kinemathek.de/index.php/Detail/Object/DownloadRepresentation/representation_id/1444/object_id/1612/version/original",
+      "sha256": "92f2846768d99fa1c71b421bf13f15af2e0f0c67440dce9ddba7b2a2f7aa762d",
+      "local_visual_review": "Hash-matched TIFF converted to a private 1200-pixel JPEG solely for inspection. General Asia grouping, PNOM PENH, SINGAPUR+ and separate +30-like notation visible. Ambiguous readings in original supplied inventory remain unresolved; post-1989 date is not back-projected.",
+      "image_copied_to_repository": false
+    }
+  ],
+  "catalog_checks": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Januar_1974,_Weltzeituhr_mit_Haus_des_Lehrers.jpg",
+      "http_status": 200,
+      "scrape_id": "01a16b67-2fe9-767b-a2fe-9a62a9a4d2ee",
+      "cache_timestamp": "2026-10-24T00:42:26.233Z",
+      "fact": "Photographer Andreas Schwarzkopf; January 1974."
+    },
+    {
+      "url": "https://www.spiegel.de/fotostrecke/erich-john-erfinder-der-weltzeituhr-auf-dem-berliner-alex-fotostrecke-170811.html",
+      "http_status": 200,
+      "scrape_id": "01a16b65-2407-7260-90bd-9551e6395be5",
+      "cache_timestamp": "2026-10-23T07:14:18.527Z",
+      "fact": "Image caption identifies May 1989 FDJ Pentecost gathering; Tobias Seel/snapshot-photography/ullstein bild. Exact day absent."
+    }
+  ],
+  "not_independently_replayed_locally": [
+    "Exa/Firecrawl discovery search sequence",
+    "Feist corroborating source image",
+    "FH Potsdam thesis bibliography/PDF page",
+    "Singapore legal notification and IANA-derived examples",
+    "Kinemathek catalogue dating and bounded negative-source discovery"
+  ],
+  "limits": "Those report portions remain attributed to independent research; source dates are not execution times. The direct local image/caption checks establish key discrepancies and five target-year labels, not complete 1989 mapping."
+}

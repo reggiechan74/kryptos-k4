@@ -123,3 +123,5 @@ PHOENIX example corrected from pixels before pilot; repeating key is hypothetica
 See the [project overview](../README.md), [hypothesis tracker](../docs/tracking/HYPOTHESES.md), [experiment tracker](../docs/tracking/EXPERIMENTS.md) and [receipt index](../docs/tracking/RECEIPTS.md). Older entries above are retained historical documentation; current exact scopes live in the canonical ledger.
 
 [Item 2 physical source receipt](physical-solar-002/README.md) records formula sources and the privately inspected LOC asset hash, without rehosting imagery.
+
+[Item 3 World Clock source-local review](world-clock-003/README.md) distinguishes dated revisions, target-year fragments and undated removed artifacts.

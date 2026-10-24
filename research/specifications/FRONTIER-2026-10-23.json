@@ -2,7 +2,7 @@
   "id": "FRONTIER-023",
   "reviewed_main_commit": "6453a1ac50df7c043393ffbd40f7123ed0721884",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Item 3 conditional historical World Clock registration and shared-phase invariants quantified; fresh source integration pending. No source-grounded A\u2013Z bridge or complete 1989 join identified; no item 4 started.",
+  "decision": "Item 3 partial-clock constraints and fresh date-separated source research complete. Physical layout changes are observed, target-year lower labels are partial, and no complete 1989 inventory or source-grounded A\u2013Z bridge is identified. No item 4 or K4 trial.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -130,15 +130,19 @@
       ],
       "blocker_type": "historic_inventory_registration_and_encoder",
       "ready_for_new_K4_evaluation": false,
-      "missing": "Verified historical continuity and a complete readable 1989 panel inventory; source-fixed joins/orientation and dated civil-zone conventions; a reversible symbol/key bridge. Conditional selected-input enumeration leaves 240 registrations and no forced cross-segment pair.",
+      "missing": "A complete dated 1989 panel inventory, revision-specific continuity/registration, true-north reference and independently motivated reversible alphabet/key bridge. New 1971/1974 discrepancies defeat a generic unchanged pre-1990 inventory; five full May 1989 lower labels do not complete the ring.",
       "available": [
         "independent/2026-10-22/historical-clock/historical_clock_report.txt",
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
         "research/WORLD-CLOCK-003-SPEC.md",
         "research/WORLD-CLOCK-003-FINDINGS.md",
-        "experiments/world_clock_003.py"
+        "experiments/world_clock_003.py",
+        "sources/world-clock-003/LOCAL-SOURCE-REVIEW.json",
+        "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
+        "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK-INVENTORY.json",
+        "research/WORLD-CLOCK-003-SOURCE-AMENDMENT.md"
       ],
-      "next_deliverable": "Recover a source-tagged historical city/time mapping with one shared ring phase; predict a separate dated view or mapping before applying a frozen symbol encoder.",
+      "next_deliverable": "Identified 2006 Alexander Strau\u00df FH Potsdam conservation thesis/provenance or authenticated overlapping 1989 views and revision-specific schedules; withhold independent observations before extraction.",
       "go_no_go": "No 1989 labels inferred from current panels, no rotating numerals treated as fixed sector IDs, and no fitted per-character phases. A successful coordinate roundtrip without an alphabet encoder is not a K4 trial.",
       "safe_replay_argv": [
         "python3",
@@ -150,7 +154,7 @@
         "--kind",
         "replay"
       ],
-      "replay_scope": "Conditional common-inventory mapping/invariance calculation only; does not reconstruct 1989 or evaluate K4. New source evidence integration pending."
+      "replay_scope": "Conditional common-inventory numerical result only, preserved despite new revision evidence. No reconstructed 1989 ring or K4 evaluation."
     },
     {
       "id": "F-HISTORICAL-MACHINES",

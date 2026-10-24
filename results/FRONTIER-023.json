@@ -1,6 +1,6 @@
 {
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Item 3 conditional historical World Clock registration and shared-phase invariants quantified; fresh source integration pending. No source-grounded A\u2013Z bridge or complete 1989 join identified; no item 4 started.",
+  "decision": "Item 3 partial-clock constraints and fresh date-separated source research complete. Physical layout changes are observed, target-year lower labels are partial, and no complete 1989 inventory or source-grounded A\u2013Z bridge is identified. No item 4 or K4 trial.",
   "reviewed_main_commit": "6453a1ac50df7c043393ffbd40f7123ed0721884",
   "manual_judgment_not_algorithmic_exhaustiveness": true,
   "puzzle_solved": false,
@@ -483,8 +483,8 @@
         "F-HISTORICAL-CLOCK"
       ],
       "assessment": "specific_gate",
-      "missing_inputs": "Complete epoch-specific inventory and north registration.",
-      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "missing_inputs": "Complete epoch-specific inventory, true-north registration and a justified reversible symbol/key bridge; a museum-catalogued date or removed artifact does not fix installed 1989 continuity.",
+      "next_discriminating_test": "Seek revision-specific plate provenance in the identified 2006 Strau\u00df thesis/construction archive or readable overlapping 1989 views, then test registration on independent observations before defining a decoder.",
       "unexcluded_scope": "Historical sector selection and letter mapping.",
       "ready_for_new_K4_evaluation": false
     },
@@ -867,15 +867,19 @@
       ],
       "blocker_type": "historic_inventory_registration_and_encoder",
       "ready_for_new_K4_evaluation": false,
-      "missing": "Verified historical continuity and a complete readable 1989 panel inventory; source-fixed joins/orientation and dated civil-zone conventions; a reversible symbol/key bridge. Conditional selected-input enumeration leaves 240 registrations and no forced cross-segment pair.",
+      "missing": "A complete dated 1989 panel inventory, revision-specific continuity/registration, true-north reference and independently motivated reversible alphabet/key bridge. New 1971/1974 discrepancies defeat a generic unchanged pre-1990 inventory; five full May 1989 lower labels do not complete the ring.",
       "available": [
         "independent/2026-10-22/historical-clock/historical_clock_report.txt",
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
         "research/WORLD-CLOCK-003-SPEC.md",
         "research/WORLD-CLOCK-003-FINDINGS.md",
-        "experiments/world_clock_003.py"
+        "experiments/world_clock_003.py",
+        "sources/world-clock-003/LOCAL-SOURCE-REVIEW.json",
+        "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
+        "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK-INVENTORY.json",
+        "research/WORLD-CLOCK-003-SOURCE-AMENDMENT.md"
       ],
-      "next_deliverable": "Recover a source-tagged historical city/time mapping with one shared ring phase; predict a separate dated view or mapping before applying a frozen symbol encoder.",
+      "next_deliverable": "Identified 2006 Alexander Strau\u00df FH Potsdam conservation thesis/provenance or authenticated overlapping 1989 views and revision-specific schedules; withhold independent observations before extraction.",
       "go_no_go": "No 1989 labels inferred from current panels, no rotating numerals treated as fixed sector IDs, and no fitted per-character phases. A successful coordinate roundtrip without an alphabet encoder is not a K4 trial.",
       "safe_replay_argv": [
         "python3",
@@ -887,7 +891,7 @@
         "--kind",
         "replay"
       ],
-      "replay_scope": "Conditional common-inventory mapping/invariance calculation only; does not reconstruct 1989 or evaluate K4. New source evidence integration pending."
+      "replay_scope": "Conditional common-inventory numerical result only, preserved despite new revision evidence. No reconstructed 1989 ring or K4 evaluation."
     },
     {
       "id": "F-HISTORICAL-MACHINES",
@@ -1071,6 +1075,8 @@
     "independent/2026-10-22/construction/test_audit_construction.py": "562ef93305b5a06a203c153649206e25da49797f4cd62290b7033e94df3db2a9",
     "independent/2026-10-22/historical-clock/historical_clock_report.txt": "29fa477d0a685916737aab7c8c18b8f30dd9ee71c7cf9fce6962c0f40c7021fa",
     "independent/2026-10-24/physical-item2/README.md": "df40a918f2488097e42279129ac16539844b65a1f6cafdca398150167f81f493",
+    "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK-INVENTORY.json": "07b2ec35125dd03576dc9c4c638a26313f646d1816de9ab0ea7b5d8d05bd970f",
+    "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md": "86ce7cd223785d32b2fdb056260ae22745f0ffd62fc2efa11868b8ea21435651",
     "research/AUTOKEY-CONSTRAINT-FINDINGS.md": "9fec6b7941a32a6c5f4a61cfbed83dcea2739f28321e6ae0322de8aa5679aa81",
     "research/BOUNDED-FINDINGS.md": "8240eee7ce9117c4d3b79873b9ce2808ece6e04a5c9ae22c4c3a7088e0ad08cf",
     "research/CONDITIONAL-FACE-LAMP-FINDINGS.md": "522e5c310226bf75526818a72442854aaf629c9c5ac6a071bc9cbc3b6ad37d0e",
@@ -1079,7 +1085,7 @@
     "research/FOLD-SLIDE-2D-SPEC.md": "3b9ce702adb1077695cd9bf85a4b2787522ba73fff4f9c0fa67210fd3517fb9f",
     "research/GREEK-SIGABA-CANDIDATE-FINDINGS.md": "1a86fbb021dfaace90fd6a52413c3cf73d914d1abb9ff141eeadfe1dd1b703c7",
     "research/GROMARK-IDENTIFIABILITY-FINDINGS.md": "c34e9aaabccb8b59ae79a023874d2326f39cc769faecc776827adeb2c3d99189",
-    "research/HYPOTHESES.md": "7e271f9ca5f79121ff5ba47c45efa1b4d1cea4892d024793cacb3cc8396a0e14",
+    "research/HYPOTHESES.md": "189471fa7349e3afeaba53fcb91a9925c77dce1750d6c1e06e02a5b72be98317",
     "research/IPA-CODECS-INTEGRATION.md": "e278428adbc7a7c8572f73ddd898127d6e5d6cd782ffd7aaf78b31f772e84245",
     "research/JOINT-STATE-NONROTOR-FINDINGS.md": "27097680ed8019b04d3eced4bfe8e7f8efeb65191c039bf8f8e12eab022e59d8",
     "research/MONUMENT-FOLD-SLIDE-FINDINGS.md": "9da1efc49b0742bad6dc6df592ff0dd58c0406f46510d2a4d4086b55660b8a2c",
@@ -1108,11 +1114,12 @@
     "research/TREE-STATE-SUPPORT-SPEC.md": "ed67876356c26e66b6dc06ca4b57a3f4a96e4aa41d917cb8fbea693e9d70f79e",
     "research/UNRUN-GAPS-2026-10-23.md": "af1a53cf459e8a7cc5441c846a6c0df93751fe4ff97543b6b66b22d4d7968245",
     "research/WHEATSTONE-TRANSITION-FINDINGS.md": "7fccef5c54eb365c17178ab5313d64f719b52e232c833c0b3b37abb7fa72e57d",
-    "research/WORLD-CLOCK-003-FINDINGS.md": "6ce9d87224eb58d20d3483476005edf13e36db480359f9d1b74bcd3d967a0dba",
+    "research/WORLD-CLOCK-003-FINDINGS.md": "a892134c4f3b36ea002627840a5cecc6e5fe9fa70200d0da100bb4b2b1969300",
+    "research/WORLD-CLOCK-003-SOURCE-AMENDMENT.md": "e7fbc63d3cde1f0166a49878656880dc9c03c6b39eef809b7437e3eae19ef110",
     "research/WORLD-CLOCK-003-SPEC.md": "bd07e72fe7a1700f968fd415173ef27f222159b656a6c516e86966f8506580cb",
     "research/evidence/2026-10-23-lodestone-compass/DECLINATION-ADDENDUM.md": "c58d7bfc2ac6522c634765643e94244a7a7c85abb85fbd9b00e2ceedf5ec471c",
     "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md": "713793fac895ef88d2e54fbbbbc28db4619889613259e55a3a0925d123add577",
-    "research/specifications/FRONTIER-2026-10-23.json": "bee02182ca997d7294d0e0276f9d487b3d688d8daa98b9d529e18ee0931cf66b",
+    "research/specifications/FRONTIER-2026-10-23.json": "590602304f4213e38b3c0ae1aec5b964b9f83372a6657da83b1bf67f7d7a2481",
     "results/CSP889-ANCHOR-017.json": "f1c98755ab24c879aa6fb7d381439b3cbbb8ceee2b0eb75ae2de8555bb0f6e31",
     "results/CSP889-COMPACT-018.json": "b3eadb318465762c6f7497cd493d2e4ffd01f0aa4f45e13cd71e2f7718bb2630",
     "results/CSP889-DOMAIN-016.json": "be54ea935b596838455bb25f7061cf53bb126216ca219b2a96afb9ec001b4128",
@@ -1127,6 +1134,7 @@
     "results/sigaba-real-adapter/case-1.json": "725ce6a6fe832bc2e5d9067e5e5bfb4520071575ab01779a9e17eb156f1c0d12",
     "sources/physical-solar-002/SOURCE-RECEIPT.json": "afe3afd2f2b9551e3bfd9901d6fc44cce166b2d59e8d153397a89230d26b637f",
     "sources/wheatstone-historical-conventions-2026-10-23.json": "bdf7cccc11eae4ea7b0002509cc08b2117afcb6ac5a5af7647a39cd9b21056c8",
+    "sources/world-clock-003/LOCAL-SOURCE-REVIEW.json": "1b3c8a23cfc4e5b32ae398961b476c11cff85d56cfd9a15c6bb124868f6defc1",
     "tests/test_joint_nonrotor.py": "670c984a4722f037614d55201a023001ff4177638e7c5b2a2474ba78f4980391",
     "tests/test_sigaba_collector_filter.py": "9ea44d26454a068aadfc2ca8113350da75d63e2a27c5267e9bd29e00a9d33f2d",
     "tests/test_sigaba_compressed_ownership.py": "2204640fa5968290a35ed3d26840c7fccc6e2157033fbf3bb0f1512b17efb258",

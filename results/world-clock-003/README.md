@@ -9,3 +9,5 @@ python3 experiments/world_clock_003.py --spec-commit 53aa67b86da286d45012d957a25
 ```
 
 Replays create separate run snapshots; original evidence and pilot results remain unchanged.
+
+[Fresh source evidence and conservative inventory](../../independent/2026-10-24/world-clock-item3/README.md) are separate from the numerical run. [Final validation](../WORLD-CLOCK-003-FINAL-VALIDATION.json) records both supported suites.

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "scope": "Conservative new source-local observations. NOT complete1989inventory. No crossdate merge. Questionmarks/brackets cannot be used as fixed letters.",
+  "readers": "Two independent model readings; not two human experts. Blind reader did not consult contemporary lists.",
+  "unknown_convention": "null means unknown/untranscribed, never empty; all panel inventories partial",
+  "sources": {
+    "D71": {"date":"1971","date_basis":"DHM catalog Datierung, independently checked in direct museum record and DDB","creator":"Martin Schmidt","record":"https://db.dhm.de/objekt/BA107448","image_url":"https://iiif.deutsche-digitale-bibliothek.de/image/2/43271fbb-7db3-4fe3-9d20-db1d8e0abd62/full/full/0/default.jpg","rights":"DDB CC BY-NC-ND4.0; no image included in deliverable","sha256":"ab45196a369facd6bfd6a3b1f82c84552fd05c1f8794b8fcfd098488de007259","retrieved_utc":"2026-10-24"},
+    "J74": {"date":"1974-01","date_basis":"photographer-uploaded Commons record","creator":"Andreas Schwarzkopf","record":"https://commons.wikimedia.org/wiki/File:Berlin_Januar_1974,_Weltzeituhr_mit_Haus_des_Lehrers.jpg","image_url":"https://upload.wikimedia.org/wikipedia/commons/3/3d/Berlin_Januar_1974%2C_Weltzeituhr_mit_Haus_des_Lehrers.jpg","rights":"CC BY-SA3.0; no image included","sha256":"3dfc062e06ee0e9acb32110d16fd7bc77221fe0a6b63fbce784df2c18c242319","retrieved_utc":"2026-10-24"},
+    "M89": {"date":"1989-05","date_basis":"SPIEGEL gallery11 caption, TobiasSeel FDJ Pentecost gathering; exactday notgiven","creator":"Tobias Seel / snapshot-photography / ullstein bild","record":"https://www.spiegel.de/fotostrecke/erich-john-erfinder-der-weltzeituhr-auf-dem-berliner-alex-fotostrecke-170811.html","image_url":"https://cdn.prod.www.spiegel.de/images/45beeac9-0001-0004-0000-000001472122_w1840_r1.5348011363636365_fpx52.11_fpy49.97.webp","rights":"Copyright. Private research only, no image included","sha256":"f06482a75580ac780162adee4c4c93a36dcf867a19876d237ed8c7f14efc37f3","retrieved_utc":"2026-10-24"},
+    "W90": {"date":"1990-10-03","date_basis":"Deutsche Kinemathek object1612 catalog","creator":"Monika Waack","record":"https://wwsf.deutsche-kinemathek.de/index.php/Detail/Object/Show/object_id/1612","image_url":"https://wwsf.deutsche-kinemathek.de/index.php/Detail/Object/DownloadRepresentation/representation_id/1444/object_id/1612/version/original","rights":"CC BY-NC-ND3.0DE; no image included","not1989":true,"sha256":"92f2846768d99fa1c71b421bf13f15af2e0f0c67440dce9ddba7b2a2f7aa762d","retrieved_utc":"2026-10-24"},
+    "R_UNDATED": {"date":null,"date_basis":"Project title1969 describes clock; site upload2026 not exposure. Thesis2006 not proven image date.","creator":"Strauss Restaurierung","record":"https://www.strauss-restaurierung.de/project/schriftplatten-der-weltzeituhr-berlin-1969/","image_url":"https://www.strauss-restaurierung.de/wp-content/uploads/2026/01/Weltzeit.jpg","rights":"Copyright; no reuse grant established; no image included","sha256":"a6354f8ffb40da7fbb62821494c58c6d4955531b0fc04470e199750dae0c6ffc","retrieved_utc":"2026-10-24"}
+  },
+  "segments": [
+    {"id":"D71","source":"D71","globally_registered":false,"panels":[
+      {"id":"D71-P03","upper":["AZOREN"],"lower":null,"lower_visibility":"no label discerned","complete_inventory_claim":false},
+      {"id":"D71-P04","upper":["REYKJAVIK"],"lower":null,"lower_visibility":"no label discerned","complete_inventory_claim":false},
+      {"id":"D71-P05","upper":["DUBLIN","LISSABON","ALGIER"],"lower":["CASABLANCA","CONAKRY","DAKAR"],"complete_inventory_claim":false},
+      {"id":"D71-P06","upper":["AMSTERDAM","BERLIN","BR[Ü/U]SSEL","BUDAPEST","MADRID","PARIS","PRAG","STOCKHOLM","WARSCHAU"],"lower":["KOPENHAGEN","LONDON","WIEN","ROM","BELGRAD","TUNIS"],"uncertainty":"Umlaut in BR[Ü/U]SSEL unresolved; do not normalize","complete_inventory_claim":false},
+      {"id":"D71-P07","upper":["BUKAREST","HELSINKI","SOFIA"],"lower":["ANKARA","DAMASKUS","KAIRO"],"complete_inventory_claim":false},
+      {"id":"D71-P08","upper":["LENINGRAD","MOSKAU"],"lower":["BAGDAD","TEHERAN","ADDIS ABEBA"],"uncertain_annotations":["trailing plus-like mark after TEHERAN","separate +30-like mark"],"complete_inventory_claim":false}
+    ],"order_convention":"photo-left to photo-right, local physical panels only; not compass direction or fixed hour numbers","adjacencies":[["D71-P03","D71-P04"],["D71-P04","D71-P05"],["D71-P05","D71-P06"],["D71-P06","D71-P07"],["D71-P07","D71-P08"]]},
+    {"id":"J74","source":"J74","globally_registered":false,"panels":[
+      {"id":"J74-A","upper":["NEW ORLEANS","MEXIKO CITY"],"lower":null,"lower_visibility":"no label discerned","complete_inventory_claim":false},
+      {"id":"J74-B","upper":["MONTREAL","WASHINGTON","NEW YORK","HAVANNA"],"lower":["BOGOTA","LIMA","QUITO"],"complete_inventory_claim":false}
+    ],"order_convention":"photo-left to photo-right, local physical panels only; not compass direction or fixed hour numbers","adjacencies":[["J74-A","J74-B"]]},
+    {"id":"M89","source":"M89","globally_registered":false,"target_year_directly_observed":true,"panels":[
+      {"id":"M89-P01","upper":null,"lower":["PERTH"],"upper_visibility":"out of frame","lower_visibility":"partly obscured above PERTH","complete_inventory_claim":false},
+      {"id":"M89-P02","upper":null,"lower":null,"partial_lines":["[...]NGJANG","[T?]OKIO"],"complete_inventory_claim":false},
+      {"id":"M89-P03","upper":null,"lower":["SYDNEY","CANBERRA","MELBOURNE"],"complete_inventory_claim":false},
+      {"id":"M89-P04","upper":null,"lower":null,"lower_visibility":"separate map-bearing face; no label discerned; foreground stripe prevents complete absence claim","complete_inventory_claim":false},
+      {"id":"M89-P05","upper":null,"lower":["WELLINGTON"],"complete_inventory_claim":false},
+      {"id":"M89-P06","upper":null,"lower":null,"partial_lines":["F[...]"],"complete_inventory_claim":false}
+    ],"noncity_annotation":{"literal":"DATUMSGRENZE","location":"lower band near boundary of M89-P05/P06","panel_assignment":null},"order_convention":"photo-left to photo-right, local physical panels only; not compass direction or fixed hour numbers","adjacencies":[["M89-P01","M89-P02"],["M89-P02","M89-P03"],["M89-P03","M89-P04"],["M89-P04","M89-P05"],["M89-P05","M89-P06"]]},
+    {"id":"W90","source":"W90","globally_registered":false,"not1989":true,"panels":[
+      {"id":"W90-P02","upper":["[OMSK?]","ALMA-ATA","TASCHKENT"],"lower":["RANGUN","DACCA"],"annotations":["+ after RANGUN","separate +30 with uncertain prime"],"complete_inventory_claim":false},
+      {"id":"W90-P03","upper":["KRASNOJARSK","NOWOSIBIRSK"],"lower":["HANOI","BANGKOK","PNOM PENH","SINGAPUR","JAKARTA"],"annotations":["+ after SINGAPUR","separate +30 prime-like notation"],"complete_inventory_claim":false},
+      {"id":"W90-P04","upper":["IRKUTSK","ULAN-BATOR"],"lower":["PEKING","SHANGHAI","MANILA","PERTH"],"complete_inventory_claim":false},
+      {"id":"W90-P05","upper":["JAKUTSK","WLADIWOSTOK"],"lower":["PH[?]NGJANG","TOKIO"],"uncertainty":"central letters/diacritic of PHJÖNGJANG reading obscured; retained unresolved","complete_inventory_claim":false},
+      {"id":"W90-P06","upper":["CHABAROWSK"],"lower":["SYDNE[Y?]","CANBERRA","MELBOURN[E?]"],"complete_inventory_claim":false},
+      {"id":"W90-P07","upper":["[MAGADAN?]","SACHALIN"],"lower":null,"lower_visibility":"no label discerned","complete_inventory_claim":false}
+    ],"order_convention":"photo-left to photo-right, local physical panels only; not compass direction or fixed hour numbers","adjacencies":[["W90-P02","W90-P03"],["W90-P03","W90-P04"],["W90-P04","W90-P05"],["W90-P05","W90-P06"],["W90-P06","W90-P07"]]},
+    {"id":"R_UNDATED","source":"R_UNDATED","globally_registered":false,"panels":[{"id":"LOOSE","upper":null,"lower":null,"band_unknown_lines":["HANOI","BANGKOK","PNOM PENH","SINGAPUR +","JAKARTA"],"complete_inventory_claim":false}],"adjacencies":[],"order_convention":"photo-left to photo-right, local physical panels only; not compass direction or fixed hour numbers"}
+  ],
+  "cross_date_discrepancies": [
+    {"label":"LONDON","baseline_source":"S69","baseline_location":"EU1969local0upper","new_source":"D71","new_location":"D71-P06lower","meaning":"Different observed arrangement; no alteration date inferred"},
+    {"label":"ALGIER","baseline_source":"S69","baseline_location":"EU1969local1lower","new_source":"D71","new_location":"D71-P05upper","meaning":"Different observed arrangement; no alteration date inferred"},
+    {"label":"NEW YORK","baseline_source":"S70","baseline_location":"AM1970local1upper, separate from MONTREALgroup","new_source":"J74","new_location":"J74-Bupper, sameface as MONTREALgroup","meaning":"Different observed arrangement; no alteration date inferred"}
+  ],
+  "constraints":{"complete_1989":false,"true_north_registered":false,"source_grounded_AZ_bridge":false,"K4_trials":0}
+}

@@ -1,0 +1,9 @@
+# Independent item 3 historical World Clock research
+
+[Supplied report](K4-ITEM3-WORLD-CLOCK.md) · [conservative source-local JSON](K4-ITEM3-WORLD-CLOCK-INVENTORY.json) · [local verification receipt](../../../sources/world-clock-003/LOCAL-SOURCE-REVIEW.json) · [integrated findings](../../../research/WORLD-CLOCK-003-FINDINGS.md).
+
+The parent supplied these two artifacts as plain text; JSON formatting is reconstructed without changing field values. No original archive hash or exact worker start/end timestamps were supplied. The report's date is day precision, not midnight UTC. Local source-check timestamps are distinct. The report references `item3-independent-transcription.md` and `item3-documents.md`, but their separate contents were not supplied in this handoff and are not claimed present or replayed. Key observations and source URLs are included in the supplied report/JSON.
+
+The repository owner independently inspected the hash-matched 1969 and 1970 baselines, 1971 DHM image, January 1974 native crop, May 1989 full-resolution image, post-1989 comparison and removed plate. Catalogue/date checks and remaining attributed portions are itemized in the local receipt. Two independent model readers are not two human experts. Photographic text transcription remains evidence with uncertainty, not a mathematically certified reading.
+
+All five new image hashes are retained; no original image, crop, source PDF or raw copyrighted scrape is republished. Unknown panels, unresolved glyphs, plus marks, literal spellings and revision boundaries are preserved. No cross-date global registration, city UTC-offset assignment or A–Z mapping is added. Original 41-label input and numerical registration receipt remain byte-for-byte unchanged. The 240 compatible layouts apply only to their stated conditional model.

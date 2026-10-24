@@ -209,7 +209,7 @@
       "id": "H-CLOCK-HISTORICAL",
       "status": "evidence-blocked",
       "mechanism": "Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping.",
-      "exact_tested_scope": "WORLD-CLOCK-003 retains the 41-label/10-panel/three-segment input and replays the old 1,152 phase checks. Conditional unchanged-inventory registration has 240 compatible layouts among 576 gauge-fixed offset pairs; every cross-segment pair remains ambiguous. This is not a reconstructed 1989 ring or K4 cipher test.",
+      "exact_tested_scope": "WORLD-CLOCK-003 retains the 41-label/10-panel/three-segment input and replays the old 1,152 phase checks. Conditional unchanged-inventory registration has 240 compatible layouts among 576 gauge-fixed offset pairs; every cross-segment pair remains ambiguous. Fresh source review independently confirms 1969/1971 band and 1970/1974 grouping changes; May 1989 adds five full lower-band labels but no complete ring. This is not a reconstructed 1989 ring or K4 cipher test.",
       "unexcluded_scope": "A registered 1989 inventory and justified mapping into letters or key material.",
       "missing_inputs": "Verified historical continuity and global joins; complete 1989 labels and dated civil-zone conventions; a reversible A–Z/key bridge. Separate photographs have separate exposure phases, and moving numerals are not fixed sector IDs.",
       "next_discriminating_test": "Recover one historical mapping from independent images and withhold a second; stop if registration remains non-identifiable.",
@@ -232,9 +232,13 @@
         "independent/2026-10-22/historical-clock/historical_clock_report.txt",
         "independent/2026-10-22/historical-clock/pilot.py",
         "independent/2026-10-22/historical-clock/pilot_results.json",
+        "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK-INVENTORY.json",
+        "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
+        "independent/2026-10-24/world-clock-item3/README.md",
         "research/FOLD-SLIDE-2D-FINDINGS.md",
         "research/FOLD-SLIDE-2D-SPEC.md",
         "research/WORLD-CLOCK-003-FINDINGS.md",
+        "research/WORLD-CLOCK-003-SOURCE-AMENDMENT.md",
         "research/WORLD-CLOCK-003-SPEC.md",
         "research/figures/fold-slide-2d-001.svg",
         "research/specifications/FOLD-SLIDE-2D-001.json",
@@ -444,6 +448,7 @@
         "results/WHEATSTONE-TRANSITION-008-independent.json",
         "results/WHEATSTONE-TRANSITION-008-validation.json",
         "results/WHEATSTONE-TRANSITION-008.json",
+        "results/WORLD-CLOCK-003-FINAL-VALIDATION.json",
         "results/WORLD-CLOCK-003-VALIDATION.json",
         "results/asymmetric-feedback-001-runs/20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea/ASYMMETRIC-FEEDBACK-001.json",
         "results/asymmetric-feedback-001-runs/20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea/manifest.json",
@@ -576,6 +581,7 @@
         "results/world-clock-003/20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2/manifest.json",
         "results/world-clock-003/20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2/registration-analysis.json",
         "results/world-clock-003/latest.json",
+        "sources/world-clock-003/LOCAL-SOURCE-REVIEW.json",
         "tests/test_monument_slide_2d.py"
       ],
       "verification": "Canonical scope reviewed; linked files inventoried. Fresh regression/analytical replays are listed separately. File presence alone does not validate a claim."
@@ -1499,10 +1505,10 @@
       "id": "H-CLOCK-FACE",
       "status": "evidence-blocked",
       "mechanism": "A dated historical city panel/face supplies an instruction.",
-      "exact_tested_scope": "Dated photo labels and the 1972 correction retained; WORLD-CLOCK-003 quantifies a selected three-run input conditionally, with no forced cross-segment join. Separate narrow 1989 observations are preserved; full 1989 face/true-ENE registration remains unresolved.",
+      "exact_tested_scope": "Dated photo labels and the 1972 correction retained; WORLD-CLOCK-003 quantifies a selected three-run input conditionally, with no forced cross-segment join. Separate narrow 1989 observations are preserved, including five full labels and six partial face positions in May. New 1971/1974 placement changes forbid treating generic pre-1990 views as one known inventory; full 1989 face/true-ENE registration remains unresolved.",
       "unexcluded_scope": "Historical sector selection and letter mapping.",
-      "missing_inputs": "Complete epoch-specific inventory and north registration.",
-      "next_discriminating_test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "missing_inputs": "Complete epoch-specific inventory, true-north registration and a justified reversible symbol/key bridge; a museum-catalogued date or removed artifact does not fix installed 1989 continuity.",
+      "next_discriminating_test": "Seek revision-specific plate provenance in the identified 2006 Strauß thesis/construction archive or readable overlapping 1989 views, then test registration on independent observations before defining a decoder.",
       "evidence": [
         "docs/historical-clock-inscriptions.md",
         "experiments/reset_boundary_proof.py",
@@ -2419,7 +2425,7 @@
     },
     {
       "path": "docs/tracking/EXPERIMENT-DETAILS.md",
-      "sha256": "956c9d4591b1fdd05fb5fd57e12224e7a3c4283b5a6442643f4ecabbdf0ce22a",
+      "sha256": "ffbce79798e9e999c21efbbf0f048d99791797e9480fe480184032a3fc59209c",
       "matching_lines": 79
     },
     {
@@ -2439,7 +2445,7 @@
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "sha256": "f866838f2065679fbee7e13c6fe9e763a998b8ed312e8e608258f89494c98f77",
+      "sha256": "c453756c5db1ce1f645f380a5b4d33f81ca3497d31efdfdbbee0e78a96d9dbff",
       "matching_lines": 1
     },
     {
@@ -2538,6 +2544,11 @@
       "matching_lines": 4
     },
     {
+      "path": "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
+      "sha256": "86ce7cd223785d32b2fdb056260ae22745f0ffd62fc2efa11868b8ea21435651",
+      "matching_lines": 2
+    },
+    {
       "path": "research/AFFINE-DIGRAPH-CROSSED-FINDINGS.md",
       "sha256": "e92549e044648c7d509531ae95a3eae21b2362f31a41be29647bf25f125186fe",
       "matching_lines": 3
@@ -2624,7 +2635,7 @@
     },
     {
       "path": "research/EXPERIMENTS.md",
-      "sha256": "5d0896dbf8e2d2bbe784fdf72573d0f2f729e78805e896fa7ba5ea11d676b70d",
+      "sha256": "f2468d71e753e780e7099e412139e104790af4a450d05881d9a252c1ce36467e",
       "matching_lines": 56
     },
     {
@@ -2689,7 +2700,7 @@
     },
     {
       "path": "research/HYPOTHESES.md",
-      "sha256": "7e271f9ca5f79121ff5ba47c45efa1b4d1cea4892d024793cacb3cc8396a0e14",
+      "sha256": "189471fa7349e3afeaba53fcb91a9925c77dce1750d6c1e06e02a5b72be98317",
       "matching_lines": 123
     },
     {
@@ -2974,8 +2985,13 @@
     },
     {
       "path": "research/WORLD-CLOCK-003-FINDINGS.md",
-      "sha256": "6ce9d87224eb58d20d3483476005edf13e36db480359f9d1b74bcd3d967a0dba",
-      "matching_lines": 3
+      "sha256": "a892134c4f3b36ea002627840a5cecc6e5fe9fa70200d0da100bb4b2b1969300",
+      "matching_lines": 4
+    },
+    {
+      "path": "research/WORLD-CLOCK-003-SOURCE-AMENDMENT.md",
+      "sha256": "e7fbc63d3cde1f0166a49878656880dc9c03c6b39eef809b7437e3eae19ef110",
+      "matching_lines": 2
     },
     {
       "path": "research/WORLD-CLOCK-003-SPEC.md",
@@ -5029,6 +5045,20 @@
       "path": "independent/2026-10-24/physical-item2/PARENT-EVIDENCE-REPORT.md",
       "line": 135,
       "text": "A useful first success would be predicting withheld **ordinary light spots** in the LOC image. It need not and should not begin by generating words. A failed calibrated model rejects that model/path; a failed uncalibrated renderer does not reject physical Kryptos.",
+      "review_unit": "original independent artifact",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
+      "line": 181,
+      "text": "## 8. Negative findings, boundaries and next discriminating evidence",
+      "review_unit": "original independent artifact",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
+      "line": 207,
+      "text": "**Rights:** all photographs, source PDFs and inspection crops are retained solely for private research and are excluded from the deliverable bundle. Follow each source's licence independently; neither an image URL nor this report grants redistribution rights. The attached text and structured factual observations contain no reproduced copyrighted photograph.",
       "review_unit": "original independent artifact",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
@@ -9683,7 +9713,28 @@
     {
       "path": "research/WORLD-CLOCK-003-FINDINGS.md",
       "line": 29,
+      "text": "A [separate source amendment](WORLD-CLOCK-003-SOURCE-AMENDMENT.md), received after this calculation and independently inspected, records LONDON moving from the upper band in 1969 to the lower band in a photograph catalogued 1971. No phase or global sector rotation changes a fixed physical band. A universally unchanged pre-1990 layout is therefore contradicted; the selected-input 240-layout calculation cannot be promoted into a dated historical reconstruction. This does not logically establish all selected dates changed or rule out intervening reversions.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "research/WORLD-CLOCK-003-FINDINGS.md",
+      "line": 31,
       "text": "This is not a claim that the clock was unchanged across 1969–1984, much less through 1989. Without that assumption, conflicts between dated observations can reflect historical changes; the 336 conditional contradictions are not exclusions of those real historical possibilities. No admissible layout is promoted by geography, modern time zones, English fragments or K4 cribs. Global rotation adds aliases of the same gauge-fixed descriptions, not evidence.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "research/WORLD-CLOCK-003-SOURCE-AMENDMENT.md",
+      "line": 12,
+      "text": "The 1971 upper panel left of BERLIN reads DUBLIN / LISSABON / ALGIER. Both readings were inspected independently locally; the parent report describes two independent model readings, not human expert certification. A common sector rotation or moving-ring phase preserves the physical upper/lower band. It cannot transform the 1969 LONDON placement into the 1971 placement. Thus a universally unchanged pre-1990 label layout is contradicted by these images; neither current labels nor a generic pre-restoration photograph can establish a 1989 plate assignment.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "research/WORLD-CLOCK-003-SOURCE-AMENDMENT.md",
+      "line": 14,
+      "text": "This does **not** logically prove that every label in the selected 1969/1970/1984 three-run input changed, or exclude possible reversions between dates. Its 240 compatible registrations remain a conditional mathematical result on that unchanged selected input, not a recovered historical ring or posterior distribution. Preserve all 240 and all original contradictions; do not quietly retune/merge the input to eliminate this historical-version issue.",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
@@ -9988,7 +10039,7 @@
     "Numerical input changes, preprocessing and transposition can invalidate direct-alignment proofs."
   ],
   "source_sha256": {
-    "research/HYPOTHESES.md": "7e271f9ca5f79121ff5ba47c45efa1b4d1cea4892d024793cacb3cc8396a0e14",
+    "research/HYPOTHESES.md": "189471fa7349e3afeaba53fcb91a9925c77dce1750d6c1e06e02a5b72be98317",
     "experiments/exclusion_scope_audit.py": "47247d71e423b0454cb6574fbe862fec8348c458fe95be08f924be54a0cd842d"
   }
 }
