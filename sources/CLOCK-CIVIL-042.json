@@ -1,0 +1,28 @@
+{
+  "recorded_at_utc": "2026-10-24T18:26:27.359108+00:00",
+  "source_url": "https://data.iana.org/time-zones/tzdb/europe",
+  "source_bytes": 188472,
+  "source_sha256": "fec11bf6c6bd0619a8777bbdaa2ecd184fde291cb4b97efa87d334c7145ba3c2",
+  "rights": "Public domain per IANA europe header",
+  "scope": "Implementation reference, not authoritative primary civil-law history or actual installed clock readings",
+  "relevant_rule_lines": [
+    "Rule\tGB-Eire\t1981\t1995\t-\tMar\tlastSun\t1:00u\t1:00\tBST",
+    "Rule\tGB-Eire 1981\t1989\t-\tOct\tSun>=23\t1:00u\t0\tGMT",
+    "Rule\tEU\t1979\t1995\t-\tSep\tlastSun\t 1:00u\t0\t-",
+    "Rule\tEU\t1981\tmax\t-\tMar\tlastSun\t 1:00u\t1:00\tS"
+  ],
+  "tzif_sources": {
+    "Europe/Berlin": {
+      "path": "/usr/share/zoneinfo/Europe/Berlin",
+      "resolved_path": "/private/var/db/timezone/tz/2026c.1.0/zoneinfo/Europe/Berlin",
+      "bytes": 2298,
+      "sha256": "5ee475f71a0fc1a32faeb849f8c39c6e7aa66d6d41ec742b97b3a7436b3b0701"
+    },
+    "Europe/London": {
+      "path": "/usr/share/zoneinfo/Europe/London",
+      "resolved_path": "/private/var/db/timezone/tz/2026c.1.0/zoneinfo/Europe/London",
+      "bytes": 3664,
+      "sha256": "c85495070dca42687df6a1c3ee780a27cbcb82f1844750ea6f642833a44d29b4"
+    }
+  }
+}
