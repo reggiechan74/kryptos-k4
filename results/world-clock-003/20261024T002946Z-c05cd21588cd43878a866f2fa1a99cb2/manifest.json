@@ -1,0 +1,21 @@
+{
+  "run_id": "20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2",
+  "started_at_utc": "2026-10-24T00:29:46.751515+00:00",
+  "label": "WORLD-CLOCK-003",
+  "execution_kind": "original",
+  "status": "completed",
+  "specification": {
+    "commit": "53aa67b86da286d45012d957a25b4763c77ab04f",
+    "file": "research/WORLD-CLOCK-003-SPEC.md",
+    "sha256": "bd07e72fe7a1700f968fd415173ef27f222159b656a6c516e86966f8506580cb",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [],
+  "artifacts": {
+    "registration-analysis.json": {
+      "sha256": "8e1eef78d0eb6f28559744106c8b97d18db970796016c589c7975d67315077ad",
+      "bytes": 521851
+    }
+  },
+  "finished_at_utc": "2026-10-24T00:29:46.860170+00:00"
+}

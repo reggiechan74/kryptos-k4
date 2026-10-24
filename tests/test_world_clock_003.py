@@ -48,4 +48,23 @@ class WorldClock003Tests(unittest.TestCase):
                 for s in range(24):
                     self.assertEqual((s+phase)%24,((s+rotation)%24+(phase-rotation)%24)%24)
 
+    def test_original_registration_receipt_and_complete_set(self):
+        import hashlib
+        root=ROOT/'results/world-clock-003'
+        run=json.loads((root/'latest.json').read_text())['run_id']
+        manifest=json.loads((root/run/'manifest.json').read_text())
+        raw=(root/run/'registration-analysis.json').read_bytes()
+        self.assertEqual(hashlib.sha256(raw).hexdigest(),manifest['artifacts']['registration-analysis.json']['sha256'])
+        d=json.loads(raw)
+        self.assertEqual(hashlib.sha256(m.INPUT.read_bytes()).hexdigest(),d['input_sha256'])
+        self.assertEqual(hashlib.sha256((ROOT/'experiments/world_clock_003.py').read_bytes()).hexdigest(),d['source_sha256'])
+        self.assertEqual((d['raw_gauge_fixed_offset_pairs'],d['compatible_registration_count']),(576,240))
+        self.assertEqual(d['forced_pair_counts'],{'within_segment':272})
+        self.assertEqual(d['cross_segment_pair_count'],548)
+        self.assertEqual(d['k4_trials'],0)
+        data=json.loads(m.INPUT.read_text())
+        accepted=m.oracle_layouts(data['segments'],24)
+        ids=[x['id'] for x in data['segments']]
+        self.assertEqual(accepted,{tuple(row[k] for k in ids) for row in d['compatible_registrations']})
+
 if __name__=='__main__':unittest.main()
