@@ -2,9 +2,9 @@
   "kind": "Audit versions of three explicitly requested follow-through protocols; not experimental results",
   "recorded_at_utc": "2026-10-24T19:34:53.890515+00:00",
   "source_sha256": {
-    "research/CANDIDATE-FIRST-048-SPEC.md": "4014d28f1e222a8a532455f5e64437f8f313c01f943177a4e74d8bd0c6d7f3bc",
-    "research/ENE-ROUTE-049-SPEC.md": "43a6d9c76f706cb8a969850949065bed2b2cf63d2417d53c8d1afd6b139c37ae",
-    "research/HAND-GRAMMAR-050-SPEC.md": "3c141ee9d29498b6bb8d6e5cdce51f606f37a0c6e43f383ed1985dfe732573ca"
+    "research/CANDIDATE-FIRST-048-SPEC.md": "c098e5ba53747f5df5dd7950cbf642fe17e5be54611282d19550d298de9e0d17",
+    "research/ENE-ROUTE-049-SPEC.md": "a652001f82f6c3413daf54a9b193df8ab648f1aeb5fce989f08ceb9752c99433",
+    "research/HAND-GRAMMAR-050-SPEC.md": "68ca6ee76444f326e1d9f9d5910e502ecf72c1d7221e4046875aabe4ba6661af"
   },
   "candidate_model_descriptions": 582,
   "conditional_candidate_assembly_count": 1000,
@@ -15,5 +15,7 @@
   "grammar_depth0_to3_description_upper_bound": 56355,
   "full_search_started": false,
   "publication_authorized": false,
-  "pre_run_clarification": "Null misses do not prove a solution; route and grammar arithmetic directions explicit; plants retain all source-key ambiguity."
+  "pre_run_clarification": "Null misses do not prove a solution; route and grammar arithmetic directions explicit; plants retain all source-key ambiguity.",
+  "audit_accepted_at_utc": "2026-10-24T19:39:02.923332+00:00",
+  "audit_clarifications_recorded": true
 }
