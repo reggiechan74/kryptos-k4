@@ -1,0 +1,10 @@
+{
+  "kind": "Preserved pre-K4 implementation-control failure",
+  "recorded_at_utc": "2026-10-24T19:49:16.718016+00:00",
+  "attempt_started_at_utc": null,
+  "failed_code_sha256": "8f6b53a02d738f4094d4ad35b416df617eb60c4d6ea2f94f8bdeef210a199fff",
+  "failure": "ValueError substring not found in historical K2 known-answer check: literal question mark passed to26letter index.",
+  "stage": "Historical known-answer controls, before plant/null/K4 grammar search",
+  "actual_K4_evaluations": 0,
+  "repair": "Preserve literal? and do not advance key, matching existing source control convention. K4 has onlyA-Z, so the actual97letter grammar is unchanged."
+}
