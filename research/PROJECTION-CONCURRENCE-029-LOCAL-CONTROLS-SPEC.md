@@ -1,0 +1,9 @@
+# Projection diagnostic supplementary local-mismatch controls
+
+24 October2026 UTC. Frozen after the original synthetic run and before this supplementary panel is evaluated, in response to independent scientific review. This is separate diagnostic validation, not a retuned original fixture or real-data fit. Original fixtures, uncertainty factors, training/holdout assignment and RMS/max/conditioning thresholds remain unchanged. No K4 input.
+
+Use the existing exact finite-source twelve-pair fixture. For each offset0.25,0.5,1,2,5 pixels and each sign−1,+1, move **only heldout receivers** by that signed distance perpendicular to their true aperture/source line. Keep training fixed and both endpoint sigmas at0.25px. These are nearby wrong-feature/edge-point alternatives, not measured spacing between real monument spots. Do not describe all small mismatches as detectable: acceptance at uncertainty-scale offsets is an expected identifiability boundary, not a positive model discovery.
+
+Also translate **all** receiver picks by(+2,+2)px as a fixed correlated systematic control. This error is not independent Gaussian annotation noise; conditional perturbation confidence must not be advertised as calibrated field confidence. Retain its result even if the fit absorbs it. Run 256 perturbations/configuration, same seed290024, ≤60seconds /256MiB; retain all eleven configurations and native-pixel misses. Independently check that the true-source perpendicular miss equals the declared offset magnitude before testing the fitted-source/combined-uncertainty gate. No source projection clamp, point reassignment, model-error inflation or receiver-coordinate clipping.
+
+This panel measures only synthetic local sensitivity. It supplies no measured false-match rate for real photographs and does not certify any aperture/receiver identity.
