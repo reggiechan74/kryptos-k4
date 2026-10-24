@@ -93,12 +93,12 @@
       "Status": "evidence-blocked",
       "Mechanism": "Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping.",
       "Evidence": "[source or scoped prior review](../independent/2026-10-22/historical-clock/historical_clock_report.txt); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "41 literal labels in 10 panels and three disconnected dated segments; coordinate roundtrips and 1,152 shift checks, not a K4 decoder.",
+      "Tested scope": "WORLD-CLOCK-003 retains the 41-label/10-panel/three-segment input and replays the old 1,152 phase checks. Conditional unchanged-inventory registration has 240 compatible layouts among 576 gauge-fixed offset pairs; every cross-segment pair remains ambiguous. This is not a reconstructed 1989 ring or K4 cipher test.",
       "Untested scope": "A registered 1989 inventory and justified mapping into letters or key material.",
-      "Missing inputs": "Global segment registration, 1989 labels/time zones and an A–Z bridge; hour numerals are not fixed sector IDs.",
+      "Missing inputs": "Verified historical continuity and global joins; complete 1989 labels and dated civil-zone conventions; a reversible A–Z/key bridge. Separate photographs have separate exposure phases, and moving numerals are not fixed sector IDs.",
       "Next discriminating test": "Recover one historical mapping from independent images and withhold a second; stop if registration remains non-identifiable.",
       "Dependencies": "H-CLOCK-FACE; parent World Clock review; no invented labels or north/south-band bit",
-      "Results": "[retained evidence and finite coverage](../independent/2026-10-22/historical-clock/historical_clock_report.txt); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[Item 3 conditional registration and phase constraints](WORLD-CLOCK-003-FINDINGS.md), [prior evidence](../independent/2026-10-22/historical-clock/historical_clock_report.txt), [separate older dated-inscription review](../docs/historical-clock-inscriptions.md). No cipher or historical completeness claim."
     },
     {
       "id": "H-LAMP-MENGENLEHRE",
@@ -453,7 +453,7 @@
       "Status": "evidence-blocked",
       "Mechanism": "A dated historical city panel/face supplies an instruction.",
       "Evidence": "[source or scoped prior review](../docs/historical-clock-inscriptions.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Dated photo labels reviewed and 1972 correction retained; full 1989 face/true-ENE registration unresolved.",
+      "Tested scope": "Dated photo labels and the 1972 correction retained; WORLD-CLOCK-003 quantifies a selected three-run input conditionally, with no forced cross-segment join. Separate narrow 1989 observations are preserved; full 1989 face/true-ENE registration remains unresolved.",
       "Untested scope": "Historical sector selection and letter mapping.",
       "Missing inputs": "Complete epoch-specific inventory and north registration.",
       "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
@@ -2793,6 +2793,50 @@
         "results/physical-solar-002/20261024T001728Z-f2895d4425214b2bbed15c832235acf2/manifest.json"
       ],
       "original_entry": "- Original quantitative run start/end UTC: 2026-10-24T00:17:28.772639+00:00 / 2026-10-24T00:17:29.483736+00:00. This is not a source exposure time. Independent worker run times are unknown; separate local replay receipt records validation times.\n- Kind: physical analytical constraints and source research; no K4 cipher evaluation.\n- Frozen specification: `b2cc1dffdbb71b7a11c38f8041d220f3fce82932`; [protocol](PHYSICAL-SOLAR-002-SPEC.md), [findings](PHYSICAL-SOLAR-002-FINDINGS.md), [runner](../experiments/physical_solar_002.py), [complete receipt/output](../results/physical-solar-002/README.md).\n- Scope: 96 declared solar-envelope scenarios including old exact-bearing baselines; 39 independently source-fixed calendar samples; 125 dimensionless height-order cases. 960,096 dense grid, 39 USNO/NOAA and 125 ray checks pass. No parameters fitted to K4.\n- Outcome: conditional solar and direct-ray constraints verified. ENE Sun versus ENE ground shadow differ; a below-aperture source cannot directly project onto lower ground. Actual source/aperture/receiver heights and surveyed heading remain unknown. No source-fixed optical key, decoder or intended celestial time identified.\n- Independent addition: [evidence/arithmetic package](../independent/2026-10-24/physical-item2/README.md), received with outcomes known and separately replayed. Finite solar disk, ideal thickness clipping and angular sensitivities verified; these are not measured installed blur/strokes. No original images/scrapes committed.\n- Image feasibility: original LOC TIFF SHA verified and native crop inspected; same exposure as prior service image. No certified aperture-to-ground pairs established, no camera/light fit. Proposed 12-pair calibration remains unpassed. All broader physical/navigation hypotheses retain evidence-blocked status. Item 3 not started; no Site change.\n- Aggregate validation: 497 tests pass on both supported Python versions; [validation receipt](../results/PHYSICAL-SOLAR-002-VALIDATION.json) records validation start/end separately from the original physical calculation."
+    },
+    {
+      "record_id": "LOG-F67DC5B966",
+      "experiment_ids": [
+        "WORLD-CLOCK-003"
+      ],
+      "title": "WORLD-CLOCK-003 — item 3 partial historical ring registration and phase identifiability",
+      "categories": [
+        "analytical constraints",
+        "source research"
+      ],
+      "outcome": "240 conditional registrations remain; no cross-segment join, 1989 inventory or cipher bridge identified",
+      "classification_basis": "Reviewed original finite-domain receipt and unchanged source input; common-inventory continuity is conditional, not a historical result.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": null,
+      "timestamps": [
+        {
+          "receipt": "results/world-clock-003/20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2/manifest.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T00:29:46.751515Z",
+          "original": "2026-10-24T00:29:46.751515+00:00"
+        },
+        {
+          "receipt": "results/world-clock-003/20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2/manifest.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T00:29:46.860170Z",
+          "original": "2026-10-24T00:29:46.860170+00:00"
+        }
+      ],
+      "links": [
+        "experiments/world_clock_003.py",
+        "research/WORLD-CLOCK-003-FINDINGS.md",
+        "research/WORLD-CLOCK-003-SPEC.md",
+        "results/WORLD-CLOCK-003-VALIDATION.json",
+        "results/world-clock-003/README.md"
+      ],
+      "receipt_paths": [
+        "results/WORLD-CLOCK-003-VALIDATION.json",
+        "results/world-clock-003/20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2/manifest.json"
+      ],
+      "original_entry": "- Original analysis start/end UTC: 2026-10-24T00:29:46.751515+00:00 / 2026-10-24T00:29:46.860170+00:00. Historical exposure clock times remain unknown.\n- Kind: conditional historical mapping/invariance analysis; no K4 cipher evaluation.\n- Frozen protocol commit `53aa67b86da286d45012d957a25b4763c77ab04f`; [specification](WORLD-CLOCK-003-SPEC.md), [findings](WORLD-CLOCK-003-FINDINGS.md), [source](../experiments/world_clock_003.py), [complete original results/receipts](../results/world-clock-003/README.md).\n- Selected fixed input: 41 labels/ten panels/three dated runs. Under explicitly unverified common-inventory continuity, 576 gauge-fixed offset pairs yield 240 compatible registrations and 336 exact rank conflicts. Retain all compatible layouts. No global compass registration or 1989 completeness inferred.\n- 272 within-segment pair differences forced; all 548 cross-segment pairs remain ambiguous. Pair equations are dependent, not independent clues. All 24 integer phases over 240 layouts give 236,160 inverse checks; continuous physical phase is not enumerated. Separate photos have separate exposure phases. No semantic UTC offset or per-character city mapping assigned.\n- Controls: 36 complete tiny-ring sets match independent direct unification; all 36 plants included; 117 rational phase/gauge cases and mutation checks pass. Old pilot exactly replayed in a temporary directory without overwriting original data/results.\n- Separate prior evidence: corrected 1972 inscriptions and narrow 1989 labels are retained without an unsupported join. Broader clock/face hypotheses remain evidence-blocked for an actual cipher bridge and historical calibration. Fresh parent research integration is pending; no item 4 or Site change.\n- Local engineering validation: 504 tests pass on Python 3.9 and 3.12; [separate validation receipt/logs](../results/WORLD-CLOCK-003-VALIDATION.json). Fresh source integration remains pending before finalization/publication."
     }
   ],
   "receipts": [
@@ -3203,6 +3247,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-027.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -3367,6 +3420,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-022.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-023.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -3647,6 +3707,15 @@
     },
     {
       "path": "results/FRONTIER-022.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-023.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -4008,6 +4077,15 @@
       "path": "results/HYPOTHESIS-REGISTER-022.json",
       "labels": [
         "Item 2 conditional physical constraints and source review complete; actual optical decoder remains evidence-blocked"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/HYPOTHESIS-REGISTER-023.json",
+      "labels": [
+        "Item 3 conditional partial World Clock registration; source integration pending"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -4582,6 +4660,16 @@
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
       "status": null
+    },
+    {
+      "path": "results/WORLD-CLOCK-003-VALIDATION.json",
+      "labels": [
+        "WORLD-CLOCK-003-VALIDATION",
+        "Local item 3 engineering validation; fresh parent source integration remains pending"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "passed"
     },
     {
       "path": "results/asymmetric-feedback-001-runs/20261022T191952Z-44bf1543c641497e82f4b948d0cd94ea/ASYMMETRIC-FEEDBACK-001.json",
@@ -5991,6 +6079,45 @@
       "path": "results/word-runs/latest.json",
       "labels": [
         "20261018T112641Z-6df780ad6f254787ad9f539f7a60b740"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "completed"
+    },
+    {
+      "path": "results/world-clock-003/20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2/manifest.json",
+      "labels": [
+        "WORLD-CLOCK-003",
+        "20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T00:29:46.751515Z",
+          "original": "2026-10-24T00:29:46.751515+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T00:29:46.860170Z",
+          "original": "2026-10-24T00:29:46.860170+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "completed"
+    },
+    {
+      "path": "results/world-clock-003/20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2/registration-analysis.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/world-clock-003/latest.json",
+      "labels": [
+        "20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",

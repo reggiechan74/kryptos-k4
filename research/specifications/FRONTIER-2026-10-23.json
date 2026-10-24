@@ -1,8 +1,8 @@
 {
-  "id": "FRONTIER-022",
-  "reviewed_main_commit": "bec8dad8c78884efc4a2ad7048c21686e676b406",
+  "id": "FRONTIER-023",
+  "reviewed_main_commit": "6453a1ac50df7c043393ffbd40f7123ed0721884",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Item 2 conditional sunlight, direct-ray and finite-source constraints complete; surveyed physical decoding remains evidence-blocked. Item 3 not started. No global cipher exhaustion or new K4 joint search.",
+  "decision": "Item 3 conditional historical World Clock registration and shared-phase invariants quantified; fresh source integration pending. No source-grounded A\u2013Z bridge or complete 1989 join identified; no item 4 started.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -130,15 +130,27 @@
       ],
       "blocker_type": "historic_inventory_registration_and_encoder",
       "ready_for_new_K4_evaluation": false,
-      "missing": "Complete sufficiently legible 1989 panel/city/time-zone inventory, registration of disconnected segments and a justified letter/key bridge.",
+      "missing": "Verified historical continuity and a complete readable 1989 panel inventory; source-fixed joins/orientation and dated civil-zone conventions; a reversible symbol/key bridge. Conditional selected-input enumeration leaves 240 registrations and no forced cross-segment pair.",
       "available": [
         "independent/2026-10-22/historical-clock/historical_clock_report.txt",
-        "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md"
+        "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
+        "research/WORLD-CLOCK-003-SPEC.md",
+        "research/WORLD-CLOCK-003-FINDINGS.md",
+        "experiments/world_clock_003.py"
       ],
       "next_deliverable": "Recover a source-tagged historical city/time mapping with one shared ring phase; predict a separate dated view or mapping before applying a frozen symbol encoder.",
       "go_no_go": "No 1989 labels inferred from current panels, no rotating numerals treated as fixed sector IDs, and no fitted per-character phases. A successful coordinate roundtrip without an alphabet encoder is not a K4 trial.",
-      "safe_replay_argv": null,
-      "replay_scope": "Existing 41 labels, 10 panels and three disconnected dated segments remain insufficient."
+      "safe_replay_argv": [
+        "python3",
+        "experiments/world_clock_003.py",
+        "--spec-commit",
+        "53aa67b86da286d45012d957a25b4763c77ab04f",
+        "--output",
+        "/tmp/k4-clock-replay",
+        "--kind",
+        "replay"
+      ],
+      "replay_scope": "Conditional common-inventory mapping/invariance calculation only; does not reconstruct 1989 or evaluate K4. New source evidence integration pending."
     },
     {
       "id": "F-HISTORICAL-MACHINES",

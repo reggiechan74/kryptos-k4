@@ -175,12 +175,12 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: evidence-blocked
 - Mechanism: Historical World Clock city sectors and one daily ring phase implement an observable city/time mapping.
 - Evidence: [source or scoped prior review](../independent/2026-10-22/historical-clock/historical_clock_report.txt); historical availability or user proposal does not establish creator use.
-- Tested scope: 41 literal labels in 10 panels and three disconnected dated segments; coordinate roundtrips and 1,152 shift checks, not a K4 decoder.
+- Tested scope: WORLD-CLOCK-003 retains the 41-label/10-panel/three-segment input and replays the old 1,152 phase checks. Conditional unchanged-inventory registration has 240 compatible layouts among 576 gauge-fixed offset pairs; every cross-segment pair remains ambiguous. This is not a reconstructed 1989 ring or K4 cipher test.
 - Untested scope: A registered 1989 inventory and justified mapping into letters or key material.
-- Missing inputs: Global segment registration, 1989 labels/time zones and an A–Z bridge; hour numerals are not fixed sector IDs.
+- Missing inputs: Verified historical continuity and global joins; complete 1989 labels and dated civil-zone conventions; a reversible A–Z/key bridge. Separate photographs have separate exposure phases, and moving numerals are not fixed sector IDs.
 - Next discriminating test: Recover one historical mapping from independent images and withhold a second; stop if registration remains non-identifiable.
 - Dependencies: H-CLOCK-FACE; parent World Clock review; no invented labels or north/south-band bit
-- Results: [retained evidence and finite coverage](../independent/2026-10-22/historical-clock/historical_clock_report.txt); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Item 3 conditional registration and phase constraints](WORLD-CLOCK-003-FINDINGS.md), [prior evidence](../independent/2026-10-22/historical-clock/historical_clock_report.txt), [separate older dated-inscription review](../docs/historical-clock-inscriptions.md). No cipher or historical completeness claim.
 
 ### H-LAMP-MENGENLEHRE
 
@@ -535,7 +535,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: evidence-blocked
 - Mechanism: A dated historical city panel/face supplies an instruction.
 - Evidence: [source or scoped prior review](../docs/historical-clock-inscriptions.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Dated photo labels reviewed and 1972 correction retained; full 1989 face/true-ENE registration unresolved.
+- Tested scope: Dated photo labels and the 1972 correction retained; WORLD-CLOCK-003 quantifies a selected three-run input conditionally, with no forced cross-segment join. Separate narrow 1989 observations are preserved; full 1989 face/true-ENE registration remains unresolved.
 - Untested scope: Historical sector selection and letter mapping.
 - Missing inputs: Complete epoch-specific inventory and north registration.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.

@@ -1,0 +1,33 @@
+{
+  "id": "WORLD-CLOCK-003-VALIDATION",
+  "kind": "Local item 3 engineering validation; fresh parent source integration remains pending",
+  "validation_started_at_utc": "2026-10-24T00:33:24.228409+00:00",
+  "validation_finished_at_utc": "2026-10-24T00:34:57.306143+00:00",
+  "status": "passed",
+  "runs": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T00:33:24.228409+00:00",
+      "finished_at_utc": "2026-10-24T00:34:16.741512+00:00",
+      "elapsed_seconds": 52.512781458,
+      "exit_code": 0,
+      "log": "results/WORLD-CLOCK-003-python39-regression.log",
+      "log_sha256": "aa9199e95524666c7d991bbf6529dc96840fa30e92513612ece8076afcad8c5f",
+      "tests_passed": 504
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T00:34:16.741798+00:00",
+      "finished_at_utc": "2026-10-24T00:34:57.306143+00:00",
+      "elapsed_seconds": 40.564183750000005,
+      "exit_code": 0,
+      "log": "results/WORLD-CLOCK-003-python312-regression.log",
+      "log_sha256": "b629c7e3e35ad1ec9bc2888463d9d3e89319026968e3657b88e17d2c86bf4cd2",
+      "tests_passed": 504
+    }
+  ],
+  "fresh_parent_evidence_integrated": false,
+  "cipher_evaluation_performed": false,
+  "site_changed": false,
+  "item_4_started": false
+}

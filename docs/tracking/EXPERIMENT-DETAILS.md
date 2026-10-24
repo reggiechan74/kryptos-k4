@@ -1550,3 +1550,24 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Aggregate validation: 497 tests pass on both supported Python versions; [validation receipt](../../results/PHYSICAL-SOLAR-002-VALIDATION.json) records validation start/end separately from the original physical calculation.
 
 Related files: [experiments/physical_solar_002.py](../../experiments/physical_solar_002.py), [independent/2026-10-24/physical-item2/README.md](../../independent/2026-10-24/physical-item2/README.md), [research/PHYSICAL-SOLAR-002-FINDINGS.md](../../research/PHYSICAL-SOLAR-002-FINDINGS.md), [research/PHYSICAL-SOLAR-002-SPEC.md](../../research/PHYSICAL-SOLAR-002-SPEC.md), [results/PHYSICAL-SOLAR-002-VALIDATION.json](../../results/PHYSICAL-SOLAR-002-VALIDATION.json), [results/physical-solar-002/README.md](../../results/physical-solar-002/README.md).
+
+## LOG-F67DC5B966
+
+**WORLD-CLOCK-003 — item 3 partial historical ring registration and phase identifiability**
+
+start: 2026-10-24T00:29:46.751515Z; end: 2026-10-24T00:29:46.860170Z
+
+Type: analytical constraints; source research. Outcome: 240 conditional registrations remain; no cross-segment join, 1989 inventory or cipher bridge identified
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Original analysis start/end UTC: 2026-10-24T00:29:46.751515+00:00 / 2026-10-24T00:29:46.860170+00:00. Historical exposure clock times remain unknown.
+- Kind: conditional historical mapping/invariance analysis; no K4 cipher evaluation.
+- Frozen protocol commit `53aa67b86da286d45012d957a25b4763c77ab04f`; [specification](../../research/WORLD-CLOCK-003-SPEC.md), [findings](../../research/WORLD-CLOCK-003-FINDINGS.md), [source](../../experiments/world_clock_003.py), [complete original results/receipts](../../results/world-clock-003/README.md).
+- Selected fixed input: 41 labels/ten panels/three dated runs. Under explicitly unverified common-inventory continuity, 576 gauge-fixed offset pairs yield 240 compatible registrations and 336 exact rank conflicts. Retain all compatible layouts. No global compass registration or 1989 completeness inferred.
+- 272 within-segment pair differences forced; all 548 cross-segment pairs remain ambiguous. Pair equations are dependent, not independent clues. All 24 integer phases over 240 layouts give 236,160 inverse checks; continuous physical phase is not enumerated. Separate photos have separate exposure phases. No semantic UTC offset or per-character city mapping assigned.
+- Controls: 36 complete tiny-ring sets match independent direct unification; all 36 plants included; 117 rational phase/gauge cases and mutation checks pass. Old pilot exactly replayed in a temporary directory without overwriting original data/results.
+- Separate prior evidence: corrected 1972 inscriptions and narrow 1989 labels are retained without an unsupported join. Broader clock/face hypotheses remain evidence-blocked for an actual cipher bridge and historical calibration. Fresh parent research integration is pending; no item 4 or Site change.
+- Local engineering validation: 504 tests pass on Python 3.9 and 3.12; [separate validation receipt/logs](../../results/WORLD-CLOCK-003-VALIDATION.json). Fresh source integration remains pending before finalization/publication.
+
+Related files: [experiments/world_clock_003.py](../../experiments/world_clock_003.py), [research/WORLD-CLOCK-003-FINDINGS.md](../../research/WORLD-CLOCK-003-FINDINGS.md), [research/WORLD-CLOCK-003-SPEC.md](../../research/WORLD-CLOCK-003-SPEC.md), [results/WORLD-CLOCK-003-VALIDATION.json](../../results/WORLD-CLOCK-003-VALIDATION.json), [results/world-clock-003/README.md](../../results/world-clock-003/README.md).
