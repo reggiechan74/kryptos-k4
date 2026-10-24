@@ -1,0 +1,37 @@
+from draw_kremlin import *
+import sys;
+from geographiclib.geodesic import Geodesic
+# Reuse the checked detail map, add an independently calculated ellipsoidal comparison.
+side.remove()
+for text in list(fig.texts):text.remove()
+fig.set_size_inches(17,11)
+ax.set_position([.035,.23,.55,.62])
+compare=fig.add_axes([.64,.23,.325,.62]);compare.set_facecolor('#f7f9fb')
+draw_poly(compare,gk,'#c6e9d5','#21825a',1.4);draw_poly(compare,gs,'#f8e1ad','#bb8928',1.0)
+x,y=line.xy;compare.plot(x,y,color='#cf3554',lw=2.5,zorder=5)
+for seg in flatten(cut):
+ x,y=seg.xy;compare.plot(x,y,color='#087c4c',lw=4,zorder=6)
+ell=Geodesic.WGS84.Line(52.521146530576253,13.4133090391431029,247.5)
+pts=[ell.Position(float(s)) for s in np.linspace(38413000,38420000,500)]
+xx,yy=xy([x['lon2'] for x in pts],[x['lat2']for x in pts]);compare.plot(xx,yy,color='#6857b6',lw=3,zorder=5)
+info=json.loads((P/'wgs84_comparison.json').read_text());a=xy(*info['closest_wgs84_route_lonlat']);b=xy(*info['closest_mapped_boundary_lonlat'])
+compare.plot([a[0],b[0]],[a[1],b[1]],color='#6857b6',ls=(0,(3,3)),lw=1.6,zorder=6)
+compare.text(a[0]+75,(a[1]+b[1])/2,'1.34 km\nminimum gap',fontsize=12,color='#6857b6',fontweight='bold',va='center',bbox={'facecolor':'white','edgecolor':'none','alpha':.9,'pad':5})
+compare.text(-850,-70,'Spherical route',color='#a32741',fontsize=11,va='top');compare.text(-850,-1800,'WGS84 westward near-return',color='#6857b6',fontsize=11,va='top')
+compare.text(40,140,'Kremlin',ha='center',fontsize=11,fontweight='bold',color='#125f3e')
+compare.set_xlim(-1000,1000);compare.set_ylim(-2000,600);compare.set_aspect('equal');compare.set_xticks([]);compare.set_yticks([])
+for s in compare.spines.values():s.set_visible(False)
+compare.annotate('N',xy=(820,420),xytext=(820,150),ha='center',fontsize=10,fontweight='bold',arrowprops={'arrowstyle':'-|>','color':'#263743','lw':1.4})
+compare.plot([-850,-350],[440,440],color='#263743',lw=2.5);compare.text(-600,475,'500 m',ha='center',fontsize=10,color='#263743')
+fig.text(.035,.95,'A Kremlin “touch” depends on the Earth model',fontsize=25,fontweight='bold',color='#152d3d')
+fig.text(.035,.908,'Same Berlin origin and initial true bearing 247.50°; two different mathematical routes, not a physical survey.',fontsize=13,color='#546674')
+fig.text(.06,.868,'SPHERE: ~451 m inside Kremlin grounds',fontsize=14,fontweight='bold',color='#087c4c')
+fig.text(.625,.868,'WGS84: misses grounds by ~1.34 km',fontsize=14,fontweight='bold',color='#6857b6')
+fig.text(.06,.206,'Red Square is not touched by the spherical line: ~267 m gap.',fontsize=11,color='#886415')
+fig.text(.625,.206,'The WGS84 line is the later westward near-return,\nnot a separate eastbound reverse route.',fontsize=11,color='#546674',linespacing=1.4)
+fig.text(.035,.153,'Green = spherical route inside grounds. Rose = same sphere route outside. Purple = WGS84 ellipsoidal geodesic.',fontsize=11,color='#475561')
+fig.text(.035,.119,'* Small building clips are map/model-sensitive. At 247.51°, even the spherical line misses the Kremlin grounds.',fontsize=11,color='#475561')
+fig.text(.035,.085,'Sphere R = 6,371.0088 km; origin 52.5211465306°N, 13.4133090391°E. WGS84 calculated independently with GeographicLib 2.1.',fontsize=10,color='#546674')
+fig.text(.035,.055,'© OpenStreetMap contributors (ODbL), retrieved 24 Oct 2026. Kremlin relation 1360641; Red Square relation 1577673. Local north-up views.',fontsize=10,color='#546674')
+fig.text(.035,.025,'Mapped green area = Kremlin grounds, not the complete UNESCO property. After 40,030.229 km, the WGS84 route remains ~17.89 km from the Berlin origin.',fontsize=10,color='#546674')
+fig.savefig(P/'Kremlin-sphere-vs-WGS84.png',dpi=180,bbox_inches='tight',facecolor='white');fig.savefig(P/'Kremlin-sphere-vs-WGS84.svg',bbox_inches='tight',facecolor='white');print(P/'Kremlin-sphere-vs-WGS84.png')

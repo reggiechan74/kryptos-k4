@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Gondwana Rainforests of Australia \u2014 QLD declared property",
+    "source_url": "https://gis.environment.gov.au/gispubmap/rest/services/ogc_services/World_Heritage_Areas/MapServer/0/query?where=NAME+%3D+%27Gondwana+Rainforests+of+Australia%27&outFields=%2A&outSR=4326&f=geojson",
+    "source_objectid": 37,
+    "source_file": "gondwana_official.geojson",
+    "boundary_kind": "World Heritage declared property (not buffer)",
+    "intersects": false,
+    "intersection_length_km": 0,
+    "intervals": [],
+    "minimum_boundary_distance_km": 0.2406142138495052,
+    "closest_boundary_lonlat": [
+      152.40935580400003,
+      -28.266021877212435
+    ],
+    "nearest_route_lonlat": [
+      152.41124715921984,
+      -28.264640784866653
+    ],
+    "geometry_was_valid": true,
+    "source_precision": "Not stated; no survey-accuracy claim",
+    "sampling_note": "20m route vertices; degree-linear boundary edges subdivided <=0.001 degree, then candidate-edge minima optimized; distances rounded to 0.1km for communication"
+  },
+  {
+    "name": "Gondwana Rainforests of Australia \u2014 NSW declared property",
+    "source_url": "https://gis.environment.gov.au/gispubmap/rest/services/ogc_services/World_Heritage_Areas/MapServer/0/query?where=NAME+%3D+%27Gondwana+Rainforests+of+Australia%27&outFields=%2A&outSR=4326&f=geojson",
+    "source_objectid": 36,
+    "source_file": "gondwana_official.geojson",
+    "boundary_kind": "World Heritage declared property (not buffer)",
+    "intersects": false,
+    "intersection_length_km": 0,
+    "intervals": [],
+    "minimum_boundary_distance_km": 0.7239983222446277,
+    "closest_boundary_lonlat": [
+      152.43375883399995,
+      -28.298747868211855
+    ],
+    "nearest_route_lonlat": [
+      152.4394504928244,
+      -28.294591127842118
+    ],
+    "geometry_was_valid": true,
+    "source_precision": "Not stated; no survey-accuracy claim",
+    "sampling_note": "20m route vertices; degree-linear boundary edges subdivided <=0.001 degree, then candidate-edge minima optimized; distances rounded to 0.1km for communication"
+  },
+  {
+    "name": "Moutere Hauriri / Bounty Islands Marine Reserve",
+    "source_url": "https://services1.arcgis.com/3JjYDyG3oajxU6HO/ArcGIS/rest/services/DOC_Marine_Reserves/FeatureServer/0/query?where=Name+LIKE+%27%25Bounty%25%27&outFields=%2A&outSR=4326&f=geojson",
+    "source_objectid": 1721318,
+    "source_file": "bounty_reserve.geojson",
+    "boundary_kind": "Marine reserve water boundary, not island land or automatically UNESCO boundary",
+    "intersects": true,
+    "intersection_length_km": 34.97165223595948,
+    "intervals": [
+      {
+        "entry_km": 21147.683726371695,
+        "exit_km": 21182.655378607655,
+        "length_km": 34.97165223595948,
+        "entry_lonlat": [
+          179.35821558686484,
+          -47.722525673874074
+        ],
+        "exit_lonlat": [
+          178.9688360863191,
+          -47.54911274554827
+        ]
+      }
+    ],
+    "minimum_boundary_distance_km": 0,
+    "closest_boundary_lonlat": [
+      179.35821061145887,
+      -47.722507541800184
+    ],
+    "nearest_route_lonlat": [
+      179.35819974100698,
+      -47.722518666969194
+    ],
+    "geometry_was_valid": true,
+    "source_precision": "Not stated; no survey-accuracy claim",
+    "sampling_note": "20m route vertices; degree-linear boundary edges subdivided <=0.001 degree, then candidate-edge minima optimized; distances rounded to 0.1km for communication"
+  },
+  {
+    "name": "Cebu City \u2014 municipal administrative boundary",
+    "boundary_kind": "Administrative boundary, not continuous built-up area",
+    "source_url": "https://www.openstreetmap.org/relation/12455830",
+    "source_file": "cebu_boundary_osm.json",
+    "osm_version": 15,
+    "osm_timestamp": "2026-09-06T11:03:46Z",
+    "download_url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A30%5D%3Brel%5B%22boundary%22%3D%22administrative%22%5D%5B%22name%22%3D%22Cebu+City%22%5D%2810.2%2C123.7%2C10.6%2C124.0%29%3Bout+meta+geom%3B",
+    "intersects": true,
+    "intersection_length_km": 21.69174973781628,
+    "intervals": [
+      {
+        "entry_km": 29587.605463376414,
+        "exit_km": 29609.29721311423,
+        "length_km": 21.69174973781628,
+        "entry_lonlat": [
+          123.90682366999197,
+          10.262489318253389
+        ],
+        "exit_lonlat": [
+          123.79350758744515,
+          10.422579610919367
+        ]
+      }
+    ],
+    "minimum_boundary_distance_km": 0,
+    "closest_boundary_lonlat": [
+      123.90663558333333,
+      10.2623699125
+    ],
+    "nearest_route_lonlat": [
+      123.90681918133065,
+      10.262495663740177
+    ],
+    "geometry_was_valid": true,
+    "source_precision": "Not stated; no survey-accuracy claim",
+    "sampling_note": "20m route vertices; degree-linear boundary edges subdivided <=0.001 degree, then candidate-edge minima optimized; distances rounded to 0.1km for communication"
+  },
+  {
+    "name": "Santa Ana de Velasco \u2014 mapped residential area",
+    "boundary_kind": "OSM residential landuse polygon, not municipal or UNESCO boundary",
+    "source_url": "https://www.openstreetmap.org/way/169265789",
+    "source_file": "santa_ana_osm.xml",
+    "osm_version": "11",
+    "osm_timestamp": "2026-10-21T08:10:25Z",
+    "intersects": false,
+    "intersection_length_km": 0,
+    "intervals": [],
+    "minimum_boundary_distance_km": 0.6188758877883759,
+    "closest_boundary_lonlat": [
+      -60.6935423,
+      -16.5810135
+    ],
+    "nearest_route_lonlat": [
+      -60.69824566684515,
+      -16.577749106483626
+    ],
+    "geometry_was_valid": true,
+    "source_precision": "Not stated; no survey-accuracy claim",
+    "sampling_note": "20m route vertices; degree-linear boundary edges subdivided <=0.001 degree, then candidate-edge minima optimized; distances rounded to 0.1km for communication"
+  },
+  {
+    "name": "Santa Ana de Velasco \u2014 church building footprint",
+    "boundary_kind": "Church building, not whole UNESCO property",
+    "source_url": "https://www.openstreetmap.org/way/217998920",
+    "source_file": "santa_ana_osm.xml",
+    "osm_version": "3",
+    "osm_timestamp": "2026-10-20T19:32:48Z",
+    "intersects": false,
+    "intersection_length_km": 0,
+    "intervals": [],
+    "minimum_boundary_distance_km": 1.2555486546206474,
+    "closest_boundary_lonlat": [
+      -60.6875803,
+      -16.582885
+    ],
+    "nearest_route_lonlat": [
+      -60.69712241883105,
+      -16.576262500848017
+    ],
+    "geometry_was_valid": true,
+    "source_precision": "Not stated; no survey-accuracy claim",
+    "sampling_note": "20m route vertices; degree-linear boundary edges subdivided <=0.001 degree, then candidate-edge minima optimized; distances rounded to 0.1km for communication"
+  },
+  {
+    "name": "Main Range Conservation Park",
+    "source_objectid": 384,
+    "source_url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Environment/ParksTerrestrialProtectedAreas/MapServer/10/query?where=estatename+LIKE+%27%25Main+Range%25%27&outFields=%2A&outSR=4326&f=geojson",
+    "source_file": "main_range_park.geojson",
+    "boundary_kind": "Park boundary, distinct from UNESCO property",
+    "source_warning": "Derived from Queensland cadastral database. Not definitive absolute reserve boundary.",
+    "intersects": false,
+    "intersection_length_km": 0,
+    "intervals": [],
+    "minimum_boundary_distance_km": 11.714971038433626,
+    "closest_boundary_lonlat": [
+      152.2344890310001,
+      -27.911058698218927
+    ],
+    "nearest_route_lonlat": [
+      152.14253914773445,
+      -27.978152762531746
+    ],
+    "geometry_was_valid": true,
+    "source_precision": "Not stated; no survey-accuracy claim",
+    "sampling_note": "20m route vertices; degree-linear boundary edges subdivided <=0.001 degree, then candidate-edge minima optimized; distances rounded to 0.1km for communication"
+  },
+  {
+    "name": "Main Range National Park",
+    "source_objectid": 938,
+    "source_url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Environment/ParksTerrestrialProtectedAreas/MapServer/10/query?where=estatename+LIKE+%27%25Main+Range%25%27&outFields=%2A&outSR=4326&f=geojson",
+    "source_file": "main_range_park.geojson",
+    "boundary_kind": "Park boundary, distinct from UNESCO property",
+    "source_warning": "Derived from Queensland cadastral database. Not definitive absolute reserve boundary.",
+    "intersects": true,
+    "intersection_length_km": 1.8336783054946864,
+    "intervals": [
+      {
+        "entry_km": 24319.976693930206,
+        "exit_km": 24321.269486843914,
+        "length_km": 1.2927929137076717,
+        "entry_lonlat": [
+          152.41294592809322,
+          -28.266445421859064
+        ],
+        "exit_lonlat": [
+          152.40452130777592,
+          -28.257494968509388
+        ]
+      },
+      {
+        "entry_km": 24322.74444905242,
+        "exit_km": 24322.973564284337,
+        "length_km": 0.22911523191578453,
+        "entry_lonlat": [
+          152.39491128987532,
+          -28.247282663216495
+        ],
+        "exit_lonlat": [
+          152.3934186700088,
+          -28.245696260800216
+        ]
+      },
+      {
+        "entry_km": 24322.994303873787,
+        "exit_km": 24323.123842432997,
+        "length_km": 0.12953855920932256,
+        "entry_lonlat": [
+          152.39328355974348,
+          -28.245552658304582
+        ],
+        "exit_lonlat": [
+          152.39243967522296,
+          -28.244655720462134
+        ]
+      },
+      {
+        "entry_km": 24323.255095450968,
+        "exit_km": 24323.43732705163,
+        "length_km": 0.18223160066190758,
+        "entry_lonlat": [
+          152.3915846362325,
+          -28.24374690627476
+        ],
+        "exit_lonlat": [
+          152.3903975248668,
+          -28.242485100437424
+        ]
+      }
+    ],
+    "minimum_boundary_distance_km": 0,
+    "closest_boundary_lonlat": [
+      152.39342484300005,
+      -28.245693605712773
+    ],
+    "nearest_route_lonlat": [
+      152.39341970294265,
+      -28.245697358675994
+    ],
+    "geometry_was_valid": true,
+    "source_precision": "Not stated; no survey-accuracy claim",
+    "sampling_note": "20m route vertices; degree-linear boundary edges subdivided <=0.001 degree, then candidate-edge minima optimized; distances rounded to 0.1km for communication"
+  },
+  {
+    "name": "San Agustin Church, Manila \u2014 building footprint",
+    "boundary_kind": "OSM church building, not whole UNESCO property",
+    "source_url": "https://www.openstreetmap.org/way/89571506",
+    "source_file": "san_agustin_osm.json",
+    "osm_version": 29,
+    "osm_timestamp": "2025-04-23T21:06:33Z",
+    "intersects": false,
+    "intersection_length_km": 0,
+    "intervals": [],
+    "minimum_boundary_distance_km": 16.579963434728597,
+    "closest_boundary_lonlat": [
+      120.9750324,
+      14.5890535
+    ],
+    "nearest_route_lonlat": [
+      120.84959231083421,
+      14.502507392942556
+    ],
+    "geometry_was_valid": true,
+    "source_precision": "Not stated; no survey-accuracy claim",
+    "sampling_note": "20m route vertices; degree-linear boundary edges subdivided <=0.001 degree, then candidate-edge minima optimized; distances rounded to 0.1km for communication"
+  }
+]

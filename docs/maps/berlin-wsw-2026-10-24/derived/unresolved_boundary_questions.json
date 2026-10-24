@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Jesuit Missions of the Chiquitos \u2014 complete UNESCO property boundary, Santa Ana component",
+    "status": "unresolved",
+    "reason": "Official UNESCO live core-polygon service returned no polygon for property 529 by ID or exact name. Church building and residential landuse polygons tested and both miss; these do not establish full UNESCO property boundary."
+  },
+  {
+    "name": "Baroque Churches of the Philippines \u2014 complete UNESCO property boundary, San Agustin Manila component",
+    "status": "unresolved",
+    "reason": "Official UNESCO live core-polygon service returned no polygon for property 677 by ID or exact name. Church building footprint tested and misses; not a computed test of full UNESCO boundary."
+  },
+  {
+    "name": "New Zealand Sub-Antarctic Islands \u2014 complete UNESCO marine envelope at Bounty Islands",
+    "status": "intersects by geographic-definition evidence; complete footprint-length unresolved",
+    "reason": "UNESCO explicitly includes marine environment out to 12nm. DOC Bounty marine reserve (subset of territorial sea) intersects. Core-polygon service returns no geometry for property 877; reserve crossing length is not total UNESCO crossing length."
+  },
+  {
+    "name": "Cebu \u2014 continuously built-up urban footprint",
+    "status": "unresolved",
+    "reason": "Municipal administrative polygon intersects for 21.7km, but jurisdiction is not the built-up area. No dedicated built-up polygon used."
+  }
+]

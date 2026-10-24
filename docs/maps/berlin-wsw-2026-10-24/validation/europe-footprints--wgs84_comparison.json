@@ -1,0 +1,30 @@
+{
+  "ellipsoid": "WGS84",
+  "library": "GeographicLib Python 2.1",
+  "initial_bearing_true_degrees": 247.5,
+  "spherical_route_unchanged": true,
+  "investigated_wgs84_distance_interval_m": [
+    38000000,
+    39000000
+  ],
+  "closest_approach_to_Kremlin_reference_point_m": 1727.0131591082186,
+  "closest_approach_to_mapped_Kremlin_polygon_approx_m": 1344.0898722987465,
+  "wgs84_along_distance_at_nearest_m": 38416011.562893935,
+  "closest_wgs84_route_lonlat": [
+    37.61486650336074,
+    55.735976148244895
+  ],
+  "closest_mapped_boundary_lonlat": [
+    37.6136199,
+    55.7480279
+  ],
+  "boundary_sampling_max_degrees": 0.0001,
+  "interpretation": "Miss. Approximate polygon-distance minimization over boundary vertices densified <=11.12m; not a physically surveyed boundary. Near-return passage after westward launch only, not initial reverse67.5-degree branch.",
+  "endpoint_after_sphere_circumference_km": 40030.22888407185,
+  "endpoint_lonlat": [
+    13.500425598278317,
+    52.36945233419738
+  ],
+  "endpoint_distance_from_Berlin_origin_m": 17889.042926668648,
+  "documentation_url": "https://geographiclib.sourceforge.io/html/python/code.html"
+}

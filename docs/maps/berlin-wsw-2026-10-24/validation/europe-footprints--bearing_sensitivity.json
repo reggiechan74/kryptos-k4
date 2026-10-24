@@ -1,0 +1,14 @@
+[
+  {
+    "label": "moscow_kremlin_nominatim.json",
+    "minimum_initial_bearing_deg": 247.47693181289426,
+    "maximum_initial_bearing_deg": 247.50533366247964,
+    "note": "Bearing range for great circles through fixed origin to intersect mapped polygon; fixed spherical model. Boundary sampling uses existing vertices."
+  },
+  {
+    "label": "red_square_nominatim.json",
+    "minimum_initial_bearing_deg": 247.47717968104496,
+    "maximum_initial_bearing_deg": 247.49039852650827,
+    "note": "Bearing range for great circles through fixed origin to intersect mapped polygon; fixed spherical model. Boundary sampling uses existing vertices."
+  }
+]

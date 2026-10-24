@@ -1,0 +1,176 @@
+{
+  "retrieved_utc_date": "2026-10-24",
+  "model": "Sphere R6371.0088km; origin52.521146530576253N,13.4133090391431029E; initial true247.5deg; closed full great circle",
+  "sources": {
+    "osm": "https://www.openstreetmap.org/copyright",
+    "osm_queries": "fetch_candidates.py, fetch_additional.py, raw OSM XML object ids; Nominatim polygons requested with polygon_geojson=1",
+    "berlin": "https://gdi.berlin.de/services/wfs/welterbe?service=WFS&version=2.0.0&request=GetFeature&typeNames=welterbe:welterbe&count=500&outputFormat=application/json&srsName=EPSG:4326",
+    "paris": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/plu-annexes-biens-inscrits-au-patrimoine-mondial/exports/geojson",
+    "unesco": "unesco_layer1_query_url.txt and unesco_layer2_query_url.txt"
+  },
+  "coverage_limitations": [
+    "Not an exhaustive global landmark inventory",
+    "Full Potsdam/Berlin UNESCO property polygon unavailable in queried UNESCO current service; Berlin-only official components and six major individual OSM parks checked",
+    "Kremlin/RedSquare and Novodevichy official UNESCO core unavailable in queried current service; OSM site footprints used, not UNESCO core inferred",
+    "Vilnius municipal ArcGIS publicly discoverable endpoint returned403; no bypass; independent UNESCO published boundary used successfully",
+    "Museum Island official property misses139m while buffer intersects53m; buffer is NOT property",
+    "Narrow Kremlin building clips highly sensitive to geometry and nominal bearing"
+  ],
+  "files": [
+    {
+      "file": "berlin_heritage_official.geojson",
+      "bytes": 387727,
+      "sha256": "ba0b973b0adb9bc7f6fc30e99a77b4faea0c0290a7cf1a780333bcd18c37d383"
+    },
+    {
+      "file": "berlin_wfs_capabilities.xml",
+      "bytes": 96116,
+      "sha256": "1bc67382b6b548c424b8441618d77f712124467104b10c34c9773d706d4e16b5"
+    },
+    {
+      "file": "chartres_cathedral_nominatim.json",
+      "bytes": 10700,
+      "sha256": "b367ec1336adf4d0fe684820363e824862ad59ac43c4a2aa5d607b5b53a6d940"
+    },
+    {
+      "file": "kremlin_bbox_small.osm",
+      "bytes": 7884958,
+      "sha256": "4464e6049a80adf5f5c388f156283781564090143d430c930867908c6b94764d"
+    },
+    {
+      "file": "moscow_city_nominatim.json",
+      "bytes": 422579,
+      "sha256": "1f5c976790328b6f37905a8b7fefa6eba2e58a9e66ade69240f9138f802feffb"
+    },
+    {
+      "file": "moscow_kremlin_nominatim.json",
+      "bytes": 29328,
+      "sha256": "ee12c8f27d8c5c1223f2d4603bc31409de77c955cd33fe536bd827ba1eb1f661"
+    },
+    {
+      "file": "museum_buildings_nominatim.json",
+      "bytes": 13244,
+      "sha256": "5222bcdf5c7144ee183462a8fa17f7347128c197888538ba87ade7f41d39f772"
+    },
+    {
+      "file": "museum_island_nominatim.json",
+      "bytes": 587,
+      "sha256": "d9dccc6119357d97217ace71e5c2f1704e965e4485b9ca54d5b0f9cc33162096"
+    },
+    {
+      "file": "novodevichy_nominatim.json",
+      "bytes": 3136,
+      "sha256": "8aedccdf4367491043301d4b06177a121a6866b7a89bbef07ea40310b938adbb"
+    },
+    {
+      "file": "osm_relations_metadata.xml",
+      "bytes": 95818,
+      "sha256": "03fd6cf9672c0cd0b500f3cf4756bdb375e7512d6d6b551310a9966e0d05e21e"
+    },
+    {
+      "file": "osm_ways_metadata.xml",
+      "bytes": 55284,
+      "sha256": "f67ade2d24bb1eceaca6d1de7011b7b2eb1cefaf189079c9802deff35b5066b4"
+    },
+    {
+      "file": "paris_city_nominatim.json",
+      "bytes": 69170,
+      "sha256": "644af69877a0338559ed5662238f6b812eb5d510cb2dd25015270506c0e5158f"
+    },
+    {
+      "file": "paris_unesco_official.geojson",
+      "bytes": 222476,
+      "sha256": "168696e73425a9a2cc2d49e801006013e993b2032cfb80ed27985a5c66bb5e8d"
+    },
+    {
+      "file": "potsdam_babelsberg_nominatim.json",
+      "bytes": 6737,
+      "sha256": "525553978688c3fd231899d1418c9f867019316d66907cb4825e49e90f966e13"
+    },
+    {
+      "file": "potsdam_glienicke_nominatim.json",
+      "bytes": 2991,
+      "sha256": "674d54328008525da00d0f0cb1e567e3485390277172c7f2bc3356a317e729ba"
+    },
+    {
+      "file": "potsdam_heritage_nominatim.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "potsdam_neuergarten_nominatim.json",
+      "bytes": 6506,
+      "sha256": "eb3fc9dc994c3f1a3af442abb98cc64642727248cb7696abe6534e3df3578088"
+    },
+    {
+      "file": "potsdam_peacock_nominatim.json",
+      "bytes": 18503,
+      "sha256": "53255abc360b277f3534b9653eec5f407a025da5d3a74f31a23480538914c666"
+    },
+    {
+      "file": "potsdam_sacrow_nominatim.json",
+      "bytes": 2914,
+      "sha256": "6b4845f84b2bbd2dfa5109c19eb1198bd42edac52cfe5957b3398afb59039559"
+    },
+    {
+      "file": "potsdam_sanssouci_nominatim.json",
+      "bytes": 7486,
+      "sha256": "e69b7def8afc0d6bb392b086f45b8c798a09c70cde391b4c5a9c42fc64c9608c"
+    },
+    {
+      "file": "red_square_nominatim.json",
+      "bytes": 4629,
+      "sha256": "50205717dd9b81b5f45cdad1568663537eb75252df1ab06243c3374aec65bc5e"
+    },
+    {
+      "file": "relation_1149002.osm",
+      "bytes": 54386,
+      "sha256": "85cb5367ad410082207a7e2de62457e6bd314e6eef19ccae16c2124f8d08255a"
+    },
+    {
+      "file": "relation_1360641.osm",
+      "bytes": 432151,
+      "sha256": "439175fd1f6cf5766654dec26cdaa64b49baf6f9bd54a6c14ace52c18700300e"
+    },
+    {
+      "file": "relation_1577673.osm",
+      "bytes": 45844,
+      "sha256": "1798bd5e95a4edf4959f00225d7173c4a37a6fedf98e546f466ae2750bb6d6eb"
+    },
+    {
+      "file": "relation_7392626.osm",
+      "bytes": 53932,
+      "sha256": "40f80efac7096c346354db4eab5b8bc704c1e5bc1cb1836a80f073006f516af7"
+    },
+    {
+      "file": "unesco_layer1_official.geojson",
+      "bytes": 110889,
+      "sha256": "187ba0422b15d333cf6d9860438caecd71c10f12dd71231e48e87a387bc85e43"
+    },
+    {
+      "file": "unesco_layer2_official.geojson",
+      "bytes": 183892,
+      "sha256": "b52e43e704c393f5ae267326dc4bed8cf985994eed34ca5df1857ffa70a26782"
+    },
+    {
+      "file": "versailles_gardens_nominatim.json",
+      "bytes": 9086,
+      "sha256": "49fc41f660645b48bff01d57527d4713b82b8a79b522ccccaa140b26a8f5989a"
+    },
+    {
+      "file": "versailles_palace_nominatim.json",
+      "bytes": 5590,
+      "sha256": "60f67a61421da48275631c3f1ebd4b3ce297752c04e43bd0d756c46fc0f63e10"
+    },
+    {
+      "file": "versailles_park_nominatim.json",
+      "bytes": 3455,
+      "sha256": "1d94909ba2fb98bb3b50653e16ac8f84e1c7280265f6ed12f39f114354deebeb"
+    },
+    {
+      "file": "vilnius_old_town_nominatim.json",
+      "bytes": 572,
+      "sha256": "ff4969ecbd277697b44ddb89154c73a3227ef410fda58d62c44814a6e8cca1d2"
+    }
+  ]
+}

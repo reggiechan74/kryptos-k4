@@ -1,0 +1,170 @@
+[
+  {
+    "file": "footprint_results.json",
+    "bytes": 11235,
+    "sha256": "5d4a6fc407439d0d6939be2b22b36ca733fb73e06e925567105d5af8f755b6c5",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": null
+  },
+  {
+    "file": "numerical_validation.json",
+    "bytes": 1747,
+    "sha256": "a46960f78497fd7cd82fc453b1df1b61e6c7d00fa9f94267ef2a9d2537599d07",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": null
+  },
+  {
+    "file": "cebu_boundary_osm.json",
+    "bytes": 41968,
+    "sha256": "d07d9eb19146351e69abb8f92ca9b53e52147e45488ce4cb92fac89c37900c24",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A30%5D%3Brel%5B%22boundary%22%3D%22administrative%22%5D%5B%22name%22%3D%22Cebu+City%22%5D%2810.2%2C123.7%2C10.6%2C124.0%29%3Bout+meta+geom%3B"
+  },
+  {
+    "file": "unesco_selected_points_metadata.json",
+    "bytes": 10585,
+    "sha256": "0951e8aa779e80d16dba388207d442460f625d2165180ee2506c9307f24da2e3",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://services6.arcgis.com/eMd5K6XXEvJETxfQ/arcgis/rest/services/prd_whc_sites_dossiers_elements_v2_view/FeatureServer/0/query?where=property_id+IN+%28529%2C368%2C877%2C677%29&outFields=property_id%2Cdossier%2Celement_id%2Celement_name_en%2Cproperty_name_en&returnGeometry=false&f=json"
+  },
+  {
+    "file": "au_wha_metadata.json",
+    "bytes": 9206,
+    "sha256": "ebf2ee165a837dcc38812fc9dfaf18935be2831908bfd724fbdfe529509f64fb",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://gis.environment.gov.au/gispubmap/rest/services/ogc_services/World_Heritage_Areas/MapServer/0?f=pjson"
+  },
+  {
+    "file": "qld_parks_metadata.json",
+    "bytes": 20408,
+    "sha256": "8d3b7f3272f4d52d27cd0888d2a5c03dc9b5fc012fc9d660bf9a4ea2c111386b",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Environment/ParksTerrestrialProtectedAreas/MapServer/10?f=pjson"
+  },
+  {
+    "file": "san_agustin_osm.json",
+    "bytes": 6034,
+    "sha256": "74ab5e93f54a70e90636e2e59dff14cdc71a03fb5ba732aa189acaff82449546",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://api.openstreetmap.org/api/0.6/way/89571506/full.json"
+  },
+  {
+    "file": "unresolved_boundary_questions.json",
+    "bytes": 1484,
+    "sha256": "a63ee124fecf1f619997669c432eac55805c2779591682636170a3e7859181ed",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": null
+  },
+  {
+    "file": "verified_footprints.geojson",
+    "bytes": 2335692,
+    "sha256": "ef5e289e3487268ac87b003f340b6244c35b14a49b09db2a06c4da1715c26755",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": null
+  },
+  {
+    "file": "bounty_reserve.geojson",
+    "bytes": 18665,
+    "sha256": "f3dc9fd1f43072d6a25f0b33ad3c4e833cdc635a228323e2b5ce7948b42b8c19",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://services1.arcgis.com/3JjYDyG3oajxU6HO/ArcGIS/rest/services/DOC_Marine_Reserves/FeatureServer/0/query?where=Name+LIKE+%27%25Bounty%25%27&outFields=%2A&outSR=4326&f=geojson"
+  },
+  {
+    "file": "cebu_boundary.geojson",
+    "bytes": 18626,
+    "sha256": "c7269a7b28d9f995c544ed91b9cdd631640073d5cc9853ef98cd70a2fedecc95",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": null
+  },
+  {
+    "file": "main_range_park.geojson",
+    "bytes": 161026,
+    "sha256": "c7190948ae8632bd28ae4a9efc931646b2189ad496622a1581576a502c6c1fa8",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Environment/ParksTerrestrialProtectedAreas/MapServer/10/query?where=estatename+LIKE+%27%25Main+Range%25%27&outFields=%2A&outSR=4326&f=geojson"
+  },
+  {
+    "file": "unesco_selected.geojson",
+    "bytes": 98,
+    "sha256": "1ce7eb457779acd1dc230a1bcb4692d06f27533481f26cbfe0e9e599134c0cd4",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://services6.arcgis.com/eMd5K6XXEvJETxfQ/arcgis/rest/services/prd_whc_sites_dossiers_elements_v2_view/FeatureServer/1/query?where=property_id+IN+%28529%2C368%2C877%2C677%29&outFields=OBJECTID%2Cproperty_id%2Celement_id%2Celement_name_en%2Cproperty_name_en%2Celement_precision_publish%2Celement_CoreArea&outSR=4326&f=geojson"
+  },
+  {
+    "file": "bounty_reserve_metadata.json",
+    "bytes": 28249,
+    "sha256": "e82cf94fb3a16f0ad52aea4949e85ca9d807b62a1648563445d2b6b628cdda7c",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://services1.arcgis.com/3JjYDyG3oajxU6HO/ArcGIS/rest/services/DOC_Marine_Reserves/FeatureServer/0?f=pjson"
+  },
+  {
+    "file": "miss_connectors.geojson",
+    "bytes": 2047,
+    "sha256": "8ab57e77c921e90928aba576b2c6d65218ecb36010d7618a31bebe7f58d01a67",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": null
+  },
+  {
+    "file": "unesco_layer1_metadata.json",
+    "bytes": 41714,
+    "sha256": "8da0d55ab6119548c8eae0d5957802b3ad4c9a836693f2235644c64190837d2f",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://services6.arcgis.com/eMd5K6XXEvJETxfQ/arcgis/rest/services/prd_whc_sites_dossiers_elements_v2_view/FeatureServer/1?f=pjson"
+  },
+  {
+    "file": "unesco_navigator_config.json",
+    "bytes": 487652,
+    "sha256": "2cca5fd0655fa9fdeaa579aa05a7a634258dfc5f59b80d56746d564fda031a48",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/4f1652275d1f4656964b64a20a7346d3/data?f=json"
+  },
+  {
+    "file": "santa_ana_osm.xml",
+    "bytes": 295346,
+    "sha256": "9062bb88f1d254ef6a7d60a331824b45501e38cb2477ef6e05fb4d8ccd0b19a3",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-60.690%2C-16.585%2C-60.684%2C-16.582"
+  },
+  {
+    "file": "unesco_layer0_metadata.json",
+    "bytes": 40674,
+    "sha256": "8af0adb7b6527af2214271298e3cec005eeb4e7b3354cafe73bf3803106b6255",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://services6.arcgis.com/eMd5K6XXEvJETxfQ/arcgis/rest/services/prd_whc_sites_dossiers_elements_v2_view/FeatureServer/0?f=pjson"
+  },
+  {
+    "file": "unesco_layer2_metadata.json",
+    "bytes": 41525,
+    "sha256": "e2f6a0d23eda65c4eefdb24791291c342d09a0ec017a82b0998e0dc7594a414e",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://services6.arcgis.com/eMd5K6XXEvJETxfQ/arcgis/rest/services/prd_whc_sites_dossiers_elements_v2_view/FeatureServer/2?f=pjson"
+  },
+  {
+    "file": "gondwana_official.geojson",
+    "bytes": 2083874,
+    "sha256": "94fddf1ac6d701abe770c65044fba9e34b482f3a9d803d8d93e86e1a96cb18b1",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://gis.environment.gov.au/gispubmap/rest/services/ogc_services/World_Heritage_Areas/MapServer/0/query?where=NAME+%3D+%27Gondwana+Rainforests+of+Australia%27&outFields=%2A&outSR=4326&f=geojson"
+  },
+  {
+    "file": "santa_ana_church.geojson",
+    "bytes": 1596,
+    "sha256": "da3422a897dc23f46d55f77cc38d5f19c7c749290ee1e603c5d62933e34cb573",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": null
+  },
+  {
+    "file": "unesco_selected_by_name.geojson",
+    "bytes": 98,
+    "sha256": "1ce7eb457779acd1dc230a1bcb4692d06f27533481f26cbfe0e9e599134c0cd4",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": "https://services6.arcgis.com/eMd5K6XXEvJETxfQ/arcgis/rest/services/prd_whc_sites_dossiers_elements_v2_view/FeatureServer/1/query?where=property_name_en+IN+%28%27Gondwana+Rainforests+of+Australia%27%2C%27Jesuit+Missions+of+the+Chiquitos%27%2C%27New+Zealand+Sub-Antarctic+Islands%27%2C%27Baroque+Churches+of+the+Philippines%27%29&outFields=OBJECTID%2Cproperty_id%2Cdossier_id%2Cdossier%2Celement_id%2Celement_name_en%2Cproperty_name_en%2Celement_precision_publish%2Celement_CoreArea&outSR=4326&f=geojson"
+  },
+  {
+    "file": "verified_intersection_segments.geojson",
+    "bytes": 124679,
+    "sha256": "2a21b293db8c33378316584dcab76becdfb067bb833f09ccc26a7efe2fd9c50e",
+    "retrieved_or_generated_utc_date": "2026-10-24",
+    "url": null
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "max_forward_formula_coordinate_error_degrees": 5.684341886080802e-14,
+  "numeric_initial_bearing_degrees": 247.4999999838415,
+  "closed_endpoint_coordinate_error_degrees": 1.9539925233402755e-14,
+  "route_vertices": 80002,
+  "country_land_segment_count": 45,
+  "unique_country_count": 17,
+  "southern_vertex": {
+    "distance_km": 18196.77572898714,
+    "lonlat": [
+      -139.0240688872897,
+      -55.795269176395955
+    ]
+  },
+  "northern_vertex": {
+    "distance_km": 38211.89017102306,
+    "lonlat": [
+      40.97593111271041,
+      55.795269176395955
+    ]
+  },
+  "antipode": {
+    "distance_km": 20015.114442035923,
+    "lonlat": [
+      -166.5866909608569,
+      -52.52114653057626
+    ]
+  }
+}
