@@ -1,0 +1,36 @@
+{
+  "transfer": "Inline parent source report/code/transcription/receipt, outcomes known at receipt; no archive SHA supplied",
+  "recorded_at_utc": "2026-10-24T02:34:11.714023+00:00",
+  "transport": "XML escaped operator decoded once in source script; report prose and JSON fields retained",
+  "files": {
+    "friedman_reference_source_qa.py": {
+      "bytes": 2797,
+      "sha256": "7b99180040c60ef075ceab52256ccf6cd4b9b412effab931841bb76ed1c6aca7"
+    },
+    "visual-transcription.json": {
+      "bytes": 1721,
+      "sha256": "c63272e7c8a7fd3b4bfba9e7fcbdf310fd0b67407683867ad167c07e20d69563"
+    },
+    "README.md": {
+      "bytes": 1636,
+      "sha256": "6ef9b26dc1120e077cdade1cc9326ae94149a006340001a5bcaa99a50a495118"
+    },
+    "friedman-reference-source-qa.json": {
+      "bytes": 3288,
+      "sha256": "8b39eaa1173546e7520c040ee8491bec41af7590127b49526152f8c68eaefeec"
+    },
+    "AUTHOR-REPORT.md": {
+      "bytes": 13723,
+      "sha256": "d3fcdb501aa9c7a91d02a56845a5f506976dfcd68739f67e583b863c0ba52954"
+    }
+  },
+  "not_supplied": [
+    "original PDFs",
+    "images/crops",
+    "SOURCE-MANIFEST.json from producer",
+    "K4-ITEM7-M138-VISUAL-CHECK.md",
+    "K4-ITEM7-PLETT-SOURCE-CHECK.md",
+    "K4-ITEM7-CREATOR-SOURCE-CHECK.md"
+  ],
+  "original_script_not_edited": true
+}

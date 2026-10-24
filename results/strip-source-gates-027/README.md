@@ -1,3 +1,5 @@
+Current item 7 result: [source-integrated findings](../../research/STRIP-SOURCE-GATES-027-FINDINGS.md), [source QA](../ITEM7-HISTORICAL-SOURCE-QA-027.json). The original pre-source conditional replay below remains unchanged.
+
 # Item 7 conditional strip checkpoint
 
 This directory does not claim a completed historical M-138-A investigation. [Frozen conditional specification](../../research/STRIP-SOURCE-GATES-027-SPEC.md), [pending-source checkpoint](../../research/STRIP-SOURCE-GATES-027-PROGRESS.md).

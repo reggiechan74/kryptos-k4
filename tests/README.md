@@ -119,3 +119,7 @@ Historical artifact checks validate the shared `run_io.py` / `run_bounded.py` by
 ## Item 6 checkpoint
 
 [Item 6 tests](test_tree_geometry_ipa.py) check dynamic topology, causal inverse, independent reference, exact original artifact hashes, failed-control staging, full candidate sets and historical period scope.
+
+## Item 7 checkpoint
+
+[Conditional strip controls](test_strip_source_gates.py) and [historical source QA/admission tests](test_item7_historical_source_qa.py) preserve raw ambiguities, source conflicts and unavailable binary metadata. No network retrieval is required for regression.

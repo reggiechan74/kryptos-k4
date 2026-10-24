@@ -163,3 +163,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Item 6 checkpoint
 
 [Item 6 native mechanisms](tree_geometry_ipa.py), [nested-tree/bit/UTF8 reference](tree_geometry_ipa_reference.py), [runner](run_tree_geometry_ipa.py), [direct audit](audit_tree_geometry_ipa.py). Read the frozen model and historical limitations before replay.
+
+## Item 7 checkpoint
+
+[Conditional strip engine](strip_source_gates.py), [runner](run_strip_source_gates.py), [arithmetic/resource replay](audit_strip_source_gates.py), [candidate-row relation](strip_row_candidates.py), [strict transcription gate](strip_inventory_admission.py) and [historical source QA](item7_historical_source_qa.py). No full authenticated M-138-A inventory is supplied.

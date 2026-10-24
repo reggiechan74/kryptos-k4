@@ -85,3 +85,7 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Item 6 checkpoint
 
 [Item 6 run receipts](tree-geometry-ipa-026/README.md) preserve the failed pre-K4 control attempt separately from the complete run, all 448 models, plants and nulls. [Independent post-outcome audit](TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json).
+
+## Item 7 checkpoint
+
+[Item 7 original conditional receipts](strip-source-gates-027/README.md), [post-source QA](ITEM7-HISTORICAL-SOURCE-QA-027.json), [local visual/access review](ITEM7-LOCAL-SOURCE-REVIEW.json). Zero strip-key enumeration; no completed historical inventory or universal exclusion.

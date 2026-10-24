@@ -1,0 +1,50 @@
+{
+  "recorded_at_utc": "2026-10-24T02:34:11.715030+00:00",
+  "not_an_original_experiment_timestamp": true,
+  "srh366": {
+    "url": "https://archive.org/download/ticom/Srh-366UsArmyStripCiphers1934-1947.pdf",
+    "locally_downloaded": true,
+    "bytes": 181208477,
+    "sha256": "d2165cd0558a4697ed99954da6184a11cc1ee7d82f46c4dfda82f19f2b8f8d73",
+    "pdf_pages": 310,
+    "physical_pages_visually_inspected": [
+      101,
+      102
+    ],
+    "printed_pages": [
+      83,
+      84
+    ],
+    "claim": "July1943 SIGUHR-2 rule forbids zero and twenty-six intervals",
+    "exact_short_quote": "Intervals of zero and of twenty-six must never be selected.",
+    "private_original_not_committed": true,
+    "not_exhaustive_reading": true,
+    "renderer": "Local macOS PDFKit thumbnail, no image alteration beyond standard page rendering"
+  },
+  "nsa_a67592": {
+    "url": "https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/friedman-documents/patent-equipment/FOLDER_084/41702569074189.pdf",
+    "web_text_read": true,
+    "local_download": "HTTP403; stopped, no alternate route",
+    "local_visual_inspection": false,
+    "worker_visual_transcription_attributed": true,
+    "worker_sha256_not_rehashed_locally": "7496f96ff38585cc3732391c0d4f17500cb94c6bd30505ef8cd3e214225b1a1a"
+  },
+  "nsa_a67293": {
+    "url": "https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/friedman-documents/reports-research/FOLDER_467/41731179077042.pdf",
+    "web_text_read": true,
+    "local_visual_inspection": false,
+    "straight_split_channel_elimination_findings": "Attributed to worker image inspection, not fully legible in local OCR"
+  },
+  "wheatstone_legacy": {
+    "local_original_binary_not_available": true,
+    "worker_visual_transcription_attributed": true,
+    "source_pdf_sha256_worker_declared": "8227841a8e7e34934055cee67a188fcde566caebbe9f7a6c2ec62b9faae31298",
+    "source_only_arithmetic_replayed": true
+  },
+  "creator_sources": {
+    "smithsonian_oral_history": "Local web fetch HTTP500; creator-book observations remain worker-attributed",
+    "scheidt_wired": "Local interview text corroborates English messages and lack of final-change verification; no general intermediate-language exclusion"
+  },
+  "site_changed": false,
+  "item_8_started": false
+}

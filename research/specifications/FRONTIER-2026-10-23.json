@@ -1,8 +1,8 @@
 {
   "id": "FRONTIER-024",
-  "reviewed_main_commit": "9e775c4714b44d2e22b39cbcc7e4db999789d753",
+  "reviewed_main_commit": "8ba613df2549f3ab7b111923094397722d66586c",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Current inventory after item 6: finite splay tree and nonlinear geometry negatives plus explicitly modern pronunciation-key diagnostic; no solution or automatic further search. Historical/physical and complete solver gates remain unresolved.",
+  "decision": "After item7: documented direct nonzero strip procedure excluded, historical partial-source QA validated; missing full inventories/distinct operations and book/sign/German model selection remain explicit. No new key sweep, solution or automatic launch.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -173,14 +173,20 @@
       ],
       "blocker_type": "source_complete_distinct_procedure_or_inventory",
       "ready_for_new_K4_evaluation": false,
-      "missing": "For a new strip model: an authentic versioned valid inventory and operating vector. For a new Wheatstone/Plett model: a sourced operation outside the fixed-transition invariant, or a justified processed-index map.",
+      "missing": "A source-backed operation outside completed fixed-point/fixed-transition proofs, with its declared preprocessing/alignment and exact inventory/vector. Missing full M138A table does not block the completed nonzero-row invariant. Original M138 and Wheatstone figures retain unresolved glyphs/source conflict.",
       "available": [
         "research/WHEATSTONE-TRANSITION-FINDINGS.md",
         "sources/wheatstone-historical-conventions-2026-10-23.json",
         "data/m94-source-quality.json",
-        "research/JOINT-STATE-NONROTOR-FINDINGS.md"
+        "research/JOINT-STATE-NONROTOR-FINDINGS.md",
+        "research/STRIP-SOURCE-GATES-027-SPEC.md",
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md",
+        "results/ITEM7-HISTORICAL-SOURCE-QA-027.json",
+        "results/ITEM7-LOCAL-SOURCE-REVIEW.json",
+        "tests/test_item7_historical_source_qa.py",
+        "tests/test_strip_source_gates.py"
       ],
-      "next_deliverable": "Authenticate the exact variant and independent worked vector before specifying a bounded key domain; demonstrate why it is not already covered by a key-independent invariant.",
+      "next_deliverable": "Authenticate an actually outside-invariant procedure and then an exact bounded key domain; do not repair tables or resweep excluded fixed mechanics.",
       "go_no_go": "Do not repair the two defective M-94 rows by guessing. A corrected inventory would not rescue the already excluded common-row model. Obtaining the 1879 chapter alone does not remove Wheatstone's fixed-transition contradiction. Do not reopen denied sources or switch transport.",
       "safe_replay_argv": [
         "python3",
@@ -226,7 +232,9 @@
         "research/TREE-GEOMETRY-IPA-026-FINDINGS.md",
         "results/tree-geometry-ipa-026/README.md",
         "results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json",
-        "tests/test_tree_geometry_ipa.py"
+        "tests/test_tree_geometry_ipa.py",
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md",
+        "independent/2026-10-24/item7-historical-sources/AUTHOR-REPORT.md"
       ],
       "next_deliverable": "New historically justified rule or source, outside finite splay/ARX/modern-IPA diagnostic coverage; no adaptive extra operators/serializer or implicit phonetic alignment.",
       "go_no_go": "Reject undefined ordering/framing or non-unique spelling recovery as a specification gap; preserve ambiguity rather than silently choosing aliases or intermediate offsets. No new dialects, glyph orders or tree rules solely to rescue a negative.",
@@ -278,7 +286,9 @@
       "missing": "An independently supported edition, pagination, extraction and invertible framing; a source cannot be chosen because its key fits the cribs.",
       "available": [
         "research/UNRUN-GAPS-2026-10-23.md",
-        "research/BOUNDED-FINDINGS.md"
+        "research/BOUNDED-FINDINGS.md",
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md",
+        "independent/2026-10-24/item7-historical-sources/AUTHOR-REPORT.md"
       ],
       "next_deliverable": "Authenticate one source and reproduce a published encoding example before freezing a small extraction/key domain.",
       "go_no_go": "No mass book corpus, guessed offsets or independent per-letter book choices. The 28,488 negative literal running-key cases do not exclude an independently grounded book cipher.",

@@ -1,0 +1,149 @@
+{
+  "purpose": "Historical source QA; no K4 search",
+  "source_url": "https://www.nsa.gov/portals/75/documents/resources/everyone/digital-media-center/video-audio/historical-audio/friedman-legacy/friedman-legacy-transcript.pdf",
+  "source_pdf_bytes": 33640048,
+  "source_pdf_sha256": "8227841a8e7e34934055cee67a188fcde566caebbe9f7a6c2ec62b9faae31298",
+  "printed_pages": {
+    "encipherment": 141,
+    "decipherment_and_figure": 144
+  },
+  "physical_pdf_pages_one_based": {
+    "encipherment": 152,
+    "decipherment_and_figure": 155
+  },
+  "initial_plaintext_pointer": "G",
+  "initial_ciphertext_pointer": "A",
+  "outer_clockwise": "_ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "inner_clockwise_from_A_with_occlusion": "AGMUCIP?EJQXFBKSYNHOVRDLTZ",
+  "occluded_index": 7,
+  "occluded_letter_if_full_permutation": "W",
+  "occluded_letter_used_by_vector": false,
+  "plaintext": "REFERENCE",
+  "printed_encipherment_string": "XZZZBGQAM",
+  "printed_decipherment_string": "XZAABGQAM",
+  "computed_ciphertext": "XZAABGQAM",
+  "source_conflict": "Both differing strings visually confirmed in original PDF; p141 is inconsistent with figure112 and procedure; p144 reproduces.",
+  "forward_trace": [
+    {
+      "position": 1,
+      "plain": "R",
+      "steps": 11,
+      "inner_index": 11,
+      "cipher": "X"
+    },
+    {
+      "position": 2,
+      "plain": "E",
+      "steps": 14,
+      "inner_index": 25,
+      "cipher": "Z"
+    },
+    {
+      "position": 3,
+      "plain": "F",
+      "steps": 1,
+      "inner_index": 0,
+      "cipher": "A"
+    },
+    {
+      "position": 4,
+      "plain": "E",
+      "steps": 26,
+      "inner_index": 0,
+      "cipher": "A"
+    },
+    {
+      "position": 5,
+      "plain": "R",
+      "steps": 13,
+      "inner_index": 13,
+      "cipher": "B"
+    },
+    {
+      "position": 6,
+      "plain": "E",
+      "steps": 14,
+      "inner_index": 1,
+      "cipher": "G"
+    },
+    {
+      "position": 7,
+      "plain": "N",
+      "steps": 9,
+      "inner_index": 10,
+      "cipher": "Q"
+    },
+    {
+      "position": 8,
+      "plain": "C",
+      "steps": 16,
+      "inner_index": 0,
+      "cipher": "A"
+    },
+    {
+      "position": 9,
+      "plain": "E",
+      "steps": 2,
+      "inner_index": 2,
+      "cipher": "M"
+    }
+  ],
+  "inverse_trace": [
+    {
+      "position": 1,
+      "cipher": "X",
+      "steps": 11,
+      "plain": "R"
+    },
+    {
+      "position": 2,
+      "cipher": "Z",
+      "steps": 14,
+      "plain": "E"
+    },
+    {
+      "position": 3,
+      "cipher": "A",
+      "steps": 1,
+      "plain": "F"
+    },
+    {
+      "position": 4,
+      "cipher": "A",
+      "steps": 26,
+      "plain": "E"
+    },
+    {
+      "position": 5,
+      "cipher": "B",
+      "steps": 13,
+      "plain": "R"
+    },
+    {
+      "position": 6,
+      "cipher": "G",
+      "steps": 14,
+      "plain": "E"
+    },
+    {
+      "position": 7,
+      "cipher": "Q",
+      "steps": 9,
+      "plain": "N"
+    },
+    {
+      "position": 8,
+      "cipher": "A",
+      "steps": 16,
+      "plain": "C"
+    },
+    {
+      "position": 9,
+      "cipher": "M",
+      "steps": 2,
+      "plain": "E"
+    }
+  ],
+  "recovered_plaintext": "REFERENCE",
+  "classification": "Independent historical worked vector for the fixed-ring Wheatstone model; not Pletts KAT and not a materially different operation"
+}

@@ -6,6 +6,8 @@ Current item 5 update (24 October 2026): [three complete exploratory lamp/Greek 
 
 Current item 6 update (24 October 2026): [dynamic splay, full-state geometry and modern pronunciation-key diagnostics](TREE-GEOMETRY-IPA-026-FINDINGS.md) are complete bounded negatives. These do not close broader tree/geometry/IPA families. [Current readiness snapshot 026](../results/FRONTIER-026.json) is an inventory, not a new search authorization.
 
+Current item 7 update (24 October 2026): [source-backed strip boundary and historical source QA](STRIP-SOURCE-GATES-027-FINDINGS.md) are complete. Missing full M-138-A inventories, distinct Pletts operations and exact book/sign/German mechanisms remain explicit gates; [snapshot 027](../results/FRONTIER-027.json) does not authorize a new search.
+
 23 October 2026, after verified main `5d772196d40c732a6460e947d3152140b77439d6`.
 
 **K4 remains unsolved.** Review of all 60 current registered hypotheses found no new evidence-grounded K4 experiment ready with the inputs, implemented algorithms and access presently available. This is a practical research assessment, not a proof that every cipher has been exhausted. The standing authorization to continue is not the missing ingredient. No new K4 search ran for this report.

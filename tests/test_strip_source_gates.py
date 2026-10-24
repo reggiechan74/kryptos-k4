@@ -52,3 +52,7 @@ class ConditionalStripTests(unittest.TestCase):
   d=inspect_inventory([dict(id='test',literal=s.AZ*2)],'SYNTHETIC-CONTROL','synthetic-control')
   self.assertTrue(d['valid_permutations']);self.assertIn('Not established',d['source_authentication'])
   with self.assertRaises(ValueError):inspect_inventory([dict(id='a',literal=s.AZ),dict(id='a',literal=s.AZ)],'test','test')
+
+ def test_empty_inventory_never_authenticates(self):
+  from strip_inventory_admission import inspect_inventory
+  with self.assertRaises(ValueError):inspect_inventory([],'test','test')

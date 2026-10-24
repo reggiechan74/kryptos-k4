@@ -1,0 +1,21 @@
+{
+  "kind": "Item7 source-conditioned strip proof and partial historical QA; other mechanisms source-gated",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 24,
+    "analytical exclusion": 13,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "16b939f8d5710cfd5e06b0d0a857c3a9334c63cc4a0b1213b34fff64b6ed9a9a"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-026.json",
+  "previous_snapshot_commit": "8ba613df2549f3ab7b111923094397722d66586c",
+  "actual_key_enumerations": 0,
+  "complete_M138A_inventory_admitted": false,
+  "source_fixed_book_sign_german_cipher_tests": 0,
+  "site_changed": false,
+  "item_8_started": false
+}

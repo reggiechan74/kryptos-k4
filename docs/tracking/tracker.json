@@ -177,36 +177,36 @@
       "Status": "analytical exclusion",
       "Mechanism": "Fixed 27/26 geared rings with displacement determined by the adjacent processed plaintext pair; both ring alphabets and starting phases may be arbitrary.",
       "Evidence": "Published MysteryTwister/CrypTool reconstruction and worked vectors; institutional historical context; original 1879 full operating text and authentic Plett variants not completely recovered.",
-      "Tested scope": "WHEATSTONE-TRANSITION-008: ST at positions 24–25 and 33–34 has opposed ciphertext equality (RV versus SS), impossible for one fixed displacement. Covers arbitrary fixed outer/inner permutations without key enumeration, beyond the finite outer dictionary in pinned prior art. Two external worked vectors and complete small systems pass; no Berlin evaluation.",
+      "Tested scope": "WHEATSTONE-TRANSITION-008 excludes arbitrary fixed rings by opposed ST ciphertext equality at 24–25/33–34; two modern external vectors and complete tiny systems pass. Item 7 adds a historical Friedman REFERENCE vector and both directions, preserving one unused occluded slot and conflicting printed ciphertext. No distinct Pletts or new K4 sweep.",
       "Untested scope": "State-dependent/hidden extra moves, changing rings, outer layers and preprocessing that changes the processed-text anchors; no universal Wheatstone/Plett/Wadsworth exclusion.",
-      "Missing inputs": "A complete independently sourced materially different historical procedure and external vectors before testing such variants.",
+      "Missing inputs": "A complete independently sourced materially different operation, including preprocessing/alignment and external vector; mixed fixed alphabets alone are already covered. The historical partial-ring example does not supply a distinct Pletts rule.",
       "Next discriminating test": "Stop the aligned fixed-ring domain; pursue exact original operating conventions only if they establish a distinct mechanism rather than duplicate alphabets/directions.",
       "Dependencies": "Adjacent disclosed processed letters aligned with adjacent ciphertext; spaces emit symbols and no silent gap motion is invented; repeated-letter preprocessing is lossy.",
-      "Results": "[Source audit, proof and limits](WHEATSTONE-TRANSITION-FINDINGS.md), [exact certificate](../results/WHEATSTONE-TRANSITION-008.json), [source receipts](../sources/wheatstone-historical-conventions-2026-10-23.json), and [prior alphabet-direction audit](../sources/wheatstone-direction-coverage-review.json)."
+      "Results": "[Original proof and limits](WHEATSTONE-TRANSITION-FINDINGS.md), [item 7 historical QA and source conflict](STRIP-SOURCE-GATES-027-FINDINGS.md), [new trace](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json), [old source receipts](../sources/wheatstone-historical-conventions-2026-10-23.json)."
     },
     {
       "id": "H-M94-CYCLIC",
       "Status": "analytical exclusion",
       "Mechanism": "A cyclic permutation alphabet per disc, one shared row displacement within each 25-letter block.",
       "Evidence": "Original 1942 FM24-5 Section V describes the mechanism; no Sanborn-use evidence. The museum transcription has two non-permutation rows and is not admitted as a key set.",
-      "Tested scope": "Fixed and changed letters in the same block exclude every valid disc permutation/order, even permitting zero displacement; symbolic invariant, zero key enumeration. This is reused fixed-point reasoning, not a new cryptographic theorem.",
+      "Tested scope": "Fixed/changed pairs exclude every valid disc permutation/order for the original width 25/origin 1 common-row family, even permitting zero. Item 7 separately proves changed/fixed/changed at 32–34 rejects all widths>=2 and registrations under the same common-block condition. No key enumeration or new theorem claimed.",
       "Untested scope": "Outer substitutions/routes, different framing, per-letter row choices and other device variants; no blanket strip-cipher exclusion.",
       "Missing inputs": "Independently validated inventory is needed for other table-specific models, not for this invariant.",
       "Next discriminating test": "Resolve original source/table provenance before a materially different sourced strip model; do not repair alphabets to fit K4.",
       "Dependencies": "Fixed literal A-Z cribs, block origin 1 and common row within each 25-letter block; no Site dependency.",
-      "Results": "[Frozen pivot](NONROTOR-STRUCTURAL-SPEC.md), [findings and limits](JOINT-STATE-NONROTOR-FINDINGS.md), [raw proof](../results/NONROTOR-STRUCTURAL-004.json), [rejected source strings](../data/m94-source-quality.json)."
+      "Results": "[Original findings](JOINT-STATE-NONROTOR-FINDINGS.md), [old raw proof](../results/NONROTOR-STRUCTURAL-004.json), [item 7 all-registration supplement](STRIP-SOURCE-GATES-027-FINDINGS.md), [rejected original transcription](../data/m94-source-quality.json)."
     },
     {
       "id": "H-M138A",
       "Status": "evidence-blocked",
       "Mechanism": "Historical strip selection/alignment produces a row-dependent alphabet.",
-      "Evidence": "[source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "The pinned survey calls full M-138 untested within that survey; no dedicated local full M-138-A result.",
-      "Untested scope": "A specific authentic strip inventory, ordering and readable-row rule.",
-      "Missing inputs": "Original versioned strip inventory and operating-source access; public maritime manual retrieval returned HTTP403. The defective museum M-94 transcription is neither this inventory nor a replacement.",
-      "Next discriminating test": "Validate a published example and identifiability under the fixed strips before any bounded K4 key domain.",
-      "Dependencies": "Historical source gate; random tables and arbitrary alphabets are not authentic strip tests",
-      "Results": "[retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Evidence": "Primary 1935 NSA A67592 draft and 1944 A67293 resurvey; SRH-366 printed 83–84 quotes the July 1943 prohibition on zero/26 intervals, independently visually checked locally. Source example/variant pixels are worker-attributed; no Sanborn-use claim.",
+      "Tested scope": "Item 7 source-conditioned direct nonzero cyclic-strip operation is analytically excluded for every valid permutation/order and nonzero offset by S→S at 33 (K→K at 74 is public additional confirmation). This is invariant reuse, not a key sweep. The 1935 original M-138 photographic 25-strip example replays, 24 rows validate and strip 1 fails strict complete admission. No complete wartime M-138-A inventory or distinct layered/adapted domain is calibrated.",
+      "Untested scope": "Specific versioned M-138-A sets and operations outside direct nonzero aligned permutation-strip coverage; zero-column adaptations, changed preprocessing alignment and outer layers remain outside that source-conditioned proof.",
+      "Missing inputs": "A new independently sourced rule/layer or processed-index map outside the invariant, plus its exact issue/table and vector. Full inventory is not needed for the completed no-fixed-point proof. Do not replace missing source data with fictitious modern 100-strip examples or repair O/Q.",
+      "Next discriminating test": "Stop direct nonzero-row key searches. Authenticate a materially outside-invariant procedure before a new bounded key domain; keep unknown row choice as a candidate relation and unresolved glyphs visible.",
+      "Dependencies": "Documented nonzero-row policy and literal English-to-cipher alignment for the proof. Original M-138 differs from later M-138-A issues; straight/split/channel-elimination policies are source-specific.",
+      "Results": "[Item 7 source and conditional proof findings](STRIP-SOURCE-GATES-027-FINDINGS.md), [source QA and traces](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json), [original conditional receipts](../results/strip-source-gates-027/README.md). Family status remains evidence-blocked for a complete authentic alternative, not wholly uninvestigated."
     },
     {
       "id": "H-FEISTEL-2ROUND",
@@ -248,13 +248,13 @@
       "id": "H-BOOK-CODEBOOK",
       "Status": "evidence-blocked",
       "Mechanism": "An independently identified edition/page/codebook supplies symbols or running-key material.",
-      "Evidence": "[source or scoped prior review](UNRUN-GAPS-2026-10-23.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "28,488 literal nearby running-key cases fail; these do not cover an independently grounded external codebook.",
+      "Evidence": "K3/Carter context and the supplied primary Sanborn oral-history review identify Carter notebooks and a Schliemann/Troy interest, not an exact K4 edition/extraction. Local interview fetch 500; creator-book observations remain attributed, not a selected cipher.",
+      "Tested scope": "28,488 literal nearby running-key negatives remain narrow. Item 7 reviews concrete creator-linked bibliographic leads but performs no fabricated book/codebook cipher test or mass-corpus search.",
       "Untested scope": "A provenance-fixed external text or numbered codebook.",
-      "Missing inputs": "Independent evidence selecting edition, pagination, extraction and invertible framing; no source selected for crib fit.",
-      "Next discriminating test": "Resolve one externally supported source and reproduce a known encoding example before freezing a tiny extraction domain.",
+      "Missing inputs": "Independently fixed source/version, exact body/extraction/pagination/normalization, cipher or coordinate role, unknown-key/offset domain and inverse/framing. A favorite book or auction lot does not identify a K4 key.",
+      "Next discriminating test": "Resolve the exact creator-linked copy/edition or another independently grounded source and extraction; then freeze a bounded unknown-offset test with planted/inverse controls. Unknown offsets can be searched once the source/model is fixed.",
       "Dependencies": "H-RUNKEY; no mass book corpus or guessed page/word offsets",
-      "Results": "[retained evidence and finite coverage](UNRUN-GAPS-2026-10-23.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[Item 7 evidence and explicit book gate](STRIP-SOURCE-GATES-027-FINDINGS.md), [supplied source review](../independent/2026-10-24/item7-historical-sources/AUTHOR-REPORT.md), [prior gap ledger](UNRUN-GAPS-2026-10-23.md)."
     },
     {
       "id": "H-OTP",
@@ -404,13 +404,13 @@
       "id": "H-GERMAN-TRANSLATION",
       "Status": "evidence-blocked",
       "Mechanism": "Use one source-fixed German rendering before encryption.",
-      "Evidence": "[source or scoped prior review](../docs/linguistic-feasibility-boundary.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "No exact translation/decoder test.",
+      "Evidence": "Scheidt 2005 English-message statement and final-change caveat locally corroborated in item 7; no creator-selected German intermediate. German city-name normalization is separate from translation.",
+      "Tested scope": "No source-fixed translation/decoder test. Item 7 explicitly audits the source/model gate; no convenient translation, key or index shift is chosen.",
       "Untested scope": "A specified translation layer, distinct from German-normalized names or pronunciation.",
-      "Missing inputs": "Exact rendering, word order, inverse and index alignment; Berlin alone does not establish German.",
-      "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "Missing inputs": "Independent exact rendering/edition, word order/normalization, lossless English recovery or explicit ambiguity, cipher rule and global index relation. English-message testimony does not universally exclude reversible intermediates.",
+      "Next discriminating test": "Fix a source-grounded rendering and complete recovery/alignment relation before a cipher test; do not fit translators or preserve English indices silently.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](../docs/linguistic-feasibility-boundary.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[Item 7 source context and translation boundary](STRIP-SOURCE-GATES-027-FINDINGS.md), [prior linguistic distinction](../docs/linguistic-feasibility-boundary.md). This is blocked, not a negative result."
     },
     {
       "id": "H-GEO-ENE",
@@ -477,12 +477,12 @@
       "Status": "evidence-blocked",
       "Mechanism": "An Egyptian sign system represents text or key material.",
       "Evidence": "[source or scoped prior review](../docs/egyptian-sign-list-feasibility.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Historical availability/linguistic feasibility only; no invented 26-glyph codec.",
+      "Tested scope": "Historical/linguistic feasibility only; item 7 finds no creator-selected sign codec or key role. No invented 26-glyph alphabet or computational rejection of Egyptian mechanisms.",
       "Untested scope": "A specific sourced sign inventory and framing.",
-      "Missing inputs": "Edition/sign choices, vowels/determinatives, direction, inverse and historical link.",
-      "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "Missing inputs": "Exact edition/sign inventory, functions/vowels/determinatives, direction/framing, key or encoding role, inverse/ambiguity relation and cumulative alignment; historical availability alone is not selection.",
+      "Next discriminating test": "Obtain an independently selected source and complete rule before testing. A one-to-one glyph rename is already within the old substitution boundary, not a new rescue.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](../docs/egyptian-sign-list-feasibility.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[Item 7 investigated/blocked scope](STRIP-SOURCE-GATES-027-FINDINGS.md), [original sign-list feasibility](../docs/egyptian-sign-list-feasibility.md). No sign-family exclusion."
     },
     {
       "id": "H-KRYPTOS-FINGERPRINT",
@@ -3072,6 +3072,81 @@
         "results/TREE-GEOMETRY-IPA-026-VALIDATION.json"
       ],
       "original_entry": "- Kind: three finite exploratory model tests, synthetic complete-selector controls and historical qualification; no creator-use evidence or Site change.\n- Frozen protocol `e35121c31d34c62c8f836d9169214f79d53de8b5`; [specification](TREE-GEOMETRY-IPA-026-SPEC.md), [findings](TREE-GEOMETRY-IPA-026-FINDINGS.md), [native code](../experiments/tree_geometry_ipa.py), [independent reference](../experiments/tree_geometry_ipa_reference.py).\n- Exact scope: 104 bottom-up access-splay tree descriptions, 208 nonlinear 35-bit geometry feedback descriptions, 136 source-fixed IPA byte-key descriptions. All 448 full decryptions are distinct; no first-crib survivor, no Berlin-stage candidate. No arbitrary states/functions or general-family exclusion.\n- Original completed controls start/end UTC: 2026-10-24T02:05:03.782641+00:00 / 2026-10-24T02:05:12.193005+00:00. Actual start/end 2026-10-24T02:05:12.193900+00:00 / 2026-10-24T02:05:12.247353+00:00. Whole-family nulls end 2026-10-24T02:05:23.118605+00:00. [Original and failed-control manifests](../results/tree-geometry-ipa-026/README.md) preserve separate chronology; no publication timestamp substitution.\n- Controls: 1,792 fixed-model/reference message roundtrips, 24,336 tree permutation checks, 104 topology-change and 104 wrong-timing witnesses, 24 full-family plants with exact complete-reference candidate-set agreement and truth inclusion. All 199 histogram shuffles have zero first/all fits; descriptive only, no significance claim. Initial control attempt failed on reference rotation grouping before K4 and is preserved, not counted as a negative.\n- Separate [post-outcome direct replay](../experiments/audit_tree_geometry_ipa.py) agrees on all actual model records and 1,040 geometry carry/boundary cases; [receipt](../results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json). Same-author independent implementation, not external blind verification.\n- IPA output periods 18/16 exceed the older direct period 1–12 baseline, but UTF-8 was devised in 1992. This explicitly modern serialization is not a historical 1990 hypothesis or an IPA spelling inverse. Public clue phrases used as keys are not independent recovered evidence. No encoding retune, new dialect or item 7.\n- Final aggregate validation: 538 tests pass on Python 3.9 and 3.12; [separate UTC receipt/logs](../results/TREE-GEOMETRY-IPA-026-VALIDATION.json). No configured CI workflow or new documentation-link errors."
+    },
+    {
+      "record_id": "LOG-3AA105642E",
+      "experiment_ids": [
+        "STRIP-SOURCE-GATES-027"
+      ],
+      "title": "STRIP-SOURCE-GATES-027 — item 7 strip boundaries, historical QA and five source gates",
+      "categories": [
+        "analytical constraints",
+        "historical source validation",
+        "source research"
+      ],
+      "outcome": "Direct nonzero strips excluded; partial M138/Wheatstone source QA passes with defects preserved; book/sign/German and distinct variants remain gated",
+      "classification_basis": "Reviewed source-conditioned proof, independent primary-page check, source QA and admission failures; no full historical inventory or repaired transcription claim.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": null,
+      "timestamps": [
+        {
+          "receipt": "results/ITEM7-HISTORICAL-SOURCE-QA-027.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:33:00.306741Z",
+          "original": "2026-10-24T02:33:00.306741+00:00"
+        },
+        {
+          "receipt": "results/ITEM7-HISTORICAL-SOURCE-QA-027.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:33:00.309185Z",
+          "original": "2026-10-24T02:33:00.309185+00:00"
+        },
+        {
+          "receipt": "results/ITEM7-LOCAL-SOURCE-REVIEW.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T02:34:11.715030Z",
+          "original": "2026-10-24T02:34:11.715030+00:00"
+        },
+        {
+          "receipt": "results/STRIP-SOURCE-GATES-027-ARITHMETIC-REPLAY.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:21:55.067700Z",
+          "original": "2026-10-24T02:21:55.067700+00:00"
+        },
+        {
+          "receipt": "results/STRIP-SOURCE-GATES-027-ARITHMETIC-REPLAY.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:21:55.198123Z",
+          "original": "2026-10-24T02:21:55.198123+00:00"
+        }
+      ],
+      "links": [
+        "experiments/item7_historical_source_qa.py",
+        "experiments/strip_inventory_admission.py",
+        "experiments/strip_row_candidates.py",
+        "experiments/strip_source_gates.py",
+        "independent/2026-10-24/item7-historical-sources/README.md",
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md",
+        "research/STRIP-SOURCE-GATES-027-SPEC.md",
+        "results/ITEM7-HISTORICAL-SOURCE-QA-027.json",
+        "results/ITEM7-LOCAL-SOURCE-REVIEW.json",
+        "results/STRIP-SOURCE-GATES-027-ARITHMETIC-REPLAY.json",
+        "results/STRIP-SOURCE-GATES-027-VALIDATION.json",
+        "results/strip-source-gates-027/README.md"
+      ],
+      "receipt_paths": [
+        "results/ITEM7-HISTORICAL-SOURCE-QA-027.json",
+        "results/ITEM7-LOCAL-SOURCE-REVIEW.json",
+        "results/STRIP-SOURCE-GATES-027-ARITHMETIC-REPLAY.json",
+        "results/STRIP-SOURCE-GATES-027-VALIDATION.json"
+      ],
+      "original_entry": "- Kind: source-conditioned analytical exclusion, historical worked-example validation and explicit evidence-blocked mechanisms; no strip-key sweep or universal historical-family rejection.\n- Frozen conditional protocol `0e6693e`; [specification](STRIP-SOURCE-GATES-027-SPEC.md), [findings](STRIP-SOURCE-GATES-027-FINDINGS.md), [conditional code](../experiments/strip_source_gates.py), [source QA](../experiments/item7_historical_source_qa.py), [source-data admission](../experiments/strip_inventory_admission.py), [row-candidate relation](../experiments/strip_row_candidates.py).\n- Original controls start/end UTC: 2026-10-24T02:16:36.497919+00:00 / 2026-10-24T02:16:36.634250+00:00. Original conditional replay and post-source QA/replay times are separately retained in [receipts](../results/strip-source-gates-027/README.md); worker execution times are unknown. Publication time is not substituted.\n- Direct nonzero valid-strip operation cannot self-encipher: first-crib S→S at 33 already rejects, with public K→K at 74 as explanatory additional evidence. SRH-366 printed 83–84 nonzero rule independently visually verified; changing strip sets/nonzero subgroup offsets does not evade it. Zero-column/outer-layer/preprocessing alternatives remain outside that proof.\n- Separate zero-per-block relaxation: changed/fixed/changed at 32–34 rejects every width>=2 and registration. Finite widths 1..30/all origins have 465 bookkeeping descriptions, 464 contradictions, width 1 necessary-only pass. Prior M-94 width 25/origin 0 overlaps. No independent-search or global-novelty count.\n- Controls: 872 toy permutations/29,366 symbol checks, 24 continuous synthetic plants, 11,160 independent block partitions. [Resource replay](../results/STRIP-SOURCE-GATES-027-ARITHMETIC-REPLAY.json) reproduces original payloads, peak 15,122,432 bytes; original peak was not recorded.\n- Historical QA: original 1935 M-138 observed pairs reproduce +15 example; 24 complete rows validate, strip 1 O/Q literal fails complete-inventory gate without repair. Wheatstone REFERENCE→XZAABGQAM forward/inverse reproduces; conflicting printed XZZZBGQAM and unused ? slot retained. An explicitly inferred W completion is not pixel authentication. [Source QA receipt](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json).\n- [Supplied report/transcription/original script](../independent/2026-10-24/item7-historical-sources/README.md) preserved; original arithmetic adapter substitutes only output path and declared PDF metadata, not arithmetic. [Local source review](../results/ITEM7-LOCAL-SOURCE-REVIEW.json) distinguishes direct SRH visual inspection, NSA web text, worker pixels and failed downloads. No source 403 retry/alternate route.\n- Complete authentic M-138-A issues, distinct Pletts rules, specific book extraction, Egyptian codec and German recovery/alignment remain source-gated. No invented model was run merely to fill those gaps, no Site change, stop before item 8.\n- Final validation: 553 tests pass on Python 3.9 and 3.12; [UTC validation receipt/logs and preserved earlier documentation failure](../results/STRIP-SOURCE-GATES-027-VALIDATION.json). No new broken links or configured CI workflow."
     }
   ],
   "receipts": [
@@ -3528,6 +3603,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-031.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -3720,6 +3804,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-026.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-027.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -4036,6 +4127,15 @@
     },
     {
       "path": "results/FRONTIER-026.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-027.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -4439,6 +4539,15 @@
       "status": null
     },
     {
+      "path": "results/HYPOTHESIS-REGISTER-027.json",
+      "labels": [
+        "Item7 source-conditioned strip proof and partial historical QA; other mechanisms source-gated"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json",
       "labels": [],
       "timestamps": [],
@@ -4496,6 +4605,42 @@
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/ITEM7-HISTORICAL-SOURCE-QA-027.json",
+      "labels": [
+        "post_source_historical_QA_and_scoped_proof_not_key_search"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:33:00.306741Z",
+          "original": "2026-10-24T02:33:00.306741+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:33:00.309185Z",
+          "original": "2026-10-24T02:33:00.309185+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/ITEM7-LOCAL-SOURCE-REVIEW.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T02:34:11.715030Z",
+          "original": "2026-10-24T02:34:11.715030+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
       "status": null
     },
     {
@@ -4970,6 +5115,37 @@
     {
       "path": "results/STAT-CROSSVERSION-014-python39.json",
       "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/STRIP-SOURCE-GATES-027-ARITHMETIC-REPLAY.json",
+      "labels": [
+        "post_outcome_resource_and_exact_arithmetic_replay_not_historical_vector_validation"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:21:55.067700Z",
+          "original": "2026-10-24T02:21:55.067700+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:21:55.198123Z",
+          "original": "2026-10-24T02:21:55.198123+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/STRIP-SOURCE-GATES-027-VALIDATION.json",
+      "labels": [
+        "Final aggregate item7 validation, not historical source or original conditional calculation"
+      ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
       "status": null
@@ -6947,6 +7123,87 @@
       "path": "results/strategy-followup-runs/latest.json",
       "labels": [
         "20261022T204842Z-17a364bb210f4d8799018ef99b496f3a"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "completed"
+    },
+    {
+      "path": "results/strip-source-gates-027/20261024T021636Z-ba92416617e146e59972503d9f4ddea2/conditional.json",
+      "labels": [
+        "conditional_cyclic_strip_invariant_not_historical_inventory_search"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:16:36.634735Z",
+          "original": "2026-10-24T02:16:36.634735+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:16:36.636053Z",
+          "original": "2026-10-24T02:16:36.636053+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/strip-source-gates-027/20261024T021636Z-ba92416617e146e59972503d9f4ddea2/controls.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:16:36.497919Z",
+          "original": "2026-10-24T02:16:36.497919+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:16:36.634250Z",
+          "original": "2026-10-24T02:16:36.634250+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "passed"
+    },
+    {
+      "path": "results/strip-source-gates-027/20261024T021636Z-ba92416617e146e59972503d9f4ddea2/inputs.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/strip-source-gates-027/20261024T021636Z-ba92416617e146e59972503d9f4ddea2/manifest.json",
+      "labels": [
+        "Item7 conditional row invariant pending historical admission",
+        "20261024T021636Z-ba92416617e146e59972503d9f4ddea2"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:16:36.496816Z",
+          "original": "2026-10-24T02:16:36.496816+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:16:36.640220Z",
+          "original": "2026-10-24T02:16:36.640220+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "completed"
+    },
+    {
+      "path": "results/strip-source-gates-027/latest.json",
+      "labels": [
+        "20261024T021636Z-ba92416617e146e59972503d9f4ddea2"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",

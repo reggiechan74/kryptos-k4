@@ -1,3 +1,5 @@
+Historical incomplete checkpoint, superseded by [completed source-integrated findings](STRIP-SOURCE-GATES-027-FINDINGS.md). Original checkpoint text follows.
+
 # Item 7 local checkpoint — source integration pending
 
 24 October 2026 UTC. This is an incomplete checkpoint, not a completed investigation or publication claim. Items 8 and Site work have not started.

@@ -1,0 +1,49 @@
+{
+  "kind": "Final aggregate item7 validation, not historical source or original conditional calculation",
+  "suites": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T02:39:22.581067+00:00",
+      "finished_at_utc": "2026-10-24T02:40:33.385610+00:00",
+      "elapsed_seconds": 70.805652875,
+      "exit_code": 0,
+      "log": "results/STRIP-SOURCE-GATES-027-python39.log.txt",
+      "sha256": "eec9bc5ec1286e25c4850d841dc473cd2df2cb91928d45ddf9060bced065712b",
+      "tests_passed": 553
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T02:40:33.385910+00:00",
+      "finished_at_utc": "2026-10-24T02:41:29.052888+00:00",
+      "elapsed_seconds": 55.6668885,
+      "exit_code": 0,
+      "log": "results/STRIP-SOURCE-GATES-027-python312.log.txt",
+      "sha256": "9057a65100969fcbbdbf77c90d6722ca725cbb5b8a7963fd97039291ef26beae",
+      "tests_passed": 553
+    }
+  ],
+  "previous_failed_attempt": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T02:38:07.478060+00:00",
+      "finished_at_utc": "2026-10-24T02:39:18.544213+00:00",
+      "elapsed_seconds": 71.065826958,
+      "exit_code": 1,
+      "log": "results/STRIP-SOURCE-GATES-027-doclinks-failed.log.txt",
+      "sha256": "d85e77a3943cb65163ecd3b486748400cb83efc0a69398480dd9c4ff5c240e0a",
+      "tests_run": 553,
+      "reason": "Two documentation failures from one accidentally spaced item7 path; fixed without source/model changes."
+    }
+  ],
+  "source_qa_note": "Initial consumer QA assertion used the generic ring-label validator as a strict A-Z source gate; caller corrected to strict permutation admission before the recorded source-QA success. No source character or model repair.",
+  "source_sha256": {
+    "experiments/item7_historical_source_qa.py": "30921c704e65da91012e2db676b96dba3928596609eda61ceb82d40cf6646e05",
+    "experiments/strip_inventory_admission.py": "84efc162a21cd0f849528a6a6668ff2db2cda49922fe51ab96b1a94061084a96",
+    "tests/test_strip_source_gates.py": "c4d5fe722d29e99bbb2ee672dead53d66f0048ab2e90e5ca61b752ea40a88deb",
+    "tests/test_item7_historical_source_qa.py": "d951879188937208d068529d59c37b87485c5ce8a449e4cc9a5c7bbdf2c1a1f4"
+  },
+  "complete_M138A_inventory_authenticated": false,
+  "book_sign_german_cipher_models_run": 0,
+  "site_changed": false,
+  "item_8_started": false
+}

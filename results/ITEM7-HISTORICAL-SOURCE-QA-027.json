@@ -1,0 +1,424 @@
+{
+  "kind": "post_source_historical_QA_and_scoped_proof_not_key_search",
+  "m138": {
+    "kind": "partial_photographic_column_source_QA_not_complete_cipher_inventory",
+    "verified_permutations": 24,
+    "complete_inventory_admitted": false,
+    "complete_gate_error": "strip 13 is not a permutation; no silent repair",
+    "unresolved_strip_literal": "KUYJWSALPVBIMGOCXNFZEHROTD",
+    "source_occurrence_from_figure": 24,
+    "computed_ciphertext": "VMIZKKJGFCDWVMKHYYXIATMCC",
+    "recovered_plaintext": "ACCORDINGTOANOFFICIALREPO",
+    "trace": [
+      {
+        "column": 1,
+        "strip_number": 14,
+        "plaintext": "A",
+        "ciphertext": "V",
+        "plaintext_position_one_based": 21,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 2,
+        "strip_number": 16,
+        "plaintext": "C",
+        "ciphertext": "M",
+        "plaintext_position_one_based": 15,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 3,
+        "strip_number": 9,
+        "plaintext": "C",
+        "ciphertext": "I",
+        "plaintext_position_one_based": 10,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 4,
+        "strip_number": 6,
+        "plaintext": "O",
+        "ciphertext": "Z",
+        "plaintext_position_one_based": 7,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 5,
+        "strip_number": 22,
+        "plaintext": "R",
+        "ciphertext": "K",
+        "plaintext_position_one_based": 17,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 6,
+        "strip_number": 25,
+        "plaintext": "D",
+        "ciphertext": "K",
+        "plaintext_position_one_based": 16,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 7,
+        "strip_number": 23,
+        "plaintext": "I",
+        "ciphertext": "J",
+        "plaintext_position_one_based": 22,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 8,
+        "strip_number": 5,
+        "plaintext": "N",
+        "ciphertext": "G",
+        "plaintext_position_one_based": 17,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 9,
+        "strip_number": 12,
+        "plaintext": "G",
+        "ciphertext": "F",
+        "plaintext_position_one_based": 22,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 10,
+        "strip_number": 24,
+        "plaintext": "T",
+        "ciphertext": "C",
+        "plaintext_position_one_based": 26,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 11,
+        "strip_number": 13,
+        "plaintext": "O",
+        "ciphertext": "D",
+        "plaintext_position_one_based": 25,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 12,
+        "strip_number": 21,
+        "plaintext": "A",
+        "ciphertext": "W",
+        "plaintext_position_one_based": 10,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 13,
+        "strip_number": 18,
+        "plaintext": "N",
+        "ciphertext": "V",
+        "plaintext_position_one_based": 13,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 14,
+        "strip_number": 1,
+        "plaintext": "O",
+        "ciphertext": "M",
+        "plaintext_position_one_based": 24,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": true
+      },
+      {
+        "column": 15,
+        "strip_number": 7,
+        "plaintext": "F",
+        "ciphertext": "K",
+        "plaintext_position_one_based": 25,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 16,
+        "strip_number": 17,
+        "plaintext": "F",
+        "ciphertext": "H",
+        "plaintext_position_one_based": 24,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 17,
+        "strip_number": 20,
+        "plaintext": "I",
+        "ciphertext": "Y",
+        "plaintext_position_one_based": 12,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 18,
+        "strip_number": 19,
+        "plaintext": "C",
+        "ciphertext": "Y",
+        "plaintext_position_one_based": 14,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 19,
+        "strip_number": 15,
+        "plaintext": "I",
+        "ciphertext": "X",
+        "plaintext_position_one_based": 10,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 20,
+        "strip_number": 8,
+        "plaintext": "A",
+        "ciphertext": "I",
+        "plaintext_position_one_based": 16,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 21,
+        "strip_number": 11,
+        "plaintext": "L",
+        "ciphertext": "A",
+        "plaintext_position_one_based": 1,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 22,
+        "strip_number": 2,
+        "plaintext": "R",
+        "ciphertext": "T",
+        "plaintext_position_one_based": 6,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 23,
+        "strip_number": 3,
+        "plaintext": "E",
+        "ciphertext": "M",
+        "plaintext_position_one_based": 21,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 24,
+        "strip_number": 10,
+        "plaintext": "P",
+        "ciphertext": "C",
+        "plaintext_position_one_based": 26,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      },
+      {
+        "column": 25,
+        "strip_number": 4,
+        "plaintext": "O",
+        "ciphertext": "C",
+        "plaintext_position_one_based": 25,
+        "offset": 15,
+        "uses_source_occurrence_not_first_duplicate": false
+      }
+    ],
+    "source_pdf_sha256_worker_declared_not_verified_locally": "7496f96ff38585cc3732391c0d4f17500cb94c6bd30505ef8cd3e214225b1a1a"
+  },
+  "wheatstone": {
+    "kind": "historical_known_answer_on_visible_slots_not_new_K4_or_Plett_test",
+    "computed_ciphertext": "XZAABGQAM",
+    "recovered_plaintext": "REFERENCE",
+    "forward_trace": [
+      {
+        "position": 1,
+        "plain": "R",
+        "steps": 11,
+        "inner_index": 11,
+        "cipher": "X"
+      },
+      {
+        "position": 2,
+        "plain": "E",
+        "steps": 14,
+        "inner_index": 25,
+        "cipher": "Z"
+      },
+      {
+        "position": 3,
+        "plain": "F",
+        "steps": 1,
+        "inner_index": 0,
+        "cipher": "A"
+      },
+      {
+        "position": 4,
+        "plain": "E",
+        "steps": 26,
+        "inner_index": 0,
+        "cipher": "A"
+      },
+      {
+        "position": 5,
+        "plain": "R",
+        "steps": 13,
+        "inner_index": 13,
+        "cipher": "B"
+      },
+      {
+        "position": 6,
+        "plain": "E",
+        "steps": 14,
+        "inner_index": 1,
+        "cipher": "G"
+      },
+      {
+        "position": 7,
+        "plain": "N",
+        "steps": 9,
+        "inner_index": 10,
+        "cipher": "Q"
+      },
+      {
+        "position": 8,
+        "plain": "C",
+        "steps": 16,
+        "inner_index": 0,
+        "cipher": "A"
+      },
+      {
+        "position": 9,
+        "plain": "E",
+        "steps": 2,
+        "inner_index": 2,
+        "cipher": "M"
+      }
+    ],
+    "inverse_trace": [
+      {
+        "position": 1,
+        "cipher": "X",
+        "steps": 11,
+        "plain": "R"
+      },
+      {
+        "position": 2,
+        "cipher": "Z",
+        "steps": 14,
+        "plain": "E"
+      },
+      {
+        "position": 3,
+        "cipher": "A",
+        "steps": 1,
+        "plain": "F"
+      },
+      {
+        "position": 4,
+        "cipher": "A",
+        "steps": 26,
+        "plain": "E"
+      },
+      {
+        "position": 5,
+        "cipher": "B",
+        "steps": 13,
+        "plain": "R"
+      },
+      {
+        "position": 6,
+        "cipher": "G",
+        "steps": 14,
+        "plain": "E"
+      },
+      {
+        "position": 7,
+        "cipher": "Q",
+        "steps": 9,
+        "plain": "N"
+      },
+      {
+        "position": 8,
+        "cipher": "A",
+        "steps": 16,
+        "plain": "C"
+      },
+      {
+        "position": 9,
+        "cipher": "M",
+        "steps": 2,
+        "plain": "E"
+      }
+    ],
+    "preserved_conflicting_forward_string": "XZZZBGQAM",
+    "preserved_partial_inner": "AGMUCIP?EJQXFBKSYNHOVRDLTZ",
+    "source_literal_rejected_by_complete_gate": true,
+    "occluded_slot_used": false,
+    "production_engine_matches_with_explicit_inferred_completion": true,
+    "inferred_completion": "W",
+    "inferred_completion_visually_authenticated": false
+  },
+  "original_script_replay": {
+    "arithmetic_receipt_equal": true,
+    "original_source_sha256": "7b99180040c60ef075ceab52256ccf6cd4b9b412effab931841bb76ed1c6aca7",
+    "temporary_adapter_sha256": "c3086efadfb781b1959acb6d87796bcd175087c91684120c378280b4c39b111d",
+    "adapter_changes": [
+      "temporary output path",
+      "PDF byte count supplied from worker receipt",
+      "PDF hash supplied from worker receipt"
+    ],
+    "source_pdf_binary_rehashed_locally": false,
+    "original_source_unchanged": true
+  },
+  "source_conditioned": {
+    "kind": "source_conditioned_reuse_of_cyclic_permutation_fixed_point_proof",
+    "rule": "SIGUHR-2 July1943 forbids zero and twenty-six intervals; valid permutation strips only.",
+    "first_crib_sufficient": true,
+    "first_witness": {
+      "position": 33,
+      "plaintext": "S",
+      "ciphertext": "S",
+      "fixed": true
+    },
+    "additional_public_fixed_point": {
+      "position": 74,
+      "plaintext": "K",
+      "ciphertext": "K",
+      "fixed": true
+    },
+    "inventory_enumerations": 0,
+    "new_held_out_evidence": false,
+    "full_M138A_inventory_authenticated": false,
+    "coverage": "Direct literal aligned nonzero cyclic strip operations, including differing nonzero offsets by subgroup/column; no general layered-M138 exclusion.",
+    "unexcluded": [
+      "zero shifts outside the separately proved common-block relaxation",
+      "changed processed alignment",
+      "outer substitution or route",
+      "non-permutation alphabets",
+      "other historically modified rules"
+    ]
+  },
+  "local_visual_verification": "SRH366 physicalPDF101-102 only; other visual transcription attributed to worker",
+  "started_at_utc": "2026-10-24T02:33:00.306741+00:00",
+  "finished_at_utc": "2026-10-24T02:33:00.309185+00:00",
+  "elapsed_seconds": 0.0023415000000000033,
+  "source_sha256": {
+    "experiments/item7_historical_source_qa.py": "30921c704e65da91012e2db676b96dba3928596609eda61ceb82d40cf6646e05",
+    "independent/2026-10-24/item7-historical-sources/visual-transcription.json": "c63272e7c8a7fd3b4bfba9e7fcbdf310fd0b67407683867ad167c07e20d69563",
+    "independent/2026-10-24/item7-historical-sources/friedman_reference_source_qa.py": "7b99180040c60ef075ceab52256ccf6cd4b9b412effab931841bb76ed1c6aca7",
+    "independent/2026-10-24/item7-historical-sources/friedman-reference-source-qa.json": "8b39eaa1173546e7520c040ee8491bec41af7590127b49526152f8c68eaefeec"
+  }
+}

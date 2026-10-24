@@ -259,36 +259,36 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: analytical exclusion
 - Mechanism: Fixed 27/26 geared rings with displacement determined by the adjacent processed plaintext pair; both ring alphabets and starting phases may be arbitrary.
 - Evidence: Published MysteryTwister/CrypTool reconstruction and worked vectors; institutional historical context; original 1879 full operating text and authentic Plett variants not completely recovered.
-- Tested scope: WHEATSTONE-TRANSITION-008: ST at positions 24–25 and 33–34 has opposed ciphertext equality (RV versus SS), impossible for one fixed displacement. Covers arbitrary fixed outer/inner permutations without key enumeration, beyond the finite outer dictionary in pinned prior art. Two external worked vectors and complete small systems pass; no Berlin evaluation.
+- Tested scope: WHEATSTONE-TRANSITION-008 excludes arbitrary fixed rings by opposed ST ciphertext equality at 24–25/33–34; two modern external vectors and complete tiny systems pass. Item 7 adds a historical Friedman REFERENCE vector and both directions, preserving one unused occluded slot and conflicting printed ciphertext. No distinct Pletts or new K4 sweep.
 - Untested scope: State-dependent/hidden extra moves, changing rings, outer layers and preprocessing that changes the processed-text anchors; no universal Wheatstone/Plett/Wadsworth exclusion.
-- Missing inputs: A complete independently sourced materially different historical procedure and external vectors before testing such variants.
+- Missing inputs: A complete independently sourced materially different operation, including preprocessing/alignment and external vector; mixed fixed alphabets alone are already covered. The historical partial-ring example does not supply a distinct Pletts rule.
 - Next discriminating test: Stop the aligned fixed-ring domain; pursue exact original operating conventions only if they establish a distinct mechanism rather than duplicate alphabets/directions.
 - Dependencies: Adjacent disclosed processed letters aligned with adjacent ciphertext; spaces emit symbols and no silent gap motion is invented; repeated-letter preprocessing is lossy.
-- Results: [Source audit, proof and limits](WHEATSTONE-TRANSITION-FINDINGS.md), [exact certificate](../results/WHEATSTONE-TRANSITION-008.json), [source receipts](../sources/wheatstone-historical-conventions-2026-10-23.json), and [prior alphabet-direction audit](../sources/wheatstone-direction-coverage-review.json).
+- Results: [Original proof and limits](WHEATSTONE-TRANSITION-FINDINGS.md), [item 7 historical QA and source conflict](STRIP-SOURCE-GATES-027-FINDINGS.md), [new trace](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json), [old source receipts](../sources/wheatstone-historical-conventions-2026-10-23.json).
 
 ### H-M94-CYCLIC
 
 - Status: analytical exclusion
 - Mechanism: A cyclic permutation alphabet per disc, one shared row displacement within each 25-letter block.
 - Evidence: Original 1942 FM24-5 Section V describes the mechanism; no Sanborn-use evidence. The museum transcription has two non-permutation rows and is not admitted as a key set.
-- Tested scope: Fixed and changed letters in the same block exclude every valid disc permutation/order, even permitting zero displacement; symbolic invariant, zero key enumeration. This is reused fixed-point reasoning, not a new cryptographic theorem.
+- Tested scope: Fixed/changed pairs exclude every valid disc permutation/order for the original width 25/origin 1 common-row family, even permitting zero. Item 7 separately proves changed/fixed/changed at 32–34 rejects all widths>=2 and registrations under the same common-block condition. No key enumeration or new theorem claimed.
 - Untested scope: Outer substitutions/routes, different framing, per-letter row choices and other device variants; no blanket strip-cipher exclusion.
 - Missing inputs: Independently validated inventory is needed for other table-specific models, not for this invariant.
 - Next discriminating test: Resolve original source/table provenance before a materially different sourced strip model; do not repair alphabets to fit K4.
 - Dependencies: Fixed literal A-Z cribs, block origin 1 and common row within each 25-letter block; no Site dependency.
-- Results: [Frozen pivot](NONROTOR-STRUCTURAL-SPEC.md), [findings and limits](JOINT-STATE-NONROTOR-FINDINGS.md), [raw proof](../results/NONROTOR-STRUCTURAL-004.json), [rejected source strings](../data/m94-source-quality.json).
+- Results: [Original findings](JOINT-STATE-NONROTOR-FINDINGS.md), [old raw proof](../results/NONROTOR-STRUCTURAL-004.json), [item 7 all-registration supplement](STRIP-SOURCE-GATES-027-FINDINGS.md), [rejected original transcription](../data/m94-source-quality.json).
 
 ### H-M138A
 
 - Status: evidence-blocked
 - Mechanism: Historical strip selection/alignment produces a row-dependent alphabet.
-- Evidence: [source or scoped prior review](../docs/prior-art-barney-scott-review.md); historical availability or user proposal does not establish creator use.
-- Tested scope: The pinned survey calls full M-138 untested within that survey; no dedicated local full M-138-A result.
-- Untested scope: A specific authentic strip inventory, ordering and readable-row rule.
-- Missing inputs: Original versioned strip inventory and operating-source access; public maritime manual retrieval returned HTTP403. The defective museum M-94 transcription is neither this inventory nor a replacement.
-- Next discriminating test: Validate a published example and identifiability under the fixed strips before any bounded K4 key domain.
-- Dependencies: Historical source gate; random tables and arbitrary alphabets are not authentic strip tests
-- Results: [retained evidence and finite coverage](../docs/prior-art-barney-scott-review.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Evidence: Primary 1935 NSA A67592 draft and 1944 A67293 resurvey; SRH-366 printed 83–84 quotes the July 1943 prohibition on zero/26 intervals, independently visually checked locally. Source example/variant pixels are worker-attributed; no Sanborn-use claim.
+- Tested scope: Item 7 source-conditioned direct nonzero cyclic-strip operation is analytically excluded for every valid permutation/order and nonzero offset by S→S at 33 (K→K at 74 is public additional confirmation). This is invariant reuse, not a key sweep. The 1935 original M-138 photographic 25-strip example replays, 24 rows validate and strip 1 fails strict complete admission. No complete wartime M-138-A inventory or distinct layered/adapted domain is calibrated.
+- Untested scope: Specific versioned M-138-A sets and operations outside direct nonzero aligned permutation-strip coverage; zero-column adaptations, changed preprocessing alignment and outer layers remain outside that source-conditioned proof.
+- Missing inputs: A new independently sourced rule/layer or processed-index map outside the invariant, plus its exact issue/table and vector. Full inventory is not needed for the completed no-fixed-point proof. Do not replace missing source data with fictitious modern 100-strip examples or repair O/Q.
+- Next discriminating test: Stop direct nonzero-row key searches. Authenticate a materially outside-invariant procedure before a new bounded key domain; keep unknown row choice as a candidate relation and unresolved glyphs visible.
+- Dependencies: Documented nonzero-row policy and literal English-to-cipher alignment for the proof. Original M-138 differs from later M-138-A issues; straight/split/channel-elimination policies are source-specific.
+- Results: [Item 7 source and conditional proof findings](STRIP-SOURCE-GATES-027-FINDINGS.md), [source QA and traces](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json), [original conditional receipts](../results/strip-source-gates-027/README.md). Family status remains evidence-blocked for a complete authentic alternative, not wholly uninvestigated.
 
 ### H-FEISTEL-2ROUND
 
@@ -330,13 +330,13 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 
 - Status: evidence-blocked
 - Mechanism: An independently identified edition/page/codebook supplies symbols or running-key material.
-- Evidence: [source or scoped prior review](UNRUN-GAPS-2026-10-23.md); historical availability or user proposal does not establish creator use.
-- Tested scope: 28,488 literal nearby running-key cases fail; these do not cover an independently grounded external codebook.
+- Evidence: K3/Carter context and the supplied primary Sanborn oral-history review identify Carter notebooks and a Schliemann/Troy interest, not an exact K4 edition/extraction. Local interview fetch 500; creator-book observations remain attributed, not a selected cipher.
+- Tested scope: 28,488 literal nearby running-key negatives remain narrow. Item 7 reviews concrete creator-linked bibliographic leads but performs no fabricated book/codebook cipher test or mass-corpus search.
 - Untested scope: A provenance-fixed external text or numbered codebook.
-- Missing inputs: Independent evidence selecting edition, pagination, extraction and invertible framing; no source selected for crib fit.
-- Next discriminating test: Resolve one externally supported source and reproduce a known encoding example before freezing a tiny extraction domain.
+- Missing inputs: Independently fixed source/version, exact body/extraction/pagination/normalization, cipher or coordinate role, unknown-key/offset domain and inverse/framing. A favorite book or auction lot does not identify a K4 key.
+- Next discriminating test: Resolve the exact creator-linked copy/edition or another independently grounded source and extraction; then freeze a bounded unknown-offset test with planted/inverse controls. Unknown offsets can be searched once the source/model is fixed.
 - Dependencies: H-RUNKEY; no mass book corpus or guessed page/word offsets
-- Results: [retained evidence and finite coverage](UNRUN-GAPS-2026-10-23.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Item 7 evidence and explicit book gate](STRIP-SOURCE-GATES-027-FINDINGS.md), [supplied source review](../independent/2026-10-24/item7-historical-sources/AUTHOR-REPORT.md), [prior gap ledger](UNRUN-GAPS-2026-10-23.md).
 
 ### H-OTP
 
@@ -486,13 +486,13 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 
 - Status: evidence-blocked
 - Mechanism: Use one source-fixed German rendering before encryption.
-- Evidence: [source or scoped prior review](../docs/linguistic-feasibility-boundary.md); historical availability or user proposal does not establish creator use.
-- Tested scope: No exact translation/decoder test.
+- Evidence: Scheidt 2005 English-message statement and final-change caveat locally corroborated in item 7; no creator-selected German intermediate. German city-name normalization is separate from translation.
+- Tested scope: No source-fixed translation/decoder test. Item 7 explicitly audits the source/model gate; no convenient translation, key or index shift is chosen.
 - Untested scope: A specified translation layer, distinct from German-normalized names or pronunciation.
-- Missing inputs: Exact rendering, word order, inverse and index alignment; Berlin alone does not establish German.
-- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Missing inputs: Independent exact rendering/edition, word order/normalization, lossless English recovery or explicit ambiguity, cipher rule and global index relation. English-message testimony does not universally exclude reversible intermediates.
+- Next discriminating test: Fix a source-grounded rendering and complete recovery/alignment relation before a cipher test; do not fit translators or preserve English indices silently.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](../docs/linguistic-feasibility-boundary.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Item 7 source context and translation boundary](STRIP-SOURCE-GATES-027-FINDINGS.md), [prior linguistic distinction](../docs/linguistic-feasibility-boundary.md). This is blocked, not a negative result.
 
 ### H-GEO-ENE
 
@@ -559,12 +559,12 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: evidence-blocked
 - Mechanism: An Egyptian sign system represents text or key material.
 - Evidence: [source or scoped prior review](../docs/egyptian-sign-list-feasibility.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Historical availability/linguistic feasibility only; no invented 26-glyph codec.
+- Tested scope: Historical/linguistic feasibility only; item 7 finds no creator-selected sign codec or key role. No invented 26-glyph alphabet or computational rejection of Egyptian mechanisms.
 - Untested scope: A specific sourced sign inventory and framing.
-- Missing inputs: Edition/sign choices, vowels/determinatives, direction, inverse and historical link.
-- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Missing inputs: Exact edition/sign inventory, functions/vowels/determinatives, direction/framing, key or encoding role, inverse/ambiguity relation and cumulative alignment; historical availability alone is not selection.
+- Next discriminating test: Obtain an independently selected source and complete rule before testing. A one-to-one glyph rename is already within the old substitution boundary, not a new rescue.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](../docs/egyptian-sign-list-feasibility.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Item 7 investigated/blocked scope](STRIP-SOURCE-GATES-027-FINDINGS.md), [original sign-list feasibility](../docs/egyptian-sign-list-feasibility.md). No sign-family exclusion.
 
 ### H-KRYPTOS-FINGERPRINT
 

@@ -12,7 +12,7 @@ def cycle_from_literal(raw):
  validate_strips([letters]);return letters
 
 def inspect_inventory(rows,variant,source_url):
- if not variant or not source_url:raise ValueError('version and source are required')
+ if not variant or not source_url or not rows:raise ValueError('nonempty inventory, version and source are required')
  ids=[r['id'] for r in rows]
  if len(ids)!=len(set(ids)):raise ValueError('duplicate strip IDs')
  cycles=[cycle_from_literal(r['literal']) for r in rows]

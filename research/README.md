@@ -128,3 +128,7 @@ Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLEC
 ## Item 6 checkpoint
 
 [Item 6 findings](TREE-GEOMETRY-IPA-026-FINDINGS.md) and [protocol](TREE-GEOMETRY-IPA-026-SPEC.md): narrow dynamic-tree/nonlinear geometry negatives; pronunciation-byte keys are a modern diagnostic, not a 1990 mechanism.
+
+## Item 7 checkpoint
+
+[Item 7 findings](STRIP-SOURCE-GATES-027-FINDINGS.md) distinguish a source-backed strip invariant, partial historical vectors and missing book/sign/German mechanisms. [Protocol](STRIP-SOURCE-GATES-027-SPEC.md); old checkpoint retained separately.
