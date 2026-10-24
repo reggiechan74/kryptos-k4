@@ -1,0 +1,74 @@
+{
+  "id": "SPELLING-MORPHISM-REVIEW-045",
+  "started_at_utc": "2026-10-24T18:54:06.106401+00:00",
+  "finished_at_utc": "2026-10-24T18:54:06.109289+00:00",
+  "complete_binary_length_cases": 5880,
+  "equal_length_cases": 312,
+  "full_fixed97_erasing_collision": {
+    "first": "ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "second": "BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "common_output": "B"
+  },
+  "source_constraints": [
+    {
+      "role": "normal_to_literal",
+      "equal_complete_stream_lengths": true,
+      "reduces_to_uniform_single_letter_on_observed_inputs": true,
+      "uniform_permutation_fit": {
+        "compatible": false,
+        "completion_count": 0,
+        "reason": "one input requires different outputs",
+        "witness": [
+          {
+            "pair": "K1",
+            "index": 40,
+            "source": "L",
+            "target": "L"
+          },
+          {
+            "pair": "K1",
+            "index": 56,
+            "source": "L",
+            "target": "Q"
+          }
+        ]
+      }
+    },
+    {
+      "role": "literal_to_normal",
+      "equal_complete_stream_lengths": true,
+      "reduces_to_uniform_single_letter_on_observed_inputs": true,
+      "uniform_permutation_fit": {
+        "compatible": false,
+        "completion_count": 0,
+        "reason": "different inputs require same output",
+        "witness": [
+          {
+            "pair": "K1",
+            "index": 40,
+            "source": "L",
+            "target": "L"
+          },
+          {
+            "pair": "K1",
+            "index": 56,
+            "source": "Q",
+            "target": "L"
+          }
+        ]
+      }
+    }
+  ],
+  "source_sha256": {
+    "research/SPELLING-MORPHISM-REVIEW-045-SPEC.md": "6a7a1fa7e3072b83e4cf8ad014b0b71f4519b7fa7387f69a0f4962816bc5b30e",
+    "experiments/spelling_morphism_review_045.py": "0c87e92b387a56192173e2e10ba1f2b60666babc3680bac421c41689ef64d160",
+    "data/controls.json": "54f19ff0ecd1e058a6b84c6ddb4ad75a297e4181edb45803647ed208d8fc011b"
+  },
+  "not_excluded": [
+    "context or word-boundary dependent codes",
+    "restricted vocabulary/framed side information",
+    "stateful invertible transducers",
+    "K3intent not independently established"
+  ],
+  "K4_trials": 0
+}

@@ -1,0 +1,46 @@
+{
+  "id": "REVIEW-CONTROLS-046",
+  "started_at_utc": "2026-10-24T18:55:29.101871+00:00",
+  "finished_at_utc": "2026-10-24T18:55:29.116792+00:00",
+  "chronology": "Post-outcome independent review supplement; no original source/model/receipt changed or large experiment rerun",
+  "controls": {
+    "active_cache": {
+      "active_stage": {
+        "stage": "connected_support",
+        "layers_built": 4,
+        "sweep": 0,
+        "layer": 2,
+        "direction": "backward"
+      },
+      "partial_entry_absent": true,
+      "recomputed_exact_roots_equal": true,
+      "subsequent_cache_hit": true
+    },
+    "explicit_wrong_DST": {
+      "explicit_deliberately_wrong_model": "Apply EU March\u2013September DST schedule equally toBerlin andLondon",
+      "hourly_comparisons": 8760,
+      "difference_disagreements": 840,
+      "derived_from_maxcounts": false
+    },
+    "valid_magic_invalid_flags": {
+      "valid_magic_invalid_flag_transport_checks": 48,
+      "invalid_flags": [
+        128,
+        136,
+        145,
+        159,
+        176,
+        208
+      ],
+      "valid_control": true,
+      "truncated_header_rejected": true
+    }
+  },
+  "source_sha256": {
+    "experiments/review_controls_046.py": "16e09f77019c1aa8cc139e63829dc9c30050c37d56681cc86a118248d94b30f3",
+    "experiments/sigaba_support_signature_041.py": "461333f8f38b67659d60f371f64e482e5d95c048770fe5557e9f13207897cabb",
+    "experiments/clock_civil_042.py": "1f06948a6d090f0c200747f9ea6d786d9e645db9adc0927353e4c69678380331",
+    "experiments/compress_transport_043.py": "d911b87e44dcf4bf713ddfed2fce5183380215dff4c40f12e5fce753a82fc177"
+  },
+  "new_K4_trials": 0
+}

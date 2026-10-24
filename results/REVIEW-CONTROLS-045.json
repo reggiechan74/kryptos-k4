@@ -1,0 +1,164 @@
+{
+  "id": "REVIEW-CONTROLS-045",
+  "started_at_utc": "2026-10-24T18:51:07.776485+00:00",
+  "finished_at_utc": "2026-10-24T18:51:07.777457+00:00",
+  "chronology": "After-outcome reviewer supplement;038original omitted its specified explicit changed-crib control. Original source/receipt preserved.",
+  "changed_crib_complete_systems": 8,
+  "records": [
+    {
+      "q": 2,
+      "length": 1,
+      "known": {
+        "0": 0
+      },
+      "changed_known": {
+        "0": 1
+      },
+      "original_keys": 1,
+      "new_keys": 1,
+      "equal_cardinality": true,
+      "disjoint_key_sets": true,
+      "old_keys_all_fail_changed_crib": true,
+      "new_free_keys_remain_admitted": true,
+      "contradictory_duplicate_crib_keys": 0
+    },
+    {
+      "q": 2,
+      "length": 2,
+      "known": {
+        "0": 0,
+        "1": 1
+      },
+      "changed_known": {
+        "0": 1,
+        "1": 1
+      },
+      "original_keys": 1,
+      "new_keys": 1,
+      "equal_cardinality": true,
+      "disjoint_key_sets": true,
+      "old_keys_all_fail_changed_crib": true,
+      "new_free_keys_remain_admitted": true,
+      "contradictory_duplicate_crib_keys": 0
+    },
+    {
+      "q": 2,
+      "length": 3,
+      "known": {
+        "0": 0,
+        "2": 0
+      },
+      "changed_known": {
+        "0": 1,
+        "2": 0
+      },
+      "original_keys": 2,
+      "new_keys": 2,
+      "equal_cardinality": true,
+      "disjoint_key_sets": true,
+      "old_keys_all_fail_changed_crib": true,
+      "new_free_keys_remain_admitted": true,
+      "contradictory_duplicate_crib_keys": 0
+    },
+    {
+      "q": 2,
+      "length": 4,
+      "known": {
+        "0": 0,
+        "3": 1
+      },
+      "changed_known": {
+        "0": 1,
+        "3": 1
+      },
+      "original_keys": 4,
+      "new_keys": 4,
+      "equal_cardinality": true,
+      "disjoint_key_sets": true,
+      "old_keys_all_fail_changed_crib": true,
+      "new_free_keys_remain_admitted": true,
+      "contradictory_duplicate_crib_keys": 0
+    },
+    {
+      "q": 3,
+      "length": 1,
+      "known": {
+        "0": 0
+      },
+      "changed_known": {
+        "0": 1
+      },
+      "original_keys": 1,
+      "new_keys": 1,
+      "equal_cardinality": true,
+      "disjoint_key_sets": true,
+      "old_keys_all_fail_changed_crib": true,
+      "new_free_keys_remain_admitted": true,
+      "contradictory_duplicate_crib_keys": 0
+    },
+    {
+      "q": 3,
+      "length": 2,
+      "known": {
+        "0": 0,
+        "1": 1
+      },
+      "changed_known": {
+        "0": 1,
+        "1": 1
+      },
+      "original_keys": 1,
+      "new_keys": 1,
+      "equal_cardinality": true,
+      "disjoint_key_sets": true,
+      "old_keys_all_fail_changed_crib": true,
+      "new_free_keys_remain_admitted": true,
+      "contradictory_duplicate_crib_keys": 0
+    },
+    {
+      "q": 3,
+      "length": 3,
+      "known": {
+        "0": 0,
+        "2": 2
+      },
+      "changed_known": {
+        "0": 1,
+        "2": 2
+      },
+      "original_keys": 3,
+      "new_keys": 3,
+      "equal_cardinality": true,
+      "disjoint_key_sets": true,
+      "old_keys_all_fail_changed_crib": true,
+      "new_free_keys_remain_admitted": true,
+      "contradictory_duplicate_crib_keys": 0
+    },
+    {
+      "q": 3,
+      "length": 4,
+      "known": {
+        "0": 0,
+        "3": 0
+      },
+      "changed_known": {
+        "0": 1,
+        "3": 0
+      },
+      "original_keys": 9,
+      "new_keys": 9,
+      "equal_cardinality": true,
+      "disjoint_key_sets": true,
+      "old_keys_all_fail_changed_crib": true,
+      "new_free_keys_remain_admitted": true,
+      "contradictory_duplicate_crib_keys": 0
+    }
+  ],
+  "source_sha256": {
+    "experiments/review_controls_045.py": "eb1fe354f0c663b985437c12b07cb34f7887e2144de01ee002ed51902b4ace60",
+    "experiments/cover_selector_038.py": "da184c9181e2f6222dc38671669d78df538a6ba714c69db61e909b6982bdcc64",
+    "research/COVER-SELECTOR-038-SPEC.md": "85a0d371b8ce1819fd378c82f0f1030e4c40f9e58dfacd257311456281d75312",
+    "results/COVER-SELECTOR-038-ORIGINAL.json": "e31b574b7f161813f0a9e1edd8e0b7ad79732f9af7e5bac918bdfdeba0fd6783"
+  },
+  "new_K4_trials": 0
+}
