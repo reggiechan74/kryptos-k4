@@ -131,16 +131,17 @@
       "family": 3,
       "id": "F3-PHOTO",
       "branch": "Actual curved copper transmission/projection",
-      "status": "evidence_blocked",
-      "coverage": "029synthetic incidence diagnostic;040exact image ambiguity witnesses. Zero certified pairs in reviewed/transferred record, not an impossibility claim.",
+      "status": "partially_tested",
+      "coverage": "029 synthetic incidence diagnostic and 040 exact image-ambiguity witnesses are complete. Acquisition-source visual inspection and local ground-crop review were attempted; systematic native-image material-point annotation and crop registration were not. No certified pairs exist in the reviewed record.",
       "missing_input": "Independent non-K4aperture/spot identities and justified source/surface/receiver model.",
-      "next_discriminating_work": "Recover crop transform or annotate native public LOCpixels off-site; source images may still yield pairs.",
+      "next_discriminating_work": "Use the accessible native LOC 3384x4283 TIFF and known hash, annotate actual non-K4 aperture/receiver material-point identities in native pixels, or recover the existing crop transform. Do not require a new photograph, site visit, true north or exposure time merely to attempt image-plane concurrence. Correspondence ambiguity may still prevent fitting.",
       "evidence": [
         "research/PROJECTION-CONCURRENCE-029-FINDINGS.md",
         "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
         "research/evidence/2026-10-24-projection-acquisition/README.md"
       ],
-      "whole_family_excluded": false
+      "whole_family_excluded": false,
+      "feasible_follow_up_status": "not_attempted: systematic native-pixel annotation and crop registration"
     },
     {
       "family": 3,
@@ -311,7 +312,7 @@
       "id": "F5-KEY",
       "branch": "City/hour/rank to reversible key",
       "status": "model_blocked",
-      "coverage": "Bare24to26letter mapping is not injective; no source bridge/traversal selected.",
+      "coverage": "A 24-symbol domain can inject into 26 letters, but cannot bijectively cover all 26. Encoding all 26 distinct plaintext letters as single 24-state symbols is not injective. A 24-valued key stream can still drive an invertible 26-letter cipher; key support need not cover every letter. No source bridge/traversal is selected.",
       "missing_input": "Total symbol conversion, band/rank/correction rule and origin/direction.",
       "next_discriminating_work": "Freeze an independently grounded bridge before any K4trial.",
       "evidence": [

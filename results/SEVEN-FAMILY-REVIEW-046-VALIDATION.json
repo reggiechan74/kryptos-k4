@@ -34,5 +34,110 @@
   "new_results_local_only": true,
   "canonical_ciphertext_unchanged": true,
   "site_files_unchanged": true,
-  "regression_timing_is_not_original_experiment_timing": true
+  "regression_timing_is_not_original_experiment_timing": true,
+  "post_review_correction": {
+    "scope": "Correct F5-KEY injection direction; document unattempted feasible native-photo annotation; add two regression tests. Original 702-test full-suite logs retained unchanged.",
+    "full_suite_repeated": false,
+    "previous_full_suite_commit": "851f98f4e86845b1e16737c27c35753f6489f134",
+    "runs": [
+      {
+        "interpreter": "python3",
+        "started_at_utc": "2026-10-24T19:14:35.824709+00:00",
+        "commands": [
+          {
+            "argv": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-p",
+              "test_seven_family_review_046.py"
+            ],
+            "returncode": 0
+          },
+          {
+            "argv": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-p",
+              "test_research_navigation.py"
+            ],
+            "returncode": 0
+          },
+          {
+            "argv": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-p",
+              "test_frontier_assessment.py"
+            ],
+            "returncode": 0
+          }
+        ],
+        "log": "results/SEVEN-FAMILY-REVIEW-046-correction-python39.log.txt",
+        "finished_at_utc": "2026-10-24T19:14:52.118131+00:00",
+        "affected_checks": 39,
+        "sha256": "f46711bac6dbf3388bce0e4be05e562a97f36275b2e26537ec94d6c56ec1a80b"
+      },
+      {
+        "interpreter": "/usr/local/bin/python3.12",
+        "started_at_utc": "2026-10-24T19:14:52.118286+00:00",
+        "commands": [
+          {
+            "argv": [
+              "/usr/local/bin/python3.12",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-p",
+              "test_seven_family_review_046.py"
+            ],
+            "returncode": 0
+          },
+          {
+            "argv": [
+              "/usr/local/bin/python3.12",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-p",
+              "test_research_navigation.py"
+            ],
+            "returncode": 0
+          },
+          {
+            "argv": [
+              "/usr/local/bin/python3.12",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-p",
+              "test_frontier_assessment.py"
+            ],
+            "returncode": 0
+          }
+        ],
+        "log": "results/SEVEN-FAMILY-REVIEW-046-correction-python312.log.txt",
+        "finished_at_utc": "2026-10-24T19:15:07.572952+00:00",
+        "affected_checks": 39,
+        "sha256": "930a69ce4866567208e8a8ffa3fcb0cab28edfa3225fb03e479208970f906632"
+      }
+    ]
+  }
 }

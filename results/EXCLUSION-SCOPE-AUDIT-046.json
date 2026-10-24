@@ -5701,8 +5701,8 @@
     },
     {
       "path": "research/SEVEN-FAMILY-REVIEW-046.md",
-      "sha256": "b47e6b33064f20adda1b002771a7d5400556e21e5fb050447bdd63d0d083c27d",
-      "matching_lines": 13
+      "sha256": "2aabe549a6345dc2cd402791d6a85da247ab0650fcc7cafc95f4be194d91207d",
+      "matching_lines": 14
     },
     {
       "path": "research/SIGABA-COLLECTOR-FILTER-FINDINGS.md",
@@ -6031,7 +6031,7 @@
     },
     {
       "path": "tests/README.md",
-      "sha256": "16ed6170b1ef1b1508bc853c7603bc1e706315bbdf702fee53e552a560afeb8a",
+      "sha256": "11f6bdecaeb6bf1c723f64866b0b18d6feb0e31b00130d0979ee330214d13c81",
       "matching_lines": 1
     }
   ],
@@ -12968,13 +12968,6 @@
     },
     {
       "path": "research/SEVEN-FAMILY-REVIEW-046.md",
-      "line": 43,
-      "text": "| Actual curved copper transmission/projection | evidence_blocked | 029 synthetic incidence diagnostic; 040 exact image ambiguity witnesses. Zero certified pairs in reviewed/transferred record, not an impossibility claim. | Independent non-K4 aperture/spot identities and justified source/surface/receiver model. Recover crop transform or annotate native public LOCpixels off-site; source images may still yield pairs. | [PROJECTION-CONCURRENCE-029-FINDINGS.md](PROJECTION-CONCURRENCE-029-FINDINGS.md), [PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md](PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md), [README.md](evidence/2026-10-24-projection-acquisition/README.md) |",
-      "review_unit": "authored document or retained source report",
-      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
-    },
-    {
-      "path": "research/SEVEN-FAMILY-REVIEW-046.md",
       "line": 56,
       "text": "| Distinct Plett/Wheatstone operation | evidence_blocked | Fixed-ring transition family excluded; historical REFERENCEvector independently replayed with source typo preserved. | A genuinely different hidden-move/state convention with primary instructions and external vector. Another alphabet reversal is already covered; do not count it as distinct historical research. | [WHEATSTONE-TRANSITION-FINDINGS.md](WHEATSTONE-TRANSITION-FINDINGS.md), [STRIP-SOURCE-GATES-027-FINDINGS.md](STRIP-SOURCE-GATES-027-FINDINGS.md) |",
       "review_unit": "authored document or retained source report",
@@ -13012,6 +13005,20 @@
       "path": "research/SEVEN-FAMILY-REVIEW-046.md",
       "line": 86,
       "text": "| Nonlinear constructions | non-identifiable | Arbitrary-function three-round fits have multiple full plaintext witnesses; specific simpler domains rejected. | Independent restriction or unseen validation beyond public cribs. Another fitted round/free repair increases freedom rather than supplying evidence. | [FEISTEL-TREE-EXTENSION-FINDINGS.md](FEISTEL-TREE-EXTENSION-FINDINGS.md) |",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "research/SEVEN-FAMILY-REVIEW-046.md",
+      "line": 102,
+      "text": "A 24-element set can inject into a 26-element set; cardinality prevents a bijection onto all 26, not an injection. The reversed 26-to-24 single-state encoding is necessarily non-injective. A key stream need not use all 26 key values to drive an invertible keyed-alphabet cipher. Neither cardinality fact independently selects or excludes a clock-to-key rule. The prior F5-KEY wording reversed this distinction and is corrected here and in the JSON ledger. The related 025 report correctly discusses 26-to-24 encoding and needs no change.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "research/SEVEN-FAMILY-REVIEW-046.md",
+      "line": 106,
+      "text": "The exact accessible input is the [native LOC TIFF](https://cdn.loc.gov/master/pnp/highsm/13300/13337u.tif), 3384 × 4283 pixels, SHA-256 `302fb88dee8db7f484a85d9d7f9bbd39f69de37cbf7bb25ae5a2e35bf8b8cf52`. The supplied native ground ROI is `[1400,2800,2200,3600)`; it is a region, not a correspondence. Work directly in native pixels to avoid dependence on the unknown transform of the 2000 × 1500 ground-detail PNG. Record candidate non-K4 aperture and receiver material points, uncertainty and rejected/ambiguous identities; use independently selected holdouts only if genuine correspondences can be established. A north bearing, metric scale and capture time are not prerequisites for this first image-plane incidence test. Repeated letters and arbitrary glyph centroids cannot certify physical point identities. No new optical fit or annotation result is asserted in this correction.",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
