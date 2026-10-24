@@ -1,0 +1,14 @@
+{
+  "kind": "Preflight serialization-cap issue, not a cipher negative",
+  "recorded_at_utc": "2026-10-24T02:59:14.270769+00:00",
+  "original_start_end_utc_not_captured": true,
+  "numerical_controls_completed": true,
+  "raw_bytes": 92651062,
+  "raw_sha256": "d50bab348f243666c65ca777f4c8f4310c66b71abc54e2e3ac00f0cd3ea2cc8d",
+  "saved_compressed_bytes": 2158206,
+  "saved_sha256": "6150bbc46edc4405203a647c2fc3415e72351fb2225fa5efcee601a0fad15966",
+  "original_uncompressed_format_exceeded_64MiB": true,
+  "lossless_data_retained": true,
+  "no_model_or_budget_expansion": true,
+  "resolution": "Stream gzip within original saved-payload cap; repeat controls inside original timestamped runner."
+}
