@@ -1,0 +1,18 @@
+{
+  "run_id": "20261024T025915Z-631d1a506e55420792c3f2bfd4729e95",
+  "started_at_utc": "2026-10-24T02:59:15.017247+00:00",
+  "label": "Item8 complete one-edit counterfactual sensitivity",
+  "execution_kind": "original",
+  "status": "incomplete",
+  "specification": {
+    "commit": "786f86406ac64c55824967469170d6de9596563a",
+    "file": "ONE-EDIT-028-SPEC.md",
+    "sha256": "188e64143c8430c45ef30cb50bd185e0e93ed8e5cab4e3cc70211bc3213939fd",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [],
+  "artifacts": {},
+  "outcome": "error",
+  "error_type": "TypeError",
+  "finished_at_utc": "2026-10-24T02:59:33.874336+00:00"
+}

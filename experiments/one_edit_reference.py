@@ -86,3 +86,13 @@ def tiny_controls():
     if all(alphabet[(sgn*alphabet.index(c)+candidate[i%period])%q]==cipher[i] for start,word in ((1,word1),(6,word2)) for i,c in enumerate(word,start)):truth.append(candidate)
    assert truth==([got] if complete and got is not None else []);periodic_cases+=1
  return dict(complete_permutation_truth_cases=permutation_cases,complete_periodic_key_truth_cases=periodic_cases)
+
+
+def fixed_table_crypt(text,key,model,decrypt=False):
+ a=ALPHABETS[model['alphabet']];sign=1 if model['equation']=='plus' else -1;out=[]
+ for i,c in enumerate(text):
+  table={p:a[(sign*a.index(p)+key[i%len(key)])%26] for p in a}
+  if decrypt:table={v:p for p,v in table.items()}
+  assert len(table)==26
+  out.append(table[c])
+ return ''.join(out)

@@ -31,3 +31,8 @@ class OneEditCoreTests(unittest.TestCase):
  def test_incomplete_training_or_berlin_span_rejected(self):
   with self.assertRaises(ValueError):m.training('A'*12)
   with self.assertRaises(ValueError):m.forecast('A'*10,[1],m.MODELS[0],42)
+
+ def test_independent_fixed_table_decoder_every_structure(self):
+  for model in m.MODELS:
+   key=[(7*i+3)%26 for i in range(model['period'])];plain=c.AZ+'THEQUICKBROWNFOX'
+   cipher=m.periodic_crypt(plain,key,model);self.assertEqual(r.fixed_table_crypt(plain,key,model),cipher);self.assertEqual(r.fixed_table_crypt(cipher,key,model,True),plain)
