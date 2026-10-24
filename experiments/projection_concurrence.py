@@ -78,7 +78,7 @@ def diagnose(pairs,width,height,training,perturbations=256,seed=290024):
   row.update(index=i,role='training' if i in training else 'heldout',source_fit_sigma_miss_px=sd)
   total=None if sd is None or row['endpoint_sigma_miss_px'] is None else math.hypot(sd,row['endpoint_sigma_miss_px'])
   row['combined_standardized']=None if not total else row['signed_miss_px']/total
- held=[r['combined_standardized'] for r in rows if r['role']=='heldout'];valid=bool(held) and all(x is not None for x in held)
+ held=[r['combined_standardized'] for r in rows if r['role']=='heldout'];valid=bool(held) and all(x is not None for x in held) and all(row['status']=='ok' for row in rows)
  rms=math.sqrt(sum(x*x for x in held)/len(held)) if valid else None;mx=max(map(abs,held)) if valid else None
  return dict(fit=base,residuals=rows,heldout_combined_rms=rms,heldout_combined_max=mx,conditional_line_gate_pass=valid and not base['warnings'] and rms<=2 and mx<=4,perturbations=perturbations,failed_perturbations=failed,real_data_admission=False,interpretation='Synthetic/conditional line incidence only; no full ground-point prediction, physical source, date or K4 result')
 

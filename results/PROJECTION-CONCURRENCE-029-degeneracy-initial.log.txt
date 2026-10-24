@@ -1,0 +1,13 @@
+.............F.
+======================================================================
+FAIL: test_training_source_coincidence_blocks_gate (test_projection_concurrence.ProjectionTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/reggiechan-mini/Documents/Codex/2026-10-19/make-these-changes-to-reggie-chan/work/kryptos-k4/tests/test_projection_concurrence.py", line 29, in test_training_source_coincidence_blocks_gate
+    out=p.diagnose(pairs,1000,800,f['training'],32);self.assertFalse(out['conditional_line_gate_pass']);self.assertNotEqual(out['residuals'][0]['status'],'ok')
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.019s
+
+FAILED (failures=1)

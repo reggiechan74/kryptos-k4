@@ -1,0 +1,10 @@
+{
+  "kind": "Pre-real-data adversarial QA correction",
+  "recorded_at_utc": "2026-10-24T11:50:23.378499+00:00",
+  "initial_failure": "Source coincident with a training aperture produced an undefined training residual, but gate checked heldout residuals only",
+  "initial_tests_run": 15,
+  "initial_failures": 1,
+  "fix": "Require every retained pair residual to be defined before synthetic line gate can pass; no point dropping, fixture change or tolerance change",
+  "initial_synthetic_receipt_preserved": "results/PROJECTION-CONCURRENCE-029-SYNTHETIC-INITIAL.json",
+  "real_fits": 0
+}

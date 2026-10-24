@@ -24,6 +24,9 @@ class ProjectionTests(unittest.TestCase):
   with self.assertRaisesRegex(ValueError,'collapsed'):p.fit(self.f['collapsed']['pairs'],1000,800,f['training'])
  def test_source_coincident(self):
   pair=dict(aperture=[120,-80],receiver=[150,100],sigma_px=1);s=p.normalize([120,-80],1000,800);self.assertIsNone(p.residual(pair,s,1000,800)['signed_miss_px'])
+ def test_training_source_coincidence_blocks_gate(self):
+  f=self.f['finite'];pairs=[dict(z) for z in f['pairs']];pairs[0]=dict(aperture=[120.,-80.],receiver=[200.,400.],sigma_px=.25)
+  out=p.diagnose(pairs,1000,800,f['training'],32);self.assertFalse(out['conditional_line_gate_pass']);self.assertNotEqual(out['residuals'][0]['status'],'ok')
  def test_covariance_gradient(self):
   coords=[.2,-.3,.8,.4];s=[.5,-.7,.2];x,y,u,v=coords;exact=[-s[1]+v*s[2],s[0]-u*s[2],s[1]-y*s[2],-s[0]+x*s[2]]
   for a,b in zip(exact,r.numerical_gradient(coords,s)):self.assertAlmostEqual(a,b,places=9)
@@ -52,3 +55,20 @@ if __name__=='__main__':unittest.main()
 
 # Parallel distinct lines have rank two and a unique projective infinity source;
 # near-coincident lines, rather than parallelism itself, are the degeneracy above.
+
+class ProjectionArtifacts(unittest.TestCase):
+ def test_recorded_synthetic_fixture_and_scope(self):
+  import json,hashlib
+  root=Path(__file__).resolve().parents[1];d=json.loads((root/'results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json').read_text())
+  self.assertEqual(d['fixtures'],p.fixtures());self.assertEqual(d['real_certified_pairs'],0);self.assertEqual(d['real_fits_executed'],0);self.assertEqual(d['K4_trials'],0)
+  self.assertLess(d['elapsed_seconds'],60);self.assertLess(d['peak_rss_bytes'],256*1024**2)
+  for path,sha in d['source_sha256'].items():
+   # Test file gains artifact checks only after run; native source/spec hashes stay fixed.
+   if path!='tests/test_projection_concurrence.py':self.assertEqual(hashlib.sha256((root/path).read_bytes()).hexdigest(),sha,path)
+ def test_saved_outcomes_and_uncertainty_sensitivity(self):
+  import json
+  d=json.loads((Path(__file__).resolve().parents[1]/'results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json').read_text())
+  for factor in ('0.5','1.0','2.0'):
+   for name in ('finite','distant_finite','infinity','noisy_finite'):self.assertTrue(d['records'][name][factor]['conditional_line_gate_pass'])
+   for name in ('heldout_mutation','mixed_sources','coincident_lines'):self.assertFalse(d['records'][name][factor]['conditional_line_gate_pass'])
+   self.assertEqual(d['records']['collapsed'][factor]['status'],'inadmissible_geometry')
