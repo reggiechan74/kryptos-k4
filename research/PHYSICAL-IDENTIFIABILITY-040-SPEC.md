@@ -1,0 +1,9 @@
+# Family 3 / PHYSICAL-IDENTIFIABILITY-040 — frozen analytical follow-through
+
+24October2026UTC. No real correspondence certified, no new pose/key search. Preserve029 and036/037 finite results and actual-source limitations.
+
+1. Construct12synthetic image pairs on a known receiver plane, with exact rational arithmetic and varied apparent aperture-to-receiver magnification. Independently realize exactly those same pairs with finite physical point sources at two different depths and with a parallel ray field. Require aperture between source and receiver for finite paths and identical image concurrence/held-out incidence. This tests non-identifiability when aperture depth is unknown, not matching actual sculpture geometry or finite-source blur. Verify via direct3D cross products and perspective division, not the inverse construction alone.8training/4heldout is this deterministic design, not a sufficiency theorem; adjacent wrong-pair swap must produce a nonzero incidence residual.
+
+2. Prove uniform similarity of ideal mirror optics: scaling every geometric length, cylinder height, receiver, reticle and pitch by the same positive factor preserves unit directions, surface normals, dimensionless cells and key. Independently check the pinned037 default's97rays at scales0.1,1,10 using generic hit/plane equations and the existing exact source contract. Unscaled-radius negative control. This is not a new apparatus size claim: absolute pupil/assembly errors do not scale automatically; mm tolerance conclusions remain conditional on a physical scale.
+
+No marker at infinity is used to infer physical Sun versus lamp. No 3D concurrence/source identity from an image-line fit. No invented actual contour, millimetres, lighting time, polished copper, physical replica or K4 test. Cap60s/256MiB; complete output and UTC receipts. End at the actual photo/bench/source-selected-key acquisition gate, without reopening denied archives or editing Site.
