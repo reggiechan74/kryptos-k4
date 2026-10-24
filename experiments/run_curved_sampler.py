@@ -86,7 +86,7 @@ def recovery(panel):
  for draw in range(31):
   rows=[]
   for plant in plants:
-   chars=list(plant['ciphertext']);rng.shuffle(chars);cipher=''.join(chars);known={int(i)-1:v for i,v in plant['known_one_based'].items()};scores=[sum(c.encrypt(cipher,key,True)[i]==value for i,value in known.items()) for key in panel];rows.append(dict(ciphertext=cipher,maximum_known_matches=max(scores),full24_key_classes=sum(x==24 for x in scores)))
+   chars=list(plant['ciphertext']);rng.shuffle(chars);cipher=''.join(chars);known={int(i)-1:v for i,v in plant['known_one_based'].items()};required={i:c.ALPHABET[(c.ALPHABET.index(cipher[i])-c.ALPHABET.index(value))%26] for i,value in known.items()};scores=[sum(key[i]==value for i,value in required.items()) for key in panel];rows.append(dict(ciphertext=cipher,maximum_known_matches=max(scores),full24_key_classes=sum(x==24 for x in scores)))
   nulls.append(dict(draw=draw,records=rows,whole_family_maximum=max(x['maximum_known_matches'] for x in rows),full24_key_classes=sum(x['full24_key_classes'] for x in rows)));check(clock)
  return dict(started_at_utc=start,finished_at_utc=utc(),elapsed_seconds=time.monotonic()-clock,complete=True,plants=plants,nulls=nulls)
 
