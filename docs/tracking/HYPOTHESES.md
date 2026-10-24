@@ -66,3 +66,4 @@ Generated navigation; edit the canonical ledger or receipts, then run `python3 e
 | H-RADIX-FEEDBACK | analytical exclusion | Changing-base geometric codes enter a fixed affine key recurrence. | [H-RADIX-FEEDBACK canonical record](../../research/HYPOTHESES.md#h-radix-feedback) |
 | H-ONE-EDIT | non-identifiable | A bounded construction-error sensitivity arm. | [H-ONE-EDIT canonical record](../../research/HYPOTHESES.md#h-one-edit) |
 | H-ARCHITECTURE-DIAGNOSIS | non-identifiable | Classify architecture from fixed short-text features. | [H-ARCHITECTURE-DIAGNOSIS canonical record](../../research/HYPOTHESES.md#h-architecture-diagnosis) |
+| H-DELIBERATE-SPELLING | evidence-blocked | A rule-governed deliberate spelling change, or information extracted by correcting it, supplies a preprocessing step or key. | [H-DELIBERATE-SPELLING canonical record](../../research/HYPOTHESES.md#h-deliberate-spelling) |

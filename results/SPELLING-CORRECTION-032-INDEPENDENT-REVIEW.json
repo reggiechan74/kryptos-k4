@@ -1,0 +1,16 @@
+{
+  "kind": "Post-run local comparison to parent-relayed independent native audit",
+  "frozen_spec_commit": "cf3f90f2d5b08456ff32b0144e691743089d650f",
+  "original_implementation_commit": "0994e8ba77ca88693a3b1670fd5723779ba1804e",
+  "parent_claims_locally_verified": [
+    "Unique minimal word alignments including inserted E",
+    "No invertible affine correction on changed-only Q/U sites in either alphabet",
+    "Uniform letter/keyboard/copy constraints",
+    "No source-selected contextual trigger"
+  ],
+  "changed_site_oracle_arbitrary_bijection_completions": 620448401733239439360000,
+  "changed_site_oracle_warning": "Counts completions only after granting unknown sites; not source-fitting rules or K4 keys",
+  "uncertain_K3_intention_preserved": true,
+  "source_phases_added_after_failure": 0,
+  "new_K4_trials": 0
+}

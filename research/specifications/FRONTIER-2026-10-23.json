@@ -1,8 +1,8 @@
 {
-  "id": "FRONTIER-031",
-  "reviewed_main_commit": "d157fa4d1aa7113ac6a313828826e8708d8e1094",
+  "id": "FRONTIER-032",
+  "reviewed_main_commit": "341d811ec894c375c18f160824ef47839d763313",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Corrected live version 17 source delta and full-feature archive verified; real physical correspondence gate remains blocked. No new K4 evaluation or solution claim.",
+  "decision": "Local deliberate-spelling source analysis found no consistent rule in its declared uniform families. The new general family remains evidence-blocked on an independently specified trigger/stage/inverse; no K4 evaluation, push or Site change.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -361,11 +361,36 @@
       "go_no_go": "The earlier forced K4 label was also assigned to 44/48 uniform controls. Its 125/144 closed-set accuracy is not evidence for K4 architecture or transfer to other authors.",
       "safe_replay_argv": null,
       "replay_scope": "No new classifier is needed merely to keep generating a label."
+    },
+    {
+      "id": "F-CORRECTION-TRIGGER",
+      "hypotheses": [
+        "H-DELIBERATE-SPELLING"
+      ],
+      "blocker_type": "source_selected_rule_and_alignment",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Independent context/position trigger, representation, stage, inverse and length/index convention. Two source-attributed intentional anomalies do not identify those choices.",
+      "available": [
+        "research/SPELLING-CORRECTION-032-SPEC.md",
+        "research/SPELLING-CORRECTION-032-FINDINGS.md",
+        "research/SPELLING-CORRECTION-032-SOURCES.md",
+        "experiments/spelling_correction.py",
+        "experiments/spelling_correction_reference.py",
+        "results/SPELLING-CORRECTION-032-ORIGINAL.json"
+      ],
+      "safe_replay_argv": [
+        "python3",
+        "experiments/run_spelling_correction.py",
+        "--output",
+        "/tmp/spelling-correction-replay.json"
+      ],
+      "stop_condition": "No K4 scoring or new contexts until an independent rule reproduces unchanged source letters and predicts an unused anomaly without fitted exceptions."
     }
   ],
   "default_for_other_registered_entries": {
     "blocker_type": "completed_scoped_domain_requires_new_independent_specification",
     "ready_for_new_K4_evaluation": false,
     "next_deliverable": "Use the canonical tested scope, check equivalence and source motivation, and freeze a materially different finite protocol before evaluation. Untested complement alone is not a recommended experiment."
-  }
+  },
+  "expected_register_entries": 61
 }

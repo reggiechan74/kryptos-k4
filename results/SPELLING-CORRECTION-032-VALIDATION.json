@@ -1,0 +1,39 @@
+{
+  "kind": "Local deliberate-spelling final regression, not K4 or publication timing",
+  "recorded_at_utc": "2026-10-24T13:27:34.928551+00:00",
+  "suites": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T13:25:12.112045+00:00",
+      "finished_at_utc": "2026-10-24T13:26:15.774978+00:00",
+      "elapsed_seconds": 63.662466083000005,
+      "exit_code": 0,
+      "log": "results/SPELLING-CORRECTION-032-python39.log.txt",
+      "sha256": "d59af339fe557ef8d2c63799daac127a77f22eba194997d7d07d1fc1c6e75d72",
+      "tests_passed": 608
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T13:26:15.775273+00:00",
+      "finished_at_utc": "2026-10-24T13:27:06.540981+00:00",
+      "elapsed_seconds": 50.765403834,
+      "exit_code": 0,
+      "log": "results/SPELLING-CORRECTION-032-python312.log.txt",
+      "sha256": "7aa2e8ee1f16061cf39d174a44090f4cb4287ff4906d62b7ad7bd41e43782cd1",
+      "tests_passed": 608
+    }
+  ],
+  "source_sha256": {
+    "experiments/spelling_correction.py": "b4498c5a62283265d088559325b475ee71427802a70994f5368e683747b217c6",
+    "experiments/spelling_correction_reference.py": "a85ee0ecb3bfa16e404305f11c0181a6c285ef308bb2bc1f21dfc83e78466295",
+    "experiments/run_spelling_correction.py": "65857ca72272b168e813a21942d3a18c348fe219708440c797771cbf3c68a313",
+    "tests/test_spelling_correction.py": "9cf541de3923e0581b41ebd65d631b790968b7bc69d673e9eb28f6d2ab712ae1",
+    "tests/test_spelling_correction_artifacts.py": "87538abb22ece126754cf68b73283edf35d5757118f25935a4fc8b0d29f9ef9b"
+  },
+  "python312_complete_study_and_controls_replay_equal": true,
+  "source_rule_supported": false,
+  "K4_trials": 0,
+  "Site_changed": false,
+  "push_attempted": false,
+  "publication_authorized": false
+}

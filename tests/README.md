@@ -131,3 +131,7 @@ Historical artifact checks validate the shared `run_io.py` / `run_bounded.py` by
 ## Projection-concurrence diagnostic
 
 `test_projection_concurrence.py` checks projective fitting, independent scalar arithmetic, uncertainty controls and retained synthetic fixtures. Synthetic validation is not real correspondence certification.
+
+## Local deliberate-spelling study
+
+`test_spelling_correction.py` and `test_spelling_correction_artifacts.py` verify complete edit alignments, unchanged-letter constraints, reversible plants and source-result integrity.

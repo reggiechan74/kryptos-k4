@@ -1749,3 +1749,24 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Final local aggregate regression: 595 tests pass on Python 3.9 and 3.12; [UTC receipt and full logs](../../results/SITE-PROJECTION-V17-VALIDATION.json). Version 16 archive is unchanged; corrected version 17 is separately archived.
 
 Related files: [docs/site-source/projection-v17-20261024/README.md](../site-source/projection-v17-20261024/README.md), [docs/site-source/projection-v17-20261024/snapshot/HANDOFF_MANIFEST.json](../site-source/projection-v17-20261024/snapshot/HANDOFF_MANIFEST.json), [experiments/verify_projection_v17_handoff.py](../../experiments/verify_projection_v17_handoff.py), [results/SITE-PROJECTION-V17-SOURCE-HANDOFF.json](../../results/SITE-PROJECTION-V17-SOURCE-HANDOFF.json), [results/SITE-PROJECTION-V17-VALIDATION.json](../../results/SITE-PROJECTION-V17-VALIDATION.json).
+
+## LOG-3ED35BF8BC
+
+**SPELLING-CORRECTION-032 — deliberate spelling source-rule constraints**
+
+start: 2026-10-24T13:18:35.633896Z; end: 2026-10-24T13:18:35.659389Z; start: 2026-10-24T13:27:34.863824Z; end: 2026-10-24T13:27:34.889269Z; receipt recording: 2026-10-24T13:27:34.928551Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 24 October 2026 UTC. Local source-consistency/identifiability study; zero K4 trials, no push or Site edit.
+
+Type: source consistency constraints; exact edit and ambiguity analysis; synthetic reversible controls. Outcome: No supported uniform source rule; general trigger/key role evidence-blocked; zero K4 trials and local only
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 24 October 2026 UTC. Local source-consistency/identifiability study; zero K4 trials, no push or Site edit.
+- [Frozen protocol](../../research/SPELLING-CORRECTION-032-SPEC.md), [findings](../../research/SPELLING-CORRECTION-032-FINDINGS.md), [source/prior coverage](../../research/SPELLING-CORRECTION-032-SOURCES.md), [native code](../../experiments/spelling_correction.py), [independent oracles](../../experiments/spelling_correction_reference.py).
+- Original run UTC start/end: 2026-10-24T13:18:35.633896+00:00 / 2026-10-24T13:18:35.659389+00:00; [full output and controls](../../results/SPELLING-CORRECTION-032-ORIGINAL.json). Source retrieval/attribution and later regression times are separate.
+- All minimal word alignments retain Q→L, U→O and uncertain K3 A→E plus inserted E. Uniform full-source letter functions fail; 624 invertible affine changed-site maps fail; keyboard/copy/permutation/vowel constraints fail. These are overlapping exact constraints, not independent statistical trials.
+- All 42 repeated-mask phase descriptions fail on both complete primary texts (84 source applications). They are direct source-transformation diagnostics, not K4 keys or tests of every correction-derived outer cipher. No new trigger or key sweep follows.
+- Independent controls: 394 tiny alignment sets, 436 function-count systems, 24 planted substitutions, 624 affine and 126 mask roundtrips; all pass. General contextual correction family remains evidence-blocked, not universally excluded.
+
+- Final local validation: 608 tests pass on Python 3.9/3.12; [UTC receipt and full logs](../../results/SPELLING-CORRECTION-032-VALIDATION.json), [complete cross-version replay](../../results/SPELLING-CORRECTION-032-PY312-REPLAY.json). No new K4 trial or publication.
+
+Related files: [experiments/spelling_correction.py](../../experiments/spelling_correction.py), [experiments/spelling_correction_reference.py](../../experiments/spelling_correction_reference.py), [research/SPELLING-CORRECTION-032-FINDINGS.md](../../research/SPELLING-CORRECTION-032-FINDINGS.md), [research/SPELLING-CORRECTION-032-SOURCES.md](../../research/SPELLING-CORRECTION-032-SOURCES.md), [research/SPELLING-CORRECTION-032-SPEC.md](../../research/SPELLING-CORRECTION-032-SPEC.md), [results/SPELLING-CORRECTION-032-ORIGINAL.json](../../results/SPELLING-CORRECTION-032-ORIGINAL.json), [results/SPELLING-CORRECTION-032-PY312-REPLAY.json](../../results/SPELLING-CORRECTION-032-PY312-REPLAY.json), [results/SPELLING-CORRECTION-032-VALIDATION.json](../../results/SPELLING-CORRECTION-032-VALIDATION.json).

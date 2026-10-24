@@ -15,7 +15,7 @@ def canonical(text):
 
 def assess(spec=None,entries=None):
     spec=json.loads(SPEC.read_text()) if spec is None else spec;entries=canonical((ROOT/'research/HYPOTHESES.md').read_text()) if entries is None else entries
-    if len(entries)!=60:raise ValueError('New register size requires a fresh frontier review')
+    if len(entries)!=spec.get('expected_register_entries',60):raise ValueError('New register size requires a fresh frontier review')
     gates=spec['gates'];ids=[g['id'] for g in gates]
     if len(ids)!=len(set(ids)):raise ValueError('duplicate frontier gate')
     paths={Path(__file__),SPEC,ROOT/'research/HYPOTHESES.md',ROOT/'data/k4.json'};assignments=collections.defaultdict(list)

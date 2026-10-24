@@ -97,3 +97,7 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Projection-concurrence diagnostic
 
 [Projection diagnostic complete synthetic receipt](PROJECTION-CONCURRENCE-029-SYNTHETIC.json), [initial QA](PROJECTION-CONCURRENCE-029-INITIAL-QA.json) and [training-degeneracy correction](PROJECTION-CONCURRENCE-029-DEGENERACY-QA.json). Zero real correspondences/fits.
+
+## Local deliberate-spelling study
+
+[Original source analysis and controls](SPELLING-CORRECTION-032-ORIGINAL.json), [source retrieval hashes](SPELLING-CORRECTION-032-SOURCES.json), [independent reviewer comparison](SPELLING-CORRECTION-032-INDEPENDENT-REVIEW.json). No spelling correction of K4 is inferred.

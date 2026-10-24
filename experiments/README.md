@@ -175,3 +175,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Projection-concurrence diagnostic
 
 [Projection concurrence](projection_concurrence.py), [independent scalar checks](projection_concurrence_reference.py), [synthetic runner](run_projection_concurrence.py); line prediction is not full spot prediction or a K4 test.
+
+## Local deliberate-spelling study
+
+[Source constraints](spelling_correction.py), [independent edit/congruence oracles](spelling_correction_reference.py), [local runner](run_spelling_correction.py). This runner evaluates known source consistency, not K4.

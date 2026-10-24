@@ -1,0 +1,2680 @@
+{
+  "id": "SPELLING-CORRECTION-032",
+  "kind": "Original source-rule constraints and controls; no K4 model evaluation",
+  "started_at_utc": "2026-10-24T13:18:35.633896+00:00",
+  "controls_finished_at_utc": "2026-10-24T13:18:35.656262+00:00",
+  "finished_at_utc": "2026-10-24T13:18:35.659389+00:00",
+  "elapsed_seconds": 0.025261416999999998,
+  "peak_rss_bytes": 18251776,
+  "budget_seconds": 60,
+  "budget_rss_bytes": 268435456,
+  "python": "3.9.6",
+  "implementation_commit": "0994e8ba77ca88693a3b1670fd5723779ba1804e",
+  "source_sha256": {
+    "research/SPELLING-CORRECTION-032-SPEC.md": "dcc3d3fba3db73cf736f59d38940026b993f628f790e0e499dd6ee8aa8a64b65",
+    "experiments/spelling_correction.py": "b4498c5a62283265d088559325b475ee71427802a70994f5368e683747b217c6",
+    "experiments/spelling_correction_reference.py": "a85ee0ecb3bfa16e404305f11c0181a6c285ef308bb2bc1f21dfc83e78466295",
+    "experiments/run_spelling_correction.py": "65857ca72272b168e813a21942d3a18c348fe219708440c797771cbf3c68a313",
+    "data/controls.json": "54f19ff0ecd1e058a6b84c6ddb4ad75a297e4181edb45803647ed208d8fc011b",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  },
+  "controls": {
+    "complete_tiny_alignment_sets": 394,
+    "all_retained_tiny_script_roundtrips": 586,
+    "complete_tiny_function_oracles": 436,
+    "independent_word_BFS_distances": 8,
+    "planted_complete_substitutions": 24,
+    "all_invertible_affine_roundtrips": 624,
+    "independent_affine_candidate_sets": 4,
+    "partial_keyboard_roundtrips": 3,
+    "keyboard_boundary_rejections": 1,
+    "positional_mask_roundtrips": 126,
+    "metadata_free_correction_collision": {
+      "inputs": [
+        "IQLUSION",
+        "ILLUSION"
+      ],
+      "same_output": "ILLUSION",
+      "label": "toy Q-to-L correction only; not a complete source-fitting mechanism"
+    }
+  },
+  "study": {
+    "source_rule_feasibility": {
+      "trigger_free_forward": false,
+      "trigger_free_correction": false,
+      "invertible_affine_any": false,
+      "keyboard_single_translation": false,
+      "transposition": false,
+      "copy_delete": false,
+      "vowel_only": false,
+      "positional_masks": false
+    },
+    "inventory": [
+      {
+        "id": "K1",
+        "normal": "ILLUSION",
+        "literal": "IQLUSION",
+        "intent": "intent attributed by Dunin",
+        "forward": {
+          "distance": 1,
+          "alignments": [
+            [
+              {
+                "op": "M",
+                "source_index": 0,
+                "target_index": 0,
+                "source": "I",
+                "target": "I"
+              },
+              {
+                "op": "S",
+                "source_index": 1,
+                "target_index": 1,
+                "source": "L",
+                "target": "Q"
+              },
+              {
+                "op": "M",
+                "source_index": 2,
+                "target_index": 2,
+                "source": "L",
+                "target": "L"
+              },
+              {
+                "op": "M",
+                "source_index": 3,
+                "target_index": 3,
+                "source": "U",
+                "target": "U"
+              },
+              {
+                "op": "M",
+                "source_index": 4,
+                "target_index": 4,
+                "source": "S",
+                "target": "S"
+              },
+              {
+                "op": "M",
+                "source_index": 5,
+                "target_index": 5,
+                "source": "I",
+                "target": "I"
+              },
+              {
+                "op": "M",
+                "source_index": 6,
+                "target_index": 6,
+                "source": "O",
+                "target": "O"
+              },
+              {
+                "op": "M",
+                "source_index": 7,
+                "target_index": 7,
+                "source": "N",
+                "target": "N"
+              }
+            ]
+          ]
+        },
+        "correction": {
+          "distance": 1,
+          "alignments": [
+            [
+              {
+                "op": "M",
+                "source_index": 0,
+                "target_index": 0,
+                "source": "I",
+                "target": "I"
+              },
+              {
+                "op": "S",
+                "source_index": 1,
+                "target_index": 1,
+                "source": "Q",
+                "target": "L"
+              },
+              {
+                "op": "M",
+                "source_index": 2,
+                "target_index": 2,
+                "source": "L",
+                "target": "L"
+              },
+              {
+                "op": "M",
+                "source_index": 3,
+                "target_index": 3,
+                "source": "U",
+                "target": "U"
+              },
+              {
+                "op": "M",
+                "source_index": 4,
+                "target_index": 4,
+                "source": "S",
+                "target": "S"
+              },
+              {
+                "op": "M",
+                "source_index": 5,
+                "target_index": 5,
+                "source": "I",
+                "target": "I"
+              },
+              {
+                "op": "M",
+                "source_index": 6,
+                "target_index": 6,
+                "source": "O",
+                "target": "O"
+              },
+              {
+                "op": "M",
+                "source_index": 7,
+                "target_index": 7,
+                "source": "N",
+                "target": "N"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "id": "K2",
+        "normal": "UNDERGROUND",
+        "literal": "UNDERGRUUND",
+        "intent": "intent attributed by Dunin",
+        "forward": {
+          "distance": 1,
+          "alignments": [
+            [
+              {
+                "op": "M",
+                "source_index": 0,
+                "target_index": 0,
+                "source": "U",
+                "target": "U"
+              },
+              {
+                "op": "M",
+                "source_index": 1,
+                "target_index": 1,
+                "source": "N",
+                "target": "N"
+              },
+              {
+                "op": "M",
+                "source_index": 2,
+                "target_index": 2,
+                "source": "D",
+                "target": "D"
+              },
+              {
+                "op": "M",
+                "source_index": 3,
+                "target_index": 3,
+                "source": "E",
+                "target": "E"
+              },
+              {
+                "op": "M",
+                "source_index": 4,
+                "target_index": 4,
+                "source": "R",
+                "target": "R"
+              },
+              {
+                "op": "M",
+                "source_index": 5,
+                "target_index": 5,
+                "source": "G",
+                "target": "G"
+              },
+              {
+                "op": "M",
+                "source_index": 6,
+                "target_index": 6,
+                "source": "R",
+                "target": "R"
+              },
+              {
+                "op": "S",
+                "source_index": 7,
+                "target_index": 7,
+                "source": "O",
+                "target": "U"
+              },
+              {
+                "op": "M",
+                "source_index": 8,
+                "target_index": 8,
+                "source": "U",
+                "target": "U"
+              },
+              {
+                "op": "M",
+                "source_index": 9,
+                "target_index": 9,
+                "source": "N",
+                "target": "N"
+              },
+              {
+                "op": "M",
+                "source_index": 10,
+                "target_index": 10,
+                "source": "D",
+                "target": "D"
+              }
+            ]
+          ]
+        },
+        "correction": {
+          "distance": 1,
+          "alignments": [
+            [
+              {
+                "op": "M",
+                "source_index": 0,
+                "target_index": 0,
+                "source": "U",
+                "target": "U"
+              },
+              {
+                "op": "M",
+                "source_index": 1,
+                "target_index": 1,
+                "source": "N",
+                "target": "N"
+              },
+              {
+                "op": "M",
+                "source_index": 2,
+                "target_index": 2,
+                "source": "D",
+                "target": "D"
+              },
+              {
+                "op": "M",
+                "source_index": 3,
+                "target_index": 3,
+                "source": "E",
+                "target": "E"
+              },
+              {
+                "op": "M",
+                "source_index": 4,
+                "target_index": 4,
+                "source": "R",
+                "target": "R"
+              },
+              {
+                "op": "M",
+                "source_index": 5,
+                "target_index": 5,
+                "source": "G",
+                "target": "G"
+              },
+              {
+                "op": "M",
+                "source_index": 6,
+                "target_index": 6,
+                "source": "R",
+                "target": "R"
+              },
+              {
+                "op": "S",
+                "source_index": 7,
+                "target_index": 7,
+                "source": "U",
+                "target": "O"
+              },
+              {
+                "op": "M",
+                "source_index": 8,
+                "target_index": 8,
+                "source": "U",
+                "target": "U"
+              },
+              {
+                "op": "M",
+                "source_index": 9,
+                "target_index": 9,
+                "source": "N",
+                "target": "N"
+              },
+              {
+                "op": "M",
+                "source_index": 10,
+                "target_index": 10,
+                "source": "D",
+                "target": "D"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "id": "K3",
+        "normal": "DESPERATELY",
+        "literal": "DESPARATLY",
+        "intent": "intent not established",
+        "forward": {
+          "distance": 2,
+          "alignments": [
+            [
+              {
+                "op": "M",
+                "source_index": 0,
+                "target_index": 0,
+                "source": "D",
+                "target": "D"
+              },
+              {
+                "op": "M",
+                "source_index": 1,
+                "target_index": 1,
+                "source": "E",
+                "target": "E"
+              },
+              {
+                "op": "M",
+                "source_index": 2,
+                "target_index": 2,
+                "source": "S",
+                "target": "S"
+              },
+              {
+                "op": "M",
+                "source_index": 3,
+                "target_index": 3,
+                "source": "P",
+                "target": "P"
+              },
+              {
+                "op": "S",
+                "source_index": 4,
+                "target_index": 4,
+                "source": "E",
+                "target": "A"
+              },
+              {
+                "op": "M",
+                "source_index": 5,
+                "target_index": 5,
+                "source": "R",
+                "target": "R"
+              },
+              {
+                "op": "M",
+                "source_index": 6,
+                "target_index": 6,
+                "source": "A",
+                "target": "A"
+              },
+              {
+                "op": "M",
+                "source_index": 7,
+                "target_index": 7,
+                "source": "T",
+                "target": "T"
+              },
+              {
+                "op": "D",
+                "source_index": 8,
+                "target_index": null,
+                "source": "E",
+                "target": ""
+              },
+              {
+                "op": "M",
+                "source_index": 9,
+                "target_index": 8,
+                "source": "L",
+                "target": "L"
+              },
+              {
+                "op": "M",
+                "source_index": 10,
+                "target_index": 9,
+                "source": "Y",
+                "target": "Y"
+              }
+            ]
+          ]
+        },
+        "correction": {
+          "distance": 2,
+          "alignments": [
+            [
+              {
+                "op": "M",
+                "source_index": 0,
+                "target_index": 0,
+                "source": "D",
+                "target": "D"
+              },
+              {
+                "op": "M",
+                "source_index": 1,
+                "target_index": 1,
+                "source": "E",
+                "target": "E"
+              },
+              {
+                "op": "M",
+                "source_index": 2,
+                "target_index": 2,
+                "source": "S",
+                "target": "S"
+              },
+              {
+                "op": "M",
+                "source_index": 3,
+                "target_index": 3,
+                "source": "P",
+                "target": "P"
+              },
+              {
+                "op": "S",
+                "source_index": 4,
+                "target_index": 4,
+                "source": "A",
+                "target": "E"
+              },
+              {
+                "op": "M",
+                "source_index": 5,
+                "target_index": 5,
+                "source": "R",
+                "target": "R"
+              },
+              {
+                "op": "M",
+                "source_index": 6,
+                "target_index": 6,
+                "source": "A",
+                "target": "A"
+              },
+              {
+                "op": "M",
+                "source_index": 7,
+                "target_index": 7,
+                "source": "T",
+                "target": "T"
+              },
+              {
+                "op": "I",
+                "source_index": null,
+                "target_index": 8,
+                "source": "",
+                "target": "E"
+              },
+              {
+                "op": "M",
+                "source_index": 8,
+                "target_index": 9,
+                "source": "L",
+                "target": "L"
+              },
+              {
+                "op": "M",
+                "source_index": 9,
+                "target_index": 10,
+                "source": "Y",
+                "target": "Y"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "id": "USER",
+        "normal": "MISTAKE",
+        "literal": "MISTSKE",
+        "intent": "illustration only",
+        "forward": {
+          "distance": 1,
+          "alignments": [
+            [
+              {
+                "op": "M",
+                "source_index": 0,
+                "target_index": 0,
+                "source": "M",
+                "target": "M"
+              },
+              {
+                "op": "M",
+                "source_index": 1,
+                "target_index": 1,
+                "source": "I",
+                "target": "I"
+              },
+              {
+                "op": "M",
+                "source_index": 2,
+                "target_index": 2,
+                "source": "S",
+                "target": "S"
+              },
+              {
+                "op": "M",
+                "source_index": 3,
+                "target_index": 3,
+                "source": "T",
+                "target": "T"
+              },
+              {
+                "op": "S",
+                "source_index": 4,
+                "target_index": 4,
+                "source": "A",
+                "target": "S"
+              },
+              {
+                "op": "M",
+                "source_index": 5,
+                "target_index": 5,
+                "source": "K",
+                "target": "K"
+              },
+              {
+                "op": "M",
+                "source_index": 6,
+                "target_index": 6,
+                "source": "E",
+                "target": "E"
+              }
+            ]
+          ]
+        },
+        "correction": {
+          "distance": 1,
+          "alignments": [
+            [
+              {
+                "op": "M",
+                "source_index": 0,
+                "target_index": 0,
+                "source": "M",
+                "target": "M"
+              },
+              {
+                "op": "M",
+                "source_index": 1,
+                "target_index": 1,
+                "source": "I",
+                "target": "I"
+              },
+              {
+                "op": "M",
+                "source_index": 2,
+                "target_index": 2,
+                "source": "S",
+                "target": "S"
+              },
+              {
+                "op": "M",
+                "source_index": 3,
+                "target_index": 3,
+                "source": "T",
+                "target": "T"
+              },
+              {
+                "op": "S",
+                "source_index": 4,
+                "target_index": 4,
+                "source": "S",
+                "target": "A"
+              },
+              {
+                "op": "M",
+                "source_index": 5,
+                "target_index": 5,
+                "source": "K",
+                "target": "K"
+              },
+              {
+                "op": "M",
+                "source_index": 6,
+                "target_index": 6,
+                "source": "E",
+                "target": "E"
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "ordered_correction_extraction": [
+      {
+        "source": "Q",
+        "target": "L",
+        "word": "K1",
+        "source_word_index": 2,
+        "target_word_index": 2
+      },
+      {
+        "source": "U",
+        "target": "O",
+        "word": "K2",
+        "source_word_index": 8,
+        "target_word_index": 8
+      },
+      {
+        "source": "A",
+        "target": "E",
+        "word": "K3",
+        "source_word_index": 5,
+        "target_word_index": 5
+      },
+      {
+        "source": "",
+        "target": "E",
+        "word": "K3",
+        "source_word_index": null,
+        "target_word_index": 9
+      }
+    ],
+    "full_source_texts": [
+      {
+        "id": "K1",
+        "literal": "BETWEENSUBTLESHADINGANDTHEABSENCEOFLIGHTLIESTHENUANCEOFIQLUSION",
+        "comparison": "BETWEENSUBTLESHADINGANDTHEABSENCEOFLIGHTLIESTHENUANCEOFILLUSION",
+        "normalized_literal": "BETWEENSUBTLESHADINGANDTHEABSENCEOFLIGHTLIESTHENUANCEOFIQLUSION",
+        "normalized_comparison": "BETWEENSUBTLESHADINGANDTHEABSENCEOFLIGHTLIESTHENUANCEOFILLUSION",
+        "word_literal_start_zero_based": 55,
+        "word_normalized_start_zero_based": 55
+      },
+      {
+        "id": "K2",
+        "literal": "ITWASTOTALLYINVISIBLEHOWSTHATPOSSIBLE?THEYUSEDTHEEARTHSMAGNETICFIELDXTHEINFORMATIONWASGATHEREDANDTRANSMITTEDUNDERGRUUNDTOANUNKNOWNLOCATIONXDOESLANGLEYKNOWABOUTTHIS?THEYSHOULDITSBURIEDOUTTHERESOMEWHEREXWHOKNOWSTHEEXACTLOCATION?ONLYWWTHISWASHISLASTMESSAGEXTHIRTYEIGHTDEGREESFIFTYSEVENMINUTESSIXPOINTFIVESECONDSNORTHSEVENTYSEVENDEGREESEIGHTMINUTESFORTYFOURSECONDSWESTIDBYROWS",
+        "comparison": "ITWASTOTALLYINVISIBLEHOWSTHATPOSSIBLE?THEYUSEDTHEEARTHSMAGNETICFIELDXTHEINFORMATIONWASGATHEREDANDTRANSMITTEDUNDERGROUNDTOANUNKNOWNLOCATIONXDOESLANGLEYKNOWABOUTTHIS?THEYSHOULDITSBURIEDOUTTHERESOMEWHEREXWHOKNOWSTHEEXACTLOCATION?ONLYWWTHISWASHISLASTMESSAGEXTHIRTYEIGHTDEGREESFIFTYSEVENMINUTESSIXPOINTFIVESECONDSNORTHSEVENTYSEVENDEGREESEIGHTMINUTESFORTYFOURSECONDSWESTIDBYROWS",
+        "normalized_literal": "ITWASTOTALLYINVISIBLEHOWSTHATPOSSIBLETHEYUSEDTHEEARTHSMAGNETICFIELDXTHEINFORMATIONWASGATHEREDANDTRANSMITTEDUNDERGRUUNDTOANUNKNOWNLOCATIONXDOESLANGLEYKNOWABOUTTHISTHEYSHOULDITSBURIEDOUTTHERESOMEWHEREXWHOKNOWSTHEEXACTLOCATIONONLYWWTHISWASHISLASTMESSAGEXTHIRTYEIGHTDEGREESFIFTYSEVENMINUTESSIXPOINTFIVESECONDSNORTHSEVENTYSEVENDEGREESEIGHTMINUTESFORTYFOURSECONDSWESTIDBYROWS",
+        "normalized_comparison": "ITWASTOTALLYINVISIBLEHOWSTHATPOSSIBLETHEYUSEDTHEEARTHSMAGNETICFIELDXTHEINFORMATIONWASGATHEREDANDTRANSMITTEDUNDERGROUNDTOANUNKNOWNLOCATIONXDOESLANGLEYKNOWABOUTTHISTHEYSHOULDITSBURIEDOUTTHERESOMEWHEREXWHOKNOWSTHEEXACTLOCATIONONLYWWTHISWASHISLASTMESSAGEXTHIRTYEIGHTDEGREESFIFTYSEVENMINUTESSIXPOINTFIVESECONDSNORTHSEVENTYSEVENDEGREESEIGHTMINUTESFORTYFOURSECONDSWESTIDBYROWS",
+        "word_literal_start_zero_based": 108,
+        "word_normalized_start_zero_based": 107
+      },
+      {
+        "id": "K3",
+        "literal": "SLOWLYDESPARATLYSLOWLYTHEREMAINSOFPASSAGEDEBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWAYWASREMOVEDWITHTREMBLINGHANDSIMADEATINYBREACHINTHEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLEALITTLEIINSERTEDTHECANDLEANDPEEREDINTHEHOTAIRESCAPINGFROMTHECHAMBERCAUSEDTHEFLAMETOFLICKERBUTPRESENTLYDETAILSOFTHEROOMWITHINEMERGEDFROMTHEMISTXCANYOUSEEANYTHINGQ",
+        "comparison": "SLOWLYDESPERATELYSLOWLYTHEREMAINSOFPASSAGEDEBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWAYWASREMOVEDWITHTREMBLINGHANDSIMADEATINYBREACHINTHEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLEALITTLEIINSERTEDTHECANDLEANDPEEREDINTHEHOTAIRESCAPINGFROMTHECHAMBERCAUSEDTHEFLAMETOFLICKERBUTPRESENTLYDETAILSOFTHEROOMWITHINEMERGEDFROMTHEMISTXCANYOUSEEANYTHINGQ",
+        "normalized_literal": "SLOWLYDESPARATLYSLOWLYTHEREMAINSOFPASSAGEDEBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWAYWASREMOVEDWITHTREMBLINGHANDSIMADEATINYBREACHINTHEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLEALITTLEIINSERTEDTHECANDLEANDPEEREDINTHEHOTAIRESCAPINGFROMTHECHAMBERCAUSEDTHEFLAMETOFLICKERBUTPRESENTLYDETAILSOFTHEROOMWITHINEMERGEDFROMTHEMISTXCANYOUSEEANYTHINGQ",
+        "normalized_comparison": "SLOWLYDESPERATELYSLOWLYTHEREMAINSOFPASSAGEDEBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWAYWASREMOVEDWITHTREMBLINGHANDSIMADEATINYBREACHINTHEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLEALITTLEIINSERTEDTHECANDLEANDPEEREDINTHEHOTAIRESCAPINGFROMTHECHAMBERCAUSEDTHEFLAMETOFLICKERBUTPRESENTLYDETAILSOFTHEROOMWITHINEMERGEDFROMTHEMISTXCANYOUSEEANYTHINGQ",
+        "word_literal_start_zero_based": 6,
+        "word_normalized_start_zero_based": 6
+      }
+    ],
+    "trigger_free_function_constraints": {
+      "forward_function": {
+        "compatible": false,
+        "completion_count": 0,
+        "reason": "one input requires different outputs",
+        "witness": [
+          {
+            "pair": "K1",
+            "index": 40,
+            "source": "L",
+            "target": "L"
+          },
+          {
+            "pair": "K1",
+            "index": 56,
+            "source": "L",
+            "target": "Q"
+          }
+        ]
+      },
+      "forward_bijection": {
+        "compatible": false,
+        "completion_count": 0,
+        "reason": "one input requires different outputs",
+        "witness": [
+          {
+            "pair": "K1",
+            "index": 40,
+            "source": "L",
+            "target": "L"
+          },
+          {
+            "pair": "K1",
+            "index": 56,
+            "source": "L",
+            "target": "Q"
+          }
+        ]
+      },
+      "correction_function": {
+        "compatible": false,
+        "completion_count": 0,
+        "reason": "one input requires different outputs",
+        "witness": [
+          {
+            "pair": "K2",
+            "index": 107,
+            "source": "U",
+            "target": "U"
+          },
+          {
+            "pair": "K2",
+            "index": 114,
+            "source": "U",
+            "target": "O"
+          }
+        ]
+      },
+      "correction_bijection": {
+        "compatible": false,
+        "completion_count": 0,
+        "reason": "different inputs require same output",
+        "witness": [
+          {
+            "pair": "K1",
+            "index": 40,
+            "source": "L",
+            "target": "L"
+          },
+          {
+            "pair": "K1",
+            "index": 56,
+            "source": "Q",
+            "target": "L"
+          }
+        ]
+      }
+    },
+    "affine_changed_site_oracle": {
+      "AZ": {
+        "invertible": [],
+        "unrestricted_diagnostic": []
+      },
+      "KRYPTOS": {
+        "invertible": [],
+        "unrestricted_diagnostic": [
+          {
+            "a": 14,
+            "b": 23,
+            "invertible": false
+          }
+        ]
+      }
+    },
+    "invertible_affine_descriptions": 624,
+    "noninvertible_included_diagnostic_descriptions": 1352,
+    "keyboard_displacements": [
+      {
+        "source": "Q",
+        "target": "L",
+        "quarter_key_dx": 33,
+        "row_dy": 1
+      },
+      {
+        "source": "U",
+        "target": "O",
+        "quarter_key_dx": 8,
+        "row_dy": 0
+      }
+    ],
+    "keyboard_single_translation_possible": false,
+    "overlapping_symbol_invariants": [
+      {
+        "word": "K1",
+        "transposition_possible": false,
+        "copy_delete_can_introduce_all_target_symbols": false,
+        "new_target_symbols": [
+          "Q"
+        ],
+        "vowel_only_possible": false
+      },
+      {
+        "word": "K2",
+        "transposition_possible": false,
+        "copy_delete_can_introduce_all_target_symbols": true,
+        "new_target_symbols": [],
+        "vowel_only_possible": true
+      }
+    ],
+    "source_mask_phase_records": [
+      {
+        "alphabet": "AZ",
+        "role": "changed_only",
+        "period": 2,
+        "phase": 0,
+        "key_values": [
+          21,
+          20
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 62,
+            "first_mismatch_zero_based": 0,
+            "output": "WYOQZYIMPVOFZMCUYCIAVHYNCYVVNYIWZIAFDACNGCZMOBZHPUIWZIACLFPMDII"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 369,
+            "first_mismatch_zero_based": 0,
+            "output": "DNRUNNJNVFGSDHQCNCWFZBJQNNCUOJJMNCWFZNCYTONYYNCYZUMNCMHUBHZNDWACZFYROBZCIZJLHUOCJHRUNAVNCYMYYUIXOLVHNGDNOYYOIXZLBLPOIXOIVHPHFHJQIFJWVNDIIRYIZMGUIAGYTEIIRUWIPNOBDMOBZSNBJOGXDNNVPLDYYIPNOBZLZMJGZQCYMYSQCIFHJQNNCYZRVWOFJWVNDIIIIFTQRNCCNQVMCCNFVMOGZMNUBYSNCCMNTYDACNYYBLZYNZDZOSNYQYIGDHPNZMNCSJJCINACQYNYXIIXNHJLOBNYQYINTMZPZHYYBLZYNYDACNHCIOOYNZJLOSAIPLNYXIIXNQZMOCYVTLJQN"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "changed_only",
+        "period": 2,
+        "phase": 1,
+        "key_values": [
+          21,
+          20
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 63,
+            "first_mismatch_zero_based": 0,
+            "output": "VZNRYZHNOWNGYNBVXDHBUIXOBZUWMZHXYJZGCBBOFDYNNCYIOVHXYJZDKGONCJH"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 368,
+            "first_mismatch_zero_based": 0,
+            "output": "COQVMOIOUGFTCIPDMDVGYCIRMOBVNKINMDVGYOBZSPMZXOBZYVLOBNGVAIYOCXZDYGXSNCYDHAIMGVNDIIQVMBUOBZLZXVHYNMUIMHCONZXPHYYMAMOPHYNJUIOIEIIRHGIXUOCJHSXJYNFVHBFZSFHJQVVJOONCCNNCYTMCIPFYCOMWOMCZXJOONCYMYNIHYRBZLZRRBJEIIRMOBZYSUXNGIXUOCJHJHGSRQOBDMRUNBDMGUNNHYNMVAZROBDLOSZCBBOXZAMYZMACANTMZPZHHCIOOYNMDRKIDHOZDPZMZWJHYMIIMNCMZPZHOSNYQYIXZAMYZMZCBBOGDHPNZMAIMNTZJOMMZWJHYMRYNNDXWSMIRM"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 0,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 1,
+            "output": "BZTWEENSUBTLESHUDINGVNDTHEABSENCEOZLIGHOLIESTHENUANCEIFIQLPSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 1,
+            "output": "IOWASTOTALLYINVCSIBLZHOWSTHATPOSSIVLETHZYUSEDTHEEARTHMMAGNZTICFIELDXTHEIHFORMVTIONWASGATHERYDANDORANSMITTEDUNDYRGRUPNDTOANUNKNOWNFOCATDONXDOESLANGLESKNOWVBOUTTHISTHEYSBOULDDTSBURIEDOUTTHYRESOHEWHEREXWHOKNOQSTHEZXACTLOCATIONOHLYWWOHISWASHISLASTGESSABEXTHIRTYEIGHTXEGREZSFIFTYSEVENMIHUTESNIXPOINTFIVESEWONDSIORTHSEVENTYSEPENDEBREESEIGHTMINUNESFOMTYFOURSECONDSQESTIYBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 1,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 0,
+            "output": "WETWEENSUBTLESBADINBANDTHEABSENCEIFLIGCTLIESTHENUANCYOFIQGUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 0,
+            "output": "DTWASTOTALLYINPISIBGEHOWSTHATPOSSCBLETCEYUSEDTHEEARTBSMAGIETICFIELDXTHECNFORHATIONWASGATHELEDANYTRANSMITTEDUNXERGRPUNDTOANUNKNOWHLOCAOIONXDOESLANGLYYKNORABOUTTHISTHEYMHOULYITSBURIEDOUTTBERESJMEWHEREXWHOKNIWSTHZEXACTLOCATIONINLYWRTHISWASHISLASNMESSVGEXTHIRTYEIGHNDEGRZESFIFTYSEVENMCNUTENSIXPOINTFIVESYCONDNNORTHSEVENTYSYVENDZGREESEIGHTMINOTESFJRTYFOURSECONDMWESTDDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 2,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 5,
+            "first_mismatch_zero_based": 13,
+            "output": "BETWEENSUBTLEMHADIIGANDTHEABSENCYOFLIBHTLIESTHENUANWEOFILLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 13,
+            "output": "ITWASTOTALLYIHVISIWLEHOWSTHATPOSMIBLEOHEYUSEDTHEEARNHSMABNETICFIELDXTHYINFOMMATIONWASGATHYREDAIDTRANSMITTEDUHDERGMUUNDTOANUNKNOQNLOCVTIONXDOESLANGFEYKNJWABOUTTHISTHESSHOUGDITSBURIEDOUTNHERENOMEWHEREXWHOKHOWSTCEEXACTLOCATIOHONLYRWTHISWASHISLAMTMESNAGEXTHIRTYEIGBTDEGMEESFIFTYSEVENGINUTZSSIXPOINTFIVEMECONYSNORTHSEVENTYMEVENYEGREESEIGHTMIHUTESAORTYFOURSECONXSWESOIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 3,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 12,
+            "output": "BETWEENSUBTLYSHADDNGANDTHEABSENWEOFLDGHTLIESTHENUAHCEOFDQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 12,
+            "output": "ITWASTOTALLYCNVISDBLEHOWSTHATPOMSIBLZTHEYUSEDTHEEALTHSMVGNETICFIELDXTBEINFJRMATIONWASGATBEREDVNDTRANSMITTEDONDERBRUUNDTOANUNKNIWNLOXATIONXDOESLANALEYKIOWABOUTTHISTHYYSHOPLDITSBURIEDOUNTHERZSOMEWHEREXWHOENOWSOHEEXACTLOCATIINONLTWWTHISWASHISLUSTMENSAGEXTHIRTYEIAHTDEBREESFIFTYSEVEHMINUOESSIXPOINTFIVYSECOIDSNORTHSEVENTSSEVEIDEGREESEIGHTMCNUTENFORTYFOURSECOHDSWENTIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 4,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 11,
+            "output": "BETWEENSUBTFESHAYINGANDTHEABSEHCEOFGIGHTLIESTHENUUNCEOAIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 11,
+            "output": "ITWASTOTALLSINVINIBLEHOWSTHATPISSIBGETHEYUSEDTHEEURTHSHAGNETICFIELDXNHEINAORMATIONWASGANHEREYANDTRANSMITTEXUNDEMGRUUNDTOANUNKHOWNLJCATIONXDOESLAHGLEYFNOWABOUTTHISTBEYSHJULDITSBURIEDOOTTHEMESOMEWHEREXWHIKNOWNTHEEXACTLOCATCONONGYWWTHISWASHISFASTMZSSAGEXTHIRTYECGHTDZGREESFIFTYSEVYNMINPTESSIXPOINTFIPESECJNDSNORTHSEVENNYSEVZNDEGREESEIGHTGINUTZSFORTYFOURSECINDSWZSTIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 5,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 10,
+            "output": "BETWEENSUBNLESHVDINGANDTHEABSYNCEOALIGHTLIESTHENOANCEJFIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 10,
+            "output": "ITWASTOTALFYINVDSIBLEHOWSTHATJOSSIWLETHEYUSEDTHEYARTHNMAGNETICFIELDRTHEIIFORMATIONWASGUTHERZDANDTRANSMITTYDUNDZRGRUUNDTOANUNENOWNGOCATIONXDOESLUNGLETKNOWABOUTTHISNHEYSCOULDITSBURIEDIUTTHZRESOMEWHEREXWBOKNORSTHEEXACTLOCANIONOILYWWTHISWASHIMLASTHESSAGEXTHIRTYYIGHTYEGREESFIFTYSEPENMIIUTESSIXPOINTFCVESEXONDSNORTHSEVEHTYSEQENDEGREESEIGHNMINUOESFORTYFOURSEWONDSRESTIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 6,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 9,
+            "output": "BETWEENSUVTLESCADINGANDTHEABMENCEJFLIGHTLIESTHEHUANCZOFIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 9,
+            "output": "ITWASTOTAFLYINQISIBLEHOWSTHANPOSSDBLETHEYUSEDTHYEARTCSMAGNETICFIELXXTHEDNFORMATIONWASAATHEMEDANDTRANSMITNEDUNYERGRUUNDTOANUHKNOWILOCATIONXDOESFANGLZYKNOWABOUTTHIMTHEYNHOULDITSBURIEXOUTTCERESOMEWHEREXQHOKNJWSTHEEXACTLOCUTIONJNLYWWTHISWASHCSLASOMESSAGEXTHIRTSEIGHODEGREESFIFTYSYVENMDNUTESSIXPOINTZIVESZCONDSNORTHSEVYNTYSZVENDEGREESEIGBTMINPTESFORTYFOURSYCONDNWESTIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 7,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 8,
+            "output": "BETWEENSOBTLENHADINGANDTHEAVSENCZOFLIGHTLIESTHYNUANXEOFIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 8,
+            "output": "ITWASTOTULLYIIVISIBLEHOWSTHUTPOSNIBLETHEYUSEDTBEEAROHSMAGNETICFIEFDXTHZINFORMATIONWAMGATHZREDANDTRANSMINTEDUIDERGRUUNDTOANONKNORNLOCATIONXDOEMLANGGEYKNOWABOUTTHCSTHETSHOULDITSBURIYDOUTOHERESOMEWHERERWHOKIOWSTHEEXACTLOWATIOIONLYWWTHISWASBISLANTMESSAGEXTHIRNYEIGCTDEGREESFIFTYMEVENHINUTESSIXPOINNFIVENECONDSNORTHSEPENTYNEVENDEGREESEIAHTMIIUTESFORTYFOURMECONYSWESTIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 8,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 7,
+            "output": "BETWEENMUBTLZSHADINGANDTHEUBSENXEOFLIGHTLIESTBENUAICEOFIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 7,
+            "output": "ITWASTONALLYDNVISIBLEHOWSTBATPONSIBLETHEYUSEDNHEEAMTHSMAGNETICFIYLDXTCEINFORMATIONWUSGATCEREDANDTRANSMCTTEDPNDERGRUUNDTOAHUNKNJWNLOCATIONXDOYSLANBLEYKNOWABOUTTBISTHZYSHOULDITSBURCEDOUOTHERESOMEWHERYXWHOFNOWSTHEEXACTLICATIJNONLYWWTHISWAMHISLVSTMESSAGEXTHILTYEIBHTDEGREESFIFTSSEVEIMINUTESSIXPOIHTFIVZSECONDSNORTHSYVENTTSEVENDEGREESECGHTMDNUTESFORTYFOULSECOIDSWESTIDBYROWM"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 9,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 6,
+            "output": "BETWEEHSUBTGESHADINGANDTHYABSEICEOFLIGHTLIESNHENUVNCEOFIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 6,
+            "output": "ITWASTITALLTINVISIBLEHOWSNHATPJSSIBLETHEYUSEXTHEEVRTHSMAGNETICFCELDXOHEINFORMATIONQASGAOHEREDANDTRANSGITTEYUNDERGRUUNDTOUNUNKIOWNLOCATIONXDIESLAIGLEYKNOWABOUTNHISTCEYSHOULDITSBULIEDOPTTHERESOMEWHELEXWHJKNOWSTHEEXACTFOCATDONONLYWWTHISWUSHISGASTMESSAGEXTHCRTYEDGHTDEGREESFIFNYSEVZNMINUTESSIXPOCNTFIQESECONDSNORTHMEVENOYSEVENDEGREESYIGHTHINUTESFORTYFOORSECJNDSWESTIDBYROQS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 10,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 5,
+            "output": "BETWEYNSUBOLESHADINGANDTBEABSZNCEOFLIGHTLIEMTHENPANCEOFIQLUSIOH"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 5,
+            "output": "ITWASNOTALGYINVISIBLEHOWMTHATKOSSIBLETHEYUSYDTHEZARTHSMAGNETICZIELDSTHEINFORMATIOHWASGVTHEREDANDTRANMMITTZDUNDERGRUUNDTIANUNFNOWNLOCATIONXXOESLVNGLEYKNOWABOUNTHISOHEYSHOULDITSBORIEDJUTTHERESOMEWHYREXWCOKNOWSTHEEXACNLOCAOIONONLYWWTHISQASHINLASTMESSAGEXTBIRTYZIGHTDEGREESFIZTYSEQENMINUTESSIXPIINTFDVESECONDSNORTBSEVEITYSEVENDEGREEMEIGHOMINUTESFORTYFIURSEXONDSWESTIDBYRIWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 11,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 4,
+            "output": "BETWYENSUWTLESHADINGANDNHEABNENCEOFLIGHTLIYSTHEIUANCEOFIQLUSIIN"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 4,
+            "output": "ITWAMTOTAGLYINVISIBLEHOQSTHAOPOSSIBLETHEYUMEDTHZEARTHSMAGNETIWFIELYXTHEINFORMATIINWASBATHEREDANDTRAHSMITOEDUNDERGRUUNDNOANUIKNOWNLOCATIONRDOESGANGLEYKNOWABOOTTHINTHEYSHOULDITSVURIEYOUTTHERESOMEWBEREXRHOKNOWSTHEEXAWTLOCVTIONONLYWWTHIMWASHDSLASTMESSAGEXNHIRTTEIGHTDEGREESFCFTYSZVENMINUTESSIXJOINTAIVESECONDSNORNHSEVZNTYSEVENDEGREYSEIGCTMINUTESFORTYZOURSZCONDSWESTIDBYLOWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 12,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 3,
+            "output": "BETQEENSPBTLESHADINGANXTHEAWSENCEOFLIGHTLCESTHZNUANCEOFIQLUSCON"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 3,
+            "output": "ITWUSTOTVLLYINVISIBLEHIWSTHVTPOSSIBLETHEYOSEDTCEEARTHSMAGNETCCFIEGDXTHEINFORMATCONWANGATHEREDANDTRUNSMIOTEDUNDERGRUUNXTOANPNKNOWNLOCATIOHXDOENLANGLEYKNOWABIUTTHDSTHEYSHOULDITMBURIZDOUTTHERESOMEQHERESWHOKNOWSTHEEXUCTLOXATIONONLYWWTHCSWASCISLASTMESSAGERTHIROYEIGHTDEGREESZIFTYNEVENMINUTESSIRPOINOFIVESECONDSNOLTHSEQENTYSEVENDEGRYESEIBHTMINUTESFORTSFOURNECONDSWESTIDBSROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 13,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 2,
+            "output": "BENWEENNUBTLESHADINGAHDTHEVBSENCEOFLIGHTFIESTCENUANCEOFIQLUMION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 41,
+            "first_mismatch_zero_based": 2,
+            "output": "ITQASTOOALLYINVISIBLEBOWSTCATPOSSIBLETHESUSEDOHEEARTHSMAGNENICFIZLDXTHEINFORMANIONWVSGATHEREDANDTLANSMDTTEDUNDERGRUUHDTOAIUNKNOWNLOCATIINXDOZSLANGLEYKNOWAVOUTTCISTHEYSHOULDINSBURDEDOUTTHERESOMYWHERZXWHOKNOWSTHEERACTLJCATIONONLYWWTBISWANHISLASTMESSAGYXTHIMTYEIGHTDEGREEMFIFTTSEVENMINUTESSCXPOIITFIVESECONDSNIRTHSZVENTYSEVENDEGLEESEDGHTMINUTESFORNYFOUMSECONDSWESTIDVYROWN"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 14,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 1,
+            "output": "BYTWEEISUBTLESHADINGUNDTHZABSENCEOFLIGHNLIESOHENUANCEOFIQLOSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 41,
+            "first_mismatch_zero_based": 1,
+            "output": "INWASTJTALLYINVISIBLYHOWSOHATPOSSIBLETHYYUSEYTHEEARTHSMAGNYTICFDELDXTHEINFORMUTIONRASGATHEREDANDNRANSHITTEDUNDERGRUONDTOVNUNKNOWNLOCATCONXDJESLANGLEYKNOWUBOUTOHISTHEYSHOULDCTSBUMIEDOUTTHERESOGEWHEMEXWHOKNOWSTHEYXACTGOCATIONONLYWWNHISWVSHISLASTMESSAAEXTHDRTYEIGHTDEGREYSFIFOYSEVENMINUTESMIXPODNTFIVESECONDSHORTHNEVENTYSEVENDEAREESZIGHTMINUTESFOLTYFOPRSECONDSWESTIXBYRORS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 15,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 9,
+            "first_mismatch_zero_based": 0,
+            "output": "VETWEZNSUBTLESHADINAANDTCEABSENCEOFLIGBTLIENTHENUANCEOFIQFUSIOI"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 0,
+            "output": "CTWASOOTALLYINVISIBFEHOWNTHATPOSSIBLETBEYUSZDTHEEARTHSMAGHETICAIELDXTHEINFORGATIOIWASGATHEREDANXTRANNMITTEDUNDERGROUNDTJANUNKNOWNLOCANIONXYOESLANGLEYKNOQABOUOTHISTHEYSHOULXITSBPRIEDOUTTHERESIMEWHZREXWHOKNOWSTHYEXACOLOCATIONONLYWQTHISRASHISLASTMESSUGEXTCIRTYEIGHTDEGRYESFIATYSEVENMINUTEMSIXPJINTFIVESECONDMNORTCSEVENTYSEVENDYGREENEIGHTMINUTESFIRTYFJURSECONDSWESTCDBYRJWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 16,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 4,
+            "output": "BETWZENSUBTLESHADIHGANDOHEABSENCEOFLIAHTLIZSTHENUANCEOFIKLUSIJN"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 4,
+            "output": "ITWANTOTALLYINVISIVLEHORSTHATPOSSIBLENHEYUNEDTHEEARTHSMAANETIXFIELDXTHEINFOLMATIJNWASGATHEREDAHDTRAISMITTEDUNDERGLUUNDOOANUNKNOWNLOCUTIONSDOESLANGLEYKNIWABOPTTHISTHEYSHOUFDITSWURIEDOUTTHEREMOMEWCEREXWHOKNOWSTBEEXAXTLOCATIONONLYQWTHINWASHISLASTMESMAGEXOHIRTYEIGHTDEGLEESFDFTYSEVENMINUTYSSIXKOINTFIVESECONXSNOROHSEVENTYSEVENXEGREZSEIGHTMINUTESZORTYAOURSECONDSWESNIDBYMOWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 17,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 3,
+            "output": "BETREENSUBTLESHADCNGANYTHEABSENCEOFLCGHTLDESTHENUANCEOFCQLUSDON"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 3,
+            "output": "ITWVSTOTALLYINVISCBLEHJWSTHATPOSSIBLYTHEYPSEDTHEEARTHSMUGNETDCFIELDXTHEINFIRMATDONWASGATHEREDUNDTRVNSMITTEDUNDERARUUNYTOANUNKNOWNLOWATIOIXDOESLANGLEYKHOWABJUTTHISTHEYSHOOLDITNBURIEDOUTTHERYSOMERHEREXWHOKNOWSNHEEXVCTLOCATIONONLSWWTHDSWASHISLASTMEMSAGESTHIRTYEIGHTDEAREESAIFTYSEVENMINUNESSISPOINTFIVESECOHDSNOMTHSEVENTYSEVEHDEGRZESEIGHTMINUTEMFORTTFOURSECONDSWEMTIDBTROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "AZ",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 18,
+        "key_values": [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 2,
+            "output": "BEOWEENSUBTLESHAXINGAIDTHEABSENCEOFFIGHTGIESTHENUANCEOZIQLUNION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 2,
+            "output": "ITRASTOTALLYINVIMIBLECOWSTHATPOSSIBFETHETUSEDTHEEARTHSGAGNEOICFIELDXTHEINZORMAOIONWASGATHEREXANDTMANSMITTEDUNDELGRUUIDTOANUNKNOWNLICATIJNXDOESLANGLEYENOWAWOUTTHISTHEYSHIULDIOSBURIEDOUTTHELESOMZWHEREXWHOKNOWMTHEESACTLOCATIONONFYWWTCISWASHISLASTMYSSAGZXTHIRTYEIGHTDYGREENFIFTYSEVENMINOTESSDXPOINTFIVESECINDSNJRTHSEVENTYSEVYNDEGMEESEIGHTMINUTYSFOROYFOURSECONDSWYSTIDWYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "changed_only",
+        "period": 2,
+        "phase": 0,
+        "key_values": [
+          23,
+          10
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 62,
+            "first_mismatch_zero_based": 0,
+            "output": "OURABUJJMMRRBJELAZJWTPAHEUTMPUJNBICRFWEHHZBJRXBPMLJNBICZLRMJFIJ"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 369,
+            "first_mismatch_zero_based": 0,
+            "output": "FHQLPHYHTRHFFPNZPZORBXYAPHELRGYJPZORBHEUZOPUAHEUBLXHEJILDPBHFNCZBRABRXBZJVYEILRZYPQLPWTHEUXUALJQRETPPYFHRUAOJQBEDEMOJQRITPMPWPYAJRYNTHFIJBAIBJHLJWHUZDJIQLOIMHRXFJRXBFPXYOHQFHPMMEFUAIMHRXBEBJYYBAEUXUUAEIWPYAPHEUBBTNRRYNTHFIJIJRZAQHEZPATJEZPRTJRYBJPLDUUHEZXHZUFWEHAUDEBUPVFVRFPUNUJYFPMHBJPZUGYZJHCZNUPUSIJQPPYERXPUNUJHZJBSBPAUDEBUPUFWEHIZJORUPVYERFCIMEPUSIJQPABJRZAMZEYAP"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "changed_only",
+        "period": 2,
+        "phase": 1,
+        "key_values": [
+          23,
+          10
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 63,
+            "first_mismatch_zero_based": 0,
+            "output": "MBHQUBPPOOHHUPXTQFPDLJQRXBLOJBPSUYVHZDXRRFUPHEUJOTPSUYVFTHOPZYP"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 368,
+            "first_mismatch_zero_based": 0,
+            "output": "ZRATJRIRLHRZZJSFJFMHUEIQJRXTHKIPJFMHURXBFMJBQRXBUTERXPYTWJURZSVFUHQUHEUFPCIXYTHFIJATJDLRXBEBQTPAHXLJJIZRHBQMPAUXWXOMPAHYLJOJDJIQPHISLRZYPUQYUPRTPDRBFWPYATMYORHEZPHEUZJEIMRAZRJOOXZBQYORHEUXUPIIUQXBEBBQXYDJIQJRXBUULSHHISLRZYPYPHFQARXFJQLPXFJHLPHIUPJTWBBRXFERFBZDXRQBWXUBJCZCHZJBSBPIZJORUPJFBKIFPRVFSBJBNYPAJJIXHEJBSBPRFPUNUJQBWXUBJBZDXRYFPMHBJCIXHZVYOXJBNYPAJQUPHFQOFXIQJ"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 0,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 1,
+            "output": "BBTWEENSUBTLESHLDINGTNDTHEABSENCEOVLIGHRLIESTHENUANCEIFIQLMSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 1,
+            "output": "IRWASTOTALLYINVZSIBLBHOWSTHATPOSSIMLETHBYUSEDTHEEARTHJMAGNBTICFIELDXTHEIPFORMTTIONWASGATHERUDANDRRANSMITTEDUNDURGRUMNDTOANUNKNOWNROCATFONXDOESLANGLEFKNOWTBOUTTHISTHEYSXOULDFTSBURIEDOUTTHURESOIEWHEREXWHOKNOASTHEBXACTLOCATIONOPLYWWRHISWASHISLASTYESSADEXTHIRTYEIGHTQEGREBSFIFTYSEVENMIPUTESPIXPOINTFIVESENONDSJORTHSEVENTYSESENDEDREESEIGHTMINUHESFOXTYFOURSECONDSAESTIABYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 1,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 0,
+            "output": "OETWEENSUBTLESXADINDANDTHEABSENCEIFLIGETLIESTHENUANCUOFIQHUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 0,
+            "output": "FTWASTOTALLYINSISIBHEHOWSTHATPOSSZBLETEEYUSEDTHEEARTXSMAGJETICFIELDXTHEZNFORIATIONWASGATHEEEDANATRANSMITTEDUNQERGRMUNDTOANUNKNOWPLOCARIONXDOESLANGLUYKNOQABOUTTHISTHEYJHOULAITSBURIEDOUTTXERESYMEWHEREXWHOKNIWSTHBEXACTLOCATIONINLYWQTHISWASHISLASHMESSTGEXTHIRTYEIGHHDEGRBESFIFTYSEVENMZNUTEPSIXPOINTFIVESUCONDPNORTHSEVENTYSUVENDBGREESEIGHTMINOTESFYRTYFOURSECONDJWESTFDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 2,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 5,
+            "first_mismatch_zero_based": 13,
+            "output": "BETWEENSUBTLEJHADIJGANDTHEABSENCUOFLIDHTLIESTHENUANNEOFILLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 13,
+            "output": "ITWASTOTALLYIPVISIOLEHOWSTHATPOSJIBLERHEYUSEDTHEEARHHSMADNETICFIELDXTHUINFOXMATIONWASGATHUREDAJDTRANSMITTEDUPDERGXUUNDTOANUNKNOANLOCTTIONXDOESLANGREYKNYWABOUTTHISTHEFSHOUHDITSBURIEDOUTHHEREPOMEWHEREXWHOKPOWSTEEEXACTLOCATIOPONLYQWTHISWASHISLAJTMESPAGEXTHIRTYEIGXTDEGXEESFIFTYSEVENYINUTBSSIXPOINTFIVEJECONASNORTHSEVENTYJEVENAEGREESEIGHTMIPUTESCORTYFOURSECONQSWESRIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 3,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 12,
+            "output": "BETWEENSUBTLUSHADFNGANDTHEABSENNEOFLFGHTLIESTHENUAPCEOFFQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 12,
+            "output": "ITWASTOTALLYZNVISFBLEHOWSTHATPOJSIBLBTHEYUSEDTHEEAETHSMTGNETICFIELDXTXEINFYRMATIONWASGATXEREDTNDTRANSMITTEDONDERDRUUNDTOANUNKNIWNLOSATIONXDOESLANWLEYKJOWABOUTTHISTHUYSHOMLDITSBURIEDOUHTHERBSOMEWHEREXWHODNOWSRHEEXACTLOCATIINONLZWWTHISWASHISLLSTMEPSAGEXTHIRTYEIWHTDEDREESFIFTYSEVEPMINURESSIXPOINTFIVUSECOJDSNORTHSEVENTFSEVEJDEGREESEIGHTMZNUTEPFORTYFOURSECOPDSWEPTIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 4,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 11,
+            "output": "BETWEENSUBTRESHAAINGANDTHEABSEPCEOFHIGHTLIESTHENULNCEOCIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 11,
+            "output": "ITWASTOTALLFINVIPIBLEHOWSTHATPISSIBHETHEYUSEDTHEELRTHSIAGNETICFIELDXHHEINCORMATIONWASGAHHEREAANDTRANSMITTEQUNDEXGRUUNDTOANUNKPOWNLYCATIONXDOESLAPGLEYWNOWABOUTTHISTXEYSHYULDITSBURIEDOOTTHEXESOMEWHEREXWHIKNOWPTHEEXACTLOCATZONONHYWWTHISWASHISRASTMBSSAGEXTHIRTYEZGHTDBGREESFIFTYSEVUNMINMTESSIXPOINTFISESECYNDSNORTHSEVENHYSEVBNDEGREESEIGHTYINUTBSFORTYFOURSECINDSWBSTIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 5,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 10,
+            "output": "BETWEENSUBHLESHTDINGANDTHEABSUNCEOCLIGHTLIESTHENOANCEYFIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 10,
+            "output": "ITWASTOTALRYINVFSIBLEHOWSTHATGOSSIOLETHEYUSEDTHEUARTHPMAGNETICFIELDBTHEIJFORMATIONWASGLTHERBDANDTRANSMITTUDUNDBRGRUUNDTOANUNDNOWNHOCATIONXDOESLLNGLEZKNOWABOUTTHISHHEYSEOULDITSBURIEDIUTTHBRESOMEWHEREXWXOKNOQSTHEEXACTLOCAHIONOJLYWWTHISWASHIJLASTIESSAGEXTHIRTYUIGHTAEGREESFIFTYSESENMIJUTESSIXPOINTFZVESESONDSNORTHSEVEPTYSENENDEGREESEIGHHMINURESFORTYFOURSENONDSQESTIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 6,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 9,
+            "output": "BETWEENSUMTLESEADINGANDTHEABJENCEYFLIGHTLIESTHEPUANCBOFIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 9,
+            "output": "ITWASTOTARLYINNISIBLEHOWSTHAHPOSSFBLETHEYUSEDTHUEARTESMAGNETICFIELQXTHEFNFORMATIONWASWATHEXEDANDTRANSMITHEDUNAERGRUUNDTOANUPKNOWJLOCATIONXDOESRANGLBYKNOWABOUTTHIJTHEYPHOULDITSBURIEQOUTTEERESOMEWHEREXAHOKNYWSTHEEXACTLOCLTIONYNLYWWTHISWASHZSLASRMESSAGEXTHIRTFEIGHRDEGREESFIFTYSUVENMFNUTESSIXPOINTVIVESBCONDSNORTHSEVUNTYSBVENDEGREESEIGXTMINMTESFORTYFOURSUCONDPWESTIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 7,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 8,
+            "output": "BETWEENSOBTLEPHADINGANDTHEAMSENCBOFLIGHTLIESTHUNUANSEOFIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 8,
+            "output": "ITWASTOTLLLYIJVISIBLEHOWSTHLTPOSPIBLETHEYUSEDTXEEARRHSMAGNETICFIERDXTHBINFORMATIONWAJGATHBREDANDTRANSMIHTEDUJDERGRUUNDTOANONKNOQNLOCATIONXDOEJLANGHEYKNOWABOUTTHZSTHEZSHOULDITSBURIUDOUTRHERESOMEWHEREBWHOKJOWSTHEEXACTLONATIOJONLYWWTHISWASXISLAPTMESSAGEXTHIRHYEIGETDEGREESFIFTYJEVENIINUTESSIXPOINHFIVEPECONDSNORTHSESENTYPEVENDEGREESEIWHTMIJUTESFORTYFOURJECONASWESTIDBYROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 8,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 7,
+            "output": "BETWEENJUBTLBSHADINGANDTHELBSENSEOFLIGHTLIESTXENUAJCEOFIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 7,
+            "output": "ITWASTOHALLYFNVISIBLEHOWSTXATPOPSIBLETHEYUSEDHHEEAXTHSMAGNETICFIULDXTEEINFORMATIONWLSGATEEREDANDTRANSMZTTEDMNDERGRUUNDTOAPUNKNYWNLOCATIONXDOUSLANDLEYKNOWABOUTTXISTHBYSHOULDITSBURZEDOURTHERESOMEWHERUXWHOWNOWSTHEEXACTLICATIYNONLYWWTHISWAJHISLTSTMESSAGEXTHIETYEIDHTDEGREESFIFTFSEVEJMINUTESSIXPOIPTFIVBSECONDSNORTHSUVENTZSEVENDEGREESEZGHTMFNUTESFORTYFOUESECOJDSWESTIDBYROWJ"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 9,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 6,
+            "output": "BETWEEPSUBTHESHADINGANDTHUABSEJCEOFLIGHTLIESHHENUTNCEOFIQLUSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 6,
+            "output": "ITWASTITALLZINVISIBLEHOWSHHATPYSSIBLETHEYUSEQTHEETRTHSMAGNETICFZELDXRHEINFORMATIONAASGARHEREDANDTRANSYITTEAUNDERGRUUNDTOLNUNKJOWNLOCATIONXDIESLAJGLEYKNOWABOUTHHISTEEYSHOULDITSBUEIEDOMTTHERESOMEWHEEEXWHYKNOWSTHEEXACTROCATFONONLYWWTHISWLSHISHASTMESSAGEXTHZRTYEFGHTDEGREESFIFHYSEVBNMINUTESSIXPOZNTFINESECONDSNORTHJEVENRYSEVENDEGREESUIGHTIINUTESFORTYFOORSECYNDSWESTIDBYROAS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 10,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 5,
+            "output": "BETWEUNSUBRLESHADINGANDTXEABSBNCEOFLIGHTLIEJTHENMANCEOFIQLUSIOP"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 5,
+            "output": "ITWASHOTALHYINVISIBLEHOWJTHATKOSSIBLETHEYUSUDTHEBARTHSMAGNETICVIELDUTHEINFORMATIOPWASGTTHEREDANDTRANJMITTBDUNDERGRUUNDTIANUNWNOWNLOCATIONXQOESLTNGLEYKNOWABOUHTHISRHEYSHOULDITSBORIEDYUTTHERESOMEWHUREXWEOKNOWSTHEEXACHLOCARIONONLYWWTHISAASHIPLASTMESSAGEXTXIRTYBIGHTDEGREESFIVTYSENENMINUTESSIXPIINTFFVESECONDSNORTXSEVEJTYSEVENDEGREEJEIGHRMINUTESFORTYFIURSESONDSWESTIDBYRIWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 11,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 4,
+            "output": "BETWUENSUOTLESHADINGANDHHEABPENCEOFLIGHTLIUSTHEJUANCEOFIQLUSIIN"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 4,
+            "output": "ITWAJTOTAHLYINVISIBLEHOASTHARPOSSIBLETHEYUJEDTHBEARTHSMAGNETINFIELAXTHEINFORMATIINWASDATHEREDANDTRAPSMITREDUNDERGRUUNDHOANUJKNOWNLOCATIONBDOESHANGLEYKNOWABOOTTHIPTHEYSHOULDITSMURIEAOUTTHERESOMEWXEREXQHOKNOWSTHEEXANTLOCTTIONONLYWWTHIJWASHFSLASTMESSAGEXHHIRTZEIGHTDEGREESFZFTYSBVENMINUTESSIXGOINTCIVESECONDSNORHHSEVBNTYSEVENDEGREUSEIGETMINUTESFORTYVOURSBCONDSWESTIDBYEOWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 12,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 3,
+            "output": "BETAEENSMBTLESHADINGANQTHEAOSENCEOFLIGHTLZESTHBNUANCEOFIQLUSZON"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 3,
+            "output": "ITWLSTOTTLLYINVISIBLEHIWSTHTTPOSSIBLETHEYOSEDTEEEARTHSMAGNETZCFIEHDXTHEINFORMATZONWAPGATHEREDANDTRLNSMIRTEDUNDERGRUUNQTOANMNKNOWNLOCATIOPXDOEPLANGLEYKNOWABIUTTHFSTHEYSHOULDITJBURIBDOUTTHERESOMEAHEREUWHOKNOWSTHEEXLCTLOSATIONONLYWWTHZSWASEISLASTMESSAGEBTHIRRYEIGHTDEGREESVIFTYPEVENMINUTESSIBPOINRFIVESECONDSNOETHSENENTYSEVENDEGRUESEIDHTMINUTESFORTFFOURPECONDSWESTIDBFROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 13,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 2,
+            "output": "BEHWEENPUBTLESHADINGAPDTHETBSENCEOFLIGHTRIESTEENUANCEOFIQLUJION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 41,
+            "first_mismatch_zero_based": 2,
+            "output": "ITAASTORALLYINVISIBLEXOWSTEATPOSSIBLETHEFUSEDRHEEARTHSMAGNEHICFIBLDXTHEINFORMAHIONWTSGATHEREDANDTEANSMFTTEDUNDERGRUUPDTOAJUNKNOWNLOCATIINXDOBSLANGLEYKNOWAMOUTTEISTHEYSHOULDIHSBURFEDOUTTHERESOMUWHERBXWHOKNOWSTHEEBACTLYCATIONONLYWWTXISWAPHISLASTMESSAGUXTHIXTYEIGHTDEGREEJFIFTZSEVENMINUTESSZXPOIJTFIVESECONDSNIRTHSBVENTYSEVENDEGEEESEFGHTMINUTESFORHYFOUXSECONDSWESTIDMYROWP"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 14,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 1,
+            "output": "BUTWEEJSUBTLESHADINGLNDTHBABSENCEOFLIGHHLIESRHENUANCEOFIQLOSION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 41,
+            "first_mismatch_zero_based": 1,
+            "output": "IHWASTYTALLYINVISIBLUHOWSRHATPOSSIBLETHUYUSEATHEEARTHSMAGNUTICFFELDXTHEINFORMLTIONQASGATHEREDANDHRANSIITTEDUNDERGRUONDTOTNUNKNOWNLOCATZONXDYESLANGLEYKNOWLBOUTRHISTHEYSHOULDZTSBUXIEDOUTTHERESOYEWHEXEXWHOKNOWSTHEUXACTHOCATIONONLYWWHHISWTSHISLASTMESSAWEXTHFRTYEIGHTDEGREUSFIFRYSEVENMINUTESJIXPOFNTFIVESECONDSPORTHPEVENTYSEVENDEWREESBIGHTMINUTESFOETYFOMRSECONDSWESTIQBYROQS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 15,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 9,
+            "first_mismatch_zero_based": 0,
+            "output": "METWEBNSUBTLESHADINWANDTEEABSENCEOFLIGXTLIEPTHENUANCEOFIQRUSIOJ"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 39,
+            "first_mismatch_zero_based": 0,
+            "output": "ZTWASROTALLYINVISIBREHOWPTHATPOSSIBLETXEYUSBDTHEEARTHSMAGPETICCIELDXTHEINFORYATIOJWASGATHEREDANQTRANPMITTEDUNDERGROUNDTYANUNKNOWNLOCAHIONXAOESLANGLEYKNOAABOURTHISTHEYSHOULQITSBMRIEDOUTTHERESIMEWHBREXWHOKNOWSTHUEXACRLOCATIONONLYWATHISQASHISLASTMESSLGEXTEIRTYEIGHTDEGRUESFICTYSEVENMINUTEJSIXPYINTFIVESECONDJNORTESEVENTYSEVENDUGREEPEIGHTMINUTESFIRTYFYURSECONDSWESTZDBYRYWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 16,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 7,
+            "first_mismatch_zero_based": 4,
+            "output": "BETWBENSUBTLESHADIPGANDRHEABSENCEOFLIWHTLIBSTHENUANCEOFITLUSIYN"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 4,
+            "output": "ITWAPTOTALLYINVISIMLEHOQSTHATPOSSIBLEHHEYUPEDTHEEARTHSMAWNETISFIELDXTHEINFOEMATIYNWASGATHEREDAPDTRAJSMITTEDUNDERGEUUNDROANUNKNOWNLOCLTIONUDOESLANGLEYKNIWABOMTTHISTHEYSHOURDITSOURIEDOUTTHEREJOMEWEEREXWHOKNOWSTXEEXASTLOCATIONONLYAWTHIPWASHISLASTMESJAGEXRHIRTYEIGHTDEGEEESFFFTYSEVENMINUTUSSIXKOINTFIVESECONQSNORRHSEVENTYSEVENQEGREBSEIGHTMINUTESVORTYCOURSECONDSWESHIDBYXOWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 17,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 3,
+            "output": "BETQEENSUBTLESHADZNGANATHEABSENCEOFLZGHTLFESTHENUANCEOFZQLUSFON"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 3,
+            "output": "ITWTSTOTALLYINVISZBLEHYWSTHATPOSSIBLUTHEYMSEDTHEEARTHSMLGNETFCFIELDXTHEINFIRMATFONWASGATHEREDLNDTRTNSMITTEDUNDERWRUUNATOANUNKNOWNLONATIOJXDOESLANGLEYKPOWABYUTTHISTHEYSHOOLDITPBURIEDOUTTHERUSOMEQHEREXWHOKNOWSHHEEXTCTLOCATIONONLFWWTHFSWASHISLASTMEJSAGEUTHIRTYEIGHTDEWREESCIFTYSEVENMINUHESSIUPOINTFIVESECOPDSNOXTHSEVENTYSEVEPDEGRBESEIGHTMINUTEJFORTZFOURSECONDSWEJTIDBZROWS"
+          }
+        ]
+      },
+      {
+        "alphabet": "KRYPTOS",
+        "role": "neutral_padded_word_pair",
+        "period": 19,
+        "phase": 18,
+        "key_values": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "source_checks": [
+          {
+            "source": "K1",
+            "length": 63,
+            "exact_match": false,
+            "mismatch_count": 8,
+            "first_mismatch_zero_based": 2,
+            "output": "BERWEENSUBTLESHAQINGAJDTHEABSENCEOFRIGHTHIESTHENUANCEOVIQLUPION"
+          },
+          {
+            "source": "K2",
+            "length": 369,
+            "exact_match": false,
+            "mismatch_count": 40,
+            "first_mismatch_zero_based": 2,
+            "output": "ITQASTOTALLYINVIJIBLEEOWSTHATPOSSIBRETHEZUSEDTHEEARTHSYAGNERICFIELDXTHEINVORMARIONWASGATHEREQANDTXANSMITTEDUNDEEGRUUJDTOANUNKNOWNLICATIYNXDOESLANGLEYDNOWAOOUTTHISTHEYSHIULDIRSBURIEDOUTTHEEESOMBWHEREXWHOKNOWJTHEEUACTLOCATIONONRYWWTEISWASHISLASTMUSSAGBXTHIRTYEIGHTDUGREEPFIFTYSEVENMINOTESSFXPOINTFIVESECINDSNYRTHSEVENTYSEVUNDEGXEESEIGHTMINUTUSFORRYFOURSECONDSWUSTIDOYROWS"
+          }
+        ]
+      }
+    ],
+    "source_mask_descriptions": 42,
+    "full_source_mask_tests": 84,
+    "supported_source_rule_survivors": 0,
+    "K4_trials": 0,
+    "canonical_ciphertext_changed": false,
+    "not_claimed": [
+      "all contextual spelling systems excluded",
+      "intent established for DESPARATLY",
+      "correction extraction locates its own trigger sites",
+      "a key/cipher selected from the correction pairs"
+    ]
+  },
+  "canonical_ciphertext_changed": false,
+  "K4_trials": 0,
+  "pushed": false,
+  "Site_changed": false
+}

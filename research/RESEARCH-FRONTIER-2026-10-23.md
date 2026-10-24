@@ -1,5 +1,7 @@
 # K4 frontier: what can responsibly happen next
 
+Latest local source-rule update (24 October 2026): [deliberate spelling/correction](SPELLING-CORRECTION-032-FINDINGS.md) has no supported rule within the declared uniform source tests. A new independent trigger/stage/inverse gate is tracked; no K4 trial or publication. [Readiness snapshot 032](../results/FRONTIER-032.json).
+
 Latest source-archive update: [corrected version 17](../docs/site-source/projection-v17-20261024/README.md) is live and statically verified; parent cloud Chrome recheck passed. Real-photo fitting remains blocked. [Snapshot 031](../results/FRONTIER-031.json).
 
 Current source-archive update: [version16 handoff](../docs/site-source/projection-20261024/README.md) preserves native owner publication and separate local static verification. Actual correspondence gate is still blocked; [snapshot030](../results/FRONTIER-030.json).

@@ -1069,3 +1069,14 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Parent cloud Chrome rendered QA passed targeted v17 fixes after earlier full eight-case/control/photo/export/390-and-768-iframe/fold checks. Not physical-device emulation or local Mac QA. No handed-off JavaScript executed or Site redeployed by archive integration.
 
 - Final local aggregate regression: 595 tests pass on Python 3.9 and 3.12; [UTC receipt and full logs](../results/SITE-PROJECTION-V17-VALIDATION.json). Version 16 archive is unchanged; corrected version 17 is separately archived.
+
+## SPELLING-CORRECTION-032 — deliberate spelling source-rule constraints
+
+- Date: 24 October 2026 UTC. Local source-consistency/identifiability study; zero K4 trials, no push or Site edit.
+- [Frozen protocol](SPELLING-CORRECTION-032-SPEC.md), [findings](SPELLING-CORRECTION-032-FINDINGS.md), [source/prior coverage](SPELLING-CORRECTION-032-SOURCES.md), [native code](../experiments/spelling_correction.py), [independent oracles](../experiments/spelling_correction_reference.py).
+- Original run UTC start/end: 2026-10-24T13:18:35.633896+00:00 / 2026-10-24T13:18:35.659389+00:00; [full output and controls](../results/SPELLING-CORRECTION-032-ORIGINAL.json). Source retrieval/attribution and later regression times are separate.
+- All minimal word alignments retain Q→L, U→O and uncertain K3 A→E plus inserted E. Uniform full-source letter functions fail; 624 invertible affine changed-site maps fail; keyboard/copy/permutation/vowel constraints fail. These are overlapping exact constraints, not independent statistical trials.
+- All 42 repeated-mask phase descriptions fail on both complete primary texts (84 source applications). They are direct source-transformation diagnostics, not K4 keys or tests of every correction-derived outer cipher. No new trigger or key sweep follows.
+- Independent controls: 394 tiny alignment sets, 436 function-count systems, 24 planted substitutions, 624 affine and 126 mask roundtrips; all pass. General contextual correction family remains evidence-blocked, not universally excluded.
+
+- Final local validation: 608 tests pass on Python 3.9/3.12; [UTC receipt and full logs](../results/SPELLING-CORRECTION-032-VALIDATION.json), [complete cross-version replay](../results/SPELLING-CORRECTION-032-PY312-REPLAY.json). No new K4 trial or publication.

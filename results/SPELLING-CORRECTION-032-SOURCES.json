@@ -1,0 +1,83 @@
+{
+  "kind": "Source retrieval provenance, not source truth or K4 evaluation",
+  "page_reads": [
+    {
+      "url": "https://www.wired.com/2005/01/questions-for-kryptos-creator/",
+      "metadata": {
+        "statusCode": 200,
+        "scrapeId": "01a16e04-dcb8-75cb-94f3-07bc7d154a84",
+        "cachedAt": "2026-10-24T02:15:37.439Z"
+      },
+      "retrieved_at_utc": "2026-10-24T13:14:56.190713+00:00",
+      "markdown_bytes": 30618,
+      "markdown_sha256": "912edc1644e22c0bf30957d62cf2b58124ea7c6242d2f1540dd48d9439de47d9",
+      "raw_page_committed": false
+    },
+    {
+      "url": "https://elonka.com/kryptos/faq.html",
+      "metadata": {
+        "statusCode": 200,
+        "scrapeId": "01a16e04-dca3-7519-bfb7-c6291a86602d",
+        "cachedAt": null
+      },
+      "retrieved_at_utc": "2026-10-24T13:14:56.191106+00:00",
+      "markdown_bytes": 26737,
+      "markdown_sha256": "8411b71fe9156f7a3cadbbd1aa2a67c58115006b9ca4ad25f5ec24920aa82052",
+      "raw_page_committed": false
+    },
+    {
+      "url": "https://elonka.com/kryptos/mirrors/npr/2005transcript.html",
+      "metadata": {
+        "statusCode": 200,
+        "scrapeId": "01a16e0c-d59c-76fb-9043-47f60b7af783"
+      },
+      "retrieved_at_utc": "2026-10-24T13:21:14.957672+00:00",
+      "markdown_bytes": 5148,
+      "markdown_sha256": "84c7193aac69acc00b3e1a17c68ba67070956d07153216b31191499d1dc46209",
+      "raw_page_committed": false
+    }
+  ],
+  "prior_static_reads": [
+    {
+      "source_commit": "3ce19e3ae164a54af8743222ad3de5f6a93f6faf",
+      "private_filename": "spelling-scott-NOTES.md",
+      "bytes": 93224,
+      "sha256": "1838e2cddf03b09fc4f3e1c96cac8f27e3c3cfb857ee25fb09ce5e42e8e7ecdc",
+      "executed": false,
+      "raw_copy_committed": false
+    },
+    {
+      "source_commit": "3ce19e3ae164a54af8743222ad3de5f6a93f6faf",
+      "private_filename": "spelling-scott-PLAN.md",
+      "bytes": 3017,
+      "sha256": "1081674c01dc9e684f613d78d0b886b389f3e0eef5dadbc319d429da8f2a0252",
+      "executed": false,
+      "raw_copy_committed": false
+    },
+    {
+      "source_commit": "3ce19e3ae164a54af8743222ad3de5f6a93f6faf",
+      "private_filename": "spelling-scott-README.md",
+      "bytes": 3658,
+      "sha256": "536e7b56ef9d5e1f0fc6fdead85f02c451f58fa8af1efc51d2ecd02244f0ea83",
+      "executed": false,
+      "raw_copy_committed": false
+    },
+    {
+      "source_commit": "3ce19e3ae164a54af8743222ad3de5f6a93f6faf",
+      "private_filename": "spelling-scott-data_prior_tests_research.md",
+      "bytes": 7992,
+      "sha256": "7bcf1a42efc0a84df6f3b436a50f77009ba1c20c48926672626fe199c5898a99",
+      "executed": false,
+      "raw_copy_committed": false
+    },
+    {
+      "source_commit": "3ce19e3ae164a54af8743222ad3de5f6a93f6faf",
+      "private_filename": "spelling-scott-data_sculpture_anomalies.md",
+      "bytes": 6928,
+      "sha256": "c9cb01dbcd6e06e7cad8b09cda35737393831c52edbbab64868618020bbd587b",
+      "executed": false,
+      "raw_copy_committed": false
+    }
+  ],
+  "full_scrapes_committed": false
+}

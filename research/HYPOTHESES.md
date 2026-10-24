@@ -85,6 +85,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 | [H-RADIX-FEEDBACK](#h-radix-feedback) | analytical exclusion | Changing-base geometric codes enter a fixed affine key recurrence. |
 | [H-ONE-EDIT](#h-one-edit) | non-identifiable | A bounded construction-error sensitivity arm. |
 | [H-ARCHITECTURE-DIAGNOSIS](#h-architecture-diagnosis) | non-identifiable | Classify architecture from fixed short-text features. |
+| [H-DELIBERATE-SPELLING](#h-deliberate-spelling) | evidence-blocked | A consistent deliberate respelling or correction stream supplies transformation information. |
 
 ### H-COMPASS-REVERSE
 
@@ -805,6 +806,18 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Next discriminating test: Require an unknown-class rejection test before treating any K4 label as evidence.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
 - Results: [retained evidence and finite coverage](INDEPENDENT-FOLLOWUP-INTEGRATION-2026-10-22.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-DELIBERATE-SPELLING
+
+- Status: evidence-blocked
+- Mechanism: A rule-governed deliberate spelling change, or information extracted by correcting it, supplies a preprocessing step or key.
+- Evidence: User proposal; WIRED supports intentional mistakes generally, while Dunin specifically attributes IQLUSION and UNDERGRUUND intent. DESPARATLY intent remains uncertain; worksheet/key/cipher stages are not conflated.
+- Tested scope: SPELLING-CORRECTION-032 independently verifies all minimal word alignments, full-source uniform-function conflicts, 624 invertible affine changed-site maps, keyboard/copy/reordering/vowel constraints and 42 direct correction-mask phases. No supported rule survives the declared source consistency checks. No K4 trial or outer-cipher/key sweep.
+- Untested scope: Independently grounded contextual or positional triggers, correction-event steganography, a specified correction-derived key role, and explicit reversible variable-length preprocessing.
+- Missing inputs: A source-selected representation, stage, universal trigger, operation and inverse/alignment convention; no word/position exceptions fitted to anomalies.
+- Next discriminating test: Freeze a trigger independent of the known error sites, apply it to all matching source text and predict a previously unused anomaly without new exceptions.
+- Dependencies: Preserve canonical ciphertext/cribs; source attribution and all unchanged letters matter. K2 omitted ciphertext S is a separate construction channel; prior misspelling keys are not novel coverage here.
+- Results: [Local findings](SPELLING-CORRECTION-032-FINDINGS.md), [source/prior review](SPELLING-CORRECTION-032-SOURCES.md), [original receipt](../results/SPELLING-CORRECTION-032-ORIGINAL.json). Descriptive correction extraction is not a predictive transformation or recovered key.
 
 <!-- CURRENT-REGISTER:END -->
 

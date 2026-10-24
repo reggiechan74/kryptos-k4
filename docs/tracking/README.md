@@ -2,7 +2,7 @@
 
 [Project overview](../../README.md) · [Canonical hypothesis ledger](../../research/HYPOTHESES.md) · [Canonical experiment log](../../research/EXPERIMENTS.md)
 
-- [Hypothesis families](HYPOTHESES.md): 60 stable IDs, statuses and links to exact tested / untested scopes.
+- [Hypothesis families](HYPOTHESES.md): 61 stable IDs, statuses and links to exact tested / untested scopes.
 - [Experiments](EXPERIMENTS.md): a navigable index of log sections, model types and recorded timing.
 - [Detailed experiment entries](EXPERIMENT-DETAILS.md): original results, limits, code and receipt links, rebased for this location.
 - [Run and artifact receipts](RECEIPTS.md): every tracked JSON result, including synthetic engineering and source reviews. Artifact count is not experiment count.
