@@ -1,0 +1,119 @@
+{
+  "id": "SIGABA-SUPPORT-SIGNATURE-041-SUMMARY",
+  "started_at_utc": "2026-10-24T17:15:25.791070+00:00",
+  "finished_at_utc": "2026-10-24T17:19:26.330832+00:00",
+  "published_simulator_vectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "comparisons": [
+    {
+      "backend": "uncached",
+      "case": 0,
+      "complete": false,
+      "reason": "wall_budget_unresolved",
+      "controllers_completed": 12,
+      "requested": 11881376,
+      "budget": {
+        "seconds": 60.03810275,
+        "peak_RSS_bytes": 262733824,
+        "wall_cap_seconds": 60,
+        "RSS_cap_bytes": 1073741824,
+        "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+      },
+      "support_cache": null,
+      "receipt": "results/SIGABA-SUPPORT-SIGNATURE-041-uncached-case0.json"
+    },
+    {
+      "backend": "cached",
+      "case": 0,
+      "complete": false,
+      "reason": "wall_budget_unresolved",
+      "controllers_completed": 12,
+      "requested": 11881376,
+      "budget": {
+        "seconds": 60.096767667,
+        "peak_RSS_bytes": 287653888,
+        "wall_cap_seconds": 60,
+        "RSS_cap_bytes": 1073741824,
+        "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+      },
+      "support_cache": {
+        "signature_calls": 13,
+        "hits": 0,
+        "misses": 13,
+        "evictions": 0,
+        "live_bytes": 19190604,
+        "peak_bytes": 19190604,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      },
+      "receipt": "results/SIGABA-SUPPORT-SIGNATURE-041-cached-case0.json"
+    },
+    {
+      "backend": "uncached",
+      "case": 1,
+      "complete": false,
+      "reason": "wall_budget_unresolved",
+      "controllers_completed": 12,
+      "requested": 11881376,
+      "budget": {
+        "seconds": 60.078772583,
+        "peak_RSS_bytes": 251297792,
+        "wall_cap_seconds": 60,
+        "RSS_cap_bytes": 1073741824,
+        "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+      },
+      "support_cache": null,
+      "receipt": "results/SIGABA-SUPPORT-SIGNATURE-041-uncached-case1.json"
+    },
+    {
+      "backend": "cached",
+      "case": 1,
+      "complete": false,
+      "reason": "wall_budget_unresolved",
+      "controllers_completed": 11,
+      "requested": 11881376,
+      "budget": {
+        "seconds": 60.019773667,
+        "peak_RSS_bytes": 271597568,
+        "wall_cap_seconds": 60,
+        "RSS_cap_bytes": 1073741824,
+        "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+      },
+      "support_cache": {
+        "signature_calls": 12,
+        "hits": 0,
+        "misses": 12,
+        "evictions": 0,
+        "live_bytes": 17592808,
+        "peak_bytes": 17592808,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      },
+      "receipt": "results/SIGABA-SUPPORT-SIGNATURE-041-cached-case1.json"
+    }
+  ],
+  "source_sha256": {
+    "research/SIGABA-SUPPORT-SIGNATURE-041-SPEC.md": "8318bc358e9c8f7610be1bdf08d6e99a2c5181d63e2a80c5c6310e56afa82468",
+    "experiments/sigaba_support_signature_041.py": "461333f8f38b67659d60f371f64e482e5d95c048770fe5557e9f13207897cabb",
+    "experiments/run_sigaba_support_signature_041.py": "3ee3ec5402b11cf92d26be7828961274e173f89229d289d0ae719dd6e769ea1f",
+    "experiments/sigaba_unknown_anchor_collector.py": "b71ed3ed163b2ddee2927a03a6228931bf007e9903bb4f45248437120ae54800",
+    "experiments/sigaba_byte_mask_predicates.py": "e39f8995fe53ecc7b96d906d20233144752e7b1a48c35e33737bcf389806b632",
+    "data/sigaba-csp889-v1.json": "8326857b0b2997d64be94a4685185992ce00702235964c0a985f183d92fc3c5b"
+  },
+  "real_sized_gate_passed": false,
+  "K4_evaluations": 0
+}
