@@ -1,0 +1,41 @@
+{
+  "kind": "Final source-archive aggregate regression, not Site deployment or optical experiment timing",
+  "recorded_at_utc": "2026-10-24T12:21:21.929364+00:00",
+  "suites": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T12:18:05.108183+00:00",
+      "finished_at_utc": "2026-10-24T12:19:07.356123+00:00",
+      "elapsed_seconds": 62.246390208,
+      "exit_code": 0,
+      "log": "results/SITE-PROJECTION-030-python39.log.txt",
+      "sha256": "bebfe20ce2bac47c2d3a8dde0867e1fb5022372f1f6c6c9dff59b652a5de5fa3",
+      "tests_passed": 592
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T12:19:07.356396+00:00",
+      "finished_at_utc": "2026-10-24T12:19:57.416757+00:00",
+      "elapsed_seconds": 50.060057042000004,
+      "exit_code": 0,
+      "log": "results/SITE-PROJECTION-030-python312.log.txt",
+      "sha256": "768887ce18d82c3645f1a446822e212e5d207cfe95f0c27135d6edc17f0e9d84",
+      "tests_passed": 592
+    }
+  ],
+  "local_focused_archive_tests": 4,
+  "handed_off_JavaScript_executed": false,
+  "owner_Site_tests_attributed": 105,
+  "source_commit": "543634f866b74a778b7f1b4de58a4815237dcb2f",
+  "archived_version": 16,
+  "corrected_future_source_handoff_received": false,
+  "real_fits": 0,
+  "K4_trials": 0,
+  "canonical_ciphertext_changed": false,
+  "authored_files_whitespace_clean": true,
+  "original_patch_whitespace_preserved": "Two raw patch lines preserve trailing spaces from exact source Git diff; original binary patch excluded from authored-file whitespace check",
+  "source_sha256": {
+    "experiments/verify_projection_site_handoff.py": "0217e7664ac612ccfaa33e95c0232fe87f4d1401eb34f24b52278df4f7bdbbd5",
+    "tests/test_projection_site_handoff.py": "491d85e4a7210ff71073bc7c9412661030664ae2037f784bbbc3e7c596523ff5"
+  }
+}

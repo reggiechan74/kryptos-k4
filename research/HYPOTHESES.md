@@ -144,7 +144,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Missing inputs: Four-sheet surfaces/seams, aperture contours, true heading, receiver geometry, obstacles, water/window normals and independently timed camera calibration.
 - Next discriminating test: Certify non-K4 aperture/receiving material-point pairs, freeze8 fitting/4 heldout distributed picks and error budget, then test heldout line incidence. Full spot prediction needs additional camera/receiver calibration; no fit with invented pairs.
 - Dependencies: Completed physical-source review plus remaining independent input gates; H-COMPASS-FRAMES; H-GLYPH-VIEW; no fitted date, heading or receiver chosen from attractive K4 output.
-- Results: [Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); [Item 2 conditional physical checks and evidence gate](PHYSICAL-SOLAR-002-FINDINGS.md); [Projection diagnostic and data gate](PROJECTION-CONCURRENCE-029-FINDINGS.md); no surveyed optical K4 decoding result exists.
+- Results: [Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); [Item 2 conditional physical checks and evidence gate](PHYSICAL-SOLAR-002-FINDINGS.md); [Projection diagnostic and data gate](PROJECTION-CONCURRENCE-029-FINDINGS.md); [Live version16 diagnostic source/provenance](../docs/site-source/projection-20261024/README.md) is a tool archive, not a real-data validation; no surveyed optical K4 decoding result exists.
 
 ### H-SHADOW-TIME
 

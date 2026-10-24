@@ -76,5 +76,61 @@
     "target": "../docs/scott-sun-geometry-audit-2026-10-22.md",
     "line": 166,
     "current_repository_target": "docs/scott-sun-geometry-audit-2026-10-22.md"
+  },
+  {
+    "source": "docs/site-source/projection-20261024/snapshot/candidate/projection-test/RESEARCH_API.md",
+    "target": "../experiments/projection_concurrence.py",
+    "line": 3,
+    "current_repository_target": "experiments/projection_concurrence.py",
+    "reason": "Exact source-commit contract preserved; archive README provides canonical working links. No raw source rewrite."
+  },
+  {
+    "source": "docs/site-source/projection-20261024/snapshot/candidate/projection-test/RESEARCH_API.md",
+    "target": "../experiments/projection_concurrence_reference.py",
+    "line": 3,
+    "current_repository_target": "experiments/projection_concurrence_reference.py",
+    "reason": "Exact source-commit contract preserved; archive README provides canonical working links. No raw source rewrite."
+  },
+  {
+    "source": "docs/site-source/projection-20261024/snapshot/candidate/projection-test/RESEARCH_API.md",
+    "target": "../results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json",
+    "line": 3,
+    "current_repository_target": "results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json",
+    "reason": "Exact source-commit contract preserved; archive README provides canonical working links. No raw source rewrite."
+  },
+  {
+    "source": "docs/site-source/projection-20261024/snapshot/candidate/projection-test/RESEARCH_API.md",
+    "target": "../results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json",
+    "line": 21,
+    "current_repository_target": "results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json",
+    "reason": "Exact source-commit contract preserved; archive README provides canonical working links. No raw source rewrite."
+  },
+  {
+    "source": "docs/site-source/projection-20261024/snapshot/dist/projection-test/RESEARCH_API.md",
+    "target": "../experiments/projection_concurrence.py",
+    "line": 3,
+    "current_repository_target": "experiments/projection_concurrence.py",
+    "reason": "Exact source-commit contract preserved; archive README provides canonical working links. No raw source rewrite."
+  },
+  {
+    "source": "docs/site-source/projection-20261024/snapshot/dist/projection-test/RESEARCH_API.md",
+    "target": "../experiments/projection_concurrence_reference.py",
+    "line": 3,
+    "current_repository_target": "experiments/projection_concurrence_reference.py",
+    "reason": "Exact source-commit contract preserved; archive README provides canonical working links. No raw source rewrite."
+  },
+  {
+    "source": "docs/site-source/projection-20261024/snapshot/dist/projection-test/RESEARCH_API.md",
+    "target": "../results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json",
+    "line": 3,
+    "current_repository_target": "results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json",
+    "reason": "Exact source-commit contract preserved; archive README provides canonical working links. No raw source rewrite."
+  },
+  {
+    "source": "docs/site-source/projection-20261024/snapshot/dist/projection-test/RESEARCH_API.md",
+    "target": "../results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json",
+    "line": 21,
+    "current_repository_target": "results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json",
+    "reason": "Exact source-commit contract preserved; archive README provides canonical working links. No raw source rewrite."
   }
 ]

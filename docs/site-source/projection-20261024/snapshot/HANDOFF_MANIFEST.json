@@ -1,0 +1,166 @@
+{
+  "baseCommit": "086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea",
+  "sourceCommit": "543634f866b74a778b7f1b4de58a4815237dcb2f",
+  "status": "pushed and deployed to existing public Site version16; access revision2 unchanged",
+  "version": 16,
+  "url": "https://kryptos-light-laboratory-rc2026.milky-lion-6014.chatgpt.site",
+  "tests": 105,
+  "browserQA": "unverified: Mac locked",
+  "files": [
+    {
+      "path": "PROJECTION_CONCURRENCE_INTEGRATION_PLAN.md",
+      "sha256": "1b17fce9f098d2332593a27e90f7e0be4b7fb25069d4dc86742d7a04bdf13365",
+      "bytes": 6139
+    },
+    {
+      "path": "PROJECTION_CONCURRENCE_QA.md",
+      "sha256": "c6198762c739306a580bd6d86cb6ad77d712b4d3291f4f0ca277d04df9156c6f",
+      "bytes": 2904
+    },
+    {
+      "path": "candidate/app.mjs",
+      "sha256": "d2acf2ba9dd0ff978e207c97aaadf3a5262f57c4ffbca1b0bdf57b8601bc7f42",
+      "bytes": 41277
+    },
+    {
+      "path": "candidate/index.html",
+      "sha256": "1830d2ccf873165a795e361b757fa08a4b5505c57ecd2f73b83de5877308e8f4",
+      "bytes": 18963
+    },
+    {
+      "path": "candidate/projection-test/RESEARCH_API.md",
+      "sha256": "c6462184de85a2f0cac9916a05a54671fc1e30443ac64f6a31565a7d8b6f242b",
+      "bytes": 4749
+    },
+    {
+      "path": "candidate/projection-test/core.mjs",
+      "sha256": "c9b39ada9f2122b6c6f49f11e9157704e2ea5f4104c8ccddf127ef8a12cbca4f",
+      "bytes": 5050
+    },
+    {
+      "path": "candidate/projection-test/fixtures.mjs",
+      "sha256": "b714d0f71d1c12d1112fb9ae6c1c38a87538893c23b08e294d8d13a0fc71e88f",
+      "bytes": 8847
+    },
+    {
+      "path": "candidate/projection-test/loc-highsmith-site.jpg",
+      "sha256": "cab93103a992620c5d20fa426c77468d70ec83197ab8a1c7484d790f4354c50d",
+      "bytes": 1239216
+    },
+    {
+      "path": "candidate/projection-test/module.mjs",
+      "sha256": "6fc18e0f16640e32845935d87a9c3fa74602e0767a9ff04c6972498616687253",
+      "bytes": 10494
+    },
+    {
+      "path": "candidate/projection-test/photo-provenance.json",
+      "sha256": "d78e07df3f216b4fbaed944742cf3b6a118460e7f23034a5904905efe852338c",
+      "bytes": 883
+    },
+    {
+      "path": "candidate/projection-test/synthetic.mjs",
+      "sha256": "b9d32cb648585cf800d28d4ba4c051de425200a709be33c90a8c23d0c1063a7c",
+      "bytes": 1536
+    },
+    {
+      "path": "candidate/projection-test/view.mjs",
+      "sha256": "a17ef0ddd24f33cbf903cf297bdad4276145f078aead4bfab44113c5d3d42bca",
+      "bytes": 2719
+    },
+    {
+      "path": "candidate/qa/projection-mobile.html",
+      "sha256": "7d018cd518ed9efd0c7b5ea36b40399c98ee6b10533a2a9d68d5fd69bae67737",
+      "bytes": 823
+    },
+    {
+      "path": "candidate/style.css",
+      "sha256": "b00c451e0520b82c624ff05d0b813581637cdc1c34107ad8349ce8499ced3f6e",
+      "bytes": 11625
+    },
+    {
+      "path": "dist/RELEASE_MANIFEST.json",
+      "sha256": "aef71ca83d24435d520231df29f43102d92547effe82e61904d0d551b5391cc8",
+      "bytes": 11319
+    },
+    {
+      "path": "dist/app.mjs",
+      "sha256": "1f01b5c47fbb823520b47f8f777dbecb9b21bc89fa6d05462cd3c638bdb2b986",
+      "bytes": 41284
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "25aef49e6d99a98fa1fcd374155420ff9b170fdf6bbe6be429ae92a7837545d2",
+      "bytes": 18646
+    },
+    {
+      "path": "dist/projection-test/RESEARCH_API.md",
+      "sha256": "c6462184de85a2f0cac9916a05a54671fc1e30443ac64f6a31565a7d8b6f242b",
+      "bytes": 4749
+    },
+    {
+      "path": "dist/projection-test/core.mjs",
+      "sha256": "c9b39ada9f2122b6c6f49f11e9157704e2ea5f4104c8ccddf127ef8a12cbca4f",
+      "bytes": 5050
+    },
+    {
+      "path": "dist/projection-test/fixtures.mjs",
+      "sha256": "b714d0f71d1c12d1112fb9ae6c1c38a87538893c23b08e294d8d13a0fc71e88f",
+      "bytes": 8847
+    },
+    {
+      "path": "dist/projection-test/loc-highsmith-site.jpg",
+      "sha256": "cab93103a992620c5d20fa426c77468d70ec83197ab8a1c7484d790f4354c50d",
+      "bytes": 1239216
+    },
+    {
+      "path": "dist/projection-test/module.mjs",
+      "sha256": "6fc18e0f16640e32845935d87a9c3fa74602e0767a9ff04c6972498616687253",
+      "bytes": 10494
+    },
+    {
+      "path": "dist/projection-test/photo-provenance.json",
+      "sha256": "d78e07df3f216b4fbaed944742cf3b6a118460e7f23034a5904905efe852338c",
+      "bytes": 883
+    },
+    {
+      "path": "dist/projection-test/synthetic.mjs",
+      "sha256": "b9d32cb648585cf800d28d4ba4c051de425200a709be33c90a8c23d0c1063a7c",
+      "bytes": 1536
+    },
+    {
+      "path": "dist/projection-test/view.mjs",
+      "sha256": "a17ef0ddd24f33cbf903cf297bdad4276145f078aead4bfab44113c5d3d42bca",
+      "bytes": 2719
+    },
+    {
+      "path": "dist/qa/projection-mobile.html",
+      "sha256": "7d018cd518ed9efd0c7b5ea36b40399c98ee6b10533a2a9d68d5fd69bae67737",
+      "bytes": 823
+    },
+    {
+      "path": "dist/style.css",
+      "sha256": "b00c451e0520b82c624ff05d0b813581637cdc1c34107ad8349ce8499ced3f6e",
+      "bytes": 11625
+    },
+    {
+      "path": "tests/projection-concurrence.test.mjs",
+      "sha256": "53d5394d2aabf1d100b8c1b57d2c215bd524c899d13f7ebcf1e5f3f2da2dcf04",
+      "bytes": 7206
+    },
+    {
+      "path": "tests/projection-local-reference.json",
+      "sha256": "d0a268a2c1b8a4b6bd898833d2b833615614eb73c30514fa71be72db4819cc7f",
+      "bytes": 95711
+    },
+    {
+      "path": "tests/projection-navigation.test.mjs",
+      "sha256": "e8f990e38fee172667a31f850cda7a0f07a6adf773f62187cf3808d49a5aa515",
+      "bytes": 1965
+    },
+    {
+      "path": "tests/projection-reference-results.json",
+      "sha256": "1a80b5ba5874d4729b2fb0ff253c5d88e6a1994074c52ef6f20502a3f047fcb3",
+      "bytes": 147239
+    }
+  ]
+}

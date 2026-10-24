@@ -1709,3 +1709,23 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Final regression:587 tests pass on Python3.9 and3.12; [separate UTC receipt/full logs](../../results/PROJECTION-CONCURRENCE-029-VALIDATION.json). [Complete Python3.12 record replay](../../results/PROJECTION-CONCURRENCE-029-PY312-REPLAY.json) agrees within declared1e-8 absolute/1e-9 relative tolerance. Real-data stage is evidence-blocked, not a monument negative.
 
 Related files: [experiments/projection_concurrence.py](../../experiments/projection_concurrence.py), [experiments/projection_concurrence_reference.py](../../experiments/projection_concurrence_reference.py), [research/PROJECTION-CONCURRENCE-029-API.md](../../research/PROJECTION-CONCURRENCE-029-API.md), [research/PROJECTION-CONCURRENCE-029-FINDINGS.md](../../research/PROJECTION-CONCURRENCE-029-FINDINGS.md), [research/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS-SPEC.md](../../research/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS-SPEC.md), [research/PROJECTION-CONCURRENCE-029-SPEC.md](../../research/PROJECTION-CONCURRENCE-029-SPEC.md), [research/evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json](../../research/evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json), [research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md](../../research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md), [results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json](../../results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json), [results/PROJECTION-CONCURRENCE-029-PY312-REPLAY.json](../../results/PROJECTION-CONCURRENCE-029-PY312-REPLAY.json), [results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json](../../results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json), [results/PROJECTION-CONCURRENCE-029-VALIDATION.json](../../results/PROJECTION-CONCURRENCE-029-VALIDATION.json), [tests/test_projection_concurrence.py](../../tests/test_projection_concurrence.py).
+
+## LOG-3F1B540764
+
+**SITE-PROJECTION-030 — version16 source archive and publication provenance**
+
+receipt recording: 2026-10-24T12:21:21.929364Z; receipt recording: 2026-10-24T12:13:37.323660Z
+
+Type: source archive integrity; publication provenance. Outcome: Version16 owner-confirmed live; exact source/fixture integrity passes locally; rendered QA unverified and no real-photo fit
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date:24 October2026 UTC; source archival/integrity work only, not a new cipher or optical fit.
+- [Archive/provenance](../site-source/projection-20261024/README.md), [original manifest](../site-source/projection-20261024/snapshot/HANDOFF_MANIFEST.json), [static verifier](../../experiments/verify_projection_site_handoff.py), [local UTC receipt](../../results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json).
+- Native owner publication relayed by parent confirms public Site version16/source543634f866b74a778b7f1b4de58a4815237dcb2f, public access revision2 unchanged. Exact publication time unknown. Owner reports105 tests; rendered desktop/mobile QA unverified because Mac locked. Local archive step did not deploy or execute the handed-off JavaScript.
+- All33 original ZIP entries safely inspected;31 source files match owner Git blobs and patch;8 fixtures and complete11-local-control payloads match research bytes. This is a partial source delta, not a complete runtime or independently rerun full Site suite.
+- Original copied contract has8 repository-relative links in its two source copies; preserve exact bytes with explicit original-source link exceptions and working canonical links in the archive guide. No silent source repair. Zero real-photo fits or new K4 trials.
+
+- Local aggregate archive regression:592 tests on Python3.9/3.12, [UTC receipt/logs](../../results/SITE-PROJECTION-030-VALIDATION.json). Parent cloud review confirms version16 fixtures/controls/photo/export, with narrow QA-page encoding correction still pending source handoff; no corrected version is claimed archived.
+
+Related files: [docs/site-source/projection-20261024/README.md](../site-source/projection-20261024/README.md), [docs/site-source/projection-20261024/snapshot/HANDOFF_MANIFEST.json](../site-source/projection-20261024/snapshot/HANDOFF_MANIFEST.json), [experiments/verify_projection_site_handoff.py](../../experiments/verify_projection_site_handoff.py), [results/SITE-PROJECTION-030-VALIDATION.json](../../results/SITE-PROJECTION-030-VALIDATION.json), [results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json](../../results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json).

@@ -1,0 +1,312 @@
+{
+  "acceptedCandidateCommit": "c3c294daaa2dec6262a890fe691dc0f7b168c449",
+  "status": "promoted accepted combined release; unsurveyed model",
+  "releaseOnlyChanges": [
+    "app.mjs: diagnostic release label only",
+    "index.html: remove unpromoted banner and validation diagnostics label"
+  ],
+  "frozenFilesVerified": 238,
+  "localDependenciesVerified": 46,
+  "files": [
+    {
+      "path": "accepted-decryption/README.md",
+      "sha256": "c687c6819296dc9a7e2c718c3e8aea4951eb4adcdbdfc98ed71b0d560f554a5d"
+    },
+    {
+      "path": "accepted-decryption/core.mjs",
+      "sha256": "7ee75e9020363c4aa466a1001e71b54a59a2322b327087da495683d8e195103a"
+    },
+    {
+      "path": "accepted-decryption/module.mjs",
+      "sha256": "7e60588a9e998346b37aea0feda8e483154c50538f0759ecabb60a061d1314b0"
+    },
+    {
+      "path": "accepted-decryption/transcript.mjs",
+      "sha256": "1cfb4bec17695e6b13c4ded220b4b006ea915ac6d984e3f469fcfb3bcc4cd8a5"
+    },
+    {
+      "path": "app.mjs",
+      "sha256": "1f01b5c47fbb823520b47f8f777dbecb9b21bc89fa6d05462cd3c638bdb2b986"
+    },
+    {
+      "path": "entrance-installation.mjs",
+      "sha256": "3ebcafcdba599a1a441a1082ba134d55425c82a1af522bc50b0245b2b7ea2d4c"
+    },
+    {
+      "path": "evidence/MANIFEST.json",
+      "sha256": "1d69dc0ebf76e8c0247925199011afcfed461541bfbe196cf804e8e39df4b494"
+    },
+    {
+      "path": "evidence/RUBBING_SOURCES_AND_LIMITS.md",
+      "sha256": "57dd75ee75109f8a6711a911b3704fc9434a1403daf706958744f75350899b72"
+    },
+    {
+      "path": "evidence/boundary-observations.json",
+      "sha256": "07488b4be0967ad5cc608a681bda07c06c1cbb1ded603d2a39b857c1a0d6b0eb"
+    },
+    {
+      "path": "evidence/photo/CALIBRATION_REPORT.md",
+      "sha256": "4e317282da872e1eccd254253df076d9f67a4f89d52dda9d7f5a1ba6315d6212"
+    },
+    {
+      "path": "evidence/photo/IMPORT_NOTES.md",
+      "sha256": "693412c1b34da73b69aba61096c4a54e3d39fd2efb058b9b4f63bfd8d2531856"
+    },
+    {
+      "path": "evidence/photo/MANIFEST.json",
+      "sha256": "28c48c64c5d6042eaa91bd83ba8ee636fcf1c95df0a07a96385d20bac7a94738"
+    },
+    {
+      "path": "evidence/photo/RUBBING_SOURCES_AND_LIMITS.md",
+      "sha256": "57dd75ee75109f8a6711a911b3704fc9434a1403daf706958744f75350899b72"
+    },
+    {
+      "path": "evidence/photo/boundary-observations.json",
+      "sha256": "07488b4be0967ad5cc608a681bda07c06c1cbb1ded603d2a39b857c1a0d6b0eb"
+    },
+    {
+      "path": "evidence/photo/calibration-summary-derived.png",
+      "sha256": "a28b4ef63f06c072dba9b1c76a220c770b7d8309c5f948426a48fdc5ac9be575"
+    },
+    {
+      "path": "evidence/photo/calibration-summary-derived.svg",
+      "sha256": "18f28233559b3b09f9e5c55acbb01a1838781221f0d95dcb5c5f6238c91ff578"
+    },
+    {
+      "path": "evidence/photo/check_two_view_registration.py",
+      "sha256": "1ac0fb5b616792b057dd8319db23aa2bd707684532536dfd003b9eca422c3fd9"
+    },
+    {
+      "path": "evidence/photo/cross-view-fit.json",
+      "sha256": "413ceec243f55ee039b10728b323b97cbbedbe9acb86d8899015a08ef054dbdc"
+    },
+    {
+      "path": "evidence/photo/fit_cross_view.py",
+      "sha256": "9d2bd550de3a103acd31fc88584d7d2ebcfa2ce921624572e81f3b8a7b1ffd91"
+    },
+    {
+      "path": "evidence/photo/fit_ruled_strip.py",
+      "sha256": "67e9ac27772d839db375348c2f016d7f7f80332dd891dd05aea5e1acdc927a8b"
+    },
+    {
+      "path": "evidence/photo/left-glyph-landmarks.json",
+      "sha256": "e135d2109b860ed91779fca71837317f01941a2db78731425afa15ec86607275"
+    },
+    {
+      "path": "evidence/photo/middle-glyph-landmarks.json",
+      "sha256": "91cae28e48173f384e183188052874d7ac8395c12dd807cd9101ca9f51fb2a79"
+    },
+    {
+      "path": "evidence/photo/plot_calibration_summary.py",
+      "sha256": "4a8e3abb805421159e8d8aa1a52bf4898f4546f85bfd6b7f62e3d4b2823fcdab"
+    },
+    {
+      "path": "evidence/photo/rubbing-NDY-landmarks.svg",
+      "sha256": "2e32a40aa14296b927c8d9eba9671365e1fdde99133171ae2e709f7563210421"
+    },
+    {
+      "path": "evidence/photo/rubbing-R-derived-preview.png",
+      "sha256": "79360f3c6ce5ffd4c881cb9b769bda1fdcf91e7ad3b3a5f511442142d2b650d1"
+    },
+    {
+      "path": "evidence/photo/rubbing-R-uncalibrated.svg",
+      "sha256": "af52306cac3bd1e007c375aa4ff964604c72af9eebca8a711b5d3e5889015e7d"
+    },
+    {
+      "path": "evidence/photo/rubbing-glyph-sample.json",
+      "sha256": "8b130fca46164e0830e76ee5fcc996f59b0dbffea10d7f8463d4a72032cd5715"
+    },
+    {
+      "path": "evidence/photo/ruled-strip-fit.json",
+      "sha256": "9ea2fc8eae7204de4bd857419e34ec559e4790cc3846c3df93fe3fcab95297e4"
+    },
+    {
+      "path": "evidence/photo/trace_rubbing_sample.py",
+      "sha256": "8ad92a562ecc90d2a2ff554771df15604074d0698d49f1465a761f07b98d711d"
+    },
+    {
+      "path": "evidence/photo/two-view-registration.json",
+      "sha256": "0510aff0d85d63dba378d1b2f91034183e16817b2bd1864d62a80f5221fc64d3"
+    },
+    {
+      "path": "evidence/rubbing-NDY-landmarks.svg",
+      "sha256": "2e32a40aa14296b927c8d9eba9671365e1fdde99133171ae2e709f7563210421"
+    },
+    {
+      "path": "evidence/rubbing-R-derived-preview.png",
+      "sha256": "79360f3c6ce5ffd4c881cb9b769bda1fdcf91e7ad3b3a5f511442142d2b650d1"
+    },
+    {
+      "path": "evidence/rubbing-R-uncalibrated.svg",
+      "sha256": "af52306cac3bd1e007c375aa4ff964604c72af9eebca8a711b5d3e5889015e7d"
+    },
+    {
+      "path": "evidence/rubbing-glyph-sample.json",
+      "sha256": "8b130fca46164e0830e76ee5fcc996f59b0dbffea10d7f8463d4a72032cd5715"
+    },
+    {
+      "path": "evidence/trace_rubbing_sample.py",
+      "sha256": "8ad92a562ecc90d2a2ff554771df15604074d0698d49f1465a761f07b98d711d"
+    },
+    {
+      "path": "evidence.mjs",
+      "sha256": "00f6e1aaf5107422b64f27f49cb5a47881d76acaf158d140ee21d9b61a528ea7"
+    },
+    {
+      "path": "fold-overlay/MONUMENT-FOLD-SLIDE-FINDINGS.md",
+      "sha256": "9da1efc49b0742bad6dc6df592ff0dd58c0406f46510d2a4d4086b55660b8a2c"
+    },
+    {
+      "path": "fold-overlay/MONUMENT-SLIDE-OVERLAY-SPEC.md",
+      "sha256": "1d6fe9ea1a5da313879212b4081f318fbba75273f05e0952e4dc3ba32149f111"
+    },
+    {
+      "path": "fold-overlay/MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md",
+      "sha256": "e32dab320d85f76ab246ebf5ac8f289674ccf787d5f709538ae88a96bfd07b0b"
+    },
+    {
+      "path": "fold-overlay/core.mjs",
+      "sha256": "353937f1c001a108db33727c52898373e0625c6870a0bb427bb0e87ed3a18f70"
+    },
+    {
+      "path": "fold-overlay/data.mjs",
+      "sha256": "521fc368f317078de65bc22e09f55d7e285c76f4285f151a1096b5453ed738ba"
+    },
+    {
+      "path": "fold-overlay/module.mjs",
+      "sha256": "e2e2a733fd59fb464dd43c24088c6ace9d80be825d1426ea8c8f89cb1b9f0c48"
+    },
+    {
+      "path": "fold-overlay/view.mjs",
+      "sha256": "db496eda89c09dc703fcceba0b9b75ffb737875442914a8faa291639c858129b"
+    },
+    {
+      "path": "geometry-worker.mjs",
+      "sha256": "38cc8d3d94b1442177e86067b558cec31f235ff5276ef0969b170dcb51da2ad2"
+    },
+    {
+      "path": "geometry.mjs",
+      "sha256": "e327969768337307185f3a16c23888b5fa85237bcfee8fbb3f21ce820507c008"
+    },
+    {
+      "path": "glyphs.mjs",
+      "sha256": "87e5311575f8e15b10436e04196726d316341a14fd2a71047d0b887a2baf5f1b"
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "cd398779d2d16e3ee3894c01fe2e0aaae5efc16da96c432754704b107500d547"
+    },
+    {
+      "path": "index.html",
+      "sha256": "25aef49e6d99a98fa1fcd374155420ff9b170fdf6bbe6be429ae92a7837545d2"
+    },
+    {
+      "path": "irradiance-mask.mjs",
+      "sha256": "8712143bf78a22fa180f315d56bac59a9dc315f9d4c49035f0f419576be2f08d"
+    },
+    {
+      "path": "k4-clues.mjs",
+      "sha256": "d8af9b8a4d6fa13300e2642bf976d75a6549ee351879ef3df39313e78613768d"
+    },
+    {
+      "path": "learning-mode.mjs",
+      "sha256": "6107c9b935c3c1c6eef5b71d6822f528f8cff7317ea6ec187cb7795a248a974e"
+    },
+    {
+      "path": "math.mjs",
+      "sha256": "598279822b57b9fdad5b4da11338f3a789b0de0d450a3b802f2ce163a14328be"
+    },
+    {
+      "path": "opaque-faces.mjs",
+      "sha256": "d655186b575325bf09e2c8c39cb96acf3383b47df8734ce7cba6a5fc880a96a9"
+    },
+    {
+      "path": "optics-worker.mjs",
+      "sha256": "9028eca09b8b30bb282b5475a52ca3f6059436722ed5333a7993f2e7bf4faa7e"
+    },
+    {
+      "path": "photo-model.mjs",
+      "sha256": "faa801e26599fc20ee5bc85930eb4ce7aa640555b5e8efbf4a459892f91c6aa1"
+    },
+    {
+      "path": "photo-ui.mjs",
+      "sha256": "1d90e5c108828f0b5c533f09e542e3250ed03567408081e95af82f52a064464d"
+    },
+    {
+      "path": "physics.mjs",
+      "sha256": "87085e5a8ea3096f89c247a9dafb08e01721e184d05645fb8c88111c7c50c62c"
+    },
+    {
+      "path": "projection-test/RESEARCH_API.md",
+      "sha256": "c6462184de85a2f0cac9916a05a54671fc1e30443ac64f6a31565a7d8b6f242b"
+    },
+    {
+      "path": "projection-test/core.mjs",
+      "sha256": "c9b39ada9f2122b6c6f49f11e9157704e2ea5f4104c8ccddf127ef8a12cbca4f"
+    },
+    {
+      "path": "projection-test/fixtures.mjs",
+      "sha256": "b714d0f71d1c12d1112fb9ae6c1c38a87538893c23b08e294d8d13a0fc71e88f"
+    },
+    {
+      "path": "projection-test/loc-highsmith-site.jpg",
+      "sha256": "cab93103a992620c5d20fa426c77468d70ec83197ab8a1c7484d790f4354c50d"
+    },
+    {
+      "path": "projection-test/module.mjs",
+      "sha256": "6fc18e0f16640e32845935d87a9c3fa74602e0767a9ff04c6972498616687253"
+    },
+    {
+      "path": "projection-test/photo-provenance.json",
+      "sha256": "d78e07df3f216b4fbaed944742cf3b6a118460e7f23034a5904905efe852338c"
+    },
+    {
+      "path": "projection-test/synthetic.mjs",
+      "sha256": "b9d32cb648585cf800d28d4ba4c051de425200a709be33c90a8c23d0c1063a7c"
+    },
+    {
+      "path": "projection-test/view.mjs",
+      "sha256": "a17ef0ddd24f33cbf903cf297bdad4276145f078aead4bfab44113c5d3d42bca"
+    },
+    {
+      "path": "qa/projection-mobile.html",
+      "sha256": "7d018cd518ed9efd0c7b5ea36b40399c98ee6b10533a2a9d68d5fd69bae67737"
+    },
+    {
+      "path": "render-path.mjs",
+      "sha256": "cab350142be550b2d376bf402778432a04a58816e4d9c32d12d3cbb1a6bfe26d"
+    },
+    {
+      "path": "scene-render-queue.mjs",
+      "sha256": "d4983cf861ed5a6b2653b31e13a1697a2ed6b3a63ec7d6d9ccf1d98b8d077768"
+    },
+    {
+      "path": "scene-render-worker.mjs",
+      "sha256": "9f7c7c50833c4fba837e50d43b57b93c55b6785849e5ee06b9a20e84e0bb3775"
+    },
+    {
+      "path": "scene-transfer.mjs",
+      "sha256": "b85184bd9860cc66943007ba8e31b434a06caddf98cf2312ae1e40e8e2406dd2"
+    },
+    {
+      "path": "style.css",
+      "sha256": "b00c451e0520b82c624ff05d0b813581637cdc1c34107ad8349ce8499ced3f6e"
+    },
+    {
+      "path": "surface-profile.mjs",
+      "sha256": "d7eba81f2bc459de10cac27b072692672430d6949cdb0bbb05a6aa9bab17274b"
+    },
+    {
+      "path": "transcript.mjs",
+      "sha256": "1cfb4bec17695e6b13c4ded220b4b006ea915ac6d984e3f469fcfb3bcc4cd8a5"
+    }
+  ],
+  "focusedUpdate": "Manual same-facing fold overlay; no-wrap signed integer row/column translation; exact labels separate from approximate5x7mask intersections; row offsets exploratory",
+  "foldResearchSourceCommit": "e75ecbbba1c0913d98f51a5b8ac23192dac9723e",
+  "projectionRelease": {
+    "status": "synthetic diagnostic; real certified pairs zero",
+    "researchFinalCommit": "dab2f73e6d1a3b06269ad3c9107768138fb77e13",
+    "browserQA": "blocked: supported Mac locked",
+    "photoDerivativeSha256": "cab93103a992620c5d20fa426c77468d70ec83197ab8a1c7484d790f4354c50d"
+  }
+}

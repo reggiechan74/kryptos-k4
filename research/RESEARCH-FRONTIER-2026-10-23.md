@@ -1,5 +1,7 @@
 # K4 frontier: what can responsibly happen next
 
+Current source-archive update: [version16 handoff](../docs/site-source/projection-20261024/README.md) preserves native owner publication and separate local static verification. Actual correspondence gate is still blocked; [snapshot030](../results/FRONTIER-030.json).
+
 Current physical diagnostic update (24 October 2026): [projection concurrence](PROJECTION-CONCURRENCE-029-FINDINGS.md) now has a runnable preregistration, independent scalar checks and synthetic positive/negative/degenerate fixtures. Zero certified real pairs; no monument fit or K4 search. Current readiness is [snapshot029](../results/FRONTIER-029.json). Historical snapshots below are preserved.
 
 Subsequent engineering update: [a complete coupled toy solver now exists](SIGABA-JOINT-TOY-FINDINGS.md); the real-sized adapter and scaling gate remain unresolved. The original assessment below is preserved as a dated snapshot; current details are in the canonical register, updated gate specification and [new readiness snapshot](../results/FRONTIER-012.json).

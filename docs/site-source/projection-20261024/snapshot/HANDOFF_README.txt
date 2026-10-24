@@ -1,0 +1,1 @@
+Apply these31files over Site source base 086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea. Exact source commit 543634f866b74a778b7f1b4de58a4815237dcb2f pushed and deployed as public Site version16. 105 tests pass. Mac locked; actual rendered desktop/mobile checks unverified. No research checkout modified. Frozen validation routes unchanged.

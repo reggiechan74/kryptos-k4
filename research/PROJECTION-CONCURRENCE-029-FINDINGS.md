@@ -75,3 +75,7 @@ The replay emits fresh UTC times and current implementation/spec hashes. Preserv
 A finite physical emitter lying in the camera-center plane can also project to an image point at infinity. Image homogeneous coordinate `sw=0` describes image projection geometry, not physical source distance. An explicit finite-3D-emitter control tests this distinction.
 
 Final aggregate validation: **587 tests pass on both Python3.9 and Python3.12**, including18 focused projection/artifact/local-mismatch tests. [UTC regression receipt and full logs](../results/PROJECTION-CONCURRENCE-029-VALIDATION.json); [complete cross-version payload replay](../results/PROJECTION-CONCURRENCE-029-PY312-REPLAY.json). Generated-inventory ordering failures are retained separately and corrected by regenerating scope audit after navigation; no scientific fixture or threshold changed.
+
+## Later Site source handoff
+
+The [version16 source archive and current publication provenance](../docs/site-source/projection-20261024/README.md) are now integrated. Parent-relayed native owner publication confirms version16 live, access revision2 unchanged. Owner105-test result is attributed; local verification is static source/fixture integrity. Rendered QA remains unverified, not a claimed pass. Zero real-photo fits remain unchanged. The original research validation receipt correctly records that this later handoff had not yet arrived at its own execution time.

@@ -62,7 +62,7 @@
       "Missing inputs": "Four-sheet surfaces/seams, aperture contours, true heading, receiver geometry, obstacles, water/window normals and independently timed camera calibration.",
       "Next discriminating test": "Certify non-K4 aperture/receiving material-point pairs, freeze8 fitting/4 heldout distributed picks and error budget, then test heldout line incidence. Full spot prediction needs additional camera/receiver calibration; no fit with invented pairs.",
       "Dependencies": "Completed physical-source review plus remaining independent input gates; H-COMPASS-FRAMES; H-GLYPH-VIEW; no fitted date, heading or receiver chosen from attractive K4 output.",
-      "Results": "[Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); [Item 2 conditional physical checks and evidence gate](PHYSICAL-SOLAR-002-FINDINGS.md); [Projection diagnostic and data gate](PROJECTION-CONCURRENCE-029-FINDINGS.md); no surveyed optical K4 decoding result exists."
+      "Results": "[Audited limitations](../docs/scott-sun-geometry-audit-2026-10-22.md); [Item 2 conditional physical checks and evidence gate](PHYSICAL-SOLAR-002-FINDINGS.md); [Projection diagnostic and data gate](PROJECTION-CONCURRENCE-029-FINDINGS.md); [Live version16 diagnostic source/provenance](../docs/site-source/projection-20261024/README.md) is a tool archive, not a real-data validation; no surveyed optical K4 decoding result exists."
     },
     {
       "id": "H-SHADOW-TIME",
@@ -3285,6 +3285,50 @@
         "results/PROJECTION-CONCURRENCE-029-VALIDATION.json"
       ],
       "original_entry": "- Date: 24 October 2026 UTC; separately authorized after the eight-item sequence, not a cipher search.\n- Kind: synthetic geometric diagnostic, independent scalar checks and real-data admission protocol; zero certified monument pairs, real fits or K4 trials.\n- [Preregistered protocol](PROJECTION-CONCURRENCE-029-SPEC.md), [findings](PROJECTION-CONCURRENCE-029-FINDINGS.md), [API/data contract](PROJECTION-CONCURRENCE-029-API.md), [native code](../experiments/projection_concurrence.py), [independent checks](../experiments/projection_concurrence_reference.py), [tests](../tests/test_projection_concurrence.py).\n- Original corrected diagnostic UTC start/end:2026-10-24T11:50:23.445087+00:00 /2026-10-24T11:50:23.802297+00:00. [Complete fixtures/outputs](../results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json): 24 uncertainty configurations, 21 evaluated and3 collapsed; finite/infinity/noisy positives pass, heldout/mixed-source negatives fail, coincident rays unidentifiable despite zero residual.\n- Initial parallel/infinity QA misconception and undefined-training-ray gate error are preserved separately, corrected before any real fitting; no discarded points or threshold easing.\n- Actual physical-data stage remains evidence-blocked. Line concurrence predicts only line incidence, not complete spot position or solar/time identity. [Source acquisition review](evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md) and [local LOC check](evidence/2026-10-24-projection-acquisition/LOCAL-REVIEW.json) integrated: additional views/observation ROIs, still zero certified pairs; no synthetic success promoted to monument evidence.\n\n- [Separately frozen local-control supplement](PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS-SPEC.md) and [eleven complete outputs](../results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json): small wrong picks and a correlated receiver shift can pass. This exposes conditional-gate limits; no tolerance retuning or real-data fit.\n\n- Final regression:587 tests pass on Python3.9 and3.12; [separate UTC receipt/full logs](../results/PROJECTION-CONCURRENCE-029-VALIDATION.json). [Complete Python3.12 record replay](../results/PROJECTION-CONCURRENCE-029-PY312-REPLAY.json) agrees within declared1e-8 absolute/1e-9 relative tolerance. Real-data stage is evidence-blocked, not a monument negative."
+    },
+    {
+      "record_id": "LOG-3F1B540764",
+      "experiment_ids": [
+        "SITE-PROJECTION-030"
+      ],
+      "title": "SITE-PROJECTION-030 — version16 source archive and publication provenance",
+      "categories": [
+        "source archive integrity",
+        "publication provenance"
+      ],
+      "outcome": "Version16 owner-confirmed live; exact source/fixture integrity passes locally; rendered QA unverified and no real-photo fit",
+      "classification_basis": "Reviewed original archive/patch/Git identities, static research payload equality and separate native deployment/105-test attribution; no runtime or physical-result claim",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": null,
+      "timestamps": [
+        {
+          "receipt": "results/SITE-PROJECTION-030-VALIDATION.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T12:21:21.929364Z",
+          "original": "2026-10-24T12:21:21.929364+00:00"
+        },
+        {
+          "receipt": "results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T12:13:37.323660Z",
+          "original": "2026-10-24T12:13:37.323660+00:00"
+        }
+      ],
+      "links": [
+        "docs/site-source/projection-20261024/README.md",
+        "docs/site-source/projection-20261024/snapshot/HANDOFF_MANIFEST.json",
+        "experiments/verify_projection_site_handoff.py",
+        "results/SITE-PROJECTION-030-VALIDATION.json",
+        "results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json"
+      ],
+      "receipt_paths": [
+        "results/SITE-PROJECTION-030-VALIDATION.json",
+        "results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json"
+      ],
+      "original_entry": "- Date:24 October2026 UTC; source archival/integrity work only, not a new cipher or optical fit.\n- [Archive/provenance](../docs/site-source/projection-20261024/README.md), [original manifest](../docs/site-source/projection-20261024/snapshot/HANDOFF_MANIFEST.json), [static verifier](../experiments/verify_projection_site_handoff.py), [local UTC receipt](../results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json).\n- Native owner publication relayed by parent confirms public Site version16/source543634f866b74a778b7f1b4de58a4815237dcb2f, public access revision2 unchanged. Exact publication time unknown. Owner reports105 tests; rendered desktop/mobile QA unverified because Mac locked. Local archive step did not deploy or execute the handed-off JavaScript.\n- All33 original ZIP entries safely inspected;31 source files match owner Git blobs and patch;8 fixtures and complete11-local-control payloads match research bytes. This is a partial source delta, not a complete runtime or independently rerun full Site suite.\n- Original copied contract has8 repository-relative links in its two source copies; preserve exact bytes with explicit original-source link exceptions and working canonical links in the archive guide. No silent source repair. Zero real-photo fits or new K4 trials.\n\n- Local aggregate archive regression:592 tests on Python3.9/3.12, [UTC receipt/logs](../results/SITE-PROJECTION-030-VALIDATION.json). Parent cloud review confirms version16 fixtures/controls/photo/export, with narrow QA-page encoding correction still pending source handoff; no corrected version is claimed archived."
     }
   ],
   "receipts": [
@@ -3768,6 +3812,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-034.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -3981,6 +4034,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-029.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-030.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -4324,6 +4384,15 @@
     },
     {
       "path": "results/FRONTIER-029.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-030.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -4748,6 +4817,15 @@
       "path": "results/HYPOTHESIS-REGISTER-029.json",
       "labels": [
         "Projection diagnostic register snapshot; physical family remains evidence-blocked"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/HYPOTHESIS-REGISTER-030.json",
+      "labels": [
+        "Live projection Site source archive register snapshot; physical family still evidence-blocked"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -5499,6 +5577,38 @@
           "role": "receipt recording",
           "utc": "2026-10-23T13:32:55.553417Z",
           "original": "2026-10-23T13:32:55.553417Z"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/SITE-PROJECTION-030-VALIDATION.json",
+      "labels": [
+        "Final source-archive aggregate regression, not Site deployment or optical experiment timing"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T12:21:21.929364Z",
+          "original": "2026-10-24T12:21:21.929364+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json",
+      "labels": [
+        "Projection Site source handoff integrity; not a deployment"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T12:13:37.323660Z",
+          "original": "2026-10-24T12:13:37.323660+00:00"
         }
       ],
       "time_status": "explicit receipt fields",

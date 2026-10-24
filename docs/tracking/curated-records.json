@@ -602,6 +602,15 @@
       ],
       "outcome": "Synthetic line/uncertainty controls pass; zero certified monument pairs, real-data fit evidence-blocked",
       "basis": "Reviewed preregistration, complete deterministic fixtures, independent scalar tests and explicit line-only/nonidentifiability limits; no K4 evaluation"
+    },
+    "LOG-3F1B540764": {
+      "title": "SITE-PROJECTION-030 — version16 source archive and publication provenance",
+      "categories": [
+        "source archive integrity",
+        "publication provenance"
+      ],
+      "outcome": "Version16 owner-confirmed live; exact source/fixture integrity passes locally; rendered QA unverified and no real-photo fit",
+      "basis": "Reviewed original archive/patch/Git identities, static research payload equality and separate native deployment/105-test attribution; no runtime or physical-result claim"
     }
   }
 }
