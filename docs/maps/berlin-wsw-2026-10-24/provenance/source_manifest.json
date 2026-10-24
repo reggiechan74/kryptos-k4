@@ -1,0 +1,57 @@
+{
+  "retrieved_date_utc": "2026-10-24",
+  "origin_source": "https://denkmaldatenbank.berlin.de/daobj_karte.php?obj_dok_nr=09020854",
+  "country_documentation": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+  "cities_documentation": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
+  "UNESCO_documentation": "https://data.unesco.org/explore/dataset/whc001/",
+  "sources": [
+    {
+      "file": "ne_10m_populated_places.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places.geojson",
+      "sha256": "9b8e3de09048ef00dfc70357dbb9fa324493f214b5e0ae4daf1aa79a8d10116b",
+      "bytes": 19359003
+    },
+    {
+      "file": "ne_10m_geography_regions_polys.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_geography_regions_polys.geojson",
+      "sha256": "b7b26e50ea917d3696aec87f932def2bf5f890f5770e441d59c162c6f4c92a77",
+      "bytes": 5583870
+    },
+    {
+      "file": "ne_10m_rivers_lake_centerlines.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson",
+      "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+      "bytes": 7307743
+    },
+    {
+      "file": "ne_10m_geography_marine_polys.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_geography_marine_polys.geojson",
+      "sha256": "53f865e8ffa966cdd402145c82c5cd14ee7ce974cd0eb9a3f59f03a4cfd2d66c",
+      "bytes": 1692635
+    },
+    {
+      "file": "ne_10m_lakes.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes.geojson",
+      "sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9",
+      "bytes": 5043554
+    },
+    {
+      "file": "ne_10m_admin_0_countries.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson",
+      "sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+      "bytes": 13287234
+    },
+    {
+      "file": "ne_10m_geography_regions_points.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_geography_regions_points.geojson",
+      "sha256": "25821b530966e62756faebf53699f12bf73550f8228aa4bbdf3e4132dd7cf806",
+      "bytes": 276429
+    },
+    {
+      "file": "unesco_world_heritage.json",
+      "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/exports/json",
+      "sha256": "b34b708618ad3f7b8f51558b6d04a33a6d95b0f266462d2665ad425c343d0a75",
+      "bytes": 24833868
+    }
+  ]
+}

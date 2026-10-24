@@ -6,15 +6,15 @@ This repository records an attempt to understand **K4, the final 97-letter secti
 
 **New physical diagnostic:** [projection-ray concurrence](research/PROJECTION-CONCURRENCE-029-FINDINGS.md) is now synthetic-validated and preregistered for independent photo correspondences. Real-data fitting remains evidence-blocked; no measured monument result is claimed.
 
-**Latest local investigation:** [exact Site cylinder validation](research/SITE-CYLINDER-037-FINDINGS.md) confirms all 97 nominal default samples, but the tested default/nearby assemblies are sensitive. Per-cell margins, size/aperture tradeoffs and untested physical limits are explicit. No actual K4 fit, Site edits or push.
+**Latest completed investigation:** [exact Site cylinder validation](research/SITE-CYLINDER-037-FINDINGS.md) confirms all 97 nominal default samples, but the tested default/nearby assemblies are sensitive. Per-cell margins, size/aperture tradeoffs and untested physical limits are explicit. No actual K4 fit or Site edits.
 
-**Prior local investigation:** [ideal curved-mirror sampler](research/CURVED-SAMPLER-036-FINDINGS.md) generates 54 nominal keys; the four utility cases tested fail assembly/pupil stability. This invented horizontal-table model is separate from actual copper and the Site’s vertical-tableau illustration. No K4 fit or physical replica.
+**Prior completed investigation:** [ideal curved-mirror sampler](research/CURVED-SAMPLER-036-FINDINGS.md) generates 54 nominal keys; the four utility cases tested fail assembly/pupil stability. This invented horizontal-table model is separate from actual copper and the Site’s vertical-tableau illustration. No K4 fit or physical replica.
 
-**Prior local investigation:** [ordinary prose covers without a 15-word assumption](research/PROSE-COVER-035-FINDINGS.md) derives length from full word lattices. A complete 105,456-setting autokey domain produced no covers in the tested lexicons; calibration also exposes missing genuine English words. The broader hypothesis remains open. No push or Site change.
+**Prior completed investigation:** [ordinary prose covers without a 15-word assumption](research/PROSE-COVER-035-FINDINGS.md) derives length from full word lattices. A complete 105,456-setting autokey domain produced no covers in the tested lexicons; calibration also exposes missing genuine English words. The broader hypothesis remains open. No Site change.
 
-**Earlier local investigations awaiting publication:** [word-cover extraction](research/COVER-EXTRACTION-033-FINDINGS.md) and [short-phrase controls](research/COVER-PHRASE-034-FINDINGS.md) are complete. Custom covers remain non-identifiable; no all-word initials phrase matched the frozen Brown corpus. No actual K4 cipher trials.
+**Earlier completed investigations:** [word-cover extraction](research/COVER-EXTRACTION-033-FINDINGS.md) and [short-phrase controls](research/COVER-PHRASE-034-FINDINGS.md) are complete. Custom covers remain non-identifiable; no all-word initials phrase matched the frozen Brown corpus. No actual K4 cipher trials.
 
-**Separate completed local study:** [deliberate misspelling/correction](research/SPELLING-CORRECTION-032-FINDINGS.md) found no consistent rule in the declared source tests. No new K4 trial or correction was made.
+**Separate completed study:** [deliberate misspelling/correction](research/SPELLING-CORRECTION-032-FINDINGS.md) found no consistent rule in the declared source tests. No new K4 trial or correction was made.
 
 K1–K3 serve as known-answer controls. Public reports of archival plaintext recovery are distinct from a published, reproducible cryptanalytic solution; see the [source verification](docs/source-verification-2026-10-18.md). This workspace does not claim independently to know all of K4’s plaintext.
 
@@ -30,6 +30,7 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | Explore item 1’s systematic row-plus-column scan | [Findings](research/FOLD-SLIDE-2D-FINDINGS.md), [every 2D shift](results/FOLD-SLIDE-2D-001-frames.csv), [count maps](research/figures/fold-slide-2d-001.svg); the [earlier offline slider](research/figures/fold-slide-020.html) is column-only |
 | Compare all eight scopes and outcomes | [Eight-item summary](research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md) — complete investigation does not mean a solved or exhausted family |
 | Inspect the final one-edit robustness study | [Exact counts, ambiguity and controls](research/ONE-EDIT-028-FINDINGS.md); canonical ciphertext is unchanged |
+| Inspect the published geographic maps and their limits | [Berlin WSW map archive](docs/maps/berlin-wsw-2026-10-24/README.md) —four maps, supporting data, attribution and read-only validators |
 | Reproduce the work | [Running experiments](experiments/README.md) and [test guide](tests/README.md) |
 
 **Overlay scope:** the earlier column-only study used `dy = 0`. [Item 1’s newer predefined two-dimensional study](research/FOLD-SLIDE-2D-FINDINGS.md) covers all integer rows −28…+28 and columns −33…+33 under two fixed registrations. Its own whole-search controls show no unusual excess; the older column-only p-values are not repurposed for rows.

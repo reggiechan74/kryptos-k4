@@ -1,0 +1,43 @@
+{
+  "kind": "Integrated regression verification for completed studies 032\u2013037 and published map archive; no new hypothesis runs",
+  "status": "passed",
+  "research_tip": "5db5cb0f0a7d18a7a6d00c16dd0a2e3e7791e643",
+  "map_main": "2be4e0585e76aa98a1487c962d0adcc44bfa84fa",
+  "runs": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T16:51:40.708987+00:00",
+      "finished_at_utc": "2026-10-24T16:52:55.561802+00:00",
+      "elapsed_seconds": 74.85237612499999,
+      "exit_code": 0,
+      "log": "results/INTEGRATION-032-037-MAPS-python39.log.txt",
+      "log_sha256": "6023a38e6ad9d309cbcfcaa94bf34c9ea712a7d57ae83337df3491156682266d",
+      "tests_passed": 668
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T16:52:55.562106+00:00",
+      "finished_at_utc": "2026-10-24T16:53:57.530021+00:00",
+      "elapsed_seconds": 61.96763391599998,
+      "exit_code": 0,
+      "log": "results/INTEGRATION-032-037-MAPS-python312.log.txt",
+      "log_sha256": "2313e79036aa13922e6a7a5fc9a4e7769ec14b7ca7e75a7a8375037a5cae116d",
+      "tests_passed": 668
+    }
+  ],
+  "map_integrity": {
+    "original_payloads_byte_preserved": 88,
+    "added_archive_navigation_guides": 12,
+    "current_manifest_payloads": 100,
+    "read_only_validators_passed": [
+      "validate_bundle.py",
+      "validate_spherical_route.py"
+    ]
+  },
+  "limits": [
+    "Regression replay times are not original experiment times.",
+    "No new Site files or deployment.",
+    "No configured GitHub Actions workflows; remote status checked after push.",
+    "Existing 21 standalone artifact documentation-link exceptions retained; no new broken links."
+  ]
+}

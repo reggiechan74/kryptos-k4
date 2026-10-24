@@ -1,0 +1,237 @@
+{
+  "created_utc_date": "2026-10-24",
+  "note": "Original Library identities preserved; source files not replaced or duplicated in Library. Paths are bundle-relative.",
+  "artifacts": [
+    {
+      "path": "maps/Berlin-WSW-around-the-world.png",
+      "source_relative_path": "Berlin-WSW-around-the-world.png",
+      "role": "delivered map",
+      "sha256": "57b8272869d67d4927230ef341256040e36dc6236b46ace0a3e5f8ca61c1178c",
+      "bytes": 837331,
+      "original_library_file_id": "libfile_49589772a3548191b730cfaf7ee07e20",
+      "original_library_version": 0
+    },
+    {
+      "path": "maps/Berlin-WSW-country-polygon-intersections.png",
+      "source_relative_path": "Berlin-WSW-country-polygon-intersections.png",
+      "role": "delivered map",
+      "sha256": "4aa23039862190501380e7b2dd6b55d6125ca083543090ba827e8b886b0f9046",
+      "bytes": 834728,
+      "original_library_file_id": "libfile_26f4b4b470b48191a58bae3437acee0b",
+      "original_library_version": 0
+    },
+    {
+      "path": "maps/Kremlin-sphere-vs-WGS84.png",
+      "source_relative_path": "europe-footprints/Kremlin-sphere-vs-WGS84.png",
+      "role": "delivered map",
+      "sha256": "2b4996d73d15b152dcda77fdeb545592c044fdeff9ca098fb33dd69397218b2d",
+      "bytes": 513074,
+      "original_library_file_id": "libfile_7fe9b0ad7d3c81919c770fce37f091d3",
+      "original_library_version": 0
+    },
+    {
+      "path": "maps/Berlin-WSW-Mapped-footprint-crossings-and-misses.png",
+      "source_relative_path": "integrated-intersections/Berlin-WSW-Mapped-footprint-crossings-and-misses.png",
+      "role": "delivered map",
+      "sha256": "908d02aaf197ea59c11fcbfc577fa1b739956f8a0996dee262a09af78cbc2e23",
+      "bytes": 1165479,
+      "original_library_file_id": "libfile_334b0a8638908191a41c4c916f9ff233",
+      "original_library_version": 0
+    },
+    {
+      "path": "tables/Berlin-WSW-Nearby-points-not-intersections.csv",
+      "source_relative_path": "Berlin-WSW-Nearby-points-not-intersections.csv",
+      "role": "delivered CSV",
+      "sha256": "3b168f17d6eaf5e4ba1dce4f6b8ce9ba2a81f501f70e56ecfe473cf46b6ecaaf",
+      "bytes": 244140,
+      "original_library_file_id": "libfile_d98655313724819198766fbd98f7493b",
+      "original_library_version": 0
+    },
+    {
+      "path": "tables/Berlin-WSW-Modeled-country-polygon-intersections.csv",
+      "source_relative_path": "Berlin-WSW-Modeled-country-polygon-intersections.csv",
+      "role": "delivered CSV",
+      "sha256": "b3e8cbc91b516f39486d720f4149705ed7850015f1878439ab0ca1e8240fc2db",
+      "bytes": 46077,
+      "original_library_file_id": "libfile_9a1a08f62f348191886639bbc3c8e97e",
+      "original_library_version": 0
+    },
+    {
+      "path": "tables/Berlin-WSW-Integrated-modeled-intersections-and-tested-misses.csv",
+      "source_relative_path": "integrated-intersections/Berlin-WSW-Integrated-modeled-intersections-and-tested-misses.csv",
+      "role": "delivered CSV",
+      "sha256": "0579efe4cb4d460ff935b1a02c6957ffd32464924535c7b42fb03ed86c6940cb",
+      "bytes": 486299,
+      "original_library_file_id": "libfile_ad7d417046e08191a82bd7b4121f8cc4",
+      "original_library_version": 0
+    },
+    {
+      "path": "derived/route.geojson",
+      "source_relative_path": "route.geojson",
+      "role": "analytical route or intersection geometry, not source polygons",
+      "sha256": "2f4e23e5bcc765e2f64929cc2a1724c7a7733a1753c80813834412bfe1b356be",
+      "bytes": 3343593
+    },
+    {
+      "path": "derived/country_polygon_intersections.geojson",
+      "source_relative_path": "country_polygon_intersections.geojson",
+      "role": "analytical route or intersection geometry, not source polygons",
+      "sha256": "970f41ca0e7edce9cf99de49d2234695f20325e336d55178b069a3aa629e454d",
+      "bytes": 1450589
+    },
+    {
+      "path": "derived/EUROPE_FINAL_INTERSECTION_SEGMENTS.geojson",
+      "source_relative_path": "europe-footprints/EUROPE_FINAL_INTERSECTION_SEGMENTS.geojson",
+      "role": "analytical route or intersection geometry, not source polygons",
+      "sha256": "92bda70cb9bc197bf7e6b32dfc0aeeee67600c37eacf8f92db918e8c1d8d1b4c",
+      "bytes": 327887
+    },
+    {
+      "path": "derived/verified_intersection_segments.geojson",
+      "source_relative_path": "footprints-non-europe/verified_intersection_segments.geojson",
+      "role": "analytical route or intersection geometry, not source polygons",
+      "sha256": "2a21b293db8c33378316584dcab76becdfb067bb833f09ccc26a7efe2fd9c50e",
+      "bytes": 124679
+    },
+    {
+      "path": "derived/miss_connectors.geojson",
+      "source_relative_path": "footprints-non-europe/miss_connectors.geojson",
+      "role": "analytical route or intersection geometry, not source polygons",
+      "sha256": "8ab57e77c921e90928aba576b2c6d65218ecb36010d7618a31bebe7f58d01a67",
+      "bytes": 2047
+    },
+    {
+      "path": "derived/official_unesco_intersection_segments.geojson",
+      "source_relative_path": "unesco-boundary-pass/official_unesco_intersection_segments.geojson",
+      "role": "analytical route or intersection geometry, not source polygons",
+      "sha256": "96194c8db1cb26faef62ca2143d5f1faa8b940c10f1f7180f7c2b897eed04238",
+      "bytes": 24906
+    },
+    {
+      "path": "derived/route_results.json",
+      "source_relative_path": "route_results.json",
+      "role": "analysis results or coverage",
+      "sha256": "b32eed889b85c59c6624be945efa576266cda5fb5b739803804b07b0c9ab058b",
+      "bytes": 99132
+    },
+    {
+      "path": "derived/waterways.json",
+      "source_relative_path": "waterways.json",
+      "role": "analysis results or coverage",
+      "sha256": "0d85e09ff698e0f4275d9a123d5f1c3fb0760f03a88cb434b9a9d263fe8c9167",
+      "bytes": 17085
+    },
+    {
+      "path": "derived/unesco_nearest_component_by_site.json",
+      "source_relative_path": "unesco_nearest_component_by_site.json",
+      "role": "analysis results or coverage",
+      "sha256": "860e9fc9fc01427bf8e3d137575a0e2487f59f552bdf25d38f1fa811171af2f6",
+      "bytes": 22250
+    },
+    {
+      "path": "derived/unesco_within_50km.json",
+      "source_relative_path": "unesco_within_50km.json",
+      "role": "analysis results or coverage",
+      "sha256": "a10097503d4cca27719e7af8d0f3b3ea1432e1053926c1f5a4afd3637a4370da",
+      "bytes": 86715
+    },
+    {
+      "path": "derived/inventory.json",
+      "source_relative_path": "integrated-intersections/inventory.json",
+      "role": "analysis results or coverage",
+      "sha256": "a9a8f3297c8bb0c722fe978455a2e08898917df54306fcb9150cc2e523f43ccb",
+      "bytes": 275195
+    },
+    {
+      "path": "derived/EUROPE_FINAL_RESULTS.json",
+      "source_relative_path": "europe-footprints/EUROPE_FINAL_RESULTS.json",
+      "role": "analysis results or coverage",
+      "sha256": "d6be7c804730ca3ffaac5dd9ae02950789733491ad0aab055e3dd01c82a1b721",
+      "bytes": 57559
+    },
+    {
+      "path": "derived/footprint_results.json",
+      "source_relative_path": "footprints-non-europe/footprint_results.json",
+      "role": "analysis results or coverage",
+      "sha256": "5d4a6fc407439d0d6939be2b22b36ca733fb73e06e925567105d5af8f755b6c5",
+      "bytes": 11235
+    },
+    {
+      "path": "derived/unresolved_boundary_questions.json",
+      "source_relative_path": "footprints-non-europe/unresolved_boundary_questions.json",
+      "role": "analysis results or coverage",
+      "sha256": "a63ee124fecf1f619997669c432eac55805c2779591682636170a3e7859181ed",
+      "bytes": 1484
+    },
+    {
+      "path": "derived/official_unesco_intersection_results.json",
+      "source_relative_path": "unesco-boundary-pass/official_unesco_intersection_results.json",
+      "role": "analysis results or coverage",
+      "sha256": "131bb0a3524475c74edca9fe7fffd223ce4a8c2e618d92ccf0154396284e658d",
+      "bytes": 4265
+    },
+    {
+      "path": "derived/coverage_summary.json",
+      "source_relative_path": "unesco-boundary-pass/coverage_summary.json",
+      "role": "analysis results or coverage",
+      "sha256": "ecc89f83c95cc41209c9176cae590dfb29350d47e9207e6b5b9bb72f8fdfa2d1",
+      "bytes": 1166
+    },
+    {
+      "path": "validation/validation.json",
+      "source_relative_path": "validation.json",
+      "role": "recorded numerical/model validation",
+      "sha256": "bc6fc18639adce42de8b733221b1c4d26fa817be5acbc626203a8a5f6eb5669e",
+      "bytes": 705
+    },
+    {
+      "path": "validation/europe-footprints--numerical_validation.json",
+      "source_relative_path": "europe-footprints/numerical_validation.json",
+      "role": "recorded numerical/model validation",
+      "sha256": "681667dbe6f72d34cc4fd61146c6880df10e88fe91046f215354e8e61ab22da2",
+      "bytes": 483
+    },
+    {
+      "path": "validation/europe-footprints--bearing_sensitivity.json",
+      "source_relative_path": "europe-footprints/bearing_sensitivity.json",
+      "role": "recorded numerical/model validation",
+      "sha256": "21f1010152f569db455272d63fe7d76ed2d20e99155ad712ed9bc72b25f3057f",
+      "bytes": 650
+    },
+    {
+      "path": "validation/europe-footprints--wgs84_comparison.json",
+      "source_relative_path": "europe-footprints/wgs84_comparison.json",
+      "role": "recorded numerical/model validation",
+      "sha256": "da94fd5c802dd54388224d25e944ce31709f2af12805cdf8b9809333e06068e5",
+      "bytes": 1155
+    },
+    {
+      "path": "validation/footprints-non-europe--numerical_validation.json",
+      "source_relative_path": "footprints-non-europe/numerical_validation.json",
+      "role": "recorded numerical/model validation",
+      "sha256": "a46960f78497fd7cd82fc453b1df1b61e6c7d00fa9f94267ef2a9d2537599d07",
+      "bytes": 1747
+    },
+    {
+      "path": "provenance/source_manifest.json",
+      "source_relative_path": "source_manifest.json",
+      "role": "source URLs and snapshot hashes",
+      "sha256": "dcac91f0a2ee9af5663d2a1ce3e451ff1906c4d2cee0770f02fc8fa922937425",
+      "bytes": 2822
+    },
+    {
+      "path": "provenance/europe-footprints--EUROPE_SOURCE_MANIFEST.json",
+      "source_relative_path": "europe-footprints/EUROPE_SOURCE_MANIFEST.json",
+      "role": "source URLs and snapshot hashes",
+      "sha256": "b7a72c67a11b48276de885e2017493417211d36e3fad90d603a74658d3f15906",
+      "bytes": 6622
+    },
+    {
+      "path": "provenance/footprints-non-europe--source_manifest.json",
+      "source_relative_path": "footprints-non-europe/source_manifest.json",
+      "role": "source URLs and snapshot hashes",
+      "sha256": "05150797cd84c69f47fc0a02f021bb8db1e903496a685b073428177ae7186e92",
+      "bytes": 8165
+    }
+  ]
+}

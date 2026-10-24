@@ -1,0 +1,155 @@
+{
+  "method": "Copied original analysis scripts; removed only task-local custom-install sys.path entries and replaced one absolute fetch.py source path with a sibling-relative Path. No analytical algorithms changed.",
+  "scripts": [
+    {
+      "path": "build_crossings_layer.py",
+      "original_sha256": "e4372a2463d450cc0b6f03fcf2d7a90c0caddb41050c51da291184fb9aa4b558",
+      "portable_sha256": "e4372a2463d450cc0b6f03fcf2d7a90c0caddb41050c51da291184fb9aa4b558",
+      "changed": false
+    },
+    {
+      "path": "compute_route.py",
+      "original_sha256": "5c1818fa157503e465fa2310a86b69dea42ac203976971085fb722844133609f",
+      "portable_sha256": "0cfabb4ebd07574e2c3adc46b29f6aaad398e237f32367a74713531ca09476f4",
+      "changed": true
+    },
+    {
+      "path": "compute_unesco.py",
+      "original_sha256": "7a2bc823c345502172a9f9ada18b25d1857e72278afcb5c0ce12ce7895c84ed6",
+      "portable_sha256": "7a2bc823c345502172a9f9ada18b25d1857e72278afcb5c0ce12ce7895c84ed6",
+      "changed": false
+    },
+    {
+      "path": "compute_waterways.py",
+      "original_sha256": "1e2aa836640501ff388bc2c56771e42b61dd719be6ab7eedca6fb6f22efe7444",
+      "portable_sha256": "1e2aa836640501ff388bc2c56771e42b61dd719be6ab7eedca6fb6f22efe7444",
+      "changed": false
+    },
+    {
+      "path": "draw_crossings_map.py",
+      "original_sha256": "c8937f75762a2c795eb0610e0e0b2ec78ad3ef5b2c85de22ca1cb464799ec345",
+      "portable_sha256": "099b576f77e5b20430733c2812984f806779efedd463d7a0e5f2dd7933516516",
+      "changed": true
+    },
+    {
+      "path": "draw_map.py",
+      "original_sha256": "861f2e8eae8c10f1bee28e18648d1c5a861da8b1746cdb463005a7fc1b5436a0",
+      "portable_sha256": "4aa6b8a6a4198240a142ab8f820fdea98822597053704090556447d0b1d63166",
+      "changed": true
+    },
+    {
+      "path": "europe-footprints/compare_wgs84.py",
+      "original_sha256": "ff74258f2e651df2fa670f0497cd2f752a8290a9ad8f18cd8888ad95fe465f41",
+      "portable_sha256": "49c39e1e3c785d2638345799f676cae901201271ed6ac56a4b2a310d732d88f2",
+      "changed": true
+    },
+    {
+      "path": "europe-footprints/draw_kremlin.py",
+      "original_sha256": "34896dc00dccbbfe2d39c018485e10b0a7005bdebe199ae9b71652a9e7ff02fc",
+      "portable_sha256": "34896dc00dccbbfe2d39c018485e10b0a7005bdebe199ae9b71652a9e7ff02fc",
+      "changed": false
+    },
+    {
+      "path": "europe-footprints/draw_kremlin_comparison.py",
+      "original_sha256": "032852f702b1a9c59ee397430e95442bb41f6387dfff4e87572ffd6b36d9bb53",
+      "portable_sha256": "e4ebfe6875c5ad82c49e0b74e23f645f08da8b06b5f7e72557c92a81b291be9d",
+      "changed": true
+    },
+    {
+      "path": "europe-footprints/fetch_additional.py",
+      "original_sha256": "a27621df9175faceb0942d7be277e881bece9e7f0a3d42780ad9ead696223a20",
+      "portable_sha256": "a27621df9175faceb0942d7be277e881bece9e7f0a3d42780ad9ead696223a20",
+      "changed": false
+    },
+    {
+      "path": "europe-footprints/fetch_candidates.py",
+      "original_sha256": "4cb93690598ad7ebf0cf5129aafc2ed293b0fd361cd56ae607dac4ac5362f355",
+      "portable_sha256": "4cb93690598ad7ebf0cf5129aafc2ed293b0fd361cd56ae607dac4ac5362f355",
+      "changed": false
+    },
+    {
+      "path": "europe-footprints/finalize_europe.py",
+      "original_sha256": "717e788fc01ec9027f23fe6d0f08a5db60fc5c409dc11b13379232dac6d39f09",
+      "portable_sha256": "717e788fc01ec9027f23fe6d0f08a5db60fc5c409dc11b13379232dac6d39f09",
+      "changed": false
+    },
+    {
+      "path": "europe-footprints/validate_europe.py",
+      "original_sha256": "de8a29ed63505b2be18a41a3174d544e36de667e6aff5633713a2f0bcb61187a",
+      "portable_sha256": "de8a29ed63505b2be18a41a3174d544e36de667e6aff5633713a2f0bcb61187a",
+      "changed": false
+    },
+    {
+      "path": "europe-footprints/verify_footprints.py",
+      "original_sha256": "54572e6ea25150cc2830c3809efd2f39dd602ce34a5492d091df333cccdaa85d",
+      "portable_sha256": "7ce671dba4d95265497eda8223385d607783e485d1d5099a97ec03eef999256a",
+      "changed": true
+    },
+    {
+      "path": "europe-footprints/verify_kremlin_buildings.py",
+      "original_sha256": "e53db83db704352548449bb8d78bcc0f94066ff3da2aa422422178cf57da69a2",
+      "portable_sha256": "e53db83db704352548449bb8d78bcc0f94066ff3da2aa422422178cf57da69a2",
+      "changed": false
+    },
+    {
+      "path": "europe-footprints/verify_official.py",
+      "original_sha256": "9cf695a800801c5be569fb7e545f796b490f8b461d729680be9d1f8e53d32757",
+      "portable_sha256": "9cf695a800801c5be569fb7e545f796b490f8b461d729680be9d1f8e53d32757",
+      "changed": false
+    },
+    {
+      "path": "europe-footprints/verify_unesco.py",
+      "original_sha256": "1e85b257c952e33a9f9aa949f72967cf6ae313cc94ebb602a05bdd6fbd4ad0c9",
+      "portable_sha256": "1e85b257c952e33a9f9aa949f72967cf6ae313cc94ebb602a05bdd6fbd4ad0c9",
+      "changed": false
+    },
+    {
+      "path": "footprints-non-europe/check_footprints.py",
+      "original_sha256": "3e315eb06fac7e1b0a08eb93a653a2188cf40ca9930f1f0e9417a5329ff9b7f4",
+      "portable_sha256": "af49d3be809a57d772fda66bae752c705e1c86e8ab17eab9acdd8336f7ee1189",
+      "changed": true
+    },
+    {
+      "path": "footprints-non-europe/fetch.py",
+      "original_sha256": "342b5558b2d7db7e96fdfc48cef784d59ae8755d26e7f80dea971fe53fe2ed3f",
+      "portable_sha256": "342b5558b2d7db7e96fdfc48cef784d59ae8755d26e7f80dea971fe53fe2ed3f",
+      "changed": false
+    },
+    {
+      "path": "footprints-non-europe/fetch_more.py",
+      "original_sha256": "5583933a20638833e0530ce6043a2eb7d18f6e0ee9672bdc25012689a1647a40",
+      "portable_sha256": "46d3b668ecf16224fb2b80354af8a6e18bdd620e9c34308c5fdec747ea6be079",
+      "changed": true
+    },
+    {
+      "path": "integrated-intersections/build_inventory.py",
+      "original_sha256": "db48cb1f527b1d39c204bc8d45ae3c5d4aaa348538c09b2aa097e4d1381f5997",
+      "portable_sha256": "9207b37b46b9773fd622aac132acc87c5a8138e3c0d7def7a409eba1d4dcaca6",
+      "changed": true
+    },
+    {
+      "path": "integrated-intersections/draw_verified_map.py",
+      "original_sha256": "f40f9659acaaa52926d75faf495e0561637d1644e0229ce061ab473d37b0b437",
+      "portable_sha256": "a44186e8541982e327157d2a86d869e44c8c4f485b8f355d56693a47b1b03688",
+      "changed": true
+    },
+    {
+      "path": "unesco-boundary-pass/analyze_intersections.py",
+      "original_sha256": "177352ae09744c245f36dc9d57bf823f0abaa2d353ef9054f82e6ef3870820d0",
+      "portable_sha256": "177352ae09744c245f36dc9d57bf823f0abaa2d353ef9054f82e6ef3870820d0",
+      "changed": false
+    },
+    {
+      "path": "unesco-boundary-pass/query_global_intersections.py",
+      "original_sha256": "137aa6ec457a074a9c3c1b8b678d55d05967e0227ca81b38fbcae4b5a288f7f2",
+      "portable_sha256": "137aa6ec457a074a9c3c1b8b678d55d05967e0227ca81b38fbcae4b5a288f7f2",
+      "changed": false
+    },
+    {
+      "path": "validate_route.py",
+      "original_sha256": "cf4b72717d4b398c431b96fc1487d25a1ac013e7fade6d93c30417923abfe36a",
+      "portable_sha256": "cf4b72717d4b398c431b96fc1487d25a1ac013e7fade6d93c30417923abfe36a",
+      "changed": false
+    }
+  ]
+}

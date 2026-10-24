@@ -1,0 +1,120 @@
+[
+  {
+    "property_name": "Mines of Rammelsberg, Historic Town of Goslar and Upper Harz Water Management System",
+    "element_name": "Upper Harz Water Management System",
+    "property_id": 623,
+    "object_id": 6045,
+    "source_layer": 1,
+    "boundary_kind": "UNESCO core property",
+    "source_url": "https://services6.arcgis.com/eMd5K6XXEvJETxfQ/arcgis/rest/services/prd_whc_sites_dossiers_elements_v2_view/FeatureServer/1/6045",
+    "geometry_was_valid": false,
+    "intervals": [
+      {
+        "entry_km": 213.55330489550437,
+        "exit_km": 213.57327718782975,
+        "length_km": 0.019972,
+        "entry_lonlat": [
+          10.546559285546424,
+          51.75107987011758
+        ],
+        "exit_lonlat": [
+          10.54629583277712,
+          51.751004634024675
+        ],
+        "midpoint_boundary_clearance_m_approx": 9.970361787572685
+      },
+      {
+        "entry_km": 215.91483019505037,
+        "exit_km": 215.94338904453596,
+        "length_km": 0.028559,
+        "entry_lonlat": [
+          10.51541469481514,
+          51.742179867805916
+        ],
+        "exit_lonlat": [
+          10.515038126198155,
+          51.742072186228945
+        ],
+        "midpoint_boundary_clearance_m_approx": 9.862643498355153
+      }
+    ],
+    "total_length_km": 0.048531000000000005,
+    "source_precision_publish_flag": "0",
+    "route_vertex_spacing_km": 0.01,
+    "caveat": "Conditional on spherical Earth and exact initial bearing247.5. Official published GIS polygon, not survey-level proof of physical structure. Buffer != property."
+  },
+  {
+    "property_name": "Mines of Rammelsberg, Historic Town of Goslar and Upper Harz Water Management System",
+    "element_name": "Upper Harz Water Management System",
+    "property_id": 623,
+    "object_id": 220334,
+    "source_layer": 2,
+    "boundary_kind": "UNESCO buffer zone (not property)",
+    "source_url": "https://services6.arcgis.com/eMd5K6XXEvJETxfQ/arcgis/rest/services/prd_whc_sites_dossiers_elements_v2_view/FeatureServer/2/220334",
+    "geometry_was_valid": false,
+    "intervals": [
+      {
+        "entry_km": 213.48839553447127,
+        "exit_km": 213.63818630098655,
+        "length_km": 0.149791,
+        "entry_lonlat": [
+          10.547415505338314,
+          51.7513243811332
+        ],
+        "exit_lonlat": [
+          10.545439628377796,
+          51.750760115808056
+        ],
+        "midpoint_boundary_clearance_m_approx": 74.77689681394345
+      },
+      {
+        "entry_km": 215.82400258364646,
+        "exit_km": 216.0336882156873,
+        "length_km": 0.209686,
+        "entry_lonlat": [
+          10.516612333004176,
+          51.74252232669866
+        ],
+        "exit_lonlat": [
+          10.513847479609819,
+          51.741731703911164
+        ],
+        "midpoint_boundary_clearance_m_approx": 74.4796103695935
+      }
+    ],
+    "total_length_km": 0.35947700000000005,
+    "source_precision_publish_flag": "0",
+    "route_vertex_spacing_km": 0.01,
+    "caveat": "Conditional on spherical Earth and exact initial bearing247.5. Official published GIS polygon, not survey-level proof of physical structure. Buffer != property."
+  },
+  {
+    "property_name": "Palace and Park of Versailles",
+    "element_name": "Palace and Park of Versailles",
+    "property_id": 83,
+    "object_id": 220352,
+    "source_layer": 2,
+    "boundary_kind": "UNESCO buffer zone (not property)",
+    "source_url": "https://services6.arcgis.com/eMd5K6XXEvJETxfQ/arcgis/rest/services/prd_whc_sites_dossiers_elements_v2_view/FeatureServer/2/220352",
+    "geometry_was_valid": true,
+    "intervals": [
+      {
+        "entry_km": 896.6541549349133,
+        "exit_km": 901.2054277080903,
+        "length_km": 4.551273,
+        "entry_lonlat": [
+          2.053231081588437,
+          48.856856238850256
+        ],
+        "exit_lonlat": [
+          2.000101010285678,
+          48.83557645377073
+        ],
+        "midpoint_boundary_clearance_m_approx": 566.4870546406055
+      }
+    ],
+    "total_length_km": 4.551273,
+    "source_precision_publish_flag": "1",
+    "route_vertex_spacing_km": 0.01,
+    "caveat": "Conditional on spherical Earth and exact initial bearing247.5. Official published GIS polygon, not survey-level proof of physical structure. Buffer != property."
+  }
+]

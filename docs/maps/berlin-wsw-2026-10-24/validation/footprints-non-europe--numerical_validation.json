@@ -1,0 +1,50 @@
+{
+  "note": "Same analytical spherical circle as parent; coarse existing polyline and locally refined 20m polyline agree for all tested polygons. This is numerical validation, not source accuracy.",
+  "checks": [
+    {
+      "name": "Gondwana Rainforests of Australia \u2014 QLD declared property",
+      "parent_half_km_route_intersects": false,
+      "refined_20m_route_intersects": false
+    },
+    {
+      "name": "Gondwana Rainforests of Australia \u2014 NSW declared property",
+      "parent_half_km_route_intersects": false,
+      "refined_20m_route_intersects": false
+    },
+    {
+      "name": "Moutere Hauriri / Bounty Islands Marine Reserve",
+      "parent_half_km_route_intersects": true,
+      "refined_20m_route_intersects": true
+    },
+    {
+      "name": "Cebu City \u2014 municipal administrative boundary",
+      "parent_half_km_route_intersects": true,
+      "refined_20m_route_intersects": true
+    },
+    {
+      "name": "Santa Ana de Velasco \u2014 mapped residential area",
+      "parent_half_km_route_intersects": false,
+      "refined_20m_route_intersects": false
+    },
+    {
+      "name": "Santa Ana de Velasco \u2014 church building footprint",
+      "parent_half_km_route_intersects": false,
+      "refined_20m_route_intersects": false
+    },
+    {
+      "name": "Main Range Conservation Park",
+      "parent_half_km_route_intersects": false,
+      "refined_20m_route_intersects": false
+    },
+    {
+      "name": "Main Range National Park",
+      "parent_half_km_route_intersects": true,
+      "refined_20m_route_intersects": true
+    },
+    {
+      "name": "San Agustin Church, Manila \u2014 building footprint",
+      "parent_half_km_route_intersects": false,
+      "refined_20m_route_intersects": false
+    }
+  ]
+}

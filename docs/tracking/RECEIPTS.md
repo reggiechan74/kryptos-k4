@@ -212,6 +212,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/HYPOTHESIS-REGISTER-034.json](../../results/HYPOTHESIS-REGISTER-034.json) | Local word-cover extraction family and exact scope addition; not K4 evaluation | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-036.json](../../results/HYPOTHESIS-REGISTER-036.json) | Invented ideal-mirror family addition and source/stability gate; not actual K4 evaluation | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-037.json](../../results/HYPOTHESIS-REGISTER-037.json) | Exact Site-model validation coverage update; no new hypothesis or actual K4 test | Exact run start/end unknown; inspect original |
+| [results/INTEGRATION-032-037-MAPS-VALIDATION.json](../../results/INTEGRATION-032-037-MAPS-VALIDATION.json) | Integrated regression verification for completed studies 032–037 and published map archive; no new hypothesis runs | Exact run start/end unknown; inspect original |
 | [results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json](../../results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001-controls.json](../../results/IPA-FREE-MAP-001-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001.json](../../results/IPA-FREE-MAP-001.json) | IPA-FREE-MAP-001 | Exact run start/end unknown; inspect original |

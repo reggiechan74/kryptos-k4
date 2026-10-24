@@ -489,6 +489,7 @@
         "results/HYPOTHESIS-REGISTER-034.json",
         "results/HYPOTHESIS-REGISTER-036.json",
         "results/HYPOTHESIS-REGISTER-037.json",
+        "results/INTEGRATION-032-037-MAPS-VALIDATION.json",
         "results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json",
         "results/IPA-FREE-MAP-001-controls.json",
         "results/IPA-FREE-MAP-001.json",
@@ -3907,7 +3908,7 @@
   "documents": [
     {
       "path": "README.md",
-      "sha256": "c2d1a4a898281d4cc135712b8356328c9c6ff6d1e47a3578c6ffa249e142ecdb",
+      "sha256": "158e0d2e99be03cd56cf74e39263f2e1f0bb675e59651aed1fae9b85ff2a5216",
       "matching_lines": 3
     },
     {
@@ -3968,6 +3969,11 @@
     {
       "path": "docs/linguistic-feasibility-boundary.md",
       "sha256": "797735a50aa249c0efc89678fe97bcaec31e7560b818045806d0c91964f30ade",
+      "matching_lines": 1
+    },
+    {
+      "path": "docs/maps/berlin-wsw-2026-10-24/README.md",
+      "sha256": "ec009a5ffc4ddd9d32eb7b146464295f2c1a309951408ee5b247a2eda0ae9c85",
       "matching_lines": 1
     },
     {
@@ -4107,7 +4113,7 @@
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "sha256": "c69d6ba41ba7c9f075ec202efb82c34e16f2611d64afcadb3342c3c5b3c8d075",
+      "sha256": "d35281c3c95dadd4a9c0299945b6ac910a0918ffe401e17a05784a7f1edb6a79",
       "matching_lines": 4
     },
     {
@@ -4904,21 +4910,21 @@
   "claim_lines": [
     {
       "path": "README.md",
-      "line": 52,
+      "line": 53,
       "text": "- **Structural constraints are stronger than attractive text.** [Count, repeated-phase and support checks](research/STRUCTURAL-FINDINGS.md) exclude specific direct-alignment models independently of guessed keywords. They do not exclude combinations with unspecified preprocessing or routes.",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
       "path": "README.md",
-      "line": 53,
+      "line": 54,
       "text": "- **Flexible models can fit without identifying a message.** The tracker distinguishes exact contradictions, compatible but ambiguous models, and mere parameter fits. Unknown keys or glyph mappings are retained as unknowns.",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
       "path": "README.md",
-      "line": 58,
+      "line": 59,
       "text": "A finite negative is never a rejection of every cipher in its family. A timeout is unresolved. A source quotation, a synthetic round trip, an analytical exclusion and an actual K4 search provide different kinds of evidence.",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
@@ -5109,6 +5115,13 @@
       "path": "docs/linguistic-feasibility-boundary.md",
       "line": 35,
       "text": "impossible; it prevents silently moving the fixed English cribs to a convenient",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "docs/maps/berlin-wsw-2026-10-24/README.md",
+      "line": 98,
+      "text": "Navigator polygon collections and combined copies are excluded. No blanket",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
@@ -6430,21 +6443,21 @@
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "line": 238,
+      "line": 239,
       "text": "| [results/NONROTOR-STRUCTURAL-004-independent.json](../../results/NONROTOR-STRUCTURAL-004-independent.json) | Post-run independent exact-entry certificates; actual models contradict before unsupported latent branch handling | Exact run start/end unknown; inspect original |",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "line": 260,
+      "line": 261,
       "text": "| [results/PROSE-COVER-035-INDEPENDENT-AUDIT.json](../../results/PROSE-COVER-035-INDEPENDENT-AUDIT.json) | Independent post-outcome complete actual-domain set and lexical-negative replay | start: 2026-10-24T14:43:46.938037Z; end: 2026-10-24T14:43:49.043601Z |",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "line": 391,
+      "line": 392,
       "text": "| [results/one-edit-028-preflight/receipt.json](../../results/one-edit-028-preflight/receipt.json) | Preflight serialization-cap issue, not a cipher negative | receipt recording: 2026-10-24T02:59:14.270769Z |",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."

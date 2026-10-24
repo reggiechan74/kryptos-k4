@@ -22,6 +22,7 @@ Reader-facing documentation, generated navigation and retained Site handoffs. Th
 - [language-and-alphabet-layers.md](language-and-alphabet-layers.md)
 - [language-experiment-interfaces.md](language-experiment-interfaces.md)
 - [linguistic-feasibility-boundary.md](linguistic-feasibility-boundary.md)
+- [Berlin WSW maps — 2026-10-24](maps/berlin-wsw-2026-10-24/README.md) — four maps, tables, provenance and validation scripts; see the accompanying source-rights notice.
 - [masking-fixture-review.md](masking-fixture-review.md)
 - [masking-source-and-pilots.md](masking-source-and-pilots.md)
 - [neptune-discovery-assessment.md](neptune-discovery-assessment.md)

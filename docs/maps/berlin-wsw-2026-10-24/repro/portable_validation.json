@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "model": "closed spherical great circle, not WGS84",
+  "radius_km": 6371.0088,
+  "circumference_km": 40030.22888407185,
+  "forward_formula_max_coordinate_error_deg": 5.684341886080802e-14,
+  "closure_coordinate_error_deg": 2.842170943040401e-14,
+  "initial_numeric_bearing_deg": 247.4999999272099,
+  "scope": "Numerical checks only; no boundary, source-coordinate or physical-touch accuracy established.",
+  "saved_route": {
+    "vertices": 80002,
+    "antimeridian_split_parts": 2,
+    "max_vertex_cross_track_error_km": 4.509190920654049e-12
+  }
+}

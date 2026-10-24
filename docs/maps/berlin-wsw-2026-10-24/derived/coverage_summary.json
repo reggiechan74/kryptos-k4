@@ -1,0 +1,44 @@
+{
+  "1": {
+    "property_name_groups": 519,
+    "published_polygon_features": 2265,
+    "editingInfo": {
+      "lastEditDate": 1792800388322,
+      "schemaLastEditDate": 1792593412622,
+      "dataLastEditDate": 1792800388322
+    },
+    "precision_flag_field": {
+      "name": "element_precision_publish",
+      "type": "esriFieldTypeString",
+      "alias": "element_precision_publish",
+      "sqlType": "sqlTypeOther",
+      "length": 250,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    "exceededTransferLimit": false
+  },
+  "2": {
+    "property_name_groups": 347,
+    "published_polygon_features": 1146,
+    "editingInfo": {
+      "lastEditDate": 1792800388322,
+      "schemaLastEditDate": 1792593366175,
+      "dataLastEditDate": 1792627632969
+    },
+    "precision_flag_field": {
+      "name": "element_precision_publish",
+      "type": "esriFieldTypeString",
+      "alias": "element_precision_publish",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    "exceededTransferLimit": false
+  }
+}

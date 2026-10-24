@@ -1,0 +1,734 @@
+[
+  {
+    "source_relative_path": "country_polygon_intersections.geojson",
+    "bytes": 1450589,
+    "sha256": "970f41ca0e7edce9cf99de49d2234695f20325e336d55178b069a3aa629e454d",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/EUROPE_FINAL_FOOTPRINTS.geojson",
+    "bytes": 979973,
+    "sha256": "5ba98f1e2eb3d096e3bb3b384912700d61952db23b6389be97174387c99b2349",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/EUROPE_FINAL_INTERSECTION_SEGMENTS.geojson",
+    "bytes": 327887,
+    "sha256": "92bda70cb9bc197bf7e6b32dfc0aeeee67600c37eacf8f92db918e8c1d8d1b4c",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/EUROPE_FINAL_RESULTS.json",
+    "bytes": 57559,
+    "sha256": "d6be7c804730ca3ffaac5dd9ae02950789733491ad0aab055e3dd01c82a1b721",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/EUROPE_SOURCE_MANIFEST.json",
+    "bytes": 6622,
+    "sha256": "b7a72c67a11b48276de885e2017493417211d36e3fad90d603a74658d3f15906",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/bearing_sensitivity.json",
+    "bytes": 650,
+    "sha256": "21f1010152f569db455272d63fe7d76ed2d20e99155ad712ed9bc72b25f3057f",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/berlin_heritage_official.geojson",
+    "bytes": 387727,
+    "sha256": "ba0b973b0adb9bc7f6fc30e99a77b4faea0c0290a7cf1a780333bcd18c37d383",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/berlin_wfs_capabilities.xml",
+    "bytes": 96116,
+    "sha256": "1bc67382b6b548c424b8441618d77f712124467104b10c34c9773d706d4e16b5",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/chartres_cathedral_nominatim.json",
+    "bytes": 10700,
+    "sha256": "b367ec1336adf4d0fe684820363e824862ad59ac43c4a2aa5d607b5b53a6d940",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/footprint_results.json",
+    "bytes": 18769,
+    "sha256": "af1247a02c5e2562ae489474c3137f91493135bdcbd13117bd6c30128dd6de4e",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/kremlin_bbox_small.osm",
+    "bytes": 7884958,
+    "sha256": "4464e6049a80adf5f5c388f156283781564090143d430c930867908c6b94764d",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/kremlin_buildings.geojson",
+    "bytes": 81957,
+    "sha256": "d1f01154688ea0a49437a9370a82f76cdedbd7dad10b143e7a9ace650e849d7c",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/kremlin_buildings_results.json",
+    "bytes": 48611,
+    "sha256": "2117e547f9fb75ad0f6d00cf15a0a566534d26eb8ad566f6401219f999266bd5",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/kremlin_buildings_skipped.json",
+    "bytes": 1382,
+    "sha256": "9186941a70701d430e7b1475152821564fb0125f62304e87ea935dff32b9dbf8",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/moscow_city_nominatim.json",
+    "bytes": 422579,
+    "sha256": "1f5c976790328b6f37905a8b7fefa6eba2e58a9e66ade69240f9138f802feffb",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/moscow_kremlin_nominatim.json",
+    "bytes": 29328,
+    "sha256": "ee12c8f27d8c5c1223f2d4603bc31409de77c955cd33fe536bd827ba1eb1f661",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/museum_buildings_nominatim.json",
+    "bytes": 13244,
+    "sha256": "5222bcdf5c7144ee183462a8fa17f7347128c197888538ba87ade7f41d39f772",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/museum_island_nominatim.json",
+    "bytes": 587,
+    "sha256": "d9dccc6119357d97217ace71e5c2f1704e965e4485b9ca54d5b0f9cc33162096",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/novodevichy_nominatim.json",
+    "bytes": 3136,
+    "sha256": "8aedccdf4367491043301d4b06177a121a6866b7a89bbef07ea40310b938adbb",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/numerical_validation.json",
+    "bytes": 483,
+    "sha256": "681667dbe6f72d34cc4fd61146c6880df10e88fe91046f215354e8e61ab22da2",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/official_results.json",
+    "bytes": 6870,
+    "sha256": "31afe94b01a24ea05a898e6ecdbb08d053cf1575498dd9ca34949c46cf97efb1",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/osm_relations_metadata.xml",
+    "bytes": 95818,
+    "sha256": "03fd6cf9672c0cd0b500f3cf4756bdb375e7512d6d6b551310a9966e0d05e21e",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/osm_ways_metadata.xml",
+    "bytes": 55284,
+    "sha256": "f67ade2d24bb1eceaca6d1de7011b7b2eb1cefaf189079c9802deff35b5066b4",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/paris_city_nominatim.json",
+    "bytes": 69170,
+    "sha256": "644af69877a0338559ed5662238f6b812eb5d510cb2dd25015270506c0e5158f",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/paris_unesco_official.geojson",
+    "bytes": 222476,
+    "sha256": "168696e73425a9a2cc2d49e801006013e993b2032cfb80ed27985a5c66bb5e8d",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/potsdam_babelsberg_nominatim.json",
+    "bytes": 6737,
+    "sha256": "525553978688c3fd231899d1418c9f867019316d66907cb4825e49e90f966e13",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/potsdam_glienicke_nominatim.json",
+    "bytes": 2991,
+    "sha256": "674d54328008525da00d0f0cb1e567e3485390277172c7f2bc3356a317e729ba",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/potsdam_heritage_nominatim.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/potsdam_neuergarten_nominatim.json",
+    "bytes": 6506,
+    "sha256": "eb3fc9dc994c3f1a3af442abb98cc64642727248cb7696abe6534e3df3578088",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/potsdam_peacock_nominatim.json",
+    "bytes": 18503,
+    "sha256": "53255abc360b277f3534b9653eec5f407a025da5d3a74f31a23480538914c666",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/potsdam_sacrow_nominatim.json",
+    "bytes": 2914,
+    "sha256": "6b4845f84b2bbd2dfa5109c19eb1198bd42edac52cfe5957b3398afb59039559",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/potsdam_sanssouci_nominatim.json",
+    "bytes": 7486,
+    "sha256": "e69b7def8afc0d6bb392b086f45b8c798a09c70cde391b4c5a9c42fc64c9608c",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/red_square_nominatim.json",
+    "bytes": 4629,
+    "sha256": "50205717dd9b81b5f45cdad1568663537eb75252df1ab06243c3374aec65bc5e",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/relation_1149002.osm",
+    "bytes": 54386,
+    "sha256": "85cb5367ad410082207a7e2de62457e6bd314e6eef19ccae16c2124f8d08255a",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/relation_1360641.osm",
+    "bytes": 432151,
+    "sha256": "439175fd1f6cf5766654dec26cdaa64b49baf6f9bd54a6c14ace52c18700300e",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/relation_1577673.osm",
+    "bytes": 45844,
+    "sha256": "1798bd5e95a4edf4959f00225d7173c4a37a6fedf98e546f466ae2750bb6d6eb",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/relation_7392626.osm",
+    "bytes": 53932,
+    "sha256": "40f80efac7096c346354db4eab5b8bc704c1e5bc1cb1836a80f073006f516af7",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/unesco_layer1_official.geojson",
+    "bytes": 110889,
+    "sha256": "187ba0422b15d333cf6d9860438caecd71c10f12dd71231e48e87a387bc85e43",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/unesco_layer1_query_url.txt",
+    "bytes": 255,
+    "sha256": "879510e45eb82f9330ad7c67ab1645f66bd2dd507139a870606f39f9059e26ee",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/unesco_layer2_official.geojson",
+    "bytes": 183892,
+    "sha256": "b52e43e704c393f5ae267326dc4bed8cf985994eed34ca5df1857ffa70a26782",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/unesco_layer2_query_url.txt",
+    "bytes": 255,
+    "sha256": "0ccabbe9b4bb2b6b5d3f2bf9437c1774e2ad2e51be109e03c051eb599af35efc",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/unesco_results.json",
+    "bytes": 7958,
+    "sha256": "ef2ce37bbb0e3e209adbc1537f14e42c4461ca5228e230736465327da8c13e6d",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/verified_footprints.geojson",
+    "bytes": 665478,
+    "sha256": "52ad1178b203d9237ca9629176880bbb27e39e7073a0deb56f1dde87095851da",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/verified_official_footprints.geojson",
+    "bytes": 272912,
+    "sha256": "a9aae71f9f94fb1083315617ad80f657bcaefa289ddcf718e6ebdfbdcac560dd",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/verified_unesco_footprints.geojson",
+    "bytes": 290722,
+    "sha256": "7919dab4846ca35b6246a04217c65fe2823f9cf69f362c5ab2c2be5e6d78a6a9",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/versailles_gardens_nominatim.json",
+    "bytes": 9086,
+    "sha256": "49fc41f660645b48bff01d57527d4713b82b8a79b522ccccaa140b26a8f5989a",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/versailles_palace_nominatim.json",
+    "bytes": 5590,
+    "sha256": "60f67a61421da48275631c3f1ebd4b3ce297752c04e43bd0d756c46fc0f63e10",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/versailles_park_nominatim.json",
+    "bytes": 3455,
+    "sha256": "1d94909ba2fb98bb3b50653e16ac8f84e1c7280265f6ed12f39f114354deebeb",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/vilnius_old_town_nominatim.json",
+    "bytes": 572,
+    "sha256": "ff4969ecbd277697b44ddb89154c73a3227ef410fda58d62c44814a6e8cca1d2",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "europe-footprints/wgs84_comparison.json",
+    "bytes": 1155,
+    "sha256": "da94fd5c802dd54388224d25e944ce31709f2af12805cdf8b9809333e06068e5",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/au_wha_metadata.json",
+    "bytes": 9206,
+    "sha256": "ebf2ee165a837dcc38812fc9dfaf18935be2831908bfd724fbdfe529509f64fb",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/au_wha_metadata.json.url",
+    "bytes": 108,
+    "sha256": "6fd82bea6b0439ab1da3bfe73f944e5d0519b641b07e733d36fb0c9dc48becb6",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/bounty_reserve.geojson",
+    "bytes": 18665,
+    "sha256": "f3dc9fd1f43072d6a25f0b33ad3c4e833cdc635a228323e2b5ce7948b42b8c19",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/bounty_reserve.geojson.url",
+    "bytes": 178,
+    "sha256": "0b0bcf078de86cd8bd167ef1b6dfb3403ba1bb84f62f8b8871cfc4f5fa2dc446",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/bounty_reserve_metadata.json",
+    "bytes": 28249,
+    "sha256": "e82cf94fb3a16f0ad52aea4949e85ca9d807b62a1648563445d2b6b628cdda7c",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/bounty_reserve_metadata.json.url",
+    "bytes": 110,
+    "sha256": "55da2ae126c3d5112c27acde994b00450295b08a2c52bfa0b5f9d03c87f2bcd9",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/cebu_boundary.geojson",
+    "bytes": 18626,
+    "sha256": "c7269a7b28d9f995c544ed91b9cdd631640073d5cc9853ef98cd70a2fedecc95",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/cebu_boundary_osm.json",
+    "bytes": 41968,
+    "sha256": "d07d9eb19146351e69abb8f92ca9b53e52147e45488ce4cb92fac89c37900c24",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/cebu_boundary_osm.json.url",
+    "bytes": 214,
+    "sha256": "b8bd567d402f15700b59263af80095a316205c7191de538e4b87a4462c4cade0",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/footprint_results.json",
+    "bytes": 11235,
+    "sha256": "5d4a6fc407439d0d6939be2b22b36ca733fb73e06e925567105d5af8f755b6c5",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/gondwana_official.geojson",
+    "bytes": 2083874,
+    "sha256": "94fddf1ac6d701abe770c65044fba9e34b482f3a9d803d8d93e86e1a96cb18b1",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/gondwana_official.geojson.url",
+    "bytes": 196,
+    "sha256": "bf626823878e713bee5d57d30fbea129feff0d6ee5f47b124a3cf9e3566c53c8",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/main_range_park.geojson",
+    "bytes": 161026,
+    "sha256": "c7190948ae8632bd28ae4a9efc931646b2189ad496622a1581576a502c6c1fa8",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/main_range_park.geojson.url",
+    "bytes": 205,
+    "sha256": "45c19ef334344f886c5e34c7b75f7956f3ccbe7fbad54e1ec88913987115b4ee",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/miss_connectors.geojson",
+    "bytes": 2047,
+    "sha256": "8ab57e77c921e90928aba576b2c6d65218ecb36010d7618a31bebe7f58d01a67",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/numerical_validation.json",
+    "bytes": 1747,
+    "sha256": "a46960f78497fd7cd82fc453b1df1b61e6c7d00fa9f94267ef2a9d2537599d07",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/qld_parks_metadata.json",
+    "bytes": 20408,
+    "sha256": "8d3b7f3272f4d52d27cd0888d2a5c03dc9b5fc012fc9d660bf9a4ea2c111386b",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/qld_parks_metadata.json.url",
+    "bytes": 127,
+    "sha256": "87e6c561aecd0729f98d7d7f2e345286a3e9eda3a353fe6a0e3d7f131fcd4e96",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/san_agustin_osm.json",
+    "bytes": 6034,
+    "sha256": "74ab5e93f54a70e90636e2e59dff14cdc71a03fb5ba732aa189acaff82449546",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/san_agustin_osm.json.url",
+    "bytes": 60,
+    "sha256": "07efffd8f7e729710e88a6615317e41653422fb2fff4ab9546b2fb4d8c47eda7",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/santa_ana_church.geojson",
+    "bytes": 1596,
+    "sha256": "da3422a897dc23f46d55f77cc38d5f19c7c749290ee1e603c5d62933e34cb573",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/santa_ana_osm.json.url",
+    "bytes": 263,
+    "sha256": "1c74d76e3a08601f093d4136ca80b680529f7c400761cf1c6428defaa2e432f4",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/santa_ana_osm.xml",
+    "bytes": 295346,
+    "sha256": "9062bb88f1d254ef6a7d60a331824b45501e38cb2477ef6e05fb4d8ccd0b19a3",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/santa_ana_osm.xml.url",
+    "bytes": 84,
+    "sha256": "cb65bc4cdc86400dacd7856e71180e4fbcf6d160385e56a368b4c3154496beae",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/source_manifest.json",
+    "bytes": 8165,
+    "sha256": "05150797cd84c69f47fc0a02f021bb8db1e903496a685b073428177ae7186e92",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_layer0_metadata.json",
+    "bytes": 40674,
+    "sha256": "8af0adb7b6527af2214271298e3cec005eeb4e7b3354cafe73bf3803106b6255",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_layer0_metadata.json.url",
+    "bytes": 130,
+    "sha256": "cbd44e98c0c6281a3f19aaf8fe83c6c33f311f2627399d8373847af1733fe1b6",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_layer1_metadata.json",
+    "bytes": 41714,
+    "sha256": "8da0d55ab6119548c8eae0d5957802b3ad4c9a836693f2235644c64190837d2f",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_layer1_metadata.json.url",
+    "bytes": 130,
+    "sha256": "be7377dcc49f3d60ca9637253aadc6844fa78c4b6620519e947bcf264a4b03bf",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_layer2_metadata.json",
+    "bytes": 41525,
+    "sha256": "e2f6a0d23eda65c4eefdb24791291c342d09a0ec017a82b0998e0dc7594a414e",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_layer2_metadata.json.url",
+    "bytes": 130,
+    "sha256": "e1a93602d85dd027d84a84521671a35bffd1ffa073b0b9b3ae4f6ed89d939f0d",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_navigator_config.json",
+    "bytes": 487652,
+    "sha256": "2cca5fd0655fa9fdeaa579aa05a7a634258dfc5f59b80d56746d564fda031a48",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_navigator_config.json.url",
+    "bytes": 94,
+    "sha256": "892d5a46e261bf671bfa1182fc89fd0de15170a68fb22b7b9298f33e43c669b2",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_selected.geojson",
+    "bytes": 98,
+    "sha256": "1ce7eb457779acd1dc230a1bcb4692d06f27533481f26cbfe0e9e599134c0cd4",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_selected.geojson.url",
+    "bytes": 328,
+    "sha256": "80eaba8ed02e79a2b92d5b94e41a3f5f3f1a6e5a8c5834c08a345af5f8117ce9",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_selected_by_name.geojson",
+    "bytes": 98,
+    "sha256": "1ce7eb457779acd1dc230a1bcb4692d06f27533481f26cbfe0e9e599134c0cd4",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_selected_by_name.geojson.url",
+    "bytes": 501,
+    "sha256": "58a189c0ca79fbd70f46b54c39436794b5a1497a0129287a59d594c906a19d0a",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_selected_points_metadata.json",
+    "bytes": 10585,
+    "sha256": "0951e8aa779e80d16dba388207d442460f625d2165180ee2506c9307f24da2e3",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unesco_selected_points_metadata.json.url",
+    "bytes": 287,
+    "sha256": "c4523582290b754874389905d0070dcb0401688d52b9202300e1e013c3202cde",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/unresolved_boundary_questions.json",
+    "bytes": 1484,
+    "sha256": "a63ee124fecf1f619997669c432eac55805c2779591682636170a3e7859181ed",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/verified_footprints.geojson",
+    "bytes": 2335692,
+    "sha256": "ef5e289e3487268ac87b003f340b6244c35b14a49b09db2a06c4da1715c26755",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "footprints-non-europe/verified_intersection_segments.geojson",
+    "bytes": 124679,
+    "sha256": "2a21b293db8c33378316584dcab76becdfb067bb833f09ccc26a7efe2fd9c50e",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "integrated-intersections/inventory.json",
+    "bytes": 275195,
+    "sha256": "a9a8f3297c8bb0c722fe978455a2e08898917df54306fcb9150cc2e523f43ccb",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "integrated-intersections/verified_footprints_overlay.geojson",
+    "bytes": 7135409,
+    "sha256": "dd8d8afaf6bc583242344e3417348b8aa690c8910dc2a6bf04b5a66aa7f65c2f",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "ne_10m_admin_0_countries.geojson",
+    "bytes": 13287234,
+    "sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "ne_10m_geography_marine_polys.geojson",
+    "bytes": 1692635,
+    "sha256": "53f865e8ffa966cdd402145c82c5cd14ee7ce974cd0eb9a3f59f03a4cfd2d66c",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "ne_10m_geography_regions_points.geojson",
+    "bytes": 276429,
+    "sha256": "25821b530966e62756faebf53699f12bf73550f8228aa4bbdf3e4132dd7cf806",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "ne_10m_geography_regions_polys.geojson",
+    "bytes": 5583870,
+    "sha256": "b7b26e50ea917d3696aec87f932def2bf5f890f5770e441d59c162c6f4c92a77",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "ne_10m_lakes.geojson",
+    "bytes": 5043554,
+    "sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "ne_10m_populated_places.geojson",
+    "bytes": 19359003,
+    "sha256": "9b8e3de09048ef00dfc70357dbb9fa324493f214b5e0ae4daf1aa79a8d10116b",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "ne_10m_rivers_lake_centerlines.geojson",
+    "bytes": 7307743,
+    "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "route.geojson",
+    "bytes": 3343593,
+    "sha256": "2f4e23e5bcc765e2f64929cc2a1724c7a7733a1753c80813834412bfe1b356be",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "route_results.json",
+    "bytes": 99132,
+    "sha256": "b32eed889b85c59c6624be945efa576266cda5fb5b739803804b07b0c9ab058b",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "source_manifest.json",
+    "bytes": 2822,
+    "sha256": "dcac91f0a2ee9af5663d2a1ce3e451ff1906c4d2cee0770f02fc8fa922937425",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/coverage_summary.json",
+    "bytes": 1166,
+    "sha256": "ecc89f83c95cc41209c9176cae590dfb29350d47e9207e6b5b9bb72f8fdfa2d1",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/layer1_coverage_counts.json",
+    "bytes": 48410,
+    "sha256": "fc7104b4eff7d66d16c7b1411e6db16cfa6c778ceb9f4009380b46c72ba78e58",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/layer1_route_hit_ids.json",
+    "bytes": 51,
+    "sha256": "84835db8f9944c345d0ff2878be671477b88b9233f8f123e4a525e8daf5520c4",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/layer1_route_hit_polygons.json",
+    "bytes": 2552581,
+    "sha256": "d3088e36a040813bed21dbde1dde770b3815a014627298fb310975e78292423c",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/layer2_coverage_counts.json",
+    "bytes": 33543,
+    "sha256": "b8af41ea70bf743d76697a9cd6ef6f19b60e5eb65499f22242b48230ad813234",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/layer2_route_hit_ids.json",
+    "bytes": 60,
+    "sha256": "2d2ff4b523c010e891b4e4f0aa8e977ae6fc40b686fb5b8879179a1077cb2f79",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/layer2_route_hit_polygons.json",
+    "bytes": 1047920,
+    "sha256": "7fe02b839232eccd3e3038eb763b10f754ff8eabeba09b820c8a912b95017cac",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/metadata_0.json",
+    "bytes": 40674,
+    "sha256": "8af0adb7b6527af2214271298e3cec005eeb4e7b3354cafe73bf3803106b6255",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/metadata_1.json",
+    "bytes": 41714,
+    "sha256": "8da0d55ab6119548c8eae0d5957802b3ad4c9a836693f2235644c64190837d2f",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/metadata_2.json",
+    "bytes": 41525,
+    "sha256": "e2f6a0d23eda65c4eefdb24791291c342d09a0ec017a82b0998e0dc7594a414e",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/metadata_service.json",
+    "bytes": 5065,
+    "sha256": "f073adcedfd62703d040f4f5698160400c9fc3082d0486e22aa36e495029a4b0",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/official_unesco_intersection_results.json",
+    "bytes": 4265,
+    "sha256": "131bb0a3524475c74edca9fe7fffd223ce4a8c2e618d92ccf0154396284e658d",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco-boundary-pass/official_unesco_intersection_segments.geojson",
+    "bytes": 24906,
+    "sha256": "96194c8db1cb26faef62ca2143d5f1faa8b940c10f1f7180f7c2b897eed04238",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco_nearest_component_by_site.json",
+    "bytes": 22250,
+    "sha256": "860e9fc9fc01427bf8e3d137575a0e2487f59f552bdf25d38f1fa811171af2f6",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco_within_50km.json",
+    "bytes": 86715,
+    "sha256": "a10097503d4cca27719e7af8d0f3b3ea1432e1053926c1f5a4afd3637a4370da",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "unesco_world_heritage.json",
+    "bytes": 24833868,
+    "sha256": "b34b708618ad3f7b8f51558b6d04a33a6d95b0f266462d2665ad425c343d0a75",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "validation.json",
+    "bytes": 705,
+    "sha256": "bc6fc18639adce42de8b733221b1c4d26fa817be5acbc626203a8a5f6eb5669e",
+    "snapshot_date_utc": "2026-10-24"
+  },
+  {
+    "source_relative_path": "waterways.json",
+    "bytes": 17085,
+    "sha256": "0d85e09ff698e0f4275d9a123d5f1c3fb0760f03a88cb434b9a9d263fe8c9167",
+    "snapshot_date_utc": "2026-10-24"
+  }
+]
