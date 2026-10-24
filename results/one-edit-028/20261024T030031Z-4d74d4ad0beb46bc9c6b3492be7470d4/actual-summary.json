@@ -1,0 +1,584 @@
+{
+  "started_at_utc": "2026-10-24T03:00:50.611166+00:00",
+  "finished_at_utc": "2026-10-24T03:00:51.315755+00:00",
+  "raw_edits": 5071,
+  "raw_edit_kind_counts": {
+    "baseline": 1,
+    "substitute": 2425,
+    "insert_latent": 2548,
+    "delete_observed": 97
+  },
+  "unique_latent_strings": 4968,
+  "unique_constraint_instances": 6317,
+  "gross_alignment_descriptions": 10142,
+  "admissible_alignment_descriptions": 9546,
+  "inadmissible_alignment_descriptions": 596,
+  "logical_periodic_checks": 458208,
+  "logical_permutation_checks": 9546,
+  "permutation_compatible_raw_alignment_cases": 360,
+  "permutation_compatible_unique_instances": 240,
+  "periodic_first_raw_cases": 41,
+  "periodic_all_raw_cases": 0,
+  "by_alignment": {
+    "ENGLISH_FIXED": {
+      "admissible": 5071,
+      "permutation_compatible": 191,
+      "periodic_first": 31,
+      "periodic_all": 0,
+      "strip_certificate_reject": 5071,
+      "wheatstone_certificate_reject": 4146
+    },
+    "OBSERVED_CELL_TRANSPORT": {
+      "admissible": 4475,
+      "permutation_compatible": 169,
+      "periodic_first": 10,
+      "periodic_all": 0,
+      "strip_certificate_reject": 4475,
+      "wheatstone_certificate_reject": 4424
+    }
+  },
+  "models": [
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 1
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 2
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 3
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 4
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 5
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 6
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 7
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 8
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 9
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 10
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 11
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "plus",
+        "period": 12
+      },
+      "raw_first": 6,
+      "raw_all": 0,
+      "unique_first": 4,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 1
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 2
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 3
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 4
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 5
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 6
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 7
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 8
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 9
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 10
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 11
+      },
+      "raw_first": 5,
+      "raw_all": 0,
+      "unique_first": 3,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "AZ",
+        "equation": "beaufort",
+        "period": 12
+      },
+      "raw_first": 6,
+      "raw_all": 0,
+      "unique_first": 4,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 1
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 2
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 3
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 4
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 5
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 6
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 7
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 8
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 9
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 10
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 11
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "plus",
+        "period": 12
+      },
+      "raw_first": 18,
+      "raw_all": 0,
+      "unique_first": 14,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 1
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 2
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 3
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 4
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 5
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 6
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 7
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 8
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 9
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 10
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 11
+      },
+      "raw_first": 0,
+      "raw_all": 0,
+      "unique_first": 0,
+      "unique_all": 0
+    },
+    {
+      "model": {
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort",
+        "period": 12
+      },
+      "raw_first": 6,
+      "raw_all": 0,
+      "unique_first": 4,
+      "unique_all": 0
+    }
+  ],
+  "permutation_distinct_plaintext_union_lower_bound": "2914301970937084227166405306302472287772657306923790107183382689424343040000000000000",
+  "permutation_distinct_plaintext_union_upper_bound": "403468917309734105227704556850320052284970111603004719283388314558081269760000000000000",
+  "permutation_union_exact_count_not_computed": true,
+  "any_compatibility_is_not_evidence": true,
+  "cache_training_fragments": 611,
+  "complete_periodic_records": 0,
+  "distinct_periodic_full_plaintexts": 0,
+  "compatible_permutation_classes": 240,
+  "storage": {
+    "artifact": "actual.json.gz",
+    "uncompressed_bytes": 7299394,
+    "saved_bytes": 180132,
+    "lossless": true
+  }
+}

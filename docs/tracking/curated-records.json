@@ -582,6 +582,17 @@
       ],
       "outcome": "Direct nonzero strips excluded; partial M138/Wheatstone source QA passes with defects preserved; book/sign/German and distinct variants remain gated",
       "basis": "Reviewed source-conditioned proof, independent primary-page check, source QA and admission failures; no full historical inventory or repaired transcription claim."
+    },
+    "LOG-306DBE2114": {
+      "title": "ONE-EDIT-028 \u2014 item 8 complete counterfactual edit robustness",
+      "categories": [
+        "finite K4 model tests",
+        "exact ambiguity analysis",
+        "whole-search controls",
+        "analytical constraints"
+      ],
+      "outcome": "No complete periodic fit; transposition repairs massively ambiguous and match all shuffled controls; no error claim",
+      "basis": "Reviewed all5071 raw channels, explicit anchor admission, complete model masks and post-audit disjoint union; no canonical correction or broad exclusion."
     }
   }
 }

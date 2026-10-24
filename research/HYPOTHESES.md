@@ -83,7 +83,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 | [H-BOUNDARY-STATE](#h-boundary-state) | narrow negative | One internal boundary resets to the same shared seed/state. |
 | [H-AUTONOMOUS-RECURRENCE](#h-autonomous-recurrence) | analytical exclusion | A fixed homogeneous/affine multi-lag modular key generator. |
 | [H-RADIX-FEEDBACK](#h-radix-feedback) | analytical exclusion | Changing-base geometric codes enter a fixed affine key recurrence. |
-| [H-ONE-EDIT](#h-one-edit) | specified but not run | A bounded construction-error sensitivity arm. |
+| [H-ONE-EDIT](#h-one-edit) | non-identifiable | A bounded construction-error sensitivity arm. |
 | [H-ARCHITECTURE-DIAGNOSIS](#h-architecture-diagnosis) | non-identifiable | Classify architecture from fixed short-text features. |
 
 ### H-COMPASS-REVERSE
@@ -260,11 +260,11 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Mechanism: Fixed 27/26 geared rings with displacement determined by the adjacent processed plaintext pair; both ring alphabets and starting phases may be arbitrary.
 - Evidence: Published MysteryTwister/CrypTool reconstruction and worked vectors; institutional historical context; original 1879 full operating text and authentic Plett variants not completely recovered.
 - Tested scope: WHEATSTONE-TRANSITION-008 excludes arbitrary fixed rings by opposed ST ciphertext equality at 24–25/33–34; two modern external vectors and complete tiny systems pass. Item 7 adds a historical Friedman REFERENCE vector and both directions, preserving one unused occluded slot and conflicting printed ciphertext. No distinct Pletts or new K4 sweep.
-- Untested scope: State-dependent/hidden extra moves, changing rings, outer layers and preprocessing that changes the processed-text anchors; no universal Wheatstone/Plett/Wadsworth exclusion.
+- Untested scope: State-dependent/hidden moves, changing rings, outer layers and altered processed anchors remain outside canonical exclusion. Item 8 finds some edited cases lose the old pair-equality certificate; no complete fixed-ring key search or fit was established for them.
 - Missing inputs: A complete independently sourced materially different operation, including preprocessing/alignment and external vector; mixed fixed alphabets alone are already covered. The historical partial-ring example does not supply a distinct Pletts rule.
 - Next discriminating test: Stop the aligned fixed-ring domain; pursue exact original operating conventions only if they establish a distinct mechanism rather than duplicate alphabets/directions.
 - Dependencies: Adjacent disclosed processed letters aligned with adjacent ciphertext; spaces emit symbols and no silent gap motion is invented; repeated-letter preprocessing is lossy.
-- Results: [Original proof and limits](WHEATSTONE-TRANSITION-FINDINGS.md), [item 7 historical QA and source conflict](STRIP-SOURCE-GATES-027-FINDINGS.md), [new trace](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json), [old source receipts](../sources/wheatstone-historical-conventions-2026-10-23.json).
+- Results: [Original canonical proof](WHEATSTONE-TRANSITION-FINDINGS.md), [historical QA](STRIP-SOURCE-GATES-027-FINDINGS.md), [one-edit certificate limits](ONE-EDIT-028-FINDINGS.md). Loss of a necessary contradiction is not key recovery.
 
 ### H-M94-CYCLIC
 
@@ -283,12 +283,12 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: evidence-blocked
 - Mechanism: Historical strip selection/alignment produces a row-dependent alphabet.
 - Evidence: Primary 1935 NSA A67592 draft and 1944 A67293 resurvey; SRH-366 printed 83–84 quotes the July 1943 prohibition on zero/26 intervals, independently visually checked locally. Source example/variant pixels are worker-attributed; no Sanborn-use claim.
-- Tested scope: Item 7 source-conditioned direct nonzero cyclic-strip operation is analytically excluded for every valid permutation/order and nonzero offset by S→S at 33 (K→K at 74 is public additional confirmation). This is invariant reuse, not a key sweep. The 1935 original M-138 photographic 25-strip example replays, 24 rows validate and strip 1 fails strict complete admission. No complete wartime M-138-A inventory or distinct layered/adapted domain is calibrated.
+- Tested scope: Direct aligned nonzero cyclic-strip operation is excluded for all valid permutations/order/offsets by known self-encipherment. Item 8 retains a self-encipherment in every admitted one-edit case, so this certificate is robust in that frozen channel. Original 1935 partial vector still fails complete-inventory admission; full alternative issues/layers are not calibrated.
 - Untested scope: Specific versioned M-138-A sets and operations outside direct nonzero aligned permutation-strip coverage; zero-column adaptations, changed preprocessing alignment and outer layers remain outside that source-conditioned proof.
 - Missing inputs: A new independently sourced rule/layer or processed-index map outside the invariant, plus its exact issue/table and vector. Full inventory is not needed for the completed no-fixed-point proof. Do not replace missing source data with fictitious modern 100-strip examples or repair O/Q.
 - Next discriminating test: Stop direct nonzero-row key searches. Authenticate a materially outside-invariant procedure before a new bounded key domain; keep unknown row choice as a candidate relation and unresolved glyphs visible.
 - Dependencies: Documented nonzero-row policy and literal English-to-cipher alignment for the proof. Original M-138 differs from later M-138-A issues; straight/split/channel-elimination policies are source-specific.
-- Results: [Item 7 source and conditional proof findings](STRIP-SOURCE-GATES-027-FINDINGS.md), [source QA and traces](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json), [original conditional receipts](../results/strip-source-gates-027/README.md). Family status remains evidence-blocked for a complete authentic alternative, not wholly uninvestigated.
+- Results: [Historical source boundary](STRIP-SOURCE-GATES-027-FINDINGS.md), [one-edit robustness](ONE-EDIT-028-FINDINGS.md), [source QA](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json). No repaired inventory or general M-138A-family claim.
 
 ### H-FEISTEL-2ROUND
 
@@ -355,24 +355,24 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: analytical exclusion
 - Mechanism: Pure permutation preserves the letter multiset.
 - Evidence: [source or scoped prior review](STRUCTURAL-FINDINGS.md); historical availability or user proposal does not establish creator use.
-- Tested scope: With the literal A-Z 97-symbol baseline and unchanged disclosed English cribs, three required E letters exceed the two available; permutations alone cannot supply those cribs.
-- Untested scope: Broader mechanisms outside the exact report domain.
+- Tested scope: Canonical literal 97 baseline has an E-count deficit and excludes pure permutations. Item 8 counterfactual one-edit study relaxes that exclusion: primary 191 raw edits/25 distinct compact plaintext sets admit more than 10^84 strings. Those are unrestricted ambiguity, not routes or solutions.
+- Untested scope: Specific independently justified restrictive routes or other layers outside existing finite coverage; the canonical no-edit exclusion remains valid.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
-- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Next discriminating test: Require independent route/key structure and evidence rather than treating a one-E count repair as a location or error diagnosis.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](STRUCTURAL-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Original baseline proof](STRUCTURAL-FINDINGS.md), [one-edit ambiguity and exact counts](ONE-EDIT-028-FINDINGS.md). Source canon is unchanged; the counterfactual must not be merged into the baseline.
 
 ### H-PERIOD
 
 - Status: analytical exclusion
 - Mechanism: One fixed injective substitution per repeating phase.
 - Evidence: [source or scoped prior review](STRUCTURAL-FINDINGS.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Exactly 19 periods among 1–96 excluded for direct unchanged alignment and a fixed bijection per phase, not for transposition/preprocessing; remaining periods are merely not contradicted.
+- Tested scope: Original 19/96 direct injective-phase period exclusions remain baseline-specific. Item 8 separately tests 48 AZ/KRYPTOS additive/true-Beaufort structures, periods 1–12, across every declared one-edit/alignment case; no full fit. It does not cover arbitrary per-phase maps or other periods under edits.
 - Untested scope: Broader mechanisms outside the exact report domain.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](STRUCTURAL-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Original baseline necessary constraints](STRUCTURAL-FINDINGS.md), [final bounded periodic edit sensitivity](ONE-EDIT-028-FINDINGS.md), [all masks/keys/failed forecasts](../results/one-edit-028/README.md).
 
 ### H-LANGUAGE
 
@@ -784,15 +784,15 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 
 ### H-ONE-EDIT
 
-- Status: specified but not run
+- Status: non-identifiable
 - Mechanism: A bounded construction-error sensitivity arm.
-- Evidence: [source or scoped prior review](../independent/2026-10-22/construction/REPORT.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Construction convention replays complete; no K4 edit run.
-- Untested scope: Proposed 5,071 raw single-edit variants including baseline.
-- Missing inputs: A separate exact index-map/model budget freeze and independent motivation for an observed K4 discrepancy.
-- Next discriminating test: Retain the already replayed K2 restoration controls; require an independent K4 discrepancy and exact edit/index-map/model budget before any sensitivity sweep. Do not repair K4 post hoc.
-- Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](../independent/2026-10-22/construction/REPORT.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Evidence: User-requested counterfactual study without an observed K4 discrepancy; prior K1/K2/Projector construction evidence is source-specific, not an error prior for K4.
+- Tested scope: ONE-EDIT-028 completes all 5,071 raw channels including baseline, two explicit index interpretations, 48 periodic structures and arbitrary position permutations. All 458,208 admitted logical periodic checks reject at full 24; unrestricted permutations admit enormous ambiguous sets. Exact post-audit primary plaintext union exceeds 10^84; no canonical edit or solution.
+- Untested scope: Other cipher families, mixed alphabets, periods>12, multiple edits, key/worksheet changes and independently specified altered preprocessing. No ninth investigation or automatic expansion.
+- Missing inputs: No missing input for the completed bounded counterfactual. An observed discrepancy and independently restrictive mechanism are needed before interpreting a repair as historical evidence; none was found.
+- Next discriminating test: Stop the one-edit domain. Seek independent source evidence or a justified structural/algorithmic advance; do not add edits, tune anchors or promote generic first-clue fits.
+- Dependencies: Canonical ciphertext stays unchanged. ENGLISH_FIXED retains every published English position; conditional cell transport preserves all 24 labels and rejects split/deleted words. Public Berlin is a second-stage check, not untouched data.
+- Results: [Final findings](ONE-EDIT-028-FINDINGS.md), [original runs/maps/classes](../results/one-edit-028/README.md), [independent exact-set/union audit](../results/ONE-EDIT-028-INDEPENDENT-AUDIT.json), [eight-item overview](EIGHT-ITEM-INVESTIGATION-SUMMARY.md). Counterfactual compatibility is not evidence of an engraving error.
 
 ### H-ARCHITECTURE-DIAGNOSIS
 

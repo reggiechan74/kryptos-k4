@@ -2,6 +2,8 @@
 
 This repository records an attempt to understand **K4, the final 97-letter section of Jim Sanborn’s Kryptos sculpture at CIA headquarters**. It contains reproducible experiments, source research and exact constraints, including failed ideas. **We do not have a verified solution or a recovered encryption method.**
 
+**The [eight requested investigations are complete to their stated scopes](research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md).** Results include finite negatives, unresolved computation and evidence-blocked models. The final one-edit study supplies no correction or decryption.
+
 K1–K3 serve as known-answer controls. Public reports of archival plaintext recovery are distinct from a published, reproducible cryptanalytic solution; see the [source verification](docs/source-verification-2026-10-18.md). This workspace does not claim independently to know all of K4’s plaintext.
 
 **[Open the live Kryptos Light Laboratory on ChatGPT](https://kryptos-light-laboratory-rc2026.milky-lion-6014.chatgpt.site)** for interactive monument, light and cipher visualizations. Its geometry is illustrative, not a surveyed physical reconstruction. The downloadable fold-and-slide HTML below is a separate offline research artifact; the live Site includes the manual row/column overlay (version 15). The predefined integer row/column scan is now calibrated in the research report below; other manual exploration remains descriptive.
@@ -12,14 +14,10 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | --- | --- |
 | Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 60 stable family IDs, linked to exact coverage |
 | Find an experiment, its date, result, code and receipts | [Experiment tracker](docs/tracking/EXPERIMENTS.md) and [recorded run receipts](docs/tracking/RECEIPTS.md) |
-| See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-027.json) |
+| See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-028.json) |
 | Explore item 1’s systematic row-plus-column scan | [Findings](research/FOLD-SLIDE-2D-FINDINGS.md), [every 2D shift](results/FOLD-SLIDE-2D-001-frames.csv), [count maps](research/figures/fold-slide-2d-001.svg); the [earlier offline slider](research/figures/fold-slide-020.html) is column-only |
-| Understand item 2’s physical limits | [Sunlight, shadow, lamp and calibration findings](research/PHYSICAL-SOLAR-002-FINDINGS.md); no surveyed optical key |
-| Inspect item 3’s historical clock ambiguity | [Partial-ring registration and shared-phase analysis](research/WORLD-CLOCK-003-FINDINGS.md); no 1989 inventory or cipher bridge established |
-| Inspect item 4’s coupled SIGABA engineering | [Unknown-anchor support, exactness and measured limits](research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md); full-domain gate remains unresolved |
-| Inspect item 5’s lamp/Greek codecs | [Three complete models and bounded negatives](research/LAMP-GREEK-025-FINDINGS.md); this is not the historical World Clock |
-| Inspect item 6’s distinct stateful mechanisms | [Splay trees, nonlinear geometry and pronunciation-key limits](research/TREE-GEOMETRY-IPA-026-FINDINGS.md); no first-crib fit |
-| Inspect item 7’s historical mechanisms and source gates | [Strips, Wheatstone, books, Egyptian signs and German](research/STRIP-SOURCE-GATES-027-FINDINGS.md); narrow proof and partial-source validation, not blanket exclusions |
+| Compare all eight scopes and outcomes | [Eight-item summary](research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md) — complete investigation does not mean a solved or exhausted family |
+| Inspect the final one-edit robustness study | [Exact counts, ambiguity and controls](research/ONE-EDIT-028-FINDINGS.md); canonical ciphertext is unchanged |
 | Reproduce the work | [Running experiments](experiments/README.md) and [test guide](tests/README.md) |
 
 **Overlay scope:** the earlier column-only study used `dy = 0`. [Item 1’s newer predefined two-dimensional study](research/FOLD-SLIDE-2D-FINDINGS.md) covers all integer rows −28…+28 and columns −33…+33 under two fixed registrations. Its own whole-search controls show no unusual excess; the older column-only p-values are not repurposed for rows.

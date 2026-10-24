@@ -132,3 +132,7 @@ Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLEC
 ## Item 7 checkpoint
 
 [Item 7 findings](STRIP-SOURCE-GATES-027-FINDINGS.md) distinguish a source-backed strip invariant, partial historical vectors and missing book/sign/German mechanisms. [Protocol](STRIP-SOURCE-GATES-027-SPEC.md); old checkpoint retained separately.
+
+## Final item 8 checkpoint
+
+[Eight-item status summary](EIGHT-ITEM-INVESTIGATION-SUMMARY.md) separates finite negatives, solver limits and evidence gates. [Item 8 findings](ONE-EDIT-028-FINDINGS.md) record complete edit sensitivity without proposing a canonical correction.

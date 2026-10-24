@@ -8,6 +8,8 @@ Current item 6 update (24 October 2026): [dynamic splay, full-state geometry and
 
 Current item 7 update (24 October 2026): [source-backed strip boundary and historical source QA](STRIP-SOURCE-GATES-027-FINDINGS.md) are complete. Missing full M-138-A inventories, distinct Pletts operations and exact book/sign/German mechanisms remain explicit gates; [snapshot 027](../results/FRONTIER-027.json) does not authorize a new search.
 
+Final eight-item update (24 October 2026): [overview](EIGHT-ITEM-INVESTIGATION-SUMMARY.md), [one-edit result](ONE-EDIT-028-FINDINGS.md), [current readiness 028](../results/FRONTIER-028.json). The old proposal below is a historical snapshot: the 5,071-case counterfactual arm is now complete, without an observed discrepancy or canonical edit. No ninth investigation is launched.
+
 23 October 2026, after verified main `5d772196d40c732a6460e947d3152140b77439d6`.
 
 **K4 remains unsolved.** Review of all 60 current registered hypotheses found no new evidence-grounded K4 experiment ready with the inputs, implemented algorithms and access presently available. This is a practical research assessment, not a proof that every cipher has been exhausted. The standing authorization to continue is not the missing ingredient. No new K4 search ran for this report.

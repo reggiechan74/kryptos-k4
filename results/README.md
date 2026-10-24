@@ -89,3 +89,7 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Item 7 checkpoint
 
 [Item 7 original conditional receipts](strip-source-gates-027/README.md), [post-source QA](ITEM7-HISTORICAL-SOURCE-QA-027.json), [local visual/access review](ITEM7-LOCAL-SOURCE-REVIEW.json). Zero strip-key enumeration; no completed historical inventory or universal exclusion.
+
+## Final item 8 checkpoint
+
+[Original one-edit run and maps](one-edit-028/README.md), [lossless preflight](one-edit-028-preflight/README.md), [independent actual/union audit](ONE-EDIT-028-INDEPENDENT-AUDIT.json). Large candidate volumes are non-identifiability, not search work or a solved message.

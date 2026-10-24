@@ -1,0 +1,23 @@
+{
+  "kind": "Final eight-item register snapshot with completed one-edit counterfactual",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 24,
+    "analytical exclusion": 13,
+    "non-identifiable": 9
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "0ffde0068dba7e3bccd154e08bc0634921eee0f9f270161c6629b6b021dd8dfa"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-027.json",
+  "previous_snapshot_commit": "f6c5d2637fe0ab529c2019a2317d8e9375462da2",
+  "requested_items_complete_to_scope": 8,
+  "raw_single_edit_descriptions": 5071,
+  "logical_periodic_checks": 458208,
+  "full_periodic_fits": 0,
+  "permutation_result": "non-identifiable",
+  "canonical_ciphertext_changed": false,
+  "site_changed": false,
+  "ninth_investigation_started": false
+}

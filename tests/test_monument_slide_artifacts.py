@@ -26,4 +26,4 @@ class SlideArtifacts(unittest.TestCase):
   for a,b in zip(actual,rows):
    for k in ('shift','label_matches','geometric_overlap_cells','common_pixel_area'):self.assertEqual(a[k],int(b[k]))
   import frontier_assessment as f,exclusion_scope_audit as e
-  self.assertEqual(f.assess(),json.loads((ROOT/'results/FRONTIER-027.json').read_text()));self.assertEqual(e.run(),json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-027.json').read_text()))
+  self.assertEqual(f.assess(),json.loads((ROOT/'results/FRONTIER-028.json').read_text()));self.assertEqual(e.run(),json.loads((ROOT/'results/EXCLUSION-SCOPE-AUDIT-028.json').read_text()))

@@ -64,5 +64,5 @@ Generated navigation; edit the canonical ledger or receipts, then run `python3 e
 | H-BOUNDARY-STATE | narrow negative | One internal boundary resets to the same shared seed/state. | [H-BOUNDARY-STATE canonical record](../../research/HYPOTHESES.md#h-boundary-state) |
 | H-AUTONOMOUS-RECURRENCE | analytical exclusion | A fixed homogeneous/affine multi-lag modular key generator. | [H-AUTONOMOUS-RECURRENCE canonical record](../../research/HYPOTHESES.md#h-autonomous-recurrence) |
 | H-RADIX-FEEDBACK | analytical exclusion | Changing-base geometric codes enter a fixed affine key recurrence. | [H-RADIX-FEEDBACK canonical record](../../research/HYPOTHESES.md#h-radix-feedback) |
-| H-ONE-EDIT | specified but not run | A bounded construction-error sensitivity arm. | [H-ONE-EDIT canonical record](../../research/HYPOTHESES.md#h-one-edit) |
+| H-ONE-EDIT | non-identifiable | A bounded construction-error sensitivity arm. | [H-ONE-EDIT canonical record](../../research/HYPOTHESES.md#h-one-edit) |
 | H-ARCHITECTURE-DIAGNOSIS | non-identifiable | Classify architecture from fixed short-text features. | [H-ARCHITECTURE-DIAGNOSIS canonical record](../../research/HYPOTHESES.md#h-architecture-diagnosis) |

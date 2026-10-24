@@ -1,0 +1,45 @@
+{
+  "kind": "Final aggregate item8 regression; not original experiment timing",
+  "suites": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T03:12:00.269878+00:00",
+      "finished_at_utc": "2026-10-24T03:13:00.369706+00:00",
+      "elapsed_seconds": 60.099580416,
+      "exit_code": 0,
+      "log": "results/ONE-EDIT-028-python39.log.txt",
+      "sha256": "63af04229751ff78989774250c183f321334e80801d9eac9a14351c0b48c2e5c",
+      "tests_passed": 568
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T03:13:00.369973+00:00",
+      "finished_at_utc": "2026-10-24T03:13:47.498623+00:00",
+      "elapsed_seconds": 47.128515334,
+      "exit_code": 0,
+      "log": "results/ONE-EDIT-028-python312.log.txt",
+      "sha256": "1745a1d41a25067deda298b78951891ca7d11375ecbb877c4f5baf9ee6c33781",
+      "tests_passed": 568
+    }
+  ],
+  "source_sha256": {
+    "experiments/audit_one_edit.py": "55d8ac642fb4ca42a5fa553e96309fdcb14d5c5769ff4885b6e005603ac56093",
+    "experiments/one_edit_channel.py": "10f306244e7dfa7dd215e3161cd300467d2a5f918a567ddf6f297f1a801a079e",
+    "experiments/one_edit_controls.py": "cabcb07112cf533bda81a00d0c49c9ba858a3ffe44137650f19520fadaa145b2",
+    "experiments/one_edit_models.py": "a3a237832704d8739e26b96aa715db08cd6beeb648665f7ff6c057dffd6e7ede",
+    "experiments/one_edit_reference.py": "fadcbba350900b7469ab723de41b9e99e10753f791953a61b8b89a79935411a9",
+    "experiments/run_one_edit.py": "60d4754aa188050077a8815e1c6a87a5a94626b673d279052382337de673d1f6",
+    "tests/test_one_edit_artifacts.py": "c4595d2086a91da226141f9037beed0cf77ce128afbc2f255dba6f5b657c6c3e",
+    "tests/test_one_edit_core.py": "82a3e59984f7bdc326f2950663e223b84f9eba8c0e5c3b6de3da8bab2731ebd3"
+  },
+  "original_completed_run": "results/one-edit-028/20261024T030031Z-4d74d4ad0beb46bc9c6b3492be7470d4/manifest.json",
+  "preserved_engineering_issues": [
+    "Lossless preflight archive retains controls exceeding uncompressed saved-output cap; streamed gzip respects unchanged cap.",
+    "Incomplete original attempt failed before actual scoring on summary-writer TypeError; preserved separately."
+  ],
+  "canonical_ciphertext_changed": false,
+  "eight_items_complete_at_declared_scope": true,
+  "K4_solved": false,
+  "ninth_investigation_started": false,
+  "site_changed": false
+}

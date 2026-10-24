@@ -123,3 +123,7 @@ Historical artifact checks validate the shared `run_io.py` / `run_bounded.py` by
 ## Item 7 checkpoint
 
 [Conditional strip controls](test_strip_source_gates.py) and [historical source QA/admission tests](test_item7_historical_source_qa.py) preserve raw ambiguities, source conflicts and unavailable binary metadata. No network retrieval is required for regression.
+
+## Final item 8 checkpoint
+
+[One-edit core tests](test_one_edit_core.py) cover all tagged maps, complete tiny truth sets and table-based inverses. [Artifact tests](test_one_edit_artifacts.py) verify immutable hashes, full-selector accounting, lossless storage and independent exact union/certificate replay. Large control JSON is streamed rather than fully loaded during regression.

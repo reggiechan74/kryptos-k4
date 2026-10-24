@@ -178,11 +178,11 @@
       "Mechanism": "Fixed 27/26 geared rings with displacement determined by the adjacent processed plaintext pair; both ring alphabets and starting phases may be arbitrary.",
       "Evidence": "Published MysteryTwister/CrypTool reconstruction and worked vectors; institutional historical context; original 1879 full operating text and authentic Plett variants not completely recovered.",
       "Tested scope": "WHEATSTONE-TRANSITION-008 excludes arbitrary fixed rings by opposed ST ciphertext equality at 24–25/33–34; two modern external vectors and complete tiny systems pass. Item 7 adds a historical Friedman REFERENCE vector and both directions, preserving one unused occluded slot and conflicting printed ciphertext. No distinct Pletts or new K4 sweep.",
-      "Untested scope": "State-dependent/hidden extra moves, changing rings, outer layers and preprocessing that changes the processed-text anchors; no universal Wheatstone/Plett/Wadsworth exclusion.",
+      "Untested scope": "State-dependent/hidden moves, changing rings, outer layers and altered processed anchors remain outside canonical exclusion. Item 8 finds some edited cases lose the old pair-equality certificate; no complete fixed-ring key search or fit was established for them.",
       "Missing inputs": "A complete independently sourced materially different operation, including preprocessing/alignment and external vector; mixed fixed alphabets alone are already covered. The historical partial-ring example does not supply a distinct Pletts rule.",
       "Next discriminating test": "Stop the aligned fixed-ring domain; pursue exact original operating conventions only if they establish a distinct mechanism rather than duplicate alphabets/directions.",
       "Dependencies": "Adjacent disclosed processed letters aligned with adjacent ciphertext; spaces emit symbols and no silent gap motion is invented; repeated-letter preprocessing is lossy.",
-      "Results": "[Original proof and limits](WHEATSTONE-TRANSITION-FINDINGS.md), [item 7 historical QA and source conflict](STRIP-SOURCE-GATES-027-FINDINGS.md), [new trace](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json), [old source receipts](../sources/wheatstone-historical-conventions-2026-10-23.json)."
+      "Results": "[Original canonical proof](WHEATSTONE-TRANSITION-FINDINGS.md), [historical QA](STRIP-SOURCE-GATES-027-FINDINGS.md), [one-edit certificate limits](ONE-EDIT-028-FINDINGS.md). Loss of a necessary contradiction is not key recovery."
     },
     {
       "id": "H-M94-CYCLIC",
@@ -201,12 +201,12 @@
       "Status": "evidence-blocked",
       "Mechanism": "Historical strip selection/alignment produces a row-dependent alphabet.",
       "Evidence": "Primary 1935 NSA A67592 draft and 1944 A67293 resurvey; SRH-366 printed 83–84 quotes the July 1943 prohibition on zero/26 intervals, independently visually checked locally. Source example/variant pixels are worker-attributed; no Sanborn-use claim.",
-      "Tested scope": "Item 7 source-conditioned direct nonzero cyclic-strip operation is analytically excluded for every valid permutation/order and nonzero offset by S→S at 33 (K→K at 74 is public additional confirmation). This is invariant reuse, not a key sweep. The 1935 original M-138 photographic 25-strip example replays, 24 rows validate and strip 1 fails strict complete admission. No complete wartime M-138-A inventory or distinct layered/adapted domain is calibrated.",
+      "Tested scope": "Direct aligned nonzero cyclic-strip operation is excluded for all valid permutations/order/offsets by known self-encipherment. Item 8 retains a self-encipherment in every admitted one-edit case, so this certificate is robust in that frozen channel. Original 1935 partial vector still fails complete-inventory admission; full alternative issues/layers are not calibrated.",
       "Untested scope": "Specific versioned M-138-A sets and operations outside direct nonzero aligned permutation-strip coverage; zero-column adaptations, changed preprocessing alignment and outer layers remain outside that source-conditioned proof.",
       "Missing inputs": "A new independently sourced rule/layer or processed-index map outside the invariant, plus its exact issue/table and vector. Full inventory is not needed for the completed no-fixed-point proof. Do not replace missing source data with fictitious modern 100-strip examples or repair O/Q.",
       "Next discriminating test": "Stop direct nonzero-row key searches. Authenticate a materially outside-invariant procedure before a new bounded key domain; keep unknown row choice as a candidate relation and unresolved glyphs visible.",
       "Dependencies": "Documented nonzero-row policy and literal English-to-cipher alignment for the proof. Original M-138 differs from later M-138-A issues; straight/split/channel-elimination policies are source-specific.",
-      "Results": "[Item 7 source and conditional proof findings](STRIP-SOURCE-GATES-027-FINDINGS.md), [source QA and traces](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json), [original conditional receipts](../results/strip-source-gates-027/README.md). Family status remains evidence-blocked for a complete authentic alternative, not wholly uninvestigated."
+      "Results": "[Historical source boundary](STRIP-SOURCE-GATES-027-FINDINGS.md), [one-edit robustness](ONE-EDIT-028-FINDINGS.md), [source QA](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json). No repaired inventory or general M-138A-family claim."
     },
     {
       "id": "H-FEISTEL-2ROUND",
@@ -273,24 +273,24 @@
       "Status": "analytical exclusion",
       "Mechanism": "Pure permutation preserves the letter multiset.",
       "Evidence": "[source or scoped prior review](STRUCTURAL-FINDINGS.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "With the literal A-Z 97-symbol baseline and unchanged disclosed English cribs, three required E letters exceed the two available; permutations alone cannot supply those cribs.",
-      "Untested scope": "Broader mechanisms outside the exact report domain.",
+      "Tested scope": "Canonical literal 97 baseline has an E-count deficit and excludes pure permutations. Item 8 counterfactual one-edit study relaxes that exclusion: primary 191 raw edits/25 distinct compact plaintext sets admit more than 10^84 strings. Those are unrestricted ambiguity, not routes or solutions.",
+      "Untested scope": "Specific independently justified restrictive routes or other layers outside existing finite coverage; the canonical no-edit exclusion remains valid.",
       "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
-      "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
+      "Next discriminating test": "Require independent route/key structure and evidence rather than treating a one-E count repair as a location or error diagnosis.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](STRUCTURAL-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[Original baseline proof](STRUCTURAL-FINDINGS.md), [one-edit ambiguity and exact counts](ONE-EDIT-028-FINDINGS.md). Source canon is unchanged; the counterfactual must not be merged into the baseline."
     },
     {
       "id": "H-PERIOD",
       "Status": "analytical exclusion",
       "Mechanism": "One fixed injective substitution per repeating phase.",
       "Evidence": "[source or scoped prior review](STRUCTURAL-FINDINGS.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Exactly 19 periods among 1–96 excluded for direct unchanged alignment and a fixed bijection per phase, not for transposition/preprocessing; remaining periods are merely not contradicted.",
+      "Tested scope": "Original 19/96 direct injective-phase period exclusions remain baseline-specific. Item 8 separately tests 48 AZ/KRYPTOS additive/true-Beaufort structures, periods 1–12, across every declared one-edit/alignment case; no full fit. It does not cover arbitrary per-phase maps or other periods under edits.",
       "Untested scope": "Broader mechanisms outside the exact report domain.",
       "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
       "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](STRUCTURAL-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[Original baseline necessary constraints](STRUCTURAL-FINDINGS.md), [final bounded periodic edit sensitivity](ONE-EDIT-028-FINDINGS.md), [all masks/keys/failed forecasts](../results/one-edit-028/README.md)."
     },
     {
       "id": "H-LANGUAGE",
@@ -702,15 +702,15 @@
     },
     {
       "id": "H-ONE-EDIT",
-      "Status": "specified but not run",
+      "Status": "non-identifiable",
       "Mechanism": "A bounded construction-error sensitivity arm.",
-      "Evidence": "[source or scoped prior review](../independent/2026-10-22/construction/REPORT.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Construction convention replays complete; no K4 edit run.",
-      "Untested scope": "Proposed 5,071 raw single-edit variants including baseline.",
-      "Missing inputs": "A separate exact index-map/model budget freeze and independent motivation for an observed K4 discrepancy.",
-      "Next discriminating test": "Retain the already replayed K2 restoration controls; require an independent K4 discrepancy and exact edit/index-map/model budget before any sensitivity sweep. Do not repair K4 post hoc.",
-      "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](../independent/2026-10-22/construction/REPORT.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Evidence": "User-requested counterfactual study without an observed K4 discrepancy; prior K1/K2/Projector construction evidence is source-specific, not an error prior for K4.",
+      "Tested scope": "ONE-EDIT-028 completes all 5,071 raw channels including baseline, two explicit index interpretations, 48 periodic structures and arbitrary position permutations. All 458,208 admitted logical periodic checks reject at full 24; unrestricted permutations admit enormous ambiguous sets. Exact post-audit primary plaintext union exceeds 10^84; no canonical edit or solution.",
+      "Untested scope": "Other cipher families, mixed alphabets, periods>12, multiple edits, key/worksheet changes and independently specified altered preprocessing. No ninth investigation or automatic expansion.",
+      "Missing inputs": "No missing input for the completed bounded counterfactual. An observed discrepancy and independently restrictive mechanism are needed before interpreting a repair as historical evidence; none was found.",
+      "Next discriminating test": "Stop the one-edit domain. Seek independent source evidence or a justified structural/algorithmic advance; do not add edits, tune anchors or promote generic first-clue fits.",
+      "Dependencies": "Canonical ciphertext stays unchanged. ENGLISH_FIXED retains every published English position; conditional cell transport preserves all 24 labels and rejects split/deleted words. Public Berlin is a second-stage check, not untouched data.",
+      "Results": "[Final findings](ONE-EDIT-028-FINDINGS.md), [original runs/maps/classes](../results/one-edit-028/README.md), [independent exact-set/union audit](../results/ONE-EDIT-028-INDEPENDENT-AUDIT.json), [eight-item overview](EIGHT-ITEM-INVESTIGATION-SUMMARY.md). Counterfactual compatibility is not evidence of an engraving error."
     },
     {
       "id": "H-ARCHITECTURE-DIAGNOSIS",
@@ -3147,6 +3147,57 @@
         "results/STRIP-SOURCE-GATES-027-VALIDATION.json"
       ],
       "original_entry": "- Kind: source-conditioned analytical exclusion, historical worked-example validation and explicit evidence-blocked mechanisms; no strip-key sweep or universal historical-family rejection.\n- Frozen conditional protocol `0e6693e`; [specification](STRIP-SOURCE-GATES-027-SPEC.md), [findings](STRIP-SOURCE-GATES-027-FINDINGS.md), [conditional code](../experiments/strip_source_gates.py), [source QA](../experiments/item7_historical_source_qa.py), [source-data admission](../experiments/strip_inventory_admission.py), [row-candidate relation](../experiments/strip_row_candidates.py).\n- Original controls start/end UTC: 2026-10-24T02:16:36.497919+00:00 / 2026-10-24T02:16:36.634250+00:00. Original conditional replay and post-source QA/replay times are separately retained in [receipts](../results/strip-source-gates-027/README.md); worker execution times are unknown. Publication time is not substituted.\n- Direct nonzero valid-strip operation cannot self-encipher: first-crib S→S at 33 already rejects, with public K→K at 74 as explanatory additional evidence. SRH-366 printed 83–84 nonzero rule independently visually verified; changing strip sets/nonzero subgroup offsets does not evade it. Zero-column/outer-layer/preprocessing alternatives remain outside that proof.\n- Separate zero-per-block relaxation: changed/fixed/changed at 32–34 rejects every width>=2 and registration. Finite widths 1..30/all origins have 465 bookkeeping descriptions, 464 contradictions, width 1 necessary-only pass. Prior M-94 width 25/origin 0 overlaps. No independent-search or global-novelty count.\n- Controls: 872 toy permutations/29,366 symbol checks, 24 continuous synthetic plants, 11,160 independent block partitions. [Resource replay](../results/STRIP-SOURCE-GATES-027-ARITHMETIC-REPLAY.json) reproduces original payloads, peak 15,122,432 bytes; original peak was not recorded.\n- Historical QA: original 1935 M-138 observed pairs reproduce +15 example; 24 complete rows validate, strip 1 O/Q literal fails complete-inventory gate without repair. Wheatstone REFERENCE→XZAABGQAM forward/inverse reproduces; conflicting printed XZZZBGQAM and unused ? slot retained. An explicitly inferred W completion is not pixel authentication. [Source QA receipt](../results/ITEM7-HISTORICAL-SOURCE-QA-027.json).\n- [Supplied report/transcription/original script](../independent/2026-10-24/item7-historical-sources/README.md) preserved; original arithmetic adapter substitutes only output path and declared PDF metadata, not arithmetic. [Local source review](../results/ITEM7-LOCAL-SOURCE-REVIEW.json) distinguishes direct SRH visual inspection, NSA web text, worker pixels and failed downloads. No source 403 retry/alternate route.\n- Complete authentic M-138-A issues, distinct Pletts rules, specific book extraction, Egyptian codec and German recovery/alignment remain source-gated. No invented model was run merely to fill those gaps, no Site change, stop before item 8.\n- Final validation: 553 tests pass on Python 3.9 and 3.12; [UTC validation receipt/logs and preserved earlier documentation failure](../results/STRIP-SOURCE-GATES-027-VALIDATION.json). No new broken links or configured CI workflow."
+    },
+    {
+      "record_id": "LOG-306DBE2114",
+      "experiment_ids": [
+        "ONE-EDIT-028"
+      ],
+      "title": "ONE-EDIT-028 — item 8 complete counterfactual edit robustness",
+      "categories": [
+        "finite K4 model tests",
+        "exact ambiguity analysis",
+        "whole-search controls",
+        "analytical constraints"
+      ],
+      "outcome": "No complete periodic fit; transposition repairs massively ambiguous and match all shuffled controls; no error claim",
+      "classification_basis": "Reviewed all5071 raw channels, explicit anchor admission, complete model masks and post-audit disjoint union; no canonical correction or broad exclusion.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": null,
+      "timestamps": [
+        {
+          "receipt": "results/ONE-EDIT-028-INDEPENDENT-AUDIT.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T03:07:02.579338Z",
+          "original": "2026-10-24T03:07:02.579338+00:00"
+        },
+        {
+          "receipt": "results/ONE-EDIT-028-INDEPENDENT-AUDIT.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T03:07:02.780435Z",
+          "original": "2026-10-24T03:07:02.780435+00:00"
+        }
+      ],
+      "links": [
+        "experiments/one_edit_channel.py",
+        "experiments/one_edit_models.py",
+        "experiments/one_edit_reference.py",
+        "research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md",
+        "research/ONE-EDIT-028-FINDINGS.md",
+        "research/ONE-EDIT-028-SPEC.md",
+        "results/ONE-EDIT-028-INDEPENDENT-AUDIT.json",
+        "results/ONE-EDIT-028-VALIDATION.json",
+        "results/one-edit-028-preflight/README.md",
+        "results/one-edit-028/README.md"
+      ],
+      "receipt_paths": [
+        "results/ONE-EDIT-028-INDEPENDENT-AUDIT.json",
+        "results/ONE-EDIT-028-VALIDATION.json"
+      ],
+      "original_entry": "- Kind: bounded exact cipher sensitivity, unrestricted-permutation ambiguity, necessary-certificate diagnostics and full-search controls; no assertion of K4 error or canonical change.\n- [Frozen protocol](ONE-EDIT-028-SPEC.md) commit `786f864`; pre-scoring implementation/control fix `aef83ca`. [Findings](ONE-EDIT-028-FINDINGS.md), [eight-item summary](EIGHT-ITEM-INVESTIGATION-SUMMARY.md), [channel](../experiments/one_edit_channel.py), [exact models](../experiments/one_edit_models.py), [independent reference](../experiments/one_edit_reference.py), [all original results](../results/one-edit-028/README.md).\n- Original UTC controls: 2026-10-24T03:00:31.710149+00:00 / 2026-10-24T03:00:50.610903+00:00; actual 2026-10-24T03:00:50.611166+00:00 / 2026-10-24T03:00:51.315755+00:00; nulls end 2026-10-24T03:01:06.353305+00:00. Post-audit/regression timestamps are separate, not publication times.\n- Exact channel count: 5,071 raw descriptions (1 baseline, 2,425 substitutions, 2,548 missing-letter insertions, 97 extra-letter deletions), 4,968 latent strings, 6,317 complete (latent,mask) instances. Two explicit coordinate interpretations; 596 transport cases inadmissible without dropping any known letter. All 9,546 admitted raw alignment cases evaluated.\n- Periodic scope: 48 same-coordinate AZ/KRYPTOS plus/true-Beaufort structures, unrestricted periods 1–12; 458,208 logical checks (303,216 unique instance checks), 41 raw first fits/29 unique records, zero complete fits. Every phase is fitted by the first 13 letters; no refit at Berlin. First-fit period 12 is guaranteed by at most one substitution, not a lead.\n- Unrestricted permutations: 191 primary raw edits and 169 conditional transport cases fit the letter counts. Two arbitrary non-language witnesses/keys per compatible instance regenerate latent text and every aliased channel to canonical 97. Independent post-audit deduplicates 27 compact plaintext sets (25 primary), checks 351 pairs disjoint and counts the exact huge union. No historical route/error/English solution claim; original bounds unchanged.\n- Diagnostics: nonzero-strip fixed-point contradiction survives all admitted cases. Wheatstone's necessary pair certificate is lost in 925 primary/51 transport cases; these are not fixed-ring keys or cipher fits. Other prior families were not silently included.\n- Controls: all 5,071 tagged maps, 30 complete tiny edit sets, 24 tiny permutation and 96 tiny periodic truth sets, 144 independent fixed-model table checks, K1/K2 and 7 original offline convention controls. All 24 full-selector plants retain truth, 137,600 compatible representations and 1–3,827 plaintexts per plant preserved. No unique-recovery claim.\n- Whole-search nulls: all 99 histogram shuffles have permutation repairs and periodic first fits; none has a full periodic fit. No partial-score promotion or positive significance claim. Lossless gzip avoids a preflight format cap without truncation; a pre-scoring summary-writer failure is preserved as incomplete, not a negative.\n- [Independent actual solver/union/certificate audit](../results/ONE-EDIT-028-INDEPENDENT-AUDIT.json), [preflight](../results/one-edit-028-preflight/README.md). Canonical data unchanged; no Site change, no ninth investigation.\n\n- Final item 8 aggregate validation: 568 tests pass on Python 3.9 and 3.12; [UTC receipt and complete logs](../results/ONE-EDIT-028-VALIDATION.json). All eight investigations are complete at their declared scope; [overview](EIGHT-ITEM-INVESTIGATION-SUMMARY.md). No ninth investigation or Site change."
     }
   ],
   "receipts": [
@@ -3612,6 +3663,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-032.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -3811,6 +3871,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-027.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-028.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -4136,6 +4203,15 @@
     },
     {
       "path": "results/FRONTIER-027.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-028.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -4548,6 +4624,15 @@
       "status": null
     },
     {
+      "path": "results/HYPOTHESIS-REGISTER-028.json",
+      "labels": [
+        "Final eight-item register snapshot with completed one-edit counterfactual"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json",
       "labels": [],
       "timestamps": [],
@@ -4805,6 +4890,37 @@
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
       "status": "passed"
+    },
+    {
+      "path": "results/ONE-EDIT-028-INDEPENDENT-AUDIT.json",
+      "labels": [
+        "independent_post_outcome_actual_set_and_exact_disjoint_union_validation"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T03:07:02.579338Z",
+          "original": "2026-10-24T03:07:02.579338+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T03:07:02.780435Z",
+          "original": "2026-10-24T03:07:02.780435+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/ONE-EDIT-028-VALIDATION.json",
+      "labels": [
+        "Final aggregate item8 regression; not original experiment timing"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
     },
     {
       "path": "results/PERIOD-MAP-ENIGMA-VALIDATION.json",
@@ -6139,6 +6255,144 @@
       "path": "results/occupied-cell-routes-001-runs/latest.json",
       "labels": [
         "20261022T193953Z-6f4f8efe83e345168a18fdc2f134d845"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "completed"
+    },
+    {
+      "path": "results/one-edit-028-preflight/receipt.json",
+      "labels": [
+        "Preflight serialization-cap issue, not a cipher negative"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T02:59:14.270769Z",
+          "original": "2026-10-24T02:59:14.270769+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/one-edit-028/20261024T025915Z-631d1a506e55420792c3f2bfd4729e95/manifest.json",
+      "labels": [
+        "Item8 complete one-edit counterfactual sensitivity",
+        "20261024T025915Z-631d1a506e55420792c3f2bfd4729e95"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:59:15.017247Z",
+          "original": "2026-10-24T02:59:15.017247+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:59:33.874336Z",
+          "original": "2026-10-24T02:59:33.874336+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "incomplete"
+    },
+    {
+      "path": "results/one-edit-028/20261024T030031Z-4d74d4ad0beb46bc9c6b3492be7470d4/actual-summary.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T03:00:50.611166Z",
+          "original": "2026-10-24T03:00:50.611166+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T03:00:51.315755Z",
+          "original": "2026-10-24T03:00:51.315755+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/one-edit-028/20261024T030031Z-4d74d4ad0beb46bc9c6b3492be7470d4/controls-summary.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T03:00:31.710149Z",
+          "original": "2026-10-24T03:00:31.710149+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T03:00:50.610903Z",
+          "original": "2026-10-24T03:00:50.610903+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "passed"
+    },
+    {
+      "path": "results/one-edit-028/20261024T030031Z-4d74d4ad0beb46bc9c6b3492be7470d4/inputs.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/one-edit-028/20261024T030031Z-4d74d4ad0beb46bc9c6b3492be7470d4/manifest.json",
+      "labels": [
+        "Item8 complete one-edit counterfactual sensitivity",
+        "20261024T030031Z-4d74d4ad0beb46bc9c6b3492be7470d4"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T03:00:31.709607Z",
+          "original": "2026-10-24T03:00:31.709607+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T03:01:06.365416Z",
+          "original": "2026-10-24T03:01:06.365416+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "completed"
+    },
+    {
+      "path": "results/one-edit-028/20261024T030031Z-4d74d4ad0beb46bc9c6b3492be7470d4/nulls.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T03:00:51.316366Z",
+          "original": "2026-10-24T03:00:51.316366+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T03:01:06.353305Z",
+          "original": "2026-10-24T03:01:06.353305+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/one-edit-028/latest.json",
+      "labels": [
+        "20261024T030031Z-4d74d4ad0beb46bc9c6b3492be7470d4"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",

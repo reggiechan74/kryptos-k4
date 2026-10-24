@@ -167,3 +167,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Item 7 checkpoint
 
 [Conditional strip engine](strip_source_gates.py), [runner](run_strip_source_gates.py), [arithmetic/resource replay](audit_strip_source_gates.py), [candidate-row relation](strip_row_candidates.py), [strict transcription gate](strip_inventory_admission.py) and [historical source QA](item7_historical_source_qa.py). No full authenticated M-138-A inventory is supplied.
+
+## Final item 8 checkpoint
+
+[Final one-edit runner](run_one_edit.py), [channel/index maps](one_edit_channel.py), [exact models](one_edit_models.py), [independent reference](one_edit_reference.py), [controls](one_edit_controls.py), [post-run audit](audit_one_edit.py). Read the [frozen scope](../research/ONE-EDIT-028-SPEC.md) before replay; gzip retains all ambiguity.

@@ -1,0 +1,2486 @@
+{
+  "started_at_utc": "2026-10-24T03:00:51.316366+00:00",
+  "finished_at_utc": "2026-10-24T03:01:06.353305+00:00",
+  "seed": 280024,
+  "draws": [
+    {
+      "draw": 0,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8858,
+      "periodic_all_raw": 0,
+      "unique_instances": 6318,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4427,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4300,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 11
+        }
+      }
+    },
+    {
+      "draw": 1,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 856,
+      "periodic_all_raw": 0,
+      "unique_instances": 6324,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 848,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3209,
+          "wheatstone_certificate_reject": 4961
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 2,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8548,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4117,
+          "periodic_all": 0,
+          "strip_certificate_reject": 113,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 3,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6317,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 769,
+          "wheatstone_certificate_reject": 379
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 104
+        }
+      }
+    },
+    {
+      "draw": 4,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 36,
+      "periodic_all_raw": 0,
+      "unique_instances": 6324,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 28,
+          "periodic_all": 0,
+          "strip_certificate_reject": 112,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 5,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 30,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 20,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1700,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 6,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 29,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 19,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3308,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 7,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 25,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 17,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5046,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 8,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 25,
+      "periodic_all_raw": 0,
+      "unique_instances": 6316,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 17,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5012,
+          "wheatstone_certificate_reject": 48
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 9,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8553,
+      "periodic_all_raw": 0,
+      "unique_instances": 6318,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4120,
+          "periodic_all": 0,
+          "strip_certificate_reject": 113,
+          "wheatstone_certificate_reject": 4961
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4433,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 10,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 29,
+      "periodic_all_raw": 0,
+      "unique_instances": 6315,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 19,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1748,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 11,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 310,
+      "periodic_all_raw": 0,
+      "unique_instances": 6317,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 302,
+          "periodic_all": 0,
+          "strip_certificate_reject": 79,
+          "wheatstone_certificate_reject": 4372
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 12,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 25,
+      "periodic_all_raw": 0,
+      "unique_instances": 6318,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 17,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4197,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 13,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 25,
+      "periodic_all_raw": 0,
+      "unique_instances": 6324,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 17,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4167,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 11
+        }
+      }
+    },
+    {
+      "draw": 14,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8554,
+      "periodic_all_raw": 0,
+      "unique_instances": 6325,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4121,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1947,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4433,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 15,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1994,
+          "wheatstone_certificate_reject": 796
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 16,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 310,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 302,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5013,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 17,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8549,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4118,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5071,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 18,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 30,
+      "periodic_all_raw": 0,
+      "unique_instances": 6324,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 20,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5046,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 19,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3396,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 20,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8453,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4070,
+          "periodic_all": 0,
+          "strip_certificate_reject": 819,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4383,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 21,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 28,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 18,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3782,
+          "wheatstone_certificate_reject": 4961
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 22,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 26,
+      "periodic_all_raw": 0,
+      "unique_instances": 6318,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 18,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5046,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 11
+        }
+      }
+    },
+    {
+      "draw": 23,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 9095,
+      "periodic_all_raw": 0,
+      "unique_instances": 6325,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4664,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5071,
+          "wheatstone_certificate_reject": 48
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 24,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 25,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 29,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 19,
+          "periodic_all": 0,
+          "strip_certificate_reject": 699,
+          "wheatstone_certificate_reject": 4146
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 26,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 25,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 17,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5071,
+          "wheatstone_certificate_reject": 4992
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 4425
+        }
+      }
+    },
+    {
+      "draw": 27,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 572,
+      "periodic_all_raw": 0,
+      "unique_instances": 6314,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 564,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3918,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 28,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 570,
+      "periodic_all_raw": 0,
+      "unique_instances": 6312,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 562,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1888,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 29,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8550,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4119,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4846,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 30,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 26,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 18,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4861,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 31,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 25,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 17,
+          "periodic_all": 0,
+          "strip_certificate_reject": 120,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 32,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 25,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 17,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5071,
+          "wheatstone_certificate_reject": 4961
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 33,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 311,
+      "periodic_all_raw": 0,
+      "unique_instances": 6324,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 303,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5071,
+          "wheatstone_certificate_reject": 57
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 34,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 315,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 305,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4401,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 35,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 322,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 314,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4124,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 36,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 29,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 19,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5046,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 37,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 570,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 562,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5046,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 38,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 333,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 325,
+          "periodic_all": 0,
+          "strip_certificate_reject": 769,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 39,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8570,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4139,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4375,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 40,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6311,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3253,
+          "wheatstone_certificate_reject": 4146
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 4425
+        }
+      }
+    },
+    {
+      "draw": 41,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 46,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 38,
+          "periodic_all": 0,
+          "strip_certificate_reject": 121,
+          "wheatstone_certificate_reject": 57
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 42,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 571,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 563,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4747,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 43,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 28,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 18,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3200,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 44,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8834,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4403,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3254,
+          "wheatstone_certificate_reject": 5044
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 4475
+        }
+      }
+    },
+    {
+      "draw": 45,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 47,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 39,
+          "periodic_all": 0,
+          "strip_certificate_reject": 644,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 46,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 332,
+      "periodic_all_raw": 0,
+      "unique_instances": 6312,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 324,
+          "periodic_all": 0,
+          "strip_certificate_reject": 73,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 47,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8548,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4117,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4295,
+          "wheatstone_certificate_reject": 4970
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 48,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 47,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 39,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4349,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 49,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8548,
+      "periodic_all_raw": 0,
+      "unique_instances": 6318,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4117,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5012,
+          "wheatstone_certificate_reject": 4372
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 50,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 25,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 17,
+          "periodic_all": 0,
+          "strip_certificate_reject": 48,
+          "wheatstone_certificate_reject": 4970
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 51,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6318,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5017,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 11
+        }
+      }
+    },
+    {
+      "draw": 52,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 28,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 18,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1746,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 53,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 28,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 18,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4981,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 54,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 37,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 29,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1848,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 55,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 117,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 56,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8548,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4117,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5046,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 57,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 858,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 850,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4400,
+          "wheatstone_certificate_reject": 4961
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 58,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 41,
+      "periodic_all_raw": 0,
+      "unique_instances": 6316,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 31,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5046,
+          "wheatstone_certificate_reject": 570
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 59,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 570,
+      "periodic_all_raw": 0,
+      "unique_instances": 6324,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 562,
+          "periodic_all": 0,
+          "strip_certificate_reject": 72,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 60,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 9116,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4685,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4996,
+          "wheatstone_certificate_reject": 4961
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 61,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 314,
+      "periodic_all_raw": 0,
+      "unique_instances": 6325,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 304,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5037,
+          "wheatstone_certificate_reject": 25
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 62,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8549,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4118,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3318,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 11
+        }
+      }
+    },
+    {
+      "draw": 63,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 310,
+      "periodic_all_raw": 0,
+      "unique_instances": 6318,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 302,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5046,
+          "wheatstone_certificate_reject": 4992
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 4425
+        }
+      }
+    },
+    {
+      "draw": 64,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6317,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3280,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 11
+        }
+      }
+    },
+    {
+      "draw": 65,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8453,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4070,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5046,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4383,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 66,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 332,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 324,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3396,
+          "wheatstone_certificate_reject": 4992
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 4425
+        }
+      }
+    },
+    {
+      "draw": 67,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 310,
+      "periodic_all_raw": 0,
+      "unique_instances": 6313,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 302,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5019,
+          "wheatstone_certificate_reject": 4970
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 68,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 28,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 18,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4400,
+          "wheatstone_certificate_reject": 4961
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 69,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 29,
+      "periodic_all_raw": 0,
+      "unique_instances": 6311,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 19,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4375,
+          "wheatstone_certificate_reject": 4961
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 70,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6313,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4275,
+          "wheatstone_certificate_reject": 379
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 104
+        }
+      }
+    },
+    {
+      "draw": 71,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5017,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 72,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 597,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 587,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4374,
+          "wheatstone_certificate_reject": 25
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 73,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 34,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 22,
+          "periodic_all": 0,
+          "strip_certificate_reject": 694,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 12,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 74,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 571,
+      "periodic_all_raw": 0,
+      "unique_instances": 6326,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 563,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 25
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 75,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5044,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 76,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8548,
+      "periodic_all_raw": 0,
+      "unique_instances": 6324,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4117,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1939,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 77,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8548,
+      "periodic_all_raw": 0,
+      "unique_instances": 6325,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4117,
+          "periodic_all": 0,
+          "strip_certificate_reject": 747,
+          "wheatstone_certificate_reject": 4372
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 78,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 46,
+      "periodic_all_raw": 0,
+      "unique_instances": 6324,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 38,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4203,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 79,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8549,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4118,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 80,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 312,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 304,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1746,
+          "wheatstone_certificate_reject": 4992
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 4425
+        }
+      }
+    },
+    {
+      "draw": 81,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8835,
+      "periodic_all_raw": 0,
+      "unique_instances": 6318,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4404,
+          "periodic_all": 0,
+          "strip_certificate_reject": 3951,
+          "wheatstone_certificate_reject": 4992
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 4425
+        }
+      }
+    },
+    {
+      "draw": 82,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 38,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 30,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1673,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 83,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 17072,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 8218,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5049,
+          "wheatstone_certificate_reject": 4372
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8854,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 84,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 34,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 22,
+          "periodic_all": 0,
+          "strip_certificate_reject": 644,
+          "wheatstone_certificate_reject": 4992
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 12,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 4425
+        }
+      }
+    },
+    {
+      "draw": 85,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 30,
+      "periodic_all_raw": 0,
+      "unique_instances": 6323,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 20,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5019,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 86,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 570,
+      "periodic_all_raw": 0,
+      "unique_instances": 6308,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 562,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 4146
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 4424
+        }
+      }
+    },
+    {
+      "draw": 87,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 8561,
+      "periodic_all_raw": 0,
+      "unique_instances": 6324,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 4130,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1989,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 4431,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 88,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 25,
+      "periodic_all_raw": 0,
+      "unique_instances": 6317,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 17,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1698,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 89,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4348,
+          "wheatstone_certificate_reject": 5067
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 4475
+        }
+      }
+    },
+    {
+      "draw": 90,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 47,
+      "periodic_all_raw": 0,
+      "unique_instances": 6325,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 39,
+          "periodic_all": 0,
+          "strip_certificate_reject": 82,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 91,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 856,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 848,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 820
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 92,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6321,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 894,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 93,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 36,
+      "periodic_all_raw": 0,
+      "unique_instances": 6320,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 28,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1729,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 94,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 24,
+      "periodic_all_raw": 0,
+      "unique_instances": 6322,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 16,
+          "periodic_all": 0,
+          "strip_certificate_reject": 1923,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 95,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 46,
+      "periodic_all_raw": 0,
+      "unique_instances": 6326,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 34,
+          "periodic_all": 0,
+          "strip_certificate_reject": 5071,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 12,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4475,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 96,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 29,
+      "periodic_all_raw": 0,
+      "unique_instances": 6319,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 19,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4948,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 4450,
+          "wheatstone_certificate_reject": 10
+        }
+      }
+    },
+    {
+      "draw": 97,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 570,
+      "periodic_all_raw": 0,
+      "unique_instances": 6324,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 562,
+          "periodic_all": 0,
+          "strip_certificate_reject": 644,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 8,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    },
+    {
+      "draw": 98,
+      "permutation_compatible_raw": 360,
+      "periodic_first_raw": 28,
+      "periodic_all_raw": 0,
+      "unique_instances": 6325,
+      "by_alignment": {
+        "ENGLISH_FIXED": {
+          "admissible": 5071,
+          "permutation_compatible": 191,
+          "periodic_first": 18,
+          "periodic_all": 0,
+          "strip_certificate_reject": 80,
+          "wheatstone_certificate_reject": 24
+        },
+        "OBSERVED_CELL_TRANSPORT": {
+          "admissible": 4475,
+          "permutation_compatible": 169,
+          "periodic_first": 10,
+          "periodic_all": 0,
+          "strip_certificate_reject": 24,
+          "wheatstone_certificate_reject": 12
+        }
+      }
+    }
+  ],
+  "permutation_events": 99,
+  "periodic_first_events": 99,
+  "periodic_complete_events": 0,
+  "interpretation": "Full edit/alignment/family exact-fit controls, no partial-score or positive significance claim. Unrestricted permutation compatibility is capacity, not a lead."
+}

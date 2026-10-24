@@ -1,0 +1,45 @@
+{
+  "run_id": "20261024T030031Z-4d74d4ad0beb46bc9c6b3492be7470d4",
+  "started_at_utc": "2026-10-24T03:00:31.709607+00:00",
+  "label": "Item8 complete one-edit counterfactual sensitivity",
+  "execution_kind": "original",
+  "status": "completed",
+  "specification": {
+    "commit": "786f86406ac64c55824967469170d6de9596563a",
+    "file": "ONE-EDIT-028-SPEC.md",
+    "sha256": "188e64143c8430c45ef30cb50bd185e0e93ed8e5cab4e3cc70211bc3213939fd",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [],
+  "artifacts": {
+    "README.md": {
+      "sha256": "99a32213e3f152cc18663caec3eeff25f78e68017e94df80d40126ff9822c67c",
+      "bytes": 258
+    },
+    "controls.json.gz": {
+      "sha256": "e780f0508d452ddfe6099bad110610b634234d852a00d15015a18e065814187b",
+      "bytes": 2158202
+    },
+    "controls-summary.json": {
+      "sha256": "427a1988c92f8323c23defde45cebf7ef569c120b18a739f6e39360436f981a6",
+      "bytes": 1134
+    },
+    "actual.json.gz": {
+      "sha256": "7202bb582305322ec7066e338e2d9b3147b7eca986f68e4a2834f0d748cf8677",
+      "bytes": 180132
+    },
+    "actual-summary.json": {
+      "sha256": "5ac4a1b1f2064917fcefd1a4974c2225d1243fcdf0a60c0f3de6203ad0d2d1cf",
+      "bytes": 11827
+    },
+    "nulls.json": {
+      "sha256": "d44540dcd918be66750e5b5a888801fb7921f9936d27244d62d78e6e9af1344a",
+      "bytes": 72427
+    },
+    "inputs.json": {
+      "sha256": "5482c483fe1f646c5f7630aa4ccdb8768d559bf7f66e0e8efe874cb435c27fc4",
+      "bytes": 861
+    }
+  },
+  "finished_at_utc": "2026-10-24T03:01:06.365416+00:00"
+}
