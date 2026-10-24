@@ -32,3 +32,23 @@ class ConditionalStripTests(unittest.TestCase):
   for path,h in json.loads((p/'inputs.json').read_text()).items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),h)
   spec=m['specification'];raw=subprocess.check_output(['git','show',spec['commit']+':research/STRIP-SOURCE-GATES-027-SPEC.md'],cwd=ROOT);self.assertEqual(hashlib.sha256(raw).hexdigest(),spec['sha256'])
   d=json.loads((p/'controls.json').read_text());self.assertEqual(len(d['literal_plants']),24);self.assertTrue(all(r['full_roundtrip'] and r['necessary_condition_pass'] for r in d['literal_plants']))
+
+ def test_untransmitted_row_choice_is_preserved_as_a_relation(self):
+  from strip_row_candidates import candidates
+  strips=[s.AZ,s.AZ[::-1],s.AZ[3:]+s.AZ[:3]]
+  for plain in ('A','ABC'):
+   for d in (1,13,25):
+    cipher=s.crypt(plain,strips,0,{0:d});rows=candidates(cipher,strips)
+    self.assertEqual(len(rows),25);self.assertEqual(len({r['plaintext'] for r in rows}),25)
+    self.assertIn(dict(displacement=d,plaintext=plain),rows)
+    self.assertFalse(any(any(p==c for p,c in zip(r['plaintext'],cipher)) for r in rows))
+   self.assertEqual(len(candidates(plain,strips,True)),26)
+
+ def test_transcription_gate_keeps_doubled_cycles_but_rejects_unknowns(self):
+  from strip_inventory_admission import cycle_from_literal,inspect_inventory
+  self.assertEqual(cycle_from_literal(s.AZ+' '+s.AZ),s.AZ)
+  for raw in (s.AZ+'?',s.AZ+s.AZ[::-1],s.AZ[:-1]+'A',s.AZ.lower()):
+   with self.assertRaises(ValueError):cycle_from_literal(raw)
+  d=inspect_inventory([dict(id='test',literal=s.AZ*2)],'SYNTHETIC-CONTROL','synthetic-control')
+  self.assertTrue(d['valid_permutations']);self.assertIn('Not established',d['source_authentication'])
+  with self.assertRaises(ValueError):inspect_inventory([dict(id='a',literal=s.AZ),dict(id='a',literal=s.AZ)],'test','test')

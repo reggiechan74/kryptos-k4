@@ -1,0 +1,15 @@
+{
+  "kind": "post_outcome_resource_and_exact_arithmetic_replay_not_historical_vector_validation",
+  "started_at_utc": "2026-10-24T02:21:55.067700+00:00",
+  "finished_at_utc": "2026-10-24T02:21:55.198123+00:00",
+  "elapsed_seconds": 0.130300375,
+  "peak_rss_bytes": 15122432,
+  "declared_cap_bytes": 268435456,
+  "original_receipts_reproduced": true,
+  "original_peak_rss_was_not_recorded": true,
+  "full_historical_inventory_admitted": false,
+  "source_sha256": {
+    "experiments/audit_strip_source_gates.py": "e845ced795a507db31bde67e08a740a9cc53ec6e7f863f4d604ff5e8875a1bbc",
+    "experiments/strip_source_gates.py": "70bb99babffa1811fa0bfe726aa61b7b265f7aec9abacd199cdcdfadbf13e467"
+  }
+}
