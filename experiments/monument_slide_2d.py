@@ -166,7 +166,7 @@ def oracle(data=None,glyphs=None):
  else:args+=['--stdin'];raw=subprocess.check_output(args,input=json.dumps(dict(input=data,glyphs=glyphs or json.loads((ROOT/'data/fold-aperture-surrogate-v1.json').read_text())['glyph_rows'])).encode(),timeout=60)
  return json.loads(raw)
 
-def run(spec_commit):
+def run(spec_commit,execution_kind="replay"):
  spec=json.loads(SPEC.read_text());committed=subprocess.check_output(['git','show',spec_commit+':research/specifications/FOLD-SLIDE-2D-001.json'],cwd=ROOT)
  if committed!=SPEC.read_bytes():raise ValueError('specification differs from frozen commit')
  for p,digest in spec['source_sha256'].items():
@@ -175,7 +175,7 @@ def run(spec_commit):
  for p in ('experiments/monument_slide_2d.py','experiments/monument_slide_2d_oracle.mjs'):
   if subprocess.check_output(['git','show',code_commit+':'+p],cwd=ROOT)!=(ROOT/p).read_bytes():raise ValueError('implementation not committed')
  root=ROOT/'results/fold-slide-2d-001-runs';registration=dict(commit=spec_commit,file='research/specifications/FOLD-SLIDE-2D-001.json',sha256=hashes['research/specifications/FOLD-SLIDE-2D-001.json'])
- with RunSnapshot(root,'FOLD-SLIDE-2D-001',registration,execution_kind='original') as snapshot:
+ with RunSnapshot(root,'FOLD-SLIDE-2D-001',registration,execution_kind=execution_kind) as snapshot:
   def job(name,action,limit):
    row=dict(experiment=name,status='running',started_at_utc=utc(),deadline_seconds=limit);snapshot.manifest['jobs'].append(row);start=time.monotonic()
    try:answer=action();budget(start,limit);row['status']='completed';return answer
@@ -201,12 +201,12 @@ def run(spec_commit):
   summaries=[]
   for null in spec['nulls']:
    report=job('whole-search-null-'+null['scheme'],lambda null=null:calibrate(engine,actual_result['records'],null['scheme'],null['draws'],null['seed']),300);snapshot.write('null-'+null['scheme']+'.json',json_bytes(report));summaries.append(dict(scheme=null['scheme'],family_endpoints=report['family_endpoints']))
-  summary=dict(id=spec['id'],status='completed',spec_commit=spec_commit,code_commit=code_commit,file_sha256=hashes,raw_frames=len(engine.frames),active_frames=len(engine.active),prior_row_zero_frames=134,new_nonzero_row_frames=7504,common_expectation_denominator=engine.D,physical_calibration=False,null_reports=summaries,label_position_rows=actual_result['label_position_rows'],aperture_position_rows=actual_result['aperture_position_rows'],independent_frames_verified=len(independent['records']),new_cipher_or_plaintext_candidate=False,started_at_utc=snapshot.manifest['started_at_utc'],finished_at_utc=utc(),timing_note='Summary end follows computation; manifest end includes publication of staged artifacts.')
+  summary=dict(id=spec['id'],execution_kind=execution_kind,status='completed',spec_commit=spec_commit,code_commit=code_commit,file_sha256=hashes,raw_frames=len(engine.frames),active_frames=len(engine.active),prior_row_zero_frames=134,new_nonzero_row_frames=7504,common_expectation_denominator=engine.D,physical_calibration=False,null_reports=summaries,label_position_rows=actual_result['label_position_rows'],aperture_position_rows=actual_result['aperture_position_rows'],independent_frames_verified=len(independent['records']),new_cipher_or_plaintext_candidate=False,started_at_utc=snapshot.manifest['started_at_utc'],finished_at_utc=utc(),timing_note='Summary end follows computation; manifest end includes publication of staged artifacts.')
   snapshot.write('summary.json',json_bytes(summary));run_id=snapshot.run_id
  return run_id
 
 if __name__=='__main__':
- parser=argparse.ArgumentParser();parser.add_argument('--controls',action='store_true');parser.add_argument('--run',action='store_true');parser.add_argument('--spec-commit');args=parser.parse_args()
+ parser=argparse.ArgumentParser();parser.add_argument('--controls',action='store_true');parser.add_argument('--run',action='store_true');parser.add_argument('--spec-commit');parser.add_argument('--execution-kind',choices=('original','replay'),default='replay');args=parser.parse_args()
  if args.controls:print(json.dumps(controls(),indent=2))
- elif args.run and args.spec_commit:print(run(args.spec_commit))
+ elif args.run and args.spec_commit:print(run(args.spec_commit,args.execution_kind))
  else:parser.error('choose --controls or --run --spec-commit FULL_SHA')

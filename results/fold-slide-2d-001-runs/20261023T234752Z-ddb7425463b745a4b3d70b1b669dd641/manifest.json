@@ -1,0 +1,84 @@
+{
+  "run_id": "20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641",
+  "started_at_utc": "2026-10-23T23:47:52.868636+00:00",
+  "label": "FOLD-SLIDE-2D-001",
+  "execution_kind": "original",
+  "status": "completed",
+  "specification": {
+    "commit": "f6aafc4735b8ff9e4f7e01975a97baf9991e1583",
+    "file": "research/specifications/FOLD-SLIDE-2D-001.json",
+    "sha256": "1f8300979ffd53bf6ae57d80e669fae5bfdc869c831c5b5d32a223273c8c92a0"
+  },
+  "jobs": [
+    {
+      "experiment": "synthetic-controls",
+      "status": "completed",
+      "started_at_utc": "2026-10-23T23:47:52.869196Z",
+      "deadline_seconds": 60,
+      "finished_at_utc": "2026-10-23T23:47:52.998372Z"
+    },
+    {
+      "experiment": "prepare-and-actual-all-frames",
+      "status": "completed",
+      "started_at_utc": "2026-10-23T23:47:52.998752Z",
+      "deadline_seconds": 120,
+      "finished_at_utc": "2026-10-23T23:47:56.484147Z"
+    },
+    {
+      "experiment": "independent-cell-pixel-oracle",
+      "status": "completed",
+      "started_at_utc": "2026-10-23T23:47:56.635193Z",
+      "deadline_seconds": 120,
+      "finished_at_utc": "2026-10-23T23:47:58.260573Z"
+    },
+    {
+      "experiment": "whole-search-null-shuffle",
+      "status": "completed",
+      "started_at_utc": "2026-10-23T23:47:58.377924Z",
+      "deadline_seconds": 300,
+      "finished_at_utc": "2026-10-23T23:48:38.912731Z"
+    },
+    {
+      "experiment": "whole-search-null-rotation",
+      "status": "completed",
+      "started_at_utc": "2026-10-23T23:48:38.954040Z",
+      "deadline_seconds": 300,
+      "finished_at_utc": "2026-10-23T23:49:19.557949Z"
+    }
+  ],
+  "artifacts": {
+    "controls.json": {
+      "sha256": "8832533c6618937e516ab1943556203a8929a12cda1727f0ad453ef69cf38b4c",
+      "bytes": 1892
+    },
+    "actual.json": {
+      "sha256": "431e86a9b73fde8525cfce9bd94998dd1c8f0af9827b5ad204eca7ab200ad637",
+      "bytes": 11656173
+    },
+    "label-matches.csv.gz": {
+      "sha256": "cca9ea84053fe119b3bf5395d42d060213e65bdfd784d32b0c490b4467633fac",
+      "bytes": 618347
+    },
+    "aperture-intersections.csv.gz": {
+      "sha256": "3106e96d21abfec373a4dd270bc580ba07b8e0aa1c9a6f45769b205eb57c5b78",
+      "bytes": 11759648
+    },
+    "independent.json": {
+      "sha256": "c957133cee87f00cf6d160910be917d9d11eb6fc6ac1e07dd168783a75647296",
+      "bytes": 10774176
+    },
+    "null-shuffle.json": {
+      "sha256": "bd84c78354cd208d06c0a53fe09459a3feaef40ebfe8d59c03ecf70a5ace5451",
+      "bytes": 3528177
+    },
+    "null-rotation.json": {
+      "sha256": "b199de36f1618f47807f2abc4e701409e43b421bf132dd9454eac2504e612277",
+      "bytes": 3527699
+    },
+    "summary.json": {
+      "sha256": "bcc01e44a7ca9e3e851c2c078b53d25966041b489696ad234adf2d99ce9cab83",
+      "bytes": 3343
+    }
+  },
+  "finished_at_utc": "2026-10-23T23:49:19.600426+00:00"
+}

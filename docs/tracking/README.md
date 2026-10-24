@@ -28,4 +28,4 @@ The shared `RunSnapshot` writer already records UTC start/end for new runs. The 
 
 ## Overlay scope
 
-FOLD-SLIDE-020 tested horizontal column displacements only, holding vertical displacement `dy = 0`. A live manual overlay may allow rows to move, but those explorations are not part of the frozen scan or its reported null calibration. No row-scan result or live Site implementation is recorded by this documentation note.
+FOLD-SLIDE-020 remains a historical column-only study with `dy = 0`. The later [FOLD-SLIDE-2D-001 item-1 study](../../research/FOLD-SLIDE-2D-FINDINGS.md) separately freezes and calibrates all integer row/column offsets under two registrations. Do not transfer old column-only p-values to rows or extend the new calibration to arbitrary words/readouts, fractional offsets or other manual choices. The live Site is a separate presentation/runtime.

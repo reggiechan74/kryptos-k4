@@ -67,3 +67,7 @@ all5new runs, each with a genuinely prior specification and code commit.
 ## Current navigation
 
 See the [project overview](../README.md), [hypothesis tracker](../docs/tracking/HYPOTHESES.md), [experiment tracker](../docs/tracking/EXPERIMENTS.md) and [receipt index](../docs/tracking/RECEIPTS.md). Older entries above are retained historical documentation; current exact scopes live in the canonical ledger.
+
+## Item 1: full integer row/column overlay
+
+[Immutable original run and guides](fold-slide-2d-001-runs/README.md), [all-frame CSV](FOLD-SLIDE-2D-001-frames.csv), [export identity](FOLD-SLIDE-2D-001-export.json), [pre-evaluation controls](FOLD-SLIDE-2D-PRE-EVALUATION-CONTROLS.json), and [separately timestamped post-run supplement](FOLD-SLIDE-2D-CONTROL-SUPPLEMENT-001.json). Native manifests record actual UTC boundaries; row-zero is prior coverage, not an additional independent discovery. The gzip CSVs retain all labels and positive surrogate intersections. [Findings](../research/FOLD-SLIDE-2D-FINDINGS.md) explain the full-search calibration and unmeasured geometry limits.

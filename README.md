@@ -4,7 +4,7 @@ This repository records an attempt to understand **K4, the final 97-letter secti
 
 K1–K3 serve as known-answer controls. Public reports of archival plaintext recovery are distinct from a published, reproducible cryptanalytic solution; see the [source verification](docs/source-verification-2026-10-18.md). This workspace does not claim independently to know all of K4’s plaintext.
 
-**[Open the live Kryptos Light Laboratory on ChatGPT](https://kryptos-light-laboratory-rc2026.milky-lion-6014.chatgpt.site)** for interactive monument, light and cipher visualizations. Its geometry is illustrative, not a surveyed physical reconstruction. The downloadable fold-and-slide HTML below is a separate offline research artifact; the live Site includes the manual row/column overlay (version 15). Row exploration is not statistically tested.
+**[Open the live Kryptos Light Laboratory on ChatGPT](https://kryptos-light-laboratory-rc2026.milky-lion-6014.chatgpt.site)** for interactive monument, light and cipher visualizations. Its geometry is illustrative, not a surveyed physical reconstruction. The downloadable fold-and-slide HTML below is a separate offline research artifact; the live Site includes the manual row/column overlay (version 15). The predefined integer row/column scan is now calibrated in the research report below; other manual exploration remains descriptive.
 
 ## Start here
 
@@ -13,10 +13,10 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 60 stable family IDs, linked to exact coverage |
 | Find an experiment, its date, result, code and receipts | [Experiment tracker](docs/tracking/EXPERIMENTS.md) and [recorded run receipts](docs/tracking/RECEIPTS.md) |
 | See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-020.json) |
-| Explore the latest fold-and-slide question | [Findings](research/MONUMENT-FOLD-SLIDE-FINDINGS.md), [every shift](results/FOLD-SLIDE-020-frames.csv), [offline interactive model](research/figures/fold-slide-020.html) |
+| Explore item 1’s systematic row-plus-column scan | [Findings](research/FOLD-SLIDE-2D-FINDINGS.md), [every 2D shift](results/FOLD-SLIDE-2D-001-frames.csv), [count maps](research/figures/fold-slide-2d-001.svg); the [earlier offline slider](research/figures/fold-slide-020.html) is column-only |
 | Reproduce the work | [Running experiments](experiments/README.md) and [test guide](tests/README.md) |
 
-**Overlay scope:** the completed scan translates columns only, with vertical displacement `dy = 0`. Manual row movement is exploratory and is not covered by the published column-scan null p-values.
+**Overlay scope:** the earlier column-only study used `dy = 0`. [Item 1’s newer predefined two-dimensional study](research/FOLD-SLIDE-2D-FINDINGS.md) covers all integer rows −28…+28 and columns −33…+33 under two fixed registrations. Its own whole-search controls show no unusual excess; the older column-only p-values are not repurposed for rows.
 
 The detailed [hypothesis ledger](research/HYPOTHESES.md) and [experiment log](research/EXPERIMENTS.md) remain the canonical sources. Generated trackers improve navigation without replacing those records.
 
@@ -36,7 +36,7 @@ Confirmed English plaintext clues occupy these **one-based inclusive** positions
 - **Structural constraints are stronger than attractive text.** [Count, repeated-phase and support checks](research/STRUCTURAL-FINDINGS.md) exclude specific direct-alignment models independently of guessed keywords. They do not exclude combinations with unspecified preprocessing or routes.
 - **Flexible models can fit without identifying a message.** The tracker distinguishes exact contradictions, compatible but ambiguous models, and mere parameter fits. Unknown keys or glyph mappings are retained as unknowns.
 - **SIGABA is an engineering frontier, not a solved K4 lead.** The [authentic adapter](research/SIGABA-REAL-ADAPTER-FINDINGS.md) has historical-convention and simulator-wiring limits. Exact synthetic inference still fails the full-domain resource gate. The [supplied-anchor filter diagnostic](research/SIGABA-COLLECTOR-FILTER-FINDINGS.md) is not blind recovery and added no full-domain controller coverage.
-- **The fold idea has now been implemented.** Double reflection reproduces MYVGT opposite AABCD without a row shift. All integer column displacements were compared. Label coincidences and approximate shared apertures show no unusual excess under the declared controls; measured monument optics remain untested.
+- **The fold idea has now been implemented.** Double reflection reproduces MYVGT opposite AABCD without a row shift. The new 7,638-frame integer row/column study extends the earlier column-only comparison. Label coincidences and approximate shared apertures show no unusual excess under the whole-search controls; measured monument optics remain untested.
 - **Physical evidence has useful limits.** [Archival research](research/evidence/README.md) distinguishes the static compass needle, true north, stone alignments and pool lighting. [Geometry provenance](docs/scott-sun-geometry-audit-2026-10-22.md) is insufficient for a calibrated optical key search.
 
 A finite negative is never a rejection of every cipher in its family. A timeout is unresolved. A source quotation, a synthetic round trip, an analytical exclusion and an actual K4 search provide different kinds of evidence.

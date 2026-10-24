@@ -1,0 +1,282 @@
+{
+  "id": "FOLD-SLIDE-2D-CONTROL-SUPPLEMENT-001",
+  "started_at_utc": "2026-10-24T00:00:10.946287Z",
+  "finished_at_utc": "2026-10-24T00:00:10.964851Z",
+  "chronology": "Post-original-run supplementary validation on the same predeclared synthetic plants only; not a new actual K4 ranking or null calibration.",
+  "original_control_scope": "Original retained controls used complete-domain raw label-count plant maxima. Standardized full selectors were separately validated against independent tiny null traversals before evaluation.",
+  "results": [
+    {
+      "truth": "FORWARD:-1:-1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:-1:-1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:-1:-1"
+        ]
+      }
+    },
+    {
+      "truth": "FORWARD:-1:0",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:-1:0"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:-1:0"
+        ]
+      }
+    },
+    {
+      "truth": "FORWARD:-1:1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:-1:1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:-1:1"
+        ]
+      }
+    },
+    {
+      "truth": "FORWARD:0:-1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:0:-1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:0:-1"
+        ]
+      }
+    },
+    {
+      "truth": "FORWARD:0:0",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:0:0"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:0:0"
+        ]
+      }
+    },
+    {
+      "truth": "FORWARD:0:1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:0:1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:0:1"
+        ]
+      }
+    },
+    {
+      "truth": "FORWARD:1:-1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:1:-1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:1:-1"
+        ]
+      }
+    },
+    {
+      "truth": "FORWARD:1:0",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:1:0"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:1:0"
+        ]
+      }
+    },
+    {
+      "truth": "FORWARD:1:1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:1:1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "FORWARD:1:1"
+        ]
+      }
+    },
+    {
+      "truth": "REVERSED:-1:-1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:-1:-1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:-1:-1"
+        ]
+      }
+    },
+    {
+      "truth": "REVERSED:-1:0",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:-1:0"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:-1:0"
+        ]
+      }
+    },
+    {
+      "truth": "REVERSED:-1:1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:-1:1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:-1:1"
+        ]
+      }
+    },
+    {
+      "truth": "REVERSED:0:-1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:0:-1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:0:-1"
+        ]
+      }
+    },
+    {
+      "truth": "REVERSED:0:0",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:0:0"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:0:0"
+        ]
+      }
+    },
+    {
+      "truth": "REVERSED:0:1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:0:1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:0:1"
+        ]
+      }
+    },
+    {
+      "truth": "REVERSED:1:-1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:1:-1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:1:-1"
+        ]
+      }
+    },
+    {
+      "truth": "REVERSED:1:0",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:1:0"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:1:0"
+        ]
+      }
+    },
+    {
+      "truth": "REVERSED:1:1",
+      "label_matches": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:1:1"
+        ]
+      },
+      "common_pixel_area": {
+        "truth_in_maximum": true,
+        "winners": [
+          "REVERSED:1:1"
+        ]
+      }
+    }
+  ],
+  "truth_in_label_statistic_maximum": 18,
+  "truth_in_area_statistic_maximum": 18,
+  "actual_new_rankings_examined": false
+}

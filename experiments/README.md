@@ -145,3 +145,7 @@ Most implementations use Python’s standard library. Some independent audits de
 ## Recording future run times
 
 Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `original`, `replay` or `validation`; the default `unspecified` deliberately makes no original-run claim. The common `run_bounded.execute` runner records timezone-bearing UTC start/end at run and job level, including failed jobs. Job timing includes action and artifact staging; snapshot end follows final publication checks. Its bounded/statistical command entrypoints are explicitly replays. Other standalone scripts retain their documented interfaces; this change does not invent historical times or imply all old scripts were migrated.
+
+## Systematic two-dimensional overlay, item 1
+
+[The frozen protocol](../research/FOLD-SLIDE-2D-SPEC.md) and [completed findings](../research/FOLD-SLIDE-2D-FINDINGS.md) distinguish label matches, surrogate apertures and conditional chance. `monument_slide_2d.py --controls` uses synthetic inputs only. To repeat the original fixed experiment, use `python3.12 experiments/monument_slide_2d.py --run --execution-kind replay --spec-commit f6aafc4735b8ff9e4f7e01975a97baf9991e1583`; a new immutable replay is created. The original source remains pinned at its recorded commit. `export_monument_slide_2d.py` formats retained results; `audit_monument_slide_2d_controls.py` records the separately labeled supplementary synthetic check. No Site deployment or subsequent numbered investigation is invoked.

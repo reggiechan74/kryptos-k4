@@ -1,0 +1,44 @@
+{
+  "id": "FOLD-SLIDE-2D-VALIDATION-001",
+  "recorded_at_utc": "2026-10-24T00:06:01.508093Z",
+  "kind": "Item 1 completed verification; no subsequent numbered investigation",
+  "original_run": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641",
+  "manifest_sha256": "98ad15962fcc3caecb86ed60a7d3900c6a23d768775da20bdb2d563dd79e8fcb",
+  "spec_commit": "f6aafc4735b8ff9e4f7e01975a97baf9991e1583",
+  "original_code_commit": "0584bbc3340ce8a50a7fed3a53feaed202420c4f",
+  "original_run_start_utc": "2026-10-23T23:47:52.868636+00:00",
+  "original_run_end_utc": "2026-10-23T23:49:19.600426+00:00",
+  "run_status": "completed",
+  "regressions": {
+    "Python 3.9": {
+      "tests": 486,
+      "passed": true,
+      "seconds": 51.996
+    },
+    "Python 3.12": {
+      "tests": 486,
+      "passed": true,
+      "seconds": 40.251
+    }
+  },
+  "label_positions_verified": 57674,
+  "surrogate_intersections_verified": 1506846,
+  "independent_frames_verified": 7638,
+  "math_algorithm_AST_unchanged_after_original": true,
+  "future_repeat_default": "replay; metadata-only argument added after original computation",
+  "supplementary_controls": "Original raw-count planted controls retained; post-run standardized maximum-set audit on the same 18 synthetic plants passes both endpoints. No actual reranking or new null calibration.",
+  "artifact_harness_note": "An initial test fixture shadowed unittest.run with a path attribute. Corrected before the full artifact checks; native scientific run was neither altered nor repeated.",
+  "job_budgets_passed": true,
+  "peak_RSS_separately_logged": false,
+  "original_python": "Python 3.12.2 observed before evaluation and explicitly invoked; version was not embedded in original native summary.",
+  "original_node_version": "not embedded in original native receipt",
+  "logs_sha256": {
+    "results/FOLD-SLIDE-2D-VALIDATION-py39.log": "cbb5afcbdab58e5ebd574b96573c7cb29904c395d4bbd361f619a95b0d6ef818",
+    "results/FOLD-SLIDE-2D-VALIDATION-py312.log": "86a7c258bc3d6e6a6d08728340f69d3e5ba0b0820c49818283544514a665a1fc",
+    "results/FOLD-SLIDE-2D-ARTIFACT-HARNESS-INITIAL.log": "9fc71f0723fce6bb71260aaaeb22e898e73bd21067d3976c30180bf2d44eb98c"
+  },
+  "subsequent_numbered_items_started": false,
+  "site_changed": false,
+  "physical_calibration": false,
+  "new_cipher_or_plaintext_candidate": false
+}

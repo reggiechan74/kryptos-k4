@@ -1,0 +1,29 @@
+{
+  "kind": "Item 1 completed: full integer 2D transcript-coincidence scan with conditional chance controls; physical optical gate retained",
+  "entries": 60,
+  "statuses": {
+    "evidence-blocked": 14,
+    "narrow negative": 23,
+    "analytical exclusion": 13,
+    "untested": 1,
+    "non-identifiable": 8,
+    "specified but not run": 1
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "d80936519426eb131fbe95e46adb1dc2fbf5ca56551af97f28b58004409fada2"
+  },
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-020.json",
+  "previous_snapshot_commit": "a0d825e7424e5090501421720dd9b100775cdb8c",
+  "overlay_raw_frames": 7638,
+  "overlay_active_frames": 7150,
+  "new_nonzero_row_frames": 7504,
+  "physical_calibration": false,
+  "new_cipher_or_plaintext_candidates": 0,
+  "SIGABA_completed_synthetic_controllers": [
+    12,
+    14
+  ],
+  "new_SIGABA_K4_joint_search": false,
+  "subsequent_numbered_items_started": false,
+  "site_changed": false
+}

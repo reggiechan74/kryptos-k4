@@ -23,3 +23,7 @@ The Site owner reports **87 Site tests passed**, including all 134 canonical col
 Local verification is **static**: patch paths, Git blob identities, candidate/dist equality, source-commit bytes, exact input and glyph equality, and equality of the 134 embedded oracle records with repository research results. It does not execute the handed-off JavaScript or prove rendered UI behavior. Reproduce these checks with `python3 experiments/verify_manual_overlay_handoff.py` from the research repository root; regression tests exercise archive integrity and malformed-path rejection.
 
 [Research findings](../../../research/MONUMENT-FOLD-SLIDE-FINDINGS.md) and the [offline research HTML](../../../research/figures/fold-slide-020.html) remain separate from the live Site implementation.
+
+## Later research scope update
+
+The unchanged version-15 source is pinned to the earlier column-only study. [The later systematic two-dimensional item-1 study](../../../research/FOLD-SLIDE-2D-FINDINGS.md) now supplies separate whole-search controls for its own fixed integer domain. This research update does not rewrite the archived UI help, transfer old p-values, or deploy a new Site version.

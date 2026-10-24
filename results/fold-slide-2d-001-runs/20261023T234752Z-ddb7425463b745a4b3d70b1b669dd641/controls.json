@@ -1,0 +1,120 @@
+{
+  "checks": 472,
+  "failures": [],
+  "plants": [
+    {
+      "truth": "FORWARD:-1:-1",
+      "winners": [
+        "FORWARD:-1:-1"
+      ]
+    },
+    {
+      "truth": "FORWARD:-1:0",
+      "winners": [
+        "FORWARD:-1:0"
+      ]
+    },
+    {
+      "truth": "FORWARD:-1:1",
+      "winners": [
+        "FORWARD:-1:1"
+      ]
+    },
+    {
+      "truth": "FORWARD:0:-1",
+      "winners": [
+        "FORWARD:0:-1"
+      ]
+    },
+    {
+      "truth": "FORWARD:0:0",
+      "winners": [
+        "FORWARD:0:0"
+      ]
+    },
+    {
+      "truth": "FORWARD:0:1",
+      "winners": [
+        "FORWARD:0:1"
+      ]
+    },
+    {
+      "truth": "FORWARD:1:-1",
+      "winners": [
+        "FORWARD:1:-1"
+      ]
+    },
+    {
+      "truth": "FORWARD:1:0",
+      "winners": [
+        "FORWARD:1:0"
+      ]
+    },
+    {
+      "truth": "FORWARD:1:1",
+      "winners": [
+        "FORWARD:1:1"
+      ]
+    },
+    {
+      "truth": "REVERSED:-1:-1",
+      "winners": [
+        "REVERSED:-1:-1"
+      ]
+    },
+    {
+      "truth": "REVERSED:-1:0",
+      "winners": [
+        "REVERSED:-1:0"
+      ]
+    },
+    {
+      "truth": "REVERSED:-1:1",
+      "winners": [
+        "REVERSED:-1:1"
+      ]
+    },
+    {
+      "truth": "REVERSED:0:-1",
+      "winners": [
+        "REVERSED:0:-1"
+      ]
+    },
+    {
+      "truth": "REVERSED:0:0",
+      "winners": [
+        "REVERSED:0:0"
+      ]
+    },
+    {
+      "truth": "REVERSED:0:1",
+      "winners": [
+        "REVERSED:0:1"
+      ]
+    },
+    {
+      "truth": "REVERSED:1:-1",
+      "winners": [
+        "REVERSED:1:-1"
+      ]
+    },
+    {
+      "truth": "REVERSED:1:0",
+      "winners": [
+        "REVERSED:1:0"
+      ]
+    },
+    {
+      "truth": "REVERSED:1:1",
+      "winners": [
+        "REVERSED:1:1"
+      ]
+    }
+  ],
+  "ambiguous_tie_fixture": [
+    "ONE:0:0",
+    "TWO:0:0"
+  ],
+  "seconds": 0.12908929074183106,
+  "actual_new_rankings_examined": false
+}

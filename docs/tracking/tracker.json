@@ -45,12 +45,12 @@
       "Status": "evidence-blocked",
       "Mechanism": "Viewing the rear can mirror glyph outlines independently of reversing the order in which positions are read.",
       "Evidence": "[source or scoped prior review](../docs/scott-sun-geometry-audit-2026-10-22.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "FOLD-SLIDE-020 tests the user-anchored MYVGT/AABCD double-reflection overlay at every integer displacement −33 through +33 under two explicit transcript registrations (134 frames). Conditional full-scan nulls show no unusual label or modeled aperture excess. This is distinct from route permutations.",
-      "Untested scope": "Measured aperture contours, calibrated face-specific registration and actual physical light transmission remain untested.",
+      "Tested scope": "FOLD-SLIDE-020 completes the 134 column-only frames. FOLD-SLIDE-2D-001 then completes all 7,638 integer row/column/registration frames (7,150 active), including 7,504 new nonzero-row frames. Independent traversal agrees on every count and matching position. Whole-search shuffles/rotations show no unusual label or surrogate-aperture excess; all four-report adjusted p-values are 1. This is transcript coincidence coverage, not physical optical calibration or decryption.",
+      "Untested scope": "Measured aperture contours, calibrated physical registration/illumination, fractional shifts and independently specified encryption or extraction from an overlay. No untested readout is silently represented by the coincidence scan.",
       "Missing inputs": "The intended initial view and fold are declared; actual aperture contours, pitch, sheet pose and light geometry remain unmeasured.",
-      "Next discriminating test": "Verify a fixed known K1–K3 photograph with an explicitly declared mirror/order operation before applying a K4 transformation.",
+      "Next discriminating test": "Obtain measured face-specific aperture/pose data before making a physical light-transmission claim; any further cipher/readout needs a separate frozen specification. The current eight-item batch stops after item 1 pending parent dispatch.",
       "Dependencies": "Completed physical-source review plus remaining independent input gates; H-OPTICAL; canonical transcript cannot be edited to fit",
-      "Results": "[retained evidence and finite coverage](../docs/scott-sun-geometry-audit-2026-10-22.md); [completed conditional fold/slide experiment](MONUMENT-FOLD-SLIDE-FINDINGS.md); the physical optical model remains evidence-blocked."
+      "Results": "[Completed two-dimensional item 1 and full controls](FOLD-SLIDE-2D-FINDINGS.md), [original column-only findings](MONUMENT-FOLD-SLIDE-FINDINGS.md), [geometry evidence limits](../docs/scott-sun-geometry-audit-2026-10-22.md). Physical optical mechanisms remain evidence-blocked."
     },
     {
       "id": "H-OPTICAL",
@@ -165,10 +165,10 @@
       "Status": "narrow negative",
       "Mechanism": "Authentic CSP-889 three-bank irregular stepping with the published simulator wiring set.",
       "Evidence": "[Historical convention and frozen domain](SIGABA-CSP889-SPEC.md), twelve published Sullivan-attributed vectors reproduced after source-derived fixture translation; not wartime hardware certification or Sanborn-use evidence.",
-      "Tested scope": "SIGABA-CSP889-001: two fixed layouts, normal orientations, repeated cipher/index starts and one variable fast-control start; 13,520 raw repeated-start keys plus full five-independent-cipher-start inference over the same 520 schedules: 6,178,315,520 raw state descriptions, including that old subset; zero first-crib survivors, continuous 97-position schedules. Simulator large-wheel wirings are not recovered wartime secret wirings. SIGABA-JOINT-TOY-012 separately implements coupled synthetic inference with complete tiny-system truth comparisons; it performs no new K4 evaluation. SIGABA-TORUS-013 validates exact torus predicate reuse on the same frozen fixtures and resolves the large compact-output comparison; see its measured scaling receipt. CSP889-REAL-014 adds the authentic coupled adapter with twelve external-vector comparisons and two fixed full-domain synthetic resource runs; both are incomplete and add no K4 evaluation. CSP889-SPARSE-015 preserves those fixtures and budgets; sparse ownership reduces prefix RSS and reserved cache reduces builds, but both real-sized runs remain unresolved. CSP889-DOMAIN-016 uses profiler-supported immutable cached-hash keys; prefix progress reaches index 17 rather than 7, but zero real controllers complete. CSP889-ANCHOR-017 proves first-observation full-torus anchoring with per-map inverse: observed constraints are reached at index 21, then the unchanged real fixture hits the memory envelope at index 24, still zero completed controllers. CSP889-COMPACT-018 then preserves exact sets with deterministic packed storage: the unchanged synthetic resource runs complete 12/14 controllers before the same wall cap, with all remaining controllers unresolved and no actual K4 evaluation. CSP889-FILTER-019 separately audits a supplied-anchor/four-controller diagnostic: 12/20 pairs reject with zero false negatives under complete reachable-map verification, but six passes lack a physical key and no full-domain coverage is added.",
-      "Untested scope": "[Real-sized joint inference remains unvalidated/resource-unresolved](SIGABA-JOINT-TOY-FINDINGS.md); the authentic five-index/26-symbol adapter is implemented and reference-checked, but both frozen real-sized synthetic resource runs fail before completing a controller; no complete real-sized inference or full-set validation is established; All other wheel orders/orientations, unrestricted independent control/index starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.",
+      "Tested scope": "SIGABA-CSP889-001: two fixed layouts, normal orientations, repeated cipher/index starts and one variable fast-control start; 13,520 raw repeated-start keys plus full five-independent-cipher-start inference over the same 520 schedules: 6,178,315,520 raw state descriptions, including that old subset; zero first-crib survivors, continuous 97-position schedules. Simulator large-wheel wirings are not recovered wartime secret wirings. SIGABA-JOINT-TOY-012 separately implements coupled synthetic inference with complete tiny-system truth comparisons; it performs no new K4 evaluation. SIGABA-TORUS-013 validates exact torus predicate reuse on the same frozen fixtures and resolves the large compact-output comparison; see its measured scaling receipt. CSP889-REAL-014 adds the authentic coupled adapter with twelve external-vector comparisons and two fixed full-domain synthetic resource runs; both are incomplete and add no K4 evaluation. CSP889-SPARSE-015 preserves those fixtures and budgets; sparse ownership reduces prefix RSS and reserved cache reduces builds, but both real-sized runs remain unresolved. CSP889-DOMAIN-016 uses profiler-supported immutable cached-hash keys; prefix progress reaches index 17 rather than 7, but zero real controllers complete. CSP889-ANCHOR-017 proves first-observation full-torus anchoring with per-map inverse: observed constraints are reached at index 21, then the unchanged real fixture hits the memory envelope at index 24, still zero completed controllers. CSP889-COMPACT-018 then preserves exact sets with deterministic packed storage: the unchanged synthetic resource runs complete 12 and 14 controllers, respectively before the same wall cap, with all remaining controllers unresolved and no actual K4 evaluation. CSP889-FILTER-019 separately audits a supplied-anchor/four-controller diagnostic: 12/20 pairs reject with zero false negatives under complete reachable-map verification, but six passes lack a physical key and no full-domain coverage is added.",
+      "Untested scope": "[Real-sized joint inference remains unvalidated/resource-unresolved](SIGABA-JOINT-TOY-FINDINGS.md); the authentic five-index/26-symbol adapter is implemented and reference-checked, COMPACT-018 completes 12 and 14 controllers in the two frozen synthetic fixtures before the wall cap, with the remaining controller domains unresolved; this is not a K4 joint search or complete real-sized inference/full-set validation. Other wheel orders/orientations, unrestricted independent control/index starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.",
       "Missing inputs": "A tractable representation and complete real-sized scaling/full-set validation for the coupled adapter, or independently motivated key restrictions; published simulator wirings do not establish unknown historical secret wirings.",
-      "Next discriminating test": "Exact anchoring/packing and a supplied-panel collector filter are validated, but only the 12/14 prior full-domain controllers are complete. Define an unknown-anchor, connected-path integration and resource gate before applying the necessary filter at scale; retain exact reachable-map verification and do not import statistical ranking or panel savings as global performance. Another arbitrary key slice does not close the inference gap.",
+      "Next discriminating test": "Exact anchoring/packing and a supplied-panel collector filter are validated, but only 12 and 14 controllers in the respective prior synthetic full-domain fixtures are complete. Define an unknown-anchor, connected-path integration and resource gate before applying the necessary filter at scale; retain exact reachable-map verification and do not import statistical ranking or panel savings as global performance. Another arbitrary key slice does not close the inference gap.",
       "Dependencies": "Published vector translation and source conventions; fixed literal A-Z 97-symbol alignment.",
       "Results": "[Supplied-panel collector consistency diagnostic](SIGABA-COLLECTOR-FILTER-FINDINGS.md), [Measured exact compressed domains](SIGABA-COMPRESSED-DOMAIN-FINDINGS.md), [Exact first-observation anchoring](SIGABA-FIRST-OBSERVATION-FINDINGS.md), [independent literature synthesis and proposed filter](SIGABA-LITERATURE-AND-FILTER-REVIEW.md), [Profiler-directed exact domain keys](SIGABA-DOMAIN-IDENTITY-FINDINGS.md), [Sparse ownership and reserved cache outcomes](SIGABA-SPARSE-OWNERSHIP-FINDINGS.md), [Authentic coupled adapter and failed resource gate](SIGABA-REAL-ADAPTER-FINDINGS.md), [Exact torus reuse and measured scaling](SIGABA-TORUS-FINDINGS.md), [Coupled synthetic solver and limits](SIGABA-JOINT-TOY-FINDINGS.md), [complete cipher-state inference](SIGABA-CSP889-STATE-FINDINGS.md) and [Known-answer controls](../results/SIGABA-CSP889-001-controls.json), [complete finite negative](../results/SIGABA-CSP889-001.json) and [findings](SIGABA-CSP889-FINDINGS.md). The custom H-SIGABA-INSPIRED result remains separate."
     },
@@ -2684,6 +2684,70 @@
         "results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json"
       ],
       "original_entry": "- Date: 2026-10-23 UTC, integration record date; exact original Site-test and publication times were not supplied.\n- Type: Site source archive and static data validation, not an additional K4 cipher experiment.\n- The parent relayed native publication confirmation: Site version 15 live, public access revision 2 unchanged. Source commit `086ace2bfb2ca6e23ddddf76fe5f37c51dd75aea`, based on `d4155931cd760d4222c9f66916551110eb40053b`. No deployment performed here.\n- Exact local patch archived; all 25 changed paths and 18 new-file bodies independently match the source commit, with no child-checkout write. Candidate/dist new modules agree.\n- Input/glyph values and all 134 embedded column-frame oracle records match retained research data. Local validation is static and executes no handed-off JavaScript.\n- Owner reports 87 code tests passed. Actual rendered-browser QA remained blocked by locked Mac; no local full Site suite or native-browser replay is claimed.\n- Row movement is exploratory; no systematic row scan or inherited column-only null p-value.\n- [Archive and limitations](../docs/site-source/manual-overlay-v15/README.md), [receipt](../results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json), [static verifier](../experiments/verify_manual_overlay_handoff.py)."
+    },
+    {
+      "record_id": "LOG-9B64FD9FE3",
+      "experiment_ids": [
+        "FOLD-SLIDE-2D-001"
+      ],
+      "title": "FOLD-SLIDE-2D-001 — item 1 systematic row-plus-column overlay",
+      "categories": [
+        "inscription-layout comparison",
+        "whole-search calibration"
+      ],
+      "outcome": "7,638 frames completed; no unusual label/area excess under either full-search control; physical optics uncalibrated",
+      "classification_basis": "Completed original run, immutable UTC manifest, full position tables and independently checked cell/pixel results. Item 1 only.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-23 UTC, original computation. Manifest start `2026-10-23T23:47:52.868636Z`, end `2026-10-23T23:49:19.600426Z`; job-level start/end are retained separately. Commit/publication times are not substituted.",
+      "date_only": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-23T23:47:52.868636Z",
+          "original": "2026-10-23T23:47:52.868636+00:00"
+        },
+        {
+          "receipt": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-23T23:49:19.600426Z",
+          "original": "2026-10-23T23:49:19.600426+00:00"
+        },
+        {
+          "receipt": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-23T23:47:52.868636Z",
+          "original": "2026-10-23T23:47:52.868636+00:00"
+        },
+        {
+          "receipt": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-23T23:49:19.600187Z",
+          "original": "2026-10-23T23:49:19.600187Z"
+        }
+      ],
+      "links": [
+        "experiments/monument_slide_2d.py",
+        "research/FOLD-SLIDE-2D-FINDINGS.md",
+        "research/FOLD-SLIDE-2D-SPEC.md",
+        "results/FOLD-SLIDE-2D-001-frames.csv",
+        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json",
+        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json"
+      ],
+      "receipt_paths": [
+        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json",
+        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json"
+      ],
+      "original_entry": "- Date: 2026-10-23 UTC, original computation. Manifest start `2026-10-23T23:47:52.868636Z`, end `2026-10-23T23:49:19.600426Z`; job-level start/end are retained separately. Commit/publication times are not substituted.\n- Type: inscription-layout comparison and whole-search chance calibration, not a cipher or plaintext-generation model. Item 1 only; items 2–8 not started.\n- Frozen specification `f6aafc4735b8ff9e4f7e01975a97baf9991e1583`, validated implementation `0584bbc3340ce8a50a7fed3a53feaed202420c4f`, then original run. Later runner change adds execution-purpose metadata only, defaulting repeats to replay.\n- Domain: both existing registrations, dx −33…+33, dy −28…+28, no wrapping and same-facing double reflection. 7,638 raw frames / 7,150 active; 134 prior row-zero frames reproduce exactly, 7,504 nonzero-row frames newly covered.\n- Largest standardized label excess: 21/248 comparable pairs, dx=+19, dy=−7, primary registration. Whole-search tails 0.7475 shuffle / 0.7635 rotation. Area tails 0.6500 / 0.6090. All four-report adjusted p-values are 1. No unusual excess or cipher candidate.\n- Controls: 1,999 full-selector draws per scheme, fixed original anchor/row histograms/punctuation/tableau; exact means and exact signed-rational ranking. Independent cell/pixel code checks all 7,638 frames and positions; 18 complete-selector toy plants and ambiguity/expectation/mutation controls precede evaluation.\n- Complete positions: 57,674 label matches, 1,506,846 positive surrogate intersections. No lexical scoring or arbitrary extraction. Measured physical optics remain outside coverage.\n- [Findings](FOLD-SLIDE-2D-FINDINGS.md), [frozen protocol](FOLD-SLIDE-2D-SPEC.md), [all-frame table](../results/FOLD-SLIDE-2D-001-frames.csv), [summary](../results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json), [manifest](../results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json), [native implementation](../experiments/monument_slide_2d.py).\n- The stale current SIGABA scope wording is corrected to COMPACT-018’s 12 and 14 synthetic controllers; historical zero-controller stages remain preserved. No new SIGABA/K4 joint search, Site deployment or subsequent item."
     }
   ],
   "receipts": [
@@ -3076,6 +3140,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-025.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -3232,6 +3305,13 @@
       "status": null
     },
     {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-021.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/FACE-ROW-001-COVERAGE.json",
       "labels": [
         "prior-coverage audit; zero K4 evaluations"
@@ -3337,6 +3417,68 @@
       "status": null
     },
     {
+      "path": "results/FOLD-SLIDE-2D-001-export.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FOLD-SLIDE-2D-CONTROL-SUPPLEMENT-001.json",
+      "labels": [
+        "FOLD-SLIDE-2D-CONTROL-SUPPLEMENT-001"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T00:00:10.946287Z",
+          "original": "2026-10-24T00:00:10.946287Z"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T00:00:10.964851Z",
+          "original": "2026-10-24T00:00:10.964851Z"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/FOLD-SLIDE-2D-PRE-EVALUATION-CONTROLS.json",
+      "labels": [
+        "Synthetic pre-evaluation controls; no new systematic actual ranking"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-23T23:47:52.687828Z",
+          "original": "2026-10-23T23:47:52.687828Z"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/FOLD-SLIDE-2D-VALIDATION-001.json",
+      "labels": [
+        "FOLD-SLIDE-2D-VALIDATION-001",
+        "Item 1 completed verification; no subsequent numbered investigation"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T00:06:01.508093Z",
+          "original": "2026-10-24T00:06:01.508093Z"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
       "path": "results/FRONTIER-011-validation.json",
       "labels": [],
       "timestamps": [],
@@ -3426,6 +3568,15 @@
     },
     {
       "path": "results/FRONTIER-020.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-021.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -3769,6 +3920,15 @@
       "path": "results/HYPOTHESIS-REGISTER-020.json",
       "labels": [
         "Completed conditional fold/slide and visitor documentation; no cipher-solution claim"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/HYPOTHESIS-REGISTER-021.json",
+      "labels": [
+        "Item 1 completed: full integer 2D transcript-coincidence scan with conditional chance controls; physical optical gate retained"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -4616,6 +4776,95 @@
       "path": "results/dynamic-key-runs/latest.json",
       "labels": [
         "20261022T120128Z-c15ba5ffeb55479490d2be553daf60f0"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "completed"
+    },
+    {
+      "path": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/actual.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/controls.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/independent.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json",
+      "labels": [
+        "FOLD-SLIDE-2D-001",
+        "20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-23T23:47:52.868636Z",
+          "original": "2026-10-23T23:47:52.868636+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-23T23:49:19.600426Z",
+          "original": "2026-10-23T23:49:19.600426+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "completed"
+    },
+    {
+      "path": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/null-rotation.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/null-shuffle.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json",
+      "labels": [
+        "FOLD-SLIDE-2D-001"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-23T23:47:52.868636Z",
+          "original": "2026-10-23T23:47:52.868636+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-23T23:49:19.600187Z",
+          "original": "2026-10-23T23:49:19.600187Z"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "completed"
+    },
+    {
+      "path": "results/fold-slide-2d-001-runs/latest.json",
+      "labels": [
+        "20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",

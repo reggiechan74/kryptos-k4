@@ -1507,3 +1507,25 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - [Archive and limitations](../site-source/manual-overlay-v15/README.md), [receipt](../../results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json), [static verifier](../../experiments/verify_manual_overlay_handoff.py).
 
 Related files: [docs/site-source/manual-overlay-v15/README.md](../site-source/manual-overlay-v15/README.md), [experiments/verify_manual_overlay_handoff.py](../../experiments/verify_manual_overlay_handoff.py), [results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json](../../results/SITE-MANUAL-FOLD-V15-SOURCE-HANDOFF.json).
+
+## LOG-9B64FD9FE3
+
+**FOLD-SLIDE-2D-001 — item 1 systematic row-plus-column overlay**
+
+start: 2026-10-23T23:47:52.868636Z; end: 2026-10-23T23:49:19.600426Z; end: 2026-10-23T23:49:19.600187Z; date-only record: 2026-10-23 (date statement; not a run timestamp); original date statement: 2026-10-23 UTC, original computation. Manifest start `2026-10-23T23:47:52.868636Z`, end `2026-10-23T23:49:19.600426Z`; job-level start/end are retained separately. Commit/publication times are not substituted.
+
+Type: inscription-layout comparison; whole-search calibration. Outcome: 7,638 frames completed; no unusual label/area excess under either full-search control; physical optics uncalibrated
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-23 UTC, original computation. Manifest start `2026-10-23T23:47:52.868636Z`, end `2026-10-23T23:49:19.600426Z`; job-level start/end are retained separately. Commit/publication times are not substituted.
+- Type: inscription-layout comparison and whole-search chance calibration, not a cipher or plaintext-generation model. Item 1 only; items 2–8 not started.
+- Frozen specification `f6aafc4735b8ff9e4f7e01975a97baf9991e1583`, validated implementation `0584bbc3340ce8a50a7fed3a53feaed202420c4f`, then original run. Later runner change adds execution-purpose metadata only, defaulting repeats to replay.
+- Domain: both existing registrations, dx −33…+33, dy −28…+28, no wrapping and same-facing double reflection. 7,638 raw frames / 7,150 active; 134 prior row-zero frames reproduce exactly, 7,504 nonzero-row frames newly covered.
+- Largest standardized label excess: 21/248 comparable pairs, dx=+19, dy=−7, primary registration. Whole-search tails 0.7475 shuffle / 0.7635 rotation. Area tails 0.6500 / 0.6090. All four-report adjusted p-values are 1. No unusual excess or cipher candidate.
+- Controls: 1,999 full-selector draws per scheme, fixed original anchor/row histograms/punctuation/tableau; exact means and exact signed-rational ranking. Independent cell/pixel code checks all 7,638 frames and positions; 18 complete-selector toy plants and ambiguity/expectation/mutation controls precede evaluation.
+- Complete positions: 57,674 label matches, 1,506,846 positive surrogate intersections. No lexical scoring or arbitrary extraction. Measured physical optics remain outside coverage.
+- [Findings](../../research/FOLD-SLIDE-2D-FINDINGS.md), [frozen protocol](../../research/FOLD-SLIDE-2D-SPEC.md), [all-frame table](../../results/FOLD-SLIDE-2D-001-frames.csv), [summary](../../results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json), [manifest](../../results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json), [native implementation](../../experiments/monument_slide_2d.py).
+- The stale current SIGABA scope wording is corrected to COMPACT-018’s 12 and 14 synthetic controllers; historical zero-controller stages remain preserved. No new SIGABA/K4 joint search, Site deployment or subsequent item.
+
+Related files: [experiments/monument_slide_2d.py](../../experiments/monument_slide_2d.py), [research/FOLD-SLIDE-2D-FINDINGS.md](../../research/FOLD-SLIDE-2D-FINDINGS.md), [research/FOLD-SLIDE-2D-SPEC.md](../../research/FOLD-SLIDE-2D-SPEC.md), [results/FOLD-SLIDE-2D-001-frames.csv](../../results/FOLD-SLIDE-2D-001-frames.csv), [results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json](../../results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/manifest.json), [results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json](../../results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json).

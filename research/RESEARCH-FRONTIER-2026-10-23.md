@@ -60,3 +60,8 @@ A genuinely new observation, authenticated distinct procedure or sound solver im
 FOLD-SLIDE-020 completes the user-anchored double-reflection transcript overlay, with every integer column displacement, full-family conditional controls and exact position readouts. [Findings](MONUMENT-FOLD-SLIDE-FINDINGS.md) distinguish same-facing glyph labels from uncalibrated modeled common apertures. This adds no decryption candidate and does not remove the missing measured-geometry gate. [FRONTIER-020](../results/FRONTIER-020.json) supersedes the readiness snapshot; prior receipts remain historical.
 
 The [visitor trackers](../docs/tracking/README.md) index the current 60-family canonical register and original experiment log. They preserve unknown run times rather than infer them from commits. This documentation work does not run another cipher search or change the live Site.
+
+
+## Item 1 completed: predefined two-dimensional overlay
+
+[FOLD-SLIDE-2D-001](FOLD-SLIDE-2D-FINDINGS.md) completes all 7,638 prescribed integer row/column/registration frames. Its two whole-search conditional nulls show no unusual label or surrogate-area excess; no encryption/readout is inferred. [FRONTIER-021](../results/FRONTIER-021.json) retains the remaining evidence/algorithm gates and does not launch items 2–8. The current SIGABA scope explicitly preserves COMPACT-018’s 12 and 14 completed synthetic controllers with the remainder unresolved; no K4 joint run occurred.

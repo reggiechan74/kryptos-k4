@@ -35,3 +35,8 @@ class TwoDimensionalOverlayTests(unittest.TestCase):
   data=m.toy_data(['AAA','AAA'],{'ONE':['AAA','AAA']});e=m.Engine(data,{'glyph_rows':{'A':['11111']*7}});scores=e.score(e.base.base);i=next(i for i,f in enumerate(e.frames) if f['dx']==f['dy']==0);self.assertEqual(scores[0][i],6);self.assertEqual(scores[1][i],210)
   with patch.object(e,'score',return_value=[[0]*len(e.frames),[0]*len(e.frames)]),self.assertRaises(AssertionError):m.actual(e,False)
   with self.assertRaises(TimeoutError):m.budget(0,-1)
+
+ def test_future_replays_are_labelled_separately_from_original_run(self):
+  import inspect,subprocess
+  self.assertEqual(inspect.signature(m.run).parameters['execution_kind'].default,'replay')
+  help_text=subprocess.check_output([sys.executable,str(ROOT/'experiments/monument_slide_2d.py'),'--help']).decode();self.assertIn('--execution-kind {original,replay}',help_text)

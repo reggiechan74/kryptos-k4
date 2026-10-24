@@ -1,0 +1,89 @@
+{
+  "id": "FOLD-SLIDE-2D-001",
+  "status": "completed",
+  "spec_commit": "f6aafc4735b8ff9e4f7e01975a97baf9991e1583",
+  "code_commit": "0584bbc3340ce8a50a7fed3a53feaed202420c4f",
+  "file_sha256": {
+    "data/monument-slide-input-v2.json": "a87af48ecbdfbdb4bc0ae5680f89c162c5cb0639773acb64b30d9f09d6f884b4",
+    "data/fold-aperture-surrogate-v1.json": "e53413e17026ca7d353da550008606b813cd59dda3550549733b6639f4479baa",
+    "experiments/monument_slide.py": "e012a0d77e83e851d940da4b1e10258f8909bdddcb6eb483c88236ac479afc5f",
+    "results/FOLD-SLIDE-020-actual.json": "a245203d52880b3c0238ac0068b65caa1d8d8d3e284bec5134b10931b41706a3",
+    "research/specifications/FOLD-SLIDE-2D-001.json": "1f8300979ffd53bf6ae57d80e669fae5bfdc869c831c5b5d32a223273c8c92a0",
+    "experiments/monument_slide_2d.py": "524d471870b718d3a39d88efc8636d8a2bb0a44d15367b67fb64ba39a61f7261",
+    "experiments/monument_slide_2d_oracle.mjs": "9c6a9630ec74c774dc1dc222a4c911e729c50214d82bab8936dee70fdad173ba",
+    "experiments/run_io.py": "ee1df1210382630baceca4141450a0b37a8571c983f4e0881e3ea0858ab17ec5"
+  },
+  "raw_frames": 7638,
+  "active_frames": 7150,
+  "prior_row_zero_frames": 134,
+  "new_nonzero_row_frames": 7504,
+  "common_expectation_denominator": 33227040,
+  "physical_calibration": false,
+  "null_reports": [
+    {
+      "scheme": "shuffle",
+      "family_endpoints": [
+        {
+          "endpoint": "label_matches",
+          "actual_maximum": {
+            "frame": "OBSERVED_RENDER33:-7:19",
+            "difference_numerator": 389947833,
+            "weight": 307820007,
+            "display_stat": 3.8557801414374824
+          },
+          "exceedances": 1494,
+          "plus_one_p": 0.7475,
+          "four_report_adjusted_p": 1
+        },
+        {
+          "endpoint": "common_pixel_area",
+          "actual_maximum": {
+            "frame": "OBSERVED_RENDER33:23:28",
+            "difference_numerator": 1104829264,
+            "weight": 4211497136,
+            "display_stat": 2.9534599568470967
+          },
+          "exceedances": 1299,
+          "plus_one_p": 0.65,
+          "four_report_adjusted_p": 1
+        }
+      ]
+    },
+    {
+      "scheme": "rotation",
+      "family_endpoints": [
+        {
+          "endpoint": "label_matches",
+          "actual_maximum": {
+            "frame": "OBSERVED_RENDER33:-7:19",
+            "difference_numerator": 389947833,
+            "weight": 307820007,
+            "display_stat": 3.8557801414374824
+          },
+          "exceedances": 1526,
+          "plus_one_p": 0.7635,
+          "four_report_adjusted_p": 1
+        },
+        {
+          "endpoint": "common_pixel_area",
+          "actual_maximum": {
+            "frame": "OBSERVED_RENDER33:23:28",
+            "difference_numerator": 1104829264,
+            "weight": 4211497136,
+            "display_stat": 2.9534599568470967
+          },
+          "exceedances": 1217,
+          "plus_one_p": 0.609,
+          "four_report_adjusted_p": 1
+        }
+      ]
+    }
+  ],
+  "label_position_rows": 57674,
+  "aperture_position_rows": 1506846,
+  "independent_frames_verified": 7638,
+  "new_cipher_or_plaintext_candidate": false,
+  "started_at_utc": "2026-10-23T23:47:52.868636+00:00",
+  "finished_at_utc": "2026-10-23T23:49:19.600187Z",
+  "timing_note": "Summary end follows computation; manifest end includes publication of staged artifacts."
+}

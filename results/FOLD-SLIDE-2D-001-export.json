@@ -1,0 +1,196 @@
+{
+  "run": "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641",
+  "manifest_start_utc": "2026-10-23T23:47:52.868636+00:00",
+  "manifest_end_utc": "2026-10-23T23:49:19.600426+00:00",
+  "top_statistics": {
+    "label_matches": {
+      "tie_count": 1,
+      "top_five": [
+        {
+          "id": "OBSERVED_RENDER33:-7:19",
+          "model": "OBSERVED_RENDER33",
+          "dy": -7,
+          "dx": 19,
+          "geometric_overlap_cells": 294,
+          "comparable_letter_pairs": 248,
+          "label_matches": 21,
+          "common_pixel_area": 2249,
+          "matched_letters": "JFHLNJLNQXIQMUVOYTBAE",
+          "expected_numerators": [
+            307820007,
+            72026995007
+          ]
+        },
+        {
+          "id": "DUNIN_HEADER33:23:-9",
+          "model": "DUNIN_HEADER33",
+          "dy": 23,
+          "dx": -9,
+          "geometric_overlap_cells": 120,
+          "comparable_letter_pairs": 109,
+          "label_matches": 11,
+          "common_pixel_area": 948,
+          "matched_letters": "KLMCDMRGHWX",
+          "expected_numerators": [
+            121052624,
+            31487410416
+          ]
+        },
+        {
+          "id": "DUNIN_HEADER33:-7:19",
+          "model": "DUNIN_HEADER33",
+          "dy": -7,
+          "dx": 19,
+          "geometric_overlap_cells": 294,
+          "comparable_letter_pairs": 247,
+          "label_matches": 20,
+          "common_pixel_area": 2247,
+          "matched_letters": "JFHLNJLNQXIQMUVOYTBE",
+          "expected_numerators": [
+            307820007,
+            71790252347
+          ]
+        },
+        {
+          "id": "OBSERVED_RENDER33:24:27",
+          "model": "OBSERVED_RENDER33",
+          "dy": 24,
+          "dx": 27,
+          "geometric_overlap_cells": 24,
+          "comparable_letter_pairs": 16,
+          "label_matches": 4,
+          "common_pixel_area": 153,
+          "matched_letters": "BBYP",
+          "expected_numerators": [
+            17292352,
+            4513839792
+          ]
+        },
+        {
+          "id": "DUNIN_HEADER33:24:-28",
+          "model": "DUNIN_HEADER33",
+          "dy": 24,
+          "dx": -28,
+          "geometric_overlap_cells": 20,
+          "comparable_letter_pairs": 12,
+          "label_matches": 4,
+          "common_pixel_area": 106,
+          "matched_letters": "CDTT",
+          "expected_numerators": [
+            17292352,
+            3246174624
+          ]
+        }
+      ]
+    },
+    "common_pixel_area": {
+      "tie_count": 1,
+      "top_five": [
+        {
+          "id": "OBSERVED_RENDER33:23:28",
+          "model": "OBSERVED_RENDER33",
+          "dy": 23,
+          "dx": 28,
+          "geometric_overlap_cells": 25,
+          "comparable_letter_pairs": 14,
+          "label_matches": 4,
+          "common_pixel_area": 160,
+          "matched_letters": "KRYP",
+          "expected_numerators": [
+            20655712,
+            4211497136
+          ]
+        },
+        {
+          "id": "OBSERVED_RENDER33:-25:21",
+          "model": "OBSERVED_RENDER33",
+          "dy": -25,
+          "dx": 21,
+          "geometric_overlap_cells": 36,
+          "comparable_letter_pairs": 30,
+          "label_matches": 1,
+          "common_pixel_area": 289,
+          "matched_letters": "Y",
+          "expected_numerators": [
+            39443712,
+            8126583696
+          ]
+        },
+        {
+          "id": "DUNIN_HEADER33:23:28",
+          "model": "DUNIN_HEADER33",
+          "dy": 23,
+          "dx": 28,
+          "geometric_overlap_cells": 25,
+          "comparable_letter_pairs": 13,
+          "label_matches": 4,
+          "common_pixel_area": 143,
+          "matched_letters": "KRYP",
+          "expected_numerators": [
+            20655712,
+            3794440496
+          ]
+        },
+        {
+          "id": "DUNIN_HEADER33:26:29",
+          "model": "DUNIN_HEADER33",
+          "dy": 26,
+          "dx": 29,
+          "geometric_overlap_cells": 8,
+          "comparable_letter_pairs": 3,
+          "label_matches": 1,
+          "common_pixel_area": 41,
+          "matched_letters": "A",
+          "expected_numerators": [
+            8574720,
+            903561120
+          ]
+        },
+        {
+          "id": "OBSERVED_RENDER33:-3:30",
+          "model": "OBSERVED_RENDER33",
+          "dy": -3,
+          "dx": 30,
+          "geometric_overlap_cells": 75,
+          "comparable_letter_pairs": 21,
+          "label_matches": 3,
+          "common_pixel_area": 216,
+          "matched_letters": "DEI",
+          "expected_numerators": [
+            21662130,
+            6075313153
+          ]
+        }
+      ]
+    }
+  },
+  "maximum_raw_label_count": 37,
+  "raw_label_leaders": [
+    {
+      "id": "OBSERVED_RENDER33:6:2",
+      "geometric_overlap_cells": 682,
+      "comparable_letter_pairs": 632,
+      "label_matches": 37,
+      "matched_letters": "UZFUFURTJFBDUAYLHATALIMTUAIAERPFDUTKD"
+    },
+    {
+      "id": "DUNIN_HEADER33:-3:-5",
+      "geometric_overlap_cells": 700,
+      "comparable_letter_pairs": 653,
+      "label_matches": 37,
+      "matched_letters": "KRMJUHWPZFHNCVKBNQZGQUCMAWTTEAEMETEIE"
+    },
+    {
+      "id": "DUNIN_HEADER33:6:2",
+      "geometric_overlap_cells": 682,
+      "comparable_letter_pairs": 631,
+      "label_matches": 37,
+      "matched_letters": "EKFUFURTJFBDUAYLHATALIMTUAIAERPFDUTKD"
+    }
+  ],
+  "source_sha256": {
+    "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/actual.json": "431e86a9b73fde8525cfce9bd94998dd1c8f0af9827b5ad204eca7ab200ad637",
+    "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/null-shuffle.json": "bd84c78354cd208d06c0a53fe09459a3feaef40ebfe8d59c03ecf70a5ace5451",
+    "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/null-rotation.json": "b199de36f1618f47807f2abc4e701409e43b421bf132dd9454eac2504e612277"
+  }
+}
