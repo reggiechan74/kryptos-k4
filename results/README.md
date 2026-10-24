@@ -81,3 +81,7 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Item 5 checkpoint
 
 [Original lamp/Greek receipts and all plants/nulls](lamp-greek-025/README.md), [independent complete-selector audit](LAMP-GREEK-025-INDEPENDENT-VALIDATION.json), [finite support/phase certificates](LAMP-GREEK-025-CERTIFICATES.json). Original run and post-outcome validation times are separate. No first-crib survivor, no significance claim.
+
+## Item 6 checkpoint
+
+[Item 6 run receipts](tree-geometry-ipa-026/README.md) preserve the failed pre-K4 control attempt separately from the complete run, all 448 models, plants and nulls. [Independent post-outcome audit](TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json).

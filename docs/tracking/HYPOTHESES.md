@@ -60,7 +60,7 @@ Generated navigation; edit the canonical ledger or receipts, then run `python3 e
 | H-CLOCK-24-ROUTE | narrow negative | World Clock-inspired ragged 24-column routes plus periodic substitution. | [H-CLOCK-24-ROUTE canonical record](../../research/HYPOTHESES.md#h-clock-24-route) |
 | H-OCCUPIED-CELL-FIXED | narrow negative | Use the actual carved K4 occupied-cell mask with fixed phased keys. | [H-OCCUPIED-CELL-FIXED canonical record](../../research/HYPOTHESES.md#h-occupied-cell-fixed) |
 | H-LETTER-GEOMETRY | narrow negative | Represent idealized glyph geometry with unique feature arrays/codes. | [H-LETTER-GEOMETRY canonical record](../../research/HYPOTHESES.md#h-letter-geometry) |
-| H-IPA-DICTIONARY | narrow negative | Use source-fixed dictionary IPA windows before encryption. | [H-IPA-DICTIONARY canonical record](../../research/HYPOTHESES.md#h-ipa-dictionary) |
+| H-IPA-DICTIONARY | narrow negative | Use source-fixed dictionary IPA windows before encryption, or explicitly pronunciation-derived running key material without respelling plaintext. | [H-IPA-DICTIONARY canonical record](../../research/HYPOTHESES.md#h-ipa-dictionary) |
 | H-BOUNDARY-STATE | narrow negative | One internal boundary resets to the same shared seed/state. | [H-BOUNDARY-STATE canonical record](../../research/HYPOTHESES.md#h-boundary-state) |
 | H-AUTONOMOUS-RECURRENCE | analytical exclusion | A fixed homogeneous/affine multi-lag modular key generator. | [H-AUTONOMOUS-RECURRENCE canonical record](../../research/HYPOTHESES.md#h-autonomous-recurrence) |
 | H-RADIX-FEEDBACK | analytical exclusion | Changing-base geometric codes enter a fixed affine key recurrence. | [H-RADIX-FEEDBACK canonical record](../../research/HYPOTHESES.md#h-radix-feedback) |

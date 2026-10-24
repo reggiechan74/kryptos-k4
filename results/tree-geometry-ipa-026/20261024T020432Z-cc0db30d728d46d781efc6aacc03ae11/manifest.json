@@ -1,0 +1,18 @@
+{
+  "run_id": "20261024T020432Z-cc0db30d728d46d781efc6aacc03ae11",
+  "started_at_utc": "2026-10-24T02:04:32.063520+00:00",
+  "label": "Item6 distinct tree geometry IPA mechanisms",
+  "execution_kind": "original",
+  "status": "incomplete",
+  "specification": {
+    "commit": "e35121c31d34c62c8f836d9169214f79d53de8b5",
+    "file": "TREE-GEOMETRY-IPA-026-SPEC.md",
+    "sha256": "d507b86afc3ebbff0b71f396be2a860aa424f59f850f50a7ae986e1e4fa15406",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [],
+  "artifacts": {},
+  "outcome": "error",
+  "error_type": "AssertionError",
+  "finished_at_utc": "2026-10-24T02:04:32.065809+00:00"
+}

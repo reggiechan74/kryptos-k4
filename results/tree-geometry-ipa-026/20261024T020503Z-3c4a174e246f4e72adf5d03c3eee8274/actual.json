@@ -1,0 +1,5736 @@
+{
+  "raw_descriptions": 448,
+  "role_counts": {
+    "T": 104,
+    "G": 208,
+    "I": 136
+  },
+  "distinct_full_outputs": 448,
+  "output_aliases": [],
+  "first_survivors": [],
+  "all_survivors": [],
+  "records": [
+    {
+      "model_index": 0,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 0,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "b92fa9e1d7114d9bf5d6a2522f57b7da095ac78f5a293168f6986761d8ef556a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 1,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 0,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "d01ee9fdbd5984e31b8896264ff85248f41b8dc480c375a0bae65f6e8d54560e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 2,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 1,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "67de680a0c0d84fbe7ac0654e1c680c48116abf756571f8e4f3c2a0f1a4ed70b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 3,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 1,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "095bfc060c5c1257f89bd7fdada0387ba1de133ac31c0ac68961711ef80dca71",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 4,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 2,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "d823c272767dbce182ec5458018d9c3bbfcbc021c787a6b466e4afe6ef9cc481",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 5,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 2,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "6973966d02a8d03319883bd9ae1a9379982dda228fa63b4e8572d9a830f89974",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 6,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 3,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "182f2fe935e481e0a21f0f4ffe8a7e9eabb589566f2ed8f3ac65a0e4f72159e8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 7,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 3,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "8aa0cc8af53e3dd826202eef861396387ad0e6e9459e1130df41249e32266a92",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 8,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 4,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "c360cced7217d249efca2e7f345d464c6db02bd0dada8b5ac4b2008db4cbcb71",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 9,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 4,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "cc688afe86093d6900543b81d8002b79035064b097ccf4ebc91b55031ebce33d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 10,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 5,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "6f0b5b88c2f058aa7113e456e9d06e5112ee07dc43e6108af259e4009230606d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 11,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 5,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "214ebaa8f8f993d735678b57da58883ae4210c28dd8b14738c82dffcc2c8290f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 12,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 6,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "045e80bad8358ce30fe5004dcb988bc3e8c7007d5c39f6657da52071e5825c47",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 13,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 6,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "29e75e5c8a3170277bd3162ca518e88afc946e0573f3247f06a389878d9cc457",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 14,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 7,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "3fb8591ae07545bf1eeee28128a25e98026e0f40783ca8d2547a814713932f35",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 15,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 7,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "4e44b9ef52b65d0947f723a16be655682439594cce8cfd70227873938cc3981f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 16,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 8,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "37748b06ba0fe74a7f3910d76d7cc8d55538267cc8cfa889787c340909bc7229",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 17,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 8,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "efc6a37f9a6de5c703c24f74d8982e7d0cced09665950724baf67635429af5e9",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 18,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 9,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "384d170f7649a504b89f8e330300b6ea615469c772cfffb2f998ecf1c71f2cb6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 19,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 9,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "120eff061b01d0c16a8d1a1a460811a05e24cb46d4acef8d32d2c116b546af0f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 20,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 10,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "997addce59d92d37c2cd54d08cb2ab3485453b3ee9c733109c2a6975786e2e71",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 21,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 10,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "af5a80a860f1b2b486c9db122086e15d5644bc428b6fe91b11a347598bfb5b87",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 22,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 11,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "166a18d1bcf7c950fd9be17611f10361d39eb1181b19de2dd571deb29c15c5b0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 23,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 11,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "e6048454e86530b18d4fa6b527fc538b4cbd4fb1259769336f6a62f790486bb8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 24,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 12,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "e3d0031269c433608d8fe48c85ec82d7a50a51bd0ae10da92c04b1841ac7cc73",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 25,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 12,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "ab2ed74fe049998790ba0d039fe9539aa80c797ed6e6eeeb7ff847aa19f87b23",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 26,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 13,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "a5a26b3a989c257bc0e083c2b4d0c6d401eef5a58a4b2aefd4ccd044a3c68f83",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 27,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 13,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "4d369931954df837c53f7c2e1ef2eab759eba55f3d2813c349355b72e67a024a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 28,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 14,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "94c1416b9783f1e831b3dd65072b2c7f761ede49756d8ec803396cf5691b12dd",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 29,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 14,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "0d9b28f8211adb360f8123e38379460e33c3b9236125781974db1052cbdd850e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 30,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 15,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "b0d82b161d37b3014087de1a996efabd1ed9f5af9aeca4d4d5b150abd0d6063b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 31,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 15,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "2e631a7c4fadfd5431a07b913016dfd48739544ff2abc70b7908f23de851f855",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 32,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 16,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "c16547ee65b71d4aeb2f12d3fb964ccc24d4c9596d72472f60bd3108860259d2",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 33,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 16,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "0fec88eb0c2aa376d141c15b45728b2a12956cec7833f9a84e53f55c127ad1dc",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 34,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 17,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "64c8416f2aa980977f58026cfc96991bb9b46a71d1293d3809638c4569c3e13c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 35,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 17,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "4aa70b8e5b90f9af9c58ca26f8746f4e1acc953510d5c91c0a33887acb1f7716",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 36,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 18,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "4ca8555f3a235c6e3fac2196edc715ea5362b58f8020fb27fedef482ed4c1bdb",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 37,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 18,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "4f955a45df5baef8197e22317c21108b4e919b68b30f0b30d4993666fe190dbf",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 38,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 19,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "53f06aa235f937d3eee127a17854a42aab5972caf11468011aa113435030bb40",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 39,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 19,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "d09862ff9073ba1c6c2f0931484ab9d435c173d0d6dc91173d2946df015261fc",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 40,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 20,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "62ba9234d3e383735a88aba7e7fd5c7bffc815544694c0bb1b93d5f55a80e20b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 41,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 20,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "32df117fb715db71e983759321fc574dd038d5a0c2499ee22ba901a93c99cff8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 42,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 21,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "c320f519b916e248e08d0044a6d3c8d9df3fdab894129ad366365d55f7ccfbb1",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 43,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 21,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "6516935da74357eb7ec8e4d87862e583c504a56645b1cc4d793229185b6332d7",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 44,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 22,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "7504ce6dbe0cd203b153e213e99196a2e4193a389db7ae84c1490edf8c1c0704",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 45,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 22,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "ef5f89c3b94f5d3a258e6831d7e88d2f3e3888172836caeca4b8058d5291490f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 46,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 23,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "f8d316ebc5f6674d954296b48863bda27c413a0cd14f06bf7a8d9f578925754f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 47,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 23,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "3ec9ff9c624fdb26876cdae5ceb3f17ec4bfac0f671b809e4ecf9d5c04f59b06",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 48,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 24,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "c68a80ccc85f53c8cb1d00976d202a7d2169d798c3d7c56e79c5bb20fb2d5cc8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 49,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 24,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "92793a5b1cf3ef1aed082fb32a5bd9ee49f56eda22fcbcbc5c54b2c43922eec5",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 50,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 25,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "eee45d01fd0c76dc3f558ef6514fafb57e9080b9c1f523299ead2f7d3133db9e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 51,
+      "model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 25,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "73e1a854a333f530623556d229baeb1d1aaa2998d18cb3a7dc164935b2ecb586",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 52,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 0,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "c5bc050434e84047e38f9e96325fa572131efea7781cb48d66d7747936752aae",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 53,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 0,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "d2e92f555a8ca74cf1929b72405e86ad308dbd22bde1b461cffbcbbf52cfe283",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 54,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 1,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "a973861184bc68c0d3d7fe8ce0bb66d77b0f794cd68afb746103f47ffe10f131",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 55,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 1,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "79a82c61429d483eb01a8d290d544e1363f81a7ec2976f955735c3e26537d26b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 56,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 2,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "43bf3d3b0a8ee719217a77c9048330ae380b988ba0262f0701bc4af967f07f4c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 57,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 2,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "d158aadcb3c7d0b2f8c881acf888d4e69abbafa556310ba21054e6ceb4bcd466",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 58,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 3,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "78479deb6e194e9ca7f293f4086bee530b74ee45e91c9557f423051c28755ee4",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 59,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 3,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "4abd3d391a770bc8e39df93b2bb98e2b671857ca1382480c80b0ebf39328fb50",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 60,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 4,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "422b9c23d3e29b68c858a3a6d6a522aacb5147b123cc81ce061858a67a4a0866",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 61,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 4,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "f219b116e496a3a6161ea3639876cc27fdc74b6d9677e81339e1f0b2c9510fdb",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 62,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 5,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "163bb4684d940574a320d4e03beb846178ad693463d1a581b2ec155d36041b12",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 63,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 5,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "cf81b979264d193e64711e41f2174cb0e6f351ee308c15844e21e28ea4b2f9c7",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 64,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 6,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "bdfb3195c331c4e318b748c5dc93ae0142e860b99746dea9b097a874fd7eaf90",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 65,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 6,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "b4c1b7af3389ee43e7c3796cae02f4b6ac19f521e46e45cb6e9ecfa3f36e4530",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 66,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 7,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "b65f1cdce841278ce6c7bd57218ff2c02d8bc7d3dfd9362bfa3aab60a0a6f8f7",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 67,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 7,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "462d23c49ea38d41324450be41a6d7ff714e0f45d8d0e3d8c04ea762ff8735cc",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 68,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 8,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "d08e05469c83198b6c025bef86db75175f865df8f826a1ac4e695a1b67c2303d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 69,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 8,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "b77193c3b19a71dfb05345e6a8cac6df344c8ad7984f8e21c4e2f8a80ceb4a43",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 70,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 9,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "a38e4f79a665cfb2bd3f9d46aebf8c12ec817a518992e96a413c0caf02aa540d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 71,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 9,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "504495c9f1d21d3634fbb19b11ecaa3c5be620cc7d99260e1f6734cf8f9e7c92",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 72,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 10,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "f8b0d2d2d92f47f8fce45cadc62d19ec4c5412a1de9a03c9a5feee984ea14f9f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 73,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 10,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "b0afe82e4e5281723c6317fcd0936cf4e11068a3d42bb312328e7068c762b509",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 74,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 11,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "ae057fdc9d005410a6009bd1ee024b3169a4107b20a6132088f11f8577637cb7",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 75,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 11,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "3ae7b053a1a11d2c4ef775decfc62f78e56426b6a7ecf4c39d1ca818f7ceb385",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 76,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 12,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "ae951c38cc4b35aeaf057153ae10267762996400ec55a39dec2b5cd5ce17d09c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 77,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 12,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "b6fef6e4a193d58bd207ff94d9567b09f4c0c349c3aba36cf5079cc2d9aa8fe2",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 78,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 13,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "9ab01f6682699fadb350436156cc980cd77363117553194c918001603354ae9b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 79,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 13,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "dfee5b5eafa7632fbe017364301eab0b4222d5537cdf6cea773b542b9c6695df",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 80,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 14,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "a56548841ea8de3ec4b350f882986bc1b10cc16460d4980309d3b133240fdf56",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 81,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 14,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "282401d86901a4014f2dfe594f6f8f157a730af918c8285037dbd5752f71f00d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 82,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 15,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "5a4ea3118e7ebccfc7f2db77360151720839b8c15c9aeaa79d32430b644a57dc",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 83,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 15,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "8fb676cc45df8ea09ddd48c4a60db1fd010b5618eb2cc88faae066607de3dcce",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 84,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 16,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "a9d359c2566e28d674f7a1e1e71de6b5cd1b581adfeaaf9e2b81c4383dba7ecd",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 85,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 16,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "1ad4f87da999756c873d770277adf353562d7e437feb4a3616fbd5bc04f2d6a3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 86,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 17,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "3e90a80907197a54efa5424ad6f21b9ef633ab307b15d71b05a5a250158282d4",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 87,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 17,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "f233de937d090611e98cdff6768964df8fe4a47056b6b6bcc99572eb6551e6cd",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 88,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 18,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "716a02fff744bf3c289bb941ca1089e984eebf6b1b40fe6cb0a2262949334314",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 89,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 18,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "66a4f2ee14a5450f43a66b7b41d070bbb29c2e25b9b2dcaff5da2b32779721f9",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 90,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 19,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "8044c6b84746ea7731bff32399e86b898ab20cdb2450fc1c5ca0268138e53b4f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 91,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 19,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "f32569b0f8774e1bf1193bcd819d20149cf11aa7dcaab46e517b06fb9b54f60a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 92,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 20,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "4adcbe5569b8341a5ab39693ad3eb0a7765c340efff7e9c17bb957b6028d6f61",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 93,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 20,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "8ec5fa058f8aa24e355101f7fce511c72a0c5a8f0d50d8c525aa2f17c88c7ecc",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 94,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 21,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "44d6e685aedc98d15f27512b778065bde9c95ede1b30263c0aabac60c20dd6f7",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 95,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 21,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "6503d94958e99de6581563d2b002d694126667e9d2411dab4bdd0c48b95a7023",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 96,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 22,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "ea6785ff0856f2345c0453103c0049a95af813e7881ff16e3d357a38f831f49d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 97,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 22,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "c34b5576f2049cb16da5b0cef479eb01aff3b2eb3b6d2f3098f96f0add09d721",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 98,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 23,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "eeeb0b400198cf37aca76131ebc02ab91cc63efbc6950b24712a6bd1978aeed6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 99,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 23,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "15860582d760117218c69f87466419f6b7cf04abe51d217bf216fb2447da4ac6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 100,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 24,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "4ea82927517a54536c1a024478ed6fc1cca3f22c88d20036558e6c49d8af9e26",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 101,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 24,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "b0d1b17f1a52e026e5499169aea75856d830c5ae74ae0ba2bc8752ab43fc0a28",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 102,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 25,
+        "alphabet": "AZ"
+      },
+      "plaintext_sha256": "b18526aee814166124cd98b89860af295082c05a224a44435a73159e5ee3c09c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 103,
+      "model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 25,
+        "alphabet": "KRYPTOS"
+      },
+      "plaintext_sha256": "934b263597b7591fd25fd08660fa3cb97713d2a6b799da72dd6b65bbf5e4f9fb",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 104,
+      "model": {
+        "role": "G",
+        "seed": "A",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "39e8b907805f91f966b0f5a92a3b1cbbf4e2a02720d80b649a5107e5a02f3d89",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 105,
+      "model": {
+        "role": "G",
+        "seed": "A",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "d2514be519175c90194805d5bc208515fc441fced5d6f1efbee9dc70d9c6974f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 106,
+      "model": {
+        "role": "G",
+        "seed": "A",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "c999bef0ad1ef0779c2accecc62c4f2f4c1d1e8a4ebe7ae054cf8ae2b796cbaf",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 107,
+      "model": {
+        "role": "G",
+        "seed": "A",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "a180f5ab625f0bc78243f67e71eb9a7e2e3c1f7779c6dee1ac9e9fc7274e66b3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 108,
+      "model": {
+        "role": "G",
+        "seed": "A",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "ae4ed959900c0d9f0a95fd39d1ab2e7ece8dfa915f6bb516f97d0efc2c1cb020",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 109,
+      "model": {
+        "role": "G",
+        "seed": "A",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "327974e8035bbc349d2a1b322c2d3e521fd051a674b6c13ff2f190fd0011c5c6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 110,
+      "model": {
+        "role": "G",
+        "seed": "A",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "4477b93afc04bcc20fbe13b44abce15f84b9a4b7a35c4b5552fc25149cb3fb1c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 111,
+      "model": {
+        "role": "G",
+        "seed": "A",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "e54c5fb4c41b60a985fb6cb93dccf9f0acb57e1358ceeba292d57979d619d656",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 112,
+      "model": {
+        "role": "G",
+        "seed": "B",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "a8ecd032de1f75ad604486b85d31defef4441d28c94bedd031614b07766f0745",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 113,
+      "model": {
+        "role": "G",
+        "seed": "B",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "fa5d5df0d4e8bfc0bab86ba60c6e74b22600bf4d286077b89f2546cf8cd0ce1a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 114,
+      "model": {
+        "role": "G",
+        "seed": "B",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "e38f7fef6bebda22055ff2a3daf1dfa75b827cabc5735f2bcc7716527818a193",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 115,
+      "model": {
+        "role": "G",
+        "seed": "B",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "4c5dc56df0b5f7b4ba89fa8c6be9ab24c409d4391655581f9bf1ec3e3db8c522",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 116,
+      "model": {
+        "role": "G",
+        "seed": "B",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "eba4f9f20897afda43fe16174860d6ccc8665e1e5ef4b75ac035b64943ca7300",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 117,
+      "model": {
+        "role": "G",
+        "seed": "B",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "fe57260097a79d88a0d359868fb2366d50a4b9de2a7e362535485d26a019a18a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 118,
+      "model": {
+        "role": "G",
+        "seed": "B",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "d9d93b452ee205b41249e3d0fa29e14c6c5d2bda0a06fee787c460ec65133af1",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 119,
+      "model": {
+        "role": "G",
+        "seed": "B",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "7e672a0eba0b8247b3dd385ac0263fe02fb2ad4b9e7b3de183a815a1da43a173",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 120,
+      "model": {
+        "role": "G",
+        "seed": "C",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "28a04c9dec4e10d039c1f2045cc1a67ae63e7c84ddcb938883bbb2ac1ed728f6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 121,
+      "model": {
+        "role": "G",
+        "seed": "C",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "0d4b7392ade76a6ef156b68a1e2fac911a2e476d131326127318f0793472e4aa",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 122,
+      "model": {
+        "role": "G",
+        "seed": "C",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "504f5f610bba1f12bd61cf17185472d5b94100f6379e97f8a1bf47327f7f31cf",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 123,
+      "model": {
+        "role": "G",
+        "seed": "C",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "784844cbf65cd46cf2b87953ff2f4cb9b3863e0068f08ec420ea799bcf295596",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 124,
+      "model": {
+        "role": "G",
+        "seed": "C",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "164bccf4985459efc728de66b39f1ce626d54b983f16b2e92d19709c6aee69d8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 125,
+      "model": {
+        "role": "G",
+        "seed": "C",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "10cf5c61a02db1f1cc7d5854091e280e2f7e3cb41d0780fcaac1036cfe54dc58",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 126,
+      "model": {
+        "role": "G",
+        "seed": "C",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "d6db8c1ead3c5c4a95d447c42f9fbde0919499be63eca085f637edc899a7fe29",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 127,
+      "model": {
+        "role": "G",
+        "seed": "C",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "3e7ce0ed4c1d170802901f07ff383869943a23db754423b1f798cfe1d6d4132f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 128,
+      "model": {
+        "role": "G",
+        "seed": "D",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "554ff400dca988276df3daf96a5056fd7ee3716dae80daa4442e5ebad06a7ee3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 129,
+      "model": {
+        "role": "G",
+        "seed": "D",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "3b69ab7c713296d7dfab657a5393b23b999008c98eb4c7d91a6c8b2fc4ff5582",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 130,
+      "model": {
+        "role": "G",
+        "seed": "D",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "70dc9d4fc2fa557e2485ab90a0c6ee64d7c7bd9ecd32146017ed1c9155c423e8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 131,
+      "model": {
+        "role": "G",
+        "seed": "D",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "def82b46981a90f024da541330087f586f930e5db6741b3121d5bdec325e7043",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 132,
+      "model": {
+        "role": "G",
+        "seed": "D",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "52ac7d6f181a4150ad62826a13a50cce51c3847f3fdb93f8ffd68d85761e2e5f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 133,
+      "model": {
+        "role": "G",
+        "seed": "D",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "4d2556b954f0c70ea83a521518efc8e27271c708444dc6dc07c3ab25322141c7",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 134,
+      "model": {
+        "role": "G",
+        "seed": "D",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "cf4c28f582972d834d1e3624b10ff913d575799b9a23b6e08646ee302ce21756",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 135,
+      "model": {
+        "role": "G",
+        "seed": "D",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "c870d49518270c8384d5aa042bbc1fac59c0ddc7dc45caeb19396dc912aa517f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 136,
+      "model": {
+        "role": "G",
+        "seed": "E",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "6e7dfea72ddfd63732fb50efa41c3472e255c65c8f2e6d10d5fb22f7e033b718",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 137,
+      "model": {
+        "role": "G",
+        "seed": "E",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "10c953d88358e64022bd0a48583d6e43f0fae2e4e5644682b0b94dce60be0a41",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 138,
+      "model": {
+        "role": "G",
+        "seed": "E",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "76318470446d325d372dc66148d891d2c03e49f008c8d3e51a72ba1072f6c392",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 139,
+      "model": {
+        "role": "G",
+        "seed": "E",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "286dcfbe1ab4b8005f9fa3e9abf9689c92d16e0ddade1837760ba1441e02b803",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 140,
+      "model": {
+        "role": "G",
+        "seed": "E",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "7c07fb9217d2844fa2ab641b6566f85dfeb045ddddfa68e40f3bd18c9a84b80c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 141,
+      "model": {
+        "role": "G",
+        "seed": "E",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "2bc198d8f79864f8bbfd17c47e0b81b4e5a55d03ed8fa4e9c3b7c659fa95fb4a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 142,
+      "model": {
+        "role": "G",
+        "seed": "E",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "bd17b0e842d73eb0d278b44071304c4d7d6c1b5355559274dcab2df8074f4cab",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 143,
+      "model": {
+        "role": "G",
+        "seed": "E",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "3d82a8a5f337eb64c8b3e172d7ba587769efa5aa5de935bf8f13232e6b018a5f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 144,
+      "model": {
+        "role": "G",
+        "seed": "F",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "336d630e158e876209612b3be20429302524a7fc3e40fe09c4ef40cb34541fd7",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 145,
+      "model": {
+        "role": "G",
+        "seed": "F",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "9f459da99339ac06670b675b2978cba104beb58f96ffca3c1248526a57b47264",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 146,
+      "model": {
+        "role": "G",
+        "seed": "F",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "e90bcfecc462e5efae456aa3988f2d89cd7235942eace9877a60b9f6d1c6de5c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 147,
+      "model": {
+        "role": "G",
+        "seed": "F",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "d38e55c882230aa3d88c0727afd7bd0028e02db2e2a62e34deefbdcdca88e16f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 148,
+      "model": {
+        "role": "G",
+        "seed": "F",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "ddd6f3e4915178d384570e5aa7d63fb804875e33f4db9b522e3af1ffe85bda4b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 149,
+      "model": {
+        "role": "G",
+        "seed": "F",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "d3c17d87ea90288772edd6f8c988fc5643c5120fb7bf3870356b1b6f12460f53",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 150,
+      "model": {
+        "role": "G",
+        "seed": "F",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "260eb7d025c5436aec025c5701064ab76800285a96489fc78d3bbba677e9fb48",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 151,
+      "model": {
+        "role": "G",
+        "seed": "F",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "cf7d719f7a01e371f18ce014c1654dc09469429e343f62c5cb4132781f7f6646",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 152,
+      "model": {
+        "role": "G",
+        "seed": "G",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "366cb4c49fbe529de945d93924fea156074f302a6660f9fd9569cc11e3eaef4c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 153,
+      "model": {
+        "role": "G",
+        "seed": "G",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "d8e195a8c21b2fd28a47ee5c3d449ad867b17a61d732f827979bad1664c25d19",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 154,
+      "model": {
+        "role": "G",
+        "seed": "G",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "0d397e37b3f174bcaaa9c9d6b883eabf85a2d69c87f1803e5f934db5b11ee29d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 155,
+      "model": {
+        "role": "G",
+        "seed": "G",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "dced586b04282659b4b2edb2d751054065e4f031cf1f72d28617126bca7c5892",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 156,
+      "model": {
+        "role": "G",
+        "seed": "G",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "04cd10357a8b88c7a646ae68debc42a68cc5824d6098f87bd71525ecd7be27be",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 157,
+      "model": {
+        "role": "G",
+        "seed": "G",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "3156eca989a39e61cd33932658e3140242918a572b8e7f5af46440474a5d6411",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 158,
+      "model": {
+        "role": "G",
+        "seed": "G",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "ccdd75e87824c1d0d8e2a5443b317cc891531db1964b4b6c01d30d6b240b8de3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 159,
+      "model": {
+        "role": "G",
+        "seed": "G",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "0a07154f7267f21128bcf8670ab2d921066560079851aea904e9f1c98b04ea2c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 160,
+      "model": {
+        "role": "G",
+        "seed": "H",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "187e9f4b68690234262e3ae533611d8f07bca9b3475b131b4aa62b786a56c6bf",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 161,
+      "model": {
+        "role": "G",
+        "seed": "H",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "1827666ea3385dbd8571a0de8661de7ef4aafdd5adf77ea509390e41c84a3297",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 162,
+      "model": {
+        "role": "G",
+        "seed": "H",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "58ad4b55e2ce64ebcc0ce6e3c59ef5d9f1220d8ce2feef22d82da8bfe664a81e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 163,
+      "model": {
+        "role": "G",
+        "seed": "H",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "39e54c8c9807ee70febef8d8a976f0e56eb881b9cd9090f51d0603d3d0e592bd",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 164,
+      "model": {
+        "role": "G",
+        "seed": "H",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "a1172135f64b1458e667ace1f5fb362314766e79a2f015d4467adcc9c45ba57f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 165,
+      "model": {
+        "role": "G",
+        "seed": "H",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "a7ab600f8e81b31552c55ef2c13c3415c0d1dac5d71f0765b2331fca8ca68e59",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 166,
+      "model": {
+        "role": "G",
+        "seed": "H",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "b50b0be0a7463fdf0b7c362c9ca21de70d1500dcbc968cc9291709f3ab9d4070",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 167,
+      "model": {
+        "role": "G",
+        "seed": "H",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "e630a930e7888886308bac50c78b32ced99480c12f8d1300fa41e5f5c1e112f5",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 168,
+      "model": {
+        "role": "G",
+        "seed": "I",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "8e914749ed5f6bdc2aeacc6eafbe11642cfbe55a05e4300b3b508a0ae7d610b1",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 169,
+      "model": {
+        "role": "G",
+        "seed": "I",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "655692f828e7e8d1ec1357441d7540df0a2eb00dc681bc1c3f068be245c147dd",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 170,
+      "model": {
+        "role": "G",
+        "seed": "I",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "67bb7982716972f58a86a85a7e772f4918d1cde80d58c36c6858b0aa4207c994",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 171,
+      "model": {
+        "role": "G",
+        "seed": "I",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "7b0e120a3773c00fc1ea2874324657815e3a034281b44d19f79861c4080f1a8f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 172,
+      "model": {
+        "role": "G",
+        "seed": "I",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "607ab49030a9932386a2ae66a9f7aace41077286e00d7ae6f764e5bafe697f8e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 173,
+      "model": {
+        "role": "G",
+        "seed": "I",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "87790a44fe04fec280a11fb55ff6477c6a4732cb45dd83f67a5a824fd3b7f7e3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 174,
+      "model": {
+        "role": "G",
+        "seed": "I",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "63982f3db1fe553e4628951d8d6bd2e64cfcc125ad3b57142a103c1794b9129c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 175,
+      "model": {
+        "role": "G",
+        "seed": "I",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "e27c7cb288876397580fbe11875c8ebcb5831f529ca606300d445c10b04a3742",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 176,
+      "model": {
+        "role": "G",
+        "seed": "J",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "83ce6e8e6b44fccb39929a694569c3d539a54cf84d458b3a6a124443060ce799",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 177,
+      "model": {
+        "role": "G",
+        "seed": "J",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "6c18a0dc45ce2111993d5968339a92a1b50e513d884e76cf82d44941346dc44c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 178,
+      "model": {
+        "role": "G",
+        "seed": "J",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "97da895edfd27100876ef5a4f851c856a0cdbd808e95bb5a81d65599f48b6d7b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 179,
+      "model": {
+        "role": "G",
+        "seed": "J",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "0db4238f3320e941900ab97f70c72b385ec41735fdaa7391d509487b269d2545",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 180,
+      "model": {
+        "role": "G",
+        "seed": "J",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "4d202d37da9f6d54e585361f4d0cb43b47d47f9fb241c9adef3906dceebfc865",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 181,
+      "model": {
+        "role": "G",
+        "seed": "J",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "f61742328e5ad86dc4c4aa5379298fec466de7ab4501b7e97d6aaaa862604dee",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 182,
+      "model": {
+        "role": "G",
+        "seed": "J",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "20f80e18969bf51e29622bd8d3632acb2ee975cceabd4b90ced8894a44eaa5c7",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 183,
+      "model": {
+        "role": "G",
+        "seed": "J",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "1b2f955f7335999dad14ca31b828e3e19dcef0cbb942f0e679bff18910b453f9",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 184,
+      "model": {
+        "role": "G",
+        "seed": "K",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "4add7e24bc92a2a79bd492b30de60c09f799cb1d9be46f615d4152644cef173a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 185,
+      "model": {
+        "role": "G",
+        "seed": "K",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "ebef0c5045242a04057ff8722b51068d93a873d9882d005f227a66d2fd6f7f14",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 186,
+      "model": {
+        "role": "G",
+        "seed": "K",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "5d55c7ec63f7bea65f4fa3400861a6e98b00d91e1da65fe481c6cf359896f87d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 187,
+      "model": {
+        "role": "G",
+        "seed": "K",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "765a65b799bf6475ca0fefd2f41549e664083bd22ab6fe338760f14cbcd724a3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 188,
+      "model": {
+        "role": "G",
+        "seed": "K",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "1c69ea90b7c6b5dadfcb942201470578a9376d507840881fea436a20b2466f13",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 189,
+      "model": {
+        "role": "G",
+        "seed": "K",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "b047a73c3b378575d326be350be5d96e28aa7b60cce7daadf2b94e8828b05125",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 190,
+      "model": {
+        "role": "G",
+        "seed": "K",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "362fe22e49884b021d9e147b61c7bdae390d2cfe1666b4f74063ceba7e32ad78",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 191,
+      "model": {
+        "role": "G",
+        "seed": "K",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "fee2c8818505c80282aea6ecd0dca0e8f67f93e5e402a9f4e833f7e2ee6ac04f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 192,
+      "model": {
+        "role": "G",
+        "seed": "L",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "8e794b4ed5218e7a9e78541926b331325b54556dc693e2a112a50f710970f1fa",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 193,
+      "model": {
+        "role": "G",
+        "seed": "L",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "5ff92239b83b9cf07d38ceeb7816ac41e7e6e90e468928e359898749665c9ec6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 194,
+      "model": {
+        "role": "G",
+        "seed": "L",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "7e61edd09058facee2d301908d8b5ad371f379482bd29d6e7738f8cfbdc7f91e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 195,
+      "model": {
+        "role": "G",
+        "seed": "L",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "ae4bddde15f1043176878df8d861da5e891a525d1bf40aa1d8aa2c4f34034a8f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 196,
+      "model": {
+        "role": "G",
+        "seed": "L",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "6c9257484795772d3306fcc6adbe3dd77ea6374261ca68c71f75647116b6c80e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 197,
+      "model": {
+        "role": "G",
+        "seed": "L",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "a040c0e04289d221b3f9de2213790247c3827be1227a45d0a868fa25bb192138",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 198,
+      "model": {
+        "role": "G",
+        "seed": "L",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "239a3d5968ebdbf2bba7a0eb5ded5799776993cc6f04b9de462ad51fc97a98d4",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 199,
+      "model": {
+        "role": "G",
+        "seed": "L",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "9ad7ab7d121c5607d3aca89a2ed61c5b86c606507d88a12e52505386fb4483de",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 200,
+      "model": {
+        "role": "G",
+        "seed": "M",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "1bbdde011533ce00282e7a102c79e44db869af1bffd0ca3cb8adebdefec6455f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 201,
+      "model": {
+        "role": "G",
+        "seed": "M",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "4c14339733eec2fe7806c0f3625e72e90c325df9a5d6ff11687f2e207830752e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 202,
+      "model": {
+        "role": "G",
+        "seed": "M",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "015dc350c4aadf2d7fb81acc5575994f9ec85338ecf736e5fa17542d3b0b301d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 203,
+      "model": {
+        "role": "G",
+        "seed": "M",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "282e5cb619bea698ca9a38cb727f767cc9de57f995652cedff6c2709aea75e6b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 204,
+      "model": {
+        "role": "G",
+        "seed": "M",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "6743077b037d64db1264e2319f99eee59c50376ef1c6a6eb3db54a20abd9aa1e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 205,
+      "model": {
+        "role": "G",
+        "seed": "M",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "5a89a37d42df6dc30916671901c2e4852729d2b66f1ae6bfa6e3deffb6577e94",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 206,
+      "model": {
+        "role": "G",
+        "seed": "M",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "77ae9ef0e73cc27e455c142b3d74df30c6a2450bc607caf71d63144c8db252d7",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 207,
+      "model": {
+        "role": "G",
+        "seed": "M",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "fd7b3a83089018c74c4618585ea1ed4e9dbb9870a45d57f3e9139420460d6ffa",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 208,
+      "model": {
+        "role": "G",
+        "seed": "N",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "70a41ffad3f9ab2a3e75f4774fd8f00649684243c2e64594505f5deb075dcb49",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 209,
+      "model": {
+        "role": "G",
+        "seed": "N",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "bf5bd8b1de10f294737a6ef4b540580477e87abb7677243c0a9fa590c077b635",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 210,
+      "model": {
+        "role": "G",
+        "seed": "N",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "60750b3eea157c56e241aa9b25acd19905a4d79c831f47a65d28ade4180664fd",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 211,
+      "model": {
+        "role": "G",
+        "seed": "N",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "58d0b6024848b3596537cf9923ef5b7ebd1bd30017000d5d2eafb8b68e39185e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 212,
+      "model": {
+        "role": "G",
+        "seed": "N",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f3d73a6c961cec12982b19ed789ebd392d39af02f57ff5c0a8a8dc29f85121fc",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 213,
+      "model": {
+        "role": "G",
+        "seed": "N",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "ce0ffdb254ce552ac4c9f09016cebb8134cd05ffe611011ce5c44d7b3e1cde1d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 214,
+      "model": {
+        "role": "G",
+        "seed": "N",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f46b0213c821c09549bba7c3a273b0a02994923f0faf6f7d0368f913a6d83022",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 215,
+      "model": {
+        "role": "G",
+        "seed": "N",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "33536ea3556eb2b2fb8814800dcca87f23f56ad9dbd7303dd4a5540b768936a1",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 216,
+      "model": {
+        "role": "G",
+        "seed": "O",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "5c14b129148c8e68075dc4c297d93f52a332569de8824c2a11d90c158bfa4826",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 217,
+      "model": {
+        "role": "G",
+        "seed": "O",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "5d763f4359333f8b7b8d6a369243aa63f87f4629d6b66ee436dcf4795e4d4fb9",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 218,
+      "model": {
+        "role": "G",
+        "seed": "O",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "61abd1e79ee68f44a2747ea0e4c3148865e77b7d7b5784f7f38318f5c97e3d20",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 219,
+      "model": {
+        "role": "G",
+        "seed": "O",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "bc09605fd1f541eef90ff0631f7ef63132feb885e46577dc769537661d6218e5",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 220,
+      "model": {
+        "role": "G",
+        "seed": "O",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "2168aec3c87769c65b093cf053c8ebe3833856057daf2207b7fd3bbfbf69715f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 221,
+      "model": {
+        "role": "G",
+        "seed": "O",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "6533f74b0deecb4a05ae4a90780fbbd29c5708450aaaae90d15ddd4dd42e7293",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 222,
+      "model": {
+        "role": "G",
+        "seed": "O",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "2d7365e1aa1e23f60db56483d79bec2f84cdb2b3819c51f8743f3a4006b5014b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 223,
+      "model": {
+        "role": "G",
+        "seed": "O",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "5b498486a885f065c2f4e9b250ac30d16807e7c6c21d017732f04ffea5081282",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 224,
+      "model": {
+        "role": "G",
+        "seed": "P",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f1d17e2b4cd03b9562800452f5a305c652562abb7cc9e2119a0e6bc1d7576a80",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 225,
+      "model": {
+        "role": "G",
+        "seed": "P",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "41c0ebe5157cedc7f6658c377364137119302fdf9a9491b9e2e322697a214d34",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 226,
+      "model": {
+        "role": "G",
+        "seed": "P",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "425c30ed3b24341b5e635b616f960f181d1c580c75993de4e5dc838da08bb562",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 227,
+      "model": {
+        "role": "G",
+        "seed": "P",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "4ad44b645d62eaf9e470f9eb4f8c9b59a7b7a4a1838c74edb02feb15ae12234b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 228,
+      "model": {
+        "role": "G",
+        "seed": "P",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "ecae6d445cbdc56e2adbe717dc643a3c090a185069ed46e9547b2dd17240ca54",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 229,
+      "model": {
+        "role": "G",
+        "seed": "P",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "4706b8b16858bfd9a70ad2f239a58d8965955b6c7272b8c12eadf95f2945aedb",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 230,
+      "model": {
+        "role": "G",
+        "seed": "P",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "2511e495749361606224bec609cb4ff793b9772dfd4b230155b0a137c910a47d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 231,
+      "model": {
+        "role": "G",
+        "seed": "P",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "c41a3ecefe6bc0502f970e1d80e8243eb64d4dc3045443ee53f8d7e8dfb3cbc8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 232,
+      "model": {
+        "role": "G",
+        "seed": "Q",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "4f8d59fc6a4e5bd3bdb9ec8b45d6d3012743d8988d9189982574a0fcf163d16b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 233,
+      "model": {
+        "role": "G",
+        "seed": "Q",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "24c3e938331d09372384770b95525e135248057ca1ee5d0140196a09b646e333",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 234,
+      "model": {
+        "role": "G",
+        "seed": "Q",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "36efa84041678a1c314abedd0127615f12276ae6174f33d328ec0af92d832fc3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 235,
+      "model": {
+        "role": "G",
+        "seed": "Q",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "8f74624f1fd4ab31cbce9580de0886331a2da2bbd59768af5743e70fad936a92",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 236,
+      "model": {
+        "role": "G",
+        "seed": "Q",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "6da5193282318ffe5f35e164b8f99f08cfcdac6d194f0d1549c65132d8a43fdb",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 237,
+      "model": {
+        "role": "G",
+        "seed": "Q",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "0ae1062628b706a74b968b80fa7a305115e93041d9a32e5baf6978a5117f3e00",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 238,
+      "model": {
+        "role": "G",
+        "seed": "Q",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "91b9b478a2b6d2839c92fefdaaa2f9d33680ca6287766393d69558786a8dfb82",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 239,
+      "model": {
+        "role": "G",
+        "seed": "Q",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "345bd30db543a1e76bfa5fd9a81595a4d377834af70bcf2c1dfa02f6acd1e6a0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 240,
+      "model": {
+        "role": "G",
+        "seed": "R",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "a76346ca988385ec7d5b76cfd7c00c2dfb3d795767de5f60a84799ee41793ce1",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 241,
+      "model": {
+        "role": "G",
+        "seed": "R",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "55f28e43de8bd7278a41f49dcb4572912b25c05a9056b0b372610322bad556d0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 242,
+      "model": {
+        "role": "G",
+        "seed": "R",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "e74c8be53cdbb646a9c53e57ef2844bd71f68e48f244977ec241abaa44d79cf6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 243,
+      "model": {
+        "role": "G",
+        "seed": "R",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "514db3631e80f6c3b642d426d5b958363315e91a480e2281f96208b366ead4e9",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 244,
+      "model": {
+        "role": "G",
+        "seed": "R",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "4b4b3954a2444694a53f6c9412cf6a620700e350bb7af072f8714790fd24a7e2",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 245,
+      "model": {
+        "role": "G",
+        "seed": "R",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "61d203ddd746cc74024a5529da60088278b38a079d233f0463135d2e7a8e4b48",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 246,
+      "model": {
+        "role": "G",
+        "seed": "R",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f14cadddb4599955c7946fcef14c0b2f55f862c60b4e88363029856903203d2a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 247,
+      "model": {
+        "role": "G",
+        "seed": "R",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "6baa33d863c61a22e5ef50704eed901d52053abbe940948298062dfc3ab596c1",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 248,
+      "model": {
+        "role": "G",
+        "seed": "S",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "e7abe1722140666dbcddeda51230ffc90a205f17eac1f302f54ba3ba982943c9",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 249,
+      "model": {
+        "role": "G",
+        "seed": "S",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "fe6d97ea8c55517f1f6b73d0799d92139fa6a784e316af57a2394357d0639e7d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 250,
+      "model": {
+        "role": "G",
+        "seed": "S",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f2a17384b7c57df7be4b5f209846e8a444026e9b094a8b3bfcf7c751c2668d24",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 251,
+      "model": {
+        "role": "G",
+        "seed": "S",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "ebcb21ac054b303961fca0a5bb5dbb3cde24fd6d1db15bc25a493b4ed4fc7ca3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 252,
+      "model": {
+        "role": "G",
+        "seed": "S",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "4b60e6fadb323c71530807edc6aa4bf05cd67de878f79bcd94ff7307b14970f8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 253,
+      "model": {
+        "role": "G",
+        "seed": "S",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "db8da2ce0023a538a35363afe48b636c34ec2abacf1611004dbf7db9481405ed",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 254,
+      "model": {
+        "role": "G",
+        "seed": "S",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "2681d0297aec2fe09169988c111d9ca330ae438273b9d74c57c50824a7e3b442",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 255,
+      "model": {
+        "role": "G",
+        "seed": "S",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "a34c51aa03ef3d73344d0a547155d4eb4b79f9206c1810bbe7747f4825b16e41",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 256,
+      "model": {
+        "role": "G",
+        "seed": "T",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "59210a95db45fa26fc806b0b44ec4e10f08f39aa8a357a531b4159e12967420e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 257,
+      "model": {
+        "role": "G",
+        "seed": "T",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "93558e4569d894ee7e657ffc418a0dffb9f3297e0625476addaa7153f438b8e0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 258,
+      "model": {
+        "role": "G",
+        "seed": "T",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "20afe79b47e7067560fbd6626013c23caa220042c6d34913a1b2c7f0096a7fe8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 259,
+      "model": {
+        "role": "G",
+        "seed": "T",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "24ff785af8f9a72c1c624983d8b60bc6963ae5e8842744c07ddc359064a3dee4",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 260,
+      "model": {
+        "role": "G",
+        "seed": "T",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "10e151de531710e9664e9342bc8be9e719914486df96353014b29b1d3f39528e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 261,
+      "model": {
+        "role": "G",
+        "seed": "T",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "a0f97f4b7d3867081319bd0211d7f507f0d1fa2822ad5cb2fa9f8186b2002915",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 262,
+      "model": {
+        "role": "G",
+        "seed": "T",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "48cdd7e597a7f14bbc1c28b458e6fab6dd210d9d4186f5d90e0b096342487826",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 263,
+      "model": {
+        "role": "G",
+        "seed": "T",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "1119f5640e177d76d50cad1f9511e02835e389f0c40e162d786f23edb69a2671",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 264,
+      "model": {
+        "role": "G",
+        "seed": "U",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "b32d3aee91fe4cbb2b39b4c569f880e9089b28e3ba4f96d1fc5b988e5a1827c7",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 265,
+      "model": {
+        "role": "G",
+        "seed": "U",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "ae4482f9a726763af727b496710d8eace3b521532eed6e10ab986f8c3ae8f3d0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 266,
+      "model": {
+        "role": "G",
+        "seed": "U",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "8ca0b598407f2e7a50b077515c8322e0581aacf84639bfd7750e8bd0e1769a88",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 267,
+      "model": {
+        "role": "G",
+        "seed": "U",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "9c9af606c59565b72106ba5c244be6ee264bcdf1d34716749ecff8e32c823a55",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 268,
+      "model": {
+        "role": "G",
+        "seed": "U",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "6f79dc870b0b17bf9b00779257db394ce94fad113d495ca89aa88d7344738237",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 269,
+      "model": {
+        "role": "G",
+        "seed": "U",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "eec28e26b5e8f6398cff57541a1f04c2ffe9ea5667baaa815affcb2f540b2b55",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 270,
+      "model": {
+        "role": "G",
+        "seed": "U",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f41722d31cf56a6a3099beaf671511c56374ddcfafc3cb71b88979561ba568b4",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 271,
+      "model": {
+        "role": "G",
+        "seed": "U",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "2e2bca8047262a905dfcf7031b34e49c26550665f8e116a8a6de54f51bd4352e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 272,
+      "model": {
+        "role": "G",
+        "seed": "V",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "3e4cb61cf02f71c1e315b33f11407bc10872ff422f9b320a5fde90cf6acc3523",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 273,
+      "model": {
+        "role": "G",
+        "seed": "V",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "131c0d2d1af8c551ea686656a8f93e6309c78aa3d6c4adf26086a19c833b01fd",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 274,
+      "model": {
+        "role": "G",
+        "seed": "V",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "731694c5d90ce2e9cc7cf377d35abb2bf8d47af833121423dd87a2d9890d0458",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 275,
+      "model": {
+        "role": "G",
+        "seed": "V",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "4a8bc83444f02ef6c1c89ac809712af9ee48843d48a790f1269a6e019ccfddc3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 276,
+      "model": {
+        "role": "G",
+        "seed": "V",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "25e46328b699feece6f181c54faec001f33e887aa5aaf510b917e819451e9566",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 277,
+      "model": {
+        "role": "G",
+        "seed": "V",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "f0ba3048bcebe52770eeb525bd97ce7cc5b05bb39b277842a90e90e4f09ad539",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 278,
+      "model": {
+        "role": "G",
+        "seed": "V",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "2b9a778668719695ab4be23c4147f0fa4b379f17411eae8d776207888f520ec3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 279,
+      "model": {
+        "role": "G",
+        "seed": "V",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "73524b630e1fc5c4f41a498da65d7ab1a23fa9978a5e713bf17b33ce1a2a987b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 280,
+      "model": {
+        "role": "G",
+        "seed": "W",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "572266983987949a6c505cdfaec1cfab690436a044cc0c35df44b0f863344399",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 281,
+      "model": {
+        "role": "G",
+        "seed": "W",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "598a9b4a98bb02a92a3c0b2805d352bc9b245ac7a9ad1601cee59f2d898e3b2c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 282,
+      "model": {
+        "role": "G",
+        "seed": "W",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f89a57393140abfd0889e5ca7313137348bc3cb76209ef66aa5763782aae27f3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 283,
+      "model": {
+        "role": "G",
+        "seed": "W",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "a7a18eab2bb1e660116eedc04f229d06edd111a532438492b4a1c77128147894",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 284,
+      "model": {
+        "role": "G",
+        "seed": "W",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "64cd80c35e232ef9db2165d640b40c5e9c3b7121ada85574655ef6592bad8cf9",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 285,
+      "model": {
+        "role": "G",
+        "seed": "W",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "0187f157f103f927f93bbcb9a54014d826bfbde5a727d1291574798b87a6ada0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 286,
+      "model": {
+        "role": "G",
+        "seed": "W",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f0ab4bf8797045b211e10f14c6d0009c1d9b38da92ec5000f086eb5192f16cc1",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 287,
+      "model": {
+        "role": "G",
+        "seed": "W",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "db2e6a24f8bc2cc0dbe5b7ea6f9ea55311b4d8633d6ce986cc1481a636028999",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 288,
+      "model": {
+        "role": "G",
+        "seed": "X",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "ca969b1f6fd0246aa15abb5ec4239774b8ac110dc10d08a32b8552fe5b152ee8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 289,
+      "model": {
+        "role": "G",
+        "seed": "X",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "af77d48d2e8c56fb010989ded8f0969ed5e1f6374b2f636067306fb6d1b10373",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 290,
+      "model": {
+        "role": "G",
+        "seed": "X",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "add99321ce8f3a4b2be9b7765a17d11d331d7081d1b163cc7bd707a1ea426b43",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 291,
+      "model": {
+        "role": "G",
+        "seed": "X",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "9fd05d6faea74138a93802d06996972b90ca2c8e13e6e33ac9c4a0b93ea555d1",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 292,
+      "model": {
+        "role": "G",
+        "seed": "X",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "2dd72010b5974ba1694b3300116b77a944cd765dfec7cfb58b082852701347b6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 293,
+      "model": {
+        "role": "G",
+        "seed": "X",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "db855f294a5b086dce6efa7eea52d62b35fe9c849e0192a569695fc9d3bd5cd2",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 294,
+      "model": {
+        "role": "G",
+        "seed": "X",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "3a772427d426d65b63625e9decb65739693e0bf7926bd50a9a2993603a8e3256",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 295,
+      "model": {
+        "role": "G",
+        "seed": "X",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "eaae2e58d8d8e525533eaf3de96da11511f1a568bd353b9878faf12678ff250f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 296,
+      "model": {
+        "role": "G",
+        "seed": "Y",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "06ef052a3baa4b2d0ca391fed195164365dfa21d153f78a1ee1290f6f3d3231c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 297,
+      "model": {
+        "role": "G",
+        "seed": "Y",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "29c302b6da3ed4a9aaa7c7fe4e15b0c82bf7cb3283845970e3edddf8cc14c4bf",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 298,
+      "model": {
+        "role": "G",
+        "seed": "Y",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f9e0336deb606ab4fb2d3ab18ecdb34a966e3f5723531140f20f01e91fb07146",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 299,
+      "model": {
+        "role": "G",
+        "seed": "Y",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "e12a7377f10579d3c381ffdcc2f65939e80ddc7188c48efea8af4620b339f9b2",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 300,
+      "model": {
+        "role": "G",
+        "seed": "Y",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "c4c1b683e7321805d4aef34cc1789d134684dd57b0671b71f6f40ff710765fac",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 301,
+      "model": {
+        "role": "G",
+        "seed": "Y",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "8b23293b7cbe72a062842131793d1422a8c31689d3bd0aaf7231702c576b3d01",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 302,
+      "model": {
+        "role": "G",
+        "seed": "Y",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "4cf5fd4e007735803b73f0007150f3831491a273e53abd93c74e140d3b7a7004",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 303,
+      "model": {
+        "role": "G",
+        "seed": "Y",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "5663f11e3f6c70dc1ced80e32a81920b67042727468944768cc474cee363f616",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 304,
+      "model": {
+        "role": "G",
+        "seed": "Z",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "56cfad95d88f85b98565d263b292eb7cc5761ff3c97adbba5660304c3e768d50",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 305,
+      "model": {
+        "role": "G",
+        "seed": "Z",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "e39edad5cdff125a7099b5ec1ea591ba27f319795ce76ed338ae5486b2b527ec",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 306,
+      "model": {
+        "role": "G",
+        "seed": "Z",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "d8a5325c5d2aae7cdf5652235cb27b6f3e29493a1bd5530a2c3ca93cd416eeb6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 307,
+      "model": {
+        "role": "G",
+        "seed": "Z",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "07800a06e4ed7fa422006e43d145fb6ebf7b7205c93e5a790bee3c50857a6486",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 308,
+      "model": {
+        "role": "G",
+        "seed": "Z",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "fa24c7ac52f5764d10cdaac606497088d59b562b7d95073914ad6212737be514",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 309,
+      "model": {
+        "role": "G",
+        "seed": "Z",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "fb6bc80d65716367f25f5950d65b64d84c871d9d4f8637af13b816c72293d7da",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 310,
+      "model": {
+        "role": "G",
+        "seed": "Z",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "fa70c356b56b91c444c41ce41f635599196d7cde1bdd8a3c204828533339c8f0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 311,
+      "model": {
+        "role": "G",
+        "seed": "Z",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "f087e03052a2ecfbb714c77c44b2a5c188391b6597a2ac7355964adab1c33a18",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 312,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 0,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "1f193a9e052139273844469070a410af91024b13bd716c0581ecece88ba4b579",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 313,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 0,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "01ed61eb821548b50dca4dbba113b56419a25d1293b1ef2e932ebf636371d738",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 314,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "1ff86d39d1917aff8f3c11448c7afb18b2b1275ab350d3f6c0198c46c021e36c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 315,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "d81bb068ee615b9b09b34e9f731dada25f4e9ed09f2bb910a303b2c1f88c981a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 316,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 1,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "0b72550d38092ad72a4cdfd78c64e3dadea3cf39f3834f30784a0314914d65b2",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 317,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 1,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "3ca3b8dc78bdb93a1c5c94692f431ade95cede01d81addc04b8926898aa19076",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 318,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "807d89851e693b1012a51be46ae2015de28567894e56df4c8e44899cb25fd701",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 319,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "d219158c011fd1eae3f2ace8d5e13e7639ffe5908ba05bb737fb247361926049",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 320,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 2,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "72a3d23794f7ca79652e0cb5645725c80ba6bcd786ff7f35e7c5f0dff6358395",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 321,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 2,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "868628ff531f7ddd83fbb9729cb7003c706ff77bd4f95214b33a9b56b539cd03",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 322,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 2,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "ab2ff93956dde73e03faa35d608863c911142b0356a048e3e9e2024ce6455f04",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 323,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 2,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "ff02203d9d9133ea66697bebe2520343a3442963662e697e1e1ac2c9a1ff513e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 324,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 3,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "a84c060ab9e027d49ce1bd0a80ff5e72f9df061c4c07b030683a5227903516db",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 325,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 3,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "b573c73e5382c2869b0381bb7d77cccfb0ab222aaf5dcf3a74d6aba97e14710f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 326,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 3,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "54ae53c2e45f88105e0f9ac15581a45d7df19f4c1a63c81de92d77d98c97a83e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 327,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 3,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "bdc8d14bde39771adf5dbebca1f6232b0360c06519b8f8d33d584791a886c044",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 328,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 4,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "0c886dc428565baec893b7c400f357635d901b42f5938cd0251c9712a6097e97",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 329,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 4,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "dc8687248763cce01ebef1a9e3381366876c711e753d68756563604efca4a7f0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 330,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 4,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "db26cce41874d4f81449673bde986f13fb393122abb28d7df3c57b2f5c98aea3",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 331,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 4,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "a90df9ff4a44cfcb7691a45bbe888958d86dfe6d229ef500fab2d4b6ba45abec",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 332,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 5,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "b7ad28565fcdf591504b55ddcc4d320a7d849a257fd8ac0f79c083c8b28ac36a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 333,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 5,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "8442e515535fb8341097398b599ac2b969a7ec735e0873193474043dbde82ddf",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 334,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 5,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "71bddea0da31cb0664a136d5fda92d26198d83ec5b3716baad1f16ef1e22577e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 335,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 5,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "6f3b0cd61b3b028928306ac5af93c1f462eeef18edb94c965c45d5149c1be9e6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 336,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 6,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f7ca61f3c2c823ef08238731a1bec85d6855ba78075970f7b6730c4cd9031e60",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 337,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 6,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "f362aaba346b977f0a1b0d5373586de00877b81cd0231fcc44ab733d3946b884",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 338,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 6,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "bb54840fff99db57ae12d76fedff61b6f8e2d27e5704e04d671e0df06184085d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 339,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 6,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "3936d47c12cde1f481a15d33f524fa7bbc21290462cdb35ce8f149a5536b402e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 340,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 7,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "426dc1cc3fe8f71def4b0348743a930425d2560231667a1f843e4602655b4cb4",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 341,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 7,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "45b25f79b55a32d5eeed728722168308655ea09ee0c044c71d57a2407ddd0717",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 342,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 7,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "8856c2396e4b05c77e1e023ad18b02fa0098f43023d4aaeb66df94464a3ecafe",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 343,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 7,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "09c9fee3fff877430736e3238ca2f825ad43130dd5b54b2960f73bb54be66124",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 344,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 8,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "d3b61fbae7aaf2fa68cd79457ac218a99b5869db9b55bbde5414ebb7f7304caa",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 345,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 8,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "5fd8b5c0e6438756b041616dd2bda0546486455c37d01b74b0d1e7ea115e76db",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 346,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 8,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "6e30a10097bd27a37ef70e610f2bd3fc588ad32c58d95ac3aa447019ff9aa0bc",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 347,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 8,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "812b81cf7d2c41efc9b3a6402df7328ad13371c86932e47560847207c0b00abe",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 348,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 9,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f63dd54b60f9f1a7eb41b20bfd23ce191d4032b8cb4adfa0cf83eaf11d6aa631",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 349,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 9,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "a7539dc4fde4e176215a72611aa0cb786037ff909547cc1a26c46a99fe6452aa",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 350,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 9,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "334c33908087c660a372ba58c64b0f586541dc43129dd71d59460797ef76a4cb",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 351,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 9,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "e8cf619c88f143e8fc03bf899bdc234890d66454b79645fb16efe50b8c3b3495",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 352,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 10,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "bf3d2ef5ef87136aa9e11632549065202b4cb8948c8bffbb088f4e7dd3298a6a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 353,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 10,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "7a78fc95b3e58895a04e8f1de2f9668c501a5e4c6c5d0234f0fdfc12f7312965",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 354,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 10,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "e061a59fb66213e6a7d7c32ca0821588a4b0c0d275e3a5b3b4a8645e9f87cc55",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 355,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 10,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "6cb222d37b414322bb143d9a221038143a3e27ce9ec797d8be977b312027f3f9",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 356,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 11,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "0f9681f7721caccd94f46e3a2ec910b113d2f4bdf19df2a31e505f3f12ffd2ef",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 357,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 11,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "2820bea4b8932825b9b5b54850065482a6e1b25d9e3a7c779ea3ec3fc199bc22",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 358,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 11,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "52350f0f3af7934e454f79f2f6a910139f189882a89923f0adaff7fd50c4bff1",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 359,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 11,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "82d39d0cc1edf8571e018aec6a2ad9d0818e29dfbe80cfe7ecba1778dafa52e4",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 360,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 12,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f9a5c263ea28c94b8776060446a57b169118a3f2f426945a169561fea51e4510",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 361,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 12,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "95f37cfa33ad8e6255e4c1f87aeed53d32311e1acf9e14cab0dd6c7c0b7dcfb8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 362,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 12,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "d20a77954cc53db84f22c247d82f028dfad1655b01810b81e237705619e2c428",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 363,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 12,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "6bbb6e5e03098797ae7f3b8e347f4fe7c827606d588d527e7b3914f2bccaba4e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 364,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 13,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "abc71033685f1c8eb5c596eb64d0f08116390f479e977032f2c8050b034c9500",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 365,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 13,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "4b3929ee8f0844c327154c53fb2421f0217a14e4012319ae6a491fbe8bcb0950",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 366,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 13,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "90258ec9ea3796dc8b5daf352f856e068330d9c35aa780c8bec9fac623ade53f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 367,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 13,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "f522e860b4d39cbee6dd0327559a7fe69db52a0d158dd9919dd64f627b522353",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 368,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 14,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "ffc9f7b5550b9055d758bbd355e041697d633ef9ad89a8df512c97d659dd1196",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 369,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 14,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "f42f745de68f999ed3d9f5407c14e029dbd47551765729c739899fcb20236f7e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 370,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 14,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "ac2dffe9476a99a053fba935d3644667bda22375aa1c61202c541c61ec8210bc",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 371,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 14,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "cc198080b37abf4b6cb2ce0cd38e2a8625343caac1b696d2dc845b24afa10470",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 372,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 15,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "6bea45715c8ecdf576c77d7e1bf92f0a33cb2f804d7e599fe5aaf036cd3f64cc",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 373,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 15,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "b0551b0a0bcba7792a8cf44c5acc93140e84c9ca301ce8eceedbe436990adb54",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 374,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 15,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "76a7ecaa543f0810f2042aa777603b7723a9dfe02755dc6a51a321acc741a67d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 375,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 15,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "d24a814dce5d871ddf924ff586ace6857e88b4b6388a6adda7fd304ab79b042d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 376,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 16,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "4536f0f5ce6651660ffd51ab628ae29644f26a634ff627d2ad3d5ef17c8207e4",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 377,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 16,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "dcd837803bae7db3bb33d2d6a251019d24adcba715918c0a78849d2fbbd4859a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 378,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 16,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "9e14d35085cb32b63ca893ec8d58bf4390297613e3007273042cdc5c16c03e6b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 379,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 16,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "2bfe8823e26c3d3a1ac78ff74cbc67db18cd01c89a0a71cba0bf6f305bc620b0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 380,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 17,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "046c5789ba4fe21cc024fd5ebac15230790027ca4f509f954dd03609e912e78e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 381,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 17,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "5b9de7f8c0c552826e05cb40af0425297f8b39e62f7925196bc8b2aeda07a929",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 382,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 17,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "600d882fc481aabee8ece994197c59be6230c4e5ed604b9775cbfacf8723b64c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 383,
+      "model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 17,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "d194bcdffd4c9f09313f13b149e4e9dabc8d5d1ab1f94c5d0617b4b5ced664b0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 384,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 0,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "5ef0ae50f51afabd6809b5076f520ff59da996f5fd7cfa570a90c848075d46bb",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 385,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 0,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "e5ea6433cc42eff691efcba52d6192734d630939fc90f83201ff013f10f6b249",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 386,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "b51761d36a56037370c9ea183335ec6944247a25f4f7d7fdbece6f3a894939fb",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 387,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 0,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "134919f84b9be2d3c3eda10636335d69c32973f3bbf7b5f9ebf9b8af2dfc6c9d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 388,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 1,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "0de292414ce941e24612987e9b146d208015b1049f3fd3dd2ea0abf778828aae",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 389,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 1,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "5d58afa94c45f8c7014116ccd1d43cbd4442512f2b52c81d1455237ed4259b29",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 390,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "801dbffe631e6b5dcdb39c06bcd9fc122d2b441dd0e39e7bdc63e9e7ebc2ad78",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 391,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 1,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "601df2bd4ed91a8470893544da48de44876f91913dce460f589c80b6b99ea36d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 392,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 2,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "10169d2c47fafa0e3cd899bc694c7ef1f8e00633ddb79b2dc977944bfbf93512",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 393,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 2,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "20f9cb7e2b128b5e041454a18491016e469027733a40a833a847250f88f1770c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 394,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 2,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "09b53fca808f26de599ad72995644d5b34ae918955c23bdd90d93479ba2fa64c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 395,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 2,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "5580246647d36bea66fef19a8022cbe76fecc74f496da638e0f5f9b76ac8dc55",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 396,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 3,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "4ff2c4306367b791fbbaa096195aa3a1221411c426edc3c3bf9cb0a9203f042f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 397,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 3,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "7075c7ff745016300478fb7869ee2b788ed13f2366b32a9066e247e6c615dd9a",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 398,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 3,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "28ed1a22e43d33412c48e26bccf09eb76a03bed8f6b9f7eb4dc5ad041cae6979",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 399,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 3,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "ce4beb76251b88cd6eb60aae8416a7f7032f4a28fe8020eb824fb914520f4cb0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 400,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 4,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "7dbfea71c497afe71e0d7db3459a3a1e3476fcc0bf4ac73f53b27af447c27081",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 401,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 4,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "698d49bc4aa5f3943e2bbe76e3d3b41bee2acac6b930c05b6f1dd14fe34f331e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 402,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 4,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "5904be768734e8a5135d721f274a6f5fdef065a38913574d96cc064e3207ae6e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 403,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 4,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "f6d5062ab37e2061148f67ba5d97b13f736bf18a38fa9a084a572007085e2793",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 404,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 5,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "41e4b114fbbd3fa7a7bdfa90e4b9010c9b9150e6bc67745699894401a3eda2a6",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 405,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 5,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "855c99ed5c1e6f902d2e4dfae4591c4ded0a4a20fe841f166038d200c13cb2fa",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 406,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 5,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "a29ef6f851809e9286fa43ff160c61392191e6ed9914906d709348adcc06390b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 407,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 5,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "8d5399159fa6ba2c7d32f1384a0bd41c2ccbb96fea5b8d39429d31ea28128d67",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 408,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 6,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "638bd2c736f3bcb0f857d563b063e17cf49ab1a468eb10e22038087f69488126",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 409,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 6,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "7026fc682452c04ed9f2a20aa9bfd988840bd305e57edad64b45f99e62affd2e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 410,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 6,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "c94439dd8e2e1701493ae066990d6dba44a6a54e806f286e5bb64155ef171197",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 411,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 6,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "b4aab2f8390909482ffac8af1cb707ef483a5f16d0890fef92bbc7ba6d4b07b1",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 412,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 7,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "73ce1bdc9d71aa6e081f7a5e66acd1c914eebf127fd5f5cdc79eb0e4b8947800",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 413,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 7,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "7efda965f3739a00c7f7037cf8df631f50419dcc5647c7e52ce437f654e85746",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 414,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 7,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "d7ffb19fb7c566f633522dc8ceb4ffe30a68c6356d4538336acd6935f18319ce",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 415,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 7,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "e7e0a7903b7ff2625753839a1b46e9d1d91c6a94c2fd7c85818a4f8e5725a3a2",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 416,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 8,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "63cc79230b4fce3f48aa96ef9f326a8a4e2874c262c5685af9249c0bef19afc8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 417,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 8,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "b5a223947096e41abf2aa8e0635d057efdedf2c117bb91df6769e98dabd4be76",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 418,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 8,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "f6478db51f28d418948843b10c6adbdc1d0faf28b9ba490f6b5bdf965e808ad9",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 419,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 8,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "9a0cc0bd8efcc0b13e7a5fb951d21aa101cd014ba9ed2d38281cd3c8988babfc",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 420,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 9,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "751b8c33c3af005fb3c68b313cb56b597bf2936d0b5a93e9aa2b5a300cfcef33",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 421,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 9,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "37f8f02f5c9d7cc965a9f37874fd49c207b297e5cadc7b7df8c994bed3b5db0d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 422,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 9,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "393f0bd3361b63dc8c5a75ab5bbfd28bd4710e4db925e9259abf976c349c5802",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 423,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 9,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "519af9443592c76a560e0c43bb4806d3520e0ba9f0e81d255b9227134791cd16",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 424,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 10,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "ddb9161826616569e71a800d0c1459dafebd8d8dfa5d4e39cbc1a2558eba6830",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 425,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 10,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "8494959a11acd9a997bbf5e52db9146763308a3189eb1487ad9a8cd3796ff9f0",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 426,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 10,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "2fcb93ebca3af3e34de3173203be906dcfe2e7bdf2ff21a0d926b15678dc70e2",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 427,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 10,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "9cce881ec8ae9c75b2189ea8405d3382bd78534d290bd00bf7892984a9f94c3b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 428,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 11,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "397782021f51cc6a72faa459812328fba86e39f42f9b5063fa2a90cf77655c9c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 429,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 11,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "ffa937f26d3dcedc7091d80bd3af46c08b99f28c4de26db6a74bdb90446f195c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 430,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 11,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "569b3291db7cd20ea54eb26871fd642ce56d17a0273b752de94cb91f9cb07f7c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 431,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 11,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "376388a3aac001434650b78544ec6af5833ee010a9c0f50235b8a2db3541af86",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 432,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 12,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "05fcd4516e0009e8db2e59263bd04c9878544a3da2d24b650f839b4f2376715c",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 433,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 12,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "45d630c11c43b758704ad351235568c4e8b678f24be180a0a501afcc9c954703",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 434,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 12,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "18ad3e1357231e311150f42bf99d512b9138cb40f11508b25ac31c025ae20354",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 435,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 12,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "318843902a0b242a677c1caf8873c6a91af9f54fac5f0f4ee67deb22525dc97b",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 436,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 13,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "88dccbefff2e295fd3380cd57f3af224761d1d7493bb1779a9a7509c9257d0d8",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 437,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 13,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "4b9070e87042d8858aef66637eafdda27e07e3db2b0e4e827a21904775c58994",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 438,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 13,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "fa368cab7501554db3f7377d0848860d312e0df16801e3767968d911306dec18",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 439,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 13,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "b300b258a33a582c755a09e7857e707b4bb5c935c9e30fe2ee78967b61d73200",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 440,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 14,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "8bc1bacb501064da2dcad10460092b78d7bb8226e5e15a7515d30014a329a432",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 441,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 14,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "32918cd95235ebccf6767cf9bde140db5bb7f2570281eed1f659dd49d14dcf52",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 442,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 14,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "61afa3f6457215f5fbed8f2684bc1bb2ebfd77a58cd693b699a975eb8caa1b3e",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 443,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 14,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "ceab2659b84d30ff5771eaf228a8a7520117979f6d010c1ef341e93ab3d3de26",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 444,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 15,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "93c69b191533fb3f0d0d5a7fb7ff190133451b6bd72077679a0421090914933d",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 445,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 15,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "6cc9021543be91f977d79bc1b0f0293e96815b1df875cb46e95f90eda5cc4e6f",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 446,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 15,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "plaintext_sha256": "1b811657a9167666a0d26632946e6a235466d71b76aaa95a369814b3294a11a5",
+      "first_pass": false,
+      "all_pass": false
+    },
+    {
+      "model_index": 447,
+      "model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 15,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "plaintext_sha256": "ae6781a049426e2b89afdaa3fc94e34616393fc3e6ae351560fc830489893912",
+      "first_pass": false,
+      "all_pass": false
+    }
+  ],
+  "started_at_utc": "2026-10-24T02:05:12.193900+00:00",
+  "finished_at_utc": "2026-10-24T02:05:12.247353+00:00"
+}

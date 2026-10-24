@@ -223,12 +223,12 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: narrow negative
 - Mechanism: Letters or geometry fragments walk a tree and update cipher state carried between letters.
 - Evidence: [source or scoped prior review](TREE-PATH-CIPHER-FINDINGS.md); historical availability or user proposal does not establish creator use.
-- Tested scope: Original 104 cyclic-seed settings reject. The same two trees/directions now fail each crib island even with an arbitrary cipher-label permutation at its start, a necessary-condition relaxation covering any continuous unknown prefix/gap state.
+- Tested scope: Original 104 cyclic-seed settings reject; the old two fixed trees/directions fail each island for arbitrary start labelings. Item 6 separately tests 104 bottom-up access-splay models with dynamic topology, two initial orders/26 cyclic seeds/two output alphabets; no first-crib fit.
 - Untested scope: Other independently generated trees, state transitions, framing or seed domains.
-- Missing inputs: A distinct fixed tree/update/inverse and evidence beyond the failed pilot; arbitrary fitted labels would overfit.
-- Next discriminating test: Before another K4 test, freeze one demonstrably non-equivalent reversible rule; validate unique decoding and literal-crib plants through the complete selector.
+- Missing inputs: No missing input for the completed finite splay pilot; independently motivated broader topology/state restrictions and creator evidence remain absent.
+- Next discriminating test: Stop the frozen splay domain. A future rule needs independent mechanism justification and proof of non-equivalence, rather than adaptive rotations or new label fits.
 - Dependencies: TREE-PATH-CIPHER-SPEC.md; no crib-boundary resets, guessed gap states or automatic second sweep
-- Results: [Arbitrary-state support certificates](../results/TREE-STATE-SUPPORT-006.json), [scope and limits](FEISTEL-TREE-EXTENSION-FINDINGS.md), and [retained evidence and finite coverage](TREE-PATH-CIPHER-FINDINGS.md).
+- Results: [Arbitrary-state fixed-tree certificates](../results/TREE-STATE-SUPPORT-006.json), [old scope](FEISTEL-TREE-EXTENSION-FINDINGS.md), [item 6 dynamic-topology findings](TREE-GEOMETRY-IPA-026-FINDINGS.md), [all original receipts](../results/tree-geometry-ipa-026/README.md).
 
 ### H-SIGABA-INSPIRED
 
@@ -727,24 +727,24 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: narrow negative
 - Mechanism: Represent idealized glyph geometry with unique feature arrays/codes.
 - Evidence: [source or scoped prior review](GEOMETRIC-PILOT-FINDINGS.md); historical availability or user proposal does not establish creator use.
-- Tested scope: 35-feature representation verified; 24 periodic code-ranked cases and 3,640 binary-state descriptions rejected.
-- Untested scope: Other glyph conventions or operations; uniqueness of representation is not cipher evidence.
+- Tested scope: 35-feature representation verified; 24 periodic rank cases and 3,640 rotate/XOR descriptions reject; separate first-order affine radix proof remains scoped. Item 6 tests 208 full 35-bit rotate/add/XOR feedback descriptions, no first-crib fit. Structural same-residue/different-next-residue witness distinguishes this full-state update from the old modulo-26 affine grammar.
+- Untested scope: Other glyph conventions, nonlinear operators, unrestricted initial full states or timing; representation uniqueness is not cipher evidence.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](GEOMETRIC-PILOT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Earlier finite pilots](GEOMETRIC-PILOT-FINDINGS.md), [affine feedback proof](RADIX-FEEDBACK-FINDINGS.md), [item 6 nonlinear feedback findings](TREE-GEOMETRY-IPA-026-FINDINGS.md).
 
 ### H-IPA-DICTIONARY
 
 - Status: narrow negative
-- Mechanism: Use source-fixed dictionary IPA windows before encryption.
+- Mechanism: Use source-fixed dictionary IPA windows before encryption, or explicitly pronunciation-derived running key material without respelling plaintext.
 - Evidence: [source or scoped prior review](IPA-CODECS-INTEGRATION.md); historical availability or user proposal does not establish creator use.
-- Tested scope: 48 ordinary-alias arithmetic cases and 24 fully free injective-map structures reject; source-fixed codec feasibility also complete.
-- Untested scope: Other explicit pronunciation/outer-cipher constructions; global alignment remains conditional.
-- Missing inputs: A new, independently justified finite specification outside completed coverage.
-- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
-- Dependencies: Cambridge-US glyph windows placed at the disclosed English offsets as an explicit conditional assumption; global phonetic alignment through unknown prefixes was not established.
-- Results: [retained evidence and finite coverage](IPA-CODECS-INTEGRATION.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Tested scope: 48 ordinary-alias arithmetic cases and 24 free injective-map structures reject; source codec feasibility complete. Item 6 adds 136 fixed pronunciation-derived byte-key descriptions (periods 18/16, all phases), no first-crib fit. UTF-8 postdates 1990; this latter test is a modern serialization diagnostic, not historical pronunciation evidence.
+- Untested scope: Historically grounded IPA-to-key serializations, other explicit outer ciphers, and uniquely framed whole-English preprocessing; global phonetic alignment remains conditional in the older models.
+- Missing inputs: An independently justified historical encoding/key source or complete English codec/alignment; the modern UTF-8 diagnostic does not supply these.
+- Next discriminating test: Require historical mechanism evidence before another pronunciation serializer or dialect. Do not adapt the failed fixed byte mapping.
+- Dependencies: Older Cambridge-US preprocessing uses unchanged disclosed offsets conditionally; item 6 instead leaves English unchanged and applies one continuous fixed running key, so no spelling inverse or phonetic-offset reuse is asserted.
+- Results: [Prior source and finite coverage](IPA-CODECS-INTEGRATION.md), [item 6 key-only diagnostic and historical limitation](TREE-GEOMETRY-IPA-026-FINDINGS.md), [all receipts](../results/tree-geometry-ipa-026/README.md).
 
 ### H-BOUNDARY-STATE
 

@@ -1617,3 +1617,24 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Final validation: 529 tests pass in both Python 3.9 and 3.12; [validation receipt and logs](../../results/LAMP-GREEK-025-VALIDATION.json). No new documentation-link errors; no configured CI workflows.
 
 Related files: [experiments/audit_lamp_greek.py](../../experiments/audit_lamp_greek.py), [experiments/lamp_greek.py](../../experiments/lamp_greek.py), [research/LAMP-GREEK-025-FINDINGS.md](../../research/LAMP-GREEK-025-FINDINGS.md), [research/LAMP-GREEK-025-SPEC.md](../../research/LAMP-GREEK-025-SPEC.md), [results/LAMP-GREEK-025-CERTIFICATES.json](../../results/LAMP-GREEK-025-CERTIFICATES.json), [results/LAMP-GREEK-025-INDEPENDENT-VALIDATION.json](../../results/LAMP-GREEK-025-INDEPENDENT-VALIDATION.json), [results/LAMP-GREEK-025-VALIDATION.json](../../results/LAMP-GREEK-025-VALIDATION.json), [results/lamp-greek-025/README.md](../../results/lamp-greek-025/README.md).
+
+## LOG-8B35949B43
+
+**TREE-GEOMETRY-IPA-026 — item 6 dynamic topology, full-state feedback and pronunciation keys**
+
+start: 2026-10-24T02:06:45.670410Z; end: 2026-10-24T02:06:45.999181Z
+
+Type: finite K4 model tests; synthetic validation; source qualification. Outcome: No first fit in 448 descriptions; splay/ARX finite negatives; IPA UTF-8 is explicitly a modern diagnostic
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Kind: three finite exploratory model tests, synthetic complete-selector controls and historical qualification; no creator-use evidence or Site change.
+- Frozen protocol `e35121c31d34c62c8f836d9169214f79d53de8b5`; [specification](../../research/TREE-GEOMETRY-IPA-026-SPEC.md), [findings](../../research/TREE-GEOMETRY-IPA-026-FINDINGS.md), [native code](../../experiments/tree_geometry_ipa.py), [independent reference](../../experiments/tree_geometry_ipa_reference.py).
+- Exact scope: 104 bottom-up access-splay tree descriptions, 208 nonlinear 35-bit geometry feedback descriptions, 136 source-fixed IPA byte-key descriptions. All 448 full decryptions are distinct; no first-crib survivor, no Berlin-stage candidate. No arbitrary states/functions or general-family exclusion.
+- Original completed controls start/end UTC: 2026-10-24T02:05:03.782641+00:00 / 2026-10-24T02:05:12.193005+00:00. Actual start/end 2026-10-24T02:05:12.193900+00:00 / 2026-10-24T02:05:12.247353+00:00. Whole-family nulls end 2026-10-24T02:05:23.118605+00:00. [Original and failed-control manifests](../../results/tree-geometry-ipa-026/README.md) preserve separate chronology; no publication timestamp substitution.
+- Controls: 1,792 fixed-model/reference message roundtrips, 24,336 tree permutation checks, 104 topology-change and 104 wrong-timing witnesses, 24 full-family plants with exact complete-reference candidate-set agreement and truth inclusion. All 199 histogram shuffles have zero first/all fits; descriptive only, no significance claim. Initial control attempt failed on reference rotation grouping before K4 and is preserved, not counted as a negative.
+- Separate [post-outcome direct replay](../../experiments/audit_tree_geometry_ipa.py) agrees on all actual model records and 1,040 geometry carry/boundary cases; [receipt](../../results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json). Same-author independent implementation, not external blind verification.
+- IPA output periods 18/16 exceed the older direct period 1–12 baseline, but UTF-8 was devised in 1992. This explicitly modern serialization is not a historical 1990 hypothesis or an IPA spelling inverse. Public clue phrases used as keys are not independent recovered evidence. No encoding retune, new dialect or item 7.
+- Final aggregate validation: 538 tests pass on Python 3.9 and 3.12; [separate UTC receipt/logs](../../results/TREE-GEOMETRY-IPA-026-VALIDATION.json). No configured CI workflow or new documentation-link errors.
+
+Related files: [experiments/audit_tree_geometry_ipa.py](../../experiments/audit_tree_geometry_ipa.py), [experiments/tree_geometry_ipa.py](../../experiments/tree_geometry_ipa.py), [experiments/tree_geometry_ipa_reference.py](../../experiments/tree_geometry_ipa_reference.py), [research/TREE-GEOMETRY-IPA-026-FINDINGS.md](../../research/TREE-GEOMETRY-IPA-026-FINDINGS.md), [research/TREE-GEOMETRY-IPA-026-SPEC.md](../../research/TREE-GEOMETRY-IPA-026-SPEC.md), [results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json](../../results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json), [results/TREE-GEOMETRY-IPA-026-VALIDATION.json](../../results/TREE-GEOMETRY-IPA-026-VALIDATION.json), [results/tree-geometry-ipa-026/README.md](../../results/tree-geometry-ipa-026/README.md).

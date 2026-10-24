@@ -124,3 +124,7 @@ Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLEC
 ## Item 5 checkpoint
 
 [Ordinal lamp/Greek findings](LAMP-GREEK-025-FINDINGS.md) and [frozen specification](LAMP-GREEK-025-SPEC.md): three complete constructions, no first-crib survivor. Scope and variable-length alignment are explicit; broader Greek/clock mechanisms remain open.
+
+## Item 6 checkpoint
+
+[Item 6 findings](TREE-GEOMETRY-IPA-026-FINDINGS.md) and [protocol](TREE-GEOMETRY-IPA-026-SPEC.md): narrow dynamic-tree/nonlinear geometry negatives; pronunciation-byte keys are a modern diagnostic, not a 1990 mechanism.

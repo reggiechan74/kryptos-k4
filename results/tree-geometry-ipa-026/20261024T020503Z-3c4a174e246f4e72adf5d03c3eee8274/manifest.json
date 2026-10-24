@@ -1,0 +1,37 @@
+{
+  "run_id": "20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274",
+  "started_at_utc": "2026-10-24T02:05:03.781918+00:00",
+  "label": "Item6 distinct tree geometry IPA mechanisms",
+  "execution_kind": "original",
+  "status": "completed",
+  "specification": {
+    "commit": "e35121c31d34c62c8f836d9169214f79d53de8b5",
+    "file": "TREE-GEOMETRY-IPA-026-SPEC.md",
+    "sha256": "d507b86afc3ebbff0b71f396be2a860aa424f59f850f50a7ae986e1e4fa15406",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [],
+  "artifacts": {
+    "README.md": {
+      "sha256": "c08f0f853bcd51608b1b8f06943a31bec1d8073c19d7cd46c9dff8598c5d7dbc",
+      "bytes": 205
+    },
+    "controls.json": {
+      "sha256": "4cc6b64046eee364b25e774d5eb26ed7ce2fc63625e7217dc6a91b537f3c0a0a",
+      "bytes": 22489
+    },
+    "actual.json": {
+      "sha256": "0d664d87eb0a23fcbf3fa7bee1a04f29a644c9528c170301f3fb7e311e61e2d3",
+      "bytes": 147381
+    },
+    "nulls.json": {
+      "sha256": "4b499151ded07fada64617f28edb3cccc0170a16dfac86f41c328ed75a617e74",
+      "bytes": 17244
+    },
+    "inputs.json": {
+      "sha256": "00d41ef84187b2ef3c3c0477ec300ab2e9931e080caf54a015a9c51a5e1b2122",
+      "bytes": 740
+    }
+  },
+  "finished_at_utc": "2026-10-24T02:05:23.121842+00:00"
+}

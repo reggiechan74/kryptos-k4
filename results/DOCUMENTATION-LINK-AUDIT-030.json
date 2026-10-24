@@ -1,0 +1,74 @@
+{
+  "kind": "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval",
+  "checked": 2907,
+  "broken": [
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "HYPOTHESES.md",
+      "line": 52
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "EXPERIMENTS.md",
+      "line": 52
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "POLICY.md",
+      "line": 53
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../docs/research-strategy.md",
+      "line": 53
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../docs/designer-context.md",
+      "line": 54
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../sources/EXPERIMENTS.md",
+      "line": 55
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../docs/prior-art-barney-scott-review.md",
+      "line": 56
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "CONTINUATION-FINDINGS.md",
+      "line": 57
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "K3-CLOCK-ROUTE-FINDINGS.md",
+      "line": 58
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "OCCUPIED-CELL-FINDINGS.md",
+      "line": 59
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "GROMARK-IDENTIFIABILITY-FINDINGS.md",
+      "line": 60
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../docs/historical-clock-inscriptions.md",
+      "line": 137
+    },
+    {
+      "source": "independent/2026-10-22/evolving-alphabet/PINNED-SPEC.md",
+      "target": "../docs/scott-sun-geometry-audit-2026-10-22.md",
+      "line": 166
+    }
+  ],
+  "markdown_fragments_checked": 193,
+  "broken_markdown_fragments": [],
+  "scope": "Fenced code blocks excluded; original independent artifacts are preserved even where their standalone-relative links are unavailable in this checkout."
+}

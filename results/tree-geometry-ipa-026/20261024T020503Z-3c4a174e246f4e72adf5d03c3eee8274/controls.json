@@ -1,0 +1,756 @@
+{
+  "status": "passed",
+  "fixed_model_reference_roundtrips": 1792,
+  "tree_letter_bijection_checks": 24336,
+  "tree_topology_changes": 104,
+  "tree_timing_mutations_detected": 104,
+  "ipa_byte_lengths": {
+    "east-northeast": 18,
+    "berlin-clock": 16
+  },
+  "geometry_no_mod26_first_order_reduction_witness": {
+    "letter": "C",
+    "states": [
+      0,
+      26
+    ],
+    "initial_key_residue": 0,
+    "next_key_residues": [
+      8,
+      18
+    ]
+  },
+  "plants": [
+    {
+      "planted_index": 0,
+      "planted_model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 0,
+        "alphabet": "AZ"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 0,
+          "model": {
+            "role": "T",
+            "order": "AZ",
+            "seed": 0,
+            "alphabet": "AZ"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 14,
+      "planted_model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 7,
+        "alphabet": "AZ"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 14,
+          "model": {
+            "role": "T",
+            "order": "AZ",
+            "seed": 7,
+            "alphabet": "AZ"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 29,
+      "planted_model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 14,
+        "alphabet": "KRYPTOS"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 29,
+          "model": {
+            "role": "T",
+            "order": "AZ",
+            "seed": 14,
+            "alphabet": "KRYPTOS"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 44,
+      "planted_model": {
+        "role": "T",
+        "order": "AZ",
+        "seed": 22,
+        "alphabet": "AZ"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 44,
+          "model": {
+            "role": "T",
+            "order": "AZ",
+            "seed": 22,
+            "alphabet": "AZ"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 58,
+      "planted_model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 3,
+        "alphabet": "AZ"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 58,
+          "model": {
+            "role": "T",
+            "order": "geometry",
+            "seed": 3,
+            "alphabet": "AZ"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 73,
+      "planted_model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 10,
+        "alphabet": "KRYPTOS"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 73,
+          "model": {
+            "role": "T",
+            "order": "geometry",
+            "seed": 10,
+            "alphabet": "KRYPTOS"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 88,
+      "planted_model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 18,
+        "alphabet": "AZ"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 88,
+          "model": {
+            "role": "T",
+            "order": "geometry",
+            "seed": 18,
+            "alphabet": "AZ"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 103,
+      "planted_model": {
+        "role": "T",
+        "order": "geometry",
+        "seed": 25,
+        "alphabet": "KRYPTOS"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 103,
+          "model": {
+            "role": "T",
+            "order": "geometry",
+            "seed": 25,
+            "alphabet": "KRYPTOS"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 104,
+      "planted_model": {
+        "role": "G",
+        "seed": "A",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 104,
+          "model": {
+            "role": "G",
+            "seed": "A",
+            "source": "P",
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 133,
+      "planted_model": {
+        "role": "G",
+        "seed": "D",
+        "source": "C",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 133,
+          "model": {
+            "role": "G",
+            "seed": "D",
+            "source": "C",
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 163,
+      "planted_model": {
+        "role": "G",
+        "seed": "H",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 163,
+          "model": {
+            "role": "G",
+            "seed": "H",
+            "source": "P",
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 192,
+      "planted_model": {
+        "role": "G",
+        "seed": "L",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 192,
+          "model": {
+            "role": "G",
+            "seed": "L",
+            "source": "P",
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 222,
+      "planted_model": {
+        "role": "G",
+        "seed": "O",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 222,
+          "model": {
+            "role": "G",
+            "seed": "O",
+            "source": "C",
+            "alphabet": "KRYPTOS",
+            "equation": "plus"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 251,
+      "planted_model": {
+        "role": "G",
+        "seed": "S",
+        "source": "P",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 251,
+          "model": {
+            "role": "G",
+            "seed": "S",
+            "source": "P",
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 281,
+      "planted_model": {
+        "role": "G",
+        "seed": "W",
+        "source": "P",
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 281,
+          "model": {
+            "role": "G",
+            "seed": "W",
+            "source": "P",
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 311,
+      "planted_model": {
+        "role": "G",
+        "seed": "Z",
+        "source": "C",
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 311,
+          "model": {
+            "role": "G",
+            "seed": "Z",
+            "source": "C",
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 312,
+      "planted_model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 0,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 312,
+          "model": {
+            "role": "I",
+            "key": "east-northeast",
+            "phase": 0,
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 331,
+      "planted_model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 4,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 331,
+          "model": {
+            "role": "I",
+            "key": "east-northeast",
+            "phase": 4,
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 350,
+      "planted_model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 9,
+        "alphabet": "KRYPTOS",
+        "equation": "plus"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 350,
+          "model": {
+            "role": "I",
+            "key": "east-northeast",
+            "phase": 9,
+            "alphabet": "KRYPTOS",
+            "equation": "plus"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 369,
+      "planted_model": {
+        "role": "I",
+        "key": "east-northeast",
+        "phase": 14,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 369,
+          "model": {
+            "role": "I",
+            "key": "east-northeast",
+            "phase": 14,
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 389,
+      "planted_model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 1,
+        "alphabet": "AZ",
+        "equation": "beaufort"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 389,
+          "model": {
+            "role": "I",
+            "key": "berlin-clock",
+            "phase": 1,
+            "alphabet": "AZ",
+            "equation": "beaufort"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 408,
+      "planted_model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 6,
+        "alphabet": "AZ",
+        "equation": "plus"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 408,
+          "model": {
+            "role": "I",
+            "key": "berlin-clock",
+            "phase": 6,
+            "alphabet": "AZ",
+            "equation": "plus"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 427,
+      "planted_model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 10,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 427,
+          "model": {
+            "role": "I",
+            "key": "berlin-clock",
+            "phase": 10,
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    },
+    {
+      "planted_index": 447,
+      "planted_model": {
+        "role": "I",
+        "key": "berlin-clock",
+        "phase": 15,
+        "alphabet": "KRYPTOS",
+        "equation": "beaufort"
+      },
+      "truth_retained": true,
+      "all_survivors": [
+        {
+          "model_index": 447,
+          "model": {
+            "role": "I",
+            "key": "berlin-clock",
+            "phase": 15,
+            "alphabet": "KRYPTOS",
+            "equation": "beaufort"
+          },
+          "plaintext_sha256": "25ee77095d36e8679fe09ff60db3c0de15b9bfd3c8016af50e3a9400521bd1d2",
+          "first_pass": true,
+          "all_pass": true,
+          "plaintext": "THEQUICKBROWNFOXJUMPSEASTNORTHEASTGTHEQUICKBROWNFOXJUMPSOVERTHEBERLINCLOCKUICKBROWNFOXJUMPSOVERTH",
+          "predicted_berlin": "BERLINCLOCK",
+          "full_reencryption": true
+        }
+      ],
+      "distinct_plaintexts": 1,
+      "independent_complete_set_equal": true
+    }
+  ],
+  "elapsed_seconds": 8.409063334,
+  "started_at_utc": "2026-10-24T02:05:03.782641+00:00",
+  "finished_at_utc": "2026-10-24T02:05:12.193005+00:00"
+}

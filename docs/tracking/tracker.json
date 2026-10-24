@@ -141,12 +141,12 @@
       "Status": "narrow negative",
       "Mechanism": "Letters or geometry fragments walk a tree and update cipher state carried between letters.",
       "Evidence": "[source or scoped prior review](TREE-PATH-CIPHER-FINDINGS.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Original 104 cyclic-seed settings reject. The same two trees/directions now fail each crib island even with an arbitrary cipher-label permutation at its start, a necessary-condition relaxation covering any continuous unknown prefix/gap state.",
+      "Tested scope": "Original 104 cyclic-seed settings reject; the old two fixed trees/directions fail each island for arbitrary start labelings. Item 6 separately tests 104 bottom-up access-splay models with dynamic topology, two initial orders/26 cyclic seeds/two output alphabets; no first-crib fit.",
       "Untested scope": "Other independently generated trees, state transitions, framing or seed domains.",
-      "Missing inputs": "A distinct fixed tree/update/inverse and evidence beyond the failed pilot; arbitrary fitted labels would overfit.",
-      "Next discriminating test": "Before another K4 test, freeze one demonstrably non-equivalent reversible rule; validate unique decoding and literal-crib plants through the complete selector.",
+      "Missing inputs": "No missing input for the completed finite splay pilot; independently motivated broader topology/state restrictions and creator evidence remain absent.",
+      "Next discriminating test": "Stop the frozen splay domain. A future rule needs independent mechanism justification and proof of non-equivalence, rather than adaptive rotations or new label fits.",
       "Dependencies": "TREE-PATH-CIPHER-SPEC.md; no crib-boundary resets, guessed gap states or automatic second sweep",
-      "Results": "[Arbitrary-state support certificates](../results/TREE-STATE-SUPPORT-006.json), [scope and limits](FEISTEL-TREE-EXTENSION-FINDINGS.md), and [retained evidence and finite coverage](TREE-PATH-CIPHER-FINDINGS.md)."
+      "Results": "[Arbitrary-state fixed-tree certificates](../results/TREE-STATE-SUPPORT-006.json), [old scope](FEISTEL-TREE-EXTENSION-FINDINGS.md), [item 6 dynamic-topology findings](TREE-GEOMETRY-IPA-026-FINDINGS.md), [all original receipts](../results/tree-geometry-ipa-026/README.md)."
     },
     {
       "id": "H-SIGABA-INSPIRED",
@@ -645,24 +645,24 @@
       "Status": "narrow negative",
       "Mechanism": "Represent idealized glyph geometry with unique feature arrays/codes.",
       "Evidence": "[source or scoped prior review](GEOMETRIC-PILOT-FINDINGS.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "35-feature representation verified; 24 periodic code-ranked cases and 3,640 binary-state descriptions rejected.",
-      "Untested scope": "Other glyph conventions or operations; uniqueness of representation is not cipher evidence.",
+      "Tested scope": "35-feature representation verified; 24 periodic rank cases and 3,640 rotate/XOR descriptions reject; separate first-order affine radix proof remains scoped. Item 6 tests 208 full 35-bit rotate/add/XOR feedback descriptions, no first-crib fit. Structural same-residue/different-next-residue witness distinguishes this full-state update from the old modulo-26 affine grammar.",
+      "Untested scope": "Other glyph conventions, nonlinear operators, unrestricted initial full states or timing; representation uniqueness is not cipher evidence.",
       "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
       "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](GEOMETRIC-PILOT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[Earlier finite pilots](GEOMETRIC-PILOT-FINDINGS.md), [affine feedback proof](RADIX-FEEDBACK-FINDINGS.md), [item 6 nonlinear feedback findings](TREE-GEOMETRY-IPA-026-FINDINGS.md)."
     },
     {
       "id": "H-IPA-DICTIONARY",
       "Status": "narrow negative",
-      "Mechanism": "Use source-fixed dictionary IPA windows before encryption.",
+      "Mechanism": "Use source-fixed dictionary IPA windows before encryption, or explicitly pronunciation-derived running key material without respelling plaintext.",
       "Evidence": "[source or scoped prior review](IPA-CODECS-INTEGRATION.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "48 ordinary-alias arithmetic cases and 24 fully free injective-map structures reject; source-fixed codec feasibility also complete.",
-      "Untested scope": "Other explicit pronunciation/outer-cipher constructions; global alignment remains conditional.",
-      "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
-      "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
-      "Dependencies": "Cambridge-US glyph windows placed at the disclosed English offsets as an explicit conditional assumption; global phonetic alignment through unknown prefixes was not established.",
-      "Results": "[retained evidence and finite coverage](IPA-CODECS-INTEGRATION.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Tested scope": "48 ordinary-alias arithmetic cases and 24 free injective-map structures reject; source codec feasibility complete. Item 6 adds 136 fixed pronunciation-derived byte-key descriptions (periods 18/16, all phases), no first-crib fit. UTF-8 postdates 1990; this latter test is a modern serialization diagnostic, not historical pronunciation evidence.",
+      "Untested scope": "Historically grounded IPA-to-key serializations, other explicit outer ciphers, and uniquely framed whole-English preprocessing; global phonetic alignment remains conditional in the older models.",
+      "Missing inputs": "An independently justified historical encoding/key source or complete English codec/alignment; the modern UTF-8 diagnostic does not supply these.",
+      "Next discriminating test": "Require historical mechanism evidence before another pronunciation serializer or dialect. Do not adapt the failed fixed byte mapping.",
+      "Dependencies": "Older Cambridge-US preprocessing uses unchanged disclosed offsets conditionally; item 6 instead leaves English unchanged and applies one continuous fixed running key, so no spelling inverse or phonetic-offset reuse is asserted.",
+      "Results": "[Prior source and finite coverage](IPA-CODECS-INTEGRATION.md), [item 6 key-only diagnostic and historical limitation](TREE-GEOMETRY-IPA-026-FINDINGS.md), [all receipts](../results/tree-geometry-ipa-026/README.md)."
     },
     {
       "id": "H-BOUNDARY-STATE",
@@ -3024,6 +3024,54 @@
         "results/LAMP-GREEK-025-VALIDATION.json"
       ],
       "original_entry": "- Kind: finite K4 model tests plus a support exclusion and synthetic complete-selector controls. No historical creator claim or Site change.\n- Frozen specification `b19f89c` precedes actual comparison. [Protocol](LAMP-GREEK-025-SPEC.md), [findings](LAMP-GREEK-025-FINDINGS.md), [source](../experiments/lamp_greek.py), [original run/UTC manifest](../results/lamp-greek-025/README.md).\n- Original controls start/end UTC: 2026-10-24T01:51:34.425418+00:00 / 2026-10-24T01:51:39.517632+00:00; actual selection 2026-10-24T01:51:39.584120+00:00 / 2026-10-24T01:51:39.593230+00:00. Null panel ends 2026-10-24T01:51:41.494966+00:00. These are computation timestamps, not publication or historical clock observations.\n- Scope: two physical orders, ordinal lit-field sums, 1,440 starts, two indicator states, AZ/KRYPTOS and addition/true Beaufort. Letter and adjacent-pair roles each test 23,040 descriptions and fail first-crib constraints. Framed Greek role support-excludes 23,040 descriptions with zero phase simulation; no alignment assumption needed for that invariant.\n- Results: no first-crib or Berlin-stage candidate; no full solution. All 199 histogram-shuffled whole-family controls also have zero first fits; descriptive baseline only, no significance claim.\n- Controls: 5,760 display/order comparisons, 18,279 prefix-code string roundtrips, 702 rank inverses, 69,120 raw-model unrelated-message roundtrips, all 24 literal plants retained. One pair plant has two distinct all-crib-compatible plaintexts; preserve that ambiguity. Four framed plants have two descriptions/one plaintext.\n- Separate [direct checker](../experiments/audit_lamp_greek.py) verifies complete candidate sets for 24 plants and K4, using independent row arithmetic and direct decoding; same-author implementation, not external blinded verification. [Validation receipt](../results/LAMP-GREEK-025-INDEPENDENT-VALIDATION.json); [finite phase/support certificates](../results/LAMP-GREEK-025-CERTIFICATES.json).\n- The Greek frame expands the plant 97→104 tokens and computes clue offsets after full parsing; ordinal Greek labels are not phonetic Greek. Other mechanisms remain outside coverage. Stop before item 6.\n- Final validation: 529 tests pass in both Python 3.9 and 3.12; [validation receipt and logs](../results/LAMP-GREEK-025-VALIDATION.json). No new documentation-link errors; no configured CI workflows."
+    },
+    {
+      "record_id": "LOG-8B35949B43",
+      "experiment_ids": [
+        "TREE-GEOMETRY-IPA-026"
+      ],
+      "title": "TREE-GEOMETRY-IPA-026 — item 6 dynamic topology, full-state feedback and pronunciation keys",
+      "categories": [
+        "finite K4 model tests",
+        "synthetic validation",
+        "source qualification"
+      ],
+      "outcome": "No first fit in 448 descriptions; splay/ARX finite negatives; IPA UTF-8 is explicitly a modern diagnostic",
+      "classification_basis": "Reviewed original completed/incomplete manifests, full candidate records and independent direct replay; no broad exclusions or historical UTF-8 claim.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": null,
+      "timestamps": [
+        {
+          "receipt": "results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:06:45.670410Z",
+          "original": "2026-10-24T02:06:45.670410+00:00"
+        },
+        {
+          "receipt": "results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:06:45.999181Z",
+          "original": "2026-10-24T02:06:45.999181+00:00"
+        }
+      ],
+      "links": [
+        "experiments/audit_tree_geometry_ipa.py",
+        "experiments/tree_geometry_ipa.py",
+        "experiments/tree_geometry_ipa_reference.py",
+        "research/TREE-GEOMETRY-IPA-026-FINDINGS.md",
+        "research/TREE-GEOMETRY-IPA-026-SPEC.md",
+        "results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json",
+        "results/TREE-GEOMETRY-IPA-026-VALIDATION.json",
+        "results/tree-geometry-ipa-026/README.md"
+      ],
+      "receipt_paths": [
+        "results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json",
+        "results/TREE-GEOMETRY-IPA-026-VALIDATION.json"
+      ],
+      "original_entry": "- Kind: three finite exploratory model tests, synthetic complete-selector controls and historical qualification; no creator-use evidence or Site change.\n- Frozen protocol `e35121c31d34c62c8f836d9169214f79d53de8b5`; [specification](TREE-GEOMETRY-IPA-026-SPEC.md), [findings](TREE-GEOMETRY-IPA-026-FINDINGS.md), [native code](../experiments/tree_geometry_ipa.py), [independent reference](../experiments/tree_geometry_ipa_reference.py).\n- Exact scope: 104 bottom-up access-splay tree descriptions, 208 nonlinear 35-bit geometry feedback descriptions, 136 source-fixed IPA byte-key descriptions. All 448 full decryptions are distinct; no first-crib survivor, no Berlin-stage candidate. No arbitrary states/functions or general-family exclusion.\n- Original completed controls start/end UTC: 2026-10-24T02:05:03.782641+00:00 / 2026-10-24T02:05:12.193005+00:00. Actual start/end 2026-10-24T02:05:12.193900+00:00 / 2026-10-24T02:05:12.247353+00:00. Whole-family nulls end 2026-10-24T02:05:23.118605+00:00. [Original and failed-control manifests](../results/tree-geometry-ipa-026/README.md) preserve separate chronology; no publication timestamp substitution.\n- Controls: 1,792 fixed-model/reference message roundtrips, 24,336 tree permutation checks, 104 topology-change and 104 wrong-timing witnesses, 24 full-family plants with exact complete-reference candidate-set agreement and truth inclusion. All 199 histogram shuffles have zero first/all fits; descriptive only, no significance claim. Initial control attempt failed on reference rotation grouping before K4 and is preserved, not counted as a negative.\n- Separate [post-outcome direct replay](../experiments/audit_tree_geometry_ipa.py) agrees on all actual model records and 1,040 geometry carry/boundary cases; [receipt](../results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json). Same-author independent implementation, not external blind verification.\n- IPA output periods 18/16 exceed the older direct period 1–12 baseline, but UTF-8 was devised in 1992. This explicitly modern serialization is not a historical 1990 hypothesis or an IPA spelling inverse. Public clue phrases used as keys are not independent recovered evidence. No encoding retune, new dialect or item 7.\n- Final aggregate validation: 538 tests pass on Python 3.9 and 3.12; [separate UTC receipt/logs](../results/TREE-GEOMETRY-IPA-026-VALIDATION.json). No configured CI workflow or new documentation-link errors."
     }
   ],
   "receipts": [
@@ -3471,6 +3519,15 @@
       "status": null
     },
     {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-030.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
       "path": "results/DYNAMIC-KEY-VALIDATION.json",
       "labels": [
         "DYNAMIC-KEY-001"
@@ -3656,6 +3713,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-025.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-026.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -3963,6 +4027,15 @@
     },
     {
       "path": "results/FRONTIER-025.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-026.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -4351,6 +4424,15 @@
       "path": "results/HYPOTHESIS-REGISTER-025.json",
       "labels": [
         "Item 5 finite ordinal lamp Greek codecs; no general Greek rejection"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/HYPOTHESIS-REGISTER-026.json",
+      "labels": [
+        "Item6 exploratory mechanisms and scope audit"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -4896,6 +4978,37 @@
       "path": "results/STRUCT-001.json",
       "labels": [
         "STRUCT-001"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json",
+      "labels": [
+        "post_outcome_independent_implementation_validation_not_new_model_search"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:06:45.670410Z",
+          "original": "2026-10-24T02:06:45.670410+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:06:45.999181Z",
+          "original": "2026-10-24T02:06:45.999181+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/TREE-GEOMETRY-IPA-026-VALIDATION.json",
+      "labels": [
+        "Aggregate post-experiment regression, not original model scoring"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -6834,6 +6947,128 @@
       "path": "results/strategy-followup-runs/latest.json",
       "labels": [
         "20261022T204842Z-17a364bb210f4d8799018ef99b496f3a"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "completed"
+    },
+    {
+      "path": "results/tree-geometry-ipa-026/20261024T020432Z-cc0db30d728d46d781efc6aacc03ae11/manifest.json",
+      "labels": [
+        "Item6 distinct tree geometry IPA mechanisms",
+        "20261024T020432Z-cc0db30d728d46d781efc6aacc03ae11"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:04:32.063520Z",
+          "original": "2026-10-24T02:04:32.063520+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:04:32.065809Z",
+          "original": "2026-10-24T02:04:32.065809+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "incomplete"
+    },
+    {
+      "path": "results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/actual.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:05:12.193900Z",
+          "original": "2026-10-24T02:05:12.193900+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:05:12.247353Z",
+          "original": "2026-10-24T02:05:12.247353+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/controls.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:05:03.782641Z",
+          "original": "2026-10-24T02:05:03.782641+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:05:12.193005Z",
+          "original": "2026-10-24T02:05:12.193005+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "passed"
+    },
+    {
+      "path": "results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/inputs.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/manifest.json",
+      "labels": [
+        "Item6 distinct tree geometry IPA mechanisms",
+        "20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:05:03.781918Z",
+          "original": "2026-10-24T02:05:03.781918+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:05:23.121842Z",
+          "original": "2026-10-24T02:05:23.121842+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "completed"
+    },
+    {
+      "path": "results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/nulls.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T02:05:12.249408Z",
+          "original": "2026-10-24T02:05:12.249408+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T02:05:23.118605Z",
+          "original": "2026-10-24T02:05:23.118605+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/tree-geometry-ipa-026/latest.json",
+      "labels": [
+        "20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",

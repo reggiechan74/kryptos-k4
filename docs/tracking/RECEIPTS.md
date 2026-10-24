@@ -51,6 +51,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/DOCUMENTATION-LINK-AUDIT-027.json](../../results/DOCUMENTATION-LINK-AUDIT-027.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-028.json](../../results/DOCUMENTATION-LINK-AUDIT-028.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-029.json](../../results/DOCUMENTATION-LINK-AUDIT-029.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
+| [results/DOCUMENTATION-LINK-AUDIT-030.json](../../results/DOCUMENTATION-LINK-AUDIT-030.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DYNAMIC-KEY-VALIDATION.json](../../results/DYNAMIC-KEY-VALIDATION.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
 | [results/ENE-NOTE-CHECKS.json](../../results/ENE-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-001.json](../../results/EXCLUSION-SCOPE-AUDIT-001.json) |  | Exact run start/end unknown; inspect original |
@@ -78,6 +79,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/EXCLUSION-SCOPE-AUDIT-023.json](../../results/EXCLUSION-SCOPE-AUDIT-023.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-024.json](../../results/EXCLUSION-SCOPE-AUDIT-024.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-025.json](../../results/EXCLUSION-SCOPE-AUDIT-025.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-026.json](../../results/EXCLUSION-SCOPE-AUDIT-026.json) |  | Exact run start/end unknown; inspect original |
 | [results/FACE-ROW-001-COVERAGE.json](../../results/FACE-ROW-001-COVERAGE.json) | prior-coverage audit; zero K4 evaluations | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005-controls.json](../../results/FEISTEL-SYMMETRY-005-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005.json](../../results/FEISTEL-SYMMETRY-005.json) |  | Exact run start/end unknown; inspect original |
@@ -111,6 +113,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/FRONTIER-023.json](../../results/FRONTIER-023.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-024.json](../../results/FRONTIER-024.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-025.json](../../results/FRONTIER-025.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-026.json](../../results/FRONTIER-026.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FULL-STATE-PHYSICAL-VALIDATION-001.json](../../results/FULL-STATE-PHYSICAL-VALIDATION-001.json) | FULL-STATE-PHYSICAL-VALIDATION-001 | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-COMPARISON.json](../../results/GEOMETRIC-FOLLOWUP-COMPARISON.json) |  | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json](../../results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
@@ -153,6 +156,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/HYPOTHESIS-REGISTER-023.json](../../results/HYPOTHESIS-REGISTER-023.json) | Item 3 conditional registration and new date-separated historical evidence complete; actual decoder remains evidence-blocked | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-024.json](../../results/HYPOTHESIS-REGISTER-024.json) | Item 4 synthetic coupled solver integration; exact controls and bounded scaling, no K4 gate pass | Exact run start/end unknown; inspect original |
 | [results/HYPOTHESIS-REGISTER-025.json](../../results/HYPOTHESIS-REGISTER-025.json) | Item 5 finite ordinal lamp Greek codecs; no general Greek rejection | Exact run start/end unknown; inspect original |
+| [results/HYPOTHESIS-REGISTER-026.json](../../results/HYPOTHESIS-REGISTER-026.json) | Item6 exploratory mechanisms and scope audit | Exact run start/end unknown; inspect original |
 | [results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json](../../results/IPA-AND-CODECS-INDEPENDENT-REPLAY.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001-controls.json](../../results/IPA-FREE-MAP-001-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/IPA-FREE-MAP-001.json](../../results/IPA-FREE-MAP-001.json) | IPA-FREE-MAP-001 | Exact run start/end unknown; inspect original |
@@ -213,6 +217,8 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/STAT-CROSSVERSION-014-python312.json](../../results/STAT-CROSSVERSION-014-python312.json) |  | Exact run start/end unknown; inspect original |
 | [results/STAT-CROSSVERSION-014-python39.json](../../results/STAT-CROSSVERSION-014-python39.json) |  | Exact run start/end unknown; inspect original |
 | [results/STRUCT-001.json](../../results/STRUCT-001.json) | STRUCT-001 | Exact run start/end unknown; inspect original |
+| [results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json](../../results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json) | post_outcome_independent_implementation_validation_not_new_model_search | start: 2026-10-24T02:06:45.670410Z; end: 2026-10-24T02:06:45.999181Z |
+| [results/TREE-GEOMETRY-IPA-026-VALIDATION.json](../../results/TREE-GEOMETRY-IPA-026-VALIDATION.json) | Aggregate post-experiment regression, not original model scoring | Exact run start/end unknown; inspect original |
 | [results/TREE-PATH-CIPHER-001-controls.json](../../results/TREE-PATH-CIPHER-001-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/TREE-PATH-CIPHER-001.json](../../results/TREE-PATH-CIPHER-001.json) |  | Exact run start/end unknown; inspect original |
 | [results/TREE-STATE-SUPPORT-006-controls.json](../../results/TREE-STATE-SUPPORT-006-controls.json) |  | Exact run start/end unknown; inspect original |
@@ -375,6 +381,13 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/strategy-followup-runs/20261022T204842Z-17a364bb210f4d8799018ef99b496f3a/STRATEGY-FOLLOWUP-001.json](../../results/strategy-followup-runs/20261022T204842Z-17a364bb210f4d8799018ef99b496f3a/STRATEGY-FOLLOWUP-001.json) | STRATEGY-FOLLOWUP-001 | Exact run start/end unknown; inspect original |
 | [results/strategy-followup-runs/20261022T204842Z-17a364bb210f4d8799018ef99b496f3a/manifest.json](../../results/strategy-followup-runs/20261022T204842Z-17a364bb210f4d8799018ef99b496f3a/manifest.json) | STRATEGY-FOLLOWUP-001; 20261022T204842Z-17a364bb210f4d8799018ef99b496f3a | start: 2026-10-22T20:48:42.987845Z; end: 2026-10-22T20:48:43.398039Z |
 | [results/strategy-followup-runs/latest.json](../../results/strategy-followup-runs/latest.json) | 20261022T204842Z-17a364bb210f4d8799018ef99b496f3a | Exact run start/end unknown; inspect original |
+| [results/tree-geometry-ipa-026/20261024T020432Z-cc0db30d728d46d781efc6aacc03ae11/manifest.json](../../results/tree-geometry-ipa-026/20261024T020432Z-cc0db30d728d46d781efc6aacc03ae11/manifest.json) | Item6 distinct tree geometry IPA mechanisms; 20261024T020432Z-cc0db30d728d46d781efc6aacc03ae11 | start: 2026-10-24T02:04:32.063520Z; end: 2026-10-24T02:04:32.065809Z |
+| [results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/actual.json](../../results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/actual.json) |  | start: 2026-10-24T02:05:12.193900Z; end: 2026-10-24T02:05:12.247353Z |
+| [results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/controls.json](../../results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/controls.json) |  | start: 2026-10-24T02:05:03.782641Z; end: 2026-10-24T02:05:12.193005Z |
+| [results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/inputs.json](../../results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/inputs.json) |  | Exact run start/end unknown; inspect original |
+| [results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/manifest.json](../../results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/manifest.json) | Item6 distinct tree geometry IPA mechanisms; 20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274 | start: 2026-10-24T02:05:03.781918Z; end: 2026-10-24T02:05:23.121842Z |
+| [results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/nulls.json](../../results/tree-geometry-ipa-026/20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274/nulls.json) |  | start: 2026-10-24T02:05:12.249408Z; end: 2026-10-24T02:05:23.118605Z |
+| [results/tree-geometry-ipa-026/latest.json](../../results/tree-geometry-ipa-026/latest.json) | 20261024T020503Z-3c4a174e246f4e72adf5d03c3eee8274 | Exact run start/end unknown; inspect original |
 | [results/word-runs/20261018T112641Z-6df780ad6f254787ad9f539f7a60b740/WORD-SCRAMBLE-001.json](../../results/word-runs/20261018T112641Z-6df780ad6f254787ad9f539f7a60b740/WORD-SCRAMBLE-001.json) | WORD-SCRAMBLE-001 | Exact run start/end unknown; inspect original |
 | [results/word-runs/20261018T112641Z-6df780ad6f254787ad9f539f7a60b740/manifest.json](../../results/word-runs/20261018T112641Z-6df780ad6f254787ad9f539f7a60b740/manifest.json) | word-interior-compatibility; 20261018T112641Z-6df780ad6f254787ad9f539f7a60b740 | start: 2026-10-18T11:26:41.668926Z; end: 2026-10-18T11:26:41.739302Z |
 | [results/word-runs/latest.json](../../results/word-runs/latest.json) | 20261018T112641Z-6df780ad6f254787ad9f539f7a60b740 | Exact run start/end unknown; inspect original |

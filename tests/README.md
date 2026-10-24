@@ -115,3 +115,7 @@ Historical artifact checks validate the shared `run_io.py` / `run_bounded.py` by
 ## Item 5 controls
 
 [test_lamp_greek.py](test_lamp_greek.py) checks the complete display, Greek framing/ranks, local-key constraint equivalence, preserved original receipt hashes, support exclusion and complete independent-selector results. Full expensive original selectors are retained as receipts and separately runnable; regression checks do not silently rerun model searches.
+
+## Item 6 checkpoint
+
+[Item 6 tests](test_tree_geometry_ipa.py) check dynamic topology, causal inverse, independent reference, exact original artifact hashes, failed-control staging, full candidate sets and historical period scope.

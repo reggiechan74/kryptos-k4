@@ -159,3 +159,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Item 5: ordinal lamp/Greek codecs
 
 [Implementation](lamp_greek.py), [immutable original/replay runner](run_lamp_greek.py), [independent direct-selector validation](audit_lamp_greek.py), and [certificate replay](lamp_greek_certificates.py). Read the [frozen protocol](../research/LAMP-GREEK-025-SPEC.md) before running. These are exploratory constructions, not historical World Clock evidence.
+
+## Item 6 checkpoint
+
+[Item 6 native mechanisms](tree_geometry_ipa.py), [nested-tree/bit/UTF8 reference](tree_geometry_ipa_reference.py), [runner](run_tree_geometry_ipa.py), [direct audit](audit_tree_geometry_ipa.py). Read the frozen model and historical limitations before replay.

@@ -12,12 +12,13 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | --- | --- |
 | Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 60 stable family IDs, linked to exact coverage |
 | Find an experiment, its date, result, code and receipts | [Experiment tracker](docs/tracking/EXPERIMENTS.md) and [recorded run receipts](docs/tracking/RECEIPTS.md) |
-| See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-025.json) |
+| See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-026.json) |
 | Explore item 1’s systematic row-plus-column scan | [Findings](research/FOLD-SLIDE-2D-FINDINGS.md), [every 2D shift](results/FOLD-SLIDE-2D-001-frames.csv), [count maps](research/figures/fold-slide-2d-001.svg); the [earlier offline slider](research/figures/fold-slide-020.html) is column-only |
 | Understand item 2’s physical limits | [Sunlight, shadow, lamp and calibration findings](research/PHYSICAL-SOLAR-002-FINDINGS.md); no surveyed optical key |
 | Inspect item 3’s historical clock ambiguity | [Partial-ring registration and shared-phase analysis](research/WORLD-CLOCK-003-FINDINGS.md); no 1989 inventory or cipher bridge established |
 | Inspect item 4’s coupled SIGABA engineering | [Unknown-anchor support, exactness and measured limits](research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md); full-domain gate remains unresolved |
 | Inspect item 5’s lamp/Greek codecs | [Three complete models and bounded negatives](research/LAMP-GREEK-025-FINDINGS.md); this is not the historical World Clock |
+| Inspect item 6’s distinct stateful mechanisms | [Splay trees, nonlinear geometry and pronunciation-key limits](research/TREE-GEOMETRY-IPA-026-FINDINGS.md); no first-crib fit |
 | Reproduce the work | [Running experiments](experiments/README.md) and [test guide](tests/README.md) |
 
 **Overlay scope:** the earlier column-only study used `dy = 0`. [Item 1’s newer predefined two-dimensional study](research/FOLD-SLIDE-2D-FINDINGS.md) covers all integer rows −28…+28 and columns −33…+33 under two fixed registrations. Its own whole-search controls show no unusual excess; the older column-only p-values are not repurposed for rows.

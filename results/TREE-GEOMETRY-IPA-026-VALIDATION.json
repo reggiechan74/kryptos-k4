@@ -1,0 +1,33 @@
+{
+  "kind": "Aggregate post-experiment regression, not original model scoring",
+  "suites": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T02:09:51.317638+00:00",
+      "finished_at_utc": "2026-10-24T02:10:57.138786+00:00",
+      "elapsed_seconds": 65.82064062500001,
+      "exit_code": 0,
+      "log": "results/TREE-GEOMETRY-IPA-026-python39.log.txt",
+      "sha256": "be28a897aa963cd65c595119814adcac646f9500945dfde1eefc7ac1c6215336",
+      "tests_passed": 538
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T02:10:57.139487+00:00",
+      "finished_at_utc": "2026-10-24T02:11:47.671901+00:00",
+      "elapsed_seconds": 50.532232416,
+      "exit_code": 0,
+      "log": "results/TREE-GEOMETRY-IPA-026-python312.log.txt",
+      "sha256": "b1fc20b76d31c1c75dec6784cee6a9087b3393526a55b64107cbc6551695e1a0",
+      "tests_passed": 538
+    }
+  ],
+  "source_sha256": {
+    "experiments/tree_geometry_ipa.py": "46bb94fabf75d77bd386fa581d6b31d7b39d2c79ddf97a21d93a123214f6054f",
+    "experiments/tree_geometry_ipa_reference.py": "60dc559a09f0c6c58f2a99ea0ee0138c84cae0308f16843561b27af838b71125",
+    "tests/test_tree_geometry_ipa.py": "b7d581b12ff684764bee2f3b32b5dfd428468fb4bd912302fa36ac6f777ae91f"
+  },
+  "source_limit": "IPA byte encoding is explicitly modern, not a historical1990 claim.",
+  "site_changed": false,
+  "item_7_started": false
+}
