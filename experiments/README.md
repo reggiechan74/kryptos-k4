@@ -153,3 +153,5 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 `physical_solar_002.py` reproduces item 2 conditional solar/ray-plane constraints; [protocol](../research/PHYSICAL-SOLAR-002-SPEC.md) and [outputs](../results/physical-solar-002/README.md). It does not evaluate a cipher.
 
 `world_clock_003.py` enumerates exact conditional partial-inventory registrations and phase invariants; [protocol](../research/WORLD-CLOCK-003-SPEC.md), [receipts](../results/world-clock-003/README.md). It assigns no historical UTC offsets or cipher symbols.
+
+`run_sigaba_unknown_anchor.py` and `run_sigaba_unknown_anchor_byte_masks.py` are separately frozen synthetic resource comparisons; [protocol](../research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md) and [findings](../research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md). Neither reads K4 ciphertext.

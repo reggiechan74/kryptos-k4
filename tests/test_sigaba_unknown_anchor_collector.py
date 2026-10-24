@@ -10,7 +10,8 @@ import sigaba_compressed_ownership as baseline
 
 class UnknownAnchorCollectorTests(unittest.TestCase):
     def test_complete_tiny_truth_and_explicit_graphs(self):
-        r=control.run()
+        import subprocess
+        r=json.loads(subprocess.check_output([sys.executable,'-c','import json,sys;sys.path.insert(0,"experiments");import sigaba_unknown_anchor_controls as c;print(json.dumps(c.run()))'],cwd=ROOT))
         self.assertEqual(r['implicit_vs_explicit_graph_comparisons'],70)
         self.assertEqual(r['complete_raw_truth_streams'],12)
         self.assertTrue(all(f['plant_included'] and f['full_relations_equal'] for f in r['fixtures']))

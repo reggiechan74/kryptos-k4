@@ -1,0 +1,169 @@
+{
+  "id": "CSP889-COUPLED-024-CONTROLS",
+  "completed": true,
+  "implicit_vs_explicit_graph_comparisons": 70,
+  "complete_raw_truth_streams": 12,
+  "fixtures": [
+    {
+      "q": 2,
+      "variant": 0,
+      "mask": "empty",
+      "complete_raw_key_count": "2304",
+      "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 2,
+      "variant": 0,
+      "mask": "short",
+      "complete_raw_key_count": "2304",
+      "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 2,
+      "variant": 0,
+      "mask": "long",
+      "complete_raw_key_count": "2304",
+      "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 2,
+      "variant": 1,
+      "mask": "empty",
+      "complete_raw_key_count": "2304",
+      "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 2,
+      "variant": 1,
+      "mask": "short",
+      "complete_raw_key_count": "2304",
+      "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 2,
+      "variant": 1,
+      "mask": "long",
+      "complete_raw_key_count": "2304",
+      "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 3,
+      "variant": 0,
+      "mask": "empty",
+      "complete_raw_key_count": "26244",
+      "stream_sha256": "226900ab235da621c9d1b27929f3d46e93118718fbd659f3eb4852424813d600",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 3,
+      "variant": 0,
+      "mask": "short",
+      "complete_raw_key_count": "1458",
+      "stream_sha256": "6d709a6bb5e5b6736076594dd65517fa391b530593bbbe482b4bf376013f49e6",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 3,
+      "variant": 0,
+      "mask": "long",
+      "complete_raw_key_count": "1458",
+      "stream_sha256": "6d709a6bb5e5b6736076594dd65517fa391b530593bbbe482b4bf376013f49e6",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 3,
+      "variant": 1,
+      "mask": "empty",
+      "complete_raw_key_count": "26244",
+      "stream_sha256": "226900ab235da621c9d1b27929f3d46e93118718fbd659f3eb4852424813d600",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 3,
+      "variant": 1,
+      "mask": "short",
+      "complete_raw_key_count": "1701",
+      "stream_sha256": "826209eb8c911554ec048b183b2a71cc067107ed3fcb97d8e9d1aa7391aef42a",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    },
+    {
+      "q": 3,
+      "variant": 1,
+      "mask": "long",
+      "complete_raw_key_count": "1701",
+      "stream_sha256": "826209eb8c911554ec048b183b2a71cc067107ed3fcb97d8e9d1aa7391aef42a",
+      "full_relations_equal": true,
+      "independent_full_raw_stream_equal": true,
+      "plant_included": true
+    }
+  ],
+  "contradiction_control_passed": true,
+  "budget": {
+    "seconds": 1.1545855,
+    "peak_RSS_bytes": 16842752,
+    "wall_cap_seconds": 60,
+    "RSS_cap_bytes": 268435456,
+    "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+  },
+  "K4_evaluations": 0,
+  "started_at_utc": "2026-10-24T01:13:47.201203+00:00",
+  "finished_at_utc": "2026-10-24T01:13:48.726009+00:00",
+  "published_simulator_vectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "source_sha256": {
+    "experiments/sigaba_unknown_anchor_collector.py": "b71ed3ed163b2ddee2927a03a6228931bf007e9903bb4f45248437120ae54800",
+    "experiments/sigaba_unknown_anchor_controls.py": "1e9ba8b911bd728e87e0a3075a3635498c7ef3cadae4b66d5b2fabea42cf29d0",
+    "experiments/run_sigaba_unknown_anchor.py": "e95d4ce23c861c10c90872ee5fa482a05f1d8a4672fe033a9756fd0eda5a8c15",
+    "experiments/sigaba_compressed_ownership.py": "66db721c3683116bf27bb3735bb14000571f92b48973b7218d29eeff091388cf",
+    "experiments/sigaba_compact_domain.py": "a04a7296f7d0d291bce480a659efa671d7811a320316d83ec6f59b95b0f1eed9",
+    "experiments/sigaba_sparse_ownership.py": "e7a0b5fc621d5f0a6d23a09a77f2754d29c98b6974fa02bb71f53a60818836b1",
+    "experiments/sigaba_torus.py": "ee49125ae2cd10760ddfe5dd54822834529c3b984772c1c2fb6662d9d0c4e5ee",
+    "experiments/sigaba_first_observation.py": "ab78da87147f5646e63dbfd2bf8d163bfa2aa62420f719c4210c80b03c4fe22a",
+    "experiments/sigaba_real_adapter.py": "eed55233a96fdfcc199572947ec144ffc2b315a61a092fec4774e724d5333b86",
+    "experiments/sigaba_joint_toy.py": "0bf4fddec4c7416a8bb4c8d2d7243885713b847abd5183210d377734b7649ad5",
+    "experiments/sigaba_joint_toy_oracle.py": "0711bd1f0722cb157e6029a88644ecc876942292ffef13292dd79f6bdef8d79c",
+    "experiments/sigaba_csp889.py": "2f12042cc4ee838edbe5d1619d42a9d4c856b7586bbd41e91dd4f5f6ada27516",
+    "data/sigaba-csp889-v1.json": "8326857b0b2997d64be94a4685185992ce00702235964c0a985f183d92fc3c5b",
+    "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md": "f61133ebf3458367e5892e8333c472a9d2ee488a84c877d272312d464101a3af"
+  }
+}

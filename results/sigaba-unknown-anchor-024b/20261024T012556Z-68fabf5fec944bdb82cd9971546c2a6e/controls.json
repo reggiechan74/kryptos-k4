@@ -1,0 +1,328 @@
+{
+  "started_at_utc": "2026-10-24T01:25:56.464676+00:00",
+  "finished_at_utc": "2026-10-24T01:25:59.079831+00:00",
+  "original_fixed_controls": {
+    "id": "CSP889-COUPLED-024-CONTROLS",
+    "completed": true,
+    "implicit_vs_explicit_graph_comparisons": 70,
+    "complete_raw_truth_streams": 12,
+    "fixtures": [
+      {
+        "q": 2,
+        "variant": 0,
+        "mask": "empty",
+        "complete_raw_key_count": "2304",
+        "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 2,
+        "variant": 0,
+        "mask": "short",
+        "complete_raw_key_count": "2304",
+        "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 2,
+        "variant": 0,
+        "mask": "long",
+        "complete_raw_key_count": "2304",
+        "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 2,
+        "variant": 1,
+        "mask": "empty",
+        "complete_raw_key_count": "2304",
+        "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 2,
+        "variant": 1,
+        "mask": "short",
+        "complete_raw_key_count": "2304",
+        "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 2,
+        "variant": 1,
+        "mask": "long",
+        "complete_raw_key_count": "2304",
+        "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 3,
+        "variant": 0,
+        "mask": "empty",
+        "complete_raw_key_count": "26244",
+        "stream_sha256": "226900ab235da621c9d1b27929f3d46e93118718fbd659f3eb4852424813d600",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 3,
+        "variant": 0,
+        "mask": "short",
+        "complete_raw_key_count": "1458",
+        "stream_sha256": "6d709a6bb5e5b6736076594dd65517fa391b530593bbbe482b4bf376013f49e6",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 3,
+        "variant": 0,
+        "mask": "long",
+        "complete_raw_key_count": "1458",
+        "stream_sha256": "6d709a6bb5e5b6736076594dd65517fa391b530593bbbe482b4bf376013f49e6",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 3,
+        "variant": 1,
+        "mask": "empty",
+        "complete_raw_key_count": "26244",
+        "stream_sha256": "226900ab235da621c9d1b27929f3d46e93118718fbd659f3eb4852424813d600",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 3,
+        "variant": 1,
+        "mask": "short",
+        "complete_raw_key_count": "1701",
+        "stream_sha256": "826209eb8c911554ec048b183b2a71cc067107ed3fcb97d8e9d1aa7391aef42a",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      },
+      {
+        "q": 3,
+        "variant": 1,
+        "mask": "long",
+        "complete_raw_key_count": "1701",
+        "stream_sha256": "826209eb8c911554ec048b183b2a71cc067107ed3fcb97d8e9d1aa7391aef42a",
+        "full_relations_equal": true,
+        "independent_full_raw_stream_equal": true,
+        "plant_included": true
+      }
+    ],
+    "contradiction_control_passed": true,
+    "budget": {
+      "seconds": 1.187353833,
+      "peak_RSS_bytes": 22773760,
+      "wall_cap_seconds": 60,
+      "RSS_cap_bytes": 268435456,
+      "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+    },
+    "K4_evaluations": 0
+  },
+  "varying_input_supplement": {
+    "varying_fixture_count": 4,
+    "id": "COUPLED-024-DYNAMIC-CONTROLS",
+    "completed": true,
+    "fixtures": [
+      {
+        "q": 2,
+        "pulses": [
+          0
+        ],
+        "variant": 0,
+        "mask": "short",
+        "complete_raw_count": "2304",
+        "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 1
+      },
+      {
+        "q": 2,
+        "pulses": [
+          0
+        ],
+        "variant": 0,
+        "mask": "long",
+        "complete_raw_count": "2304",
+        "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 1
+      },
+      {
+        "q": 2,
+        "pulses": [
+          0
+        ],
+        "variant": 1,
+        "mask": "short",
+        "complete_raw_count": "2304",
+        "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 1
+      },
+      {
+        "q": 2,
+        "pulses": [
+          0
+        ],
+        "variant": 1,
+        "mask": "long",
+        "complete_raw_count": "2304",
+        "stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 1
+      },
+      {
+        "q": 3,
+        "pulses": [
+          0
+        ],
+        "variant": 0,
+        "mask": "short",
+        "complete_raw_count": "2916",
+        "stream_sha256": "52d50e08281188403d3dfca7b22d704218107ba2e01ee3afefe4257871ab54ff",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 1
+      },
+      {
+        "q": 3,
+        "pulses": [
+          0
+        ],
+        "variant": 0,
+        "mask": "long",
+        "complete_raw_count": "2916",
+        "stream_sha256": "52d50e08281188403d3dfca7b22d704218107ba2e01ee3afefe4257871ab54ff",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 1
+      },
+      {
+        "q": 3,
+        "pulses": [
+          0
+        ],
+        "variant": 1,
+        "mask": "short",
+        "complete_raw_count": "1872",
+        "stream_sha256": "d997c08183f329131b45b0d1b77fcdcf7a0ed933278f2f8ea936b762689a3805",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 3
+      },
+      {
+        "q": 3,
+        "pulses": [
+          0
+        ],
+        "variant": 1,
+        "mask": "long",
+        "complete_raw_count": "45",
+        "stream_sha256": "4f93aaa3b6bb23cf3baac53825a944d5f178bf2d11aed571993768c26b66e950",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 3
+      },
+      {
+        "q": 3,
+        "pulses": [
+          0,
+          1
+        ],
+        "variant": 0,
+        "mask": "short",
+        "complete_raw_count": "2430",
+        "stream_sha256": "fea77b284d6c7d803e945e8d0cc238da48d1664030da2d140947c56a79ed4e58",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 1
+      },
+      {
+        "q": 3,
+        "pulses": [
+          0,
+          1
+        ],
+        "variant": 0,
+        "mask": "long",
+        "complete_raw_count": "2430",
+        "stream_sha256": "fea77b284d6c7d803e945e8d0cc238da48d1664030da2d140947c56a79ed4e58",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 1
+      },
+      {
+        "q": 3,
+        "pulses": [
+          0,
+          1
+        ],
+        "variant": 1,
+        "mask": "short",
+        "complete_raw_count": "2232",
+        "stream_sha256": "e2ed3da23d6ee8e05dea285f77b0b2f106848d541bbb2aec68c484731231eff3",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 3
+      },
+      {
+        "q": 3,
+        "pulses": [
+          0,
+          1
+        ],
+        "variant": 1,
+        "mask": "long",
+        "complete_raw_count": "1215",
+        "stream_sha256": "a52a3b26e9e57b8ddb08ef65d1badfeb8482b45cd13f6d674bea5482d328c944",
+        "baseline_integrated_byte_backend_sets_equal": true,
+        "max_distinct_collector_sets": 3
+      }
+    ],
+    "independent_controller_traces": 124,
+    "implicit_explicit_varying_input_graphs": 124,
+    "complete_raw_truth_streams": 12,
+    "budget": {
+      "seconds": 1.427695542,
+      "peak_RSS_bytes": 22790144,
+      "wall_cap_seconds": 60,
+      "RSS_cap_bytes": 268435456,
+      "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+    },
+    "K4_evaluations": 0,
+    "chronology": "Supplement after original resource benchmarks; no production model/benchmark fixture changed"
+  },
+  "source_sha256": {
+    "experiments/sigaba_unknown_anchor_collector.py": "b71ed3ed163b2ddee2927a03a6228931bf007e9903bb4f45248437120ae54800",
+    "experiments/sigaba_unknown_anchor_controls.py": "1e9ba8b911bd728e87e0a3075a3635498c7ef3cadae4b66d5b2fabea42cf29d0",
+    "experiments/run_sigaba_unknown_anchor.py": "e95d4ce23c861c10c90872ee5fa482a05f1d8a4672fe033a9756fd0eda5a8c15",
+    "experiments/sigaba_compressed_ownership.py": "66db721c3683116bf27bb3735bb14000571f92b48973b7218d29eeff091388cf",
+    "experiments/sigaba_compact_domain.py": "a04a7296f7d0d291bce480a659efa671d7811a320316d83ec6f59b95b0f1eed9",
+    "experiments/sigaba_sparse_ownership.py": "e7a0b5fc621d5f0a6d23a09a77f2754d29c98b6974fa02bb71f53a60818836b1",
+    "experiments/sigaba_torus.py": "ee49125ae2cd10760ddfe5dd54822834529c3b984772c1c2fb6662d9d0c4e5ee",
+    "experiments/sigaba_first_observation.py": "ab78da87147f5646e63dbfd2bf8d163bfa2aa62420f719c4210c80b03c4fe22a",
+    "experiments/sigaba_real_adapter.py": "eed55233a96fdfcc199572947ec144ffc2b315a61a092fec4774e724d5333b86",
+    "experiments/sigaba_joint_toy.py": "0bf4fddec4c7416a8bb4c8d2d7243885713b847abd5183210d377734b7649ad5",
+    "experiments/sigaba_joint_toy_oracle.py": "0711bd1f0722cb157e6029a88644ecc876942292ffef13292dd79f6bdef8d79c",
+    "experiments/sigaba_csp889.py": "2f12042cc4ee838edbe5d1619d42a9d4c856b7586bbd41e91dd4f5f6ada27516",
+    "data/sigaba-csp889-v1.json": "8326857b0b2997d64be94a4685185992ce00702235964c0a985f183d92fc3c5b",
+    "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md": "f61133ebf3458367e5892e8333c472a9d2ee488a84c877d272312d464101a3af",
+    "experiments/sigaba_byte_mask_predicates.py": "e39f8995fe53ecc7b96d906d20233144752e7b1a48c35e33737bcf389806b632",
+    "experiments/audit_sigaba_unknown_anchor_dynamic_controls.py": "3a831969a3bf5536f75175b65774396df27da657a4af3432a7c7a07ce3f5511c",
+    "experiments/run_sigaba_unknown_anchor_byte_masks.py": "34662743ad9524b6577ff3b87d5a293f3be70e2b8cc3e0aab7cf09e7853a03bf",
+    "research/SIGABA-UNKNOWN-ANCHOR-BYTE-MASK-SPEC.md": "56536d97171aba5d3e9b7fd87eade6f21ef8b8f1580f00210cfe590d6fba40e5"
+  }
+}

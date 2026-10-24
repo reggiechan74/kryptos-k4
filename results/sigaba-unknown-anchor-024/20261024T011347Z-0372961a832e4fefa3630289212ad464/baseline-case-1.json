@@ -1,0 +1,242 @@
+{
+  "id": "CSP889-COUPLED-024",
+  "backend": "baseline",
+  "case": 1,
+  "started_at_utc": "2026-10-24T01:14:49.024549+00:00",
+  "finished_at_utc": "2026-10-24T01:15:49.025955+00:00",
+  "fixture": {
+    "number": 1,
+    "plaintext": "LTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDTLFBZZBFLTDPDT",
+    "ciphertext": "CVFDESTIJMHQWVNWYKDTBVIXZXFTMLUMKHEENVPGIRHQCTMEHVSFVPXGFBJHNXYIQEIAFPDDUJCWJNSPYMFJYXZRWMZJAABUU",
+    "key": {
+      "cipherrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "controlrotors": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "indexrotors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cipherorientation": "00000",
+      "controlorientation": "00000",
+      "indexorientation": "00000",
+      "cipherposition": "ZAOCT",
+      "controlposition": "AZONH",
+      "indexposition": "97531"
+    },
+    "observations": [
+      [
+        21,
+        1,
+        21
+      ],
+      [
+        22,
+        25,
+        8
+      ],
+      [
+        23,
+        25,
+        23
+      ],
+      [
+        24,
+        1,
+        25
+      ],
+      [
+        25,
+        5,
+        23
+      ],
+      [
+        26,
+        11,
+        5
+      ],
+      [
+        27,
+        19,
+        19
+      ],
+      [
+        28,
+        3,
+        12
+      ],
+      [
+        29,
+        15,
+        11
+      ],
+      [
+        30,
+        3,
+        20
+      ],
+      [
+        31,
+        19,
+        12
+      ],
+      [
+        32,
+        11,
+        10
+      ],
+      [
+        33,
+        5,
+        7
+      ],
+      [
+        63,
+        1,
+        8
+      ],
+      [
+        64,
+        5,
+        16
+      ],
+      [
+        65,
+        11,
+        4
+      ],
+      [
+        66,
+        19,
+        8
+      ],
+      [
+        67,
+        3,
+        0
+      ],
+      [
+        68,
+        15,
+        5
+      ],
+      [
+        69,
+        3,
+        15
+      ],
+      [
+        70,
+        19,
+        3
+      ],
+      [
+        71,
+        11,
+        3
+      ],
+      [
+        72,
+        5,
+        20
+      ],
+      [
+        73,
+        1,
+        9
+      ]
+    ]
+  },
+  "solver": {
+    "storage_policy": "auto",
+    "direct_state_evaluations": 45397472,
+    "compact_output_accounted_bytes": 0,
+    "first_observed_time": 21,
+    "map_dependent_classes_reconstructed": 0,
+    "completed": false,
+    "reason": "wall_budget_unresolved",
+    "exact_raw_key_count": null,
+    "found_raw_keys_lower_bound": "0",
+    "control_starts_completed": 7,
+    "control_starts_requested": 11881376,
+    "relations": [],
+    "current_unfinished_control": [
+      0,
+      0,
+      0,
+      0,
+      7
+    ],
+    "current_time_zero_based": 25,
+    "peak_live_nodes": 24907,
+    "peak_index_owners": 66058,
+    "owner_transitions": 2423315,
+    "branches": 175607,
+    "index_classes": 66058,
+    "index_raw_states": 100000,
+    "backend_metrics": {
+      "calls": 183,
+      "zero_offset_builds": 2,
+      "base_cache_hits": 30,
+      "translated_cache_hits": 151,
+      "translations": 32,
+      "cache_evictions": 3,
+      "cache_peak_accounted_bytes": 49118320,
+      "fixed_mask_bytes": 15779996,
+      "cache_cap_bytes": 50331648,
+      "value_cache_cap_bytes": 50331648,
+      "mask_cache_cap_bytes": 16777216,
+      "total_cache_cap_bytes": 67108864,
+      "mask_builds": 5,
+      "mask_evictions": 0,
+      "mask_cache_peak_bytes": 15779996,
+      "total_cache_peak_accounting_upper_bound": 64898316
+    },
+    "budget": {
+      "seconds": 60.001733167,
+      "peak_RSS_bytes": 159891456,
+      "wall_cap_seconds": 60,
+      "RSS_cap_bytes": 1073741824,
+      "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+    },
+    "domain_envelope_cap_bytes": 268435456,
+    "K4_evaluations": 0
+  },
+  "source_sha256": {
+    "experiments/sigaba_unknown_anchor_collector.py": "b71ed3ed163b2ddee2927a03a6228931bf007e9903bb4f45248437120ae54800",
+    "experiments/sigaba_unknown_anchor_controls.py": "1e9ba8b911bd728e87e0a3075a3635498c7ef3cadae4b66d5b2fabea42cf29d0",
+    "experiments/run_sigaba_unknown_anchor.py": "e95d4ce23c861c10c90872ee5fa482a05f1d8a4672fe033a9756fd0eda5a8c15",
+    "experiments/sigaba_compressed_ownership.py": "66db721c3683116bf27bb3735bb14000571f92b48973b7218d29eeff091388cf",
+    "experiments/sigaba_compact_domain.py": "a04a7296f7d0d291bce480a659efa671d7811a320316d83ec6f59b95b0f1eed9",
+    "experiments/sigaba_sparse_ownership.py": "e7a0b5fc621d5f0a6d23a09a77f2754d29c98b6974fa02bb71f53a60818836b1",
+    "experiments/sigaba_torus.py": "ee49125ae2cd10760ddfe5dd54822834529c3b984772c1c2fb6662d9d0c4e5ee",
+    "experiments/sigaba_first_observation.py": "ab78da87147f5646e63dbfd2bf8d163bfa2aa62420f719c4210c80b03c4fe22a",
+    "experiments/sigaba_real_adapter.py": "eed55233a96fdfcc199572947ec144ffc2b315a61a092fec4774e724d5333b86",
+    "experiments/sigaba_joint_toy.py": "0bf4fddec4c7416a8bb4c8d2d7243885713b847abd5183210d377734b7649ad5",
+    "experiments/sigaba_joint_toy_oracle.py": "0711bd1f0722cb157e6029a88644ecc876942292ffef13292dd79f6bdef8d79c",
+    "experiments/sigaba_csp889.py": "2f12042cc4ee838edbe5d1619d42a9d4c856b7586bbd41e91dd4f5f6ada27516",
+    "data/sigaba-csp889-v1.json": "8326857b0b2997d64be94a4685185992ce00702235964c0a985f183d92fc3c5b",
+    "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md": "f61133ebf3458367e5892e8333c472a9d2ee488a84c877d272312d464101a3af"
+  },
+  "complete_unknown_cipher_start_domain": true,
+  "original_controller_start_domain": 11881376,
+  "reachable_shared_index_maps": 66058,
+  "raw_aliases": 100000,
+  "independent_full_real_compatible_set_validation": false,
+  "real_sized_gate_passed": false,
+  "K4_evaluations": 0,
+  "historical_wiring_limit": "Pinned simulator wirings and conventions, not authenticated surviving hardware or creator initialization"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CSP889-COUPLED-024-VALIDATION",
+  "kind": "Item 4 final engineering regression; synthetic comparison, not K4 search",
+  "validation_started_at_utc": "2026-10-24T01:35:48.373273+00:00",
+  "validation_finished_at_utc": "2026-10-24T01:37:38.030592+00:00",
+  "status": "passed",
+  "runs": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T01:35:48.373273+00:00",
+      "finished_at_utc": "2026-10-24T01:36:50.445697+00:00",
+      "elapsed_seconds": 62.07426875,
+      "exit_code": 0,
+      "log": "results/CSP889-COUPLED-024-python39-regression.log",
+      "log_sha256": "6f82bcd1c26c6afc444fe732bd7d788fa24370c6c4fd154287570d81f5ce33f4",
+      "tests_passed": 519
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T01:36:50.445953+00:00",
+      "finished_at_utc": "2026-10-24T01:37:38.030592+00:00",
+      "elapsed_seconds": 47.58485479200001,
+      "exit_code": 0,
+      "log": "results/CSP889-COUPLED-024-python312-regression.log",
+      "log_sha256": "d7504f9ec6a4ec1ffe3c39d1af6799ec2bfd458fefe4ff02bb6a56bb881ef147",
+      "tests_passed": 519
+    }
+  ],
+  "real_sized_gate_passed": false,
+  "new_coupled_K4_evaluations": 0,
+  "historical_controller_prefix_coverage_expanded": false,
+  "site_changed": false,
+  "item_5_started": false
+}

@@ -1,0 +1,18 @@
+import sys,json,datetime,faulthandler,time
+from pathlib import Path
+sys.path.insert(0,'experiments')
+import sigaba_unknown_anchor_collector as n
+import sigaba_real_adapter as real
+import sigaba_joint_toy as toy
+out=Path('/tmp/k4-coupled024-last-operation.json');stack=open('/tmp/k4-coupled024-stack.txt','w');faulthandler.dump_traceback_later(55,file=stack)
+b=toy.Budget(60);f=real.fixture(0);m=real.RealModel(budget=b);base=n.ReservedPredicates
+class Profile(base):
+ def translate(self,value,delta):
+  out.write_text(json.dumps(dict(stage='before_translate',delta=delta,bit_length=value.bit_length(),elapsed=time.monotonic()-b.start,recorded_at_utc=datetime.datetime.now(datetime.timezone.utc).isoformat()))+'\n')
+  result=super().translate(value,delta)
+  out.write_text(json.dumps(dict(stage='after_translate',delta=delta,elapsed=time.monotonic()-b.start))+'\n');return result
+ def get(self,delta,p,c):
+  out.write_text(json.dumps(dict(stage='before_predicate',delta=delta,p=p,c=c,elapsed=time.monotonic()-b.start))+'\n')
+  return super().get(delta,p,c)
+n.ReservedPredicates=Profile
+r=n.solve(m,f['observations'],b);Path('/tmp/k4-coupled024-profile-result.json').write_text(json.dumps(r,indent=2)+'\n');faulthandler.cancel_dump_traceback_later()

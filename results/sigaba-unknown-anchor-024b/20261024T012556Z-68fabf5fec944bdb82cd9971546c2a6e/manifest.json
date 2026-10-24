@@ -1,0 +1,41 @@
+{
+  "run_id": "20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e",
+  "started_at_utc": "2026-10-24T01:25:56.464183+00:00",
+  "label": "CSP889-COUPLED-024B",
+  "execution_kind": "original",
+  "status": "completed",
+  "specification": {
+    "commit": "1e5e48bc3bc1acd5e68fbeb5a578da2cea56ad58",
+    "file": "research/SIGABA-UNKNOWN-ANCHOR-BYTE-MASK-SPEC.md",
+    "sha256": "56536d97171aba5d3e9b7fd87eade6f21ef8b8f1580f00210cfe590d6fba40e5",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [],
+  "artifacts": {
+    "controls.json": {
+      "sha256": "5c8d51a8ffa9fd99902b41983fadfde02601d5aca0f81a517c6e07e04f3ead14",
+      "bytes": 11718
+    },
+    "baseline-case-0.json": {
+      "sha256": "3a988e9809f9949f18c5bf07a50219153ad132766e5580f990b4b702e0b9935c",
+      "bytes": 5867
+    },
+    "baseline-case-1.json": {
+      "sha256": "fbcb46a683f7af87ed5e99086094a53c79e84e45977915145eb4df16966436cd",
+      "bytes": 6437
+    },
+    "integrated-case-0.json": {
+      "sha256": "62e579c64c14d32004669b0e5d33f78809c6da2bccc070d33e1bf91a45db17ff",
+      "bytes": 76522
+    },
+    "integrated-case-1.json": {
+      "sha256": "9995f455e7eb4b28138a8f83eb13a41a90c037de242a97f347cca28c4b56bd7a",
+      "bytes": 78407
+    },
+    "summary.json": {
+      "sha256": "725cf6b397b84c7a0318fb4299e5a83349f485cb8cc434c524c153f8fe804e7d",
+      "bytes": 2317
+    }
+  },
+  "finished_at_utc": "2026-10-24T01:29:59.954139+00:00"
+}

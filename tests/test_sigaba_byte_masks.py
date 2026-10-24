@@ -36,4 +36,5 @@ class ByteMaskTests(unittest.TestCase):
                         i=k*period+value
                         if 0<=i<n:self.assertEqual((raw[i//8]>>(i%8))&1,int(i%period<shift))
     def test_dynamic_collector_complete_truth(self):
-        r=dynamic.run();self.assertEqual(r['complete_raw_truth_streams'],12);self.assertEqual(r['varying_fixture_count'],4);self.assertEqual(r['independent_controller_traces'],124);self.assertEqual(r['implicit_explicit_varying_input_graphs'],124)
+        import subprocess,json
+        r=json.loads(subprocess.check_output([sys.executable,'-c','import json,sys;sys.path.insert(0,"experiments");import audit_sigaba_unknown_anchor_dynamic_controls as c;print(json.dumps(c.run()))'],cwd=ROOT));self.assertEqual(r['complete_raw_truth_streams'],12);self.assertEqual(r['varying_fixture_count'],4);self.assertEqual(r['independent_controller_traces'],124);self.assertEqual(r['implicit_explicit_varying_input_graphs'],124)

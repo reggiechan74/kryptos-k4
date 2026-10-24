@@ -165,12 +165,12 @@
       "Status": "narrow negative",
       "Mechanism": "Authentic CSP-889 three-bank irregular stepping with the published simulator wiring set.",
       "Evidence": "[Historical convention and frozen domain](SIGABA-CSP889-SPEC.md), twelve published Sullivan-attributed vectors reproduced after source-derived fixture translation; not wartime hardware certification or Sanborn-use evidence.",
-      "Tested scope": "SIGABA-CSP889-001: two fixed layouts, normal orientations, repeated cipher/index starts and one variable fast-control start; 13,520 raw repeated-start keys plus full five-independent-cipher-start inference over the same 520 schedules: 6,178,315,520 raw state descriptions, including that old subset; zero first-crib survivors, continuous 97-position schedules. Simulator large-wheel wirings are not recovered wartime secret wirings. SIGABA-JOINT-TOY-012 separately implements coupled synthetic inference with complete tiny-system truth comparisons; it performs no new K4 evaluation. SIGABA-TORUS-013 validates exact torus predicate reuse on the same frozen fixtures and resolves the large compact-output comparison; see its measured scaling receipt. CSP889-REAL-014 adds the authentic coupled adapter with twelve external-vector comparisons and two fixed full-domain synthetic resource runs; both are incomplete and add no K4 evaluation. CSP889-SPARSE-015 preserves those fixtures and budgets; sparse ownership reduces prefix RSS and reserved cache reduces builds, but both real-sized runs remain unresolved. CSP889-DOMAIN-016 uses profiler-supported immutable cached-hash keys; prefix progress reaches index 17 rather than 7, but zero real controllers complete. CSP889-ANCHOR-017 proves first-observation full-torus anchoring with per-map inverse: observed constraints are reached at index 21, then the unchanged real fixture hits the memory envelope at index 24, still zero completed controllers. CSP889-COMPACT-018 then preserves exact sets with deterministic packed storage: the unchanged synthetic resource runs complete 12 and 14 controllers, respectively before the same wall cap, with all remaining controllers unresolved and no actual K4 evaluation. CSP889-FILTER-019 separately audits a supplied-anchor/four-controller diagnostic: 12/20 pairs reject with zero false negatives under complete reachable-map verification, but six passes lack a physical key and no full-domain coverage is added.",
-      "Untested scope": "[Real-sized joint inference remains unvalidated/resource-unresolved](SIGABA-JOINT-TOY-FINDINGS.md); the authentic five-index/26-symbol adapter is implemented and reference-checked, COMPACT-018 completes 12 and 14 controllers in the two frozen synthetic fixtures before the wall cap, with the remaining controller domains unresolved; this is not a K4 joint search or complete real-sized inference/full-set validation. Other wheel orders/orientations, unrestricted independent control/index starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.",
+      "Tested scope": "SIGABA-CSP889-001: two fixed layouts, normal orientations, repeated cipher/index starts and one variable fast-control start; 13,520 raw repeated-start keys plus full five-independent-cipher-start inference over the same 520 schedules: 6,178,315,520 raw state descriptions, including that old subset; zero first-crib survivors, continuous 97-position schedules. Simulator large-wheel wirings are not recovered wartime secret wirings. SIGABA-JOINT-TOY-012 separately implements coupled synthetic inference with complete tiny-system truth comparisons; it performs no new K4 evaluation. SIGABA-TORUS-013 validates exact torus predicate reuse on the same frozen fixtures and resolves the large compact-output comparison; see its measured scaling receipt. CSP889-REAL-014 adds the authentic coupled adapter with twelve external-vector comparisons and two fixed full-domain synthetic resource runs; both are incomplete and add no K4 evaluation. CSP889-SPARSE-015 preserves those fixtures and budgets; sparse ownership reduces prefix RSS and reserved cache reduces builds, but both real-sized runs remain unresolved. CSP889-DOMAIN-016 uses profiler-supported immutable cached-hash keys; prefix progress reaches index 17 rather than 7, but zero real controllers complete. CSP889-ANCHOR-017 proves first-observation full-torus anchoring with per-map inverse: observed constraints are reached at index 21, then the unchanged real fixture hits the memory envelope at index 24, still zero completed controllers. CSP889-COMPACT-018 then preserves exact sets with deterministic packed storage: the unchanged synthetic resource runs complete 12 and 14 controllers, respectively before the same wall cap, with all remaining controllers unresolved and no actual K4 evaluation. CSP889-FILTER-019 separately audits a supplied-anchor/four-controller diagnostic: 12/20 pairs reject with zero false negatives under complete reachable-map verification, but six passes lack a physical key and no full-domain coverage is added. Item 4 COUPLED-024/024B integrates implicit unknown-anchor connected support with exact persistent-map verification: complete tiny raw sets agree with an independent physical oracle. The original integrated runs hit a watchdog; a measured exact byte-mask correction on both backends yields 11 versus 9 completed controllers per matched synthetic fixture. These first-eleven prefixes overlap historical COMPACT-018 coverage and add no new K4 search or full-domain completion.",
+      "Untested scope": "[Real-sized joint inference remains unvalidated/resource-unresolved](SIGABA-JOINT-TOY-FINDINGS.md); the authentic five-index/26-symbol adapter is implemented and reference-checked, COMPACT-018 completes 12 and 14 controllers in the two frozen synthetic fixtures before the wall cap, with the remaining controller domains unresolved; this is not a K4 joint search or complete real-sized inference/full-set validation. The item-4 integrated full-domain runs also remain incomplete after 11 controllers per fixture; original failed/watchdog results and all unprocessed controllers stay unresolved. Other wheel orders/orientations, unrestricted independent control/index starts, unknown historical wirings, CSP-2900, operator preprocessing and additional layers; no exhaustive SIGABA exclusion.",
       "Missing inputs": "A tractable representation and complete real-sized scaling/full-set validation for the coupled adapter, or independently motivated key restrictions; published simulator wirings do not establish unknown historical secret wirings.",
-      "Next discriminating test": "Exact anchoring/packing and a supplied-panel collector filter are validated, but only 12 and 14 controllers in the respective prior synthetic full-domain fixtures are complete. Define an unknown-anchor, connected-path integration and resource gate before applying the necessary filter at scale; retain exact reachable-map verification and do not import statistical ranking or panel savings as global performance. Another arbitrary key slice does not close the inference gap.",
+      "Next discriminating test": "Unknown-anchor connected support integration is now implemented and tiny-validated; corrected matched runs complete 11 controllers versus 9 on baseline, still within the historically covered 12/14 prefixes. A separately frozen canonical necessary-support cache study may be justified by identical equality/mask-set problems, but is proposed/unrun and must preserve controllers/maps separately. Full-domain scaling and independent real-sized complete-set validation remain missing; no larger wall cap or arbitrary key slice.",
       "Dependencies": "Published vector translation and source conventions; fixed literal A-Z 97-symbol alignment.",
-      "Results": "[Supplied-panel collector consistency diagnostic](SIGABA-COLLECTOR-FILTER-FINDINGS.md), [Measured exact compressed domains](SIGABA-COMPRESSED-DOMAIN-FINDINGS.md), [Exact first-observation anchoring](SIGABA-FIRST-OBSERVATION-FINDINGS.md), [independent literature synthesis and proposed filter](SIGABA-LITERATURE-AND-FILTER-REVIEW.md), [Profiler-directed exact domain keys](SIGABA-DOMAIN-IDENTITY-FINDINGS.md), [Sparse ownership and reserved cache outcomes](SIGABA-SPARSE-OWNERSHIP-FINDINGS.md), [Authentic coupled adapter and failed resource gate](SIGABA-REAL-ADAPTER-FINDINGS.md), [Exact torus reuse and measured scaling](SIGABA-TORUS-FINDINGS.md), [Coupled synthetic solver and limits](SIGABA-JOINT-TOY-FINDINGS.md), [complete cipher-state inference](SIGABA-CSP889-STATE-FINDINGS.md) and [Known-answer controls](../results/SIGABA-CSP889-001-controls.json), [complete finite negative](../results/SIGABA-CSP889-001.json) and [findings](SIGABA-CSP889-FINDINGS.md). The custom H-SIGABA-INSPIRED result remains separate."
+      "Results": "[Item 4 full integration, exactness and limits](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md), [Supplied-panel collector consistency diagnostic](SIGABA-COLLECTOR-FILTER-FINDINGS.md), [Measured exact compressed domains](SIGABA-COMPRESSED-DOMAIN-FINDINGS.md), [Exact first-observation anchoring](SIGABA-FIRST-OBSERVATION-FINDINGS.md), [independent literature synthesis and proposed filter](SIGABA-LITERATURE-AND-FILTER-REVIEW.md), [Profiler-directed exact domain keys](SIGABA-DOMAIN-IDENTITY-FINDINGS.md), [Sparse ownership and reserved cache outcomes](SIGABA-SPARSE-OWNERSHIP-FINDINGS.md), [Authentic coupled adapter and failed resource gate](SIGABA-REAL-ADAPTER-FINDINGS.md), [Exact torus reuse and measured scaling](SIGABA-TORUS-FINDINGS.md), [Coupled synthetic solver and limits](SIGABA-JOINT-TOY-FINDINGS.md), [complete cipher-state inference](SIGABA-CSP889-STATE-FINDINGS.md) and [Known-answer controls](../results/SIGABA-CSP889-001-controls.json), [complete finite negative](../results/SIGABA-CSP889-001.json) and [findings](SIGABA-CSP889-FINDINGS.md). The custom H-SIGABA-INSPIRED result remains separate."
     },
     {
       "id": "H-WHEATSTONE",
@@ -2842,6 +2842,132 @@
         "results/world-clock-003/20261024T002946Z-c05cd21588cd43878a866f2fa1a99cb2/manifest.json"
       ],
       "original_entry": "- Original analysis start/end UTC: 2026-10-24T00:29:46.751515+00:00 / 2026-10-24T00:29:46.860170+00:00. Historical exposure clock times remain unknown.\n- Kind: conditional historical mapping/invariance analysis; no K4 cipher evaluation.\n- Frozen protocol commit `53aa67b86da286d45012d957a25b4763c77ab04f`; [specification](WORLD-CLOCK-003-SPEC.md), [findings](WORLD-CLOCK-003-FINDINGS.md), [source](../experiments/world_clock_003.py), [complete original results/receipts](../results/world-clock-003/README.md).\n- Selected fixed input: 41 labels/ten panels/three dated runs. Under explicitly unverified common-inventory continuity, 576 gauge-fixed offset pairs yield 240 compatible registrations and 336 exact rank conflicts. Retain all compatible layouts. No global compass registration or 1989 completeness inferred.\n- 272 within-segment pair differences forced; all 548 cross-segment pairs remain ambiguous. Pair equations are dependent, not independent clues. All 24 integer phases over 240 layouts give 236,160 inverse checks; continuous physical phase is not enumerated. Separate photos have separate exposure phases. No semantic UTC offset or per-character city mapping assigned.\n- Controls: 36 complete tiny-ring sets match independent direct unification; all 36 plants included; 117 rational phase/gauge cases and mutation checks pass. Old pilot exactly replayed in a temporary directory without overwriting original data/results.\n- Separate prior evidence: corrected 1972 inscriptions and narrow 1989 labels are retained without an unsupported join. Broader clock/face hypotheses remain evidence-blocked for an actual cipher bridge and historical calibration. Fresh parent research is integrated separately: two dated arrangement discrepancies, five full May 1989 lower labels, explicitly post-1989 comparison and an undated removed plate. Original three-run input/results remain unchanged; no item 4 or Site change.\n- Local engineering validation: 504 tests pass on Python 3.9 and 3.12; [separate validation receipt/logs](../results/WORLD-CLOCK-003-VALIDATION.json). That checkpoint preceded the final separately recorded source integration.\n- Final evidence: [supplied report/inventory](../independent/2026-10-24/world-clock-item3/README.md), [independent local source checks](../sources/world-clock-003/LOCAL-SOURCE-REVIEW.json), [post-outcome analytical revision amendment](WORLD-CLOCK-003-SOURCE-AMENDMENT.md). Known dates are day/month/year precision as documented; unknown worker execution times remain unknown.\n- Final source-integrated validation: 508 tests pass on both supported Python versions; [separate final receipt/logs](../results/WORLD-CLOCK-003-FINAL-VALIDATION.json). Unknown historical exposure times remain unknown."
+    },
+    {
+      "record_id": "LOG-8675DFA0B4",
+      "experiment_ids": [
+        "CSP889-COUPLED-024"
+      ],
+      "title": "CSP889-COUPLED-024 — item 4 unknown-anchor collector inference and exact byte masks",
+      "categories": [
+        "synthetic solver benchmark",
+        "analytical constraints"
+      ],
+      "outcome": "Exact tiny sets pass; corrected unknown-anchor solver completes 11/11 versus 9/9 matched controllers, full domain unresolved",
+      "classification_basis": "Reviewed original and corrective source-pinned process receipts; historical prefix overlap, watchdog unknowns and simulator limits retained.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": null,
+      "timestamps": [
+        {
+          "receipt": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/baseline-case-0.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:13:48.757054Z",
+          "original": "2026-10-24T01:13:48.757054+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/baseline-case-0.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:14:48.962374Z",
+          "original": "2026-10-24T01:14:48.962374+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/baseline-case-1.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:14:49.024549Z",
+          "original": "2026-10-24T01:14:49.024549+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/baseline-case-1.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:15:49.025955Z",
+          "original": "2026-10-24T01:15:49.025955+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/integrated-case-0.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:15:49.100953Z",
+          "original": "2026-10-24T01:15:49.100953+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/integrated-case-0.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:16:54.110198Z",
+          "original": "2026-10-24T01:16:54.110198+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/integrated-case-1.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:16:54.111186Z",
+          "original": "2026-10-24T01:16:54.111186+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/integrated-case-1.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:17:59.124506Z",
+          "original": "2026-10-24T01:17:59.124506+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/manifest.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:13:47.200029Z",
+          "original": "2026-10-24T01:13:47.200029+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/manifest.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:17:59.125781Z",
+          "original": "2026-10-24T01:17:59.125781+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/manifest.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:25:56.464183Z",
+          "original": "2026-10-24T01:25:56.464183+00:00"
+        },
+        {
+          "receipt": "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/manifest.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:29:59.954139Z",
+          "original": "2026-10-24T01:29:59.954139+00:00"
+        }
+      ],
+      "links": [
+        "experiments/sigaba_unknown_anchor_collector.py",
+        "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md",
+        "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-METHOD.md",
+        "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md",
+        "results/CSP889-COUPLED-024-VALIDATION.json",
+        "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/manifest.json",
+        "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/summary.json",
+        "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/manifest.json",
+        "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/summary.json",
+        "results/sigaba-unknown-anchor-diagnostic/README.md"
+      ],
+      "receipt_paths": [
+        "results/CSP889-COUPLED-024-VALIDATION.json",
+        "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/baseline-case-0.json",
+        "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/baseline-case-1.json",
+        "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/integrated-case-0.json",
+        "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/integrated-case-1.json",
+        "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/manifest.json",
+        "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/summary.json",
+        "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/manifest.json",
+        "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/summary.json"
+      ],
+      "original_entry": "- Kind: synthetic exact-solver engineering, not new K4 cryptanalysis. Original and corrective run timestamps are recorded separately in linked manifests and every child receipt; no historical exposure time is inferred.\n- Frozen primary protocol `950ba4c`; [specification](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md), [method/proof](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-METHOD.md), [findings](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md), [coupled implementation](../experiments/sigaba_unknown_anchor_collector.py). Twelve published simulator vectors remain controls, not hardware certification.\n- Complete correctness: 70 original explicit graph comparisons/12 independent physical raw-key streams; 124 supplementary varying-input graph/controller checks/12 further raw-key streams, four genuinely varying fixtures. Byte masks match 9,743 small subset/translation cases and declared real boundary points. Prefix/gap, disconnected paths and deliberate resource controls pass.\n- Original comparison [manifest](../results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/manifest.json), [summary](../results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/summary.json): fresh baseline completes 9/7 controllers, original integrated children hit the 65-second watchdog without native coverage/RSS. Preserve unknown, not zero.\n- Correction [manifest](../results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/manifest.json), [summary](../results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/summary.json): exact byte-generated masks applied to BOTH backends, same fixtures/domains/caps; baseline completes 9/9, integrated 11/11 before wall limits. Each requests 11,881,376 controllers and all 66,058 reachable maps. Almost all remain unresolved.\n- These first-eleven prefixes are contained in prior COMPACT-018 first-12/14 coverage; no new historical full-domain coverage or K4 inference. No real-sized gate pass, no claim of recovered plant from the full selector, and no statistical speedup/general SIGABA exclusion.\n- Initial receipt bug and supplementary control assumption are preserved with [bounded diagnostic evidence](../results/sigaba-unknown-anchor-diagnostic/README.md). No new fixture or cache/time expansion after the byte-mask comparison. The proposed canonical support-signature reuse is unrun.\n- Item 5 and public Site unchanged. Publication follows the later renewed owner approval; no denied transport workaround.\n- Final validation: 519 tests pass on both supported Python versions; [separate UTC validation receipt/logs](../results/CSP889-COUPLED-024-VALIDATION.json). Original and corrected synthetic run windows remain in their manifests, not inferred from publication."
     }
   ],
   "receipts": [
@@ -3100,6 +3226,16 @@
       "status": null
     },
     {
+      "path": "results/CSP889-COUPLED-024-VALIDATION.json",
+      "labels": [
+        "CSP889-COUPLED-024-VALIDATION",
+        "Item 4 final engineering regression; synthetic comparison, not K4 search"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "passed"
+    },
+    {
       "path": "results/CSP889-DOMAIN-016-validation.json",
       "labels": [
         "CSP889-DOMAIN-016-validation"
@@ -3253,6 +3389,15 @@
     },
     {
       "path": "results/DOCUMENTATION-LINK-AUDIT-027.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-028.json",
       "labels": [
         "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
       ],
@@ -3432,6 +3577,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-023.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-024.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -3721,6 +3873,15 @@
     },
     {
       "path": "results/FRONTIER-023.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-024.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -4091,6 +4252,15 @@
       "path": "results/HYPOTHESIS-REGISTER-023.json",
       "labels": [
         "Item 3 conditional registration and new date-separated historical evidence complete; actual decoder remains evidence-blocked"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/HYPOTHESIS-REGISTER-024.json",
+      "labels": [
+        "Item 4 synthetic coupled solver integration; exact controls and bounded scaling, no K4 gate pass"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -5890,6 +6060,361 @@
     {
       "path": "results/sigaba-torus/case-12.json",
       "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/baseline-case-0.json",
+      "labels": [
+        "CSP889-COUPLED-024"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:13:48.757054Z",
+          "original": "2026-10-24T01:13:48.757054+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:14:48.962374Z",
+          "original": "2026-10-24T01:14:48.962374+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/baseline-case-1.json",
+      "labels": [
+        "CSP889-COUPLED-024"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:14:49.024549Z",
+          "original": "2026-10-24T01:14:49.024549+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:15:49.025955Z",
+          "original": "2026-10-24T01:15:49.025955+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/controls.json",
+      "labels": [
+        "CSP889-COUPLED-024-CONTROLS"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:13:47.201203Z",
+          "original": "2026-10-24T01:13:47.201203+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:13:48.726009Z",
+          "original": "2026-10-24T01:13:48.726009+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/integrated-case-0.json",
+      "labels": [
+        "CSP889-COUPLED-024"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:15:49.100953Z",
+          "original": "2026-10-24T01:15:49.100953+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:16:54.110198Z",
+          "original": "2026-10-24T01:16:54.110198+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/integrated-case-1.json",
+      "labels": [
+        "CSP889-COUPLED-024"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:16:54.111186Z",
+          "original": "2026-10-24T01:16:54.111186+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:17:59.124506Z",
+          "original": "2026-10-24T01:17:59.124506+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/manifest.json",
+      "labels": [
+        "CSP889-COUPLED-024",
+        "20261024T011347Z-0372961a832e4fefa3630289212ad464"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:13:47.200029Z",
+          "original": "2026-10-24T01:13:47.200029+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:17:59.125781Z",
+          "original": "2026-10-24T01:17:59.125781+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "completed"
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/summary.json",
+      "labels": [
+        "CSP889-COUPLED-024"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024/latest.json",
+      "labels": [
+        "20261024T011347Z-0372961a832e4fefa3630289212ad464"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "completed"
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/baseline-case-0.json",
+      "labels": [
+        "CSP889-COUPLED-024B"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:25:59.123642Z",
+          "original": "2026-10-24T01:25:59.123642+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:26:59.125820Z",
+          "original": "2026-10-24T01:26:59.125820+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/baseline-case-1.json",
+      "labels": [
+        "CSP889-COUPLED-024B"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:26:59.241080Z",
+          "original": "2026-10-24T01:26:59.241080+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:27:59.528870Z",
+          "original": "2026-10-24T01:27:59.528870+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/controls.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:25:56.464676Z",
+          "original": "2026-10-24T01:25:56.464676+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:25:59.079831Z",
+          "original": "2026-10-24T01:25:59.079831+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/integrated-case-0.json",
+      "labels": [
+        "CSP889-COUPLED-024B"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:27:59.631848Z",
+          "original": "2026-10-24T01:27:59.631848+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:28:59.759430Z",
+          "original": "2026-10-24T01:28:59.759430+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/integrated-case-1.json",
+      "labels": [
+        "CSP889-COUPLED-024B"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:28:59.867514Z",
+          "original": "2026-10-24T01:28:59.867514+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:29:59.908427Z",
+          "original": "2026-10-24T01:29:59.908427+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/manifest.json",
+      "labels": [
+        "CSP889-COUPLED-024B",
+        "20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T01:25:56.464183Z",
+          "original": "2026-10-24T01:25:56.464183+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T01:29:59.954139Z",
+          "original": "2026-10-24T01:29:59.954139+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": "completed"
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/summary.json",
+      "labels": [
+        "CSP889-COUPLED-024B"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-024b/latest.json",
+      "labels": [
+        "20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": "completed"
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-diagnostic/dynamic-control-assumption.json",
+      "labels": [
+        "Supplementary control-assumption correction, not cipher-model change"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T01:24:37.632037Z",
+          "original": "2026-10-24T01:24:37.632037+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-diagnostic/initial-control-failure.json",
+      "labels": [
+        "Pre-benchmark control failure and correction; not a model result"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T01:12:39.390673Z",
+          "original": "2026-10-24T01:12:39.390673+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-diagnostic/last-operation.json",
+      "labels": [],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T01:21:34.960013Z",
+          "original": "2026-10-24T01:21:34.960013+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/sigaba-unknown-anchor-diagnostic/profile-receipt.json",
+      "labels": [
+        "Instrumented unchanged fixture 0 diagnostic, not comparable benchmark"
+      ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
       "status": null

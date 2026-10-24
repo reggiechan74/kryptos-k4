@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-24T01:24:37.632037+00:00",
+  "kind": "Supplementary control-assumption correction, not cipher-model change",
+  "initial_assertion": "Every declared partial-pulse tiny fixture must vary collector sets",
+  "finding": "q2 fixtures and q3 variant0 are rotationally invariant here; q3 variant1 with either declared subset has three distinct inputs. All declared cases retained.",
+  "scope_changed": false,
+  "source_before_sha256": "2339011340b6b2181b50905191cb6da52dfe30b2fbd39209443f611ccb60bd69"
+}

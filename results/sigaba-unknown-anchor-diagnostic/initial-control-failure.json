@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-10-24T01:12:39.390673+00:00",
+  "kind": "Pre-benchmark control failure and correction; not a model result",
+  "failed_test": "test_limit_is_unresolved_not_rejection_and_restricted_starts_blocked",
+  "failure": "TypeError converting absent unfinished controller to list when wall budget expired before first controller",
+  "failing_source_sha256": "040b59651cc623222751dd1044e54f8fdafdc7f083c1ce570a7ae76355c7b054",
+  "cause": "Inherited baseline receipt expression; not cryptographic pruning",
+  "correction": "New solver emits null unfinished controller if none began; baseline code unchanged",
+  "real_benchmarks_started": false
+}

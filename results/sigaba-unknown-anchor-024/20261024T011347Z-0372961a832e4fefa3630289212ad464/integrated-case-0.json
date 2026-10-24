@@ -1,0 +1,28 @@
+{
+  "id": "CSP889-COUPLED-024",
+  "backend": "integrated",
+  "case": 0,
+  "started_at_utc": "2026-10-24T01:15:49.100953+00:00",
+  "finished_at_utc": "2026-10-24T01:16:54.110198+00:00",
+  "completed": false,
+  "reason": "watchdog_unresolved",
+  "exact_raw_key_count": null,
+  "source_sha256": {
+    "experiments/sigaba_unknown_anchor_collector.py": "b71ed3ed163b2ddee2927a03a6228931bf007e9903bb4f45248437120ae54800",
+    "experiments/sigaba_unknown_anchor_controls.py": "1e9ba8b911bd728e87e0a3075a3635498c7ef3cadae4b66d5b2fabea42cf29d0",
+    "experiments/run_sigaba_unknown_anchor.py": "e95d4ce23c861c10c90872ee5fa482a05f1d8a4672fe033a9756fd0eda5a8c15",
+    "experiments/sigaba_compressed_ownership.py": "66db721c3683116bf27bb3735bb14000571f92b48973b7218d29eeff091388cf",
+    "experiments/sigaba_compact_domain.py": "a04a7296f7d0d291bce480a659efa671d7811a320316d83ec6f59b95b0f1eed9",
+    "experiments/sigaba_sparse_ownership.py": "e7a0b5fc621d5f0a6d23a09a77f2754d29c98b6974fa02bb71f53a60818836b1",
+    "experiments/sigaba_torus.py": "ee49125ae2cd10760ddfe5dd54822834529c3b984772c1c2fb6662d9d0c4e5ee",
+    "experiments/sigaba_first_observation.py": "ab78da87147f5646e63dbfd2bf8d163bfa2aa62420f719c4210c80b03c4fe22a",
+    "experiments/sigaba_real_adapter.py": "eed55233a96fdfcc199572947ec144ffc2b315a61a092fec4774e724d5333b86",
+    "experiments/sigaba_joint_toy.py": "0bf4fddec4c7416a8bb4c8d2d7243885713b847abd5183210d377734b7649ad5",
+    "experiments/sigaba_joint_toy_oracle.py": "0711bd1f0722cb157e6029a88644ecc876942292ffef13292dd79f6bdef8d79c",
+    "experiments/sigaba_csp889.py": "2f12042cc4ee838edbe5d1619d42a9d4c856b7586bbd41e91dd4f5f6ada27516",
+    "data/sigaba-csp889-v1.json": "8326857b0b2997d64be94a4685185992ce00702235964c0a985f183d92fc3c5b",
+    "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md": "f61133ebf3458367e5892e8333c472a9d2ee488a84c877d272312d464101a3af"
+  },
+  "real_sized_gate_passed": false,
+  "K4_evaluations": 0
+}

@@ -1,0 +1,60 @@
+{
+  "id": "CSP889-COUPLED-024",
+  "cases": [
+    {
+      "backend": "baseline",
+      "case": 0,
+      "completed": false,
+      "reason": "wall_budget_unresolved",
+      "controllers_completed": 9,
+      "filters_completed": null,
+      "filter_progress": null,
+      "budget": {
+        "seconds": 60.204533042,
+        "peak_RSS_bytes": 158711808,
+        "wall_cap_seconds": 60,
+        "RSS_cap_bytes": 1073741824,
+        "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+      }
+    },
+    {
+      "backend": "baseline",
+      "case": 1,
+      "completed": false,
+      "reason": "wall_budget_unresolved",
+      "controllers_completed": 7,
+      "filters_completed": null,
+      "filter_progress": null,
+      "budget": {
+        "seconds": 60.001733167,
+        "peak_RSS_bytes": 159891456,
+        "wall_cap_seconds": 60,
+        "RSS_cap_bytes": 1073741824,
+        "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+      }
+    },
+    {
+      "backend": "integrated",
+      "case": 0,
+      "completed": false,
+      "reason": "watchdog_unresolved",
+      "controllers_completed": null,
+      "filters_completed": null,
+      "filter_progress": null,
+      "budget": null
+    },
+    {
+      "backend": "integrated",
+      "case": 1,
+      "completed": false,
+      "reason": "watchdog_unresolved",
+      "controllers_completed": null,
+      "filters_completed": null,
+      "filter_progress": null,
+      "budget": null
+    }
+  ],
+  "matched_fixtures_and_resource_caps": true,
+  "real_sized_gate_passed": false,
+  "K4_evaluations": 0
+}

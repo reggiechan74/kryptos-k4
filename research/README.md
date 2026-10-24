@@ -118,3 +118,5 @@ Read the canonical hypothesis and experiment ledgers here. Specifications freeze
 Item 2: [conditional solar/light findings](PHYSICAL-SOLAR-002-FINDINGS.md) and [frozen protocol](PHYSICAL-SOLAR-002-SPEC.md); the physical decoder remains evidence-blocked.
 
 Item 3: [historical World Clock registration/phase analysis](WORLD-CLOCK-003-FINDINGS.md); conditional mapping constraints are distinct from a K4 cipher test.
+
+Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md), with preserved original failures and exact byte-mask comparison; no K4 gate pass.

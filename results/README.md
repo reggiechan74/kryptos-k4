@@ -75,3 +75,5 @@ See the [project overview](../README.md), [hypothesis tracker](../docs/tracking/
 [Item 2 conditional solar/light checks](physical-solar-002/README.md) retain original UTC run identity and all scenario values; no K4 decoder.
 
 [Item 3 partial World Clock analysis](world-clock-003/README.md) preserves all conditional registrations and ambiguity domains with original UTC execution timestamps.
+
+Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/README.md), [byte-mask correction](sigaba-unknown-anchor-024b/README.md) and [diagnostic failures](sigaba-unknown-anchor-diagnostic/README.md) separately.

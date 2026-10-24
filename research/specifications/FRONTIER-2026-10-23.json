@@ -1,8 +1,8 @@
 {
-  "id": "FRONTIER-023",
-  "reviewed_main_commit": "6453a1ac50df7c043393ffbd40f7123ed0721884",
+  "id": "FRONTIER-024",
+  "reviewed_main_commit": "dc99f5778ee3de8b766b07aded1ee99efc7ce26f",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Item 3 partial-clock constraints and fresh date-separated source research complete. Physical layout changes are observed, target-year lower labels are partial, and no complete 1989 inventory or source-grounded A\u2013Z bridge is identified. No item 4 or K4 trial.",
+  "decision": "Item 4 unknown-anchor SIGABA support integration and measured exact mask correction completed on synthetic fixtures; full real-sized gate still fails. No new coupled K4 evaluation or item 5.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -19,7 +19,7 @@
       ],
       "blocker_type": "algorithm_and_resource",
       "ready_for_new_K4_evaluation": false,
-      "missing": "Complete all-controller inference and independent real-sized compatible-set validation. Exact packing removes the prior memory stop on the two fixed resource runs, but only 12 and 14, respectively original controllers complete before the wall cap; all remaining keys are unresolved.",
+      "missing": "Complete all-controller scaling and independent real-sized full compatible-set validation. Unknown-anchor integration is tiny-validated, but corrected runs complete only 11 controllers per fixture (within historical 12/14 prefixes); all others unresolved. Simulator wirings/setup limits remain.",
       "available": [
         "research/SIGABA-JOINT-FEASIBILITY-SPEC.md",
         "research/JOINT-STATE-NONROTOR-FINDINGS.md",
@@ -59,9 +59,17 @@
         "research/SIGABA-COLLECTOR-FILTER-SPEC.md",
         "research/SIGABA-COLLECTOR-FILTER-FINDINGS.md",
         "results/CSP889-FILTER-019.json",
-        "tests/test_sigaba_collector_filter.py"
+        "tests/test_sigaba_collector_filter.py",
+        "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md",
+        "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md",
+        "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-METHOD.md",
+        "research/SIGABA-UNKNOWN-ANCHOR-BYTE-MASK-SPEC.md",
+        "experiments/sigaba_unknown_anchor_collector.py",
+        "experiments/sigaba_byte_mask_predicates.py",
+        "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/summary.json",
+        "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/summary.json"
       ],
-      "next_deliverable": "A separately frozen unknown-anchor connected cipher-DAG/collector-filter integration with exact physical reachability, complete tiny key sets and unchanged real-sized admission limits. Supplied-panel selectivity is not an all-controller complexity or success estimate.",
+      "next_deliverable": "A separately proven and frozen canonical necessary-support signature/cache comparison may remove repeated dense support work; do not merge physical controllers/maps or replace exact verification. No larger budget or arbitrary key slice.",
       "go_no_go": "The supplied-panel diagnostic rejects 12/20 pairs without false negatives but has 6 nonphysical passes; no unknown-anchor/full-domain coverage is added. Prior full gate remains incomplete at 12 and 14, respectively native controllers. No actual K4 is ready.",
       "safe_replay_argv": [
         "python3",

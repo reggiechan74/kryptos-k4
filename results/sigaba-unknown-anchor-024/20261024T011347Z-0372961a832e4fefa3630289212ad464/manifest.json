@@ -1,0 +1,41 @@
+{
+  "run_id": "20261024T011347Z-0372961a832e4fefa3630289212ad464",
+  "started_at_utc": "2026-10-24T01:13:47.200029+00:00",
+  "label": "CSP889-COUPLED-024",
+  "execution_kind": "original",
+  "status": "completed",
+  "specification": {
+    "commit": "950ba4ce71779d8433c7733e0ef2de34c5bb133a",
+    "file": "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md",
+    "sha256": "f61133ebf3458367e5892e8333c472a9d2ee488a84c877d272312d464101a3af",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [],
+  "artifacts": {
+    "controls.json": {
+      "sha256": "7ceb07857a8c8ad0ac6c86f09cb46425ee274a2022cb4c49195f7dd7269b015a",
+      "bytes": 6064
+    },
+    "baseline-case-0.json": {
+      "sha256": "816f1d4ce788dd8339cb598768ea45c823456fb4c50939ca7b0c42c7c19e9902",
+      "bytes": 5284
+    },
+    "baseline-case-1.json": {
+      "sha256": "0bbcae7cf2388a8f438d12247f37b0f4a08a34b5aa5bb6de6affa8052cebeecb",
+      "bytes": 5854
+    },
+    "integrated-case-0.json": {
+      "sha256": "2a4e4c86c9b5a4d11e2f7cfe9204ac5ebac768ba8ad9387100291fcaff357493",
+      "bytes": 1939
+    },
+    "integrated-case-1.json": {
+      "sha256": "05150135d39e941c6733dbbecdac3e7cfcf1db967cccb7c3112b1a22509fe5a2",
+      "bytes": 1939
+    },
+    "summary.json": {
+      "sha256": "b2ed21a104ef1c8a091a2a6ac6905687aba9210900da46379ff7859ad1c0e844",
+      "bytes": 1584
+    }
+  },
+  "finished_at_utc": "2026-10-24T01:17:59.125781+00:00"
+}
