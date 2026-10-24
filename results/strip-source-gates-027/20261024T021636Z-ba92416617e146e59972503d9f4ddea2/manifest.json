@@ -1,0 +1,33 @@
+{
+  "run_id": "20261024T021636Z-ba92416617e146e59972503d9f4ddea2",
+  "started_at_utc": "2026-10-24T02:16:36.496816+00:00",
+  "label": "Item7 conditional row invariant pending historical admission",
+  "execution_kind": "original",
+  "status": "completed",
+  "specification": {
+    "commit": "0e6693e836eb2361a800068b9801795f3c23afb4",
+    "file": "STRIP-SOURCE-GATES-027-SPEC.md",
+    "sha256": "5ee43d6d8727a4d25cbe5332ca8d78fde4f10aa6b44b310a93ef698c0b2ae8d2",
+    "verification": "Caller supplies committed specification; chronology must be checked against repository history."
+  },
+  "jobs": [],
+  "artifacts": {
+    "README.md": {
+      "sha256": "09818bf8cea6ca80ce8d62f4d85b317b178ef723fe366e8a47fd7808f9b9753f",
+      "bytes": 195
+    },
+    "controls.json": {
+      "sha256": "2123d129ad92a2f24f9d7cd846c349fc787f6f835d24ecc8efdb847f3cee4e59",
+      "bytes": 5150
+    },
+    "conditional.json": {
+      "sha256": "2790635f0083ef10d57c6c62d917bf873df027136b275c29b7f432c32a628efc",
+      "bytes": 190950
+    },
+    "inputs.json": {
+      "sha256": "a792c2f74549d47995e3098de7ed623d4c506cc460e394f756e1d059fb693588",
+      "bytes": 420
+    }
+  },
+  "finished_at_utc": "2026-10-24T02:16:36.640220+00:00"
+}

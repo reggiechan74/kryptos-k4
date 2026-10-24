@@ -1,0 +1,229 @@
+{
+  "status": "passed",
+  "synthetic_not_historical": true,
+  "toy_permutations": 872,
+  "toy_symbol_checks": 29366,
+  "literal_plants": [
+    {
+      "width": 2,
+      "origin": 0,
+      "case": 0,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 0
+    },
+    {
+      "width": 2,
+      "origin": 0,
+      "case": 1,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 49
+    },
+    {
+      "width": 2,
+      "origin": 0,
+      "case": 2,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 25
+    },
+    {
+      "width": 2,
+      "origin": 1,
+      "case": 3,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 1
+    },
+    {
+      "width": 3,
+      "origin": 0,
+      "case": 0,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 0
+    },
+    {
+      "width": 3,
+      "origin": 0,
+      "case": 1,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 33
+    },
+    {
+      "width": 3,
+      "origin": 1,
+      "case": 2,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 16
+    },
+    {
+      "width": 3,
+      "origin": 2,
+      "case": 3,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 1
+    },
+    {
+      "width": 5,
+      "origin": 0,
+      "case": 0,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 0
+    },
+    {
+      "width": 5,
+      "origin": 1,
+      "case": 1,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 21
+    },
+    {
+      "width": 5,
+      "origin": 2,
+      "case": 2,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 10
+    },
+    {
+      "width": 5,
+      "origin": 4,
+      "case": 3,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 0
+    },
+    {
+      "width": 25,
+      "origin": 0,
+      "case": 0,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 0
+    },
+    {
+      "width": 25,
+      "origin": 8,
+      "case": 1,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 5
+    },
+    {
+      "width": 25,
+      "origin": 16,
+      "case": 2,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 2
+    },
+    {
+      "width": 25,
+      "origin": 24,
+      "case": 3,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 0
+    },
+    {
+      "width": 30,
+      "origin": 0,
+      "case": 0,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 0
+    },
+    {
+      "width": 30,
+      "origin": 9,
+      "case": 1,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 4
+    },
+    {
+      "width": 30,
+      "origin": 19,
+      "case": 2,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 2
+    },
+    {
+      "width": 30,
+      "origin": 29,
+      "case": 3,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 0
+    },
+    {
+      "width": 30,
+      "origin": 0,
+      "case": 0,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 0
+    },
+    {
+      "width": 30,
+      "origin": 9,
+      "case": 1,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 4
+    },
+    {
+      "width": 30,
+      "origin": 19,
+      "case": 2,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 2
+    },
+    {
+      "width": 30,
+      "origin": 29,
+      "case": 3,
+      "full_roundtrip": true,
+      "independent_matrix_equal": true,
+      "necessary_condition_pass": true,
+      "zero_rows": 0
+    }
+  ],
+  "complete_partition_comparisons": 11160,
+  "invalid_tables_rejected": 3,
+  "elapsed_seconds": 0.13632095900000002,
+  "started_at_utc": "2026-10-24T02:16:36.497919+00:00",
+  "finished_at_utc": "2026-10-24T02:16:36.634250+00:00"
+}
