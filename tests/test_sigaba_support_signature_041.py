@@ -1,11 +1,13 @@
-import json,sys,unittest
+import json,sys,unittest,subprocess,tempfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'experiments'))
 import sigaba_support_signature_041 as n
 import check_sigaba_support_signature_041 as check
 class SupportSignature041Tests(unittest.TestCase):
  def test_complete_independent_physical_sets_and_cache_caps(self):
-  r=check.run();self.assertTrue(r['complete']);self.assertEqual(r['complete_independent_root_graphs'],70);self.assertEqual(r['complete_raw_truth_streams'],12);self.assertEqual(r['complete_cap_invariance_cases'],36);self.assertEqual(r['varying_input_supplement'],dict(independent_controller_graphs=124,full_raw_truth_streams=12,varying_fixtures=4));self.assertGreater(r['root_cache_hits'],0)
+  with tempfile.TemporaryDirectory(prefix='support041-control-child-') as d:
+   path=Path(d)/'control.json';subprocess.run([sys.executable,str(ROOT/'experiments/check_sigaba_support_signature_041.py'),'--output',str(path)],check=True,capture_output=True);r=json.loads(path.read_text())
+  self.assertTrue(r['complete']);self.assertEqual(r['complete_independent_root_graphs'],70);self.assertEqual(r['complete_raw_truth_streams'],12);self.assertEqual(r['complete_cap_invariance_cases'],36);self.assertEqual(r['varying_input_supplement'],dict(independent_controller_graphs=124,full_raw_truth_streams=12,varying_fixtures=4));self.assertGreater(r['root_cache_hits'],0)
  def test_signature_retains_partition_masks_observations_and_model(self):
   class Model:
    def mask_groups(self,B):return [(1,1)] if B==(9,) else [(1,1),(2,1)]

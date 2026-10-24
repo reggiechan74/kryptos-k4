@@ -36,3 +36,7 @@ Pinned inputs and modeled representations. The canonical K4 ciphertext and one-b
 ## Curved optical sampler
 
 [curved-sampler-v1.json](curved-sampler-v1.json) supplies eight-parameter conventions, all97fixed reticle positions and deterministic ray fixtures. Synthetic ideal mirror only; public transcript layout is not measured aperture geometry.
+
+## Seven-family local review
+
+`cover-trigrams-045.json` contains aggregated Brown trigram counts only, not corpus sentences. It is a non-veto diagnostic table, not a creator-selected key or an English classifier.

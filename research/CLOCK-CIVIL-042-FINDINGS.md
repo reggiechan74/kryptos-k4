@@ -25,3 +25,5 @@ The compass/direction branch still lacks a surveyed relation among true north, e
 A reproducible clock/direction key still needs an independently fixed historical version or consumed cells, origin/direction, epoch if time is used, city/band/rank/correction selection and a total reversible A–Z bridge. A24sector count alone cannot select those rules. The precise conservation-thesis/photograph leads are preserved; current permitted access supplies neither the missing inventory nor creator-selected extraction. No outreach, payment or denied-source retry follows.
 
 **Completion boundary:** the stated automatic-civil model fails, while literal/single-date/standard-time mechanisms survive without a determined cipher bridge. The broader family is evidence-blocked for decoding, not exhausted. No actual K4 trials, recovered key or Site change; new results remain local. Original/replay UTC times are recorded separately.
+
+A [separate late reviewer-control receipt](REVIEW-CONTROLS-046.md) strengthens active-calculation interruption, explicit wrong-DST and invalid-flag checks without changing this original model, source, receipt or large-run outcome.

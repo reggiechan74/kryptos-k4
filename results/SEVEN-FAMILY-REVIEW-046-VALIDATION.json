@@ -1,0 +1,38 @@
+{
+  "kind": "Final regression verification of seven-family local review; not original experiment timing",
+  "runs": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T19:07:29.690546+00:00",
+      "finished_at_utc": "2026-10-24T19:09:04.438239+00:00",
+      "returncode": 0,
+      "log": "results/SEVEN-FAMILY-REVIEW-046-python39.log.txt",
+      "sha256": "6a6c2ead8ba3efeee579e4a9860ffb206a944c7c4d5f0e4da00ed088cb6cb971",
+      "tests": 702,
+      "suite_wall_seconds": 94.4
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T19:09:04.438443+00:00",
+      "finished_at_utc": "2026-10-24T19:10:13.046379+00:00",
+      "returncode": 0,
+      "log": "results/SEVEN-FAMILY-REVIEW-046-python312.log.txt",
+      "sha256": "a8c4f54d0f79b7eed9d313086772a010f9f33d1956078e4b35f9cdc0992524f7",
+      "tests": 702,
+      "suite_wall_seconds": 68.246
+    }
+  ],
+  "all_passed": true,
+  "recorded_at_utc": "2026-10-24T19:10:23.620800+00:00",
+  "published_snapshot": "043924da99362c67c99afb4b2866d996e0fabdf2",
+  "published_ci": {
+    "check_runs": 0,
+    "statuses": 0,
+    "configured_workflows": 0,
+    "legacy_aggregate_state": "pending_without_status_records"
+  },
+  "new_results_local_only": true,
+  "canonical_ciphertext_unchanged": true,
+  "site_files_unchanged": true,
+  "regression_timing_is_not_original_experiment_timing": true
+}

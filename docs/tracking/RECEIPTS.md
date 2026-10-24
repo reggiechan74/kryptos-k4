@@ -22,20 +22,30 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/BASE60-BEAUFORT-VALIDATION.json](../../results/BASE60-BEAUFORT-VALIDATION.json) | BASE60-BEAUFORT-001 | Exact run start/end unknown; inspect original |
 | [results/CLOCK-BOUNDARY-CHRONOLOGY.json](../../results/CLOCK-BOUNDARY-CHRONOLOGY.json) |  | start: 2026-10-18T12:42:41.282170Z |
 | [results/CLOCK-BOUNDARY-VALIDATION.json](../../results/CLOCK-BOUNDARY-VALIDATION.json) | CLOCK-BOUNDARY-VALIDATION | receipt recording: 2026-10-18T12:43:31.200356Z |
+| [results/CLOCK-CIVIL-042-ORIGINAL.json](../../results/CLOCK-CIVIL-042-ORIGINAL.json) | CLOCK-CIVIL-042 | start: 2026-10-24T18:27:33.660889Z; end: 2026-10-24T18:27:33.928489Z |
+| [results/CLOCK-CIVIL-042-REPLAY.json](../../results/CLOCK-CIVIL-042-REPLAY.json) |  | start: 2026-10-24T18:27:34.256168Z; end: 2026-10-24T18:27:34.450472Z |
+| [results/COMPRESS-TRANSPORT-043-ORIGINAL.json](../../results/COMPRESS-TRANSPORT-043-ORIGINAL.json) | COMPRESS-TRANSPORT-043 | start: 2026-10-24T18:35:43.988050Z; end: 2026-10-24T18:35:44.455127Z |
+| [results/COMPRESS-TRANSPORT-043-REPLAY.json](../../results/COMPRESS-TRANSPORT-043-REPLAY.json) |  | start: 2026-10-24T18:37:08.556716Z; end: 2026-10-24T18:37:08.957148Z |
 | [results/CONDITIONAL-FACE-LAMP-001-VALIDATION.json](../../results/CONDITIONAL-FACE-LAMP-001-VALIDATION.json) | bounded completed batch verification | Exact run start/end unknown; inspect original |
 | [results/CONDITIONAL-FACE-LAMP-001-controls.json](../../results/CONDITIONAL-FACE-LAMP-001-controls.json) | controls before actual K4 evaluation | Exact run start/end unknown; inspect original |
 | [results/CONDITIONAL-FACE-LAMP-001-independent.json](../../results/CONDITIONAL-FACE-LAMP-001-independent.json) |  | Exact run start/end unknown; inspect original |
 | [results/CONDITIONAL-FACE-LAMP-001.json](../../results/CONDITIONAL-FACE-LAMP-001.json) |  | Exact run start/end unknown; inspect original |
+| [results/CONTEXT-SPELLING-039-ORIGINAL.json](../../results/CONTEXT-SPELLING-039-ORIGINAL.json) | CONTEXT-SPELLING-039 | start: 2026-10-24T17:05:27.894998Z; end: 2026-10-24T17:05:27.957067Z |
+| [results/CONTEXT-SPELLING-039-REPLAY.json](../../results/CONTEXT-SPELLING-039-REPLAY.json) |  | start: 2026-10-24T17:06:38.736648Z; end: 2026-10-24T17:06:38.782822Z |
 | [results/CONTINUATION-VALIDATION.json](../../results/CONTINUATION-VALIDATION.json) |  | Exact run start/end unknown; inspect original |
 | [results/COVER-033-034-SOURCES.json](../../results/COVER-033-034-SOURCES.json) | Source pins and factual context; no raw corpus/software or full webpages committed | Exact run start/end unknown; inspect original |
 | [results/COVER-033-034-VALIDATION.json](../../results/COVER-033-034-VALIDATION.json) | Completed local cover extraction and corpus feasibility validation; no K4 decryption or publication | receipt recording: 2026-10-24T14:25:43.810244Z |
 | [results/COVER-EXTRACTION-033-ORIGINAL.json](../../results/COVER-EXTRACTION-033-ORIGINAL.json) | COVER-EXTRACTION-033; Conditional post-decryption source-grammar feasibility; no actual K4 decryption | start: 2026-10-24T13:55:39.526279Z; end: 2026-10-24T13:55:39.790810Z |
 | [results/COVER-EXTRACTION-033-PY312-REPLAY.json](../../results/COVER-EXTRACTION-033-PY312-REPLAY.json) | COVER-EXTRACTION-033; Conditional post-decryption source-grammar feasibility; no actual K4 decryption | start: 2026-10-24T14:12:04.924656Z; end: 2026-10-24T14:12:05.127524Z |
 | [results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json](../../results/COVER-EXTRACTION-PHRASE-PY312-REPLAY.json) | Complete Python3.12 core/phrase/control payload replay; metadata times remain separate | Exact run start/end unknown; inspect original |
+| [results/COVER-LANGUAGE-045-ORIGINAL.json](../../results/COVER-LANGUAGE-045-ORIGINAL.json) | COVER-LANGUAGE-045 | start: 2026-10-24T18:49:48.099574Z; end: 2026-10-24T18:50:32.936437Z |
+| [results/COVER-LANGUAGE-045-REPLAY.json](../../results/COVER-LANGUAGE-045-REPLAY.json) |  | start: 2026-10-24T18:53:09.527426Z; end: 2026-10-24T18:53:44.969668Z |
 | [results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json](../../results/COVER-PHRASE-034-INDEPENDENT-AUDIT.json) | Post-outcome independent full-position audit of all recorded unique corpus positives | start: 2026-10-24T14:05:51.422791Z; end: 2026-10-24T14:05:58.083425Z |
 | [results/COVER-PHRASE-034-MESSAGE-SPLITS.json](../../results/COVER-PHRASE-034-MESSAGE-SPLITS.json) | Complete matched corpus output-word segmentation metadata, no raw corpus text | Exact run start/end unknown; inspect original |
 | [results/COVER-PHRASE-034-PY312-REPLAY-SUMMARY.json](../../results/COVER-PHRASE-034-PY312-REPLAY-SUMMARY.json) | COVER-PHRASE-034; Conditional corpus/cover capacity, not decryption or K4 significance | start: 2026-10-24T14:07:44.116650Z; end: 2026-10-24T14:07:50.283484Z |
 | [results/COVER-PHRASE-034-original-summary.json](../../results/COVER-PHRASE-034-original-summary.json) | COVER-PHRASE-034; Conditional corpus/cover capacity, not decryption or K4 significance | start: 2026-10-24T14:01:20.542852Z; end: 2026-10-24T14:01:29.259691Z |
+| [results/COVER-SELECTOR-038-ORIGINAL.json](../../results/COVER-SELECTOR-038-ORIGINAL.json) | COVER-SELECTOR-038 | start: 2026-10-24T17:02:06.639063Z; end: 2026-10-24T17:02:08.592232Z |
+| [results/COVER-SELECTOR-038-REPLAY.json](../../results/COVER-SELECTOR-038-REPLAY.json) |  | start: 2026-10-24T17:03:13.890574Z; end: 2026-10-24T17:03:15.708745Z |
 | [results/CSP889-ANCHOR-017-validation.json](../../results/CSP889-ANCHOR-017-validation.json) | CSP889-ANCHOR-017-validation | Exact run start/end unknown; inspect original |
 | [results/CSP889-ANCHOR-017.json](../../results/CSP889-ANCHOR-017.json) | CSP889-ANCHOR-017 | Exact run start/end unknown; inspect original |
 | [results/CSP889-COMPACT-018-validation.json](../../results/CSP889-COMPACT-018-validation.json) | CSP889-COMPACT-018-validation | Exact run start/end unknown; inspect original |
@@ -78,6 +88,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/DOCUMENTATION-LINK-AUDIT-038.json](../../results/DOCUMENTATION-LINK-AUDIT-038.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-039.json](../../results/DOCUMENTATION-LINK-AUDIT-039.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DOCUMENTATION-LINK-AUDIT-040.json](../../results/DOCUMENTATION-LINK-AUDIT-040.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
+| [results/DOCUMENTATION-LINK-AUDIT-046.json](../../results/DOCUMENTATION-LINK-AUDIT-046.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DYNAMIC-KEY-VALIDATION.json](../../results/DYNAMIC-KEY-VALIDATION.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
 | [results/ENE-NOTE-CHECKS.json](../../results/ENE-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-001.json](../../results/EXCLUSION-SCOPE-AUDIT-001.json) |  | Exact run start/end unknown; inspect original |
@@ -116,6 +127,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/EXCLUSION-SCOPE-AUDIT-035.json](../../results/EXCLUSION-SCOPE-AUDIT-035.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-036.json](../../results/EXCLUSION-SCOPE-AUDIT-036.json) |  | Exact run start/end unknown; inspect original |
 | [results/EXCLUSION-SCOPE-AUDIT-037.json](../../results/EXCLUSION-SCOPE-AUDIT-037.json) |  | Exact run start/end unknown; inspect original |
+| [results/EXCLUSION-SCOPE-AUDIT-046.json](../../results/EXCLUSION-SCOPE-AUDIT-046.json) |  | Exact run start/end unknown; inspect original |
 | [results/FACE-ROW-001-COVERAGE.json](../../results/FACE-ROW-001-COVERAGE.json) | prior-coverage audit; zero K4 evaluations | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005-controls.json](../../results/FEISTEL-SYMMETRY-005-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/FEISTEL-SYMMETRY-005.json](../../results/FEISTEL-SYMMETRY-005.json) |  | Exact run start/end unknown; inspect original |
@@ -160,6 +172,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/FRONTIER-035.json](../../results/FRONTIER-035.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-036.json](../../results/FRONTIER-036.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FRONTIER-037.json](../../results/FRONTIER-037.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
+| [results/FRONTIER-046.json](../../results/FRONTIER-046.json) | Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol | Exact run start/end unknown; inspect original |
 | [results/FULL-STATE-PHYSICAL-VALIDATION-001.json](../../results/FULL-STATE-PHYSICAL-VALIDATION-001.json) | FULL-STATE-PHYSICAL-VALIDATION-001 | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-COMPARISON.json](../../results/GEOMETRIC-FOLLOWUP-COMPARISON.json) |  | Exact run start/end unknown; inspect original |
 | [results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json](../../results/GEOMETRIC-FOLLOWUP-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
@@ -235,6 +248,8 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/MASK-FM-ARBITRARY-007-independent.json](../../results/MASK-FM-ARBITRARY-007-independent.json) |  | Exact run start/end unknown; inspect original |
 | [results/MASK-FM-ARBITRARY-007-validation.json](../../results/MASK-FM-ARBITRARY-007-validation.json) |  | Exact run start/end unknown; inspect original |
 | [results/MASK-FM-ARBITRARY-007.json](../../results/MASK-FM-ARBITRARY-007.json) |  | Exact run start/end unknown; inspect original |
+| [results/MINIMUM-REPAIR-044-ORIGINAL.json](../../results/MINIMUM-REPAIR-044-ORIGINAL.json) | MINIMUM-REPAIR-044 | start: 2026-10-24T18:41:58.298226Z; end: 2026-10-24T18:41:58.732664Z |
+| [results/MINIMUM-REPAIR-044-REPLAY.json](../../results/MINIMUM-REPAIR-044-REPLAY.json) |  | start: 2026-10-24T18:44:06.709706Z; end: 2026-10-24T18:44:07.047061Z |
 | [results/NONROTOR-STRUCTURAL-004-controls.json](../../results/NONROTOR-STRUCTURAL-004-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/NONROTOR-STRUCTURAL-004-independent.json](../../results/NONROTOR-STRUCTURAL-004-independent.json) | Post-run independent exact-entry certificates; actual models contradict before unsupported latent branch handling | Exact run start/end unknown; inspect original |
 | [results/NONROTOR-STRUCTURAL-004-initial-diagnostic.json](../../results/NONROTOR-STRUCTURAL-004-initial-diagnostic.json) |  | Exact run start/end unknown; inspect original |
@@ -246,6 +261,8 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/PHONETIC-CL-001-summary.json](../../results/PHONETIC-CL-001-summary.json) | PHONETIC-CL-001 | Exact run start/end unknown; inspect original |
 | [results/PHONETIC-CL-VALIDATION.json](../../results/PHONETIC-CL-VALIDATION.json) | PHONETIC-CL-001 | Exact run start/end unknown; inspect original |
 | [results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json](../../results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json) | PHYSICAL-ADDENDUM-LOCAL-REVIEW-001 | Exact run start/end unknown; inspect original |
+| [results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json](../../results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json) | PHYSICAL-IDENTIFIABILITY-040 | start: 2026-10-24T17:09:08.890519Z; end: 2026-10-24T17:09:09.091089Z |
+| [results/PHYSICAL-IDENTIFIABILITY-040-REPLAY.json](../../results/PHYSICAL-IDENTIFIABILITY-040-REPLAY.json) |  | start: 2026-10-24T17:11:29.652953Z; end: 2026-10-24T17:11:29.780787Z |
 | [results/PHYSICAL-SOLAR-002-VALIDATION.json](../../results/PHYSICAL-SOLAR-002-VALIDATION.json) | PHYSICAL-SOLAR-002-VALIDATION; Final item 2 validation, not original physical calculation or historical exposure | Exact run start/end unknown; inspect original |
 | [results/PROJECTION-CONCURRENCE-029-DEGENERACY-QA.json](../../results/PROJECTION-CONCURRENCE-029-DEGENERACY-QA.json) | Pre-real-data adversarial QA correction | receipt recording: 2026-10-24T11:50:23.378499Z |
 | [results/PROJECTION-CONCURRENCE-029-INITIAL-QA.json](../../results/PROJECTION-CONCURRENCE-029-INITIAL-QA.json) | Preserved initial synthetic unit QA correction, not real-data fit | Exact run start/end unknown; inspect original |
@@ -265,9 +282,12 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/PROSE-COVER-035-VALIDATION.json](../../results/PROSE-COVER-035-VALIDATION.json) | Complete local PROSE-COVER-035 validation with exact finite cipher scope and lexical calibration limits | receipt recording: 2026-10-24T14:49:08.570498Z |
 | [results/PROSE-COVER-035-VERIFICATION-NOTES.json](../../results/PROSE-COVER-035-VERIFICATION-NOTES.json) | Post-outcome verification execution note; no original result rewritten | receipt recording: 2026-10-24T14:46:18.252838Z |
 | [results/RECURRENCE-CERTIFICATE-REVIEW-001.json](../../results/RECURRENCE-CERTIFICATE-REVIEW-001.json) | RECURRENCE-CERTIFICATE-REVIEW-001 | Exact run start/end unknown; inspect original |
+| [results/REVIEW-CONTROLS-045.json](../../results/REVIEW-CONTROLS-045.json) | REVIEW-CONTROLS-045 | start: 2026-10-24T18:51:07.776485Z; end: 2026-10-24T18:51:07.777457Z |
+| [results/REVIEW-CONTROLS-046.json](../../results/REVIEW-CONTROLS-046.json) | REVIEW-CONTROLS-046 | start: 2026-10-24T18:55:29.101871Z; end: 2026-10-24T18:55:29.116792Z |
 | [results/ROUTE-001-summary.json](../../results/ROUTE-001-summary.json) | ROUTE-001 | Exact run start/end unknown; inspect original |
 | [results/RUNKEY-001.json](../../results/RUNKEY-001.json) | RUNKEY-001 | Exact run start/end unknown; inspect original |
 | [results/SEQUENTIAL-BRANCHES-VALIDATION.json](../../results/SEQUENTIAL-BRANCHES-VALIDATION.json) | SEQUENTIAL-BRANCHES-VALIDATION; validation-fd34175c5c884c318517ee9bff84ef5d | receipt recording: 2026-10-18T11:35:01.252332Z |
+| [results/SEVEN-FAMILY-REVIEW-046-VALIDATION.json](../../results/SEVEN-FAMILY-REVIEW-046-VALIDATION.json) | Final regression verification of seven-family local review; not original experiment timing | receipt recording: 2026-10-24T19:10:23.620800Z |
 | [results/SIGABA-CSP889-001-controls.json](../../results/SIGABA-CSP889-001-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/SIGABA-CSP889-001.json](../../results/SIGABA-CSP889-001.json) |  | Exact run start/end unknown; inspect original |
 | [results/SIGABA-CSP889-STATE-002-controls.json](../../results/SIGABA-CSP889-STATE-002-controls.json) |  | Exact run start/end unknown; inspect original |
@@ -279,6 +299,14 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/SIGABA-JOINT-TOY-012.json](../../results/SIGABA-JOINT-TOY-012.json) | SIGABA-JOINT-TOY-012 | Exact run start/end unknown; inspect original |
 | [results/SIGABA-STATE-PROTOTYPE-LOCAL-REPLAY.json](../../results/SIGABA-STATE-PROTOTYPE-LOCAL-REPLAY.json) |  | Exact run start/end unknown; inspect original |
 | [results/SIGABA-STATE-PROTOTYPE-ORIGINAL.json](../../results/SIGABA-STATE-PROTOTYPE-ORIGINAL.json) |  | Exact run start/end unknown; inspect original |
+| [results/SIGABA-SUPPORT-SIGNATURE-041-CONTROLS.json](../../results/SIGABA-SUPPORT-SIGNATURE-041-CONTROLS.json) | SIGABA-SUPPORT-SIGNATURE-041-CONTROLS | start: 2026-10-24T17:15:11.107601Z; end: 2026-10-24T17:15:13.592289Z |
+| [results/SIGABA-SUPPORT-SIGNATURE-041-PREFLIGHT.json](../../results/SIGABA-SUPPORT-SIGNATURE-041-PREFLIGHT.json) |  | receipt recording: 2026-10-24T17:13:59.689923Z |
+| [results/SIGABA-SUPPORT-SIGNATURE-041-REPLAY.json](../../results/SIGABA-SUPPORT-SIGNATURE-041-REPLAY.json) |  | start: 2026-10-24T18:22:30.283215Z; end: 2026-10-24T18:22:33.584317Z |
+| [results/SIGABA-SUPPORT-SIGNATURE-041-SUMMARY.json](../../results/SIGABA-SUPPORT-SIGNATURE-041-SUMMARY.json) | SIGABA-SUPPORT-SIGNATURE-041-SUMMARY | start: 2026-10-24T17:15:25.791070Z; end: 2026-10-24T17:19:26.330832Z |
+| [results/SIGABA-SUPPORT-SIGNATURE-041-cached-case0.json](../../results/SIGABA-SUPPORT-SIGNATURE-041-cached-case0.json) | SIGABA-SUPPORT-SIGNATURE-041 | start: 2026-10-24T17:16:25.933126Z; end: 2026-10-24T17:17:26.030296Z |
+| [results/SIGABA-SUPPORT-SIGNATURE-041-cached-case1.json](../../results/SIGABA-SUPPORT-SIGNATURE-041-cached-case1.json) | SIGABA-SUPPORT-SIGNATURE-041 | start: 2026-10-24T17:18:26.290111Z; end: 2026-10-24T17:19:26.310318Z |
+| [results/SIGABA-SUPPORT-SIGNATURE-041-uncached-case0.json](../../results/SIGABA-SUPPORT-SIGNATURE-041-uncached-case0.json) | SIGABA-SUPPORT-SIGNATURE-041 | start: 2026-10-24T17:15:25.823933Z; end: 2026-10-24T17:16:25.862384Z |
+| [results/SIGABA-SUPPORT-SIGNATURE-041-uncached-case1.json](../../results/SIGABA-SUPPORT-SIGNATURE-041-uncached-case1.json) | SIGABA-SUPPORT-SIGNATURE-041 | start: 2026-10-24T17:17:26.115467Z; end: 2026-10-24T17:18:26.194608Z |
 | [results/SIGABA-TORUS-013-controls.json](../../results/SIGABA-TORUS-013-controls.json) |  | Exact run start/end unknown; inspect original |
 | [results/SIGABA-TORUS-013-validation.json](../../results/SIGABA-TORUS-013-validation.json) | SIGABA-TORUS-013-validation | Exact run start/end unknown; inspect original |
 | [results/SIGABA-TORUS-013.json](../../results/SIGABA-TORUS-013.json) | SIGABA-TORUS-013 | Exact run start/end unknown; inspect original |
@@ -304,6 +332,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/SPELLING-CORRECTION-032-PY312-REPLAY.json](../../results/SPELLING-CORRECTION-032-PY312-REPLAY.json) | SPELLING-CORRECTION-032; Original source-rule constraints and controls; no K4 model evaluation | start: 2026-10-24T13:27:34.863824Z; end: 2026-10-24T13:27:34.889269Z |
 | [results/SPELLING-CORRECTION-032-SOURCES.json](../../results/SPELLING-CORRECTION-032-SOURCES.json) | Source retrieval provenance, not source truth or K4 evaluation | Exact run start/end unknown; inspect original |
 | [results/SPELLING-CORRECTION-032-VALIDATION.json](../../results/SPELLING-CORRECTION-032-VALIDATION.json) | Local deliberate-spelling final regression, not K4 or publication timing | receipt recording: 2026-10-24T13:27:34.928551Z |
+| [results/SPELLING-MORPHISM-REVIEW-045.json](../../results/SPELLING-MORPHISM-REVIEW-045.json) | SPELLING-MORPHISM-REVIEW-045 | start: 2026-10-24T18:54:06.106401Z; end: 2026-10-24T18:54:06.109289Z |
 | [results/STAT-001-summary.json](../../results/STAT-001-summary.json) | STAT-001 | Exact run start/end unknown; inspect original |
 | [results/STAT-CROSSVERSION-014-python312.json](../../results/STAT-CROSSVERSION-014-python312.json) |  | Exact run start/end unknown; inspect original |
 | [results/STAT-CROSSVERSION-014-python39.json](../../results/STAT-CROSSVERSION-014-python39.json) |  | Exact run start/end unknown; inspect original |

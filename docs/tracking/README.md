@@ -2,7 +2,7 @@
 
 [Project overview](../../README.md) · [Canonical hypothesis ledger](../../research/HYPOTHESES.md) · [Canonical experiment log](../../research/EXPERIMENTS.md)
 
-- [Hypothesis families](HYPOTHESES.md): 61 stable IDs, statuses and links to exact tested / untested scopes.
+- [Hypothesis families](HYPOTHESES.md): 63 stable IDs, statuses and links to exact tested / untested scopes.
 - [Experiments](EXPERIMENTS.md): a navigable index of log sections, model types and recorded timing.
 - [Detailed experiment entries](EXPERIMENT-DETAILS.md): original results, limits, code and receipt links, rebased for this location.
 - [Run and artifact receipts](RECEIPTS.md): every tracked JSON result, including synthetic engineering and source reviews. Artifact count is not experiment count.
@@ -29,3 +29,5 @@ The shared `RunSnapshot` writer already records UTC start/end for new runs. The 
 ## Overlay scope
 
 FOLD-SLIDE-020 remains a historical column-only study with `dy = 0`. The later [FOLD-SLIDE-2D-001 item-1 study](../../research/FOLD-SLIDE-2D-FINDINGS.md) separately freezes and calibrates all integer row/column offsets under two registrations. Do not transfer old column-only p-values to rows or extend the new calibration to arbitrary words/readouts, fractional offsets or other manual choices. The live Site is a separate presentation/runtime.
+
+[Seven-family subbranch matrix](../../research/SEVEN-FAMILY-REVIEW-046.md) separates completed scoped work from untested or evidence/resource-blocked complements. New 038–046 results remain local for review.

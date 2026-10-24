@@ -135,3 +135,9 @@ Historical artifact checks validate the shared `run_io.py` / `run_bounded.py` by
 ## Local deliberate-spelling study
 
 `test_spelling_correction.py` and `test_spelling_correction_artifacts.py` verify complete edit alignments, unchanged-letter constraints, reversible plants and source-result integrity.
+
+## Seven-family local review
+
+The seven-family review adds complete tiny-system oracles, all-witness replay and late-control tests. Full SIGABA control scripts run in their own subprocess so a measured per-run RSS cap is not contaminated by earlier tests. [Final scope/matrix](../research/SEVEN-FAMILY-REVIEW-046.md).
+
+Final local review verification: 702 tracked tests pass under both Python 3.9 and Python 3.12; [UTC receipt and complete logs](../results/SEVEN-FAMILY-REVIEW-046-VALIDATION.json). This is regression timing, not an original experiment timestamp.

@@ -34,3 +34,5 @@ Missing M-138A inputs remain exact issue/inventory, holder/order, straight/split
 ## Completion boundary
 
 This closes the specific proposed memoization question under the measured prefixes, not the SIGABA family. Reuse elsewhere remains possible; discovering a useful controller quotient without computing every expensive root support is an unmeasured algorithmic question, not grounds to raise caps or launch another arbitrary key slice now. Source-selected wirings/initialization/masking remain separately missing. The historical machine/manual family is computationally unresolved and partly source-blocked. No key, plaintext, physical machine attribution or complete-family exclusion follows. New research stays local; no Site change or publication accompanies this report.
+
+A [separate late reviewer-control receipt](REVIEW-CONTROLS-046.md) strengthens active-calculation interruption, explicit wrong-DST and invalid-flag checks without changing this original model, source, receipt or large-run outcome.

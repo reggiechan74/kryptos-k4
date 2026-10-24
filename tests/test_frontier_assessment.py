@@ -6,7 +6,7 @@ import exclusion_scope_audit as audit
 
 class FrontierAssessmentTests(unittest.TestCase):
     def test_all_current_entries_are_reviewed_without_new_search(self):
-        saved=json.loads((ROOT/'results/FRONTIER-037.json').read_text());self.assertEqual(frontier.assess(),saved)
+        saved=json.loads((ROOT/'results/FRONTIER-046.json').read_text());self.assertEqual(frontier.assess(),saved)
         self.assertEqual(saved['registered_entries'],63);self.assertEqual(len({r['id'] for r in saved['entries']}),63)
         self.assertEqual(saved['new_K4_evaluations'],0);self.assertEqual(saved['replay_commands_executed'],0);self.assertEqual(saved['ready_new_K4_experiments'],0);self.assertFalse(saved['puzzle_solved'])
         self.assertTrue(all(not r['ready_for_new_K4_evaluation'] for r in saved['entries']));self.assertEqual(len(saved['frontier_gates']),12)
@@ -202,4 +202,11 @@ class FrontierAssessmentTests(unittest.TestCase):
         old=json.loads((ROOT/'results/FRONTIER-036.json').read_text())
         for path,sha in old['source_sha256'].items():
             raw=subprocess.check_output(['git','show','e9307503418fb4f60d6f8f4acf296b7da33aeaa0:'+path],cwd=ROOT)
+            self.assertEqual(hashlib.sha256(raw).hexdigest(),sha)
+
+    def test_previous037frontier_preserves_its_original_source_history(self):
+        import hashlib
+        old=json.loads((ROOT/'results/FRONTIER-037.json').read_text())
+        for path,sha in old['source_sha256'].items():
+            raw=subprocess.check_output(['git','show','5db5cb0f0a7d18a7a6d00c16dd0a2e3e7791e643:'+path],cwd=ROOT)
             self.assertEqual(hashlib.sha256(raw).hexdigest(),sha)

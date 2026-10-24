@@ -1871,3 +1871,166 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Final local aggregate validation: 665 tests pass on Python3.9/3.12; [UTC receipt/full logs](../../results/SITE-CYLINDER-037-VALIDATION.json). Prior036 preserved, no actual K4 comparison or Source edit/archive/publication.
 
 Related files: [research/SITE-CYLINDER-037-FINDINGS.md](../../research/SITE-CYLINDER-037-FINDINGS.md), [research/SITE-CYLINDER-037-SPEC.md](../../research/SITE-CYLINDER-037-SPEC.md), [results/SITE-CYLINDER-037-DEFAULT-MARGINS.csv](../../results/SITE-CYLINDER-037-DEFAULT-MARGINS.csv), [results/SITE-CYLINDER-037-ORIGINAL.json.gz](../../results/SITE-CYLINDER-037-ORIGINAL.json.gz), [results/SITE-CYLINDER-037-PY312-COMPARISON.json](../../results/SITE-CYLINDER-037-PY312-COMPARISON.json), [results/SITE-CYLINDER-037-RESOURCE-REPLAY.json](../../results/SITE-CYLINDER-037-RESOURCE-REPLAY.json), [results/SITE-CYLINDER-037-SOURCE-SNAPSHOT.json.gz](../../results/SITE-CYLINDER-037-SOURCE-SNAPSHOT.json.gz), [results/SITE-CYLINDER-037-SUMMARY.json](../../results/SITE-CYLINDER-037-SUMMARY.json), [results/SITE-CYLINDER-037-VALIDATION.json](../../results/SITE-CYLINDER-037-VALIDATION.json).
+
+## LOG-958B11958D
+
+**COVER-SELECTOR-038 — boundary-free selector follow-through**
+
+start: 2026-10-24T17:02:06.639063Z; end: 2026-10-24T17:02:08.592232Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC.
+
+Type: analytical constraints; synthetic validation. Outcome: 120selector descriptions complete;84newstride descriptions, no outer cipher identified
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T17:02:06.639063+00:00`; end: `2026-10-24T17:02:08.592232+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: 120 selector descriptions complete; 84 newstride descriptions, no outer cipher identified. General family limits remain explicit.
+- [Findings/protocol/control links](../../research/COVER-SELECTOR-038-FINDINGS.md); [original receipt](../../results/COVER-SELECTOR-038-ORIGINAL.json); [seven-family matrix](../../research/SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+Related files: [research/COVER-SELECTOR-038-FINDINGS.md](../../research/COVER-SELECTOR-038-FINDINGS.md), [research/SEVEN-FAMILY-REVIEW-046.md](../../research/SEVEN-FAMILY-REVIEW-046.md), [results/COVER-SELECTOR-038-ORIGINAL.json](../../results/COVER-SELECTOR-038-ORIGINAL.json).
+
+## LOG-0BD1D35E69
+
+**CONTEXT-SPELLING-039 — reversible context prediction limits**
+
+start: 2026-10-24T17:05:27.894998Z; end: 2026-10-24T17:05:27.957067Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC.
+
+Type: analytical constraints; synthetic validation. Outcome: One-letter contexts fail;two-letter fits are underdetermined and predict no held-out mistake
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T17:05:27.894998+00:00`; end: `2026-10-24T17:05:27.957067+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: One-letter contexts fail; two-letter fits are underdetermined and predict no held-out mistake. General family limits remain explicit.
+- [Findings/protocol/control links](../../research/CONTEXT-SPELLING-039-FINDINGS.md); [original receipt](../../results/CONTEXT-SPELLING-039-ORIGINAL.json); [seven-family matrix](../../research/SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+Related files: [research/CONTEXT-SPELLING-039-FINDINGS.md](../../research/CONTEXT-SPELLING-039-FINDINGS.md), [research/SEVEN-FAMILY-REVIEW-046.md](../../research/SEVEN-FAMILY-REVIEW-046.md), [results/CONTEXT-SPELLING-039-ORIGINAL.json](../../results/CONTEXT-SPELLING-039-ORIGINAL.json).
+
+## LOG-EECF3F88C3
+
+**PHYSICAL-IDENTIFIABILITY-040 — source ambiguity and scale**
+
+start: 2026-10-24T17:09:08.890519Z; end: 2026-10-24T17:09:09.091089Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC.
+
+Type: analytical constraints; synthetic validation. Outcome: Identical image pairs admit different physical sources; real reviewed pairs remain uncertified
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T17:09:08.890519+00:00`; end: `2026-10-24T17:09:09.091089+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: Identical image pairs admit different physical sources; real reviewed pairs remain uncertified. General family limits remain explicit.
+- [Findings/protocol/control links](../../research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md); [original receipt](../../results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json); [seven-family matrix](../../research/SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+Related files: [research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md](../../research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md), [research/SEVEN-FAMILY-REVIEW-046.md](../../research/SEVEN-FAMILY-REVIEW-046.md), [results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json](../../results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json).
+
+## LOG-B657ACC6D6
+
+**SIGABA-SUPPORT-SIGNATURE-041 — exact memoization without scaling gain**
+
+start: 2026-10-24T17:15:25.791070Z; end: 2026-10-24T17:19:26.330832Z; start: 2026-10-24T17:16:25.933126Z; end: 2026-10-24T17:17:26.030296Z; start: 2026-10-24T17:18:26.290111Z; end: 2026-10-24T17:19:26.310318Z; start: 2026-10-24T17:15:25.823933Z; end: 2026-10-24T17:16:25.862384Z; start: 2026-10-24T17:17:26.115467Z; end: 2026-10-24T17:18:26.194608Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC.
+
+Type: synthetic solver engineering; resource benchmark. Outcome: Exact tiny sets pass;real synthetic prefixes have zero cache hits and remain unresolved
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T17:15:25.791070+00:00`; end: `2026-10-24T17:19:26.330832+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: Exact tiny sets pass; real synthetic prefixes have zero cache hits and remain unresolved. General family limits remain explicit.
+- [Findings/protocol/control links](../../research/SIGABA-SUPPORT-SIGNATURE-041-FINDINGS.md); [original receipt](../../results/SIGABA-SUPPORT-SIGNATURE-041-SUMMARY.json); [seven-family matrix](../../research/SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+Related files: [research/SEVEN-FAMILY-REVIEW-046.md](../../research/SEVEN-FAMILY-REVIEW-046.md), [research/SIGABA-SUPPORT-SIGNATURE-041-FINDINGS.md](../../research/SIGABA-SUPPORT-SIGNATURE-041-FINDINGS.md), [results/SIGABA-SUPPORT-SIGNATURE-041-SUMMARY.json](../../results/SIGABA-SUPPORT-SIGNATURE-041-SUMMARY.json).
+
+## LOG-4AEC06FD9C
+
+**CLOCK-CIVIL-042 — whole-year shared-phase interpretation**
+
+start: 2026-10-24T18:27:33.660889Z; end: 2026-10-24T18:27:33.928489Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC.
+
+Type: analytical constraints; source research. Outcome: Automatic civil-time interpretation fails;literal/standard-time/single-date models remain open
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T18:27:33.660889+00:00`; end: `2026-10-24T18:27:33.928489+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: Automatic civil-time interpretation fails; literal/standard-time/single-date models remain open. General family limits remain explicit.
+- [Findings/protocol/control links](../../research/CLOCK-CIVIL-042-FINDINGS.md); [original receipt](../../results/CLOCK-CIVIL-042-ORIGINAL.json); [seven-family matrix](../../research/SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+Related files: [research/CLOCK-CIVIL-042-FINDINGS.md](../../research/CLOCK-CIVIL-042-FINDINGS.md), [research/SEVEN-FAMILY-REVIEW-046.md](../../research/SEVEN-FAMILY-REVIEW-046.md), [results/CLOCK-CIVIL-042-ORIGINAL.json](../../results/CLOCK-CIVIL-042-ORIGINAL.json).
+
+## LOG-7FA3D57DFA
+
+**COMPRESS-TRANSPORT-043 — legacy compression with fixed transports**
+
+start: 2026-10-24T18:35:43.988050Z; end: 2026-10-24T18:35:44.455127Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC.
+
+Type: finite K4 model tests; representation validation. Outcome: All8fixed.Ztransports fail magic;other compressors/transports/layers remain untested
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T18:35:43.988050+00:00`; end: `2026-10-24T18:35:44.455127+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: All 8 fixed.Ztransports fail magic; other compressors/transports/layers remain untested. General family limits remain explicit.
+- [Findings/protocol/control links](../../research/COMPRESS-TRANSPORT-043-FINDINGS.md); [original receipt](../../results/COMPRESS-TRANSPORT-043-ORIGINAL.json); [seven-family matrix](../../research/SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+Related files: [research/COMPRESS-TRANSPORT-043-FINDINGS.md](../../research/COMPRESS-TRANSPORT-043-FINDINGS.md), [research/SEVEN-FAMILY-REVIEW-046.md](../../research/SEVEN-FAMILY-REVIEW-046.md), [results/COMPRESS-TRANSPORT-043-ORIGINAL.json](../../results/COMPRESS-TRANSPORT-043-ORIGINAL.json).
+
+## LOG-0EBDC03044
+
+**MINIMUM-REPAIR-044 — exact multi-substitution distances**
+
+start: 2026-10-24T18:41:58.298226Z; end: 2026-10-24T18:41:58.732664Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC.
+
+Type: analytical constraints; finite K4 model tests. Outcome: 1536minimum profiles complete;no observed error or English plaintext identified
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T18:41:58.298226+00:00`; end: `2026-10-24T18:41:58.732664+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: 1536 minimum profiles complete; no observed error or English plaintext identified. General family limits remain explicit.
+- [Findings/protocol/control links](../../research/MINIMUM-REPAIR-044-FINDINGS.md); [original receipt](../../results/MINIMUM-REPAIR-044-ORIGINAL.json); [seven-family matrix](../../research/SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+Related files: [research/MINIMUM-REPAIR-044-FINDINGS.md](../../research/MINIMUM-REPAIR-044-FINDINGS.md), [research/SEVEN-FAMILY-REVIEW-046.md](../../research/SEVEN-FAMILY-REVIEW-046.md), [results/MINIMUM-REPAIR-044-ORIGINAL.json](../../results/MINIMUM-REPAIR-044-ORIGINAL.json).
+
+## LOG-FC810AFBC4
+
+**COVER-LANGUAGE-045 — non-veto language calibration and source-rule review**
+
+start: 2026-10-24T18:49:48.099574Z; end: 2026-10-24T18:50:32.936437Z; start: 2026-10-24T18:51:07.776485Z; end: 2026-10-24T18:51:07.777457Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC.
+
+Type: statistical diagnostic; synthetic validation. Outcome: K3retained;5of6plants rank first;2of7matched null maxima equal/exceed actual;no positive identification
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T18:49:48.099574+00:00`; end: `2026-10-24T18:50:32.936437+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: K3 retained; 5 of 6 plants rank first; 2 of 7 matched null maxima equal/exceed actual; no positive identification. General family limits remain explicit.
+- [Findings/protocol/control links](../../research/COVER-LANGUAGE-045-FINDINGS.md); [original receipt](../../results/COVER-LANGUAGE-045-ORIGINAL.json); [seven-family matrix](../../research/SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+- Separate [late 038 control](../../results/REVIEW-CONTROLS-045.json) and [memoryless length-changing spelling review](../../research/SPELLING-MORPHISM-REVIEW-045-FINDINGS.md) preserve original chronology; neither is a new ciphertext domain.
+
+Related files: [research/COVER-LANGUAGE-045-FINDINGS.md](../../research/COVER-LANGUAGE-045-FINDINGS.md), [research/SEVEN-FAMILY-REVIEW-046.md](../../research/SEVEN-FAMILY-REVIEW-046.md), [research/SPELLING-MORPHISM-REVIEW-045-FINDINGS.md](../../research/SPELLING-MORPHISM-REVIEW-045-FINDINGS.md), [results/COVER-LANGUAGE-045-ORIGINAL.json](../../results/COVER-LANGUAGE-045-ORIGINAL.json), [results/REVIEW-CONTROLS-045.json](../../results/REVIEW-CONTROLS-045.json).
+
+## LOG-7D6CAE81B9
+
+**REVIEW-CONTROLS-046 — explicit independent review corrections**
+
+start: 2026-10-24T18:55:29.101871Z; end: 2026-10-24T18:55:29.116792Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC.
+
+Type: regression and replication. Outcome: Active-root interruption, wrong-DST calculation and invalidflags pass; original runs unchanged
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T18:55:29.101871+00:00`; end: `2026-10-24T18:55:29.116792+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: Active-root interruption, wrong-DST calculation and invalidflags pass; original runs unchanged. General family limits remain explicit.
+- [Findings/protocol/control links](../../research/REVIEW-CONTROLS-046.md); [original receipt](../../results/REVIEW-CONTROLS-046.json); [seven-family matrix](../../research/SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+Related files: [research/REVIEW-CONTROLS-046.md](../../research/REVIEW-CONTROLS-046.md), [research/SEVEN-FAMILY-REVIEW-046.md](../../research/SEVEN-FAMILY-REVIEW-046.md), [results/REVIEW-CONTROLS-046.json](../../results/REVIEW-CONTROLS-046.json).

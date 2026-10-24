@@ -160,3 +160,7 @@ Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLEC
 ## Exact Site cylinder follow-through
 
 [Exact vertical Site model037](SITE-CYLINDER-037-FINDINGS.md) independently confirms default/invalid rays and729neighbors, exports all97default margins and tests physical-scale/pupil sensitivity. Preserve horizontal036 separately; no actual K4 or owner-source archive.
+
+## Seven-family local review
+
+[Seven-family review 038–046](SEVEN-FAMILY-REVIEW-046.md):34 subbranches, explicit surviving models and missing inputs; new results remain local.

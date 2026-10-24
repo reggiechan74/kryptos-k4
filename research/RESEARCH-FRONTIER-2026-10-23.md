@@ -1,6 +1,6 @@
 # K4 frontier: what can responsibly happen next
 
-Latest local validation: [exact vertical Site default037](SITE-CYLINDER-037-FINDINGS.md) closes the cross-model loop. Nominal97valid independently verified; physical-scale sensitivity remains, no full manual apparatus or K4 geometry key. [Readiness snapshot037](../results/FRONTIER-037.json).
+Latest local review: [seven-family34subbranch matrix](SEVEN-FAMILY-REVIEW-046.md) records scoped038–046outcomes, non-identifiable fits and source/resource gates. [Readiness046](../results/FRONTIER-046.json) authorizes no new K4domain. Published snapshot043924d retains prior032–037; new results remain local.
 
 Latest local update: [ideal cylindrical sampler036](CURVED-SAMPLER-036-FINDINGS.md) has54nominal keys, four utility cases failing tolerance panels and an open physical/source gate. Actual copper and the Site’s vertical-tableau model are distinct; no actual K4 fit. [Readiness snapshot036](../results/FRONTIER-036.json).
 

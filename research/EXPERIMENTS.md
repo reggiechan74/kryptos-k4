@@ -1131,3 +1131,76 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Actual copper and horizontal036 remain distinct. No Site source copied/edited/archived; read-only inspected math/data executed to snapshot factual outputs. No repository push, paid check or actual K4 candidate.
 
 - Final local aggregate validation: 665 tests pass on Python3.9/3.12; [UTC receipt/full logs](../results/SITE-CYLINDER-037-VALIDATION.json). Prior036 preserved, no actual K4 comparison or Source edit/archive/publication.
+
+## COVER-SELECTOR-038 — boundary-free selector follow-through
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T17:02:06.639063+00:00`; end: `2026-10-24T17:02:08.592232+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: 120 selector descriptions complete; 84 newstride descriptions, no outer cipher identified. General family limits remain explicit.
+- [Findings/protocol/control links](COVER-SELECTOR-038-FINDINGS.md); [original receipt](../results/COVER-SELECTOR-038-ORIGINAL.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+## CONTEXT-SPELLING-039 — reversible context prediction limits
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T17:05:27.894998+00:00`; end: `2026-10-24T17:05:27.957067+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: One-letter contexts fail; two-letter fits are underdetermined and predict no held-out mistake. General family limits remain explicit.
+- [Findings/protocol/control links](CONTEXT-SPELLING-039-FINDINGS.md); [original receipt](../results/CONTEXT-SPELLING-039-ORIGINAL.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+## PHYSICAL-IDENTIFIABILITY-040 — source ambiguity and scale
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T17:09:08.890519+00:00`; end: `2026-10-24T17:09:09.091089+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: Identical image pairs admit different physical sources; real reviewed pairs remain uncertified. General family limits remain explicit.
+- [Findings/protocol/control links](PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md); [original receipt](../results/PHYSICAL-IDENTIFIABILITY-040-ORIGINAL.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+## SIGABA-SUPPORT-SIGNATURE-041 — exact memoization without scaling gain
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T17:15:25.791070+00:00`; end: `2026-10-24T17:19:26.330832+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: Exact tiny sets pass; real synthetic prefixes have zero cache hits and remain unresolved. General family limits remain explicit.
+- [Findings/protocol/control links](SIGABA-SUPPORT-SIGNATURE-041-FINDINGS.md); [original receipt](../results/SIGABA-SUPPORT-SIGNATURE-041-SUMMARY.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+## CLOCK-CIVIL-042 — whole-year shared-phase interpretation
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T18:27:33.660889+00:00`; end: `2026-10-24T18:27:33.928489+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: Automatic civil-time interpretation fails; literal/standard-time/single-date models remain open. General family limits remain explicit.
+- [Findings/protocol/control links](CLOCK-CIVIL-042-FINDINGS.md); [original receipt](../results/CLOCK-CIVIL-042-ORIGINAL.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+## COMPRESS-TRANSPORT-043 — legacy compression with fixed transports
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T18:35:43.988050+00:00`; end: `2026-10-24T18:35:44.455127+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: All 8 fixed.Ztransports fail magic; other compressors/transports/layers remain untested. General family limits remain explicit.
+- [Findings/protocol/control links](COMPRESS-TRANSPORT-043-FINDINGS.md); [original receipt](../results/COMPRESS-TRANSPORT-043-ORIGINAL.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+## MINIMUM-REPAIR-044 — exact multi-substitution distances
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T18:41:58.298226+00:00`; end: `2026-10-24T18:41:58.732664+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: 1536 minimum profiles complete; no observed error or English plaintext identified. General family limits remain explicit.
+- [Findings/protocol/control links](MINIMUM-REPAIR-044-FINDINGS.md); [original receipt](../results/MINIMUM-REPAIR-044-ORIGINAL.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+
+## COVER-LANGUAGE-045 — non-veto language calibration and source-rule review
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T18:49:48.099574+00:00`; end: `2026-10-24T18:50:32.936437+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: K3 retained; 5 of 6 plants rank first; 2 of 7 matched null maxima equal/exceed actual; no positive identification. General family limits remain explicit.
+- [Findings/protocol/control links](COVER-LANGUAGE-045-FINDINGS.md); [original receipt](../results/COVER-LANGUAGE-045-ORIGINAL.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.
+- Separate [late 038 control](../results/REVIEW-CONTROLS-045.json) and [memoryless length-changing spelling review](SPELLING-MORPHISM-REVIEW-045-FINDINGS.md) preserve original chronology; neither is a new ciphertext domain.
+
+## REVIEW-CONTROLS-046 — explicit independent review corrections
+
+- Date: 2026-10-24 UTC.
+- Actual original calculation start: `2026-10-24T18:55:29.101871+00:00`; end: `2026-10-24T18:55:29.116792+00:00`. These are receipt values, not commit/publication times.
+- Scope/result: Active-root interruption, wrong-DST calculation and invalidflags pass; original runs unchanged. General family limits remain explicit.
+- [Findings/protocol/control links](REVIEW-CONTROLS-046.md); [original receipt](../results/REVIEW-CONTROLS-046.json); [seven-family matrix](SEVEN-FAMILY-REVIEW-046.md).
+- New results are local-only; no Site or canonical ciphertext change. Original/replay/control times are distinct.

@@ -1,0 +1,503 @@
+{
+  "id": "SEVEN-FAMILY-REVIEW-046",
+  "review_recorded_at_utc": "2026-10-24T19:00:57.010626+00:00",
+  "reviewed_local_commit": "0f04dd9e38f477192e36437f0994b4c6bf4e4222",
+  "published_snapshot": "043924da99362c67c99afb4b2866d996e0fabdf2",
+  "new_results_local_only": true,
+  "review_pass_complete": true,
+  "broad_families_exhausted": false,
+  "puzzle_solved": false,
+  "family_order": [
+    "Hidden cover message",
+    "Deliberate spelling transformation",
+    "Hand-operated physical transformation",
+    "Historical machine/manual cipher plus masking",
+    "Historical clock/direction key",
+    "Alternative symbol/language encoding",
+    "Classical and construction errors"
+  ],
+  "subbranches": [
+    {
+      "family": 1,
+      "id": "F1-COVER",
+      "branch": "Custom codewords and segmentation",
+      "status": "non-identifiable",
+      "coverage": "033/034 exact97letter cover constraints, ENE/EN boundary alternatives and finite corpus bank; no recovered cover.",
+      "missing_input": "Independent codebook/tokenization and actual first-stage plaintext.",
+      "next_discriminating_work": "Require complete cipher-derived cover before interpreting a corpus/word-cover feasibility construction.",
+      "evidence": [
+        "research/COVER-EXTRACTION-033-FINDINGS.md",
+        "research/COVER-PHRASE-034-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 1,
+      "id": "F1-SELECTOR",
+      "branch": "Fixed letter/stride selection and unknown length",
+      "status": "non-identifiable",
+      "coverage": "038 completes120boundary-free k1..4/N1..4 descriptions; no15letter assumption. Late changed-crib sensitivity now explicit.",
+      "missing_input": "Source-selected global readout, word boundaries and independent expected message.",
+      "next_discriminating_work": "New evidence must restrict a selector, rather than another arbitrary per-word choice.",
+      "evidence": [
+        "research/COVER-SELECTOR-038-FINDINGS.md",
+        "results/REVIEW-CONTROLS-045.json"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 1,
+      "id": "F1-LANGUAGE",
+      "branch": "Ordinary readable prose admission",
+      "status": "calibrated_not_decoded",
+      "coverage": "035strict vocabularies reject genuineK3. 045non-veto trigram score retains it;5/6plants rank first,2/7matched null maxima equal/exceed actual.",
+      "missing_input": "Reliable independent language/cover acceptance, with no known-crib score leakage.",
+      "next_discriminating_work": "A separately justified grammar/readability criterion needs broader unseen calibration; no English exclusion from current scores.",
+      "evidence": [
+        "research/PROSE-COVER-035-FINDINGS.md",
+        "research/COVER-LANGUAGE-045-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 1,
+      "id": "F1-OUTER",
+      "branch": "Historically plausible outer cipher",
+      "status": "model_blocked",
+      "coverage": "Complete prior105456lag27 descriptions replay exactly;045reweights the same space, not new key coverage.",
+      "missing_input": "Independently restricted outer method/key. Full-length free key gives26^73compatible pairs.",
+      "next_discriminating_work": "Use a source/invariant to select a restrictive first stage before more phrase generation.",
+      "evidence": [
+        "research/COVER-SELECTOR-038-FINDINGS.md",
+        "research/COVER-LANGUAGE-045-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 2,
+      "id": "F2-UNIFORM",
+      "branch": "Uniform and memoryless variable-length respelling",
+      "status": "scoped_negative",
+      "coverage": "032uniform rules fail; non-erasing global letter morphism reduces to those rules on equal-length streams. Erasing is not globally injective.",
+      "missing_input": "No missing input for the excluded memoryless class; context/framing changes the model.",
+      "next_discriminating_work": "Do not rescue it by dropping K3insertedE or treating a descriptive correction stream as a site detector.",
+      "evidence": [
+        "research/SPELLING-CORRECTION-032-FINDINGS.md",
+        "research/SPELLING-MORPHISM-REVIEW-045-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 2,
+      "id": "F2-CONTEXT",
+      "branch": "Local context-dependent reversible spelling",
+      "status": "non-identifiable",
+      "coverage": "039all one-letter-context maps fail;four two-letter-context descriptions fit with17942unfixed entries and no held-out mistake prediction.",
+      "missing_input": "Independent trigger/table or a new held-out anomaly.",
+      "next_discriminating_work": "Test predictions of a source-selected context rule; do not enlarge memory solely to fit known errors.",
+      "evidence": [
+        "research/CONTEXT-SPELLING-039-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 2,
+      "id": "F2-BOUNDARY",
+      "branch": "Boundary-aware and length-changing K3rules",
+      "status": "evidence_blocked",
+      "coverage": "K3A\u2192Eplus insertedE retained; intent unconfirmed. No creator-selected boundary/stencil/escape rule found.",
+      "missing_input": "Exact boundary trigger, framing/restricted domain and inverse.",
+      "next_discriminating_work": "Word/phrase codecs remain possible if independently specified; no arbitrary word exception or new source claim supplied.",
+      "evidence": [
+        "research/SPELLING-MORPHISM-REVIEW-045-FINDINGS.md",
+        "research/SPELLING-CORRECTION-032-SOURCES.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 2,
+      "id": "F2-STREAM",
+      "branch": "Correction stream as information/key",
+      "status": "model_blocked",
+      "coverage": "QU\u2192LOis descriptive; including uncertainK3also retains the insertedE. It does not select its own sites.",
+      "missing_input": "A rule locating errors and consuming all correction events.",
+      "next_discriminating_work": "Require global extraction/inverse/alignment before any derived-key trial.",
+      "evidence": [
+        "research/SPELLING-CORRECTION-032-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 3,
+      "id": "F3-PHOTO",
+      "branch": "Actual curved copper transmission/projection",
+      "status": "evidence_blocked",
+      "coverage": "029synthetic incidence diagnostic;040exact image ambiguity witnesses. Zero certified pairs in reviewed/transferred record, not an impossibility claim.",
+      "missing_input": "Independent non-K4aperture/spot identities and justified source/surface/receiver model.",
+      "next_discriminating_work": "Recover crop transform or annotate native public LOCpixels off-site; source images may still yield pairs.",
+      "evidence": [
+        "research/PROJECTION-CONCURRENCE-029-FINDINGS.md",
+        "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
+        "research/evidence/2026-10-24-projection-acquisition/README.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 3,
+      "id": "F3-MIRROR",
+      "branch": "Invented mirror versus actual surface viewing",
+      "status": "conditional_physics",
+      "coverage": "036horizontal and037Site vertical models generate nominal keys but selected stability panels fail; they are different apparatuses.",
+      "missing_input": "Historically/source-selected apparatus/key and measured bench behavior.",
+      "next_discriminating_work": "An off-site controlled replica or calibrated photograph can discriminate; no secret site survey is intrinsically required.",
+      "evidence": [
+        "research/CURVED-SAMPLER-036-FINDINGS.md",
+        "research/SITE-CYLINDER-037-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 3,
+      "id": "F3-BLUR",
+      "branch": "Finite light source and plate thickness",
+      "status": "conditional_physics",
+      "coverage": "Physical item2 finite-Sun blur and channel clipping bounds;040scale similarity qualifies fixed-mm robustness claims.",
+      "missing_input": "Emitter size/direction, actual heights and local channel contours.",
+      "next_discriminating_work": "Use those measured/source-supported inputs to predict held-out ordinary features before a decoder.",
+      "evidence": [
+        "research/PHYSICAL-SOLAR-002-FINDINGS.md",
+        "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 3,
+      "id": "F3-CONTOUR",
+      "branch": "Contours, occlusion and camera calibration",
+      "status": "evidence_blocked",
+      "coverage": "Existing partial rubbings/multiview calibration are real prior evidence;036caps and037hypothetical-card controls are idealized.",
+      "missing_input": "Unique source-point identities, two-face contours/local normals, camera/receiver uncertainty.",
+      "next_discriminating_work": "Test admissible model families against withheld non-K4features; do not promote a surrogate font or glyph centroid to a physical point.",
+      "evidence": [
+        "docs/scott-sun-geometry-audit-2026-10-22.md",
+        "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 3,
+      "id": "F3-MANUAL",
+      "branch": "Hand operation and off-site reproducibility",
+      "status": "evidence_blocked",
+      "coverage": "Nominal cell sampling validated; human-pupil/assembly limits explicitly finite. No physical manual replica tested.",
+      "missing_input": "An independently specified printable setup and measured eye/registration/readability tolerance.",
+      "next_discriminating_work": "A small off-site bench test is feasible; it needs physical evidence, not another tuned virtual pose.",
+      "evidence": [
+        "research/SITE-CYLINDER-037-FINDINGS.md",
+        "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 4,
+      "id": "F4-SIGABA-SOURCE",
+      "branch": "Authentic SIGABA conventions/wirings",
+      "status": "evidence_blocked",
+      "coverage": "Twelve simulator vectors/direct contact controls pass; historical wiring and creator initialization remain unproved.",
+      "missing_input": "Authentic/source-selected wiring/layout/setup for a K4claim.",
+      "next_discriminating_work": "Retain simulator scope; source evidence must precede historical attribution.",
+      "evidence": [
+        "research/SIGABA-CSP889-FINDINGS.md",
+        "research/SIGABA-REAL-ADAPTER-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 4,
+      "id": "F4-SIGABA-JOINT",
+      "branch": "Fully coupled unknown-state inference",
+      "status": "computationally_unresolved",
+      "coverage": "024/041complete tiny physical sets pass;041cache has zero hits in measured prefixes, no scaling gate or added union coverage.",
+      "missing_input": "Complete resource-feasible controller/map inference and independent real-size compatible-set validation.",
+      "next_discriminating_work": "A justified quotient/constraint representation must improve coverage under frozen fixtures; no arbitrary extra key slice.",
+      "evidence": [
+        "research/SIGABA-SUPPORT-SIGNATURE-041-FINDINGS.md",
+        "results/REVIEW-CONTROLS-046.json"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 4,
+      "id": "F4-STRIPS",
+      "branch": "M138A/strips plus masking",
+      "status": "evidence_blocked",
+      "coverage": "027authentic direct nonzero rule;044two self-encipherments demand at least2cipher substitutions in that direct model.",
+      "missing_input": "Exact issue/inventory/order/channel/offset policy and any masking operation.",
+      "next_discriminating_work": "No universal100strip inventory or untested outer mask is inferred; require full source-fixed procedure/vector.",
+      "evidence": [
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md",
+        "research/MINIMUM-REPAIR-044-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 4,
+      "id": "F4-PLETT",
+      "branch": "Distinct Plett/Wheatstone operation",
+      "status": "evidence_blocked",
+      "coverage": "Fixed-ring transition family excluded; historical REFERENCEvector independently replayed with source typo preserved.",
+      "missing_input": "A genuinely different hidden-move/state convention with primary instructions and external vector.",
+      "next_discriminating_work": "Another alphabet reversal is already covered; do not count it as distinct historical research.",
+      "evidence": [
+        "research/WHEATSTONE-TRANSITION-FINDINGS.md",
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 4,
+      "id": "F4-BOOK",
+      "branch": "Book/codebook and manual masking",
+      "status": "evidence_blocked",
+      "coverage": "Creator Carter/Schliemann context reviewed, but no K4source edition/extraction selected.",
+      "missing_input": "Exact edition/page order/lookup/normalization and reversible global alignment.",
+      "next_discriminating_work": "A creator-linked restrictive source is needed; an arbitrary book selected for a crib is not evidence.",
+      "evidence": [
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 4,
+      "id": "F4-SIGNS",
+      "branch": "Egyptian signs as a complete manual representation",
+      "status": "evidence_blocked",
+      "coverage": "Sign-list feasibility/source gates reviewed; vowels/multiconsonants/direction/ambiguity unresolved.",
+      "missing_input": "Exact source inventory, spelling reconstruction/framing and total English inverse.",
+      "next_discriminating_work": "Do not silently choose glyphs or restore vowels to force a known window.",
+      "evidence": [
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 5,
+      "id": "F5-VERSION",
+      "branch": "Historical city inventory and registration",
+      "status": "evidence_blocked",
+      "coverage": "Dated changes verified;023240registrations remain conditional. Only partial1989views are admitted.",
+      "missing_input": "Complete consumed1989cells/version and independently fixed spatial registration.",
+      "next_discriminating_work": "The thesis/construction/photo leads may resolve it off-site; no collage of snapshots.",
+      "evidence": [
+        "research/WORLD-CLOCK-003-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 5,
+      "id": "F5-PHASE",
+      "branch": "Shared phase versus civil/standard time",
+      "status": "scoped_negative",
+      "coverage": "042automatic date-correct civil interpretation fails across1989; fixed standard/single-date/literal displays survive.",
+      "missing_input": "Selected display interpretation and authenticated epoch if used.",
+      "next_discriminating_work": "The differing seasonal offsets do not select Sanborn dates or reject a literal clock key.",
+      "evidence": [
+        "research/CLOCK-CIVIL-042-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 5,
+      "id": "F5-KEY",
+      "branch": "City/hour/rank to reversible key",
+      "status": "model_blocked",
+      "coverage": "Bare24to26letter mapping is not injective; no source bridge/traversal selected.",
+      "missing_input": "Total symbol conversion, band/rank/correction rule and origin/direction.",
+      "next_discriminating_work": "Freeze an independently grounded bridge before any K4trial.",
+      "evidence": [
+        "research/WORLD-CLOCK-003-FINDINGS.md",
+        "research/LAMP-GREEK-025-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 5,
+      "id": "F5-DIRECTION",
+      "branch": "Compass, shadow and astronomy navigation",
+      "status": "evidence_blocked",
+      "coverage": "Physical item2 conditional ENEsolar reachability/opposite-shadow and ray-height bounds retained; engraved frames are not a survey.",
+      "missing_input": "True-north/needle/stone/receiver relation, date/time/horizon/source if needed.",
+      "next_discriminating_work": "These bounds do not exclude pool lamps/reflections; no geographic sightseeing or guessed angle key follows.",
+      "evidence": [
+        "research/PHYSICAL-SOLAR-002-FINDINGS.md",
+        "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 6,
+      "id": "F6-LAMPS",
+      "branch": "Lamp fields and Greek framing",
+      "status": "scoped_negative",
+      "coverage": "025three complete declared roles fail; source phase, weights and output support are explicit.",
+      "missing_input": "Independently selected alternative weights/timing/Greek numeral/bridge.",
+      "next_discriminating_work": "Mengenlehreuhr remains distinct from the authenticated Alexanderplatz clue.",
+      "evidence": [
+        "research/LAMP-GREEK-025-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 6,
+      "id": "F6-PHONETICS",
+      "branch": "IPA/phonetic and language rendering",
+      "status": "evidence_blocked",
+      "coverage": "Specific codecs/free maps/invariants tested; current proxies and026UTF8are not authenticated late1980sources.",
+      "missing_input": "Historical pronunciation/serialization plus a spelling inverse and global English-index alignment.",
+      "next_discriminating_work": "Lossy pronunciation or translation cannot simply inherit English crib coordinates.",
+      "evidence": [
+        "research/IPA-CODECS-INTEGRATION.md",
+        "research/TREE-GEOMETRY-IPA-026-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 6,
+      "id": "F6-SHAPES",
+      "branch": "Letter geometry and nonlinear numeric state",
+      "status": "scoped_negative",
+      "coverage": "Rank/base renaming and affine restrictions separated from026nonlinear35bit full-state finite mechanisms.",
+      "missing_input": "Source-selected glyph conventions and distinct state/seed rule outside tested scope.",
+      "next_discriminating_work": "No arbitrary geometry features tuned to ciphertext; old scalar proofs do not exclude all nonlinear state.",
+      "evidence": [
+        "research/ALPHABET-GEOMETRY-REPRESENTATION.md",
+        "research/RADIX-FEEDBACK-FINDINGS.md",
+        "research/TREE-GEOMETRY-IPA-026-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 6,
+      "id": "F6-TREES",
+      "branch": "Fixed and dynamically updated trees",
+      "status": "scoped_negative",
+      "coverage": "006fixed primitives fail even arbitrary island states;026small fixed splay family fails.",
+      "missing_input": "Independent topology/update/serialization not already covered.",
+      "next_discriminating_work": "These results do not exhaust every dynamic transducer; an arbitrary learned tree is unidentifiable.",
+      "evidence": [
+        "research/FEISTEL-TREE-EXTENSION-FINDINGS.md",
+        "research/TREE-GEOMETRY-IPA-026-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 6,
+      "id": "F6-COMPRESS",
+      "branch": "Historical compression",
+      "status": "scoped_negative",
+      "coverage": "043eight complete.Zradix transports fail magic;32plants and independent shortLZWcontrols pass.",
+      "missing_input": "A source-selected different compressor/framing/transport or cipher layer.",
+      "next_discriminating_work": "Header stripping or arbitrary alphabets are different models needing independent selection, not free repairs.",
+      "evidence": [
+        "research/COMPRESS-TRANSPORT-043-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 6,
+      "id": "F6-TRANSPORT",
+      "branch": "Custom A-Z and alternate scripts",
+      "status": "evidence_blocked",
+      "coverage": "001restricted sourcedGOST and stated support/length boundaries covered.",
+      "missing_input": "Exact total codec, framing, historical source/version and inverse.",
+      "next_discriminating_work": "Shavian/German/other symbols remain possible only with a specified reversible pipeline.",
+      "evidence": [
+        "research/LANGUAGE-FINDINGS.md",
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 7,
+      "id": "F7-CLASSICAL",
+      "branch": "Periodic and autokey constructions",
+      "status": "scoped_negative",
+      "coverage": "044all1536analytic repair profiles; short1..12 minima11/10/20, long-key zero-repair fits remain underdetermined.",
+      "missing_input": "Independent method/key restriction before another larger-key search.",
+      "next_discriminating_work": "Minimum distance is not evidence of an error or English text; preserve complete original no-error audit.",
+      "evidence": [
+        "research/AUTOKEY-CONSTRAINT-FINDINGS.md",
+        "research/MINIMUM-REPAIR-044-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 7,
+      "id": "F7-GROMARK",
+      "branch": "Gromark with arbitrary alphabets",
+      "status": "non-identifiable",
+      "coverage": "One fixed tuple admits complete alphabets;10conditional noncrib letters forced,63variable with witnesses.",
+      "missing_input": "Independent conflicting/confirming plaintext or source-selected alphabet/key.",
+      "next_discriminating_work": "Do not add model-forced letters as public cribs or infer every tuple is excluded.",
+      "evidence": [
+        "research/GROMARK-ALPHABET-FINDINGS.md",
+        "research/GROMARK-IDENTIFIABILITY-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 7,
+      "id": "F7-NONLINEAR",
+      "branch": "Nonlinear constructions",
+      "status": "non-identifiable",
+      "coverage": "Arbitrary-function three-round fits have multiple full plaintext witnesses; specific simpler domains rejected.",
+      "missing_input": "Independent restriction or unseen validation beyond public cribs.",
+      "next_discriminating_work": "Another fitted round/free repair increases freedom rather than supplying evidence.",
+      "evidence": [
+        "research/FEISTEL-TREE-EXTENSION-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 7,
+      "id": "F7-CIPHER-ERROR",
+      "branch": "Multiple ciphertext errors and alignment",
+      "status": "partially_tested",
+      "coverage": "028single-edit complete5071arm;044minimum substitution sets exact without changing canonical data.",
+      "missing_input": "Evidence/type for multiple length-changing edits and one global alignment map.",
+      "next_discriminating_work": "Do not apply substitution lower bounds to insertions/deletions; no observed K4discrepancy was established.",
+      "evidence": [
+        "research/ONE-EDIT-028-FINDINGS.md",
+        "research/MINIMUM-REPAIR-044-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    },
+    {
+      "family": 7,
+      "id": "F7-WORKSHEET",
+      "branch": "Key/worksheet/construction errors",
+      "status": "model_blocked",
+      "coverage": "Error location cannot be inferred when the original recipe/key/worksheet is unspecified.",
+      "missing_input": "Actual worksheet/source artifact or independently fixed production method/key.",
+      "next_discriminating_work": "Specify a falsifiable error channel before enumerating arbitrary multiple errors.",
+      "evidence": [
+        "research/MINIMUM-REPAIR-044-FINDINGS.md"
+      ],
+      "whole_family_excluded": false
+    }
+  ],
+  "review_corrections": [
+    "038explicit changed-crib late supplement",
+    "040zero pairs qualified to reviewed/transferred record, off-site routes retained",
+    "041active-root interruption caches no partial result",
+    "042wrong shared-DST model implemented independently",
+    "043valid magic with invalid flags tested",
+    "045non-veto language calibration retainsK3but5/6plant maximum recovery"
+  ],
+  "not_claimed": [
+    "all ciphers in any broad family excluded",
+    "source gaps are permanently unresolvable",
+    "a compatible/maximum-score plaintext is independently confirmed",
+    "all missing physical evidence requires onsite access"
+  ]
+}

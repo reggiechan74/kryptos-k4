@@ -682,6 +682,86 @@
       ],
       "outcome": "Default97valid confirmed;all11selected assembly cases fail atboth scales; some tiny-pupil subsets pass, no full manual validation or actual K4",
       "basis": "Pinned source read-only numeric snapshot, independent71198sample replay,729neighbors,all3564sensitivity outputs,full tolerant cross-version comparison and whole-process streaming measurement"
+    },
+    "LOG-958B11958D": {
+      "title": "COVER-SELECTOR-038 — boundary-free selector follow-through",
+      "categories": [
+        "analytical constraints",
+        "synthetic validation"
+      ],
+      "outcome": "120selector descriptions complete;84newstride descriptions, no outer cipher identified",
+      "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
+    },
+    "LOG-0BD1D35E69": {
+      "title": "CONTEXT-SPELLING-039 — reversible context prediction limits",
+      "categories": [
+        "analytical constraints",
+        "synthetic validation"
+      ],
+      "outcome": "One-letter contexts fail;two-letter fits are underdetermined and predict no held-out mistake",
+      "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
+    },
+    "LOG-EECF3F88C3": {
+      "title": "PHYSICAL-IDENTIFIABILITY-040 — source ambiguity and scale",
+      "categories": [
+        "analytical constraints",
+        "synthetic validation"
+      ],
+      "outcome": "Identical image pairs admit different physical sources; real reviewed pairs remain uncertified",
+      "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
+    },
+    "LOG-B657ACC6D6": {
+      "title": "SIGABA-SUPPORT-SIGNATURE-041 — exact memoization without scaling gain",
+      "categories": [
+        "synthetic solver engineering",
+        "resource benchmark"
+      ],
+      "outcome": "Exact tiny sets pass;real synthetic prefixes have zero cache hits and remain unresolved",
+      "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
+    },
+    "LOG-4AEC06FD9C": {
+      "title": "CLOCK-CIVIL-042 — whole-year shared-phase interpretation",
+      "categories": [
+        "analytical constraints",
+        "source research"
+      ],
+      "outcome": "Automatic civil-time interpretation fails;literal/standard-time/single-date models remain open",
+      "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
+    },
+    "LOG-7FA3D57DFA": {
+      "title": "COMPRESS-TRANSPORT-043 — legacy compression with fixed transports",
+      "categories": [
+        "finite K4 model tests",
+        "representation validation"
+      ],
+      "outcome": "All8fixed.Ztransports fail magic;other compressors/transports/layers remain untested",
+      "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
+    },
+    "LOG-0EBDC03044": {
+      "title": "MINIMUM-REPAIR-044 — exact multi-substitution distances",
+      "categories": [
+        "analytical constraints",
+        "finite K4 model tests"
+      ],
+      "outcome": "1536minimum profiles complete;no observed error or English plaintext identified",
+      "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
+    },
+    "LOG-FC810AFBC4": {
+      "title": "COVER-LANGUAGE-045 — non-veto language calibration and source-rule review",
+      "categories": [
+        "statistical diagnostic",
+        "synthetic validation"
+      ],
+      "outcome": "K3retained;5of6plants rank first;2of7matched null maxima equal/exceed actual;no positive identification",
+      "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
+    },
+    "LOG-7D6CAE81B9": {
+      "title": "REVIEW-CONTROLS-046 — explicit independent review corrections",
+      "categories": [
+        "regression and replication"
+      ],
+      "outcome": "Active-root interruption, wrong-DST calculation and invalidflags pass; original runs unchanged",
+      "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
     }
   }
 }

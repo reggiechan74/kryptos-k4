@@ -117,3 +117,7 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Exact Site cylinder follow-through
 
 [Summary037](SITE-CYLINDER-037-SUMMARY.json), [all default margins](SITE-CYLINDER-037-DEFAULT-MARGINS.csv), full numeric source/original/replay archives and whole-process resource receipt preserve exact Source validation without bundling Site program code. Nominal validity and tiny-pupil subset passes do not prove manual robustness. [Interpretation](../research/SITE-CYLINDER-037-FINDINGS.md).
+
+## Seven-family local review
+
+New local 038–046 receipts preserve exact UTC original/replay times. [Coverage matrix](../research/SEVEN-FAMILY-REVIEW-046.md) maps them to narrow results and open gates; 044 profiles are counterfactual minimum sets, 045 maxima are not confirmed decryptions, and 046 controls are late supplements.

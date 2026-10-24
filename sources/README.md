@@ -125,3 +125,7 @@ See the [project overview](../README.md), [hypothesis tracker](../docs/tracking/
 [Item 2 physical source receipt](physical-solar-002/README.md) records formula sources and the privately inspected LOC asset hash, without rehosting imagery.
 
 [Item 3 World Clock source-local review](world-clock-003/README.md) distinguishes dated revisions, target-year fragments and undated removed artifacts.
+
+## Seven-family local review
+
+`CLOCK-CIVIL-042.json` pins IANA rule facts and the small OS timezone fixtures for an interpretation test. It is not primary civil-law certification or actual clock survey data.

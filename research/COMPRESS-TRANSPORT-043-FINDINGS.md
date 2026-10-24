@@ -20,3 +20,5 @@ All32mutated-header and four positional-leading-zero controls reject as specifie
 - [Language/script001](LANGUAGE-FINDINGS.md): restricted sourced GOST and stated support/length arguments apply only to those transports. Shavian, translation and other custom A–Z transports remain uninstantiated, not disproved.
 
 **Completion boundary:** the declared.Zarm is rejected, while other custom codecs/transport/framing or cipher layers remain evidence/model-blocked. No historically selected source alphabet, compressor or serialization is inferred merely from97letters. No plaintext, Site change, paid submission, unrelated search or public push follows. UTC original and replay times remain separate.
+
+A [separate late reviewer-control receipt](REVIEW-CONTROLS-046.md) strengthens active-calculation interruption, explicit wrong-DST and invalid-flag checks without changing this original model, source, receipt or large-run outcome.

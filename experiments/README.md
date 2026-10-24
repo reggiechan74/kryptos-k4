@@ -195,3 +195,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Exact Site cylinder follow-through
 
 `site_cylinder_validation.py` independently replays the exact vertical apparatus; `run_site_cylinder_validation.py` runs the frozen neighborhood/stability panels. `snapshot_site_cylinder037.mjs` reads separately inspected pinned local Site math read-only. `replay_site_cylinder037_stream.py` changes output IO only; `compare_site_cylinder037.py` verifies every discrete value and float; `export_site_cylinder037.py` preserves full data and per-cell CSV. [Scope](../research/SITE-CYLINDER-037-FINDINGS.md).
+
+## Seven-family local review
+
+Local review 038–046 adds cover_selector_038, context_spelling_039, physical_identifiability_040, sigaba_support_signature_041, clock_civil_042, compress_transport_043, minimum_repair_044, cover_language_045 and late reviewer controls. Follow their linked frozen specs in the [coverage matrix](../research/SEVEN-FAMILY-REVIEW-046.md); scripts have different roles and are not an interchangeable search launcher.
