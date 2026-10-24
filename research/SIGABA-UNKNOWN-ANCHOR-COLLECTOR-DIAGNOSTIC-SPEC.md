@@ -1,0 +1,7 @@
+# COUPLED-024 diagnostic and supplementary validation
+
+24 October 2026, after the four original matched runs. Preserve their receipts unchanged. Both integrated processes hit the 65-second watchdog before emitting native counts or RSS; their internal coverage is unknown, not zero. This is a separately labelled diagnostic, not an extended search budget or replacement benchmark.
+
+One instrumented replay uses unchanged fixture 0, all original starts/maps, 60-second native budget and 65-second watchdog. Record a checkpoint before/after each torus translation and predicate build, plus a Python stack dump at 55 seconds. Instrumented timings are not comparable performance measurements. No larger budget, added observation or chosen key slice. If the interrupted operation cannot be identified, retain that uncertainty.
+
+Supplementary correctness runs after timed comparisons: q=2 with pulse subset [0], q=3 with subsets [0] and [0,1], r=3, variants 0/1, short/long observation masks (12 additional complete tiny configurations). These deliberately vary collector inputs; the original full-contact tiny fixtures often keep them constant. Compare the full enabled/disabled/independent raw-key relation and independently reconstruct controller digit sets. Preserve original controls and honestly label this post-benchmark validation. No change to the production cipher model, actual benchmark fixtures or pruning rules follows merely from those new controls.
