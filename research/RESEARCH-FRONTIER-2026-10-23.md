@@ -1,5 +1,7 @@
 # K4 frontier: what can responsibly happen next
 
+Latest local update: [ideal cylindrical sampler036](CURVED-SAMPLER-036-FINDINGS.md) has54nominal keys, four utility cases failing tolerance panels and an open physical/source gate. Actual copper and the Site’s vertical-tableau model are distinct; no actual K4 fit. [Readiness snapshot036](../results/FRONTIER-036.json).
+
 Latest local update: [ordinary prose cover study035](PROSE-COVER-035-FINDINGS.md) derives lengths without forced boundaries and exhausts the minimum-compatible lag27 cipher slice. Zero lexical survivors is vocabulary-conditioned; K3 calibration fails too. General extraction remains non-identifiable. [Readiness snapshot035](../results/FRONTIER-035.json) itself performs no cipher evaluation.
 
 Latest local update: [word-cover constraints](COVER-EXTRACTION-033-FINDINGS.md) and [short-phrase corpus study](COVER-PHRASE-034-FINDINGS.md) are complete. General extraction remains non-identifiable pending independent codebook/outer cipher; [snapshot034](../results/FRONTIER-034.json). No actual K4 trial or publication.

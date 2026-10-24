@@ -1,0 +1,14 @@
+{
+  "kind": "Pre-table-scoring independent complete frozen optical panel ray validation",
+  "started_at_utc": "2026-10-24T15:02:30.809205+00:00",
+  "finished_at_utc": "2026-10-24T15:02:31.272280+00:00",
+  "elapsed_seconds": 0.46301045900000004,
+  "rays": 54320,
+  "maximum_absolute_coordinate_error": 1.1546319456101628e-14,
+  "all_statuses_equal": true,
+  "table_keys_not_evaluated": true,
+  "preliminary_control_corrections": [
+    "Cap test vector initially hit rim; corrected fixture before sweep.",
+    "Zero-pupil comparison uses declared1e-9 float tolerance rather than dict bit equality."
+  ]
+}

@@ -6,7 +6,9 @@ This repository records an attempt to understand **K4, the final 97-letter secti
 
 **New physical diagnostic:** [projection-ray concurrence](research/PROJECTION-CONCURRENCE-029-FINDINGS.md) is now synthetic-validated and preregistered for independent photo correspondences. Real-data fitting remains evidence-blocked; no measured monument result is claimed.
 
-**Latest local investigation:** [ordinary prose covers without a 15-word assumption](research/PROSE-COVER-035-FINDINGS.md) derives length from full word lattices. A complete 105,456-setting autokey domain produced no covers in the tested lexicons; calibration also exposes missing genuine English words. The broader hypothesis remains open. No push or Site change.
+**Latest local investigation:** [ideal curved-mirror sampler](research/CURVED-SAMPLER-036-FINDINGS.md) generates 54 nominal keys; the four utility cases tested fail assembly/pupil stability. This invented horizontal-table model is separate from actual copper and the Site’s vertical-tableau illustration. No K4 fit or physical replica.
+
+**Prior local investigation:** [ordinary prose covers without a 15-word assumption](research/PROSE-COVER-035-FINDINGS.md) derives length from full word lattices. A complete 105,456-setting autokey domain produced no covers in the tested lexicons; calibration also exposes missing genuine English words. The broader hypothesis remains open. No push or Site change.
 
 **Earlier local investigations awaiting publication:** [word-cover extraction](research/COVER-EXTRACTION-033-FINDINGS.md) and [short-phrase controls](research/COVER-PHRASE-034-FINDINGS.md) are complete. Custom covers remain non-identifiable; no all-word initials phrase matched the frozen Brown corpus. No actual K4 cipher trials.
 
@@ -20,9 +22,9 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 
 | If you want to… | Read |
 | --- | --- |
-| Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 62 stable family IDs, linked to exact coverage |
+| Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 63 stable family IDs, linked to exact coverage |
 | Find an experiment, its date, result, code and receipts | [Experiment tracker](docs/tracking/EXPERIMENTS.md) and [recorded run receipts](docs/tracking/RECEIPTS.md) |
-| See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-035.json) |
+| See the current obstacles and next discriminating work | [Research frontier](research/RESEARCH-FRONTIER-2026-10-23.md) and [machine-readable readiness assessment](results/FRONTIER-036.json) |
 | Explore item 1’s systematic row-plus-column scan | [Findings](research/FOLD-SLIDE-2D-FINDINGS.md), [every 2D shift](results/FOLD-SLIDE-2D-001-frames.csv), [count maps](research/figures/fold-slide-2d-001.svg); the [earlier offline slider](research/figures/fold-slide-020.html) is column-only |
 | Compare all eight scopes and outcomes | [Eight-item summary](research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md) — complete investigation does not mean a solved or exhausted family |
 | Inspect the final one-edit robustness study | [Exact counts, ambiguity and controls](research/ONE-EDIT-028-FINDINGS.md); canonical ciphertext is unchanged |

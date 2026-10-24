@@ -1,0 +1,62 @@
+{
+  "kind": "Completed local synthetic ideal-cylinder feasibility and finite stability validation; real/source geometry gate open",
+  "recorded_at_utc": "2026-10-24T15:18:18.850433+00:00",
+  "regressions": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T15:15:20.684312+00:00",
+      "finished_at_utc": "2026-10-24T15:16:28.749293+00:00",
+      "elapsed_seconds": 68.06448633400001,
+      "exit_code": 0,
+      "log": "results/CURVED-SAMPLER-036-python39.log.txt",
+      "tests": 651,
+      "log_sha256": "45c2b9bc6d784237f3d8108e7391c53d59ee35a55461487153ea30a0a19692e1"
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T15:16:28.749561+00:00",
+      "finished_at_utc": "2026-10-24T15:17:24.133389+00:00",
+      "elapsed_seconds": 55.383482125,
+      "exit_code": 0,
+      "log": "results/CURVED-SAMPLER-036-python312.log.txt",
+      "tests": 651,
+      "log_sha256": "56324213a1f85fa3feb7a0060e997ef2307e4fc191366dc4cda3c11f62635a40"
+    }
+  ],
+  "source_sha256": {
+    "research/CURVED-SAMPLER-036-SPEC.md": "3b82f90bef54b6399d1dc57835c1309d3d397ecc947e95b5e9b6a2c5a084664b",
+    "research/CURVED-SAMPLER-036-FINDINGS.md": "2122829be46dd1c8f385a62b991860bd077a0887c34e388ab445782e2ad5c6fd",
+    "research/CURVED-SAMPLER-036-API.md": "220c9bcee108e7a383b49c30a58b76d9de8e5b8264ce2a276d9d6c2094891a04",
+    "experiments/curved_sampler.py": "90bc4e8bf5f93b8546ff222652ce2aa4c844eb23654f85e2137cef06489f334a",
+    "experiments/curved_sampler_reference.py": "f4bf88cbc64013f4f5dc20dd5a018f3b8b6bb339d0c4fb31b0654475fffc4dee",
+    "experiments/run_curved_sampler.py": "1fd309f6a27ccc805b0e9c7d65a9aa5148fe065d1c1a851521ae30c909d0233b",
+    "experiments/audit_curved_sampler.py": "9b9ddc6319ef824d6fff4d5dd507e7624e30bd05ecf13c19c46a32747e8718ee",
+    "experiments/compare_curved_sampler.py": "ef1c2889ab15b132c2de8c45b7fab14198f3ba7e13d6cf025243c717c724c92c",
+    "experiments/export_curved_sampler_fixtures.py": "9cc273c7e03a4152ba063e8a9c4dfa65552ad83fef6a40ab7e9c888c828debb3",
+    "results/CURVED-SAMPLER-036-SUMMARY.json": "40b0d7db1e329c8fbd3abf0a4fd08bfc326e623f46f4ab528929389b84d9dbc2",
+    "results/CURVED-SAMPLER-036-SITE-FIXTURES.json": "60ca1c8e71a74cf1ae28507a761499eedb3b1b37ff0739a5011dd7fd7d502592",
+    "results/CURVED-SAMPLER-036-SITE-CONTRACT-COMPARISON.json": "96fe4c38452e17c8ef3bebfd8f4138757a729918f69b09847daffd4822458586"
+  },
+  "actual_K4_evaluations": 0,
+  "nominal_complete97_poses": 54,
+  "utility_poses_stability_tested": 4,
+  "utility_stability_passes": 0,
+  "other_complete_nominal_stability_untested": 50,
+  "synthetic_supplied_key_panel_recovery": "4of4; first13known letters leave2classes,11held-out retain1",
+  "physical_replica": false,
+  "physical_manual_feasibility_demonstrated": false,
+  "Site_contract_equivalent_to_research": false,
+  "Site_edited_by_this_task": false,
+  "Site_source_archived_by_this_task": false,
+  "publication_authorized": false,
+  "push_attempted": false,
+  "canonical_k4_unchanged": true,
+  "unrelated_untracked_preserved": 210,
+  "limitations": [
+    "Finite stability panels are not continuous certificates",
+    "Utility threshold is an engineering assumption, not a necessary cipher property",
+    "Site vertical-tableau model is distinct",
+    "No independent actual K4 geometry/key clue",
+    "Centre-cell and ideal rays do not establish glyph recognition/reflectance/eye optics"
+  ]
+}

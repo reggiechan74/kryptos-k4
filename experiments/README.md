@@ -187,3 +187,7 @@ Use `RunSnapshot` for new immutable runs and declare `execution_kind` as `origin
 ## Ordinary prose cover follow-up
 
 `prose_cover.py` and `run_prose_cover.py` implement exact lexical paths/lag27 domains; `audit_prose_cover.py` independently replays complete actual plaintext sets and word-break decisions. [Finite scope and replay](../research/PROSE-COVER-035-FINDINGS.md).
+
+## Curved optical sampler
+
+`curved_sampler.py` / `curved_sampler_reference.py` implement the invented ideal mirror and independent rays. `run_curved_sampler.py` executes the frozen synthetic panel; `audit_curved_sampler.py` independently checks every cell; `compare_curved_sampler.py` compares full cross-version results; `export_curved_sampler_fixtures.py` exports nominal/failure cases. [Scope/API](../research/CURVED-SAMPLER-036-API.md).

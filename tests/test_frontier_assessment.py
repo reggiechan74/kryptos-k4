@@ -6,10 +6,10 @@ import exclusion_scope_audit as audit
 
 class FrontierAssessmentTests(unittest.TestCase):
     def test_all_current_entries_are_reviewed_without_new_search(self):
-        saved=json.loads((ROOT/'results/FRONTIER-035.json').read_text());self.assertEqual(frontier.assess(),saved)
-        self.assertEqual(saved['registered_entries'],62);self.assertEqual(len({r['id'] for r in saved['entries']}),62)
+        saved=json.loads((ROOT/'results/FRONTIER-036.json').read_text());self.assertEqual(frontier.assess(),saved)
+        self.assertEqual(saved['registered_entries'],63);self.assertEqual(len({r['id'] for r in saved['entries']}),63)
         self.assertEqual(saved['new_K4_evaluations'],0);self.assertEqual(saved['replay_commands_executed'],0);self.assertEqual(saved['ready_new_K4_experiments'],0);self.assertFalse(saved['puzzle_solved'])
-        self.assertTrue(all(not r['ready_for_new_K4_evaluation'] for r in saved['entries']));self.assertEqual(len(saved['frontier_gates']),11)
+        self.assertTrue(all(not r['ready_for_new_K4_evaluation'] for r in saved['entries']));self.assertEqual(len(saved['frontier_gates']),12)
     def test_a_new_gate_requires_actual_review_not_a_ready_flag(self):
         original=json.loads(frontier.SPEC.read_text());entries=frontier.canonical((ROOT/'research/HYPOTHESES.md').read_text())
         for mutation in ('ready','missing','unknown','executable','duplicate'):
@@ -21,7 +21,7 @@ class FrontierAssessmentTests(unittest.TestCase):
             else:spec['gates'].append(copy.deepcopy(spec['gates'][0]))
             with self.assertRaises(ValueError):frontier.assess(spec,entries)
     def test_register_parser_rejects_duplicate_or_incomplete_entries(self):
-        text=(ROOT/'research/HYPOTHESES.md').read_text();self.assertEqual(len(frontier.canonical(text)),62)
+        text=(ROOT/'research/HYPOTHESES.md').read_text();self.assertEqual(len(frontier.canonical(text)),63)
         with self.assertRaises(ValueError):frontier.canonical(text.replace('### H-COMPASS-FRAMES','### H-COMPASS-REVERSE',1))
         with self.assertRaises(ValueError):frontier.canonical(text.replace('- Status: evidence-blocked','- Unknown: evidence-blocked',1))
     def test_cli_only_reproduces_readiness_and_current_scope_is_pinned(self):
@@ -188,4 +188,11 @@ class FrontierAssessmentTests(unittest.TestCase):
         old=json.loads((ROOT/'results/FRONTIER-034.json').read_text())
         for path,sha in old['source_sha256'].items():
             raw=subprocess.check_output(['git','show','9d6db4cc4384dcad9c3e67589b32f08a07e60db1:'+path],cwd=ROOT)
+            self.assertEqual(hashlib.sha256(raw).hexdigest(),sha)
+
+    def test_prose_frontier_retains_historical_sources(self):
+        import hashlib
+        old=json.loads((ROOT/'results/FRONTIER-035.json').read_text())
+        for path,sha in old['source_sha256'].items():
+            raw=subprocess.check_output(['git','show','817566c6ef416b8c781e90dd6de51d59be9b53b2:'+path],cwd=ROOT)
             self.assertEqual(hashlib.sha256(raw).hexdigest(),sha)

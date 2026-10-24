@@ -85,6 +85,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 | [H-RADIX-FEEDBACK](#h-radix-feedback) | analytical exclusion | Changing-base geometric codes enter a fixed affine key recurrence. |
 | [H-ONE-EDIT](#h-one-edit) | non-identifiable | A bounded construction-error sensitivity arm. |
 | [H-ARCHITECTURE-DIAGNOSIS](#h-architecture-diagnosis) | non-identifiable | Classify architecture from fixed short-text features. |
+| [H-CYLINDRICAL-MIRROR-SAMPLER](#h-cylindrical-mirror-sampler) | evidence-blocked | An invented globally registered cylindrical mirror samples tableau cells to form a key. |
 | [H-WORD-COVER-EXTRACTION](#h-word-cover-extraction) | non-identifiable | Decode complete word covers, then extract one fixed letter from each selected word. |
 | [H-DELIBERATE-SPELLING](#h-deliberate-spelling) | evidence-blocked | A consistent deliberate respelling or correction stream supplies transformation information. |
 
@@ -831,6 +832,18 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Next discriminating test: Freeze those choices independently, recover a complete cover from ciphertext, replay all 97 letters and assess extracted output with whole-pipeline controls excluding forced clue material.
 - Dependencies: Canonical English positions22..34 and64..74 remain unchanged; output word spaces are separate, ENE/EN segmentation explicit, global word phase continuous, selected short words fail rather than skip.
 - Results: [Length-free ordinary-prose/cipher-facing study](PROSE-COVER-035-FINDINGS.md), [Core findings](COVER-EXTRACTION-033-FINDINGS.md), [short-phrase study](COVER-PHRASE-034-FINDINGS.md), [sources](COVER-033-034-SOURCES.md), [core receipt](../results/COVER-EXTRACTION-033-ORIGINAL.json), [corpus receipt](../results/COVER-PHRASE-034-original-summary.json). General family remains non-identifiable, with no recovered key or plaintext.
+
+### H-CYLINDRICAL-MIRROR-SAMPLER
+
+- Status: evidence-blocked
+- Mechanism: Eight global ideal-cylinder/eye/reticle/table parameters select 97 public-tableau cell labels, followed by ordinary reversible keyed arithmetic; actual curved-copper viewing is a separate mechanism.
+- Evidence: User's artistic/manual-process proposal and actual monument curvature motivate exploration, not a historical mirror/geometry key. Classical reflection predates Kryptos; no AI guarantee or creator attribution follows.
+- Tested scope: CURVED-SAMPLER-036 synthetic horizontal-table model: 560 optical settings, 45,252 global table poses, 54 nominal complete keys; four utility-gate poses fail declared assembly and both pupil panels. All 54,320 rays and 4,389,444 cell decisions independently replay. Four-key synthetic panel plants recover with held-out letters; 31 matched nulls complete. Zero actual K4 evaluations.
+- Untested scope: Stability of 50 other complete lower-density poses, continuous geometry outside the finite panel, physical replicas/real glyph recognition, actual copper reflectance/contours, and the Site's different vertical-tableau model. Failures do not exclude all optical mechanisms.
+- Missing inputs: Source-selected apparatus/reticle/alignment/key rule, demonstrated bench stability/readability and an independently justified actual K4 geometry domain. The monument is not established as this ideal polished cylinder.
+- Next discriminating test: Freeze a source-supported visual assembly or controlled physical replica with uncertainty/occlusion/readability and held-out observations; do not fit97 positions or add arbitrary geometry after English-looking outcomes.
+- Dependencies: Same public transcript cells and fixed 4/31/31/31 reticle, no per-point adjustment; keep symbolic cell identity separate from measured apertures, mirror imagery and transmitted light. Point-eye/pupil assumptions and parameter registration must be explicit.
+- Results: [Findings](CURVED-SAMPLER-036-FINDINGS.md), [API/model distinction](CURVED-SAMPLER-036-API.md), [complete summary](../results/CURVED-SAMPLER-036-SUMMARY.json), [nominal and failure fixtures](../results/CURVED-SAMPLER-036-SITE-FIXTURES.json). Nominal feasibility is not a robust manual device, physical monument result or recovered K4 key.
 
 <!-- CURRENT-REGISTER:END -->
 

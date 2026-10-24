@@ -109,3 +109,7 @@ Item 4 retains [original unknown-anchor comparison](sigaba-unknown-anchor-024/RE
 ## Ordinary prose cover follow-up
 
 [Original035](PROSE-COVER-035-ORIGINAL.json), [independent full-domain audit](PROSE-COVER-035-INDEPENDENT-AUDIT.json) and [Python3.12 comparison](PROSE-COVER-035-PY312-COMPARISON.json): complete finite results, controls and calibration, no broad English/extraction exclusion or publication.
+
+## Curved optical sampler
+
+[Summary036](CURVED-SAMPLER-036-SUMMARY.json), full lossless original/replay and pose archives, independent ray/cell audits and nominal/failure Site fixtures preserve every finite outcome. Four tested utility cases fail stability;50other nominal cases remain untested for robustness. [Interpretation](../research/CURVED-SAMPLER-036-FINDINGS.md). No actual K4 evaluation or Site edit by this task.

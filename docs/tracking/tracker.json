@@ -747,6 +747,18 @@
       "Next discriminating test": "Freeze those choices independently, recover a complete cover from ciphertext, replay all 97 letters and assess extracted output with whole-pipeline controls excluding forced clue material.",
       "Dependencies": "Canonical English positions22..34 and64..74 remain unchanged; output word spaces are separate, ENE/EN segmentation explicit, global word phase continuous, selected short words fail rather than skip.",
       "Results": "[Length-free ordinary-prose/cipher-facing study](PROSE-COVER-035-FINDINGS.md), [Core findings](COVER-EXTRACTION-033-FINDINGS.md), [short-phrase study](COVER-PHRASE-034-FINDINGS.md), [sources](COVER-033-034-SOURCES.md), [core receipt](../results/COVER-EXTRACTION-033-ORIGINAL.json), [corpus receipt](../results/COVER-PHRASE-034-original-summary.json). General family remains non-identifiable, with no recovered key or plaintext."
+    },
+    {
+      "id": "H-CYLINDRICAL-MIRROR-SAMPLER",
+      "Status": "evidence-blocked",
+      "Mechanism": "Eight global ideal-cylinder/eye/reticle/table parameters select 97 public-tableau cell labels, followed by ordinary reversible keyed arithmetic; actual curved-copper viewing is a separate mechanism.",
+      "Evidence": "User's artistic/manual-process proposal and actual monument curvature motivate exploration, not a historical mirror/geometry key. Classical reflection predates Kryptos; no AI guarantee or creator attribution follows.",
+      "Tested scope": "CURVED-SAMPLER-036 synthetic horizontal-table model: 560 optical settings, 45,252 global table poses, 54 nominal complete keys; four utility-gate poses fail declared assembly and both pupil panels. All 54,320 rays and 4,389,444 cell decisions independently replay. Four-key synthetic panel plants recover with held-out letters; 31 matched nulls complete. Zero actual K4 evaluations.",
+      "Untested scope": "Stability of 50 other complete lower-density poses, continuous geometry outside the finite panel, physical replicas/real glyph recognition, actual copper reflectance/contours, and the Site's different vertical-tableau model. Failures do not exclude all optical mechanisms.",
+      "Missing inputs": "Source-selected apparatus/reticle/alignment/key rule, demonstrated bench stability/readability and an independently justified actual K4 geometry domain. The monument is not established as this ideal polished cylinder.",
+      "Next discriminating test": "Freeze a source-supported visual assembly or controlled physical replica with uncertainty/occlusion/readability and held-out observations; do not fit97 positions or add arbitrary geometry after English-looking outcomes.",
+      "Dependencies": "Same public transcript cells and fixed 4/31/31/31 reticle, no per-point adjustment; keep symbolic cell identity separate from measured apertures, mirror imagery and transmitted light. Point-eye/pupil assumptions and parameter registration must be explicit.",
+      "Results": "[Findings](CURVED-SAMPLER-036-FINDINGS.md), [API/model distinction](CURVED-SAMPLER-036-API.md), [complete summary](../results/CURVED-SAMPLER-036-SUMMARY.json), [nominal and failure fixtures](../results/CURVED-SAMPLER-036-SITE-FIXTURES.json). Nominal feasibility is not a robust manual device, physical monument result or recovered K4 key."
     }
   ],
   "experiments": [
@@ -3739,6 +3751,118 @@
         "results/PROSE-COVER-035-VERIFICATION-NOTES.json"
       ],
       "original_entry": "- Date:24 October2026 UTC. New local-only test, prior033/034 preserved.\n- [Frozen protocol](PROSE-COVER-035-SPEC.md), [findings](PROSE-COVER-035-FINDINGS.md), [native solver](../experiments/prose_cover.py), [runner](../experiments/run_prose_cover.py), [independent implementation](../experiments/audit_prose_cover.py), [original full receipt](../results/PROSE-COVER-035-ORIGINAL.json).\n- Original UTC start/end:2026-10-24T14:41:14.223979+00:00 /2026-10-24T14:41:22.639303+00:00. Three fixed Brown-derived lexicons, no forced crib boundaries or15-word limit,36 selector distributions, cover paths span7–79 words. Counts are segmentation descriptions, not typical prose or unique messages.\n- Complete lag27 plaintext-autokey minimum-free domain: six AZ/KRYPTOS/equation structures ×26^3 =105,456 descriptions; zero complete lexical covers, hence no actual candidate enters second-stage extraction. Vocabulary-conditioned negative; not an extraction or broad autokey exclusion.\n- Six97-letter source plants retained, lexical solutions1/4/1/1/12/3;31 identical-search conditional shuffles each105,456 settings, all zero. Full97-letter re-encryption and exact ambiguity retained. K1–K3 calibration demonstrates false-negative/infinite-language limits: even augmented lexicon rejects genuine K3, so no broad English exclusion.\n- [Complete independent actual-domain sets/negative replay](../results/PROSE-COVER-035-INDEPENDENT-AUDIT.json), [full Python3.12 semantic equality](../results/PROSE-COVER-035-PY312-COMPARISON.json), [interrupted verification note](../results/PROSE-COVER-035-VERIFICATION-NOTES.json). No corpus phrase selection, arbitrary97-letter key, publication or Site change.\n\n- Final local validation: 638 tests pass on Python3.9/3.12; [UTC receipt/full logs](../results/PROSE-COVER-035-VALIDATION.json). Earlier033/034 reports/receipts unchanged, no publication or Site change."
+    },
+    {
+      "record_id": "LOG-B430CF3900",
+      "experiment_ids": [
+        "CURVED-SAMPLER-036"
+      ],
+      "title": "CURVED-SAMPLER-036 — ideal mirror feasibility, sensitivity and source gate",
+      "categories": [
+        "synthetic optical feasibility",
+        "finite sensitivity benchmark",
+        "synthetic cipher recovery controls",
+        "source and physical-data gate"
+      ],
+      "outcome": "54nominal keys;4tested utility poses unstable;50other nominal robustness unresolved; no actual K4 evaluation or physical replica",
+      "classification_basis": "Full frozen geometry/ray/cell replay, four-key held-out synthetic recovery, complete perturbation/pupil outputs and explicitly distinct Site contract",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "24 October 2026 UTC; synthetic horizontal-table sampler only, no actual K4 fit or publication.",
+      "date_only": {
+        "date": "2026-10-24",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/CURVED-SAMPLER-036-INDEPENDENT-CELL-AUDIT.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T15:09:00.471068Z",
+          "original": "2026-10-24T15:09:00.471068+00:00"
+        },
+        {
+          "receipt": "results/CURVED-SAMPLER-036-INDEPENDENT-CELL-AUDIT.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T15:09:03.640519Z",
+          "original": "2026-10-24T15:09:03.640519+00:00"
+        },
+        {
+          "receipt": "results/CURVED-SAMPLER-036-PY312-COMPARISON.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:12:47.681005Z",
+          "original": "2026-10-24T15:12:47.681005+00:00"
+        },
+        {
+          "receipt": "results/CURVED-SAMPLER-036-RAY-VALIDATION.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T15:02:30.809205Z",
+          "original": "2026-10-24T15:02:30.809205+00:00"
+        },
+        {
+          "receipt": "results/CURVED-SAMPLER-036-RAY-VALIDATION.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T15:02:31.272280Z",
+          "original": "2026-10-24T15:02:31.272280+00:00"
+        },
+        {
+          "receipt": "results/CURVED-SAMPLER-036-SITE-CONTRACT-COMPARISON.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:09:49.280627Z",
+          "original": "2026-10-24T15:09:49.280627+00:00"
+        },
+        {
+          "receipt": "results/CURVED-SAMPLER-036-SUMMARY.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T15:02:42.758132Z",
+          "original": "2026-10-24T15:02:42.758132+00:00"
+        },
+        {
+          "receipt": "results/CURVED-SAMPLER-036-SUMMARY.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T15:02:55.969582Z",
+          "original": "2026-10-24T15:02:55.969582+00:00"
+        },
+        {
+          "receipt": "results/CURVED-SAMPLER-036-VALIDATION.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:18:18.850433Z",
+          "original": "2026-10-24T15:18:18.850433+00:00"
+        }
+      ],
+      "links": [
+        "research/CURVED-SAMPLER-036-API.md",
+        "research/CURVED-SAMPLER-036-FINDINGS.md",
+        "research/CURVED-SAMPLER-036-SPEC.md",
+        "results/CURVED-SAMPLER-036-INDEPENDENT-CELL-AUDIT.json",
+        "results/CURVED-SAMPLER-036-ORIGINAL.json.gz",
+        "results/CURVED-SAMPLER-036-PY312-COMPARISON.json",
+        "results/CURVED-SAMPLER-036-RAY-VALIDATION.json",
+        "results/CURVED-SAMPLER-036-SITE-CONTRACT-COMPARISON.json",
+        "results/CURVED-SAMPLER-036-SITE-FIXTURES.json",
+        "results/CURVED-SAMPLER-036-SUMMARY.json",
+        "results/CURVED-SAMPLER-036-VALIDATION.json",
+        "results/CURVED-SAMPLER-036-poses.jsonl.gz"
+      ],
+      "receipt_paths": [
+        "results/CURVED-SAMPLER-036-INDEPENDENT-CELL-AUDIT.json",
+        "results/CURVED-SAMPLER-036-PY312-COMPARISON.json",
+        "results/CURVED-SAMPLER-036-RAY-VALIDATION.json",
+        "results/CURVED-SAMPLER-036-SITE-CONTRACT-COMPARISON.json",
+        "results/CURVED-SAMPLER-036-SITE-FIXTURES.json",
+        "results/CURVED-SAMPLER-036-SUMMARY.json",
+        "results/CURVED-SAMPLER-036-VALIDATION.json"
+      ],
+      "original_entry": "- Date: 24 October 2026 UTC; synthetic horizontal-table sampler only, no actual K4 fit or publication.\n- [Frozen protocol](CURVED-SAMPLER-036-SPEC.md), [findings](CURVED-SAMPLER-036-FINDINGS.md), [API](CURVED-SAMPLER-036-API.md), [full summary](../results/CURVED-SAMPLER-036-SUMMARY.json), [lossless original](../results/CURVED-SAMPLER-036-ORIGINAL.json.gz), [all poses](../results/CURVED-SAMPLER-036-poses.jsonl.gz).\n- Original UTC start/end: 2026-10-24T15:02:42.758132+00:00 / 2026-10-24T15:02:55.969582+00:00. 560 optical settings, 419 complete/141 invalid footprints, 45,252 table poses, 54 nominal 97-cell keys. Four utility cases (82–83 cells/all 26 letters) fail assembly/pupil benchmark; 50 lower-density complete cases not stability-tested. No continuous-domain exclusion.\n- [Independent 54,320-ray validation](../results/CURVED-SAMPLER-036-RAY-VALIDATION.json), [independent 4,389,444-cell audit](../results/CURVED-SAMPLER-036-INDEPENDENT-CELL-AUDIT.json), [full Python3.12 comparison](../results/CURVED-SAMPLER-036-PY312-COMPARISON.json): discrete exact, floats within 1e-9 absolute.\n- Supplied four-key panel:all 4 plants recovered,13 known letters leave 2 classes and 11 held-out retain 1; 31 synthetic whole-family nulls maximum 5/24, zero full matches. Not continuous geometry recovery or real K4 significance.\n- [Site fixtures](../results/CURVED-SAMPLER-036-SITE-FIXTURES.json) and [read-only Site contract comparison](../results/CURVED-SAMPLER-036-SITE-CONTRACT-COMPARISON.json). Site vertical tableau is different from research horizontal table; no Site test/deployment/source archive performed here. Physical replica, glyph/reflectance/pupil realism and independent K4 geometry rationale remain unresolved.\n\n- Final local aggregate validation: 651 tests pass on Python3.9/3.12; [UTC receipt/full logs](../results/CURVED-SAMPLER-036-VALIDATION.json). No actual K4 fit, repository publication, Site edit or owner-source archive by this task."
     }
   ],
   "receipts": [
@@ -4236,6 +4360,130 @@
       "status": null
     },
     {
+      "path": "results/CURVED-SAMPLER-036-INDEPENDENT-CELL-AUDIT.json",
+      "labels": [
+        "Post-outcome independent complex-coordinate cell/status replay of entire frozen saved pose panel"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T15:09:00.471068Z",
+          "original": "2026-10-24T15:09:00.471068+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T15:09:03.640519Z",
+          "original": "2026-10-24T15:09:03.640519+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/CURVED-SAMPLER-036-PY312-COMPARISON.json",
+      "labels": [
+        "Complete cross-version synthetic study and all saved pose records, discrete exact and float absolute tolerance1e-9"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:12:47.681005Z",
+          "original": "2026-10-24T15:12:47.681005+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/CURVED-SAMPLER-036-RAY-VALIDATION.json",
+      "labels": [
+        "Pre-table-scoring independent complete frozen optical panel ray validation"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T15:02:30.809205Z",
+          "original": "2026-10-24T15:02:30.809205+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T15:02:31.272280Z",
+          "original": "2026-10-24T15:02:31.272280+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/CURVED-SAMPLER-036-SITE-CONTRACT-COMPARISON.json",
+      "labels": [
+        "Read-only comparison of owner-authored Site contract; not Site source archive or independent Site numerical QA"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:09:49.280627Z",
+          "original": "2026-10-24T15:09:49.280627+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/CURVED-SAMPLER-036-SITE-FIXTURES.json",
+      "labels": [
+        "CURVED-SAMPLER-036-SITE-FIXTURES-v1"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/CURVED-SAMPLER-036-SUMMARY.json",
+      "labels": [
+        "CURVED-SAMPLER-036",
+        "Complete synthetic ideal-mirror feasibility, tolerance failure and supplied-panel recovery; not actual K4"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T15:02:42.758132Z",
+          "original": "2026-10-24T15:02:42.758132+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T15:02:55.969582Z",
+          "original": "2026-10-24T15:02:55.969582+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/CURVED-SAMPLER-036-VALIDATION.json",
+      "labels": [
+        "Completed local synthetic ideal-cylinder feasibility and finite stability validation; real/source geometry gate open"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T15:18:18.850433Z",
+          "original": "2026-10-24T15:18:18.850433+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
       "path": "results/DOCUMENTATION-CLARITY-021.json",
       "labels": [
         "DOCUMENTATION-CLARITY-021",
@@ -4416,6 +4664,15 @@
     },
     {
       "path": "results/DOCUMENTATION-LINK-AUDIT-038.json",
+      "labels": [
+        "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/DOCUMENTATION-LINK-AUDIT-039.json",
       "labels": [
         "Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval"
       ],
@@ -4672,6 +4929,13 @@
     },
     {
       "path": "results/EXCLUSION-SCOPE-AUDIT-035.json",
+      "labels": [],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/EXCLUSION-SCOPE-AUDIT-036.json",
       "labels": [],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
@@ -5060,6 +5324,15 @@
     },
     {
       "path": "results/FRONTIER-035.json",
+      "labels": [
+        "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/FRONTIER-036.json",
       "labels": [
         "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol"
       ],
@@ -5520,6 +5793,15 @@
       "path": "results/HYPOTHESIS-REGISTER-034.json",
       "labels": [
         "Local word-cover extraction family and exact scope addition; not K4 evaluation"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/HYPOTHESIS-REGISTER-036.json",
+      "labels": [
+        "Invented ideal-mirror family addition and source/stability gate; not actual K4 evaluation"
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",

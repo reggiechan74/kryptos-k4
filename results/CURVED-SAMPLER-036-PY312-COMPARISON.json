@@ -1,0 +1,24 @@
+{
+  "kind": "Complete cross-version synthetic study and all saved pose records, discrete exact and float absolute tolerance1e-9",
+  "recorded_at_utc": "2026-10-24T15:12:47.681005+00:00",
+  "complete": true,
+  "pose_records_compared": 45252,
+  "original_started_at_utc": "2026-10-24T15:02:42.758132+00:00",
+  "replay_started_at_utc": "2026-10-24T15:07:20.836408+00:00",
+  "metrics": {
+    "floats_compared": 989943,
+    "maximum_absolute_float_difference": 4.778399897986674e-13,
+    "different_floats": 63079
+  },
+  "excluded_metadata": [
+    "elapsed_seconds",
+    "peak_rss_bytes",
+    "pose_records_bytes",
+    "pose_records_sha256",
+    "*_utc"
+  ],
+  "discrete_decisions_keys_and_recovery_equal": true,
+  "archive_sha256": "134413724f0167d708c17b601ab6f63c833c076c7691ddd2ce5391c6f5fd2f33",
+  "pose_archive_sha256": "0ae88083f2921143328b84dcc815136b1021625dbbad218089abe5c256ef308a",
+  "actual_K4_evaluations": 0
+}

@@ -1109,3 +1109,14 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - [Complete independent actual-domain sets/negative replay](../results/PROSE-COVER-035-INDEPENDENT-AUDIT.json), [full Python3.12 semantic equality](../results/PROSE-COVER-035-PY312-COMPARISON.json), [interrupted verification note](../results/PROSE-COVER-035-VERIFICATION-NOTES.json). No corpus phrase selection, arbitrary97-letter key, publication or Site change.
 
 - Final local validation: 638 tests pass on Python3.9/3.12; [UTC receipt/full logs](../results/PROSE-COVER-035-VALIDATION.json). Earlier033/034 reports/receipts unchanged, no publication or Site change.
+
+## CURVED-SAMPLER-036 — ideal mirror feasibility, sensitivity and source gate
+
+- Date: 24 October 2026 UTC; synthetic horizontal-table sampler only, no actual K4 fit or publication.
+- [Frozen protocol](CURVED-SAMPLER-036-SPEC.md), [findings](CURVED-SAMPLER-036-FINDINGS.md), [API](CURVED-SAMPLER-036-API.md), [full summary](../results/CURVED-SAMPLER-036-SUMMARY.json), [lossless original](../results/CURVED-SAMPLER-036-ORIGINAL.json.gz), [all poses](../results/CURVED-SAMPLER-036-poses.jsonl.gz).
+- Original UTC start/end: 2026-10-24T15:02:42.758132+00:00 / 2026-10-24T15:02:55.969582+00:00. 560 optical settings, 419 complete/141 invalid footprints, 45,252 table poses, 54 nominal 97-cell keys. Four utility cases (82–83 cells/all 26 letters) fail assembly/pupil benchmark; 50 lower-density complete cases not stability-tested. No continuous-domain exclusion.
+- [Independent 54,320-ray validation](../results/CURVED-SAMPLER-036-RAY-VALIDATION.json), [independent 4,389,444-cell audit](../results/CURVED-SAMPLER-036-INDEPENDENT-CELL-AUDIT.json), [full Python3.12 comparison](../results/CURVED-SAMPLER-036-PY312-COMPARISON.json): discrete exact, floats within 1e-9 absolute.
+- Supplied four-key panel:all 4 plants recovered,13 known letters leave 2 classes and 11 held-out retain 1; 31 synthetic whole-family nulls maximum 5/24, zero full matches. Not continuous geometry recovery or real K4 significance.
+- [Site fixtures](../results/CURVED-SAMPLER-036-SITE-FIXTURES.json) and [read-only Site contract comparison](../results/CURVED-SAMPLER-036-SITE-CONTRACT-COMPARISON.json). Site vertical tableau is different from research horizontal table; no Site test/deployment/source archive performed here. Physical replica, glyph/reflectance/pupil realism and independent K4 geometry rationale remain unresolved.
+
+- Final local aggregate validation: 651 tests pass on Python3.9/3.12; [UTC receipt/full logs](../results/CURVED-SAMPLER-036-VALIDATION.json). No actual K4 fit, repository publication, Site edit or owner-source archive by this task.

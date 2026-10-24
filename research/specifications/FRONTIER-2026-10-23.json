@@ -1,8 +1,8 @@
 {
-  "id": "FRONTIER-035",
-  "reviewed_main_commit": "9d6db4cc4384dcad9c3e67589b32f08a07e60db1",
+  "id": "FRONTIER-036",
+  "reviewed_main_commit": "817566c6ef416b8c781e90dd6de51d59be9b53b2",
   "kind": "Human-reviewed research frontier, with executable inventory/preflight and existing replay specifications; not a new K4 search protocol",
-  "decision": "Boundary-free ordinary lexicon constraints and complete lag27 autokey domain tested locally in035:105456 descriptions,zero lexical covers, but K3 calibration also fails. General cover/extraction and longer autokey remain non-identifiable. This readiness inventory launches no new evaluation.",
+  "decision": "Invented horizontal cylindrical-mirror sampler tested locally:54 nominal97-cell keys,4utility cases fail assembly/pupil panels,source-selected K4 geometry absent. Other50nominal stability and actual copper/Site models remain separate. No actual K4 or publication.",
   "not_claimed": [
     "The puzzle is solved",
     "All possible ciphers are exhausted",
@@ -414,6 +414,33 @@
         "/tmp/cover-core-replay.json"
       ],
       "stop_condition": "Do not expand vocabularies/selectors to obtain attractive English. A new outer cipher requires separate independent specification and full-channel validation."
+    },
+    {
+      "id": "F-CYLINDRICAL-REPLICA",
+      "hypotheses": [
+        "H-CYLINDRICAL-MIRROR-SAMPLER"
+      ],
+      "blocker_type": "source_selected_geometry_and_physical_stability",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Independent visual assembly/key rationale and a bench/source-grounded model with stable readable samples. Four tested utility cases fail tolerance panels; other50nominal poses not stability-tested.",
+      "available": [
+        "research/CURVED-SAMPLER-036-SPEC.md",
+        "research/CURVED-SAMPLER-036-FINDINGS.md",
+        "research/CURVED-SAMPLER-036-API.md",
+        "data/curved-sampler-v1.json",
+        "experiments/curved_sampler.py",
+        "results/CURVED-SAMPLER-036-SUMMARY.json",
+        "results/CURVED-SAMPLER-036-SITE-FIXTURES.json"
+      ],
+      "safe_replay_argv": [
+        "python3",
+        "experiments/run_curved_sampler.py",
+        "--output",
+        "/tmp/curved-replay.json",
+        "--prefix",
+        "/tmp/curved-replay"
+      ],
+      "stop_condition": "No actual K4 parameter search without an independently justified apparatus/domain; keep nominal synthetic success, tolerance failure and actual copper/Site geometry distinct."
     }
   ],
   "default_for_other_registered_entries": {
@@ -421,5 +448,5 @@
     "ready_for_new_K4_evaluation": false,
     "next_deliverable": "Use the canonical tested scope, check equivalence and source motivation, and freeze a materially different finite protocol before evaluation. Untested complement alone is not a recommended experiment."
   },
-  "expected_register_entries": 62
+  "expected_register_entries": 63
 }

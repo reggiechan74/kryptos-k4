@@ -32,3 +32,7 @@ Pinned inputs and modeled representations. The canonical K4 ciphertext and one-b
 ## Conditional cover vocabularies
 
 [cover-codebooks-033.json](cover-codebooks-033.json) exports the frozen NATO/custom vocabularies. It is a post-run convenience export, not independent creator evidence. Raw Brown corpus is not bundled; [source pins](../results/COVER-033-034-SOURCES.json).
+
+## Curved optical sampler
+
+[curved-sampler-v1.json](curved-sampler-v1.json) supplies eight-parameter conventions, all97fixed reticle positions and deterministic ray fixtures. Synthetic ideal mirror only; public transcript layout is not measured aperture geometry.

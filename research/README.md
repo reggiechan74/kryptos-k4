@@ -152,3 +152,7 @@ Item 4: [unknown-anchor coupled SIGABA engineering](SIGABA-UNKNOWN-ANCHOR-COLLEC
 ## Ordinary prose cover follow-up
 
 [PROSE-COVER-035](PROSE-COVER-035-FINDINGS.md) removes fixed codebooks/crib boundaries/output length; exact ordinary-word constraints and complete minimum-free autokey search, with explicit lexical false-negative calibration.
+
+## Curved optical sampler
+
+[Ideal cylindrical sampler036](CURVED-SAMPLER-036-FINDINGS.md): nominal97-sample feasibility, finite sensitivity failures and independent ray/cell validation. [API/Site distinction](CURVED-SAMPLER-036-API.md). No actual K4 domain or physical replica.

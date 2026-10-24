@@ -1,0 +1,19 @@
+{
+  "kind": "Invented ideal-mirror family addition and source/stability gate; not actual K4 evaluation",
+  "entries": 63,
+  "statuses": {
+    "evidence-blocked": 16,
+    "narrow negative": 24,
+    "analytical exclusion": 13,
+    "non-identifiable": 10
+  },
+  "source_sha256": {
+    "research/HYPOTHESES.md": "424f5c27bca4eaae47ce69d8394fd83901783ea6bd50cfc99a520bcaee14ce88"
+  },
+  "new_stable_id": "H-CYLINDRICAL-MIRROR-SAMPLER",
+  "previous_snapshot_receipt": "results/HYPOTHESIS-REGISTER-034.json",
+  "previous_snapshot_commit": "817566c6ef416b8c781e90dd6de51d59be9b53b2",
+  "actual_K4_evaluations": 0,
+  "publication_authorized": false,
+  "Site_edited_by_this_task": false
+}
