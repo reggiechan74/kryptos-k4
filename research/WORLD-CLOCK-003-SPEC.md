@@ -1,0 +1,25 @@
+# WORLD-CLOCK-003 — item 3, conditional partial-ring identifiability
+
+Frozen before numerical evaluation on 2026-10-24 UTC. Source input is the unchanged `independent/2026-10-22/historical-clock/historical_clock_evidence.json`; preserve its bytes/hash, literal labels, label ranks, completeness flags, local order, dates and unknown semantic time zones. This is a partial historical-mapping constraint study, not a cipher search, new abstract route scan or reconstructed 1989 inventory. New parent evidence is pending and must be integrated before finalization.
+
+## Distinct evidence and conditional layers
+
+The three dated local runs (1969, 1970, 1984) are different exposures. One moving hour-ring phase applies across a single exposure, not automatically across dates. The original `display_near` and overlapping-glyph descriptions have no measured seam-to-numeral phase error: use their local +1 order only; do not invent a numeric tolerance, exact phase or UTC offset. Never treat unknown/empty arrays as observed empty bands.
+
+**Conditional common-inventory model:** assume the literal placements remained unchanged across these three exposures, on 24 sectors, and that the recorded photo-left-to-right local orders use one consistent nonmirrored exterior-view direction. These assumptions are not verified historical continuity or compass registration. Use +1 local order for every segment; no independent reversal, repaired labels or city reassignment. Fix EU1969 local sector 0 at global sector 0 as a coordinate gauge, not physical north. Enumerate AM1970 and AS1984 offsets each 0–23: exactly 576 raw offset pairs. A shared global rotation is an alias, not another experiment.
+
+At an overlapped physical sector, compare upper/lower labels at their exact recorded ranks, honoring rank overrides. Different known labels at the same rank contradict. A complete band fixes its length and all ranks; a partial band leaves unobserved ranks unknown. Preserve compatibility witnesses or first exact contradiction for every offset pair. No semantic or modern-time-zone assignments. Retain every compatible layout, not a favored geographic arrangement. A compact independent oracle must compare full compatible sets. The disjoint-run combinatorial count is a cross-check only if the exact rank/completeness constraints actually imply pairwise disjointness; do not impose disjointness in the production solver.
+
+For every unordered pair of the 41 observations, save the entire reachable sector-difference set over compatible layouts. A single shared phase cancels from differences: h_j−h_i = s_j−s_i modulo 24. Count phase-invariant/registration-forced relations, and distinguish those within a source segment from assumptions-dependent cross-source relations. Collapsing city/rank to sector or sector/band loses information; do not manufacture an inverse by selecting one city.
+
+After coordinate-gauge fixing, optionally enumerate all 24 **integer** phases for a hypothetical single exposure on each compatible layout, solely to verify common-shift invariants and inverses. Real phase is continuous modulo 24, so this is not a complete enumeration of physical clock states. A free continuous phase makes any one city’s hour arbitrary; it does not make pair differences arbitrary. Finite rational synthetic phase checks must verify this distinction. There is no A–Z bridge or time/date-to-K4 operation.
+
+## Controls and budgets
+
+Before actual inventory enumeration: complete tiny rings (sizes 4, 5, 6), direct cell-by-cell brute-force compatibility versus production constraints, all compatible offsets retained. Include planted layouts with overlapping consistent partial bands, incompatible ranks, complete-versus-partial length contradictions, gauge rotations, wraparound and deliberate phase/direction mutations. Include source-blind synthetic shared-phase recovery from two known positions and failure of inconsistent measurements. Re-run the old evidence pilot in a temporary directory and compare every result, without overwriting originals. Pin actual input/source hashes and record UTC start/end via the common runner.
+
+Budgets: 60 seconds and 256 MiB for controls plus actual analysis; no external dependency, no ciphertext or language scoring. Stop on control failure or budget exhaustion and preserve unresolved status. Actual civil-time offset inference requires independent dated zone evidence; do not infer it from plate order, longitude or present-day labels.
+
+## Reporting and stop
+
+Report conditional surviving registrations, exact invariant sets, lost label distinctions, gauge/continuous-phase freedom, and what would discriminate layouts. Global joins/1989 continuity and a reversible source-grounded symbol/key bridge remain separate gates. Parent source research may add independently verified observations in a separately documented amendment; no adapting mappings to K4. No item 4, Mengenlehreuhr, Site edits, purchases or outreach. Publication waits for new evidence review and final checks.
