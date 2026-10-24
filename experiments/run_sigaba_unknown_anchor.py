@@ -41,6 +41,8 @@ def main():
      value=json.loads(path.read_text())
     except subprocess.TimeoutExpired:
      value=dict(id='CSP889-COUPLED-024',backend=backend,case=case,started_at_utc=start,finished_at_utc=utc(),completed=False,reason='watchdog_unresolved',exact_raw_key_count=None,source_sha256=hashes(),real_sized_gate_passed=False,K4_evaluations=0)
+    except subprocess.CalledProcessError as error:
+     value=dict(id='CSP889-COUPLED-024',backend=backend,case=case,started_at_utc=start,finished_at_utc=utc(),completed=False,reason='process_error_unresolved',exit_code=error.returncode,exact_raw_key_count=None,source_sha256=hashes(),real_sized_gate_passed=False,K4_evaluations=0)
     snapshot.write(name,json_bytes(value));solver=value.get('solver',value);summary=dict(backend=backend,case=case,completed=solver.get('completed'),reason=solver.get('reason'),controllers_completed=solver.get('control_starts_completed'),filters_completed=solver.get('filters_completed'),filter_progress=solver.get('filter_progress'),budget=solver.get('budget'));summaries.append(summary);print(json.dumps(summary),flush=True)
   snapshot.write('summary.json',json_bytes(dict(id='CSP889-COUPLED-024',cases=summaries,matched_fixtures_and_resource_caps=True,real_sized_gate_passed=False,K4_evaluations=0)))
  print(snapshot.final,flush=True)
