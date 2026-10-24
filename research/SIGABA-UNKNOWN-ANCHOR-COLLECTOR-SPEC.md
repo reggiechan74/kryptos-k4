@@ -1,0 +1,27 @@
+# CSP889-COUPLED-024 — item 4, unknown-anchor collector support integration
+
+Frozen 24 October 2026 before implementation outcomes. LOCAL ONLY: publication paused pending renewed user evidence. No K4 input, Site change or item 5. Preserve the simulator-wiring/historical initialization limitations of the authentic CSP-889 adapter; a synthetic engineering gate is not exhaustive historical SIGABA validation.
+
+## Model and exactness target
+
+Use unchanged REAL-014 fixtures 0 and 1, fixed rotor layouts/wirings/orientations, all 26^5 independent cipher starts, all 26^5 original controller starts, and all 66,058 reachable static index maps with raw aliases. Prefix anchoring is valid only for the unrestricted independent cipher-start torus. Keep the original controller time origin and one persistent map through all observations and the unknown gap. Reconstruct original cipher starts using each map's prefix displacement. No chosen anchor/controller panels or enlarged observations.
+
+Add a **necessary** filter over unknown cipher anchors in the first consecutive observed block. Each layer is an exact current-state bitmap satisfying that layer's observed symbol constraints. An implicit edge under mask m maps state u to u+step(m); source support is `L_i AND preimage(L_(i+1), step(m))`. Destination support is the corresponding image. This represents every connected legal path, without enumerating/storing all edge triples or treating per-layer masks as a path.
+
+For each actual collector digit set B in the block, initial masks must occur under at least one physically reachable map. Intersect supported masks over all repeated occurrences of B, then perform forward/backward connected-support pruning. Iterate monotonically at most eight passes; early fixed point/empty support stops. A pass or an unfinished fixed point is only a necessary relaxation, not a consistent assignment or physical key. Stopping at eight passes retains weaker sound support; it cannot justify rejection beyond proved-empty support. Time/memory interruption is unresolved, never empty.
+
+Apply the resulting anchor bitmap as a controller-specific initial restriction in a new solver derived from COMPACT-018. Keep the exact correlated `(offset, cipher-anchor-domain, persistent-map-owner-set)` states, safe merges, continuous gap and per-map inverse unchanged. Do not merge unequal anchor domains, pool independent masks into a physical key, or replace physical reachability with filter success. Preserve the old baseline implementation unchanged. Filter-disabled versus enabled complete tiny relations must match, not only counts or plants.
+
+## Gates and frozen budget
+
+1. Validate implicit edge preimage/image signs and forward/backward root support against explicit path enumeration on complete tiny systems. Include multiple roots, converging states, wraparound, disconnected alternatives, repeated collectors, deliberate mask/time mutations and conflicting observations. Show necessary-filter success is not asserted as a key.
+2. Compare complete raw-compatible relations against independent brute force on q=2/3, r=3, fixture variants 0/1, masks empty/short/long (12 fixed fixture configurations), with all controls/index aliases/cipher starts. Include delayed first observations and separated windows, singular/ambiguous cases and contradictory observations. Validate planted truth inclusion and map-dependent original-start reconstruction. Exact full sets, not truncated output samples.
+3. Before real runs, check 12 published adapter vectors through existing regressions. Replay synthetic plants via direct physical implementation. No filter tuning or fixture easing after results.
+4. Four fresh processes: baseline COMPACT-018 fixture 0/1, integrated fixture 0/1. Same 60-second wall/1-GiB RSS limits, 65-second external watchdog, 64-MiB predicate cache, 256-MiB branch/output envelope and 128-MiB headroom. Include model/index-quotient construction and filter time. Filter support layers have a separate 128-MiB conservative accounting envelope; no explicit huge graph allocation. Use at most eight monotone sweeps. No budget extension.
+5. Record UTC process start/end, source/spec/input hashes, unknown-anchor support counts, collector repeats, completed filter/controller counts, exact completed-controller prefix versus unfinished state, RSS/time, cache operations and any compatible relation. An incomplete controller contributes no exact total. Compare measured controller coverage, not an extrapolated speedup. A filter that consumes the cap before a controller completes is a useful failed scaling result.
+
+Tiny correctness controls: 60 seconds/256 MiB per declared group; use compact full relation comparison rather than massive JSON key streams. Any correctness failure blocks real benchmarks until explained without changing frozen fixtures. A resource failure preserves an unresolved receipt. No K4 run unless an independently validated complete real-sized inference gate genuinely passes; these existing real fixtures must not be replaced by planted-only recovery. Complete no-work/empty cases do not establish realistic scaling.
+
+## Stop
+
+Retain positive compatibility and negative/resource outcomes equally. If the global unknown-anchor support pass is too expensive or insufficiently selective, state the actual bottleneck; do not silently increase time, add observations or substitute a tiny key slice. Stop item 4 after controls, matched benchmarks, findings and local commit. Publication remains paused; do not begin item 5.
