@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-24T17:13:59.689923+00:00",
+  "stage": "tiny controls before real benchmark",
+  "failure": "KeyError implicit_edge_support_calls on cached empty-observation receipt",
+  "failing_source_sha256": "b2a08bbc33a4d84d803be1ac7522720e5e01a2e18afe85fc25229e370390689b",
+  "resolution": "Empty observation root receipt has no edge counter; use zero, preserving the full root set.",
+  "actual_K4_evaluations": 0
+}

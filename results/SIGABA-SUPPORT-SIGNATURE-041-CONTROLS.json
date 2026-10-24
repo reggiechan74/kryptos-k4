@@ -1,0 +1,255 @@
+{
+  "id": "SIGABA-SUPPORT-SIGNATURE-041-CONTROLS",
+  "started_at_utc": "2026-10-24T17:15:11.107601+00:00",
+  "finished_at_utc": "2026-10-24T17:15:13.592289+00:00",
+  "complete": true,
+  "complete_independent_root_graphs": 70,
+  "root_cache_hits": 66,
+  "complete_raw_truth_streams": 12,
+  "complete_cap_invariance_cases": 36,
+  "varying_input_supplement": {
+    "independent_controller_graphs": 124,
+    "full_raw_truth_streams": 12,
+    "varying_fixtures": 4
+  },
+  "rows": [
+    {
+      "q": 2,
+      "variant": 0,
+      "mask": "empty",
+      "full_raw_key_stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_truth_equal": true,
+      "raw_count": "2304",
+      "cache_metrics": {
+        "signature_calls": 8,
+        "hits": 7,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 4784,
+        "peak_bytes": 4784,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 2,
+      "variant": 0,
+      "mask": "short",
+      "full_raw_key_stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_truth_equal": true,
+      "raw_count": "2304",
+      "cache_metrics": {
+        "signature_calls": 8,
+        "hits": 7,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 5528,
+        "peak_bytes": 5528,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 2,
+      "variant": 0,
+      "mask": "long",
+      "full_raw_key_stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_truth_equal": true,
+      "raw_count": "2304",
+      "cache_metrics": {
+        "signature_calls": 8,
+        "hits": 7,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 6432,
+        "peak_bytes": 6432,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 2,
+      "variant": 1,
+      "mask": "empty",
+      "full_raw_key_stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_truth_equal": true,
+      "raw_count": "2304",
+      "cache_metrics": {
+        "signature_calls": 8,
+        "hits": 7,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 4784,
+        "peak_bytes": 4784,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 2,
+      "variant": 1,
+      "mask": "short",
+      "full_raw_key_stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_truth_equal": true,
+      "raw_count": "2304",
+      "cache_metrics": {
+        "signature_calls": 8,
+        "hits": 7,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 5504,
+        "peak_bytes": 5504,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 2,
+      "variant": 1,
+      "mask": "long",
+      "full_raw_key_stream_sha256": "896f0f3a52a77a7418a4010dbbf904882dbb6eb79505db82b6dcf6bf7a5c7d44",
+      "full_truth_equal": true,
+      "raw_count": "2304",
+      "cache_metrics": {
+        "signature_calls": 8,
+        "hits": 7,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 6408,
+        "peak_bytes": 6408,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 3,
+      "variant": 0,
+      "mask": "empty",
+      "full_raw_key_stream_sha256": "226900ab235da621c9d1b27929f3d46e93118718fbd659f3eb4852424813d600",
+      "full_truth_equal": true,
+      "raw_count": "26244",
+      "cache_metrics": {
+        "signature_calls": 27,
+        "hits": 26,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 4792,
+        "peak_bytes": 4792,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 3,
+      "variant": 0,
+      "mask": "short",
+      "full_raw_key_stream_sha256": "6d709a6bb5e5b6736076594dd65517fa391b530593bbbe482b4bf376013f49e6",
+      "full_truth_equal": true,
+      "raw_count": "1458",
+      "cache_metrics": {
+        "signature_calls": 27,
+        "hits": 26,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 5440,
+        "peak_bytes": 5440,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 3,
+      "variant": 0,
+      "mask": "long",
+      "full_raw_key_stream_sha256": "6d709a6bb5e5b6736076594dd65517fa391b530593bbbe482b4bf376013f49e6",
+      "full_truth_equal": true,
+      "raw_count": "1458",
+      "cache_metrics": {
+        "signature_calls": 27,
+        "hits": 26,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 6344,
+        "peak_bytes": 6344,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 3,
+      "variant": 1,
+      "mask": "empty",
+      "full_raw_key_stream_sha256": "226900ab235da621c9d1b27929f3d46e93118718fbd659f3eb4852424813d600",
+      "full_truth_equal": true,
+      "raw_count": "26244",
+      "cache_metrics": {
+        "signature_calls": 27,
+        "hits": 26,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 4792,
+        "peak_bytes": 4792,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 3,
+      "variant": 1,
+      "mask": "short",
+      "full_raw_key_stream_sha256": "826209eb8c911554ec048b183b2a71cc067107ed3fcb97d8e9d1aa7391aef42a",
+      "full_truth_equal": true,
+      "raw_count": "1701",
+      "cache_metrics": {
+        "signature_calls": 27,
+        "hits": 26,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 5440,
+        "peak_bytes": 5440,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    },
+    {
+      "q": 3,
+      "variant": 1,
+      "mask": "long",
+      "full_raw_key_stream_sha256": "826209eb8c911554ec048b183b2a71cc067107ed3fcb97d8e9d1aa7391aef42a",
+      "full_truth_equal": true,
+      "raw_count": "1701",
+      "cache_metrics": {
+        "signature_calls": 27,
+        "hits": 26,
+        "misses": 1,
+        "evictions": 0,
+        "live_bytes": 6344,
+        "peak_bytes": 6344,
+        "cap_bytes": 67108864,
+        "cached_roots_only": true,
+        "physical_keys_cached": false
+      }
+    }
+  ],
+  "contradiction_control": true,
+  "equality_partition_mask_observation_and_model_guards": true,
+  "budget": {
+    "seconds": 2.484618333,
+    "peak_RSS_bytes": 22233088,
+    "wall_cap_seconds": 60,
+    "RSS_cap_bytes": 268435456,
+    "guard": "Measured RSS/wall checks, not an OS hard allocation limit"
+  },
+  "K4_evaluations": 0
+}
