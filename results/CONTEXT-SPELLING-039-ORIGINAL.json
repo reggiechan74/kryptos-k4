@@ -1,0 +1,7469 @@
+{
+  "id": "CONTEXT-SPELLING-039",
+  "started_at_utc": "2026-10-24T17:05:27.894998+00:00",
+  "finished_at_utc": "2026-10-24T17:05:27.957067+00:00",
+  "elapsed_seconds": 0.061822749999999996,
+  "controls": {
+    "complete_binary_table_relations": 341,
+    "all_binary_table_roundtrips": 248,
+    "enumerated_reachable_tables": 8
+  },
+  "model_descriptions": 12,
+  "new_contextual_descriptions": 8,
+  "rows": [
+    {
+      "role": "normal_to_literal",
+      "source_memory": 0,
+      "scan_direction": "left_to_right",
+      "fit": {
+        "compatible": false,
+        "reason": "same context/input needs different outputs",
+        "witness": [
+          {
+            "stream": "K1",
+            "index_zero_based": 40,
+            "context": "",
+            "source": "L",
+            "target": "L"
+          },
+          {
+            "stream": "K1",
+            "index_zero_based": 56,
+            "context": "",
+            "source": "L",
+            "target": "Q"
+          }
+        ],
+        "processed_sites": 57
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": false,
+            "reason": "same context/input needs different outputs",
+            "witness": [
+              {
+                "stream": "K1",
+                "index_zero_based": 40,
+                "context": "",
+                "source": "L",
+                "target": "L"
+              },
+              {
+                "stream": "K1",
+                "index_zero_based": 56,
+                "context": "",
+                "source": "L",
+                "target": "Q"
+              }
+            ],
+            "processed_sites": 57
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": false,
+            "reason": "same context/input needs different outputs",
+            "witness": [
+              {
+                "stream": "K2",
+                "index_zero_based": 80,
+                "context": "",
+                "source": "O",
+                "target": "O"
+              },
+              {
+                "stream": "K2",
+                "index_zero_based": 114,
+                "context": "",
+                "source": "O",
+                "target": "U"
+              }
+            ],
+            "processed_sites": 115
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        }
+      ]
+    },
+    {
+      "role": "normal_to_literal",
+      "source_memory": 0,
+      "scan_direction": "right_to_left",
+      "fit": {
+        "compatible": false,
+        "reason": "same context/input needs different outputs",
+        "witness": [
+          {
+            "stream": "K1",
+            "index_zero_based": 57,
+            "context": "",
+            "source": "L",
+            "target": "L"
+          },
+          {
+            "stream": "K1",
+            "index_zero_based": 56,
+            "context": "",
+            "source": "L",
+            "target": "Q"
+          }
+        ],
+        "processed_sites": 7
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": false,
+            "reason": "same context/input needs different outputs",
+            "witness": [
+              {
+                "stream": "K1",
+                "index_zero_based": 57,
+                "context": "",
+                "source": "L",
+                "target": "L"
+              },
+              {
+                "stream": "K1",
+                "index_zero_based": 56,
+                "context": "",
+                "source": "L",
+                "target": "Q"
+              }
+            ],
+            "processed_sites": 7
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": false,
+            "reason": "same context/input needs different outputs",
+            "witness": [
+              {
+                "stream": "K2",
+                "index_zero_based": 119,
+                "context": "",
+                "source": "O",
+                "target": "O"
+              },
+              {
+                "stream": "K2",
+                "index_zero_based": 114,
+                "context": "",
+                "source": "O",
+                "target": "U"
+              }
+            ],
+            "processed_sites": 255
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        }
+      ]
+    },
+    {
+      "role": "normal_to_literal",
+      "source_memory": 1,
+      "scan_direction": "left_to_right",
+      "fit": {
+        "compatible": false,
+        "reason": "same context/input needs different outputs",
+        "witness": [
+          {
+            "stream": "K2",
+            "index_zero_based": 114,
+            "context": "R",
+            "source": "O",
+            "target": "U"
+          },
+          {
+            "stream": "K2",
+            "index_zero_based": 366,
+            "context": "R",
+            "source": "O",
+            "target": "O"
+          }
+        ],
+        "processed_sites": 430
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^": {
+                "B": "B"
+              },
+              "B": {
+                "E": "E",
+                "T": "T",
+                "S": "S"
+              },
+              "E": {
+                "T": "T",
+                "E": "E",
+                "N": "N",
+                "S": "S",
+                "A": "A",
+                "O": "O"
+              },
+              "T": {
+                "W": "W",
+                "L": "L",
+                "H": "H"
+              },
+              "W": {
+                "E": "E"
+              },
+              "N": {
+                "S": "S",
+                "G": "G",
+                "D": "D",
+                "C": "C",
+                "U": "U"
+              },
+              "S": {
+                "U": "U",
+                "H": "H",
+                "E": "E",
+                "T": "T",
+                "I": "I"
+              },
+              "U": {
+                "B": "B",
+                "A": "A",
+                "S": "S"
+              },
+              "L": {
+                "E": "E",
+                "I": "I",
+                "L": "L",
+                "U": "U"
+              },
+              "H": {
+                "A": "A",
+                "E": "E",
+                "T": "T"
+              },
+              "A": {
+                "D": "D",
+                "N": "N",
+                "B": "B"
+              },
+              "D": {
+                "I": "I",
+                "T": "T"
+              },
+              "I": {
+                "N": "N",
+                "G": "G",
+                "E": "E",
+                "L": "Q",
+                "O": "O"
+              },
+              "G": {
+                "A": "A",
+                "H": "H"
+              },
+              "C": {
+                "E": "E"
+              },
+              "O": {
+                "F": "F",
+                "N": "N"
+              },
+              "F": {
+                "L": "L",
+                "I": "I"
+              }
+            },
+            "processed_sites": 63,
+            "reachable_contexts": 27,
+            "observed_contexts": 17,
+            "unfixed_context_input_entries": 651,
+            "completion_prime_exponents": {
+              "2": 570,
+              "3": 259,
+              "5": 134,
+              "7": 80,
+              "11": 50,
+              "13": 37,
+              "17": 27,
+              "19": 27,
+              "23": 22
+            },
+            "log10_completion_count": 647.4233450716199
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 113,
+            "forced_conflicting_sites": 0,
+            "unconstrained_sites": 256,
+            "first_conflicts": []
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": false,
+            "reason": "same context/input needs different outputs",
+            "witness": [
+              {
+                "stream": "K2",
+                "index_zero_based": 114,
+                "context": "R",
+                "source": "O",
+                "target": "U"
+              },
+              {
+                "stream": "K2",
+                "index_zero_based": 366,
+                "context": "R",
+                "source": "O",
+                "target": "O"
+              }
+            ],
+            "processed_sites": 367
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        }
+      ]
+    },
+    {
+      "role": "normal_to_literal",
+      "source_memory": 1,
+      "scan_direction": "right_to_left",
+      "fit": {
+        "compatible": false,
+        "reason": "same context/input needs different outputs",
+        "witness": [
+          {
+            "stream": "K2",
+            "index_zero_based": 155,
+            "context": "U",
+            "source": "O",
+            "target": "O"
+          },
+          {
+            "stream": "K2",
+            "index_zero_based": 114,
+            "context": "U",
+            "source": "O",
+            "target": "U"
+          }
+        ],
+        "processed_sites": 318
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^": {
+                "N": "N"
+              },
+              "N": {
+                "O": "O",
+                "A": "A",
+                "E": "E",
+                "I": "I"
+              },
+              "O": {
+                "I": "I",
+                "E": "E"
+              },
+              "I": {
+                "S": "S",
+                "F": "F",
+                "L": "L",
+                "D": "D"
+              },
+              "S": {
+                "U": "U",
+                "E": "E",
+                "B": "B",
+                "N": "N"
+              },
+              "U": {
+                "L": "L",
+                "N": "N",
+                "S": "S"
+              },
+              "L": {
+                "L": "Q",
+                "I": "I",
+                "T": "T",
+                "F": "F"
+              },
+              "F": {
+                "O": "O"
+              },
+              "E": {
+                "C": "C",
+                "H": "H",
+                "I": "I",
+                "S": "S",
+                "L": "L",
+                "E": "E",
+                "W": "W",
+                "B": "B"
+              },
+              "C": {
+                "N": "N"
+              },
+              "A": {
+                "U": "U",
+                "E": "E",
+                "G": "G",
+                "H": "H"
+              },
+              "H": {
+                "T": "T",
+                "G": "G",
+                "S": "S"
+              },
+              "T": {
+                "S": "S",
+                "H": "H",
+                "D": "D",
+                "B": "B",
+                "E": "E"
+              },
+              "G": {
+                "I": "I",
+                "N": "N"
+              },
+              "B": {
+                "A": "A",
+                "U": "U"
+              },
+              "D": {
+                "N": "N",
+                "A": "A"
+              },
+              "W": {
+                "T": "T"
+              }
+            },
+            "processed_sites": 63,
+            "reachable_contexts": 27,
+            "observed_contexts": 17,
+            "unfixed_context_input_entries": 651,
+            "completion_prime_exponents": {
+              "2": 573,
+              "3": 260,
+              "5": 135,
+              "7": 80,
+              "11": 52,
+              "13": 37,
+              "17": 27,
+              "19": 26,
+              "23": 20
+            },
+            "log10_completion_count": 647.5831024149959
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 112,
+            "forced_conflicting_sites": 1,
+            "unconstrained_sites": 256,
+            "first_conflicts": [
+              {
+                "stream": "K2",
+                "index_zero_based": 9,
+                "context": "L",
+                "source": "L",
+                "target": "L"
+              }
+            ]
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": false,
+            "reason": "same context/input needs different outputs",
+            "witness": [
+              {
+                "stream": "K2",
+                "index_zero_based": 155,
+                "context": "U",
+                "source": "O",
+                "target": "O"
+              },
+              {
+                "stream": "K2",
+                "index_zero_based": 114,
+                "context": "U",
+                "source": "O",
+                "target": "U"
+              }
+            ],
+            "processed_sites": 255
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        }
+      ]
+    },
+    {
+      "role": "normal_to_literal",
+      "source_memory": 2,
+      "scan_direction": "left_to_right",
+      "fit": {
+        "compatible": true,
+        "tables": {
+          "^^": {
+            "B": "B",
+            "I": "I"
+          },
+          "^B": {
+            "E": "E"
+          },
+          "BE": {
+            "T": "T"
+          },
+          "ET": {
+            "W": "W",
+            "H": "H",
+            "I": "I"
+          },
+          "TW": {
+            "E": "E",
+            "A": "A"
+          },
+          "WE": {
+            "E": "E",
+            "S": "S"
+          },
+          "EE": {
+            "N": "N",
+            "A": "A",
+            "X": "X",
+            "S": "S"
+          },
+          "EN": {
+            "S": "S",
+            "C": "C",
+            "U": "U",
+            "M": "M",
+            "T": "T",
+            "D": "D"
+          },
+          "NS": {
+            "U": "U",
+            "M": "M"
+          },
+          "SU": {
+            "B": "B"
+          },
+          "UB": {
+            "T": "T"
+          },
+          "BT": {
+            "L": "L"
+          },
+          "TL": {
+            "E": "E",
+            "I": "I",
+            "O": "O"
+          },
+          "LE": {
+            "S": "S",
+            "H": "H",
+            "T": "T",
+            "Y": "Y"
+          },
+          "ES": {
+            "H": "H",
+            "T": "T",
+            "L": "L",
+            "O": "O",
+            "S": "S",
+            "F": "F",
+            "E": "E"
+          },
+          "SH": {
+            "A": "A",
+            "O": "O",
+            "I": "I"
+          },
+          "HA": {
+            "D": "D",
+            "T": "T"
+          },
+          "AD": {
+            "I": "I"
+          },
+          "DI": {
+            "N": "N",
+            "T": "T"
+          },
+          "IN": {
+            "G": "G",
+            "V": "V",
+            "F": "F",
+            "U": "U",
+            "T": "T"
+          },
+          "NG": {
+            "A": "A",
+            "L": "L"
+          },
+          "GA": {
+            "N": "N",
+            "T": "T"
+          },
+          "AN": {
+            "D": "D",
+            "C": "C",
+            "S": "S",
+            "U": "U",
+            "G": "G"
+          },
+          "ND": {
+            "T": "T",
+            "E": "E",
+            "S": "S"
+          },
+          "DT": {
+            "H": "H",
+            "R": "R",
+            "O": "O"
+          },
+          "TH": {
+            "E": "E",
+            "A": "A",
+            "S": "S",
+            "I": "I"
+          },
+          "HE": {
+            "A": "A",
+            "N": "N",
+            "Y": "Y",
+            "E": "E",
+            "I": "I",
+            "R": "R"
+          },
+          "EA": {
+            "B": "B",
+            "R": "R"
+          },
+          "AB": {
+            "S": "S",
+            "O": "O"
+          },
+          "BS": {
+            "E": "E"
+          },
+          "SE": {
+            "N": "N",
+            "D": "D",
+            "V": "V",
+            "C": "C",
+            "I": "I"
+          },
+          "NC": {
+            "E": "E"
+          },
+          "CE": {
+            "O": "O"
+          },
+          "EO": {
+            "F": "F"
+          },
+          "OF": {
+            "L": "L",
+            "I": "I"
+          },
+          "FL": {
+            "I": "I"
+          },
+          "LI": {
+            "G": "G",
+            "E": "E"
+          },
+          "IG": {
+            "H": "H"
+          },
+          "GH": {
+            "T": "T"
+          },
+          "HT": {
+            "L": "L",
+            "D": "D",
+            "M": "M"
+          },
+          "IE": {
+            "S": "S",
+            "L": "L",
+            "D": "D"
+          },
+          "ST": {
+            "H": "H",
+            "O": "O",
+            "M": "M",
+            "I": "I"
+          },
+          "NU": {
+            "A": "A",
+            "N": "N",
+            "T": "T"
+          },
+          "UA": {
+            "N": "N"
+          },
+          "FI": {
+            "L": "Q",
+            "E": "E",
+            "F": "F",
+            "V": "V"
+          },
+          "IL": {
+            "L": "L"
+          },
+          "LL": {
+            "U": "U",
+            "Y": "Y"
+          },
+          "LU": {
+            "S": "S"
+          },
+          "US": {
+            "I": "I",
+            "E": "E"
+          },
+          "SI": {
+            "O": "O",
+            "B": "B",
+            "X": "X"
+          },
+          "IO": {
+            "N": "N"
+          },
+          "^I": {
+            "T": "T"
+          },
+          "IT": {
+            "W": "W",
+            "T": "T",
+            "S": "S"
+          },
+          "WA": {
+            "S": "S",
+            "B": "B"
+          },
+          "AS": {
+            "T": "T",
+            "G": "G",
+            "H": "H"
+          },
+          "TO": {
+            "T": "T",
+            "A": "A"
+          },
+          "OT": {
+            "A": "A"
+          },
+          "TA": {
+            "L": "L"
+          },
+          "AL": {
+            "L": "L"
+          },
+          "LY": {
+            "I": "I",
+            "W": "W"
+          },
+          "YI": {
+            "N": "N"
+          },
+          "NV": {
+            "I": "I"
+          },
+          "VI": {
+            "S": "S"
+          },
+          "IS": {
+            "I": "I",
+            "T": "T",
+            "W": "W",
+            "L": "L"
+          },
+          "IB": {
+            "L": "L"
+          },
+          "BL": {
+            "E": "E"
+          },
+          "EH": {
+            "O": "O"
+          },
+          "HO": {
+            "W": "W",
+            "U": "U",
+            "K": "K"
+          },
+          "OW": {
+            "S": "S",
+            "N": "N",
+            "A": "A"
+          },
+          "WS": {
+            "T": "T"
+          },
+          "AT": {
+            "P": "P",
+            "I": "I",
+            "H": "H"
+          },
+          "TP": {
+            "O": "O"
+          },
+          "PO": {
+            "S": "S",
+            "I": "I"
+          },
+          "OS": {
+            "S": "S"
+          },
+          "SS": {
+            "I": "I",
+            "A": "A"
+          },
+          "EY": {
+            "U": "U",
+            "K": "K",
+            "S": "S"
+          },
+          "YU": {
+            "S": "S"
+          },
+          "ED": {
+            "T": "T",
+            "A": "A",
+            "U": "U",
+            "O": "O"
+          },
+          "AR": {
+            "T": "T"
+          },
+          "RT": {
+            "H": "H",
+            "Y": "Y"
+          },
+          "HS": {
+            "M": "M",
+            "E": "E"
+          },
+          "SM": {
+            "A": "A",
+            "I": "I"
+          },
+          "MA": {
+            "G": "G",
+            "T": "T"
+          },
+          "AG": {
+            "N": "N",
+            "E": "E"
+          },
+          "GN": {
+            "E": "E"
+          },
+          "NE": {
+            "T": "T"
+          },
+          "TI": {
+            "C": "C",
+            "O": "O",
+            "D": "D"
+          },
+          "IC": {
+            "F": "F"
+          },
+          "CF": {
+            "I": "I"
+          },
+          "EL": {
+            "D": "D"
+          },
+          "LD": {
+            "X": "X",
+            "I": "I"
+          },
+          "DX": {
+            "T": "T"
+          },
+          "XT": {
+            "H": "H"
+          },
+          "EI": {
+            "N": "N",
+            "G": "G"
+          },
+          "NF": {
+            "O": "O"
+          },
+          "FO": {
+            "R": "R",
+            "U": "U"
+          },
+          "OR": {
+            "M": "M",
+            "T": "T"
+          },
+          "RM": {
+            "A": "A"
+          },
+          "ON": {
+            "W": "W",
+            "X": "X",
+            "O": "O",
+            "L": "L",
+            "D": "D"
+          },
+          "NW": {
+            "A": "A"
+          },
+          "SG": {
+            "A": "A"
+          },
+          "ER": {
+            "E": "E",
+            "G": "G"
+          },
+          "RE": {
+            "D": "D",
+            "S": "S",
+            "X": "X",
+            "E": "E"
+          },
+          "DA": {
+            "N": "N"
+          },
+          "TR": {
+            "A": "A"
+          },
+          "RA": {
+            "N": "N"
+          },
+          "MI": {
+            "T": "T",
+            "N": "N"
+          },
+          "TT": {
+            "E": "E",
+            "H": "H"
+          },
+          "TE": {
+            "D": "D",
+            "S": "S"
+          },
+          "DU": {
+            "N": "N"
+          },
+          "UN": {
+            "D": "D",
+            "K": "K"
+          },
+          "DE": {
+            "R": "R",
+            "G": "G"
+          },
+          "RG": {
+            "R": "R"
+          },
+          "GR": {
+            "O": "U",
+            "E": "E"
+          },
+          "RO": {
+            "U": "U",
+            "W": "W"
+          },
+          "OU": {
+            "N": "N",
+            "T": "T",
+            "L": "L",
+            "R": "R"
+          },
+          "OA": {
+            "N": "N"
+          },
+          "NK": {
+            "N": "N"
+          },
+          "KN": {
+            "O": "O"
+          },
+          "NO": {
+            "W": "W",
+            "N": "N",
+            "R": "R"
+          },
+          "WN": {
+            "L": "L"
+          },
+          "NL": {
+            "O": "O",
+            "Y": "Y"
+          },
+          "LO": {
+            "C": "C"
+          },
+          "OC": {
+            "A": "A"
+          },
+          "CA": {
+            "T": "T"
+          },
+          "NX": {
+            "D": "D"
+          },
+          "XD": {
+            "O": "O"
+          },
+          "DO": {
+            "E": "E",
+            "U": "U"
+          },
+          "OE": {
+            "S": "S"
+          },
+          "SL": {
+            "A": "A"
+          },
+          "LA": {
+            "N": "N",
+            "S": "S"
+          },
+          "GL": {
+            "E": "E"
+          },
+          "YK": {
+            "N": "N"
+          },
+          "BO": {
+            "U": "U"
+          },
+          "UT": {
+            "T": "T",
+            "E": "E"
+          },
+          "HI": {
+            "S": "S",
+            "R": "R"
+          },
+          "YS": {
+            "H": "H",
+            "E": "E"
+          },
+          "UL": {
+            "D": "D"
+          },
+          "TS": {
+            "B": "B"
+          },
+          "SB": {
+            "U": "U"
+          },
+          "BU": {
+            "R": "R"
+          },
+          "UR": {
+            "I": "I",
+            "S": "S"
+          },
+          "RI": {
+            "E": "E"
+          },
+          "SO": {
+            "M": "M"
+          },
+          "OM": {
+            "E": "E"
+          },
+          "ME": {
+            "W": "W",
+            "S": "S"
+          },
+          "EW": {
+            "H": "H"
+          },
+          "WH": {
+            "E": "E",
+            "O": "O"
+          },
+          "EX": {
+            "W": "W",
+            "A": "A",
+            "T": "T"
+          },
+          "XW": {
+            "H": "H"
+          },
+          "OK": {
+            "N": "N"
+          },
+          "XA": {
+            "C": "C"
+          },
+          "AC": {
+            "T": "T"
+          },
+          "CT": {
+            "L": "L"
+          },
+          "YW": {
+            "W": "W"
+          },
+          "WW": {
+            "T": "T"
+          },
+          "WT": {
+            "H": "H"
+          },
+          "SW": {
+            "A": "A",
+            "E": "E"
+          },
+          "TM": {
+            "E": "E",
+            "I": "I"
+          },
+          "SA": {
+            "G": "G"
+          },
+          "GE": {
+            "X": "X"
+          },
+          "IR": {
+            "T": "T"
+          },
+          "TY": {
+            "E": "E",
+            "S": "S",
+            "F": "F"
+          },
+          "YE": {
+            "I": "I"
+          },
+          "TD": {
+            "E": "E"
+          },
+          "EG": {
+            "R": "R"
+          },
+          "SF": {
+            "I": "I",
+            "O": "O"
+          },
+          "IF": {
+            "T": "T"
+          },
+          "FT": {
+            "Y": "Y"
+          },
+          "EV": {
+            "E": "E"
+          },
+          "VE": {
+            "N": "N",
+            "S": "S"
+          },
+          "NM": {
+            "I": "I"
+          },
+          "IX": {
+            "P": "P"
+          },
+          "XP": {
+            "O": "O"
+          },
+          "OI": {
+            "N": "N"
+          },
+          "NT": {
+            "F": "F",
+            "Y": "Y"
+          },
+          "TF": {
+            "I": "I"
+          },
+          "IV": {
+            "E": "E"
+          },
+          "EC": {
+            "O": "O"
+          },
+          "CO": {
+            "N": "N"
+          },
+          "DS": {
+            "N": "N",
+            "W": "W"
+          },
+          "SN": {
+            "O": "O"
+          },
+          "YF": {
+            "O": "O"
+          },
+          "RS": {
+            "E": "E"
+          },
+          "ID": {
+            "B": "B"
+          },
+          "DB": {
+            "Y": "Y"
+          },
+          "BY": {
+            "R": "R"
+          },
+          "YR": {
+            "O": "O"
+          }
+        },
+        "processed_sites": 432,
+        "reachable_contexts": 703,
+        "observed_contexts": 188,
+        "unfixed_context_input_entries": 17942,
+        "completion_prime_exponents": {
+          "2": 15867,
+          "3": 6992,
+          "5": 4045,
+          "7": 2106,
+          "11": 1399,
+          "13": 1218,
+          "17": 703,
+          "19": 703,
+          "23": 687
+        },
+        "log10_completion_count": 18232.752660198486
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^^": {
+                "B": "B"
+              },
+              "^B": {
+                "E": "E"
+              },
+              "BE": {
+                "T": "T"
+              },
+              "ET": {
+                "W": "W"
+              },
+              "TW": {
+                "E": "E"
+              },
+              "WE": {
+                "E": "E"
+              },
+              "EE": {
+                "N": "N"
+              },
+              "EN": {
+                "S": "S",
+                "C": "C",
+                "U": "U"
+              },
+              "NS": {
+                "U": "U"
+              },
+              "SU": {
+                "B": "B"
+              },
+              "UB": {
+                "T": "T"
+              },
+              "BT": {
+                "L": "L"
+              },
+              "TL": {
+                "E": "E",
+                "I": "I"
+              },
+              "LE": {
+                "S": "S"
+              },
+              "ES": {
+                "H": "H",
+                "T": "T"
+              },
+              "SH": {
+                "A": "A"
+              },
+              "HA": {
+                "D": "D"
+              },
+              "AD": {
+                "I": "I"
+              },
+              "DI": {
+                "N": "N"
+              },
+              "IN": {
+                "G": "G"
+              },
+              "NG": {
+                "A": "A"
+              },
+              "GA": {
+                "N": "N"
+              },
+              "AN": {
+                "D": "D",
+                "C": "C"
+              },
+              "ND": {
+                "T": "T"
+              },
+              "DT": {
+                "H": "H"
+              },
+              "TH": {
+                "E": "E"
+              },
+              "HE": {
+                "A": "A",
+                "N": "N"
+              },
+              "EA": {
+                "B": "B"
+              },
+              "AB": {
+                "S": "S"
+              },
+              "BS": {
+                "E": "E"
+              },
+              "SE": {
+                "N": "N"
+              },
+              "NC": {
+                "E": "E"
+              },
+              "CE": {
+                "O": "O"
+              },
+              "EO": {
+                "F": "F"
+              },
+              "OF": {
+                "L": "L",
+                "I": "I"
+              },
+              "FL": {
+                "I": "I"
+              },
+              "LI": {
+                "G": "G",
+                "E": "E"
+              },
+              "IG": {
+                "H": "H"
+              },
+              "GH": {
+                "T": "T"
+              },
+              "HT": {
+                "L": "L"
+              },
+              "IE": {
+                "S": "S"
+              },
+              "ST": {
+                "H": "H"
+              },
+              "NU": {
+                "A": "A"
+              },
+              "UA": {
+                "N": "N"
+              },
+              "FI": {
+                "L": "Q"
+              },
+              "IL": {
+                "L": "L"
+              },
+              "LL": {
+                "U": "U"
+              },
+              "LU": {
+                "S": "S"
+              },
+              "US": {
+                "I": "I"
+              },
+              "SI": {
+                "O": "O"
+              },
+              "IO": {
+                "N": "N"
+              }
+            },
+            "processed_sites": 63,
+            "reachable_contexts": 703,
+            "observed_contexts": 51,
+            "unfixed_context_input_entries": 18219,
+            "completion_prime_exponents": {
+              "2": 16115,
+              "3": 7029,
+              "5": 4204,
+              "7": 2109,
+              "11": 1406,
+              "13": 1355,
+              "17": 703,
+              "19": 703,
+              "23": 703
+            },
+            "log10_completion_count": 18620.420743795727
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 22,
+            "forced_conflicting_sites": 0,
+            "unconstrained_sites": 347,
+            "first_conflicts": []
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^^": {
+                "I": "I"
+              },
+              "^I": {
+                "T": "T"
+              },
+              "IT": {
+                "W": "W",
+                "T": "T",
+                "S": "S"
+              },
+              "TW": {
+                "A": "A"
+              },
+              "WA": {
+                "S": "S",
+                "B": "B"
+              },
+              "AS": {
+                "T": "T",
+                "G": "G",
+                "H": "H"
+              },
+              "ST": {
+                "O": "O",
+                "H": "H",
+                "M": "M",
+                "I": "I"
+              },
+              "TO": {
+                "T": "T",
+                "A": "A"
+              },
+              "OT": {
+                "A": "A"
+              },
+              "TA": {
+                "L": "L"
+              },
+              "AL": {
+                "L": "L"
+              },
+              "LL": {
+                "Y": "Y"
+              },
+              "LY": {
+                "I": "I",
+                "W": "W"
+              },
+              "YI": {
+                "N": "N"
+              },
+              "IN": {
+                "V": "V",
+                "F": "F",
+                "U": "U",
+                "T": "T"
+              },
+              "NV": {
+                "I": "I"
+              },
+              "VI": {
+                "S": "S"
+              },
+              "IS": {
+                "I": "I",
+                "T": "T",
+                "W": "W",
+                "L": "L"
+              },
+              "SI": {
+                "B": "B",
+                "X": "X"
+              },
+              "IB": {
+                "L": "L"
+              },
+              "BL": {
+                "E": "E"
+              },
+              "LE": {
+                "H": "H",
+                "T": "T",
+                "Y": "Y"
+              },
+              "EH": {
+                "O": "O"
+              },
+              "HO": {
+                "W": "W",
+                "U": "U",
+                "K": "K"
+              },
+              "OW": {
+                "S": "S",
+                "N": "N",
+                "A": "A"
+              },
+              "WS": {
+                "T": "T"
+              },
+              "TH": {
+                "A": "A",
+                "E": "E",
+                "S": "S",
+                "I": "I"
+              },
+              "HA": {
+                "T": "T"
+              },
+              "AT": {
+                "P": "P",
+                "I": "I",
+                "H": "H"
+              },
+              "TP": {
+                "O": "O"
+              },
+              "PO": {
+                "S": "S",
+                "I": "I"
+              },
+              "OS": {
+                "S": "S"
+              },
+              "SS": {
+                "I": "I",
+                "A": "A"
+              },
+              "ET": {
+                "H": "H",
+                "I": "I"
+              },
+              "HE": {
+                "Y": "Y",
+                "E": "E",
+                "I": "I",
+                "R": "R"
+              },
+              "EY": {
+                "U": "U",
+                "K": "K",
+                "S": "S"
+              },
+              "YU": {
+                "S": "S"
+              },
+              "US": {
+                "E": "E"
+              },
+              "SE": {
+                "D": "D",
+                "V": "V",
+                "C": "C",
+                "I": "I"
+              },
+              "ED": {
+                "T": "T",
+                "A": "A",
+                "U": "U",
+                "O": "O"
+              },
+              "DT": {
+                "H": "H",
+                "R": "R",
+                "O": "O"
+              },
+              "EE": {
+                "A": "A",
+                "X": "X",
+                "S": "S"
+              },
+              "EA": {
+                "R": "R"
+              },
+              "AR": {
+                "T": "T"
+              },
+              "RT": {
+                "H": "H",
+                "Y": "Y"
+              },
+              "HS": {
+                "M": "M",
+                "E": "E"
+              },
+              "SM": {
+                "A": "A",
+                "I": "I"
+              },
+              "MA": {
+                "G": "G",
+                "T": "T"
+              },
+              "AG": {
+                "N": "N",
+                "E": "E"
+              },
+              "GN": {
+                "E": "E"
+              },
+              "NE": {
+                "T": "T"
+              },
+              "TI": {
+                "C": "C",
+                "O": "O",
+                "D": "D"
+              },
+              "IC": {
+                "F": "F"
+              },
+              "CF": {
+                "I": "I"
+              },
+              "FI": {
+                "E": "E",
+                "F": "F",
+                "V": "V"
+              },
+              "IE": {
+                "L": "L",
+                "D": "D"
+              },
+              "EL": {
+                "D": "D"
+              },
+              "LD": {
+                "X": "X",
+                "I": "I"
+              },
+              "DX": {
+                "T": "T"
+              },
+              "XT": {
+                "H": "H"
+              },
+              "EI": {
+                "N": "N",
+                "G": "G"
+              },
+              "NF": {
+                "O": "O"
+              },
+              "FO": {
+                "R": "R",
+                "U": "U"
+              },
+              "OR": {
+                "M": "M",
+                "T": "T"
+              },
+              "RM": {
+                "A": "A"
+              },
+              "IO": {
+                "N": "N"
+              },
+              "ON": {
+                "W": "W",
+                "X": "X",
+                "O": "O",
+                "L": "L",
+                "D": "D"
+              },
+              "NW": {
+                "A": "A"
+              },
+              "SG": {
+                "A": "A"
+              },
+              "GA": {
+                "T": "T"
+              },
+              "ER": {
+                "E": "E",
+                "G": "G"
+              },
+              "RE": {
+                "D": "D",
+                "S": "S",
+                "X": "X",
+                "E": "E"
+              },
+              "DA": {
+                "N": "N"
+              },
+              "AN": {
+                "D": "D",
+                "S": "S",
+                "U": "U",
+                "G": "G"
+              },
+              "ND": {
+                "T": "T",
+                "E": "E",
+                "S": "S"
+              },
+              "TR": {
+                "A": "A"
+              },
+              "RA": {
+                "N": "N"
+              },
+              "NS": {
+                "M": "M"
+              },
+              "MI": {
+                "T": "T",
+                "N": "N"
+              },
+              "TT": {
+                "E": "E",
+                "H": "H"
+              },
+              "TE": {
+                "D": "D",
+                "S": "S"
+              },
+              "DU": {
+                "N": "N"
+              },
+              "UN": {
+                "D": "D",
+                "K": "K"
+              },
+              "DE": {
+                "R": "R",
+                "G": "G"
+              },
+              "RG": {
+                "R": "R"
+              },
+              "GR": {
+                "O": "U",
+                "E": "E"
+              },
+              "RO": {
+                "U": "U",
+                "W": "W"
+              },
+              "OU": {
+                "N": "N",
+                "T": "T",
+                "L": "L",
+                "R": "R"
+              },
+              "OA": {
+                "N": "N"
+              },
+              "NU": {
+                "N": "N",
+                "T": "T"
+              },
+              "NK": {
+                "N": "N"
+              },
+              "KN": {
+                "O": "O"
+              },
+              "NO": {
+                "W": "W",
+                "N": "N",
+                "R": "R"
+              },
+              "WN": {
+                "L": "L"
+              },
+              "NL": {
+                "O": "O",
+                "Y": "Y"
+              },
+              "LO": {
+                "C": "C"
+              },
+              "OC": {
+                "A": "A"
+              },
+              "CA": {
+                "T": "T"
+              },
+              "NX": {
+                "D": "D"
+              },
+              "XD": {
+                "O": "O"
+              },
+              "DO": {
+                "E": "E",
+                "U": "U"
+              },
+              "OE": {
+                "S": "S"
+              },
+              "ES": {
+                "L": "L",
+                "O": "O",
+                "S": "S",
+                "F": "F",
+                "E": "E",
+                "T": "T"
+              },
+              "SL": {
+                "A": "A"
+              },
+              "LA": {
+                "N": "N",
+                "S": "S"
+              },
+              "NG": {
+                "L": "L"
+              },
+              "GL": {
+                "E": "E"
+              },
+              "YK": {
+                "N": "N"
+              },
+              "AB": {
+                "O": "O"
+              },
+              "BO": {
+                "U": "U"
+              },
+              "UT": {
+                "T": "T",
+                "E": "E"
+              },
+              "HI": {
+                "S": "S",
+                "R": "R"
+              },
+              "YS": {
+                "H": "H",
+                "E": "E"
+              },
+              "SH": {
+                "O": "O",
+                "I": "I"
+              },
+              "UL": {
+                "D": "D"
+              },
+              "DI": {
+                "T": "T"
+              },
+              "TS": {
+                "B": "B"
+              },
+              "SB": {
+                "U": "U"
+              },
+              "BU": {
+                "R": "R"
+              },
+              "UR": {
+                "I": "I",
+                "S": "S"
+              },
+              "RI": {
+                "E": "E"
+              },
+              "SO": {
+                "M": "M"
+              },
+              "OM": {
+                "E": "E"
+              },
+              "ME": {
+                "W": "W",
+                "S": "S"
+              },
+              "EW": {
+                "H": "H"
+              },
+              "WH": {
+                "E": "E",
+                "O": "O"
+              },
+              "EX": {
+                "W": "W",
+                "A": "A",
+                "T": "T"
+              },
+              "XW": {
+                "H": "H"
+              },
+              "OK": {
+                "N": "N"
+              },
+              "XA": {
+                "C": "C"
+              },
+              "AC": {
+                "T": "T"
+              },
+              "CT": {
+                "L": "L"
+              },
+              "TL": {
+                "O": "O"
+              },
+              "YW": {
+                "W": "W"
+              },
+              "WW": {
+                "T": "T"
+              },
+              "WT": {
+                "H": "H"
+              },
+              "SW": {
+                "A": "A",
+                "E": "E"
+              },
+              "TM": {
+                "E": "E",
+                "I": "I"
+              },
+              "SA": {
+                "G": "G"
+              },
+              "GE": {
+                "X": "X"
+              },
+              "IR": {
+                "T": "T"
+              },
+              "TY": {
+                "E": "E",
+                "S": "S",
+                "F": "F"
+              },
+              "YE": {
+                "I": "I"
+              },
+              "IG": {
+                "H": "H"
+              },
+              "GH": {
+                "T": "T"
+              },
+              "HT": {
+                "D": "D",
+                "M": "M"
+              },
+              "TD": {
+                "E": "E"
+              },
+              "EG": {
+                "R": "R"
+              },
+              "SF": {
+                "I": "I",
+                "O": "O"
+              },
+              "IF": {
+                "T": "T"
+              },
+              "FT": {
+                "Y": "Y"
+              },
+              "EV": {
+                "E": "E"
+              },
+              "VE": {
+                "N": "N",
+                "S": "S"
+              },
+              "EN": {
+                "M": "M",
+                "T": "T",
+                "D": "D"
+              },
+              "NM": {
+                "I": "I"
+              },
+              "IX": {
+                "P": "P"
+              },
+              "XP": {
+                "O": "O"
+              },
+              "OI": {
+                "N": "N"
+              },
+              "NT": {
+                "F": "F",
+                "Y": "Y"
+              },
+              "TF": {
+                "I": "I"
+              },
+              "IV": {
+                "E": "E"
+              },
+              "EC": {
+                "O": "O"
+              },
+              "CO": {
+                "N": "N"
+              },
+              "DS": {
+                "N": "N",
+                "W": "W"
+              },
+              "SN": {
+                "O": "O"
+              },
+              "YF": {
+                "O": "O"
+              },
+              "RS": {
+                "E": "E"
+              },
+              "WE": {
+                "S": "S"
+              },
+              "ID": {
+                "B": "B"
+              },
+              "DB": {
+                "Y": "Y"
+              },
+              "BY": {
+                "R": "R"
+              },
+              "YR": {
+                "O": "O"
+              }
+            },
+            "processed_sites": 369,
+            "reachable_contexts": 703,
+            "observed_contexts": 172,
+            "unfixed_context_input_entries": 17992,
+            "completion_prime_exponents": {
+              "2": 15911,
+              "3": 7001,
+              "5": 4076,
+              "7": 2108,
+              "11": 1404,
+              "13": 1234,
+              "17": 703,
+              "19": 703,
+              "23": 691
+            },
+            "log10_completion_count": 18302.127305921393
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 10,
+            "forced_conflicting_sites": 0,
+            "unconstrained_sites": 53,
+            "first_conflicts": []
+          }
+        }
+      ]
+    },
+    {
+      "role": "normal_to_literal",
+      "source_memory": 2,
+      "scan_direction": "right_to_left",
+      "fit": {
+        "compatible": true,
+        "tables": {
+          "^^": {
+            "N": "N",
+            "S": "S"
+          },
+          "^N": {
+            "O": "O"
+          },
+          "NO": {
+            "I": "I",
+            "C": "C",
+            "N": "N"
+          },
+          "OI": {
+            "S": "S",
+            "T": "T"
+          },
+          "IS": {
+            "U": "U",
+            "S": "S",
+            "I": "I"
+          },
+          "SU": {
+            "L": "L",
+            "Y": "Y"
+          },
+          "UL": {
+            "L": "Q"
+          },
+          "LL": {
+            "I": "I",
+            "A": "A"
+          },
+          "LI": {
+            "F": "F"
+          },
+          "IF": {
+            "O": "O",
+            "T": "T",
+            "S": "S",
+            "C": "C"
+          },
+          "FO": {
+            "E": "E"
+          },
+          "OE": {
+            "C": "C"
+          },
+          "EC": {
+            "N": "N"
+          },
+          "CN": {
+            "A": "A",
+            "E": "E"
+          },
+          "NA": {
+            "U": "U",
+            "G": "G",
+            "L": "L",
+            "O": "O",
+            "R": "R",
+            "D": "D"
+          },
+          "AU": {
+            "N": "N"
+          },
+          "UN": {
+            "E": "E",
+            "I": "I",
+            "A": "A"
+          },
+          "NE": {
+            "H": "H",
+            "S": "S",
+            "E": "E",
+            "V": "V"
+          },
+          "EH": {
+            "T": "T",
+            "W": "W"
+          },
+          "HT": {
+            "S": "S",
+            "D": "D",
+            "R": "R",
+            "X": "X",
+            "W": "W",
+            "T": "T",
+            "A": "A",
+            "E": "E"
+          },
+          "TS": {
+            "E": "E",
+            "A": "A",
+            "W": "W",
+            "I": "I"
+          },
+          "SE": {
+            "I": "I",
+            "L": "L",
+            "W": "W",
+            "T": "T",
+            "E": "E",
+            "V": "V",
+            "M": "M",
+            "R": "R",
+            "O": "O"
+          },
+          "EI": {
+            "L": "L",
+            "R": "R",
+            "F": "F"
+          },
+          "IL": {
+            "T": "T",
+            "F": "F"
+          },
+          "LT": {
+            "H": "H",
+            "B": "B",
+            "C": "C"
+          },
+          "TH": {
+            "G": "G"
+          },
+          "HG": {
+            "I": "I"
+          },
+          "GI": {
+            "L": "L",
+            "E": "E"
+          },
+          "LF": {
+            "O": "O"
+          },
+          "ES": {
+            "B": "B",
+            "R": "R",
+            "E": "E",
+            "Y": "Y",
+            "H": "H",
+            "U": "U"
+          },
+          "SB": {
+            "A": "A"
+          },
+          "BA": {
+            "E": "E",
+            "W": "W"
+          },
+          "AE": {
+            "H": "H",
+            "E": "E"
+          },
+          "TD": {
+            "N": "N",
+            "E": "E"
+          },
+          "DN": {
+            "A": "A",
+            "O": "O",
+            "E": "E",
+            "U": "U"
+          },
+          "AG": {
+            "N": "N",
+            "S": "S"
+          },
+          "GN": {
+            "I": "I",
+            "A": "A"
+          },
+          "NI": {
+            "D": "D",
+            "M": "M",
+            "O": "O",
+            "E": "E",
+            "Y": "Y"
+          },
+          "ID": {
+            "A": "A",
+            "L": "L"
+          },
+          "DA": {
+            "H": "H"
+          },
+          "AH": {
+            "S": "S",
+            "T": "T"
+          },
+          "HS": {
+            "E": "E",
+            "A": "A",
+            "Y": "Y"
+          },
+          "EL": {
+            "T": "T",
+            "G": "G",
+            "B": "B"
+          },
+          "TB": {
+            "U": "U"
+          },
+          "BU": {
+            "S": "S"
+          },
+          "US": {
+            "N": "N"
+          },
+          "SN": {
+            "E": "E",
+            "A": "A"
+          },
+          "EE": {
+            "W": "W",
+            "R": "R",
+            "H": "H"
+          },
+          "EW": {
+            "T": "T",
+            "S": "S"
+          },
+          "WT": {
+            "E": "E",
+            "I": "I"
+          },
+          "TE": {
+            "B": "B",
+            "N": "N",
+            "L": "L"
+          },
+          "^S": {
+            "W": "W"
+          },
+          "SW": {
+            "O": "O"
+          },
+          "WO": {
+            "R": "R",
+            "N": "N",
+            "H": "H"
+          },
+          "OR": {
+            "Y": "Y",
+            "G": "G"
+          },
+          "RY": {
+            "B": "B"
+          },
+          "YB": {
+            "D": "D"
+          },
+          "BD": {
+            "I": "I"
+          },
+          "DI": {
+            "T": "T"
+          },
+          "IT": {
+            "S": "S",
+            "A": "A",
+            "E": "E"
+          },
+          "WS": {
+            "D": "D",
+            "I": "I"
+          },
+          "SD": {
+            "N": "N"
+          },
+          "OC": {
+            "E": "E"
+          },
+          "CE": {
+            "S": "S"
+          },
+          "SR": {
+            "U": "U"
+          },
+          "RU": {
+            "O": "O",
+            "B": "B"
+          },
+          "UO": {
+            "F": "F",
+            "D": "D",
+            "H": "H",
+            "B": "B",
+            "R": "R"
+          },
+          "OF": {
+            "Y": "Y",
+            "S": "S",
+            "N": "N"
+          },
+          "FY": {
+            "T": "T"
+          },
+          "YT": {
+            "R": "R",
+            "N": "N",
+            "F": "F"
+          },
+          "TR": {
+            "O": "O",
+            "I": "I",
+            "A": "A"
+          },
+          "RO": {
+            "F": "F",
+            "N": "N"
+          },
+          "FS": {
+            "E": "E"
+          },
+          "ET": {
+            "U": "U",
+            "T": "T"
+          },
+          "TU": {
+            "N": "N",
+            "O": "O"
+          },
+          "IM": {
+            "T": "T",
+            "N": "N",
+            "S": "S"
+          },
+          "MT": {
+            "H": "H",
+            "S": "S"
+          },
+          "IE": {
+            "S": "S",
+            "Y": "Y",
+            "H": "H"
+          },
+          "ER": {
+            "G": "G",
+            "E": "E"
+          },
+          "RG": {
+            "E": "E",
+            "R": "R"
+          },
+          "GE": {
+            "D": "D"
+          },
+          "ED": {
+            "N": "N",
+            "T": "T"
+          },
+          "EV": {
+            "E": "E",
+            "I": "I"
+          },
+          "VE": {
+            "S": "S"
+          },
+          "SY": {
+            "T": "T",
+            "E": "E"
+          },
+          "TN": {
+            "E": "E",
+            "I": "I"
+          },
+          "SH": {
+            "T": "T"
+          },
+          "ON": {
+            "S": "S",
+            "O": "O",
+            "K": "K"
+          },
+          "NS": {
+            "D": "D"
+          },
+          "VI": {
+            "F": "F"
+          },
+          "FT": {
+            "N": "N"
+          },
+          "IO": {
+            "P": "P"
+          },
+          "OP": {
+            "X": "X",
+            "T": "T"
+          },
+          "PX": {
+            "I": "I"
+          },
+          "XI": {
+            "S": "S"
+          },
+          "SS": {
+            "E": "E",
+            "O": "O"
+          },
+          "MN": {
+            "E": "E"
+          },
+          "TF": {
+            "I": "I"
+          },
+          "FI": {
+            "F": "F"
+          },
+          "DT": {
+            "H": "H"
+          },
+          "EY": {
+            "T": "T"
+          },
+          "RI": {
+            "H": "H"
+          },
+          "IH": {
+            "T": "T",
+            "S": "S"
+          },
+          "TX": {
+            "E": "E",
+            "D": "D"
+          },
+          "XE": {
+            "G": "G",
+            "E": "E",
+            "R": "R"
+          },
+          "EG": {
+            "A": "A"
+          },
+          "GA": {
+            "S": "S",
+            "M": "M"
+          },
+          "AS": {
+            "S": "S"
+          },
+          "EM": {
+            "T": "T",
+            "O": "O"
+          },
+          "SA": {
+            "L": "L",
+            "W": "W"
+          },
+          "AL": {
+            "S": "S"
+          },
+          "LS": {
+            "I": "I",
+            "E": "E"
+          },
+          "SI": {
+            "H": "H",
+            "V": "V"
+          },
+          "AW": {
+            "S": "S",
+            "O": "O",
+            "N": "N",
+            "T": "T"
+          },
+          "TW": {
+            "W": "W"
+          },
+          "WW": {
+            "Y": "Y"
+          },
+          "WY": {
+            "L": "L"
+          },
+          "YL": {
+            "N": "N",
+            "L": "L"
+          },
+          "LN": {
+            "O": "O",
+            "W": "W"
+          },
+          "TA": {
+            "C": "C",
+            "G": "G",
+            "M": "M",
+            "H": "H"
+          },
+          "AC": {
+            "O": "O"
+          },
+          "CO": {
+            "L": "L"
+          },
+          "OL": {
+            "T": "T",
+            "N": "N"
+          },
+          "TC": {
+            "A": "A"
+          },
+          "CA": {
+            "X": "X"
+          },
+          "AX": {
+            "E": "E"
+          },
+          "NK": {
+            "O": "O",
+            "Y": "Y",
+            "N": "N"
+          },
+          "KO": {
+            "H": "H"
+          },
+          "OH": {
+            "W": "W",
+            "S": "S",
+            "E": "E"
+          },
+          "HW": {
+            "X": "X",
+            "E": "E"
+          },
+          "WX": {
+            "E": "E"
+          },
+          "RE": {
+            "H": "H",
+            "D": "D"
+          },
+          "WE": {
+            "M": "M"
+          },
+          "MO": {
+            "S": "S"
+          },
+          "OS": {
+            "E": "E"
+          },
+          "TT": {
+            "U": "U",
+            "I": "I"
+          },
+          "OD": {
+            "E": "E",
+            "X": "X"
+          },
+          "DE": {
+            "I": "I",
+            "T": "T",
+            "R": "R",
+            "S": "S"
+          },
+          "IR": {
+            "U": "U"
+          },
+          "UB": {
+            "S": "S"
+          },
+          "BS": {
+            "T": "T"
+          },
+          "ST": {
+            "I": "I"
+          },
+          "TI": {
+            "D": "D",
+            "M": "M"
+          },
+          "DL": {
+            "U": "U",
+            "E": "E"
+          },
+          "LU": {
+            "O": "O"
+          },
+          "YE": {
+            "H": "H",
+            "L": "L"
+          },
+          "OB": {
+            "A": "A"
+          },
+          "KY": {
+            "E": "E"
+          },
+          "LG": {
+            "N": "N"
+          },
+          "EO": {
+            "D": "D"
+          },
+          "DX": {
+            "N": "N"
+          },
+          "XN": {
+            "O": "O"
+          },
+          "NW": {
+            "O": "O"
+          },
+          "KN": {
+            "U": "U"
+          },
+          "NU": {
+            "N": "N",
+            "O": "U",
+            "D": "D"
+          },
+          "AO": {
+            "T": "T"
+          },
+          "OT": {
+            "D": "D",
+            "S": "S"
+          },
+          "GR": {
+            "E": "E"
+          },
+          "UD": {
+            "E": "E"
+          },
+          "MS": {
+            "N": "N",
+            "H": "H"
+          },
+          "AR": {
+            "T": "T"
+          },
+          "RT": {
+            "D": "D"
+          },
+          "AD": {
+            "E": "E"
+          },
+          "GS": {
+            "A": "A"
+          },
+          "WN": {
+            "O": "O"
+          },
+          "AM": {
+            "R": "R",
+            "S": "S"
+          },
+          "MR": {
+            "O": "O"
+          },
+          "FN": {
+            "I": "I"
+          },
+          "XD": {
+            "L": "L"
+          },
+          "LE": {
+            "I": "I"
+          },
+          "FC": {
+            "I": "I"
+          },
+          "CI": {
+            "T": "T"
+          },
+          "EN": {
+            "G": "G"
+          },
+          "NG": {
+            "A": "A"
+          },
+          "RA": {
+            "E": "E"
+          },
+          "UY": {
+            "E": "E"
+          },
+          "LB": {
+            "I": "I"
+          },
+          "BI": {
+            "S": "S"
+          },
+          "SO": {
+            "P": "P"
+          },
+          "PT": {
+            "A": "A"
+          },
+          "HE": {
+            "L": "L"
+          },
+          "IV": {
+            "N": "N"
+          },
+          "VN": {
+            "I": "I"
+          },
+          "IY": {
+            "L": "L"
+          },
+          "LA": {
+            "T": "T"
+          },
+          "AT": {
+            "O": "O"
+          },
+          "TO": {
+            "T": "T"
+          }
+        },
+        "processed_sites": 432,
+        "reachable_contexts": 703,
+        "observed_contexts": 187,
+        "unfixed_context_input_entries": 17942,
+        "completion_prime_exponents": {
+          "2": 15869,
+          "3": 6990,
+          "5": 4042,
+          "7": 2105,
+          "11": 1400,
+          "13": 1219,
+          "17": 703,
+          "19": 701,
+          "23": 690
+        },
+        "log10_completion_count": 18233.14148197097
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^^": {
+                "N": "N"
+              },
+              "^N": {
+                "O": "O"
+              },
+              "NO": {
+                "I": "I"
+              },
+              "OI": {
+                "S": "S"
+              },
+              "IS": {
+                "U": "U"
+              },
+              "SU": {
+                "L": "L"
+              },
+              "UL": {
+                "L": "Q"
+              },
+              "LL": {
+                "I": "I"
+              },
+              "LI": {
+                "F": "F"
+              },
+              "IF": {
+                "O": "O"
+              },
+              "FO": {
+                "E": "E"
+              },
+              "OE": {
+                "C": "C"
+              },
+              "EC": {
+                "N": "N"
+              },
+              "CN": {
+                "A": "A",
+                "E": "E"
+              },
+              "NA": {
+                "U": "U",
+                "G": "G"
+              },
+              "AU": {
+                "N": "N"
+              },
+              "UN": {
+                "E": "E"
+              },
+              "NE": {
+                "H": "H",
+                "S": "S",
+                "E": "E"
+              },
+              "EH": {
+                "T": "T"
+              },
+              "HT": {
+                "S": "S",
+                "D": "D"
+              },
+              "TS": {
+                "E": "E"
+              },
+              "SE": {
+                "I": "I",
+                "L": "L"
+              },
+              "EI": {
+                "L": "L"
+              },
+              "IL": {
+                "T": "T",
+                "F": "F"
+              },
+              "LT": {
+                "H": "H",
+                "B": "B"
+              },
+              "TH": {
+                "G": "G"
+              },
+              "HG": {
+                "I": "I"
+              },
+              "GI": {
+                "L": "L"
+              },
+              "LF": {
+                "O": "O"
+              },
+              "ES": {
+                "B": "B"
+              },
+              "SB": {
+                "A": "A"
+              },
+              "BA": {
+                "E": "E"
+              },
+              "AE": {
+                "H": "H"
+              },
+              "TD": {
+                "N": "N"
+              },
+              "DN": {
+                "A": "A"
+              },
+              "AG": {
+                "N": "N"
+              },
+              "GN": {
+                "I": "I"
+              },
+              "NI": {
+                "D": "D"
+              },
+              "ID": {
+                "A": "A"
+              },
+              "DA": {
+                "H": "H"
+              },
+              "AH": {
+                "S": "S"
+              },
+              "HS": {
+                "E": "E"
+              },
+              "EL": {
+                "T": "T"
+              },
+              "TB": {
+                "U": "U"
+              },
+              "BU": {
+                "S": "S"
+              },
+              "US": {
+                "N": "N"
+              },
+              "SN": {
+                "E": "E"
+              },
+              "EE": {
+                "W": "W"
+              },
+              "EW": {
+                "T": "T"
+              },
+              "WT": {
+                "E": "E"
+              },
+              "TE": {
+                "B": "B"
+              }
+            },
+            "processed_sites": 63,
+            "reachable_contexts": 703,
+            "observed_contexts": 51,
+            "unfixed_context_input_entries": 18219,
+            "completion_prime_exponents": {
+              "2": 16115,
+              "3": 7029,
+              "5": 4204,
+              "7": 2109,
+              "11": 1406,
+              "13": 1355,
+              "17": 703,
+              "19": 703,
+              "23": 703
+            },
+            "log10_completion_count": 18620.42074379573
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 22,
+            "forced_conflicting_sites": 0,
+            "unconstrained_sites": 347,
+            "first_conflicts": []
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^^": {
+                "S": "S"
+              },
+              "^S": {
+                "W": "W"
+              },
+              "SW": {
+                "O": "O"
+              },
+              "WO": {
+                "R": "R",
+                "N": "N",
+                "H": "H"
+              },
+              "OR": {
+                "Y": "Y",
+                "G": "G"
+              },
+              "RY": {
+                "B": "B"
+              },
+              "YB": {
+                "D": "D"
+              },
+              "BD": {
+                "I": "I"
+              },
+              "DI": {
+                "T": "T"
+              },
+              "IT": {
+                "S": "S",
+                "A": "A",
+                "E": "E"
+              },
+              "TS": {
+                "E": "E",
+                "A": "A",
+                "W": "W",
+                "I": "I"
+              },
+              "SE": {
+                "W": "W",
+                "T": "T",
+                "E": "E",
+                "V": "V",
+                "M": "M",
+                "R": "R",
+                "O": "O"
+              },
+              "EW": {
+                "S": "S"
+              },
+              "WS": {
+                "D": "D",
+                "I": "I"
+              },
+              "SD": {
+                "N": "N"
+              },
+              "DN": {
+                "O": "O",
+                "E": "E",
+                "U": "U",
+                "A": "A"
+              },
+              "NO": {
+                "C": "C",
+                "N": "N",
+                "I": "I"
+              },
+              "OC": {
+                "E": "E"
+              },
+              "CE": {
+                "S": "S"
+              },
+              "ES": {
+                "R": "R",
+                "E": "E",
+                "Y": "Y",
+                "H": "H",
+                "U": "U"
+              },
+              "SR": {
+                "U": "U"
+              },
+              "RU": {
+                "O": "O",
+                "B": "B"
+              },
+              "UO": {
+                "F": "F",
+                "D": "D",
+                "H": "H",
+                "B": "B",
+                "R": "R"
+              },
+              "OF": {
+                "Y": "Y",
+                "S": "S",
+                "N": "N"
+              },
+              "FY": {
+                "T": "T"
+              },
+              "YT": {
+                "R": "R",
+                "N": "N",
+                "F": "F"
+              },
+              "TR": {
+                "O": "O",
+                "I": "I",
+                "A": "A"
+              },
+              "RO": {
+                "F": "F",
+                "N": "N"
+              },
+              "FS": {
+                "E": "E"
+              },
+              "ET": {
+                "U": "U",
+                "T": "T"
+              },
+              "TU": {
+                "N": "N",
+                "O": "O"
+              },
+              "UN": {
+                "I": "I",
+                "A": "A"
+              },
+              "NI": {
+                "M": "M",
+                "O": "O",
+                "E": "E",
+                "Y": "Y"
+              },
+              "IM": {
+                "T": "T",
+                "N": "N",
+                "S": "S"
+              },
+              "MT": {
+                "H": "H",
+                "S": "S"
+              },
+              "TH": {
+                "G": "G"
+              },
+              "HG": {
+                "I": "I"
+              },
+              "GI": {
+                "E": "E"
+              },
+              "IE": {
+                "S": "S",
+                "Y": "Y",
+                "H": "H"
+              },
+              "EE": {
+                "R": "R",
+                "H": "H"
+              },
+              "ER": {
+                "G": "G",
+                "E": "E"
+              },
+              "RG": {
+                "E": "E",
+                "R": "R"
+              },
+              "GE": {
+                "D": "D"
+              },
+              "ED": {
+                "N": "N",
+                "T": "T"
+              },
+              "NE": {
+                "V": "V"
+              },
+              "EV": {
+                "E": "E",
+                "I": "I"
+              },
+              "VE": {
+                "S": "S"
+              },
+              "SY": {
+                "T": "T",
+                "E": "E"
+              },
+              "TN": {
+                "E": "E",
+                "I": "I"
+              },
+              "SH": {
+                "T": "T"
+              },
+              "HT": {
+                "R": "R",
+                "X": "X",
+                "W": "W",
+                "S": "S",
+                "T": "T",
+                "A": "A",
+                "D": "D",
+                "E": "E"
+              },
+              "ON": {
+                "S": "S",
+                "O": "O",
+                "K": "K"
+              },
+              "NS": {
+                "D": "D"
+              },
+              "VI": {
+                "F": "F"
+              },
+              "IF": {
+                "T": "T",
+                "S": "S",
+                "C": "C"
+              },
+              "FT": {
+                "N": "N"
+              },
+              "IO": {
+                "P": "P"
+              },
+              "OP": {
+                "X": "X",
+                "T": "T"
+              },
+              "PX": {
+                "I": "I"
+              },
+              "XI": {
+                "S": "S"
+              },
+              "IS": {
+                "S": "S",
+                "I": "I"
+              },
+              "SS": {
+                "E": "E",
+                "O": "O"
+              },
+              "MN": {
+                "E": "E"
+              },
+              "TF": {
+                "I": "I"
+              },
+              "FI": {
+                "F": "F"
+              },
+              "DT": {
+                "H": "H"
+              },
+              "EY": {
+                "T": "T"
+              },
+              "RI": {
+                "H": "H"
+              },
+              "IH": {
+                "T": "T",
+                "S": "S"
+              },
+              "TX": {
+                "E": "E",
+                "D": "D"
+              },
+              "XE": {
+                "G": "G",
+                "E": "E",
+                "R": "R"
+              },
+              "EG": {
+                "A": "A"
+              },
+              "GA": {
+                "S": "S",
+                "M": "M"
+              },
+              "AS": {
+                "S": "S"
+              },
+              "EM": {
+                "T": "T",
+                "O": "O"
+              },
+              "SA": {
+                "L": "L",
+                "W": "W"
+              },
+              "AL": {
+                "S": "S"
+              },
+              "LS": {
+                "I": "I",
+                "E": "E"
+              },
+              "SI": {
+                "H": "H",
+                "V": "V"
+              },
+              "HS": {
+                "A": "A",
+                "Y": "Y"
+              },
+              "AW": {
+                "S": "S",
+                "O": "O",
+                "N": "N",
+                "T": "T"
+              },
+              "TW": {
+                "W": "W"
+              },
+              "WW": {
+                "Y": "Y"
+              },
+              "WY": {
+                "L": "L"
+              },
+              "YL": {
+                "N": "N",
+                "L": "L"
+              },
+              "LN": {
+                "O": "O",
+                "W": "W"
+              },
+              "OI": {
+                "T": "T"
+              },
+              "TA": {
+                "C": "C",
+                "G": "G",
+                "M": "M",
+                "H": "H"
+              },
+              "AC": {
+                "O": "O"
+              },
+              "CO": {
+                "L": "L"
+              },
+              "OL": {
+                "T": "T",
+                "N": "N"
+              },
+              "LT": {
+                "C": "C"
+              },
+              "TC": {
+                "A": "A"
+              },
+              "CA": {
+                "X": "X"
+              },
+              "AX": {
+                "E": "E"
+              },
+              "EH": {
+                "T": "T",
+                "W": "W"
+              },
+              "NK": {
+                "O": "O",
+                "Y": "Y",
+                "N": "N"
+              },
+              "KO": {
+                "H": "H"
+              },
+              "OH": {
+                "W": "W",
+                "S": "S",
+                "E": "E"
+              },
+              "HW": {
+                "X": "X",
+                "E": "E"
+              },
+              "WX": {
+                "E": "E"
+              },
+              "RE": {
+                "H": "H",
+                "D": "D"
+              },
+              "WE": {
+                "M": "M"
+              },
+              "MO": {
+                "S": "S"
+              },
+              "OS": {
+                "E": "E"
+              },
+              "TT": {
+                "U": "U",
+                "I": "I"
+              },
+              "OD": {
+                "E": "E",
+                "X": "X"
+              },
+              "DE": {
+                "I": "I",
+                "T": "T",
+                "R": "R",
+                "S": "S"
+              },
+              "EI": {
+                "R": "R",
+                "F": "F"
+              },
+              "IR": {
+                "U": "U"
+              },
+              "UB": {
+                "S": "S"
+              },
+              "BS": {
+                "T": "T"
+              },
+              "ST": {
+                "I": "I"
+              },
+              "TI": {
+                "D": "D",
+                "M": "M"
+              },
+              "ID": {
+                "L": "L"
+              },
+              "DL": {
+                "U": "U",
+                "E": "E"
+              },
+              "LU": {
+                "O": "O"
+              },
+              "YE": {
+                "H": "H",
+                "L": "L"
+              },
+              "OB": {
+                "A": "A"
+              },
+              "BA": {
+                "W": "W"
+              },
+              "KY": {
+                "E": "E"
+              },
+              "EL": {
+                "G": "G",
+                "B": "B"
+              },
+              "LG": {
+                "N": "N"
+              },
+              "GN": {
+                "A": "A"
+              },
+              "NA": {
+                "L": "L",
+                "O": "O",
+                "R": "R",
+                "D": "D"
+              },
+              "EO": {
+                "D": "D"
+              },
+              "DX": {
+                "N": "N"
+              },
+              "XN": {
+                "O": "O"
+              },
+              "NW": {
+                "O": "O"
+              },
+              "KN": {
+                "U": "U"
+              },
+              "NU": {
+                "N": "N",
+                "O": "U",
+                "D": "D"
+              },
+              "AO": {
+                "T": "T"
+              },
+              "OT": {
+                "D": "D",
+                "S": "S"
+              },
+              "TD": {
+                "N": "N",
+                "E": "E"
+              },
+              "GR": {
+                "E": "E"
+              },
+              "UD": {
+                "E": "E"
+              },
+              "MS": {
+                "N": "N",
+                "H": "H"
+              },
+              "SN": {
+                "A": "A"
+              },
+              "AR": {
+                "T": "T"
+              },
+              "RT": {
+                "D": "D"
+              },
+              "AD": {
+                "E": "E"
+              },
+              "AG": {
+                "S": "S"
+              },
+              "GS": {
+                "A": "A"
+              },
+              "WN": {
+                "O": "O"
+              },
+              "AM": {
+                "R": "R",
+                "S": "S"
+              },
+              "MR": {
+                "O": "O"
+              },
+              "FN": {
+                "I": "I"
+              },
+              "XD": {
+                "L": "L"
+              },
+              "LE": {
+                "I": "I"
+              },
+              "FC": {
+                "I": "I"
+              },
+              "CI": {
+                "T": "T"
+              },
+              "TE": {
+                "N": "N",
+                "L": "L"
+              },
+              "EN": {
+                "G": "G"
+              },
+              "NG": {
+                "A": "A"
+              },
+              "RA": {
+                "E": "E"
+              },
+              "AE": {
+                "E": "E"
+              },
+              "SU": {
+                "Y": "Y"
+              },
+              "UY": {
+                "E": "E"
+              },
+              "LB": {
+                "I": "I"
+              },
+              "BI": {
+                "S": "S"
+              },
+              "SO": {
+                "P": "P"
+              },
+              "PT": {
+                "A": "A"
+              },
+              "AH": {
+                "T": "T"
+              },
+              "HE": {
+                "L": "L"
+              },
+              "IV": {
+                "N": "N"
+              },
+              "VN": {
+                "I": "I"
+              },
+              "IY": {
+                "L": "L"
+              },
+              "LL": {
+                "A": "A"
+              },
+              "LA": {
+                "T": "T"
+              },
+              "AT": {
+                "O": "O"
+              },
+              "TO": {
+                "T": "T"
+              },
+              "WT": {
+                "I": "I"
+              }
+            },
+            "processed_sites": 369,
+            "reachable_contexts": 703,
+            "observed_contexts": 172,
+            "unfixed_context_input_entries": 17992,
+            "completion_prime_exponents": {
+              "2": 15914,
+              "3": 7003,
+              "5": 4078,
+              "7": 2107,
+              "11": 1402,
+              "13": 1234,
+              "17": 703,
+              "19": 702,
+              "23": 692
+            },
+            "log10_completion_count": 18302.537669251236
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 10,
+            "forced_conflicting_sites": 0,
+            "unconstrained_sites": 53,
+            "first_conflicts": []
+          }
+        }
+      ]
+    },
+    {
+      "role": "literal_to_normal",
+      "source_memory": 0,
+      "scan_direction": "left_to_right",
+      "fit": {
+        "compatible": false,
+        "reason": "same context requires noninjective outputs",
+        "witness": [
+          {
+            "stream": "K1",
+            "index_zero_based": 40,
+            "context": "",
+            "source": "L",
+            "target": "L"
+          },
+          {
+            "stream": "K1",
+            "index_zero_based": 56,
+            "context": "",
+            "source": "Q",
+            "target": "L"
+          }
+        ],
+        "processed_sites": 57
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": false,
+            "reason": "same context requires noninjective outputs",
+            "witness": [
+              {
+                "stream": "K1",
+                "index_zero_based": 40,
+                "context": "",
+                "source": "L",
+                "target": "L"
+              },
+              {
+                "stream": "K1",
+                "index_zero_based": 56,
+                "context": "",
+                "source": "Q",
+                "target": "L"
+              }
+            ],
+            "processed_sites": 57
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": false,
+            "reason": "same context/input needs different outputs",
+            "witness": [
+              {
+                "stream": "K2",
+                "index_zero_based": 107,
+                "context": "",
+                "source": "U",
+                "target": "U"
+              },
+              {
+                "stream": "K2",
+                "index_zero_based": 114,
+                "context": "",
+                "source": "U",
+                "target": "O"
+              }
+            ],
+            "processed_sites": 115
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        }
+      ]
+    },
+    {
+      "role": "literal_to_normal",
+      "source_memory": 0,
+      "scan_direction": "right_to_left",
+      "fit": {
+        "compatible": false,
+        "reason": "same context requires noninjective outputs",
+        "witness": [
+          {
+            "stream": "K1",
+            "index_zero_based": 57,
+            "context": "",
+            "source": "L",
+            "target": "L"
+          },
+          {
+            "stream": "K1",
+            "index_zero_based": 56,
+            "context": "",
+            "source": "Q",
+            "target": "L"
+          }
+        ],
+        "processed_sites": 7
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": false,
+            "reason": "same context requires noninjective outputs",
+            "witness": [
+              {
+                "stream": "K1",
+                "index_zero_based": 57,
+                "context": "",
+                "source": "L",
+                "target": "L"
+              },
+              {
+                "stream": "K1",
+                "index_zero_based": 56,
+                "context": "",
+                "source": "Q",
+                "target": "L"
+              }
+            ],
+            "processed_sites": 7
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": false,
+            "reason": "same context/input needs different outputs",
+            "witness": [
+              {
+                "stream": "K2",
+                "index_zero_based": 115,
+                "context": "",
+                "source": "U",
+                "target": "U"
+              },
+              {
+                "stream": "K2",
+                "index_zero_based": 114,
+                "context": "",
+                "source": "U",
+                "target": "O"
+              }
+            ],
+            "processed_sites": 255
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        }
+      ]
+    },
+    {
+      "role": "literal_to_normal",
+      "source_memory": 1,
+      "scan_direction": "left_to_right",
+      "fit": {
+        "compatible": false,
+        "reason": "same context requires noninjective outputs",
+        "witness": [
+          {
+            "stream": "K2",
+            "index_zero_based": 114,
+            "context": "R",
+            "source": "U",
+            "target": "O"
+          },
+          {
+            "stream": "K2",
+            "index_zero_based": 366,
+            "context": "R",
+            "source": "O",
+            "target": "O"
+          }
+        ],
+        "processed_sites": 430
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^": {
+                "B": "B"
+              },
+              "B": {
+                "E": "E",
+                "T": "T",
+                "S": "S"
+              },
+              "E": {
+                "T": "T",
+                "E": "E",
+                "N": "N",
+                "S": "S",
+                "A": "A",
+                "O": "O"
+              },
+              "T": {
+                "W": "W",
+                "L": "L",
+                "H": "H"
+              },
+              "W": {
+                "E": "E"
+              },
+              "N": {
+                "S": "S",
+                "G": "G",
+                "D": "D",
+                "C": "C",
+                "U": "U"
+              },
+              "S": {
+                "U": "U",
+                "H": "H",
+                "E": "E",
+                "T": "T",
+                "I": "I"
+              },
+              "U": {
+                "B": "B",
+                "A": "A",
+                "S": "S"
+              },
+              "L": {
+                "E": "E",
+                "I": "I",
+                "U": "U"
+              },
+              "H": {
+                "A": "A",
+                "E": "E",
+                "T": "T"
+              },
+              "A": {
+                "D": "D",
+                "N": "N",
+                "B": "B"
+              },
+              "D": {
+                "I": "I",
+                "T": "T"
+              },
+              "I": {
+                "N": "N",
+                "G": "G",
+                "E": "E",
+                "Q": "L",
+                "O": "O"
+              },
+              "G": {
+                "A": "A",
+                "H": "H"
+              },
+              "C": {
+                "E": "E"
+              },
+              "O": {
+                "F": "F",
+                "N": "N"
+              },
+              "F": {
+                "L": "L",
+                "I": "I"
+              },
+              "Q": {
+                "L": "L"
+              }
+            },
+            "processed_sites": 63,
+            "reachable_contexts": 27,
+            "observed_contexts": 18,
+            "unfixed_context_input_entries": 651,
+            "completion_prime_exponents": {
+              "2": 569,
+              "3": 259,
+              "5": 134,
+              "7": 80,
+              "11": 50,
+              "13": 36,
+              "17": 27,
+              "19": 27,
+              "23": 23
+            },
+            "log10_completion_count": 647.3700995596668
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 112,
+            "forced_conflicting_sites": 0,
+            "unconstrained_sites": 257,
+            "first_conflicts": []
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": false,
+            "reason": "same context requires noninjective outputs",
+            "witness": [
+              {
+                "stream": "K2",
+                "index_zero_based": 114,
+                "context": "R",
+                "source": "U",
+                "target": "O"
+              },
+              {
+                "stream": "K2",
+                "index_zero_based": 366,
+                "context": "R",
+                "source": "O",
+                "target": "O"
+              }
+            ],
+            "processed_sites": 367
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        }
+      ]
+    },
+    {
+      "role": "literal_to_normal",
+      "source_memory": 1,
+      "scan_direction": "right_to_left",
+      "fit": {
+        "compatible": false,
+        "reason": "same context requires noninjective outputs",
+        "witness": [
+          {
+            "stream": "K2",
+            "index_zero_based": 155,
+            "context": "U",
+            "source": "O",
+            "target": "O"
+          },
+          {
+            "stream": "K2",
+            "index_zero_based": 114,
+            "context": "U",
+            "source": "U",
+            "target": "O"
+          }
+        ],
+        "processed_sites": 318
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^": {
+                "N": "N"
+              },
+              "N": {
+                "O": "O",
+                "A": "A",
+                "E": "E",
+                "I": "I"
+              },
+              "O": {
+                "I": "I",
+                "E": "E"
+              },
+              "I": {
+                "S": "S",
+                "F": "F",
+                "L": "L",
+                "D": "D"
+              },
+              "S": {
+                "U": "U",
+                "E": "E",
+                "B": "B",
+                "N": "N"
+              },
+              "U": {
+                "L": "L",
+                "N": "N",
+                "S": "S"
+              },
+              "L": {
+                "Q": "L",
+                "T": "T",
+                "F": "F"
+              },
+              "Q": {
+                "I": "I"
+              },
+              "F": {
+                "O": "O"
+              },
+              "E": {
+                "C": "C",
+                "H": "H",
+                "I": "I",
+                "S": "S",
+                "L": "L",
+                "E": "E",
+                "W": "W",
+                "B": "B"
+              },
+              "C": {
+                "N": "N"
+              },
+              "A": {
+                "U": "U",
+                "E": "E",
+                "G": "G",
+                "H": "H"
+              },
+              "H": {
+                "T": "T",
+                "G": "G",
+                "S": "S"
+              },
+              "T": {
+                "S": "S",
+                "H": "H",
+                "D": "D",
+                "B": "B",
+                "E": "E"
+              },
+              "G": {
+                "I": "I",
+                "N": "N"
+              },
+              "B": {
+                "A": "A",
+                "U": "U"
+              },
+              "D": {
+                "N": "N",
+                "A": "A"
+              },
+              "W": {
+                "T": "T"
+              }
+            },
+            "processed_sites": 63,
+            "reachable_contexts": 27,
+            "observed_contexts": 18,
+            "unfixed_context_input_entries": 651,
+            "completion_prime_exponents": {
+              "2": 572,
+              "3": 260,
+              "5": 135,
+              "7": 80,
+              "11": 52,
+              "13": 36,
+              "17": 27,
+              "19": 26,
+              "23": 21
+            },
+            "log10_completion_count": 647.5298569030427
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 112,
+            "forced_conflicting_sites": 1,
+            "unconstrained_sites": 256,
+            "first_conflicts": [
+              {
+                "stream": "K2",
+                "index_zero_based": 9,
+                "context": "L",
+                "source": "L",
+                "target": "L"
+              }
+            ]
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": false,
+            "reason": "same context requires noninjective outputs",
+            "witness": [
+              {
+                "stream": "K2",
+                "index_zero_based": 155,
+                "context": "U",
+                "source": "O",
+                "target": "O"
+              },
+              {
+                "stream": "K2",
+                "index_zero_based": 114,
+                "context": "U",
+                "source": "U",
+                "target": "O"
+              }
+            ],
+            "processed_sites": 255
+          },
+          "prediction": {
+            "training_compatible": false
+          }
+        }
+      ]
+    },
+    {
+      "role": "literal_to_normal",
+      "source_memory": 2,
+      "scan_direction": "left_to_right",
+      "fit": {
+        "compatible": true,
+        "tables": {
+          "^^": {
+            "B": "B",
+            "I": "I"
+          },
+          "^B": {
+            "E": "E"
+          },
+          "BE": {
+            "T": "T"
+          },
+          "ET": {
+            "W": "W",
+            "H": "H",
+            "I": "I"
+          },
+          "TW": {
+            "E": "E",
+            "A": "A"
+          },
+          "WE": {
+            "E": "E",
+            "S": "S"
+          },
+          "EE": {
+            "N": "N",
+            "A": "A",
+            "X": "X",
+            "S": "S"
+          },
+          "EN": {
+            "S": "S",
+            "C": "C",
+            "U": "U",
+            "M": "M",
+            "T": "T",
+            "D": "D"
+          },
+          "NS": {
+            "U": "U",
+            "M": "M"
+          },
+          "SU": {
+            "B": "B"
+          },
+          "UB": {
+            "T": "T"
+          },
+          "BT": {
+            "L": "L"
+          },
+          "TL": {
+            "E": "E",
+            "I": "I",
+            "O": "O"
+          },
+          "LE": {
+            "S": "S",
+            "H": "H",
+            "T": "T",
+            "Y": "Y"
+          },
+          "ES": {
+            "H": "H",
+            "T": "T",
+            "L": "L",
+            "O": "O",
+            "S": "S",
+            "F": "F",
+            "E": "E"
+          },
+          "SH": {
+            "A": "A",
+            "O": "O",
+            "I": "I"
+          },
+          "HA": {
+            "D": "D",
+            "T": "T"
+          },
+          "AD": {
+            "I": "I"
+          },
+          "DI": {
+            "N": "N",
+            "T": "T"
+          },
+          "IN": {
+            "G": "G",
+            "V": "V",
+            "F": "F",
+            "U": "U",
+            "T": "T"
+          },
+          "NG": {
+            "A": "A",
+            "L": "L"
+          },
+          "GA": {
+            "N": "N",
+            "T": "T"
+          },
+          "AN": {
+            "D": "D",
+            "C": "C",
+            "S": "S",
+            "U": "U",
+            "G": "G"
+          },
+          "ND": {
+            "T": "T",
+            "E": "E",
+            "S": "S"
+          },
+          "DT": {
+            "H": "H",
+            "R": "R",
+            "O": "O"
+          },
+          "TH": {
+            "E": "E",
+            "A": "A",
+            "S": "S",
+            "I": "I"
+          },
+          "HE": {
+            "A": "A",
+            "N": "N",
+            "Y": "Y",
+            "E": "E",
+            "I": "I",
+            "R": "R"
+          },
+          "EA": {
+            "B": "B",
+            "R": "R"
+          },
+          "AB": {
+            "S": "S",
+            "O": "O"
+          },
+          "BS": {
+            "E": "E"
+          },
+          "SE": {
+            "N": "N",
+            "D": "D",
+            "V": "V",
+            "C": "C",
+            "I": "I"
+          },
+          "NC": {
+            "E": "E"
+          },
+          "CE": {
+            "O": "O"
+          },
+          "EO": {
+            "F": "F"
+          },
+          "OF": {
+            "L": "L",
+            "I": "I"
+          },
+          "FL": {
+            "I": "I"
+          },
+          "LI": {
+            "G": "G",
+            "E": "E"
+          },
+          "IG": {
+            "H": "H"
+          },
+          "GH": {
+            "T": "T"
+          },
+          "HT": {
+            "L": "L",
+            "D": "D",
+            "M": "M"
+          },
+          "IE": {
+            "S": "S",
+            "L": "L",
+            "D": "D"
+          },
+          "ST": {
+            "H": "H",
+            "O": "O",
+            "M": "M",
+            "I": "I"
+          },
+          "NU": {
+            "A": "A",
+            "N": "N",
+            "T": "T"
+          },
+          "UA": {
+            "N": "N"
+          },
+          "FI": {
+            "Q": "L",
+            "E": "E",
+            "F": "F",
+            "V": "V"
+          },
+          "IQ": {
+            "L": "L"
+          },
+          "QL": {
+            "U": "U"
+          },
+          "LU": {
+            "S": "S"
+          },
+          "US": {
+            "I": "I",
+            "E": "E"
+          },
+          "SI": {
+            "O": "O",
+            "B": "B",
+            "X": "X"
+          },
+          "IO": {
+            "N": "N"
+          },
+          "^I": {
+            "T": "T"
+          },
+          "IT": {
+            "W": "W",
+            "T": "T",
+            "S": "S"
+          },
+          "WA": {
+            "S": "S",
+            "B": "B"
+          },
+          "AS": {
+            "T": "T",
+            "G": "G",
+            "H": "H"
+          },
+          "TO": {
+            "T": "T",
+            "A": "A"
+          },
+          "OT": {
+            "A": "A"
+          },
+          "TA": {
+            "L": "L"
+          },
+          "AL": {
+            "L": "L"
+          },
+          "LL": {
+            "Y": "Y"
+          },
+          "LY": {
+            "I": "I",
+            "W": "W"
+          },
+          "YI": {
+            "N": "N"
+          },
+          "NV": {
+            "I": "I"
+          },
+          "VI": {
+            "S": "S"
+          },
+          "IS": {
+            "I": "I",
+            "T": "T",
+            "W": "W",
+            "L": "L"
+          },
+          "IB": {
+            "L": "L"
+          },
+          "BL": {
+            "E": "E"
+          },
+          "EH": {
+            "O": "O"
+          },
+          "HO": {
+            "W": "W",
+            "U": "U",
+            "K": "K"
+          },
+          "OW": {
+            "S": "S",
+            "N": "N",
+            "A": "A"
+          },
+          "WS": {
+            "T": "T"
+          },
+          "AT": {
+            "P": "P",
+            "I": "I",
+            "H": "H"
+          },
+          "TP": {
+            "O": "O"
+          },
+          "PO": {
+            "S": "S",
+            "I": "I"
+          },
+          "OS": {
+            "S": "S"
+          },
+          "SS": {
+            "I": "I",
+            "A": "A"
+          },
+          "EY": {
+            "U": "U",
+            "K": "K",
+            "S": "S"
+          },
+          "YU": {
+            "S": "S"
+          },
+          "ED": {
+            "T": "T",
+            "A": "A",
+            "U": "U",
+            "O": "O"
+          },
+          "AR": {
+            "T": "T"
+          },
+          "RT": {
+            "H": "H",
+            "Y": "Y"
+          },
+          "HS": {
+            "M": "M",
+            "E": "E"
+          },
+          "SM": {
+            "A": "A",
+            "I": "I"
+          },
+          "MA": {
+            "G": "G",
+            "T": "T"
+          },
+          "AG": {
+            "N": "N",
+            "E": "E"
+          },
+          "GN": {
+            "E": "E"
+          },
+          "NE": {
+            "T": "T"
+          },
+          "TI": {
+            "C": "C",
+            "O": "O",
+            "D": "D"
+          },
+          "IC": {
+            "F": "F"
+          },
+          "CF": {
+            "I": "I"
+          },
+          "EL": {
+            "D": "D"
+          },
+          "LD": {
+            "X": "X",
+            "I": "I"
+          },
+          "DX": {
+            "T": "T"
+          },
+          "XT": {
+            "H": "H"
+          },
+          "EI": {
+            "N": "N",
+            "G": "G"
+          },
+          "NF": {
+            "O": "O"
+          },
+          "FO": {
+            "R": "R",
+            "U": "U"
+          },
+          "OR": {
+            "M": "M",
+            "T": "T"
+          },
+          "RM": {
+            "A": "A"
+          },
+          "ON": {
+            "W": "W",
+            "X": "X",
+            "O": "O",
+            "L": "L",
+            "D": "D"
+          },
+          "NW": {
+            "A": "A"
+          },
+          "SG": {
+            "A": "A"
+          },
+          "ER": {
+            "E": "E",
+            "G": "G"
+          },
+          "RE": {
+            "D": "D",
+            "S": "S",
+            "X": "X",
+            "E": "E"
+          },
+          "DA": {
+            "N": "N"
+          },
+          "TR": {
+            "A": "A"
+          },
+          "RA": {
+            "N": "N"
+          },
+          "MI": {
+            "T": "T",
+            "N": "N"
+          },
+          "TT": {
+            "E": "E",
+            "H": "H"
+          },
+          "TE": {
+            "D": "D",
+            "S": "S"
+          },
+          "DU": {
+            "N": "N"
+          },
+          "UN": {
+            "D": "D",
+            "K": "K"
+          },
+          "DE": {
+            "R": "R",
+            "G": "G"
+          },
+          "RG": {
+            "R": "R"
+          },
+          "GR": {
+            "U": "O",
+            "E": "E"
+          },
+          "RU": {
+            "U": "U"
+          },
+          "UU": {
+            "N": "N"
+          },
+          "OA": {
+            "N": "N"
+          },
+          "NK": {
+            "N": "N"
+          },
+          "KN": {
+            "O": "O"
+          },
+          "NO": {
+            "W": "W",
+            "N": "N",
+            "R": "R"
+          },
+          "WN": {
+            "L": "L"
+          },
+          "NL": {
+            "O": "O",
+            "Y": "Y"
+          },
+          "LO": {
+            "C": "C"
+          },
+          "OC": {
+            "A": "A"
+          },
+          "CA": {
+            "T": "T"
+          },
+          "NX": {
+            "D": "D"
+          },
+          "XD": {
+            "O": "O"
+          },
+          "DO": {
+            "E": "E",
+            "U": "U"
+          },
+          "OE": {
+            "S": "S"
+          },
+          "SL": {
+            "A": "A"
+          },
+          "LA": {
+            "N": "N",
+            "S": "S"
+          },
+          "GL": {
+            "E": "E"
+          },
+          "YK": {
+            "N": "N"
+          },
+          "BO": {
+            "U": "U"
+          },
+          "OU": {
+            "T": "T",
+            "L": "L",
+            "R": "R"
+          },
+          "UT": {
+            "T": "T",
+            "E": "E"
+          },
+          "HI": {
+            "S": "S",
+            "R": "R"
+          },
+          "YS": {
+            "H": "H",
+            "E": "E"
+          },
+          "UL": {
+            "D": "D"
+          },
+          "TS": {
+            "B": "B"
+          },
+          "SB": {
+            "U": "U"
+          },
+          "BU": {
+            "R": "R"
+          },
+          "UR": {
+            "I": "I",
+            "S": "S"
+          },
+          "RI": {
+            "E": "E"
+          },
+          "SO": {
+            "M": "M"
+          },
+          "OM": {
+            "E": "E"
+          },
+          "ME": {
+            "W": "W",
+            "S": "S"
+          },
+          "EW": {
+            "H": "H"
+          },
+          "WH": {
+            "E": "E",
+            "O": "O"
+          },
+          "EX": {
+            "W": "W",
+            "A": "A",
+            "T": "T"
+          },
+          "XW": {
+            "H": "H"
+          },
+          "OK": {
+            "N": "N"
+          },
+          "XA": {
+            "C": "C"
+          },
+          "AC": {
+            "T": "T"
+          },
+          "CT": {
+            "L": "L"
+          },
+          "YW": {
+            "W": "W"
+          },
+          "WW": {
+            "T": "T"
+          },
+          "WT": {
+            "H": "H"
+          },
+          "SW": {
+            "A": "A",
+            "E": "E"
+          },
+          "TM": {
+            "E": "E",
+            "I": "I"
+          },
+          "SA": {
+            "G": "G"
+          },
+          "GE": {
+            "X": "X"
+          },
+          "IR": {
+            "T": "T"
+          },
+          "TY": {
+            "E": "E",
+            "S": "S",
+            "F": "F"
+          },
+          "YE": {
+            "I": "I"
+          },
+          "TD": {
+            "E": "E"
+          },
+          "EG": {
+            "R": "R"
+          },
+          "SF": {
+            "I": "I",
+            "O": "O"
+          },
+          "IF": {
+            "T": "T"
+          },
+          "FT": {
+            "Y": "Y"
+          },
+          "EV": {
+            "E": "E"
+          },
+          "VE": {
+            "N": "N",
+            "S": "S"
+          },
+          "NM": {
+            "I": "I"
+          },
+          "IX": {
+            "P": "P"
+          },
+          "XP": {
+            "O": "O"
+          },
+          "OI": {
+            "N": "N"
+          },
+          "NT": {
+            "F": "F",
+            "Y": "Y"
+          },
+          "TF": {
+            "I": "I"
+          },
+          "IV": {
+            "E": "E"
+          },
+          "EC": {
+            "O": "O"
+          },
+          "CO": {
+            "N": "N"
+          },
+          "DS": {
+            "N": "N",
+            "W": "W"
+          },
+          "SN": {
+            "O": "O"
+          },
+          "YF": {
+            "O": "O"
+          },
+          "RS": {
+            "E": "E"
+          },
+          "ID": {
+            "B": "B"
+          },
+          "DB": {
+            "Y": "Y"
+          },
+          "BY": {
+            "R": "R"
+          },
+          "YR": {
+            "O": "O"
+          },
+          "RO": {
+            "W": "W"
+          }
+        },
+        "processed_sites": 432,
+        "reachable_contexts": 703,
+        "observed_contexts": 191,
+        "unfixed_context_input_entries": 17942,
+        "completion_prime_exponents": {
+          "2": 15864,
+          "3": 6992,
+          "5": 4049,
+          "7": 2106,
+          "11": 1399,
+          "13": 1215,
+          "17": 703,
+          "19": 703,
+          "23": 688
+        },
+        "log10_completion_count": 18232.665348007933
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^^": {
+                "B": "B"
+              },
+              "^B": {
+                "E": "E"
+              },
+              "BE": {
+                "T": "T"
+              },
+              "ET": {
+                "W": "W"
+              },
+              "TW": {
+                "E": "E"
+              },
+              "WE": {
+                "E": "E"
+              },
+              "EE": {
+                "N": "N"
+              },
+              "EN": {
+                "S": "S",
+                "C": "C",
+                "U": "U"
+              },
+              "NS": {
+                "U": "U"
+              },
+              "SU": {
+                "B": "B"
+              },
+              "UB": {
+                "T": "T"
+              },
+              "BT": {
+                "L": "L"
+              },
+              "TL": {
+                "E": "E",
+                "I": "I"
+              },
+              "LE": {
+                "S": "S"
+              },
+              "ES": {
+                "H": "H",
+                "T": "T"
+              },
+              "SH": {
+                "A": "A"
+              },
+              "HA": {
+                "D": "D"
+              },
+              "AD": {
+                "I": "I"
+              },
+              "DI": {
+                "N": "N"
+              },
+              "IN": {
+                "G": "G"
+              },
+              "NG": {
+                "A": "A"
+              },
+              "GA": {
+                "N": "N"
+              },
+              "AN": {
+                "D": "D",
+                "C": "C"
+              },
+              "ND": {
+                "T": "T"
+              },
+              "DT": {
+                "H": "H"
+              },
+              "TH": {
+                "E": "E"
+              },
+              "HE": {
+                "A": "A",
+                "N": "N"
+              },
+              "EA": {
+                "B": "B"
+              },
+              "AB": {
+                "S": "S"
+              },
+              "BS": {
+                "E": "E"
+              },
+              "SE": {
+                "N": "N"
+              },
+              "NC": {
+                "E": "E"
+              },
+              "CE": {
+                "O": "O"
+              },
+              "EO": {
+                "F": "F"
+              },
+              "OF": {
+                "L": "L",
+                "I": "I"
+              },
+              "FL": {
+                "I": "I"
+              },
+              "LI": {
+                "G": "G",
+                "E": "E"
+              },
+              "IG": {
+                "H": "H"
+              },
+              "GH": {
+                "T": "T"
+              },
+              "HT": {
+                "L": "L"
+              },
+              "IE": {
+                "S": "S"
+              },
+              "ST": {
+                "H": "H"
+              },
+              "NU": {
+                "A": "A"
+              },
+              "UA": {
+                "N": "N"
+              },
+              "FI": {
+                "Q": "L"
+              },
+              "IQ": {
+                "L": "L"
+              },
+              "QL": {
+                "U": "U"
+              },
+              "LU": {
+                "S": "S"
+              },
+              "US": {
+                "I": "I"
+              },
+              "SI": {
+                "O": "O"
+              },
+              "IO": {
+                "N": "N"
+              }
+            },
+            "processed_sites": 63,
+            "reachable_contexts": 703,
+            "observed_contexts": 51,
+            "unfixed_context_input_entries": 18219,
+            "completion_prime_exponents": {
+              "2": 16115,
+              "3": 7029,
+              "5": 4204,
+              "7": 2109,
+              "11": 1406,
+              "13": 1355,
+              "17": 703,
+              "19": 703,
+              "23": 703
+            },
+            "log10_completion_count": 18620.420743795727
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 22,
+            "forced_conflicting_sites": 0,
+            "unconstrained_sites": 347,
+            "first_conflicts": []
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^^": {
+                "I": "I"
+              },
+              "^I": {
+                "T": "T"
+              },
+              "IT": {
+                "W": "W",
+                "T": "T",
+                "S": "S"
+              },
+              "TW": {
+                "A": "A"
+              },
+              "WA": {
+                "S": "S",
+                "B": "B"
+              },
+              "AS": {
+                "T": "T",
+                "G": "G",
+                "H": "H"
+              },
+              "ST": {
+                "O": "O",
+                "H": "H",
+                "M": "M",
+                "I": "I"
+              },
+              "TO": {
+                "T": "T",
+                "A": "A"
+              },
+              "OT": {
+                "A": "A"
+              },
+              "TA": {
+                "L": "L"
+              },
+              "AL": {
+                "L": "L"
+              },
+              "LL": {
+                "Y": "Y"
+              },
+              "LY": {
+                "I": "I",
+                "W": "W"
+              },
+              "YI": {
+                "N": "N"
+              },
+              "IN": {
+                "V": "V",
+                "F": "F",
+                "U": "U",
+                "T": "T"
+              },
+              "NV": {
+                "I": "I"
+              },
+              "VI": {
+                "S": "S"
+              },
+              "IS": {
+                "I": "I",
+                "T": "T",
+                "W": "W",
+                "L": "L"
+              },
+              "SI": {
+                "B": "B",
+                "X": "X"
+              },
+              "IB": {
+                "L": "L"
+              },
+              "BL": {
+                "E": "E"
+              },
+              "LE": {
+                "H": "H",
+                "T": "T",
+                "Y": "Y"
+              },
+              "EH": {
+                "O": "O"
+              },
+              "HO": {
+                "W": "W",
+                "U": "U",
+                "K": "K"
+              },
+              "OW": {
+                "S": "S",
+                "N": "N",
+                "A": "A"
+              },
+              "WS": {
+                "T": "T"
+              },
+              "TH": {
+                "A": "A",
+                "E": "E",
+                "S": "S",
+                "I": "I"
+              },
+              "HA": {
+                "T": "T"
+              },
+              "AT": {
+                "P": "P",
+                "I": "I",
+                "H": "H"
+              },
+              "TP": {
+                "O": "O"
+              },
+              "PO": {
+                "S": "S",
+                "I": "I"
+              },
+              "OS": {
+                "S": "S"
+              },
+              "SS": {
+                "I": "I",
+                "A": "A"
+              },
+              "ET": {
+                "H": "H",
+                "I": "I"
+              },
+              "HE": {
+                "Y": "Y",
+                "E": "E",
+                "I": "I",
+                "R": "R"
+              },
+              "EY": {
+                "U": "U",
+                "K": "K",
+                "S": "S"
+              },
+              "YU": {
+                "S": "S"
+              },
+              "US": {
+                "E": "E"
+              },
+              "SE": {
+                "D": "D",
+                "V": "V",
+                "C": "C",
+                "I": "I"
+              },
+              "ED": {
+                "T": "T",
+                "A": "A",
+                "U": "U",
+                "O": "O"
+              },
+              "DT": {
+                "H": "H",
+                "R": "R",
+                "O": "O"
+              },
+              "EE": {
+                "A": "A",
+                "X": "X",
+                "S": "S"
+              },
+              "EA": {
+                "R": "R"
+              },
+              "AR": {
+                "T": "T"
+              },
+              "RT": {
+                "H": "H",
+                "Y": "Y"
+              },
+              "HS": {
+                "M": "M",
+                "E": "E"
+              },
+              "SM": {
+                "A": "A",
+                "I": "I"
+              },
+              "MA": {
+                "G": "G",
+                "T": "T"
+              },
+              "AG": {
+                "N": "N",
+                "E": "E"
+              },
+              "GN": {
+                "E": "E"
+              },
+              "NE": {
+                "T": "T"
+              },
+              "TI": {
+                "C": "C",
+                "O": "O",
+                "D": "D"
+              },
+              "IC": {
+                "F": "F"
+              },
+              "CF": {
+                "I": "I"
+              },
+              "FI": {
+                "E": "E",
+                "F": "F",
+                "V": "V"
+              },
+              "IE": {
+                "L": "L",
+                "D": "D"
+              },
+              "EL": {
+                "D": "D"
+              },
+              "LD": {
+                "X": "X",
+                "I": "I"
+              },
+              "DX": {
+                "T": "T"
+              },
+              "XT": {
+                "H": "H"
+              },
+              "EI": {
+                "N": "N",
+                "G": "G"
+              },
+              "NF": {
+                "O": "O"
+              },
+              "FO": {
+                "R": "R",
+                "U": "U"
+              },
+              "OR": {
+                "M": "M",
+                "T": "T"
+              },
+              "RM": {
+                "A": "A"
+              },
+              "IO": {
+                "N": "N"
+              },
+              "ON": {
+                "W": "W",
+                "X": "X",
+                "O": "O",
+                "L": "L",
+                "D": "D"
+              },
+              "NW": {
+                "A": "A"
+              },
+              "SG": {
+                "A": "A"
+              },
+              "GA": {
+                "T": "T"
+              },
+              "ER": {
+                "E": "E",
+                "G": "G"
+              },
+              "RE": {
+                "D": "D",
+                "S": "S",
+                "X": "X",
+                "E": "E"
+              },
+              "DA": {
+                "N": "N"
+              },
+              "AN": {
+                "D": "D",
+                "S": "S",
+                "U": "U",
+                "G": "G"
+              },
+              "ND": {
+                "T": "T",
+                "E": "E",
+                "S": "S"
+              },
+              "TR": {
+                "A": "A"
+              },
+              "RA": {
+                "N": "N"
+              },
+              "NS": {
+                "M": "M"
+              },
+              "MI": {
+                "T": "T",
+                "N": "N"
+              },
+              "TT": {
+                "E": "E",
+                "H": "H"
+              },
+              "TE": {
+                "D": "D",
+                "S": "S"
+              },
+              "DU": {
+                "N": "N"
+              },
+              "UN": {
+                "D": "D",
+                "K": "K"
+              },
+              "DE": {
+                "R": "R",
+                "G": "G"
+              },
+              "RG": {
+                "R": "R"
+              },
+              "GR": {
+                "U": "O",
+                "E": "E"
+              },
+              "RU": {
+                "U": "U"
+              },
+              "UU": {
+                "N": "N"
+              },
+              "OA": {
+                "N": "N"
+              },
+              "NU": {
+                "N": "N",
+                "T": "T"
+              },
+              "NK": {
+                "N": "N"
+              },
+              "KN": {
+                "O": "O"
+              },
+              "NO": {
+                "W": "W",
+                "N": "N",
+                "R": "R"
+              },
+              "WN": {
+                "L": "L"
+              },
+              "NL": {
+                "O": "O",
+                "Y": "Y"
+              },
+              "LO": {
+                "C": "C"
+              },
+              "OC": {
+                "A": "A"
+              },
+              "CA": {
+                "T": "T"
+              },
+              "NX": {
+                "D": "D"
+              },
+              "XD": {
+                "O": "O"
+              },
+              "DO": {
+                "E": "E",
+                "U": "U"
+              },
+              "OE": {
+                "S": "S"
+              },
+              "ES": {
+                "L": "L",
+                "O": "O",
+                "S": "S",
+                "F": "F",
+                "E": "E",
+                "T": "T"
+              },
+              "SL": {
+                "A": "A"
+              },
+              "LA": {
+                "N": "N",
+                "S": "S"
+              },
+              "NG": {
+                "L": "L"
+              },
+              "GL": {
+                "E": "E"
+              },
+              "YK": {
+                "N": "N"
+              },
+              "AB": {
+                "O": "O"
+              },
+              "BO": {
+                "U": "U"
+              },
+              "OU": {
+                "T": "T",
+                "L": "L",
+                "R": "R"
+              },
+              "UT": {
+                "T": "T",
+                "E": "E"
+              },
+              "HI": {
+                "S": "S",
+                "R": "R"
+              },
+              "YS": {
+                "H": "H",
+                "E": "E"
+              },
+              "SH": {
+                "O": "O",
+                "I": "I"
+              },
+              "UL": {
+                "D": "D"
+              },
+              "DI": {
+                "T": "T"
+              },
+              "TS": {
+                "B": "B"
+              },
+              "SB": {
+                "U": "U"
+              },
+              "BU": {
+                "R": "R"
+              },
+              "UR": {
+                "I": "I",
+                "S": "S"
+              },
+              "RI": {
+                "E": "E"
+              },
+              "SO": {
+                "M": "M"
+              },
+              "OM": {
+                "E": "E"
+              },
+              "ME": {
+                "W": "W",
+                "S": "S"
+              },
+              "EW": {
+                "H": "H"
+              },
+              "WH": {
+                "E": "E",
+                "O": "O"
+              },
+              "EX": {
+                "W": "W",
+                "A": "A",
+                "T": "T"
+              },
+              "XW": {
+                "H": "H"
+              },
+              "OK": {
+                "N": "N"
+              },
+              "XA": {
+                "C": "C"
+              },
+              "AC": {
+                "T": "T"
+              },
+              "CT": {
+                "L": "L"
+              },
+              "TL": {
+                "O": "O"
+              },
+              "YW": {
+                "W": "W"
+              },
+              "WW": {
+                "T": "T"
+              },
+              "WT": {
+                "H": "H"
+              },
+              "SW": {
+                "A": "A",
+                "E": "E"
+              },
+              "TM": {
+                "E": "E",
+                "I": "I"
+              },
+              "SA": {
+                "G": "G"
+              },
+              "GE": {
+                "X": "X"
+              },
+              "IR": {
+                "T": "T"
+              },
+              "TY": {
+                "E": "E",
+                "S": "S",
+                "F": "F"
+              },
+              "YE": {
+                "I": "I"
+              },
+              "IG": {
+                "H": "H"
+              },
+              "GH": {
+                "T": "T"
+              },
+              "HT": {
+                "D": "D",
+                "M": "M"
+              },
+              "TD": {
+                "E": "E"
+              },
+              "EG": {
+                "R": "R"
+              },
+              "SF": {
+                "I": "I",
+                "O": "O"
+              },
+              "IF": {
+                "T": "T"
+              },
+              "FT": {
+                "Y": "Y"
+              },
+              "EV": {
+                "E": "E"
+              },
+              "VE": {
+                "N": "N",
+                "S": "S"
+              },
+              "EN": {
+                "M": "M",
+                "T": "T",
+                "D": "D"
+              },
+              "NM": {
+                "I": "I"
+              },
+              "IX": {
+                "P": "P"
+              },
+              "XP": {
+                "O": "O"
+              },
+              "OI": {
+                "N": "N"
+              },
+              "NT": {
+                "F": "F",
+                "Y": "Y"
+              },
+              "TF": {
+                "I": "I"
+              },
+              "IV": {
+                "E": "E"
+              },
+              "EC": {
+                "O": "O"
+              },
+              "CO": {
+                "N": "N"
+              },
+              "DS": {
+                "N": "N",
+                "W": "W"
+              },
+              "SN": {
+                "O": "O"
+              },
+              "YF": {
+                "O": "O"
+              },
+              "RS": {
+                "E": "E"
+              },
+              "WE": {
+                "S": "S"
+              },
+              "ID": {
+                "B": "B"
+              },
+              "DB": {
+                "Y": "Y"
+              },
+              "BY": {
+                "R": "R"
+              },
+              "YR": {
+                "O": "O"
+              },
+              "RO": {
+                "W": "W"
+              }
+            },
+            "processed_sites": 369,
+            "reachable_contexts": 703,
+            "observed_contexts": 174,
+            "unfixed_context_input_entries": 17992,
+            "completion_prime_exponents": {
+              "2": 15909,
+              "3": 7001,
+              "5": 4078,
+              "7": 2108,
+              "11": 1404,
+              "13": 1232,
+              "17": 703,
+              "19": 703,
+              "23": 692
+            },
+            "log10_completion_count": 18302.05702707014
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 10,
+            "forced_conflicting_sites": 0,
+            "unconstrained_sites": 53,
+            "first_conflicts": []
+          }
+        }
+      ]
+    },
+    {
+      "role": "literal_to_normal",
+      "source_memory": 2,
+      "scan_direction": "right_to_left",
+      "fit": {
+        "compatible": true,
+        "tables": {
+          "^^": {
+            "N": "N",
+            "S": "S"
+          },
+          "^N": {
+            "O": "O"
+          },
+          "NO": {
+            "I": "I",
+            "C": "C",
+            "N": "N"
+          },
+          "OI": {
+            "S": "S",
+            "T": "T"
+          },
+          "IS": {
+            "U": "U",
+            "S": "S",
+            "I": "I"
+          },
+          "SU": {
+            "L": "L",
+            "Y": "Y"
+          },
+          "UL": {
+            "Q": "L"
+          },
+          "LQ": {
+            "I": "I"
+          },
+          "QI": {
+            "F": "F"
+          },
+          "IF": {
+            "O": "O",
+            "T": "T",
+            "S": "S",
+            "C": "C"
+          },
+          "FO": {
+            "E": "E"
+          },
+          "OE": {
+            "C": "C"
+          },
+          "EC": {
+            "N": "N"
+          },
+          "CN": {
+            "A": "A",
+            "E": "E"
+          },
+          "NA": {
+            "U": "U",
+            "G": "G",
+            "L": "L",
+            "O": "O",
+            "R": "R",
+            "D": "D"
+          },
+          "AU": {
+            "N": "N"
+          },
+          "UN": {
+            "E": "E",
+            "I": "I",
+            "A": "A"
+          },
+          "NE": {
+            "H": "H",
+            "S": "S",
+            "E": "E",
+            "V": "V"
+          },
+          "EH": {
+            "T": "T",
+            "W": "W"
+          },
+          "HT": {
+            "S": "S",
+            "D": "D",
+            "R": "R",
+            "X": "X",
+            "W": "W",
+            "T": "T",
+            "A": "A",
+            "E": "E"
+          },
+          "TS": {
+            "E": "E",
+            "A": "A",
+            "W": "W",
+            "I": "I"
+          },
+          "SE": {
+            "I": "I",
+            "L": "L",
+            "W": "W",
+            "T": "T",
+            "E": "E",
+            "V": "V",
+            "M": "M",
+            "R": "R",
+            "O": "O"
+          },
+          "EI": {
+            "L": "L",
+            "R": "R",
+            "F": "F"
+          },
+          "IL": {
+            "T": "T",
+            "F": "F"
+          },
+          "LT": {
+            "H": "H",
+            "B": "B",
+            "C": "C"
+          },
+          "TH": {
+            "G": "G"
+          },
+          "HG": {
+            "I": "I"
+          },
+          "GI": {
+            "L": "L",
+            "E": "E"
+          },
+          "LF": {
+            "O": "O"
+          },
+          "ES": {
+            "B": "B",
+            "R": "R",
+            "E": "E",
+            "Y": "Y",
+            "H": "H",
+            "U": "U"
+          },
+          "SB": {
+            "A": "A"
+          },
+          "BA": {
+            "E": "E",
+            "W": "W"
+          },
+          "AE": {
+            "H": "H",
+            "E": "E"
+          },
+          "TD": {
+            "N": "N",
+            "E": "E"
+          },
+          "DN": {
+            "A": "A",
+            "O": "O",
+            "E": "E",
+            "U": "U"
+          },
+          "AG": {
+            "N": "N",
+            "S": "S"
+          },
+          "GN": {
+            "I": "I",
+            "A": "A"
+          },
+          "NI": {
+            "D": "D",
+            "M": "M",
+            "O": "O",
+            "E": "E",
+            "Y": "Y"
+          },
+          "ID": {
+            "A": "A",
+            "L": "L"
+          },
+          "DA": {
+            "H": "H"
+          },
+          "AH": {
+            "S": "S",
+            "T": "T"
+          },
+          "HS": {
+            "E": "E",
+            "A": "A",
+            "Y": "Y"
+          },
+          "EL": {
+            "T": "T",
+            "G": "G",
+            "B": "B"
+          },
+          "TB": {
+            "U": "U"
+          },
+          "BU": {
+            "S": "S"
+          },
+          "US": {
+            "N": "N"
+          },
+          "SN": {
+            "E": "E",
+            "A": "A"
+          },
+          "EE": {
+            "W": "W",
+            "R": "R",
+            "H": "H"
+          },
+          "EW": {
+            "T": "T",
+            "S": "S"
+          },
+          "WT": {
+            "E": "E",
+            "I": "I"
+          },
+          "TE": {
+            "B": "B",
+            "N": "N",
+            "L": "L"
+          },
+          "^S": {
+            "W": "W"
+          },
+          "SW": {
+            "O": "O"
+          },
+          "WO": {
+            "R": "R",
+            "N": "N",
+            "H": "H"
+          },
+          "OR": {
+            "Y": "Y"
+          },
+          "RY": {
+            "B": "B"
+          },
+          "YB": {
+            "D": "D"
+          },
+          "BD": {
+            "I": "I"
+          },
+          "DI": {
+            "T": "T"
+          },
+          "IT": {
+            "S": "S",
+            "A": "A",
+            "E": "E"
+          },
+          "WS": {
+            "D": "D",
+            "I": "I"
+          },
+          "SD": {
+            "N": "N"
+          },
+          "OC": {
+            "E": "E"
+          },
+          "CE": {
+            "S": "S"
+          },
+          "SR": {
+            "U": "U"
+          },
+          "RU": {
+            "O": "O",
+            "B": "B"
+          },
+          "UO": {
+            "F": "F",
+            "D": "D",
+            "H": "H",
+            "B": "B"
+          },
+          "OF": {
+            "Y": "Y",
+            "S": "S",
+            "N": "N"
+          },
+          "FY": {
+            "T": "T"
+          },
+          "YT": {
+            "R": "R",
+            "N": "N",
+            "F": "F"
+          },
+          "TR": {
+            "O": "O",
+            "I": "I",
+            "A": "A"
+          },
+          "RO": {
+            "F": "F",
+            "N": "N"
+          },
+          "FS": {
+            "E": "E"
+          },
+          "ET": {
+            "U": "U",
+            "T": "T"
+          },
+          "TU": {
+            "N": "N",
+            "O": "O"
+          },
+          "IM": {
+            "T": "T",
+            "N": "N",
+            "S": "S"
+          },
+          "MT": {
+            "H": "H",
+            "S": "S"
+          },
+          "IE": {
+            "S": "S",
+            "Y": "Y",
+            "H": "H"
+          },
+          "ER": {
+            "G": "G",
+            "E": "E"
+          },
+          "RG": {
+            "E": "E",
+            "R": "R"
+          },
+          "GE": {
+            "D": "D"
+          },
+          "ED": {
+            "N": "N",
+            "T": "T"
+          },
+          "EV": {
+            "E": "E",
+            "I": "I"
+          },
+          "VE": {
+            "S": "S"
+          },
+          "SY": {
+            "T": "T",
+            "E": "E"
+          },
+          "TN": {
+            "E": "E",
+            "I": "I"
+          },
+          "SH": {
+            "T": "T"
+          },
+          "ON": {
+            "S": "S",
+            "O": "O",
+            "K": "K"
+          },
+          "NS": {
+            "D": "D"
+          },
+          "VI": {
+            "F": "F"
+          },
+          "FT": {
+            "N": "N"
+          },
+          "IO": {
+            "P": "P"
+          },
+          "OP": {
+            "X": "X",
+            "T": "T"
+          },
+          "PX": {
+            "I": "I"
+          },
+          "XI": {
+            "S": "S"
+          },
+          "SS": {
+            "E": "E",
+            "O": "O"
+          },
+          "MN": {
+            "E": "E"
+          },
+          "TF": {
+            "I": "I"
+          },
+          "FI": {
+            "F": "F"
+          },
+          "DT": {
+            "H": "H"
+          },
+          "EY": {
+            "T": "T"
+          },
+          "RI": {
+            "H": "H"
+          },
+          "IH": {
+            "T": "T",
+            "S": "S"
+          },
+          "TX": {
+            "E": "E",
+            "D": "D"
+          },
+          "XE": {
+            "G": "G",
+            "E": "E",
+            "R": "R"
+          },
+          "EG": {
+            "A": "A"
+          },
+          "GA": {
+            "S": "S",
+            "M": "M"
+          },
+          "AS": {
+            "S": "S"
+          },
+          "EM": {
+            "T": "T",
+            "O": "O"
+          },
+          "SA": {
+            "L": "L",
+            "W": "W"
+          },
+          "AL": {
+            "S": "S"
+          },
+          "LS": {
+            "I": "I",
+            "E": "E"
+          },
+          "SI": {
+            "H": "H",
+            "V": "V"
+          },
+          "AW": {
+            "S": "S",
+            "O": "O",
+            "N": "N",
+            "T": "T"
+          },
+          "TW": {
+            "W": "W"
+          },
+          "WW": {
+            "Y": "Y"
+          },
+          "WY": {
+            "L": "L"
+          },
+          "YL": {
+            "N": "N",
+            "L": "L"
+          },
+          "LN": {
+            "O": "O",
+            "W": "W"
+          },
+          "TA": {
+            "C": "C",
+            "G": "G",
+            "M": "M",
+            "H": "H"
+          },
+          "AC": {
+            "O": "O"
+          },
+          "CO": {
+            "L": "L"
+          },
+          "OL": {
+            "T": "T",
+            "N": "N"
+          },
+          "TC": {
+            "A": "A"
+          },
+          "CA": {
+            "X": "X"
+          },
+          "AX": {
+            "E": "E"
+          },
+          "NK": {
+            "O": "O",
+            "Y": "Y",
+            "N": "N"
+          },
+          "KO": {
+            "H": "H"
+          },
+          "OH": {
+            "W": "W",
+            "S": "S",
+            "E": "E"
+          },
+          "HW": {
+            "X": "X",
+            "E": "E"
+          },
+          "WX": {
+            "E": "E"
+          },
+          "RE": {
+            "H": "H",
+            "D": "D"
+          },
+          "WE": {
+            "M": "M"
+          },
+          "MO": {
+            "S": "S"
+          },
+          "OS": {
+            "E": "E"
+          },
+          "TT": {
+            "U": "U",
+            "I": "I"
+          },
+          "OD": {
+            "E": "E",
+            "X": "X"
+          },
+          "DE": {
+            "I": "I",
+            "T": "T",
+            "R": "R",
+            "S": "S"
+          },
+          "IR": {
+            "U": "U"
+          },
+          "UB": {
+            "S": "S"
+          },
+          "BS": {
+            "T": "T"
+          },
+          "ST": {
+            "I": "I"
+          },
+          "TI": {
+            "D": "D",
+            "M": "M"
+          },
+          "DL": {
+            "U": "U",
+            "E": "E"
+          },
+          "LU": {
+            "O": "O"
+          },
+          "YE": {
+            "H": "H",
+            "L": "L"
+          },
+          "OB": {
+            "A": "A"
+          },
+          "KY": {
+            "E": "E"
+          },
+          "LG": {
+            "N": "N"
+          },
+          "EO": {
+            "D": "D"
+          },
+          "DX": {
+            "N": "N"
+          },
+          "XN": {
+            "O": "O"
+          },
+          "NW": {
+            "O": "O"
+          },
+          "KN": {
+            "U": "U"
+          },
+          "NU": {
+            "N": "N",
+            "U": "O",
+            "D": "D"
+          },
+          "AO": {
+            "T": "T"
+          },
+          "OT": {
+            "D": "D",
+            "S": "S"
+          },
+          "UU": {
+            "R": "R"
+          },
+          "UR": {
+            "G": "G"
+          },
+          "GR": {
+            "E": "E"
+          },
+          "UD": {
+            "E": "E"
+          },
+          "MS": {
+            "N": "N",
+            "H": "H"
+          },
+          "AR": {
+            "T": "T"
+          },
+          "RT": {
+            "D": "D"
+          },
+          "AD": {
+            "E": "E"
+          },
+          "GS": {
+            "A": "A"
+          },
+          "WN": {
+            "O": "O"
+          },
+          "AM": {
+            "R": "R",
+            "S": "S"
+          },
+          "MR": {
+            "O": "O"
+          },
+          "FN": {
+            "I": "I"
+          },
+          "XD": {
+            "L": "L"
+          },
+          "LE": {
+            "I": "I"
+          },
+          "FC": {
+            "I": "I"
+          },
+          "CI": {
+            "T": "T"
+          },
+          "EN": {
+            "G": "G"
+          },
+          "NG": {
+            "A": "A"
+          },
+          "RA": {
+            "E": "E"
+          },
+          "UY": {
+            "E": "E"
+          },
+          "LB": {
+            "I": "I"
+          },
+          "BI": {
+            "S": "S"
+          },
+          "SO": {
+            "P": "P"
+          },
+          "PT": {
+            "A": "A"
+          },
+          "HE": {
+            "L": "L"
+          },
+          "IV": {
+            "N": "N"
+          },
+          "VN": {
+            "I": "I"
+          },
+          "IY": {
+            "L": "L"
+          },
+          "LL": {
+            "A": "A"
+          },
+          "LA": {
+            "T": "T"
+          },
+          "AT": {
+            "O": "O"
+          },
+          "TO": {
+            "T": "T"
+          }
+        },
+        "processed_sites": 432,
+        "reachable_contexts": 703,
+        "observed_contexts": 190,
+        "unfixed_context_input_entries": 17942,
+        "completion_prime_exponents": {
+          "2": 15867,
+          "3": 6990,
+          "5": 4046,
+          "7": 2105,
+          "11": 1401,
+          "13": 1216,
+          "17": 703,
+          "19": 701,
+          "23": 690
+        },
+        "log10_completion_count": 18233.03486462522
+      },
+      "cross_stream_holdouts": [
+        {
+          "train": "K1",
+          "test": "K2",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^^": {
+                "N": "N"
+              },
+              "^N": {
+                "O": "O"
+              },
+              "NO": {
+                "I": "I"
+              },
+              "OI": {
+                "S": "S"
+              },
+              "IS": {
+                "U": "U"
+              },
+              "SU": {
+                "L": "L"
+              },
+              "UL": {
+                "Q": "L"
+              },
+              "LQ": {
+                "I": "I"
+              },
+              "QI": {
+                "F": "F"
+              },
+              "IF": {
+                "O": "O"
+              },
+              "FO": {
+                "E": "E"
+              },
+              "OE": {
+                "C": "C"
+              },
+              "EC": {
+                "N": "N"
+              },
+              "CN": {
+                "A": "A",
+                "E": "E"
+              },
+              "NA": {
+                "U": "U",
+                "G": "G"
+              },
+              "AU": {
+                "N": "N"
+              },
+              "UN": {
+                "E": "E"
+              },
+              "NE": {
+                "H": "H",
+                "S": "S",
+                "E": "E"
+              },
+              "EH": {
+                "T": "T"
+              },
+              "HT": {
+                "S": "S",
+                "D": "D"
+              },
+              "TS": {
+                "E": "E"
+              },
+              "SE": {
+                "I": "I",
+                "L": "L"
+              },
+              "EI": {
+                "L": "L"
+              },
+              "IL": {
+                "T": "T",
+                "F": "F"
+              },
+              "LT": {
+                "H": "H",
+                "B": "B"
+              },
+              "TH": {
+                "G": "G"
+              },
+              "HG": {
+                "I": "I"
+              },
+              "GI": {
+                "L": "L"
+              },
+              "LF": {
+                "O": "O"
+              },
+              "ES": {
+                "B": "B"
+              },
+              "SB": {
+                "A": "A"
+              },
+              "BA": {
+                "E": "E"
+              },
+              "AE": {
+                "H": "H"
+              },
+              "TD": {
+                "N": "N"
+              },
+              "DN": {
+                "A": "A"
+              },
+              "AG": {
+                "N": "N"
+              },
+              "GN": {
+                "I": "I"
+              },
+              "NI": {
+                "D": "D"
+              },
+              "ID": {
+                "A": "A"
+              },
+              "DA": {
+                "H": "H"
+              },
+              "AH": {
+                "S": "S"
+              },
+              "HS": {
+                "E": "E"
+              },
+              "EL": {
+                "T": "T"
+              },
+              "TB": {
+                "U": "U"
+              },
+              "BU": {
+                "S": "S"
+              },
+              "US": {
+                "N": "N"
+              },
+              "SN": {
+                "E": "E"
+              },
+              "EE": {
+                "W": "W"
+              },
+              "EW": {
+                "T": "T"
+              },
+              "WT": {
+                "E": "E"
+              },
+              "TE": {
+                "B": "B"
+              }
+            },
+            "processed_sites": 63,
+            "reachable_contexts": 703,
+            "observed_contexts": 51,
+            "unfixed_context_input_entries": 18219,
+            "completion_prime_exponents": {
+              "2": 16115,
+              "3": 7029,
+              "5": 4204,
+              "7": 2109,
+              "11": 1406,
+              "13": 1355,
+              "17": 703,
+              "19": 703,
+              "23": 703
+            },
+            "log10_completion_count": 18620.42074379573
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 22,
+            "forced_conflicting_sites": 0,
+            "unconstrained_sites": 347,
+            "first_conflicts": []
+          }
+        },
+        {
+          "train": "K2",
+          "test": "K1",
+          "training": {
+            "compatible": true,
+            "tables": {
+              "^^": {
+                "S": "S"
+              },
+              "^S": {
+                "W": "W"
+              },
+              "SW": {
+                "O": "O"
+              },
+              "WO": {
+                "R": "R",
+                "N": "N",
+                "H": "H"
+              },
+              "OR": {
+                "Y": "Y"
+              },
+              "RY": {
+                "B": "B"
+              },
+              "YB": {
+                "D": "D"
+              },
+              "BD": {
+                "I": "I"
+              },
+              "DI": {
+                "T": "T"
+              },
+              "IT": {
+                "S": "S",
+                "A": "A",
+                "E": "E"
+              },
+              "TS": {
+                "E": "E",
+                "A": "A",
+                "W": "W",
+                "I": "I"
+              },
+              "SE": {
+                "W": "W",
+                "T": "T",
+                "E": "E",
+                "V": "V",
+                "M": "M",
+                "R": "R",
+                "O": "O"
+              },
+              "EW": {
+                "S": "S"
+              },
+              "WS": {
+                "D": "D",
+                "I": "I"
+              },
+              "SD": {
+                "N": "N"
+              },
+              "DN": {
+                "O": "O",
+                "E": "E",
+                "U": "U",
+                "A": "A"
+              },
+              "NO": {
+                "C": "C",
+                "N": "N",
+                "I": "I"
+              },
+              "OC": {
+                "E": "E"
+              },
+              "CE": {
+                "S": "S"
+              },
+              "ES": {
+                "R": "R",
+                "E": "E",
+                "Y": "Y",
+                "H": "H",
+                "U": "U"
+              },
+              "SR": {
+                "U": "U"
+              },
+              "RU": {
+                "O": "O",
+                "B": "B"
+              },
+              "UO": {
+                "F": "F",
+                "D": "D",
+                "H": "H",
+                "B": "B"
+              },
+              "OF": {
+                "Y": "Y",
+                "S": "S",
+                "N": "N"
+              },
+              "FY": {
+                "T": "T"
+              },
+              "YT": {
+                "R": "R",
+                "N": "N",
+                "F": "F"
+              },
+              "TR": {
+                "O": "O",
+                "I": "I",
+                "A": "A"
+              },
+              "RO": {
+                "F": "F",
+                "N": "N"
+              },
+              "FS": {
+                "E": "E"
+              },
+              "ET": {
+                "U": "U",
+                "T": "T"
+              },
+              "TU": {
+                "N": "N",
+                "O": "O"
+              },
+              "UN": {
+                "I": "I",
+                "A": "A"
+              },
+              "NI": {
+                "M": "M",
+                "O": "O",
+                "E": "E",
+                "Y": "Y"
+              },
+              "IM": {
+                "T": "T",
+                "N": "N",
+                "S": "S"
+              },
+              "MT": {
+                "H": "H",
+                "S": "S"
+              },
+              "TH": {
+                "G": "G"
+              },
+              "HG": {
+                "I": "I"
+              },
+              "GI": {
+                "E": "E"
+              },
+              "IE": {
+                "S": "S",
+                "Y": "Y",
+                "H": "H"
+              },
+              "EE": {
+                "R": "R",
+                "H": "H"
+              },
+              "ER": {
+                "G": "G",
+                "E": "E"
+              },
+              "RG": {
+                "E": "E",
+                "R": "R"
+              },
+              "GE": {
+                "D": "D"
+              },
+              "ED": {
+                "N": "N",
+                "T": "T"
+              },
+              "NE": {
+                "V": "V"
+              },
+              "EV": {
+                "E": "E",
+                "I": "I"
+              },
+              "VE": {
+                "S": "S"
+              },
+              "SY": {
+                "T": "T",
+                "E": "E"
+              },
+              "TN": {
+                "E": "E",
+                "I": "I"
+              },
+              "SH": {
+                "T": "T"
+              },
+              "HT": {
+                "R": "R",
+                "X": "X",
+                "W": "W",
+                "S": "S",
+                "T": "T",
+                "A": "A",
+                "D": "D",
+                "E": "E"
+              },
+              "ON": {
+                "S": "S",
+                "O": "O",
+                "K": "K"
+              },
+              "NS": {
+                "D": "D"
+              },
+              "VI": {
+                "F": "F"
+              },
+              "IF": {
+                "T": "T",
+                "S": "S",
+                "C": "C"
+              },
+              "FT": {
+                "N": "N"
+              },
+              "IO": {
+                "P": "P"
+              },
+              "OP": {
+                "X": "X",
+                "T": "T"
+              },
+              "PX": {
+                "I": "I"
+              },
+              "XI": {
+                "S": "S"
+              },
+              "IS": {
+                "S": "S",
+                "I": "I"
+              },
+              "SS": {
+                "E": "E",
+                "O": "O"
+              },
+              "MN": {
+                "E": "E"
+              },
+              "TF": {
+                "I": "I"
+              },
+              "FI": {
+                "F": "F"
+              },
+              "DT": {
+                "H": "H"
+              },
+              "EY": {
+                "T": "T"
+              },
+              "RI": {
+                "H": "H"
+              },
+              "IH": {
+                "T": "T",
+                "S": "S"
+              },
+              "TX": {
+                "E": "E",
+                "D": "D"
+              },
+              "XE": {
+                "G": "G",
+                "E": "E",
+                "R": "R"
+              },
+              "EG": {
+                "A": "A"
+              },
+              "GA": {
+                "S": "S",
+                "M": "M"
+              },
+              "AS": {
+                "S": "S"
+              },
+              "EM": {
+                "T": "T",
+                "O": "O"
+              },
+              "SA": {
+                "L": "L",
+                "W": "W"
+              },
+              "AL": {
+                "S": "S"
+              },
+              "LS": {
+                "I": "I",
+                "E": "E"
+              },
+              "SI": {
+                "H": "H",
+                "V": "V"
+              },
+              "HS": {
+                "A": "A",
+                "Y": "Y"
+              },
+              "AW": {
+                "S": "S",
+                "O": "O",
+                "N": "N",
+                "T": "T"
+              },
+              "TW": {
+                "W": "W"
+              },
+              "WW": {
+                "Y": "Y"
+              },
+              "WY": {
+                "L": "L"
+              },
+              "YL": {
+                "N": "N",
+                "L": "L"
+              },
+              "LN": {
+                "O": "O",
+                "W": "W"
+              },
+              "OI": {
+                "T": "T"
+              },
+              "TA": {
+                "C": "C",
+                "G": "G",
+                "M": "M",
+                "H": "H"
+              },
+              "AC": {
+                "O": "O"
+              },
+              "CO": {
+                "L": "L"
+              },
+              "OL": {
+                "T": "T",
+                "N": "N"
+              },
+              "LT": {
+                "C": "C"
+              },
+              "TC": {
+                "A": "A"
+              },
+              "CA": {
+                "X": "X"
+              },
+              "AX": {
+                "E": "E"
+              },
+              "EH": {
+                "T": "T",
+                "W": "W"
+              },
+              "NK": {
+                "O": "O",
+                "Y": "Y",
+                "N": "N"
+              },
+              "KO": {
+                "H": "H"
+              },
+              "OH": {
+                "W": "W",
+                "S": "S",
+                "E": "E"
+              },
+              "HW": {
+                "X": "X",
+                "E": "E"
+              },
+              "WX": {
+                "E": "E"
+              },
+              "RE": {
+                "H": "H",
+                "D": "D"
+              },
+              "WE": {
+                "M": "M"
+              },
+              "MO": {
+                "S": "S"
+              },
+              "OS": {
+                "E": "E"
+              },
+              "TT": {
+                "U": "U",
+                "I": "I"
+              },
+              "OD": {
+                "E": "E",
+                "X": "X"
+              },
+              "DE": {
+                "I": "I",
+                "T": "T",
+                "R": "R",
+                "S": "S"
+              },
+              "EI": {
+                "R": "R",
+                "F": "F"
+              },
+              "IR": {
+                "U": "U"
+              },
+              "UB": {
+                "S": "S"
+              },
+              "BS": {
+                "T": "T"
+              },
+              "ST": {
+                "I": "I"
+              },
+              "TI": {
+                "D": "D",
+                "M": "M"
+              },
+              "ID": {
+                "L": "L"
+              },
+              "DL": {
+                "U": "U",
+                "E": "E"
+              },
+              "LU": {
+                "O": "O"
+              },
+              "YE": {
+                "H": "H",
+                "L": "L"
+              },
+              "OB": {
+                "A": "A"
+              },
+              "BA": {
+                "W": "W"
+              },
+              "KY": {
+                "E": "E"
+              },
+              "EL": {
+                "G": "G",
+                "B": "B"
+              },
+              "LG": {
+                "N": "N"
+              },
+              "GN": {
+                "A": "A"
+              },
+              "NA": {
+                "L": "L",
+                "O": "O",
+                "R": "R",
+                "D": "D"
+              },
+              "EO": {
+                "D": "D"
+              },
+              "DX": {
+                "N": "N"
+              },
+              "XN": {
+                "O": "O"
+              },
+              "NW": {
+                "O": "O"
+              },
+              "KN": {
+                "U": "U"
+              },
+              "NU": {
+                "N": "N",
+                "U": "O",
+                "D": "D"
+              },
+              "AO": {
+                "T": "T"
+              },
+              "OT": {
+                "D": "D",
+                "S": "S"
+              },
+              "TD": {
+                "N": "N",
+                "E": "E"
+              },
+              "UU": {
+                "R": "R"
+              },
+              "UR": {
+                "G": "G"
+              },
+              "GR": {
+                "E": "E"
+              },
+              "UD": {
+                "E": "E"
+              },
+              "MS": {
+                "N": "N",
+                "H": "H"
+              },
+              "SN": {
+                "A": "A"
+              },
+              "AR": {
+                "T": "T"
+              },
+              "RT": {
+                "D": "D"
+              },
+              "AD": {
+                "E": "E"
+              },
+              "AG": {
+                "S": "S"
+              },
+              "GS": {
+                "A": "A"
+              },
+              "WN": {
+                "O": "O"
+              },
+              "AM": {
+                "R": "R",
+                "S": "S"
+              },
+              "MR": {
+                "O": "O"
+              },
+              "FN": {
+                "I": "I"
+              },
+              "XD": {
+                "L": "L"
+              },
+              "LE": {
+                "I": "I"
+              },
+              "FC": {
+                "I": "I"
+              },
+              "CI": {
+                "T": "T"
+              },
+              "TE": {
+                "N": "N",
+                "L": "L"
+              },
+              "EN": {
+                "G": "G"
+              },
+              "NG": {
+                "A": "A"
+              },
+              "RA": {
+                "E": "E"
+              },
+              "AE": {
+                "E": "E"
+              },
+              "SU": {
+                "Y": "Y"
+              },
+              "UY": {
+                "E": "E"
+              },
+              "LB": {
+                "I": "I"
+              },
+              "BI": {
+                "S": "S"
+              },
+              "SO": {
+                "P": "P"
+              },
+              "PT": {
+                "A": "A"
+              },
+              "AH": {
+                "T": "T"
+              },
+              "HE": {
+                "L": "L"
+              },
+              "IV": {
+                "N": "N"
+              },
+              "VN": {
+                "I": "I"
+              },
+              "IY": {
+                "L": "L"
+              },
+              "LL": {
+                "A": "A"
+              },
+              "LA": {
+                "T": "T"
+              },
+              "AT": {
+                "O": "O"
+              },
+              "TO": {
+                "T": "T"
+              },
+              "WT": {
+                "I": "I"
+              }
+            },
+            "processed_sites": 369,
+            "reachable_contexts": 703,
+            "observed_contexts": 174,
+            "unfixed_context_input_entries": 17992,
+            "completion_prime_exponents": {
+              "2": 15913,
+              "3": 7003,
+              "5": 4080,
+              "7": 2107,
+              "11": 1403,
+              "13": 1232,
+              "17": 703,
+              "19": 702,
+              "23": 692
+            },
+            "log10_completion_count": 18302.44808524479
+          },
+          "prediction": {
+            "training_compatible": true,
+            "forced_correct_sites": 10,
+            "forced_conflicting_sites": 0,
+            "unconstrained_sites": 53,
+            "first_conflicts": []
+          }
+        }
+      ]
+    }
+  ],
+  "compatible_descriptions": 4,
+  "source_sha256": {
+    "research/CONTEXT-SPELLING-039-SPEC.md": "82812f77b27fb64cb353e503da13388b822b9cca83562fed0a9d4f4d6dd6e495",
+    "experiments/context_spelling_039.py": "ab774f557648df6c0da49a679add4bac1320b0874c3b29d03e0a6d33c6769440",
+    "data/controls.json": "54f19ff0ecd1e058a6b84c6ddb4ad75a297e4181edb45803647ed208d8fc011b"
+  },
+  "K3_full_length_change_not_admitted": true,
+  "K4_trials": 0,
+  "puzzle_solved": false,
+  "pushed": false
+}
