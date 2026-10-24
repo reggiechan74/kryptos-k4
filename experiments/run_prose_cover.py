@@ -19,7 +19,7 @@ def run(path,output):
  for key in ('k1','k2_restored_s','k3'):
   text=re.sub('[^A-Z]','',controls[key]['plaintext']);out['calibration'][key]=dict(length=len(text),source_stream_sha256=hashlib.sha256(text.encode()).hexdigest(),models={name:p.distribution(l.hist(text)) for name,l in lex.items()})
  save(output,out)
- actual=p.search(data['ciphertext'],known,lex,seconds=120);actual.update(started_at_utc=utc(),timestamp_note='Recorded after return; exact original start bounded by previous-stage finish and return recording, not fabricated.');out['stages']['actual']=actual;save(output,out);print('actual',actual['complete'],actual['model_key_descriptions'],actual['distinct_lexical_plaintexts'],flush=True)
+ actual_start=utc();actual=p.search(data['ciphertext'],known,lex,seconds=120);actual.update(started_at_utc=actual_start,finished_at_utc=utc());out['stages']['actual']=actual;save(output,out);print('actual',actual['complete'],actual['model_key_descriptions'],actual['distinct_lexical_plaintexts'],flush=True)
  prng=random.Random(350025);plantrows=[]
  for index,((name,equation),plant) in enumerate(zip([(a,e) for a in p.ALPHABETS for e in p.ak.COEFFICIENTS],plants)):
   alphabet=p.ALPHABETS[name];primer=''.join(prng.choice(alphabet) for _ in range(27));plain=plant['text'];cipher=p.ak.transform(plain,primer,alphabet,equation,'plaintext');mask={i:plain[i] for i in known};beg=utc();result=p.search(cipher,mask,lex,[(name,equation)],seconds=60)
