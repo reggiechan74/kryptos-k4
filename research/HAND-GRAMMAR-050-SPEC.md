@@ -7,7 +7,7 @@ Data: canonical 97 cipherletters/all 24 English positions, unchanged. Work entir
 - Six columnar permutations: standard row-major ragged keyword columns, stable A–Z keyword sorting with original-column tie order, read columns in sorted order; include each exact inverse. No padding or missing letters.
 - Twenty-two skip permutations: for steps s=2..12 include indexp(i)=s×i mod 97 and each modular inverse step; fixed start 0. Prime 97 makes them bijective. Step 1 identity is not an extra primitive. No character is discarded.
 - One reversalp(i)=96−i.
-- Nine arithmetic maps: each of the three literal keys repeated atposition 1 under C=P+K, C=P−K, C=K−Pmod 26. Signs/role are explicit; inverse aliases stay in the descriptor inventory, not independent evidence.
+- Nine arithmetic maps: each of the three literal keys repeated at position 1, with explicit input x/output y maps y=x+K, y=x−K, y=K−x modulo 26. Signs/role are explicit; inverse aliases stay in the descriptor inventory, not independent evidence.
 
 Primitive upper count 38; exact duplicate primitives must be removed and aliases retained. Enumerate all ordered compositions of lengths 0–3, including identity: raw bound 1+38+38²+38³=56,355 descriptions. Operation order is left-to-right application to the stream. Do not add ENE routes, new alphabets, free keys, offsets or larger skips to this grammar after results.
 
