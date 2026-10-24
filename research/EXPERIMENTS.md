@@ -1228,3 +1228,9 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:49:16.853596+00:00`, finished `2026-10-24T19:49:24.990209+00:00`. Replay and regression timings are separate.
 - Result/scope: 56,355 depth 0–3 descriptions/27,323 operators; no 24 letter hit; maximum 7 versus null 6–8; keys/widths fixed. No global family exclusion.
 - [Findings](HAND-GRAMMAR-050-FINDINGS.md); [frozen protocol](HAND-GRAMMAR-050-SPEC.md); [original receipt](../results/HAND-GRAMMAR-050-ORIGINAL.json); [full Python 3.12 replay](../results/HAND-GRAMMAR-050-REPLAY.json); [shared replay/resource verification](../results/048-050-REPLAY-VALIDATION.json); [prior coverage](048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push.
+
+## CONTROL-CORRECTION-048-049 — actual lookup, returned witnesses and prior profiles
+
+- Date: 2026-10-24 UTC. Corrected 048 calculation: `2026-10-24T20:11:28.873110+00:00` to `2026-10-24T20:13:08.724291+00:00`; corrected 049 calculation: `2026-10-24T20:13:49.930304+00:00` to `2026-10-24T20:14:07.042196+00:00`. Scientific replay and regression UTCs are separate.
+- Scope/result: all 24 full-source lookup plants, six actual returned-hit witnesses and 576 prior-profile comparisons pass. All original actual/null payloads and model domains remain unchanged; no candidate bank or new family.
+- [Correction/provenance](048-049-CONTROL-CORRECTION.md); [048 current receipt](../results/CANDIDATE-FIRST-048-CONTROLLED.json); [049 current receipt](../results/ENE-ROUTE-049-CONTROLLED.json); [replay validation](../results/048-049-CONTROL-CORRECTION-REPLAY.json); [new regression](../results/048-049-CONTROL-CORRECTION-VALIDATION.json). Local only.

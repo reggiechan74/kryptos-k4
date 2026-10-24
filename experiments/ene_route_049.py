@@ -94,7 +94,9 @@ def run(output):
  # Six actual whole-selector positive controls, no K4 use before completion.
  fullplants=[]
  for j,(kind,direction) in enumerate((k,d) for k in KINDS for d in range(2)):
-  p=route(17,71,kind);p=f.invperm(p) if direction else p;v=vs[j];cipher=encode(P,p,v);res=score(cipher,known,routes,vs,budget);assert res['exact_model_hits']>=1;fullplants.append(dict(kind=kind,inverse=bool(direction),planted_full_plaintext_present=any(decode(cipher,pp,vv)==P for pp in (p,) for vv in (v,)),selector_hits=res['exact_model_hits']))
+  p=route(17,71,kind);p=f.invperm(p) if direction else p;v=vs[j];cipher=encode(P,p,v);res=score(cipher,known,routes,vs,budget,True);route_hash=hashlib.sha256(p).hexdigest()
+  recovered=[hit for hit in res['hits'] if hit['route_sha256']==route_hash and hit['variant']==v['label'] and hit['plaintext']==P];assert recovered
+  fullplants.append(dict(kind=kind,inverse=bool(direction),planted_full_plaintext_present=True,planted_route_sha256=route_hash,planted_variant=v['label'],actual_returned_hit_verified=True,recovered_hit=recovered[0],selector_hits=res['exact_model_hits']))
  catalog=[dict(permutation=list(p),aliases=aliases) for p,aliases in sorted(routes.items())];raw=json.dumps(catalog,separators=(',',':')).encode();catalogpath=ROOT/'results/ENE-ROUTE-049-CATALOGUE.json.gz'
  if catalogpath.exists():assert gzip.decompress(catalogpath.read_bytes())==raw
  else:catalogpath.write_bytes(gzip.compress(raw,mtime=0))

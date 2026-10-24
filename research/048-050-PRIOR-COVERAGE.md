@@ -12,6 +12,10 @@ The [prior author's April 2026 audit](https://github.com/jcolinpatrick/kryptos/b
 
 Primary theme/manual-workflow references and their limitations remain in the frozen specifications: the 2025 Sanbornletter supplies Egypt/Berlin/message-delivery priors with an unresolved chronology inconsistency; the Smithsonian oral history supplies an adaptable manual-workflow context, not a specific cipher or depth-three theorem. No passage about hand fabrication is treated as a cryptanalytic specification. No new source or keyword was selected to explain an attractive output, and no public paid verifier was contacted.
 
-## Final verification
+## Original verification at 1cef25a
 
 All 718 tracked tests passed under Python 3.9 and Python 3.12. Full scientific replays agree exactly across versions; their wall/RSS measurements are distinct from the original run and regression times. [UTC suite receipt and complete log hashes](../results/048-050-FINAL-VALIDATION.json). Generated navigation retains 63 hypothesis IDs and 91 experiment records. The link audit retains only 21 historical relative-file exceptions and no broken Markdown heading links. All new work remains locally committed for review.
+
+## Current control-corrected verification
+
+[The independent-audit correction](048-049-CONTROL-CORRECTION.md) closes actual source-lookup, returned-witness and prior-profile assertions without changing any actual/null outcome. All **721 tests pass under both supported Python versions**; [new regression and retention receipt](../results/048-049-CONTROL-CORRECTION-VALIDATION.json). Original receipts and 718-test logs are unchanged.

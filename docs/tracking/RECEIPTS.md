@@ -6,6 +6,8 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 
 | Artifact | Recorded label / kind | Explicit timestamp roles (UTC) |
 | --- | --- | --- |
+| [results/048-049-CONTROL-CORRECTION-REPLAY.json](../../results/048-049-CONTROL-CORRECTION-REPLAY.json) | Post-audit full source/witness controls; previous originals retained | Exact run start/end unknown; inspect original |
+| [results/048-049-CONTROL-CORRECTION-VALIDATION.json](../../results/048-049-CONTROL-CORRECTION-VALIDATION.json) | Full regression after source/witness/prior-profile control correction; not original experiment timing | receipt recording: 2026-10-24T20:26:19.951534Z |
 | [results/048-050-FINAL-VALIDATION.json](../../results/048-050-FINAL-VALIDATION.json) | Full regression verification after audited048–050local studies; not original run timing | receipt recording: 2026-10-24T20:03:12.520653Z |
 | [results/048-050-REPLAY-VALIDATION.json](../../results/048-050-REPLAY-VALIDATION.json) | Full Python3.12 semantic replays; wall/RSS logs independent of original experimental times | Exact run start/end unknown; inspect original |
 | [results/AFFINE-DIGRAPH-CROSSED-001-controls.json](../../results/AFFINE-DIGRAPH-CROSSED-001-controls.json) |  | Exact run start/end unknown; inspect original |
@@ -22,6 +24,8 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/BASE60-BEAUFORT-CONTINUATION-001.json](../../results/BASE60-BEAUFORT-CONTINUATION-001.json) | BASE60-BEAUFORT-CONTINUATION-001 | artifact creation: 2026-10-18T16:46:16.039116Z; end: 2026-10-18T16:46:48.436619Z |
 | [results/BASE60-BEAUFORT-CONTINUATION-VALIDATION.json](../../results/BASE60-BEAUFORT-CONTINUATION-VALIDATION.json) | BASE60-BEAUFORT-CONTINUATION-001 | Exact run start/end unknown; inspect original |
 | [results/BASE60-BEAUFORT-VALIDATION.json](../../results/BASE60-BEAUFORT-VALIDATION.json) | BASE60-BEAUFORT-001 | Exact run start/end unknown; inspect original |
+| [results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json](../../results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json) | CANDIDATE-FIRST-048 | start: 2026-10-24T20:15:20.481864Z; end: 2026-10-24T20:16:33.914933Z |
+| [results/CANDIDATE-FIRST-048-CONTROLLED.json](../../results/CANDIDATE-FIRST-048-CONTROLLED.json) | CANDIDATE-FIRST-048 | start: 2026-10-24T20:11:28.873110Z; end: 2026-10-24T20:13:08.724291Z |
 | [results/CANDIDATE-FIRST-048-ORIGINAL.json](../../results/CANDIDATE-FIRST-048-ORIGINAL.json) | CANDIDATE-FIRST-048 | start: 2026-10-24T19:40:49.963515Z; end: 2026-10-24T19:40:52.486912Z |
 | [results/CANDIDATE-FIRST-048-REPLAY.json](../../results/CANDIDATE-FIRST-048-REPLAY.json) | CANDIDATE-FIRST-048 | start: 2026-10-24T19:51:27.981620Z; end: 2026-10-24T19:51:30.294733Z |
 | [results/CLOCK-BOUNDARY-CHRONOLOGY.json](../../results/CLOCK-BOUNDARY-CHRONOLOGY.json) |  | start: 2026-10-18T12:42:41.282170Z |
@@ -95,6 +99,8 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/DOCUMENTATION-LINK-AUDIT-046.json](../../results/DOCUMENTATION-LINK-AUDIT-046.json) | Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval | Exact run start/end unknown; inspect original |
 | [results/DYNAMIC-KEY-VALIDATION.json](../../results/DYNAMIC-KEY-VALIDATION.json) | DYNAMIC-KEY-001 | Exact run start/end unknown; inspect original |
 | [results/ENE-NOTE-CHECKS.json](../../results/ENE-NOTE-CHECKS.json) |  | Exact run start/end unknown; inspect original |
+| [results/ENE-ROUTE-049-CONTROLLED-REPLAY.json](../../results/ENE-ROUTE-049-CONTROLLED-REPLAY.json) | ENE-ROUTE-049 | start: 2026-10-24T20:16:34.000973Z; end: 2026-10-24T20:16:48.028438Z |
+| [results/ENE-ROUTE-049-CONTROLLED.json](../../results/ENE-ROUTE-049-CONTROLLED.json) | ENE-ROUTE-049 | start: 2026-10-24T20:13:49.930304Z; end: 2026-10-24T20:14:07.042196Z |
 | [results/ENE-ROUTE-049-ORIGINAL.json](../../results/ENE-ROUTE-049-ORIGINAL.json) | ENE-ROUTE-049 | start: 2026-10-24T19:45:19.185573Z; end: 2026-10-24T19:45:36.969399Z |
 | [results/ENE-ROUTE-049-REPLAY.json](../../results/ENE-ROUTE-049-REPLAY.json) | ENE-ROUTE-049 | start: 2026-10-24T19:51:30.356028Z; end: 2026-10-24T19:51:44.413999Z |
 | [results/EXCLUSION-SCOPE-AUDIT-001.json](../../results/EXCLUSION-SCOPE-AUDIT-001.json) |  | Exact run start/end unknown; inspect original |
@@ -195,6 +201,7 @@ One row per tracked top-level JSON result artifact. Several artifacts can descri
 | [results/GROMARK-ALPHABET-VALIDATION.json](../../results/GROMARK-ALPHABET-VALIDATION.json) | GROMARK-ALPHABET-VALIDATION | receipt recording: 2026-10-18T14:00:18.828937Z |
 | [results/GROMARK-IDENTIFIABILITY-CHRONOLOGY.json](../../results/GROMARK-IDENTIFIABILITY-CHRONOLOGY.json) |  | start: 2026-10-18T15:03:35.382531Z |
 | [results/GROMARK-IDENTIFIABILITY-VALIDATION.json](../../results/GROMARK-IDENTIFIABILITY-VALIDATION.json) | GROMARK-IDENTIFIABILITY-VALIDATION | receipt recording: 2026-10-18T15:07:52.133259Z |
+| [results/HAND-GRAMMAR-050-AUDIT-REPLAY.json](../../results/HAND-GRAMMAR-050-AUDIT-REPLAY.json) | FIXED-KEY-HAND-GRAMMAR-050 | start: 2026-10-24T20:19:02.921518Z; end: 2026-10-24T20:19:09.457021Z |
 | [results/HAND-GRAMMAR-050-ORIGINAL.json](../../results/HAND-GRAMMAR-050-ORIGINAL.json) | FIXED-KEY-HAND-GRAMMAR-050 | start: 2026-10-24T19:49:16.853596Z; end: 2026-10-24T19:49:24.990209Z |
 | [results/HAND-GRAMMAR-050-PREFLIGHT-INITIAL.json](../../results/HAND-GRAMMAR-050-PREFLIGHT-INITIAL.json) | Preserved pre-K4 implementation-control failure | receipt recording: 2026-10-24T19:49:16.718016Z |
 | [results/HAND-GRAMMAR-050-REPLAY.json](../../results/HAND-GRAMMAR-050-REPLAY.json) | FIXED-KEY-HAND-GRAMMAR-050 | start: 2026-10-24T19:51:44.463055Z; end: 2026-10-24T19:51:51.024770Z |

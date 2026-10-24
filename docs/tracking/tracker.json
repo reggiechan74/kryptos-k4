@@ -4503,6 +4503,34 @@
       },
       "timestamps": [
         {
+          "receipt": "results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:15:20.481864Z",
+          "original": "2026-10-24T20:15:20.481864+00:00"
+        },
+        {
+          "receipt": "results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:16:33.914933Z",
+          "original": "2026-10-24T20:16:33.914933+00:00"
+        },
+        {
+          "receipt": "results/CANDIDATE-FIRST-048-CONTROLLED.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:11:28.873110Z",
+          "original": "2026-10-24T20:11:28.873110+00:00"
+        },
+        {
+          "receipt": "results/CANDIDATE-FIRST-048-CONTROLLED.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:13:08.724291Z",
+          "original": "2026-10-24T20:13:08.724291+00:00"
+        },
+        {
           "receipt": "results/CANDIDATE-FIRST-048-ORIGINAL.json",
           "field": "started_at_utc",
           "role": "start",
@@ -4541,6 +4569,8 @@
       ],
       "receipt_paths": [
         "results/048-050-REPLAY-VALIDATION.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED.json",
         "results/CANDIDATE-FIRST-048-ORIGINAL.json",
         "results/CANDIDATE-FIRST-048-REPLAY.json"
       ],
@@ -4567,6 +4597,34 @@
         "not_a_run_timestamp": true
       },
       "timestamps": [
+        {
+          "receipt": "results/ENE-ROUTE-049-CONTROLLED-REPLAY.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:16:34.000973Z",
+          "original": "2026-10-24T20:16:34.000973+00:00"
+        },
+        {
+          "receipt": "results/ENE-ROUTE-049-CONTROLLED-REPLAY.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:16:48.028438Z",
+          "original": "2026-10-24T20:16:48.028438+00:00"
+        },
+        {
+          "receipt": "results/ENE-ROUTE-049-CONTROLLED.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:13:49.930304Z",
+          "original": "2026-10-24T20:13:49.930304+00:00"
+        },
+        {
+          "receipt": "results/ENE-ROUTE-049-CONTROLLED.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:14:07.042196Z",
+          "original": "2026-10-24T20:14:07.042196+00:00"
+        },
         {
           "receipt": "results/ENE-ROUTE-049-ORIGINAL.json",
           "field": "started_at_utc",
@@ -4606,6 +4664,8 @@
       ],
       "receipt_paths": [
         "results/048-050-REPLAY-VALIDATION.json",
+        "results/ENE-ROUTE-049-CONTROLLED-REPLAY.json",
+        "results/ENE-ROUTE-049-CONTROLLED.json",
         "results/ENE-ROUTE-049-ORIGINAL.json",
         "results/ENE-ROUTE-049-REPLAY.json"
       ],
@@ -4675,9 +4735,106 @@
         "results/HAND-GRAMMAR-050-REPLAY.json"
       ],
       "original_entry": "- Date: 2026-10-24 UTC. Original calculation started `2026-10-24T19:49:16.853596+00:00`, finished `2026-10-24T19:49:24.990209+00:00`. Replay and regression timings are separate.\n- Result/scope: 56,355 depth 0–3 descriptions/27,323 operators; no 24 letter hit; maximum 7 versus null 6–8; keys/widths fixed. No global family exclusion.\n- [Findings](HAND-GRAMMAR-050-FINDINGS.md); [frozen protocol](HAND-GRAMMAR-050-SPEC.md); [original receipt](../results/HAND-GRAMMAR-050-ORIGINAL.json); [full Python 3.12 replay](../results/HAND-GRAMMAR-050-REPLAY.json); [shared replay/resource verification](../results/048-050-REPLAY-VALIDATION.json); [prior coverage](048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push."
+    },
+    {
+      "record_id": "LOG-74E9EAFB2D",
+      "experiment_ids": [
+        "CONTROL-CORRECTION-048-049"
+      ],
+      "title": "CONTROL-CORRECTION-048-049 — actual lookup, returned witnesses and prior profiles",
+      "categories": [
+        "regression and replication",
+        "synthetic validation"
+      ],
+      "outcome": "Full source lookup and actual returned-hit recovery verified; 576 prior-profile comparisons agree; actual/null results unchanged",
+      "classification_basis": "Independent audit correction to existing models, not new cipher coverage; original and failed-control receipts retained with separate rerun UTCs.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-24 UTC. Corrected 048 calculation: `2026-10-24T20:11:28.873110+00:00` to `2026-10-24T20:13:08.724291+00:00`; corrected 049 calculation: `2026-10-24T20:13:49.930304+00:00` to `2026-10-24T20:14:07.042196+00:00`. Scientific replay and regression UTCs are separate.",
+      "date_only": {
+        "date": "2026-10-24",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [
+        {
+          "receipt": "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T20:26:19.951534Z",
+          "original": "2026-10-24T20:26:19.951534+00:00"
+        },
+        {
+          "receipt": "results/CANDIDATE-FIRST-048-CONTROLLED.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:11:28.873110Z",
+          "original": "2026-10-24T20:11:28.873110+00:00"
+        },
+        {
+          "receipt": "results/CANDIDATE-FIRST-048-CONTROLLED.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:13:08.724291Z",
+          "original": "2026-10-24T20:13:08.724291+00:00"
+        },
+        {
+          "receipt": "results/ENE-ROUTE-049-CONTROLLED.json",
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:13:49.930304Z",
+          "original": "2026-10-24T20:13:49.930304+00:00"
+        },
+        {
+          "receipt": "results/ENE-ROUTE-049-CONTROLLED.json",
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:14:07.042196Z",
+          "original": "2026-10-24T20:14:07.042196+00:00"
+        }
+      ],
+      "links": [
+        "research/048-049-CONTROL-CORRECTION.md",
+        "results/048-049-CONTROL-CORRECTION-REPLAY.json",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED.json",
+        "results/ENE-ROUTE-049-CONTROLLED.json"
+      ],
+      "receipt_paths": [
+        "results/048-049-CONTROL-CORRECTION-REPLAY.json",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED.json",
+        "results/ENE-ROUTE-049-CONTROLLED.json"
+      ],
+      "original_entry": "- Date: 2026-10-24 UTC. Corrected 048 calculation: `2026-10-24T20:11:28.873110+00:00` to `2026-10-24T20:13:08.724291+00:00`; corrected 049 calculation: `2026-10-24T20:13:49.930304+00:00` to `2026-10-24T20:14:07.042196+00:00`. Scientific replay and regression UTCs are separate.\n- Scope/result: all 24 full-source lookup plants, six actual returned-hit witnesses and 576 prior-profile comparisons pass. All original actual/null payloads and model domains remain unchanged; no candidate bank or new family.\n- [Correction/provenance](048-049-CONTROL-CORRECTION.md); [048 current receipt](../results/CANDIDATE-FIRST-048-CONTROLLED.json); [049 current receipt](../results/ENE-ROUTE-049-CONTROLLED.json); [replay validation](../results/048-049-CONTROL-CORRECTION-REPLAY.json); [new regression](../results/048-049-CONTROL-CORRECTION-VALIDATION.json). Local only."
     }
   ],
   "receipts": [
+    {
+      "path": "results/048-049-CONTROL-CORRECTION-REPLAY.json",
+      "labels": [
+        "Post-audit full source/witness controls; previous originals retained"
+      ],
+      "timestamps": [],
+      "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
+      "labels": [
+        "Full regression after source/witness/prior-profile control correction; not original experiment timing"
+      ],
+      "timestamps": [
+        {
+          "field": "recorded_at_utc",
+          "role": "receipt recording",
+          "utc": "2026-10-24T20:26:19.951534Z",
+          "original": "2026-10-24T20:26:19.951534+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
     {
       "path": "results/048-050-FINAL-VALIDATION.json",
       "labels": [
@@ -4850,6 +5007,50 @@
       ],
       "timestamps": [],
       "time_status": "exact run time unknown in top-level receipt; inspect linked original for nested metadata",
+      "status": null
+    },
+    {
+      "path": "results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json",
+      "labels": [
+        "CANDIDATE-FIRST-048"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:15:20.481864Z",
+          "original": "2026-10-24T20:15:20.481864+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:16:33.914933Z",
+          "original": "2026-10-24T20:16:33.914933+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/CANDIDATE-FIRST-048-CONTROLLED.json",
+      "labels": [
+        "CANDIDATE-FIRST-048"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:11:28.873110Z",
+          "original": "2026-10-24T20:11:28.873110+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:13:08.724291Z",
+          "original": "2026-10-24T20:13:08.724291+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
       "status": null
     },
     {
@@ -5806,6 +6007,50 @@
       "status": null
     },
     {
+      "path": "results/ENE-ROUTE-049-CONTROLLED-REPLAY.json",
+      "labels": [
+        "ENE-ROUTE-049"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:16:34.000973Z",
+          "original": "2026-10-24T20:16:34.000973+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:16:48.028438Z",
+          "original": "2026-10-24T20:16:48.028438+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
+      "path": "results/ENE-ROUTE-049-CONTROLLED.json",
+      "labels": [
+        "ENE-ROUTE-049"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:13:49.930304Z",
+          "original": "2026-10-24T20:13:49.930304+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:14:07.042196Z",
+          "original": "2026-10-24T20:14:07.042196+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
+    },
+    {
       "path": "results/ENE-ROUTE-049-ORIGINAL.json",
       "labels": [
         "ENE-ROUTE-049"
@@ -6676,6 +6921,28 @@
       ],
       "time_status": "explicit receipt fields",
       "status": "completed"
+    },
+    {
+      "path": "results/HAND-GRAMMAR-050-AUDIT-REPLAY.json",
+      "labels": [
+        "FIXED-KEY-HAND-GRAMMAR-050"
+      ],
+      "timestamps": [
+        {
+          "field": "started_at_utc",
+          "role": "start",
+          "utc": "2026-10-24T20:19:02.921518Z",
+          "original": "2026-10-24T20:19:02.921518+00:00"
+        },
+        {
+          "field": "finished_at_utc",
+          "role": "end",
+          "utc": "2026-10-24T20:19:09.457021Z",
+          "original": "2026-10-24T20:19:09.457021+00:00"
+        }
+      ],
+      "time_status": "explicit receipt fields",
+      "status": null
     },
     {
       "path": "results/HAND-GRAMMAR-050-ORIGINAL.json",

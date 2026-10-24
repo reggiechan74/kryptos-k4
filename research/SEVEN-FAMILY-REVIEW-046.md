@@ -112,3 +112,9 @@ All three audited domains completed locally, with exact Python 3.12 semantic rep
 [049 ENE routes](ENE-ROUTE-049-FINDINGS.md) cover 56,454 descriptions and 34,569 unique routes under three declared geometric procedures, giving 656,811 fixed-key arithmetic cases. None matches all 24 letters; actual maximum 8 is matched/exceeded by 17 of 31 whole-search nulls. [050 fixed-key hand grammar](HAND-GRAMMAR-050-FINDINGS.md) covers 38 primitives,56,355 words of length 0–3 and 27,323 distinct global operators. None matches all 24 letters;19 of 31 null maxima match/exceed its 7. These are narrow model negatives with positive controls, not exhaustive handcipher/ENE/key exclusions. The source themes/manual-workflow facts do not supply a unique key or three-step theorem. [Prior overlap and source boundaries](048-050-PRIOR-COVERAGE.md) remain explicit. No paid checker, external language-model service, Site edit or public push occurred.
 
 Final 048–050 integration verification: all **718 tracked tests** pass on both supported Python versions; [full UTC validation/log hashes](../results/048-050-FINAL-VALIDATION.json). All new outcomes remain local; broad families and independent-source gaps are not declared exhausted.
+
+## Post-audit control correction, unchanged outcomes
+
+[048/049 current controls and preserved history](048-049-CONTROL-CORRECTION.md) now verify all 24 actual full-source plant lookups, all six returned selector witnesses and all 576 applicable prior-044 structural comparisons. Earlier originals are retained, and every actual/null payload agrees exactly. Model scope, budgets, unknown-key caveats and no-publication status are unchanged.
+
+Current control-corrected validation: all **721 tests pass on Python 3.9 and Python 3.12**. [Strong source/witness controls and retained history](048-049-CONTROL-CORRECTION.md). Numerical actual/null outcomes and broad unexcluded scope are unchanged.

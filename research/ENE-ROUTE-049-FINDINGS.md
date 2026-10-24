@@ -14,7 +14,7 @@ All 31 whole-search null maxima are 7 or 8, with 17 at least the actual 8. No pa
 
 Two permutations intersect the old 66-route catalogue, giving a conservative 36 fixed-arithmetic cases already inside that prior key-family coverage. Pure transposition was already independently excluded by the known-letter count deficit. These repeats are retained for identical null calibration and are not new negatives. K3/clock and occupied-cell families are also related prior work; no worldwide novelty claim or complete prior-catalogue union is made. See [overlap accounting](048-050-PRIOR-COVERAGE.md). Untested complements include other keys, phases, rounding/edge conventions and stage orders. No K4 solution, physical compass calibration, Site change or public push follows.
 
-Final integration: all 718 tracked tests pass on Python 3.9 and Python 3.12; [UTC suite receipt and complete logs](../results/048-050-FINAL-VALIDATION.json). Original experiment, scientific replay and regression times are recorded separately. No public push occurred.
+Original integration at `1cef25a`: all 718 tracked tests passed on Python 3.9 and Python 3.12; [UTC suite receipt and complete logs](../results/048-050-FINAL-VALIDATION.json). Original experiment, scientific replay and regression times are recorded separately. No public push occurred.
 
 Reproduce from repository root, preserving original receipts:
 
@@ -23,3 +23,7 @@ python3 experiments/ene_route_049.py --output /tmp/ene-route-049-replay.json
 ```
 
 Existing compressed catalogues are checked exactly instead of silently overwritten. New replay files receive new UTC times.
+
+## Independent-audit control correction
+
+The original negative results remain unchanged, but the earlier plant validation omitted assertions: 048 had not run its large plants through the actual source lookup; 049 had not checked the planted route/variant/plaintext in the returned selector hits. [The correction and current stronger receipts](048-049-CONTROL-CORRECTION.md) close those gaps and add the explicit 044 structural comparison. Earlier originals, replays and their timings are retained as historical artifacts, not silently overwritten. Current replay commands execute the strengthened controls. The new actual/null numerical payloads match the originals exactly.

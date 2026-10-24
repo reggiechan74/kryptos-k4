@@ -363,6 +363,7 @@
         "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK-INVENTORY.json",
         "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
         "independent/2026-10-24/world-clock-item3/README.md",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/AFFINE-DIGRAPH-PARITY-BOUNDARY.md",
         "research/ALPHABET-GEOMETRY-REPRESENTATION.md",
@@ -906,6 +907,7 @@
         "independent/2026-10-24/item7-historical-sources/friedman-reference-source-qa.json",
         "independent/2026-10-24/item7-historical-sources/friedman_reference_source_qa.py",
         "independent/2026-10-24/item7-historical-sources/visual-transcription.json",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md",
         "research/FOLD-SLIDE-2D-FINDINGS.md",
@@ -922,6 +924,7 @@
         "research/WHEATSTONE-TRANSITION-FINDINGS.md",
         "research/WHEATSTONE-TRANSITION-SPEC.md",
         "research/WORLD-CLOCK-003-FINDINGS.md",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/FRONTIER-028.json",
         "results/ITEM7-HISTORICAL-SOURCE-QA-027.json",
@@ -1124,6 +1127,7 @@
         "independent/2026-10-24/item7-historical-sources/friedman-reference-source-qa.json",
         "independent/2026-10-24/item7-historical-sources/friedman_reference_source_qa.py",
         "independent/2026-10-24/item7-historical-sources/visual-transcription.json",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md",
         "research/FOLD-SLIDE-2D-FINDINGS.md",
@@ -1138,6 +1142,7 @@
         "research/STRIP-SOURCE-GATES-027-SPEC.md",
         "research/TREE-GEOMETRY-IPA-026-FINDINGS.md",
         "research/WORLD-CLOCK-003-FINDINGS.md",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/FRONTIER-028.json",
         "results/ITEM7-HISTORICAL-SOURCE-QA-027.json",
@@ -1648,6 +1653,7 @@
         "experiments/run_regressions.py",
         "experiments/structural_checks.py",
         "independent/2026-10-22/construction/REPORT.md",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md",
         "research/FOLD-SLIDE-2D-FINDINGS.md",
@@ -1661,6 +1667,7 @@
         "research/STRUCTURAL-FINDINGS.md",
         "research/TREE-GEOMETRY-IPA-026-FINDINGS.md",
         "research/WORLD-CLOCK-003-FINDINGS.md",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/FRONTIER-028.json",
         "results/ONE-EDIT-028-INDEPENDENT-AUDIT.json",
@@ -1801,6 +1808,7 @@
         "experiments/run_one_edit.py",
         "experiments/run_regressions.py",
         "independent/2026-10-22/construction/REPORT.md",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/CANDIDATE-FIRST-048-FINDINGS.md",
         "research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md",
@@ -1817,6 +1825,7 @@
         "research/STRUCTURAL-FINDINGS.md",
         "research/TREE-GEOMETRY-IPA-026-FINDINGS.md",
         "research/WORLD-CLOCK-003-FINDINGS.md",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/FRONTIER-028.json",
         "results/ONE-EDIT-028-INDEPENDENT-AUDIT.json",
@@ -1980,6 +1989,7 @@
         "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK-INVENTORY.json",
         "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
         "independent/2026-10-24/world-clock-item3/README.md",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/ALPHABET-GEOMETRY-REPRESENTATION.md",
         "research/AUTOKEY-CONSTRAINT-FINDINGS.md",
@@ -2041,6 +2051,8 @@
         "research/figures/fold-slide-2d-001.svg",
         "research/specifications/FOLD-SLIDE-2D-001.json",
         "research/specifications/SEVEN-FAMILY-REVIEW-046.json",
+        "results/048-049-CONTROL-CORRECTION-REPLAY.json",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/048-050-REPLAY-VALIDATION.json",
         "results/AFFINE-DIGRAPH-CROSSED-001-controls.json",
@@ -2057,6 +2069,8 @@
         "results/BASE60-BEAUFORT-CONTINUATION-001.json",
         "results/BASE60-BEAUFORT-CONTINUATION-VALIDATION.json",
         "results/BASE60-BEAUFORT-VALIDATION.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED.json",
         "results/CANDIDATE-FIRST-048-ORIGINAL.json",
         "results/CANDIDATE-FIRST-048-REPLAY.json",
         "results/CLOCK-BOUNDARY-CHRONOLOGY.json",
@@ -2130,6 +2144,8 @@
         "results/DOCUMENTATION-LINK-AUDIT-046.json",
         "results/DYNAMIC-KEY-VALIDATION.json",
         "results/ENE-NOTE-CHECKS.json",
+        "results/ENE-ROUTE-049-CONTROLLED-REPLAY.json",
+        "results/ENE-ROUTE-049-CONTROLLED.json",
         "results/ENE-ROUTE-049-ORIGINAL.json",
         "results/ENE-ROUTE-049-REPLAY.json",
         "results/EXCLUSION-SCOPE-AUDIT-001.json",
@@ -2231,6 +2247,7 @@
         "results/GROMARK-ALPHABET-VALIDATION.json",
         "results/GROMARK-IDENTIFIABILITY-CHRONOLOGY.json",
         "results/GROMARK-IDENTIFIABILITY-VALIDATION.json",
+        "results/HAND-GRAMMAR-050-AUDIT-REPLAY.json",
         "results/HAND-GRAMMAR-050-ORIGINAL.json",
         "results/HAND-GRAMMAR-050-PREFLIGHT-INITIAL.json",
         "results/HAND-GRAMMAR-050-REPLAY.json",
@@ -2603,6 +2620,7 @@
         "experiments/run_bounded.py",
         "experiments/statistical_diagnostics.py",
         "experiments/structural_checks.py",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/AUDIT-HARDENING.md",
         "research/BOUNDED-FINDINGS.md",
@@ -2614,11 +2632,17 @@
         "research/HAND-GRAMMAR-050-FINDINGS.md",
         "research/HAND-GRAMMAR-050-SPEC.md",
         "research/STRUCTURAL-FINDINGS.md",
+        "results/048-049-CONTROL-CORRECTION-REPLAY.json",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/048-050-REPLAY-VALIDATION.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED.json",
         "results/CANDIDATE-FIRST-048-ORIGINAL.json",
         "results/CANDIDATE-FIRST-048-REPLAY.json",
         "results/ENE-ROUTE-049-CATALOGUE.json.gz",
+        "results/ENE-ROUTE-049-CONTROLLED-REPLAY.json",
+        "results/ENE-ROUTE-049-CONTROLLED.json",
         "results/ENE-ROUTE-049-ORIGINAL.json",
         "results/ENE-ROUTE-049-REPLAY.json",
         "results/HAND-GRAMMAR-050-CATALOGUE.json.gz",
@@ -2825,6 +2849,7 @@
         "experiments/ene_route_049.py",
         "experiments/hand_grammar_050.py",
         "experiments/landmark_axis.py",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/CANDIDATE-FIRST-048-FINDINGS.md",
         "research/CANDIDATE-FIRST-048-SPEC.md",
@@ -2834,11 +2859,17 @@
         "research/HAND-GRAMMAR-050-SPEC.md",
         "research/LANDMARK-AXIS-FINDINGS.md",
         "research/specifications/LANDMARK-AXIS-001.json",
+        "results/048-049-CONTROL-CORRECTION-REPLAY.json",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/048-050-REPLAY-VALIDATION.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED.json",
         "results/CANDIDATE-FIRST-048-ORIGINAL.json",
         "results/CANDIDATE-FIRST-048-REPLAY.json",
         "results/ENE-ROUTE-049-CATALOGUE.json.gz",
+        "results/ENE-ROUTE-049-CONTROLLED-REPLAY.json",
+        "results/ENE-ROUTE-049-CONTROLLED.json",
         "results/ENE-ROUTE-049-ORIGINAL.json",
         "results/ENE-ROUTE-049-REPLAY.json",
         "results/HAND-GRAMMAR-050-CATALOGUE.json.gz",
@@ -3092,6 +3123,7 @@
         "experiments/run_gromark_alphabet.py",
         "experiments/run_gromark_identifiability.py",
         "experiments/structural_checks.py",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/AUTOKEY-CONSTRAINT-FINDINGS.md",
         "research/CANDIDATE-FIRST-048-FINDINGS.md",
@@ -3119,13 +3151,19 @@
         "research/specifications/MASK-AUTO-001.json",
         "research/specifications/MASK-FM-001.json",
         "research/specifications/WORD-SCRAMBLE-001.json",
+        "results/048-049-CONTROL-CORRECTION-REPLAY.json",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/048-050-REPLAY-VALIDATION.json",
         "results/AUTOKEY-CONSTRAINT-CHRONOLOGY.json",
         "results/AUTOKEY-CONSTRAINT-VALIDATION.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED.json",
         "results/CANDIDATE-FIRST-048-ORIGINAL.json",
         "results/CANDIDATE-FIRST-048-REPLAY.json",
         "results/ENE-ROUTE-049-CATALOGUE.json.gz",
+        "results/ENE-ROUTE-049-CONTROLLED-REPLAY.json",
+        "results/ENE-ROUTE-049-CONTROLLED.json",
         "results/ENE-ROUTE-049-ORIGINAL.json",
         "results/ENE-ROUTE-049-REPLAY.json",
         "results/FEISTEL-SYMMETRY-005-controls.json",
@@ -3916,6 +3954,7 @@
         "experiments/run_one_edit.py",
         "experiments/run_regressions.py",
         "independent/2026-10-22/construction/REPORT.md",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md",
         "research/FOLD-SLIDE-2D-FINDINGS.md",
@@ -3929,6 +3968,7 @@
         "research/STRIP-SOURCE-GATES-027-FINDINGS.md",
         "research/TREE-GEOMETRY-IPA-026-FINDINGS.md",
         "research/WORLD-CLOCK-003-FINDINGS.md",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/FRONTIER-028.json",
         "results/ONE-EDIT-028-INDEPENDENT-AUDIT.json",
@@ -4118,6 +4158,7 @@
         "experiments/statistical_diagnostics.py",
         "experiments/structural_checks.py",
         "independent/2026-10-22/construction/REPORT.md",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/AUDIT-HARDENING.md",
         "research/BOUNDED-FINDINGS.md",
@@ -4143,6 +4184,7 @@
         "research/WORLD-CLOCK-003-FINDINGS.md",
         "research/specifications/PHONETIC-CL-001.json",
         "research/specifications/PHONETIC-SUBSET-001.json",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/FRONTIER-028.json",
         "results/ONE-EDIT-028-INDEPENDENT-AUDIT.json",
@@ -4316,6 +4358,7 @@
         "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK-INVENTORY.json",
         "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
         "independent/2026-10-24/world-clock-item3/README.md",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/ALPHABET-GEOMETRY-REPRESENTATION.md",
         "research/AUTOKEY-CONSTRAINT-FINDINGS.md",
@@ -4378,6 +4421,8 @@
         "research/figures/fold-slide-2d-001.svg",
         "research/specifications/FOLD-SLIDE-2D-001.json",
         "research/specifications/SEVEN-FAMILY-REVIEW-046.json",
+        "results/048-049-CONTROL-CORRECTION-REPLAY.json",
+        "results/048-049-CONTROL-CORRECTION-VALIDATION.json",
         "results/048-050-FINAL-VALIDATION.json",
         "results/048-050-REPLAY-VALIDATION.json",
         "results/AFFINE-DIGRAPH-CROSSED-001-controls.json",
@@ -4394,6 +4439,8 @@
         "results/BASE60-BEAUFORT-CONTINUATION-001.json",
         "results/BASE60-BEAUFORT-CONTINUATION-VALIDATION.json",
         "results/BASE60-BEAUFORT-VALIDATION.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json",
+        "results/CANDIDATE-FIRST-048-CONTROLLED.json",
         "results/CANDIDATE-FIRST-048-ORIGINAL.json",
         "results/CANDIDATE-FIRST-048-REPLAY.json",
         "results/CLOCK-BOUNDARY-CHRONOLOGY.json",
@@ -4467,6 +4514,8 @@
         "results/DOCUMENTATION-LINK-AUDIT-046.json",
         "results/DYNAMIC-KEY-VALIDATION.json",
         "results/ENE-NOTE-CHECKS.json",
+        "results/ENE-ROUTE-049-CONTROLLED-REPLAY.json",
+        "results/ENE-ROUTE-049-CONTROLLED.json",
         "results/ENE-ROUTE-049-ORIGINAL.json",
         "results/ENE-ROUTE-049-REPLAY.json",
         "results/EXCLUSION-SCOPE-AUDIT-001.json",
@@ -4568,6 +4617,7 @@
         "results/GROMARK-ALPHABET-VALIDATION.json",
         "results/GROMARK-IDENTIFIABILITY-CHRONOLOGY.json",
         "results/GROMARK-IDENTIFIABILITY-VALIDATION.json",
+        "results/HAND-GRAMMAR-050-AUDIT-REPLAY.json",
         "results/HAND-GRAMMAR-050-ORIGINAL.json",
         "results/HAND-GRAMMAR-050-PREFLIGHT-INITIAL.json",
         "results/HAND-GRAMMAR-050-REPLAY.json",
@@ -4972,6 +5022,7 @@
         "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK-INVENTORY.json",
         "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
         "independent/2026-10-24/world-clock-item3/README.md",
+        "research/048-049-CONTROL-CORRECTION.md",
         "research/048-050-PRIOR-COVERAGE.md",
         "research/ALPHABET-GEOMETRY-REPRESENTATION.md",
         "research/AUTOKEY-CONSTRAINT-FINDINGS.md",
@@ -5266,12 +5317,12 @@
     },
     {
       "path": "docs/tracking/EXPERIMENT-DETAILS.md",
-      "sha256": "f46f95a82c212bb7b04059722e8892e2af2300e6b0333378c82ad53dceaec6a8",
+      "sha256": "e81c357fd145a8b771325c1e299deba5a17593a0892f4026a71a49c59417e079",
       "matching_lines": 95
     },
     {
       "path": "docs/tracking/EXPERIMENTS.md",
-      "sha256": "2547b23b5594ee7ddd0278a82467a081f0d7762eda47897d9d2d9f1685bbbf4d",
+      "sha256": "67e134347a0a1750889d69205b993f4208d5a9518004e756f04886c920a6c869",
       "matching_lines": 25
     },
     {
@@ -5286,7 +5337,7 @@
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "sha256": "b0860780b942128e4343aeab50a050976a5ffde2a6a445b0914266844b73768f",
+      "sha256": "a384bb8d2e9dc6c2fab0b5c664c30ce57e6097b9d2abaf5570b0df8fe9347a25",
       "matching_lines": 4
     },
     {
@@ -5395,8 +5446,13 @@
       "matching_lines": 2
     },
     {
+      "path": "research/048-049-CONTROL-CORRECTION.md",
+      "sha256": "a4d87342989f505883f1ce9c55de6927e887ea91db26c13767806dab90a075f0",
+      "matching_lines": 1
+    },
+    {
       "path": "research/048-050-PRIOR-COVERAGE.md",
-      "sha256": "6a05df38c46dbaa41a0d7c423195224fddd5159a3b66afa0bd31c12ec4f83e3a",
+      "sha256": "68cc815e89a9145da4db81c8dd647d93b8ef95e3399d79cb55e34e7dfcc2c9e6",
       "matching_lines": 1
     },
     {
@@ -5447,6 +5503,11 @@
     {
       "path": "research/BOUNDED-SPEC.md",
       "sha256": "d56560aba16990a14edf2c9a261ac8ebe491c1297b5fc3121f9b3a4fb814d1a3",
+      "matching_lines": 1
+    },
+    {
+      "path": "research/CANDIDATE-FIRST-048-FINDINGS.md",
+      "sha256": "d9574d1fd3d421495061c35fdd1df2f7c81dbec0fcbae910e0312f105f27e208",
       "matching_lines": 1
     },
     {
@@ -5571,8 +5632,8 @@
     },
     {
       "path": "research/ENE-ROUTE-049-FINDINGS.md",
-      "sha256": "42917f4dcb18c4a96cc63650c4d42fd0de45189690615ba524b0d6dfd7e9cc56",
-      "matching_lines": 2
+      "sha256": "8aee81b71e67038b2fe5e69aaec3c0478fe91025dd2987027dab5660de2d050b",
+      "matching_lines": 3
     },
     {
       "path": "research/ENE-ROUTE-049-SPEC.md",
@@ -5586,7 +5647,7 @@
     },
     {
       "path": "research/EXPERIMENTS.md",
-      "sha256": "96c28c2e2651214a7569c8f39d29d43375397fffa2818c5653651544e4cb9fcc",
+      "sha256": "6612fb2f3accbd0acffdefe4faaea3d96d604f6264b78930d34b42209525eeb9",
       "matching_lines": 70
     },
     {
@@ -5871,7 +5932,7 @@
     },
     {
       "path": "research/SEVEN-FAMILY-REVIEW-046.md",
-      "sha256": "a14c5d0182466ec251e6ae5841f42ec663567c9d65f352ee75c0f7ebf6c922d3",
+      "sha256": "90a7813b420078bbc015e899cf68de37c5f89f75200058c4d340a91c27844ca6",
       "matching_lines": 15
     },
     {
@@ -6201,7 +6262,7 @@
     },
     {
       "path": "tests/README.md",
-      "sha256": "0c9fe4d51ca6e3d305ff8abe5d8161be2a0689aa617df59c9e410e9a6c762abf",
+      "sha256": "329b2163498026522f420f6ed90c1a39f6fa323226b8182a410b71d27c0cb79e",
       "matching_lines": 1
     }
   ],
@@ -7741,28 +7802,28 @@
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "line": 226,
+      "line": 233,
       "text": "| [results/HYPOTHESIS-REGISTER-025.json](../../results/HYPOTHESIS-REGISTER-025.json) | Item 5 finite ordinal lamp Greek codecs; no general Greek rejection | Exact run start/end unknown; inspect original |",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "line": 263,
+      "line": 270,
       "text": "| [results/NONROTOR-STRUCTURAL-004-independent.json](../../results/NONROTOR-STRUCTURAL-004-independent.json) | Post-run independent exact-entry certificates; actual models contradict before unsupported latent branch handling | Exact run start/end unknown; inspect original |",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "line": 290,
+      "line": 297,
       "text": "| [results/PROSE-COVER-035-INDEPENDENT-AUDIT.json](../../results/PROSE-COVER-035-INDEPENDENT-AUDIT.json) | Independent post-outcome complete actual-domain set and lexical-negative replay | start: 2026-10-24T14:43:46.938037Z; end: 2026-10-24T14:43:49.043601Z |",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
       "path": "docs/tracking/RECEIPTS.md",
-      "line": 433,
+      "line": 440,
       "text": "| [results/one-edit-028-preflight/receipt.json](../../results/one-edit-028-preflight/receipt.json) | Preflight serialization-cap issue, not a cipher negative | receipt recording: 2026-10-24T02:59:14.270769Z |",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
@@ -8482,6 +8543,13 @@
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
     {
+      "path": "research/048-049-CONTROL-CORRECTION.md",
+      "line": 3,
+      "text": "The independent final audit identified three missing assertions, not a defect in the recorded negative outcomes: large 048 plants bypassed the actual source lookup; 049 whole-selector plants did not inspect returned witness identity; and the planned 044 structural comparison lacked an explicit receipt. Earlier originals/replays and all failed-control provenance remain unchanged and are recoverable at `1cef25a` / `fbad6b2`.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
       "path": "research/048-050-PRIOR-COVERAGE.md",
       "line": 7,
       "text": "049 compares its exact permutations against `results/ROUTE-001.json.gz`, SHA-256`64bf94288500683df4f02c276d8c43374fe0df8915c2fc147a94e095341f27fb`. Its 66 routes include arbitrary periodic-key families, with both stage orders; two reading permutations coincide. The conservative 36 fixed-key arithmetic subset is inherited coverage, not a new family negative. All pure transpositions were already excluded independently by three confirmed plaintext Es versus two ciphertext Es. Related local K3/clock 384 structure and occupied-cell experiments have different explicitly registered masks, widths, phase conventions and key domains; no title-only global novelty is inferred. Null calibration may replay old cases without adding them as independent evidence.",
@@ -8870,6 +8938,13 @@
       "path": "research/BOUNDED-SPEC.md",
       "line": 66,
       "text": "command, parameters, actual work count, outputs, and exact negative-result scope.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "research/CANDIDATE-FIRST-048-FINDINGS.md",
+      "line": 29,
+      "text": "The original negative results remain unchanged, but the earlier plant validation omitted assertions: 048 had not run its large plants through the actual source lookup; 049 had not checked the planted route/variant/plaintext in the returned selector hits. [The correction and current stronger receipts](048-049-CONTROL-CORRECTION.md) close those gaps and add the explicit 044 structural comparison. Earlier originals, replays and their timings are retained as historical artifacts, not silently overwritten. Current replay commands execute the strengthened controls. The new actual/null numerical payloads match the originals exactly.",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },
@@ -9619,6 +9694,13 @@
       "path": "research/ENE-ROUTE-049-FINDINGS.md",
       "line": 15,
       "text": "Two permutations intersect the old 66-route catalogue, giving a conservative 36 fixed-arithmetic cases already inside that prior key-family coverage. Pure transposition was already independently excluded by the known-letter count deficit. These repeats are retained for identical null calibration and are not new negatives. K3/clock and occupied-cell families are also related prior work; no worldwide novelty claim or complete prior-catalogue union is made. See [overlap accounting](048-050-PRIOR-COVERAGE.md). Untested complements include other keys, phases, rounding/edge conventions and stage orders. No K4 solution, physical compass calibration, Site change or public push follows.",
+      "review_unit": "authored document or retained source report",
+      "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
+    },
+    {
+      "path": "research/ENE-ROUTE-049-FINDINGS.md",
+      "line": 29,
+      "text": "The original negative results remain unchanged, but the earlier plant validation omitted assertions: 048 had not run its large plants through the actual source lookup; 049 had not checked the planted route/variant/plaintext in the returned selector hits. [The correction and current stronger receipts](048-049-CONTROL-CORRECTION.md) close those gaps and add the explicit 044 structural comparison. Earlier originals, replays and their timings are retained as historical artifacts, not silently overwritten. Current replay commands execute the strengthened controls. The new actual/null numerical payloads match the originals exactly.",
       "review_unit": "authored document or retained source report",
       "disposition": "Interpret only with the current canonical scope and source chronology; lexical hit is not a separately verified theorem."
     },

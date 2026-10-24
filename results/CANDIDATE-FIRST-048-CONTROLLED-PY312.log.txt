@@ -1,0 +1,19 @@
+{"id": "CANDIDATE-FIRST-048", "models": 582, "structural_survivors": 42, "distinct_plaintexts": 0, "null_counts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "tiny_relations": 3612, "plants": 24, "candidate_bank_generated": 0}
+       73.51 real        72.96 user         0.45 sys
+           344391680  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               83397  page reclaims
+                 601  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 183  voluntary context switches
+               10183  involuntary context switches
+       2193133188707  instructions retired
+        338039414738  cycles elapsed
+           275628728  peak memory footprint

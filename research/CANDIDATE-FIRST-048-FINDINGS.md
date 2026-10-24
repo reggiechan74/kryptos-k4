@@ -14,7 +14,7 @@ The original calculation runs 2026-10-24 T 19:40:49.963515+00:00 to 19:40:52.486
 
 Remaining scope includes other independently fixed source editions, key phases, lengths beyond 32, other constructors and route/cipher layers. An unrestricted 97 letter additive key can fit arbitrary guessed plaintext and is not confirmation. Existing source-codec/running-key coverage and [prior-overlap boundaries](048-050-PRIOR-COVERAGE.md) remain explicit.
 
-Final integration: all 718 tracked tests pass on Python 3.9 and Python 3.12; [UTC suite receipt and complete logs](../results/048-050-FINAL-VALIDATION.json). Original experiment, scientific replay and regression times are recorded separately. No public push occurred.
+Original integration at `1cef25a`: all 718 tracked tests passed on Python 3.9 and Python 3.12; [UTC suite receipt and complete logs](../results/048-050-FINAL-VALIDATION.json). Original experiment, scientific replay and regression times are recorded separately. No public push occurred.
 
 Reproduce from repository root, preserving original receipts:
 
@@ -23,3 +23,7 @@ python3 experiments/candidate_first_048.py --brown /path/to/hash-pinned-brown.zi
 ```
 
 The source ZIP is external data, not installed software. Existing compressed catalogues are checked exactly instead of silently overwritten. New replay files receive new UTC times.
+
+## Independent-audit control correction
+
+The original negative results remain unchanged, but the earlier plant validation omitted assertions: 048 had not run its large plants through the actual source lookup; 049 had not checked the planted route/variant/plaintext in the returned selector hits. [The correction and current stronger receipts](048-049-CONTROL-CORRECTION.md) close those gaps and add the explicit 044 structural comparison. Earlier originals, replays and their timings are retained as historical artifacts, not silently overwritten. Current replay commands execute the strengthened controls. The new actual/null numerical payloads match the originals exactly.

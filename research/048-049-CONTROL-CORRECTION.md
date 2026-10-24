@@ -1,0 +1,23 @@
+# 048–049 late control correction — unchanged model domains
+
+The independent final audit identified three missing assertions, not a defect in the recorded negative outcomes: large 048 plants bypassed the actual source lookup; 049 whole-selector plants did not inspect returned witness identity; and the planned 044 structural comparison lacked an explicit receipt. Earlier originals/replays and all failed-control provenance remain unchanged and are recoverable at `1cef25a` / `fbad6b2`.
+
+Corrections run compatible_source on the **same 24 crib windows and full 500-document source bank** for all24large 048 plants, requiring true key, full plaintext and source coordinates. A lag 5 ciphertext-autokey plant admits every source 5-character window: no oracle restriction, source slice, sampling or longer primer is substituted. Repeated identical keys are decrypted once per fixed model; every source alias is retained in exact 64-bit (document-index, normalized-character-offset) storage. Independent tiny relations now check all coordinates as well as keys/plaintexts. Offsets are zero-based positions in each normalized A–Z source document, not raw-file byte positions; keys never cross document boundaries. This is lossless representation sharing, not a new model. Original 180-second / 1-GiB control limits remain binding; if they fail, preserve the actual boundary rather than extend it.
+
+049 uses `keep=True` and checks that an actual returned hit contains the planted route hash, arithmetic variant and complete plaintext. 048 also compares all 576 periodic/PT/CT models with prior 044 minimum-repair viability and compatible free-parameter counts, explicitly identifying 64 periodic-minus sign-relabel aliases; the six running-key models have no 044 counterpart.
+
+Corrected executions and replays use new `CONTROLLED` receipts. The original files are not overwritten. Actual/null numerical payloads must match their earlier versions exactly; new assertions and source fingerprints are recorded separately. No cipher/key/source inventory, candidate bank, route convention, budget, Site or publication changes are authorized by this correction.
+
+## Completed strengthened validation
+
+All 24 real-sized plants now call `compatible_source` with the original 24 crib letters and the complete source bank. True key, full plaintext and `brown/ca01` normalized offset 0 are asserted in the returned relation. Each of the six lag-5 ciphertext-autokey controls admits 375,004 distinct keys and all 4,743,928 source occurrences; those controls are ambiguous by design. No full plaintext oracle was added to constrain their lookup.
+
+All six whole-selector 049 plants verify the actual returned hit's route hash, arithmetic label and full plaintext. All 576 applicable prior-044 comparisons agree (512 exact coefficient cases and 64 unrestricted periodic-key sign-relabel aliases); 36 remain structurally compatible. The sign aliases are a structural comparison only and do not collapse the separately tested Brown source-key domains. The six running-key models have no 044 counterpart.
+
+[048 corrected run](../results/CANDIDATE-FIRST-048-CONTROLLED.json) and [corrected full replay](../results/CANDIDATE-FIRST-048-CONTROLLED-REPLAY.json); [049 corrected run](../results/ENE-ROUTE-049-CONTROLLED.json) and [corrected full replay](../results/ENE-ROUTE-049-CONTROLLED-REPLAY.json). All actual and null payloads equal the retained originals exactly. [Separate replay/UTC/resource verification](../results/048-049-CONTROL-CORRECTION-REPLAY.json) also confirms an unchanged 050 replay and identical ASTs for its used `Budget`/`utc` helper interfaces. Corrected Python 3.12 replay measures 73.51 seconds / 344,391,680 bytes maximum RSS for 048, and 14.08 seconds / 130,629,632 bytes for 049. Limits were not enlarged.
+
+The earlier 718-test full-suite receipts remain historical and unchanged. Fresh full regression is recorded in [correction validation](../results/048-049-CONTROL-CORRECTION-VALIDATION.json), with its own UTCs. No new search family, candidate message bank, publication or Site change occurred.
+
+## Final regression and retention check
+
+All **721 tracked tests pass on Python 3.9 and Python 3.12**. [Separate UTC suite records and complete log hashes](../results/048-049-CONTROL-CORRECTION-VALIDATION.json) also verify byte identity of all six original scientific receipts, both earlier validation records, both 718-test logs and the initial 050 failure record against `1cef25a`. All three control gaps are closed. No actual/null result, model scope, budget, canonical ciphertext, map or Site file changed; nothing was published.

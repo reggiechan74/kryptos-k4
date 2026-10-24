@@ -798,6 +798,15 @@
       ],
       "outcome": "56,355depth0–3descriptions/27,323operators; no24letter hit; maximum7versus null6–8; keys/widths fixed",
       "basis": "Explicit review of audited frozen finite model, complete original/replay receipts, positive/reference controls, whole-family nulls and unexcluded scope; not title-derived."
+    },
+    "LOG-74E9EAFB2D": {
+      "title": "CONTROL-CORRECTION-048-049 — actual lookup, returned witnesses and prior profiles",
+      "categories": [
+        "regression and replication",
+        "synthetic validation"
+      ],
+      "outcome": "Full source lookup and actual returned-hit recovery verified; 576 prior-profile comparisons agree; actual/null results unchanged",
+      "basis": "Independent audit correction to existing models, not new cipher coverage; original and failed-control receipts retained with separate rerun UTCs."
     }
   }
 }

@@ -2055,7 +2055,7 @@ Related files: [research/PHOTO-NATIVE-047-FINDINGS.md](../../research/PHOTO-NATI
 
 **CANDIDATE-FIRST-048 — exact source-key preflight before message generation**
 
-start: 2026-10-24T19:40:49.963515Z; end: 2026-10-24T19:40:52.486912Z; start: 2026-10-24T19:51:27.981620Z; end: 2026-10-24T19:51:30.294733Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC. Original calculation started `2026-10-24T19:40:49.963515+00:00`, finished `2026-10-24T19:40:52.486912+00:00`. Replay and regression timings are separate.
+start: 2026-10-24T20:15:20.481864Z; end: 2026-10-24T20:16:33.914933Z; start: 2026-10-24T20:11:28.873110Z; end: 2026-10-24T20:13:08.724291Z; start: 2026-10-24T19:40:49.963515Z; end: 2026-10-24T19:40:52.486912Z; start: 2026-10-24T19:51:27.981620Z; end: 2026-10-24T19:51:30.294733Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC. Original calculation started `2026-10-24T19:40:49.963515+00:00`, finished `2026-10-24T19:40:52.486912+00:00`. Replay and regression timings are separate.
 
 Type: analytical constraints; synthetic validation. Outcome: 582models;42free-key survivors, zeroBrown source-key/97letter plaintext matches; conditional bank omitted
 
@@ -2071,7 +2071,7 @@ Related files: [research/048-050-PRIOR-COVERAGE.md](../../research/048-050-PRIOR
 
 **ENE-ROUTE-049 — literal and digital ENE with fixed arithmetic**
 
-start: 2026-10-24T19:45:19.185573Z; end: 2026-10-24T19:45:36.969399Z; start: 2026-10-24T19:51:30.356028Z; end: 2026-10-24T19:51:44.413999Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC. Original calculation started `2026-10-24T19:45:19.185573+00:00`, finished `2026-10-24T19:45:36.969399+00:00`. Replay and regression timings are separate.
+start: 2026-10-24T20:16:34.000973Z; end: 2026-10-24T20:16:48.028438Z; start: 2026-10-24T20:13:49.930304Z; end: 2026-10-24T20:14:07.042196Z; start: 2026-10-24T19:45:19.185573Z; end: 2026-10-24T19:45:36.969399Z; start: 2026-10-24T19:51:30.356028Z; end: 2026-10-24T19:51:44.413999Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC. Original calculation started `2026-10-24T19:45:19.185573+00:00`, finished `2026-10-24T19:45:36.969399+00:00`. Replay and regression timings are separate.
 
 Type: finite K4 model tests; synthetic validation. Outcome: 56,454descriptions/34,569routes/656,811fixed cases; zero24letter hits; actual/null maxima8versus7–8
 
@@ -2098,3 +2098,19 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - [Findings](../../research/HAND-GRAMMAR-050-FINDINGS.md); [frozen protocol](../../research/HAND-GRAMMAR-050-SPEC.md); [original receipt](../../results/HAND-GRAMMAR-050-ORIGINAL.json); [full Python 3.12 replay](../../results/HAND-GRAMMAR-050-REPLAY.json); [shared replay/resource verification](../../results/048-050-REPLAY-VALIDATION.json); [prior coverage](../../research/048-050-PRIOR-COVERAGE.md). Local only; no paid verifier, Site edit or push.
 
 Related files: [research/048-050-PRIOR-COVERAGE.md](../../research/048-050-PRIOR-COVERAGE.md), [research/HAND-GRAMMAR-050-FINDINGS.md](../../research/HAND-GRAMMAR-050-FINDINGS.md), [research/HAND-GRAMMAR-050-SPEC.md](../../research/HAND-GRAMMAR-050-SPEC.md), [results/048-050-REPLAY-VALIDATION.json](../../results/048-050-REPLAY-VALIDATION.json), [results/HAND-GRAMMAR-050-ORIGINAL.json](../../results/HAND-GRAMMAR-050-ORIGINAL.json), [results/HAND-GRAMMAR-050-REPLAY.json](../../results/HAND-GRAMMAR-050-REPLAY.json).
+
+## LOG-74E9EAFB2D
+
+**CONTROL-CORRECTION-048-049 — actual lookup, returned witnesses and prior profiles**
+
+receipt recording: 2026-10-24T20:26:19.951534Z; start: 2026-10-24T20:11:28.873110Z; end: 2026-10-24T20:13:08.724291Z; start: 2026-10-24T20:13:49.930304Z; end: 2026-10-24T20:14:07.042196Z; date-only record: 2026-10-24 (date statement; not a run timestamp); original date statement: 2026-10-24 UTC. Corrected 048 calculation: `2026-10-24T20:11:28.873110+00:00` to `2026-10-24T20:13:08.724291+00:00`; corrected 049 calculation: `2026-10-24T20:13:49.930304+00:00` to `2026-10-24T20:14:07.042196+00:00`. Scientific replay and regression UTCs are separate.
+
+Type: regression and replication; synthetic validation. Outcome: Full source lookup and actual returned-hit recovery verified; 576 prior-profile comparisons agree; actual/null results unchanged
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-24 UTC. Corrected 048 calculation: `2026-10-24T20:11:28.873110+00:00` to `2026-10-24T20:13:08.724291+00:00`; corrected 049 calculation: `2026-10-24T20:13:49.930304+00:00` to `2026-10-24T20:14:07.042196+00:00`. Scientific replay and regression UTCs are separate.
+- Scope/result: all 24 full-source lookup plants, six actual returned-hit witnesses and 576 prior-profile comparisons pass. All original actual/null payloads and model domains remain unchanged; no candidate bank or new family.
+- [Correction/provenance](../../research/048-049-CONTROL-CORRECTION.md); [048 current receipt](../../results/CANDIDATE-FIRST-048-CONTROLLED.json); [049 current receipt](../../results/ENE-ROUTE-049-CONTROLLED.json); [replay validation](../../results/048-049-CONTROL-CORRECTION-REPLAY.json); [new regression](../../results/048-049-CONTROL-CORRECTION-VALIDATION.json). Local only.
+
+Related files: [research/048-049-CONTROL-CORRECTION.md](../../research/048-049-CONTROL-CORRECTION.md), [results/048-049-CONTROL-CORRECTION-REPLAY.json](../../results/048-049-CONTROL-CORRECTION-REPLAY.json), [results/048-049-CONTROL-CORRECTION-VALIDATION.json](../../results/048-049-CONTROL-CORRECTION-VALIDATION.json), [results/CANDIDATE-FIRST-048-CONTROLLED.json](../../results/CANDIDATE-FIRST-048-CONTROLLED.json), [results/ENE-ROUTE-049-CONTROLLED.json](../../results/ENE-ROUTE-049-CONTROLLED.json).

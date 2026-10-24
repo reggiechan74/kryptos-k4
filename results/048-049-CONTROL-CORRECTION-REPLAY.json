@@ -1,0 +1,35 @@
+{
+  "kind": "Post-audit full source/witness controls; previous originals retained",
+  "runs": [
+    {
+      "id": "CANDIDATE-FIRST-048",
+      "started_at_utc": "2026-10-24T20:15:20.410798+00:00",
+      "finished_at_utc": "2026-10-24T20:16:33.962971+00:00",
+      "returncode": 0,
+      "semantic_replay_equal": true,
+      "original_actual_and_null_payloads_unchanged": true,
+      "log": "results/CANDIDATE-FIRST-048-CONTROLLED-PY312.log.txt",
+      "sha256": "50d1e1edd768382976d21a468ef6edeeacd76f46c2aea9c3603211828916e4bf"
+    },
+    {
+      "id": "ENE-ROUTE-049",
+      "started_at_utc": "2026-10-24T20:16:33.963062+00:00",
+      "finished_at_utc": "2026-10-24T20:16:48.073477+00:00",
+      "returncode": 0,
+      "semantic_replay_equal": true,
+      "original_actual_and_null_payloads_unchanged": true,
+      "log": "results/ENE-ROUTE-049-CONTROLLED-PY312.log.txt",
+      "sha256": "5583a12b87d7c79d21815f2fcb3678cbcb4627d1a6d2cbb6635e23dcafd10113"
+    }
+  ],
+  "all_passed": true,
+  "scope_unchanged": true,
+  "hand050_used_Budget_and_utc_AST_unchanged": true,
+  "unchanged050_replay": {
+    "started_at_utc": "2026-10-24T20:19:02.851866+00:00",
+    "finished_at_utc": "2026-10-24T20:19:09.472871+00:00",
+    "semantic_receipt_equal": true,
+    "log": "results/HAND-GRAMMAR-050-AUDIT-REPLAY.log.txt",
+    "sha256": "743ca45c40635f7e70e0cf62cfdc412441ebde706aa8180a422f19e9e3255385"
+  }
+}

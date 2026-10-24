@@ -70,7 +70,8 @@
       "evidence": [
         "research/COVER-SELECTOR-038-FINDINGS.md",
         "research/COVER-LANGUAGE-045-FINDINGS.md",
-        "research/CANDIDATE-FIRST-048-FINDINGS.md"
+        "research/CANDIDATE-FIRST-048-FINDINGS.md",
+        "research/048-049-CONTROL-CORRECTION.md"
       ],
       "whole_family_excluded": false
     },
@@ -335,7 +336,8 @@
       "evidence": [
         "research/PHYSICAL-SOLAR-002-FINDINGS.md",
         "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
-        "research/ENE-ROUTE-049-FINDINGS.md"
+        "research/ENE-ROUTE-049-FINDINGS.md",
+        "research/048-049-CONTROL-CORRECTION.md"
       ],
       "whole_family_excluded": false
     },
@@ -435,7 +437,8 @@
         "research/MINIMUM-REPAIR-044-FINDINGS.md",
         "research/CANDIDATE-FIRST-048-FINDINGS.md",
         "research/ENE-ROUTE-049-FINDINGS.md",
-        "research/HAND-GRAMMAR-050-FINDINGS.md"
+        "research/HAND-GRAMMAR-050-FINDINGS.md",
+        "research/048-049-CONTROL-CORRECTION.md"
       ],
       "whole_family_excluded": false
     },
@@ -527,5 +530,14 @@
     "candidate_messages_generated": 0,
     "all_three_python312_semantic_replays_equal": true,
     "other_keys_procedures_sources_unexcluded": true
+  },
+  "post_audit_control_correction": {
+    "record": "research/048-049-CONTROL-CORRECTION.md",
+    "same_model_domains": true,
+    "original_actual_and_null_results_unchanged": true,
+    "real_source_lookup_plants": 24,
+    "returned_hit_plants": 6,
+    "prior044_structural_comparisons": 576,
+    "full_source_aliases_retained": true
   }
 }

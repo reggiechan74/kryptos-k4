@@ -1,0 +1,419 @@
+{
+  "id": "ENE-ROUTE-049",
+  "started_at_utc": "2026-10-24T20:13:49.930304+00:00",
+  "finished_at_utc": "2026-10-24T20:14:07.042196+00:00",
+  "complete": true,
+  "controls": {
+    "raw_route_descriptions": 56454,
+    "by_geometry": {
+      "literal_no_wrap": 18818,
+      "literal_torus": 18818,
+      "digital_ene_no_wrap": 18818
+    },
+    "complete_independent_coordinate_route_checks": 28227,
+    "both_inverse_directions_checked": true,
+    "finite_blank_orbits_asserted": true,
+    "all_width_inverse_arithmetic_plants": 11058,
+    "all_starts_covered_by_bijection_controls": true
+  },
+  "full_selector_plants": [
+    {
+      "kind": "literal_no_wrap",
+      "inverse": false,
+      "planted_full_plaintext_present": true,
+      "planted_route_sha256": "0d0b3d2c9614121fa70c771cc51ca4c4fd7695598bf21367b8e59d3703a7da39",
+      "planted_variant": "no_arithmetic",
+      "actual_returned_hit_verified": true,
+      "recovered_hit": {
+        "route_sha256": "0d0b3d2c9614121fa70c771cc51ca4c4fd7695598bf21367b8e59d3703a7da39",
+        "variant": "no_arithmetic",
+        "plaintext": "DAYSIOAZNSFIDOJMWYJGTEASTNORTHEASTYDRQLNNXKJQJFLWKVGDPESIWZENFYBERLINCLOCKGWCDMPJWQVYORLCKROMCIQE"
+      },
+      "selector_hits": 1
+    },
+    {
+      "kind": "literal_no_wrap",
+      "inverse": true,
+      "planted_full_plaintext_present": true,
+      "planted_route_sha256": "1d9618b099fe19ce49f99284952d96538143c525f217ba7f55f7774ee81cd2e7",
+      "planted_variant": "AZ/plus/KRYPTOS",
+      "actual_returned_hit_verified": true,
+      "recovered_hit": {
+        "route_sha256": "1d9618b099fe19ce49f99284952d96538143c525f217ba7f55f7774ee81cd2e7",
+        "variant": "AZ/plus/KRYPTOS",
+        "plaintext": "DAYSIOAZNSFIDOJMWYJGTEASTNORTHEASTYDRQLNNXKJQJFLWKVGDPESIWZENFYBERLINCLOCKGWCDMPJWQVYORLCKROMCIQE"
+      },
+      "selector_hits": 1
+    },
+    {
+      "kind": "literal_torus",
+      "inverse": false,
+      "planted_full_plaintext_present": true,
+      "planted_route_sha256": "a1b79bc4d9970978203a7f55e7ed66d3446aa50fc2af01212afc09e9adf72430",
+      "planted_variant": "AZ/plus/PALIMPSEST",
+      "actual_returned_hit_verified": true,
+      "recovered_hit": {
+        "route_sha256": "a1b79bc4d9970978203a7f55e7ed66d3446aa50fc2af01212afc09e9adf72430",
+        "variant": "AZ/plus/PALIMPSEST",
+        "plaintext": "DAYSIOAZNSFIDOJMWYJGTEASTNORTHEASTYDRQLNNXKJQJFLWKVGDPESIWZENFYBERLINCLOCKGWCDMPJWQVYORLCKROMCIQE"
+      },
+      "selector_hits": 1
+    },
+    {
+      "kind": "literal_torus",
+      "inverse": true,
+      "planted_full_plaintext_present": true,
+      "planted_route_sha256": "0ab809da2b303298d866203fd53745dda74f7e022155d51fc6a8a7bfc8b2ad32",
+      "planted_variant": "AZ/plus/ABSCISSA",
+      "actual_returned_hit_verified": true,
+      "recovered_hit": {
+        "route_sha256": "0ab809da2b303298d866203fd53745dda74f7e022155d51fc6a8a7bfc8b2ad32",
+        "variant": "AZ/plus/ABSCISSA",
+        "plaintext": "DAYSIOAZNSFIDOJMWYJGTEASTNORTHEASTYDRQLNNXKJQJFLWKVGDPESIWZENFYBERLINCLOCKGWCDMPJWQVYORLCKROMCIQE"
+      },
+      "selector_hits": 1
+    },
+    {
+      "kind": "digital_ene_no_wrap",
+      "inverse": false,
+      "planted_full_plaintext_present": true,
+      "planted_route_sha256": "7608220eee57e49ad8b3eae10d81fd15b2c23c134308ab5c085b5ff3a41cb740",
+      "planted_variant": "AZ/minus/KRYPTOS",
+      "actual_returned_hit_verified": true,
+      "recovered_hit": {
+        "route_sha256": "7608220eee57e49ad8b3eae10d81fd15b2c23c134308ab5c085b5ff3a41cb740",
+        "variant": "AZ/minus/KRYPTOS",
+        "plaintext": "DAYSIOAZNSFIDOJMWYJGTEASTNORTHEASTYDRQLNNXKJQJFLWKVGDPESIWZENFYBERLINCLOCKGWCDMPJWQVYORLCKROMCIQE"
+      },
+      "selector_hits": 1
+    },
+    {
+      "kind": "digital_ene_no_wrap",
+      "inverse": true,
+      "planted_full_plaintext_present": true,
+      "planted_route_sha256": "4b53abac4a14cbd75c00909b2c39dc68371ec897d612f2e33a6b05b2e6b084f1",
+      "planted_variant": "AZ/minus/PALIMPSEST",
+      "actual_returned_hit_verified": true,
+      "recovered_hit": {
+        "route_sha256": "4b53abac4a14cbd75c00909b2c39dc68371ec897d612f2e33a6b05b2e6b084f1",
+        "variant": "AZ/minus/PALIMPSEST",
+        "plaintext": "DAYSIOAZNSFIDOJMWYJGTEASTNORTHEASTYDRQLNNXKJQJFLWKVGDPESIWZENFYBERLINCLOCKGWCDMPJWQVYORLCKROMCIQE"
+      },
+      "selector_hits": 1
+    }
+  ],
+  "unique_routes": 34569,
+  "arithmetic_variants": 19,
+  "catalogue_uncompressed_sha256": "2b27b0582938f8a4d07fa4909eb7e37ee43d8847d18234be5a76630f3889159e",
+  "prior_overlap": {
+    "prior_receipt": "results/ROUTE-001.json.gz",
+    "prior_receipt_sha256": "64bf94288500683df4f02c276d8c43374fe0df8915c2fc147a94e095341f27fb",
+    "prior_route_count": 66,
+    "exact_route_intersection": 2,
+    "conservative_old_fixed_arithmetic_subset": 36,
+    "pure_route_family_already_count_excluded": true,
+    "repeated_for_shared_null_calibration_not_new_negative": true,
+    "other_prior_families": "K3/clock384 and occupied-cell route/key families reviewed as additional scope; full worldwide operator census not claimed."
+  },
+  "actual": {
+    "complete": true,
+    "operator_evaluations": 656811,
+    "max_crib_matches": 8,
+    "distinct_full_plaintexts": 0,
+    "exact_model_hits": 0,
+    "hits": []
+  },
+  "nulls": [
+    {
+      "index": 0,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 1,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 2,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 3,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 4,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 5,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 6,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 7,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 8,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 9,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 10,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 11,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 12,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 13,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 14,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 15,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 16,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 17,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 18,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 19,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 20,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 21,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 22,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 23,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 24,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 25,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 26,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 27,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 28,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 29,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 7,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    },
+    {
+      "index": 30,
+      "complete": true,
+      "operator_evaluations": 656811,
+      "max_crib_matches": 8,
+      "distinct_full_plaintexts": 0,
+      "exact_model_hits": 0,
+      "hits": null
+    }
+  ],
+  "null_seed": 49001,
+  "literal_angle_degrees": 26.565051177077994,
+  "digital_angle_degrees": 22.5,
+  "free_key_family_tested": false,
+  "worldwide_novelty_claimed": false,
+  "pushed": false,
+  "source_sha256": {
+    "research/ENE-ROUTE-049-SPEC.md": "a652001f82f6c3413daf54a9b193df8ab648f1aeb5fce989f08ceb9752c99433",
+    "experiments/ene_route_049.py": "92be676a361de2e0b381aac125d68abe7259d912048af88f05836e143036f187",
+    "experiments/finite_hand_operators.py": "a2147d9e642dac5697af5009f7d5a85cffc54b3eb19d0ace718c2127a3f214aa",
+    "data/k4.json": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241"
+  }
+}

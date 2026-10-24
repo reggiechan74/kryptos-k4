@@ -144,4 +144,8 @@ Full local review verification at 851f98f: 702 tracked tests passed under both P
 
 New048–050tests check complete tiny source/key relations, exact route/operator catalogues, inverse/alias closure, packed match counting and full cross-version semantic receipts. See [findings and prior scope](../research/048-050-PRIOR-COVERAGE.md).
 
-Latest local 048–050 integration: **718 tracked tests pass under both Python 3.9 and Python 3.12**, with [separate UTC receipts and complete logs](../results/048-050-FINAL-VALIDATION.json). Earlier 702-test and focused-correction/photo receipts remain unchanged as historical verification.
+Original local 048–050 integration at `1cef25a`: **718 tracked tests pass under both Python 3.9 and Python 3.12**, with [separate UTC receipts and complete logs](../results/048-050-FINAL-VALIDATION.json). Earlier 702-test and focused-correction/photo receipts remain unchanged as historical verification.
+
+The [post-audit control correction](../research/048-049-CONTROL-CORRECTION.md) adds actual source/witness checks and retained historical-source tests. Fresh full regression UTCs/counts are recorded separately; earlier 718-test logs are unchanged.
+
+Latest control-corrected validation: **721 tests pass on both Python 3.9 and Python 3.12**; [UTC receipt and preserved-history hashes](../results/048-049-CONTROL-CORRECTION-VALIDATION.json). Earlier 718-test results are retained as the pre-correction snapshot.

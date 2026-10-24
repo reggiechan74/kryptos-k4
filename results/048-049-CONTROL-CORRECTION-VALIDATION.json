@@ -1,0 +1,47 @@
+{
+  "kind": "Full regression after source/witness/prior-profile control correction; not original experiment timing",
+  "runs": [
+    {
+      "interpreter": "python3",
+      "started_at_utc": "2026-10-24T20:21:50.113934+00:00",
+      "finished_at_utc": "2026-10-24T20:23:08.011833+00:00",
+      "returncode": 0,
+      "tests": 721,
+      "seconds": 77.595,
+      "log": "results/048-049-CONTROL-CORRECTION-python39-regression.log.txt",
+      "sha256": "a78bc7418bfea31a739738daa2f37401016b980315d90a854988d38fe340b575"
+    },
+    {
+      "interpreter": "/usr/local/bin/python3.12",
+      "started_at_utc": "2026-10-24T20:23:08.011945+00:00",
+      "finished_at_utc": "2026-10-24T20:24:11.019655+00:00",
+      "returncode": 0,
+      "tests": 721,
+      "seconds": 62.694,
+      "log": "results/048-049-CONTROL-CORRECTION-python312-regression.log.txt",
+      "sha256": "01ee94095efd27bf1c063dd6fc25682e7c20959b11c50643952aadd8ca9b3488"
+    }
+  ],
+  "all_passed": true,
+  "previous_originals_and_logs_retained": true,
+  "scope_unchanged": true,
+  "published": false,
+  "recorded_at_utc": "2026-10-24T20:26:19.951534+00:00",
+  "retained_pre_correction_commit": "1cef25ab2908964251fa440472e43f59bcc20d7e",
+  "retained_artifact_sha256": {
+    "results/CANDIDATE-FIRST-048-ORIGINAL.json": "b85f40fc7a7292d363432e83480a7789962b46434d5de0c091e0aa48ff28d45b",
+    "results/CANDIDATE-FIRST-048-REPLAY.json": "60f5efde96a87db9e37854100e3c12f8fe81dcc1d4046ef984d44c017f5a9563",
+    "results/ENE-ROUTE-049-ORIGINAL.json": "1c7b20ddf5d1bf927cca350a8e65fbac595d0f8af35d1351ee61482c8dc3324e",
+    "results/ENE-ROUTE-049-REPLAY.json": "688cd789e63d7cfe60535429ade181b6950c8a9a26fdf67e326ddbd0acca9e09",
+    "results/HAND-GRAMMAR-050-ORIGINAL.json": "a75c5ebdc0b48fb5db386086a7efcdc5cf30560d09d4d3183a5f0f73f95ef441",
+    "results/HAND-GRAMMAR-050-REPLAY.json": "c058a89f4a1a5f08153cbe43e220a169fd6f63da4f30c953188590cf582170c0",
+    "results/048-050-FINAL-VALIDATION.json": "cac6298e6b3eb3d1b493ede9c1bc71c04530d568f71bb44e0126f37d8198b950",
+    "results/048-050-REPLAY-VALIDATION.json": "f2367ddab5cf00fb15892fe53b904a4d1b0bb5996a3ba3b5d18b790e887522fb",
+    "results/048-050-python39-regression.log.txt": "3bbc30cab74d60346e9b2a0075e465d19322a21639fe8ec953f116e1ffc49140",
+    "results/048-050-python312-regression.log.txt": "cf7fd7cea1caebf6930a1a8ca3ab2a864263608387456b84637fba5535a2d04c",
+    "results/HAND-GRAMMAR-050-PREFLIGHT-INITIAL.json": "42912ab39f2d88240a6fa246a53bb179999892ba5cfe043d96ebe8cd0e7a734b"
+  },
+  "scientific_replay_validation": "results/048-049-CONTROL-CORRECTION-REPLAY.json",
+  "canonical_ciphertext_unchanged": true,
+  "Site_and_maps_unchanged": true
+}
