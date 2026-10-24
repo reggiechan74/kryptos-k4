@@ -1,0 +1,13 @@
+{
+  "kind": "Preserved initial synthetic unit QA correction, not real-data fit",
+  "date": "2026-10-24",
+  "timestamp_precision": "Exact initial check start/end was not recorded; do not infer it from publication",
+  "tests_run": 12,
+  "failures": 1,
+  "failed_test": "test_two_line_and_near_parallel_warning",
+  "assertion": "Expected nonunique_or_ill_conditioned_source warning for separated parallel lines; warnings was empty",
+  "diagnosis": "Assertion was mathematically wrong: separated parallel image lines uniquely intersect at infinity. They are not coincident or rank-deficient line constraints.",
+  "correction": "Retain valid infinity positives; test near-coincident constraints for rank degeneracy instead. Spec amendment recorded before real data or diagnostic run. All original positive/noisy/heldout/mixed-source fixtures and thresholds unchanged.",
+  "real_data_fits": 0,
+  "subsequent_focused_tests_passed": 12
+}
