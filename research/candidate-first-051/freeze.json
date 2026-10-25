@@ -1,0 +1,39 @@
+{
+  "environment": {
+    "cpu_count": 9,
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "utc": "2026-10-25T01:44:46.350223+00:00"
+  },
+  "files": {
+    "PROTOCOL.md": "79aed2939b5bb5c55d42b3ea5e4684dd3538600d1cc695c013ad6fcf8851833b",
+    "authors/neutral.json": "285153fb8be1dd075aed01862f5ff6cf8bc508e77da1ebb1e952a3d0f6b65dd8",
+    "authors/neutral_drafts.jsonl": "ea022320c025fcbc0dcc19594e93705eebebc396993b314cca702f09989f1989",
+    "authors/neutral_finalize.py": "a02d909339677773ac31537b9f00b6a3de3985276811643ffd722f9dbeabb635",
+    "authors/neutral_validation.json": "62084f9bb7d405baf0ec750d0cfcfbe93adedcb91b4eab29178e58a9a20a8728",
+    "authors/neutral_validation.txt": "31d6ab20208f7eae9fed95941104a472ad2046d61dc3d472ca9f699953d5191d",
+    "authors/thematic.json": "b1baf7846bb373a637116e5ec3879ea6eeea21f9875a328fc819cea30bda3870",
+    "authors/thematic_batch1.py": "4d57fa68bed194093e7437dd15566fa5ac99ec360e5df1f41a67e21f0fd64497",
+    "authors/thematic_batch2.py": "3b5fc9357f9343f3d095db83b6185ef2eedbdbef96e589183dac686d9fcfb3bc",
+    "authors/thematic_batch3.py": "bedeea1204415365b5f88e646013e9674eb012deda10371e1240c35b3174eacd",
+    "authors/thematic_batch4.py": "f4fef91fa289fd2605c8688954b8c2564b39840eb4cc96295bc38796f63943bd",
+    "authors/thematic_draft_log.jsonl": "899162ad30df1671771874c3b29d012fc1418ce3b323e39d6838e4739fa6e114",
+    "authors/thematic_drafts.py": "991c1e6ae5f49de0b554c7b2488f10e6bf8805086fbfd71d8336a8cb5a727750",
+    "authors/thematic_finalize.py": "43627756213756c8f7eb8e8730934c6123b5985405e3f5273319f7ccb00df8b2",
+    "authors/thematic_validation_report.json": "db8cf55fd5bfc32970cf84a22e13afdc405c57e016d628cb19598676f2af97e2",
+    "authors/thematic_validation_report.txt": "b2a5e9b910572a8c00c77db37c2c6c57e2dd321e852add1ecfec0cb5cc79f33f",
+    "bank.json": "6945a97e24fcb11531cce3836b5c9206b225a9272173a67914bbcfe65b0728d0",
+    "config.json": "7e08f241873758d95cd0bc35a7bab39b38d87212ce58d39194f6e93816c28787",
+    "controls.json": "ad8175ef8f743f0d2822cd9a1c6c18815eb0e60bf23b30818bc8ad6b9e8aa1ed",
+    "controls/held_out_message.json": "0a214fd280dbb606d08afaf8f1749200bf0d8e427a956e674931180849795adc",
+    "heldout.json": "290807b30289fb7f7d50ff5c9643291e746307f7af9ba1e391bf00cde4360285",
+    "implementation_audit.json": "de07f1fb2bce32a2e7ecb62e49f9af0f9af1212983f2429811779f08dafd4247",
+    "pilot.py": "86220c2a44bb8f57e7e9a96283bdb3fc591b828440fcc627cceba37ad61f2959",
+    "run_experiment.py": "7a7c7eb1d7782eea4c6a904cfbc53977eb68f2528b3288221123857e8e955086",
+    "running_key.txt": "03c49225af8a54eb5e642e9fafbc22f5d5666106815ba59f12feed7146a7de4f",
+    "test_pilot.py": "057ccf08602015d1ebc101cd829d0925f7ecff281a8841b89c42bdd5c4e70ee8"
+  },
+  "status": "frozen before any real-bank/control/K4 scores",
+  "utc": "2026-10-25T01:44:46.346280+00:00",
+  "version": "candidate-first-051-v1"
+}

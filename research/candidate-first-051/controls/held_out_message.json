@@ -1,0 +1,51 @@
+{
+  "id": "HELD_OUT_NEUTRAL_01",
+  "prose": "Our young courier cycled east-north-east with new books for the shop near the Berlin Clock while the streets lay quiet.",
+  "spaced_prose": "Our young courier cycled east-north-east with new books for the shop near the Berlin Clock while the streets lay quiet.",
+  "normalized": "OURYOUNGCOURIERCYCLEDEASTNORTHEASTWITHNEWBOOKSFORTHESHOPNEARTHEBERLINCLOCKWHILETHESTREETSLAYQUIET",
+  "revisiontrail": [
+    {
+      "revision": 0,
+      "prose": "That courier rode slowly east-north-east with new books for the shop near the Berlin Clock just before the shop opened.",
+      "normalized": "THATCOURIERRODESLOWLYEASTNORTHEASTWITHNEWBOOKSFORTHESHOPNEARTHEBERLINCLOCKJUSTBEFORETHESHOPOPENED",
+      "revision_note": "Initial independently composed courier/book-delivery message. Repetition of shop motivated a prose revision.",
+      "length_position_feedback": {
+        "length": 97,
+        "length_is_97": true,
+        "positions_22_34": "EASTNORTHEAST",
+        "positions_64_74": "BERLINCLOCK",
+        "crib_positions_correct": true
+      }
+    },
+    {
+      "revision": 1,
+      "prose": "That courier rode slowly east-north-east with new books for the shop near the Berlin Clock while the streets lay quiet.",
+      "normalized": "THATCOURIERRODESLOWLYEASTNORTHEASTWITHNEWBOOKSFORTHESHOPNEARTHEBERLINCLOCKWHILETHESTREETSLAYQUIET",
+      "revision_note": "Replace repeated shop with an ordinary quiet-street observation.",
+      "length_position_feedback": {
+        "length": 97,
+        "length_is_97": true,
+        "positions_22_34": "EASTNORTHEAST",
+        "positions_64_74": "BERLINCLOCK",
+        "crib_positions_correct": true
+      }
+    },
+    {
+      "revision": 2,
+      "prose": "Our young courier cycled east-north-east with new books for the shop near the Berlin Clock while the streets lay quiet.",
+      "normalized": "OURYOUNGCOURIERCYCLEDEASTNORTHEASTWITHNEWBOOKSFORTHESHOPNEARTHEBERLINCLOCKWHILETHESTREETSLAYQUIET",
+      "revision_note": "Replace the referential that courier and slow riding with a more self-contained description; final accepted message.",
+      "length_position_feedback": {
+        "length": 97,
+        "length_is_97": true,
+        "positions_22_34": "EASTNORTHEAST",
+        "positions_64_74": "BERLINCLOCK",
+        "crib_positions_correct": true
+      }
+    }
+  ],
+  "theme": "Ordinary book delivery by bicycle on quiet streets",
+  "authoring_method": "Blind candidate-first independent full-message composition followed only by letter-count/position checks and prose revision. Not generated from a phrase cross-product. No ciphertext, keys, cryptographic scores, other-author candidate bank, or external model API accessed.",
+  "intended_use": "Held-out bank-absent control; not part of the 32-message candidate bank.",
+  "separation_note": "Distinct from the 16 messages previously authored in neutral.json by inspection of my own retained authoring context. Other author bank was deliberately not read; global bank-absence must be independently checked by the parent without altering this message."
+}

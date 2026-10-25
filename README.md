@@ -26,6 +26,7 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | Compare all eight scopes and outcomes | [Eight-item summary](research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md) — complete investigation does not mean a solved or exhausted family |
 | Inspect the final one-edit robustness study | [Exact counts, ambiguity and controls](research/ONE-EDIT-028-FINDINGS.md); canonical ciphertext is unchanged |
 | Inspect the published geographic maps and their limits | [Berlin WSW map archive](docs/maps/berlin-wsw-2026-10-24/README.md) —four maps, supporting data, attribution and read-only validators |
+| Review the completed candidate-first pilot 051 | [32-message pilot and reproducible package](research/candidate-first-051/README.md) — negative result; all three target gates failed |
 | Reproduce the work | [Running experiments](experiments/README.md) and [test guide](tests/README.md) |
 
 **Overlay scope:** the earlier column-only study used `dy = 0`. [Item 1’s newer predefined two-dimensional study](research/FOLD-SLIDE-2D-FINDINGS.md) covers all integer rows −28…+28 and columns −33…+33 under two fixed registrations. Its own whole-search controls show no unusual excess; the older column-only p-values are not repurposed for rows.

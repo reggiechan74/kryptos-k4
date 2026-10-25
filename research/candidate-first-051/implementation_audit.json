@@ -1,0 +1,47 @@
+{
+  "approved_stage": "freeze_and_control_calibration_only",
+  "audited_sha256": {
+    "PROTOCOL.md": "79aed2939b5bb5c55d42b3ea5e4684dd3538600d1cc695c013ad6fcf8851833b",
+    "bank.json": "6945a97e24fcb11531cce3836b5c9206b225a9272173a67914bbcfe65b0728d0",
+    "config.json": "7e08f241873758d95cd0bc35a7bab39b38d87212ce58d39194f6e93816c28787",
+    "controls.json": "ad8175ef8f743f0d2822cd9a1c6c18815eb0e60bf23b30818bc8ad6b9e8aa1ed",
+    "heldout.json": "290807b30289fb7f7d50ff5c9643291e746307f7af9ba1e391bf00cde4360285",
+    "pilot.py": "86220c2a44bb8f57e7e9a96283bdb3fc591b828440fcc627cceba37ad61f2959",
+    "run_experiment.py": "7a7c7eb1d7782eea4c6a904cfbc53977eb68f2528b3288221123857e8e955086",
+    "running_key.txt": "03c49225af8a54eb5e642e9fafbc22f5d5666106815ba59f12feed7146a7de4f",
+    "test_pilot.py": "057ccf08602015d1ebc101cd829d0925f7ecff281a8841b89c42bdd5c4e70ee8"
+  },
+  "open_blockers": [],
+  "passed": true,
+  "reviewer": "independent audit_candidate_first_pilot agent",
+  "scope_limits": [
+    "This is a conditional 73-letter structural simplicity statistic, not a full 97-letter-key MDL or a natural-language-key recognizer.",
+    "Approximate residual scores do not resurrect crib-excluded exact models; exact diagnostics and all winner residual positions must be retained.",
+    "Lengths 1 through 32 were selected before current scoring with prior crib-only compatibility knowledge; authors remain blinded, but the entire design is not historically target-naive.",
+    "Matched validation flags share calibration sets and a fixed bank; no independent-binomial confidence or universal false-positive claim is justified.",
+    "Running-key and bank-absent controls have limited, explicitly documented scope; a pilot failure does not reject all plausible natural-language running keys.",
+    "Controls must run under the frozen manifest and pass all gates; only the parent may separately authorize any canonical K4 acceptance/scoring afterward."
+  ],
+  "sources_changed_by_auditor": false,
+  "target_scoring_authorized": false,
+  "test_evidence": {
+    "command": "python -m unittest -v test_pilot.py",
+    "exit_code": 0,
+    "independent_rerun_seconds": 2.758,
+    "scoring_inputs": "synthetic random 32-message bank only; no real-bank controls or K4 scored",
+    "tests_passed": 14
+  },
+  "utc": "2026-10-25T01:44:32.885423+00:00",
+  "verified": [
+    "All 32 bank messages match retained author normalized strings, are unique, have length 97, and meet both exact crib positions.",
+    "Primary maximum evaluates all 32 candidates and 1152 registered descriptions using lengths 1 through 32, with the registered candidate/model/seed/noncrib-residual costs.",
+    "Optimized bitmask/autokey and periodic scorer matches exhaustive reference on a synthetic bank; hand vectors, all-tableau randomized roundtrips, and boundary planted recovery pass.",
+    "Frozen 84 controls reproduce exactly: 36 simple, 24 length-29 hard, 12 running-key diagnostics, and 12 bank-absent controls.",
+    "The 60 in-scope controls cover all 32 bank messages and include 30 thematic and 30 neutral targets; independently authored held-out message is absent from bank.",
+    "Conditional nulls preserve every crib ciphertext position and noncrib ciphertext multiset; all nulls use the full bank/model maximum and conservative >= Monte Carlo comparison.",
+    "Control gates enforce registered recovery thresholds and complete denominators; bank-absent validation flags remain separate from the 600 in-scope null denominator.",
+    "Freeze creation rejects missing/failed audits and changed audited source hashes; manifest includes raw author artifacts, control definitions, code, configuration, and audit.",
+    "Explicit planted/recovered tableau, structure, seed, and full-key label comparisons do not misidentify equal scores as proof of model equivalence.",
+    "No network code, external model dependency, K4 retrieval, or automatic control-to-K4 transition is present."
+  ]
+}

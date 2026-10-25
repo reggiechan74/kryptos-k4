@@ -1,0 +1,1238 @@
+[
+  {
+    "id": "T01",
+    "spaced_prose": "From this temple walk due east-north-east and remember the first sight of the Berlin clock as we did in our younger days.",
+    "normalized": "FROMTHISTEMPLEWALKDUEEASTNORTHEASTANDREMEMBERTHEFIRSTSIGHTOFTHEBERLINCLOCKASWEDIDINOURYOUNGERDAYS",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "From this temple walk due EAST NORTH EAST and remember the first sight of the BERLIN CLOCK as we did in our younger days.",
+        "normalized": "FROMTHISTEMPLEWALKDUEEASTNORTHEASTANDREMEMBERTHEFIRSTSIGHTOFTHEBERLINCLOCKASWEDIDINOURYOUNGERDAYS",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "From this temple walk due east-north-east and remember the first sight of the Berlin clock as we did in our younger days.",
+        "normalized": "FROMTHISTEMPLEWALKDUEEASTNORTHEASTANDREMEMBERTHEFIRSTSIGHTOFTHEBERLINCLOCKASWEDIDINOURYOUNGERDAYS",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Egypt memories",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T02",
+    "spaced_prose": "Our Nile map pointed just east-north-east; I later traced its route beside the Berlin clock and found our old camp again.",
+    "normalized": "OURNILEMAPPOINTEDJUSTEASTNORTHEASTILATERTRACEDITSROUTEBESIDETHEBERLINCLOCKANDFOUNDOUROLDCAMPAGAIN",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "Our Nile map pointed just EAST NORTH EAST ; I later traced its route beside the BERLIN CLOCK and found our old camp again.",
+        "normalized": "OURNILEMAPPOINTEDJUSTEASTNORTHEASTILATERTRACEDITSROUTEBESIDETHEBERLINCLOCKANDFOUNDOUROLDCAMPAGAIN",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "Our Nile map pointed just east-north-east; I later traced its route beside the Berlin clock and found our old camp again.",
+        "normalized": "OURNILEMAPPOINTEDJUSTEASTNORTHEASTILATERTRACEDITSROUTEBESIDETHEBERLINCLOCKANDFOUNDOUROLDCAMPAGAIN",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Egypt memories",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T03",
+    "spaced_prose": "From old Giza I headed due east-north-east to seek the red star drawn below the Berlin clock on a chart you sent from home.",
+    "normalized": "FROMOLDGIZAIHEADEDDUEEASTNORTHEASTTOSEEKTHEREDSTARDRAWNBELOWTHEBERLINCLOCKONACHARTYOUSENTFROMHOME",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "I left our camp and went EAST NORTH EAST to seek the blue star drawn below the BERLIN CLOCK on a card you sent from home.",
+        "normalized": "ILEFTOURCAMPANDWENTEASTNORTHEASTTOSEEKTHEBLUESTARDRAWNBELOWTHEBERLINCLOCKONACARDYOUSENTFROMHOME",
+        "constraint_feedback": {
+          "span_lengths": [
+            19,
+            30,
+            22
+          ],
+          "total_letters": 95,
+          "east_positions": [
+            20
+          ],
+          "berlin_positions": [
+            63
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "From old Giza I headed due EAST NORTH EAST to seek the red star drawn below the BERLIN CLOCK on a chart you sent from home.",
+        "normalized": "FROMOLDGIZAIHEADEDDUEEASTNORTHEASTTOSEEKTHEREDSTARDRAWNBELOWTHEBERLINCLOCKONACHARTYOUSENTFROMHOME",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "From old Giza I headed due east-north-east to seek the red star drawn below the Berlin clock on a chart you sent from home.",
+        "normalized": "FROMOLDGIZAIHEADEDDUEEASTNORTHEASTTOSEEKTHEREDSTARDRAWNBELOWTHEBERLINCLOCKONACHARTYOUSENTFROMHOME",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Egypt memories",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T04",
+    "spaced_prose": "Beyond the tomb we turned east-north-east and saw the day we shared beside the Berlin clock come back to us over the sand.",
+    "normalized": "BEYONDTHETOMBWETURNEDEASTNORTHEASTANDSAWTHEDAYWESHAREDBESIDETHEBERLINCLOCKCOMEBACKTOUSOVERTHESAND",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "Beyond the tomb I turned EAST NORTH EAST and saw the hour we shared beside the BERLIN CLOCK come back to me across the sand.",
+        "normalized": "BEYONDTHETOMBITURNEDEASTNORTHEASTANDSAWTHEHOURWESHAREDBESIDETHEBERLINCLOCKCOMEBACKTOMEACROSSTHESAND",
+        "constraint_feedback": {
+          "span_lengths": [
+            20,
+            30,
+            25
+          ],
+          "total_letters": 99,
+          "east_positions": [
+            21
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "Beyond the tomb we turned EAST NORTH EAST and saw the day we shared beside the BERLIN CLOCK come back to us over the sand.",
+        "normalized": "BEYONDTHETOMBWETURNEDEASTNORTHEASTANDSAWTHEDAYWESHAREDBESIDETHEBERLINCLOCKCOMEBACKTOUSOVERTHESAND",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "Beyond the tomb we turned east-north-east and saw the day we shared beside the Berlin clock come back to us over the sand.",
+        "normalized": "BEYONDTHETOMBWETURNEDEASTNORTHEASTANDSAWTHEDAYWESHAREDBESIDETHEBERLINCLOCKCOMEBACKTOUSOVERTHESAND",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Egypt memories",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T05",
+    "spaced_prose": "When the wall fell we went east-north-east past the open gate and onward to the Berlin clock where you sat waiting for me.",
+    "normalized": "WHENTHEWALLFELLWEWENTEASTNORTHEASTPASTTHEOPENGATEANDONWARDTOTHEBERLINCLOCKWHEREYOUSATWAITINGFORME",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "When the wall fell I went EAST NORTH EAST past the open gate and onward to the BERLIN CLOCK where you were waiting for me.",
+        "normalized": "WHENTHEWALLFELLIWENTEASTNORTHEASTPASTTHEOPENGATEANDONWARDTOTHEBERLINCLOCKWHEREYOUWEREWAITINGFORME",
+        "constraint_feedback": {
+          "span_lengths": [
+            20,
+            29,
+            24
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            21
+          ],
+          "berlin_positions": [
+            63
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "When the wall fell we went EAST NORTH EAST past the open gate and onward to the BERLIN CLOCK where you sat waiting for me.",
+        "normalized": "WHENTHEWALLFELLWEWENTEASTNORTHEASTPASTTHEOPENGATEANDONWARDTOTHEBERLINCLOCKWHEREYOUSATWAITINGFORME",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "When the wall fell we went east-north-east past the open gate and onward to the Berlin clock where you sat waiting for me.",
+        "normalized": "WHENTHEWALLFELLWEWENTEASTNORTHEASTPASTTHEOPENGATEANDONWARDTOTHEBERLINCLOCKWHEREYOUSATWAITINGFORME",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Berlin Wall transition",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T06",
+    "spaced_prose": "The newly free crowds ran east-north-east and left some guards staring at the Berlin clock as their old rule fell apart.",
+    "normalized": "THENEWLYFREECROWDSRANEASTNORTHEASTANDLEFTSOMEGUARDSSTARINGATTHEBERLINCLOCKASTHEIROLDRULEFELLAPART",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "The newly free crowd ran EAST NORTH EAST and left the old guards facing toward the BERLIN CLOCK as their divided world grew whole.",
+        "normalized": "THENEWLYFREECROWDRANEASTNORTHEASTANDLEFTTHEOLDGUARDSFACINGTOWARDTHEBERLINCLOCKASTHEIRDIVIDEDWORLDGREWWHOLE",
+        "constraint_feedback": {
+          "span_lengths": [
+            20,
+            34,
+            28
+          ],
+          "total_letters": 106,
+          "east_positions": [
+            21
+          ],
+          "berlin_positions": [
+            68
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "The newly free crowds ran EAST NORTH EAST and left some guards staring at the BERLIN CLOCK as their old rule fell apart.",
+        "normalized": "THENEWLYFREECROWDSRANEASTNORTHEASTANDLEFTSOMEGUARDSSTARINGATTHEBERLINCLOCKASTHEIROLDRULEFELLAPART",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "The newly free crowds ran east-north-east and left some guards staring at the Berlin clock as their old rule fell apart.",
+        "normalized": "THENEWLYFREECROWDSRANEASTNORTHEASTANDLEFTSOMEGUARDSSTARINGATTHEBERLINCLOCKASTHEIROLDRULEFELLAPART",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Berlin Wall transition",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T07",
+    "spaced_prose": "We crossed the border due east-north-east with flowers and met again near the Berlin clock to greet the dawn of a new age.",
+    "normalized": "WECROSSEDTHEBORDERDUEEASTNORTHEASTWITHFLOWERSANDMETAGAINNEARTHEBERLINCLOCKTOGREETTHEDAWNOFANEWAGE",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "We crossed the border due EAST NORTH EAST with flowers and met at last beside the BERLIN CLOCK to greet the dawn of a new age.",
+        "normalized": "WECROSSEDTHEBORDERDUEEASTNORTHEASTWITHFLOWERSANDMETATLASTBESIDETHEBERLINCLOCKTOGREETTHEDAWNOFANEWAGE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            32,
+            23
+          ],
+          "total_letters": 100,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            67
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "We crossed the border due EAST NORTH EAST with flowers and met again near the BERLIN CLOCK to greet the dawn of a new age.",
+        "normalized": "WECROSSEDTHEBORDERDUEEASTNORTHEASTWITHFLOWERSANDMETAGAINNEARTHEBERLINCLOCKTOGREETTHEDAWNOFANEWAGE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "We crossed the border due east-north-east with flowers and met again near the Berlin clock to greet the dawn of a new age.",
+        "normalized": "WECROSSEDTHEBORDERDUEEASTNORTHEASTWITHFLOWERSANDMETAGAINNEARTHEBERLINCLOCKTOGREETTHEDAWNOFANEWAGE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Berlin Wall transition",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T08",
+    "spaced_prose": "Our old border stood just east-north-east of that square where we watched the Berlin clock and dreamt of freedom again.",
+    "normalized": "OUROLDBORDERSTOODJUSTEASTNORTHEASTOFTHATSQUAREWHEREWEWATCHEDTHEBERLINCLOCKANDDREAMTOFFREEDOMAGAIN",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "Our old barrier stood just EAST NORTH EAST of the square where we watched the BERLIN CLOCK and dared to dream of freedom.",
+        "normalized": "OUROLDBARRIERSTOODJUSTEASTNORTHEASTOFTHESQUAREWHEREWEWATCHEDTHEBERLINCLOCKANDDAREDTODREAMOFFREEDOM",
+        "constraint_feedback": {
+          "span_lengths": [
+            22,
+            28,
+            24
+          ],
+          "total_letters": 98,
+          "east_positions": [
+            23
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "Our old border stood just EAST NORTH EAST of that square where we watched the BERLIN CLOCK and dreamt of freedom again.",
+        "normalized": "OUROLDBORDERSTOODJUSTEASTNORTHEASTOFTHATSQUAREWHEREWEWATCHEDTHEBERLINCLOCKANDDREAMTOFFREEDOMAGAIN",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "Our old border stood just east-north-east of that square where we watched the Berlin clock and dreamt of freedom again.",
+        "normalized": "OUROLDBORDERSTOODJUSTEASTNORTHEASTOFTHATSQUAREWHEREWEWATCHEDTHEBERLINCLOCKANDDREAMTOFFREEDOMAGAIN",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Berlin Wall transition",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T09",
+    "spaced_prose": "Set your compass and face east-north-east; the map of the world below the great Berlin clock will show which city to seek.",
+    "normalized": "SETYOURCOMPASSANDFACEEASTNORTHEASTTHEMAPOFTHEWORLDBELOWTHEGREATBERLINCLOCKWILLSHOWWHICHCITYTOSEEK",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "Set your compass and face EAST NORTH EAST ; the map of the world below the great BERLIN CLOCK will name the city you must seek.",
+        "normalized": "SETYOURCOMPASSANDFACEEASTNORTHEASTTHEMAPOFTHEWORLDBELOWTHEGREATBERLINCLOCKWILLNAMETHECITYYOUMUSTSEEK",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            26
+          ],
+          "total_letters": 100,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "Set your compass and face EAST NORTH EAST ; the map of the world below the great BERLIN CLOCK will show which city to seek.",
+        "normalized": "SETYOURCOMPASSANDFACEEASTNORTHEASTTHEMAPOFTHEWORLDBELOWTHEGREATBERLINCLOCKWILLSHOWWHICHCITYTOSEEK",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "Set your compass and face east-north-east; the map of the world below the great Berlin clock will show which city to seek.",
+        "normalized": "SETYOURCOMPASSANDFACEEASTNORTHEASTTHEMAPOFTHEWORLDBELOWTHEGREATBERLINCLOCKWILLSHOWWHICHCITYTOSEEK",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "World Clock",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T10",
+    "spaced_prose": "We set our course exactly east-north-east as you traced a new route around the Berlin clock and found when our day began.",
+    "normalized": "WESETOURCOURSEEXACTLYEASTNORTHEASTASYOUTRACEDANEWROUTEAROUNDTHEBERLINCLOCKANDFOUNDWHENOURDAYBEGAN",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "I saw the world turn slowly EAST NORTH EAST as you traced a course around the BERLIN CLOCK and told me where the dawn began.",
+        "normalized": "ISAWTHEWORLDTURNSLOWLYEASTNORTHEASTASYOUTRACEDACOURSEAROUNDTHEBERLINCLOCKANDTOLDMEWHERETHEDAWNBEGAN",
+        "constraint_feedback": {
+          "span_lengths": [
+            22,
+            27,
+            26
+          ],
+          "total_letters": 99,
+          "east_positions": [
+            23
+          ],
+          "berlin_positions": [
+            63
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "We set our course exactly EAST NORTH EAST as you traced a new route around the BERLIN CLOCK and found when our day began.",
+        "normalized": "WESETOURCOURSEEXACTLYEASTNORTHEASTASYOUTRACEDANEWROUTEAROUNDTHEBERLINCLOCKANDFOUNDWHENOURDAYBEGAN",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "We set our course exactly east-north-east as you traced a new route around the Berlin clock and found when our day began.",
+        "normalized": "WESETOURCOURSEEXACTLYEASTNORTHEASTASYOUTRACEDANEWROUTEAROUNDTHEBERLINCLOCKANDFOUNDWHENOURDAYBEGAN",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "World Clock",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T11",
+    "spaced_prose": "That world map led us both east-north-east to see home among the names upon the Berlin clock though we had wandered afar.",
+    "normalized": "THATWORLDMAPLEDUSBOTHEASTNORTHEASTTOSEEHOMEAMONGTHENAMESUPONTHEBERLINCLOCKTHOUGHWEHADWANDEREDAFAR",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "The world map led us both EAST NORTH EAST to find our home among the names on the BERLIN CLOCK though we had wandered far away.",
+        "normalized": "THEWORLDMAPLEDUSBOTHEASTNORTHEASTTOFINDOURHOMEAMONGTHENAMESONTHEBERLINCLOCKTHOUGHWEHADWANDEREDFARAWAY",
+        "constraint_feedback": {
+          "span_lengths": [
+            20,
+            31,
+            26
+          ],
+          "total_letters": 101,
+          "east_positions": [
+            21
+          ],
+          "berlin_positions": [
+            65
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "That world map led us both EAST NORTH EAST to find home among the names upon the BERLIN CLOCK though we had wandered afar.",
+        "normalized": "THATWORLDMAPLEDUSBOTHEASTNORTHEASTTOFINDHOMEAMONGTHENAMESUPONTHEBERLINCLOCKTHOUGHWEHADWANDEREDAFAR",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            30,
+            23
+          ],
+          "total_letters": 98,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            65
+          ],
+          "valid": false
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "That world map led us both EAST NORTH EAST to see home among the names upon the BERLIN CLOCK though we had wandered afar.",
+        "normalized": "THATWORLDMAPLEDUSBOTHEASTNORTHEASTTOSEEHOMEAMONGTHENAMESUPONTHEBERLINCLOCKTHOUGHWEHADWANDEREDAFAR",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 4,
+        "spaced_prose": "That world map led us both east-north-east to see home among the names upon the Berlin clock though we had wandered afar.",
+        "normalized": "THATWORLDMAPLEDUSBOTHEASTNORTHEASTTOSEEHOMEAMONGTHENAMESUPONTHEBERLINCLOCKTHOUGHWEHADWANDEREDAFAR",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "World Clock",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T12",
+    "spaced_prose": "Look from the dial toward east-north-east and note which city glows above the Berlin clock before the lamps dim at dusk.",
+    "normalized": "LOOKFROMTHEDIALTOWARDEASTNORTHEASTANDNOTEWHICHCITYGLOWSABOVETHEBERLINCLOCKBEFORETHELAMPSDIMATDUSK",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "Look from the dial toward EAST NORTH EAST and note which city shines above the BERLIN CLOCK before its lamps begin to fade.",
+        "normalized": "LOOKFROMTHEDIALTOWARDEASTNORTHEASTANDNOTEWHICHCITYSHINESABOVETHEBERLINCLOCKBEFOREITSLAMPSBEGINTOFADE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            30,
+            25
+          ],
+          "total_letters": 100,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            65
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "Look from the dial toward EAST NORTH EAST and note which city glows above the BERLIN CLOCK before the lamps start to fade.",
+        "normalized": "LOOKFROMTHEDIALTOWARDEASTNORTHEASTANDNOTEWHICHCITYGLOWSABOVETHEBERLINCLOCKBEFORETHELAMPSSTARTTOFADE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            25
+          ],
+          "total_letters": 99,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": false
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "Look from the dial toward EAST NORTH EAST and note which city glows above the BERLIN CLOCK before the lamps dim at dusk.",
+        "normalized": "LOOKFROMTHEDIALTOWARDEASTNORTHEASTANDNOTEWHICHCITYGLOWSABOVETHEBERLINCLOCKBEFORETHELAMPSDIMATDUSK",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 4,
+        "spaced_prose": "Look from the dial toward east-north-east and note which city glows above the Berlin clock before the lamps dim at dusk.",
+        "normalized": "LOOKFROMTHEDIALTOWARDEASTNORTHEASTANDNOTEWHICHCITYGLOWSABOVETHEBERLINCLOCKBEFORETHELAMPSDIMATDUSK",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "World Clock",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T13",
+    "spaced_prose": "Carry our hidden note due east-north-east and place it in the alcove below the Berlin clock; then leave unseen by guards.",
+    "normalized": "CARRYOURHIDDENNOTEDUEEASTNORTHEASTANDPLACEITINTHEALCOVEBELOWTHEBERLINCLOCKTHENLEAVEUNSEENBYGUARDS",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "Carry my sealed letter due EAST NORTH EAST and place it in the niche below the BERLIN CLOCK then leave before the guards return.",
+        "normalized": "CARRYMYSEALEDLETTERDUEEASTNORTHEASTANDPLACEITINTHENICHEBELOWTHEBERLINCLOCKTHENLEAVEBEFORETHEGUARDSRETURN",
+        "constraint_feedback": {
+          "span_lengths": [
+            22,
+            28,
+            30
+          ],
+          "total_letters": 104,
+          "east_positions": [
+            23
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "Carry my hidden note due EAST NORTH EAST and place it in the alcove below the BERLIN CLOCK then leave unseen by the guards.",
+        "normalized": "CARRYMYHIDDENNOTEDUEEASTNORTHEASTANDPLACEITINTHEALCOVEBELOWTHEBERLINCLOCKTHENLEAVEUNSEENBYTHEGUARDS",
+        "constraint_feedback": {
+          "span_lengths": [
+            20,
+            29,
+            26
+          ],
+          "total_letters": 99,
+          "east_positions": [
+            21
+          ],
+          "berlin_positions": [
+            63
+          ],
+          "valid": false
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "Carry our hidden note due EAST NORTH EAST and place it in the alcove below the BERLIN CLOCK then leave unseen by guards.",
+        "normalized": "CARRYOURHIDDENNOTEDUEEASTNORTHEASTANDPLACEITINTHEALCOVEBELOWTHEBERLINCLOCKTHENLEAVEUNSEENBYGUARDS",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 4,
+        "spaced_prose": "Carry our hidden note due east-north-east and place it in the alcove below the Berlin clock; then leave unseen by guards.",
+        "normalized": "CARRYOURHIDDENNOTEDUEEASTNORTHEASTANDPLACEITINTHEALCOVEBELOWTHEBERLINCLOCKTHENLEAVEUNSEENBYGUARDS",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Secret message delivery",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T14",
+    "spaced_prose": "Your courier must travel east-north-east until a hidden marker points to the Berlin clock, where I shall give him a code.",
+    "normalized": "YOURCOURIERMUSTTRAVELEASTNORTHEASTUNTILAHIDDENMARKERPOINTSTOTHEBERLINCLOCKWHEREISHALLGIVEHIMACODE",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "Our courier must travel EAST NORTH EAST until the hidden sign points toward the BERLIN CLOCK where I shall give him the cipher.",
+        "normalized": "OURCOURIERMUSTTRAVELEASTNORTHEASTUNTILTHEHIDDENSIGNPOINTSTOWARDTHEBERLINCLOCKWHEREISHALLGIVEHIMTHECIPHER",
+        "constraint_feedback": {
+          "span_lengths": [
+            20,
+            33,
+            27
+          ],
+          "total_letters": 104,
+          "east_positions": [
+            21
+          ],
+          "berlin_positions": [
+            67
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "Your courier must travel EAST NORTH EAST until a hidden sign points toward the BERLIN CLOCK where I will give him the code.",
+        "normalized": "YOURCOURIERMUSTTRAVELEASTNORTHEASTUNTILAHIDDENSIGNPOINTSTOWARDTHEBERLINCLOCKWHEREIWILLGIVEHIMTHECODE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            31,
+            24
+          ],
+          "total_letters": 100,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            66
+          ],
+          "valid": false
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "Your courier must travel EAST NORTH EAST until a hidden marker points to the BERLIN CLOCK where I shall give him a code.",
+        "normalized": "YOURCOURIERMUSTTRAVELEASTNORTHEASTUNTILAHIDDENMARKERPOINTSTOTHEBERLINCLOCKWHEREISHALLGIVEHIMACODE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 4,
+        "spaced_prose": "Your courier must travel east-north-east until a hidden marker points to the Berlin clock, where I shall give him a code.",
+        "normalized": "YOURCOURIERMUSTTRAVELEASTNORTHEASTUNTILAHIDDENMARKERPOINTSTOTHEBERLINCLOCKWHEREISHALLGIVEHIMACODE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Secret message delivery",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T15",
+    "spaced_prose": "Take this secret message east-north-east and sit where shadows lie below the Berlin clock until a stranger waves once.",
+    "normalized": "TAKETHISSECRETMESSAGEEASTNORTHEASTANDSITWHERESHADOWSLIEBELOWTHEBERLINCLOCKUNTILASTRANGERWAVESONCE",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "Take the secret message EAST NORTH EAST and wait where shadows cross below the BERLIN CLOCK until a stranger asks your name.",
+        "normalized": "TAKETHESECRETMESSAGEEASTNORTHEASTANDWAITWHERESHADOWSCROSSBELOWTHEBERLINCLOCKUNTILASTRANGERASKSYOURNAME",
+        "constraint_feedback": {
+          "span_lengths": [
+            20,
+            32,
+            26
+          ],
+          "total_letters": 102,
+          "east_positions": [
+            21
+          ],
+          "berlin_positions": [
+            66
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "Take this secret message EAST NORTH EAST and wait where shadows lie below the BERLIN CLOCK until a stranger says your name.",
+        "normalized": "TAKETHISSECRETMESSAGEEASTNORTHEASTANDWAITWHERESHADOWSLIEBELOWTHEBERLINCLOCKUNTILASTRANGERSAYSYOURNAME",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            30,
+            26
+          ],
+          "total_letters": 101,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            65
+          ],
+          "valid": false
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "Take this secret message EAST NORTH EAST and sit where shadows lie below the BERLIN CLOCK until a stranger gives a sign.",
+        "normalized": "TAKETHISSECRETMESSAGEEASTNORTHEASTANDSITWHERESHADOWSLIEBELOWTHEBERLINCLOCKUNTILASTRANGERGIVESASIGN",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            24
+          ],
+          "total_letters": 98,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": false
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 4,
+        "spaced_prose": "Take this secret message EAST NORTH EAST and sit where shadows lie below the BERLIN CLOCK until a stranger waves once.",
+        "normalized": "TAKETHISSECRETMESSAGEEASTNORTHEASTANDSITWHERESHADOWSLIEBELOWTHEBERLINCLOCKUNTILASTRANGERWAVESONCE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 5,
+        "spaced_prose": "Take this secret message east-north-east and sit where shadows lie below the Berlin clock until a stranger waves once.",
+        "normalized": "TAKETHISSECRETMESSAGEEASTNORTHEASTANDSITWHERESHADOWSLIEBELOWTHEBERLINCLOCKUNTILASTRANGERWAVESONCE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Secret message delivery",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  },
+  {
+    "id": "T16",
+    "spaced_prose": "Send forth our best envoy east-north-east with my note and meet him beside the Berlin clock, but never let him see my face.",
+    "normalized": "SENDFORTHOURBESTENVOYEASTNORTHEASTWITHMYNOTEANDMEETHIMBESIDETHEBERLINCLOCKBUTNEVERLETHIMSEEMYFACE",
+    "revision_history": [
+      {
+        "revision": 1,
+        "spaced_prose": "Send our trusted envoy EAST NORTH EAST with the note and meet him beside the BERLIN CLOCK but never let him see your face.",
+        "normalized": "SENDOURTRUSTEDENVOYEASTNORTHEASTWITHTHENOTEANDMEETHIMBESIDETHEBERLINCLOCKBUTNEVERLETHIMSEEYOURFACE",
+        "constraint_feedback": {
+          "span_lengths": [
+            19,
+            30,
+            25
+          ],
+          "total_letters": 98,
+          "east_positions": [
+            20
+          ],
+          "berlin_positions": [
+            63
+          ],
+          "valid": false
+        },
+        "revision_reason": "Initial full-message draft"
+      },
+      {
+        "revision": 2,
+        "spaced_prose": "Send forth our best envoy EAST NORTH EAST with my note and meet him beside the BERLIN CLOCK but never let him see my face.",
+        "normalized": "SENDFORTHOURBESTENVOYEASTNORTHEASTWITHMYNOTEANDMEETHIMBESIDETHEBERLINCLOCKBUTNEVERLETHIMSEEMYFACE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Revision for exact span/total lengths and crib positions, with readability retained."
+      },
+      {
+        "revision": 3,
+        "spaced_prose": "Send forth our best envoy east-north-east with my note and meet him beside the Berlin clock, but never let him see my face.",
+        "normalized": "SENDFORTHOURBESTENVOYEASTNORTHEASTWITHMYNOTEANDMEETHIMBESIDETHEBERLINCLOCKBUTNEVERLETHIMSEEMYFACE",
+        "constraint_feedback": {
+          "span_lengths": [
+            21,
+            29,
+            23
+          ],
+          "total_letters": 97,
+          "east_positions": [
+            22
+          ],
+          "berlin_positions": [
+            64
+          ],
+          "valid": true
+        },
+        "revision_reason": "Final readability formatting only: standard case, hyphenated compass direction, and punctuation; normalized letters unchanged."
+      }
+    ],
+    "theme": "Secret message delivery",
+    "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed."
+  }
+]

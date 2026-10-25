@@ -1,0 +1,1609 @@
+[
+  {
+    "id": "N01",
+    "spaced_prose": "From our station, walk due east-north-east until you see the square beside the Berlin Clock, then pause awhile for lunch.",
+    "normalized": "FROMOURSTATIONWALKDUEEASTNORTHEASTUNTILYOUSEETHESQUAREBESIDETHEBERLINCLOCKTHENPAUSEAWHILEFORLUNCH",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "From our station, walk due east-north-east until you see the square beside the Berlin Clock then pause awhile for lunch.",
+        "normalized": "FROMOURSTATIONWALKDUEEASTNORTHEASTUNTILYOUSEETHESQUAREBESIDETHEBERLINCLOCKTHENPAUSEAWHILEFORLUNCH",
+        "unconstrained_spans": [
+          "From our station, walk due",
+          "until you see the square beside the",
+          "then pause awhile for lunch."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "From our station, walk due east-north-east until you see the square beside the Berlin Clock, then pause awhile for lunch.",
+        "normalized": "FROMOURSTATIONWALKDUEEASTNORTHEASTUNTILYOUSEETHESQUAREBESIDETHEBERLINCLOCKTHENPAUSEAWHILEFORLUNCH",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Walking directions and lunch",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N02",
+    "spaced_prose": "The morning breeze blows east-north-east as we sit eating fresh bagels by the Berlin Clock before our early train ride.",
+    "normalized": "THEMORNINGBREEZEBLOWSEASTNORTHEASTASWESITEATINGFRESHBAGELSBYTHEBERLINCLOCKBEFOREOUREARLYTRAINRIDE",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "The morning breeze blew east-north-east as we sat eating fresh bread by the Berlin Clock before our early train ride.",
+        "normalized": "THEMORNINGBREEZEBLEWEASTNORTHEASTASWESATEATINGFRESHBREADBYTHEBERLINCLOCKBEFOREOUREARLYTRAINRIDE",
+        "unconstrained_spans": [
+          "The morning breeze blew",
+          "as we sat eating fresh bread by the",
+          "before our early train ride."
+        ],
+        "span_lengths": [
+          20,
+          28,
+          23
+        ],
+        "validation": {
+          "length": 95,
+          "length_is_97": false,
+          "crib_22_34": "ASTNORTHEASTA",
+          "crib_64_74": "RLINCLOCKBE",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -1,
+            -1,
+            0
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "The morning breeze blows east-north-east as we sit eating fresh bagels by the Berlin Clock before our early train ride.",
+        "normalized": "THEMORNINGBREEZEBLOWSEASTNORTHEASTASWESITEATINGFRESHBAGELSBYTHEBERLINCLOCKBEFOREOUREARLYTRAINRIDE",
+        "unconstrained_spans": [
+          "The morning breeze blows",
+          "as we sit eating fresh bagels by the",
+          "before our early train ride."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "intermediate_prose_alternative",
+        "spaced_prose": "The morning breeze blows east-north-east as we sit eating fresh loaves by the Berlin Clock before our early train ride.",
+        "normalized": "THEMORNINGBREEZEBLOWSEASTNORTHEASTASWESITEATINGFRESHLOAVESBYTHEBERLINCLOCKBEFOREOUREARLYTRAINRIDE",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Replaced fresh loaves with fresh bagels for a more natural individual breakfast."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "The morning breeze blows east-north-east as we sit eating fresh bagels by the Berlin Clock before our early train ride.",
+        "normalized": "THEMORNINGBREEZEBLOWSEASTNORTHEASTASWESITEATINGFRESHBAGELSBYTHEBERLINCLOCKBEFOREOUREARLYTRAINRIDE",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Breakfast, weather, and train travel",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N03",
+    "spaced_prose": "Our tiny hotel rooms face east-north-east and offer a lovely view towards the Berlin Clock across the wide town square.",
+    "normalized": "OURTINYHOTELROOMSFACEEASTNORTHEASTANDOFFERALOVELYVIEWTOWARDSTHEBERLINCLOCKACROSSTHEWIDETOWNSQUARE",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "Our hotel windows face east-north-east and offer a lovely view toward the Berlin Clock across the quiet town square.",
+        "normalized": "OURHOTELWINDOWSFACEEASTNORTHEASTANDOFFERALOVELYVIEWTOWARDTHEBERLINCLOCKACROSSTHEQUIETTOWNSQUARE",
+        "unconstrained_spans": [
+          "Our hotel windows face",
+          "and offer a lovely view toward the",
+          "across the quiet town square."
+        ],
+        "span_lengths": [
+          19,
+          28,
+          24
+        ],
+        "validation": {
+          "length": 95,
+          "length_is_97": false,
+          "crib_22_34": "STNORTHEASTAN",
+          "crib_64_74": "LINCLOCKACR",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -2,
+            -1,
+            1
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "Our tiny hotel rooms face east-north-east and offer a lovely view towards the Berlin Clock across the wide town square.",
+        "normalized": "OURTINYHOTELROOMSFACEEASTNORTHEASTANDOFFERALOVELYVIEWTOWARDSTHEBERLINCLOCKACROSSTHEWIDETOWNSQUARE",
+        "unconstrained_spans": [
+          "Our tiny hotel rooms face",
+          "and offer a lovely view towards the",
+          "across the wide town square."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "Our tiny hotel rooms face east-north-east and offer a lovely view towards the Berlin Clock across the wide town square.",
+        "normalized": "OURTINYHOTELROOMSFACEEASTNORTHEASTANDOFFERALOVELYVIEWTOWARDSTHEBERLINCLOCKACROSSTHEWIDETOWNSQUARE",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Hotel view",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N04",
+    "spaced_prose": "We chose a route going due east-north-east to avoid the noisy streets near the Berlin Clock and enjoy a peaceful stroll.",
+    "normalized": "WECHOSEAROUTEGOINGDUEEASTNORTHEASTTOAVOIDTHENOISYSTREETSNEARTHEBERLINCLOCKANDENJOYAPEACEFULSTROLL",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "We chose a route going east-north-east to avoid the busy streets near the Berlin Clock and enjoy a peaceful stroll.",
+        "normalized": "WECHOSEAROUTEGOINGEASTNORTHEASTTOAVOIDTHEBUSYSTREETSNEARTHEBERLINCLOCKANDENJOYAPEACEFULSTROLL",
+        "unconstrained_spans": [
+          "We chose a route going",
+          "to avoid the busy streets near the",
+          "and enjoy a peaceful stroll."
+        ],
+        "span_lengths": [
+          18,
+          28,
+          23
+        ],
+        "validation": {
+          "length": 93,
+          "length_is_97": false,
+          "crib_22_34": "TNORTHEASTTOA",
+          "crib_64_74": "INCLOCKANDE",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -3,
+            -1,
+            0
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "We chose a route going due east-north-east to avoid the noisy streets near the Berlin Clock and enjoy a peaceful stroll.",
+        "normalized": "WECHOSEAROUTEGOINGDUEEASTNORTHEASTTOAVOIDTHENOISYSTREETSNEARTHEBERLINCLOCKANDENJOYAPEACEFULSTROLL",
+        "unconstrained_spans": [
+          "We chose a route going due",
+          "to avoid the noisy streets near the",
+          "and enjoy a peaceful stroll."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "We chose a route going due east-north-east to avoid the noisy streets near the Berlin Clock and enjoy a peaceful stroll.",
+        "normalized": "WECHOSEAROUTEGOINGDUEEASTNORTHEASTTOAVOIDTHENOISYSTREETSNEARTHEBERLINCLOCKANDENJOYAPEACEFULSTROLL",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Quiet walking route",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N05",
+    "spaced_prose": "Walk from that church due east-north-east, then look for the little cafe by the Berlin Clock, where our friends drink tea.",
+    "normalized": "WALKFROMTHATCHURCHDUEEASTNORTHEASTTHENLOOKFORTHELITTLECAFEBYTHEBERLINCLOCKWHEREOURFRIENDSDRINKTEA",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "Keep the church behind east-north-east then look for the small cafe by the Berlin Clock where our friends are waiting.",
+        "normalized": "KEEPTHECHURCHBEHINDEASTNORTHEASTTHENLOOKFORTHESMALLCAFEBYTHEBERLINCLOCKWHEREOURFRIENDSAREWAITING",
+        "unconstrained_spans": [
+          "Keep the church behind",
+          "then look for the small cafe by the",
+          "where our friends are waiting."
+        ],
+        "span_lengths": [
+          19,
+          28,
+          25
+        ],
+        "validation": {
+          "length": 96,
+          "length_is_97": false,
+          "crib_22_34": "STNORTHEASTTH",
+          "crib_64_74": "LINCLOCKWHE",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -2,
+            -1,
+            2
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "Walk from that church due east-north-east then look for the little cafe by the Berlin Clock where our friends drink tea.",
+        "normalized": "WALKFROMTHATCHURCHDUEEASTNORTHEASTTHENLOOKFORTHELITTLECAFEBYTHEBERLINCLOCKWHEREOURFRIENDSDRINKTEA",
+        "unconstrained_spans": [
+          "Walk from that church due",
+          "then look for the little cafe by the",
+          "where our friends drink tea."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "Walk from that church due east-north-east, then look for the little cafe by the Berlin Clock, where our friends drink tea.",
+        "normalized": "WALKFROMTHATCHURCHDUEEASTNORTHEASTTHENLOOKFORTHELITTLECAFEBYTHEBERLINCLOCKWHEREOURFRIENDSDRINKTEA",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Meeting friends at a cafe",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N06",
+    "spaced_prose": "This old road runs almost east-north-east, with a gentle curve just beyond the Berlin Clock and a tram stop on the corner.",
+    "normalized": "THISOLDROADRUNSALMOSTEASTNORTHEASTWITHAGENTLECURVEJUSTBEYONDTHEBERLINCLOCKANDATRAMSTOPONTHECORNER",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "The map shows the road east-north-east with a gentle bend just beyond the Berlin Clock and a bus stop on the corner.",
+        "normalized": "THEMAPSHOWSTHEROADEASTNORTHEASTWITHAGENTLEBENDJUSTBEYONDTHEBERLINCLOCKANDABUSSTOPONTHECORNER",
+        "unconstrained_spans": [
+          "The map shows the road",
+          "with a gentle bend just beyond the",
+          "and a bus stop on the corner."
+        ],
+        "span_lengths": [
+          18,
+          28,
+          22
+        ],
+        "validation": {
+          "length": 92,
+          "length_is_97": false,
+          "crib_22_34": "TNORTHEASTWIT",
+          "crib_64_74": "INCLOCKANDA",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -3,
+            -1,
+            -1
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "This map shows a road runs east-north-east with a gentle curve just beyond the Berlin Clock and a tram stop on the corner.",
+        "normalized": "THISMAPSHOWSAROADRUNSEASTNORTHEASTWITHAGENTLECURVEJUSTBEYONDTHEBERLINCLOCKANDATRAMSTOPONTHECORNER",
+        "unconstrained_spans": [
+          "This map shows a road runs",
+          "with a gentle curve just beyond the",
+          "and a tram stop on the corner."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "saved_draft_2",
+        "spaced_prose": "This old road runs almost east-north-east with a gentle curve just beyond the Berlin Clock and a tram stop on the corner.",
+        "normalized": "THISOLDROADRUNSALMOSTEASTNORTHEASTWITHAGENTLECURVEJUSTBEYONDTHEBERLINCLOCKANDATRAMSTOPONTHECORNER",
+        "unconstrained_spans": [
+          "This old road runs almost",
+          "with a gentle curve just beyond the",
+          "and a tram stop on the corner."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Replace compressed map-report syntax with a direct road description."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "This old road runs almost east-north-east, with a gentle curve just beyond the Berlin Clock and a tram stop on the corner.",
+        "normalized": "THISOLDROADRUNSALMOSTEASTNORTHEASTWITHAGENTLECURVEJUSTBEYONDTHEBERLINCLOCKANDATRAMSTOPONTHECORNER",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Road layout and tram stop",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N07",
+    "spaced_prose": "I saw storm clouds moving east-north-east while we all waited on a bench by the Berlin Clock as the rain began to ease off.",
+    "normalized": "ISAWSTORMCLOUDSMOVINGEASTNORTHEASTWHILEWEALLWAITEDONABENCHBYTHEBERLINCLOCKASTHERAINBEGANTOEASEOFF",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "I saw the clouds moving east-north-east while we waited on a bench by the Berlin Clock for the afternoon rain to end.",
+        "normalized": "ISAWTHECLOUDSMOVINGEASTNORTHEASTWHILEWEWAITEDONABENCHBYTHEBERLINCLOCKFORTHEAFTERNOONRAINTOEND",
+        "unconstrained_spans": [
+          "I saw the clouds moving",
+          "while we waited on a bench by the",
+          "for the afternoon rain to end."
+        ],
+        "span_lengths": [
+          19,
+          26,
+          24
+        ],
+        "validation": {
+          "length": 93,
+          "length_is_97": false,
+          "crib_22_34": "STNORTHEASTWH",
+          "crib_64_74": "NCLOCKFORTH",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -2,
+            -3,
+            1
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "I saw storm clouds moving east-north-east while we all waited on a bench by the Berlin Clock as the rain began to ease off.",
+        "normalized": "ISAWSTORMCLOUDSMOVINGEASTNORTHEASTWHILEWEALLWAITEDONABENCHBYTHEBERLINCLOCKASTHERAINBEGANTOEASEOFF",
+        "unconstrained_spans": [
+          "I saw storm clouds moving",
+          "while we all waited on a bench by the",
+          "as the rain began to ease off."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "I saw storm clouds moving east-north-east while we all waited on a bench by the Berlin Clock as the rain began to ease off.",
+        "normalized": "ISAWSTORMCLOUDSMOVINGEASTNORTHEASTWHILEWEALLWAITEDONABENCHBYTHEBERLINCLOCKASTHERAINBEGANTOEASEOFF",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Rain and cloud movement",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N08",
+    "spaced_prose": "The white kite sailed due east-north-east above the park as we walked past the Berlin Clock on our way back to the hostel.",
+    "normalized": "THEWHITEKITESAILEDDUEEASTNORTHEASTABOVETHEPARKASWEWALKEDPASTTHEBERLINCLOCKONOURWAYBACKTOTHEHOSTEL",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "The afternoon sun lay east-north-east of the park as we walked past the Berlin Clock on our way back to the hotel.",
+        "normalized": "THEAFTERNOONSUNLAYEASTNORTHEASTOFTHEPARKASWEWALKEDPASTTHEBERLINCLOCKONOURWAYBACKTOTHEHOTEL",
+        "unconstrained_spans": [
+          "The afternoon sun lay",
+          "of the park as we walked past the",
+          "on our way back to the hotel."
+        ],
+        "span_lengths": [
+          18,
+          26,
+          22
+        ],
+        "validation": {
+          "length": 90,
+          "length_is_97": false,
+          "crib_22_34": "TNORTHEASTOFT",
+          "crib_64_74": "CLOCKONOURW",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -3,
+            -3,
+            -1
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "The white kite sailed due east-north-east above the park as we walked past the Berlin Clock on our way back to the hostel.",
+        "normalized": "THEWHITEKITESAILEDDUEEASTNORTHEASTABOVETHEPARKASWEWALKEDPASTTHEBERLINCLOCKONOURWAYBACKTOTHEHOSTEL",
+        "unconstrained_spans": [
+          "The white kite sailed due",
+          "above the park as we walked past the",
+          "on our way back to the hostel."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "intermediate_prose_alternative",
+        "spaced_prose": "The high wooded hills lie east-north-east of the old park as we walked past the Berlin Clock on our way back to that hotel.",
+        "normalized": "THEHIGHWOODEDHILLSLIEEASTNORTHEASTOFTHEOLDPARKASWEWALKEDPASTTHEBERLINCLOCKONOURWAYBACKTOTHATHOTEL",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Rejected awkward mixed temporal framing and hill geography; rewrote as a kite observation."
+      },
+      {
+        "stage": "intermediate_prose_alternative",
+        "spaced_prose": "The high wooded hills lay east-north-east of the old park as we walked past the Berlin Clock on our way back to that hotel.",
+        "normalized": "THEHIGHWOODEDHILLSLAYEASTNORTHEASTOFTHEOLDPARKASWEWALKEDPASTTHEBERLINCLOCKONOURWAYBACKTOTHATHOTEL",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Retained grammatical past tense but replaced the whole hill observation for credibility."
+      },
+      {
+        "stage": "intermediate_prose_alternative",
+        "spaced_prose": "The white kite sailed due east-north-east over that park as we walked past the Berlin Clock on our way back to that hotel.",
+        "normalized": "THEWHITEKITESAILEDDUEEASTNORTHEASTOVERTHATPARKASWEWALKEDPASTTHEBERLINCLOCKONOURWAYBACKTOTHATHOTEL",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Replaced repeated demonstratives with above the park and the hostel."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "The white kite sailed due east-north-east above the park as we walked past the Berlin Clock on our way back to the hostel.",
+        "normalized": "THEWHITEKITESAILEDDUEEASTNORTHEASTABOVETHEPARKASWEWALKEDPASTTHEBERLINCLOCKONOURWAYBACKTOTHEHOSTEL",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Kite observation during a walk",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N09",
+    "spaced_prose": "Please take this path due east-north-east and meet us on the broad steps by the Berlin Clock at noon for a short city tour.",
+    "normalized": "PLEASETAKETHISPATHDUEEASTNORTHEASTANDMEETUSONTHEBROADSTEPSBYTHEBERLINCLOCKATNOONFORASHORTCITYTOUR",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "Please take the path due east-north-east and meet us near the entrance to the Berlin Clock at noon for a short city tour.",
+        "normalized": "PLEASETAKETHEPATHDUEEASTNORTHEASTANDMEETUSNEARTHEENTRANCETOTHEBERLINCLOCKATNOONFORASHORTCITYTOUR",
+        "unconstrained_spans": [
+          "Please take the path due",
+          "and meet us near the entrance to the",
+          "at noon for a short city tour."
+        ],
+        "span_lengths": [
+          20,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 96,
+          "length_is_97": false,
+          "crib_22_34": "ASTNORTHEASTA",
+          "crib_64_74": "ERLINCLOCKA",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "Please take this path due east-north-east and meet us near the entrance to the Berlin Clock at noon for a short city tour.",
+        "normalized": "PLEASETAKETHISPATHDUEEASTNORTHEASTANDMEETUSNEARTHEENTRANCETOTHEBERLINCLOCKATNOONFORASHORTCITYTOUR",
+        "unconstrained_spans": [
+          "Please take this path due",
+          "and meet us near the entrance to the",
+          "at noon for a short city tour."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "saved_draft_2",
+        "spaced_prose": "Please take this path due east-north-east and meet us on the broad steps by the Berlin Clock at noon for a short city tour.",
+        "normalized": "PLEASETAKETHISPATHDUEEASTNORTHEASTANDMEETUSONTHEBROADSTEPSBYTHEBERLINCLOCKATNOONFORASHORTCITYTOUR",
+        "unconstrained_spans": [
+          "Please take this path due",
+          "and meet us on the broad steps by the",
+          "at noon for a short city tour."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Remove the implication that a clock has an entrance; use a nearby meeting place."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "Please take this path due east-north-east and meet us on the broad steps by the Berlin Clock at noon for a short city tour.",
+        "normalized": "PLEASETAKETHISPATHDUEEASTNORTHEASTANDMEETUSONTHEBROADSTEPSBYTHEBERLINCLOCKATNOONFORASHORTCITYTOUR",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Meeting for a city tour",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N10",
+    "spaced_prose": "That narrow lane runs due east-north-east from the shops straight toward the Berlin Clock, with trees shading the road.",
+    "normalized": "THATNARROWLANERUNSDUEEASTNORTHEASTFROMTHESHOPSSTRAIGHTTOWARDTHEBERLINCLOCKWITHTREESSHADINGTHEROAD",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "A narrow lane runs due east-north-east from the market straight toward the Berlin Clock with little shops on both sides.",
+        "normalized": "ANARROWLANERUNSDUEEASTNORTHEASTFROMTHEMARKETSTRAIGHTTOWARDTHEBERLINCLOCKWITHLITTLESHOPSONBOTHSIDES",
+        "unconstrained_spans": [
+          "A narrow lane runs due",
+          "from the market straight toward the",
+          "with little shops on both sides."
+        ],
+        "span_lengths": [
+          18,
+          30,
+          26
+        ],
+        "validation": {
+          "length": 98,
+          "length_is_97": false,
+          "crib_22_34": "TNORTHEASTFRO",
+          "crib_64_74": "RLINCLOCKWI",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -3,
+            1,
+            3
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "That narrow lane runs due east-north-east from the shops straight toward the Berlin Clock with trees shading the road.",
+        "normalized": "THATNARROWLANERUNSDUEEASTNORTHEASTFROMTHESHOPSSTRAIGHTTOWARDTHEBERLINCLOCKWITHTREESSHADINGTHEROAD",
+        "unconstrained_spans": [
+          "That narrow lane runs due",
+          "from the shops straight toward the",
+          "with trees shading the road."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "That narrow lane runs due east-north-east from the shops straight toward the Berlin Clock, with trees shading the road.",
+        "normalized": "THATNARROWLANERUNSDUEEASTNORTHEASTFROMTHESHOPSSTRAIGHTTOWARDTHEBERLINCLOCKWITHTREESSHADINGTHEROAD",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Shaded lane",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N11",
+    "spaced_prose": "The tram took us straight east-north-east past the gardens and right up to the Berlin Clock in time to take a group photo.",
+    "normalized": "THETRAMTOOKUSSTRAIGHTEASTNORTHEASTPASTTHEGARDENSANDRIGHTUPTOTHEBERLINCLOCKINTIMETOTAKEAGROUPPHOTO",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "Our tram carried us due east-north-east past the gardens and right up to the Berlin Clock in time for a quick photograph.",
+        "normalized": "OURTRAMCARRIEDUSDUEEASTNORTHEASTPASTTHEGARDENSANDRIGHTUPTOTHEBERLINCLOCKINTIMEFORAQUICKPHOTOGRAPH",
+        "unconstrained_spans": [
+          "Our tram carried us due",
+          "past the gardens and right up to the",
+          "in time for a quick photograph."
+        ],
+        "span_lengths": [
+          19,
+          29,
+          25
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "STNORTHEASTPA",
+          "crib_64_74": "RLINCLOCKIN",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -2,
+            0,
+            2
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "The tram took us straight east-north-east past the gardens and right up to the Berlin Clock in time to take a group photo.",
+        "normalized": "THETRAMTOOKUSSTRAIGHTEASTNORTHEASTPASTTHEGARDENSANDRIGHTUPTOTHEBERLINCLOCKINTIMETOTAKEAGROUPPHOTO",
+        "unconstrained_spans": [
+          "The tram took us straight",
+          "past the gardens and right up to the",
+          "in time to take a group photo."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "The tram took us straight east-north-east past the gardens and right up to the Berlin Clock in time to take a group photo.",
+        "normalized": "THETRAMTOOKUSSTRAIGHTEASTNORTHEASTPASTTHEGARDENSANDRIGHTUPTOTHEBERLINCLOCKINTIMETOTAKEAGROUPPHOTO",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Tram journey and group photo",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N12",
+    "spaced_prose": "Our local guide led us due east-north-east on a scenic walk that ended near the Berlin Clock, avoiding the busy main road.",
+    "normalized": "OURLOCALGUIDELEDUSDUEEASTNORTHEASTONASCENICWALKTHATENDEDNEARTHEBERLINCLOCKAVOIDINGTHEBUSYMAINROAD",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "The guide pointed out east-north-east as the best way to walk toward the Berlin Clock without crossing the main road.",
+        "normalized": "THEGUIDEPOINTEDOUTEASTNORTHEASTASTHEBESTWAYTOWALKTOWARDTHEBERLINCLOCKWITHOUTCROSSINGTHEMAINROAD",
+        "unconstrained_spans": [
+          "The guide pointed out",
+          "as the best way to walk toward the",
+          "without crossing the main road."
+        ],
+        "span_lengths": [
+          18,
+          27,
+          26
+        ],
+        "validation": {
+          "length": 95,
+          "length_is_97": false,
+          "crib_22_34": "TNORTHEASTAST",
+          "crib_64_74": "NCLOCKWITHO",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -3,
+            -2,
+            3
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "Our friendly guide chose east-north-east for a scenic walk that ends near the Berlin Clock avoiding the busy main road.",
+        "normalized": "OURFRIENDLYGUIDECHOSEEASTNORTHEASTFORASCENICWALKTHATENDSNEARTHEBERLINCLOCKAVOIDINGTHEBUSYMAINROAD",
+        "unconstrained_spans": [
+          "Our friendly guide chose",
+          "for a scenic walk that ends near the",
+          "avoiding the busy main road."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "saved_draft_2",
+        "spaced_prose": "Our local guide led us due east-north-east on a scenic walk that ended near the Berlin Clock avoiding the busy main road.",
+        "normalized": "OURLOCALGUIDELEDUSDUEEASTNORTHEASTONASCENICWALKTHATENDEDNEARTHEBERLINCLOCKAVOIDINGTHEBUSYMAINROAD",
+        "unconstrained_spans": [
+          "Our local guide led us due",
+          "on a scenic walk that ended near the",
+          "avoiding the busy main road."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Replace choosing a compass direction with a natural guided walk and keep past tense consistent."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "Our local guide led us due east-north-east on a scenic walk that ended near the Berlin Clock, avoiding the busy main road.",
+        "normalized": "OURLOCALGUIDELEDUSDUEEASTNORTHEASTONASCENICWALKTHATENDEDNEARTHEBERLINCLOCKAVOIDINGTHEBUSYMAINROAD",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Guided walk",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N13",
+    "spaced_prose": "Seven pigeons headed due east-north-east above the old square, while near the Berlin Clock a child counted every light.",
+    "normalized": "SEVENPIGEONSHEADEDDUEEASTNORTHEASTABOVETHEOLDSQUAREWHILENEARTHEBERLINCLOCKACHILDCOUNTEDEVERYLIGHT",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "We watched birds fly due east-north-east above the square while near the Berlin Clock a child counted the bright lights.",
+        "normalized": "WEWATCHEDBIRDSFLYDUEEASTNORTHEASTABOVETHESQUAREWHILENEARTHEBERLINCLOCKACHILDCOUNTEDTHEBRIGHTLIGHTS",
+        "unconstrained_spans": [
+          "We watched birds fly due",
+          "above the square while near the",
+          "a child counted the bright lights."
+        ],
+        "span_lengths": [
+          20,
+          26,
+          28
+        ],
+        "validation": {
+          "length": 98,
+          "length_is_97": false,
+          "crib_22_34": "ASTNORTHEASTA",
+          "crib_64_74": "INCLOCKACHI",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -1,
+            -3,
+            5
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "Seven pigeons headed due east-north-east above the old square while near the Berlin Clock a child counted every light.",
+        "normalized": "SEVENPIGEONSHEADEDDUEEASTNORTHEASTABOVETHEOLDSQUAREWHILENEARTHEBERLINCLOCKACHILDCOUNTEDEVERYLIGHT",
+        "unconstrained_spans": [
+          "Seven pigeons headed due",
+          "above the old square while near the",
+          "a child counted every light."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "Seven pigeons headed due east-north-east above the old square, while near the Berlin Clock a child counted every light.",
+        "normalized": "SEVENPIGEONSHEADEDDUEEASTNORTHEASTABOVETHEOLDSQUAREWHILENEARTHEBERLINCLOCKACHILDCOUNTEDEVERYLIGHT",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Bird observation and a child counting lights",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N14",
+    "spaced_prose": "A chilly breeze came from east-north-east while I drew all the houses near the Berlin Clock and waited for my sister Amy.",
+    "normalized": "ACHILLYBREEZECAMEFROMEASTNORTHEASTWHILEIDREWALLTHEHOUSESNEARTHEBERLINCLOCKANDWAITEDFORMYSISTERAMY",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "A cool wind came from east-north-east while I sketched the buildings by the Berlin Clock and waited for my sister to come.",
+        "normalized": "ACOOLWINDCAMEFROMEASTNORTHEASTWHILEISKETCHEDTHEBUILDINGSBYTHEBERLINCLOCKANDWAITEDFORMYSISTERTOCOME",
+        "unconstrained_spans": [
+          "A cool wind came from",
+          "while I sketched the buildings by the",
+          "and waited for my sister to come."
+        ],
+        "span_lengths": [
+          17,
+          31,
+          26
+        ],
+        "validation": {
+          "length": 98,
+          "length_is_97": false,
+          "crib_22_34": "NORTHEASTWHIL",
+          "crib_64_74": "RLINCLOCKAN",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -4,
+            2,
+            3
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "A chilly breeze came from east-north-east while I drew all the houses near the Berlin Clock and waited for my sister Amy.",
+        "normalized": "ACHILLYBREEZECAMEFROMEASTNORTHEASTWHILEIDREWALLTHEHOUSESNEARTHEBERLINCLOCKANDWAITEDFORMYSISTERAMY",
+        "unconstrained_spans": [
+          "A chilly breeze came from",
+          "while I drew all the houses near the",
+          "and waited for my sister Amy."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "intermediate_prose_alternative",
+        "spaced_prose": "A chilly breeze came from east-north-east while I drew all the houses near the Berlin Clock as I waited for my sister Sue.",
+        "normalized": "ACHILLYBREEZECAMEFROMEASTNORTHEASTWHILEIDREWALLTHEHOUSESNEARTHEBERLINCLOCKASIWAITEDFORMYSISTERSUE",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Replaced nested while/as framing with a coordinated verb and sister Amy."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "A chilly breeze came from east-north-east while I drew all the houses near the Berlin Clock and waited for my sister Amy.",
+        "normalized": "ACHILLYBREEZECAMEFROMEASTNORTHEASTWHILEIDREWALLTHEHOUSESNEARTHEBERLINCLOCKANDWAITEDFORMYSISTERAMY",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Sketching while awaiting a sister",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N15",
+    "spaced_prose": "This river path leads due east-north-east and crosses a small bridge near the Berlin Clock before it ends beside a pond.",
+    "normalized": "THISRIVERPATHLEADSDUEEASTNORTHEASTANDCROSSESASMALLBRIDGENEARTHEBERLINCLOCKBEFOREITENDSBESIDEAPOND",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "The river path leads due east-north-east and crosses a small bridge near the Berlin Clock before ending beside a garden.",
+        "normalized": "THERIVERPATHLEADSDUEEASTNORTHEASTANDCROSSESASMALLBRIDGENEARTHEBERLINCLOCKBEFOREENDINGBESIDEAGARDEN",
+        "unconstrained_spans": [
+          "The river path leads due",
+          "and crosses a small bridge near the",
+          "before ending beside a garden."
+        ],
+        "span_lengths": [
+          20,
+          29,
+          25
+        ],
+        "validation": {
+          "length": 98,
+          "length_is_97": false,
+          "crib_22_34": "ASTNORTHEASTA",
+          "crib_64_74": "ERLINCLOCKB",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -1,
+            0,
+            2
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "This river path leads due east-north-east and crosses a small bridge near the Berlin Clock before it ends beside a pond.",
+        "normalized": "THISRIVERPATHLEADSDUEEASTNORTHEASTANDCROSSESASMALLBRIDGENEARTHEBERLINCLOCKBEFOREITENDSBESIDEAPOND",
+        "unconstrained_spans": [
+          "This river path leads due",
+          "and crosses a small bridge near the",
+          "before it ends beside a pond."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "This river path leads due east-north-east and crosses a small bridge near the Berlin Clock before it ends beside a pond.",
+        "normalized": "THISRIVERPATHLEADSDUEEASTNORTHEASTANDCROSSESASMALLBRIDGENEARTHEBERLINCLOCKBEFOREITENDSBESIDEAPOND",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Riverside walking path",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  },
+  {
+    "id": "N16",
+    "spaced_prose": "We steered both bikes due east-north-east at that cafe and soon arrived at the Berlin Clock, where I checked my new watch.",
+    "normalized": "WESTEEREDBOTHBIKESDUEEASTNORTHEASTATTHATCAFEANDSOONARRIVEDATTHEBERLINCLOCKWHEREICHECKEDMYNEWWATCH",
+    "revision_history": [
+      {
+        "stage": "saved_draft_0",
+        "spaced_prose": "We turned our bikes due east-north-east at the cafe and soon arrived at the Berlin Clock where we stopped to read the time.",
+        "normalized": "WETURNEDOURBIKESDUEEASTNORTHEASTATTHECAFEANDSOONARRIVEDATTHEBERLINCLOCKWHEREWESTOPPEDTOREADTHETIME",
+        "unconstrained_spans": [
+          "We turned our bikes due",
+          "at the cafe and soon arrived at the",
+          "where we stopped to read the time."
+        ],
+        "span_lengths": [
+          19,
+          28,
+          27
+        ],
+        "validation": {
+          "length": 98,
+          "length_is_97": false,
+          "crib_22_34": "STNORTHEASTAT",
+          "crib_64_74": "LINCLOCKWHE",
+          "crib_positions_correct": false
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            -2,
+            -1,
+            4
+          ]
+        },
+        "revision_note": "Initial individually composed full-message draft, before length correction."
+      },
+      {
+        "stage": "saved_draft_1",
+        "spaced_prose": "We steered both bikes due east-north-east at that cafe and soon arrived at the Berlin Clock where I checked my new watch.",
+        "normalized": "WESTEEREDBOTHBIKESDUEEASTNORTHEASTATTHATCAFEANDSOONARRIVEDATTHEBERLINCLOCKWHEREICHECKEDMYNEWWATCH",
+        "unconstrained_spans": [
+          "We steered both bikes due",
+          "at that cafe and soon arrived at the",
+          "where I checked my new watch."
+        ],
+        "span_lengths": [
+          21,
+          29,
+          23
+        ],
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": {
+          "target": [
+            21,
+            29,
+            23
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ]
+        },
+        "revision_note": "Individually revise initial draft for required span lengths and fluent standalone prose; N08 replaced distant-hills observation with a kite observation; N12 refined guided route; N13 specified pigeons."
+      },
+      {
+        "stage": "final_punctuation_and_prose_review",
+        "spaced_prose": "We steered both bikes due east-north-east at that cafe and soon arrived at the Berlin Clock, where I checked my new watch.",
+        "normalized": "WESTEEREDBOTHBIKESDUEEASTNORTHEASTATTHATCAFEANDSOONARRIVEDATTHEBERLINCLOCKWHEREICHECKEDMYNEWWATCH",
+        "validation": {
+          "length": 97,
+          "length_is_97": true,
+          "crib_22_34": "EASTNORTHEAST",
+          "crib_64_74": "BERLINCLOCK",
+          "crib_positions_correct": true
+        },
+        "feedback": "Accepted as a coherent ordinary message. Fictional setting details are not verified geography; no cryptographic information was used."
+      }
+    ],
+    "theme": "Cycling and checking a watch",
+    "authoring_method": "Blind candidate-first individual full-message creative composition, followed only by A-Z normalization, length/position validation, and prose revision. No phrase-bank Cartesian product, ciphertext inspection, key derivation, score optimization, external model API, or other-author candidate inspection. Distinctness is not a claim of statistical independence."
+  }
+]

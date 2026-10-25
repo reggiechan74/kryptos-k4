@@ -1,0 +1,31 @@
+Thematic blind authoring validation
+
+Candidates: 16; distinct normalized messages: 16; all valid: True.
+Each final message has 97 uppercase A–Z letters; EASTNORTHEAST occupies 22–34 and BERLINCLOCK occupies 64–74 (1-based).
+Unconstrained spans: 21, 29, 23 letters.
+All 52 drafted/revised/formatted versions and their validation feedback are preserved in thematic_draft_log.jsonl and in each final entry’s revision_history.
+Four candidates per theme: Egypt memories, Berlin Wall transition, World Clock, secret message delivery.
+
+Limitations:
+- Creative thematic hypotheses, not recovered plaintext.
+- All candidates share the required cribs and directional/clock framing; statistical independence is not asserted.
+- Some exact-length wording is deliberately literary or slightly constrained (notably T04 and T10).
+- Historical/geographic details and clock-related scene elements are fictional creative priors, not independently verified factual assertions.
+
+Final messages:
+T01: From this temple walk due east-north-east and remember the first sight of the Berlin clock as we did in our younger days.
+T02: Our Nile map pointed just east-north-east; I later traced its route beside the Berlin clock and found our old camp again.
+T03: From old Giza I headed due east-north-east to seek the red star drawn below the Berlin clock on a chart you sent from home.
+T04: Beyond the tomb we turned east-north-east and saw the day we shared beside the Berlin clock come back to us over the sand.
+T05: When the wall fell we went east-north-east past the open gate and onward to the Berlin clock where you sat waiting for me.
+T06: The newly free crowds ran east-north-east and left some guards staring at the Berlin clock as their old rule fell apart.
+T07: We crossed the border due east-north-east with flowers and met again near the Berlin clock to greet the dawn of a new age.
+T08: Our old border stood just east-north-east of that square where we watched the Berlin clock and dreamt of freedom again.
+T09: Set your compass and face east-north-east; the map of the world below the great Berlin clock will show which city to seek.
+T10: We set our course exactly east-north-east as you traced a new route around the Berlin clock and found when our day began.
+T11: That world map led us both east-north-east to see home among the names upon the Berlin clock though we had wandered afar.
+T12: Look from the dial toward east-north-east and note which city glows above the Berlin clock before the lamps dim at dusk.
+T13: Carry our hidden note due east-north-east and place it in the alcove below the Berlin clock; then leave unseen by guards.
+T14: Your courier must travel east-north-east until a hidden marker points to the Berlin clock, where I shall give him a code.
+T15: Take this secret message east-north-east and sit where shadows lie below the Berlin clock until a stranger waves once.
+T16: Send forth our best envoy east-north-east with my note and meet him beside the Berlin clock, but never let him see my face.

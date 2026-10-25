@@ -1,0 +1,76 @@
+{
+  "audit_passed": true,
+  "bound_file_sha256": {
+    "freeze.json": "ae27b08bb8918b4ffa0b3d5e89fbb42784dfba0017a3e43bd8e100045b7bbadd",
+    "implementation_audit.json": "de07f1fb2bce32a2e7ecb62e49f9af0f9af1212983f2429811779f08dafd4247",
+    "results/pretarget_gate.json": "3d33547570b83355c88a55d8f3a2d1c6759060082fed31135259a3230b8bebb7",
+    "results/pretarget_gate_audit.json": "9a99086fd1ef7864190165977278e8bf8d5e5b63e2787688b88a30ff1d601150",
+    "results/target.json": "2826836c7ec42f542c609975f1e04a35fea7b453450307f6c23268fc5ff9684f",
+    "results/target_receipt.json": "c008430e9eea9c88f3086e288e318312e35f79bac9d30e87682c96759539f53f",
+    "results/target_summary.json": "4f40f905a58b6b0c6861b1b92c6dfd85b9f870484b04039527b442500c26ee15",
+    "target.txt": "2797de1451ab97118211735dcef370fc5acd70829f164aa043c47cbf40f0a5a3"
+  },
+  "conclusion": "No signal under this registered structural simplicity statistic and conditional null. All three expansion criteria fail. Close the 32-message pilot; no expansion or model tuning follows from these results.",
+  "coverage": {
+    "candidate_count": 32,
+    "conditional_null_replicates": 1999,
+    "exact_candidate_tableau_diagnostics": 384,
+    "registered_descriptions_per_candidate": 1152,
+    "registered_total": 36864,
+    "verification_basis": "Unchanged hash-bound exhaustive scorer, prior optimized-versus-exhaustive-reference tests, all 32 retained candidate winners, and complete null arrays. This audit did not rerun all 36864 target scores or 1999 null maxima."
+  },
+  "freeze_sha256": "ae27b08bb8918b4ffa0b3d5e89fbb42784dfba0017a3e43bd8e100045b7bbadd",
+  "implementation_edits_by_auditor": false,
+  "new_search_or_tuning_performed": false,
+  "open_blockers": [],
+  "parent_supplied_canonical_target_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "reviewer": "independent audit_candidate_first_pilot agent",
+  "scientific_target_gate_passed": false,
+  "scope": "Verification of the single saved preregistered target run; no new model search, tuning, or expansion.",
+  "scope_limits": [
+    "Re-encryption with an unrestricted induced key is inevitable and is only a correctness check.",
+    "The score is conditional on the 24 crib letters and describes the other 73 positions; it is not a full 97-letter-key MDL.",
+    "The experiment tests this fixed 32-message bank and registered periodic/autokey descriptions, not all plausible plaintexts or encryption families.",
+    "Natural-language running-key recognition was not implemented; the result does not reject arbitrary meaningful running keys or prove that every bank candidate is false under other mechanisms.",
+    "Canonical provenance is the parent-supplied target file; no external canonical ciphertext source was consulted during this audit."
+  ],
+  "target_statistics": {
+    "different_plaintext_margin_bits": 0.5702893680308421,
+    "expansion_gate": {
+      "checks": {
+        "different_plaintext_margin": false,
+        "global_p": false,
+        "minimum_score": false
+      },
+      "passed": false
+    },
+    "global_p_denominator": 2000,
+    "global_p_numerator": 1832,
+    "global_p_value": 0.916,
+    "maximum_score_bits": -8.87924776407408,
+    "null_count_greater_or_equal": 1831
+  },
+  "unsupported_winner": {
+    "candidate_id": "N02",
+    "crib_mismatches": 23,
+    "exact_full_fit": false,
+    "interpretation": "A mechanically top-ranked illustration only, with no statistical or exact-key support; not a recovered plaintext.",
+    "noncrib_tail_eligible": 67,
+    "noncrib_tail_mismatches": 57,
+    "prose": "The morning breeze blows east-north-east as we sit eating fresh bagels by the Berlin Clock before our early train ride.",
+    "seed_length": 6,
+    "structure": "ciphertext_autokey",
+    "tableau_id": "AZ-KR-vigenere",
+    "total_template_mismatches": 80
+  },
+  "utc": "2026-10-25T01:53:39.300480+00:00",
+  "verified_findings": [
+    "The parent-supplied target.txt normalizes by strip only to exactly 97 A-Z letters; its canonical hash agrees with target receipt, result, and summary.",
+    "All frozen source/supporting files match the preregistration manifest and original implementation audit; all 84 control receipts and the passed pretarget gate remain hash-consistent.",
+    "All 32 retained candidate winners match frozen plaintexts; their selected model description, modal or autokey template, score components, exact flags, and every reported residual position were independently recomputed.",
+    "All 384 induced-key full re-encryption/inverse checks, minimum exact periods, registered exact period/autokey sets, and crib-only exclusion sets were independently verified.",
+    "No candidate/tableau has an exact registered periodic or autokey fit.",
+    "All 1999 null ciphertext hashes were regenerated without rescoring and verified to preserve fixed crib ciphertext and noncrib ciphertext multiset.",
+    "The maximum, different-plaintext margin, conservative global p-value, and all three expansion-gate booleans agree with the frozen formulas and saved evidence."
+  ]
+}

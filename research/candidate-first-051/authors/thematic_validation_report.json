@@ -1,0 +1,280 @@
+{
+  "author": "author_thematic_candidates",
+  "candidate_count": 16,
+  "all_valid": true,
+  "distinct_normalized_count": 16,
+  "all_drafts_preserved": true,
+  "draft_log": "/workspace/shared/candidate-first-051/authors/thematic_draft_log.jsonl",
+  "logged_versions": 52,
+  "theme_counts": {
+    "Berlin Wall transition": 4,
+    "Egypt memories": 4,
+    "Secret message delivery": 4,
+    "World Clock": 4
+  },
+  "limitations": [
+    "Creative thematic hypotheses, not recovered plaintext.",
+    "All candidates share the required cribs and directional/clock framing; statistical independence is not asserted.",
+    "Some exact-length wording is deliberately literary or slightly constrained (notably T04 and T10).",
+    "Historical/geographic details and clock-related scene elements are fictional creative priors, not independently verified factual assertions."
+  ],
+  "authoring_method": "Blind assistant authorship: each complete message was separately composed as a full thought, not assembled from a Cartesian phrase bank. Revisions used only local normalization, unconstrained-span lengths, total letter counts, crib positions, and readability. No ciphertext, derived keys, key-quality scoring, solution discussion, external sources, other author files, external model APIs, or cloud threads were consulted. These thematic priors are creative hypotheses, not decryption claims; statistical independence is not claimed.",
+  "candidates": [
+    {
+      "id": "T01",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 2
+    },
+    {
+      "id": "T02",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 2
+    },
+    {
+      "id": "T03",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 3
+    },
+    {
+      "id": "T04",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 3
+    },
+    {
+      "id": "T05",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 3
+    },
+    {
+      "id": "T06",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 3
+    },
+    {
+      "id": "T07",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 3
+    },
+    {
+      "id": "T08",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 3
+    },
+    {
+      "id": "T09",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 3
+    },
+    {
+      "id": "T10",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 3
+    },
+    {
+      "id": "T11",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 4
+    },
+    {
+      "id": "T12",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 4
+    },
+    {
+      "id": "T13",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 4
+    },
+    {
+      "id": "T14",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 4
+    },
+    {
+      "id": "T15",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 5
+    },
+    {
+      "id": "T16",
+      "uppercase_AZ_only": true,
+      "letter_count": 97,
+      "east_northeast_start_1_based": 22,
+      "east_northeast_end_1_based": 34,
+      "berlin_clock_start_1_based": 64,
+      "berlin_clock_end_1_based": 74,
+      "unconstrained_span_lengths": [
+        21,
+        29,
+        23
+      ],
+      "valid": true,
+      "recorded_versions": 3
+    }
+  ]
+}
