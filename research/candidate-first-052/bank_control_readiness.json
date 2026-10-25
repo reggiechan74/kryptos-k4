@@ -1,0 +1,38 @@
+{
+  "all84_control_encrypt_inverse_checks": true,
+  "candidate_count": 1024,
+  "control_construction_reproduces": true,
+  "control_count": 84,
+  "control_kinds": {
+    "bank_absent": 12,
+    "running_key": 12,
+    "simple": 36,
+    "structured_hard": 24
+  },
+  "files_sha256": {
+    "bank.json": "e929b4c5a93bab76195dd9d16556aa1def8db530a987f9bdf3dc6861c28b11e7",
+    "bank_import.json": "3096abc331781e747603fca8e5f30638640ed67889e897093af45e667bce41ec",
+    "controls.json": "f411639b795a1a5abf1f1ffac04736b17a83e27ac96f5a91a070be18596d4913"
+  },
+  "freeze_written": false,
+  "groups": {
+    "a_themes": 256,
+    "b_neutral": 256,
+    "c_berlin": 256,
+    "d_messages": 256
+  },
+  "inscope_control_groups": {
+    "a_themes": 15,
+    "b_neutral": 15,
+    "c_berlin": 15,
+    "d_messages": 15
+  },
+  "inscope_planted_unique_candidates": 60,
+  "original_author_hashes_match_final_markdown_validation": true,
+  "original_code_audit_hashes_still_match": true,
+  "prior051_and_heldout_exclusion_verified": true,
+  "production_scores_computed": false,
+  "quality_scope": "Parent-reviewed author batches are structurally valid but use recurrent scaffolding and have genre/topic biases; no independence or exhaustive language coverage is claimed. A group includes198quoted titles/inscriptions and58literal directions. These are not cryptographic scores.",
+  "ready_for_bank_control_audit": true,
+  "unique_normalized_plaintexts": 1024
+}

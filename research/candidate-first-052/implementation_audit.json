@@ -1,0 +1,154 @@
+{
+  "actual_bank_checks": {
+    "all_aliases_preserve_original_id": true,
+    "all_fixed_crib_positions_valid": true,
+    "all_last_revisions_match_final_normalized_prose": true,
+    "all_lengths_97": true,
+    "all_source_hashes_match_final_author_and_markdown_receipts": true,
+    "candidate_count": 1024,
+    "groups": {
+      "a_themes": 256,
+      "b_neutral": 256,
+      "c_berlin": 256,
+      "d_messages": 256
+    },
+    "heldout_overlap": 0,
+    "normalized_equals_author_prose": true,
+    "prior051_overlap": 0,
+    "source_bytes_changed_by_importer_or_auditor": false,
+    "unique_normalized_count": 1024
+  },
+  "actual_control_checks": {
+    "all_full_key_encryption_inverse_checks": true,
+    "all_hard_seed_lengths_29": true,
+    "all_structured_seed_construction_checks": true,
+    "counts": {
+      "bank_absent": 12,
+      "running_key": 12,
+      "simple": 36,
+      "structured_hard": 24
+    },
+    "exact_reproduction": true,
+    "frozen052_rng_labels": true,
+    "inscope_groups": {
+      "a_themes": 15,
+      "b_neutral": 15,
+      "c_berlin": 15,
+      "d_messages": 15
+    },
+    "inscope_unique_plaintexts": 60,
+    "oracle_candidate_or_model_supplied_to_scorer": false,
+    "total": 84
+  },
+  "approved_stage": "freeze_and_full_1024_candidate_control_calibration_only",
+  "audited_sha256": {
+    "PROTOCOL.md": "97b91188926a3e0fdca7f8c03c94e9dfd5a633f97aae63f34dc1aca5743940b8",
+    "bank.json": "e929b4c5a93bab76195dd9d16556aa1def8db530a987f9bdf3dc6861c28b11e7",
+    "bank_import.json": "3096abc331781e747603fca8e5f30638640ed67889e897093af45e667bce41ec",
+    "build.json": "fcc386e7a263a383ade4dcf1960f2c04c1d51c174c085d82235dcaacd70f1785",
+    "config.json": "5a0fd3f835cb01b365a4d770ab7628734eed7160e740a46e24a09dde176bc700",
+    "controls.json": "f411639b795a1a5abf1f1ffac04736b17a83e27ac96f5a91a070be18596d4913",
+    "heldout.json": "290807b30289fb7f7d50ff5c9643291e746307f7af9ba1e391bf00cde4360285",
+    "import_bank.py": "99dc07deb78a79af6e3706ab5d5924b1ba5bdda4b19870ea3a4979c83ef9522b",
+    "native.py": "f73c051d7c2ac4a3358c5861af189793cd9705c0d91976a70889688157a11d5f",
+    "prior051_bank.json": "6945a97e24fcb11531cce3836b5c9206b225a9272173a67914bbcfe65b0728d0",
+    "reference.py": "8b9e49d2a5927be84725a7f43db82bfd27ed7f2b09f39406c3182c585d79c164",
+    "run_experiment.py": "8643dcdce8db0ee23134e9660b24c311ee95dd999f3bb8847594b98dfed85479",
+    "running_key.txt": "03c49225af8a54eb5e642e9fafbc22f5d5666106815ba59f12feed7146a7de4f",
+    "scorer.c": "f6a792abafd9549b2754be23c74fa1c011ba1d0474620c1118562fab172bd701",
+    "scorer.so": "243231d321fce6ae1e94170433ff18834a30cb47d395a9ac67c8ae20ce5ed153",
+    "test_native.py": "6547cc848b287b958c1359d6f651bc83f1570fdc6f979f374f923b7ef0b37fcf",
+    "test_runner.py": "7c2e549e160053c4ef1061bc2537c609e2d140aab1af416270fb828d9ec1ea44"
+  },
+  "bank_control_readiness_sha256": "3f168149b1986abf073c5b0595229d1f17b1a405ca6ea31e9fb51a576b08b7a6",
+  "implementation_code_audit_sha256": "2ea0648e878b672298499b65a94a71afa367d1adf54a169ce1d287c9a7ca79eb",
+  "implementation_edits_by_auditor": false,
+  "message_markdown_validation_sha256": "232c964aa252fbbafa43d26b3f9a8012c8b8944a500a60f19742ee8cb05c8d7a",
+  "native_build_verification": {
+    "implementation_files_modified": false,
+    "independent_temporary_rebuild": true,
+    "no_fast_math": true,
+    "recorded_command_matches": true,
+    "reproduced_binary_sha256": "243231d321fce6ae1e94170433ff18834a30cb47d395a9ac67c8ae20ce5ed153"
+  },
+  "open_blockers": [],
+  "original_heldout_provenance_sha256": "0a214fd280dbb606d08afaf8f1749200bf0d8e427a956e674931180849795adc",
+  "passed": true,
+  "prior_code_test_evidence": {
+    "command": "python -m unittest -v test_native.py test_runner.py",
+    "exit_code": 0,
+    "independent_wall_seconds": 10.636,
+    "inputs": "synthetic banks only; no actual-bank/control/K4 scoring",
+    "tests_passed": 14
+  },
+  "prose_review": {
+    "assessment": "Sampled messages are coherent fictional complete thoughts, but constraint-driven wording and recurring grammatical motifs are substantial. No material objective bank defect found.",
+    "caveats": [
+      "Quoted titles, labels, inscriptions, memories, maps, direction, and clock motifs dominate; broader quantity does not establish broad language coverage.",
+      "Fictional geography and imagined/personified clock behavior are not historical claims.",
+      "C batch early Human-authored feedback was a template error; all records explicitly clarify assistant authorship and the original audit text was retained with an append-only correction.",
+      "No statistical-independence or exhaustiveness claim is accepted."
+    ],
+    "method": "Deterministic spread sample across all four batches plus author disclosure/provenance inspection; not an exhaustive independent literary-quality judgment or score-based selection.",
+    "quoted_prose_counts": {
+      "a_themes": 198,
+      "b_neutral": 0,
+      "c_berlin": 200,
+      "d_messages": 256
+    }
+  },
+  "raw_author_artifact_sha256": {
+    "authors/a_batch01.py": "c6107a8ddd22ddaf33a36b25bacdfba1a4c014c237d846f97c3ab7784f346914",
+    "authors/a_batch02.py": "f9bea7ce6c4b222e1ea7dcd9010b37df04d8308da3432035ca45d622ce168214",
+    "authors/a_batch03.py": "9b1f0dba63d104c8579999bbee7d830ed1f1c89f3520593203ecef0b9e8b9768",
+    "authors/a_batch04.py": "cf2a58b2500cbd2f6e30c628e07b1fe2489a27d59d2d814bd62964628a4ba76d",
+    "authors/a_batch05.py": "93c055dfaa55e21552f612b514027fe684254e0da09bc1a633960e19027c0fc6",
+    "authors/a_batch06.py": "e8dc310291f1d4a51d765c5ca05ce860c46312993f11b296de8242b1974acaeb",
+    "authors/a_batch07.py": "b724c739b3dc6c1516df740455a422f8b9fb9d34cd91cd60f263ad70dc777cda",
+    "authors/a_batch08.py": "88ca6ea7c952e5779543d38a0271af01b31824cf6037eb9e8a3655eaed9a68da",
+    "authors/a_finalize.py": "9679fc36cf8d2227bbb6d92cad81f1a0089d0945e2cf731333bf5b95b8b495ef",
+    "authors/a_quality05.py": "1aa31d7393cd28b15958d9738984b5a8dd432ec7b5d91f2c1ca3c1bb474753af",
+    "authors/a_quality_final.py": "9698a8fef6cd618420811c0d5b78f7267946513ad9c16e778c28fecf1f366420",
+    "authors/a_rev01.py": "e4b79d01cf83168884b9941e2affe878d3e04857bac0dcfde254c7e9bfb14008",
+    "authors/a_rev05.py": "5d038950b65bee7a3c48f2bf392fe15cad6f0b8e4eb40e14b5a5b9854172547f",
+    "authors/a_rev06.py": "e05660b576607c9bfbfee60be228e6877dacd7a52062d054a4460e28c7bfcaad",
+    "authors/a_rev07.py": "3b667832eb52d556b3e3f10d4ac1ae91cfe8f97b1c1406b9a81aea54e7d4df32",
+    "authors/a_rev08.py": "25ce5a7e2c9493846a8d22bd6e41ed2d4b70533caa16e1209473d32461f3735e",
+    "authors/a_themes.json": "69e49cf24740b28d8c1ce9a2115eca45da59b29aec6ec225c236b98ea4b01a5f",
+    "authors/a_themes_authoring_notes.txt": "28d13b7038ba3a470e8cd16e36d0801a43e0a106fa85093def32ad394ad237a0",
+    "authors/a_themes_drafts.jsonl": "0d89328bfe791ce8e7c246819d1052160870f4c9df428af28cf1140d0b562c4c",
+    "authors/a_themes_validation.json": "24750450992dde34c179fa84a6c54a49fc6433bfd5ae5582e158b5f984ad19f3",
+    "authors/a_themes_work.py": "59820206599011e1725e46da24c7e0e79ac66f88c3e0e3ed0b1cce50dde374e0",
+    "authors/b_author_tools.py": "f228a9220eca0965d55f9ca46e5f91ee5f60818b6c8f57cceab4af3635763cb1",
+    "authors/b_neutral.json": "ee726bc29630aa2837983558f664fb8d74ee6ec38707e5d0b2761b5396a86f19",
+    "authors/b_neutral_drafts.jsonl": "0fa39b3f72c5064254ec42cfe62e31bf599dff1911d473191f909b816a62a01d",
+    "authors/b_neutral_notes.txt": "7848224f95a900262536af16f8db5240522654b25f931b871046c7a295c1e75d",
+    "authors/b_neutral_prose.txt": "9b8df927c20b8a6980220ac547eb21f64b5db6f24614ea8edd68bcb0a4bbe8e7",
+    "authors/b_neutral_validation.json": "302a389295b92739d99691df463f388fd45a9fd89f4b9bb44306fbccb0c8afa9",
+    "authors/c_berlin.json": "afaf0fd9a7571277850c15b788a723a61264850c6c6498cbe56ec39296d4804e",
+    "authors/c_berlin_drafts.jsonl": "1c55cbf47709f26ebc2f65729e731d353bac582651b75dee38ec94dec1d72b09",
+    "authors/c_berlin_readable.txt": "f29affd473157c2b6df6070ea056e003a015c9e6f39541fb7bc5030136cdeb17",
+    "authors/c_berlin_validation.json": "952f7572ae9ae6058d26efbad88fef3fdfa379f451600e3b76f680765102b7aa",
+    "authors/d_drafts.jsonl": "0b488965a7325accc087db4fbef81e267441880e198332766033e635cb987607",
+    "authors/d_messages.json": "952792063d7ecdd14e9d4109d8948e5ba44a4a183be69490abadfec49f0c9317",
+    "authors/d_validation.json": "f62c96a067cf1bc6028337dc85e4f2568203fe9ed054425c3f73d4c4039f0f0a",
+    "authors/d_work.py": "f881cd727346bbccbbb767bc9fa1eb899a45f92487851a59af1dc20ae95dc2cc"
+  },
+  "reviewer": "independent audit_candidate_first_pilot agent",
+  "scientific_limits": [
+    "Natural-language running-key recognition remains unimplemented.",
+    "Only60distinct bank plaintexts are in-scope control plants; sensitivity for every1024candidate is not established.",
+    "Conditional null validation is not a universal false-positive confidence bound, and052 standalone exploratory p-values do not provide a cumulative familywise guarantee across adaptive experiments.",
+    "The full registered control calibration must pass before parent authorization of any canonical target stage; no automatic expansion or tuning is authorized."
+  ],
+  "target_scoring_authorized": false,
+  "utc": "2026-10-25T02:25:36.448272+00:00",
+  "verified_scope": [
+    "The protocol explicitly preserves failed051 and records later user authorization of separate exploratory052, not a retroactive051 pass.",
+    "Primary score/model inventory remains051 mathematics except log2(candidate count) increasing5to10bits; all1024x1152descriptions are scored under the same exact native implementation for targets and nulls.",
+    "Current source/config/reference/native/C/build/binary hashes remain exactly those already independently audited and tested; no implementation changes occurred during final-bank import.",
+    "Freeze requires completed bank/import/control hashes, regenerates the import from immutable author sources, checks source/binary build hashes, and hashes all raw author provenance.",
+    "No actual052bank/control/target scores, freeze manifest, or result files exist at audit time.",
+    "Full ranking, ties, residuals, diagnostics, and null maxima/input hashes must be retained; lossless archival compression must not remove or truncate evidence."
+  ]
+}

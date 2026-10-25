@@ -1,0 +1,14 @@
+{
+  "count": 256,
+  "valid_97_letter_messages": 256,
+  "valid_crib_22_34": 256,
+  "valid_crib_64_74": 256,
+  "unique_normalized": 256,
+  "normalized_sha256": "8f507d0996ca3f00100f42ed25d7415ab5543cb9e6d8ad8a143e02842ad1dfa6",
+  "source_json": "/workspace/shared/candidate-first-052/authors/c_berlin.json",
+  "audit_jsonl": "/workspace/shared/candidate-first-052/authors/c_berlin_drafts.jsonl",
+  "total_preserved_message_drafts": 1020,
+  "method": "One blinded assistant author individually composed each full message, with Python count feedback and explicit length/crib/readability revisions. No phrase-bank Cartesian product, no ciphertext/key/score/solution access, no external model APIs, and no statistical-independence claim.",
+  "fiction_notice": "All messages are fictional hypotheses or scenes; clocks may be imagined, depicted, or personified. They are not historical claims or claims about any actual cipher plaintext.",
+  "authorship_audit_note": "Early feedback template incorrectly said Human-authored; all drafts actually assistant-authored. Original audit entries were retained, and an explicit correction appended."
+}

@@ -1,0 +1,76 @@
+{
+  "approved_stage": "implementation code acceptance only; actual-bank/control-stage permission requires completed bank/controls audit and freeze",
+  "audited_sha256": {
+    "PROTOCOL.md": "97b91188926a3e0fdca7f8c03c94e9dfd5a633f97aae63f34dc1aca5743940b8",
+    "build.json": "fcc386e7a263a383ade4dcf1960f2c04c1d51c174c085d82235dcaacd70f1785",
+    "config.json": "5a0fd3f835cb01b365a4d770ab7628734eed7160e740a46e24a09dde176bc700",
+    "heldout.json": "290807b30289fb7f7d50ff5c9643291e746307f7af9ba1e391bf00cde4360285",
+    "import_bank.py": "99dc07deb78a79af6e3706ab5d5924b1ba5bdda4b19870ea3a4979c83ef9522b",
+    "native.py": "f73c051d7c2ac4a3358c5861af189793cd9705c0d91976a70889688157a11d5f",
+    "prior051_bank.json": "6945a97e24fcb11531cce3836b5c9206b225a9272173a67914bbcfe65b0728d0",
+    "reference.py": "8b9e49d2a5927be84725a7f43db82bfd27ed7f2b09f39406c3182c585d79c164",
+    "run_experiment.py": "8643dcdce8db0ee23134e9660b24c311ee95dd999f3bb8847594b98dfed85479",
+    "running_key.txt": "03c49225af8a54eb5e642e9fafbc22f5d5666106815ba59f12feed7146a7de4f",
+    "scorer.c": "f6a792abafd9549b2754be23c74fa1c011ba1d0474620c1118562fab172bd701",
+    "scorer.so": "243231d321fce6ae1e94170433ff18834a30cb47d395a9ac67c8ae20ce5ed153",
+    "test_native.py": "6547cc848b287b958c1359d6f651bc83f1570fdc6f979f374f923b7ef0b37fcf",
+    "test_runner.py": "7c2e549e160053c4ef1061bc2537c609e2d140aab1af416270fb828d9ec1ea44"
+  },
+  "code_blockers": [],
+  "control_stage_authorized": false,
+  "native_build_verification": {
+    "implementation_files_modified": false,
+    "independent_temporary_rebuild": true,
+    "no_fast_math": true,
+    "recorded_command_matches": true,
+    "reproduced_binary_sha256": "243231d321fce6ae1e94170433ff18834a30cb47d395a9ac67c8ae20ce5ed153"
+  },
+  "not_a_freeze_certificate": true,
+  "passed": true,
+  "pending_required_files": [
+    "bank.json",
+    "bank_import.json",
+    "controls.json"
+  ],
+  "remaining_stage_blockers": [
+    "Complete four256-record author batches",
+    "Import and independently verify all1024unique candidates/provenance/exclusions",
+    "Generate and audit84actual-bank frozen controls",
+    "Write full hash-bound implementation_audit.json and freeze manifest",
+    "Run and pass preregistered control calibration before any target scoring"
+  ],
+  "resource_note": {
+    "available_filesystem_gb_approx": 30,
+    "conclusion": "No storage blocker. Retain all evidence; any later lossless archival compression must preserve verified decompressed hashes and all fields, never silently truncate.",
+    "estimated_uncompressed_diagnostics_gb_approx": 1.7
+  },
+  "reviewer": "independent audit_candidate_first_pilot agent",
+  "scope_limits": [
+    "Actual author banks were incomplete at audit and have not been accepted, scored, or frozen. A final bank/provenance/control audit is required.",
+    "The same structural-key blind spot remains: natural-language running-key recognition is not implemented.",
+    "This is a separately authorized exploratory test following a failed pilot. Its eventual standalone conditional p-value is not automatically a cumulative familywise error guarantee across adaptive experiments.",
+    "Synthetic acceleration equivalence does not substitute for production control gates; the full1024x1152 calibration must still pass before parent-authorized target scoring."
+  ],
+  "target_stage_authorized": false,
+  "tests": {
+    "command": "python -m unittest -v test_native.py test_runner.py",
+    "exit_code": 0,
+    "independent_wall_seconds": 10.636,
+    "inputs": "synthetic banks only; no actual-bank/control/K4 scoring",
+    "tests_passed": 14
+  },
+  "utc": "2026-10-25T02:09:37.353294+00:00",
+  "verified": [
+    "Protocol explicitly records failed051 expansion gate and subsequent separate user authorization of exploratory052; no retroactive051 success or target-naive implementation claim.",
+    "Reference comparison with frozen051 preserves score/model mathematics; only candidate-selection penalty rises from5to10bits, with balanced-bank plumbing and fresh052 RNG streams.",
+    "C exhaustively evaluates all1152descriptions per candidate using integer comparison counts and the identical Python double score tables; no model/candidate pruning or heuristic is present.",
+    "Every native model score and exact tie bitset match reference on random and tie-heavy fixtures; all1024per-candidate winners/rankings match Python on a synthetic bank.",
+    "All-tableau/structure boundary plants, cached exact diagnostics, independent classical vectors, and parallel/sequential null identity tests pass.",
+    "Threaded conditional-null path uses the same full NativeScorer instance and frozen bank as target scoring; C has read-only shared inputs and per-call local outputs.",
+    "The frozen control construction selects60distinct in-scope synthetic schedule messages,15per group, plus12running and12bank-absent controls; exact actual controls remain pending bank completion.",
+    "Importer preserves raw author bytes, uses deterministic group:original_id aliases with source hashes, checks normalized prose/length/cribs, and rejects duplicates,051bank reuse, and heldout plaintext inclusion.",
+    "Prior051bank, heldout message, and running passage are exact-byte copies of their audited051 originals.",
+    "Freeze requires exact audit hashes for reference/native/C/binary/build/config and completed bank/control files; reimports current source files and checks build source/binary hashes.",
+    "Full candidate rankings, ties, exact diagnostics, residuals, and null scores/hashes are retained; no truncation path was found."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "binary_sha256": "243231d321fce6ae1e94170433ff18834a30cb47d395a9ac67c8ae20ce5ed153",
+  "command": [
+    "cc",
+    "-O3",
+    "-std=c99",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fPIC",
+    "-shared",
+    "/workspace/shared/candidate-first-052/scorer.c",
+    "-o",
+    "/workspace/shared/candidate-first-052/scorer.so"
+  ],
+  "compiler": "cc (Debian 14.2.0-19) 14.2.0\nCopyright (C) 2024 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "no_fast_math": true,
+  "source_sha256": "f6a792abafd9549b2754be23c74fa1c011ba1d0474620c1118562fab172bd701"
+}

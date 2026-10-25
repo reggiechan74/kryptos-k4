@@ -1,0 +1,81 @@
+{
+  "audit_passed": true,
+  "bound_file_sha256": {
+    "freeze.json": "21fef3e468bb145563388d5485d19a7cb13b1c095979d31af437a8c87ba305db",
+    "implementation_audit.json": "1a5c67e8a2cbd768e5789a2057773901c9f856d0fae1c489a1184b2878637c36",
+    "results/pretarget_gate.json": "48fd018cecf13ca410d5a7b4182a7e72736e61a39a8226ca3835f38decf633f5",
+    "results/pretarget_gate_audit.json": "d6fa5cec41feab9ebf2e71e5cc99be734cc963de612aa4330c52e61b56b50ed2",
+    "results/target.json": "669cc3441197d4a4b6396d762693b0b0d22ea111e0aa408c680a48b958488952",
+    "results/target_receipt.json": "20a74ea6337affced990185fce38138a44c1cd98590882820087d1280f05e3ab",
+    "results/target_summary.json": "0916ed1b8336fdd786bdfa39d0de1096dffc46c671ca46874ac9b22eadb5649a",
+    "target.txt": "2797de1451ab97118211735dcef370fc5acd70829f164aa043c47cbf40f0a5a3"
+  },
+  "canonical_target_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "conclusion": "Negative result under the frozen structural test and conditional null. All3evidence criteria fail. Stop this authorized1024-message experiment; no further expansion or tuning follows.",
+  "findings": [
+    "All frozen source/config/binary/bank/raw-provenance hashes, implementation audit, control-gate audit, and84control receipt hashes are unchanged.",
+    "Canonical target file, receipt, result, summary, and preregistered hash all agree.",
+    "Every1024retained candidate matches its frozen source; selected model components, keys, templates, residual positions, exact flags, and ranking order were independently checked.",
+    "All12288candidate/tableau minimum periods, exact periodic/autokey sets, crib-only exclusion lists, and full re-encryption/inverse checks were independently recomputed.",
+    "No registered exact periodic or autokey fit exists for any candidate/tableau.",
+    "All1999conditional null input hashes were regenerated; fixedcrib letters and noncrib ciphertext multisets match.",
+    "Conservative >= null counts, globalp, different-plaintext margin, descriptive group summaries, and all3evidence-gate booleans are correct.",
+    "Unchanged native code exhaustively scores1024x1152descriptions for both target and nulls; no truncation or tuning was found."
+  ],
+  "freeze_sha256": "21fef3e468bb145563388d5485d19a7cb13b1c095979d31af437a8c87ba305db",
+  "implementation_edits": false,
+  "maximum_audit_rss_kib": 59896,
+  "new_search_or_tuning_performed": false,
+  "open_blockers": [],
+  "reviewer": "independent audit_candidate_first_pilot agent",
+  "scientific_target_gate_passed": false,
+  "scope": "Verification of single frozen exploratory052target run; no new search, tuning, expansion, or implementation edits.",
+  "scope_limits": [
+    "The p-value is standalone exploratory052 calibration, not cumulative familywise error control across051and052 or adaptive experimentation.",
+    "The fixed1024-message structural test does not cover all plausible plaintexts/encryption families and has no natural-language-running-key recognizer.",
+    "Full re-encryption with an induced unrestricted key is tautological correctness, not independent corroboration.",
+    "The primary statistic describes73noncrib positions conditionally; crib exceptions receive neither reward nor residual charge.",
+    "The full1179648target-model scores and1999null maxima were not rerun during audit; exhaustive coverage relies on unchanged hash-bound previously equivalence-tested code, complete retained evidence, and selected-description verification."
+  ],
+  "target_statistics": {
+    "different_plaintext_margin_bits": 1.2625990767221538,
+    "expansion_gate": {
+      "checks": {
+        "different_plaintext_margin": false,
+        "global_p": false,
+        "minimum_score": false
+      },
+      "passed": false
+    },
+    "global_p_denominator": 2000,
+    "global_p_numerator": 1038,
+    "global_p_value": 0.519,
+    "maximum_score_bits": -7.42064936537912,
+    "null_count_equal": 62,
+    "null_count_greater_or_equal": 1037
+  },
+  "unsupported_winner": {
+    "candidate_id": "a_themes:A043",
+    "crib_mismatches": 24,
+    "exact_full_fit": false,
+    "interpretation": "Only a mechanically top-ranked illustration; not recovered plaintext or statistical evidence.",
+    "noncrib_tail_eligible": 70,
+    "noncrib_tail_mismatches": 57,
+    "original_id": "A043",
+    "prose": "The stone had a faint line. \u201cEast-north-east\u201d was all it told us; we looked up at the Berlin clock and asked who had named time.",
+    "seed_length": 3,
+    "source_sha256": "69e49cf24740b28d8c1ce9a2115eca45da59b29aec6ec225c236b98ea4b01a5f",
+    "structure": "ciphertext_autokey",
+    "tableau_id": "KR-KR-variant_beaufort",
+    "total_mismatches": 81
+  },
+  "utc": "2026-10-25T02:36:39.595287+00:00",
+  "verified_counts": {
+    "independently_recomputed_exact_diagnostics": 12288,
+    "independently_recomputed_selected_descriptions": 1024,
+    "regenerated_conditional_null_hashes": 1999,
+    "registered_descriptions_per_candidate": 1152,
+    "registered_total": 1179648,
+    "retained_candidates": 1024
+  }
+}

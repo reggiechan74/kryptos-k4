@@ -1,0 +1,54 @@
+{
+  "candidate_count": 1024,
+  "canonical_target_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "control_alpha": 0.05,
+  "control_calibration_nulls_per_target": 99,
+  "control_candidate_assignment": "sort IDs within four source groups, interleave a_themes,b_neutral,c_berlin,d_messages; sequential index j maps to (17*j)%1024; simple j0..35,hard36..59,running60..71; absent uses frozen051heldout",
+  "cribs_1based": {
+    "22": "EASTNORTHEAST",
+    "64": "BERLINCLOCK"
+  },
+  "default_workers": 8,
+  "description_count_per_candidate": 1152,
+  "expansion_basis": "Explicit later user directive authorizing separate1024-message exploratory052 despite negative051",
+  "group_sizes": {
+    "a_themes": 256,
+    "b_neutral": 256,
+    "c_berlin": 256,
+    "d_messages": 256
+  },
+  "hard_autokey_parity": "zero-based tableau index even: plaintext_autokey; odd: ciphertext_autokey",
+  "key_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "length": 97,
+  "maximum_absent_target_flags": 1,
+  "maximum_inscope_validation_flags": 30,
+  "minimum_hard_success": 22,
+  "minimum_score_bits": 16.0,
+  "minimum_simple_per_structure": 11,
+  "minimum_simple_success": 34,
+  "native_acceleration": "exhaustive C integer counts with identical Python double lookup tables; no fast-math; eight threads",
+  "notes": [
+    "Validation flags share matched calibration sets and message bank; they are not600 independent Bernoulli trials.",
+    "No natural-language-key recognizer is implemented; running-key controls quantify this limitation."
+  ],
+  "period_seed_lengths": [
+    1,
+    32
+  ],
+  "prior_scientific_expansion_gate_passed": false,
+  "rng_scheme": "random.Random(int.from_bytes(SHA256(UTF8('candidate-first-052-v1|' + label)), 'big'))",
+  "running_key_offset": "13 * zero-based tableau index in normalized frozen passage",
+  "score_evidence_positions": "noncrib_only",
+  "structures": [
+    "periodic",
+    "plaintext_autokey",
+    "ciphertext_autokey"
+  ],
+  "tableau_count": 12,
+  "target_alpha": 0.01,
+  "target_minimum_margin_bits": 8.0,
+  "target_nulls": 1999,
+  "validation_nulls_per_absent_target": 10,
+  "validation_nulls_per_inscope_target": 10,
+  "version": "candidate-first-052-v1"
+}

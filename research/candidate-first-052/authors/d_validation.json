@@ -1,0 +1,29 @@
+{
+  "author": "d",
+  "count": 256,
+  "id_range": [
+    "d_001",
+    "d_256"
+  ],
+  "valid_97_AZ_only": 256,
+  "fixed_cribs": {
+    "EASTNORTHEAST": "1-based 22-34",
+    "BERLINCLOCK": "1-based 64-74"
+  },
+  "unconstrained_span_lengths": [
+    21,
+    29,
+    23
+  ],
+  "unique_normalized_count": 256,
+  "constraint_failures": [],
+  "internal_duplicates": {},
+  "append_only_draft_records": 807,
+  "revision_history_matches_append_only_log": true,
+  "readability_review": "All 256 final whole messages read in four blocks of 64. Manual readability revisions and label quotation formatting are preserved as additional revisions. Each is a fictional complete thought; no assertion of an actual solution.",
+  "authoring_method": "Messages individually composed in batches of 32; no Cartesian phrase-bank or mass synonym product. Python used solely for normalization, letter-count/fixed-position feedback, revision preservation, and internal validation.",
+  "blindness": "No K4 ciphertext, keys, scores, solution discussions, other-author files, or pilot results retrieved. No publication or scoring performed.",
+  "limitations": "Constrained English is stylized; motifs and constructions recur. No claim of statistical independence, exhaustiveness, or evidentiary weight as a solution.",
+  "messages_sha256": "952792063d7ecdd14e9d4109d8948e5ba44a4a183be69490abadfec49f0c9317",
+  "draft_log_sha256": "0b488965a7325accc087db4fbef81e267441880e198332766033e635cb987607"
+}

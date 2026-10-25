@@ -1,0 +1,30 @@
+{
+  "c_serial_median": 0.11652518200025952,
+  "c_serial_seconds": [
+    0.11665787900074065,
+    0.11652518200025952,
+    0.11574365999967995,
+    0.117117030999907,
+    0.11648802700074157
+  ],
+  "candidates": 1024,
+  "descriptions_per_candidate": 1152,
+  "environment": {
+    "cpu_count": 9,
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "utc": "2026-10-25T02:02:47.480346+00:00"
+  },
+  "exact_reference_match": true,
+  "observed_parallel_seconds_per_replicate": 0.018527843749993167,
+  "parallel_replicates": 64,
+  "parallel_wall_seconds": 1.1857819999995627,
+  "projected_1999_null_seconds": 37.03715965623634,
+  "projected_9036_control_null_seconds": 167.41759612493826,
+  "projected_control_stage_seconds_excluding_io": 269.0790914729403,
+  "projection_excludes_diagnostics_io_controls": true,
+  "python_reference_seconds": 4.7120585069997105,
+  "synthetic_all_12288_diagnostic_seconds": 1.093730714999765,
+  "synthetic_only": true,
+  "threads": 8
+}
