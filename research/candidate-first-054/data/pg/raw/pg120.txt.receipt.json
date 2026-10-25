@@ -1,0 +1,24 @@
+{
+  "pgid": 120,
+  "url": "https://www.gutenberg.org/cache/epub/120/pg120.txt",
+  "final_url": "https://www.gutenberg.org/cache/epub/120/pg120.txt",
+  "retrieved_utc": "2026-10-25T04:04:46.066952+00:00",
+  "status": 200,
+  "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg120.txt",
+  "bytes": 399873,
+  "sha256": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+  "headers": {
+    "date": "Sun, 25 Oct 2026 04:04:52 GMT",
+    "server": "envoy",
+    "strict-transport-security": "max-age=7776000; includeSubDomains",
+    "last-modified": "Thu, 01 Oct 2026 08:22:13 GMT",
+    "accept-ranges": "bytes",
+    "content-length": "399873",
+    "vary": "Accept-Encoding",
+    "x-backend": "gutenweb1",
+    "content-type": "text/plain; charset=utf-8",
+    "x-envoy-upstream-service-time": "105",
+    "connection": "close"
+  },
+  "alternate_reason": "Official linked ebooks/id.txt.utf-8 endpoint returned HTTP 404; standard official cache path used, no access-control bypass."
+}

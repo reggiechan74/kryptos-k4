@@ -1,0 +1,33 @@
+{
+  "all_negative_hit_count": 0,
+  "all_positive_hit_count": 36,
+  "checks": {
+    "all12absent_controls_zero": true,
+    "all36planted_hits_exact": true,
+    "all_reference_and_crypto_checks": true,
+    "complete48controls": true,
+    "three_per_tableau": true
+  },
+  "control_results_sha256": "179bb80815304b11dc697601954f47dffe24967726f2a9340ff7f7b8d6afd88b",
+  "freeze_sha256": "a126bd9f465ca26e31aee0f307fba461426e19cd66f7c9466e354a8f924c5170",
+  "interpretation": "Implementation/data correctness controls, not a calibrated K4 chance probability or independent language sample.",
+  "negative_passed": 12,
+  "negative_total": 12,
+  "passed": true,
+  "positive_passed": 36,
+  "positive_passes_by_tableau": {
+    "AZ-AZ-beaufort": 3,
+    "AZ-AZ-variant_beaufort": 3,
+    "AZ-AZ-vigenere": 3,
+    "AZ-KR-beaufort": 3,
+    "AZ-KR-variant_beaufort": 3,
+    "AZ-KR-vigenere": 3,
+    "KR-AZ-beaufort": 3,
+    "KR-AZ-variant_beaufort": 3,
+    "KR-AZ-vigenere": 3,
+    "KR-KR-beaufort": 3,
+    "KR-KR-variant_beaufort": 3,
+    "KR-KR-vigenere": 3
+  },
+  "positive_total": 36
+}

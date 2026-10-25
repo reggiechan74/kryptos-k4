@@ -1,0 +1,12 @@
+{
+  "id": "E08",
+  "publisher": "National Library of New Zealand",
+  "url": "https://natlib.govt.nz/records/21929626",
+  "title": "Buster Bear, bibliographic record 21929626",
+  "excerpt": "Originally published under the title: The adventures of Buster Bear. Boston : Little, Brown, and Co.,1916.",
+  "assertion": "National-library catalog note states the original English title and 1916 Boston publication. NLTK filename says busterbrown but its header says The Adventures of Buster Bear; eligibility follows the title, not the misleading filename.",
+  "retrieval": "search_index_catalog_extraction_only; direct fetch unavailable (cache miss / Incapsula), no bypass attempted",
+  "accessed_date_utc": "2026-10-25",
+  "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+  "excerpt_sha256": "8202930e07c1d499259fc64c0be10608b39773662b6a6a786f75ad4c091f9e84"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "Independently inspected immutable archived report and implementation; not rerun here",
+  "repository": "https://github.com/reggiechan74/kryptos-k4",
+  "commit": "6003dae5497ee5a8e53881576776423028205cd7",
+  "findings_path": "research/CANDIDATE-FIRST-048-FINDINGS.md",
+  "findings_git_blob_sha1": "10fceef8e1395702940172d980a97f556bead92e",
+  "results_path": "results/CANDIDATE-FIRST-048-CONTROLLED.json",
+  "results_git_blob_sha1": "976c8c6e303f2488a28fb4e97f2f554d385ddb01",
+  "implementation_path": "experiments/candidate_first_048.py",
+  "implementation_git_blob_sha1": "8edc9637f063445c784b6a33f61150761c3d4297",
+  "brown_document_count": 500,
+  "brown_normalized_letters": 4745928,
+  "brown_zip_sha256": "9b275f9b3b95d7bd66ccfb7cd259f445a13bbe5d1f4107aba09fd3e8364bafa6",
+  "brown_ordered_stream_sha256": "62f0154406b697fc022f5295d57931334cca7b0da9a21135a307d821e3a4930b",
+  "six_same_axis_running_models": "AZ-AZ and KR-KR, each Vigenere/Beaufort/variant Beaufort",
+  "key_letter_convention": "Key residues decoded in the model's shared plaintext/ciphertext alphabet; same convention as054 for same-axis models",
+  "exact_matching_passages_reported": 0,
+  "comparison": "054changes source collections and adds6cross-axis variants versus this048inventory; Brown itself is not newly searched or counted in054coverage. Exact excerpt overlap between Brown and new collections was not exhaustively measured."
+}

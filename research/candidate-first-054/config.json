@@ -1,0 +1,19 @@
+{
+  "version": "candidate-first-054-v1",
+  "historical_cutoff_inclusive": "1989-12-31",
+  "tableau_count": 12,
+  "crib_starts_zero_based": [21,63],
+  "crib_lengths": [13,11],
+  "fragment_start_spacing": 42,
+  "unknown_gap_length": 29,
+  "key_window_length": 97,
+  "planted_positive_count": 36,
+  "random_absent_control_count": 12,
+  "control_plaintext_file": "control_plaintext.json",
+  "positive_schedule": "For each tableau index ti0..11, select sorted document index(7*ti)%group_size: NLTKbook start0; NLTKinaugural interior floor((L-97)/2); newPGbook endL-97",
+  "random_absent_key_rng_labels": "absent-key|<tableau_id> under candidate-first-054-v1 SHA256 RNG",
+  "reference_verification_every_search": true,
+  "canonical_target_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "statistical_p_value": null,
+  "stop_rule": "One exhaustive fixed-corpus/all12model target lookup; no approximate matches, source additions, thresholds or post-target hypothesis changes"
+}

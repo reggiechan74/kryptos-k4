@@ -1,0 +1,21 @@
+{
+  "id": "1232_translation",
+  "url": "https://ci.nii.ac.jp/ncid/BA19419516.amp?l=en",
+  "final_url": "https://ci.nii.ac.jp/ncid/BA19419516.amp?l=en",
+  "retrieved_utc": "2026-10-25T04:06:40.254836+00:00",
+  "status": 200,
+  "path": "/workspace/shared/candidate-first-054/data/pg/evidence/1232_translation.html",
+  "bytes": 96588,
+  "sha256": "3d2abe148330287313e7507533e744c5a8ca62b86faa41345cb9bb7345358d2f",
+  "headers": {
+    "date": "Sun, 25 Oct 2026 04:06:43 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "server": "envoy",
+    "set-cookie": "CINIIBOOKS=l.en;Version=1;Path=/;Max-Age=31536000;Secure;Expires=Mon, 25 Oct 2027 04:06:43 GMT",
+    "vary": "Accept-Encoding,User-Agent",
+    "x-frame-options": "SAMEORIGIN",
+    "x-envoy-upstream-service-time": "818",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  }
+}

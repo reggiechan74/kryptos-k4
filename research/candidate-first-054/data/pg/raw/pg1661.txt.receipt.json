@@ -1,0 +1,24 @@
+{
+  "pgid": 1661,
+  "url": "https://www.gutenberg.org/cache/epub/1661/pg1661.txt",
+  "final_url": "https://www.gutenberg.org/cache/epub/1661/pg1661.txt",
+  "retrieved_utc": "2026-10-25T04:04:33.734832+00:00",
+  "status": 200,
+  "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg1661.txt",
+  "bytes": 607606,
+  "sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+  "headers": {
+    "date": "Sun, 25 Oct 2026 04:04:37 GMT",
+    "server": "envoy",
+    "strict-transport-security": "max-age=7776000; includeSubDomains",
+    "last-modified": "Thu, 01 Oct 2026 14:28:28 GMT",
+    "accept-ranges": "bytes",
+    "content-length": "607606",
+    "vary": "Accept-Encoding",
+    "x-backend": "gutenweb6",
+    "content-type": "text/plain; charset=utf-8",
+    "x-envoy-upstream-service-time": "104",
+    "connection": "close"
+  },
+  "alternate_reason": "Official linked ebooks/id.txt.utf-8 endpoint returned HTTP 404; standard official cache path used, no access-control bypass."
+}
