@@ -27,6 +27,9 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | Inspect the final one-edit robustness study | [Exact counts, ambiguity and controls](research/ONE-EDIT-028-FINDINGS.md); canonical ciphertext is unchanged |
 | Inspect the published geographic maps and their limits | [Berlin WSW map archive](docs/maps/berlin-wsw-2026-10-24/README.md) —four maps, supporting data, attribution and read-only validators |
 | Review the completed candidate-first pilot 051 | [32-message pilot and reproducible package](research/candidate-first-051/README.md) — negative result; all three target gates failed |
+| Review the 1,024-message structural-key test 052 | [Frozen bank and compact reproduction package](research/candidate-first-052/REPOSITORY.md) — all three target gates failed |
+| Review the ordinary-language running-key test 053 | [Frozen model, corpus and compact reproduction package](research/candidate-first-053/REPOSITORY.md) — all four target criteria failed |
+| Review exact source lookup 054 | [Corpus, complete results and reproduction package](research/candidate-first-054/README.md) — zero matches within the frozen 89-document corpus |
 | Reproduce the work | [Running experiments](experiments/README.md) and [test guide](tests/README.md) |
 
 **Overlay scope:** the earlier column-only study used `dy = 0`. [Item 1’s newer predefined two-dimensional study](research/FOLD-SLIDE-2D-FINDINGS.md) covers all integer rows −28…+28 and columns −33…+33 under two fixed registrations. Its own whole-search controls show no unusual excess; the older column-only p-values are not repurposed for rows.

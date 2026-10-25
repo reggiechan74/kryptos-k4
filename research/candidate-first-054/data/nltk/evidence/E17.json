@@ -1,0 +1,12 @@
+{
+  "id": "E17",
+  "publisher": "Folger Shakespeare Library",
+  "url": "https://www.folger.edu/explore/shakespeares-works/julius-caesar/",
+  "title": "Julius Caesar, Early printed texts",
+  "excerpt": "Julius Caesar was published for the first time in the 1623 First Folio",
+  "assertion": "Library dates first print to 1623. NLTK bracket year 1599 must not be treated as first publication or exact edition.",
+  "retrieval": "page_text",
+  "accessed_date_utc": "2026-10-25",
+  "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+  "excerpt_sha256": "57e29b97b91e187222ea143f965dd3cc5fcd6e3506b99b808a258404ec53a203"
+}
