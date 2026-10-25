@@ -1,0 +1,19 @@
+{
+  "format": "candidate-first-lossless-repository-transport-v1",
+  "reason": "GitHub connector requests have a 16 MiB transport limit. This lossless representation is not Git LFS and changes no experiment bytes or hypotheses.",
+  "original_archive_manifest_sha256": "ac3a0595d79b88f1cbbdaaf8525662cde8ae12d500bce5745952ae4017de2f98",
+  "original_compact_archive_sha256": "a6c1aa1bb3ead6e54a64c038993399f99caf70ea8429ebdd922ec1e84a2b6c21",
+  "entries": [
+    {
+      "original_path": "results/control_null_receipts.json",
+      "original_bytes": 13669305,
+      "original_sha256": "e4fbe955238788586be6d539c699edcbfe5bcbe8140c5265a1f545397c6c66bd",
+      "original_git_blob_sha": "cdba6528dcfebdfabedf8b6580cc6d526e34eb98",
+      "stored_path": "results/control_null_receipts.json.gz",
+      "stored_bytes": 3427051,
+      "stored_sha256": "17fe41b5242acce196a5fd8a0e2e26ca80d66edd8d0d947ac0fc9f7076b2e973",
+      "encoding": "gzip",
+      "gzip_mtime": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "candidate-first-053-v1",
+  "candidate_count": 1024,
+  "tableau_count": 12,
+  "length": 97,
+  "primary_letters": 73,
+  "minimum_score_bits": 32,
+  "control_alpha": 0.05,
+  "target_alpha": 0.01,
+  "target_minimum_margin_bits": 8,
+  "calibration_nulls_per_control": 99,
+  "validation_nulls_per_control": 10,
+  "target_nulls": 1999,
+  "workers": 8,
+  "minimum_published_recovery": 32,
+  "minimum_published_per_tableau": 2,
+  "minimum_novel_recovery": 10,
+  "minimum_hard_recovery": 18,
+  "maximum_negative_flags": 2,
+  "maximum_absent_flags": 1,
+  "maximum_validation_flags": 72,
+  "canonical_target_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+}

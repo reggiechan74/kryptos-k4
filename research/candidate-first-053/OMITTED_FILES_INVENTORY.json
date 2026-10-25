@@ -1,0 +1,1019 @@
+{
+  "byte_complete_archive": false,
+  "control_receipt_bytes": 928767286,
+  "control_receipt_count": 144,
+  "control_receipts": {
+    "results/controls/C001.json": {
+      "bytes": 6450422,
+      "sha256": "6e5bf8321d75c30b81ce3a521bc35966a849ec0433f36a467125d1d417483b0c"
+    },
+    "results/controls/C002.json": {
+      "bytes": 6451596,
+      "sha256": "eaeae21a6742b401402c00f1b4b01c1206d03fc7e925013b2d3b464fb7deadcd"
+    },
+    "results/controls/C003.json": {
+      "bytes": 6449708,
+      "sha256": "ad62b4c589d707f9eb70e5ce00b7f3383e1e74c66a6d5e7955fd8714e70fdd89"
+    },
+    "results/controls/C004.json": {
+      "bytes": 6450633,
+      "sha256": "f68fedb7c5a0f581a962cd818c78bb6ac1b1cd6b6fde1a495a00fdb8b38db929"
+    },
+    "results/controls/C005.json": {
+      "bytes": 6448396,
+      "sha256": "2ea63239fdc2749a1b383a3058dbd86e31cbb0212cb7179a437d7daae09ce382"
+    },
+    "results/controls/C006.json": {
+      "bytes": 6448024,
+      "sha256": "9952284c86e6a2d6110371009937982a14a8f6f1b630b5e5c8103ae831d1dd9c"
+    },
+    "results/controls/C007.json": {
+      "bytes": 6446216,
+      "sha256": "cc5532cd3d95ee97e27f5d511dcfdaaef927f77d400915af1f38738f231f5918"
+    },
+    "results/controls/C008.json": {
+      "bytes": 6449322,
+      "sha256": "ad8632324bde4755fb20d4fc8e1b813a63dae74e66fd872080736c53809372fb"
+    },
+    "results/controls/C009.json": {
+      "bytes": 6447528,
+      "sha256": "f7500dc45d309034e6f1eb7cb6584d89f6846c3e7dd803657486bd54ecb27041"
+    },
+    "results/controls/C010.json": {
+      "bytes": 6449287,
+      "sha256": "d7f785a012ed438ee156f4a1ec0efb37f06a710fa2335726dbc9f3e29958e577"
+    },
+    "results/controls/C011.json": {
+      "bytes": 6446890,
+      "sha256": "2e78ee7e9c4db73279c8778b43984aeb0a3624ec5de67cc0e30052faebf58622"
+    },
+    "results/controls/C012.json": {
+      "bytes": 6450228,
+      "sha256": "4fc333ff74c47b31695ebc20999ab1ee4b99f86b766d7670bb5757f748a1e886"
+    },
+    "results/controls/C013.json": {
+      "bytes": 6450377,
+      "sha256": "65f485d07e1349b6fcde8d08dbcdc0ffddcdaf19af2c97c5eddebc02be8ef530"
+    },
+    "results/controls/C014.json": {
+      "bytes": 6450484,
+      "sha256": "6efcd04afff5b9f5aee60262f63d7d998145a7b376c9f141749fb1310fa29e1c"
+    },
+    "results/controls/C015.json": {
+      "bytes": 6447235,
+      "sha256": "3780db112543a481563b0a72091dffa79c540f2a20d69053620454acddd7552f"
+    },
+    "results/controls/C016.json": {
+      "bytes": 6448080,
+      "sha256": "f42c28c9cc715cc70f1e5a50e5954b320fbf53d633afb33b850d6254588e871a"
+    },
+    "results/controls/C017.json": {
+      "bytes": 6447726,
+      "sha256": "854515675135756bf8603b66470a1ef60f9bf90125e9f5a2fee56097469e5dc3"
+    },
+    "results/controls/C018.json": {
+      "bytes": 6448418,
+      "sha256": "2a7be231735c3082f98479f3bc28819a27d441e1536991751d19dc44a9d3a47e"
+    },
+    "results/controls/C019.json": {
+      "bytes": 6445809,
+      "sha256": "ace536d44ab2eafd01df1387f68fcf576610005adcd0fbb52c82b8b0a47c8a30"
+    },
+    "results/controls/C020.json": {
+      "bytes": 6449224,
+      "sha256": "4a12e528ffdf244d9936fb345ffafdc4658c9c65a1e8ddf83aa74c9047f3976e"
+    },
+    "results/controls/C021.json": {
+      "bytes": 6451654,
+      "sha256": "11dc57575c49a06c8e2ee4d7ca3a4d75c1b94df78272bc97533ff51d53a80d2b"
+    },
+    "results/controls/C022.json": {
+      "bytes": 6450512,
+      "sha256": "ba9d9cf5cc72914e9700283bb63e8cae673ccf8bb6af11b9b3e59080c145a6ce"
+    },
+    "results/controls/C023.json": {
+      "bytes": 6449858,
+      "sha256": "5de3ba4603e525b69452de4cafb6750707e1625a88342f96c421129b1a5ac52b"
+    },
+    "results/controls/C024.json": {
+      "bytes": 6446977,
+      "sha256": "a5ec780d55c3a7be8f3b5f1fea0c1cba73fe0fce540a209f19e4da26f23fdb40"
+    },
+    "results/controls/C025.json": {
+      "bytes": 6450633,
+      "sha256": "886b6517e3d81f3783599ee9ec1f6b590f3abd70c69319ed533d7614a1711655"
+    },
+    "results/controls/C026.json": {
+      "bytes": 6448071,
+      "sha256": "b29db9d932048e54680eae7670b4c9906613b81529ac3b3fb10181ac735bc43e"
+    },
+    "results/controls/C027.json": {
+      "bytes": 6449564,
+      "sha256": "fcebf7018757d33955c9b455208c6a98186523c1fbe0f9d4c8c548749f1e8ea4"
+    },
+    "results/controls/C028.json": {
+      "bytes": 6451829,
+      "sha256": "76ddb6c6f58ce97fd2ad3cb0748433a165fd6cc9b8e2eeb944ac50609f7c65e7"
+    },
+    "results/controls/C029.json": {
+      "bytes": 6448065,
+      "sha256": "888f678ccf2e8a3c033820f6aad9a0482fb38697055edcfa665c6a32c7097d81"
+    },
+    "results/controls/C030.json": {
+      "bytes": 6449732,
+      "sha256": "de5e74779d1ba93835eac808db6793235cda89378e79373070acfadd9b04032c"
+    },
+    "results/controls/C031.json": {
+      "bytes": 6448941,
+      "sha256": "cea394d9d22d164ce694f9ada9658dc0e6b9e6104e4c5a69342f327533b3ab61"
+    },
+    "results/controls/C032.json": {
+      "bytes": 6448296,
+      "sha256": "59f3c9b9dc7044d8119f69dd0c0134787c1868b8d5b0983700c71502f02cd7f6"
+    },
+    "results/controls/C033.json": {
+      "bytes": 6451369,
+      "sha256": "b5c6178eba10b392bd0341cbc59cfa35fc3cbe8c37c83502f7ff64c42171eb30"
+    },
+    "results/controls/C034.json": {
+      "bytes": 6451095,
+      "sha256": "b65056f03cdab2c50cae7191c0f053acd44cc9895b5f0e70056d14fa317a0588"
+    },
+    "results/controls/C035.json": {
+      "bytes": 6446810,
+      "sha256": "c3e0848936f90eec17f34086d5393afd24657f4fc07b3c39462daa30af0f647a"
+    },
+    "results/controls/C036.json": {
+      "bytes": 6447066,
+      "sha256": "199b9d39c8accf3d71769603eeef5cdf24806d229c7df64e6db940f1dddc80f8"
+    },
+    "results/controls/C037.json": {
+      "bytes": 6448787,
+      "sha256": "aa901d83f881335dc29665e77f11d3bc9321adc8ab35fabcb31ea4a18a7930d8"
+    },
+    "results/controls/C038.json": {
+      "bytes": 6449239,
+      "sha256": "579a23e97027b775a102575ba624fb8cea01ad1e21f4ee752c8617da69f8adf6"
+    },
+    "results/controls/C039.json": {
+      "bytes": 6447829,
+      "sha256": "fb8b76b115035a5e89d0ab1eaf3f6a686524e3ebfbf9aba73dae324a7fff6160"
+    },
+    "results/controls/C040.json": {
+      "bytes": 6449406,
+      "sha256": "245e4eef7c4edb195a2f4dd1bd57ef688f8e7cd66e9ecc8dcf8c9959a434110e"
+    },
+    "results/controls/C041.json": {
+      "bytes": 6446040,
+      "sha256": "76566fca1ecb9dbdd8b670d17ca568f8c666915ec8b20d5725245d678f83db2f"
+    },
+    "results/controls/C042.json": {
+      "bytes": 6449268,
+      "sha256": "f76cee067a1d128dfcf0df77c14b7aa63daa378d345bd12f1db1ce2c460fd536"
+    },
+    "results/controls/C043.json": {
+      "bytes": 6448930,
+      "sha256": "048135e5de8b817f8368e74f03d6b986454e15c88a04d8f60fea2c33673a607f"
+    },
+    "results/controls/C044.json": {
+      "bytes": 6449277,
+      "sha256": "5ad15a5e3b0ffc3630f39bffb3679cab993d90017c9f855943470665a9bb40ef"
+    },
+    "results/controls/C045.json": {
+      "bytes": 6446604,
+      "sha256": "d9301ab5389a8a3c258ca113d74f50ba26fdc22eda9e7f8115e0fbcef0f01cc4"
+    },
+    "results/controls/C046.json": {
+      "bytes": 6450624,
+      "sha256": "612276806dc5e77d41f644e8f710e63efea6c991b70e4acaa9cd9641aab2c405"
+    },
+    "results/controls/C047.json": {
+      "bytes": 6447778,
+      "sha256": "d4a10bc7ec8740df75fa202a34592936df4e751f458b6235cd52be4cf6f5e3ea"
+    },
+    "results/controls/C048.json": {
+      "bytes": 6448300,
+      "sha256": "59fdd720845a484117fdd8d9dc0f39d8b4f24182c756f4959c051d3b47a6eb78"
+    },
+    "results/controls/C049.json": {
+      "bytes": 6450427,
+      "sha256": "93055f291f5d9d13a3ab4ca656bb16efe819c6c267b5e5e233a5d4224055f49b"
+    },
+    "results/controls/C050.json": {
+      "bytes": 6450579,
+      "sha256": "50b16673e565c7709109253a313d9571b3863303bdec6e1558d757f2be15a160"
+    },
+    "results/controls/C051.json": {
+      "bytes": 6448346,
+      "sha256": "126d99029db936c828d440d6104ef4b1a71a67eeb811db19e6380efc32e9a46d"
+    },
+    "results/controls/C052.json": {
+      "bytes": 6449322,
+      "sha256": "ce510c08ed2db93a05c4973e8bd50d8ab996b095345cfd3e184f7e025a9ccf56"
+    },
+    "results/controls/C053.json": {
+      "bytes": 6449477,
+      "sha256": "c39469e0d9dfcd6f13799507914ee3765e716952cf467e14bc1b66248024f068"
+    },
+    "results/controls/C054.json": {
+      "bytes": 6451050,
+      "sha256": "4d754a6c855ab5414ecfbf1470c38164d233d128d2386e4fb83fbd970dfbd05f"
+    },
+    "results/controls/C055.json": {
+      "bytes": 6449191,
+      "sha256": "32288db30dc1336bf55f44565d75f09d7b156c9b02076a1691dbd43d07c5b6e3"
+    },
+    "results/controls/C056.json": {
+      "bytes": 6450209,
+      "sha256": "c5cca28e917c26ef8a6038580c79bf4acc4dfb9f41cb8408feaad4727c62e8c1"
+    },
+    "results/controls/C057.json": {
+      "bytes": 6451675,
+      "sha256": "f91b769682cf347f90ca443c04facbc8276189ac6a27b8c8ea1b52f4e450904c"
+    },
+    "results/controls/C058.json": {
+      "bytes": 6446121,
+      "sha256": "894aea78034000bbb02c15217082f3651d13b43762cfd1a73030754db61e20a3"
+    },
+    "results/controls/C059.json": {
+      "bytes": 6447248,
+      "sha256": "1ca478df543fccf1518b4a6824231fd0a5f70d4abb16ca15aa79bbde376990a8"
+    },
+    "results/controls/C060.json": {
+      "bytes": 6449601,
+      "sha256": "5d8f974135621dfbb46dbe7063b8b098c745c4a6db4d1a241ee087d2189a729e"
+    },
+    "results/controls/C061.json": {
+      "bytes": 6451024,
+      "sha256": "29721411de32a83ac8c7dcdf2772aa2f6a22c3c58b6451f96172bf65490f2876"
+    },
+    "results/controls/C062.json": {
+      "bytes": 6447208,
+      "sha256": "54e2ef9e7a3fbfd1cdc3322fbef7913b189c06e5fd8b4a18901443f1ff16b631"
+    },
+    "results/controls/C063.json": {
+      "bytes": 6450699,
+      "sha256": "df3ecbfcf24997303dcca422266d78c7635feef6d008f178c63d578ee8a6aacb"
+    },
+    "results/controls/C064.json": {
+      "bytes": 6449164,
+      "sha256": "df6ef0d73298ba5114d9a7944c46f7afd1d248aab82fd6c14b9ed5da151d2afd"
+    },
+    "results/controls/C065.json": {
+      "bytes": 6450496,
+      "sha256": "cb8ffd6ab6a392375d9f85ee425268336c38f912d33f3a2ae7a6f421ec4a97a3"
+    },
+    "results/controls/C066.json": {
+      "bytes": 6449323,
+      "sha256": "4ee68c504078b86692d4625e1d59f078641a1f2180ffca09f4d7874f67312bde"
+    },
+    "results/controls/C067.json": {
+      "bytes": 6450564,
+      "sha256": "5c5a712054848edaf3c20d431e148c0abd4421db3816acb3fecc8d4e143cffab"
+    },
+    "results/controls/C068.json": {
+      "bytes": 6447976,
+      "sha256": "a70e0e7030c8922c5caa637340f2abfa4d8eac2ad23f3e12c044d76068bde7c6"
+    },
+    "results/controls/C069.json": {
+      "bytes": 6453031,
+      "sha256": "11476add969cd033c2bc7cdfe203002015967a16e52fea307c4c0771737ab86a"
+    },
+    "results/controls/C070.json": {
+      "bytes": 6450566,
+      "sha256": "b004061404a020d7a22f0f929bf2d3035fdbbc920a2b9e3ed453b7dfd54db5d7"
+    },
+    "results/controls/C071.json": {
+      "bytes": 6451579,
+      "sha256": "b93509e4c94fb50b881dbb74759549d0e3394e1aef906fbdf2f10cbd3537be34"
+    },
+    "results/controls/C072.json": {
+      "bytes": 6453181,
+      "sha256": "26f94a58a20bfb89912f75659b348f84b1c997411e7fa84e9dd03c520f8e9da2"
+    },
+    "results/controls/C073.json": {
+      "bytes": 6452205,
+      "sha256": "789e9d7ae98cd4fd0e663f60a69539d8700306542c783c9660ab3fb895a15f66"
+    },
+    "results/controls/C074.json": {
+      "bytes": 6450074,
+      "sha256": "22ba5555769a4ae96c9dd4bf0c27aa81aac30024895823b2b5bbb9e1432f7a59"
+    },
+    "results/controls/C075.json": {
+      "bytes": 6451857,
+      "sha256": "00f436abe4e234413f388a5fc3aa059c17ff8b605b60383bf9a4f583b5987f88"
+    },
+    "results/controls/C076.json": {
+      "bytes": 6449703,
+      "sha256": "11bd8b1cfa6fa230b21b72cf19b86ed867612b8d5e4c829783069711db306e66"
+    },
+    "results/controls/C077.json": {
+      "bytes": 6448996,
+      "sha256": "8ada55dab951dc89ec965f1f88a943822b0f7e23076724c4333ff61eebf8ede4"
+    },
+    "results/controls/C078.json": {
+      "bytes": 6449550,
+      "sha256": "c4d4f854cfd2b55eedecb8c3c8ecdb122bf9e2f35f2128d6ea50c29c87109507"
+    },
+    "results/controls/C079.json": {
+      "bytes": 6454102,
+      "sha256": "7fdc17eff6f06bfe07e6185ebbea3fd0efea75800c1849e4a151a81e07aed8f4"
+    },
+    "results/controls/C080.json": {
+      "bytes": 6453949,
+      "sha256": "35fa73e5b907a553c87f42bd4c6605629df4d7c33085096f1b2e5eeac832b179"
+    },
+    "results/controls/C081.json": {
+      "bytes": 6449741,
+      "sha256": "2874540755d3524639b79062a43a69bd78dd755834aaffe6b6094fe0b39924a6"
+    },
+    "results/controls/C082.json": {
+      "bytes": 6452757,
+      "sha256": "f9b1f8511d24ef49e5f17d52173a9ea2ad564524cb87885d8b13e8d4c8d33808"
+    },
+    "results/controls/C083.json": {
+      "bytes": 6450861,
+      "sha256": "61176448e6e53df887b685af1c4c98de0751f0039cc547e469f47d8c769c6dbf"
+    },
+    "results/controls/C084.json": {
+      "bytes": 6451673,
+      "sha256": "b8ac434f3b7524413830a80ddb48d241e4c37c7532bf5342ac721b22f58eb595"
+    },
+    "results/controls/C085.json": {
+      "bytes": 6449874,
+      "sha256": "489fc8accf0fa6b63ccaa6772deefadbfe565a4355c702b5b8f723621910e87a"
+    },
+    "results/controls/C086.json": {
+      "bytes": 6451040,
+      "sha256": "f77ad82c5f49188bbbe35cb241fc4d8f7da3a819eefe93c07a56542919e2c60a"
+    },
+    "results/controls/C087.json": {
+      "bytes": 6453188,
+      "sha256": "eb5912f6a35fcb6b82e216eb8720385d96f1945634387bd050c6e4661441708d"
+    },
+    "results/controls/C088.json": {
+      "bytes": 6452657,
+      "sha256": "14ba385a45a167a0f429098dc9ad9b540d0ee54e2d211b1c60bd9e823d62583c"
+    },
+    "results/controls/C089.json": {
+      "bytes": 6449427,
+      "sha256": "470b93601cc62278d16f58b57c23a1239b853eb69ed2fde441f8d14c12d440dc"
+    },
+    "results/controls/C090.json": {
+      "bytes": 6453032,
+      "sha256": "b3dd231954242b58eb80a8887feac9ee9507436286ef78920b1d6cc386250343"
+    },
+    "results/controls/C091.json": {
+      "bytes": 6450214,
+      "sha256": "a135e194bd7fbf712edff316ffabff70c3f9ee829b4f125151aa954d186b2172"
+    },
+    "results/controls/C092.json": {
+      "bytes": 6451063,
+      "sha256": "50297c3407c7e999fd88470025ef4601c3314505018ea676736296ec1e1cf473"
+    },
+    "results/controls/C093.json": {
+      "bytes": 6452091,
+      "sha256": "cd251275838cd760c3f1eac9d9316a93af07b31eec501c51b7024004451c90f8"
+    },
+    "results/controls/C094.json": {
+      "bytes": 6453116,
+      "sha256": "07d9a1dbcc2fc3cca129811fd1ce198d199ff860999bf88586d88dca088d5372"
+    },
+    "results/controls/C095.json": {
+      "bytes": 6452334,
+      "sha256": "ef736d23626915ad114ffdf0a9d384d44657fa140245468ed13cde4f0aeae1e5"
+    },
+    "results/controls/C096.json": {
+      "bytes": 6453741,
+      "sha256": "17674d991eda5d2e72aa42fcc7fdee36530b1fb924e6963a2fdc85e43a6f48a2"
+    },
+    "results/controls/C097.json": {
+      "bytes": 6446912,
+      "sha256": "b9166f6829c10a25d58f18bb6cd6e8dc236158847a48270350ac60d243a985af"
+    },
+    "results/controls/C098.json": {
+      "bytes": 6451154,
+      "sha256": "2ff552c9742c0560604c4d4647c3d22624c20c52a96b2eb5d7c634d2b2332d02"
+    },
+    "results/controls/C099.json": {
+      "bytes": 6449002,
+      "sha256": "daaec0e37aec0a175072465f29791511ad10c8d97bdde474cc5cf8f86e8c9266"
+    },
+    "results/controls/C100.json": {
+      "bytes": 6447883,
+      "sha256": "8fa1db3cb188dac0e0cd11b052e8432c2be72319de6295a00c59f48d2f954837"
+    },
+    "results/controls/C101.json": {
+      "bytes": 6448152,
+      "sha256": "f0c53ca3df6ae6dfd217e9374a6fe1d4b0a8a380dc08b28f1ce728ccf1705eb1"
+    },
+    "results/controls/C102.json": {
+      "bytes": 6450768,
+      "sha256": "71ee6a667a18d21c654aee44fc9ff370e8786ea90daef909a97847fa0abb5451"
+    },
+    "results/controls/C103.json": {
+      "bytes": 6451089,
+      "sha256": "299407c24a4316d64dd21a7c6d3aa5fecda47585c6017288bf87d3db20c679a2"
+    },
+    "results/controls/C104.json": {
+      "bytes": 6448876,
+      "sha256": "aa3f01a0392222098d5a101fdee4b59bcca828cf8d97bda839dcd487b506639b"
+    },
+    "results/controls/C105.json": {
+      "bytes": 6450343,
+      "sha256": "7085112257c811a1e55d56eadf835c54588afc802820453f12450ed03ad1e46d"
+    },
+    "results/controls/C106.json": {
+      "bytes": 6449392,
+      "sha256": "b9d46ea93a6a700912c064a88cadb8c412ab5c89ad721cff37bf36b8d3323d06"
+    },
+    "results/controls/C107.json": {
+      "bytes": 6449559,
+      "sha256": "54b852c10fff717e3b0d322973486a97427036eb7b20cdfdd6a830738c62f0a7"
+    },
+    "results/controls/C108.json": {
+      "bytes": 6452199,
+      "sha256": "261f06d2e534ceb49e64e3da41fc4ab3a2f5ea3a66493fc1cda0c2ff22909016"
+    },
+    "results/controls/C109.json": {
+      "bytes": 6449431,
+      "sha256": "9c422add2c7e2e2d7fcd759fd9bcea892867937ed357b91d3679ab466a67b1cd"
+    },
+    "results/controls/C110.json": {
+      "bytes": 6452625,
+      "sha256": "64b2e091faca8589d862fd0a98f4c96e0ba8b1e98848a59dd5ffffebda9acc22"
+    },
+    "results/controls/C111.json": {
+      "bytes": 6448651,
+      "sha256": "4ab51e2a9bada2d149bf4551292c0b9025a89c690d90d2beb1577f4225ba9d32"
+    },
+    "results/controls/C112.json": {
+      "bytes": 6449083,
+      "sha256": "8405461eaf93d32645c490cc603833c4bdf42cf9052c6786dd4c8fc302c46b77"
+    },
+    "results/controls/C113.json": {
+      "bytes": 6449088,
+      "sha256": "c2c77bacc8e24fdd66ff428a9dc73fc8635c5b4d14479d75a90308c9a13c01eb"
+    },
+    "results/controls/C114.json": {
+      "bytes": 6450698,
+      "sha256": "155d14496b90e8813d4e706168df72c769ce1e23e16aba6c8f5075fcc8919a3e"
+    },
+    "results/controls/C115.json": {
+      "bytes": 6451761,
+      "sha256": "330b37c02371437f09413b42bc6e9f66502592f08e9d913d31baccc00ca9ea0f"
+    },
+    "results/controls/C116.json": {
+      "bytes": 6450375,
+      "sha256": "176765e2a2b357f655ff037f2b4e39394dd61b53ea9bb6e5520d718db683386d"
+    },
+    "results/controls/C117.json": {
+      "bytes": 6448780,
+      "sha256": "37a384c9c3d021df55532ee7209e3fc7c23830f10387bb58520baec23b6e308b"
+    },
+    "results/controls/C118.json": {
+      "bytes": 6449498,
+      "sha256": "c33936e931bfc6510df062d5b5be2e13798ea2b9c4611a54ba2085c55aed2d67"
+    },
+    "results/controls/C119.json": {
+      "bytes": 6450759,
+      "sha256": "5e6c9cc1181b18a787fd1ab8c1543b0bb54b667bf2e806c4d282ced4a7533b36"
+    },
+    "results/controls/C120.json": {
+      "bytes": 6448945,
+      "sha256": "d7586474020a39f1d2a8e29fbc218b66eaff49bbe6d14b3cb5255e7de3c4dcc3"
+    },
+    "results/controls/C121.json": {
+      "bytes": 6447413,
+      "sha256": "a12e5c202a70dd0eea1cfb9430823d98d5c550062fcdf0fed2fe3f35c34aa659"
+    },
+    "results/controls/C122.json": {
+      "bytes": 6450325,
+      "sha256": "979010e45574b739b071f88627227c340cc14b3223fc9a586cbdae2fdeb3d226"
+    },
+    "results/controls/C123.json": {
+      "bytes": 6449862,
+      "sha256": "2c0a550a0d703ab0259bc55f23b0e3fa60be9f57a7ac3a0d74c833d69899ed7f"
+    },
+    "results/controls/C124.json": {
+      "bytes": 6448160,
+      "sha256": "e37a03a6d00fe4b6da8403d855bbb210152127507f5215d06132ca193a86ff78"
+    },
+    "results/controls/C125.json": {
+      "bytes": 6447973,
+      "sha256": "d42e0167a31d004b911d4f2f6e9f80caa7f6f47d6347b169cafb4fe4b63b6be7"
+    },
+    "results/controls/C126.json": {
+      "bytes": 6450181,
+      "sha256": "87ee9634d369ca779116c1542e28835019f7d3b3a1de3cc3be1f8ae0b8454b75"
+    },
+    "results/controls/C127.json": {
+      "bytes": 6447757,
+      "sha256": "728658a6083b54aaaeab1a686ecce2e1bb18a4357bae264e6baab0d402dad079"
+    },
+    "results/controls/C128.json": {
+      "bytes": 6448496,
+      "sha256": "5aa5d9f98402ea20c45eb334d0bc34fd8900d448953eb669f18e0a6d91eff055"
+    },
+    "results/controls/C129.json": {
+      "bytes": 6452644,
+      "sha256": "6723028b8eb332c82ca887fdde57021b82852c63dfb43c49a116c4912b6ee608"
+    },
+    "results/controls/C130.json": {
+      "bytes": 6452085,
+      "sha256": "9c3a45f4c084a4da62b8626036cf901f8505d4a2cf875a72adb69f05144cee8a"
+    },
+    "results/controls/C131.json": {
+      "bytes": 6446926,
+      "sha256": "fb5bd45db61a2e6277f9a3787a97507d205a37607cb761bbc0a87dccdab56ea9"
+    },
+    "results/controls/C132.json": {
+      "bytes": 6448781,
+      "sha256": "afd729820cbb08babb42546e15eb6e4127d901da98cf70e918e1606bcfd76721"
+    },
+    "results/controls/C133.json": {
+      "bytes": 6449537,
+      "sha256": "81dabf0ef9e08e300383d16a693c50a01a10c7dbe7c14ccacfffd2042e64205c"
+    },
+    "results/controls/C134.json": {
+      "bytes": 6452255,
+      "sha256": "52b540af10d7858a4f63897fc28a55ebfa06c9776cc027098188b4cf14858aab"
+    },
+    "results/controls/C135.json": {
+      "bytes": 6448900,
+      "sha256": "1e23e600bb4811b4e136c2fd5b041b3a23b75ccd8ddce471139c93c2195a7c77"
+    },
+    "results/controls/C136.json": {
+      "bytes": 6449776,
+      "sha256": "6539e426fef71e960a17cd5768ee4a6e7f7a1a19ea273909e56e71684419b77c"
+    },
+    "results/controls/C137.json": {
+      "bytes": 6450173,
+      "sha256": "d472e145aa43d1833dba76f11855bc3451db2b972683713677a82627ff6a7da6"
+    },
+    "results/controls/C138.json": {
+      "bytes": 6451311,
+      "sha256": "9ea267a8791e4d79204c2909dff59273d2717d73a44d41ee14f1d84eb7f18b84"
+    },
+    "results/controls/C139.json": {
+      "bytes": 6445227,
+      "sha256": "0cbb074e9bc81b886a24af72de88cd088f857417745738647f8fd447e4074e82"
+    },
+    "results/controls/C140.json": {
+      "bytes": 6450269,
+      "sha256": "dcaf4a24a641a4a845471df76dfa9a1f11130ef45f982f005bcfb810ffd7b459"
+    },
+    "results/controls/C141.json": {
+      "bytes": 6450305,
+      "sha256": "c7d060198522a41693f13dbb12062c67663d99a699918d0351e2d22f5051fe0e"
+    },
+    "results/controls/C142.json": {
+      "bytes": 6448480,
+      "sha256": "763f502feb53d63b45a7444f08d953fe1287a582db5f5658b2c4f69148c1c170"
+    },
+    "results/controls/C143.json": {
+      "bytes": 6448811,
+      "sha256": "a2484db8144919547ffd1d311c1cbeb706477d1e886b8ed4584f26fddc16246e"
+    },
+    "results/controls/C144.json": {
+      "bytes": 6453157,
+      "sha256": "3cf76515766de4e45338839bd493e9b8f296119c597ee0b512fc3b38e049e634"
+    }
+  },
+  "frozen_files": {
+    "authors/a_themes.json": {
+      "bytes": 691364,
+      "reason": "Duplicate052rawauthor/validation file; exact bank and provenance included",
+      "sha256": "69e49cf24740b28d8c1ce9a2115eca45da59b29aec6ec225c236b98ea4b01a5f"
+    },
+    "authors/a_themes_validation.json": {
+      "bytes": 32994,
+      "reason": "Duplicate052rawauthor/validation file; exact bank and provenance included",
+      "sha256": "24750450992dde34c179fa84a6c54a49fc6433bfd5ae5582e158b5f984ad19f3"
+    },
+    "authors/b_neutral.json": {
+      "bytes": 667562,
+      "reason": "Duplicate052rawauthor/validation file; exact bank and provenance included",
+      "sha256": "ee726bc29630aa2837983558f664fb8d74ee6ec38707e5d0b2761b5396a86f19"
+    },
+    "authors/b_neutral_validation.json": {
+      "bytes": 33241,
+      "reason": "Duplicate052rawauthor/validation file; exact bank and provenance included",
+      "sha256": "302a389295b92739d99691df463f388fd45a9fd89f4b9bb44306fbccb0c8afa9"
+    },
+    "authors/c_berlin.json": {
+      "bytes": 895539,
+      "reason": "Duplicate052rawauthor/validation file; exact bank and provenance included",
+      "sha256": "afaf0fd9a7571277850c15b788a723a61264850c6c6498cbe56ec39296d4804e"
+    },
+    "authors/c_berlin_validation.json": {
+      "bytes": 1134,
+      "reason": "Duplicate052rawauthor/validation file; exact bank and provenance included",
+      "sha256": "952f7572ae9ae6058d26efbad88fef3fdfa379f451600e3b76f680765102b7aa"
+    },
+    "authors/d_messages.json": {
+      "bytes": 728856,
+      "reason": "Duplicate052rawauthor/validation file; exact bank and provenance included",
+      "sha256": "952792063d7ecdd14e9d4109d8948e5ba44a4a183be69490abadfec49f0c9317"
+    },
+    "authors/d_validation.json": {
+      "bytes": 1464,
+      "reason": "Duplicate052rawauthor/validation file; exact bank and provenance included",
+      "sha256": "f62c96a067cf1bc6028337dc85e4f2568203fe9ed054425c3f73d4c4039f0f0a"
+    },
+    "data/documents/gutenberg/austen-emma.txt": {
+      "bytes": 887071,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "71b0923d75fcf2f1faa897b22da8de8e2476d7478a2b22388eb58a3420e00215"
+    },
+    "data/documents/gutenberg/austen-persuasion.txt": {
+      "bytes": 466292,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "cec097657cbfeb62aafe178973f514fa07ab66a5e28ea025ebd5d51ca870e40f"
+    },
+    "data/documents/gutenberg/austen-sense.txt": {
+      "bytes": 673022,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "57b169c7cfa502896dee25bd66616f61cc1d21084caf31f015176ee46fda9718"
+    },
+    "data/documents/gutenberg/bible-kjv.txt": {
+      "bytes": 4332554,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "3f56c9f0bbc796312aacc5fcb49a799f5c5f729f00db3f86bff26319a93bfede"
+    },
+    "data/documents/gutenberg/blake-poems.txt": {
+      "bytes": 38153,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "840897a66e23a47dd1fd56b864f421b2be0af074dc081244f7995bf26939eee9"
+    },
+    "data/documents/gutenberg/bryant-stories.txt": {
+      "bytes": 249439,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "c87f2c50a00055010f02edb6bb643aabe2473465da7f62db43cb4cda1a1c768d"
+    },
+    "data/documents/gutenberg/burgess-busterbrown.txt": {
+      "bytes": 84663,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "7d8b1648ffeaa7268819c62852e5653f2f295528411c8c895ce3941581146331"
+    },
+    "data/documents/gutenberg/carroll-alice.txt": {
+      "bytes": 144395,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "5ce9042c0d8536b072b61d4c7c4e6d70c72d9dbb5f3d816261326d9280749266"
+    },
+    "data/documents/gutenberg/chesterton-ball.txt": {
+      "bytes": 457450,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "c6b6d4e8c09a3f49a09f37f4e47663d4d6f048b62d86c70ccafdfd8f27059a58"
+    },
+    "data/documents/gutenberg/chesterton-brown.txt": {
+      "bytes": 406629,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "67027976205b4b30e367c704807f56c8ffac3e8ea6037d993e57ab1fe28447ec"
+    },
+    "data/documents/gutenberg/chesterton-thursday.txt": {
+      "bytes": 320525,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "8b431a2a8db84089cd6f83fa66610c3b12c04114609df6e90137c0c58f2c5493"
+    },
+    "data/documents/gutenberg/edgeworth-parents.txt": {
+      "bytes": 935158,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "543b2162782f839b9917b88956acbd7507df37c543286c16c228b36dda0cf950"
+    },
+    "data/documents/gutenberg/melville-moby_dick.txt": {
+      "bytes": 1242990,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "dc2466ee3c2e6e2ea1f86233d142e4b5578fdc1d6f0ca657bee7572202a980c7"
+    },
+    "data/documents/gutenberg/milton-paradise.txt": {
+      "bytes": 468220,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "49028a77c557de1459e96c026edbe72997be2d9015925f7baefb793cd6fe706f"
+    },
+    "data/documents/gutenberg/shakespeare-caesar.txt": {
+      "bytes": 112310,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "7c46bd32fc84d9596bcad55b61ec3c1a390239acb190b286422855aafc2774b3"
+    },
+    "data/documents/gutenberg/shakespeare-hamlet.txt": {
+      "bytes": 162881,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "1eceab7027ad7e0cc25c6b6aadcb2e6bb070395cb2085f775ac732d63d5db240"
+    },
+    "data/documents/gutenberg/shakespeare-macbeth.txt": {
+      "bytes": 100351,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "d4a204352cfe5924cbae76f764225d120e9f7617d39cb8c949dedd3f306353ac"
+    },
+    "data/documents/gutenberg/whitman-leaves.txt": {
+      "bytes": 711215,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "93ebaf1dccc8f1514b4b1c2f52e64e81829113fc58cff63fb51ada0c72f99c3e"
+    },
+    "data/documents/inaugural/1789-Washington.txt": {
+      "bytes": 8619,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "dd7a7965c81147c7693a085555e05a6b304a6d79c91960d62a32450351b3ae9e"
+    },
+    "data/documents/inaugural/1793-Washington.txt": {
+      "bytes": 791,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "01dd6af804662d912d90039b160582de29282defdfa6526d255a15071df117a1"
+    },
+    "data/documents/inaugural/1797-Adams.txt": {
+      "bytes": 13877,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "86395fff7e36efc9ff3f4a1bce6360a38ed0bb763fae68cadaab97a7bfb0f64b"
+    },
+    "data/documents/inaugural/1801-Jefferson.txt": {
+      "bytes": 10137,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "a7e603d3cfb66f95580b53f8f8d45f397a48c1aebcc3bad6667be832aafd04df"
+    },
+    "data/documents/inaugural/1805-Jefferson.txt": {
+      "bytes": 12908,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "85996fc16d7466c6ff3b2a545956ca9a968779dc9cd50cd784b972f3ee73f1cc"
+    },
+    "data/documents/inaugural/1809-Madison.txt": {
+      "bytes": 7001,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "76a857741c69b14dff013a7ab647e752384a6b57cc50a927f7561e5f594699d6"
+    },
+    "data/documents/inaugural/1813-Madison.txt": {
+      "bytes": 7157,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "a2ad32d9f98a313e98f93562cef97214b4d1f0b4cd2b43cc615455e1ca79c20a"
+    },
+    "data/documents/inaugural/1817-Monroe.txt": {
+      "bytes": 19887,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "83162847f5e2258499ac9558e212ad2619fbffd7aed1ce4df0b4d4ca5dd18a75"
+    },
+    "data/documents/inaugural/1821-Monroe.txt": {
+      "bytes": 26326,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "fd96a3282bdb37a369bb9d84823226a3e9fba598af5578fd7631055b02cb401f"
+    },
+    "data/documents/inaugural/1825-Adams.txt": {
+      "bytes": 17741,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "4ff8a7833ee643d95ed5a3dc1b4dc11dc8618c0f3e2d51dcd3e6c420a7cf4716"
+    },
+    "data/documents/inaugural/1829-Jackson.txt": {
+      "bytes": 6817,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "89115f200d992cf99b96eb5b8a3ddf6b321fce00f17701246380f3cc0e71a315"
+    },
+    "data/documents/inaugural/1833-Jackson.txt": {
+      "bytes": 7058,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "4461c7b8f63f6c325acbbf596073e9e475d0c64137478cad9a993f3f504ec96a"
+    },
+    "data/documents/inaugural/1837-VanBuren.txt": {
+      "bytes": 23417,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "9466fd68312266b38cf82abd2ad9a7c9b34c9961f673b53403ada83916fa814a"
+    },
+    "data/documents/inaugural/1841-Harrison.txt": {
+      "bytes": 49700,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "5a61a4639b2de00db87c27169613ddb2fedad1b5c383e7447eef40b142b396ca"
+    },
+    "data/documents/inaugural/1845-Polk.txt": {
+      "bytes": 28716,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "35470407862f262c279af7678466cc6966faf9ef063c21a4bdbfe22650a04b01"
+    },
+    "data/documents/inaugural/1849-Taylor.txt": {
+      "bytes": 6605,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "3c56aa0dd8e395a57baa24a6962a15943ce6f4944baf85b9e2fcb0b99701f0d9"
+    },
+    "data/documents/inaugural/1853-Pierce.txt": {
+      "bytes": 20081,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "08ea7e12999ebaf43d516ec51f1a04bf156de40e140af19f911b50d9dfb95614"
+    },
+    "data/documents/inaugural/1857-Buchanan.txt": {
+      "bytes": 16815,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "0730dd953a6d5ccfda2ed18d7b7bf179bdd079bf3413b620c57beab38337dfab"
+    },
+    "data/documents/inaugural/1861-Lincoln.txt": {
+      "bytes": 21017,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "2c7b11f0d57dfbc81f4ba26dcd1255f4397dd4c66f873d900203ca0fdd46ed1d"
+    },
+    "data/documents/inaugural/1865-Lincoln.txt": {
+      "bytes": 3926,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "45fab6e488f059b77a4f05f95e641b5a86243fc964974e360e51cc9478c13980"
+    },
+    "data/documents/inaugural/1869-Grant.txt": {
+      "bytes": 6503,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "1b2087583c1a385174234047af12dbbcfe7b357a4813fe26da017007327e2afb"
+    },
+    "data/documents/inaugural/1873-Grant.txt": {
+      "bytes": 7734,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "8d27f5ebb317376a304a9c11feff4d5d39b22386267c63a721619282ded75c26"
+    },
+    "data/documents/inaugural/1877-Hayes.txt": {
+      "bytes": 14938,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "d60351a40156effe1ee851d26d6dd258bc0014a36b67b5316f092b3e098cfef6"
+    },
+    "data/documents/inaugural/1881-Garfield.txt": {
+      "bytes": 17767,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "d4a6ccc8c151c01d9dce785a6f223d6381a465809d581d53ab376594f83c1f6b"
+    },
+    "data/documents/inaugural/1885-Cleveland.txt": {
+      "bytes": 10145,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "a1aba961370332f72e8d833d94ee480b0b59a6dc2e89ee40ab6736426aef3626"
+    },
+    "data/documents/inaugural/1889-Harrison.txt": {
+      "bytes": 26179,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "46ab4ff8bb9f8869a1ca45569b39bc31ea12a0401436a0310402378077199536"
+    },
+    "data/documents/inaugural/1893-Cleveland.txt": {
+      "bytes": 12349,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "c805ccbb61b2e513a9966f0462cef4b529dc936e87f35a1d146f2f071a236672"
+    },
+    "data/documents/inaugural/1897-McKinley.txt": {
+      "bytes": 23659,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "86f96d99ee636b4060ee6d688a24cd6bee947fd154c8aefe94f8d3ad2afa5f83"
+    },
+    "data/documents/inaugural/1901-McKinley.txt": {
+      "bytes": 13408,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "46b33934c1266a91a42a44542e5b7742ee4b9000d3d4c4abc7bba90cfbf76a38"
+    },
+    "data/documents/inaugural/1905-Roosevelt.txt": {
+      "bytes": 5568,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "bd199980beba439915275b11c5e8ca23d25a3a65d5bf1f666d8b694729768bce"
+    },
+    "data/documents/inaugural/1909-Taft.txt": {
+      "bytes": 32164,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "1b48e7a5f17c8457e393ad6c80bcda96ae8ae7c4fafc34fd012593825855b7ff"
+    },
+    "data/documents/inaugural/1913-Wilson.txt": {
+      "bytes": 9563,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "edda23cd8b8557dcae46444ee2e2289eb5a6ab33f035de9368339c3dbdf676c4"
+    },
+    "data/documents/inaugural/1917-Wilson.txt": {
+      "bytes": 8395,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "ab14086bc4bc2f599ab5a1d06dbd5c0014b8294c2fb116fb777f5307a547789c"
+    },
+    "data/documents/inaugural/1921-Harding.txt": {
+      "bytes": 20298,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "80120e6dc1035c6070167febc39c1bed1c3d26634fdd6be8d87a89675dcbd319"
+    },
+    "data/documents/inaugural/1925-Coolidge.txt": {
+      "bytes": 23949,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "edca412653352d908fcfd8abd7fdefa485b2717ba4fcd196f83c1d87a3d87157"
+    },
+    "data/documents/inaugural/1929-Hoover.txt": {
+      "bytes": 21764,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "6b0fbe182f468dbe25b30282afd7cdf4e4288429c873f9f4bc510079fe4c8ce3"
+    },
+    "data/documents/inaugural/1933-Roosevelt.txt": {
+      "bytes": 10903,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "8057a5f78197481249ba4c21eebc94a610dae84c86c6927b96d33899ce31bfe8"
+    },
+    "data/documents/inaugural/1937-Roosevelt.txt": {
+      "bytes": 10607,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "7d337a12606cdb9c5ce0c7adbeab1be121b22925c04a5a881338e94dbd656b4d"
+    },
+    "data/documents/inaugural/1941-Roosevelt.txt": {
+      "bytes": 7571,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "1944f0fda8c449af1086933ef917f32dbdb7431ebfdc3b8b599917ece4d6ba35"
+    },
+    "data/documents/inaugural/1945-Roosevelt.txt": {
+      "bytes": 3039,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "05fe90f21718f7d68082d70237522ec4c2417f5ea62eb81da0aeb620392c0101"
+    },
+    "data/documents/inaugural/1949-Truman.txt": {
+      "bytes": 13679,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "0de1bc7dc4ee274aeae4fd7302d482b89a1abdae1968c0452ca098ecfe0c8b2f"
+    },
+    "data/documents/inaugural/1953-Eisenhower.txt": {
+      "bytes": 13955,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "1e90aa30dfecebd90d5d6348b4ce1dfdd219a8c7f986a5541b0ec7a530ffc94c"
+    },
+    "data/documents/inaugural/1957-Eisenhower.txt": {
+      "bytes": 9190,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "fcaf780206362764d460359fea07e2dc8fd4c50c13ed387f35d0a38bf89a3e35"
+    },
+    "data/documents/inaugural/1961-Kennedy.txt": {
+      "bytes": 7618,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "e77e52fdf3122abf372a21d473231c5139681f283dd1d06df21e665c0befba6d"
+    },
+    "data/documents/inaugural/1965-Johnson.txt": {
+      "bytes": 8193,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "235ab1bc755b6429538819050849e0ad826cca9716e46ceda115bed7a9f3bbce"
+    },
+    "data/documents/inaugural/1969-Nixon.txt": {
+      "bytes": 11624,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "1e4efdf499873a5a89212775805210a1a363ef0fd1e7680c9c69f0fbc219c2c8"
+    },
+    "data/documents/inaugural/1973-Nixon.txt": {
+      "bytes": 9991,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "36d86c4c1d2c4dafce2300795c5581cc2b0a40b9078b91a61b7dd0bfb1761be1"
+    },
+    "data/documents/inaugural/1977-Carter.txt": {
+      "bytes": 6873,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "ee15f6f96985b102ae19c890c4fcc2e4fcb404ad43f1d0ffc46562b838c487d5"
+    },
+    "data/documents/inaugural/1981-Reagan.txt": {
+      "bytes": 13735,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "46f86824ac000cf7f822b29e838c6c54872a06e219f3229722c0bb101fcbe116"
+    },
+    "data/documents/inaugural/1985-Reagan.txt": {
+      "bytes": 14561,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "526a130667a191806782a3bb3c9186cdd386aed9b0a335071d88fc4bf8509f94"
+    },
+    "data/documents/inaugural/1989-Bush.txt": {
+      "bytes": 12523,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "7636e0e3bae0b67378d56a70f12885340fd93370c95bc52f1f0d5c2cafb0b3ed"
+    },
+    "data/documents/inaugural/1993-Clinton.txt": {
+      "bytes": 9114,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "2003c2c6e77a0c743e67038416bd6d4ea471bcbc54f743c6ced2422ec99d9950"
+    },
+    "data/documents/inaugural/1997-Clinton.txt": {
+      "bytes": 12250,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "7dbf3690f9bf8ba3393c73ca96df74a793a04ac2b6b04b6bf1a7756e80b8d70d"
+    },
+    "data/documents/inaugural/2001-Bush.txt": {
+      "bytes": 9053,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "fecec0df824c345c04c52224d720e8535ec95a27f02598cc62d1f98ff919327a"
+    },
+    "data/documents/inaugural/2005-Bush.txt": {
+      "bytes": 12018,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "35a4fa86df7cf8c37e854cac6d9f0abfdf794e71af749835245d4ab989fb155e"
+    },
+    "data/documents/inaugural/2009-Obama.txt": {
+      "bytes": 13439,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "598b4b2603e8965bffad0f834341a6d99841f0e78ce2e41b66566a284cb35be4"
+    },
+    "data/documents/inaugural/2013-Obama.txt": {
+      "bytes": 11949,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "ebe33a5ccfe84881476a2f78aeedd4910e7759ad303d16624ff843525e7bf4f1"
+    },
+    "data/documents/inaugural/2017-Trump.txt": {
+      "bytes": 8449,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "882581c0386b6709173724952410dd9d28ec458186e3c94748a3eb33d88fd202"
+    },
+    "data/documents/inaugural/2021-Biden.txt": {
+      "bytes": 13963,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "8cf2962b9011f37d8c2a1b5ce6184f71e494ca9399305cea5ab560c99b6a742b"
+    },
+    "data/documents/inaugural/2025-Trump.txt": {
+      "bytes": 16972,
+      "reason": "Exact source document reproducible from included pinned corpus ZIP",
+      "sha256": "33fdfba882f8c3fe8c990be3cbc4b26870e1b26c8e520a3177c5e9b19420ebef"
+    }
+  },
+  "omitted_frozen_count": 86,
+  "original_files_retained_locally_unchanged": true,
+  "prior_052_compact_archive_sha256": "e4719e18027e238eb24f17544e133f3ea13f33d8091421cc197871e1dd7ba1b9",
+  "raw_author_files_not_required_to_rescore_hash_verified_bank": true
+}
