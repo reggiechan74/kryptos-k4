@@ -1,0 +1,296 @@
+{
+  "all48full_control_receipts_included": true,
+  "all_accepted_raw_corpus_documents_included": true,
+  "all_original_files_retained_locally_unchanged": true,
+  "byte_complete_working_directory_archive": false,
+  "file_count": 57,
+  "files": {
+    "data/nltk/documents/inaugural/1993-Clinton.txt": {
+      "bytes": 9114,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "2003c2c6e77a0c743e67038416bd6d4ea471bcbc54f743c6ced2422ec99d9950"
+    },
+    "data/nltk/documents/inaugural/1997-Clinton.txt": {
+      "bytes": 12250,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "7dbf3690f9bf8ba3393c73ca96df74a793a04ac2b6b04b6bf1a7756e80b8d70d"
+    },
+    "data/nltk/documents/inaugural/2001-Bush.txt": {
+      "bytes": 9053,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "fecec0df824c345c04c52224d720e8535ec95a27f02598cc62d1f98ff919327a"
+    },
+    "data/nltk/documents/inaugural/2005-Bush.txt": {
+      "bytes": 12018,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "35a4fa86df7cf8c37e854cac6d9f0abfdf794e71af749835245d4ab989fb155e"
+    },
+    "data/nltk/documents/inaugural/2009-Obama.txt": {
+      "bytes": 13439,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "598b4b2603e8965bffad0f834341a6d99841f0e78ce2e41b66566a284cb35be4"
+    },
+    "data/nltk/documents/inaugural/2013-Obama.txt": {
+      "bytes": 11949,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "ebe33a5ccfe84881476a2f78aeedd4910e7759ad303d16624ff843525e7bf4f1"
+    },
+    "data/nltk/documents/inaugural/2017-Trump.txt": {
+      "bytes": 8449,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "882581c0386b6709173724952410dd9d28ec458186e3c94748a3eb33d88fd202"
+    },
+    "data/nltk/documents/inaugural/2021-Biden.txt": {
+      "bytes": 13963,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "8cf2962b9011f37d8c2a1b5ce6184f71e494ca9399305cea5ab560c99b6a742b"
+    },
+    "data/nltk/documents/inaugural/2025-Trump.txt": {
+      "bytes": 16972,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "33fdfba882f8c3fe8c990be3cbc4b26870e1b26c8e520a3177c5e9b19420ebef"
+    },
+    "data/nltk/raw/gutenberg.zip": {
+      "bytes": 4251829,
+      "reason": "Duplicate original NLTK archive; all accepted raw documents and distribution notices included; pinned archive URL/hash retained",
+      "sha256": "2d3c3ab548c653944310f37f536443ec85d0a0ad855fcae217a0c9efdce2d611"
+    },
+    "data/nltk/raw/inaugural.zip": {
+      "bytes": 344679,
+      "reason": "Duplicate original NLTK archive; all accepted raw documents and distribution notices included; pinned archive URL/hash retained",
+      "sha256": "b3b2cb7bd82697b58ff79c75af20ab963810d191a8c3d1f7c240f98e5d27a895"
+    },
+    "data/pg/evidence/1232_translation.html": {
+      "bytes": 96588,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "3d2abe148330287313e7507533e744c5a8ca62b86faa41345cb9bb7345358d2f"
+    },
+    "data/pg/evidence/1342_work.html": {
+      "bytes": 31858,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "28a813c9fa27d07512e8c3beaa024dd26ef08f3dab9c5fa4e27816c4734db70f"
+    },
+    "data/pg/evidence/1400_work.extracted.txt": {
+      "bytes": 24147,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "6515944cbc9700d95a30ae7d4182360d21150a8c0425d2b36cffc09126378e76"
+    },
+    "data/pg/evidence/1400_work.pdf": {
+      "bytes": 745758,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "7cb0ad9d05aec11b66009112fe5bead51020cee811decd3147b9c0e3691acd71"
+    },
+    "data/pg/evidence/219_work.html": {
+      "bytes": 60271,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "b5c3feca5301b0c9f9a7ccdd92719d29fb9131b216a7d6351e5d0c489a0b08bf"
+    },
+    "data/pg/evidence/5001_files.html": {
+      "bytes": 1213,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "13e6f3e5ec68dccdc91398460a8c31f5b6593ab5a6b7eb24b6f7df78266e4e99"
+    },
+    "data/pg/evidence/768_work.extracted.txt": {
+      "bytes": 60720,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "a501f276318d1cb010ce64bb706925d8fedfd84f707f4ef72fd4f5c5dc39e867"
+    },
+    "data/pg/evidence/768_work.pdf": {
+      "bytes": 192883,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "9a063eb62a4915537437f610a94ef55def9c354d8c6e5465277c2bec6c442bb1"
+    },
+    "data/pg/evidence/98_work.html": {
+      "bytes": 212,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+    },
+    "data/pg/evidence/primary_catalogs_a.webtool.json": {
+      "bytes": 34557,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "8e41dc9407ab3f2b3022eb96c3c8b048c938e68af3dfda4adaca7fc1e545bb4d"
+    },
+    "data/pg/evidence/primary_catalogs_b.webtool.json": {
+      "bytes": 33373,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "66092f7f9a3ad243274c16be8ff93d429413a379fbce6803f67dfc9db2cb75d4"
+    },
+    "data/pg/evidence/primary_catalogs_c.webtool.json": {
+      "bytes": 33388,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "0014555cdcd0e4fccb3d4406ff402c69a05b0ec71c7cf1a01efb802ae6b59548"
+    },
+    "data/pg/evidence/primary_catalogs_d.webtool.json": {
+      "bytes": 30115,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "7142496c1e332bb8b8dea703039e3a6bcf2252ccee0d2b7613fea90d9502951b"
+    },
+    "data/pg/evidence/prince_original_date.webtool.json": {
+      "bytes": 29900,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "5e3439553390ca5e1739c6166591085cc1a5a046dceb7d1926fb4a9586b823f6"
+    },
+    "data/pg/evidence/receipt_a.webtool.json": {
+      "bytes": 1584,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "1c90d15001e905a295a8d5a1d00cee3356ddcdec44a7f10376d0928ccaf12ec6"
+    },
+    "data/pg/evidence/searchdates5.webtool.json": {
+      "bytes": 33481,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "16d05de863e94bf4ba74150970d7c3396e736a9f092259b11d8e436f3665aa3d"
+    },
+    "data/pg/evidence/searchdates6.webtool.json": {
+      "bytes": 32669,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "749c347e965d90b6f679e681eb8bf94941b33a2a1a2a122e5f34ed6a21b2b292"
+    },
+    "data/pg/evidence/searchdates7.webtool.json": {
+      "bytes": 31887,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "206e33e28dffa0e619cb5613f017ca2b869ea1e95629c0bd2e7c6419d6b793a9"
+    },
+    "data/pg/evidence/searchdates8.webtool.json": {
+      "bytes": 31261,
+      "reason": "Raw search-provider/full-catalog extraction omitted; selected factual bibliographic evidence and hashes retained",
+      "sha256": "5c3d149e9d3291f9811dec719ab2e89950bd400e91378bd82333ddba1d761fc2"
+    },
+    "data/pg/metadata/pg1080.html": {
+      "bytes": 23856,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "80397f3e9d5eb980412a2600977997568832bddb35abe3d8fbaa91abca484cbd"
+    },
+    "data/pg/metadata/pg12.html": {
+      "bytes": 24407,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "30d0316d4bf40f770f91e421fb7085f759b1c9bb8113bd112997a8caa6eeaa9c"
+    },
+    "data/pg/metadata/pg120.html": {
+      "bytes": 24875,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "6efe32e9ebd41b0b5d1dc3f2ff8090357a12865f960e8aa81c402b726527dc2e"
+    },
+    "data/pg/metadata/pg1228.html": {
+      "bytes": 24724,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "d269c1671b2b2af8debc9274ab0d3644f5b4b9a7b758d1cea826dd62a1048266"
+    },
+    "data/pg/metadata/pg1232.html": {
+      "bytes": 24918,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "85efb86729971b844494925bbcd0a5e7954cf70045645f2eb4ee099a1e0948d8"
+    },
+    "data/pg/metadata/pg1260.html": {
+      "bytes": 25467,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "49b241236045c4e1592cf5c6f9a60b055a4ab4a7c99d55c64e66f7af5ccb82fd"
+    },
+    "data/pg/metadata/pg1342.html": {
+      "bytes": 24938,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "aa2997ad49c22e4ee8771bbac8e230dff8c04b18da3f1fa61078e96804228082"
+    },
+    "data/pg/metadata/pg1400.html": {
+      "bytes": 24715,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "97927a638202f957587e464ed8eeda5b997af4fc83ee6892c3f1e8984e26370d"
+    },
+    "data/pg/metadata/pg1661.html": {
+      "bytes": 25125,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "f10c4be1ea77c09574124f2177fe14fc8035b274e755e9aa8f00b6a4f0c00716"
+    },
+    "data/pg/metadata/pg174.html": {
+      "bytes": 23849,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "fc149527e847e4f3ebcd6ea86bbe5fea8f785e787acd7a89bca6a00bb9ceb58f"
+    },
+    "data/pg/metadata/pg203.html": {
+      "bytes": 25741,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "53dfc0fc8d2e8647bbb065430453378697728d3506c254554280ca06d293b670"
+    },
+    "data/pg/metadata/pg205.html": {
+      "bytes": 25530,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "cd1d47c4a6a4952e953d43d2fbe10ee26a79edd8656750f0b7fb15715608c2c4"
+    },
+    "data/pg/metadata/pg219.html": {
+      "bytes": 24474,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "b540beab3c5ec3d75c981db29a105be6b0c06d20e82f9b0bea008a833bf248a9"
+    },
+    "data/pg/metadata/pg23.html": {
+      "bytes": 24471,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "20992b76f65d216542516b3e5c27f905f790736defce0ff3825a3d4ec56c6acb"
+    },
+    "data/pg/metadata/pg345.html": {
+      "bytes": 24954,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "87f01c1442d2db1a126fff64ca6ed609d1472b208857f08b9c3d7805d6f963e4"
+    },
+    "data/pg/metadata/pg35.html": {
+      "bytes": 23745,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "e11cedaaad3aefaa1504ea3f0fadc6fd788e7ef51b6e474829c04c7aea7ab994"
+    },
+    "data/pg/metadata/pg36.html": {
+      "bytes": 24670,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "1a79e5162f7c5d366ceef9e1e0398ae4c3b19e3b12c4ad77c859671fdebd5e9d"
+    },
+    "data/pg/metadata/pg43.html": {
+      "bytes": 25164,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "99234bc0a560cc643c084899300f09aae752121de25f4b34242f87e3740a899c"
+    },
+    "data/pg/metadata/pg5001.html": {
+      "bytes": 23421,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "79d3f91694201fe5802aeabf24f5f6364b07dd08cb1268e2c8ba4bffaab69a28"
+    },
+    "data/pg/metadata/pg74.html": {
+      "bytes": 25323,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "b9a2072d5e4388090f07f6366889b623719432a5c6ee3407c2a79b0ac82032ff"
+    },
+    "data/pg/metadata/pg76.html": {
+      "bytes": 25794,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "a5950ed363c28e2bc4c2e908b94172191752b026b47ab3cfeaa367741fb7b8be"
+    },
+    "data/pg/metadata/pg768.html": {
+      "bytes": 25181,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "04878056bfabce66b4557c15891d24049913aff78b54ba025f7aab290d86cda9"
+    },
+    "data/pg/metadata/pg84.html": {
+      "bytes": 25703,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "5d7b46ed0e34ccb4d40040966d4ae4333a5d59d15d4e7b6a6f0c1fa2ea8700e8"
+    },
+    "data/pg/metadata/pg98.html": {
+      "bytes": 24871,
+      "reason": "Nonessential third-party catalog/site snapshot omitted; factual date evidence/URL/hash receipts retained",
+      "sha256": "7e244f003bf28c22161f0f867ff6c076cc976a01eaac0184d3c86adad2bbe57c"
+    },
+    "data/pg/raw/pg12.txt": {
+      "bytes": 196534,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "e40a38f5da841f9fb6acc557355c447b7c2ccb56a208caf5fcf2b05081f14d42"
+    },
+    "data/pg/raw/pg1228.txt": {
+      "bytes": 970611,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "362142cb7c6f90850477520cfe2a62fe423ae92ea8eb6d9cd8b30ddb39de60b9"
+    },
+    "data/pg/raw/pg23.txt": {
+      "bytes": 249061,
+      "reason": "Excluded source text not used in lookup; exclusion, date/source URL and exact raw hash retained",
+      "sha256": "234c15348a66919bad1d534cdd48ee8ddf91f50115a706cbefaa8edd049672fd"
+    }
+  },
+  "retrieval": "Original URLs and metadata/date receipts are retained; some omitted raw catalog pages may change or deny later retrieval. Their omission is explicit, not claimed fully reproducible raw evidence.",
+  "total_bytes": 8221702
+}

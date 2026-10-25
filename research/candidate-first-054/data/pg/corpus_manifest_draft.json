@@ -1,0 +1,1833 @@
+{
+  "schema": "candidate-first-054-pg-corpus-draft-v1",
+  "snapshot_utc": "2026-10-25T04:11:55.108662+00:00",
+  "fixed_ids_in_prespecified_order": [
+    1342,
+    84,
+    1661,
+    98,
+    1400,
+    174,
+    345,
+    76,
+    74,
+    12,
+    120,
+    35,
+    36,
+    43,
+    219,
+    203,
+    1260,
+    768,
+    1080,
+    23,
+    205,
+    1232,
+    1228,
+    5001
+  ],
+  "selection": "24 IDs fixed before lookup; no replacements, no target-derived selection.",
+  "acquisition_budget": {
+    "start_utc": "2026-10-25T04:02:40Z",
+    "deadline_utc": "2026-10-25T04:17:40Z",
+    "max_books": 24,
+    "max_raw_bytes": 100000000
+  },
+  "blinding_disclosure": "Source selection fixed before any lookup. Agent later opened protocol for source rules and encountered known-plaintext labels/target hash, but no ciphertext/key fragments/scores/prior winners were read or derived, and no source was queried cryptographically.",
+  "raw_text_count": 23,
+  "raw_text_bytes": 12768609,
+  "eligible_count": 20,
+  "excluded_ids": [
+    12,
+    23,
+    1228,
+    5001
+  ],
+  "raw_preservation": "Authoritative corpus and metadata snapshot bodies are preserved unchanged with SHA256. Two initial PG1342 connectivity smoke-test bodies were not persisted; HTTP-error response bodies were not captured, but URL/status/error records remain. All evidence relied on is preserved as raw pages/PDFs or labeled mediated receipts.",
+  "records": [
+    {
+      "pgid": 1342,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "language": "English",
+      "workdate": "1813",
+      "editiondate": "1894",
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://exhibits.library.illinois.edu/s/rbml/item/1104",
+      "date_evidence_excerpt": "Date Created: 1813",
+      "historical_date_note": "Book publication; PG title page identifies the 1894 George Allen edition with Saintsbury preface and Thomson illustrations.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg1342.txt",
+      "sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+      "bytes": 772386,
+      "retrieved_utc": "2026-10-25T04:04:33.733932+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/1342",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg1342.html",
+      "metadata_sha256": "aa2997ad49c22e4ee8771bbac8e230dff8c04b18da3f1fa61078e96804228082",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/1342_work.html",
+          "bytes": 31858,
+          "sha256": "28a813c9fa27d07512e8c3beaa024dd26ef08f3dab9c5fa4e27816c4734db70f"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": true,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 993,
+        "body_end_byte": 753480,
+        "body_bytes": 752487,
+        "body_sha256": "43d21a8bff4828ff7bf966f928187b6885a0ed50abd16433bc41d7d73740021c"
+      },
+      "digital_release_date_not_historical": "June 1, 1998 [eBook #1342]",
+      "digital_update_date_not_historical": "September 1, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 84,
+      "title": "Frankenstein; or, The modern Prometheus",
+      "author": "Mary Wollstonecraft Shelley",
+      "language": "English",
+      "workdate": "1818",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.loc.gov/item/53051218/",
+      "date_evidence_excerpt": "London, Printed for Lackington, Hughes, Harding, Mavor, & Jones, 1818.",
+      "historical_date_note": "Original English publication; exact PG source edition not identified. Do not infer 1818 transcription rather than 1831 revision.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/84/pg84.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg84.txt",
+      "sha256": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42",
+      "bytes": 448885,
+      "retrieved_utc": "2026-10-25T04:04:33.734432+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/84",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg84.html",
+      "metadata_sha256": "5d7b46ed0e34ccb4d40040966d4ae4333a5d59d15d4e7b6a6f0c1fa2ea8700e8",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_a.webtool.json",
+          "bytes": 34557,
+          "sha256": "8e41dc9407ab3f2b3022eb96c3c8b048c938e68af3dfda4adaca7fc1e545bb4d"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 1056,
+        "body_end_byte": 429959,
+        "body_bytes": 428903,
+        "body_sha256": "af10bac042d03e093ba6e6ef56f4b98f45a0c278d633c8f348da12590caf94a5"
+      },
+      "digital_release_date_not_historical": "October 1, 1993 [eBook #84]",
+      "digital_update_date_not_historical": "February 10, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 1661,
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "language": "English",
+      "workdate": "1892",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.themorgan.org/printed-books/268783",
+      "date_evidence_excerpt": "London : George Newnes, 1892.",
+      "historical_date_note": "First English collected book edition; exact PG print-source edition unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/1661/pg1661.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg1661.txt",
+      "sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+      "bytes": 607606,
+      "retrieved_utc": "2026-10-25T04:04:33.734832+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/1661",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg1661.html",
+      "metadata_sha256": "f10c4be1ea77c09574124f2177fe14fc8035b274e755e9aa8f00b6a4f0c00716",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_a.webtool.json",
+          "bytes": 34557,
+          "sha256": "8e41dc9407ab3f2b3022eb96c3c8b048c938e68af3dfda4adaca7fc1e545bb4d"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 950,
+        "body_end_byte": 588686,
+        "body_bytes": 587736,
+        "body_sha256": "6ab87b6e06ff6617c2b5d235af1f62395097ad1ac0cc360655d2807fdb5ed2e9"
+      },
+      "digital_release_date_not_historical": "March 1, 1999 [eBook #1661]",
+      "digital_update_date_not_historical": "October 10, 2023",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 98,
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "language": "English",
+      "workdate": "1859",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://natlib.govt.nz/records/21706196",
+      "date_evidence_excerpt": "The first edition complete in one volume.",
+      "historical_date_note": "Primary library catalog gives MDCCCLIX [1859]; exact PG edition unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/98/pg98.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg98.txt",
+      "sha256": "d54c2b80d40a40b982cd88852c6180bb944d95acdb028af3d0e01a1750681784",
+      "bytes": 807197,
+      "retrieved_utc": "2026-10-25T04:04:37.849098+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/98",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg98.html",
+      "metadata_sha256": "7e244f003bf28c22161f0f867ff6c076cc976a01eaac0184d3c86adad2bbe57c",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_a.webtool.json",
+          "bytes": 34557,
+          "sha256": "8e41dc9407ab3f2b3022eb96c3c8b048c938e68af3dfda4adaca7fc1e545bb4d"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 877,
+        "body_end_byte": 788290,
+        "body_bytes": 787413,
+        "body_sha256": "fd3bb9a03debee76ed2fc0c62bd0f1db1c65eeb6fc3e5282e6bdb01b864d1f3b"
+      },
+      "digital_release_date_not_historical": "January 1, 1994 [eBook #98]",
+      "digital_update_date_not_historical": "February 26, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 1400,
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "language": "English",
+      "workdate": "1861",
+      "editiondate": "1867",
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://dickens.stanford.edu/dickens/archive/great/pdf/great35.pdf",
+      "date_evidence_excerpt": "GREAT EXPECTATIONS. [July 27, 1861.]",
+      "historical_date_note": "Contemporary serial facsimile evidences 1861 work; PG frontmatter explicitly labels [1867 Edition].",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/1400/pg1400.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg1400.txt",
+      "sha256": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8",
+      "bytes": 1058204,
+      "retrieved_utc": "2026-10-25T04:04:37.892335+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/1400",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg1400.html",
+      "metadata_sha256": "97927a638202f957587e464ed8eeda5b997af4fc83ee6892c3f1e8984e26370d",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/1400_work.pdf",
+          "bytes": 745758,
+          "sha256": "7cb0ad9d05aec11b66009112fe5bead51020cee811decd3147b9c0e3691acd71"
+        },
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/1400_work.extracted.txt",
+          "bytes": 24147,
+          "sha256": "6515944cbc9700d95a30ae7d4182360d21150a8c0425d2b36cffc09126378e76"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": true,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 883,
+        "body_end_byte": 1039299,
+        "body_bytes": 1038416,
+        "body_sha256": "e17a38e1e0f59d8f672ff0a1542480464aa4f7e7de423e3c6af73d707c37a636"
+      },
+      "digital_release_date_not_historical": "July 1, 1998 [eBook #1400]",
+      "digital_update_date_not_historical": "December 17, 2024",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 174,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "language": "English",
+      "workdate": "1890",
+      "editiondate": "1891",
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.themorgan.org/printed-books/130859",
+      "date_evidence_excerpt": "first published in book form by Ward, Lock & Co., London, 1891.",
+      "historical_date_note": "PG has preface and twenty chapters, matching expanded 1891 book structure, not shorter 1890 serial; exact printing unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/174/pg174.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg174.txt",
+      "sha256": "38f36b510417177aa87a6a24c968e3ec63a447b7df36a9c1a7c5a3f2d9e51547",
+      "bytes": 465814,
+      "retrieved_utc": "2026-10-25T04:04:37.906870+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/174",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg174.html",
+      "metadata_sha256": "fc149527e847e4f3ebcd6ea86bbe5fea8f785e787acd7a89bca6a00bb9ceb58f",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_a.webtool.json",
+          "bytes": 34557,
+          "sha256": "8e41dc9407ab3f2b3022eb96c3c8b048c938e68af3dfda4adaca7fc1e545bb4d"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 905,
+        "body_end_byte": 446901,
+        "body_bytes": 445996,
+        "body_sha256": "731379923d72861e3246b307489c185ba7c316a5788ec278ec07a8a1ca6ed096"
+      },
+      "digital_release_date_not_historical": "October 1, 1994 [eBook #174]",
+      "digital_update_date_not_historical": "September 17, 2025",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 345,
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "language": "English",
+      "workdate": "1897",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://rosenbach.org/wp-content/uploads/2021/05/Dracula-and-Vampire-Literature-Guide-20210420.pdf",
+      "date_evidence_excerpt": "Dracula. Westminster: Archibald Constable and Company, 1897.",
+      "historical_date_note": "PG carries 1897 copyright but undated Grosset & Dunlap imprint. Copyright date is not asserted to be this printing date.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/345/pg345.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg345.txt",
+      "sha256": "96cd16eacdbfebae8fdda5591f66e0cc8ee76be18e0cd1aca02bc00615782d28",
+      "bytes": 890348,
+      "retrieved_utc": "2026-10-25T04:04:42.494776+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/345",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg345.html",
+      "metadata_sha256": "87f01c1442d2db1a126fff64ca6ed609d1472b208857f08b9c3d7805d6f963e4",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_c.webtool.json",
+          "bytes": 33388,
+          "sha256": "0014555cdcd0e4fccb3d4406ff402c69a05b0ec71c7cf1a01efb802ae6b59548"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 865,
+        "body_end_byte": 871454,
+        "body_bytes": 870589,
+        "body_sha256": "0626d5335f4e2f1a9f364d96e3295bd79cc59035e4f4528aa952dcdad07f15c2"
+      },
+      "digital_release_date_not_historical": "October 1, 1995 [eBook #345]",
+      "digital_update_date_not_historical": "September 24, 2025",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 76,
+      "title": "Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "language": "English",
+      "workdate": "1884",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://loc.gov/exhibits/america-reads/1750-to-1899.html",
+      "date_evidence_excerpt": "London: Chatto & Windus, Piccadilly, 1884.",
+      "historical_date_note": "First English publication; US first edition is 1885. PG source printing unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg76.txt",
+      "sha256": "d617a37aa7ae1e1a93dcde2634db2bccb86824e31e29a55230bdbf77d6872d59",
+      "bytes": 622460,
+      "retrieved_utc": "2026-10-25T04:04:42.566296+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/76",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg76.html",
+      "metadata_sha256": "a5950ed363c28e2bc4c2e908b94172191752b026b47ab3cfeaa367741fb7b8be",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_b.webtool.json",
+          "bytes": 33373,
+          "sha256": "66092f7f9a3ad243274c16be8ff93d429413a379fbce6803f67dfc9db2cb75d4"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 908,
+        "body_end_byte": 603543,
+        "body_bytes": 602635,
+        "body_sha256": "861d0d5fe1e576b4d37c70d318f68ad8eff94b640b1c1475e0b624868bdb0813"
+      },
+      "digital_release_date_not_historical": "June 29, 2004 [eBook #76]",
+      "digital_update_date_not_historical": "May 17, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 74,
+      "title": "The Adventures of Tom Sawyer, Complete",
+      "author": "Mark Twain",
+      "language": "English",
+      "workdate": "1876",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.loc.gov/pictures/item/2006681444/",
+      "date_evidence_excerpt": "Date Created/Published: 1876.",
+      "historical_date_note": "LOC title-page artifact; exact PG printing unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg74.txt",
+      "sha256": "74d77384b123a6360db9ab58463cff8b38df8525fbdc6000c81ee388e1f3cf10",
+      "bytes": 434357,
+      "retrieved_utc": "2026-10-25T04:04:42.575023+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/74",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg74.html",
+      "metadata_sha256": "b9a2072d5e4388090f07f6366889b623719432a5c6ee3407c2a79b0ac82032ff",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_b.webtool.json",
+          "bytes": 33373,
+          "sha256": "66092f7f9a3ad243274c16be8ff93d429413a379fbce6803f67dfc9db2cb75d4"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 902,
+        "body_end_byte": 415432,
+        "body_bytes": 414530,
+        "body_sha256": "7ef2ee4ba769cd1048eeabe3fc1cc706958deffd5f88ff26f473b4e9f25b9a34"
+      },
+      "digital_release_date_not_historical": "July 1, 2004 [eBook #74]",
+      "digital_update_date_not_historical": "May 10, 2025",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 12,
+      "title": "Through the Looking-Glass",
+      "author": "Lewis Carroll",
+      "language": "English",
+      "workdate": "1872",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.themorgan.org/printed-books/78133",
+      "date_evidence_excerpt": "London : Macmillan and Co., 1872.",
+      "historical_date_note": "Evidenced title-page date only; actual issue preceded this title date in December 1871. PG Millennium Fulcrum edition unresolved; excluded. Morgan PML352454 records author inscription Christmas1871, demonstrating early availability despite1872 imprint; exclusion remains unchanged.",
+      "eligibility": "excluded",
+      "status": "excluded",
+      "exclusion_reason": "Unresolved Millennium Fulcrum Edition 1.7 label inside START/END body; possible post-1989 edition/editorial material.",
+      "rawURL": "https://www.gutenberg.org/cache/epub/12/pg12.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg12.txt",
+      "sha256": "e40a38f5da841f9fb6acc557355c447b7c2ccb56a208caf5fcf2b05081f14d42",
+      "bytes": 196534,
+      "retrieved_utc": "2026-10-25T04:04:46.050977+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/12",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg12.html",
+      "metadata_sha256": "30d0316d4bf40f770f91e421fb7085f759b1c9bb8113bd112997a8caa6eeaa9c",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_b.webtool.json",
+          "bytes": 33373,
+          "sha256": "66092f7f9a3ad243274c16be8ff93d429413a379fbce6803f67dfc9db2cb75d4"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 868,
+        "body_end_byte": 177622,
+        "body_bytes": 176754,
+        "body_sha256": "daeabbe067f0a5e13a35ba1a15cd34befc51ff1ac6d791c4ec28fa13dae9fb34"
+      },
+      "digital_release_date_not_historical": "June 25, 2008 [eBook #12]",
+      "digital_update_date_not_historical": "June 11, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 120,
+      "title": "Treasure Island",
+      "author": "Robert Louis Stevenson",
+      "language": "English",
+      "workdate": "1883",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.themorgan.org/printed-books/72350",
+      "date_evidence_excerpt": "Cassell & Company ..., 1883.",
+      "historical_date_note": "First book edition, not claiming first serial installment; PG printing unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/120/pg120.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg120.txt",
+      "sha256": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+      "bytes": 399873,
+      "retrieved_utc": "2026-10-25T04:04:46.066952+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/120",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg120.html",
+      "metadata_sha256": "6efe32e9ebd41b0b5d1dc3f2ff8090357a12865f960e8aa81c402b726527dc2e",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_c.webtool.json",
+          "bytes": 33388,
+          "sha256": "0014555cdcd0e4fccb3d4406ff402c69a05b0ec71c7cf1a01efb802ae6b59548"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 860,
+        "body_end_byte": 380971,
+        "body_bytes": 380111,
+        "body_sha256": "a4d7e4618da7f00780ccfe914b056b59996533170e0319ee51c109fda3eba74e"
+      },
+      "digital_release_date_not_historical": "February 26, 2006 [eBook #120]",
+      "digital_update_date_not_historical": "September 4, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 35,
+      "title": "The Time Machine",
+      "author": "H. G. Wells",
+      "language": "English",
+      "workdate": "1895",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.themorgan.org/printed-books/372286",
+      "date_evidence_excerpt": "London : William Heinemann, 1895.",
+      "historical_date_note": "English-language book publication; PG printing unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/35/pg35.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg35.txt",
+      "sha256": "2892e919000e17c83e1dac51b30f4675db50536b644d7579fe8a89bb399a9bdc",
+      "bytes": 204384,
+      "retrieved_utc": "2026-10-25T04:04:46.099004+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/35",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg35.html",
+      "metadata_sha256": "e11cedaaad3aefaa1504ea3f0fadc6fd788e7ef51b6e474829c04c7aea7ab994",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_c.webtool.json",
+          "bytes": 33388,
+          "sha256": "0014555cdcd0e4fccb3d4406ff402c69a05b0ec71c7cf1a01efb802ae6b59548"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 816,
+        "body_end_byte": 185481,
+        "body_bytes": 184665,
+        "body_sha256": "5653945db706fe132c6507df5f2937fb70b14e0d8bd973b95ca3f457f2d6ddd2"
+      },
+      "digital_release_date_not_historical": "October 2, 2004 [eBook #35]",
+      "digital_update_date_not_historical": "June 16, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 36,
+      "title": "The war of the worlds",
+      "author": "H. G. Wells",
+      "language": "English",
+      "workdate": "1898",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.themorgan.org/printed-books/371751",
+      "date_evidence_excerpt": "London : William Heinemann, 1898.",
+      "historical_date_note": "Morgan first-edition catalog: book1898; original serial April–December1897. Exact PG printing unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/36/pg36.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg36.txt",
+      "sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+      "bytes": 366624,
+      "retrieved_utc": "2026-10-25T04:04:52.558682+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/36",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg36.html",
+      "metadata_sha256": "1a79e5162f7c5d366ceef9e1e0398ae4c3b19e3b12c4ad77c859671fdebd5e9d",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_c.webtool.json",
+          "bytes": 33388,
+          "sha256": "0014555cdcd0e4fccb3d4406ff402c69a05b0ec71c7cf1a01efb802ae6b59548"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 832,
+        "body_end_byte": 347716,
+        "body_bytes": 346884,
+        "body_sha256": "706f656f4ef2df8705d84d6cca20d4f5ff442102a8cc7adaf64ac318d80abf87"
+      },
+      "digital_release_date_not_historical": "October 1, 2004 [eBook #36]",
+      "digital_update_date_not_historical": "March 30, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 43,
+      "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+      "author": "Robert Louis Stevenson",
+      "language": "English",
+      "workdate": "1886",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.themorgan.org/printed-books/174342",
+      "date_evidence_excerpt": "London : Longmans, Green, 1886.",
+      "historical_date_note": "Original English publication; PG printing unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/43/pg43.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg43.txt",
+      "sha256": "b43448a88391591f9cf82b25553df00faf47a2752a873185fcdd1156eebdb990",
+      "bytes": 163495,
+      "retrieved_utc": "2026-10-25T04:04:52.618627+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/43",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg43.html",
+      "metadata_sha256": "99234bc0a560cc643c084899300f09aae752121de25f4b34242f87e3740a899c",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/searchdates8.webtool.json",
+          "bytes": 31261,
+          "sha256": "5c3d149e9d3291f9811dec719ab2e89950bd400e91378bd82333ddba1d761fc2"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 930,
+        "body_end_byte": 144565,
+        "body_bytes": 143635,
+        "body_sha256": "988964369426e6698bfa412ff9b8b5a811172c1751004d4cd3cf10275ea1fa36"
+      },
+      "digital_release_date_not_historical": "June 27, 2008 [eBook #43]",
+      "digital_update_date_not_historical": "May 12, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 219,
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "language": "English",
+      "workdate": "1902",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://catalogue.bnf.fr/ark:/12148/cb11936152f",
+      "date_evidence_excerpt": "Date de l’oeuvre : 1902",
+      "historical_date_note": "Evidence currently establishes 1902 book publication, not first serialization (1899); PG printing unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/219/pg219.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg219.txt",
+      "sha256": "1bcdf0a1ac611dd6b70a20d100a07085754da4e90a949d6031717b86cd6d020a",
+      "bytes": 237074,
+      "retrieved_utc": "2026-10-25T04:04:52.666834+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/219",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg219.html",
+      "metadata_sha256": "b540beab3c5ec3d75c981db29a105be6b0c06d20e82f9b0bea008a833bf248a9",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/219_work.html",
+          "bytes": 60271,
+          "sha256": "b5c3feca5301b0c9f9a7ccdd92719d29fb9131b216a7d6351e5d0c489a0b08bf"
+        },
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/searchdates6.webtool.json",
+          "bytes": 32669,
+          "sha256": "749c347e965d90b6f679e681eb8bf94941b33a2a1a2a122e5f34ed6a21b2b292"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 867,
+        "body_end_byte": 218170,
+        "body_bytes": 217303,
+        "body_sha256": "3fda3261811f400bd426d2fb673820354e670ba1b5cbc9ca2bdf2576684438d7"
+      },
+      "digital_release_date_not_historical": "January 9, 2006 [eBook #219]",
+      "digital_update_date_not_historical": "October 10, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 203,
+      "title": "Uncle Tom's Cabin",
+      "author": "Harriet Beecher Stowe",
+      "language": "English",
+      "workdate": "1852",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://loc.gov/exhibits/america-reads/1750-to-1899.html",
+      "date_evidence_excerpt": "Boston: John P. Jewett & Company, 1852.",
+      "historical_date_note": "First book publication; serial began 1851. PG printing unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/203/pg203.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg203.txt",
+      "sha256": "95e4ce1153f8506d9903df84541cfa99c8ac6ad3ad69bcf5ea37d042d01a0a98",
+      "bytes": 1079453,
+      "retrieved_utc": "2026-10-25T04:04:56.036783+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/203",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg203.html",
+      "metadata_sha256": "53dfc0fc8d2e8647bbb065430453378697728d3506c254554280ca06d293b670",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/searchdates8.webtool.json",
+          "bytes": 31261,
+          "sha256": "5c3d149e9d3291f9811dec719ab2e89950bd400e91378bd82333ddba1d761fc2"
+        },
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_b.webtool.json",
+          "bytes": 33373,
+          "sha256": "66092f7f9a3ad243274c16be8ff93d429413a379fbce6803f67dfc9db2cb75d4"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 900,
+        "body_end_byte": 1060549,
+        "body_bytes": 1059649,
+        "body_sha256": "4c87d09d369cb218bb134c7c624f10d69020aa5da617c9b8212f684b80ef2805"
+      },
+      "digital_release_date_not_historical": "January 13, 2006 [eBook #203]",
+      "digital_update_date_not_historical": "January 13, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 1260,
+      "title": "Jane Eyre: An Autobiography",
+      "author": "Charlotte Brontë",
+      "language": "English",
+      "workdate": "1847",
+      "editiondate": "1897",
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.themorgan.org/printed-books/72468",
+      "date_evidence_excerpt": "London : Smith, Elder, and Co., Cornhill, 1847.",
+      "historical_date_note": "PG title page identifies Service & Paton illustrated edition, 1897; original author prefaces retained.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/1260/pg1260.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg1260.txt",
+      "sha256": "13414dee2951c3ee731d76d2ffd822016b2479c892162760c5d0eb2aa5fa7631",
+      "bytes": 1084803,
+      "retrieved_utc": "2026-10-25T04:04:56.162632+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/1260",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg1260.html",
+      "metadata_sha256": "49b241236045c4e1592cf5c6f9a60b055a4ab4a7c99d55c64e66f7af5ccb82fd",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/searchdates6.webtool.json",
+          "bytes": 32669,
+          "sha256": "749c347e965d90b6f679e681eb8bf94941b33a2a1a2a122e5f34ed6a21b2b292"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": true,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 917,
+        "body_end_byte": 1065889,
+        "body_bytes": 1064972,
+        "body_sha256": "8936fc05658f44902b40c56ca5478388684005dfe2aa04f2622e1324e4ba2108"
+      },
+      "digital_release_date_not_historical": "March 1, 1998 [eBook #1260]",
+      "digital_update_date_not_historical": "September 27, 2025",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 768,
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "language": "English",
+      "workdate": "1847",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://static-prod.lib.princeton.edu/scsites/parrish/4-Brontes.pdf",
+      "date_evidence_excerpt": "Cautley Newby, 1847.",
+      "historical_date_note": "Primary institutional rare-book catalog; PG exact printing unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/768/pg768.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg768.txt",
+      "sha256": "e533fe750589f0421d5d744576315f5c2b9b0d69e981179ea0551bbf134c5e02",
+      "bytes": 693819,
+      "retrieved_utc": "2026-10-25T04:04:56.165529+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/768",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg768.html",
+      "metadata_sha256": "04878056bfabce66b4557c15891d24049913aff78b54ba025f7aab290d86cda9",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/768_work.pdf",
+          "bytes": 192883,
+          "sha256": "9a063eb62a4915537437f610a94ef55def9c354d8c6e5465277c2bec6c442bb1"
+        },
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/768_work.extracted.txt",
+          "bytes": 60720,
+          "sha256": "a501f276318d1cb010ce64bb706925d8fedfd84f707f4ef72fd4f5c5dc39e867"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 846,
+        "body_end_byte": 674915,
+        "body_bytes": 674069,
+        "body_sha256": "1bc56a92ca21b98740a44d09d71675605a9e9e6f68de0d27d58e78b807d0f12d"
+      },
+      "digital_release_date_not_historical": "December 1, 1996 [eBook #768]",
+      "digital_update_date_not_historical": "May 6, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 1080,
+      "title": "A Modest Proposal",
+      "author": "Jonathan Swift",
+      "language": "English",
+      "workdate": "1729",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://catalogue.nli.ie/Record/vtls000193222",
+      "date_evidence_excerpt": "Dublin : printed by S. Harding, 1729.",
+      "historical_date_note": "PG title material also states 1729; exact PG transcription source unspecified.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg1080.txt",
+      "sha256": "331340f2ada84a7f79d756a344f6ce7d78026cd1d2359d33f79ca4a13d9f1519",
+      "bytes": 39645,
+      "retrieved_utc": "2026-10-25T04:05:02.239040+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/1080",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg1080.html",
+      "metadata_sha256": "80397f3e9d5eb980412a2600977997568832bddb35abe3d8fbaa91abca484cbd",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/searchdates7.webtool.json",
+          "bytes": 31887,
+          "sha256": "206e33e28dffa0e619cb5613f017ca2b869ea1e95629c0bd2e7c6419d6b793a9"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 883,
+        "body_end_byte": 20741,
+        "body_bytes": 19858,
+        "body_sha256": "9b91a981ad52bf687d9a12e236a1e5a370cdcf7962f3d744efb28e01cc5e2d1f"
+      },
+      "digital_release_date_not_historical": "October 1, 1997 [eBook #1080]",
+      "digital_update_date_not_historical": "September 28, 2025",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 23,
+      "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+      "author": "Frederick Douglass",
+      "language": "English",
+      "workdate": "1845",
+      "editiondate": "1845",
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.gutenberg.org/cache/epub/23/pg23.txt",
+      "date_evidence_excerpt": "PUBLISHED AT THE ANTI-SLAVERY OFFICE",
+      "historical_date_note": "PG reproduces 1845 title/copyright but embeds a 1992 electronic-release note inside body; excluded.",
+      "eligibility": "excluded",
+      "status": "excluded",
+      "exclusion_reason": "1992 electronic-release commemoration note inside START/END body.",
+      "rawURL": "https://www.gutenberg.org/cache/epub/23/pg23.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg23.txt",
+      "sha256": "234c15348a66919bad1d534cdd48ee8ddf91f50115a706cbefaa8edd049672fd",
+      "bytes": 249061,
+      "retrieved_utc": "2026-10-25T04:05:02.315470+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/23",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg23.html",
+      "metadata_sha256": "20992b76f65d216542516b3e5c27f905f790736defce0ff3825a3d4ec56c6acb",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/body_bibliographic_inspection.json",
+          "bytes": 61697,
+          "sha256": "236018ef54b4a38e3ba55c094ee88cafb4f9862f483266c009397c523ee44a50"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": true,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 1014,
+        "body_end_byte": 230112,
+        "body_bytes": 229098,
+        "body_sha256": "2b59091e1974d70ff25dc6423355f717f946db8d63d965a53aa22d7e2191f017"
+      },
+      "digital_release_date_not_historical": "January 12, 2006 [eBook #23]",
+      "digital_update_date_not_historical": "July 18, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 205,
+      "title": "Walden, and On The Duty Of Civil Disobedience",
+      "author": "Henry David Thoreau",
+      "language": "English",
+      "workdate": "1854",
+      "editiondate": null,
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://loc.gov/exhibits/america-reads/1750-to-1899.html",
+      "date_evidence_excerpt": "Boston: Ticknor and Fields, 1854.",
+      "historical_date_note": "Contains Walden (1854) AND On the Duty of Civil Disobedience, originally Resistance to Civil Government (1849). Source edition/combination unspecified; both historical works evidenced. Compilation date is not established; retain document boundary and do not treat a cross-work boundary as proof of historical co-occurrence.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/205/pg205.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg205.txt",
+      "sha256": "2d9a76a2e3e8195c69430516ebd33c4d0757a53ad432ff6186b7b794e6fe99f9",
+      "bytes": 667957,
+      "retrieved_utc": "2026-10-25T04:05:02.351360+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/205",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg205.html",
+      "metadata_sha256": "cd1d47c4a6a4952e953d43d2fbe10ee26a79edd8656750f0b7fb15715608c2c4",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "component_work_dates": [
+        {
+          "title": "Walden",
+          "date": "1854",
+          "source": "https://loc.gov/exhibits/america-reads/1750-to-1899.html"
+        },
+        {
+          "title": "Resistance to Civil Government (On the Duty of Civil Disobedience)",
+          "date": "1849",
+          "source": "https://utc.iath.virginia.edu/saxon/servlet/SaxonServlet?clear-stylesheet-cache=yes&source=utc%2Fxml%2Fpretexts%2Fabolitn%2Fabeshdta.xml&style=utc%2Fxsl%2Fabout.xsl"
+        }
+      ],
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/searchdates8.webtool.json",
+          "bytes": 31261,
+          "sha256": "5c3d149e9d3291f9811dec719ab2e89950bd400e91378bd82333ddba1d761fc2"
+        },
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_d.webtool.json",
+          "bytes": 30115,
+          "sha256": "7142496c1e332bb8b8dea703039e3a6bcf2252ccee0d2b7613fea90d9502951b"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 959,
+        "body_end_byte": 649025,
+        "body_bytes": 648066,
+        "body_sha256": "2159e67243a412d95df01c741305a5961df3bcd97d2fa8f4e888272976f2e36a"
+      },
+      "digital_release_date_not_historical": "January 1, 1995 [eBook #205]",
+      "digital_update_date_not_historical": "February 20, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 1232,
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "language": "English",
+      "workdate": "1532",
+      "editiondate": "1908",
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://ci.nii.ac.jp/ncid/BA19419516.amp?l=en",
+      "date_evidence_excerpt": "J.M. Dent , E.P. Dutton, 1908",
+      "historical_date_note": "Original Italian print1532; English eligibility rests on W. K. Marriott translation1908, not1532. Introduction and supplemental pieces retained as supplied; exact PG printing is unidentified and literal passages need historical checking.",
+      "eligibility": "eligible_historical_work",
+      "status": "eligible_source_provenance_ready_for_independent_audit",
+      "exclusion_reason": null,
+      "rawURL": "https://www.gutenberg.org/cache/epub/1232/pg1232.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg1232.txt",
+      "sha256": "33496a305f7a4b933784fb5aec95f920fbc3d4687794817e4cc444aa6578d2e4",
+      "bytes": 308019,
+      "retrieved_utc": "2026-10-25T04:05:05.194867+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/1232",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg1232.html",
+      "metadata_sha256": "85efb86729971b844494925bbcd0a5e7954cf70045645f2eb4ee099a1e0948d8",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "translator": "W. K. Marriott",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/1232_translation.html",
+          "bytes": 96588,
+          "sha256": "3d2abe148330287313e7507533e744c5a8ca62b86faa41345cb9bb7345358d2f"
+        },
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/primary_catalogs_d.webtool.json",
+          "bytes": 30115,
+          "sha256": "7142496c1e332bb8b8dea703039e3a6bcf2252ccee0d2b7613fea90d9502951b"
+        },
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/prince_original_date.webtool.json",
+          "bytes": 29900,
+          "sha256": "5e3439553390ca5e1739c6166591085cc1a5a046dceb7d1926fb4a9586b823f6"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 893,
+        "body_end_byte": 289122,
+        "body_bytes": 288229,
+        "body_sha256": "b4167d1fd805fb7bb93fd8a0f8af9943dffb03bb4f221dc678a3775f5a843545"
+      },
+      "digital_release_date_not_historical": "February 11, 2006 [eBook #1232]",
+      "digital_update_date_not_historical": "July 24, 2026",
+      "original_language": "Italian",
+      "original_publication_evidence": {
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb30853370h",
+        "excerpt": "Publication : Roma : Antonio Blado d’Asola, 1532",
+        "kind": "Primary holding catalog of original printed edition including the two supplemental works."
+      },
+      "translationdate": "1908",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 1228,
+      "title": "On the Origin of Species By Means of Natural Selection",
+      "author": "Charles Darwin",
+      "language": "English",
+      "workdate": "1859",
+      "editiondate": "1859",
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.gutenberg.org/cache/epub/1228/pg1228.txt",
+      "date_evidence_excerpt": "JOHN MURRAY, ALBEMARLE STREET.\n1859.",
+      "historical_date_note": "This fixed ID is FIRST edition, not sixth. Modern PG edition-selection notice inside body; excluded.",
+      "eligibility": "excluded",
+      "status": "excluded",
+      "exclusion_reason": "Modern Project Gutenberg edition-selection/linking notice inside START/END body.",
+      "rawURL": "https://www.gutenberg.org/cache/epub/1228/pg1228.txt",
+      "path": "/workspace/shared/candidate-first-054/data/pg/raw/pg1228.txt",
+      "sha256": "362142cb7c6f90850477520cfe2a62fe423ae92ea8eb6d9cd8b30ddb39de60b9",
+      "bytes": 970611,
+      "retrieved_utc": "2026-10-25T04:05:05.219028+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/1228",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg1228.html",
+      "metadata_sha256": "d269c1671b2b2af8debc9274ab0d3644f5b4b9a7b758d1cea826dd62a1048266",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": true,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/body_bibliographic_inspection.json",
+          "bytes": 61697,
+          "sha256": "236018ef54b4a38e3ba55c094ee88cafb4f9862f483266c009397c523ee44a50"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": true,
+      "body_boundary_inspection": {
+        "start_count": 1,
+        "end_count": 1,
+        "body_start_byte": 978,
+        "body_end_byte": 951670,
+        "body_bytes": 950692,
+        "body_sha256": "7124fc713f7da52adf8a10fda02eaa9a9a3e1f16cd622e4abe85f9d6e3d97686"
+      },
+      "digital_release_date_not_historical": "March 1, 1998 [eBook #1228]",
+      "digital_update_date_not_historical": "October 6, 2026",
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    },
+    {
+      "pgid": 5001,
+      "title": "Relativity : the Special and General Theory",
+      "author": "Albert Einstein",
+      "language": "English",
+      "workdate": null,
+      "editiondate": "1920",
+      "date_precision": "year; null means not established, no invented exact day",
+      "dateevidenceURL": "https://www.gutenberg.org/ebooks/5001",
+      "date_evidence_excerpt": "Original Publication Methuen & Co Ltd, 1920",
+      "historical_date_note": "Lawson English translation; official catalog currently supplies no plain-text format and linked files index has no current .txt; exclude without substitution.",
+      "eligibility": "excluded",
+      "status": "excluded",
+      "exclusion_reason": "No current official plaintext link; canonical .txt returned404; linked files directory has only HTML and old directory. No HTML conversion or substitute ID.",
+      "rawURL": "https://www.gutenberg.org/cache/epub/5001/pg5001.txt",
+      "path": null,
+      "sha256": null,
+      "bytes": 0,
+      "retrieved_utc": "2026-10-25T04:05:05.224262+00:00",
+      "metadataURL": "https://www.gutenberg.org/ebooks/5001",
+      "metadata_path": "/workspace/shared/candidate-first-054/data/pg/metadata/pg5001.html",
+      "metadata_sha256": "79d3f91694201fe5802aeabf24f5f6364b07dd08cb1268e2c8ba4bffaab69a28",
+      "license": {
+        "catalog_statement": "Public domain in the USA.",
+        "jurisdiction_caveat": "PG says users outside USA must check local law.",
+        "license_url": "https://www.gutenberg.org/policy/license.html",
+        "permission_url": "https://www.gutenberg.org/policy/permission.html",
+        "terms_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "pg_trademark_license_retained_in_raw": false,
+        "retained_license_snapshot_files": [
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+            "bytes": 32478,
+            "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+            "bytes": 18907,
+            "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7"
+          },
+          {
+            "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+            "bytes": 12086,
+            "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b"
+          }
+        ],
+        "terms_summary": "PG distinguishes US-public-domain book text from its trademark and compilation/license terms. Private analysis is not publication. Preserve original licensed downloads; if redistributed with PG association, follow the complete retained license, including access to the license and applicable trademark conditions. No external redistribution authorized here."
+      },
+      "exact_transcription_historical_provenance": "Not established. Current digital correction/update dates do not prove pre1990 wording; any eventual matching passage requires separate historical verification.",
+      "body_rule": "Strict bytes between unique complete conventional PG START and following END marker lines, no source-specific editorial trimming; preserve historical frontmatter; normalization deferred centrally.",
+      "translator": "Robert W. Lawson",
+      "date_evidence_receipts": [
+        {
+          "path": "/workspace/shared/candidate-first-054/data/pg/evidence/5001_files.html",
+          "bytes": 1213,
+          "sha256": "13e6f3e5ec68dccdc91398460a8c31f5b6593ab5a6b7eb24b6f7df78266e4e99"
+        }
+      ],
+      "date_evidence_interpretation": "Use only the cited primary institution/catalog or original title material; other search hits are not evidence. Web search snapshots are provider-mediated cached evidence, not original page bytes. Direct raw retrieval failures are retained in evidence_acquisition.json.",
+      "editiondate_scope": "Known historical edition or translation version where specified, not a claim that every current PG character was present in that edition.",
+      "exact_pg_printing_identified": false,
+      "body_inspection_limit": "Front/end bibliographic review plus literal editorial/date sentinel scan, not a line-by-line textual collation against a historical printed copy."
+    }
+  ],
+  "source_acquisition_completed_utc": "2026-10-25T04:11:55.108662+00:00",
+  "date_audit_status": "All20 proposed eligible works have historical work or translation evidence, with edition/transcription limitations explicit; independent parent audit still required.",
+  "normalization_status": "NOT PERFORMED by source agent. Central implementation owns ASCII normalization and reversible offset map.",
+  "editorial_rule": "Exclude unresolved modern material inside START/END, no per-source trimming:12,23,1228.5001excluded for no current plaintext. No substitutions.",
+  "network_outcome_notes": [
+    "Official linked /ebooks/<id>.txt.utf-8 endpoints returned404; standard official cache URLs worked for23IDs.",
+    "5001metadata and linked files index offer no current plaintext; no old-version retrieval, HTML conversion, or alternative PG ID used.",
+    "Several official library sites denied direct raw HTML with403; public indexed primary catalog content obtained with web search and clearly labeled. National Library of New Zealand raw200 body is only an anti-bot challenge and is NOT date evidence."
+  ]
+}

@@ -1,0 +1,922 @@
+{
+  "controls": [
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C001",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-AZ-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/austen-emma.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C002",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-AZ-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1789-Washington.txt",
+      "source_window_start": 3486
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C003",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-AZ-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/00035",
+      "source_window_start": 141228
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C004",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-AZ-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/carroll-alice.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C005",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-AZ-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1817-Monroe.txt",
+      "source_window_start": 8039
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C006",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-AZ-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/00120",
+      "source_window_start": 275827
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C007",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-AZ-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/shakespeare-caesar.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C008",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-AZ-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1845-Polk.txt",
+      "source_window_start": 11689
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C009",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-AZ-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/01080",
+      "source_window_start": 15432
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C010",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-KR-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/bible-kjv.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C011",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-KR-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1873-Grant.txt",
+      "source_window_start": 3066
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C012",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-KR-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/00036",
+      "source_window_start": 266256
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C013",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-KR-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/chesterton-thursday.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C014",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-KR-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1901-McKinley.txt",
+      "source_window_start": 5409
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C015",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-KR-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/00174",
+      "source_window_start": 331384
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C016",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-KR-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/whitman-leaves.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C017",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-KR-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1929-Hoover.txt",
+      "source_window_start": 8867
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C018",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "AZ-KR-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/01232",
+      "source_window_start": 224194
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C019",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-AZ-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/burgess-busterbrown.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C020",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-AZ-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1957-Eisenhower.txt",
+      "source_window_start": 3547
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C021",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-AZ-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/00043",
+      "source_window_start": 107364
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C022",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-AZ-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/milton-paradise.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C023",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-AZ-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1985-Reagan.txt",
+      "source_window_start": 5715
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C024",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-AZ-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/00203",
+      "source_window_start": 765179
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C025",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-AZ-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/austen-sense.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C026",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-AZ-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1809-Madison.txt",
+      "source_window_start": 2815
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C027",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-AZ-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/01260",
+      "source_window_start": 788033
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C028",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-KR-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/chesterton-brown.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C029",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-KR-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1837-VanBuren.txt",
+      "source_window_start": 9561
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C030",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-KR-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/00074",
+      "source_window_start": 300998
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C031",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-KR-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/shakespeare-macbeth.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C032",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-KR-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1865-Lincoln.txt",
+      "source_window_start": 1522
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C033",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-KR-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/00205",
+      "source_window_start": 496613
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "start",
+      "hit_count": 1,
+      "id": "C034",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-KR-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_gutenberg",
+      "source_document_id": "nltk/gutenberg/bryant-stories.txt",
+      "source_window_start": 0
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "interior",
+      "hit_count": 1,
+      "id": "C035",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-KR-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "nltk_inaugural",
+      "source_document_id": "nltk/inaugural/1893-Cleveland.txt",
+      "source_window_start": 5044
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": "end",
+      "hit_count": 1,
+      "id": "C036",
+      "kind": "planted_positive",
+      "passed": true,
+      "planted_full_key_plaintext_exact": true,
+      "planted_hit_recovered": true,
+      "planted_tableau_id": "KR-KR-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": "project_gutenberg",
+      "source_document_id": "pg/01342",
+      "source_window_start": 563827
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C037",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "AZ-AZ-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C038",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "AZ-AZ-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C039",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "AZ-AZ-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C040",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "AZ-KR-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C041",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "AZ-KR-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C042",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "AZ-KR-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C043",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "KR-AZ-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C044",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "KR-AZ-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C045",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "KR-AZ-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C046",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "KR-KR-vigenere",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C047",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "KR-KR-beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    },
+    {
+      "additional_hits_beyond_planted": 0,
+      "boundary_case": null,
+      "hit_count": 0,
+      "id": "C048",
+      "kind": "random_absent",
+      "passed": true,
+      "planted_full_key_plaintext_exact": false,
+      "planted_hit_recovered": false,
+      "planted_tableau_id": "KR-KR-variant_beaufort",
+      "reference_and_crypto_integrity_passed": true,
+      "source_collection": null,
+      "source_document_id": null,
+      "source_window_start": null
+    }
+  ],
+  "document_count": 89,
+  "elapsed_seconds": 8.273579120635986,
+  "freeze_sha256": "a126bd9f465ca26e31aee0f307fba461426e19cd66f7c9466e354a8f924c5170",
+  "normalized_letters": 17627735,
+  "receipts": {
+    "results/controls/C001.json": {
+      "bytes": 377659,
+      "sha256": "2ac50253159f1af92af6b7cd1052146b67d9a89fd312a356b7e7776a61aabd9c"
+    },
+    "results/controls/C002.json": {
+      "bytes": 377907,
+      "sha256": "1bb68bf368b1d6ac04278597529f066510a5be49ec1839bf9427848a1ee0fe7d"
+    },
+    "results/controls/C003.json": {
+      "bytes": 377736,
+      "sha256": "2cbad17de45045be17bd804386f041923e30f12b3f6ea56f848454e8c907f1c7"
+    },
+    "results/controls/C004.json": {
+      "bytes": 377650,
+      "sha256": "aa3f81396501212e9a623ca38fde3118263b0da9dcf41f30f617ba9724dc42c8"
+    },
+    "results/controls/C005.json": {
+      "bytes": 377894,
+      "sha256": "8f1f0505f15c19ab5f0b80efe27d855616cd99d01dc3b3af5e6d70d50d4e8477"
+    },
+    "results/controls/C006.json": {
+      "bytes": 377746,
+      "sha256": "6f70f73faee0d7e0ccf497e2763836fa2295c80e2239749a62a65d7487751a19"
+    },
+    "results/controls/C007.json": {
+      "bytes": 377720,
+      "sha256": "41df584bdfb82aa8b8836b997271707861ef69b553bdd701d453e804d4ccd533"
+    },
+    "results/controls/C008.json": {
+      "bytes": 377911,
+      "sha256": "afad2e6c1971c50265dc0e59a74cadb63a2296f5354bb9bcc32a333fdb46d6c9"
+    },
+    "results/controls/C009.json": {
+      "bytes": 377754,
+      "sha256": "8581174f51ec7983d16fa34a871a1393956b9b900ae9fda8991f9fe9662455d7"
+    },
+    "results/controls/C010.json": {
+      "bytes": 377654,
+      "sha256": "aa59ccfb5e0bb214c6bbf9e36c8f9e658762bcfef41dfca5d61c81b7c726b880"
+    },
+    "results/controls/C011.json": {
+      "bytes": 377908,
+      "sha256": "a104b3b9bca2421776722a289b135ac13f3353d04c57c2fc6899569af6273727"
+    },
+    "results/controls/C012.json": {
+      "bytes": 377770,
+      "sha256": "987ecdc7518635f22ea976a8d71c4905198c627d256ef8a60c73054d0cfa728e"
+    },
+    "results/controls/C013.json": {
+      "bytes": 377645,
+      "sha256": "64cd933f317b90d17831f7d138f1df37490d8a43d298bed9449da27d9aa4d95c"
+    },
+    "results/controls/C014.json": {
+      "bytes": 377901,
+      "sha256": "e28c494d8e38f1de52a9198391318214b9e6b014eb37f3e82f23f7270a75637c"
+    },
+    "results/controls/C015.json": {
+      "bytes": 377759,
+      "sha256": "75614a68203588d8b57e10db31c8bc9c43e85a36eac724b11b44efcc098f3ae6"
+    },
+    "results/controls/C016.json": {
+      "bytes": 377767,
+      "sha256": "bae815d6d468ddd8606fd65ae2c45f06b01499263407eae8dd360703a64d9253"
+    },
+    "results/controls/C017.json": {
+      "bytes": 377933,
+      "sha256": "33d65d686c59d3008b5d125ba7fc308eca853e4fef51730749f4d0d720db5c4c"
+    },
+    "results/controls/C018.json": {
+      "bytes": 377756,
+      "sha256": "4139cef83cff02d03dd8bdb27f68a6d8f7c7f7d57f7abcf80c42f95bf4a0c8de"
+    },
+    "results/controls/C019.json": {
+      "bytes": 377779,
+      "sha256": "8b4af36e5e37c6848b00956f000385d015e646b5983776ee7632f781784c682d"
+    },
+    "results/controls/C020.json": {
+      "bytes": 377927,
+      "sha256": "aff4408ed4e253d6dc80d1534be144290a3d6c35ec27af9608da8e12ac3861d7"
+    },
+    "results/controls/C021.json": {
+      "bytes": 377742,
+      "sha256": "3c0bc7b30fb7ca06c7f43380325840d3558ffcd8a34415177e30221289f2a109"
+    },
+    "results/controls/C022.json": {
+      "bytes": 377731,
+      "sha256": "027083ff02dccf94e3afc218bbd9e19d4b656c65e37d21e1655d76ae35bdf840"
+    },
+    "results/controls/C023.json": {
+      "bytes": 377921,
+      "sha256": "b78357875088ea9e4da604f973e6e15674f8e197ac6a97c3b5121ec0aaa66429"
+    },
+    "results/controls/C024.json": {
+      "bytes": 377741,
+      "sha256": "03ee77b903ae4f788ab23764c663a6d46e312446ab82d322c4efef97bcabdfdc"
+    },
+    "results/controls/C025.json": {
+      "bytes": 377660,
+      "sha256": "5f58d68cc88cc7b1ab67e1ff7168db2bc2efdc6b0d1a27639b3e638f258f393d"
+    },
+    "results/controls/C026.json": {
+      "bytes": 377896,
+      "sha256": "54689df8c7a06d0f83162ac842cb00d006c205b5de636b17421209471fad5c95"
+    },
+    "results/controls/C027.json": {
+      "bytes": 377862,
+      "sha256": "28c85837ddba0785f4311ca9a4a644050e1b6f6654ba79278560d679175e3b69"
+    },
+    "results/controls/C028.json": {
+      "bytes": 377628,
+      "sha256": "e57bbd4ee9a650a9ee2a4458a7de06777c85b5fab1c75c14fea61587980bc4d4"
+    },
+    "results/controls/C029.json": {
+      "bytes": 377913,
+      "sha256": "3a6cb19ed2a27fde60f38d677bb5f794d20429b89a7ae7fe8bca0c91d5f71f31"
+    },
+    "results/controls/C030.json": {
+      "bytes": 377750,
+      "sha256": "7b056649f97559db22f3e883400d2c495e66c79e5aae7f6cf808c25c7f62aa3a"
+    },
+    "results/controls/C031.json": {
+      "bytes": 377712,
+      "sha256": "210a978a6c8f94915e533da1becdb78827b57c8925b164f632a5f899b4cf5806"
+    },
+    "results/controls/C032.json": {
+      "bytes": 377890,
+      "sha256": "cddf0e2810ef9bd0af22d32e5b94c8d4a89efb2a439e0f7aef566bbb1ed6177e"
+    },
+    "results/controls/C033.json": {
+      "bytes": 377911,
+      "sha256": "55a2bd2c92b7a6a233e1041b9bc85df3bfa9c52792bd4a2520d7fed5b22360cd"
+    },
+    "results/controls/C034.json": {
+      "bytes": 377871,
+      "sha256": "4f66ec2463e9ac547c3d4b076a95c8d205075f966564794537669d5a5e7be19d"
+    },
+    "results/controls/C035.json": {
+      "bytes": 377926,
+      "sha256": "b51b0e8adeb98f97a60da20efeb266681b439c0fe48c47bc1f9dfe1bd8fcd312"
+    },
+    "results/controls/C036.json": {
+      "bytes": 378406,
+      "sha256": "70ffef74be04bf38940a94d4f86f123cfdcb0e71c192f4b2751071de4d8d23f5"
+    },
+    "results/controls/C037.json": {
+      "bytes": 375442,
+      "sha256": "3271c78db68bc85b36dbcc3601cdd4b5bedaed3c3fc96b0df37575f64603101f"
+    },
+    "results/controls/C038.json": {
+      "bytes": 375442,
+      "sha256": "69e4f2899e47980a54c17fa72232fbef5a974c7d837bb2efe447205e1976b2d4"
+    },
+    "results/controls/C039.json": {
+      "bytes": 375466,
+      "sha256": "a697783507c4ea81ed4b91c18cf3d48991b4d9cc266e24c1b1310aac4fdba7e8"
+    },
+    "results/controls/C040.json": {
+      "bytes": 375442,
+      "sha256": "613d4e4926b80e7a685a588cda964aa981980b38eb634ecfb96352941e226029"
+    },
+    "results/controls/C041.json": {
+      "bytes": 375442,
+      "sha256": "f8d559aec044297daec4be5222d3b2f6caba3e96f081c0564f4177f24feb54b6"
+    },
+    "results/controls/C042.json": {
+      "bytes": 375466,
+      "sha256": "b31888589a9cefc4cb4235af1138e7064c9efc2038540588f7ef0f923e08e093"
+    },
+    "results/controls/C043.json": {
+      "bytes": 375442,
+      "sha256": "16e821ba67d15810fb01e19d0c09a91e49ccc989c28414b3eceb4d5d3055e20f"
+    },
+    "results/controls/C044.json": {
+      "bytes": 375442,
+      "sha256": "d97d56032ac4da499bcde914bf24ccc31c9e2f91321f75d9b5f0eeb746799ea1"
+    },
+    "results/controls/C045.json": {
+      "bytes": 375466,
+      "sha256": "88f7afa717c649dba8c1ea4c5a024cc668f7902e941cb387b54845f3cb84c799"
+    },
+    "results/controls/C046.json": {
+      "bytes": 375442,
+      "sha256": "bd887985cd9e20e16f31fef09240f0b1bb2ab0bbdc08305bf941c1326b13ffba"
+    },
+    "results/controls/C047.json": {
+      "bytes": 375442,
+      "sha256": "77b1a8628e0fefc9f919d70df8d1726b3b267de52e46994054da773b8260340b"
+    },
+    "results/controls/C048.json": {
+      "bytes": 375466,
+      "sha256": "86f44965ed37ac27a2035818839c08768e8aac09abf526959e8f109a7a2f2ed5"
+    }
+  }
+}

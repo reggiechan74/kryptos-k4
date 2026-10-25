@@ -1,0 +1,2791 @@
+{
+  "schema_version": "nltk-date-evidence-1",
+  "experiment": "candidate-first-054",
+  "created_at_utc": "2026-10-25T04:11:28.799239+00:00",
+  "scope": "Bibliographic historical eligibility of frozen NLTK corpus documents only; no corpus additions, source-text searching, K4/crib access, scoring, or scorer/code changes.",
+  "cutoff": {
+    "exclusive_date": "1990-01-01",
+    "meaning": "The English work or known English translation must historically predate 1990. This is not a certification that all bytes of the modern digital transcription existed before 1990."
+  },
+  "eligibility_policy": {
+    "include": "Original-English classic or specifically identified historical English translation with dated library/primary/official evidence; exact modern transcription edition may remain unknown if disclosed.",
+    "exclude": "Post-cutoff speeches; unknown historical work date; unidentified or modern translation.",
+    "nltk_bracket_years": "Metadata only. Never automatically treated as first-publication dates or exact transcription-edition dates.",
+    "inaugural": "51 filename years <=1989 admitted using official historical collection-span and endpoint evidence; nine filename years >=1993 excluded. Collection-level corroboration, not 51 individual transcription audits."
+  },
+  "source_snapshot": {
+    "nltk_data_commit": "550b6625bcef1f2abff2ff770a5a0d272c9c6b2a",
+    "source_receipts_file": "/workspace/shared/candidate-first-053/data/SOURCE_RECEIPTS.json",
+    "source_receipts_sha256": "2dcb86f8b0ee39e983758632487de9d46e9f207c0726fd593fb1c55c6677251e",
+    "source_archives_unchanged": true
+  },
+  "summary": {
+    "gutenberg_files": 18,
+    "gutenberg_included_work_level": 18,
+    "inaugural_files": 60,
+    "inaugural_included_work_level": 51,
+    "inaugural_excluded": 9,
+    "total_included": 69,
+    "total_excluded": 9,
+    "total_inventoried": 78,
+    "exact_transcription_editions_verified": 0
+  },
+  "limitations": [
+    "Historical work/translation eligibility only; an exact pre-1990 text/transcription audit is not claimed.",
+    "Bibliographic sources do not prove the exact NLTK edition, punctuation, spelling, front matter, compilation boundaries, or subsequent digital corrections.",
+    "Blake is identified by author and generic NLTK collection title; historical English collections are dated, but the exact NLTK selection/compilation has not been matched.",
+    "Some catalog evidence was accessible only through search-index extraction; each such source is explicitly labeled, and direct-fetch failures were not bypassed.",
+    "No newly fetched literary or speech text is added to the corpus. Saved evidence is selected bibliographic metadata, excerpts, URLs, assertions and hashes."
+  ],
+  "evidence_bundle": {
+    "path": "evidence/SELECTED_DATE_EVIDENCE.json",
+    "sha256": "bfcf36a1a84d67b3c561557187ce2c55cdd3cda284e84332085be410ea946786",
+    "source_count": 23
+  },
+  "evidence": [
+    {
+      "id": "E01",
+      "publisher": "University of Illinois Rare Book & Manuscript Library",
+      "url": "https://exhibits.library.illinois.edu/s/rbml/item/1108",
+      "title": "Emma",
+      "excerpt": "London: Printed for John Murray, 1816.",
+      "assertion": "Catalog describes an English first-edition copy with an 1816 imprint. This is evidence of a historical edition, not a precise first-release date.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "077174d3eb610ace05a775375628980704d1ea4959c75292949377c644622b97",
+      "local_evidence_file": "evidence/E01.json",
+      "local_evidence_file_sha256": "ee3b10a0c04fa7114c9515b531b240b8443005a7d15181891d90d52882feb805"
+    },
+    {
+      "id": "E02",
+      "publisher": "University of Illinois Rare Book & Manuscript Library",
+      "url": "https://www.library.illinois.edu/rbx/wp-content/uploads/sites/52/2020/10/Handlistfinal.pdf",
+      "title": "Making Mr. Darcy: A Handlist, item 10 (PDF page 6)",
+      "excerpt": "London: John Murray, 1818.",
+      "assertion": "Catalog lists Northanger Abbey and Persuasion, four volumes, with an 1818 imprint and call number 823 Au7n1818. Imprint year is not asserted to be actual first-release year.",
+      "retrieval": "pdf_catalog_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "03c2483aba64a8b350866787c8569b33d445b489058ae07d51bc6bd9d6fd83fe",
+      "local_evidence_file": "evidence/E02.json",
+      "local_evidence_file_sha256": "e63ed6fd654c1331cede31a23cfcf354de41c8599188dcfb9eb5cbb575969eae"
+    },
+    {
+      "id": "E03",
+      "publisher": "Jane Austen's House",
+      "url": "https://janeaustens.house/object/the-morning-chronicle-with-announcement-of-sense-and-sensibility/",
+      "title": "Newspaper announcement of Sense and Sensibility",
+      "excerpt": "Newspaper, The Morning Chronicle, London Thursday October 31st 1811",
+      "assertion": "Museum holds the contemporary 31 October 1811 newspaper announcing Sense and Sensibility; this establishes publication by that date.",
+      "retrieval": "page_text_and_primary_object_description",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "6d02d21eec634ba15cdf29cac508fcb88dd00ce1044e243437ac54cb5ea59470",
+      "local_evidence_file": "evidence/E03.json",
+      "local_evidence_file_sha256": "40f0e427d65e8d6791beef48a14191834d4973554e7fe5a97a6a2b7a669808ec"
+    },
+    {
+      "id": "E04",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/exhibits/bibles/interactives/more/other12.html",
+      "title": "The King James Bible",
+      "excerpt": "The Holy Bible, Conteyning the Old Testament, and the New. London: Robert Barker, 1611.",
+      "assertion": "LOC identifies the English Authorized/King James translation as produced in 1611 and catalogs a 1611 Robert Barker copy, BS185 1611. Does not identify the exact edition used by NLTK.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "59c47b29aab91a50ae2d9cb256456f97d444a4e03aa2bdee5bb3585f1e6db075",
+      "local_evidence_file": "evidence/E04.json",
+      "local_evidence_file_sha256": "a47eda9b61c1e09c3e3a3b4eeaf4f8cfea863390f6151c6eaf65da861bbd0e3c"
+    },
+    {
+      "id": "E05",
+      "publisher": "Open Library / Internet Archive catalog",
+      "url": "https://openlibrary.org/books/OL24652398M/Poems_of_William_Blake",
+      "title": "Poems of William Blake, OL24652398M",
+      "excerpt": "Publish Date\n1905",
+      "assertion": "Catalog records an English collection titled Poems of William Blake, published by G. Routledge & Sons / E.P. Dutton in 1905. Contents include Songs of Innocence and Songs of Experience. This is evidence of a historical English collection, not identification of the NLTK compilation.",
+      "retrieval": "page_text_and_catalog_search_extraction",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "7db44e37f9ab5a7bcfbe1fe808547c811643f6d46e4f905849dca8baa376979c",
+      "local_evidence_file": "evidence/E05.json",
+      "local_evidence_file_sha256": "80ad5042f474b975881ff77c9b0b79b6839380c9c7c3ac814ad3256df749de27"
+    },
+    {
+      "id": "E06",
+      "publisher": "University of Toronto Libraries, Representative Poetry Online",
+      "url": "https://rpo.library.utoronto.ca/content/introduction-songs-innocence",
+      "title": "Introduction to the Songs of Innocence, bibliographic note",
+      "excerpt": "The Songs of Innocence were first engraved in 1789; the Songs of Experience in 1794.",
+      "assertion": "Library scholarly note dates the two Blake poetry collections separately. The page's modern scholarly edition reference is not the historical date of the original poems.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "fd55abcfe9de331700a852a72c315eb5cfc7a8b1790fa55b9ce66b3f0b4b56b2",
+      "local_evidence_file": "evidence/E06.json",
+      "local_evidence_file_sha256": "a1adf2caf458de34e12ab586e170f66cbd9ab6723768b2b173c5567cea99c529"
+    },
+    {
+      "id": "E07",
+      "publisher": "U.S. Department of the Interior, Bureau of Education / GovInfo",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-I16-66c1705316643c16f04ebed0df6689c4/pdf/GOVPUB-I16-66c1705316643c16f04ebed0df6689c4.pdf",
+      "title": "Stories for Young Children, Library Leaflet No. 6, July 1919, bibliography item 20",
+      "excerpt": "Houghton, Mifflin and company [1907]",
+      "assertion": "Contemporary government library bibliography lists Sara Cone Bryant's Stories to tell to children; fifty-one stories with some suggestions for telling, with a [1907] edition date. Establishes a historical English edition; does not establish the NLTK header's 1918 edition.",
+      "retrieval": "pdf_catalog_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "2c51762d1582b436515fc1cef863d7726388cdb74f475658fc6c6d7670c68e64",
+      "local_evidence_file": "evidence/E07.json",
+      "local_evidence_file_sha256": "33b00225c5201c7a6efd89cf90f9a016e692e4c05285726688e47eb75f31f002"
+    },
+    {
+      "id": "E08",
+      "publisher": "National Library of New Zealand",
+      "url": "https://natlib.govt.nz/records/21929626",
+      "title": "Buster Bear, bibliographic record 21929626",
+      "excerpt": "Originally published under the title: The adventures of Buster Bear. Boston : Little, Brown, and Co.,1916.",
+      "assertion": "National-library catalog note states the original English title and 1916 Boston publication. NLTK filename says busterbrown but its header says The Adventures of Buster Bear; eligibility follows the title, not the misleading filename.",
+      "retrieval": "search_index_catalog_extraction_only; direct fetch unavailable (cache miss / Incapsula), no bypass attempted",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "8202930e07c1d499259fc64c0be10608b39773662b6a6a786f75ad4c091f9e84",
+      "local_evidence_file": "evidence/E08.json",
+      "local_evidence_file_sha256": "6d1e12cdb7f5cd64811f5742986b96f0e048ae3e64a75aa1679d1a1514bfafb9"
+    },
+    {
+      "id": "E09",
+      "publisher": "State Library Victoria",
+      "url": "https://www.slv.vic.gov.au/get-involved/first-edition-alices-adventures-wonderland",
+      "title": "First edition of Alice's Adventures in Wonderland",
+      "excerpt": "published in London in December 1865 (dated 1866)",
+      "assertion": "Library identifies a first English edition published in December 1865 with an 1866 date. Supports historical English work, without asserting the NLTK transcription reproduces this particular edition.",
+      "retrieval": "page_text_and_catalog_search_extraction",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "117a1373c357628c6dbb186b2ad62e698a4aec1d0bb6635037531050f280a364",
+      "local_evidence_file": "evidence/E09.json",
+      "local_evidence_file_sha256": "0c0fee5c267ade5718e9bf8be9e97c465931e02fdb87cf130763ebe8becdb479"
+    },
+    {
+      "id": "E10",
+      "publisher": "Free Library of Philadelphia",
+      "url": "https://catalog.freelibrary.org/Record/2071076",
+      "title": "The ball and the cross, record 2071076",
+      "excerpt": "Published: New York : John Lane Company, 1909",
+      "assertion": "Catalog records an English 1909 John Lane Company edition, Rare Book Department, RBD ELKR 17-2-25.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "ad88001e9dd88a583ba9542941dde38c52f84a2793204f1bc1dadb6450bbf0c2",
+      "local_evidence_file": "evidence/E10.json",
+      "local_evidence_file_sha256": "e85cdc3e186d38ca92187a509fb96e20b4c32881f25e66fc68715e8cb2f5588f"
+    },
+    {
+      "id": "E11",
+      "publisher": "OCLC WorldCat",
+      "url": "https://search.worldcat.org/title/The-wisdom-of-Father-Brown/oclc/9261334",
+      "title": "The wisdom of Father Brown, OCLC 9261334",
+      "excerpt": "Print Book, English, 1914",
+      "assertion": "Catalog records an English edition published by Cassell and Company, Limited, London, 1914.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "c87853183257c22c872e5ec9c53c79b415c7cbe37f6f5ba0c522049d54aa217d",
+      "local_evidence_file": "evidence/E11.json",
+      "local_evidence_file_sha256": "302ab6b0d73a41ca6d1c7716475f34908b411e87d10701f363e20ae72e93b38b"
+    },
+    {
+      "id": "E12",
+      "publisher": "Free Library of Philadelphia",
+      "url": "https://catalog.freelibrary.org/Record/2071066",
+      "title": "The man who was Thursday: a nightmare, record 2071066",
+      "excerpt": "Published: New York : Dodd, Mead and Company, 1908",
+      "assertion": "Catalog records an English 1908 Dodd, Mead edition, Rare Book Department, RBD ELKR 17-2-24.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "3b5cd79872646aeb06a5764223fd87e03be8f57fb92084c9e4efc1bf0cbfd200",
+      "local_evidence_file": "evidence/E12.json",
+      "local_evidence_file_sha256": "3541aebeafd955dbf66bb14e402599fa98dd0e18e9ddf4a67d0d3717755978f4"
+    },
+    {
+      "id": "E13",
+      "publisher": "Eton College Collections",
+      "url": "https://catalogue.etoncollege.com/B34730",
+      "title": "The parent's assistant; or, Stories for children, B34730",
+      "excerpt": "The third edition, with additions.",
+      "assertion": "Catalog identifies Maria Edgeworth's six-volume English work, third edition with additions, London: J. Johnson / G. Woodfall, 1800; shelfmarks Ib2.3.07 and Ib2.3.08. Date is historical-edition evidence, not a first-publication claim.",
+      "retrieval": "search_index_catalog_extraction_only; direct fetch timed out",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "013992079e8ebe02f7b85d0a5bdad89641da64eaec2854496f5a6d428dfc044e",
+      "local_evidence_file": "evidence/E13.json",
+      "local_evidence_file_sha256": "94f8fae0a815c016af56de6189547b13a6a7b29f9f8b0cb06d84a5b355dd3d1f"
+    },
+    {
+      "id": "E14",
+      "publisher": "National Library of Ireland",
+      "url": "https://catalogue.nli.ie/Record/vtls000068605",
+      "title": "The parent's assistant, or Stories for children, vtls000068605",
+      "excerpt": "London : Longman & Co., 1845.",
+      "assertion": "Catalog records Maria Edgeworth's English work in a new edition, London: Longman & Co., 1845, holdings AA5497-AA5499. Independent corroboration despite missing date in NLTK header.",
+      "retrieval": "search_index_catalog_extraction_only; direct fetch cache miss",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "eaeaf04d4a5efe8af3eed67b04bb2680ac98160a00907191adb0600e4d582d9b",
+      "local_evidence_file": "evidence/E14.json",
+      "local_evidence_file_sha256": "2240e4da25db74daef6f98fb94b069e3a4728b9fd61eaebb50ab27ddca94d81b"
+    },
+    {
+      "id": "E15",
+      "publisher": "Bibliotheque nationale de France",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb120108674",
+      "title": "Moby Dick, work authority FRBNF12010867",
+      "excerpt": "Date de l'oeuvre : 1851",
+      "assertion": "National-library work authority identifies Herman Melville's Moby Dick as an English work dated 1851.",
+      "retrieval": "page_text_and_catalog_search_extraction",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "d40cd5fd19f76930d88f253e65d554717773bf7bda071957907f4d2a3f9412ec",
+      "local_evidence_file": "evidence/E15.json",
+      "local_evidence_file_sha256": "ea2cfd21f5182108ef7fb345872df6bdf9832a4d4b180d39b3f0b1a4056c9819"
+    },
+    {
+      "id": "E16",
+      "publisher": "University of Pennsylvania Libraries, The Online Books Page",
+      "url": "https://onlinebooks.library.upenn.edu/webbin/work?id=olbp99480",
+      "title": "Paradise Lost, work record olbp99480",
+      "excerpt": "The poem was first published in 10 books in 1667.",
+      "assertion": "Library work record dates the first ten-book edition to 1667 and the revised twelve-book edition to 1674. Both predate 1990; NLTK exact edition remains unknown.",
+      "retrieval": "search_index_catalog_extraction_only; direct fetch timed out",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "4e2910e90e43184b52c207bce091f1eabdf057ee5b44daae5b55256720ea926b",
+      "local_evidence_file": "evidence/E16.json",
+      "local_evidence_file_sha256": "69254f5a59c1d5c69424895f9d9db60f6154e41408097334a56ab49ec6303d5f"
+    },
+    {
+      "id": "E17",
+      "publisher": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-works/julius-caesar/",
+      "title": "Julius Caesar, Early printed texts",
+      "excerpt": "Julius Caesar was published for the first time in the 1623 First Folio",
+      "assertion": "Library dates first print to 1623. NLTK bracket year 1599 must not be treated as first publication or exact edition.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "57e29b97b91e187222ea143f965dd3cc5fcd6e3506b99b808a258404ec53a203",
+      "local_evidence_file": "evidence/E17.json",
+      "local_evidence_file_sha256": "923977ca40f89376c6eed9ee933bd72abf3d1b06fb50b5eba331a25c5efaba0d"
+    },
+    {
+      "id": "E18",
+      "publisher": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/",
+      "title": "Hamlet, Early printed texts",
+      "excerpt": "The play was first published in a quarto in 1603 (Q1)",
+      "assertion": "Library documents differing early texts: Q1 1603, Q2 1604, and First Folio 1623. NLTK bracket year 1599 is not verified first publication; exact text/edition is unresolved.",
+      "retrieval": "page_text_and_catalog_search_extraction",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "1f6e74ead19148ea6f1ddb052f48451894f1c4a06980f67457a37ee8a164dd9c",
+      "local_evidence_file": "evidence/E18.json",
+      "local_evidence_file_sha256": "969d2054875f0552344bf9dcfe6e0a6ae700999825e9e7e8291c13f279caf965"
+    },
+    {
+      "id": "E19",
+      "publisher": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/",
+      "title": "Macbeth, Early printed texts",
+      "excerpt": "Macbeth was published for the first time in the 1623",
+      "assertion": "Library dates first print to the First Folio of 1623. NLTK bracket year 1603 is not verified publication or exact edition.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "182b02bf427d5b2e73a0dea91a4769c18430a0904ad0eea31ab8b487fb2b98e4",
+      "local_evidence_file": "evidence/E19.json",
+      "local_evidence_file_sha256": "3d5c1ca5430fcf7ea6d059ba05455dad2752857831f430bd22f789377aef781f"
+    },
+    {
+      "id": "E20",
+      "publisher": "Library of Congress",
+      "url": "https://loc.gov/exhibits/whitman/leavesofgrass.html",
+      "title": "Revising Himself: Walt Whitman and Leaves of Grass",
+      "excerpt": "Whitman published the first edition of Leaves of Grass in 1855.",
+      "assertion": "LOC documents successive authorial editions through the 1891-1892 deathbed edition and emphasizes changed contents and wording. The NLTK header's 1855 does not date the complete transcription.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "2a5b6c65ff6739595842bec5d4ee930ab7295e157dd3c4277821fdb3b252a9d0",
+      "local_evidence_file": "evidence/E20.json",
+      "local_evidence_file_sha256": "8e66c3f4fb680f334c2d31a5b0f9e5e528ea238e69feef5208f677b718f54030"
+    },
+    {
+      "id": "E21",
+      "publisher": "U.S. Government Publishing Office / Law Library of Congress",
+      "url": "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+      "title": "S. Doc. 101-10, Inaugural addresses, Bicentennial edition",
+      "excerpt": "from George Washington, 1789 to George Bush, 1989. Bicentennial edition",
+      "assertion": "Official catalog describes a 1989 Senate Document containing inaugural addresses from Washington 1789 through George Bush 1989. It corroborates the historical collection span; it does not prove NLTK text is that edition's exact transcription.",
+      "retrieval": "search_index_official_catalog_extraction_only; direct fetch cache miss",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "7eb82bf51122abf59c952822affb97826a176b11083c6171dd4963f8de4c49f6",
+      "local_evidence_file": "evidence/E21.json",
+      "local_evidence_file_sha256": "286e3ce943ad5bf657b5ccf994f16c61e75953cccf375dace06cfbaf9d1b3632"
+    },
+    {
+      "id": "E22",
+      "publisher": "U.S. Government Publishing Office, GovInfo",
+      "url": "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+      "title": "Presidential Inaugural Addresses",
+      "excerpt": "Inaugural Address - Friday, January 20, 1989",
+      "assertion": "Official index labels George Bush's inaugural address 20 January 1989 and separately dates later addresses from Clinton 1993 through Trump 2025. Earlier speeches are indexed, with pre-Grant coverage referred to the official congressional inaugural collection.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "3b3e0b60abf64122a6f9fb55a3663339e99080cd37f5b3697f853e1f4b12dd8b",
+      "local_evidence_file": "evidence/E22.json",
+      "local_evidence_file_sha256": "45685c970079bc1835d2fcce5d35780f27acc8b09badfbce8aba9770910e3a59"
+    },
+    {
+      "id": "E23",
+      "publisher": "Joint Congressional Committee on Inaugural Ceremonies, U.S. Senate",
+      "url": "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/",
+      "title": "51st Inaugural Ceremonies",
+      "excerpt": "January 20, 1989",
+      "assertion": "Official Senate record identifies George H. W. Bush, the ceremony date 20 January 1989, and the inaugural-address program item. This corroborates the endpoint.",
+      "retrieval": "page_text",
+      "accessed_date_utc": "2026-10-25",
+      "saved_evidence_form": "small bibliographic metadata excerpt plus URL and source assertion, not a raw page snapshot",
+      "excerpt_sha256": "d4aa1709f3735b139d130c7d1f176db86b838542f3501e93f90969f87bc26c3c",
+      "local_evidence_file": "evidence/E23.json",
+      "local_evidence_file_sha256": "4d5a8a61eed688e589d5db55bf20eca13eb71f61e46f6b1f0806d74593b1dd64"
+    }
+  ],
+  "records": [
+    {
+      "corpus": "gutenberg",
+      "filename": "austen-emma.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/austen-emma.txt",
+      "source_sha256": "71b0923d75fcf2f1faa897b22da8de8e2476d7478a2b22388eb58a3420e00215",
+      "source_bytes": 887071,
+      "title": "Emma",
+      "author": "Jane Austen",
+      "header_metadata": {
+        "raw_first_line": "[Emma by Jane Austen 1816]",
+        "bracket_year": 1816,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1816,
+      "historical_years_corroborated": [
+        1816
+      ],
+      "evidence_ids": [
+        "E01"
+      ],
+      "source_urls": [
+        "https://exhibits.library.illinois.edu/s/rbml/item/1108"
+      ],
+      "source_assertions": [
+        "Catalog describes an English first-edition copy with an 1816 imprint. This is evidence of a historical edition, not a precise first-release date."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical English edition; imprint date, not exact first-release date",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/austen-emma.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "austen-persuasion.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/austen-persuasion.txt",
+      "source_sha256": "cec097657cbfeb62aafe178973f514fa07ab66a5e28ea025ebd5d51ca870e40f",
+      "source_bytes": 466292,
+      "title": "Persuasion",
+      "author": "Jane Austen",
+      "header_metadata": {
+        "raw_first_line": "[Persuasion by Jane Austen 1818]",
+        "bracket_year": 1818,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1818,
+      "historical_years_corroborated": [
+        1818
+      ],
+      "evidence_ids": [
+        "E02"
+      ],
+      "source_urls": [
+        "https://www.library.illinois.edu/rbx/wp-content/uploads/sites/52/2020/10/Handlistfinal.pdf"
+      ],
+      "source_assertions": [
+        "Catalog lists Northanger Abbey and Persuasion, four volumes, with an 1818 imprint and call number 823 Au7n1818. Imprint year is not asserted to be actual first-release year."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical English edition; 1818 imprint, not asserted actual first-release year",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/austen-persuasion.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "austen-sense.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/austen-sense.txt",
+      "source_sha256": "57b169c7cfa502896dee25bd66616f61cc1d21084caf31f015176ee46fda9718",
+      "source_bytes": 673022,
+      "title": "Sense and Sensibility",
+      "author": "Jane Austen",
+      "header_metadata": {
+        "raw_first_line": "[Sense and Sensibility by Jane Austen 1811]",
+        "bracket_year": 1811,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1811,
+      "historical_years_corroborated": [
+        1811
+      ],
+      "evidence_ids": [
+        "E03"
+      ],
+      "source_urls": [
+        "https://janeaustens.house/object/the-morning-chronicle-with-announcement-of-sense-and-sensibility/"
+      ],
+      "source_assertions": [
+        "Museum holds the contemporary 31 October 1811 newspaper announcing Sense and Sensibility; this establishes publication by that date."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "contemporary publication announcement dated 1811-10-31",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/austen-sense.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "bible-kjv.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/bible-kjv.txt",
+      "source_sha256": "3f56c9f0bbc796312aacc5fcb49a799f5c5f729f00db3f86bff26319a93bfede",
+      "source_bytes": 4332554,
+      "title": "Bible, King James / Authorized Version",
+      "author": "King James translation committees",
+      "header_metadata": {
+        "raw_first_line": "[The King James Bible]",
+        "bracket_year": null,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1611,
+      "historical_years_corroborated": [
+        1611
+      ],
+      "evidence_ids": [
+        "E04"
+      ],
+      "source_urls": [
+        "https://www.loc.gov/exhibits/bibles/interactives/more/other12.html"
+      ],
+      "source_assertions": [
+        "LOC identifies the English Authorized/King James translation as produced in 1611 and catalogs a 1611 Robert Barker copy, BS185 1611. Does not identify the exact edition used by NLTK."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "known historical English translation; not a modern translation",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/bible-kjv.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "blake-poems.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/blake-poems.txt",
+      "source_sha256": "840897a66e23a47dd1fd56b864f421b2be0af074dc081244f7995bf26939eee9",
+      "source_bytes": 38153,
+      "title": "Poems by William Blake (NLTK compilation title)",
+      "author": "William Blake",
+      "header_metadata": {
+        "raw_first_line": "[Poems by William Blake 1789]",
+        "bracket_year": 1789,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1905,
+      "historical_years_corroborated": [
+        1789,
+        1794,
+        1905
+      ],
+      "evidence_ids": [
+        "E05",
+        "E06"
+      ],
+      "source_urls": [
+        "https://openlibrary.org/books/OL24652398M/Poems_of_William_Blake",
+        "https://rpo.library.utoronto.ca/content/introduction-songs-innocence"
+      ],
+      "source_assertions": [
+        "Catalog records an English collection titled Poems of William Blake, published by G. Routledge & Sons / E.P. Dutton in 1905. Contents include Songs of Innocence and Songs of Experience. This is evidence of a historical English collection, not identification of the NLTK compilation.",
+        "Library scholarly note dates the two Blake poetry collections separately. The page's modern scholarly edition reference is not the historical date of the original poems."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical original-English verse; selected historical collections and a 1905 English Poems collection corroborated; exact NLTK compilation is not identified",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/blake-poems.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "bryant-stories.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/bryant-stories.txt",
+      "source_sha256": "c87f2c50a00055010f02edb6bb643aabe2473465da7f62db43cb4cda1a1c768d",
+      "source_bytes": 249439,
+      "title": "Stories to Tell to Children",
+      "author": "Sara Cone Bryant",
+      "header_metadata": {
+        "raw_first_line": "[Stories to Tell to Children by Sara Cone Bryant 1918] ",
+        "bracket_year": 1918,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1907,
+      "historical_years_corroborated": [
+        1907
+      ],
+      "evidence_ids": [
+        "E07"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-I16-66c1705316643c16f04ebed0df6689c4/pdf/GOVPUB-I16-66c1705316643c16f04ebed0df6689c4.pdf"
+      ],
+      "source_assertions": [
+        "Contemporary government library bibliography lists Sara Cone Bryant's Stories to tell to children; fifty-one stories with some suggestions for telling, with a [1907] edition date. Establishes a historical English edition; does not establish the NLTK header's 1918 edition."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical English collection/retellings; contemporaneous bibliography records [1907] edition; NLTK 1918 not independently identified",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/bryant-stories.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "burgess-busterbrown.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/burgess-busterbrown.txt",
+      "source_sha256": "7d8b1648ffeaa7268819c62852e5653f2f295528411c8c895ce3941581146331",
+      "source_bytes": 84663,
+      "title": "The Adventures of Buster Bear",
+      "author": "Thornton W. Burgess",
+      "header_metadata": {
+        "raw_first_line": "[The Adventures of Buster Bear by Thornton W. Burgess 1920]",
+        "bracket_year": 1920,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1916,
+      "historical_years_corroborated": [
+        1916
+      ],
+      "evidence_ids": [
+        "E08"
+      ],
+      "source_urls": [
+        "https://natlib.govt.nz/records/21929626"
+      ],
+      "source_assertions": [
+        "National-library catalog note states the original English title and 1916 Boston publication. NLTK filename says busterbrown but its header says The Adventures of Buster Bear; eligibility follows the title, not the misleading filename."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical English work; NLTK filename busterbrown differs from its title header Buster Bear; 1920 header does not establish exact edition",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/burgess-busterbrown.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "carroll-alice.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/carroll-alice.txt",
+      "source_sha256": "5ce9042c0d8536b072b61d4c7c4e6d70c72d9dbb5f3d816261326d9280749266",
+      "source_bytes": 144395,
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "header_metadata": {
+        "raw_first_line": "[Alice's Adventures in Wonderland by Lewis Carroll 1865]",
+        "bracket_year": 1865,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1866,
+      "historical_years_corroborated": [
+        1865,
+        1866
+      ],
+      "evidence_ids": [
+        "E09"
+      ],
+      "source_urls": [
+        "https://www.slv.vic.gov.au/get-involved/first-edition-alices-adventures-wonderland"
+      ],
+      "source_assertions": [
+        "Library identifies a first English edition published in December 1865 with an 1866 date. Supports historical English work, without asserting the NLTK transcription reproduces this particular edition."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical English edition; 1865 publication with 1866 imprint",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/carroll-alice.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "chesterton-ball.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/chesterton-ball.txt",
+      "source_sha256": "c6b6d4e8c09a3f49a09f37f4e47663d4d6f048b62d86c70ccafdfd8f27059a58",
+      "source_bytes": 457450,
+      "title": "The Ball and the Cross",
+      "author": "G. K. Chesterton",
+      "header_metadata": {
+        "raw_first_line": "[The Ball and The Cross by G.K. Chesterton 1909]",
+        "bracket_year": 1909,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1909,
+      "historical_years_corroborated": [
+        1909
+      ],
+      "evidence_ids": [
+        "E10"
+      ],
+      "source_urls": [
+        "https://catalog.freelibrary.org/Record/2071076"
+      ],
+      "source_assertions": [
+        "Catalog records an English 1909 John Lane Company edition, Rare Book Department, RBD ELKR 17-2-25."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "cataloged historical English edition",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/chesterton-ball.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "chesterton-brown.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/chesterton-brown.txt",
+      "source_sha256": "67027976205b4b30e367c704807f56c8ffac3e8ea6037d993e57ab1fe28447ec",
+      "source_bytes": 406629,
+      "title": "The Wisdom of Father Brown",
+      "author": "G. K. Chesterton",
+      "header_metadata": {
+        "raw_first_line": "[The Wisdom of Father Brown by G. K. Chesterton 1914]",
+        "bracket_year": 1914,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1914,
+      "historical_years_corroborated": [
+        1914
+      ],
+      "evidence_ids": [
+        "E11"
+      ],
+      "source_urls": [
+        "https://search.worldcat.org/title/The-wisdom-of-Father-Brown/oclc/9261334"
+      ],
+      "source_assertions": [
+        "Catalog records an English edition published by Cassell and Company, Limited, London, 1914."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "cataloged historical English edition",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/chesterton-brown.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "chesterton-thursday.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/chesterton-thursday.txt",
+      "source_sha256": "8b431a2a8db84089cd6f83fa66610c3b12c04114609df6e90137c0c58f2c5493",
+      "source_bytes": 320525,
+      "title": "The Man Who Was Thursday",
+      "author": "G. K. Chesterton",
+      "header_metadata": {
+        "raw_first_line": "[The Man Who Was Thursday by G. K. Chesterton 1908]",
+        "bracket_year": 1908,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1908,
+      "historical_years_corroborated": [
+        1908
+      ],
+      "evidence_ids": [
+        "E12"
+      ],
+      "source_urls": [
+        "https://catalog.freelibrary.org/Record/2071066"
+      ],
+      "source_assertions": [
+        "Catalog records an English 1908 Dodd, Mead edition, Rare Book Department, RBD ELKR 17-2-24."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "cataloged historical English edition",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/chesterton-thursday.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "edgeworth-parents.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/edgeworth-parents.txt",
+      "source_sha256": "543b2162782f839b9917b88956acbd7507df37c543286c16c228b36dda0cf950",
+      "source_bytes": 935158,
+      "title": "The Parent's Assistant",
+      "author": "Maria Edgeworth",
+      "header_metadata": {
+        "raw_first_line": "[The Parent's Assistant, by Maria Edgeworth]",
+        "bracket_year": null,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1800,
+      "historical_years_corroborated": [
+        1800,
+        1845
+      ],
+      "evidence_ids": [
+        "E13",
+        "E14"
+      ],
+      "source_urls": [
+        "https://catalogue.etoncollege.com/B34730",
+        "https://catalogue.nli.ie/Record/vtls000068605"
+      ],
+      "source_assertions": [
+        "Catalog identifies Maria Edgeworth's six-volume English work, third edition with additions, London: J. Johnson / G. Woodfall, 1800; shelfmarks Ib2.3.07 and Ib2.3.08. Date is historical-edition evidence, not a first-publication claim.",
+        "Catalog records Maria Edgeworth's English work in a new edition, London: Longman & Co., 1845, holdings AA5497-AA5499. Independent corroboration despite missing date in NLTK header."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "two historical English edition catalog records; no date in NLTK header; no first-publication date inferred",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/edgeworth-parents.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "melville-moby_dick.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/melville-moby_dick.txt",
+      "source_sha256": "dc2466ee3c2e6e2ea1f86233d142e4b5578fdc1d6f0ca657bee7572202a980c7",
+      "source_bytes": 1242990,
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "header_metadata": {
+        "raw_first_line": "[Moby Dick by Herman Melville 1851]",
+        "bracket_year": 1851,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1851,
+      "historical_years_corroborated": [
+        1851
+      ],
+      "evidence_ids": [
+        "E15"
+      ],
+      "source_urls": [
+        "https://catalogue.bnf.fr/ark:/12148/cb120108674"
+      ],
+      "source_assertions": [
+        "National-library work authority identifies Herman Melville's Moby Dick as an English work dated 1851."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "national-library authority identifies historical English work",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/melville-moby_dick.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "milton-paradise.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/milton-paradise.txt",
+      "source_sha256": "49028a77c557de1459e96c026edbe72997be2d9015925f7baefb793cd6fe706f",
+      "source_bytes": 468220,
+      "title": "Paradise Lost",
+      "author": "John Milton",
+      "header_metadata": {
+        "raw_first_line": "[Paradise Lost by John Milton 1667] ",
+        "bracket_year": 1667,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1674,
+      "historical_years_corroborated": [
+        1667,
+        1674
+      ],
+      "evidence_ids": [
+        "E16"
+      ],
+      "source_urls": [
+        "https://onlinebooks.library.upenn.edu/webbin/work?id=olbp99480"
+      ],
+      "source_assertions": [
+        "Library work record dates the first ten-book edition to 1667 and the revised twelve-book edition to 1674. Both predate 1990; NLTK exact edition remains unknown."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical English work; first ten-book edition and later twelve-book edition predate cutoff; exact NLTK edition unresolved",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/milton-paradise.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "shakespeare-caesar.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/shakespeare-caesar.txt",
+      "source_sha256": "7c46bd32fc84d9596bcad55b61ec3c1a390239acb190b286422855aafc2774b3",
+      "source_bytes": 112310,
+      "title": "Julius Caesar",
+      "author": "William Shakespeare",
+      "header_metadata": {
+        "raw_first_line": "[The Tragedie of Julius Caesar by William Shakespeare 1599]",
+        "bracket_year": 1599,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1623,
+      "historical_years_corroborated": [
+        1623
+      ],
+      "evidence_ids": [
+        "E17"
+      ],
+      "source_urls": [
+        "https://www.folger.edu/explore/shakespeares-works/julius-caesar/"
+      ],
+      "source_assertions": [
+        "Library dates first print to 1623. NLTK bracket year 1599 must not be treated as first publication or exact edition."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical English work first printed 1623; NLTK 1599 not treated as publication date",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/shakespeare-caesar.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "shakespeare-hamlet.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/shakespeare-hamlet.txt",
+      "source_sha256": "1eceab7027ad7e0cc25c6b6aadcb2e6bb070395cb2085f775ac732d63d5db240",
+      "source_bytes": 162881,
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "header_metadata": {
+        "raw_first_line": "[The Tragedie of Hamlet by William Shakespeare 1599]",
+        "bracket_year": 1599,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1623,
+      "historical_years_corroborated": [
+        1603,
+        1604,
+        1623
+      ],
+      "evidence_ids": [
+        "E18"
+      ],
+      "source_urls": [
+        "https://www.folger.edu/explore/shakespeares-works/hamlet/"
+      ],
+      "source_assertions": [
+        "Library documents differing early texts: Q1 1603, Q2 1604, and First Folio 1623. NLTK bracket year 1599 is not verified first publication; exact text/edition is unresolved."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical English work with differing early texts; NLTK 1599 not treated as publication date",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/shakespeare-hamlet.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "shakespeare-macbeth.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/shakespeare-macbeth.txt",
+      "source_sha256": "d4a204352cfe5924cbae76f764225d120e9f7617d39cb8c949dedd3f306353ac",
+      "source_bytes": 100351,
+      "title": "Macbeth",
+      "author": "William Shakespeare",
+      "header_metadata": {
+        "raw_first_line": "[The Tragedie of Macbeth by William Shakespeare 1603]",
+        "bracket_year": 1603,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1623,
+      "historical_years_corroborated": [
+        1623
+      ],
+      "evidence_ids": [
+        "E19"
+      ],
+      "source_urls": [
+        "https://www.folger.edu/explore/shakespeares-works/macbeth/"
+      ],
+      "source_assertions": [
+        "Library dates first print to the First Folio of 1623. NLTK bracket year 1603 is not verified publication or exact edition."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical English work first printed 1623; NLTK 1603 not treated as publication date",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/shakespeare-macbeth.txt"
+    },
+    {
+      "corpus": "gutenberg",
+      "filename": "whitman-leaves.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/gutenberg/whitman-leaves.txt",
+      "source_sha256": "93ebaf1dccc8f1514b4b1c2f52e64e81829113fc58cff63fb51ada0c72f99c3e",
+      "source_bytes": 711215,
+      "title": "Leaves of Grass",
+      "author": "Walt Whitman",
+      "header_metadata": {
+        "raw_first_line": "[Leaves of Grass by Walt Whitman 1855]",
+        "bracket_year": 1855,
+        "year_is_verified_publication_date": false
+      },
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1892,
+      "historical_years_corroborated": [
+        1855,
+        1891,
+        1892
+      ],
+      "evidence_ids": [
+        "E20"
+      ],
+      "source_urls": [
+        "https://loc.gov/exhibits/whitman/leavesofgrass.html"
+      ],
+      "source_assertions": [
+        "LOC documents successive authorial editions through the 1891-1892 deathbed edition and emphasizes changed contents and wording. The NLTK header's 1855 does not date the complete transcription."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "historical English work with authorial revisions through 1891-1892; header 1855 does not date the entire transcription",
+      "admission_basis": "historical English work/known historical English translation; exact transcription edition unknown and disclosed",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/gutenberg.zip",
+      "source_archive_entry": "gutenberg/whitman-leaves.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1789-Washington.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1789-Washington.txt",
+      "source_sha256": "dd7a7965c81147c7693a085555e05a6b304a6d79c91960d62a32450351b3ae9e",
+      "source_bytes": 8619,
+      "filename_year_metadata": 1789,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1789,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1789-Washington.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1793-Washington.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1793-Washington.txt",
+      "source_sha256": "01dd6af804662d912d90039b160582de29282defdfa6526d255a15071df117a1",
+      "source_bytes": 791,
+      "filename_year_metadata": 1793,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1793,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1793-Washington.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1797-Adams.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1797-Adams.txt",
+      "source_sha256": "86395fff7e36efc9ff3f4a1bce6360a38ed0bb763fae68cadaab97a7bfb0f64b",
+      "source_bytes": 13877,
+      "filename_year_metadata": 1797,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1797,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1797-Adams.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1801-Jefferson.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1801-Jefferson.txt",
+      "source_sha256": "a7e603d3cfb66f95580b53f8f8d45f397a48c1aebcc3bad6667be832aafd04df",
+      "source_bytes": 10137,
+      "filename_year_metadata": 1801,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1801,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1801-Jefferson.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1805-Jefferson.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1805-Jefferson.txt",
+      "source_sha256": "85996fc16d7466c6ff3b2a545956ca9a968779dc9cd50cd784b972f3ee73f1cc",
+      "source_bytes": 12908,
+      "filename_year_metadata": 1805,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1805,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1805-Jefferson.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1809-Madison.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1809-Madison.txt",
+      "source_sha256": "76a857741c69b14dff013a7ab647e752384a6b57cc50a927f7561e5f594699d6",
+      "source_bytes": 7001,
+      "filename_year_metadata": 1809,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1809,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1809-Madison.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1813-Madison.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1813-Madison.txt",
+      "source_sha256": "a2ad32d9f98a313e98f93562cef97214b4d1f0b4cd2b43cc615455e1ca79c20a",
+      "source_bytes": 7157,
+      "filename_year_metadata": 1813,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1813,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1813-Madison.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1817-Monroe.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1817-Monroe.txt",
+      "source_sha256": "83162847f5e2258499ac9558e212ad2619fbffd7aed1ce4df0b4d4ca5dd18a75",
+      "source_bytes": 19887,
+      "filename_year_metadata": 1817,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1817,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1817-Monroe.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1821-Monroe.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1821-Monroe.txt",
+      "source_sha256": "fd96a3282bdb37a369bb9d84823226a3e9fba598af5578fd7631055b02cb401f",
+      "source_bytes": 26326,
+      "filename_year_metadata": 1821,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1821,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1821-Monroe.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1825-Adams.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1825-Adams.txt",
+      "source_sha256": "4ff8a7833ee643d95ed5a3dc1b4dc11dc8618c0f3e2d51dcd3e6c420a7cf4716",
+      "source_bytes": 17741,
+      "filename_year_metadata": 1825,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1825,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1825-Adams.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1829-Jackson.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1829-Jackson.txt",
+      "source_sha256": "89115f200d992cf99b96eb5b8a3ddf6b321fce00f17701246380f3cc0e71a315",
+      "source_bytes": 6817,
+      "filename_year_metadata": 1829,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1829,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1829-Jackson.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1833-Jackson.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1833-Jackson.txt",
+      "source_sha256": "4461c7b8f63f6c325acbbf596073e9e475d0c64137478cad9a993f3f504ec96a",
+      "source_bytes": 7058,
+      "filename_year_metadata": 1833,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1833,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1833-Jackson.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1837-VanBuren.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1837-VanBuren.txt",
+      "source_sha256": "9466fd68312266b38cf82abd2ad9a7c9b34c9961f673b53403ada83916fa814a",
+      "source_bytes": 23417,
+      "filename_year_metadata": 1837,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1837,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1837-VanBuren.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1841-Harrison.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1841-Harrison.txt",
+      "source_sha256": "5a61a4639b2de00db87c27169613ddb2fedad1b5c383e7447eef40b142b396ca",
+      "source_bytes": 49700,
+      "filename_year_metadata": 1841,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1841,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1841-Harrison.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1845-Polk.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1845-Polk.txt",
+      "source_sha256": "35470407862f262c279af7678466cc6966faf9ef063c21a4bdbfe22650a04b01",
+      "source_bytes": 28716,
+      "filename_year_metadata": 1845,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1845,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1845-Polk.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1849-Taylor.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1849-Taylor.txt",
+      "source_sha256": "3c56aa0dd8e395a57baa24a6962a15943ce6f4944baf85b9e2fcb0b99701f0d9",
+      "source_bytes": 6605,
+      "filename_year_metadata": 1849,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1849,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1849-Taylor.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1853-Pierce.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1853-Pierce.txt",
+      "source_sha256": "08ea7e12999ebaf43d516ec51f1a04bf156de40e140af19f911b50d9dfb95614",
+      "source_bytes": 20081,
+      "filename_year_metadata": 1853,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1853,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1853-Pierce.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1857-Buchanan.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1857-Buchanan.txt",
+      "source_sha256": "0730dd953a6d5ccfda2ed18d7b7bf179bdd079bf3413b620c57beab38337dfab",
+      "source_bytes": 16815,
+      "filename_year_metadata": 1857,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1857,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1857-Buchanan.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1861-Lincoln.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1861-Lincoln.txt",
+      "source_sha256": "2c7b11f0d57dfbc81f4ba26dcd1255f4397dd4c66f873d900203ca0fdd46ed1d",
+      "source_bytes": 21017,
+      "filename_year_metadata": 1861,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1861,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1861-Lincoln.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1865-Lincoln.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1865-Lincoln.txt",
+      "source_sha256": "45fab6e488f059b77a4f05f95e641b5a86243fc964974e360e51cc9478c13980",
+      "source_bytes": 3926,
+      "filename_year_metadata": 1865,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1865,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1865-Lincoln.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1869-Grant.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1869-Grant.txt",
+      "source_sha256": "1b2087583c1a385174234047af12dbbcfe7b357a4813fe26da017007327e2afb",
+      "source_bytes": 6503,
+      "filename_year_metadata": 1869,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1869,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1869-Grant.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1873-Grant.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1873-Grant.txt",
+      "source_sha256": "8d27f5ebb317376a304a9c11feff4d5d39b22386267c63a721619282ded75c26",
+      "source_bytes": 7734,
+      "filename_year_metadata": 1873,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1873,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1873-Grant.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1877-Hayes.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1877-Hayes.txt",
+      "source_sha256": "d60351a40156effe1ee851d26d6dd258bc0014a36b67b5316f092b3e098cfef6",
+      "source_bytes": 14938,
+      "filename_year_metadata": 1877,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1877,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1877-Hayes.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1881-Garfield.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1881-Garfield.txt",
+      "source_sha256": "d4a6ccc8c151c01d9dce785a6f223d6381a465809d581d53ab376594f83c1f6b",
+      "source_bytes": 17767,
+      "filename_year_metadata": 1881,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1881,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1881-Garfield.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1885-Cleveland.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1885-Cleveland.txt",
+      "source_sha256": "a1aba961370332f72e8d833d94ee480b0b59a6dc2e89ee40ab6736426aef3626",
+      "source_bytes": 10145,
+      "filename_year_metadata": 1885,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1885,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1885-Cleveland.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1889-Harrison.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1889-Harrison.txt",
+      "source_sha256": "46ab4ff8bb9f8869a1ca45569b39bc31ea12a0401436a0310402378077199536",
+      "source_bytes": 26179,
+      "filename_year_metadata": 1889,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1889,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1889-Harrison.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1893-Cleveland.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1893-Cleveland.txt",
+      "source_sha256": "c805ccbb61b2e513a9966f0462cef4b529dc936e87f35a1d146f2f071a236672",
+      "source_bytes": 12349,
+      "filename_year_metadata": 1893,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1893,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1893-Cleveland.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1897-McKinley.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1897-McKinley.txt",
+      "source_sha256": "86f96d99ee636b4060ee6d688a24cd6bee947fd154c8aefe94f8d3ad2afa5f83",
+      "source_bytes": 23659,
+      "filename_year_metadata": 1897,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1897,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1897-McKinley.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1901-McKinley.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1901-McKinley.txt",
+      "source_sha256": "46b33934c1266a91a42a44542e5b7742ee4b9000d3d4c4abc7bba90cfbf76a38",
+      "source_bytes": 13408,
+      "filename_year_metadata": 1901,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1901,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1901-McKinley.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1905-Roosevelt.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1905-Roosevelt.txt",
+      "source_sha256": "bd199980beba439915275b11c5e8ca23d25a3a65d5bf1f666d8b694729768bce",
+      "source_bytes": 5568,
+      "filename_year_metadata": 1905,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1905,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1905-Roosevelt.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1909-Taft.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1909-Taft.txt",
+      "source_sha256": "1b48e7a5f17c8457e393ad6c80bcda96ae8ae7c4fafc34fd012593825855b7ff",
+      "source_bytes": 32164,
+      "filename_year_metadata": 1909,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1909,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1909-Taft.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1913-Wilson.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1913-Wilson.txt",
+      "source_sha256": "edda23cd8b8557dcae46444ee2e2289eb5a6ab33f035de9368339c3dbdf676c4",
+      "source_bytes": 9563,
+      "filename_year_metadata": 1913,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1913,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1913-Wilson.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1917-Wilson.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1917-Wilson.txt",
+      "source_sha256": "ab14086bc4bc2f599ab5a1d06dbd5c0014b8294c2fb116fb777f5307a547789c",
+      "source_bytes": 8395,
+      "filename_year_metadata": 1917,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1917,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1917-Wilson.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1921-Harding.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1921-Harding.txt",
+      "source_sha256": "80120e6dc1035c6070167febc39c1bed1c3d26634fdd6be8d87a89675dcbd319",
+      "source_bytes": 20298,
+      "filename_year_metadata": 1921,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1921,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1921-Harding.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1925-Coolidge.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1925-Coolidge.txt",
+      "source_sha256": "edca412653352d908fcfd8abd7fdefa485b2717ba4fcd196f83c1d87a3d87157",
+      "source_bytes": 23949,
+      "filename_year_metadata": 1925,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1925,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1925-Coolidge.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1929-Hoover.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1929-Hoover.txt",
+      "source_sha256": "6b0fbe182f468dbe25b30282afd7cdf4e4288429c873f9f4bc510079fe4c8ce3",
+      "source_bytes": 21764,
+      "filename_year_metadata": 1929,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1929,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1929-Hoover.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1933-Roosevelt.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1933-Roosevelt.txt",
+      "source_sha256": "8057a5f78197481249ba4c21eebc94a610dae84c86c6927b96d33899ce31bfe8",
+      "source_bytes": 10903,
+      "filename_year_metadata": 1933,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1933,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1933-Roosevelt.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1937-Roosevelt.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1937-Roosevelt.txt",
+      "source_sha256": "7d337a12606cdb9c5ce0c7adbeab1be121b22925c04a5a881338e94dbd656b4d",
+      "source_bytes": 10607,
+      "filename_year_metadata": 1937,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1937,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1937-Roosevelt.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1941-Roosevelt.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1941-Roosevelt.txt",
+      "source_sha256": "1944f0fda8c449af1086933ef917f32dbdb7431ebfdc3b8b599917ece4d6ba35",
+      "source_bytes": 7571,
+      "filename_year_metadata": 1941,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1941,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1941-Roosevelt.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1945-Roosevelt.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1945-Roosevelt.txt",
+      "source_sha256": "05fe90f21718f7d68082d70237522ec4c2417f5ea62eb81da0aeb620392c0101",
+      "source_bytes": 3039,
+      "filename_year_metadata": 1945,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1945,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1945-Roosevelt.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1949-Truman.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1949-Truman.txt",
+      "source_sha256": "0de1bc7dc4ee274aeae4fd7302d482b89a1abdae1968c0452ca098ecfe0c8b2f",
+      "source_bytes": 13679,
+      "filename_year_metadata": 1949,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1949,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1949-Truman.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1953-Eisenhower.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1953-Eisenhower.txt",
+      "source_sha256": "1e90aa30dfecebd90d5d6348b4ce1dfdd219a8c7f986a5541b0ec7a530ffc94c",
+      "source_bytes": 13955,
+      "filename_year_metadata": 1953,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1953,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1953-Eisenhower.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1957-Eisenhower.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1957-Eisenhower.txt",
+      "source_sha256": "fcaf780206362764d460359fea07e2dc8fd4c50c13ed387f35d0a38bf89a3e35",
+      "source_bytes": 9190,
+      "filename_year_metadata": 1957,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1957,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1957-Eisenhower.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1961-Kennedy.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1961-Kennedy.txt",
+      "source_sha256": "e77e52fdf3122abf372a21d473231c5139681f283dd1d06df21e665c0befba6d",
+      "source_bytes": 7618,
+      "filename_year_metadata": 1961,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1961,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1961-Kennedy.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1965-Johnson.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1965-Johnson.txt",
+      "source_sha256": "235ab1bc755b6429538819050849e0ad826cca9716e46ceda115bed7a9f3bbce",
+      "source_bytes": 8193,
+      "filename_year_metadata": 1965,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1965,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1965-Johnson.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1969-Nixon.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1969-Nixon.txt",
+      "source_sha256": "1e4efdf499873a5a89212775805210a1a363ef0fd1e7680c9c69f0fbc219c2c8",
+      "source_bytes": 11624,
+      "filename_year_metadata": 1969,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1969,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1969-Nixon.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1973-Nixon.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1973-Nixon.txt",
+      "source_sha256": "36d86c4c1d2c4dafce2300795c5581cc2b0a40b9078b91a61b7dd0bfb1761be1",
+      "source_bytes": 9991,
+      "filename_year_metadata": 1973,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1973,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1973-Nixon.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1977-Carter.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1977-Carter.txt",
+      "source_sha256": "ee15f6f96985b102ae19c890c4fcc2e4fcb404ad43f1d0ffc46562b838c487d5",
+      "source_bytes": 6873,
+      "filename_year_metadata": 1977,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1977,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1977-Carter.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1981-Reagan.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1981-Reagan.txt",
+      "source_sha256": "46f86824ac000cf7f822b29e838c6c54872a06e219f3229722c0bb101fcbe116",
+      "source_bytes": 13735,
+      "filename_year_metadata": 1981,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1981,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1981-Reagan.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1985-Reagan.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1985-Reagan.txt",
+      "source_sha256": "526a130667a191806782a3bb3c9186cdd386aed9b0a335071d88fc4bf8509f94",
+      "source_bytes": 14561,
+      "filename_year_metadata": 1985,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1985,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1985-Reagan.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1989-Bush.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1989-Bush.txt",
+      "source_sha256": "7636e0e3bae0b67378d56a70f12885340fd93370c95bc52f1f0d5c2cafb0b3ed",
+      "source_bytes": 12523,
+      "filename_year_metadata": 1989,
+      "historical_eligibility": "include_work_level_only",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1989,
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/app/details/SERIALSET-13914_00_00-002-0010-0000",
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses",
+        "https://www.inaugural.senate.gov/51st-inaugural-ceremonies/"
+      ],
+      "source_assertions": [
+        "Official 1989 Senate collection covers inaugural addresses from Washington 1789 through Bush 1989; official contemporary index corroborates the 1989 endpoint and later dates. Individual per-speech text identity was not audited."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": null,
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1989-Bush.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1993-Clinton.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1993-Clinton.txt",
+      "source_sha256": "2003c2c6e77a0c743e67038416bd6d4ea471bcbc54f743c6ced2422ec99d9950",
+      "source_bytes": 9114,
+      "filename_year_metadata": 1993,
+      "historical_eligibility": "exclude_post_cutoff",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1993,
+      "evidence_ids": [
+        "E22"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses"
+      ],
+      "source_assertions": [
+        "Official GovInfo index dates this post-1989 inaugural address after the cutoff."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": "Speech year is 1990 or later (actual excluded file years: 1993-2025).",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1993-Clinton.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "1997-Clinton.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/1997-Clinton.txt",
+      "source_sha256": "7dbf3690f9bf8ba3393c73ca96df74a793a04ac2b6b04b6bf1a7756e80b8d70d",
+      "source_bytes": 12250,
+      "filename_year_metadata": 1997,
+      "historical_eligibility": "exclude_post_cutoff",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 1997,
+      "evidence_ids": [
+        "E22"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses"
+      ],
+      "source_assertions": [
+        "Official GovInfo index dates this post-1989 inaugural address after the cutoff."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": "Speech year is 1990 or later (actual excluded file years: 1993-2025).",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/1997-Clinton.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "2001-Bush.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/2001-Bush.txt",
+      "source_sha256": "fecec0df824c345c04c52224d720e8535ec95a27f02598cc62d1f98ff919327a",
+      "source_bytes": 9053,
+      "filename_year_metadata": 2001,
+      "historical_eligibility": "exclude_post_cutoff",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 2001,
+      "evidence_ids": [
+        "E22"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses"
+      ],
+      "source_assertions": [
+        "Official GovInfo index dates this post-1989 inaugural address after the cutoff."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": "Speech year is 1990 or later (actual excluded file years: 1993-2025).",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/2001-Bush.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "2005-Bush.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/2005-Bush.txt",
+      "source_sha256": "35a4fa86df7cf8c37e854cac6d9f0abfdf794e71af749835245d4ab989fb155e",
+      "source_bytes": 12018,
+      "filename_year_metadata": 2005,
+      "historical_eligibility": "exclude_post_cutoff",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 2005,
+      "evidence_ids": [
+        "E22"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses"
+      ],
+      "source_assertions": [
+        "Official GovInfo index dates this post-1989 inaugural address after the cutoff."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": "Speech year is 1990 or later (actual excluded file years: 1993-2025).",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/2005-Bush.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "2009-Obama.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/2009-Obama.txt",
+      "source_sha256": "598b4b2603e8965bffad0f834341a6d99841f0e78ce2e41b66566a284cb35be4",
+      "source_bytes": 13439,
+      "filename_year_metadata": 2009,
+      "historical_eligibility": "exclude_post_cutoff",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 2009,
+      "evidence_ids": [
+        "E22"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses"
+      ],
+      "source_assertions": [
+        "Official GovInfo index dates this post-1989 inaugural address after the cutoff."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": "Speech year is 1990 or later (actual excluded file years: 1993-2025).",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/2009-Obama.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "2013-Obama.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/2013-Obama.txt",
+      "source_sha256": "ebe33a5ccfe84881476a2f78aeedd4910e7759ad303d16624ff843525e7bf4f1",
+      "source_bytes": 11949,
+      "filename_year_metadata": 2013,
+      "historical_eligibility": "exclude_post_cutoff",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 2013,
+      "evidence_ids": [
+        "E22"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses"
+      ],
+      "source_assertions": [
+        "Official GovInfo index dates this post-1989 inaugural address after the cutoff."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": "Speech year is 1990 or later (actual excluded file years: 1993-2025).",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/2013-Obama.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "2017-Trump.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/2017-Trump.txt",
+      "source_sha256": "882581c0386b6709173724952410dd9d28ec458186e3c94748a3eb33d88fd202",
+      "source_bytes": 8449,
+      "filename_year_metadata": 2017,
+      "historical_eligibility": "exclude_post_cutoff",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 2017,
+      "evidence_ids": [
+        "E22"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses"
+      ],
+      "source_assertions": [
+        "Official GovInfo index dates this post-1989 inaugural address after the cutoff."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": "Speech year is 1990 or later (actual excluded file years: 1993-2025).",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/2017-Trump.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "2021-Biden.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/2021-Biden.txt",
+      "source_sha256": "8cf2962b9011f37d8c2a1b5ce6184f71e494ca9399305cea5ab560c99b6a742b",
+      "source_bytes": 13963,
+      "filename_year_metadata": 2021,
+      "historical_eligibility": "exclude_post_cutoff",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 2021,
+      "evidence_ids": [
+        "E22"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses"
+      ],
+      "source_assertions": [
+        "Official GovInfo index dates this post-1989 inaugural address after the cutoff."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": "Speech year is 1990 or later (actual excluded file years: 1993-2025).",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/2021-Biden.txt"
+    },
+    {
+      "corpus": "inaugural",
+      "filename": "2025-Trump.txt",
+      "source_file": "/workspace/shared/candidate-first-053/data/documents/inaugural/2025-Trump.txt",
+      "source_sha256": "33fdfba882f8c3fe8c990be3cbc4b26870e1b26c8e520a3177c5e9b19420ebef",
+      "source_bytes": 16972,
+      "filename_year_metadata": 2025,
+      "historical_eligibility": "exclude_post_cutoff",
+      "cutoff_exclusive": "1990-01-01",
+      "historical_english_work_or_edition_available_by_year": 2025,
+      "evidence_ids": [
+        "E22"
+      ],
+      "source_urls": [
+        "https://www.govinfo.gov/features/presidential-inaugural-addresses"
+      ],
+      "source_assertions": [
+        "Official GovInfo index dates this post-1989 inaugural address after the cutoff."
+      ],
+      "exact_nltk_transcription_edition_identified": false,
+      "exact_nltk_transcription_edition_date": null,
+      "uncertainty": "Speech year is read from the frozen NLTK filename; official collection evidence corroborates the historical collection span, not the exact NLTK transcription. No full text comparison performed.",
+      "exclusion_reason": "Speech year is 1990 or later (actual excluded file years: 1993-2025).",
+      "source_archive_url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/inaugural.zip",
+      "source_archive_entry": "inaugural/2025-Trump.txt"
+    }
+  ],
+  "excluded_files": [
+    "1993-Clinton.txt",
+    "1997-Clinton.txt",
+    "2001-Bush.txt",
+    "2005-Bush.txt",
+    "2009-Obama.txt",
+    "2013-Obama.txt",
+    "2017-Trump.txt",
+    "2021-Biden.txt",
+    "2025-Trump.txt"
+  ]
+}

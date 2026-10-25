@@ -1,0 +1,338 @@
+[
+  {
+    "id": "1342_work",
+    "url": "https://exhibits.library.illinois.edu/s/rbml/item/1104",
+    "final_url": "https://exhibits.library.illinois.edu/s/rbml/item/1104",
+    "retrieved_utc": "2026-10-25T04:06:20.440365+00:00",
+    "status": 200,
+    "path": "/workspace/shared/candidate-first-054/data/pg/evidence/1342_work.html",
+    "bytes": 31858,
+    "sha256": "28a813c9fa27d07512e8c3beaa024dd26ef08f3dab9c5fa4e27816c4734db70f",
+    "headers": {
+      "date": "Sun, 25 Oct 2026 04:06:25 GMT",
+      "server": "envoy",
+      "x-powered-by": "PHP/8.2.35",
+      "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "pragma": "no-cache",
+      "set-cookie": "40d1b2d83998fabacb726e5bc3d22129=dt6953ouubfim7090cucri06h8; path=/; HttpOnly",
+      "content-type": "text/html; charset=UTF-8",
+      "x-envoy-upstream-service-time": "590",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "id": "84_work",
+    "url": "https://www.loc.gov/item/53051218/",
+    "retrieved_utc": "2026-10-25T04:06:20.440961+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "1661_work",
+    "url": "https://www.themorgan.org/printed-books/268783",
+    "retrieved_utc": "2026-10-25T04:06:20.441491+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "98_work",
+    "url": "https://natlib.govt.nz/records/21706196",
+    "final_url": "https://natlib.govt.nz/records/21706196",
+    "retrieved_utc": "2026-10-25T04:06:20.442084+00:00",
+    "status": 200,
+    "path": "/workspace/shared/candidate-first-054/data/pg/evidence/98_work.html",
+    "bytes": 212,
+    "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+    "headers": {
+      "content-type": "text/html",
+      "cache-control": "no-cache, no-store",
+      "content-length": "212",
+      "x-iinfo": "47-131659901-0 0NNN RT(1792901184952 93) q(0 -1 -1 0) r(0 -1) B10(4,289,0) U18",
+      "set-cookie": "visid_incap_227073=g5N/UobWQkGet6SSo/DPR0CA3WoAAAAAQUIPAAAAAAB2LqhOCU82+xvlakZMPqUM; expires=Sun, 24 Oct 2027 06:30:27 GMT; HttpOnly; path=/; Domain=.natlib.govt.nz",
+      "x-envoy-upstream-service-time": "392",
+      "date": "Sun, 25 Oct 2026 04:06:24 GMT",
+      "server": "envoy",
+      "connection": "close"
+    }
+  },
+  {
+    "id": "1400_work",
+    "url": "https://dickens.stanford.edu/dickens/archive/great/pdf/great35.pdf",
+    "final_url": "https://dickens.stanford.edu/dickens/archive/great/pdf/great35.pdf",
+    "retrieved_utc": "2026-10-25T04:06:24.452533+00:00",
+    "status": 200,
+    "path": "/workspace/shared/candidate-first-054/data/pg/evidence/1400_work.pdf",
+    "bytes": 745758,
+    "sha256": "7cb0ad9d05aec11b66009112fe5bead51020cee811decd3147b9c0e3691acd71",
+    "headers": {
+      "date": "Sun, 25 Oct 2026 04:06:29 GMT",
+      "server": "envoy",
+      "vary": "Host",
+      "last-modified": "Fri, 17 Jan 2003 19:01:46 GMT",
+      "etag": "\"b611e-3b472ce077a80\"",
+      "accept-ranges": "bytes",
+      "content-length": "745758",
+      "strict-transport-security": "max-age=0",
+      "content-type": "application/pdf",
+      "x-envoy-upstream-service-time": "2167",
+      "connection": "close"
+    }
+  },
+  {
+    "id": "174_work",
+    "url": "https://www.themorgan.org/collection/oscar-wilde/the-picture-of-dorian-gray",
+    "retrieved_utc": "2026-10-25T04:06:24.610526+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "345_work",
+    "url": "https://rosenbach.org/wp-content/uploads/2021/05/Dracula-and-Vampire-Literature-Guide-20210420.pdf",
+    "retrieved_utc": "2026-10-25T04:06:25.082752+00:00",
+    "status": "error",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "id": "76_work",
+    "url": "https://loc.gov/exhibits/america-reads/1750-to-1899.html",
+    "retrieved_utc": "2026-10-25T04:06:25.838902+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "74_work",
+    "url": "https://www.loc.gov/pictures/item/2006681444/",
+    "retrieved_utc": "2026-10-25T04:06:28.718536+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "12_work",
+    "url": "https://www.themorgan.org/printed-books/78133",
+    "retrieved_utc": "2026-10-25T04:06:29.447788+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "120_work",
+    "url": "https://www.themorgan.org/printed-books/72350",
+    "retrieved_utc": "2026-10-25T04:06:30.505470+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "35_work",
+    "url": "https://www.themorgan.org/printed-books/372286",
+    "retrieved_utc": "2026-10-25T04:06:31.489691+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "36_work",
+    "url": "https://www.loc.gov/lcm/pdf/LCM_2016_0708.pdf",
+    "retrieved_utc": "2026-10-25T04:06:32.259753+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "43_work",
+    "url": "https://www.loc.gov/item/50041978/",
+    "retrieved_utc": "2026-10-25T04:06:32.610804+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "219_work",
+    "url": "https://catalogue.bnf.fr/ark:/12148/cb11936152f",
+    "final_url": "https://catalogue.bnf.fr/ark:/12148/cb11936152f",
+    "retrieved_utc": "2026-10-25T04:06:32.655322+00:00",
+    "status": 200,
+    "path": "/workspace/shared/candidate-first-054/data/pg/evidence/219_work.html",
+    "bytes": 60271,
+    "sha256": "b5c3feca5301b0c9f9a7ccdd92719d29fb9131b216a7d6351e5d0c489a0b08bf",
+    "headers": {
+      "date": "Sun, 25 Oct 2026 04:06:36 GMT",
+      "server": "envoy",
+      "x-frame-options": "SAMEORIGIN",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "set-cookie": "JSESSIONID=569E1738EF611A8040F10DBBD49CCC84; Path=/; Secure; HttpOnly",
+      "content-type": "text/html;charset=utf-8",
+      "content-language": "fr-FR",
+      "vary": "Accept-Encoding,User-Agent",
+      "x-content-type-options": "nosniff",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-envoy-upstream-service-time": "1110",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "id": "203_work",
+    "url": "https://www.loc.gov/item/today-in-history/june-05",
+    "retrieved_utc": "2026-10-25T04:06:32.658237+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "1260_work",
+    "url": "https://www.themorgan.org/printed-books/72468",
+    "retrieved_utc": "2026-10-25T04:06:35.310616+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "768_work",
+    "url": "https://static-prod.lib.princeton.edu/scsites/parrish/4-Brontes.pdf",
+    "final_url": "https://static-prod.lib.princeton.edu/scsites/parrish/4-Brontes.pdf",
+    "retrieved_utc": "2026-10-25T04:06:35.313278+00:00",
+    "status": 200,
+    "path": "/workspace/shared/candidate-first-054/data/pg/evidence/768_work.pdf",
+    "bytes": 192883,
+    "sha256": "9a063eb62a4915537437f610a94ef55def9c354d8c6e5465277c2bec6c442bb1",
+    "headers": {
+      "server": "envoy",
+      "date": "Sun, 25 Oct 2026 04:06:41 GMT",
+      "content-type": "application/pdf",
+      "content-length": "192883",
+      "last-modified": "Mon, 11 May 2026 16:38:53 GMT",
+      "etag": "\"2f173-6518d61cee1ee\"",
+      "accept-ranges": "bytes",
+      "x-envoy-upstream-service-time": "239",
+      "connection": "close"
+    }
+  },
+  {
+    "id": "1080_work",
+    "url": "https://catalogue.nli.ie/Record/vtls000193222",
+    "retrieved_utc": "2026-10-25T04:06:35.356654+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "205_civil_work",
+    "url": "https://utc.iath.virginia.edu/saxon/servlet/SaxonServlet?clear-stylesheet-cache=yes&source=utc%2Fxml%2Fpretexts%2Fabolitn%2Fabeshdta.xml&style=utc%2Fxsl%2Fabout.xsl",
+    "retrieved_utc": "2026-10-25T04:06:38.354517+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "1232_translation",
+    "url": "https://ci.nii.ac.jp/ncid/BA19419516.amp?l=en",
+    "final_url": "https://ci.nii.ac.jp/ncid/BA19419516.amp?l=en",
+    "retrieved_utc": "2026-10-25T04:06:40.254836+00:00",
+    "status": 200,
+    "path": "/workspace/shared/candidate-first-054/data/pg/evidence/1232_translation.html",
+    "bytes": 96588,
+    "sha256": "3d2abe148330287313e7507533e744c5a8ca62b86faa41345cb9bb7345358d2f",
+    "headers": {
+      "date": "Sun, 25 Oct 2026 04:06:43 GMT",
+      "content-type": "text/html;charset=UTF-8",
+      "server": "envoy",
+      "set-cookie": "CINIIBOOKS=l.en;Version=1;Path=/;Max-Age=31536000;Secure;Expires=Mon, 25 Oct 2027 04:06:43 GMT",
+      "vary": "Accept-Encoding,User-Agent",
+      "x-frame-options": "SAMEORIGIN",
+      "x-envoy-upstream-service-time": "818",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  {
+    "id": "5001_translation",
+    "url": "https://www.si.edu/object/siris_sil_93270",
+    "retrieved_utc": "2026-10-25T04:06:41.878681+00:00",
+    "status": "error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "5001_files",
+    "url": "https://www.gutenberg.org/files/5001/",
+    "final_url": "https://www.gutenberg.org/files/5001/",
+    "retrieved_utc": "2026-10-25T04:06:42.472872+00:00",
+    "status": 200,
+    "path": "/workspace/shared/candidate-first-054/data/pg/evidence/5001_files.html",
+    "bytes": 1213,
+    "sha256": "13e6f3e5ec68dccdc91398460a8c31f5b6593ab5a6b7eb24b6f7df78266e4e99",
+    "headers": {
+      "date": "Sun, 25 Oct 2026 04:06:47 GMT",
+      "server": "envoy",
+      "strict-transport-security": "max-age=7776000; includeSubDomains",
+      "vary": "Accept-Encoding",
+      "x-backend": "gutenweb6",
+      "content-length": "1213",
+      "content-type": "text/html;charset=ISO-8859-1",
+      "x-envoy-upstream-service-time": "269",
+      "connection": "close"
+    }
+  },
+  {
+    "id": "pg_terms",
+    "url": "https://www.gutenberg.org/policy/terms_of_use.html",
+    "final_url": "https://www.gutenberg.org/policy/terms_of_use.html",
+    "retrieved_utc": "2026-10-25T04:06:44.068748+00:00",
+    "status": 200,
+    "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_terms.html",
+    "bytes": 12086,
+    "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b",
+    "headers": {
+      "date": "Sun, 25 Oct 2026 04:06:47 GMT",
+      "server": "envoy",
+      "strict-transport-security": "max-age=7776000; includeSubDomains",
+      "last-modified": "Fri, 23 Oct 2026 21:41:02 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "12086",
+      "vary": "Accept-Encoding",
+      "x-backend": "gutenweb5",
+      "content-type": "text/html",
+      "x-envoy-upstream-service-time": "227",
+      "connection": "close"
+    }
+  },
+  {
+    "id": "pg_permission",
+    "url": "https://www.gutenberg.org/policy/permission.html",
+    "final_url": "https://www.gutenberg.org/policy/permission.html",
+    "retrieved_utc": "2026-10-25T04:06:44.973867+00:00",
+    "status": 200,
+    "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_permission.html",
+    "bytes": 18907,
+    "sha256": "c6df9d5913daf11aab5638744adaae02e2af0b27135a614e02f66260b2fcd8a7",
+    "headers": {
+      "date": "Sun, 25 Oct 2026 04:06:47 GMT",
+      "server": "envoy",
+      "strict-transport-security": "max-age=7776000; includeSubDomains",
+      "last-modified": "Fri, 23 Oct 2026 21:41:02 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "18907",
+      "vary": "Accept-Encoding",
+      "x-backend": "gutenweb6",
+      "content-type": "text/html",
+      "x-envoy-upstream-service-time": "249",
+      "connection": "close"
+    }
+  },
+  {
+    "id": "pg_license",
+    "url": "https://www.gutenberg.org/policy/license.html",
+    "final_url": "https://www.gutenberg.org/policy/license.html",
+    "retrieved_utc": "2026-10-25T04:06:45.397942+00:00",
+    "status": 200,
+    "path": "/workspace/shared/candidate-first-054/data/pg/evidence/pg_license.html",
+    "bytes": 32478,
+    "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7",
+    "headers": {
+      "date": "Sun, 25 Oct 2026 04:06:47 GMT",
+      "server": "envoy",
+      "strict-transport-security": "max-age=7776000; includeSubDomains",
+      "last-modified": "Fri, 23 Oct 2026 21:41:02 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "32478",
+      "vary": "Accept-Encoding",
+      "x-backend": "gutenweb1",
+      "content-type": "text/html",
+      "x-envoy-upstream-service-time": "229",
+      "connection": "close"
+    }
+  }
+]
