@@ -1,0 +1,31 @@
+{
+  "all_12288_keys_and_bidirectional_crypto_checked": true,
+  "candidate_count": 1024,
+  "ciphertext_length": 97,
+  "full_h_bit_exact_count": 12288,
+  "max_absolute_full_h_error": 0.0,
+  "max_absolute_primary_error": 0.0,
+  "model_tables": "Direct analytic normalized modular weights; no text training",
+  "native_raw_median_seconds": 0.008775396998316864,
+  "native_raw_seconds": [
+    0.010200397000517114,
+    0.009009334000438685,
+    0.008775396998316864,
+    0.00890771299964399,
+    0.00868559399896185,
+    0.00785182999970857,
+    0.008049182000831934
+  ],
+  "native_source_sha256": "75561c432207fb6099eeea0eb6a3c50827d3460fc4d1ab905d4cd5b0986ac74f",
+  "native_wrapper_sha256": "2020578ff37363eb526f81dedfcab581bfaa7730e9bc1a2cbf8e22eed26c041f",
+  "primary_bit_exact_count": 12288,
+  "primary_scored_letters": 73,
+  "reference_seconds": 1.8842378120007197,
+  "synthetic_bank_sha256": "e9606a109de360b441aa78a2ce991fd29c593a90dfca562de49158d26ffec7a6",
+  "synthetic_ciphertext_sha256": "f55d8b9a96c6fa33f9f7b88b330af023842da9984ddb5eed5b78908feff271b6",
+  "synthetic_only": true,
+  "synthetic_seed": 5301907,
+  "tableau_count": 12,
+  "test_source_sha256": "a9ee5c90ce37e3101b76dc86d4b9d025af66fd2d5c7e906289c371b0a5fef602",
+  "training_performed": false
+}

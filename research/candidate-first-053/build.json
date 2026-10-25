@@ -1,0 +1,41 @@
+{
+  "abi": 1,
+  "binary": "/workspace/shared/candidate-first-053/native053.so",
+  "binary_sha256": "0d1cf0a851b88e269ab5ce6c5cccbabde755511c5739e0484e9d2f232cbfe07d",
+  "built_at_utc": "2026-10-25T03:23:51.707291+00:00",
+  "command_template": [
+    "/usr/bin/cc",
+    "-std=c11",
+    "-O3",
+    "-fPIC",
+    "-shared",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "/workspace/shared/candidate-first-053/native053.c",
+    "-o",
+    "/workspace/shared/candidate-first-053/native053.so"
+  ],
+  "compiler": "/usr/bin/cc",
+  "compiler_sha256": "a23ecab8ff08f09ad8c80602c2c5df7f49e09c25905cb8975902e101bf72635f",
+  "compiler_version": "cc (Debian 14.2.0-19) 14.2.0",
+  "fast_math": false,
+  "flags": [
+    "-std=c11",
+    "-O3",
+    "-fPIC",
+    "-shared",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-Werror"
+  ],
+  "fp_contract": "off",
+  "machine": "x86_64",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "source": "/workspace/shared/candidate-first-053/native053.c",
+  "source_sha256": "75561c432207fb6099eeea0eb6a3c50827d3460fc4d1ab905d4cd5b0986ac74f"
+}

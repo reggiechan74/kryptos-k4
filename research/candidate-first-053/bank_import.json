@@ -1,0 +1,31 @@
+{
+  "alias_rule": "group:original_id",
+  "count": 1024,
+  "heldout_excluded": true,
+  "normalization": "uppercase A-Z only",
+  "prior051_exclusion_count": 32,
+  "scores_used": false,
+  "sources": {
+    "authors/a_themes.json": {
+      "group": "a_themes",
+      "records": 256,
+      "sha256": "69e49cf24740b28d8c1ce9a2115eca45da59b29aec6ec225c236b98ea4b01a5f"
+    },
+    "authors/b_neutral.json": {
+      "group": "b_neutral",
+      "records": 256,
+      "sha256": "ee726bc29630aa2837983558f664fb8d74ee6ec38707e5d0b2761b5396a86f19"
+    },
+    "authors/c_berlin.json": {
+      "group": "c_berlin",
+      "records": 256,
+      "sha256": "afaf0fd9a7571277850c15b788a723a61264850c6c6498cbe56ec39296d4804e"
+    },
+    "authors/d_messages.json": {
+      "group": "d_messages",
+      "records": 256,
+      "sha256": "952792063d7ecdd14e9d4109d8948e5ba44a4a183be69490abadfec49f0c9317"
+    }
+  },
+  "unique_plaintexts": 1024
+}

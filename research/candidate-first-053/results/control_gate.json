@@ -1,0 +1,61 @@
+{
+  "checks": {
+    "absent_flags": true,
+    "all_crypto_checks": true,
+    "complete_counts": true,
+    "hard_recovery": true,
+    "negative_flags": true,
+    "novel_recovery": true,
+    "published_each_tableau": true,
+    "published_recovery": true,
+    "validation_flags": true
+  },
+  "control_results_sha256": "b1524928745f5ba57e8b6943b96ee2ac10d46471022464dcec5568a5b7ca4aab",
+  "counts": {
+    "hard_style": 24,
+    "letter_permuted": 24,
+    "novel_prose": 12,
+    "plaintext_absent": 12,
+    "published_prose": 36,
+    "uniform_key": 24,
+    "word_order_stress": 12
+  },
+  "dependence_warning": "Fixed bank; related source windows, paired keys and shared matched calibration sets. Counts are not independent universal false-positive trials.",
+  "flags": {
+    "hard_style": 19,
+    "letter_permuted": 0,
+    "novel_prose": 12,
+    "plaintext_absent": 0,
+    "published_prose": 36,
+    "uniform_key": 0,
+    "word_order_stress": 12
+  },
+  "freeze_sha256": "1c87592e32ff6e7fefaf20a66bbabe358df0154eeac8bc1d356a108c603901ae",
+  "passed": true,
+  "published_recoveries_by_tableau": {
+    "AZ-AZ-beaufort": 3,
+    "AZ-AZ-variant_beaufort": 3,
+    "AZ-AZ-vigenere": 3,
+    "AZ-KR-beaufort": 3,
+    "AZ-KR-variant_beaufort": 3,
+    "AZ-KR-vigenere": 3,
+    "KR-AZ-beaufort": 3,
+    "KR-AZ-variant_beaufort": 3,
+    "KR-AZ-vigenere": 3,
+    "KR-KR-beaufort": 3,
+    "KR-KR-variant_beaufort": 3,
+    "KR-KR-vigenere": 3
+  },
+  "recoveries": {
+    "hard_style": 19,
+    "letter_permuted": 0,
+    "novel_prose": 12,
+    "plaintext_absent": 0,
+    "published_prose": 36,
+    "uniform_key": 0,
+    "word_order_stress": 12
+  },
+  "validation_count": 1440,
+  "validation_flags": 0,
+  "word_order_stress_not_semantic_evidence": true
+}
