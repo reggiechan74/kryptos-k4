@@ -1,0 +1,104 @@
+{
+  "scope": "Top-level completed stage receipts at this snapshot; nested receipts are already included, never added twice. Excludes this summary and subsequent packaging, whose separate receipts remain available.",
+  "cpu_seconds": 148.455768,
+  "receipts": [
+    {
+      "receipt": "analysis-details-corrected-resource.json",
+      "cpu": 0.069891,
+      "exit": 0,
+      "child_peak_rss_kib": 8832,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "analysis-details-resource.json",
+      "cpu": 0.056579,
+      "exit": 1,
+      "child_peak_rss_kib": 6400,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "analysis-resource.json",
+      "cpu": 0.12398300000000001,
+      "exit": 0,
+      "child_peak_rss_kib": 12032,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "benchmark-parent-receipt.json",
+      "cpu": 122.74121600000001,
+      "exit": 0,
+      "child_peak_rss_kib": 21760,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "custody-summary-resource.json",
+      "cpu": 0.06977799999999999,
+      "exit": 0,
+      "child_peak_rss_kib": 8064,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "environment-receipt.json",
+      "cpu": 0.07880499999999999,
+      "exit": 0,
+      "child_peak_rss_kib": 8704,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "final-integrity-resource.json",
+      "cpu": 0.09427799999999999,
+      "exit": 0,
+      "child_peak_rss_kib": 9984,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "generation-resource-receipt.json",
+      "cpu": 0.181114,
+      "exit": 0,
+      "child_peak_rss_kib": 13184,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "independent-audit-resource.json",
+      "cpu": 22.885236000000003,
+      "exit": 0,
+      "child_peak_rss_kib": 14572,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "monitor-receipt-1.json",
+      "cpu": 0.086308,
+      "exit": 0,
+      "child_peak_rss_kib": 8576,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "monitor-receipt-2.json",
+      "cpu": 0.10081599999999999,
+      "exit": 0,
+      "child_peak_rss_kib": 8576,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "pre-generation-controls.json",
+      "cpu": 1.7677549999999997,
+      "exit": 0,
+      "child_peak_rss_kib": 9856,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "release-resource.json",
+      "cpu": 0.09405,
+      "exit": 0,
+      "child_peak_rss_kib": 10496,
+      "parent_peak_rss_kib": 8320
+    },
+    {
+      "receipt": "seal-resource.json",
+      "cpu": 0.105959,
+      "exit": 0,
+      "child_peak_rss_kib": 10368,
+      "parent_peak_rss_kib": 8320
+    }
+  ]
+}

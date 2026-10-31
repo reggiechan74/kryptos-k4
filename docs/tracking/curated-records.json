@@ -941,6 +941,14 @@
       ],
       "outcome": "Synthetic conditional prediction validated; misspecification failures retained; no join speedup or target admission",
       "basis": "Reviewed frozen synthetic outputs and independent audit, preserving original resource-instrumentation deviation and separately labeled capped repeat. Method pilot, not a cipher experiment."
+    },
+    "LOG-F7F90EDA4E": {
+      "title": "METHOD-PARITY-FIRST-002 \u2014 matched synthetic decoder validation",
+      "categories": [
+        "static data validation"
+      ],
+      "outcome": "Matched synthetic prediction sets; workload-specific CPU improvement with two losses and higher memory; no target admission",
+      "basis": "Reviewed retained sealed synthetic outputs, independent exact audit and explicit public-byte provenance. Method pilot, not a cipher experiment."
     }
   }
 }
