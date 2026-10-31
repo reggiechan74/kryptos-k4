@@ -1,0 +1,177 @@
+{
+  "cohort_input_note": "Historical public input and commitment metadata occur only within the approved incomplete release. No seed/truth bytes are included. Mock custody names refer to labeled deterministic operational tests, not secret files.",
+  "diagnostic_note": "The generic CPU diagnostic is included from the exact approved incomplete-release copy; its original root was not read again.",
+  "excluded_scope": [
+    "All original failed-cohort custody, seed and truth roots: not opened or traversed. Only the already-approved incomplete release and supplement were read.",
+    "Private HANDOFF documents and unfrozen static working draft; bytecode caches.",
+    "Third-party repository/source caches; unrelated target and other holdout material.",
+    "Projection-saturation v3 publication material, separately owned by publication integrator."
+  ],
+  "exclusions": [
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/affine_filter.cpython-312.opt-1.pyc",
+      "source_root": "canonical-residual-dev"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/affine_filter.cpython-312.pyc",
+      "source_root": "canonical-residual-dev"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/development_cases.cpython-312.opt-1.pyc",
+      "source_root": "canonical-residual-dev"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/development_cases.cpython-312.pyc",
+      "source_root": "canonical-residual-dev"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/residual_decoder.cpython-312.opt-1.pyc",
+      "source_root": "canonical-residual-dev"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/residual_decoder.cpython-312.pyc",
+      "source_root": "canonical-residual-dev"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/audit_results.cpython-312.pyc",
+      "source_root": "canonical-residual-reference"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/reference.cpython-312.opt-1.pyc",
+      "source_root": "canonical-residual-reference"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/reference.cpython-312.pyc",
+      "source_root": "canonical-residual-reference"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/selftest.cpython-312.pyc",
+      "source_root": "canonical-residual-reference"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/reference.cpython-312.opt-1.pyc",
+      "source_root": "canonical-residual-reference-v2"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/reference.cpython-312.pyc",
+      "source_root": "canonical-residual-reference-v2"
+    },
+    {
+      "reason": "runtime bytecode cache",
+      "relative_path": "__pycache__/test_point_caps.cpython-312.pyc",
+      "source_root": "canonical-residual-reference-v2"
+    },
+    {
+      "reason": "private coordination handoff or unfrozen working draft",
+      "relative_path": "HANDOFF-SHA256SUMS",
+      "source_root": "residual-reference-v3-design"
+    },
+    {
+      "reason": "private coordination handoff or unfrozen working draft",
+      "relative_path": "HANDOFF.md",
+      "source_root": "residual-reference-v3-design"
+    },
+    {
+      "reason": "private coordination handoff or unfrozen working draft",
+      "relative_path": "HANDOFF.md",
+      "source_root": "canonical-residual-reference-v3"
+    },
+    {
+      "reason": "private coordination handoff or unfrozen working draft",
+      "relative_path": "static-draft.py",
+      "source_root": "residual-reference-v3-independent-review"
+    }
+  ],
+  "root_counts": {
+    "canonical-residual-dev": {
+      "excluded": 6,
+      "included": 31
+    },
+    "canonical-residual-full-review": {
+      "excluded": 0,
+      "included": 49
+    },
+    "canonical-residual-reference": {
+      "excluded": 4,
+      "included": 11
+    },
+    "canonical-residual-reference-v2": {
+      "excluded": 3,
+      "included": 27
+    },
+    "canonical-residual-reference-v3": {
+      "excluded": 1,
+      "included": 6
+    },
+    "residual-capacity-proof-independent-review": {
+      "excluded": 0,
+      "included": 3
+    },
+    "residual-next-stage-independent-design-review": {
+      "excluded": 0,
+      "included": 1
+    },
+    "residual-reference-v3-design": {
+      "excluded": 2,
+      "included": 17
+    },
+    "residual-reference-v3-execution": {
+      "excluded": 0,
+      "included": 32
+    },
+    "residual-reference-v3-independent-design-review": {
+      "excluded": 0,
+      "included": 1
+    },
+    "residual-reference-v3-independent-review": {
+      "excluded": 1,
+      "included": 15
+    },
+    "residual-reference-v3-next-stage-proposal": {
+      "excluded": 0,
+      "included": 4
+    },
+    "residual-validation-incomplete-release": {
+      "excluded": 0,
+      "included": 1454
+    },
+    "residual-validation-incomplete-supplement": {
+      "excluded": 0,
+      "included": 11
+    },
+    "residual-zero-trace-cap-proof": {
+      "excluded": 0,
+      "included": 3
+    }
+  },
+  "schema": "residual-public-source-inventory-v1",
+  "source_root_labels": [
+    "canonical-residual-dev",
+    "canonical-residual-reference",
+    "canonical-residual-reference-v2",
+    "canonical-residual-full-review",
+    "residual-validation-incomplete-release",
+    "residual-validation-incomplete-supplement",
+    "residual-zero-trace-cap-proof",
+    "residual-capacity-proof-independent-review",
+    "residual-reference-v3-design",
+    "residual-reference-v3-independent-design-review",
+    "canonical-residual-reference-v3",
+    "residual-reference-v3-execution",
+    "residual-reference-v3-independent-review",
+    "residual-reference-v3-next-stage-proposal",
+    "residual-next-stage-independent-design-review"
+  ]
+}

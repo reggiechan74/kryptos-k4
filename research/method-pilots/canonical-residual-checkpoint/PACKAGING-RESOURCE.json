@@ -1,0 +1,16 @@
+{
+  "classification": "Static publication preparation only, not scientific execution or reserve replenishment",
+  "final_archive_pass": "Recorded separately in external ARCHIVE-RECEIPT.json; do not double-count as a scientific worker",
+  "gaps": "Initial stopped attempt, shell/tool/orchestration, static inspection, report construction and tails are not fully metered. This is not a fully measured project total.",
+  "next_pilot_or_contingency_used": false,
+  "preliminary_archive_pass_cpu_seconds": 2.895137662,
+  "preparation_pass_1_stopped": {
+    "dedicated_cpu_receipt": null,
+    "reason": "Comparator failed on documented path-valued JSON key transformation; partial tree retained locally, not published."
+  },
+  "preparation_pass_2_cpu_seconds": 20.596485283,
+  "preparation_pass_3_cpu_seconds": 25.895069999,
+  "schema": "residual-publication-preparation-resource-v1",
+  "scientific_ledgers_changed": false,
+  "string_inventory_pass_cpu_seconds": 0.676956074
+}

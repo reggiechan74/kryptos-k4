@@ -1,0 +1,109 @@
+{
+  "accounting_complete": true,
+  "allocation_components": {
+    "analysis_and_supervisor": 1202,
+    "control_history": 500,
+    "driver_and_outer_supervisor": 1206,
+    "inner_stages_cumulative": 2000
+  },
+  "completed_planned_stages": 480,
+  "conservative_total_allocation_cpu_seconds": 4908,
+  "control_history_cpu_seconds": 253.13935700000002,
+  "control_history_reserve": 500,
+  "control_history_reserve_remaining": 246.86064299999998,
+  "failed_missing_capped_stages": 0,
+  "fresh_work_cpu_seconds": 238.69869099999997,
+  "historical_accounting_sha256": "c18149e37ee8cfa556078c2cbecfc98aa1afe6d3f1944d3580d853f4c0667895",
+  "historical_managed_cpu_seconds": 250.084503,
+  "holdout_inner_cpu_seconds_already_in_outer": 211.994508,
+  "max_concurrent_process_ceiling_gib": 2,
+  "new_top_level_receipts": [
+    {
+      "bucket": "control",
+      "inclusive_cpu_seconds": 0.180233,
+      "limits": {
+        "address_space_bytes_per_process": 268435456,
+        "cpu_seconds_per_process": 10,
+        "wall_seconds": 30
+      },
+      "receipt": "released-truth/draw.resource.json",
+      "receipt_sha256": "54b261741b141f717f93ef570f58ae9649c14b71b32a7034e4f8a346cdaceaac",
+      "stage": "fresh_draw",
+      "wall_seconds": 0.16195013399556046
+    },
+    {
+      "bucket": "holdout",
+      "inclusive_cpu_seconds": 220.29144,
+      "limits": {
+        "address_space_bytes_per_process": 536870912,
+        "cpu_seconds_per_process": 602,
+        "wall_seconds": 3600
+      },
+      "receipt": "input/holdout-outer.resource.json",
+      "receipt_sha256": "bb17eab6a8765976bfbf856d25e834bbfdd0b6e3aa4fb282c995dfada20e9594",
+      "stage": "holdout_outer",
+      "wall_seconds": 223.56235841099988
+    },
+    {
+      "bucket": "control",
+      "inclusive_cpu_seconds": 0.134926,
+      "limits": {
+        "address_space_bytes_per_process": 268435456,
+        "cpu_seconds_per_process": 10,
+        "wall_seconds": 30
+      },
+      "receipt": "validation/release-gate.resource.json",
+      "receipt_sha256": "04d71e0db5394afc737f06b8fcf054489c4bc488534838277af86213898380f6",
+      "stage": "release_gate",
+      "wall_seconds": 0.07763372699992033
+    },
+    {
+      "bucket": "analysis",
+      "inclusive_cpu_seconds": 15.352397,
+      "limits": {
+        "address_space_bytes_per_process": 536870912,
+        "cpu_seconds_per_process": 600,
+        "wall_seconds": 1800
+      },
+      "receipt": "validation/analysis.resource.json",
+      "receipt_sha256": "2b0bb32c0b043238c753572440a225b52cba40c673c25c2e6cce43af5bdf5f78",
+      "stage": "frozen_analysis",
+      "wall_seconds": 15.377275713006384
+    },
+    {
+      "bucket": "control",
+      "inclusive_cpu_seconds": 0.28118699999999996,
+      "limits": {
+        "address_space_bytes_per_process": 268435456,
+        "cpu_seconds_per_process": 10,
+        "wall_seconds": 30
+      },
+      "receipt": "validation/summary.resource.json",
+      "receipt_sha256": "e27001ca5bdd2a0132f7cf6bcf426ed84828d2519755506f7daf508f58351557",
+      "stage": "descriptive_reporting",
+      "wall_seconds": 0.2307259939989308
+    },
+    {
+      "bucket": "control",
+      "inclusive_cpu_seconds": 2.4585079999999997,
+      "limits": {
+        "address_space_bytes_per_process": 268435456,
+        "cpu_seconds_per_process": 10,
+        "wall_seconds": 30
+      },
+      "receipt": "release-review/review.resource.json",
+      "receipt_sha256": "d417161af846dea371a46b4c6ca559540f8d4dd9c5f1fd8d54aa764da6158ee2",
+      "stage": "independent_release_review",
+      "wall_seconds": 2.4268914019994554
+    }
+  ],
+  "outstanding_reserve": 0,
+  "rules": [
+    "Each top-level receipt child+supervisor CPU counted once.",
+    "Holdout outer child CPU includes descendants; do not add the 211.994508-second inner sum again.",
+    "Paired median performance totals are descriptive measures, not additional actual CPU usage.",
+    "Managed experimental process accounting does not claim to meter every lightweight orchestration or file-bookkeeping instruction."
+  ],
+  "status": "COMPLETE",
+  "total_deduplicated_managed_cpu_seconds": 488.783194
+}

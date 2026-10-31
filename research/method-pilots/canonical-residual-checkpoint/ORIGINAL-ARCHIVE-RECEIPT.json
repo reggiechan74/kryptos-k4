@@ -1,0 +1,21 @@
+{
+  "archive_bytes": 1386728,
+  "archive_member_files": 1675,
+  "archive_name": "canonical-residual-method-development.tar.gz",
+  "archive_roundtrip_hash_check": "PASS",
+  "archive_sha256": "77f3fa0d3fe8e00753fc74871291ca63fcf88ef9753fa12211a600cb53c73601",
+  "finalization_cpu_seconds": 2.589188725,
+  "finalization_wall_seconds": 2.590845293001621,
+  "independent_release_review": "PENDING",
+  "integrity_receipt_sha256": "3ec052304de2dcfe749a55aebdafa5cce1b4c90bf61b062ab8a941697b8c9425",
+  "manifest_sha256": "f25a23128ebe3393d70ff76b84339d5939b5d854d262a3736dacf3b8981397cf",
+  "namespace": "canonical-residual-method-development",
+  "peak_rss_kib": 87500,
+  "provenance_sha256": "9faeb2d367dff687531c2ac6ff4c112f265e272eba555cf99efd35f346dad5ff",
+  "readme_sha256": "f8519bc8661749fe356394c012d16dc312a8e069000cc5f35ff9beaaf650206b",
+  "resource_scope": "Static final source/public hashing, privacy/navigation checks and archive creation/re-read only; excludes prior preparation, shell/tool, review, source inspection and startup/final-write/exit tails.",
+  "results_sha256": "3ef7485985fea51fb9add2cba8b3d245f3065c7e25df8940d9d43824dbfb369e",
+  "schema": "residual-public-archive-receipt-v1",
+  "sha256sums_sha256": "60d42b44fbcbcad6e1ca5938fd1ed3df3eac2169d1a808a9f1f2392a4e54ed8e",
+  "source_inventory_sha256": "b455a3639a73070ad47c667c7d1a38448d01c993f58eb79f97226061666ffcb1"
+}

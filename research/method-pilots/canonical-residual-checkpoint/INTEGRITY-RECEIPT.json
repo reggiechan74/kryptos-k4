@@ -1,0 +1,100 @@
+{
+  "exact_copy_payload_files": 1124,
+  "failed_cohort_private_roots_read": false,
+  "navigation_links_checked": 29,
+  "privacy_pattern_scan": "PASS",
+  "public_payload_files_rehashed": 1665,
+  "reference_v3_external_interpreter_pin": "Retained in original freeze; not packaged or rehashed during this source-root-limited publication preparation",
+  "reference_v3_frozen_source_files_verified": [
+    {
+      "logical_source": "canonical-residual-reference-v3/reference_v3.py",
+      "original_sha256": "0730f8b0a26109919ba6eb558be18063d137ced233b397cd188dc261a13fe8f9",
+      "public_sha256": "0730f8b0a26109919ba6eb558be18063d137ced233b397cd188dc261a13fe8f9"
+    },
+    {
+      "logical_source": "canonical-residual-reference-v3/suite.py",
+      "original_sha256": "1371c5e4bfad65725d293a148c5cff5888314845a66cf3b4d033d0ae87f124fa",
+      "public_sha256": "db1ce5eed42c0e1d49bfc50a938db30e5c08e0582d95c6af11e2eced0394ee10"
+    },
+    {
+      "logical_source": "canonical-residual-reference-v3/fixtures.json",
+      "original_sha256": "b4cfddb10c6d87dfd6ecdaeab8cbf5c1518bb1c037ae684163e6db8fee585fa6",
+      "public_sha256": "b4cfddb10c6d87dfd6ecdaeab8cbf5c1518bb1c037ae684163e6db8fee585fa6"
+    },
+    {
+      "logical_source": "canonical-residual-reference-v3/CAPS.json",
+      "original_sha256": "3f530d258d8d8fc5c1802e73730b1577b440e5686abc01722414c7e698fc0ca6",
+      "public_sha256": "3f530d258d8d8fc5c1802e73730b1577b440e5686abc01722414c7e698fc0ca6"
+    },
+    {
+      "logical_source": "canonical-residual-reference-v3/CONTRACT.md",
+      "original_sha256": "bd038d2084eac7240a6981a55c061ecbc24305a3c13fd0cc641538930fc99715",
+      "public_sha256": "bd038d2084eac7240a6981a55c061ecbc24305a3c13fd0cc641538930fc99715"
+    },
+    {
+      "logical_source": "canonical-residual-reference-v3/TEST-PLAN.md",
+      "original_sha256": "6fd0934b7bc37bee2914d340bbaa45d852703cabedd36de2914850ccd6d701fb",
+      "public_sha256": "6fd0934b7bc37bee2914d340bbaa45d852703cabedd36de2914850ccd6d701fb"
+    },
+    {
+      "logical_source": "residual-reference-v3-independent-review/suite.py",
+      "original_sha256": "40d51c77487bd15f75f5dcd079cdab72d90efd11b1d9dc14d9640479d55c7d2b",
+      "public_sha256": "1d367c34dbbf3b2100f10222d25e07f169e6dd5c589fe95bf9f6f342767df4f7"
+    },
+    {
+      "logical_source": "residual-reference-v3-independent-review/independent_oracles.py",
+      "original_sha256": "4ae51bf0989fbf546b6acae143b97ee14e32cac6798a23c9b86981e2a04f98af",
+      "public_sha256": "4ae51bf0989fbf546b6acae143b97ee14e32cac6798a23c9b86981e2a04f98af"
+    },
+    {
+      "logical_source": "residual-reference-v3-independent-review/TEST-PLAN.md",
+      "original_sha256": "36bec2404ce3c09673e7a6d002970767e581a4ba8f03151e83151153465e3acf",
+      "public_sha256": "36bec2404ce3c09673e7a6d002970767e581a4ba8f03151e83151153465e3acf"
+    },
+    {
+      "logical_source": "canonical-residual-dev/residual_decoder.py",
+      "original_sha256": "be050003b9a73c14a7f7dda44afeb160e0e847045d57ddfa4b9527bdc68f7d67",
+      "public_sha256": "be050003b9a73c14a7f7dda44afeb160e0e847045d57ddfa4b9527bdc68f7d67"
+    },
+    {
+      "logical_source": "canonical-residual-dev/affine_filter.py",
+      "original_sha256": "1e19e9ad872d517487cfe7968a9f4b906756007d5e710be216807620f078c90d",
+      "public_sha256": "1e19e9ad872d517487cfe7968a9f4b906756007d5e710be216807620f078c90d"
+    },
+    {
+      "logical_source": "residual-reference-v3-execution/supervisor.py",
+      "original_sha256": "9f52f277b4bf4836bd37a4a3192d910e780f4931076ceda4e614f56eeaff1ce2",
+      "public_sha256": "937e31a217ae21c9300871670bd2798486936b05238dd1bd08c64795c99ec3e1"
+    },
+    {
+      "logical_source": "residual-reference-v3-execution/EXECUTION-CONTRACT.md",
+      "original_sha256": "2feffdc00229e56c6e5d117da8e41000eecada17326d8d5c7f849e90813b63f2",
+      "public_sha256": "687e02e05342d93f6f8c75952c0d00cd62d98468a1d83a0b3896412226b9b1ca"
+    }
+  ],
+  "required_original_pins": {
+    "canonical-residual-dev/residual_decoder.py": "be050003b9a73c14a7f7dda44afeb160e0e847045d57ddfa4b9527bdc68f7d67",
+    "canonical-residual-reference-v2/reference.py": "618dbdabcd5bc3b74508372a1144a463994d705c766d4335e253b6e0dad91974",
+    "canonical-residual-reference-v3/reference_v3.py": "0730f8b0a26109919ba6eb558be18063d137ced233b397cd188dc261a13fe8f9",
+    "residual-next-stage-independent-design-review/REVIEW.md": "6b250d0aafd979f3c005ee7b23663d3a8d2c2c3546729a4a98c8ca3e0e37765f",
+    "residual-reference-v3-execution/FREEZE.json": "96460c513aa07c554beebd037fecd106f10c7295637de6228004dcb5dd662316",
+    "residual-reference-v3-execution/RESOURCE-ACCOUNTING.json": "270021286a1d7b123a1a3ddca4374f5e8dec6372371d928b6c4fb6a66d1eb70d",
+    "residual-reference-v3-independent-review/REVIEW.md": "20fbded3b1165c11656c8cf4974c7f23b35f3a3a128a35dd9d5b473fd1a07021",
+    "residual-reference-v3-next-stage-proposal/PROPOSAL.md": "cdd02be85e643b4226eb4a58bb7eade35f8d28108ea979ba82f87765025c7c0a",
+    "residual-validation-incomplete-release/BUNDLE-MANIFEST.json": "aebda78d16ee9586e7907cbef080d4e7e3bac95ae746251d1281e2d30eecd5e2",
+    "residual-validation-incomplete-supplement/MANIFEST.json": "50f16c31b840da2ae937447941117646a2da13610397bb9b97938fbaa33cd5ff"
+  },
+  "schema": "residual-public-integrity-v1",
+  "scientific_modules_imported_or_executed": false,
+  "scope": "Checks original/public byte mapping and package preparation, not new scientific correctness or independent release approval.",
+  "source_or_scientific_result_mutated": false,
+  "source_payload_files_rehashed": 1665,
+  "source_transform_checks": {
+    "json_nonstring_lexical_invariance": 632,
+    "json_scope_paraphrase_structural_check": 1,
+    "json_tree_invariance": 629,
+    "python_token_invariance": 75
+  },
+  "status": "PASS_STATIC_PACKAGING_ONLY",
+  "transformed_payload_files": 541
+}
