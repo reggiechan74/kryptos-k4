@@ -31,6 +31,8 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | Review the ordinary-language running-key test 053 | [Frozen model, corpus and compact reproduction package](research/candidate-first-053/REPOSITORY.md) — all four target criteria failed |
 | Review exact source lookup 054 | [Corpus, complete results and reproduction package](research/candidate-first-054/README.md) — zero matches within the frozen 89-document corpus |
 | Compare new cryptanalysis strategies and proposed next experiments | [31 October 2026 research study](research/strategy-review-20261031/README.md) — literature comparison, exact scope limits and benchmark-first roadmap |
+| Review calibrated English-key fragment screen 055 | [Report, audits and reproduction archive](research/candidate-first-055/README.md) — 0/12 target pairs survive; a bounded heuristic screen, not an impossibility proof |
+| Review joint periodic-key and column-route study 056 | [Exact scope, benchmark, target and audits](research/candidate-first-056/README.md) — complete independent exclusion of the frozen A–Z Vigenère → ragged-columnar family |
 | Reproduce the work | [Running experiments](experiments/README.md) and [test guide](tests/README.md) |
 
 **Overlay scope:** the earlier column-only study used `dy = 0`. [Item 1’s newer predefined two-dimensional study](research/FOLD-SLIDE-2D-FINDINGS.md) covers all integer rows −28…+28 and columns −33…+33 under two fixed registrations. Its own whole-search controls show no unusual excess; the older column-only p-values are not repurposed for rows.
@@ -90,4 +92,5 @@ The [receipt index](docs/tracking/RECEIPTS.md) labels explicit run start/end, re
 Research artifacts are preserved even when later audits narrow their claims. Historical “unrun” labels may be superseded by the current canonical ledger; consult its precise tested and untested scopes. No live Site deployment is performed by these documentation or research commands.
 
 The [previous root README](docs/history/README-before-navigation.txt) is retained as an archival snapshot; its historical wording does not override the current ledger.
+
 
