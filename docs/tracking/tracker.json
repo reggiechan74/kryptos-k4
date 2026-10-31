@@ -774,15 +774,15 @@
     },
     {
       "id": "H-SUM-ROTATION",
-      "Status": "specified but not run",
-      "Mechanism": "Periodic arithmetic followed by block rotation locked to the sum of intermediate symbols. Exact equations and update timing are in the dated proposal linked under Evidence.",
-      "Evidence": "Speculative hand-executable mechanism, not attributed to Sanborn. [Dated targeted public comparison and independent review](fresh-program-20261031/independent-review.md); closest external mechanisms and source pins are in the linked proposal and [external register](EXTERNAL-PRIOR-ART.md). No matching exact K4 test located in the inspected record; no global novelty claim.",
-      "Tested scope": "None. Proposed AZ/KRYPTOS, widths 3–12, nominal key periods 1–8; 160 structural descriptions, not a complete-key count.",
-      "Untested scope": "Other rules, initial alphabets, resets, stage orders or bounds; these are not automatic follow-up experiments.",
-      "Missing inputs": "Historical evidence connecting this mechanism to K4; completed independent validation and exact prior-coverage clearance for the proposed target domain.",
-      "Next discriminating test": "Follow the fresh queue in priority order; freeze rules, data, budget and exact-set benchmark before held-out evaluation. Parent audit approval precedes target use.",
-      "Dependencies": "Canonical 97 symbols and 24 fixed clue letters; full exact inversion, complete compatible sets, matched nulls, independent audit, no post-failure rule rescue. Route proposals additionally compare target-induced permutation AND key domain against prior completed scopes.",
-      "Results": "Specified but not run. [Program and priority](fresh-program-20261031/README.md); no target result claimed."
+      "Status": "narrow negative",
+      "Mechanism": "Periodic addition followed by right rotation of consecutive blocks, amount equal to their integer rank sum modulo actual block length. Ciphertext sum determines exact inverse rotation.",
+      "Evidence": "Speculative, not a Sanborn attribution. [Original proposal](fresh-program-20261031/structural-models.md); [061 prior-domain audit](candidate-first-061/PRIOR-COVERAGE.md) compares exact target permutations and key domains with pinned EXT-002/004/012/016/019 sources, not cipher names. No matching exact test located; no global novelty claim.",
+      "Tested scope": "Study 061, AZ/KRYPTOS, widths 3–12, periods 1–8, phase zero, ragged final blocks; 160 structural cases, not distinct operators or a key-volume count. Both independent target engines return zero compatible key cylinders. Previously excluded all-zero keys were removed from eligible domain, not counted as new coverage.",
+      "Untested scope": "Other checksums, block schedules, layer orders, alphabets, or arbitrary nonlinear block ciphers. None is an automatic rescue expansion.",
+      "Missing inputs": "Historical evidence connecting this rule to K4; no compatible candidate remains within the frozen domain.",
+      "Next discriminating test": "Close Q-07 within these bounds. Select Q-08 ciphertext-steered Josephus for separate exact route/key-domain overlap review and independently controlled frozen protocol.",
+      "Dependencies": "Canonical 97 symbols/24 clue letters; inverse-sum proof, complete tiny truth sets, exact cylinder representation and full roundtrip. All 416 blind complete sets agree, 352 plants retained, 32 sparse plants correctly keep seven free residues, 0/64 null fits. Source run-history limitation remains explicit; no unsupported p=1 exclusion inferred.",
+      "Results": "[061 findings, audits and reproducible archive](candidate-first-061/README.md). Execution and independent audit complete; artifacts published. Exact bounded exclusion only; no target-dependent rule change."
     },
     {
       "id": "H-CIPHERTEXT-JOSEPHUS",
@@ -5149,6 +5149,33 @@
       ],
       "receipt_paths": [],
       "original_entry": "- Date: 2026-10-31 UTC; parent target approval 15:13:41 UTC, final independent audit 15:15:09 UTC. Measured durations are in retained resource receipts.\n- Scope: AZ/KRYPTOS reference and initial mutable alphabets; exchange with 26 initial pointers, or fixed-reference-index prefix reversal with 26 constant offsets. Two fixed 104-configuration arms; all 208 functions proven distinct by 21,528 separating witnesses. No resets, free alphabets, additional layers or post-failure changes.\n- Result: Both independent target engines UNSAT_COMPLETE: zero compatible descriptions/plaintexts. Exact bounded exclusion only, not all evolving-alphabet ciphers. Canonical ciphertext SHA256 `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`.\n- Validation: 5,832 tiny forward/inverse cases and 6,561 complete tiny solution sets; 480/480 blind complete-set agreements, 416/416 unique plants, 0/64 matched random fits. Benchmark manifest SHA256 `6e825558692b49bcb1b41cc11cec86d217e56c174a0c2c28867fe7bf6dbc6439`. Two target runs together used 0.10484779 CPU seconds; final audit ran no extra target search.\n- Evidence: [Findings, frozen protocol, complete source/raw data, receipts and independent audits](candidate-first-060/README.md). Fresh public comparisons are preserved in the [proposal archive](fresh-program-20261031/README.md).\n- Method improvement: Retain independent tiny truth-set and pairwise separating-witness tooling. No production bottleneck was observed; no stochastic/neural replacement justified. Future changes require fresh controls, not reuse of revealed holdouts.\n- Status/next action: Execution and independent audit complete; artifacts published. Reconcile local/external ledgers and generated views, then select Q-07/study 061 for target-route/key-domain overlap checks and separate validation. At this closeout no 061 target run has occurred."
+    },
+    {
+      "record_id": "LOG-7A0C058E4D",
+      "experiment_ids": [
+        "CANDIDATE-FIRST-061"
+      ],
+      "title": "CANDIDATE-FIRST-061 — sum-locked block rotation",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "Exact bounded exclusion of sum-locked block rotation,160 structural cases; no compatible key cylinders",
+      "classification_basis": "Reviewed against frozen equations, independently audited exact-set controls, prior-domain gate and final target audit. Prior zero-key coverage excluded; broader nonlinear block models remain untested.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-31 UTC; parent target-stage approval 15:33:42 UTC. Seals and resource receipts retain actual timing; commit times are not run times.",
+      "date_only": {
+        "date": "2026-10-31",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [],
+      "links": [
+        "research/candidate-first-061/PRIOR-COVERAGE.md",
+        "research/candidate-first-061/README.md"
+      ],
+      "receipt_paths": [],
+      "original_entry": "- Date: 2026-10-31 UTC; parent target-stage approval 15:33:42 UTC. Seals and resource receipts retain actual timing; commit times are not run times.\n- Scope: AZ/KRYPTOS same-alphabet periodic addition at original-position phase zero, periods 1–8, then right rotations of consecutive blocks widths 3–12 by integer block sum modulo actual length; final block unpadded. 160 structural cases, not distinct keyed operators. All-zero keys are previously excluded pure-transposition coverage and removed from eligible target domain; no blanket nonzero p=1 exclusion was justified.\n- Result: Both independently implemented target engines return UNSAT_COMPLETE, zero compatible key cylinders. Exact bounded exclusion only; no new checksum, direction, width schedule or additional layer after failure.\n- Validation: 19,656 independent tiny roundtrips, 137,268 complete tiny cylinder comparisons including free keys; all 416 sealed blind sets agree, all 352 plants included, all 320 full-mask plants uniquely recovered, all 32 sparse planted cylinders retain seven free residues, 0/64 nulls fit. Independent audit checks 79,865 candidate/free-coordinate roundtrips; those probes are controls, not exhaustive enumeration of huge cylinders. Completeness follows from exact residue equations and tiny truth sets.\n- Prior overlap: Exact target-route membership compared with local001/049/050, columnar, grid/rotation/cylinder/irregular/disrupted/Myszkowski/grille and EXT012 route compositions. No intersections in inspected domains. EXT012 historical484-spec universe hash and250,348 configuration counts reconstructed exactly; unavailable historical executable revision remains a semantics limitation. Millions of permutation membership comparisons are NOT cipher-search trials. Sources are pinned/hashes retained; external programs were not executed.\n- Provenance/resources: Benchmark freeze SHA256 `05be2644387a92cb3610123d566dc325f9526a164701a36ee05d6924e7bdc719`; target transport `2010f5155153fe91f2db4bc82a2e9b142e407a5a0f9a59d1e346203b7cde1701`. Canonical ciphertext unchanged. Complete resource ledger includes eligibility reconstruction/comparison work and explicitly labelled conservative reserves where historical measurements are missing.\n- Evidence: [Report, frozen protocol, independent audits, complete code/control data and receipts](candidate-first-061/README.md); [readable prior-coverage decision](candidate-first-061/PRIOR-COVERAGE.md).\n- Method improvement: Retain route-membership comparators with positive controls and source-universe hash reconstruction. Separate different mechanisms, actual target-route aliases, key-domain overlap and unsupported broad external negatives. Exact solving is fast; no scoring or stochastic-search bottleneck warrants a replacement. Any future changed method requires fresh held-out validation.\n- Status/next action: Scientific execution and independent audit complete; artifacts published. Reconciled local/external ledger closes Q-07 and selects Q-08/study 062 for its own overlap and validation gates. No 062 target run at this closeout; no Site or paid service change."
     }
   ],
   "receipts": [

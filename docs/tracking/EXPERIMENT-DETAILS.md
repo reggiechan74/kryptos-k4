@@ -2296,3 +2296,25 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Status/next action: Execution and independent audit complete; artifacts published. Reconcile local/external ledgers and generated views, then select Q-07/study 061 for target-route/key-domain overlap checks and separate validation. At this closeout no 061 target run has occurred.
 
 Related files: [research/candidate-first-060/README.md](../../research/candidate-first-060/README.md), [research/fresh-program-20261031/README.md](../../research/fresh-program-20261031/README.md).
+
+## LOG-7A0C058E4D
+
+**CANDIDATE-FIRST-061 — sum-locked block rotation**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (date statement; not a run timestamp); original date statement: 2026-10-31 UTC; parent target-stage approval 15:33:42 UTC. Seals and resource receipts retain actual timing; commit times are not run times.
+
+Type: finite K4 model tests. Outcome: Exact bounded exclusion of sum-locked block rotation,160 structural cases; no compatible key cylinders
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-31 UTC; parent target-stage approval 15:33:42 UTC. Seals and resource receipts retain actual timing; commit times are not run times.
+- Scope: AZ/KRYPTOS same-alphabet periodic addition at original-position phase zero, periods 1–8, then right rotations of consecutive blocks widths 3–12 by integer block sum modulo actual length; final block unpadded. 160 structural cases, not distinct keyed operators. All-zero keys are previously excluded pure-transposition coverage and removed from eligible target domain; no blanket nonzero p=1 exclusion was justified.
+- Result: Both independently implemented target engines return UNSAT_COMPLETE, zero compatible key cylinders. Exact bounded exclusion only; no new checksum, direction, width schedule or additional layer after failure.
+- Validation: 19,656 independent tiny roundtrips, 137,268 complete tiny cylinder comparisons including free keys; all 416 sealed blind sets agree, all 352 plants included, all 320 full-mask plants uniquely recovered, all 32 sparse planted cylinders retain seven free residues, 0/64 nulls fit. Independent audit checks 79,865 candidate/free-coordinate roundtrips; those probes are controls, not exhaustive enumeration of huge cylinders. Completeness follows from exact residue equations and tiny truth sets.
+- Prior overlap: Exact target-route membership compared with local001/049/050, columnar, grid/rotation/cylinder/irregular/disrupted/Myszkowski/grille and EXT012 route compositions. No intersections in inspected domains. EXT012 historical484-spec universe hash and250,348 configuration counts reconstructed exactly; unavailable historical executable revision remains a semantics limitation. Millions of permutation membership comparisons are NOT cipher-search trials. Sources are pinned/hashes retained; external programs were not executed.
+- Provenance/resources: Benchmark freeze SHA256 `05be2644387a92cb3610123d566dc325f9526a164701a36ee05d6924e7bdc719`; target transport `2010f5155153fe91f2db4bc82a2e9b142e407a5a0f9a59d1e346203b7cde1701`. Canonical ciphertext unchanged. Complete resource ledger includes eligibility reconstruction/comparison work and explicitly labelled conservative reserves where historical measurements are missing.
+- Evidence: [Report, frozen protocol, independent audits, complete code/control data and receipts](../../research/candidate-first-061/README.md); [readable prior-coverage decision](../../research/candidate-first-061/PRIOR-COVERAGE.md).
+- Method improvement: Retain route-membership comparators with positive controls and source-universe hash reconstruction. Separate different mechanisms, actual target-route aliases, key-domain overlap and unsupported broad external negatives. Exact solving is fast; no scoring or stochastic-search bottleneck warrants a replacement. Any future changed method requires fresh held-out validation.
+- Status/next action: Scientific execution and independent audit complete; artifacts published. Reconciled local/external ledger closes Q-07 and selects Q-08/study 062 for its own overlap and validation gates. No 062 target run at this closeout; no Site or paid service change.
+
+Related files: [research/candidate-first-061/PRIOR-COVERAGE.md](../../research/candidate-first-061/PRIOR-COVERAGE.md), [research/candidate-first-061/README.md](../../research/candidate-first-061/README.md).

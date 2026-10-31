@@ -1,0 +1,24 @@
+{
+  "status": "PASS_FOR_PARENT_TARGET_REVIEW",
+  "created_utc": "2026-10-31T15:33:06.252449+00:00",
+  "freeze_sha256": "05be2644387a92cb3610123d566dc325f9526a164701a36ee05d6924e7bdc719",
+  "seal_sha256": "0b5dc00619be43349f6f3ac074fc66a260491b24d2e3872b79a1b899dbb5d515",
+  "frozen_files_verified": 70,
+  "fixture_replay_exact": true,
+  "counts": {
+    "complete_sets": 416,
+    "free_cylinders": 1439,
+    "roundtrips": 79865,
+    "plants": 352,
+    "full_unique": 320,
+    "nulls": 64,
+    "null_fits": 0,
+    "sparse_seven_free": 32
+  },
+  "benchmark_cpu_seconds": 2.8115609310000003,
+  "audit_cpu_seconds": 6.595778723,
+  "audit_max_rss_kib": 15380,
+  "target_evaluated": false,
+  "target_authorized": false,
+  "limitation": "Single-coordinate free-key probes are controls, not exhaustive cylinder enumeration; completeness follows from residue equations and tiny forward truth. No union count across overlapping cylinders."
+}

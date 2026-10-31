@@ -891,6 +891,14 @@
       ],
       "outcome": "Exact bounded exclusion of 208 distinct evolving-alphabet functions; zero compatible K4 descriptions",
       "basis": "Reviewed against frozen scope, complete-set blind benchmark and final independent target audit; broader evolving alphabets remain untested."
+    },
+    "LOG-7A0C058E4D": {
+      "title": "CANDIDATE-FIRST-061 \u2014 sum-locked block rotation",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "Exact bounded exclusion of sum-locked block rotation,160 structural cases; no compatible key cylinders",
+      "basis": "Reviewed against frozen equations, independently audited exact-set controls, prior-domain gate and final target audit. Prior zero-key coverage excluded; broader nonlinear block models remain untested."
     }
   }
 }

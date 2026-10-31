@@ -1,0 +1,20 @@
+{
+  "status": "PASS_BOUNDED_UNSAT_COMPLETE",
+  "created_utc": "2026-10-31T15:34:36.611917+00:00",
+  "freeze_and_all_seals_verified": true,
+  "canonical_ciphertext_hash_verified": true,
+  "clue_positions_verified": 24,
+  "all_residues_observed_every_period": true,
+  "structural_cases_each": 160,
+  "compatible_cylinders": 0,
+  "outputs_agree": true,
+  "zero_vector_not_recounted": true,
+  "additional_target_searches": 0,
+  "target_cpu_seconds": 0.06380497099999999,
+  "target_child_max_rss_kib": 7936,
+  "audit_cpu_seconds": 0.012234657000000003,
+  "audit_max_rss_kib": 11136,
+  "transport_sha256": "2010f5155153fe91f2db4bc82a2e9b142e407a5a0f9a59d1e346203b7cde1701",
+  "seal_sha256": "d51411599ecf5f2f88e2380cfbbe21f0b31fb057328d8b00c234ceb8ca9cae4d",
+  "interpretation": "Excludes only AZ/KR sum-locked right block rotation widths3\u201312, phase-zero periodic additive key periods1\u20138, excluding all-zero vectors already covered by prior work. 160 structural settings, not160 distinct keyed operators. Not a general nonlinear-block exclusion or K4 solution."
+}
