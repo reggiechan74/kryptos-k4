@@ -36,11 +36,15 @@ class ExternalPriorArtRegisterTests(unittest.TestCase):
                 self.assertIn(phrase, agents)
     def test_current_queue_is_not_new_execution_authority(self):
         text = (ROOT/'research/HYPOTHESES.md').read_text()
-        self.assertIn('At that survey closeout, no proposed new execution-ready hypothesis cleared', text)
-        self.assertIn('execution was separately authorized at 15:03 UTC', text)
-        self.assertIn('Each target requires its own frozen protocol', text)
-        self.assertIn('superseded ten-item', text)
-        self.assertIn('Historical ranked queue and current eligibility', text)
+        archive = (ROOT/'research/HYPOTHESIS-HISTORY.md').read_text()
+        self.assertIn('At that survey closeout, no proposed new execution-ready hypothesis cleared', archive)
+        self.assertIn('execution was separately authorized at 15:03 UTC', archive)
+        self.assertIn('15:03 UTC on 31 October 2026', text)
+        self.assertIn('Each target requires its own frozen protocol', archive)
+        self.assertIn('exact prior-art, protocol or control gates', text)
+        self.assertIn('no cipher is currently cleared to run', text)
+        self.assertIn('superseded ten-item', archive)
+        self.assertIn('Historical ranked queue and current eligibility', archive)
 
 if __name__ == '__main__':
     unittest.main()

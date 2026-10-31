@@ -2,7 +2,7 @@
 
 This repository records an attempt to understand **K4, the final 97-letter section of Jim Sanborn’s Kryptos sculpture at CIA headquarters**. It contains reproducible experiments, source research and exact constraints, including failed ideas. **We do not have a verified solution or a recovered encryption method.**
 
-**Start with the [current hypothesis status and working to-do list](research/HYPOTHESES.md).** Completed tests and remaining gaps are tracked there. **Also check the [external hypothesis and prior-art register](research/EXTERNAL-PRIOR-ART.md)** for what other researchers have tried. [AGENTS.md](AGENTS.md) requires checking both before selection and reconciling them after every experiment. The [four-family program is complete within its frozen bounds](research/fresh-program-20261031/NEXT-DECISION.md): all four returned no compatible K4 candidate. This is not a solution or broad cipher-family exhaustion. Next is an independent 810-cell source transcription—not a cipher run. New mechanisms still require prior-work and identifiability gates; no fifth target is admitted. Q-04/Q-05 remain unrun.
+**Start with the [current hypothesis status and working to-do list](research/HYPOTHESES.md).** Completed tests and remaining gaps are tracked there. **Also check the [external hypothesis and prior-art register](research/EXTERNAL-PRIOR-ART.md)** for what other researchers have tried. [AGENTS.md](AGENTS.md) requires checking both before selection and reconciling them after every experiment. The [four-family program is complete within its frozen bounds](research/fresh-program-20261031/NEXT-DECISION.md): all four returned no compatible K4 candidate. This is not a solution or broad cipher-family exhaustion. The [810-cell source audit is complete](research/tableau-cell-audit-20261031/REPORT.md): four cells remain unresolved and no supported new mechanism was established. New mechanisms still require prior-work and identifiability gates; no fifth target is admitted. Q-04/Q-05 remain unrun.
 
 **The [eight requested investigations are complete to their stated scopes](research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md).** Results include finite negatives, unresolved computation and evidence-blocked models. The final one-edit study supplies no correction or decryption.
 
@@ -21,11 +21,11 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | If you want to… | Read |
 | --- | --- |
 | Review the seven requested families and remaining gaps | [Coverage matrix](research/SEVEN-FAMILY-REVIEW-046.md) and [structured branches](research/specifications/SEVEN-FAMILY-REVIEW-046.json) |
-| Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 67 stable family IDs, linked to exact coverage |
+| Understand what has and has not been tested | [Canonical family index](research/HYPOTHESES.md#index) — 67 stable family IDs grouped by status, with exact coverage |
 | Find an experiment, its date, result, code and receipts | [Experiment tracker](docs/tracking/EXPERIMENTS.md) and [recorded run receipts](docs/tracking/RECEIPTS.md) |
 | Verify copied source literals without executing external code | [Read-only literal checker](research/source-literal-checker-v1/README.md) — independently tested transcription aid, not semantic verification |
 | Avoid repeating other researchers’ hypotheses | [External prior-art register](research/EXTERNAL-PRIOR-ART.md) — exact scopes, source pins, evidence quality and overlap with our tests |
-| Decide what to test next | [Canonical working to-do list](research/HYPOTHESES.md); [historical frontier and source gates](research/RESEARCH-FRONTIER-2026-10-23.md) remain reference snapshots |
+| Decide what to test next | [Canonical next-action queue](research/HYPOTHESES.md#next-action-queue); [historical frontier and source gates](research/RESEARCH-FRONTIER-2026-10-23.md) remain reference snapshots |
 | Explore item 1’s systematic row-plus-column scan | [Findings](research/FOLD-SLIDE-2D-FINDINGS.md), [every 2D shift](results/FOLD-SLIDE-2D-001-frames.csv), [count maps](research/figures/fold-slide-2d-001.svg); the [earlier offline slider](research/figures/fold-slide-020.html) is column-only |
 | Compare all eight scopes and outcomes | [Eight-item summary](research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md) — complete investigation does not mean a solved or exhausted family |
 | Inspect the final one-edit robustness study | [Exact counts, ambiguity and controls](research/ONE-EDIT-028-FINDINGS.md); canonical ciphertext is unchanged |

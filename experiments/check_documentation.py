@@ -7,6 +7,14 @@ from pathlib import Path
 from collections import Counter
 from urllib.parse import unquote
 ROOT=Path(__file__).resolve().parents[1]
+def markdown_anchors(text):
+ seen=Counter();valid=set()
+ for heading in re.findall(r'^#+ (.*)',text,re.M):
+  slug=re.sub(r'[^\w -]','',heading.lower()).replace(' ','-');n=seen[slug];valid.add(slug+('-'+str(n) if n else ''));seen[slug]+=1
+ # GitHub supports explicit HTML anchors for retained legacy section URLs.
+ valid.update(re.findall(r'<a\s+(?:id|name)=["\']([^"\']+)["\'][^>]*>',text))
+ return valid
+
 def audit():
  files=subprocess.check_output(['git','ls-files'],cwd=ROOT).decode().splitlines();broken=[];checked=0;fragment_failures=[];fragments_checked=0
  for name in files:
@@ -18,9 +26,7 @@ def audit():
    parts=target.split('#',1);fragment=unquote(parts[1]) if len(parts)>1 else None
    target=unquote(parts[0].split('?')[0]);resolved=(source.parent/target).resolve();checked+=1
    if fragment and resolved.is_file() and resolved.suffix=='.md':
-    fragments_checked+=1;seen=Counter();valid=set()
-    for heading in re.findall(r'^#+ (.*)',resolved.read_text(errors='replace'),re.M):
-     slug=re.sub(r'[^\w -]','',heading.lower()).replace(' ','-');n=seen[slug];valid.add(slug+('-'+str(n) if n else ''));seen[slug]+=1
+    fragments_checked+=1;valid=markdown_anchors(resolved.read_text(errors='replace'))
     if fragment not in valid:fragment_failures.append(dict(source=name,target=m.group(1)))
    if not resolved.exists():broken.append(dict(source=name,target=m.group(1),line=text[:m.start()].count('\n')+1))
  return dict(kind='Tracked Markdown local file and Markdown heading-fragment audit; no remote retrieval',checked=checked,broken=broken,markdown_fragments_checked=fragments_checked,broken_markdown_fragments=fragment_failures,scope='Fenced code blocks excluded; original independent artifacts are preserved even where their standalone-relative links are unavailable in this checkout.')
