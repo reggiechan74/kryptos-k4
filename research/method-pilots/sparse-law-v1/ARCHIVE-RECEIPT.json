@@ -1,0 +1,21 @@
+{
+  "archive": "synthetic-pilot-and-future-design-evidence.zip",
+  "bytes": 3390420,
+  "sha256": "c678766c5b22dad0617f5ca7f9897fb8ebc059c179543a153b2c83e4b8437d3b",
+  "payload_files": 429,
+  "unchanged_files": 420,
+  "sanitized_prose_files": 8,
+  "omitted_handoffs": [
+    {
+      "source_artifact": "sparse-law-pilot/PUBLICATION-HANDOFF.md",
+      "original_sha256": "20419538a3ebf47e852660563eeb0fdb3786fae8741472ba5a2a557ed805d41a",
+      "reason": "Private publication/coordination handoff; not computational evidence"
+    },
+    {
+      "source_artifact": "sparse-law-blind40/CLOSEOUT-HANDOFF.md",
+      "original_sha256": "3d77d20f1e14bcdaa18d090cf40d96d7e267503e90854e4e94e4ff8943df2565",
+      "reason": "Private publication/coordination handoff; not computational evidence"
+    }
+  ],
+  "private_scan_findings": []
+}

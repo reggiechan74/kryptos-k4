@@ -1,0 +1,3444 @@
+{
+  "format": 1,
+  "original_development_freeze_sha256": "21cbfd6793e2c4edbf4d5a676704c614b413bbe236ad7861a9cb88ba30e35bc9",
+  "original_closeout_manifest_sha256": "cd4f5af7fe42d95cd91c8a7e34f2fcf93c368d54d392cc656f669518e1240fcd",
+  "files": [
+    {
+      "path": "sparse-law-pilot/BLIND-PROTOCOL.md",
+      "original_sha256": "bcd23c496ab6988a3a8316abd66a90c3a6f356f82be1a484e976ce7b7e9bcd6a",
+      "public_sha256": "4d12efd783c8f2486e1b6612a7e2835c7d7ec33b2274b7702dfb0858c08fef59",
+      "bytes": 7136,
+      "byte_identical": false,
+      "reason": "Remove private account-page/internal coordination prose and make prose execution paths archive-relative; numerical and mathematical statements retained; Explicit historical-stage and 91-modeled-position clarification; do not reinterpret old development wording as full97 recovery"
+    },
+    {
+      "path": "sparse-law-pilot/DEVELOPMENT-CHANGES.md",
+      "original_sha256": "c38cfea261145ac81161ae47781ca34ee562002c6fb022d47fe57f4f2f6852b3",
+      "public_sha256": "f2b5a58cac886b3da44dfa046a882a600478b79ccb892fc90167e262fdf5f9f4",
+      "bytes": 3211,
+      "byte_identical": false,
+      "reason": "Explicit historical-stage and 91-modeled-position clarification; do not reinterpret old development wording as full97 recovery"
+    },
+    {
+      "path": "sparse-law-pilot/DEVELOPMENT-REPORT.md",
+      "original_sha256": "a44e2830d1555848eea8de39629b19e2cf8ad23b46e9ed5ca93f7beaba4ce3d8",
+      "public_sha256": "7d25d72d74c3011f119f428f19c0aef34072118f3d2654de659935f4888518fe",
+      "bytes": 5974,
+      "byte_identical": false,
+      "reason": "Explicit historical-stage and 91-modeled-position clarification; do not reinterpret old development wording as full97 recovery"
+    },
+    {
+      "path": "sparse-law-pilot/README.md",
+      "original_sha256": "012464f5a00603eca8f9ad1c167fab4a73efa5e15220e9d66d7c89ba4f6ac280",
+      "public_sha256": "44d58fe4ec43a20dff88cb87cec4d000b7f15be171881c47083b910c4a7d93e3",
+      "bytes": 6435,
+      "byte_identical": false,
+      "reason": "Remove private account-page/internal coordination prose and make prose execution paths archive-relative; numerical and mathematical statements retained; Explicit historical-stage and 91-modeled-position clarification; do not reinterpret old development wording as full97 recovery"
+    },
+    {
+      "path": "sparse-law-pilot/alias-diagnostic.json",
+      "original_sha256": "d43caf21b1256dd881c45966e1f86b0e36ddc522743b13bfd23648670f76af57",
+      "public_sha256": "d43caf21b1256dd881c45966e1f86b0e36ddc522743b13bfd23648670f76af57",
+      "bytes": 448,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/alias_diagnostic.py",
+      "original_sha256": "45ccaf7c9588386cf5fac00fccd5cdac87ab0637b0515ff772e1198fc1a200be",
+      "public_sha256": "45ccaf7c9588386cf5fac00fccd5cdac87ab0637b0515ff772e1198fc1a200be",
+      "bytes": 828,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/blind_generator.py",
+      "original_sha256": "c0d9cadf1cb1678b5afdbfd692709af742fe359edb22b13a5a10d110e8be86b3",
+      "public_sha256": "c0d9cadf1cb1678b5afdbfd692709af742fe359edb22b13a5a10d110e8be86b3",
+      "bytes": 6512,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/check_public_outputs.py",
+      "original_sha256": "1e5eb13b47ac55c428ce989c824dba7307c3089fd929c928076bebd6cbbbeafe",
+      "public_sha256": "1e5eb13b47ac55c428ce989c824dba7307c3089fd929c928076bebd6cbbbeafe",
+      "bytes": 1759,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/dev-driver-dense.json",
+      "original_sha256": "62265add2d51c78f8f3f05c43b05ae3e6e476f95935e2d1c8e9a24c6f6861094",
+      "public_sha256": "62265add2d51c78f8f3f05c43b05ae3e6e476f95935e2d1c8e9a24c6f6861094",
+      "bytes": 1256,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/dev-driver-join.json",
+      "original_sha256": "de39cf65c4aa972c77b6d86402f98e2341c757fbfadbd6a7505b3ebc51292199",
+      "public_sha256": "de39cf65c4aa972c77b6d86402f98e2341c757fbfadbd6a7505b3ebc51292199",
+      "bytes": 13892,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/dev-driver-join.json.relation.json.gz",
+      "original_sha256": "2f03965b2b0034e8c3a1ac55aa025464a40057e9047841b45c1e9654274304c8",
+      "public_sha256": "2f03965b2b0034e8c3a1ac55aa025464a40057e9047841b45c1e9654274304c8",
+      "bytes": 74710,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/dev-driver-oracle.json",
+      "original_sha256": "4cb5828e83ff6c37ffd7b7936abf7719f45b6fca9fb2245c76492bdb2f02f84d",
+      "public_sha256": "4cb5828e83ff6c37ffd7b7936abf7719f45b6fca9fb2245c76492bdb2f02f84d",
+      "bytes": 821,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/dev-driver-plain.json",
+      "original_sha256": "3aaaf542edfe62f7b66533cbf9c55ffff252e838d4dc32a2adbdc4605f79a8c9",
+      "public_sha256": "3aaaf542edfe62f7b66533cbf9c55ffff252e838d4dc32a2adbdc4605f79a8c9",
+      "bytes": 13938,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/dev-driver-plain.json.relation.json.gz",
+      "original_sha256": "0ec2fdbe7f95c6a229932b70d0ce1b93f55dd0de5334a6bffd64e55a7512c04c",
+      "public_sha256": "0ec2fdbe7f95c6a229932b70d0ce1b93f55dd0de5334a6bffd64e55a7512c04c",
+      "bytes": 74711,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/dev-driver-postfix-dense.json",
+      "original_sha256": "8da276c1189af4568a848a124d0197791b4ad89811868f365a9e2375b7eb4457",
+      "public_sha256": "8da276c1189af4568a848a124d0197791b4ad89811868f365a9e2375b7eb4457",
+      "bytes": 1258,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/dev-driver-postfix-oracle.json",
+      "original_sha256": "a523eb065262624b2d0269178b7f1aea1c6133d06f2f1a165c0fc9437fc16b83",
+      "public_sha256": "a523eb065262624b2d0269178b7f1aea1c6133d06f2f1a165c0fc9437fc16b83",
+      "bytes": 806,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/dev-public-driver-smoke.json",
+      "original_sha256": "5a75ffa964a9a276e4bc12bc61760a2161f8d665f30b3c43171458fbffae4225",
+      "public_sha256": "5a75ffa964a9a276e4bc12bc61760a2161f8d665f30b3c43171458fbffae4225",
+      "bytes": 121381,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/00-dense.json",
+      "original_sha256": "ac2cfc6ad85a19edd86ea8cee11f9c6ac80dc1bebaf4fa0dc32bdc2c48df1a44",
+      "public_sha256": "ac2cfc6ad85a19edd86ea8cee11f9c6ac80dc1bebaf4fa0dc32bdc2c48df1a44",
+      "bytes": 1368,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/00-join.json",
+      "original_sha256": "84cb5560a19f8f53f3ea9d2314513caa9ef259daa2aad8ea82445713cb8b83a5",
+      "public_sha256": "84cb5560a19f8f53f3ea9d2314513caa9ef259daa2aad8ea82445713cb8b83a5",
+      "bytes": 20061,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/00-oracle.json",
+      "original_sha256": "a2be829944aafedfc1009b2f192182eaccde075a1b1e7e16bf33a61f8bae137c",
+      "public_sha256": "a2be829944aafedfc1009b2f192182eaccde075a1b1e7e16bf33a61f8bae137c",
+      "bytes": 912,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/00-plain.json",
+      "original_sha256": "5b465c9ccc625e79f5b9551d783ffc1633b0cfc412a437284c125b76332bc038",
+      "public_sha256": "5b465c9ccc625e79f5b9551d783ffc1633b0cfc412a437284c125b76332bc038",
+      "bytes": 20106,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/01-dense.json",
+      "original_sha256": "670b61181c65bb586e4e72aa1e4801f2d310768a0e6dd5ebab81908e4f62c596",
+      "public_sha256": "670b61181c65bb586e4e72aa1e4801f2d310768a0e6dd5ebab81908e4f62c596",
+      "bytes": 1440,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/01-join.json",
+      "original_sha256": "32f2151d1ff16c479afb72aa48ca4a7e1a693f77b32f47f5a4476b253a73ddc5",
+      "public_sha256": "32f2151d1ff16c479afb72aa48ca4a7e1a693f77b32f47f5a4476b253a73ddc5",
+      "bytes": 30837,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/01-oracle.json",
+      "original_sha256": "069f82c9008febf1c600b9f0679ea76fd066ea73b3bca67761b33b2dbaeabff0",
+      "public_sha256": "069f82c9008febf1c600b9f0679ea76fd066ea73b3bca67761b33b2dbaeabff0",
+      "bytes": 1226,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/01-plain.json",
+      "original_sha256": "8e2473ea1dc355522ca5adaa4e2a79f1b1e5401fdca28f2aa4efaa86757fdc6a",
+      "public_sha256": "8e2473ea1dc355522ca5adaa4e2a79f1b1e5401fdca28f2aa4efaa86757fdc6a",
+      "bytes": 30886,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/02-dense.json",
+      "original_sha256": "f99a9b7e4c4aea14267aa2cf615f9c1c5724040004c96d84765a8ef0b4ae5982",
+      "public_sha256": "f99a9b7e4c4aea14267aa2cf615f9c1c5724040004c96d84765a8ef0b4ae5982",
+      "bytes": 1461,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/02-join.json",
+      "original_sha256": "d7bef8dc61eed272d3166337623ec2b9dbb42d64d50fde8471f6feaf7204251e",
+      "public_sha256": "d7bef8dc61eed272d3166337623ec2b9dbb42d64d50fde8471f6feaf7204251e",
+      "bytes": 10332,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/02-oracle.json",
+      "original_sha256": "d609e7f37456ded71a44dffd4da16c6b5d4367633692d279a7c7c4e294b2e58c",
+      "public_sha256": "d609e7f37456ded71a44dffd4da16c6b5d4367633692d279a7c7c4e294b2e58c",
+      "bytes": 1187,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/02-plain.json",
+      "original_sha256": "0a89a1ca0363988d90564a6a64dc6f503c7828f005b7535efd26774e96789b0d",
+      "public_sha256": "0a89a1ca0363988d90564a6a64dc6f503c7828f005b7535efd26774e96789b0d",
+      "bytes": 10380,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/03-dense.json",
+      "original_sha256": "87c7f7f811f76a924d1d15125d021522ed98e30dc1014fcd2e7e6bf65ed95d43",
+      "public_sha256": "87c7f7f811f76a924d1d15125d021522ed98e30dc1014fcd2e7e6bf65ed95d43",
+      "bytes": 1480,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/03-join.json",
+      "original_sha256": "b1d48fd301a52a40c29920d2e83511db7dd4ee4e9443608d161c72b55e138a1d",
+      "public_sha256": "b1d48fd301a52a40c29920d2e83511db7dd4ee4e9443608d161c72b55e138a1d",
+      "bytes": 10459,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/03-oracle.json",
+      "original_sha256": "0d81ecd1edb50efff3c0d4810725f02df76aa107a633a6ad553773da6f5ecd23",
+      "public_sha256": "0d81ecd1edb50efff3c0d4810725f02df76aa107a633a6ad553773da6f5ecd23",
+      "bytes": 1211,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/03-plain.json",
+      "original_sha256": "3d382779d73d09bbe54080353e528cda9cb581f4c1ba15d8da0b46c7bcab0c29",
+      "public_sha256": "3d382779d73d09bbe54080353e528cda9cb581f4c1ba15d8da0b46c7bcab0c29",
+      "bytes": 10507,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/04-dense.json",
+      "original_sha256": "abe623fe000ed86a2c37aaabf8e9e050922edde1a60ffcb8becf840b60255fb1",
+      "public_sha256": "abe623fe000ed86a2c37aaabf8e9e050922edde1a60ffcb8becf840b60255fb1",
+      "bytes": 1447,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/04-join.json",
+      "original_sha256": "495583f98af38e3bac0c1579d8ed4cf2de421cc0f61dc9460f6d51a6cdd47db2",
+      "public_sha256": "495583f98af38e3bac0c1579d8ed4cf2de421cc0f61dc9460f6d51a6cdd47db2",
+      "bytes": 10387,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/04-oracle.json",
+      "original_sha256": "e95f66d32f275efbd3207e97ebfd5c2364604a00ddafc3c94ff08c8f697917f6",
+      "public_sha256": "e95f66d32f275efbd3207e97ebfd5c2364604a00ddafc3c94ff08c8f697917f6",
+      "bytes": 1220,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/04-plain.json",
+      "original_sha256": "c4e7e195b7516081b7a8620318463d85b337e0bb9a6568a8ae7e50b3af76e0f8",
+      "public_sha256": "c4e7e195b7516081b7a8620318463d85b337e0bb9a6568a8ae7e50b3af76e0f8",
+      "bytes": 10428,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/05-dense.json",
+      "original_sha256": "29a6e0c4c748911589efb5d2463fc2429f5bbfcb550113410aacb814dbdfba77",
+      "public_sha256": "29a6e0c4c748911589efb5d2463fc2429f5bbfcb550113410aacb814dbdfba77",
+      "bytes": 1082,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/05-join.json",
+      "original_sha256": "912a250553efb0f7c91e23071b966f7738c706c2caea1109e43180a71bb36b7d",
+      "public_sha256": "912a250553efb0f7c91e23071b966f7738c706c2caea1109e43180a71bb36b7d",
+      "bytes": 10092,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/05-oracle.json",
+      "original_sha256": "d83a31d10ce28621e48ba1cc755d3d9dd1da704c1ddf1f99d0a3bf9aa3b08d29",
+      "public_sha256": "d83a31d10ce28621e48ba1cc755d3d9dd1da704c1ddf1f99d0a3bf9aa3b08d29",
+      "bytes": 1069,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/05-plain.json",
+      "original_sha256": "827b04521c037ed91bf7fba3dfbd1cebda97a052b409787da442ec329bb209c1",
+      "public_sha256": "827b04521c037ed91bf7fba3dfbd1cebda97a052b409787da442ec329bb209c1",
+      "bytes": 355,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/06-dense.json",
+      "original_sha256": "5c14ea0dbc3520b9b1fe0adbef95a3556aa3d86383e6f7c3be8920b01baa0a41",
+      "public_sha256": "5c14ea0dbc3520b9b1fe0adbef95a3556aa3d86383e6f7c3be8920b01baa0a41",
+      "bytes": 1044,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/06-join.json",
+      "original_sha256": "8ba58f524e733fec4afaa3e291350d1a8aea62d7ee258b400fe7885244c7223b",
+      "public_sha256": "8ba58f524e733fec4afaa3e291350d1a8aea62d7ee258b400fe7885244c7223b",
+      "bytes": 9989,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/06-oracle.json",
+      "original_sha256": "76ed65fe2afbc5b8e99027dfea8294e6acc1ed681f442ddda9fffb30376e3592",
+      "public_sha256": "76ed65fe2afbc5b8e99027dfea8294e6acc1ed681f442ddda9fffb30376e3592",
+      "bytes": 981,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/06-plain.json",
+      "original_sha256": "03b7abe09c89a3ee9d9db39ab3335722cc116abf54fbd83866c733ed915f1bd4",
+      "public_sha256": "03b7abe09c89a3ee9d9db39ab3335722cc116abf54fbd83866c733ed915f1bd4",
+      "bytes": 10046,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/07-dense.json",
+      "original_sha256": "37d9052a808e28f3e55e2d2b715ef8562f97958c8671ce584c765d628f0b0af9",
+      "public_sha256": "37d9052a808e28f3e55e2d2b715ef8562f97958c8671ce584c765d628f0b0af9",
+      "bytes": 1376,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/07-join.json",
+      "original_sha256": "c1c4b93c230373904c72f9a97e6d21c345048b3920fe867a6e514ac3e17820cd",
+      "public_sha256": "c1c4b93c230373904c72f9a97e6d21c345048b3920fe867a6e514ac3e17820cd",
+      "bytes": 179904,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/07-oracle.json",
+      "original_sha256": "09e1df6bb9be92e6a210fb6e55e71790d69151c78f660d5720aa8699fc6bdf5f",
+      "public_sha256": "09e1df6bb9be92e6a210fb6e55e71790d69151c78f660d5720aa8699fc6bdf5f",
+      "bytes": 1360,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/07-plain.json",
+      "original_sha256": "fe443de4855d63acb0154bb7fcc006ad8435a2249465a7a23eab6ad26318af72",
+      "public_sha256": "fe443de4855d63acb0154bb7fcc006ad8435a2249465a7a23eab6ad26318af72",
+      "bytes": 369,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/08-dense.json",
+      "original_sha256": "baadb441275510d3fea1840a07440a183d01fd8ce882e391a41db3f24ce7d8b0",
+      "public_sha256": "baadb441275510d3fea1840a07440a183d01fd8ce882e391a41db3f24ce7d8b0",
+      "bytes": 1442,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/08-join.json",
+      "original_sha256": "b2c2e61a63ad1a4d2727c4948a0123c46cf2172923c33a37d828b745a698e4d5",
+      "public_sha256": "b2c2e61a63ad1a4d2727c4948a0123c46cf2172923c33a37d828b745a698e4d5",
+      "bytes": 180027,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/08-oracle.json",
+      "original_sha256": "0ea2d16ed81dd2a40241cf5490159f9f5812b469584085cb183ddb20b344aa63",
+      "public_sha256": "0ea2d16ed81dd2a40241cf5490159f9f5812b469584085cb183ddb20b344aa63",
+      "bytes": 1441,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/08-plain.json",
+      "original_sha256": "a823ca8e440fed2d4b5f9e405cb51be89e4649ba86dd52b0b381447b5c1708de",
+      "public_sha256": "a823ca8e440fed2d4b5f9e405cb51be89e4649ba86dd52b0b381447b5c1708de",
+      "bytes": 368,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/09-dense.json",
+      "original_sha256": "8efddb99944c3805f1b4b23708afd79ad2d5a3a8253180382b5c418aa3f28021",
+      "public_sha256": "8efddb99944c3805f1b4b23708afd79ad2d5a3a8253180382b5c418aa3f28021",
+      "bytes": 699,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/09-join.json",
+      "original_sha256": "b90289ef242927a4c0b0317fd2164a16ee8970d66a99c037d10fb2c0d9764bdf",
+      "public_sha256": "b90289ef242927a4c0b0317fd2164a16ee8970d66a99c037d10fb2c0d9764bdf",
+      "bytes": 978,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/09-oracle.json",
+      "original_sha256": "aa2cdd13c17941c7e4c393e5818377901aa5f88bfbed5be9a127a97db66ce148",
+      "public_sha256": "aa2cdd13c17941c7e4c393e5818377901aa5f88bfbed5be9a127a97db66ce148",
+      "bytes": 715,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/09-plain.json",
+      "original_sha256": "86bebc0fd442f48a8a087cb927ce959817a82d9fb57c1ea95dd2fda6bfb61311",
+      "public_sha256": "86bebc0fd442f48a8a087cb927ce959817a82d9fb57c1ea95dd2fda6bfb61311",
+      "bytes": 1026,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/10-dense.json",
+      "original_sha256": "8617bd4771ae53172b715cd6bf3d0ca3ed4f48511055bdaa91335888ecf67cec",
+      "public_sha256": "8617bd4771ae53172b715cd6bf3d0ca3ed4f48511055bdaa91335888ecf67cec",
+      "bytes": 900,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/10-join.json",
+      "original_sha256": "23a6356f7940f4508d14e45b294acaeb83ce30adbd314b407342821d91c3c3c4",
+      "public_sha256": "23a6356f7940f4508d14e45b294acaeb83ce30adbd314b407342821d91c3c3c4",
+      "bytes": 9915,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/10-oracle.json",
+      "original_sha256": "8c53cb7e7d125478caa131444b545edf9dce2fe265688b85df5d20713a92d64c",
+      "public_sha256": "8c53cb7e7d125478caa131444b545edf9dce2fe265688b85df5d20713a92d64c",
+      "bytes": 894,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/10-plain.json",
+      "original_sha256": "7f4a2edeae04a95527f95ac21bcc7bd8835e5567d4cacb5862ce6b89ceb004be",
+      "public_sha256": "7f4a2edeae04a95527f95ac21bcc7bd8835e5567d4cacb5862ce6b89ceb004be",
+      "bytes": 373,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/11-dense.json",
+      "original_sha256": "63094142c97df1be1853eb111bae0431cbb807b7caccc0f4c7f22a8c0a8a9821",
+      "public_sha256": "63094142c97df1be1853eb111bae0431cbb807b7caccc0f4c7f22a8c0a8a9821",
+      "bytes": 1096,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/11-join.json",
+      "original_sha256": "b38edd68a010e1c81839560c36cefea83a4697d13f5efd4acc4a93bd418937da",
+      "public_sha256": "b38edd68a010e1c81839560c36cefea83a4697d13f5efd4acc4a93bd418937da",
+      "bytes": 10098,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/11-oracle.json",
+      "original_sha256": "de7746fe7a58baf269591443274720380a9929bfdfa2873a9a6c77e4ac3fd091",
+      "public_sha256": "de7746fe7a58baf269591443274720380a9929bfdfa2873a9a6c77e4ac3fd091",
+      "bytes": 1080,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/11-plain.json",
+      "original_sha256": "3356d4d353e5b18349fa7a4e7d12b1295308ef9dab3ecff8544db1ce01693cfa",
+      "public_sha256": "3356d4d353e5b18349fa7a4e7d12b1295308ef9dab3ecff8544db1ce01693cfa",
+      "bytes": 368,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development/summary.json",
+      "original_sha256": "16dbbf4ec14c102652ee58d88210786691754b5c5833e1c1557d13652b3ac7a3",
+      "public_sha256": "16dbbf4ec14c102652ee58d88210786691754b5c5833e1c1557d13652b3ac7a3",
+      "bytes": 12573,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/development-console.jsonl",
+      "original_sha256": "4a24fd07b7388affdf4aabc899aeb50d0904e4ddea8e3dc143b3dff9904781be",
+      "public_sha256": "4a24fd07b7388affdf4aabc899aeb50d0904e4ddea8e3dc143b3dff9904781be",
+      "bytes": 9679,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/driver-development-receipt.json",
+      "original_sha256": "8215e2aac1273d04594439f58824fa119fa6a02f0e3c53a4d483a68a2c1dc462",
+      "public_sha256": "8215e2aac1273d04594439f58824fa119fa6a02f0e3c53a4d483a68a2c1dc462",
+      "bytes": 1303,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/fixture-notes.md",
+      "original_sha256": "3dd9e8647cacf9678acf6693eba9e1425e3b3600030e8bf1707b0aeb5e5a1cd6",
+      "public_sha256": "b0eaee9d2f99a2d3631b3cf4ec02be723637ec8bd2c68fd22f963193be586dad",
+      "bytes": 11967,
+      "byte_identical": false,
+      "reason": "Remove private account-page/internal coordination prose and make prose execution paths archive-relative; numerical and mathematical statements retained; Explicit historical-stage and 91-modeled-position clarification; do not reinterpret old development wording as full97 recovery"
+    },
+    {
+      "path": "sparse-law-pilot/fixtures.py",
+      "original_sha256": "b75dc8429509dfa07249082a28d9031aaee6ccfbe344b7d625221409de7190f8",
+      "public_sha256": "b75dc8429509dfa07249082a28d9031aaee6ccfbe344b7d625221409de7190f8",
+      "bytes": 6367,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/freeze-sha256.json",
+      "original_sha256": "21cbfd6793e2c4edbf4d5a676704c614b413bbe236ad7861a9cb88ba30e35bc9",
+      "public_sha256": "21cbfd6793e2c4edbf4d5a676704c614b413bbe236ad7861a9cb88ba30e35bc9",
+      "bytes": 8550,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/independent_join_audit.py",
+      "original_sha256": "35db47876cda41245430c001a5deadc9b834bdef759d59cd25a7d1cada701eec",
+      "public_sha256": "35db47876cda41245430c001a5deadc9b834bdef759d59cd25a7d1cada701eec",
+      "bytes": 1436,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/join.py",
+      "original_sha256": "42353299d15755377633ad8fc5615040b919a22b4a3c93cc5945eaac9a428ec3",
+      "public_sha256": "42353299d15755377633ad8fc5615040b919a22b4a3c93cc5945eaac9a428ec3",
+      "bytes": 3628,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/reference-audit.md",
+      "original_sha256": "fa8c2c4301106b83b9afbecd0d200d1447781e57c126b117c500b806ff2ca92c",
+      "public_sha256": "a67bd86fbb86fa812011c0d745811973e2bd40441791a43273f17668ff63075e",
+      "bytes": 17311,
+      "byte_identical": false,
+      "reason": "Remove private account-page/internal coordination prose and make prose execution paths archive-relative; numerical and mathematical statements retained; Explicit historical-stage and 91-modeled-position clarification; do not reinterpret old development wording as full97 recovery"
+    },
+    {
+      "path": "sparse-law-pilot/reference-selftest.json",
+      "original_sha256": "0e55de5411099ea42747d09a41d2b5b4e1d54593b2233cb2f44d4e6df2c3fca0",
+      "public_sha256": "0e55de5411099ea42747d09a41d2b5b4e1d54593b2233cb2f44d4e6df2c3fca0",
+      "bytes": 434,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/reference.py",
+      "original_sha256": "d298355a973ee126262346102cc607552e67ec6aaacf5f3f46f8c57b86e3d93e",
+      "public_sha256": "d298355a973ee126262346102cc607552e67ec6aaacf5f3f46f8c57b86e3d93e",
+      "bytes": 7995,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/replay_witnesses.py",
+      "original_sha256": "fb5903403baaba2240409343ac5d1f3c1b34c5fdd139c4b5d0d11b51100bd6e2",
+      "public_sha256": "fb5903403baaba2240409343ac5d1f3c1b34c5fdd139c4b5d0d11b51100bd6e2",
+      "bytes": 1042,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/run_development.py",
+      "original_sha256": "242ec8e0fecf4024163d7eaf9b4b7aefbb2c686206b61c4d2818bae70ca6195e",
+      "public_sha256": "242ec8e0fecf4024163d7eaf9b4b7aefbb2c686206b61c4d2818bae70ca6195e",
+      "bytes": 2835,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/run_public.py",
+      "original_sha256": "21f0fb3b86ec9b24c0f67f7a1083e4e5919f7f053140d6296e69df0ac1946610",
+      "public_sha256": "21f0fb3b86ec9b24c0f67f7a1083e4e5919f7f053140d6296e69df0ac1946610",
+      "bytes": 4507,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/test_join.py",
+      "original_sha256": "7f74fed0cf71942211a8bdd74d6b56b870955111bf03f52a990a05a093018be2",
+      "public_sha256": "7f74fed0cf71942211a8bdd74d6b56b870955111bf03f52a990a05a093018be2",
+      "bytes": 1121,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/tiny-join-post-normalization.json",
+      "original_sha256": "aa43fb85d064ee6bc782ea28fa7f303255ca14a1cfd2b10f59ec21bb22dd8c3f",
+      "public_sha256": "aa43fb85d064ee6bc782ea28fa7f303255ca14a1cfd2b10f59ec21bb22dd8c3f",
+      "bytes": 103,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/tiny-join-result.json",
+      "original_sha256": "723c203de13d87ed9a05080b9ab17c9ec0ad99f2416f31b45165740477d0b0e1",
+      "public_sha256": "723c203de13d87ed9a05080b9ab17c9ec0ad99f2416f31b45165740477d0b0e1",
+      "bytes": 103,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-pilot/witness-replay.json",
+      "original_sha256": "80bd51a41996acc3440b7a9f1dcd4681be86e27f72e07323afb619708a068081",
+      "public_sha256": "80bd51a41996acc3440b7a9f1dcd4681be86e27f72e07323afb619708a068081",
+      "bytes": 87,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/BLIND-REPORT.md",
+      "original_sha256": "0cea0b7c1e6d6564ecbf59b7d1cc8b99f15b1efb2e673d51125c45c6da6787ba",
+      "public_sha256": "0cea0b7c1e6d6564ecbf59b7d1cc8b99f15b1efb2e673d51125c45c6da6787ba",
+      "bytes": 8172,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/BLIND-REPORT.pre-capped-result.md",
+      "original_sha256": "5becb8107f4b41218a695f072b777ae71b82618ee0fdf0afae16d7dc61f7ebe7",
+      "public_sha256": "5becb8107f4b41218a695f072b777ae71b82618ee0fdf0afae16d7dc61f7ebe7",
+      "bytes": 6962,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/capped-recheck-console.jsonl",
+      "original_sha256": "84d915ff68ddb9b6151cf8500bdf95b9752641c699e8626f9febda9750917cc6",
+      "public_sha256": "84d915ff68ddb9b6151cf8500bdf95b9752641c699e8626f9febda9750917cc6",
+      "bytes": 3821,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/closeout-receipt.json",
+      "original_sha256": "48ead2959f95e5975011208560c418dd6350402d8934a81d726858b5e99b434b",
+      "public_sha256": "48ead2959f95e5975011208560c418dd6350402d8934a81d726858b5e99b434b",
+      "bytes": 481,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/closeout-sha256.json",
+      "original_sha256": "cd4f5af7fe42d95cd91c8a7e34f2fcf93c368d54d392cc656f669518e1240fcd",
+      "public_sha256": "cd4f5af7fe42d95cd91c8a7e34f2fcf93c368d54d392cc656f669518e1240fcd",
+      "bytes": 24702,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/commitment.json",
+      "original_sha256": "92564b4daf98dd7de63b32938ae6b21fc04564849b2f6727d2d5b559d446c437",
+      "public_sha256": "92564b4daf98dd7de63b32938ae6b21fc04564849b2f6727d2d5b559d446c437",
+      "bytes": 533,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/custody-receipt.json",
+      "original_sha256": "11f10c4113bfb914a737515ca7026ada1a5a3c3120d14352238bb4f1e07c0455",
+      "public_sha256": "11f10c4113bfb914a737515ca7026ada1a5a3c3120d14352238bb4f1e07c0455",
+      "bytes": 832,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/evaluation.json",
+      "original_sha256": "8398f0f3433ad8ba2abc2a51d3754f4a972ccda1648429e18c1f1834e5b0b2e8",
+      "public_sha256": "8398f0f3433ad8ba2abc2a51d3754f4a972ccda1648429e18c1f1834e5b0b2e8",
+      "bytes": 16705,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/evaluator-dev-smoke.json",
+      "original_sha256": "aaa261ac0c7b8c9d6c209c4b5447729ef906a261df85bd47f8f0f9120331bb77",
+      "public_sha256": "aaa261ac0c7b8c9d6c209c4b5447729ef906a261df85bd47f8f0f9120331bb77",
+      "bytes": 135,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/evaluator-sha256.txt",
+      "original_sha256": "f15c5c7908f7a398e3024e583c514bc4d9fe4694a071b80a8221536e1540b539",
+      "public_sha256": "f15c5c7908f7a398e3024e583c514bc4d9fe4694a071b80a8221536e1540b539",
+      "bytes": 115,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/pre-unseal-comparison.json",
+      "original_sha256": "f4063837d6edb01b6b891f2712fdcc365ee60b4a30bbbdbb5097a31b7e76808e",
+      "public_sha256": "f4063837d6edb01b6b891f2712fdcc365ee60b4a30bbbdbb5097a31b7e76808e",
+      "bytes": 9245,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/public.json",
+      "original_sha256": "0167ef5563c27e67d490974a96b5e65d27ed2800ef0c43d219f1c313e5bcd7ab",
+      "public_sha256": "0167ef5563c27e67d490974a96b5e65d27ed2800ef0c43d219f1c313e5bcd7ab",
+      "bytes": 294058,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/00-dense.json",
+      "original_sha256": "f2bb14a1421c9929cd2478f1dd23e91c7e3283451895e917c8413e273f118562",
+      "public_sha256": "f2bb14a1421c9929cd2478f1dd23e91c7e3283451895e917c8413e273f118562",
+      "bytes": 1358,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/00-join.json",
+      "original_sha256": "2efe9131f8389a727f2ae68223de7fcc03e7684c391cbfc7eaa921f5e1c39923",
+      "public_sha256": "2efe9131f8389a727f2ae68223de7fcc03e7684c391cbfc7eaa921f5e1c39923",
+      "bytes": 7393,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/00-join.json.relation.json.gz",
+      "original_sha256": "ce29034295fcc8a1492a90c7a7be9572cb43a1dd61053784619bd9e2f35aa158",
+      "public_sha256": "ce29034295fcc8a1492a90c7a7be9572cb43a1dd61053784619bd9e2f35aa158",
+      "bytes": 177,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/00-oracle.json",
+      "original_sha256": "293d4dbd6359b8438eaada8770893eed6e3907064d4ad06d17dd05074f42a7a8",
+      "public_sha256": "293d4dbd6359b8438eaada8770893eed6e3907064d4ad06d17dd05074f42a7a8",
+      "bytes": 1046,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/00-plain.json",
+      "original_sha256": "f750342134f2707afd5839e64543ae92f364280c6c28a9ecd02a5972b6d1654e",
+      "public_sha256": "f750342134f2707afd5839e64543ae92f364280c6c28a9ecd02a5972b6d1654e",
+      "bytes": 7429,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/00-plain.json.relation.json.gz",
+      "original_sha256": "2bd9383cd118bf901e84986e094d5f7770e881fe4b0095a24c8c850ad61d5a5e",
+      "public_sha256": "2bd9383cd118bf901e84986e094d5f7770e881fe4b0095a24c8c850ad61d5a5e",
+      "bytes": 178,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/01-dense.json",
+      "original_sha256": "d90a89ec483ead023734beaa29104aa832fa2375a93b3242c52e84e2a816927c",
+      "public_sha256": "d90a89ec483ead023734beaa29104aa832fa2375a93b3242c52e84e2a816927c",
+      "bytes": 1346,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/01-join.json",
+      "original_sha256": "fd0a86e75c9105543aeff53e03d4c5cd0725bef5f33680615534a94518785509",
+      "public_sha256": "fd0a86e75c9105543aeff53e03d4c5cd0725bef5f33680615534a94518785509",
+      "bytes": 123866,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/01-join.json.relation.json.gz",
+      "original_sha256": "8caf28404a35678a4ec1a7091c1fbb7dfb6cdf4488ffd8ae008806d9309061b5",
+      "public_sha256": "8caf28404a35678a4ec1a7091c1fbb7dfb6cdf4488ffd8ae008806d9309061b5",
+      "bytes": 744818,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/01-oracle.json",
+      "original_sha256": "268887c2a53e2b315cde39b4746a52ae4c3ac05f478f22c72eed4307e5336eb5",
+      "public_sha256": "268887c2a53e2b315cde39b4746a52ae4c3ac05f478f22c72eed4307e5336eb5",
+      "bytes": 1336,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/01-plain.json",
+      "original_sha256": "2d8ec505b050f8af909db5732c7fd93c861cbf7f608d465902c7c46ac50f3147",
+      "public_sha256": "2d8ec505b050f8af909db5732c7fd93c861cbf7f608d465902c7c46ac50f3147",
+      "bytes": 386,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/02-dense.json",
+      "original_sha256": "88f67581ba75fbb13c288ca4b9cbe4689cbfe5570c80bdf5d5f8797d90f4a442",
+      "public_sha256": "88f67581ba75fbb13c288ca4b9cbe4689cbfe5570c80bdf5d5f8797d90f4a442",
+      "bytes": 1274,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/02-join.json",
+      "original_sha256": "dc34e33226cb9d22a02746f0a9961ff6f440f82cda0f9f96cec2d3f9dd0f892f",
+      "public_sha256": "dc34e33226cb9d22a02746f0a9961ff6f440f82cda0f9f96cec2d3f9dd0f892f",
+      "bytes": 123370,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/02-join.json.relation.json.gz",
+      "original_sha256": "6160929a4d88c8a50acc91eb65a21a5d3ca6d858fcdce30b39b116afedf5cc3c",
+      "public_sha256": "6160929a4d88c8a50acc91eb65a21a5d3ca6d858fcdce30b39b116afedf5cc3c",
+      "bytes": 670436,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/02-oracle.json",
+      "original_sha256": "538449486e988eb0da75e942b6775c70a42679c9116538f2a192219c7008ad6c",
+      "public_sha256": "538449486e988eb0da75e942b6775c70a42679c9116538f2a192219c7008ad6c",
+      "bytes": 1261,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/02-plain.json",
+      "original_sha256": "199a63f5fab3bab033156a42c50ea3e99e4d16dfae0231b719a9c4ea34a1dff6",
+      "public_sha256": "199a63f5fab3bab033156a42c50ea3e99e4d16dfae0231b719a9c4ea34a1dff6",
+      "bytes": 395,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/03-dense.json",
+      "original_sha256": "4e1948155213ffd3c7d71313134cbc49066b7dbca0768c337fc35592af55859a",
+      "public_sha256": "4e1948155213ffd3c7d71313134cbc49066b7dbca0768c337fc35592af55859a",
+      "bytes": 1333,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/03-join.json",
+      "original_sha256": "2ea2cfd593a39900c4847cd03ec3948f62a69ba9fb25add002f6510f85f8308a",
+      "public_sha256": "2ea2cfd593a39900c4847cd03ec3948f62a69ba9fb25add002f6510f85f8308a",
+      "bytes": 39046,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/03-join.json.relation.json.gz",
+      "original_sha256": "f84c12c4e016fafa65e3a30a7cc23f8debd65acbb287a785332c2a32b2ea4041",
+      "public_sha256": "f84c12c4e016fafa65e3a30a7cc23f8debd65acbb287a785332c2a32b2ea4041",
+      "bytes": 1001,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/03-oracle.json",
+      "original_sha256": "bacaa27fb47029b34aef140ff0d393573901a1b7ddd452c2e5c1c91488d2f3ba",
+      "public_sha256": "bacaa27fb47029b34aef140ff0d393573901a1b7ddd452c2e5c1c91488d2f3ba",
+      "bytes": 1129,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/03-plain.json",
+      "original_sha256": "c4661f0385a79bc48fec647c68b865eafc15d7c0495177082f5d46df0996a2fd",
+      "public_sha256": "c4661f0385a79bc48fec647c68b865eafc15d7c0495177082f5d46df0996a2fd",
+      "bytes": 39091,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/03-plain.json.relation.json.gz",
+      "original_sha256": "fdff739d08ab4821fd9b3f3dd7488b75214c08c9797512f97d6c90799c83d331",
+      "public_sha256": "fdff739d08ab4821fd9b3f3dd7488b75214c08c9797512f97d6c90799c83d331",
+      "bytes": 1002,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/04-dense.json",
+      "original_sha256": "2425ebd255dedf6b0561cbb38bb8dfded6a933459175e98ec021044dab56f569",
+      "public_sha256": "2425ebd255dedf6b0561cbb38bb8dfded6a933459175e98ec021044dab56f569",
+      "bytes": 639,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/04-join.json",
+      "original_sha256": "4ca8922aa079fd9785fe1f28ddcef28d0662b5268db0b304b0b7132c1945a15c",
+      "public_sha256": "4ca8922aa079fd9785fe1f28ddcef28d0662b5268db0b304b0b7132c1945a15c",
+      "bytes": 828,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/04-join.json.relation.json.gz",
+      "original_sha256": "0fe7d91ce624ad7d58a628945b82a5297df8df055ce1798b03941b0600070434",
+      "public_sha256": "0fe7d91ce624ad7d58a628945b82a5297df8df055ce1798b03941b0600070434",
+      "bytes": 130,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/04-oracle.json",
+      "original_sha256": "7eb68af200f31718d407bcee9448d43581795b2780da6926f33a433124724a82",
+      "public_sha256": "7eb68af200f31718d407bcee9448d43581795b2780da6926f33a433124724a82",
+      "bytes": 670,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/04-plain.json",
+      "original_sha256": "404e0ec57a9c6111bec003c4e8bfda1d13acf8bc630b50845e727b40d51e7f60",
+      "public_sha256": "404e0ec57a9c6111bec003c4e8bfda1d13acf8bc630b50845e727b40d51e7f60",
+      "bytes": 865,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/04-plain.json.relation.json.gz",
+      "original_sha256": "9525db657939c4fd5744eaa9c330e834c9cb9062ef8ef2cb1bc00714ba17b768",
+      "public_sha256": "9525db657939c4fd5744eaa9c330e834c9cb9062ef8ef2cb1bc00714ba17b768",
+      "bytes": 131,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/05-dense.json",
+      "original_sha256": "f331983956684037ddefd28130e7ef0c6c6e15cba12d1464c6a9818759d0dc26",
+      "public_sha256": "f331983956684037ddefd28130e7ef0c6c6e15cba12d1464c6a9818759d0dc26",
+      "bytes": 985,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/05-join.json",
+      "original_sha256": "10069d0daef55bcb1c6746c3424714091109a1ded248d8ef5ab0cc11e78e326f",
+      "public_sha256": "10069d0daef55bcb1c6746c3424714091109a1ded248d8ef5ab0cc11e78e326f",
+      "bytes": 7136,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/05-join.json.relation.json.gz",
+      "original_sha256": "baffe1cdfd89a8cc8956440afd777fc03ffa912dea80ebad352f43bb3327f82f",
+      "public_sha256": "baffe1cdfd89a8cc8956440afd777fc03ffa912dea80ebad352f43bb3327f82f",
+      "bytes": 712162,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/05-oracle.json",
+      "original_sha256": "bad1e1dad2aecfb0cd1fed2f435f0463694a8b71ea46bfe4c2f15ca88a0271ff",
+      "public_sha256": "bad1e1dad2aecfb0cd1fed2f435f0463694a8b71ea46bfe4c2f15ca88a0271ff",
+      "bytes": 976,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/05-plain.json",
+      "original_sha256": "1b9d33fb19081d6c6cb4048a2fe5ce8106a1038dd1aaea84cef3f92a9ee72ce3",
+      "public_sha256": "1b9d33fb19081d6c6cb4048a2fe5ce8106a1038dd1aaea84cef3f92a9ee72ce3",
+      "bytes": 385,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/06-dense.json",
+      "original_sha256": "774c8b1ea2c8ac8eef4cd0fb4655b8f987cdd7a9b5be043e32e08b097542fdde",
+      "public_sha256": "774c8b1ea2c8ac8eef4cd0fb4655b8f987cdd7a9b5be043e32e08b097542fdde",
+      "bytes": 1384,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/06-join.json",
+      "original_sha256": "578e9cb5dd6c73e6639beb9f840ebfaad615268e4e8a75bee0e17de9873594ce",
+      "public_sha256": "578e9cb5dd6c73e6639beb9f840ebfaad615268e4e8a75bee0e17de9873594ce",
+      "bytes": 847,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/06-join.json.relation.json.gz",
+      "original_sha256": "a3d582c432941d6ee52f345b5ed4ad0441966f98fa2c0760d1fc36b1e73fb47d",
+      "public_sha256": "a3d582c432941d6ee52f345b5ed4ad0441966f98fa2c0760d1fc36b1e73fb47d",
+      "bytes": 130,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/06-oracle.json",
+      "original_sha256": "2d5e430666ab55cc35bf29ed676b32f49b5d3a57f0b5f58c9a34123e38ad16ef",
+      "public_sha256": "2d5e430666ab55cc35bf29ed676b32f49b5d3a57f0b5f58c9a34123e38ad16ef",
+      "bytes": 646,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/06-plain.json",
+      "original_sha256": "b1c8d1f371fa043ac9fa175b67f9750fd7fd6a61ec5566182fdb640713f6a4e7",
+      "public_sha256": "b1c8d1f371fa043ac9fa175b67f9750fd7fd6a61ec5566182fdb640713f6a4e7",
+      "bytes": 872,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/06-plain.json.relation.json.gz",
+      "original_sha256": "bd05c5b04b1daec116e7d2436633896c8afcd4f838805353cf3935a2a9cbb1a5",
+      "public_sha256": "bd05c5b04b1daec116e7d2436633896c8afcd4f838805353cf3935a2a9cbb1a5",
+      "bytes": 131,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/07-dense.json",
+      "original_sha256": "3b5b5b7fac4bced1c33854fcca936f12a884faa6a094b6c252c4fcf56e335e97",
+      "public_sha256": "3b5b5b7fac4bced1c33854fcca936f12a884faa6a094b6c252c4fcf56e335e97",
+      "bytes": 1334,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/07-join.json",
+      "original_sha256": "8598e02e3b8e0dfbad3e260b185f1b1a8cfe9a158c0e94e932e6ae6050f9f0fe",
+      "public_sha256": "8598e02e3b8e0dfbad3e260b185f1b1a8cfe9a158c0e94e932e6ae6050f9f0fe",
+      "bytes": 7332,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/07-join.json.relation.json.gz",
+      "original_sha256": "c640d6580671b8ab2203035bb6845137472a3c91fe1ed16425526cae909d6f1b",
+      "public_sha256": "c640d6580671b8ab2203035bb6845137472a3c91fe1ed16425526cae909d6f1b",
+      "bytes": 7120,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/07-oracle.json",
+      "original_sha256": "7fd8692138d2b7a40eec5df589df15ba6f13f9acaa63ecb30f4caecee3074316",
+      "public_sha256": "7fd8692138d2b7a40eec5df589df15ba6f13f9acaa63ecb30f4caecee3074316",
+      "bytes": 1039,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/07-plain.json",
+      "original_sha256": "0c2bee6f2f9c50b4df2adb1052b76058c4cab0e5d35e3b4cd84203f8a3800105",
+      "public_sha256": "0c2bee6f2f9c50b4df2adb1052b76058c4cab0e5d35e3b4cd84203f8a3800105",
+      "bytes": 7369,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/07-plain.json.relation.json.gz",
+      "original_sha256": "69c43a33b30ff791ad172e1a09e866587ab6ac2cdd81308fe6219c706f088f2a",
+      "public_sha256": "69c43a33b30ff791ad172e1a09e866587ab6ac2cdd81308fe6219c706f088f2a",
+      "bytes": 7121,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/08-dense.json",
+      "original_sha256": "d7a929da2f6d447acdf63858f9bd2cc603d6be041d0e2e83e737aca4e93244eb",
+      "public_sha256": "d7a929da2f6d447acdf63858f9bd2cc603d6be041d0e2e83e737aca4e93244eb",
+      "bytes": 1275,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/08-join.json",
+      "original_sha256": "a8ec9527b3e0bb1b32ee64e6f59a28e71ffea99228a02d5b4e2bf196f40f32ee",
+      "public_sha256": "a8ec9527b3e0bb1b32ee64e6f59a28e71ffea99228a02d5b4e2bf196f40f32ee",
+      "bytes": 24344,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/08-join.json.relation.json.gz",
+      "original_sha256": "9da66ca3f47396e4aff8990905a3256d387d683bd8dacc2a94a82165bcc98a76",
+      "public_sha256": "9da66ca3f47396e4aff8990905a3256d387d683bd8dacc2a94a82165bcc98a76",
+      "bytes": 116106,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/08-oracle.json",
+      "original_sha256": "a90aad02669fabf25080483efbfffa569073a06b2287ff901639307e3820e275",
+      "public_sha256": "a90aad02669fabf25080483efbfffa569073a06b2287ff901639307e3820e275",
+      "bytes": 849,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/08-plain.json",
+      "original_sha256": "af1af5990881cf04aebf778527fdced127ca186dc79686646bead9973dda692e",
+      "public_sha256": "af1af5990881cf04aebf778527fdced127ca186dc79686646bead9973dda692e",
+      "bytes": 385,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/09-dense.json",
+      "original_sha256": "5a1b0ddb2154b0110c88484b8c2bef08756352023f7d1e377e2741f96f34d484",
+      "public_sha256": "5a1b0ddb2154b0110c88484b8c2bef08756352023f7d1e377e2741f96f34d484",
+      "bytes": 1394,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/09-join.json",
+      "original_sha256": "f5f44d6c578c968b595a33e056c3abcd0d8eafabe00b725ce9bed145191750f4",
+      "public_sha256": "f5f44d6c578c968b595a33e056c3abcd0d8eafabe00b725ce9bed145191750f4",
+      "bytes": 7466,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/09-join.json.relation.json.gz",
+      "original_sha256": "2f0e18c94973d884095e83b02c0ed2167e43938367980bd3e24b77a1677e5dda",
+      "public_sha256": "2f0e18c94973d884095e83b02c0ed2167e43938367980bd3e24b77a1677e5dda",
+      "bytes": 968,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/09-oracle.json",
+      "original_sha256": "7d181e62199edbf390ea70640a12d53e10e322413b515d22fb72729fa2bdfd3e",
+      "public_sha256": "7d181e62199edbf390ea70640a12d53e10e322413b515d22fb72729fa2bdfd3e",
+      "bytes": 1076,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/09-plain.json",
+      "original_sha256": "3f43a4a9899bed147752f4e15564d3175dfb296034616f3229d22f02e1f8a3b9",
+      "public_sha256": "3f43a4a9899bed147752f4e15564d3175dfb296034616f3229d22f02e1f8a3b9",
+      "bytes": 7520,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/09-plain.json.relation.json.gz",
+      "original_sha256": "1b920207c17769fe313652389c471ebfabbd7c38abd5e2e34db69bcb44cacac6",
+      "public_sha256": "1b920207c17769fe313652389c471ebfabbd7c38abd5e2e34db69bcb44cacac6",
+      "bytes": 969,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/10-dense.json",
+      "original_sha256": "5d6bb1e06aa8ff146795ccf31e486a4c54d834ddaae00f49902f056cc7d11a32",
+      "public_sha256": "5d6bb1e06aa8ff146795ccf31e486a4c54d834ddaae00f49902f056cc7d11a32",
+      "bytes": 673,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/10-join.json",
+      "original_sha256": "5ab1756ee4fbda9075dc2de60b2a8520f8d19d1b45cd9cf64cc5b0404cc314c8",
+      "public_sha256": "5ab1756ee4fbda9075dc2de60b2a8520f8d19d1b45cd9cf64cc5b0404cc314c8",
+      "bytes": 829,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/10-join.json.relation.json.gz",
+      "original_sha256": "db5e45a7b0afbc4fd668eb31d85b2b900b904b43084223055d5e0919e8e5dba3",
+      "public_sha256": "db5e45a7b0afbc4fd668eb31d85b2b900b904b43084223055d5e0919e8e5dba3",
+      "bytes": 130,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/10-oracle.json",
+      "original_sha256": "a352ab5900b47104356f2386e4e54dc53c3961755d74b7de7fb652cc34728536",
+      "public_sha256": "a352ab5900b47104356f2386e4e54dc53c3961755d74b7de7fb652cc34728536",
+      "bytes": 665,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/10-plain.json",
+      "original_sha256": "f280b45ed6ea50b8a6e0063b1b89d50ddcd1c4c0055c9c1102d1d3888fcc8f2b",
+      "public_sha256": "f280b45ed6ea50b8a6e0063b1b89d50ddcd1c4c0055c9c1102d1d3888fcc8f2b",
+      "bytes": 863,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/10-plain.json.relation.json.gz",
+      "original_sha256": "e5a55b65272e9dcf31514a0b865802c5cc8d8d8189148158c3fa5b95aeee2ab3",
+      "public_sha256": "e5a55b65272e9dcf31514a0b865802c5cc8d8d8189148158c3fa5b95aeee2ab3",
+      "bytes": 131,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/11-dense.json",
+      "original_sha256": "46a575ee5e8bcf668e2a5c7317ddef8e70211ffbe47a7c1a38af7e2c348e742a",
+      "public_sha256": "46a575ee5e8bcf668e2a5c7317ddef8e70211ffbe47a7c1a38af7e2c348e742a",
+      "bytes": 1237,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/11-join.json",
+      "original_sha256": "848719008dc5cec7850e391581ceede82e1b377b862a6085f2ac400d65a25a74",
+      "public_sha256": "848719008dc5cec7850e391581ceede82e1b377b862a6085f2ac400d65a25a74",
+      "bytes": 6946,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/11-join.json.relation.json.gz",
+      "original_sha256": "26bf8ea99906c85999a322142662cf7e159e2df40871fcba7f988748cc9b7411",
+      "public_sha256": "26bf8ea99906c85999a322142662cf7e159e2df40871fcba7f988748cc9b7411",
+      "bytes": 29944,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/11-oracle.json",
+      "original_sha256": "940772f14824f4e36166b7db11c40c5cccbf3e1bc94b262b24d34ec68b10120b",
+      "public_sha256": "940772f14824f4e36166b7db11c40c5cccbf3e1bc94b262b24d34ec68b10120b",
+      "bytes": 772,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/11-plain.json",
+      "original_sha256": "e19231fe194797e6e7cbef31a17587584277748f3fffbefc5912bfe354be1952",
+      "public_sha256": "e19231fe194797e6e7cbef31a17587584277748f3fffbefc5912bfe354be1952",
+      "bytes": 6987,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/11-plain.json.relation.json.gz",
+      "original_sha256": "e15c829f90223ab27a50f1a709f6cd71b475950f261d3409c89762f78e29dad5",
+      "public_sha256": "e15c829f90223ab27a50f1a709f6cd71b475950f261d3409c89762f78e29dad5",
+      "bytes": 29945,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/12-dense.json",
+      "original_sha256": "3ef0e3c0d155456c71c932157ee39a20c5794611a88c2346088fd1e87281ccf9",
+      "public_sha256": "3ef0e3c0d155456c71c932157ee39a20c5794611a88c2346088fd1e87281ccf9",
+      "bytes": 1273,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/12-join.json",
+      "original_sha256": "eabb33d31c73072729d02bf7573b2c136d452b8010e2d3df7a7d442873a30406",
+      "public_sha256": "eabb33d31c73072729d02bf7573b2c136d452b8010e2d3df7a7d442873a30406",
+      "bytes": 23722,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/12-join.json.relation.json.gz",
+      "original_sha256": "b8c5951c8829ef42945b31fc763797c080a1bc0fa25c6a8086235235ecfc8371",
+      "public_sha256": "b8c5951c8829ef42945b31fc763797c080a1bc0fa25c6a8086235235ecfc8371",
+      "bytes": 160323,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/12-oracle.json",
+      "original_sha256": "a9e54543737f8cdb917806f9168bed09373aa56c0b0744c43b76fd7bd30e153f",
+      "public_sha256": "a9e54543737f8cdb917806f9168bed09373aa56c0b0744c43b76fd7bd30e153f",
+      "bytes": 889,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/12-plain.json",
+      "original_sha256": "5bcd1fa14209d67c9d2d2483a4844dc6802bd6f3eb4874d9737cc641d468caaf",
+      "public_sha256": "5bcd1fa14209d67c9d2d2483a4844dc6802bd6f3eb4874d9737cc641d468caaf",
+      "bytes": 386,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/13-dense.json",
+      "original_sha256": "7686b5afc88685c843bc5f00c72effb96fd6c8033d90e5500973a250ce993abc",
+      "public_sha256": "7686b5afc88685c843bc5f00c72effb96fd6c8033d90e5500973a250ce993abc",
+      "bytes": 1339,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/13-join.json",
+      "original_sha256": "21b3b9c13393398b172def4d6f4f1a41bafe3ad697877cd33fb60cbdeb0668f1",
+      "public_sha256": "21b3b9c13393398b172def4d6f4f1a41bafe3ad697877cd33fb60cbdeb0668f1",
+      "bytes": 15930,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/13-join.json.relation.json.gz",
+      "original_sha256": "0e827a6de58407ab919984e0b9412a56b4cb8497c5f4cee3ab9a81d40d33238e",
+      "public_sha256": "0e827a6de58407ab919984e0b9412a56b4cb8497c5f4cee3ab9a81d40d33238e",
+      "bytes": 983,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/13-oracle.json",
+      "original_sha256": "ebebf86e98dbbcec1730856863feb2823442c6a17ffc0b44d4633f0d07d70dd3",
+      "public_sha256": "ebebf86e98dbbcec1730856863feb2823442c6a17ffc0b44d4633f0d07d70dd3",
+      "bytes": 1085,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/13-plain.json",
+      "original_sha256": "1e1a6ee9e4474067c5a0b19641f66e8991a935d19906661bddc9f9a9440f373f",
+      "public_sha256": "1e1a6ee9e4474067c5a0b19641f66e8991a935d19906661bddc9f9a9440f373f",
+      "bytes": 15973,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/13-plain.json.relation.json.gz",
+      "original_sha256": "eea6fc57418d833eb9218c3992be5f946ad1ab3b070f7a522da76e257cc57031",
+      "public_sha256": "eea6fc57418d833eb9218c3992be5f946ad1ab3b070f7a522da76e257cc57031",
+      "bytes": 984,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/14-dense.json",
+      "original_sha256": "01c9eca84a708eab55e91e742a055d96aeda4feea3357ac01405e49d92fd3414",
+      "public_sha256": "01c9eca84a708eab55e91e742a055d96aeda4feea3357ac01405e49d92fd3414",
+      "bytes": 1369,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/14-join.json",
+      "original_sha256": "1d441fcd80e3e34642d57743fca544a385e72a6db28ff867a603817394b63540",
+      "public_sha256": "1d441fcd80e3e34642d57743fca544a385e72a6db28ff867a603817394b63540",
+      "bytes": 9161,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/14-join.json.relation.json.gz",
+      "original_sha256": "1f1ac9fe13bf1f01f0503cad3d8cdd714d43c59cf72e38178be099386a618384",
+      "public_sha256": "1f1ac9fe13bf1f01f0503cad3d8cdd714d43c59cf72e38178be099386a618384",
+      "bytes": 1358,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/14-oracle.json",
+      "original_sha256": "df27c4a7a768dcf96991c984c57bb981cf4f8932fd3cf48f17519ca0cdf4ff94",
+      "public_sha256": "df27c4a7a768dcf96991c984c57bb981cf4f8932fd3cf48f17519ca0cdf4ff94",
+      "bytes": 1085,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/14-plain.json",
+      "original_sha256": "fe8439d9c95c4940e1c7b99a68eb39180f58e128f1a2276f3506cab3a014b13a",
+      "public_sha256": "fe8439d9c95c4940e1c7b99a68eb39180f58e128f1a2276f3506cab3a014b13a",
+      "bytes": 9217,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/14-plain.json.relation.json.gz",
+      "original_sha256": "e0e83ef6e7946d53185e35301c08306c2bccae1d62108330283f10506267045a",
+      "public_sha256": "e0e83ef6e7946d53185e35301c08306c2bccae1d62108330283f10506267045a",
+      "bytes": 1359,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/15-dense.json",
+      "original_sha256": "7384e643a4787c7f7fca598651bb43d7f34e60fbe67081507c87b64d6dc85308",
+      "public_sha256": "7384e643a4787c7f7fca598651bb43d7f34e60fbe67081507c87b64d6dc85308",
+      "bytes": 1355,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/15-join.json",
+      "original_sha256": "207c1db36f899326d8f954fb0f4ee656c185830bd5653025df1bfbfb5b997b0c",
+      "public_sha256": "207c1db36f899326d8f954fb0f4ee656c185830bd5653025df1bfbfb5b997b0c",
+      "bytes": 17987,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/15-join.json.relation.json.gz",
+      "original_sha256": "eeacdad69497f36a40233af393bee52cd008ce213f76cb89235facb647f7aaf5",
+      "public_sha256": "eeacdad69497f36a40233af393bee52cd008ce213f76cb89235facb647f7aaf5",
+      "bytes": 18807,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/15-oracle.json",
+      "original_sha256": "96521e746630cf61f1892ea889b2b8879039b138bc7d6690a249071763c3bf06",
+      "public_sha256": "96521e746630cf61f1892ea889b2b8879039b138bc7d6690a249071763c3bf06",
+      "bytes": 1132,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/15-plain.json",
+      "original_sha256": "8eb7bf3c011b578e31e9a11f1643f5194f3951152cc569ea416a74e3e2aec28c",
+      "public_sha256": "8eb7bf3c011b578e31e9a11f1643f5194f3951152cc569ea416a74e3e2aec28c",
+      "bytes": 18030,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/15-plain.json.relation.json.gz",
+      "original_sha256": "2a2aed2dbd51d326267e640c1eb03b3fa0d58784b48b1b7962e2bcceee454dc0",
+      "public_sha256": "2a2aed2dbd51d326267e640c1eb03b3fa0d58784b48b1b7962e2bcceee454dc0",
+      "bytes": 18808,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/16-dense.json",
+      "original_sha256": "87ba1f4d638129af24e2c10c604847a7b3564b9109ea822afdf497c6cfc7775a",
+      "public_sha256": "87ba1f4d638129af24e2c10c604847a7b3564b9109ea822afdf497c6cfc7775a",
+      "bytes": 1336,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/16-join.json",
+      "original_sha256": "fe3d1c77222b2ed38fad3975be9dee18a1ff9babe3a51ec9259645e8f4569136",
+      "public_sha256": "fe3d1c77222b2ed38fad3975be9dee18a1ff9babe3a51ec9259645e8f4569136",
+      "bytes": 123662,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/16-join.json.relation.json.gz",
+      "original_sha256": "91b644b3413dc220d40aacffc2bdd457bc28390d311289aaa4264e23c684badd",
+      "public_sha256": "91b644b3413dc220d40aacffc2bdd457bc28390d311289aaa4264e23c684badd",
+      "bytes": 709053,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/16-oracle.json",
+      "original_sha256": "523a21d5a6b4520f6424323d9bf82a31cf5f2bd66cf05d1eddef77bf85f1b4aa",
+      "public_sha256": "523a21d5a6b4520f6424323d9bf82a31cf5f2bd66cf05d1eddef77bf85f1b4aa",
+      "bytes": 1320,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/16-plain.json",
+      "original_sha256": "8003cbb4729253af195fc85e5fd6d2b3dbc61f7667cd1560d0feb398e8b54e47",
+      "public_sha256": "8003cbb4729253af195fc85e5fd6d2b3dbc61f7667cd1560d0feb398e8b54e47",
+      "bytes": 385,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/17-dense.json",
+      "original_sha256": "528fd3dc294b14ba4057914b8d31834c6f88ffd0769d0745ead39eef98209225",
+      "public_sha256": "528fd3dc294b14ba4057914b8d31834c6f88ffd0769d0745ead39eef98209225",
+      "bytes": 1357,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/17-join.json",
+      "original_sha256": "8ee5f34515b27ac7dd78a4a957efcd9a6858b0fef00f4998be96dcf42518abea",
+      "public_sha256": "8ee5f34515b27ac7dd78a4a957efcd9a6858b0fef00f4998be96dcf42518abea",
+      "bytes": 7401,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/17-join.json.relation.json.gz",
+      "original_sha256": "31042bda1f239f4ceafb81129c0aa186c4fec7316ec04f97fa89880b550cad37",
+      "public_sha256": "31042bda1f239f4ceafb81129c0aa186c4fec7316ec04f97fa89880b550cad37",
+      "bytes": 177,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/17-oracle.json",
+      "original_sha256": "2c6a366d520ed9faa14fad398fe4b3900c7623a0505a23a22c703543b50ff424",
+      "public_sha256": "2c6a366d520ed9faa14fad398fe4b3900c7623a0505a23a22c703543b50ff424",
+      "bytes": 987,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/17-plain.json",
+      "original_sha256": "56b9bd8e802fff8dcae1e22fab2e9d1b0e7435e6495c0b6967a04b063b00baee",
+      "public_sha256": "56b9bd8e802fff8dcae1e22fab2e9d1b0e7435e6495c0b6967a04b063b00baee",
+      "bytes": 7448,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/17-plain.json.relation.json.gz",
+      "original_sha256": "777321968eb4b65b5b43e4e9a3e088e406f9f9b72543ed4d0b026a13be3dc653",
+      "public_sha256": "777321968eb4b65b5b43e4e9a3e088e406f9f9b72543ed4d0b026a13be3dc653",
+      "bytes": 178,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/18-dense.json",
+      "original_sha256": "9977996af1b3dd91dc327d829a56cfd96635fb9f29bcf3f664b85415673d88ec",
+      "public_sha256": "9977996af1b3dd91dc327d829a56cfd96635fb9f29bcf3f664b85415673d88ec",
+      "bytes": 1342,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/18-join.json",
+      "original_sha256": "4232b77e05adcc2d904b1fbd4e26f410eed31bca31e3f300ac81f724bae7c696",
+      "public_sha256": "4232b77e05adcc2d904b1fbd4e26f410eed31bca31e3f300ac81f724bae7c696",
+      "bytes": 7248,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/18-join.json.relation.json.gz",
+      "original_sha256": "41ee36c96bee177fa463a7c97a454c69e8c2faeb5d7b900f66abc86e54d34470",
+      "public_sha256": "41ee36c96bee177fa463a7c97a454c69e8c2faeb5d7b900f66abc86e54d34470",
+      "bytes": 18976,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/18-oracle.json",
+      "original_sha256": "46392eced8b2d45a09bf283a8074575a9d90f896d2b757790d2ffe795b9e958b",
+      "public_sha256": "46392eced8b2d45a09bf283a8074575a9d90f896d2b757790d2ffe795b9e958b",
+      "bytes": 1041,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/18-plain.json",
+      "original_sha256": "984f4f073b4b402072229226afcf7fdba55050a7de856f0256f4075e2dfa4aac",
+      "public_sha256": "984f4f073b4b402072229226afcf7fdba55050a7de856f0256f4075e2dfa4aac",
+      "bytes": 7287,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/18-plain.json.relation.json.gz",
+      "original_sha256": "8d769ba0675f9b8cfdaf04a844f14b0a2e3a5d6c0c035620e294445b39b345fa",
+      "public_sha256": "8d769ba0675f9b8cfdaf04a844f14b0a2e3a5d6c0c035620e294445b39b345fa",
+      "bytes": 18977,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/19-dense.json",
+      "original_sha256": "48952b7ceef0117ca8e75d6acb799c4b914f4899701d1922f11455d0e9f4a6da",
+      "public_sha256": "48952b7ceef0117ca8e75d6acb799c4b914f4899701d1922f11455d0e9f4a6da",
+      "bytes": 1003,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/19-join.json",
+      "original_sha256": "016c175902142c30754d29c9a7c0dfca9ca7778bdf38612520b8fade6d94335f",
+      "public_sha256": "016c175902142c30754d29c9a7c0dfca9ca7778bdf38612520b8fade6d94335f",
+      "bytes": 7038,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/19-join.json.relation.json.gz",
+      "original_sha256": "7a72cbb842e513ad9d987f913aa7ef8daba0504d9250b1445425460f3d57c3d0",
+      "public_sha256": "7a72cbb842e513ad9d987f913aa7ef8daba0504d9250b1445425460f3d57c3d0",
+      "bytes": 11977,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/19-oracle.json",
+      "original_sha256": "94a25ed006171205e690307a64040607c6fc9aa2e3f37ddde01345ee7bc932b3",
+      "public_sha256": "94a25ed006171205e690307a64040607c6fc9aa2e3f37ddde01345ee7bc932b3",
+      "bytes": 884,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/19-plain.json",
+      "original_sha256": "41c2f458cd76ffaed0171da6c574aac40b94325f560fbec45ba4fc97bca8a226",
+      "public_sha256": "41c2f458cd76ffaed0171da6c574aac40b94325f560fbec45ba4fc97bca8a226",
+      "bytes": 7083,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/19-plain.json.relation.json.gz",
+      "original_sha256": "f3a5f5fda9513bba757984e71131fba4653479c52adbb953064dfcd4fe1aed55",
+      "public_sha256": "f3a5f5fda9513bba757984e71131fba4653479c52adbb953064dfcd4fe1aed55",
+      "bytes": 11978,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/20-dense.json",
+      "original_sha256": "9d955d1fef617bb9270efa07e50d0fdf2c532597cdcf62c2fb4e1cb078561b9a",
+      "public_sha256": "9d955d1fef617bb9270efa07e50d0fdf2c532597cdcf62c2fb4e1cb078561b9a",
+      "bytes": 1395,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/20-join.json",
+      "original_sha256": "e33c380ea58c52da37b640c70cb3bf3dd6186a826a5e96e979498b5e2553bbaa",
+      "public_sha256": "e33c380ea58c52da37b640c70cb3bf3dd6186a826a5e96e979498b5e2553bbaa",
+      "bytes": 7472,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/20-join.json.relation.json.gz",
+      "original_sha256": "1e6f0d1d300524ab89e97de452e36727de3d2355e7417d549ccc6f89bc2b63a6",
+      "public_sha256": "1e6f0d1d300524ab89e97de452e36727de3d2355e7417d549ccc6f89bc2b63a6",
+      "bytes": 178,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/20-oracle.json",
+      "original_sha256": "2e39aa2971d49e6d69a756a5b7aba56ff162d039ec32f81f5157e56398a20ad2",
+      "public_sha256": "2e39aa2971d49e6d69a756a5b7aba56ff162d039ec32f81f5157e56398a20ad2",
+      "bytes": 1021,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/20-plain.json",
+      "original_sha256": "24d19c0e67c913f43d3aa130ed97415392c9983ea69f2231f267bf23a796298c",
+      "public_sha256": "24d19c0e67c913f43d3aa130ed97415392c9983ea69f2231f267bf23a796298c",
+      "bytes": 7526,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/20-plain.json.relation.json.gz",
+      "original_sha256": "aac56903c78237749602cfc2003a4ceab3cd63b6fc0caad647b49188e0c806ef",
+      "public_sha256": "aac56903c78237749602cfc2003a4ceab3cd63b6fc0caad647b49188e0c806ef",
+      "bytes": 179,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/21-dense.json",
+      "original_sha256": "e42bc9adc04c4563abb1dfbed6de2498a3e06d6f69a1448cd4e38327a6a04afc",
+      "public_sha256": "e42bc9adc04c4563abb1dfbed6de2498a3e06d6f69a1448cd4e38327a6a04afc",
+      "bytes": 1047,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/21-join.json",
+      "original_sha256": "0dea1e7dbb0283d695b138426966577ad55a5b05a4761d1e019cbb11c5d77f59",
+      "public_sha256": "0dea1e7dbb0283d695b138426966577ad55a5b05a4761d1e019cbb11c5d77f59",
+      "bytes": 7035,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/21-join.json.relation.json.gz",
+      "original_sha256": "184b3cbffd377cc01bee87975652fc3d1e785fed6e7ea5c8238fadc3c610f403",
+      "public_sha256": "184b3cbffd377cc01bee87975652fc3d1e785fed6e7ea5c8238fadc3c610f403",
+      "bytes": 11977,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/21-oracle.json",
+      "original_sha256": "efaf5824d1142eb43b80dabdf15abdeb7265250b8601f37d39ad00042a3a8e59",
+      "public_sha256": "efaf5824d1142eb43b80dabdf15abdeb7265250b8601f37d39ad00042a3a8e59",
+      "bytes": 860,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/21-plain.json",
+      "original_sha256": "380ca3eb18414125fb6b6f177becd218668e4fdad3bbfe518a7fc4322860cf51",
+      "public_sha256": "380ca3eb18414125fb6b6f177becd218668e4fdad3bbfe518a7fc4322860cf51",
+      "bytes": 7086,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/21-plain.json.relation.json.gz",
+      "original_sha256": "74585309826d3fcbd70da7e664e7dea59fc9a72f26eb0cd765620b39a47d3fcd",
+      "public_sha256": "74585309826d3fcbd70da7e664e7dea59fc9a72f26eb0cd765620b39a47d3fcd",
+      "bytes": 11978,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/22-dense.json",
+      "original_sha256": "704dd17995007e9a8be7cdbdc5159e13fa95cb662cce44323f2e5c4c4cdcd02d",
+      "public_sha256": "704dd17995007e9a8be7cdbdc5159e13fa95cb662cce44323f2e5c4c4cdcd02d",
+      "bytes": 986,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/22-join.json",
+      "original_sha256": "683912a883b10b72acd9b9f29d079ccf795fd593b4b5dfa41224485c0e5a4bbf",
+      "public_sha256": "683912a883b10b72acd9b9f29d079ccf795fd593b4b5dfa41224485c0e5a4bbf",
+      "bytes": 7135,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/22-join.json.relation.json.gz",
+      "original_sha256": "891c465092495bfd3dc7107d937d84a696a6a087d6f9814b5e9f91af9d6f10f8",
+      "public_sha256": "891c465092495bfd3dc7107d937d84a696a6a087d6f9814b5e9f91af9d6f10f8",
+      "bytes": 731776,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/22-oracle.json",
+      "original_sha256": "7180ca7c098b5a0012468433720224582ab1b79a40e2bd42587f1187335b6b35",
+      "public_sha256": "7180ca7c098b5a0012468433720224582ab1b79a40e2bd42587f1187335b6b35",
+      "bytes": 963,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/22-plain.json",
+      "original_sha256": "f963cbda22dcd6f1de7a33923953afe11a860c2b8cf2ab707ea92c6f6cf364d1",
+      "public_sha256": "f963cbda22dcd6f1de7a33923953afe11a860c2b8cf2ab707ea92c6f6cf364d1",
+      "bytes": 390,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/23-dense.json",
+      "original_sha256": "e6164fd1c0adc85a47fe329ee87e819b4a29b555fc24fcffb0bfb904720d7454",
+      "public_sha256": "e6164fd1c0adc85a47fe329ee87e819b4a29b555fc24fcffb0bfb904720d7454",
+      "bytes": 1256,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/23-join.json",
+      "original_sha256": "45f807a37b8320052ac18e25bf888a09251e6ed8dcfef026829a6b80999ef5aa",
+      "public_sha256": "45f807a37b8320052ac18e25bf888a09251e6ed8dcfef026829a6b80999ef5aa",
+      "bytes": 8009,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/23-join.json.relation.json.gz",
+      "original_sha256": "f565346bf6cc36bd00af78b86381acc9941fef73d4032ef8b3d6a014c6e167e9",
+      "public_sha256": "f565346bf6cc36bd00af78b86381acc9941fef73d4032ef8b3d6a014c6e167e9",
+      "bytes": 29963,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/23-oracle.json",
+      "original_sha256": "14c1c10403412a45cf07ed1a3d1054fff6f79111da76ad20f661cdf1d2a97476",
+      "public_sha256": "14c1c10403412a45cf07ed1a3d1054fff6f79111da76ad20f661cdf1d2a97476",
+      "bytes": 822,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/23-plain.json",
+      "original_sha256": "17e211c064180c45c500dbc6523d550f08eb8b7a090663ecff357481d7d08db4",
+      "public_sha256": "17e211c064180c45c500dbc6523d550f08eb8b7a090663ecff357481d7d08db4",
+      "bytes": 8047,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/23-plain.json.relation.json.gz",
+      "original_sha256": "06b759933609e66df696a5002bc1eaa1a97cc6e599a9c501647247140947595a",
+      "public_sha256": "06b759933609e66df696a5002bc1eaa1a97cc6e599a9c501647247140947595a",
+      "bytes": 29964,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/24-dense.json",
+      "original_sha256": "a9f65aaa89db7a58477b448241420998dbf437908e945658f2508408edfe0549",
+      "public_sha256": "a9f65aaa89db7a58477b448241420998dbf437908e945658f2508408edfe0549",
+      "bytes": 1352,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/24-join.json",
+      "original_sha256": "aabc8d34c47c0466074121c9eafbe2d44a398c88dcc0c68843efe956e9d93b05",
+      "public_sha256": "aabc8d34c47c0466074121c9eafbe2d44a398c88dcc0c68843efe956e9d93b05",
+      "bytes": 24921,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/24-join.json.relation.json.gz",
+      "original_sha256": "761576d55efef82488593ddfc94c0f420c366c129390dfadf67fa52df0b27ddd",
+      "public_sha256": "761576d55efef82488593ddfc94c0f420c366c129390dfadf67fa52df0b27ddd",
+      "bytes": 1039,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/24-oracle.json",
+      "original_sha256": "17d7269ab4a337e18840e8b693e66fcd4fdca912360b9dc32816f212e31a2a6a",
+      "public_sha256": "17d7269ab4a337e18840e8b693e66fcd4fdca912360b9dc32816f212e31a2a6a",
+      "bytes": 1090,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/24-plain.json",
+      "original_sha256": "59888ed2481eeb52010a813e31f8491932dcb59dc5c985020dface63a8a46da2",
+      "public_sha256": "59888ed2481eeb52010a813e31f8491932dcb59dc5c985020dface63a8a46da2",
+      "bytes": 24961,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/24-plain.json.relation.json.gz",
+      "original_sha256": "e711a93b52c9cbf1f576d98b83d6e09734e5758f5f1fe18961baa52aaf5cb95b",
+      "public_sha256": "e711a93b52c9cbf1f576d98b83d6e09734e5758f5f1fe18961baa52aaf5cb95b",
+      "bytes": 1040,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/25-dense.json",
+      "original_sha256": "96c713ebc1b891c5b7b53743e3bcb8c90482b214d373233cde0ced96becaa212",
+      "public_sha256": "96c713ebc1b891c5b7b53743e3bcb8c90482b214d373233cde0ced96becaa212",
+      "bytes": 658,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/25-join.json",
+      "original_sha256": "0cb4263c1d0da3ea75354a575fa210d381c96837a460bac54d8bcd0583f0d512",
+      "public_sha256": "0cb4263c1d0da3ea75354a575fa210d381c96837a460bac54d8bcd0583f0d512",
+      "bytes": 818,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/25-join.json.relation.json.gz",
+      "original_sha256": "1ae8f8bfea0ac9155ae1f60e013e744b3f756640fdad666e96b11198166c8603",
+      "public_sha256": "1ae8f8bfea0ac9155ae1f60e013e744b3f756640fdad666e96b11198166c8603",
+      "bytes": 130,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/25-oracle.json",
+      "original_sha256": "c036da6691656eefb9adbaf58af7794fd7a4a16e9c422384610553b0e6422d74",
+      "public_sha256": "c036da6691656eefb9adbaf58af7794fd7a4a16e9c422384610553b0e6422d74",
+      "bytes": 648,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/25-plain.json",
+      "original_sha256": "4cd61315d8ac85dfcf348c207bdae481d3462b0c6479a68f367b1f2435111855",
+      "public_sha256": "4cd61315d8ac85dfcf348c207bdae481d3462b0c6479a68f367b1f2435111855",
+      "bytes": 879,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/25-plain.json.relation.json.gz",
+      "original_sha256": "758e6f64cdd15d156d3d69692895195b1dd415ca1991b2db3c4020bbfdff9011",
+      "public_sha256": "758e6f64cdd15d156d3d69692895195b1dd415ca1991b2db3c4020bbfdff9011",
+      "bytes": 131,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/26-dense.json",
+      "original_sha256": "0e7d05b3908eb45c8a692eaefce5ef11513b6c3d51e2e656e5b0fd10421b09c4",
+      "public_sha256": "0e7d05b3908eb45c8a692eaefce5ef11513b6c3d51e2e656e5b0fd10421b09c4",
+      "bytes": 1342,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/26-join.json",
+      "original_sha256": "5ccadf4341229d8469ac7f9b9e63d8a78221cde528cac1383acb89d934027c96",
+      "public_sha256": "5ccadf4341229d8469ac7f9b9e63d8a78221cde528cac1383acb89d934027c96",
+      "bytes": 12643,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/26-join.json.relation.json.gz",
+      "original_sha256": "36eaaed029f04d3673d4c02c97ab6a30d06a96406de588202e639f838f811cef",
+      "public_sha256": "36eaaed029f04d3673d4c02c97ab6a30d06a96406de588202e639f838f811cef",
+      "bytes": 981,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/26-oracle.json",
+      "original_sha256": "4ce64e8afa5bc00ae35d94b1187fd001ef2edb0b260d2104811f005a28fb23dd",
+      "public_sha256": "4ce64e8afa5bc00ae35d94b1187fd001ef2edb0b260d2104811f005a28fb23dd",
+      "bytes": 1063,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/26-plain.json",
+      "original_sha256": "a61f0cfd3371bf6ce0bd21932b49b39eb9c9c039a4e01c7eb17edd927a8e9fd3",
+      "public_sha256": "a61f0cfd3371bf6ce0bd21932b49b39eb9c9c039a4e01c7eb17edd927a8e9fd3",
+      "bytes": 12653,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/26-plain.json.relation.json.gz",
+      "original_sha256": "0fba3d069afa2038b009107ed18c375c416cf0883f5bee636face5257a2f138b",
+      "public_sha256": "0fba3d069afa2038b009107ed18c375c416cf0883f5bee636face5257a2f138b",
+      "bytes": 982,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/27-dense.json",
+      "original_sha256": "05b4619cf3894f57f3af17658f9ebbafe90ba18da85d1c5a79fddcd23d11aeea",
+      "public_sha256": "05b4619cf3894f57f3af17658f9ebbafe90ba18da85d1c5a79fddcd23d11aeea",
+      "bytes": 1304,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/27-join.json",
+      "original_sha256": "a12e6cc28dc0cc9e6ecc961b9fff8a68cf21a639ac31147567112ae5eaebbd57",
+      "public_sha256": "a12e6cc28dc0cc9e6ecc961b9fff8a68cf21a639ac31147567112ae5eaebbd57",
+      "bytes": 14170,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/27-join.json.relation.json.gz",
+      "original_sha256": "03f09bcf684cb4be4f7ba0f69e6495afc4592e30423818a74ccd687631783a63",
+      "public_sha256": "03f09bcf684cb4be4f7ba0f69e6495afc4592e30423818a74ccd687631783a63",
+      "bytes": 9566,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/27-oracle.json",
+      "original_sha256": "3eaee2e5c32aab692c5247dcad20909041094b786c0a9916ec32cd48f53008ca",
+      "public_sha256": "3eaee2e5c32aab692c5247dcad20909041094b786c0a9916ec32cd48f53008ca",
+      "bytes": 892,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/27-plain.json",
+      "original_sha256": "d357fb67907f108dec1ff55c35746dc447ee201be6bb711e83f9bbc001bb42fb",
+      "public_sha256": "d357fb67907f108dec1ff55c35746dc447ee201be6bb711e83f9bbc001bb42fb",
+      "bytes": 14209,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/27-plain.json.relation.json.gz",
+      "original_sha256": "233d82e8dd8ea1708bedf658523f1721409b84a1e59b43b27ce5d48a6a2b94ae",
+      "public_sha256": "233d82e8dd8ea1708bedf658523f1721409b84a1e59b43b27ce5d48a6a2b94ae",
+      "bytes": 9567,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/28-dense.json",
+      "original_sha256": "2ec063684daf2d15163b42acbcf535099d57c0d05d98384821e2df2232cae926",
+      "public_sha256": "2ec063684daf2d15163b42acbcf535099d57c0d05d98384821e2df2232cae926",
+      "bytes": 639,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/28-join.json",
+      "original_sha256": "7d294ff56d945ce87bad4738e6e619b167a42dfdf0f6a296107629054e616613",
+      "public_sha256": "7d294ff56d945ce87bad4738e6e619b167a42dfdf0f6a296107629054e616613",
+      "bytes": 821,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/28-join.json.relation.json.gz",
+      "original_sha256": "7696d38e6a1b7cc913754069154446f6b51a1ce6eda2dab444b687090778caa3",
+      "public_sha256": "7696d38e6a1b7cc913754069154446f6b51a1ce6eda2dab444b687090778caa3",
+      "bytes": 130,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/28-oracle.json",
+      "original_sha256": "4fcd2cd9d1e781e5897abb58ee8463b84ee344d8e1561626fb658180948cd8da",
+      "public_sha256": "4fcd2cd9d1e781e5897abb58ee8463b84ee344d8e1561626fb658180948cd8da",
+      "bytes": 656,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/28-plain.json",
+      "original_sha256": "ed2e066b00bb818bf0e21d4cb529b3c258d2005aae06e1f868891a9eba24d10b",
+      "public_sha256": "ed2e066b00bb818bf0e21d4cb529b3c258d2005aae06e1f868891a9eba24d10b",
+      "bytes": 872,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/28-plain.json.relation.json.gz",
+      "original_sha256": "2033b7e81512913d999f9df5c8e3e49ce42a0f21e7851ed32b5d9a9b4e87de48",
+      "public_sha256": "2033b7e81512913d999f9df5c8e3e49ce42a0f21e7851ed32b5d9a9b4e87de48",
+      "bytes": 131,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/29-dense.json",
+      "original_sha256": "2214dd6c8ae64efda0e491a4be2cddcb6d19e6469c3cca78ff2441c0be3c8ad5",
+      "public_sha256": "2214dd6c8ae64efda0e491a4be2cddcb6d19e6469c3cca78ff2441c0be3c8ad5",
+      "bytes": 1366,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/29-join.json",
+      "original_sha256": "362c152c1009f7d680c81882a25f1dcfba78059ebff0eb41b06492bf328e63d4",
+      "public_sha256": "362c152c1009f7d680c81882a25f1dcfba78059ebff0eb41b06492bf328e63d4",
+      "bytes": 10961,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/29-join.json.relation.json.gz",
+      "original_sha256": "c049df33ca33ef07075a577cb4d41320944aaffcd1a644752450206529267b01",
+      "public_sha256": "c049df33ca33ef07075a577cb4d41320944aaffcd1a644752450206529267b01",
+      "bytes": 867,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/29-oracle.json",
+      "original_sha256": "e4d9d31088e218bbb14fb3b51f34ac1d35a6c75e0e9634e6cf7e0fe075aacb31",
+      "public_sha256": "e4d9d31088e218bbb14fb3b51f34ac1d35a6c75e0e9634e6cf7e0fe075aacb31",
+      "bytes": 1129,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/29-plain.json",
+      "original_sha256": "f66f81212878359df48bd6cb8b593e51820e3ccb092913ad7ac9899e9d8247ae",
+      "public_sha256": "f66f81212878359df48bd6cb8b593e51820e3ccb092913ad7ac9899e9d8247ae",
+      "bytes": 10988,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/29-plain.json.relation.json.gz",
+      "original_sha256": "87d691c16fbd04a388327114ffe9f9e32fc1415c26e6b283cba5a204de072df1",
+      "public_sha256": "87d691c16fbd04a388327114ffe9f9e32fc1415c26e6b283cba5a204de072df1",
+      "bytes": 868,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/30-dense.json",
+      "original_sha256": "31643b9b74552f3a74e8baf2d066d2c5cfcfb5d6137f6e07a973cc276e6ddb9c",
+      "public_sha256": "31643b9b74552f3a74e8baf2d066d2c5cfcfb5d6137f6e07a973cc276e6ddb9c",
+      "bytes": 976,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/30-join.json",
+      "original_sha256": "487c84e26dedbc8d4c71072509a4fd9fbbeff7cba2285e688e4672c4e50c823a",
+      "public_sha256": "487c84e26dedbc8d4c71072509a4fd9fbbeff7cba2285e688e4672c4e50c823a",
+      "bytes": 7121,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/30-join.json.relation.json.gz",
+      "original_sha256": "792f02efd3381e3610a8449ee8bc7b46ea4fa217d842459d375ae215d747bae9",
+      "public_sha256": "792f02efd3381e3610a8449ee8bc7b46ea4fa217d842459d375ae215d747bae9",
+      "bytes": 722813,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/30-oracle.json",
+      "original_sha256": "ba2dca516eef5badaedb909de356647fafa876e27190bf38c8bc70b9e16e68d3",
+      "public_sha256": "ba2dca516eef5badaedb909de356647fafa876e27190bf38c8bc70b9e16e68d3",
+      "bytes": 967,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/30-plain.json",
+      "original_sha256": "6821df8e8dcd0ce816b3ac8315739b2a24b39bce08b5fe6c44aeb17682f46b0b",
+      "public_sha256": "6821df8e8dcd0ce816b3ac8315739b2a24b39bce08b5fe6c44aeb17682f46b0b",
+      "bytes": 385,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/31-dense.json",
+      "original_sha256": "87278871603d3dedce3cb082285f0bc45153763962984cab2a7a8d226b27d1d4",
+      "public_sha256": "87278871603d3dedce3cb082285f0bc45153763962984cab2a7a8d226b27d1d4",
+      "bytes": 1275,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/31-join.json",
+      "original_sha256": "bde6c41c7e6ae67aab3e4f2eb886e0e6da43ad3f2455a6ad28608fe774f30be0",
+      "public_sha256": "bde6c41c7e6ae67aab3e4f2eb886e0e6da43ad3f2455a6ad28608fe774f30be0",
+      "bytes": 123341,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/31-join.json.relation.json.gz",
+      "original_sha256": "3aaa36ce3ee463d5e81426894dbe1713ff3653a0f791ee139f2e4b8ea727b6b1",
+      "public_sha256": "3aaa36ce3ee463d5e81426894dbe1713ff3653a0f791ee139f2e4b8ea727b6b1",
+      "bytes": 670436,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/31-oracle.json",
+      "original_sha256": "25f6d11f07d7ad3d3b7c851cd23b3abd01e14e60b7f1cf36b126c3ff768f1579",
+      "public_sha256": "25f6d11f07d7ad3d3b7c851cd23b3abd01e14e60b7f1cf36b126c3ff768f1579",
+      "bytes": 1246,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/31-plain.json",
+      "original_sha256": "a66122b53f2a6ec4ec8d04775878ea55c68684b2673e8500b86ab1ddb2336fe8",
+      "public_sha256": "a66122b53f2a6ec4ec8d04775878ea55c68684b2673e8500b86ab1ddb2336fe8",
+      "bytes": 379,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/32-dense.json",
+      "original_sha256": "1d5572dfdd7383e09d585ec72675ad3fed53caca0b625eea612373770e4f8ddb",
+      "public_sha256": "1d5572dfdd7383e09d585ec72675ad3fed53caca0b625eea612373770e4f8ddb",
+      "bytes": 895,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/32-join.json",
+      "original_sha256": "968162cf0e81791772337c4cdbe63a9b04917565596905d3b35f5f30b1732e73",
+      "public_sha256": "968162cf0e81791772337c4cdbe63a9b04917565596905d3b35f5f30b1732e73",
+      "bytes": 7037,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/32-join.json.relation.json.gz",
+      "original_sha256": "ead1768f752d6a6e8b0a518f9070179cdcb6b8dec3e34b620b88680174262b01",
+      "public_sha256": "ead1768f752d6a6e8b0a518f9070179cdcb6b8dec3e34b620b88680174262b01",
+      "bytes": 731885,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/32-oracle.json",
+      "original_sha256": "86b1d65f5d1c161f5c520ffc202ede15db1b0dd4d1414df1d5cbde0d50171d02",
+      "public_sha256": "86b1d65f5d1c161f5c520ffc202ede15db1b0dd4d1414df1d5cbde0d50171d02",
+      "bytes": 872,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/32-plain.json",
+      "original_sha256": "10c02905588259b7f5ce1455b49ad90b5accce1f1183d6e1aeb50e857f18a5e0",
+      "public_sha256": "10c02905588259b7f5ce1455b49ad90b5accce1f1183d6e1aeb50e857f18a5e0",
+      "bytes": 386,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/33-dense.json",
+      "original_sha256": "697e41ad767049af330a712c798dddf44bf4cef29e74aed3a97050fbbcb57a34",
+      "public_sha256": "697e41ad767049af330a712c798dddf44bf4cef29e74aed3a97050fbbcb57a34",
+      "bytes": 1358,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/33-join.json",
+      "original_sha256": "b69684dd77d4fe71a11d0fd59e000a46e04b9c1fe89d938771ae6eb70bf503b9",
+      "public_sha256": "b69684dd77d4fe71a11d0fd59e000a46e04b9c1fe89d938771ae6eb70bf503b9",
+      "bytes": 7383,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/33-join.json.relation.json.gz",
+      "original_sha256": "6f448a03be7246fb8510bdb778a603a6540c85ca3aa91ddf5182274cd42ca291",
+      "public_sha256": "6f448a03be7246fb8510bdb778a603a6540c85ca3aa91ddf5182274cd42ca291",
+      "bytes": 7089,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/33-oracle.json",
+      "original_sha256": "5fc126f1989e091e1345e62947fd4e5a53955911d3688d96db35712380841d38",
+      "public_sha256": "5fc126f1989e091e1345e62947fd4e5a53955911d3688d96db35712380841d38",
+      "bytes": 1068,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/33-plain.json",
+      "original_sha256": "95423e35bf2d21a1947b0f61a8a2dbc006bc5c05e2b9fb385fc01d976b4f4ef0",
+      "public_sha256": "95423e35bf2d21a1947b0f61a8a2dbc006bc5c05e2b9fb385fc01d976b4f4ef0",
+      "bytes": 7433,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/33-plain.json.relation.json.gz",
+      "original_sha256": "a94b837401baf07fe2bd86bfce8ab9e7969f2f660a18b3c3dbd9182c10ef75cf",
+      "public_sha256": "a94b837401baf07fe2bd86bfce8ab9e7969f2f660a18b3c3dbd9182c10ef75cf",
+      "bytes": 7090,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/34-dense.json",
+      "original_sha256": "d7080837104c9740359b1f0940c3d6519872739f778e16762ae49cbbac4857fe",
+      "public_sha256": "d7080837104c9740359b1f0940c3d6519872739f778e16762ae49cbbac4857fe",
+      "bytes": 1327,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/34-join.json",
+      "original_sha256": "d0f6d301a645118b656073882b88c8dcd77e72f4b47c3c9ccd1658847435582b",
+      "public_sha256": "d0f6d301a645118b656073882b88c8dcd77e72f4b47c3c9ccd1658847435582b",
+      "bytes": 9101,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/34-join.json.relation.json.gz",
+      "original_sha256": "17091151e541bac53ecd28597830ee3c91eb62baabdea187af5ef9008019445c",
+      "public_sha256": "17091151e541bac53ecd28597830ee3c91eb62baabdea187af5ef9008019445c",
+      "bytes": 18925,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/34-oracle.json",
+      "original_sha256": "0fc32d317452529918cc8be8f4c66a2872ad57e3e4fd4a6672e0fa7297871c07",
+      "public_sha256": "0fc32d317452529918cc8be8f4c66a2872ad57e3e4fd4a6672e0fa7297871c07",
+      "bytes": 1054,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/34-plain.json",
+      "original_sha256": "76423cf8d575aaa25bbbab908f9022c0c325f7cd986bba71cb68bd9c8f8315ee",
+      "public_sha256": "76423cf8d575aaa25bbbab908f9022c0c325f7cd986bba71cb68bd9c8f8315ee",
+      "bytes": 9149,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/34-plain.json.relation.json.gz",
+      "original_sha256": "4739d3affdc0b25f4d949806221586c5978cd251883aed091eba3f9f4262636b",
+      "public_sha256": "4739d3affdc0b25f4d949806221586c5978cd251883aed091eba3f9f4262636b",
+      "bytes": 18926,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/35-dense.json",
+      "original_sha256": "fb272eb7ed6eec1c227e4c47c133a1d743eee67146cccfa227f54c2fd1d35f33",
+      "public_sha256": "fb272eb7ed6eec1c227e4c47c133a1d743eee67146cccfa227f54c2fd1d35f33",
+      "bytes": 1347,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/35-join.json",
+      "original_sha256": "a8a84f16aeedf20ad9d6428ec300f0fbe59813e6bf1d22f53e0ce2fbcda2979e",
+      "public_sha256": "a8a84f16aeedf20ad9d6428ec300f0fbe59813e6bf1d22f53e0ce2fbcda2979e",
+      "bytes": 7675,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/35-join.json.relation.json.gz",
+      "original_sha256": "a0652f99e8502cacc31eed0ee0aef8d3821fad6a0cf79cc354eccaf4b2e7d51c",
+      "public_sha256": "a0652f99e8502cacc31eed0ee0aef8d3821fad6a0cf79cc354eccaf4b2e7d51c",
+      "bytes": 723539,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/35-oracle.json",
+      "original_sha256": "5e09781c8e91683c2ac296effd7b0757c9bbdf0fb9d62946e31bd0d988ceb6c9",
+      "public_sha256": "5e09781c8e91683c2ac296effd7b0757c9bbdf0fb9d62946e31bd0d988ceb6c9",
+      "bytes": 1328,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/35-plain.json",
+      "original_sha256": "94e16ce54aa55d6054f3708ffb82d5c02c37168828ef6f5dd9e17e23cc8e82d4",
+      "public_sha256": "94e16ce54aa55d6054f3708ffb82d5c02c37168828ef6f5dd9e17e23cc8e82d4",
+      "bytes": 388,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/36-dense.json",
+      "original_sha256": "092f13ed821e46ed1c4e249746ea5b5d46935913bfb29e0bd5b18cf11200acda",
+      "public_sha256": "092f13ed821e46ed1c4e249746ea5b5d46935913bfb29e0bd5b18cf11200acda",
+      "bytes": 1343,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/36-join.json",
+      "original_sha256": "3b81f0668adf5bd73f7a469ac9051b35db6dc15c94eb4d74d313b9f4753a6abf",
+      "public_sha256": "3b81f0668adf5bd73f7a469ac9051b35db6dc15c94eb4d74d313b9f4753a6abf",
+      "bytes": 7668,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/36-join.json.relation.json.gz",
+      "original_sha256": "bae7a11ce517d48835dde65b445298f19fdead02326169173e26770a4bb37e48",
+      "public_sha256": "bae7a11ce517d48835dde65b445298f19fdead02326169173e26770a4bb37e48",
+      "bytes": 743626,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/36-oracle.json",
+      "original_sha256": "a0dec1348b388601ac6ac62b42ad8ec7f6c43585951eed8f3d600a51db0051f7",
+      "public_sha256": "a0dec1348b388601ac6ac62b42ad8ec7f6c43585951eed8f3d600a51db0051f7",
+      "bytes": 1334,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/36-plain.json",
+      "original_sha256": "aa4e99be9a3888e62617289040ac5d5099fab45eca4a462cde86380da5974ebb",
+      "public_sha256": "aa4e99be9a3888e62617289040ac5d5099fab45eca4a462cde86380da5974ebb",
+      "bytes": 393,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/37-dense.json",
+      "original_sha256": "7294cfef858e7abf50e8bfb758c384dd8dd8b5a82ffa20b8bbe1bbc82a867787",
+      "public_sha256": "7294cfef858e7abf50e8bfb758c384dd8dd8b5a82ffa20b8bbe1bbc82a867787",
+      "bytes": 665,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/37-join.json",
+      "original_sha256": "d06769026a2cde8f7c74a0150276e2d66e8bf247f01be4dd044c7e7cac13d121",
+      "public_sha256": "d06769026a2cde8f7c74a0150276e2d66e8bf247f01be4dd044c7e7cac13d121",
+      "bytes": 827,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/37-join.json.relation.json.gz",
+      "original_sha256": "30059fa5b2fb22d8de0ce93bbcec5bc6df57d2aabee51026504c6563e67de693",
+      "public_sha256": "30059fa5b2fb22d8de0ce93bbcec5bc6df57d2aabee51026504c6563e67de693",
+      "bytes": 130,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/37-oracle.json",
+      "original_sha256": "6605c4cf83522409f380cfd81f159571b6333fd6b244c42b8a628d13bcc6cbd0",
+      "public_sha256": "6605c4cf83522409f380cfd81f159571b6333fd6b244c42b8a628d13bcc6cbd0",
+      "bytes": 664,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/37-plain.json",
+      "original_sha256": "48f8403ecf2465f85c883b1d074dea8a49d02f2383a6f89afe145c95e8f8022a",
+      "public_sha256": "48f8403ecf2465f85c883b1d074dea8a49d02f2383a6f89afe145c95e8f8022a",
+      "bytes": 880,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/37-plain.json.relation.json.gz",
+      "original_sha256": "41facca73a033f2558078f7e2e574b5fbb87806935a1aabc77b74ff546d9ed30",
+      "public_sha256": "41facca73a033f2558078f7e2e574b5fbb87806935a1aabc77b74ff546d9ed30",
+      "bytes": 131,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/38-dense.json",
+      "original_sha256": "1a69aab21a96bf3bd8a7532b435b3ec905db5d57a5ae78cbad1bcd5237e4a12f",
+      "public_sha256": "1a69aab21a96bf3bd8a7532b435b3ec905db5d57a5ae78cbad1bcd5237e4a12f",
+      "bytes": 642,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/38-join.json",
+      "original_sha256": "13585e563171debb027fe5680c0c6069c71e8812c3012bbc7dc1725913657831",
+      "public_sha256": "13585e563171debb027fe5680c0c6069c71e8812c3012bbc7dc1725913657831",
+      "bytes": 828,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/38-join.json.relation.json.gz",
+      "original_sha256": "28632dc76c65ead6bfacc454b08a543a6d29f3420ceccfb3cf63d0743c412bbc",
+      "public_sha256": "28632dc76c65ead6bfacc454b08a543a6d29f3420ceccfb3cf63d0743c412bbc",
+      "bytes": 130,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/38-oracle.json",
+      "original_sha256": "578626df70f019fb0422dd41ff91aa77ed5b7d64a4122e991c56532d380bf4bf",
+      "public_sha256": "578626df70f019fb0422dd41ff91aa77ed5b7d64a4122e991c56532d380bf4bf",
+      "bytes": 663,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/38-plain.json",
+      "original_sha256": "5b12b41dd81941ee3619f72b13b5c88df8e080b9f15c9b7ecb150736925c16f3",
+      "public_sha256": "5b12b41dd81941ee3619f72b13b5c88df8e080b9f15c9b7ecb150736925c16f3",
+      "bytes": 879,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/38-plain.json.relation.json.gz",
+      "original_sha256": "ae1f38cb77a78256f4d98b01f3502798e65d6ce1ecfaaf3db2538e045a6deb7e",
+      "public_sha256": "ae1f38cb77a78256f4d98b01f3502798e65d6ce1ecfaaf3db2538e045a6deb7e",
+      "bytes": 131,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/39-dense.json",
+      "original_sha256": "c27f69e9fb5d26545438a6ac04288b289ba499fdadf18aec680c2f944f9ed9c0",
+      "public_sha256": "c27f69e9fb5d26545438a6ac04288b289ba499fdadf18aec680c2f944f9ed9c0",
+      "bytes": 639,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/39-join.json",
+      "original_sha256": "25ef4e644dc55216408d80a4ed495c295344b9cbf5deec3518b9ffbc6d0d5c44",
+      "public_sha256": "25ef4e644dc55216408d80a4ed495c295344b9cbf5deec3518b9ffbc6d0d5c44",
+      "bytes": 835,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/39-join.json.relation.json.gz",
+      "original_sha256": "5d9e065a2702261fbe45c59a546cf6d2252b2f72835f7e7e0b6a5dbf1d9cce98",
+      "public_sha256": "5d9e065a2702261fbe45c59a546cf6d2252b2f72835f7e7e0b6a5dbf1d9cce98",
+      "bytes": 130,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/39-oracle.json",
+      "original_sha256": "a538f7ce163cf25b69ef621b142e04ba763707637318f8dfde7eab57dad65b6c",
+      "public_sha256": "a538f7ce163cf25b69ef621b142e04ba763707637318f8dfde7eab57dad65b6c",
+      "bytes": 649,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/39-plain.json",
+      "original_sha256": "0c89714ab59bb0841009394977ae5f99102f85139b92cea4e4eaad24e00b9855",
+      "public_sha256": "0c89714ab59bb0841009394977ae5f99102f85139b92cea4e4eaad24e00b9855",
+      "bytes": 879,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/39-plain.json.relation.json.gz",
+      "original_sha256": "ddde72699ddd1beb94d1b1eb3e4050f120a11cbd7b68b86d9fdc5e8a49e93b1c",
+      "public_sha256": "ddde72699ddd1beb94d1b1eb3e4050f120a11cbd7b68b86d9fdc5e8a49e93b1c",
+      "bytes": 131,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/pre-execution-hashes.json",
+      "original_sha256": "7370fb2b328f2b0b79ae93ffd7373608eac60315469a82d4628d00c58d6826b0",
+      "public_sha256": "7370fb2b328f2b0b79ae93ffd7373608eac60315469a82d4628d00c58d6826b0",
+      "bytes": 1626,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/process-receipts.json",
+      "original_sha256": "aaa053188842fe7ea89849b5bf991686140ce853049c42cb9d926571960dda98",
+      "public_sha256": "aaa053188842fe7ea89849b5bf991686140ce853049c42cb9d926571960dda98",
+      "bytes": 35237,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/results/sealed-output-sha256.json",
+      "original_sha256": "42e17682851129def1911b4200e8af9b79a7d174a1bb6bdc85c003634dfb7643",
+      "public_sha256": "42e17682851129def1911b4200e8af9b79a7d174a1bb6bdc85c003634dfb7643",
+      "bytes": 21241,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/revealed/labels.json",
+      "original_sha256": "84a8ddd4866659dd23167c7a886cda9744718c1742d07b96c5c963508d2b676e",
+      "public_sha256": "84a8ddd4866659dd23167c7a886cda9744718c1742d07b96c5c963508d2b676e",
+      "bytes": 35455,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/revealed/release-receipt.json",
+      "original_sha256": "38f63401362befb46f3f3e92563d4f047209cf1eae52dac55c246403e0bfc933",
+      "public_sha256": "38f63401362befb46f3f3e92563d4f047209cf1eae52dac55c246403e0bfc933",
+      "bytes": 1486,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/revealed/seed.bin",
+      "original_sha256": "0ffb603cbbf39fd415c7a0a60e1a34d535602c30275609967ad12c2e08922197",
+      "public_sha256": "0ffb603cbbf39fd415c7a0a60e1a34d535602c30275609967ad12c2e08922197",
+      "bytes": 32,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/revealed/seed.hex",
+      "original_sha256": "c9537e701eb133051abc1a0238f0ca1d9137287c17d7838e98987ee68475863d",
+      "public_sha256": "c9537e701eb133051abc1a0238f0ca1d9137287c17d7838e98987ee68475863d",
+      "bytes": 65,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40/timing-summary.json",
+      "original_sha256": "1c5441e65dc16682ee75cdc92c9e6db13ce4c4e1a82176ff932b470d5a89159e",
+      "public_sha256": "1c5441e65dc16682ee75cdc92c9e6db13ce4c4e1a82176ff932b470d5a89159e",
+      "bytes": 829,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/00-oracle-replay.json",
+      "original_sha256": "2fd772e43ada2076cc0fb5e06340e56b64e6dfa289a788abf3f289cf2f140d50",
+      "public_sha256": "2fd772e43ada2076cc0fb5e06340e56b64e6dfa289a788abf3f289cf2f140d50",
+      "bytes": 906,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/01-oracle-replay.json",
+      "original_sha256": "f27c73a85972ed6a2df63d80428733cc1016311034d5352e2a77ef9b1816f957",
+      "public_sha256": "f27c73a85972ed6a2df63d80428733cc1016311034d5352e2a77ef9b1816f957",
+      "bytes": 1242,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/02-oracle-replay.json",
+      "original_sha256": "7cbc9c5bd11b1cb02ca835dd7e48f6f2450db5ce665fbff203e286b48f99af14",
+      "public_sha256": "7cbc9c5bd11b1cb02ca835dd7e48f6f2450db5ce665fbff203e286b48f99af14",
+      "bytes": 1168,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/03-oracle-replay.json",
+      "original_sha256": "e4e5d08cbf55c2f28fcb54faf28fb641960e462c3dc9a3e33d78c5781b41ffbe",
+      "public_sha256": "e4e5d08cbf55c2f28fcb54faf28fb641960e462c3dc9a3e33d78c5781b41ffbe",
+      "bytes": 1047,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/04-oracle-replay.json",
+      "original_sha256": "9395998471c31384c11457f89c432982330cef7114a5eb21db826ef370f90bb0",
+      "public_sha256": "9395998471c31384c11457f89c432982330cef7114a5eb21db826ef370f90bb0",
+      "bytes": 507,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/05-oracle-replay.json",
+      "original_sha256": "20cfa84d356bce967c1cc22f665594a59ace11aa5608fd0e38f407399445b388",
+      "public_sha256": "20cfa84d356bce967c1cc22f665594a59ace11aa5608fd0e38f407399445b388",
+      "bytes": 882,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/06-oracle-replay.json",
+      "original_sha256": "f56f672c513c4fc062dbbeed5ec9a9f5acf94f24fc1596b7a745a0bc3d27e6f9",
+      "public_sha256": "f56f672c513c4fc062dbbeed5ec9a9f5acf94f24fc1596b7a745a0bc3d27e6f9",
+      "bytes": 505,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/07-oracle-replay.json",
+      "original_sha256": "b9734d957485c6e5f0cfdba82e7957f8f3eac7c0070b5af1eee67e1de8e74422",
+      "public_sha256": "b9734d957485c6e5f0cfdba82e7957f8f3eac7c0070b5af1eee67e1de8e74422",
+      "bytes": 946,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/08-oracle-replay.json",
+      "original_sha256": "4d826cb343c93e1889866208f84433e346f221f46f814e7f5e53513e662527f1",
+      "public_sha256": "4d826cb343c93e1889866208f84433e346f221f46f814e7f5e53513e662527f1",
+      "bytes": 778,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/09-oracle-replay.json",
+      "original_sha256": "2d33eb393f0acb4a342f4079a8aed9c65ed49c098928fc831b156567da1d32ab",
+      "public_sha256": "2d33eb393f0acb4a342f4079a8aed9c65ed49c098928fc831b156567da1d32ab",
+      "bytes": 1002,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/10-oracle-replay.json",
+      "original_sha256": "ffd32b54d981eac3673f10ffa3fff5032f730075709373d11ae0ec8f76b51df6",
+      "public_sha256": "ffd32b54d981eac3673f10ffa3fff5032f730075709373d11ae0ec8f76b51df6",
+      "bytes": 514,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/11-oracle-replay.json",
+      "original_sha256": "25ab7af2cee6e390cf542f8d624b1136d4bcc34e717ae99845256949177ab189",
+      "public_sha256": "25ab7af2cee6e390cf542f8d624b1136d4bcc34e717ae99845256949177ab189",
+      "bytes": 700,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/12-oracle-replay.json",
+      "original_sha256": "df6a9a21637ace4422af7630ac4340fd21edd8a85dfa5f169b0ea79f63da8618",
+      "public_sha256": "df6a9a21637ace4422af7630ac4340fd21edd8a85dfa5f169b0ea79f63da8618",
+      "bytes": 816,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/13-oracle-replay.json",
+      "original_sha256": "2d38f1811dfe5c5347407823a927a28a902c40b5e08ea4b3b50cc4c1493e08e2",
+      "public_sha256": "2d38f1811dfe5c5347407823a927a28a902c40b5e08ea4b3b50cc4c1493e08e2",
+      "bytes": 1006,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/14-oracle-replay.json",
+      "original_sha256": "eb6795a327547fc01713e085513e653c311c44dd6f962acdc941c7e9c6f8749b",
+      "public_sha256": "eb6795a327547fc01713e085513e653c311c44dd6f962acdc941c7e9c6f8749b",
+      "bytes": 1016,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/15-oracle-replay.json",
+      "original_sha256": "387929ac31aa08e776b9358a69f97e0cea63db32421978fd400ec767ce6b3505",
+      "public_sha256": "387929ac31aa08e776b9358a69f97e0cea63db32421978fd400ec767ce6b3505",
+      "bytes": 1035,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/16-oracle-replay.json",
+      "original_sha256": "5b266eb00a860f05f5f2b3ec213a8ad63a0138421ae7bee03ff6d0a47cedaad6",
+      "public_sha256": "5b266eb00a860f05f5f2b3ec213a8ad63a0138421ae7bee03ff6d0a47cedaad6",
+      "bytes": 1249,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/17-oracle-replay.json",
+      "original_sha256": "773f4f6761c7989e3eeb56d3fd8c57788671950d945238fcb34c88640341eefc",
+      "public_sha256": "773f4f6761c7989e3eeb56d3fd8c57788671950d945238fcb34c88640341eefc",
+      "bytes": 858,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/18-oracle-replay.json",
+      "original_sha256": "2356688645ecc52488535b4eba770d2f9871fe9b8a1b17dc7c0f6db7b43d5c40",
+      "public_sha256": "2356688645ecc52488535b4eba770d2f9871fe9b8a1b17dc7c0f6db7b43d5c40",
+      "bytes": 967,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/19-oracle-replay.json",
+      "original_sha256": "18815bccd8ae75f2c3b3a4bc267fef3fdebfc0ba53b9deeb24569f18b9debfb6",
+      "public_sha256": "18815bccd8ae75f2c3b3a4bc267fef3fdebfc0ba53b9deeb24569f18b9debfb6",
+      "bytes": 790,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/20-oracle-replay.json",
+      "original_sha256": "dec8e336cf15c7c90132abc792c237ec9525c6771a7e7e0c0bffde7f04c7cc2d",
+      "public_sha256": "dec8e336cf15c7c90132abc792c237ec9525c6771a7e7e0c0bffde7f04c7cc2d",
+      "bytes": 918,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/21-oracle-replay.json",
+      "original_sha256": "f39c4d33b32864f3eee17702848c70b5d8f19699852d32e80a77771e29eeba07",
+      "public_sha256": "f39c4d33b32864f3eee17702848c70b5d8f19699852d32e80a77771e29eeba07",
+      "bytes": 789,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/22-oracle-replay.json",
+      "original_sha256": "f2c5643bed35ae9742b2001f46df83634b5119b7a0fe3c2c9b985e0cd8e05483",
+      "public_sha256": "f2c5643bed35ae9742b2001f46df83634b5119b7a0fe3c2c9b985e0cd8e05483",
+      "bytes": 889,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/23-oracle-replay.json",
+      "original_sha256": "cddad13b87fbb85e32fa3ced607ed6c78e49c566180442eac95e7470870a92eb",
+      "public_sha256": "cddad13b87fbb85e32fa3ced607ed6c78e49c566180442eac95e7470870a92eb",
+      "bytes": 744,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/24-oracle-replay.json",
+      "original_sha256": "6ac717dc35a02d3e2811d637dd1d337bf0288fac5448507ee04333ae17884e7b",
+      "public_sha256": "6ac717dc35a02d3e2811d637dd1d337bf0288fac5448507ee04333ae17884e7b",
+      "bytes": 992,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/25-oracle-replay.json",
+      "original_sha256": "ee002875af412edfb65b2e4e66cd6e92911845084eb19f93fccbc54d94b493e9",
+      "public_sha256": "ee002875af412edfb65b2e4e66cd6e92911845084eb19f93fccbc54d94b493e9",
+      "bytes": 515,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/26-oracle-replay.json",
+      "original_sha256": "ddc88451d0ae1fb8138b5c4d18b2629bb5b329a8cfa5661eaa64c8d7494ba972",
+      "public_sha256": "ddc88451d0ae1fb8138b5c4d18b2629bb5b329a8cfa5661eaa64c8d7494ba972",
+      "bytes": 982,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/27-oracle-replay.json",
+      "original_sha256": "6f377e48bc72c734a96ddb6af70e1c94fc12d9e42140c6e6daf3c13aef4e573d",
+      "public_sha256": "6f377e48bc72c734a96ddb6af70e1c94fc12d9e42140c6e6daf3c13aef4e573d",
+      "bytes": 796,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/28-oracle-replay.json",
+      "original_sha256": "ef5e40855035a67232704d4c07e7fe3d894398dbde7f7468030a802104156303",
+      "public_sha256": "ef5e40855035a67232704d4c07e7fe3d894398dbde7f7468030a802104156303",
+      "bytes": 515,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/29-oracle-replay.json",
+      "original_sha256": "9218d9c85c560892060496f583cee19d02a3ad92c2e25c80d70164469d0232b0",
+      "public_sha256": "9218d9c85c560892060496f583cee19d02a3ad92c2e25c80d70164469d0232b0",
+      "bytes": 1052,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/30-oracle-replay.json",
+      "original_sha256": "0a033f12ead2cf9e32d007aa6476e01633291369ad49f7d88f2445030c98f944",
+      "public_sha256": "0a033f12ead2cf9e32d007aa6476e01633291369ad49f7d88f2445030c98f944",
+      "bytes": 889,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/31-oracle-replay.json",
+      "original_sha256": "48fcbefe1036e8bcd28d064cc08a1af4eba0e40296c006f1b5f6b94647ecf426",
+      "public_sha256": "48fcbefe1036e8bcd28d064cc08a1af4eba0e40296c006f1b5f6b94647ecf426",
+      "bytes": 1176,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/32-oracle-replay.json",
+      "original_sha256": "cdcfbe8b1c8abd56275df7b0a242723ac930f817a673ca3d9e76107c701cf3d5",
+      "public_sha256": "cdcfbe8b1c8abd56275df7b0a242723ac930f817a673ca3d9e76107c701cf3d5",
+      "bytes": 790,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/33-oracle-replay.json",
+      "original_sha256": "2213555b8fa44a273a8b203005a5f29fe9c97171dfb82851fd0695a2049effea",
+      "public_sha256": "2213555b8fa44a273a8b203005a5f29fe9c97171dfb82851fd0695a2049effea",
+      "bytes": 988,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/34-oracle-replay.json",
+      "original_sha256": "101888a8134a186981edff45e6febf2ae46eb4288186f6745261cc04026bfce9",
+      "public_sha256": "101888a8134a186981edff45e6febf2ae46eb4288186f6745261cc04026bfce9",
+      "bytes": 965,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/35-oracle-replay.json",
+      "original_sha256": "4011ef4e184a5a7d0daed1d316af4d6e70165ed29d9ad5abfcbff8c08a2877a7",
+      "public_sha256": "4011ef4e184a5a7d0daed1d316af4d6e70165ed29d9ad5abfcbff8c08a2877a7",
+      "bytes": 1248,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/36-oracle-replay.json",
+      "original_sha256": "2a4947f31a220346e879233d49c21fcefe478e3d536da18cfa58372232acc41e",
+      "public_sha256": "2a4947f31a220346e879233d49c21fcefe478e3d536da18cfa58372232acc41e",
+      "bytes": 1254,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/37-oracle-replay.json",
+      "original_sha256": "87020583ce94c8cbcdf5b29013001384c0966d644c8809b33a1dd39bef7defbc",
+      "public_sha256": "87020583ce94c8cbcdf5b29013001384c0966d644c8809b33a1dd39bef7defbc",
+      "bytes": 506,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/38-oracle-replay.json",
+      "original_sha256": "77311c691ad3ae2c25ba25b3a181af4319789c10d045de51fea374ed964abfe1",
+      "public_sha256": "77311c691ad3ae2c25ba25b3a181af4319789c10d045de51fea374ed964abfe1",
+      "bytes": 505,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/39-oracle-replay.json",
+      "original_sha256": "35977af6c58a180b2e9187af493828dced254e1a827ec6f824fecd9797701b3f",
+      "public_sha256": "35977af6c58a180b2e9187af493828dced254e1a827ec6f824fecd9797701b3f",
+      "bytes": 514,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/PRE-UNSEAL-AUDIT.md",
+      "original_sha256": "2e93c3091db8843a4d95e9d63b49e2183726eded084d6e6dea5e4ee000e0f293",
+      "public_sha256": "2e93c3091db8843a4d95e9d63b49e2183726eded084d6e6dea5e4ee000e0f293",
+      "bytes": 2216,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/audit-output-sha256.json",
+      "original_sha256": "0649b585ff7a69e66ab45736f7c0b70500558f60b8266e03fe88ab7cf3960d40",
+      "public_sha256": "0649b585ff7a69e66ab45736f7c0b70500558f60b8266e03fe88ab7cf3960d40",
+      "bytes": 3983,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/audit-receipt.json",
+      "original_sha256": "fc172f3abd67c2f327ce92b7c1966b52de0c89d19578c6ab864e8e04f89ab072",
+      "public_sha256": "fc172f3abd67c2f327ce92b7c1966b52de0c89d19578c6ab864e8e04f89ab072",
+      "bytes": 18277,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/audit_public.py",
+      "original_sha256": "2f495b75382157af913140e9aaccfff04bed119497b5cbd1ba9e611785bbfdf8",
+      "public_sha256": "2f495b75382157af913140e9aaccfff04bed119497b5cbd1ba9e611785bbfdf8",
+      "bytes": 7922,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-audit/capped_recheck_wrapper.py",
+      "original_sha256": "c6e12c11dac69624bd54ddd7b7d4d0bf815c1700a1815de19fd18a6e5c55584d",
+      "public_sha256": "c6e12c11dac69624bd54ddd7b7d4d0bf815c1700a1815de19fd18a6e5c55584d",
+      "bytes": 1689,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/00-oracle-replay.json",
+      "original_sha256": "5fd7edb8ecdfe7a95924d363ea20ca7938acf26f84044a24cba5f848b8cbb65d",
+      "public_sha256": "5fd7edb8ecdfe7a95924d363ea20ca7938acf26f84044a24cba5f848b8cbb65d",
+      "bytes": 917,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/01-oracle-replay.json",
+      "original_sha256": "d852960fa387969a13647decb0c2d4c1ab64632391cb9e31759b64263b223fe2",
+      "public_sha256": "d852960fa387969a13647decb0c2d4c1ab64632391cb9e31759b64263b223fe2",
+      "bytes": 1242,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/02-oracle-replay.json",
+      "original_sha256": "6e3be11c86180e546e31eb8d6855851cc1a95f3871710cf043cddd53e67f9e26",
+      "public_sha256": "6e3be11c86180e546e31eb8d6855851cc1a95f3871710cf043cddd53e67f9e26",
+      "bytes": 1176,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/03-oracle-replay.json",
+      "original_sha256": "10ea4c3658186de2a1a8acb7d08440a5b07bac1d4612f5f80a2953c6ec9c3389",
+      "public_sha256": "10ea4c3658186de2a1a8acb7d08440a5b07bac1d4612f5f80a2953c6ec9c3389",
+      "bytes": 1047,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/04-oracle-replay.json",
+      "original_sha256": "6f26dbe9a9f7dd3d75790349717a260807e6fc436945937191f76ea1f9d88272",
+      "public_sha256": "6f26dbe9a9f7dd3d75790349717a260807e6fc436945937191f76ea1f9d88272",
+      "bytes": 515,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/05-oracle-replay.json",
+      "original_sha256": "292eb5302cd7deaba6e4ec7397dd5c44fa07729369add6a7d4e721f6da956675",
+      "public_sha256": "292eb5302cd7deaba6e4ec7397dd5c44fa07729369add6a7d4e721f6da956675",
+      "bytes": 882,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/06-oracle-replay.json",
+      "original_sha256": "9d6ac9b6a0e63a592a4eba328aecfeed2e9125daa4ced42dfd46081f965b2840",
+      "public_sha256": "9d6ac9b6a0e63a592a4eba328aecfeed2e9125daa4ced42dfd46081f965b2840",
+      "bytes": 515,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/07-oracle-replay.json",
+      "original_sha256": "7501946e57ed0e112e4a4c553bbcbe15e3cf01adb8cb0685f16efbea64caf6e7",
+      "public_sha256": "7501946e57ed0e112e4a4c553bbcbe15e3cf01adb8cb0685f16efbea64caf6e7",
+      "bytes": 944,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/08-oracle-replay.json",
+      "original_sha256": "5a1d8f1e66ef0d7b567bbdcd03d949ea327c7a943599736731116441658f1e6c",
+      "public_sha256": "5a1d8f1e66ef0d7b567bbdcd03d949ea327c7a943599736731116441658f1e6c",
+      "bytes": 771,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/09-oracle-replay.json",
+      "original_sha256": "0c5ce09b420b5c68630f3d1e0e1b4c8b039e7d0ae4543fdfe23669cdf7e32c75",
+      "public_sha256": "0c5ce09b420b5c68630f3d1e0e1b4c8b039e7d0ae4543fdfe23669cdf7e32c75",
+      "bytes": 995,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/10-oracle-replay.json",
+      "original_sha256": "23b6d75f10ed9c035cc0715e1b5ffd3a7e3d3f5c55b676597730c0205603a40a",
+      "public_sha256": "23b6d75f10ed9c035cc0715e1b5ffd3a7e3d3f5c55b676597730c0205603a40a",
+      "bytes": 507,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/11-oracle-replay.json",
+      "original_sha256": "e89a130bd5ba049405a7abd1e75aa533290c8298500b11bb1a961f4837726502",
+      "public_sha256": "e89a130bd5ba049405a7abd1e75aa533290c8298500b11bb1a961f4837726502",
+      "bytes": 701,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/12-oracle-replay.json",
+      "original_sha256": "a80b8ea89d9f2e93a7d2f11888d7849b8e139b65c543d8e797d306ba1c604604",
+      "public_sha256": "a80b8ea89d9f2e93a7d2f11888d7849b8e139b65c543d8e797d306ba1c604604",
+      "bytes": 809,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/13-oracle-replay.json",
+      "original_sha256": "95ea4d4c5452f82efdce73881ecbfb1ab1aeb53a9e720a5a21707d0cf8e0037f",
+      "public_sha256": "95ea4d4c5452f82efdce73881ecbfb1ab1aeb53a9e720a5a21707d0cf8e0037f",
+      "bytes": 997,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/14-oracle-replay.json",
+      "original_sha256": "8107bbdb82cc8ca0adbac045b73433de7e17ea21c6ab1ad3757c6d104d5ace97",
+      "public_sha256": "8107bbdb82cc8ca0adbac045b73433de7e17ea21c6ab1ad3757c6d104d5ace97",
+      "bytes": 1016,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/15-oracle-replay.json",
+      "original_sha256": "00f4acf2fc1efa4eb219084f1a024844b007b066cd5be6bcd2476a68d94975a3",
+      "public_sha256": "00f4acf2fc1efa4eb219084f1a024844b007b066cd5be6bcd2476a68d94975a3",
+      "bytes": 1044,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/16-oracle-replay.json",
+      "original_sha256": "32f2e9f8443cd54b7687787c0ba84ce351fb2981dc7cab8370f708ca71066c62",
+      "public_sha256": "32f2e9f8443cd54b7687787c0ba84ce351fb2981dc7cab8370f708ca71066c62",
+      "bytes": 1243,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/17-oracle-replay.json",
+      "original_sha256": "f6e2e9c50c890578ece9c7df522bec2e867256b1e8632eb758c3c7284d719e1a",
+      "public_sha256": "f6e2e9c50c890578ece9c7df522bec2e867256b1e8632eb758c3c7284d719e1a",
+      "bytes": 858,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/18-oracle-replay.json",
+      "original_sha256": "c29033066706bce86029483eac4267ea925e0287de70ab4a6251396022f9fce4",
+      "public_sha256": "c29033066706bce86029483eac4267ea925e0287de70ab4a6251396022f9fce4",
+      "bytes": 967,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/19-oracle-replay.json",
+      "original_sha256": "d544ab39d357680ce59617520456a94fd5457bb7dfa176abddc1984e2de3f15a",
+      "public_sha256": "d544ab39d357680ce59617520456a94fd5457bb7dfa176abddc1984e2de3f15a",
+      "bytes": 790,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/20-oracle-replay.json",
+      "original_sha256": "34220862f4f36c8e8936c5ee68c51660c3d0edc4c676dd4bd4979d26af5cd435",
+      "public_sha256": "34220862f4f36c8e8936c5ee68c51660c3d0edc4c676dd4bd4979d26af5cd435",
+      "bytes": 917,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/21-oracle-replay.json",
+      "original_sha256": "199f1a74ff2e12839c27c86588f1ad8a995df7788997022c9a76b4bbd225df1c",
+      "public_sha256": "199f1a74ff2e12839c27c86588f1ad8a995df7788997022c9a76b4bbd225df1c",
+      "bytes": 796,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/22-oracle-replay.json",
+      "original_sha256": "ae925b34f641a8882f3cd3fe07afbc4a18fb15675dd8cc3e58cb47803d63d2d3",
+      "public_sha256": "ae925b34f641a8882f3cd3fe07afbc4a18fb15675dd8cc3e58cb47803d63d2d3",
+      "bytes": 883,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/23-oracle-replay.json",
+      "original_sha256": "74a47174bd51106807ad2a41b7f9aa3d98293e49d1ff9ed53fb5e84687032e09",
+      "public_sha256": "74a47174bd51106807ad2a41b7f9aa3d98293e49d1ff9ed53fb5e84687032e09",
+      "bytes": 750,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/24-oracle-replay.json",
+      "original_sha256": "d861c6b94b891dced4b7f96def963ab8c7dcb5cd2083f346162d939ee55e6340",
+      "public_sha256": "d861c6b94b891dced4b7f96def963ab8c7dcb5cd2083f346162d939ee55e6340",
+      "bytes": 993,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/25-oracle-replay.json",
+      "original_sha256": "202ac0dac219b4c760803a8c1c5804d3d0978c29b13a7242694fc9c7c9009f40",
+      "public_sha256": "202ac0dac219b4c760803a8c1c5804d3d0978c29b13a7242694fc9c7c9009f40",
+      "bytes": 514,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/26-oracle-replay.json",
+      "original_sha256": "60e7d84553aed3e3aed6ef50974301b6d4a7090e9ab1d108c3dbf72066558d0c",
+      "public_sha256": "60e7d84553aed3e3aed6ef50974301b6d4a7090e9ab1d108c3dbf72066558d0c",
+      "bytes": 982,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/27-oracle-replay.json",
+      "original_sha256": "4f86984f95bca4237215de4d4b1cd6c3888b425756fa370140da888c2e2ab72d",
+      "public_sha256": "4f86984f95bca4237215de4d4b1cd6c3888b425756fa370140da888c2e2ab72d",
+      "bytes": 797,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/28-oracle-replay.json",
+      "original_sha256": "46790f4b8d493dec28598c6e20ea7b8f8b31ca76b8d028ad4b80230138d4b5ee",
+      "public_sha256": "46790f4b8d493dec28598c6e20ea7b8f8b31ca76b8d028ad4b80230138d4b5ee",
+      "bytes": 506,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/29-oracle-replay.json",
+      "original_sha256": "5fabdb9495175eeec3335fda39b144a87f8e989520ae5e02125bb18b84c28593",
+      "public_sha256": "5fabdb9495175eeec3335fda39b144a87f8e989520ae5e02125bb18b84c28593",
+      "bytes": 1045,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/30-oracle-replay.json",
+      "original_sha256": "828d42407901feddf7a6d21c09a7b7c3ffac2558d074ebcd73b3844123049524",
+      "public_sha256": "828d42407901feddf7a6d21c09a7b7c3ffac2558d074ebcd73b3844123049524",
+      "bytes": 881,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/31-oracle-replay.json",
+      "original_sha256": "916496f8f96c00bb66872bd7bed02b44321491e2227ad6fe6e64749cc39d615e",
+      "public_sha256": "916496f8f96c00bb66872bd7bed02b44321491e2227ad6fe6e64749cc39d615e",
+      "bytes": 1169,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/32-oracle-replay.json",
+      "original_sha256": "d140cd9dbf45086fbf1862193cffbb57d3578cd6766de0f01dc2f29df9ad5273",
+      "public_sha256": "d140cd9dbf45086fbf1862193cffbb57d3578cd6766de0f01dc2f29df9ad5273",
+      "bytes": 791,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/33-oracle-replay.json",
+      "original_sha256": "f01e1f4892e7f5a12906639273dc1b81e6601925f8d6a5f16b1b9ad94cf609fa",
+      "public_sha256": "f01e1f4892e7f5a12906639273dc1b81e6601925f8d6a5f16b1b9ad94cf609fa",
+      "bytes": 988,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/34-oracle-replay.json",
+      "original_sha256": "dc1e9759c33d9105a4c870e5a1704c561900f6d857ca75daafef5a6f17994727",
+      "public_sha256": "dc1e9759c33d9105a4c870e5a1704c561900f6d857ca75daafef5a6f17994727",
+      "bytes": 957,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/35-oracle-replay.json",
+      "original_sha256": "51e33db0813ee4c9244973ad4e59e3b550f379f86e5dcc503266534515f8c77a",
+      "public_sha256": "51e33db0813ee4c9244973ad4e59e3b550f379f86e5dcc503266534515f8c77a",
+      "bytes": 1248,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/36-oracle-replay.json",
+      "original_sha256": "49bb20df48cfa4c8570d35292d72c89e74732c3aff6fc588fb2a4b1171e4b20f",
+      "public_sha256": "49bb20df48cfa4c8570d35292d72c89e74732c3aff6fc588fb2a4b1171e4b20f",
+      "bytes": 1248,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/37-oracle-replay.json",
+      "original_sha256": "57c5a0026dbf9aeb7a6416899b05127535f3cecce6d7ad62334cbc98ad255da7",
+      "public_sha256": "57c5a0026dbf9aeb7a6416899b05127535f3cecce6d7ad62334cbc98ad255da7",
+      "bytes": 506,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/38-oracle-replay.json",
+      "original_sha256": "56bea0a8a9418cd0945f0aabf1b0c944d6772f6690e465f78bb9e52ab3a46e24",
+      "public_sha256": "56bea0a8a9418cd0945f0aabf1b0c944d6772f6690e465f78bb9e52ab3a46e24",
+      "bytes": 515,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/39-oracle-replay.json",
+      "original_sha256": "b6d80c37021641bd1195776d54c44dbf8790696de3815be9e38915defa881ac1",
+      "public_sha256": "b6d80c37021641bd1195776d54c44dbf8790696de3815be9e38915defa881ac1",
+      "bytes": 505,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/audit-output-sha256.json",
+      "original_sha256": "e35fd74c7751c6568158e1d444829a0905d1fa4f721f9fee90887ecef6b4339e",
+      "public_sha256": "e35fd74c7751c6568158e1d444829a0905d1fa4f721f9fee90887ecef6b4339e",
+      "bytes": 3894,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/audit-receipt.json",
+      "original_sha256": "b00e3cf08d9aeb4e086675edac425e11c496f1170e45c1f85419f37d73b62857",
+      "public_sha256": "b00e3cf08d9aeb4e086675edac425e11c496f1170e45c1f85419f37d73b62857",
+      "bytes": 18260,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-capped-recheck/wrapper-receipt.json",
+      "original_sha256": "659bb044e9b739955f378a104e9aa4317ff2924c2fb79cc6c258f1f8aaba78c8",
+      "public_sha256": "659bb044e9b739955f378a104e9aa4317ff2924c2fb79cc6c258f1f8aaba78c8",
+      "bytes": 580,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "k4-function-quotient-audit/REPORT.md",
+      "original_sha256": "e16d160d7267ae58d12886cca02a40e718dbb0f889a482d49578f05eb97dae1d",
+      "public_sha256": "9803f6c596d2201cb35364487fc12a78fa542e7c949c191be1bd2c13bab4321d",
+      "bytes": 10800,
+      "byte_identical": false,
+      "reason": "Remove private account-page/internal coordination prose and make prose execution paths archive-relative; numerical and mathematical statements retained; Explicit future-design-only label"
+    },
+    {
+      "path": "k4-function-quotient-audit/SHA256SUMS",
+      "original_sha256": "95bfa9c06724709fdeedceb123c7e08fa35b7322479d90a4904d7544d9b082d7",
+      "public_sha256": "95bfa9c06724709fdeedceb123c7e08fa35b7322479d90a4904d7544d9b082d7",
+      "bytes": 369,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "k4-function-quotient-audit/validation.json",
+      "original_sha256": "a691bc6dea078a8d6998c23f0c7384f564f45171546d256f5b363d2c0ca03a15",
+      "public_sha256": "a691bc6dea078a8d6998c23f0c7384f564f45171546d256f5b363d2c0ca03a15",
+      "bytes": 6219,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "k4-function-quotient-audit/verify.py",
+      "original_sha256": "008859ce87758e9d72e2689d0f21bfba9eb8605464e2290ce6f0842d29717dcc",
+      "public_sha256": "008859ce87758e9d72e2689d0f21bfba9eb8605464e2290ce6f0842d29717dcc",
+      "bytes": 2287,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "k4-parity-first-v2-design/REPORT.md",
+      "original_sha256": "b6047e3c0c3cef254954f212bb0be847a6e78b8c8b561ff2fdcdf4c986903fa4",
+      "public_sha256": "2c1b93c640a3ca21d4a124f09008697accc192353f6d2ba0972147e4f4fb2b68",
+      "bytes": 17406,
+      "byte_identical": false,
+      "reason": "Remove private account-page/internal coordination prose and make prose execution paths archive-relative; numerical and mathematical statements retained; Explicit future-design-only label"
+    },
+    {
+      "path": "k4-parity-first-v2-design/SHA256SUMS",
+      "original_sha256": "d4c4bfd54cd051c25f333ae8db3efe15282848a5dae82ddd5b2dcb85fb022e62",
+      "public_sha256": "d4c4bfd54cd051c25f333ae8db3efe15282848a5dae82ddd5b2dcb85fb022e62",
+      "bytes": 234,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "k4-parity-first-v2-design/validation.json",
+      "original_sha256": "48def9a9e59a069c45d1109ad880b6aa46354e2c33ea8710639dc017b72dddcf",
+      "public_sha256": "48def9a9e59a069c45d1109ad880b6aa46354e2c33ea8710639dc017b72dddcf",
+      "bytes": 836,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "k4-parity-first-v2-design/verify.py",
+      "original_sha256": "da0ddcf2c9f5a205d76782924ca45a4db8d2fb6699dce4edcf27213b8195aaa0",
+      "public_sha256": "da0ddcf2c9f5a205d76782924ca45a4db8d2fb6699dce4edcf27213b8195aaa0",
+      "bytes": 2981,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt artifact"
+    },
+    {
+      "path": "sparse-law-blind40-evaluate.py",
+      "original_sha256": "21d7e03044c03ff86cb574a93d3ff73897bd2daec4aa67bc99de7291320bb21a",
+      "public_sha256": "21d7e03044c03ff86cb574a93d3ff73897bd2daec4aa67bc99de7291320bb21a",
+      "bytes": 2757,
+      "byte_identical": true,
+      "reason": "Unchanged released evaluator source"
+    }
+  ],
+  "omitted": [
+    {
+      "source_artifact": "sparse-law-pilot/PUBLICATION-HANDOFF.md",
+      "original_sha256": "20419538a3ebf47e852660563eeb0fdb3786fae8741472ba5a2a557ed805d41a",
+      "reason": "Private publication/coordination handoff; not computational evidence"
+    },
+    {
+      "source_artifact": "sparse-law-blind40/CLOSEOUT-HANDOFF.md",
+      "original_sha256": "3d77d20f1e14bcdaa18d090cf40d96d7e267503e90854e4e94e4ff8943df2565",
+      "reason": "Private publication/coordination handoff; not computational evidence"
+    }
+  ],
+  "limits": "Original manifests/seals preserve original hashes, including omitted or sanitized prose. Verify public distribution bytes with this map; original manifests are not rewritten. Generic original execution paths retained in code/receipts are environment provenance, not private account information. No photographs or third-party source bodies are bundled."
+}

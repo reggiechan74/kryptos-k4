@@ -2410,3 +2410,25 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Publication status: Scientific execution and independent audit complete; artifacts published.
 
 Related files: [research/candidate-first-064/README.md](../../research/candidate-first-064/README.md), [research/candidate-first-064/RESOURCE-LEDGER.json](../../research/candidate-first-064/RESOURCE-LEDGER.json).
+
+## LOG-E2D9CA2B06
+
+**METHOD-SPARSE-LAW-001 — synthetic sparse modular-law inference pilot**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (opening prose; not a run timestamp)
+
+Type: static data validation. Outcome: Synthetic conditional prediction validated; misspecification failures retained; no join speedup or target admission
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**31 October 2026 — synthetic-only method study, not a numbered cipher hypothesis.** [Readable result and reproducibility evidence](../../research/method-pilots/sparse-law-v1/README.md). No K4 ciphertext or crib letters were used; all 68 family records remain unchanged.
+
+The frozen 31-feature, at-most-three-coefficient model covers positions 6–96: 91 modeled positions, 24 observations and 67 unknowns; the first six positions are excluded. All 40 exact marginal-projection comparisons agreed; independent replay and full factorized-relation verification passed. Among 28 in-family cases, 1510/1876 unknown positions were conditionally forced (dense baseline 219), with no false forced values; 12/28 recovered all 67 unknown modeled values. Four misspecified observational twins each induced one wrong conditional prediction: compatibility does not certify model membership. Twelve plain expansions retained their declared caps as incomplete outcomes.
+
+The oracle was faster in 33/40 recorded workloads (49.321724 CPU seconds versus join 66.553951). The join additionally serialized a factorized relation; the reference primarily delivered exact marginals/witnesses. These are observed end-to-end workloads, not an identical-output or universal algorithm ranking. No join speedup is demonstrated; retain the oracle for the needed projection task.
+
+The original independent audit parent lacked resource caps and peak-RSS instrumentation; its original receipt remains intact. An unchanged, externally capped post-label-release repeat passed at 125.239946 inclusive CPU seconds and 120436 KiB peak RSS. It is not new blind evidence and does not repair the original missing measurement retrospectively. Conservative charge: 600 CPU seconds. [Results](../../research/method-pilots/sparse-law-v1/RESULTS.md) preserve the full execution history.
+
+**Method lesson / next decision:** distinguish coefficient, global-function and instance-trace equivalence; enforce identical primary output contracts in a separately frozen future comparison. The quotient and parity-first documents are design/toy-proof evidence only, not v2 performance or K4 results. Any later implementation needs fresh independent controls. This is a model-specific application/combination of standard foundations, not a demonstrated global invention; no separate repository or target admission follows. Public prose redactions and original/public hashes are explicit; computational artifacts remain unchanged.
+
+Related files: [research/method-pilots/sparse-law-v1/README.md](../../research/method-pilots/sparse-law-v1/README.md), [research/method-pilots/sparse-law-v1/RESULTS.md](../../research/method-pilots/sparse-law-v1/RESULTS.md).
