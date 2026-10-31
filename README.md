@@ -18,6 +18,8 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 
 The [finite 71-hit external review](research/finite-prior-art-20261031/README.md) now accounts for duplicates, tools and unsupported claims alongside implemented models; it admits no new cipher run.
 
+Read the [method-pilot studies](research/method-pilots/README.md), including [filtered-affine residual projections](research/method-pilots/filtered-affine-v1/README.md): generic theory and synthetic methods, not K4 recovery.
+
 ## Start here
 
 | If you want to… | Read |

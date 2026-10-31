@@ -1,0 +1,266 @@
+{
+  "source_scope_original_freeze_sha256": "bb497f4a1e84109128f6f2b0f5ff4827b0d40746555664faa32d855e77c8f865",
+  "files": [
+    {
+      "path": "filtered-affine-projection/REPORT.md",
+      "original_sha256": "16e2b8a46691621f3e72a49465cdc38b23ef73e180d00e2cd5f2cafaeee388a8",
+      "public_sha256": "b21fa0661eb6b59d4ad58965a0d56819b0e397cab4bd3c6055dbe207ec1a4e6f",
+      "bytes": 17397,
+      "byte_identical": false,
+      "reason": "Public prose removes internal account/coordination references, makes paths archive-relative, and labels historical stage; numerical/mathematical claims preserved"
+    },
+    {
+      "path": "filtered-affine-projection/resources.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-projection/validation.json",
+      "original_sha256": "20c735232ef01be28cbaa07b3444f2a91746f3b0bf2af045df07e0274bdfbd27",
+      "public_sha256": "20c735232ef01be28cbaa07b3444f2a91746f3b0bf2af045df07e0274bdfbd27",
+      "bytes": 1393,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-projection/verify.py",
+      "original_sha256": "290f59c38d6f31669c49dfbb31ec7d1ef97ef9b76cdac2d3f36e83ff8d84f78a",
+      "public_sha256": "290f59c38d6f31669c49dfbb31ec7d1ef97ef9b76cdac2d3f36e83ff8d84f78a",
+      "bytes": 6877,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-projection-independent-review/REVIEW.md",
+      "original_sha256": "aebe55e1212bd49c624a5a223418ffa74e9494836b4e57930979989ed6242d9c",
+      "public_sha256": "f7f404152c23dc26f78a1e96dc29525b7fb1fff78d2360f1a882298e40daf48b",
+      "bytes": 10580,
+      "byte_identical": false,
+      "reason": "Public prose removes internal account/coordination references, makes paths archive-relative, and labels historical stage; numerical/mathematical claims preserved"
+    },
+    {
+      "path": "filtered-affine-projection-independent-review/independent_validate.py",
+      "original_sha256": "29add35ebce2ce09d8f4945a08088a4d22743844b7f2c7f940bdaf5f3496adde",
+      "public_sha256": "29add35ebce2ce09d8f4945a08088a4d22743844b7f2c7f940bdaf5f3496adde",
+      "bytes": 6463,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-projection-independent-review/result.json",
+      "original_sha256": "024863a1a971de74d1fc0ee01de58b2f78d38ba1012340d168aaac481023b7c2",
+      "public_sha256": "024863a1a971de74d1fc0ee01de58b2f78d38ba1012340d168aaac481023b7c2",
+      "bytes": 1034,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-hardened/README.md",
+      "original_sha256": "eccced031bda3698e84805231a8cf487418b38b7ffdd596c6a71a6c0722b20c9",
+      "public_sha256": "ba413167c20e3150d1af4cd9e5fea9fd6a8a457a6efe1bb9b4d2cbdadd796bfa",
+      "bytes": 6690,
+      "byte_identical": false,
+      "reason": "Public prose removes internal account/coordination references, makes paths archive-relative, and labels historical stage; numerical/mathematical claims preserved"
+    },
+    {
+      "path": "filtered-affine-hardened/SHA256SUMS",
+      "original_sha256": "0bf71e75d6cf32a67a2c0c91502b23b5df4c5f1f0a1d31a87ff2f15694b3ffcb",
+      "public_sha256": "0bf71e75d6cf32a67a2c0c91502b23b5df4c5f1f0a1d31a87ff2f15694b3ffcb",
+      "bytes": 421,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-hardened/affine_filter.py",
+      "original_sha256": "1e19e9ad872d517487cfe7968a9f4b906756007d5e710be216807620f078c90d",
+      "public_sha256": "1e19e9ad872d517487cfe7968a9f4b906756007d5e710be216807620f078c90d",
+      "bytes": 12582,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-hardened/test_affine_filter.py",
+      "original_sha256": "9bb39ff04f0c8e204bf4a292d32a797d17f04afa18e48028d7565d0ac32c48e5",
+      "public_sha256": "9bb39ff04f0c8e204bf4a292d32a797d17f04afa18e48028d7565d0ac32c48e5",
+      "bytes": 4647,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-hardened/validation-optimized.json",
+      "original_sha256": "2551c082c8dde5576ba2cb053e914c6e105ff0dd01d822f0fc67a2cc961a8ecd",
+      "public_sha256": "2551c082c8dde5576ba2cb053e914c6e105ff0dd01d822f0fc67a2cc961a8ecd",
+      "bytes": 293,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-hardened/validation.json",
+      "original_sha256": "e0047f6289e90688cc75cd72bdc73fb77bcd5931f5f0ae5f2b0f63d11f886da5",
+      "public_sha256": "e0047f6289e90688cc75cd72bdc73fb77bcd5931f5f0ae5f2b0f63d11f886da5",
+      "bytes": 294,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-hardened-independent-review/REVIEW.md",
+      "original_sha256": "4ecdd85eae5b2bfcb92839b8d149e4b7e88f7824ba99ebdc153538e73560e39b",
+      "public_sha256": "02b6bcaafdb6ec568cd55a92f873388871c3eee84b6c1743ca9c467b83f3e473",
+      "bytes": 10303,
+      "byte_identical": false,
+      "reason": "Public prose removes internal account/coordination references, makes paths archive-relative, and labels historical stage; numerical/mathematical claims preserved"
+    },
+    {
+      "path": "filtered-affine-hardened-independent-review/audit.py",
+      "original_sha256": "9fb5c6246cad6897def26e0bf7c563dc3ecc3934cecf085aed3f2f069953b17e",
+      "public_sha256": "9fb5c6246cad6897def26e0bf7c563dc3ecc3934cecf085aed3f2f069953b17e",
+      "bytes": 13502,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-hardened-independent-review/result-optimized.json",
+      "original_sha256": "1df222fa57ea724573eed79c384ac2604090bc0f7f694e250a8ebe2d32af36f0",
+      "public_sha256": "1df222fa57ea724573eed79c384ac2604090bc0f7f694e250a8ebe2d32af36f0",
+      "bytes": 776,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "filtered-affine-hardened-independent-review/result.json",
+      "original_sha256": "6cdf8146beea72e20955256ca520dc34a1031a1724c8ea6499c02d0744cd8e03",
+      "public_sha256": "6cdf8146beea72e20955256ca520dc34a1031a1724c8ea6499c02d0744cd8e03",
+      "bytes": 777,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/CLARIFICATIONS.md",
+      "original_sha256": "02e990ec8ddba6c235c28fc15ba84ff1b71891938896ddd8ba22feb13eea0c61",
+      "public_sha256": "ea261cdb87cf6dfd4f6455b329f7e076db937b5d4b2a4bed98cf8f92ebe44cc6",
+      "bytes": 1877,
+      "byte_identical": false,
+      "reason": "Public prose removes internal account/coordination references, makes paths archive-relative, and labels historical stage; numerical/mathematical claims preserved"
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/DECISION-STATUS.md",
+      "original_sha256": "a493ce98707fa49cde9df07a8b4ab42f0a580e212c377a269e0ec10bbaa3370b",
+      "public_sha256": "762a1111815c718a4433fcf8cc51369ec998f67739761f771ebe4a809887c4f4",
+      "bytes": 3446,
+      "byte_identical": false,
+      "reason": "Public prose removes internal account/coordination references, makes paths archive-relative, and labels historical stage; numerical/mathematical claims preserved"
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/E167-R6-SUPPLEMENT.md",
+      "original_sha256": "14c55787df001fe133d1b23053790057655c4982450e5946dc69dca067442efc",
+      "public_sha256": "1b0aa5bf4665f0e45cbf5a4e25792333c19be79b4afb763f6573b35cc86d34e8",
+      "bytes": 1636,
+      "byte_identical": false,
+      "reason": "Public prose removes internal account/coordination references, makes paths archive-relative, and labels historical stage; numerical/mathematical claims preserved"
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/FREEZE.json",
+      "original_sha256": "bb497f4a1e84109128f6f2b0f5ff4827b0d40746555664faa32d855e77c8f865",
+      "public_sha256": "bb497f4a1e84109128f6f2b0f5ff4827b0d40746555664faa32d855e77c8f865",
+      "bytes": 3986,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/INDEPENDENT-OPERATOR-AUDIT.md",
+      "original_sha256": "5cf29ef71e608af18456cbd901479077823c13c566f6831c4329ff2a49141634",
+      "public_sha256": "7c115e1b50c2342f39d48c6f7c7ec358b9348489ca846b643bb30b51056dbc9e",
+      "bytes": 16581,
+      "byte_identical": false,
+      "reason": "Public prose removes internal account/coordination references, makes paths archive-relative, and labels historical stage; numerical/mathematical claims preserved"
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/INDEPENDENT-SCOTT-ALPHABET-CHECK.json",
+      "original_sha256": "e73b654070f91ec59bbffefecf36fdd032cccd2ca6664a447a172bd20d9b1aad",
+      "public_sha256": "e73b654070f91ec59bbffefecf36fdd032cccd2ca6664a447a172bd20d9b1aad",
+      "bytes": 337,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/OPERATOR-MAP.md",
+      "original_sha256": "71ebdde4e31041d2e83aab4235e768445badc9a94d905e5edc4feb952b4305ea",
+      "public_sha256": "998d97ff6b0114e4a07588a5e8f657bfb13879df577f11cd619bc9f106677e55",
+      "bytes": 18580,
+      "byte_identical": false,
+      "reason": "Public prose removes internal account/coordination references, makes paths archive-relative, and labels historical stage; numerical/mathematical claims preserved"
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/SCOTT-ALPHABET-DOMAIN.json",
+      "original_sha256": "51c98d4e57d135e43f7e08e768e63de61d4ee713d25faedb5a4f033e4656aa9b",
+      "public_sha256": "eb8f04f793203e49afe44c1fee81ae1739fb29aba9dd66771bac8f795cf12ee3",
+      "bytes": 659,
+      "byte_identical": false,
+      "reason": "Metadata-only absolute workspace prefix removed; source URLs, pins and numeric evidence unchanged"
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/SOURCE-MANIFEST.json",
+      "original_sha256": "c03ea2de2ccdf82ef3fb12cd20518e21b5bd43c954e8094944d663b06a3530e5",
+      "public_sha256": "3a9745acd4a6a62905924fe86a9ff76f2436001819b56172ffe93abf19fff8cb",
+      "bytes": 2903,
+      "byte_identical": false,
+      "reason": "Metadata-only absolute workspace prefix removed; source URLs, pins and numeric evidence unchanged"
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/check_scott_alphabet_domain.py",
+      "original_sha256": "6e6322693ee8f48ac2c227d045fd71943b53c3561ed731c71cf26c260da40d20",
+      "public_sha256": "6e6322693ee8f48ac2c227d045fd71943b53c3561ed731c71cf26c260da40d20",
+      "bytes": 1535,
+      "byte_identical": true,
+      "reason": "Unchanged computational/data/receipt or historical manifest bytes"
+    }
+  ],
+  "omitted": [
+    {
+      "path": "k4-sparse-prior-scope-20261031/private-sources/k4lib.py",
+      "sha256": "ade9c077a87840279c24bf6160f1340d90331d04ee69142fb62153fbb958fc66",
+      "bytes": 2301,
+      "reason": "Third-party cached source/log body omitted: redistribution license not established; pinned source URLs and hashes retained."
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/private-sources/notes__05_stage_framework.md",
+      "sha256": "0a55418df735cde4e6aa86f74d65b7ef572943138fc3988a1c676c734a60af04",
+      "bytes": 15865,
+      "reason": "Third-party cached source/log body omitted: redistribution license not established; pinned source URLs and hashes retained."
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/private-sources/novel__linkey.py",
+      "sha256": "a240d99c334a57cb3e35fc3199160118ce7240986e004c5c8a5924f9ba8692d1",
+      "bytes": 2781,
+      "reason": "Third-party cached source/log body omitted: redistribution license not established; pinned source URLs and hashes retained."
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/private-sources/results__novel_chain.log",
+      "sha256": "c6cc4f0994e052c5b413722b702662e16a71bbf4a16d3afd858f4ef849cfc26a",
+      "bytes": 1410,
+      "reason": "Third-party cached source/log body omitted: redistribution license not established; pinned source URLs and hashes retained."
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/private-sources/src__e167_stage.cu",
+      "sha256": "89998476ada0df15c3873cd76800c9baab14a9e5b2908e2d8722dcd2d33d130a",
+      "bytes": 58736,
+      "reason": "Third-party cached source/log body omitted: redistribution license not established; pinned source URLs and hashes retained."
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/private-sources/src__e167c_twokey.cu",
+      "sha256": "975c5db92515ada0781b3cb89d0638dd59cbf28fa8dc8c59b4489deadf01502a",
+      "bytes": 9636,
+      "reason": "Third-party cached source/log body omitted: redistribution license not established; pinned source URLs and hashes retained."
+    },
+    {
+      "path": "k4-sparse-prior-scope-20261031/private-sources/tools__run_e167.sh",
+      "sha256": "5328769fb6f30857ccee5da992a786811ce68604421f837ff782d9d1c7586b9b",
+      "bytes": 632,
+      "reason": "Third-party cached source/log body omitted: redistribution license not established; pinned source URLs and hashes retained."
+    }
+  ],
+  "limits": "Original manifests retain original hashes, including sanitized prose and omitted source bodies. PUBLIC-PROVENANCE.json verifies distributed bytes. Generic source paths in unchanged audit programs are historical execution layout, not private account metadata; callers need that layout or a separately labeled path adapter. No scientific source changed."
+}

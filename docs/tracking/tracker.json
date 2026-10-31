@@ -5347,6 +5347,32 @@
       ],
       "receipt_paths": [],
       "original_entry": "**31 October 2026 — synthetic-only; no new cipher-family ID or target run.** [Results, code and immutable evidence](method-pilots/parity-first-v2/README.md). All 40 cases / 240 timed outputs matched the independent oracle; 25,806 sparse marginal witnesses passed. Thirty-two in-family cases forced 2103/2144 unknown modeled values with no false forced values; 27 determine all 67. First six positions are excluded. Four contradictions are empty; four dependent twins each have one wrong model-conditional prediction. Structural replay and dependent controls mean this is not 40 independent random draws.\n\nThe exact prediction sets equal the CRT baseline. Matched summed case-median solver CPU was 19.612 versus 14.403 seconds (26.6% lower), with 38/40 wins, two alias losses (13.6%/46.9% slower), higher peak RSS (8448 versus 21760 KiB), and three-repeat variability up to 1.97×/2.95×. No universal speed or cross-v1 recovery gain follows. Completed validation receipts total 148.455768 CPU seconds before packaging; nested stages are not double-counted.\n\nPreserved development failures, rejected hybrid, root-invocation exit 137 before seed generation, exactly one subsequent valid draw, post-release reporting failure, output seal and full resource-topology review remain traceable. Public receipt-path redactions have original/public provenance; scientific bytes and original commitments are unchanged.\n\n**Next decision:** retain v2 unchanged and investigate the two alias-loss mechanisms through a separate projection-saturation design review. No prototype/holdout or K4 target is admitted by this closeout. Any future benefit needs a new freeze and fresh independent controls; no separate repo/global invention claim."
+    },
+    {
+      "record_id": "LOG-ABCCF44009",
+      "experiment_ids": [
+        "METHOD-FILTERED-AFFINE-003"
+      ],
+      "title": "METHOD-FILTERED-AFFINE-003 — generic residual projection and source-operator review",
+      "categories": [
+        "static data validation"
+      ],
+      "outcome": "Generic filtered-affine API audited; scoped global operator distinctions; residual compiler and target admission remain separate",
+      "classification_basis": "Retained generic tests and independent source/mathematical audits; publication uses static integrity checks only, not target execution.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-31",
+        "precision": "day",
+        "source": "opening prose",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [],
+      "links": [
+        "research/method-pilots/filtered-affine-v1/README.md"
+      ],
+      "receipt_paths": [],
+      "original_entry": "**31 October 2026 — generic theory/module and source review only; no target run or new cipher-family ID.** [Readable result and exact provenance](method-pilots/filtered-affine-v1/README.md). The r < q affine-cover projection theorem is reviewed; r ≥ q requires an exact bounded fallback. The historical toy remains explicitly unsafe as a reusable API. The separate hardened prime-field module independently passed 10,931 valid cases, 95,713 witness checks, 46 malformed rejections, 74 budget checks and eight tamper rejections in normal and optimized Python. Certificate replay counts include expected-negative attempts. Resource receipts are not performance claims.\n\nThe source/operator audit separates E globally from the specified fixed-alphabet causal linear and deterministic position-only grammars, not from every finite trace. Scott's exact global carry intersection contributes 156 already-attempted functions C; remove them without authenticating broad external negative claims. The B parity implication transfers from an existing receipt without new target computation. Matbalez recurrence scope remains unresolved. Original drafts, clarifications, later audits, failed toy API examples and source pins are preserved; third-party source caches are omitted with explicit provenance.\n\n**Next decision:** develop synthetic R = E ∖ (B ∪ C) canonical compilation with exact support-preserving lifts, Boolean exclusions, complete projections and independent controls. Generic API validation is not compiler validation or K4 admission. No global novelty, cryptanalytic speedup or solution is claimed; all 68 family records and prior method studies remain unchanged."
     }
   ],
   "receipts": [

@@ -2452,3 +2452,21 @@ Preserved development failures, rejected hybrid, root-invocation exit 137 before
 **Next decision:** retain v2 unchanged and investigate the two alias-loss mechanisms through a separate projection-saturation design review. No prototype/holdout or K4 target is admitted by this closeout. Any future benefit needs a new freeze and fresh independent controls; no separate repo/global invention claim.
 
 Related files: [research/method-pilots/parity-first-v2/README.md](../../research/method-pilots/parity-first-v2/README.md).
+
+## LOG-ABCCF44009
+
+**METHOD-FILTERED-AFFINE-003 — generic residual projection and source-operator review**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (opening prose; not a run timestamp)
+
+Type: static data validation. Outcome: Generic filtered-affine API audited; scoped global operator distinctions; residual compiler and target admission remain separate
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**31 October 2026 — generic theory/module and source review only; no target run or new cipher-family ID.** [Readable result and exact provenance](../../research/method-pilots/filtered-affine-v1/README.md). The r < q affine-cover projection theorem is reviewed; r ≥ q requires an exact bounded fallback. The historical toy remains explicitly unsafe as a reusable API. The separate hardened prime-field module independently passed 10,931 valid cases, 95,713 witness checks, 46 malformed rejections, 74 budget checks and eight tamper rejections in normal and optimized Python. Certificate replay counts include expected-negative attempts. Resource receipts are not performance claims.
+
+The source/operator audit separates E globally from the specified fixed-alphabet causal linear and deterministic position-only grammars, not from every finite trace. Scott's exact global carry intersection contributes 156 already-attempted functions C; remove them without authenticating broad external negative claims. The B parity implication transfers from an existing receipt without new target computation. Matbalez recurrence scope remains unresolved. Original drafts, clarifications, later audits, failed toy API examples and source pins are preserved; third-party source caches are omitted with explicit provenance.
+
+**Next decision:** develop synthetic R = E ∖ (B ∪ C) canonical compilation with exact support-preserving lifts, Boolean exclusions, complete projections and independent controls. Generic API validation is not compiler validation or K4 admission. No global novelty, cryptanalytic speedup or solution is claimed; all 68 family records and prior method studies remain unchanged.
+
+Related files: [research/method-pilots/filtered-affine-v1/README.md](../../research/method-pilots/filtered-affine-v1/README.md).

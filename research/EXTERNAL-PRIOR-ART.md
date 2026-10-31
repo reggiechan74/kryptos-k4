@@ -71,6 +71,10 @@ Earlier focused [Barney/Scott review](../docs/prior-art-barney-scott-review.md),
 | [EXT-045](#ext-045) | LLM template completion without a cipher | Agusx1211/kryptos-k4-llm-guesser |
 | [EXT-046](#ext-046) | Browser and finite TypeScript exploration tools | jlambov/KRYPTOS-K4-CIPHER-ANALYSIS; instancer-kirik/kryptos-typescript |
 | [EXT-047](#ext-047) | Crib sliding over earlier sculpture sections | ElodineOfficial/KrackersAndCheese |
+| [EXT-048](#ext-048) | Fixed-alphabet causal linear K/P/C chains | scott-dunphy/kryptos-k4; ActiveTK/dekrypt |
+| [EXT-049](#ext-049) | Periodic adjacent-pair carry supermodel | scott-dunphy/kryptos-k4 |
+| [EXT-050](#ext-050) | E167 fixed-position current-symbol stage grammar | ActiveTK/dekrypt |
+| [EXT-051](#ext-051) | Unresolved recurrence-audit and terminal-22 handoff scope | matbalez public handoff |
 
 ## Coverage records
 
@@ -693,3 +697,55 @@ These records preserve source-level bounds and uncertainty. Tools, report-only m
 - **Local overlap / selection consequence:** Overlaps running-key/crib/template work; not a new untried family.
 - **Limits and unresolved evidence:** Implementation only, not full source-language exclusion or recovered K4 plaintext.
 - **Primary sources:** [Pinned source 1](https://github.com/ElodineOfficial/KrackersAndCheese/blob/2ea3c11e9b80ccbac1c928c8688d01154f976e1b/README.md); [Pinned source 2](https://github.com/ElodineOfficial/KrackersAndCheese/blob/2ea3c11e9b80ccbac1c928c8688d01154f976e1b/full_password_slider.py)
+
+## Source-operator clarification — 31 October 2026
+
+These additions record scoped attempted models and one explicitly unresolved handoff, not new local experiments. [Reviewed source/operator report](method-pilots/filtered-affine-v1/README.md) preserves original drafts, corrections and independent proofs. No external experiment was reproduced.
+
+<a id="ext-048"></a>
+### EXT-048 — Fixed-alphabet causal linear K/P/C chains
+
+- **Researcher / project:** scott-dunphy/kryptos-k4; ActiveTK/dekrypt
+- **Exact inspected scope:** Scott: nine lag sets (1),(2),(3),(4),(5),(7),(1,2),(1,3),(2,3), fixed independently selected plaintext/ciphertext alphabets and modular linear lag terms with drift/constant. ActiveTK E220: one shared arbitrary alphabet, K/P/C lags1–3, coefficients−1/0/1; E226: preceding-key orders1–6, fixed AZ/KA axes.
+- **Method:** Source grammar inspection and pinned author receipts; no external program execution.
+- **Reported outcome:** Scott chain log reports tried8427/hits0 for each of nine real lag sets. E220 retains skipped/capped scope; E226 can skip beyond200,000 field solutions. These are not new independently authenticated negatives.
+- **Evidence inspected:** Pinned source equations, named chain log and independent operator proof.
+- **Local overlap / selection consequence:** Canonical full-symbol equality family E is globally disjoint from the specified fixed-alphabet strictly causal linear supergrammar, including plaintext/key feedback. Existing linear subdomains remain attempted.
+- **Limits and unresolved evidence:** Parameters/alphabets are fixed across all inputs; no current-plaintext RHS, dynamic alphabet or nonlinear lookup feedback is covered. Global separation does not exclude coincident finite traces or prove E novel.
+- **Primary sources:** [Scott chain](https://github.com/scott-dunphy/kryptos-k4/blob/a75178587efe9401ebf2a4edf3828472dd6fb2a2/novel/run_chain.py); [chain receipt](https://github.com/scott-dunphy/kryptos-k4/blob/a75178587efe9401ebf2a4edf3828472dd6fb2a2/results/novel_chain.log); [E220](https://github.com/ActiveTK/dekrypt/blob/992c9668b9f0783221cb570abbff969e59cbf27c/src/e220_linrec_chain_exact.cu); [E226](https://github.com/ActiveTK/dekrypt/blob/992c9668b9f0783221cb570abbff969e59cbf27c/src/s226_z26_recurrence.py)
+
+<a id="ext-049"></a>
+### EXT-049 — Periodic adjacent-pair carry supermodel
+
+- **Researcher / project:** scott-dunphy/kryptos-k4
+- **Exact inspected scope:** Derived key per periodic residue lies in {b,b+1}; source periods1–30, retained53 forward alphabets on each side, Vigenere/Beaufort rules. Set-valued finite-trace relation, not a deterministic carry recurrence.
+- **Method:** Adjacent-pair feasibility tests; literal-only alphabet reconstruction and independent global intersection proof.
+- **Reported outcome:** Notes report zero hits through period24; no complete carry-named result log located. Source loops through30 do not authenticate completed negatives through30.
+- **Evidence inspected:** Pinned carry/alphabet sources and notes; two independent53-alphabet reconstructions and operator proof.
+- **Local overlap / selection consequence:** Within E the exact global intersection is C={b±E12,b±E34,b±E56},156 distinct functions. Remove C as already attempted, irrespective of whether the claimed negative is authenticated.
+- **Limits and unresolved evidence:** Only AZ in the inspected forward alphabet set is affine. This is whole-operator containment, not finite-trace exclusion or external solver validation; no target run follows.
+- **Primary sources:** [Carry source](https://github.com/scott-dunphy/kryptos-k4/blob/a75178587efe9401ebf2a4edf3828472dd6fb2a2/novel/carry.py); [alphabet source](https://github.com/scott-dunphy/kryptos-k4/blob/a75178587efe9401ebf2a4edf3828472dd6fb2a2/novel/linkey.py); [notes](https://github.com/scott-dunphy/kryptos-k4/blob/a75178587efe9401ebf2a4edf3828472dd6fb2a2/NOTES.md)
+
+<a id="ext-050"></a>
+### EXT-050 — E167 fixed-position current-symbol stage grammar
+
+- **Researcher / project:** ActiveTK/dekrypt
+- **Exact inspected scope:** Inspected R1–R8 fixed chart/position/key transforms operate on current symbols, not six-lag history feedback. R6 uses two fixed periodic keyword schedules, periods1–13 with configurable sum cap(default18).
+- **Method:** Pinned source-equation inspection and separate R6 supplement, no source execution.
+- **Reported outcome:** Attempted finite stage grammar. R5 skipped when ext=1; R7/R8 position-sequence coverage is narrower than every sequence in every slot. No blanket completion/negative asserted.
+- **Evidence inspected:** Source/driver/author stage notes and independent R6 equation review; not a full solver-correctness audit.
+- **Local overlap / selection consequence:** A fixed deterministic position-only forward map is globally different from nonconstant history-dependent E. Preserve this operator distinction rather than treating all nonlinear source names as identical.
+- **Limits and unresolved evidence:** Set-valued/nonfunctional relations are outside that separation; finite-trace coincidences remain possible. Fixed public-file position masks do not become a dynamic history oracle.
+- **Primary sources:** [E167](https://github.com/ActiveTK/dekrypt/blob/992c9668b9f0783221cb570abbff969e59cbf27c/src/e167_stage.cu); [R6](https://github.com/ActiveTK/dekrypt/blob/992c9668b9f0783221cb570abbff969e59cbf27c/src/e167c_twokey.cu); [driver](https://github.com/ActiveTK/dekrypt/blob/992c9668b9f0783221cb570abbff969e59cbf27c/tools/run_e167.sh)
+
+<a id="ext-051"></a>
+### EXT-051 — Unresolved recurrence-audit and terminal-22 handoff scope
+
+- **Researcher / project:** matbalez public handoff
+- **Exact inspected scope:** Rendered July18 public handoff mentions generated masks, nonlinear recurrences and bounded polynomial recurrences; underlying relative-link reports are not publicly included. Exact equations, lags, coefficients, alphabet/state roles, initialization and completed bounds remain unknown.
+- **Method:** Finite targeted public searches and rendered-anchor inspection; no outreach, paid access or source execution.
+- **Reported outcome:** Unavailable underlying scope, not a validated completed test or exclusion. Searches found the handoff, not separate specifications.
+- **Evidence inspected:** Public rendered handoff read31October2026; raw/revision body could not be retrieved, so no verified body hash claimed.
+- **Local overlap / selection consequence:** Retain bounded historical uncertainty explicitly for R=E∖(B∪C). Unknown scope is neither proof of duplicate coverage nor proof of novelty; target remains not admitted.
+- **Limits and unresolved evidence:** No indefinite polling required absent new evidence; any decision accepting bounded historical uncertainty must be explicit and cannot erase known prior overlap.
+- **Primary sources:** [Public handoff](https://gist.github.com/matbalez/8300cb067a5cda55c3b44ef382d517c0)
