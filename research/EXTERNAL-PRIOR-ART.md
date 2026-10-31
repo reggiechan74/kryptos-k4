@@ -6,7 +6,9 @@
 
 **No next execution-ready hypothesis is currently admitted.** The separately reviewed recurrence-distance clock064 is now closed at its fixed bounds; [EXT-030](#ext-030) records its exact predecessor comparison and inherited exclusions. This is a bounded survey result, not proof that no untried K4 model exists. Do not restore the superseded ten-item residual/recovery agenda. Stronger-solver reruns, unfinished searches of attempted hypotheses, and cosmetic parameter extensions do not qualify as new under the current project direction. Previously proposed but genuinely unrun mechanisms may qualify only if no existing local or external analytical exclusion subsumes them and the model is independently specified.
 
-The repository discovery query returned **71 hits**, including forks and irrelevant software. **14 relevant repositories received documentation review, eight source/model inspection, and four named-result-artifact inspection. No external experiment was reproduced.** Additional primary web records below are separate from those repository counts. The source-pin file has 15 repositories: the 14-repository discovery cohort plus akaalias/k4, used to pin the additional Rondeau web records. Multiple records can describe one repository; record count is not researcher count. This survey is not exhaustive and does not certify global novelty.
+The [completed finite discovery audit](finite-prior-art-20261031/README.md) accounts for all **71 original hits**: 33 implemented projects/tools, 8 documentation/placeholders, 13 unsupported/retracted claims, 11 duplicates, 4 irrelevant (including our repository), and 2 empty/unavailable. Its **54 relevant nonempty unique groups are not 54 completed research programs**. In-set evidence: **59 text-reviewed repositories, 39 with some source read, 6 with named result artifacts inspected**;39 is not a count of full algorithm audits. **No external experiment was reproduced.** With separately reviewed out-of-set jcolinpatrick, the wider cohort totals 60/40/7. Additional primary web records remain separate; no global novelty guarantee follows.
+
+**Dated coverage correction:** the earlier 14 reviewed cohort was 13 in-set plus jcolinpatrick outside the discovery set. Akaalias is discovery hit 23 and was reviewed later, giving 15 combined repositories (14 in-set plus jcolinpatrick), not “14 in-set plus akaalias outside.” The original 15-repository [pin snapshot](../sources/external-prior-art-pins-20261031.json) and frozen reports remain unchanged. [All dispositions, exact pins and evidence limits](finite-prior-art-20261031/coverage-disposition-20261031.json) record the expanded review. Multiple records can describe one repository; no count here means independent completed programs.
 
 Evidence levels are explicit in each entry:
 - **Documentation inspected:** a report or proposal was read; its execution/completeness may not be established.
@@ -52,6 +54,23 @@ Earlier focused [Barney/Scott review](../docs/prior-art-barney-scott-review.md),
 | [EXT-028](#ext-028) | Broader columnar campaigns and clock registration | Andrew Chan / kryptos.tiki.vc |
 | [EXT-029](#ext-029) | Clock city-list and columnar campaigns | kryptos.today |
 | [EXT-030](#ext-030) | Interrupted/value/occurrence-stepped key schedules; recurrence-clock overlap audit | ActiveTK/dekrypt; Barneyjm/kryptos-k4 |
+| [EXT-031](#ext-031) | Lamp-sum and table-selection clock streams | mproffitt/PyKryptos; mproffitt/kryptos |
+| [EXT-032](#ext-032) | Dictionary Vigenère with cyclic shifts | mfascia/Kryptos |
+| [EXT-033](#ext-033) | Gromark implementation with defective crib coordinates | GrafSpiel/GROMARK |
+| [EXT-034](#ext-034) | Report-only extended hand-cipher and clock portfolio | markmnl/kryptos |
+| [EXT-035](#ext-035) | Nonpredictive vector and estimated physical interpretations | louis49/K4; ogio3/k4 |
+| [EXT-036](#ext-036) | Sum of two periodic keys | keithadler/kryptos |
+| [EXT-037](#ext-037) | Numerical projection, overlay and decoded key chains | ZeroDay-Labz/kryptos-k4 |
+| [EXT-038](#ext-038) | Fragment recurrence and route diagnostics | malak333/kryptos-k4 |
+| [EXT-039](#ext-039) | One free alphabet with finite Gromark and running-key sources | tylerj-spec/kryptos-k4 |
+| [EXT-040](#ext-040) | Bounded SAT toolkit and forced-crib interpolation | claudlos/Kryptos |
+| [EXT-041](#ext-041) | Lag-seven plaintext autokey in finite abelian groups | aciderix/kryptos-research-handoff |
+| [EXT-042](#ext-042) | Explicit elementary contradiction scripts | FlaviaOrtiz307/k4-evidence-gap |
+| [EXT-043](#ext-043) | Sampled weighted lamp-cycle masks | LazaUK/AIFoundry-GPT5-KryptosCIA |
+| [EXT-044](#ext-044) | Progressive tableau and reflected symbol substitution | old-zet/kryptos-k4_vigenere-symmetry |
+| [EXT-045](#ext-045) | LLM template completion without a cipher | Agusx1211/kryptos-k4-llm-guesser |
+| [EXT-046](#ext-046) | Browser and finite TypeScript exploration tools | jlambov/KRYPTOS-K4-CIPHER-ANALYSIS; instancer-kirik/kryptos-typescript |
+| [EXT-047](#ext-047) | Crib sliding over earlier sculpture sections | ElodineOfficial/KrackersAndCheese |
 
 ## Coverage records
 
@@ -465,3 +484,212 @@ The [read-only source literal checker](source-literal-checker-v1/README.md) addr
 - **Local overlap / selection consequence:** Six064periods inherit independently retained local044 AZ/additive ordinary-period negatives via strict crib containment; no reruns. Residualp5 has no equal full/crib map in inspected banks; its19constraints are not the604strict0–2check containers. Those external maps were documented threshold skips with different/undefined full clocks. Independent semantic review and parent-approved pretarget clarification admitted only unchangedp5, subsequently exactly negative in two local engines.
 - **Limits and unresolved evidence:** Skipped weaker supersets are neither exclusions nor proof their narrower child's exact rule was tried. Equivalent unknown-status domains remain blocked. Ordinary96/97fullsupersets are underconstrained/free-key models, not duplicate exact mechanism coverage. This bounded source search does not certify worldwide novelty; no licenses established for full third-party redistribution.
 - **Primary sources:** [ActiveTK E122](https://github.com/ActiveTK/dekrypt/blob/992c9668b9f0783221cb570abbff969e59cbf27c/src/s93_interrupted.py), [E122b](https://github.com/ActiveTK/dekrypt/blob/992c9668b9f0783221cb570abbff969e59cbf27c/src/s93b_interrupted_arb.py), [Barney interrupted models](https://github.com/Barneyjm/kryptos-k4/blob/2db2722cc3f18c52d4d8369d7adc5a1db7e859d7/scripts/fe_interrupt.py). Remaining exact pins/hashes are in064archive `prior/source-pins.json`.
+
+
+## Finite discovery-set additions — 31 October 2026
+
+These records preserve source-level bounds and uncertainty. Tools, report-only models and defective implementations are not completed negatives. Unsupported solved claims and empty/irrelevant/duplicate hits remain explicitly classified in the [full inventory](finite-prior-art-20261031/coverage-disposition-20261031.json), rather than being promoted to cipher exclusions. No new execution is admitted.
+
+<a id="ext-031"></a>
+### EXT-031 — Lamp-sum and table-selection clock streams
+
+- **Researcher / project:** mproffitt/PyKryptos; mproffitt/kryptos
+- **Exact inspected scope:** PyKryptos sums illuminated lamp labels for additive/subtractive offsets mod26; 23-label arrangement merges A/E, Q/L, U/O while plaintext remains A1–Z26. Even-second stepping, selectable time increments/start and alphabet. Related project adds ciphertext/Z-distance lacuna, occurrence polarity and table-selection rules.
+- **Method:** Proof-of-concept implementation; selected cipher/clock code inspected.
+- **Reported outcome:** No exhaustive starting-time/configuration completion receipt inspected.
+- **Evidence inspected:** Documentation and selected source/model read; no execution.
+- **Local overlap / selection consequence:** Clock-mask/table streams are already attempted. Two distinct code projects share a declared author/project lineage, not independent corroboration.
+- **Limits and unresolved evidence:** No general clock exclusion or independently justified recovery; successor source review is partial.
+- **Primary sources:** [Pinned source 1](https://github.com/mproffitt/PyKryptos/blob/afff6e487823c81339e586aa0a3c35bbea715730/README.md); [Pinned source 2](https://github.com/mproffitt/PyKryptos/blob/afff6e487823c81339e586aa0a3c35bbea715730/pykryptos/cipher.py); [Pinned source 3](https://github.com/mproffitt/PyKryptos/blob/afff6e487823c81339e586aa0a3c35bbea715730/pykryptos/mengenlehreuhr.py); [Pinned source 4](https://github.com/mproffitt/kryptos/blob/ad657f1fec153529cfbe28162468fe782d070728/README.md); [Pinned source 5](https://github.com/mproffitt/kryptos/blob/ad657f1fec153529cfbe28162468fe782d070728/kryptos/rulesengine.py); [Pinned source 6](https://github.com/mproffitt/kryptos/blob/ad657f1fec153529cfbe28162468fe782d070728/kryptos/cipher.py)
+
+<a id="ext-032"></a>
+### EXT-032 — Dictionary Vigenère with cyclic shifts
+
+- **Researcher / project:** mfascia/Kryptos
+- **Exact inspected scope:** Active C++ path: 97 cyclic shifts, word-list keys and KRYPTOS alphabet; crib-letter multiset and CLOCK-anywhere filters plus frequency ranking.
+- **Method:** Dictionary search implementation. Width2–48 rotation/reversal is a disabled alternative; Python exits after a K2 example.
+- **Reported outcome:** Comment reports nothing interesting; no complete fixed-position negative or committed completion verified.
+- **Evidence inspected:** Source/model inspected; completion unverified.
+- **Local overlap / selection consequence:** Dictionary/route Vigenère is attempted prior art, not an untried mechanism.
+- **Limits and unresolved evidence:** Word-list completeness unknown; disabled code and early exit are not executed coverage.
+- **Primary sources:** [Pinned source 1](https://github.com/mfascia/Kryptos/blob/4b85f9c966edf8953ee7f28d20009229d4087db1/README.md); [Pinned source 2](https://github.com/mfascia/Kryptos/blob/4b85f9c966edf8953ee7f28d20009229d4087db1/kryptos.py); [Pinned source 3](https://github.com/mfascia/Kryptos/blob/4b85f9c966edf8953ee7f28d20009229d4087db1/kryptos.cpp)
+
+<a id="ext-033"></a>
+### EXT-033 — Gromark implementation with defective crib coordinates
+
+- **Researcher / project:** GrafSpiel/GROMARK
+- **Exact inspected scope:** Variable base/primer length and optional recurrence; named Bean primers. Main crib starts20/48 and constraint starts10/62 (zero-based), versus canonical21/63; main default accepts70% of crib letters.
+- **Method:** Inspected solver and constraint code; constraint expansion uses the last two digits rather than the ordinary lag-five Gromark recurrence.
+- **Reported outcome:** No canonical-K4 negative established from this implementation.
+- **Evidence inspected:** Source/model and documentation inspected, not run.
+- **Local overlap / selection consequence:** An implementation repair is not a new cipher hypothesis; proper Gromark prior work remains separately recorded.
+- **Limits and unresolved evidence:** Do not inherit advertised primer counts as verified replication; wrong coordinates and weakened acceptance are material.
+- **Primary sources:** [Pinned source 1](https://github.com/GrafSpiel/GROMARK/blob/7434cd91f0479bfd3a56dbc85dac513a706bd999/README.md); [Pinned source 2](https://github.com/GrafSpiel/GROMARK/blob/7434cd91f0479bfd3a56dbc85dac513a706bd999/k4_constraints.py); [Pinned source 3](https://github.com/GrafSpiel/GROMARK/blob/7434cd91f0479bfd3a56dbc85dac513a706bd999/gromark_solver.py)
+
+<a id="ext-034"></a>
+### EXT-034 — Report-only extended hand-cipher and clock portfolio
+
+- **Researcher / project:** markmnl/kryptos
+- **Exact inspected scope:** Reports Nicodemus widths 1–19, shifted AMSCO through 17, turning grille, Ragbaby, Slidefair, Portax, Wheatstone27/26, move-to-front/back, wheel and trigger/reset variants, and finite dictionary Trifid. Exact per-family qualifications remain in the early-batch report.
+- **Method:** Public ledger and evidence manifest; underlying source/log archive not bundled.
+- **Reported outcome:** Bounded negatives and mixed fits are author reports. Ledger also acknowledges feasible alignments, free-alphabet fits, caps/timeouts and decoder debugging.
+- **Evidence inspected:** Documentation only; named hashed files are not inspected receipts.
+- **Local overlap / selection consequence:** Substantive reported attempted families should be checked before new proposals; decoder improvements/completion do not create novel mechanisms.
+- **Limits and unresolved evidence:** No source-complete inherited exclusion.64 evidence IDs are not 64 cipher families; no independent reproduction.
+- **Primary sources:** [Pinned source 1](https://github.com/markmnl/kryptos/blob/090347cbd3fd9329d59df3edcf999964edc9b873/README.md); [Pinned source 2](https://github.com/markmnl/kryptos/blob/090347cbd3fd9329d59df3edcf999964edc9b873/NEXT_STEPS.md); [Pinned source 3](https://github.com/markmnl/kryptos/blob/090347cbd3fd9329d59df3edcf999964edc9b873/WHAT_WE_TRIED.md); [Pinned source 4](https://github.com/markmnl/kryptos/blob/090347cbd3fd9329d59df3edcf999964edc9b873/EVIDENCE.md)
+
+<a id="ext-035"></a>
+### EXT-035 — Nonpredictive vector and estimated physical interpretations
+
+- **Researcher / project:** louis49/K4; ogio3/k4
+- **Exact inspected scope:** Polybius shortest-mod5 vector classes, W resets/alternating groups and compass-clock decomposition; separate R→S→T bearing narrative uses estimated rose coordinates.
+- **Method:** Paper plus bearing implementation inspected; the pinned paper repository lacks referenced reproducibility scripts.
+- **Reported outcome:** Paper does not predict the73 unknown letters. Bearing places an unsurveyed rose WSW to make ENE plausible.
+- **Evidence inspected:** Documentation and selected bearing source read, not a measured geometry dataset.
+- **Local overlap / selection consequence:** Overlaps physical/vector interpretations; requires an independently fixed operational rule and evidence before testing.
+- **Limits and unresolved evidence:** No surveyed transform, complete cipher mapping or reproducible negative; these proposals do not supply new admissible keys.
+- **Primary sources:** [Pinned source 1](https://github.com/louis49/K4/blob/7a163b0116aa56fec0c35e1cff67fd819cb7e8c7/doc/paper.tex); [Pinned source 2](https://github.com/ogio3/k4/blob/a84594a3c76ce1d5daf8894a01f1eb10729e217a/README.md); [Pinned source 3](https://github.com/ogio3/k4/blob/a84594a3c76ce1d5daf8894a01f1eb10729e217a/bearing.py)
+
+<a id="ext-036"></a>
+### EXT-036 — Sum of two periodic keys
+
+- **Researcher / project:** keithadler/kryptos
+- **Exact inspected scope:** Same-axis AZ or KRYPTOS; effective key u[i mod a]+v[i mod b],1≤a≤b≤26; Vigenère/Beaufort.
+- **Method:** Linear consistency modulo2 and13; zero-redundancy cells explicitly skipped.
+- **Reported outcome:** Named receipt: 932 testable combinations and TWO survivors, KRYPTOS Beaufort 12+15 and 9+19, each with one redundant constraint.
+- **Evidence inspected:** Source/model and named result inspected; not independently reproduced.
+- **Local overlap / selection consequence:** Composite periodic-key work already attempted; correct broad “applied twice ruled out” wording with surviving cells.
+- **Limits and unresolved evidence:** Not a universal two-layer periodic exclusion; skipped cells and limited redundancy remain explicit.
+- **Primary sources:** [Pinned source 1](https://github.com/keithadler/kryptos/blob/714e7c252165e106b2b827eacab156c4005f2b90/README.md); [Pinned source 2](https://github.com/keithadler/kryptos/blob/714e7c252165e106b2b827eacab156c4005f2b90/SEARCH.md); [Pinned source 3](https://github.com/keithadler/kryptos/blob/714e7c252165e106b2b827eacab156c4005f2b90/layer2.py); [Pinned source 4](https://github.com/keithadler/kryptos/blob/714e7c252165e106b2b827eacab156c4005f2b90/results/17_layer_two.txt)
+
+<a id="ext-037"></a>
+### EXT-037 — Numerical projection, overlay and decoded key chains
+
+- **Researcher / project:** ZeroDay-Labz/kryptos-k4
+- **Exact inspected scope:** Affine column scale−3..3 step.02 excluding absolute scale<.2; offset−40..70 step.25; shear−.5...5 step.1; row shift−30..5. Complete24-crib coverage required. Overlay eight orientations with offsets−40..40. Chained readable-source/repeating-key running keys and deeper/feedback variants.
+- **Method:** Numerical grid sweep, not measured sculpture geometry. Chain minimum equalities 6 (level 2), 8 (level 3), default 5 (feedback).
+- **Reported outcome:** Documentation reports 1,699,625 placements×16 settings, best 10/24; curved-warp best 8/13. No separately named completion receipt inspected.
+- **Evidence inspected:** Documentation plus projection/chain source inspected; embedded result claims are not independent reproduction.
+- **Local overlap / selection consequence:** Projection masks and decoded key chains are attempted. Wider columnar documentation also has≥9/10/11 equality thresholds.
+- **Limits and unresolved evidence:** Low-redundancy omissions cannot become universal negatives. Curved row mapping restricts first/last repeated-letter choices, not arbitrary placements.
+- **Primary sources:** [Pinned source 1](https://github.com/ZeroDay-Labz/kryptos-k4/blob/854534543a93ddf2534758b620ae05cb36dd0a04/README.md); [Pinned source 2](https://github.com/ZeroDay-Labz/kryptos-k4/blob/854534543a93ddf2534758b620ae05cb36dd0a04/docs/RESULTS.md); [Pinned source 3](https://github.com/ZeroDay-Labz/kryptos-k4/blob/854534543a93ddf2534758b620ae05cb36dd0a04/k4/projection.py); [Pinned source 4](https://github.com/ZeroDay-Labz/kryptos-k4/blob/854534543a93ddf2534758b620ae05cb36dd0a04/k4/chain.py)
+
+<a id="ext-038"></a>
+### EXT-038 — Fragment recurrence and route diagnostics
+
+- **Researcher / project:** malak333/kryptos-k4
+- **Exact inspected scope:** Additive/subtractive/Beaufort crib fragments on three fixed alphabets; adjacent triplet mod10 diagnostic; fragment identity/reversal and row-to-column widths7/13.
+- **Method:** Diagnostics on known key fragments, not97-character route enumeration; incompatible lengths skipped, seeded shuffle comparisons.
+- **Reported outcome:** Stopped-lane documentation reports37 observation archives with corrected significance1.0; raw minimum.0436 is not a surviving signal.
+- **Evidence inspected:** Source/model and documentation inspected; no separately audited observation archive.
+- **Local overlap / selection consequence:** Not a new general Gromark/route model; inspected hypothesis list supplies no precise eligible unrun mechanism.
+- **Limits and unresolved evidence:** Adjacent triplets are not full primer recurrence; no complete Gromark exclusion and no candidate promotion.
+- **Primary sources:** [Pinned source 1](https://github.com/malak333/kryptos-k4/blob/de74e803ca17ad16227f834b94f818f02387f485/README.md); [Pinned source 2](https://github.com/malak333/kryptos-k4/blob/de74e803ca17ad16227f834b94f818f02387f485/src/analysis.rs); [Pinned source 3](https://github.com/malak333/kryptos-k4/blob/de74e803ca17ad16227f834b94f818f02387f485/src/routes.rs); [Pinned source 4](https://github.com/malak333/kryptos-k4/blob/de74e803ca17ad16227f834b94f818f02387f485/src/hypotheses.rs); [Pinned source 5](https://github.com/malak333/kryptos-k4/blob/de74e803ca17ad16227f834b94f818f02387f485/experiments/STOPPED_LANES.md)
+
+<a id="ext-039"></a>
+### EXT-039 — One free alphabet with finite Gromark and running-key sources
+
+- **Researcher / project:** tylerj-spec/kryptos-k4
+- **Exact inspected scope:** R40 arbitrary plaintext alphabet; seven fixed cipher alphabets, two signs; chain-addition base 10 primers length 5/6/7, base 26 length 5; Carter/K1–K3 text sources in both directions with AZ/KRYPTOS numbering and every offset.
+- **Method:** All24 crib letters checked for equality-pattern equivalence against transformed ciphertext; exact in-place free-plaintext-alphabet predicate.
+- **Reported outcome:** Handoff reports 337,634,136 settings with zero consistent and 12 plants; separate completion receipt was not located/read.
+- **Evidence inspected:** Implementation and documentation inspected; reported outcome remains documentation-tier.
+- **Local overlap / selection consequence:** Free-alphabet running-key/Gromark models already attempted. Word moves/beam segmentation improve an existing solver, not a new cipher.
+- **Limits and unresolved evidence:** R41/R42 only described here; R42 blind recovery4/6 is not full success. No free-both-alphabets or unrestricted-running-key exclusion.
+- **Primary sources:** [Pinned source 1](https://github.com/tylerj-spec/kryptos-k4/blob/c0e2a6847d0f7a505ccfa3bea2b0c58a5ccf2f3c/README.md); [Pinned source 2](https://github.com/tylerj-spec/kryptos-k4/blob/c0e2a6847d0f7a505ccfa3bea2b0c58a5ccf2f3c/HANDOFF.md); [Pinned source 3](https://github.com/tylerj-spec/kryptos-k4/blob/c0e2a6847d0f7a505ccfa3bea2b0c58a5ccf2f3c/r40/PREREGISTRATION.md); [Pinned source 4](https://github.com/tylerj-spec/kryptos-k4/blob/c0e2a6847d0f7a505ccfa3bea2b0c58a5ccf2f3c/r40/sealed/whole_family.cpp)
+
+<a id="ext-040"></a>
+### EXT-040 — Bounded SAT toolkit and forced-crib interpolation
+
+- **Researcher / project:** claudlos/Kryptos
+- **Exact inspected scope:** AZ Vigenère/Beaufort periods 1–30; columnar widths 2–15 with 5-second timeout (no-Z3 fallback≤10); fixed autokey primers; five fixed 5×5 squares/periods 5–10; periodic-columnar lengths3/5/7 and widths3–7.
+- **Method:** SAT consistency plus finite generated mathematical-key dictionaries; selected generator source and named output inspected.
+- **Reported outcome:** Mathematical-key receipt: 3435 attempts, 27 retained candidates, all interpolated/forced-fill crib fits. Unknown/timeouts retained.
+- **Evidence inspected:** Source/model and named result inspected; no replay.
+- **Local overlap / selection consequence:** Finite classical toolkit and crib-forced candidate generation are attempted; neither dashboard totals nor successful insertion identifies K4.
+- **Limits and unresolved evidence:** Not independent plaintext discovery, universal family exclusion or proof of completion for every driver branch.
+- **Primary sources:** [Pinned source 1](https://github.com/claudlos/Kryptos/blob/c9366802759f9d3185c2a2bedb8d4e2dd41bc400/README.md); [Pinned source 2](https://github.com/claudlos/Kryptos/blob/c9366802759f9d3185c2a2bedb8d4e2dd41bc400/strategy16_sat_elimination.py); [Pinned source 3](https://github.com/claudlos/Kryptos/blob/c9366802759f9d3185c2a2bedb8d4e2dd41bc400/strategy40_mathematical_key_generation.py); [Pinned source 4](https://github.com/claudlos/Kryptos/blob/c9366802759f9d3185c2a2bedb8d4e2dd41bc400/runs/mathematical_key_generation.json)
+
+<a id="ext-041"></a>
+### EXT-041 — Lag-seven plaintext autokey in finite abelian groups
+
+- **Researcher / project:** aciderix/kryptos-research-handoff
+- **Exact inspected scope:** Shared injective 26-letter embedding into 23 listed abelian groups of order 26–36, lag 7 plaintext feedback, free offset d and 67 sign/group cases. Includes Z3³,Z2⁵,Z6×Z6; cyclic Z26 is relabelled arithmetic and Z5×Z6 aliases Z30.
+- **Method:** 17 derived equations; CP-SAT maximizes satisfaction with status/optimality fields. Intermediate values may leave the 26-letter image; no mod26 projection. Partial injection extends to 26 letters because group size ≥26.
+- **Reported outcome:** Named output records optimal minimum 1 or 2 violated equations in all 67 cases: author-reported bounded infeasibility of the relaxed model.
+- **Evidence inspected:** Source/model and named receipt inspected, plus source-level algebraic gauge check; no independent solver replay.
+- **Local overlap / selection consequence:** Alternate-base/grid/XOR autokey mechanisms are prior art.261 identical implementation blobs are vendored in ActiveTK refs/aciderix, including T36: imported campaign counted once, not independent replication.
+- **Limits and unresolved evidence:** Zero gauge is valid because d is free: translating embedding by g requires d−g in Vigenère and d+g in Beaufort/variant; derived coefficient sums cancel. Larger-group English plants may fail from image nonclosure. No all-lag/all-group or separate-embedding exclusion; relaxed SAT would not prove valid plaintext.
+- **Primary sources:** [Pinned source 1](https://github.com/aciderix/kryptos-research-handoff/blob/6b82bd5364b6fea78b6ef3cfd73fafaf85ac3462/README.md); [Pinned source 2](https://github.com/aciderix/kryptos-research-handoff/blob/6b82bd5364b6fea78b6ef3cfd73fafaf85ac3462/audits/autocle_groupes_2026_09_25/README.md); [Pinned source 3](https://github.com/aciderix/kryptos-research-handoff/blob/6b82bd5364b6fea78b6ef3cfd73fafaf85ac3462/audits/autocle_groupes_2026_09_25/t36_autocle_groupes.py); [Pinned source 4](https://github.com/aciderix/kryptos-research-handoff/blob/6b82bd5364b6fea78b6ef3cfd73fafaf85ac3462/audits/autocle_groupes_2026_09_25/results_t36.txt)
+
+<a id="ext-042"></a>
+### EXT-042 — Explicit elementary contradiction scripts
+
+- **Researcher / project:** FlaviaOrtiz307/k4-evidence-gap
+- **Exact inspected scope:** Direct AZ periodic Vigenère periods 19/20/21/24/42; expected conflicting-pair counts 7/11/11/5/11. Monoalphabetic F→E/O conflict;26 ciphertext letters versus strict 25-symbol output alphabet.
+- **Method:** Elementary contradiction code embedded in Markdown.
+- **Reported outcome:** Expected outputs documented, not separately observed run receipts.
+- **Evidence inspected:** Documentation and embedded source inspected; not executed.
+- **Local overlap / selection consequence:** Already local analytical territory; no eligible new hypothesis.
+- **Limits and unresolved evidence:** Not arbitrary preprocessing or fractionation exclusion; expected output is not an independently checked execution.
+- **Primary sources:** [Pinned source 1](https://github.com/FlaviaOrtiz307/k4-evidence-gap/blob/559daaa6d4348285423a4ee7120c02f0a08d16ea/README.md); [Pinned source 2](https://github.com/FlaviaOrtiz307/k4-evidence-gap/blob/559daaa6d4348285423a4ee7120c02f0a08d16ea/K4-Verified-Negative-%20%20Results.md)
+
+<a id="ext-043"></a>
+### EXT-043 — Sampled weighted lamp-cycle masks
+
+- **Researcher / project:** LazaUK/AIFoundry-GPT5-KryptosCIA
+- **Exact inspected scope:** Variant A 23/24-lamp cyclic masks with optional seconds/reversed rows/snaking, row/color/quarter weights, affine position factor/phase and eight thematic Vigenère keys.
+- **Method:** 120,000 random samples, seed 1337; nonletters stripped from keys. Advertised two stage orders commute as additive subtractions.
+- **Reported outcome:** No completion receipt found; samples are not exhaustive.
+- **Evidence inspected:** VariantA source inspected; B/C/D are documentation-only here.
+- **Local overlap / selection consequence:** Clock-mask periodic composites already attempted; commutative stage orders are duplicate operators.
+- **Limits and unresolved evidence:** No completed negative or exhaustive clock-domain coverage; sample/settings totals are not unique operators.
+- **Primary sources:** [Pinned source 1](https://github.com/LazaUK/AIFoundry-GPT5-KryptosCIA/blob/6fd51a31708df580f513d98c736ac6917bf305a6/README.md); [Pinned source 2](https://github.com/LazaUK/AIFoundry-GPT5-KryptosCIA/blob/6fd51a31708df580f513d98c736ac6917bf305a6/Kryptos_VariantA.py)
+
+<a id="ext-044"></a>
+### EXT-044 — Progressive tableau and reflected symbol substitution
+
+- **Researcher / project:** old-zet/kryptos-k4_vigenere-symmetry
+- **Exact inspected scope:** Progressive row(start+i) mod26; keyed alphabet of unused letters then keyword; random 25-cell square merges two letters and reflects rows.
+- **Method:** Infinite random sampling until supplied-substring mismatch allowance (default 2) is met.
+- **Reported outcome:** No finite completion or canonical24-crib exact receipt; README example covers NORTHEAST with mismatches.
+- **Evidence inspected:** Source/model and documentation inspected.
+- **Local overlap / selection consequence:** Already attempted tableau/substitution mechanism; expanding keyword/start sampling is not novel.
+- **Limits and unresolved evidence:** “Symmetry transposition” changes symbols, not97 message positions. Merged pair is not a clean26-letter permutation; no valid full plaintext shown.
+- **Primary sources:** [Pinned source 1](https://github.com/old-zet/kryptos-k4_vigenere-symmetry/blob/da72b7e0d5d202c55d8ac280653026df8fb924bc/README.md); [Pinned source 2](https://github.com/old-zet/kryptos-k4_vigenere-symmetry/blob/da72b7e0d5d202c55d8ac280653026df8fb924bc/kryptos-k4_deciphering/decipher_k4.py)
+
+<a id="ext-045"></a>
+### EXT-045 — LLM template completion without a cipher
+
+- **Researcher / project:** Agusx1211/kryptos-k4-llm-guesser
+- **Exact inspected scope:** Length/literal-constrained generated fillings, optional fill-in-middle, default probability floor.01.
+- **Method:** Candidate-text generation tool; inspected driver lacks forward-cipher validation.
+- **Reported outcome:** Author explicitly disclaims a serious solution.
+- **Evidence inspected:** Source/model and documentation inspected; tool, not tested cryptographic mechanism.
+- **Local overlap / selection consequence:** Candidate generation is prior art but does not validate Q-05 or admit a cipher model.
+- **Limits and unresolved evidence:** No inverse/key/encryption recovery or independent solution evidence.
+- **Primary sources:** [Pinned source 1](https://github.com/Agusx1211/kryptos-k4-llm-guesser/blob/3dfe6c5fa492e9925f72932339f9cf0193facc92/README.md); [Pinned source 2](https://github.com/Agusx1211/kryptos-k4-llm-guesser/blob/3dfe6c5fa492e9925f72932339f9cf0193facc92/cmd/gen_correct/main.go)
+
+<a id="ext-046"></a>
+### EXT-046 — Browser and finite TypeScript exploration tools
+
+- **Researcher / project:** jlambov/KRYPTOS-K4-CIPHER-ANALYSIS; instancer-kirik/kryptos-typescript
+- **Exact inspected scope:** Browser AZ arithmetic/autokey, IC periods 2–20, crib key lengths 8–16 and 50 sampled keys at seven selected lengths. TypeScript 26 literal main-strategy candidates plus bounded spacer/progressive/section/interleaving variants detailed in late-batch report.
+- **Method:** Interactive/sampled tools. TypeScript is a substantive fork extension: 3 commits ahead, 27 changed paths, not an unchanged duplicate.
+- **Reported outcome:** No committed completion receipt. Browser residue scoring accumulates matches without rejecting conflicts; five TypeScript candidates contain crib-filled values.
+- **Evidence inspected:** Selected source/model and documentation inspected; implementation presence is not executed coverage.
+- **Local overlap / selection consequence:** Generic variations and stronger searches of these attempted models are not new hypotheses.
+- **Limits and unresolved evidence:** Undefined char0 in a variations file and no-op matrices for 97 limit claims. No blanket exclusion, independent recovery or justified AZ/Vigenère certainty.
+- **Primary sources:** [Pinned source 1](https://github.com/jlambov/KRYPTOS-K4-CIPHER-ANALYSIS/blob/fedf5b85648c6e9b4b5526eab702591a75e083d6/README.md); [Pinned source 2](https://github.com/jlambov/KRYPTOS-K4-CIPHER-ANALYSIS/blob/fedf5b85648c6e9b4b5526eab702591a75e083d6/kryptos_k4_enhanced.html); [Pinned source 3](https://github.com/instancer-kirik/kryptos-typescript/blob/c8d6917a78cbe13975f15ead9749a86936b2a931/README.md); [Pinned source 4](https://github.com/instancer-kirik/kryptos-typescript/blob/c8d6917a78cbe13975f15ead9749a86936b2a931/k4-breaking-strategy.ts); [Pinned source 5](https://github.com/instancer-kirik/kryptos-typescript/blob/c8d6917a78cbe13975f15ead9749a86936b2a931/k4-attempts/10-spacer-rotation-translation.ts); [Pinned source 6](https://github.com/instancer-kirik/kryptos-typescript/blob/c8d6917a78cbe13975f15ead9749a86936b2a931/k4-attempts/11-systematic-variations.ts)
+
+<a id="ext-047"></a>
+### EXT-047 — Crib sliding over earlier sculpture sections
+
+- **Researcher / project:** ElodineOfficial/KrackersAndCheese
+- **Exact inspected scope:** K0–K3 substrings length 13–64 slid across K1–K4 using KRYPTOS-tableau differences; minimal key period ≤64; retain 50 per slice; prune known keywords/rotations/anagrams.
+- **Method:** Finite source-text crib/key sliding implementation; actual constants override stale 7–17/top 10 header.
+- **Reported outcome:** No committed K4 completion/result receipt inspected.
+- **Evidence inspected:** Source/model and documentation inspected.
+- **Local overlap / selection consequence:** Overlaps running-key/crib/template work; not a new untried family.
+- **Limits and unresolved evidence:** Implementation only, not full source-language exclusion or recovered K4 plaintext.
+- **Primary sources:** [Pinned source 1](https://github.com/ElodineOfficial/KrackersAndCheese/blob/2ea3c11e9b80ccbac1c928c8688d01154f976e1b/README.md); [Pinned source 2](https://github.com/ElodineOfficial/KrackersAndCheese/blob/2ea3c11e9b80ccbac1c928c8688d01154f976e1b/full_password_slider.py)

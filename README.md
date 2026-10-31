@@ -16,6 +16,8 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 
 **[Open the live Kryptos Light Laboratory on ChatGPT](https://kryptos-light-laboratory-rc2026.milky-lion-6014.chatgpt.site)** for interactive monument, light and cipher visualizations. Its geometry is illustrative, not a surveyed physical reconstruction. The downloadable fold-and-slide HTML below is a separate offline research artifact; the live Site includes the manual row/column overlay and synthetic projection diagnostic ([complete version 19 source archive and restore instructions](docs/site-source/light-laboratory-v19-20261031/README.md)). The reviewed photographic record has zero certified pairs or real fits; this does not show that accessible photos cannot yield them. The predefined integer row/column scan is now calibrated in the research report below; other manual exploration remains descriptive.
 
+The [finite 71-hit external review](research/finite-prior-art-20261031/README.md) now accounts for duplicates, tools and unsupported claims alongside implemented models; it admits no new cipher run.
+
 ## Start here
 
 | If you want to… | Read |

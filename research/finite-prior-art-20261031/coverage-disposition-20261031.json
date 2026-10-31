@@ -1,0 +1,1558 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-31",
+  "scope": "Original71-hit discovery set; prior evidence carried forward; read-only source review, no external code execution or target searches",
+  "summary": {
+    "discovery_hits": 71,
+    "disposition_counts": {
+      "implemented_k4": 33,
+      "irrelevant": 4,
+      "unsupported_solution_claim": 13,
+      "documentation_only": 8,
+      "unavailable": 2,
+      "fork_duplicate": 11
+    },
+    "distinct_project_groups": 60,
+    "relevant_nonempty_unique_project_groups": 54,
+    "relevant_research_lineages_collapsing_mproffitt_successor": 53,
+    "documentation_or_source_read_repositories": 59,
+    "source_file_inspected_repositories": 39,
+    "named_result_file_inspected_repositories": 6,
+    "newly_source_inspected_repositories": 31,
+    "independent_reproductions": 0,
+    "new_hypotheses_admitted": 0
+  },
+  "records": [
+    {
+      "discovery_index": 0,
+      "repo": "patrickkellogg/Kryptos",
+      "pin": "df19332c2771c804bd7a5fb885d36184708ea3a2",
+      "classification": "implemented_k4",
+      "unique_project": "patrickkellogg/Kryptos",
+      "evidence_level": "documentation inspected (carried forward)",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/patrickkellogg/Kryptos/tree/df19332c2771c804bd7a5fb885d36184708ea3a2"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 1,
+      "repo": "RichardBean/k4testing",
+      "pin": "6a5e3cb200d5ab72a62bb7f5124b4fdf163faf8c",
+      "classification": "implemented_k4",
+      "unique_project": "RichardBean/k4testing",
+      "evidence_level": "source/model inspected (carried forward)",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/RichardBean/k4testing/tree/6a5e3cb200d5ab72a62bb7f5124b4fdf163faf8c"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 2,
+      "repo": "glthr/K4nundrum",
+      "pin": "e5356d6ec8c1e93845542e3be1faaf55b7a90400",
+      "classification": "implemented_k4",
+      "unique_project": "glthr/K4nundrum",
+      "evidence_level": "documentation inspected (carried forward)",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/glthr/K4nundrum/tree/e5356d6ec8c1e93845542e3be1faaf55b7a90400"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 3,
+      "repo": "bambapappa/kryptoskatt",
+      "pin": "b8aa4722729e0bfa1102d17c4d6c0a0e9f6aca91",
+      "classification": "irrelevant",
+      "unique_project": "bambapappa/kryptoskatt",
+      "related_project": null,
+      "evidence_level": "documentation inspected",
+      "inspected_files": [
+        "README.md"
+      ],
+      "source_urls": [
+        "https://github.com/bambapappa/kryptoskatt/blob/b8aa4722729e0bfa1102d17c4d6c0a0e9f6aca91/README.md"
+      ],
+      "conclusion": "Swedish cryptocurrency tax calculator; K4 means tax form, not Kryptos.",
+      "independent_reproduction": false,
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 4,
+      "repo": "speakeasy/Kryptos",
+      "pin": "73794cd1d5a349c800ad46b09d37e67f7aafdf9e",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "speakeasy/Kryptos",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "kryp.php"
+      ],
+      "source_urls": [
+        "https://github.com/speakeasy/Kryptos/blob/73794cd1d5a349c800ad46b09d37e67f7aafdf9e/README.md",
+        "https://github.com/speakeasy/Kryptos/blob/73794cd1d5a349c800ad46b09d37e67f7aafdf9e/kryp.php"
+      ],
+      "conclusion": "README explicitly retracts solved claim; deletes V25, overwrites33\u201335 as SOS, column rotations9/32 and manually scrambled K1-derived pad; PHP fragment/permutation tooling exists, no canonical97-letter recovery.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 5,
+      "repo": "mproffitt/PyKryptos",
+      "pin": "afff6e487823c81339e586aa0a3c35bbea715730",
+      "classification": "implemented_k4",
+      "unique_project": "mproffitt/PyKryptos",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "pykryptos/cipher.py",
+        "pykryptos/mengenlehreuhr.py"
+      ],
+      "source_urls": [
+        "https://github.com/mproffitt/PyKryptos/blob/afff6e487823c81339e586aa0a3c35bbea715730/README.md",
+        "https://github.com/mproffitt/PyKryptos/blob/afff6e487823c81339e586aa0a3c35bbea715730/pykryptos/cipher.py",
+        "https://github.com/mproffitt/PyKryptos/blob/afff6e487823c81339e586aa0a3c35bbea715730/pykryptos/mengenlehreuhr.py"
+      ],
+      "conclusion": "Mengenlehreuhr lamp-sum additive/subtractive stream:23 lamp labels from merged alphabet, but arithmetic remains A1\u2013Z26; consume ciphertext on even seconds, step bysecond/minute and configurable start. PoC, no full-time-space completion receipt.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 6,
+      "repo": "rayborg/kryptos-k4-dashboard",
+      "pin": "3144f542ffb92ce531f4305de6e1937f4aedfda7",
+      "classification": "implemented_k4",
+      "unique_project": "rayborg/kryptos-k4-dashboard",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "src/lib/ciphers.ts"
+      ],
+      "source_urls": [
+        "https://github.com/rayborg/kryptos-k4-dashboard/blob/3144f542ffb92ce531f4305de6e1937f4aedfda7/README.md",
+        "https://github.com/rayborg/kryptos-k4-dashboard/blob/3144f542ffb92ce531f4305de6e1937f4aedfda7/src/lib/ciphers.ts"
+      ],
+      "conclusion": "Interactive research workbench implements Vigenere/Beaufort/variant Beaufort, Caesar, Atbash, rail fence, rectangular rotation and ragged keyword columnar.100-method registry is not100 completed tests; private browser notebooks not bundled.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 7,
+      "repo": "louis49/K4",
+      "pin": "7a163b0116aa56fec0c35e1cff67fd819cb7e8c7",
+      "classification": "documentation_only",
+      "unique_project": "louis49/K4",
+      "related_project": null,
+      "evidence_level": "documentation inspected",
+      "inspected_files": [
+        "doc/paper.tex"
+      ],
+      "source_urls": [
+        "https://github.com/louis49/K4/blob/7a163b0116aa56fec0c35e1cff67fd819cb7e8c7/doc/paper.tex"
+      ],
+      "conclusion": "Vectorial Polybius shortest-mod5 compass/clock paper; W-reset KRYPTOS cycle predicts21/22 of24 anchor classes, Monte Carlo claims and W multiset symmetry. Explicitly nonpredictive for73 unknowns, not algorithm. Claimed script/observations reproduction scripts absent: tree only doc/paper.tex and PDF.",
+      "independent_reproduction": false,
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 8,
+      "repo": "ActiveTK/dekrypt",
+      "pin": "992c9668b9f0783221cb570abbff969e59cbf27c",
+      "classification": "implemented_k4",
+      "unique_project": "ActiveTK/dekrypt",
+      "evidence_level": "source/model inspected (carried forward)",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": true,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/ActiveTK/dekrypt/tree/992c9668b9f0783221cb570abbff969e59cbf27c"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 9,
+      "repo": "joquist/kryptos-radial",
+      "pin": null,
+      "classification": "unavailable",
+      "unique_project": "joquist/kryptos-radial",
+      "related_project": null,
+      "evidence_level": "metadata/error only",
+      "inspected_files": [],
+      "source_urls": [],
+      "conclusion": "Public repository metadata accessible but empty Git repository: commits endpoint409, no HEAD or content.",
+      "independent_reproduction": false,
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 10,
+      "repo": "eedwards4/k4",
+      "pin": "99b2c8dd3f40eda00856bcc5e9df126f8ceaa0d8",
+      "classification": "documentation_only",
+      "unique_project": "eedwards4/k4",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "main.cpp"
+      ],
+      "source_urls": [
+        "https://github.com/eedwards4/k4/blob/99b2c8dd3f40eda00856bcc5e9df126f8ceaa0d8/README.md",
+        "https://github.com/eedwards4/k4/blob/99b2c8dd3f40eda00856bcc5e9df126f8ceaa0d8/main.cpp"
+      ],
+      "conclusion": "README intent only; sole main.cpp prints Hello World. No cipher implementation.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 11,
+      "repo": "TTFH/KRYPTOS",
+      "pin": "496976ebe008f9a5eaef8c52bb8ad06c3a4917f5",
+      "classification": "documentation_only",
+      "unique_project": "TTFH/KRYPTOS",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "main.cpp",
+        "src/jim/K4.h"
+      ],
+      "source_urls": [
+        "https://github.com/TTFH/KRYPTOS/blob/496976ebe008f9a5eaef8c52bb8ad06c3a4917f5/main.cpp",
+        "https://github.com/TTFH/KRYPTOS/blob/496976ebe008f9a5eaef8c52bb8ad06c3a4917f5/src/jim/K4.h"
+      ],
+      "conclusion": "K1\u2013K3 implementation collection; K4.h only finds ciphertext crib substrings and prints known plaintext, with leading? input. Explicit unsolved exercise, not K4 search.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 12,
+      "repo": "j1g3n/K4-Solutions",
+      "pin": "16094875f697e7f4a9e9b3190c7cb1bf698f1bf5",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "j1g3n/K4-Solutions",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "k4-clean"
+      ],
+      "source_urls": [
+        "https://github.com/j1g3n/K4-Solutions/blob/16094875f697e7f4a9e9b3190c7cb1bf698f1bf5/README.md",
+        "https://github.com/j1g3n/K4-Solutions/blob/16094875f697e7f4a9e9b3190c7cb1bf698f1bf5/k4-clean"
+      ],
+      "conclusion": "Magnetic compass claimed solution; k4-clean hardcodes5 block alphabets/seeds and per-character drag-key strings. Geographic provenance of almost message-length key not established; no independent recovery/authentication.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 13,
+      "repo": "sanjacob/KRYPTOS",
+      "pin": "3c1355f266b7e85be1ca5b8dda3fcac078d6ae48",
+      "classification": "documentation_only",
+      "unique_project": "sanjacob/KRYPTOS",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "utils/solutions.ts"
+      ],
+      "source_urls": [
+        "https://github.com/sanjacob/KRYPTOS/blob/3c1355f266b7e85be1ca5b8dda3fcac078d6ae48/README.md",
+        "https://github.com/sanjacob/KRYPTOS/blob/3c1355f266b7e85be1ca5b8dda3fcac078d6ae48/utils/solutions.ts"
+      ],
+      "conclusion": "Interactive artwork/cipher manipulation UI, not completed K4 hypothesis test. utils/solutions.ts contains K1/K2 Vigenere and K3 rotation sequences but empty K4 entry.",
+      "independent_reproduction": false,
+      "classification_note": "K4-specific disposition: generic/K1\u2013K3 implementation exists but no implemented K4 experiment established.",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 14,
+      "repo": "PrabhaharanNM/kryptos",
+      "pin": "468e2a33a9befffb5891589bf19f656e9fc0b4b8",
+      "classification": "fork_duplicate",
+      "unique_project": "kavinbharathii/kryptos",
+      "related_project": null,
+      "evidence_level": "documentation inspected",
+      "inspected_files": [
+        "README.md"
+      ],
+      "source_urls": [
+        "https://github.com/PrabhaharanNM/kryptos/blob/468e2a33a9befffb5891589bf19f656e9fc0b4b8/README.md"
+      ],
+      "conclusion": "Unmarked duplicate of kavinbharathii/kryptos: identical blob SHA for README, main.py, sketch.ipynb,viz.ipynb,sketch.md and UI files; both metadata fork=false. No independent experiment count.",
+      "independent_reproduction": false,
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 15,
+      "repo": "scott-dunphy/kryptos-k4",
+      "pin": "a75178587efe9401ebf2a4edf3828472dd6fb2a2",
+      "classification": "implemented_k4",
+      "unique_project": "scott-dunphy/kryptos-k4",
+      "evidence_level": "source/model inspected (carried forward)",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/scott-dunphy/kryptos-k4/tree/a75178587efe9401ebf2a4edf3828472dd6fb2a2"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 16,
+      "repo": "kavinbharathii/kryptos",
+      "pin": "c12ffc544a0746fe67ab08c86b87a4cf50690d4b",
+      "classification": "implemented_k4",
+      "unique_project": "kavinbharathii/kryptos",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "main.py"
+      ],
+      "source_urls": [
+        "https://github.com/kavinbharathii/kryptos/blob/c12ffc544a0746fe67ab08c86b87a4cf50690d4b/README.md",
+        "https://github.com/kavinbharathii/kryptos/blob/c12ffc544a0746fe67ab08c86b87a4cf50690d4b/main.py"
+      ],
+      "conclusion": "Basic Caesar/keyed Vigenere, implied-key and frequency helpers; main executes30-step repeated keyed-Vigenere cycle of NORTHEAST using DCYYGCKAZ, stopping on return. No completed canonical K4 recovery/search receipt.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 17,
+      "repo": "mfascia/Kryptos",
+      "pin": "4b85f9c966edf8953ee7f28d20009229d4087db1",
+      "classification": "implemented_k4",
+      "unique_project": "mfascia/Kryptos",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "kryptos.py",
+        "kryptos.cpp"
+      ],
+      "source_urls": [
+        "https://github.com/mfascia/Kryptos/blob/4b85f9c966edf8953ee7f28d20009229d4087db1/README.md",
+        "https://github.com/mfascia/Kryptos/blob/4b85f9c966edf8953ee7f28d20009229d4087db1/kryptos.py",
+        "https://github.com/mfascia/Kryptos/blob/4b85f9c966edf8953ee7f28d20009229d4087db1/kryptos.cpp"
+      ],
+      "conclusion": "KRYPTOS-alphabet dictionary Vigenere after all97 cyclic shifts; crib-letter multiset plus CLOCK-anywhere filter and frequency rank. C++ comment reports nothing interesting. Alternate rotation2..48 function present but disabled in main; Python K4 search unreachable after exit(). No exact whole-crib exclusion.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 18,
+      "repo": "mproffitt/kryptos",
+      "pin": "ad657f1fec153529cfbe28162468fe782d070728",
+      "classification": "implemented_k4",
+      "unique_project": "mproffitt/kryptos",
+      "related_project": "mproffitt/PyKryptos",
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "kryptos/rulesengine.py",
+        "kryptos/cipher.py"
+      ],
+      "source_urls": [
+        "https://github.com/mproffitt/kryptos/blob/ad657f1fec153529cfbe28162468fe782d070728/README.md",
+        "https://github.com/mproffitt/kryptos/blob/ad657f1fec153529cfbe28162468fe782d070728/kryptos/rulesengine.py",
+        "https://github.com/mproffitt/kryptos/blob/ad657f1fec153529cfbe28162468fe782d070728/kryptos/cipher.py"
+      ],
+      "conclusion": "Related same-author successor to PyKryptos: ciphertext and Z-distance lacuna table, occurrence-toggled polarity and many index/parity/mod5/mod15 conditional rules determine table/quadrant/order. Partial source/model inspection, no bounded search or authenticated output; do not count as independent corroboration of PyKryptos.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 19,
+      "repo": "qulle/kryptos",
+      "pin": "41a0865b3be13503bb4534c7fa4a85cc931b4304",
+      "classification": "documentation_only",
+      "unique_project": "qulle/kryptos",
+      "related_project": null,
+      "evidence_level": "documentation inspected",
+      "inspected_files": [
+        "README.md"
+      ],
+      "source_urls": [
+        "https://github.com/qulle/kryptos/blob/41a0865b3be13503bb4534c7fa4a85cc931b4304/README.md"
+      ],
+      "conclusion": "Static HTML visualizations of ciphertext and public crib placement; README says evening rendering project, no search.",
+      "independent_reproduction": false,
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 20,
+      "repo": "markmnl/kryptos",
+      "pin": "090347cbd3fd9329d59df3edcf999964edc9b873",
+      "classification": "documentation_only",
+      "unique_project": "markmnl/kryptos",
+      "related_project": null,
+      "evidence_level": "documentation inspected",
+      "inspected_files": [
+        "README.md",
+        "NEXT_STEPS.md",
+        "WHAT_WE_TRIED.md",
+        "EVIDENCE.md"
+      ],
+      "source_urls": [
+        "https://github.com/markmnl/kryptos/blob/090347cbd3fd9329d59df3edcf999964edc9b873/README.md",
+        "https://github.com/markmnl/kryptos/blob/090347cbd3fd9329d59df3edcf999964edc9b873/NEXT_STEPS.md",
+        "https://github.com/markmnl/kryptos/blob/090347cbd3fd9329d59df3edcf999964edc9b873/WHAT_WE_TRIED.md",
+        "https://github.com/markmnl/kryptos/blob/090347cbd3fd9329d59df3edcf999964edc9b873/EVIDENCE.md"
+      ],
+      "conclusion": "Extensive64-evidence-ID report-only summary of prior experiments, recovery failures and proposed improvements; actual code/logs live in unbundled sibling ../kryptos. Hash manifest is not accessible source execution evidence. No new execution-ready cipher in NEXT_STEPS.",
+      "independent_reproduction": false,
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 21,
+      "repo": "ogio3/k4",
+      "pin": "a84594a3c76ce1d5daf8894a01f1eb10729e217a",
+      "classification": "implemented_k4",
+      "unique_project": "ogio3/k4",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "bearing.py"
+      ],
+      "source_urls": [
+        "https://github.com/ogio3/k4/blob/a84594a3c76ce1d5daf8894a01f1eb10729e217a/README.md",
+        "https://github.com/ogio3/k4/blob/a84594a3c76ce1d5daf8894a01f1eb10729e217a/bearing.py"
+      ],
+      "conclusion": "Bearing/sensitivity calculation only, not cipher: R coordinate is an estimated WSW location relative to S and code comment expressly chooses it to land near ENE. Not independent surveyed geometry; no letter mapping. Source contradicts any claim of measured0.2degree agreement.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 22,
+      "repo": "mmtmn/kryptos-k4-neural-network-attempt",
+      "pin": "6a0f6850944b8e65e2bf7da1d2c30d18636fa238",
+      "classification": "implemented_k4",
+      "unique_project": "mmtmn/kryptos-k4-neural-network-attempt",
+      "evidence_level": "documentation inspected (carried forward)",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/mmtmn/kryptos-k4-neural-network-attempt/tree/6a0f6850944b8e65e2bf7da1d2c30d18636fa238"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 23,
+      "repo": "akaalias/k4",
+      "pin": "a59c4120da2e52de23a6a23aa7fbd9157f292446",
+      "classification": "implemented_k4",
+      "unique_project": "akaalias/k4",
+      "evidence_level": "source/model inspected (carried forward)",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/akaalias/k4/tree/a59c4120da2e52de23a6a23aa7fbd9157f292446"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 24,
+      "repo": "vinivosh/kryptos-brute-force",
+      "pin": "562af2855d625e480234bbc4adceab0c5aaf678a",
+      "classification": "documentation_only",
+      "unique_project": "vinivosh/kryptos-brute-force",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "bruteForce.ipynb"
+      ],
+      "source_urls": [
+        "https://github.com/vinivosh/kryptos-brute-force/blob/562af2855d625e480234bbc4adceab0c5aaf678a/README.md",
+        "https://github.com/vinivosh/kryptos-brute-force/blob/562af2855d625e480234bbc4adceab0c5aaf678a/bruteForce.ipynb"
+      ],
+      "conclusion": "Notebook implements English bigram score and modular-step transposition; actual saved loop applies to K3 only, not K4. Embedded outputs are scoring timings/K3 display, not K4 result. Implemented research precursor, zero K4 tests established.",
+      "independent_reproduction": false,
+      "classification_note": "K4-specific disposition: generic/K1\u2013K3 implementation exists but no implemented K4 experiment established.",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 25,
+      "repo": "kaawyawawge/KryptosK4",
+      "pin": "22837d4239246c58174eb61988d80ad5127ec8ca",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "kaawyawawge/KryptosK4",
+      "related_project": null,
+      "evidence_level": "documentation inspected",
+      "inspected_files": [
+        "README.md"
+      ],
+      "source_urls": [
+        "https://github.com/kaawyawawge/KryptosK4/blob/22837d4239246c58174eb61988d80ad5127ec8ca/README.md"
+      ],
+      "conclusion": "RepeatingKR shifts\u22122,\u22122,\u22121 reset onW followed by underdefined14x7 jumble claimed; no explicit complete reversible97-letter route/key or independently checked plaintext in inspected README. PDF not inspected.",
+      "independent_reproduction": false,
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 26,
+      "repo": "GrafSpiel/GROMARK",
+      "pin": "7434cd91f0479bfd3a56dbc85dac513a706bd999",
+      "classification": "implemented_k4",
+      "unique_project": "GrafSpiel/GROMARK",
+      "related_project": null,
+      "evidence_level": "source/model inspected",
+      "inspected_files": [
+        "README.md",
+        "k4_constraints.py",
+        "gromark_solver.py"
+      ],
+      "source_urls": [
+        "https://github.com/GrafSpiel/GROMARK/blob/7434cd91f0479bfd3a56dbc85dac513a706bd999/README.md",
+        "https://github.com/GrafSpiel/GROMARK/blob/7434cd91f0479bfd3a56dbc85dac513a706bd999/k4_constraints.py",
+        "https://github.com/GrafSpiel/GROMARK/blob/7434cd91f0479bfd3a56dbc85dac513a706bd999/gromark_solver.py"
+      ],
+      "conclusion": "Gromark variants and primer enumeration code, but gromark_solver.py hardcodes erroneous zero-based crib starts20/48 and default70% matches. k4_constraints.py uses10/62 and expands bylasttwo digits rather than standard lag-L/lag-(L\u22121). No canonical K4 exclusion/reliable Bean replication inferred.",
+      "independent_reproduction": false,
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 27,
+      "repo": "reggiechan74/kryptos-k4",
+      "pin": "71712a60ff06b0caad1177ba674f251fa42641c4",
+      "classification": "irrelevant",
+      "unique_project": "reggiechan74/kryptos-k4",
+      "evidence_level": "local register read",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/reggiechan74/kryptos-k4/tree/71712a60ff06b0caad1177ba674f251fa42641c4"
+      ],
+      "conclusion": "Own project, excluded from external-prior-art counts; not an independent external result.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 28,
+      "repo": "rbonifacino/kryptos-k4",
+      "pin": "1da0288d88c09bb3c35089f1223333fc9dc58a6c",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "rbonifacino/kryptos-k4",
+      "evidence_level": "Documentation inspected",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/rbonifacino/kryptos-k4/blob/1da0288d88c09bb3c35089f1223333fc9dc58a6c/k4.md",
+        "https://github.com/rbonifacino/kryptos-k4/blob/1da0288d88c09bb3c35089f1223333fc9dc58a6c/k4-generative-method.md"
+      ],
+      "conclusion": "Running-key reconstruction with header1\u20134/nulls34\u201335,66,94\u201397; derives key=(C-P)mod26 from proposed plaintext. Generative chronology narrative does not establish independent frozen source-to-key derivation. No accepted solution.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 29,
+      "repo": "hambern/kryptos-k4",
+      "pin": "b96b5fd648df70b63caa0446def5c88872edee6c",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "hambern/kryptos-k4",
+      "evidence_level": "documentation inspected (carried forward)",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/hambern/kryptos-k4/tree/b96b5fd648df70b63caa0446def5c88872edee6c"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 30,
+      "repo": "keithadler/kryptos",
+      "pin": "714e7c252165e106b2b827eacab156c4005f2b90",
+      "classification": "implemented_k4",
+      "unique_project": "keithadler/kryptos",
+      "evidence_level": "Source/model and named result inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": true,
+      "source_urls": [
+        "https://github.com/keithadler/kryptos/blob/714e7c252165e106b2b827eacab156c4005f2b90/README.md",
+        "https://github.com/keithadler/kryptos/blob/714e7c252165e106b2b827eacab156c4005f2b90/SEARCH.md",
+        "https://github.com/keithadler/kryptos/blob/714e7c252165e106b2b827eacab156c4005f2b90/layer2.py",
+        "https://github.com/keithadler/kryptos/blob/714e7c252165e106b2b827eacab156c4005f2b90/results/17_layer_two.txt"
+      ],
+      "conclusion": "Two repeating keys u[i mod a]+v[i mod b],1<=a<=b<=26; same AZ orKRYPTOS axes,Vig/Beau. CRT mod2/13 exact consistency; skipszero-redundancy cells. Receipt932testable combinations,TWO survivors KA Beau12+15 and9+19. Not all two-layer periodic excluded.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 31,
+      "repo": "zeyeteam-debug/kryptos-k4-eliminations",
+      "pin": "00696f393c861db2dcfaf3adfef29823c601cf7a",
+      "classification": "implemented_k4",
+      "unique_project": "zeyeteam-debug/kryptos-k4-eliminations",
+      "evidence_level": "source/model inspected (carried forward)",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/zeyeteam-debug/kryptos-k4-eliminations/tree/00696f393c861db2dcfaf3adfef29823c601cf7a"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 32,
+      "repo": "slightofmind369/kryptos-k4-decryption",
+      "pin": "a451ccc429b2497eb27e68bdbea7db284c86b381",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "slightofmind369/kryptos-k4-decryption",
+      "evidence_level": "Documentation and source inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/slightofmind369/kryptos-k4-decryption/blob/a451ccc429b2497eb27e68bdbea7db284c86b381/README.md",
+        "https://github.com/slightofmind369/kryptos-k4-decryption/blob/a451ccc429b2497eb27e68bdbea7db284c86b381/decrypt.py"
+      ],
+      "conclusion": "Explicitly retracted July2025. decrypt.py ordinary Vig keyGONSCTGB uses malformed/truncated ciphertext,notcanonicalK4. No cryptanalytic evidence.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 33,
+      "repo": "anantnrg/kryptos",
+      "pin": "aa688b9d9bf90cc2a82edca21daad0a526111bcc",
+      "classification": "irrelevant",
+      "unique_project": "anantnrg/kryptos",
+      "evidence_level": "Tree and example source inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/anantnrg/kryptos/blob/aa688b9d9bf90cc2a82edca21daad0a526111bcc/ciphers/src/bin/substitution.rs"
+      ],
+      "conclusion": "Rust learning substitution example with KRYPTOS alphabet; no implementedK4analysis in complete6-filetree.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 34,
+      "repo": "Barneyjm/kryptos-k4",
+      "pin": "2db2722cc3f18c52d4d8369d7adc5a1db7e859d7",
+      "classification": "implemented_k4",
+      "unique_project": "Barneyjm/kryptos-k4",
+      "evidence_level": "source/model inspected (carried forward)",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": true,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/Barneyjm/kryptos-k4/tree/2db2722cc3f18c52d4d8369d7adc5a1db7e859d7"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 35,
+      "repo": "neuroretransmit/kryptos-k4",
+      "pin": "5a2a598cde181444769ef4fbe48dfb1bea12b44c",
+      "classification": "implemented_k4",
+      "unique_project": "neuroretransmit/kryptos-k4",
+      "evidence_level": "documentation inspected (carried forward)",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/neuroretransmit/kryptos-k4/tree/5a2a598cde181444769ef4fbe48dfb1bea12b44c"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 36,
+      "repo": "ZeroDay-Labz/kryptos-k4",
+      "pin": "854534543a93ddf2534758b620ae05cb36dd0a04",
+      "classification": "implemented_k4",
+      "unique_project": "ZeroDay-Labz/kryptos-k4",
+      "evidence_level": "Documentation and source/model inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/ZeroDay-Labz/kryptos-k4/blob/854534543a93ddf2534758b620ae05cb36dd0a04/README.md",
+        "https://github.com/ZeroDay-Labz/kryptos-k4/blob/854534543a93ddf2534758b620ae05cb36dd0a04/docs/RESULTS.md",
+        "https://github.com/ZeroDay-Labz/kryptos-k4/blob/854534543a93ddf2534758b620ae05cb36dd0a04/k4/projection.py",
+        "https://github.com/ZeroDay-Labz/kryptos-k4/blob/854534543a93ddf2534758b620ae05cb36dd0a04/k4/chain.py"
+      ],
+      "conclusion": "Affine light-projection and overlays, boundedkeychains, many genericfamilies. Projection scope and threshold limitations specified in proposedrecords. Results are embedded documentation,not separately reproduced.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 37,
+      "repo": "malak333/kryptos-k4",
+      "pin": "de74e803ca17ad16227f834b94f818f02387f485",
+      "classification": "implemented_k4",
+      "unique_project": "malak333/kryptos-k4",
+      "evidence_level": "Documentation and source/model inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/malak333/kryptos-k4/blob/de74e803ca17ad16227f834b94f818f02387f485/README.md",
+        "https://github.com/malak333/kryptos-k4/blob/de74e803ca17ad16227f834b94f818f02387f485/src/analysis.rs",
+        "https://github.com/malak333/kryptos-k4/blob/de74e803ca17ad16227f834b94f818f02387f485/src/routes.rs",
+        "https://github.com/malak333/kryptos-k4/blob/de74e803ca17ad16227f834b94f818f02387f485/src/hypotheses.rs",
+        "https://github.com/malak333/kryptos-k4/blob/de74e803ca17ad16227f834b94f818f02387f485/experiments/STOPPED_LANES.md"
+      ],
+      "conclusion": "Rust fragment/route/statisticalCLI,notfullcipherrecovery. Generic adjacentmod10sumrecurrence on additivecribfragments; identity/reverse/width7/13 fragmentroutes,nondividingwidthsskipped. Stoppedlanes reports37sourcearchives allnonsignificant aftercorrection.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 38,
+      "repo": "tylerj-spec/kryptos-k4",
+      "pin": "c0e2a6847d0f7a505ccfa3bea2b0c58a5ccf2f3c",
+      "classification": "implemented_k4",
+      "unique_project": "tylerj-spec/kryptos-k4",
+      "evidence_level": "Documentation and source/model inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/tylerj-spec/kryptos-k4/blob/c0e2a6847d0f7a505ccfa3bea2b0c58a5ccf2f3c/README.md",
+        "https://github.com/tylerj-spec/kryptos-k4/blob/c0e2a6847d0f7a505ccfa3bea2b0c58a5ccf2f3c/HANDOFF.md",
+        "https://github.com/tylerj-spec/kryptos-k4/blob/c0e2a6847d0f7a505ccfa3bea2b0c58a5ccf2f3c/r40/PREREGISTRATION.md",
+        "https://github.com/tylerj-spec/kryptos-k4/blob/c0e2a6847d0f7a505ccfa3bea2b0c58a5ccf2f3c/r40/sealed/whole_family.cpp"
+      ],
+      "conclusion": "R40exactin-place arbitraryplaintextalphabet with7fixedcipheralphabets,2signs; chainadditionbase10primerlength5/6/7,base26length5,Carter/K1K3runningtexts. Wholefamilyequal-letteriff-equaly predicate;337634136settings0consistent reportedinhandoff. R41/R42description-only. Strongersolverwordmovesisnotnewcipher.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 39,
+      "repo": "polancan/kryptos-k4-physical-crypto-research",
+      "pin": null,
+      "classification": "unavailable",
+      "unique_project": "polancan/kryptos-k4-physical-crypto-research",
+      "evidence_level": "Repository metadata and API empty response",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "source_urls": [],
+      "conclusion": "Publicrepoexists(size0),contents404explicitly 'This repository is empty';mainbranchnotfound. No source/pin.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 40,
+      "repo": "asynchronous-x/kryptos_k4_solver",
+      "pin": "e1518a12b8819d1faf77cec396d37fd4dc0b105d",
+      "classification": "implemented_k4",
+      "unique_project": "asynchronous-x/kryptos_k4_solver",
+      "evidence_level": "documentation inspected (carried forward)",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/asynchronous-x/kryptos_k4_solver/tree/e1518a12b8819d1faf77cec396d37fd4dc0b105d"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 41,
+      "repo": "claudlos/Kryptos",
+      "pin": "c9366802759f9d3185c2a2bedb8d4e2dd41bc400",
+      "classification": "implemented_k4",
+      "unique_project": "claudlos/Kryptos",
+      "evidence_level": "Documentation,selectedsource and namedresult inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": true,
+      "source_urls": [
+        "https://github.com/claudlos/Kryptos/blob/c9366802759f9d3185c2a2bedb8d4e2dd41bc400/README.md",
+        "https://github.com/claudlos/Kryptos/blob/c9366802759f9d3185c2a2bedb8d4e2dd41bc400/strategy16_sat_elimination.py",
+        "https://github.com/claudlos/Kryptos/blob/c9366802759f9d3185c2a2bedb8d4e2dd41bc400/strategy40_mathematical_key_generation.py",
+        "https://github.com/claudlos/Kryptos/blob/c9366802759f9d3185c2a2bedb8d4e2dd41bc400/runs/mathematical_key_generation.json"
+      ],
+      "conclusion": "Toolkit40strategies; inspectedSATdriverandpositionalkeygenerator. SATboundedperiods1\u201330,columnar2\u201315(timeout5s,fallback<=10),fixedprimerautokey,5squaresBifidperiods5\u201310,compoundvp3/5/7cp3\u20137. Mathematicalkeyreceipt3435attempts,27retainedallforcedinterpolated24cribfits:constructionnotdiscovery.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 42,
+      "repo": "nitsuah/kryptos",
+      "pin": "904e34ab63348813b61a6589f1650ae46ec5dafb",
+      "classification": "implemented_k4",
+      "unique_project": "nitsuah/kryptos",
+      "evidence_level": "source/model inspected (carried forward)",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/nitsuah/kryptos/tree/904e34ab63348813b61a6589f1650ae46ec5dafb"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 43,
+      "repo": "aciderix/kryptos-research-handoff",
+      "pin": "6b82bd5364b6fea78b6ef3cfd73fafaf85ac3462",
+      "classification": "implemented_k4",
+      "unique_project": "aciderix/kryptos-research-handoff",
+      "evidence_level": "Documentation,source/model and namedresult inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": true,
+      "source_urls": [
+        "https://github.com/aciderix/kryptos-research-handoff/blob/6b82bd5364b6fea78b6ef3cfd73fafaf85ac3462/README.md",
+        "https://github.com/aciderix/kryptos-research-handoff/blob/6b82bd5364b6fea78b6ef3cfd73fafaf85ac3462/audits/autocle_groupes_2026_09_25/README.md",
+        "https://github.com/aciderix/kryptos-research-handoff/blob/6b82bd5364b6fea78b6ef3cfd73fafaf85ac3462/audits/autocle_groupes_2026_09_25/t36_autocle_groupes.py",
+        "https://github.com/aciderix/kryptos-research-handoff/blob/6b82bd5364b6fea78b6ef3cfd73fafaf85ac3462/audits/autocle_groupes_2026_09_25/results_t36.txt"
+      ],
+      "conclusion": "T36lag7plaintextautokey:sharedinjectiveletterembedding into23abeliangroupsorders26\u201336,67group/signcases.17chaineqs;CP-SATmaxsatisfied,intermediatelettersrelaxed. NamedreceiptallK4optimumpositive1or2violations. Includes2^5XOR,3^3,6x6. Not allgroups/lags/independentembeddings;noindependentreproduction.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 44,
+      "repo": "FlaviaOrtiz307/k4-evidence-gap",
+      "pin": "559daaa6d4348285423a4ee7120c02f0a08d16ea",
+      "classification": "implemented_k4",
+      "unique_project": "FlaviaOrtiz307/k4-evidence-gap",
+      "evidence_level": "Documentation and embedded executable model inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/FlaviaOrtiz307/k4-evidence-gap/blob/559daaa6d4348285423a4ee7120c02f0a08d16ea/README.md",
+        "https://github.com/FlaviaOrtiz307/k4-evidence-gap/blob/559daaa6d4348285423a4ee7120c02f0a08d16ea/K4-Verified-Negative-%20%20Results.md"
+      ],
+      "conclusion": "MarkdownwithinlinePythonexplicitperiod19/20/21/24/42AZVigcontradictions,directmonoalphabeticF=>E/Oinconsistency,26distinctCTsymbolsagainst25symboloutput. Expectedoutputnotexecutionreceipt. Alreadylocalperiodic/monoalpha/5x5coverage.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 45,
+      "repo": "soma2-stack/kryptos-k4-research",
+      "pin": "4418542675335f04b3d17eb7acd12cd2d0f7b5a5",
+      "classification": "documentation_only",
+      "unique_project": "soma2-stack/kryptos-k4-research",
+      "evidence_level": "Documentation inspected",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/soma2-stack/kryptos-k4-research/blob/4418542675335f04b3d17eb7acd12cd2d0f7b5a5/README.md",
+        "https://github.com/soma2-stack/kryptos-k4-research/blob/4418542675335f04b3d17eb7acd12cd2d0f7b5a5/docs/negative-results.md",
+        "https://github.com/soma2-stack/kryptos-k4-research/blob/4418542675335f04b3d17eb7acd12cd2d0f7b5a5/docs/next-steps.md"
+      ],
+      "conclusion": "Inheritedconversationnegative-table,notcodeorreceipts. TOKIO57973routecorpus942cases,935unfinisheddouble-routecases explicitlyneedreconstruction/sourcehash. 4x22WorldClockandselectorproposalsunderspecified;noteligiblefreshhypotheses.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 46,
+      "repo": "sofiarmartins88-ops/Kryptos-K4-Solution",
+      "pin": "149acec142fa9721aa97601dc90ffdf52cc2193d",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "sofiarmartins88-ops/Kryptos-K4-Solution",
+      "evidence_level": "Documentation and source inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/sofiarmartins88-ops/Kryptos-K4-Solution/blob/149acec142fa9721aa97601dc90ffdf52cc2193d/README.md",
+        "https://github.com/sofiarmartins88-ops/Kryptos-K4-Solution/blob/149acec142fa9721aa97601dc90ffdf52cc2193d/k4_double_vigenere.py",
+        "https://github.com/sofiarmartins88-ops/Kryptos-K4-Solution/blob/149acec142fa9721aa97601dc90ffdf52cc2193d/k4_validation.py"
+      ],
+      "conclusion": "ClaimsdoubleVigKRYPTOSwithreverseAtbash. k4_validation.py explicitlysimulateschecks,prints97/97andincrementscounterwithoutassertingactualciphertext;claimedcribcoordinateswrong. Nosolutionevidence.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 47,
+      "repo": "chillhackr/kryptos",
+      "pin": "96916a83f4b0478ff5a79e4936215a5a1773085b",
+      "classification": "irrelevant",
+      "unique_project": "chillhackr/kryptos",
+      "evidence_level": "Documentation and complete tree inspected",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/chillhackr/kryptos/blob/96916a83f4b0478ff5a79e4936215a5a1773085b/README.md"
+      ],
+      "conclusion": "K1/K2learningimplementation;READMEK3/K4sectionsblankandhope toattemptK4. NotcompletedK4hypothesistests.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 48,
+      "repo": "Sovi11/kryptos-k4-cryptanalysis",
+      "pin": "11d95375795e675c06177fe89bc07a8fe5a71fc1",
+      "classification": "implemented_k4",
+      "unique_project": "Sovi11/kryptos-k4-cryptanalysis",
+      "evidence_level": "source/model inspected (carried forward)",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": true,
+      "carried_forward": true,
+      "independent_reproduction": false,
+      "source_urls": [
+        "https://github.com/Sovi11/kryptos-k4-cryptanalysis/tree/11d95375795e675c06177fe89bc07a8fe5a71fc1"
+      ],
+      "conclusion": "Earlier reviewed evidence carried forward without redundant source reinspection; see existing EXT register for precise limits.",
+      "discovery_member": true,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 49,
+      "repo": "LazaUK/AIFoundry-GPT5-KryptosCIA",
+      "pin": "6fd51a31708df580f513d98c736ac6917bf305a6",
+      "classification": "implemented_k4",
+      "unique_project": "LazaUK/AIFoundry-GPT5-KryptosCIA",
+      "evidence_level": "Documentation and selected source/model inspected",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "source_urls": [
+        "https://github.com/LazaUK/AIFoundry-GPT5-KryptosCIA/blob/6fd51a31708df580f513d98c736ac6917bf305a6/README.md",
+        "https://github.com/LazaUK/AIFoundry-GPT5-KryptosCIA/blob/6fd51a31708df580f513d98c736ac6917bf305a6/Kryptos_VariantA.py"
+      ],
+      "conclusion": "VariantA lampcycle23/24,optionalreverse/snake/seconds,row/color/quarterweights,linearposshiftphase;120000randomsamplesseed1337,eightthemeVigkeys. Two advertisedstageorderscommute(additivesubtractions),notdistinctoperators. Noresultreceiptorcompletionproof. B/C/Ddocumentationonly.",
+      "independent_reproduction": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 50,
+      "repo": "BerndAdameit/k4testing",
+      "pin": "84f76135dc6f1d33fb7a7049b8064db8635719d5",
+      "classification": "fork_duplicate",
+      "unique_project": "RichardBean/k4testing",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "evidence_level": "metadata/history inspected",
+      "source_urls": [],
+      "conclusion": "Declared fork; exact head commit is available in parent repository. No new unique code at this head.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 51,
+      "repo": "KryptosSolved/kryptos-k4-structural-solutio",
+      "pin": "070c3186249cb6f17e64cf203cd1cf1a034817ea",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "KryptosSolved/kryptos-k4-structural-solutio",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "documentation inspected",
+      "source_urls": [
+        "https://github.com/KryptosSolved/kryptos-k4-structural-solutio/blob/070c3186249cb6f17e64cf203cd1cf1a034817ea/README.md"
+      ],
+      "conclusion": "README claims million-test convergence; only other tree item is ZIP, not inspected (binary connector limitation). No readable model or receipt established.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 52,
+      "repo": "lpablo8866/Kryptos-K4-Resonance-Protocol",
+      "pin": "495865603471be06951ecd73ec1316ed6c5d6cd1",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "lpablo8866/Kryptos-K4-Resonance-Protocol",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "documentation inspected",
+      "source_urls": [
+        "https://github.com/lpablo8866/Kryptos-K4-Resonance-Protocol/blob/495865603471be06951ecd73ec1316ed6c5d6cd1/README.md"
+      ],
+      "conclusion": "README-only resonance/48.5-axis/Hollow-state narrative; no executable encryption mapping, keys or receipt.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 53,
+      "repo": "old-zet/kryptos-k4_vigenere-symmetry",
+      "pin": "da72b7e0d5d202c55d8ac280653026df8fb924bc",
+      "classification": "implemented_k4",
+      "unique_project": "old-zet/kryptos-k4_vigenere-symmetry",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "source/model inspected",
+      "source_urls": [
+        "https://github.com/old-zet/kryptos-k4_vigenere-symmetry/blob/da72b7e0d5d202c55d8ac280653026df8fb924bc/README.md",
+        "https://github.com/old-zet/kryptos-k4_vigenere-symmetry/blob/da72b7e0d5d202c55d8ac280653026df8fb924bc/kryptos-k4_deciphering/decipher_k4.py"
+      ],
+      "conclusion": "Progressive row i+start keyed-table decoding followed by random 5x5 row-reflection substitution with a randomly merged letter pair. Infinite random loop stops at caller-allowed mismatches (default2), only supplied substring, no full-K4 or completed-negative receipt. Translation is symbol substitution, not position transposition; merged-pair handling is not a clean 26-letter permutation.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 54,
+      "repo": "Agusx1211/kryptos-k4-llm-guesser",
+      "pin": "3dfe6c5fa492e9925f72932339f9cf0193facc92",
+      "classification": "implemented_k4",
+      "unique_project": "Agusx1211/kryptos-k4-llm-guesser",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "source/model inspected",
+      "source_urls": [
+        "https://github.com/Agusx1211/kryptos-k4-llm-guesser/blob/3dfe6c5fa492e9925f72932339f9cf0193facc92/README.md",
+        "https://github.com/Agusx1211/kryptos-k4-llm-guesser/blob/3dfe6c5fa492e9925f72932339f9cf0193facc92/cmd/gen_correct/main.go"
+      ],
+      "conclusion": "Length-constrained LLM template completion (default probability floor0.01; optional fill-in-middle), not encryption recovery; source contains no K4 forward-cipher validation. Author explicitly says not serious solution.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 55,
+      "repo": "jlambov/KRYPTOS-K4-CIPHER-ANALYSIS",
+      "pin": "fedf5b85648c6e9b4b5526eab702591a75e083d6",
+      "classification": "implemented_k4",
+      "unique_project": "jlambov/KRYPTOS-K4-CIPHER-ANALYSIS",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "source/model inspected",
+      "source_urls": [
+        "https://github.com/jlambov/KRYPTOS-K4-CIPHER-ANALYSIS/blob/fedf5b85648c6e9b4b5526eab702591a75e083d6/README.md",
+        "https://github.com/jlambov/KRYPTOS-K4-CIPHER-ANALYSIS/blob/fedf5b85648c6e9b4b5526eab702591a75e083d6/kryptos_k4_enhanced.html"
+      ],
+      "conclusion": "Browser AZ Vigenere, IC periods2\u201320, crib key recovery lengths8\u201316, 50 sampled keys per selected length8,9,10,11,12,14,16; custom plaintext autokey. Recovery confidence accumulates matches but does not reject contradictory repeated residues, so possible-key display not feasibility result. No saved completion receipt.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 56,
+      "repo": "grahamwaters/Kryptos",
+      "pin": "df19332c2771c804bd7a5fb885d36184708ea3a2",
+      "classification": "fork_duplicate",
+      "unique_project": "patrickkellogg/Kryptos",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "evidence_level": "metadata/history inspected",
+      "source_urls": [],
+      "conclusion": "Declared fork; exact head commit is available in parent repository. No new unique code at this head.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 57,
+      "repo": "roger-booth/kryptos",
+      "pin": "ad657f1fec153529cfbe28162468fe782d070728",
+      "classification": "fork_duplicate",
+      "unique_project": "mproffitt/kryptos",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "evidence_level": "metadata/history inspected",
+      "source_urls": [],
+      "conclusion": "Declared fork; exact head commit is available in parent repository. No new unique code at this head.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 58,
+      "repo": "adriancperez2/Kryptos",
+      "pin": "df19332c2771c804bd7a5fb885d36184708ea3a2",
+      "classification": "fork_duplicate",
+      "unique_project": "patrickkellogg/Kryptos",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "evidence_level": "metadata/history inspected",
+      "source_urls": [],
+      "conclusion": "Declared fork; exact head commit is available in parent repository. No new unique code at this head.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 59,
+      "repo": "ninyawee/Kryptos",
+      "pin": "df19332c2771c804bd7a5fb885d36184708ea3a2",
+      "classification": "fork_duplicate",
+      "unique_project": "patrickkellogg/Kryptos",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "evidence_level": "metadata/history inspected",
+      "source_urls": [],
+      "conclusion": "Declared fork; exact head commit is available in parent repository. No new unique code at this head.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 60,
+      "repo": "OPKOP-TRIVIUM-sha365/VK365-KRYPTOS-K4-CANONICAL-MODULE",
+      "pin": "c44520b259d12b64956f4de98e491e759f456cbe",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "OPKOP-TRIVIUM-sha365/VK365-KRYPTOS-K4-CANONICAL-MODULE",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "documentation inspected",
+      "source_urls": [
+        "https://github.com/OPKOP-TRIVIUM-sha365/VK365-KRYPTOS-K4-CANONICAL-MODULE/blob/c44520b259d12b64956f4de98e491e759f456cbe/README.md",
+        "https://github.com/OPKOP-TRIVIUM-sha365/VK365-KRYPTOS-K4-CANONICAL-MODULE/blob/c44520b259d12b64956f4de98e491e759f456cbe/k4_canonical.json"
+      ],
+      "conclusion": "Claims canonical known plaintext/closure rather than new solution. JSON supplies plaintext, hex-walk label, hash and self_encryption:true but no executable forward mapping or reproducible validation. Not authenticated solution.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 61,
+      "repo": "L51332/Kryptos",
+      "pin": "df19332c2771c804bd7a5fb885d36184708ea3a2",
+      "classification": "fork_duplicate",
+      "unique_project": "patrickkellogg/Kryptos",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "evidence_level": "metadata/history inspected",
+      "source_urls": [],
+      "conclusion": "Declared fork; exact head commit is available in parent repository. No new unique code at this head.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 62,
+      "repo": "simrit1/Kryptos-1",
+      "pin": "df19332c2771c804bd7a5fb885d36184708ea3a2",
+      "classification": "fork_duplicate",
+      "unique_project": "patrickkellogg/Kryptos",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "evidence_level": "metadata/history inspected",
+      "source_urls": [],
+      "conclusion": "Declared fork; exact head commit is available in parent repository. No new unique code at this head.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 63,
+      "repo": "estebanmartinezyahir-krypto/k4_cipher_script.py",
+      "pin": "fb156f09b9b754a5fca5d9840945f4c7334f065a",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "estebanmartinezyahir-krypto/k4_cipher_script.py",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "source/model inspected",
+      "source_urls": [
+        "https://github.com/estebanmartinezyahir-krypto/k4_cipher_script.py/blob/fb156f09b9b754a5fca5d9840945f4c7334f065a/README.md",
+        "https://github.com/estebanmartinezyahir-krypto/k4_cipher_script.py/blob/fb156f09b9b754a5fca5d9840945f4c7334f065a/TECHNICAL_REPORT.md",
+        "https://github.com/estebanmartinezyahir-krypto/k4_cipher_script.py/blob/fb156f09b9b754a5fca5d9840945f4c7334f065a/k4_cipher_script.py"
+      ],
+      "conclusion": "Partial anchor-shift claim; actual script subtracts global shift0\u201325 plus repeating pivots[5,16,13,12], accepts any listed root. CORTEX_K4 literal differs from canonical K4 starting FLRV..., despite label positions22\u201375; no canonical negative/positive conclusion. Actual .py has colon missing in README copy. Same project as Kriptosk4-.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 64,
+      "repo": "crypto9972746-boop/AI_Collaboration_Experiment",
+      "pin": "f040c011774a122e2c0512c7de27a08bc8967c2d",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "crypto9972746-boop/AI_Collaboration_Experiment",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "source/model inspected",
+      "source_urls": [
+        "https://github.com/crypto9972746-boop/AI_Collaboration_Experiment/blob/f040c011774a122e2c0512c7de27a08bc8967c2d/README.md",
+        "https://github.com/crypto9972746-boop/AI_Collaboration_Experiment/blob/f040c011774a122e2c0512c7de27a08bc8967c2d/K4_OFFICIAL_PUBLIC_SOLUTION_REPORT.md",
+        "https://github.com/crypto9972746-boop/AI_Collaboration_Experiment/blob/f040c011774a122e2c0512c7de27a08bc8967c2d/k4_final_geometric_verification.py"
+      ],
+      "conclusion": "Official-report claim K4 is survey log; inspected geometric verification explores A0 coordinates/bearings, multiple scaling choices and timestamp interpretations, not full invertible encryption mapping. Explicit code uncertainty about22:13; no independent authentication.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 65,
+      "repo": "estebanmartinezyahir-krypto/Kriptosk4-",
+      "pin": "8c9f3a7080ea21e33ff4b3c59446ed2a8440cd61",
+      "classification": "fork_duplicate",
+      "unique_project": "estebanmartinezyahir-krypto/k4_cipher_script.py",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "documentation inspected",
+      "source_urls": [
+        "https://github.com/estebanmartinezyahir-krypto/Kriptosk4-/blob/8c9f3a7080ea21e33ff4b3c59446ed2a8440cd61/README.md"
+      ],
+      "conclusion": "README-only companion same anchor method/owner; script repo explicitly names this repository and method. One project, not independent evidence.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 66,
+      "repo": "simrit1/PyKryptos",
+      "pin": "afff6e487823c81339e586aa0a3c35bbea715730",
+      "classification": "fork_duplicate",
+      "unique_project": "mproffitt/PyKryptos",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "evidence_level": "metadata/history inspected",
+      "source_urls": [],
+      "conclusion": "Declared fork; exact head commit is available in parent repository. No new unique code at this head.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 67,
+      "repo": "instancer-kirik/kryptos-typescript",
+      "pin": "c8d6917a78cbe13975f15ead9749a86936b2a931",
+      "classification": "implemented_k4",
+      "unique_project": "isaaclyman/kryptos-typescript",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "source/model inspected",
+      "source_urls": [
+        "https://github.com/instancer-kirik/kryptos-typescript/blob/c8d6917a78cbe13975f15ead9749a86936b2a931/README.md",
+        "https://github.com/instancer-kirik/kryptos-typescript/blob/c8d6917a78cbe13975f15ead9749a86936b2a931/k4-breaking-strategy.ts",
+        "https://github.com/instancer-kirik/kryptos-typescript/blob/c8d6917a78cbe13975f15ead9749a86936b2a931/k4-attempts/10-spacer-rotation-translation.ts",
+        "https://github.com/instancer-kirik/kryptos-typescript/blob/c8d6917a78cbe13975f15ead9749a86936b2a931/k4-attempts/11-systematic-variations.ts"
+      ],
+      "conclusion": "Substantive fork extension:3 commits ahead of upstream f8b3848ee589c2566fbf76734d5ca36fbfa7d977,27 changed paths. Main strategy finite literal keys:12 words+5 crib-filled+6 references+3 algorithmic=26 candidates. Additional fixed spacers/progressive/sectioned/interleaved Caesar; variations file contains undefined char0 and no-op matrix cases for97. No completed receipt; README certainty AZ/Vigenere unsupported.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": true,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 68,
+      "repo": "simrit1/Kryptos-4",
+      "pin": "73794cd1d5a349c800ad46b09d37e67f7aafdf9e",
+      "classification": "fork_duplicate",
+      "unique_project": "speakeasy/Kryptos",
+      "source_inspected": false,
+      "documentation_inspected": false,
+      "named_result_inspected": false,
+      "evidence_level": "metadata/history inspected",
+      "source_urls": [],
+      "conclusion": "Declared fork; exact head commit is available in parent repository. No new unique code at this head.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 69,
+      "repo": "ElodineOfficial/KrackersAndCheese",
+      "pin": "2ea3c11e9b80ccbac1c928c8688d01154f976e1b",
+      "classification": "implemented_k4",
+      "unique_project": "ElodineOfficial/KrackersAndCheese",
+      "source_inspected": true,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "source/model inspected",
+      "source_urls": [
+        "https://github.com/ElodineOfficial/KrackersAndCheese/blob/2ea3c11e9b80ccbac1c928c8688d01154f976e1b/README.md",
+        "https://github.com/ElodineOfficial/KrackersAndCheese/blob/2ea3c11e9b80ccbac1c928c8688d01154f976e1b/full_password_slider.py"
+      ],
+      "conclusion": "KR-tableau crib sliding: K0\u2013K3 source substrings lengths13\u201364 across K1\u2013K4, minimal key period<=64, top50 per slice; filters known keywords and rotations/anagrams. Header stale7\u201317/top10; actual constants13\u201364/top50. K4 included, no committed K4 result or completion found.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    },
+    {
+      "discovery_index": 70,
+      "repo": "JayFu763/Fusaro-Closed-Circle",
+      "pin": "a1625e591beabd569b6c9537444b5be672113024",
+      "classification": "unsupported_solution_claim",
+      "unique_project": "JayFu763/Fusaro-Closed-Circle",
+      "source_inspected": false,
+      "documentation_inspected": true,
+      "named_result_inspected": false,
+      "evidence_level": "documentation inspected",
+      "source_urls": [
+        "https://github.com/JayFu763/Fusaro-Closed-Circle/blob/a1625e591beabd569b6c9537444b5be672113024/README.md"
+      ],
+      "conclusion": "README-only solved claim linking4.91GiB external archive; no in-repo algorithm/receipt. Archive not fetched: not necessary credible finite-source lead.",
+      "independent_reproduction": false,
+      "substantive_fork_extension": false,
+      "discovery_member": true,
+      "carried_forward": false,
+      "reviewed_at": "2026-10-31"
+    }
+  ],
+  "additional_linked_repository_sources": [
+    {
+      "repo": "jcolinpatrick/kryptos",
+      "pin": "6dfc420d65432988be524e0992c1735a4c466b1e",
+      "discovery_member": false,
+      "carried_forward": true,
+      "evidence_level": "Documentation, source/model and named results previously inspected",
+      "role": "Historical reviewed source outside original71"
+    },
+    {
+      "repo": "isaaclyman/kryptos-typescript",
+      "pin": "f8b3848ee589c2566fbf76734d5ca36fbfa7d977",
+      "discovery_member": false,
+      "carried_forward": false,
+      "evidence_level": "Metadata and commit comparison only",
+      "role": "Necessary upstream source for instancer fork dedup; not additional source-inspected project"
+    }
+  ],
+  "limitations": [
+    "Category implemented_k4 includes utilities/diagnostics and is not a count of completed model searches.",
+    "source_file_inspected counts actual source reads including placeholders, invalid implementations and irrelevant learning code; not comparable to earlier eight substantive model audits.",
+    "Project groups reflect metadata/exact shared code and companion relationships; source attribution not independent authorship proof.",
+    "No source worldwide-exhaustiveness or authenticated solution claim."
+  ]
+}
