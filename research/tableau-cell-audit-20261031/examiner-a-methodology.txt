@@ -1,0 +1,11 @@
+Examiner A — frozen blind literal transcription
+Sources: IMG_1223.jpg (entire displayed grid), IMG_1224.jpg (separate detail).
+Coordinates: 1-based, 27 displayed rows by 30 columns, top-left K=(1,1), bottom row included.
+
+Method: Visually inspected the full original, an enlarged upper band, and six overlapping quadrilateral-remapped bands spanning every displayed cell. The remapping and enlarged crops were generated nondestructively with Pillow. The original lower edge was inspected again in a separate enlarged crop. No OCR, alphabet-generation code, reference transcription, repository text, key/cipher analysis, or cycle completion was used. Each row was entered explicitly as visually read. Uppercase output normalizes handwriting case only (for example, lowercase-looking m forms).
+
+IMG_1224 was located visually using the circled H at (21,21), its stroke shape, and its adjacent G/I/J forms, with the tailed glyph above providing another landmark. Its evidence was used for the ambiguity at (17,21), rather than replacing that glyph with an expected alphabet entry.
+
+810 records: 786 high confidence, 22 medium, 2 low; 2 null readings. Nulls: (27,2), lower portion covered by finger; (27,4), overdrawn loops. Especially consequential ambiguity: (17,21) read Q with D/R alternatives due to the lower-right tail. Other uncertain forms and marked cells are documented individually. A high-confidence designation is visual legibility, not a claim about the author's intended alphabet or mathematical correctness.
+
+The JSON and CSV were frozen together. Hashes are recorded in examiner-a-freeze.json. No post-freeze edits were made to those artifacts.

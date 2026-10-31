@@ -2,6 +2,8 @@
 
 **Current tracking:** [working to-do list and hypothesis status](HYPOTHESES.md). Reconciled through study063 and METHOD-LITERAL-001 on31 October2026. Studies051–063 and the validated literal utility are published. Historical stage labels retain chronology.
 
+**Separate evidence closeout (not a cipher experiment):** [The 810-cell tableau audit](tableau-cell-audit-20261031/REPORT.md) preserves both frozen readings and unresolved cells. No supported new mechanism was established; no target run or cipher-experiment ID is added. Current admission decisions remain in the canonical ledger.
+
 | ID | Purpose | Command | Scope | Result |
 | --- | --- | --- | --- | --- |
 | BASE-001 | Baseline data integrity | `python3 experiments/check_baseline.py` | Supplied 97-letter transcription and two crib intervals only | PASS: 97 letters; both crib intervals consistent |

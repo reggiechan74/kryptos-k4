@@ -1,0 +1,5 @@
+Examiner B: independent visual cell audit, 1-based coordinates, top-left K=(1,1), bottom displayed row included.
+Source files inspected: IMG_1223.jpg and IMG_1224.jpg only. No transcription, repository text, OCR, cipher operations, alphabet completion, or generated alphabet sequences were used. Each row was manually entered from enlarged image pixels; a PIL quadrilateral display transform and overlapping crops were used for legibility, with unchanged source files. All 810 coordinates were inspected.
+Close-up registration: the uniquely circled H matches original (21,21), with adjacent grid and lettering agreeing visually. The close-up covers parts of rows 15–24, columns 18–25. It informed the marked readings around (17,21), (18,20), (19,20), (20,20), and (21,21).
+Uncertainty: letterform ambiguities are preserved in per-cell alternatives and notes, including literal R/P readings in the close-up and B at (27,4). The obscured bottom-row second cell is null, alternatives B/R. Confidence is visual confidence, not agreement with any alphabet pattern.
+Counts: 810 records; {'high': 784, 'low': 6, 'medium': 20}; 1 null literal reading.

@@ -13,6 +13,8 @@ proofs and finite tests have separate scope; compatibility is not a solution.
 - **Next-action decision:** Q-01–Q-03 are closed only within studies 057–059 bounds. No eligible Q-04/Q-05 run is currently justified: exact production search is fast and no compatible K4 candidates remain to rank. Subtractive feedback and other omitted model settings remain untested and require a new frozen scope, not automatic expansion.
 - **Stopped branch:** direct aligned English-running-key decoding did not pass study 055's screen. Do not reopen it merely because an unrestricted decoder was never built. Study 056 also found no demonstrated learned-conflict advantage.
 
+- **Evidence closeout, not a cipher test:** The [independent 810-cell tableau audit](tableau-cell-audit-20261031/REPORT.md) found 806 agreed letters (774 high-confidence, 32 tentative), one agreed unreadable and three disagreements. Four cells remain unresolved; no reproducible high-confidence noncyclic entry or supported mechanism was established. Close this avenue without filling uncertain glyphs or enumerating them as keys. Reopen only on better evidence or separately grounded semantics. The K4 goal stays open; no fifth execution-ready model is admitted. [Next research decision](fresh-program-20261031/NEXT-DECISION.md).
+
 ### Recent completed tests
 
 | Study | Exact tested scope | Outcome and evidence | Remaining gap / next action |

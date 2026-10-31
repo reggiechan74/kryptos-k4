@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-31",
+  "scope": "Literal source audit, not a cipher experiment.",
+  "coordinate_convention": "1-based row and column, top-left K at (1,1), 27 rows including footer and 30 displayed columns.",
+  "independence": "Two fork-none visual examiners received image paths and coordinates, but not expected alphabet, generated template or peer output. Both freeze hashes must precede comparison.",
+  "source_provenance": "Photographer-hosted images attributed to Sanborn papers; no Smithsonian item-level authentication established.",
+  "permission": "Original photographs are linked, not included in public deliverables.",
+  "sources": [
+    {
+      "filename": "IMG_1223.jpg",
+      "url": "https://www.kryptosbot.com/static/archive/IMG_1223.jpg",
+      "bytes": 488284,
+      "sha256": "d7e583964f73234bb03bbd38319dcf71cec48f5de74e471fb6afb3da24eac311"
+    },
+    {
+      "filename": "IMG_1224.jpg",
+      "url": "https://www.kryptosbot.com/static/archive/IMG_1224.jpg",
+      "bytes": 252356,
+      "sha256": "66f32bbfc6fea19ef9afb5ca7b6044cc8ee756deaacf61af9dd71673fc192795"
+    }
+  ]
+}

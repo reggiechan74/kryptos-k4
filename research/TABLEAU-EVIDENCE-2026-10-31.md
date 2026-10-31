@@ -35,6 +35,15 @@ These circles are on a full cyclic lookup tableau, not the separate [2010 K1/K2 
 
 No evidence fixes a K4 role, extraction order, key interpretation or coordinate-to-cipher rule. **Do not queue a cipher test from these marks.** A future admission requires independently grounded K4 semantics and a resolved extraction/provenance packet, not unconstrained enumeration. This update resolves the earlier missing-public-pixels limitation while preserving the broader evidence gate and external history.
 
-## Separate evidence task underway
+## Historical stage: separate evidence task underway at study-063 publication
 
 At this publication freeze, two independent literal transcriptions of all 810 visible cells are in evidence collection. They must be frozen before comparison with the expected cyclic rows; unclear cells must remain explicit. No completed transcription audit or cipher experiment is claimed. See the [next research decision](fresh-program-20261031/NEXT-DECISION.md).
+
+
+## Completed independent cell audit
+
+The [810-cell evidence audit](tableau-cell-audit-20261031/REPORT.md) is now complete; its unchanged frozen readings, cellwise comparison, source notes and verifier are published alongside the report. The earlier underway paragraph records the study-063 publication stage, not current status.
+
+Both examiners agreed on **806 letters** (774 high-confidence agreements and 32 tentative), plus one agreed unreadable cell; three literal disagreements remain. Cells **(17,21), (18,20), (27,2), (27,4)** remain unresolved. No reproducible high-confidence noncyclic cell was established. This is **not proof that every cell is cyclic**, nor permission to infer unclear letters from the expected pattern.
+
+Close this evidence avenue as supplying no supported new cipher mechanism. Reopen only for better source evidence or a separately grounded operational interpretation; do not enumerate ambiguous glyphs as key parameters. No cipher experiment or target run occurred. The overall K4 research goal remains open, with no fifth execution-ready model admitted by this audit.
