@@ -1,0 +1,113 @@
+{
+  "updated_utc": "2026-10-31T16:54:44.132181+00:00",
+  "rows": [
+    {
+      "phase": "production/tiny-result.json",
+      "receipt_sha256": "e4105721e62c33fc920891835b56e882b5c618eb1974e62373ee9467e08c4998",
+      "cpu_seconds": 5.692600287,
+      "peak_rss_kib": 9216
+    },
+    {
+      "phase": "production/FINAL-VALIDATION.json",
+      "receipt_sha256": "cc6e31c676f04b3875fcb63cd255dc91abfc36f4a33d489df7d03260d97c3433",
+      "cpu_seconds": 6.90510045,
+      "peak_rss_kib": 99604
+    },
+    {
+      "phase": "production/STATIC-VALIDATION.json",
+      "receipt_sha256": "03c08dd4f3c9799c8f6f5b550e1297c30a1be84022278093a700e22a456d5abd",
+      "cpu_seconds": 0.105874052,
+      "peak_rss_kib": 12344
+    },
+    {
+      "phase": "production/blind-receipt.json",
+      "receipt_sha256": "c8b59563c7fbd25cc22392d142674051ce4c33971f2f4776a97c2fa3d60eff2f",
+      "cpu_seconds": 0.206025212,
+      "peak_rss_kib": 40448
+    },
+    {
+      "phase": "independent/tiny-result.json",
+      "receipt_sha256": "64c51875a10a318b384a5295bd456ff23355c1ae5d938e229d0f20b45eff1987",
+      "cpu_seconds": 7.6519335029999995,
+      "peak_rss_kib": 8960
+    },
+    {
+      "phase": "independent/BANK-SEAL.json",
+      "receipt_sha256": "639eeba5849eb3769c4f6b1c9c004b5c8fd3870768306d056ecc1867d88fec1e",
+      "cpu_seconds": 3.9243188570000003,
+      "peak_rss_kib": 16624
+    },
+    {
+      "phase": "independent/AUDIT-RESULT.json",
+      "receipt_sha256": "d9f5f8fe3bdfa7ba8ba2cd3e925fa7dfba713815685a9cc7797c8b17d82639b3",
+      "cpu_seconds": 0.637416859,
+      "peak_rss_kib": 26504
+    },
+    {
+      "phase": "independent/TARGET-AUDIT.json",
+      "receipt_sha256": "e2bc9668340fd4ba8c521f2ffc308388ebc8e64653b6a363431eb56e95d087aa",
+      "cpu_seconds": 0.0003611229999999979,
+      "peak_rss_kib": 9600
+    },
+    {
+      "phase": "prior/structural-results.json",
+      "receipt_sha256": "3055e18705bad8be0d478b6ca98a88633eceffe602d8025de1a0623985032bec",
+      "cpu_seconds": 11.719398914,
+      "peak_rss_kib": 87440
+    },
+    {
+      "phase": "prior/structural-validation.json",
+      "receipt_sha256": "c37e5fd896a176c085b86c77f553fe197c038feaef1dfd26349d13bbee13b6ff",
+      "cpu_seconds": 0.043275122,
+      "peak_rss_kib": 16912
+    },
+    {
+      "phase": "prior/receipt-review-resources.json",
+      "receipt_sha256": "78cffb1d58f44966b6d55881de6401949f3da4b51db5275bb711261c3e73b2aa",
+      "cpu_seconds": 2.882134861,
+      "peak_rss_kib": 35028
+    },
+    {
+      "phase": "audit/counts-result.json",
+      "receipt_sha256": "3664247069090fbe638af97f727d24fb461ec5da3bf6aab8d7ce6e27c9dab9eb",
+      "cpu_seconds": 1.3661885919999999,
+      "peak_rss_kib": 9216
+    },
+    {
+      "phase": "audit/benchmark-verification.json",
+      "receipt_sha256": "1e297b3ce9a2ef3ca56d270711cd84760e1965e17ff48801a57b7b65e01594fb",
+      "cpu_seconds": 0.909523018,
+      "peak_rss_kib": 22344
+    },
+    {
+      "phase": "production/target-receipt.json",
+      "receipt_sha256": "2f9fee27d808de920ecf020f8eccfcdfd0151af244739d921b3fbde85c08159e",
+      "cpu_seconds": 0.0,
+      "peak_rss_kib": 9984
+    },
+    {
+      "phase": "independent/TARGET-RECEIPT.json",
+      "receipt_sha256": "3a38dd01f3e6bf5aa59d28177429beaefa864c34d7eff12ea6f880c2cf55af1a",
+      "cpu_seconds": 0.0,
+      "peak_rss_kib": 9600
+    },
+    {
+      "phase": "audit/TARGET-AUDIT.json",
+      "receipt_sha256": "87473b71b2acf027bc71129d22174f07767dd92d21729009aa192cee02d54c07",
+      "cpu_seconds": 0.016437371,
+      "peak_rss_kib": 16984
+    }
+  ],
+  "measured_cpu_seconds": 42.060588220999996,
+  "maximum_single_process_rss_kib": 99604,
+  "unmetered_tooling_and_reading_allowance_cpu_seconds": 600,
+  "allowance_is_not_measured_usage": true,
+  "combined_cpu_budget_seconds": 28800,
+  "combined_memory_budget_gib": 8,
+  "notes": [
+    "Duplicate run.stdout and release receipts refer to same executions and are not double-counted.",
+    "Allowance conservatively budgets shell staging, hashing, source reads and orchestration; remote connector service CPU is unobservable.",
+    "Independent parent structural-review resource usage and final regression/publication work reported separately if available.",
+    "No paid compute, security change, external checker or third-party program execution."
+  ]
+}

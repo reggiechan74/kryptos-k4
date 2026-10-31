@@ -7,10 +7,11 @@
 <a id="working-to-do-list-and-current-status--31-october-2026"></a>
 ## Current state
 
-Reconciled **31 October 2026**. **K4 remains unsolved here; the ongoing research goal is active.** No fifth execution-ready cipher model is admitted and no new target run has started.
+Reconciled **31 October 2026**. **K4 remains unsolved here; the ongoing research goal is active.** Study064 is complete at its fixed bounds; no sixth execution-ready model is admitted or target run started.
 
 | Area | Current conclusion | Evidence / limit |
 | --- | --- | --- |
+| Latest study064: recurrence-distance key clock | Exact bounded negative; scientific execution/audit complete; artifacts published. | [064](candidate-first-064/README.md): primitive AZ periods2–8; six periods inherit completed044 negative supersets (not rerun), onlyp5 newly evaluated by two independent solvers. All224blind plants retained;109unique/115ambiguous. |
 | Latest cipher batch: studies 060–063 (Q-06–Q-09) | Complete, independently audited and published; all four exact bounded domains have zero compatible K4 candidates. | [060](candidate-first-060/README.md): 208 distinct evolving-alphabet functions; [061](candidate-first-061/README.md): 160 sum-rotation structural cases; [062](candidate-first-062/README.md): 388 target maps / 3,104 Josephus descriptions; [063](candidate-first-063/README.md): AZ/KRYPTOS, periods 1–6, all 624 carry states. Not broad-family elimination. All 624 carry plants had 8–126 compatible plaintexts, not unique recovery. |
 | Tableau evidence audit (not a cipher experiment) | Closed without a supported new mechanism. | [810-cell audit](tableau-cell-audit-20261031/REPORT.md): 806 agreed letters (774 high-confidence, 32 tentative), one agreed unreadable and three disagreements. Four unresolved cells stay unfilled. Not proof of complete cyclicity; reopen only on better evidence or separately grounded semantics. |
 | Earlier composite batch: Q-01–Q-03 | Completed only within studies 057–059 bounds. | [057](candidate-first-057/README.md), [058](candidate-first-058/README.md), [059](candidate-first-059/README.md). Subtractive feedback and other omitted settings remain untested, not automatic extensions. |
@@ -18,12 +19,12 @@ Reconciled **31 October 2026**. **K4 remains unsolved here; the ongoing research
 
 ## Next-action queue
 
-**One working queue; no cipher is currently cleared to run.** Queue rank is a recommendation, not authorization. The user authorized the four-family batch at **15:03 UTC on 31 October 2026**; that batch is finished. Ongoing research does not bypass exact prior-art, protocol or control gates. [Decision rationale](fresh-program-20261031/NEXT-DECISION.md).
+**One working queue; no cipher is currently cleared to run.** Queue rank is a recommendation, not authorization. The user authorized the four-family batch at **15:03 UTC on 31 October 2026**; that batch and separately gated study064 are finished. Ongoing research does not bypass exact prior-art, protocol or control gates. [Decision rationale](fresh-program-20261031/NEXT-DECISION.md).
 
 | Order | Work item | Status / next discriminating action | Advance only when |
 | --- | --- | --- | --- |
-| 1 | Research a genuinely distinct, independently motivated mechanism | **Research only.** Ciphertext recurrence / last-seen-distance key-pointer scheduling is under prior-art review, not an approved model or run. Compare exact equations, initialization and state against local families and pinned external code. | No equivalent attempted model or applicable exclusion is located in the inspected record; unresolved external scope remains a blocker, not novelty evidence. Record the dated search and closest EXT IDs. |
-| 2 | Validate an admitted proposal before target use | **Conditional; no model admitted.** Freeze its bounded operator, key/state domain, inverse and identifiability claim. For stateful mechanisms, test same-ciphertext/different-plaintext ambiguity before a large recovery benchmark. | Independent implementation, exact tiny checks, fresh blinded complete-set controls and audit satisfy that protocol. A compatible key is not an identified plaintext. |
+| 1 | Index retained negative certificates before selecting another mechanism | **Research/documentation only; no sixth model specified.** Extract source-linked ordinary-period044, injective-phase and shared-reset exclusion certificates without rerunning key fits. [Concrete deliverable and decision](candidate-first-064/NEXT-DECISION.md). Then require a mathematically different, independently motivated proposal outside that coverage and external prior art. | Independent extraction and tiny containment checks validate the index; a proposal is not an approved model or run. Equivalent unknown-status overlap remains a blocker; no recurrence-rule rescue. |
+| 2 | Validate any future admitted proposal before target use | **Conditional; no next model admitted.** Freeze bounds and inverse; test primitive-key projection and same-ciphertext/different-plaintext ambiguity early. Reuse retained negative supersets without rerunning them. | Independent complete-set controls and semantic overlap review pass; explicit target-stage approval. A skipped strict weak supermodel is not an equivalent model, and one fitted key is not recovery. |
 | — | Q-04: structure-aware stochastic search; Q-05: constrained neural scoring | **Not run; prerequisites absent.** These are methods, not new cipher families. [Original proposals and go/no-go criteria](HYPOTHESIS-HISTORY.md#historical-ranked-queue-and-current-eligibility). | A separately admitted, genuinely untried model has a demonstrated search or ranking bottleneck; equal-compute/source-disjoint controls show benefit without increased false selection. |
 
 **Admission rules:** stronger-solver reruns, completing attempted searches and cosmetic parameter changes do not count as new hypotheses. Proposed-but-unrun mechanisms can qualify only after overlap and analytical-subsumption checks. “Not located in the inspected record” is not a worldwide novelty guarantee. Do not pad the queue when nothing qualifies. No marked-letter key search, uncertainty-as-key enumeration, rescue variant or automatic scope expansion follows from a negative result.
@@ -39,7 +40,7 @@ Stable family IDs and the nine fields below are the canonical coverage records. 
 
 The deep source review has now been read and integrated. Its [evidence synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md) confirms navigation context but supplies no surveyed bearing, calibrated shadow mechanism or dated celestial observation. Those physical claims remain evidence-blocked; the separately frozen conditional pilots are not measurements. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
 
-The [current inventory specification](specifications/FRONTIER-CURRENT-20261031-063.json) includes all 67 families without granting launch authority. The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the single next-action queue above controls current scheduling. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by completed studies 051–063 and the current public-prior-art eligibility decision above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
+The [current inventory specification](specifications/FRONTIER-CURRENT-20261031-064.json) includes all 68 families without granting launch authority. The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the single next-action queue above controls current scheduling. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by completed studies 051–064 and the current public-prior-art eligibility decision above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
 
 ### Status vocabulary
 
@@ -52,7 +53,7 @@ The [current inventory specification](specifications/FRONTIER-CURRENT-20261031-0
 
 ### Index
 
-All **67 stable families**, grouped by current status; records below are alphabetical. A family can contain completed finite tests and unresolved broader scope. Read its full fields before interpreting its label.
+All **68 stable families**, grouped by current status; records below are alphabetical. A family can contain completed finite tests and unresolved broader scope. Read its full fields before interpreting its label.
 
 **evidence-blocked — 16 families**
 
@@ -98,7 +99,7 @@ No family currently carries this label. An empty group does not admit the resear
 | [H-OTP](#h-otp) | non-identifiable | An unrestricted independent pad can explain any chosen plaintext of the same length. |
 | [H-WORD-COVER-EXTRACTION](#h-word-cover-extraction) | non-identifiable | Decode complete word covers, then extract one fixed letter from each selected word. |
 
-**narrow negative — 28 families**
+**narrow negative — 29 families**
 
 | Stable ID | Current status | Mechanism |
 | --- | --- | --- |
@@ -123,6 +124,7 @@ No family currently carries this label. An empty group does not admit the resear
 | [H-PLAINTEXT-EXTRA-STEP](#h-plaintext-extra-step) | narrow negative | Advance by one or two according to plaintext vowel/consonant membership. |
 | [H-ROUTE](#h-route) | narrow negative | One enumerated route plus periodic arithmetic. |
 | [H-RUNKEY](#h-runkey) | narrow negative | Literal source-text or ordinary-language running keys under explicitly fixed alphabets, arithmetic, normalization and alignment. |
+| [H-RECURRENCE-CLOCK](#h-recurrence-clock) | narrow negative | Select an immutable key entry by ciphertext last-occurrence distance, with empty history. |
 | [H-SIGABA](#h-sigaba) | narrow negative | Use historical irregular stepping from a complete, specified SIGABA mechanism. |
 | [H-SIGABA-INSPIRED](#h-sigaba-inspired) | narrow negative | Fixed custom three-bank irregular-stepping rotor cipher with a restricted starting-key domain. |
 | [H-SPLIT-COORDINATE-ROUTES](#h-split-coordinate-routes) | narrow negative | Permute two coordinate streams separately. |
@@ -800,6 +802,18 @@ Each entry separates tested bounds from untested scope, missing inputs and the n
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
 - Results: [retained evidence and finite coverage](RADIX-FEEDBACK-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-RECURRENCE-CLOCK
+
+- Status: narrow negative
+- Mechanism: Select an immutable repeating-key entry using ciphertext recurrence distance; emit then advance1 for a new letter or its last-occurrence gap.
+- Evidence: Speculative exact mechanism, no Sanborn-use evidence or global invention claim. [064 source/partition audit](candidate-first-064/PRIOR-COVERAGE.md), [EXT-030](EXTERNAL-PRIOR-ART.md#ext-030), and independently reviewed pretarget semantic clarification.
+- Tested scope: AZ additive, pointer0, empty history, primitive cyclic periods2–8. Periods2,3,4,6,7,8 inherit completed044 negative crib-supermodel results, not rerun. Onlyp5 newly evaluated once by each frozen independent engine: exact empty key/plaintext relation; retained same-residue contradiction at one-based24/25.
+- Untested scope: Other history rules, periods, alphabets, resets, layers or initial states are not covered and are not automatic next tests. No claim all public prior art was inspected.
+- Missing inputs: A genuinely different independently motivated specification outside completed/equivalent coverage; no rescue adjustment to064.
+- Next discriminating test: Close064. Follow the single research-only queue; use negative-containing receipt transfers before key solving and exact semantic review for skipped weaker supermodels.
+- Dependencies: Unchanged canonical ciphertext/crib alignment, primitive-key and projection semantics, pinned source audit and target-stage authorization; no paid service or live Site dependency.
+- Results: [064 findings and complete evidence](candidate-first-064/README.md):309blind cases/2163relations agree,224plants retained (109unique/115ambiguous),64nulls empty; exact tiny tests and fresh math/target audits pass. Scientific work complete; artifacts published. All67prior family IDs and frozen snapshots preserved.
 
 ### H-ROUTE
 

@@ -10,7 +10,11 @@ class ExternalPriorArtRegisterTests(unittest.TestCase):
         text = (ROOT/'research/EXTERNAL-PRIOR-ART.md').read_text()
         blocks = re.split(r'^### (EXT-\d{3}) — ', text, flags=re.M)
         ids = blocks[1::2]
-        self.assertEqual(29, len(ids))
+        # The original survey's stable IDs remain; the live register may grow.
+        self.assertTrue({f"EXT-{i:03d}" for i in range(1,30)} <= set(ids))
+        index_ids = re.findall(r"^\| \[(EXT-\d{3})\]\(#ext-\d{3}\) \|", text, re.M)
+        self.assertEqual(len(index_ids), len(set(index_ids)))
+        self.assertEqual(set(index_ids), set(ids))
         self.assertEqual(len(ids), len(set(ids)))
         for ident, body in zip(ids, blocks[2::2]):
             for field in ('Researcher / project','Exact inspected scope','Method','Reported outcome','Evidence inspected','Local overlap / selection consequence','Limits and unresolved evidence','Primary sources'):

@@ -40,7 +40,7 @@ class FrontierAssessmentTests(unittest.TestCase):
         self.assertTrue(all(not r['ready_for_new_K4_evaluation'] for r in saved['entries']));self.assertEqual(len(saved['frontier_gates']),12)
     def test_current_review_adds_fresh_families_without_launch_authority(self):
         current=frontier.assess()
-        self.assertEqual(current['registered_entries'],67)
+        self.assertEqual(current['registered_entries'],68)
         self.assertEqual(current['ready_new_K4_experiments'],0)
         gates={g['id']:g for g in current['frontier_gates']}
         self.assertEqual(set(gates['F-FRESH-20261031']['hypotheses']),
@@ -62,7 +62,7 @@ class FrontierAssessmentTests(unittest.TestCase):
             else:spec['gates'].append(copy.deepcopy(spec['gates'][0]))
             with self.assertRaises(ValueError):frontier.assess(spec,entries)
     def test_register_parser_rejects_duplicate_or_incomplete_entries(self):
-        text=(ROOT/'research/HYPOTHESES.md').read_text();self.assertEqual(len(frontier.canonical(text)),67)
+        text=(ROOT/'research/HYPOTHESES.md').read_text();self.assertEqual(len(frontier.canonical(text)),68)
         with self.assertRaises(ValueError):frontier.canonical(text.replace('### H-COMPASS-FRAMES','### H-COMPASS-REVERSE',1))
         with self.assertRaises(ValueError):frontier.canonical(text.replace('- Status: evidence-blocked','- Unknown: evidence-blocked',1))
     def test_cli_only_reproduces_readiness_and_current_scope_is_pinned(self):

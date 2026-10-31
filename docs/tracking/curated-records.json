@@ -924,6 +924,15 @@
       ],
       "outcome": "Exact bounded coupled-carry exclusion; zero target tuples, but all624 blind plants have multiple plaintexts",
       "basis": "Reviewed frozen scope, global reachability, complete-set and independent ambiguity/target audits. Compatibility/exclusion only, no unique-recovery claim."
+    },
+    "LOG-F611BF7D3D": {
+      "title": "CANDIDATE-FIRST-064 \u2014 ciphertext recurrence-distance key clock",
+      "categories": [
+        "finite K4 model tests",
+        "exact ambiguity analysis"
+      ],
+      "outcome": "Exact bounded recurrence-clock exclusion: six inherited period negatives, onlyp5 newly evaluated and empty",
+      "basis": "Frozen exact controls and independent semantic/source/target audits; no rerun of inherited negative supersets, no global novelty or general history-cipher exclusion."
     }
   }
 }

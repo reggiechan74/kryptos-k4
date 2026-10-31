@@ -4,7 +4,7 @@
 
 ## Current decision and evidence standard
 
-**No new execution-ready hypothesis cleared the latest not-already-tried review.** This is a bounded survey result, not proof that no untried K4 model exists. Do not restore the superseded ten-item residual/recovery agenda. Stronger-solver reruns, unfinished searches of attempted hypotheses, and cosmetic parameter extensions do not qualify as new under the current project direction. Previously proposed but genuinely unrun mechanisms may qualify only if no existing local or external analytical exclusion subsumes them and the model is independently specified.
+**No next execution-ready hypothesis is currently admitted.** The separately reviewed recurrence-distance clock064 is now closed at its fixed bounds; [EXT-030](#ext-030) records its exact predecessor comparison and inherited exclusions. This is a bounded survey result, not proof that no untried K4 model exists. Do not restore the superseded ten-item residual/recovery agenda. Stronger-solver reruns, unfinished searches of attempted hypotheses, and cosmetic parameter extensions do not qualify as new under the current project direction. Previously proposed but genuinely unrun mechanisms may qualify only if no existing local or external analytical exclusion subsumes them and the model is independently specified.
 
 The repository discovery query returned **71 hits**, including forks and irrelevant software. **14 relevant repositories received documentation review, eight source/model inspection, and four named-result-artifact inspection. No external experiment was reproduced.** Additional primary web records below are separate from those repository counts. The source-pin file has 15 repositories: the 14-repository discovery cohort plus akaalias/k4, used to pin the additional Rondeau web records. Multiple records can describe one repository; record count is not researcher count. This survey is not exhaustive and does not certify global novelty.
 
@@ -51,6 +51,7 @@ Earlier focused [Barney/Scott review](../docs/prior-art-barney-scott-review.md),
 | [EXT-027](#ext-027) | Clock matrix and stencil solution claim | hambern/kryptos-k4 |
 | [EXT-028](#ext-028) | Broader columnar campaigns and clock registration | Andrew Chan / kryptos.tiki.vc |
 | [EXT-029](#ext-029) | Clock city-list and columnar campaigns | kryptos.today |
+| [EXT-030](#ext-030) | Interrupted/value/occurrence-stepped key schedules; recurrence-clock overlap audit | ActiveTK/dekrypt; Barneyjm/kryptos-k4 |
 
 ## Coverage records
 
@@ -452,3 +453,15 @@ A manual artifact pair was corrected to E-to-A by independent comparison with pi
 All624 synthetic positives were ambiguous despite correct complete recovery of their solution sets. Target emptysets give only bounded exclusion, not validation of a unique-recovery method. No arbitrary modulus/readout variant is queued. The [next research decision](fresh-program-20261031/NEXT-DECISION.md) preserves source and identifiability gates.
 
 The [read-only source literal checker](source-literal-checker-v1/README.md) addresses the observed062 transcription error with independently frozen/adversarial tests. It verifies exact literals, not the authenticity of a supplied pin or a program's semantics. Unsupported structures need independent source review. Original errors/corrections remain retained; no third-party source code was executed.
+
+<a id="ext-030"></a>
+### EXT-030 — Interrupted, value and occurrence-stepped key schedules
+
+- **Researcher / project:** ActiveTK/dekrypt and Barneyjm/kryptos-k4; studied31October2026 before064target use.
+- **Exact inspected scope:** E122/E122b fixed artifact and signal schedules; separately labeled corrected PALIMPSEST/RB banks; Barney one/two-letter ciphertext trigger restart/advance/pause, plaintext/word/line masks, key lengths1–26/nonrepeating. E107 plaintext occurrence-count displacement and E101b value stepping are related predecessors, not ciphertext last-occurrence key selection.
+- **Method:** Primary code read, ten independently pinned Gitblobs checked, no external execution. Independently reconstructed159,160raw schedule descriptions including local ordinary/shared-reset banks; full and crib partitions compared separately with unknown labels independent. Historical bank cardinalities reproduced;2960tiny relation-oracle checks pass.
+- **Reported outcome:** E122 fixed-table minimum6checks; E122b minimum10 with2-second/global240-second caps; Barney48,411raw→11,077MIN8models zero fits, plusMIN6clue-alphabet follow-up. These are scoped author reports, not blanket exclusions. Corrected sources do not alone establish completed historical runs.
+- **Evidence inspected:** Source/model and named result reports inspected, not independently rerun. [Exact source pins, reconstruction and source/receipt review](candidate-first-064/PRIOR-COVERAGE.md).
+- **Local overlap / selection consequence:** Six064periods inherit independently retained local044 AZ/additive ordinary-period negatives via strict crib containment; no reruns. Residualp5 has no equal full/crib map in inspected banks; its19constraints are not the604strict0–2check containers. Those external maps were documented threshold skips with different/undefined full clocks. Independent semantic review and parent-approved pretarget clarification admitted only unchangedp5, subsequently exactly negative in two local engines.
+- **Limits and unresolved evidence:** Skipped weaker supersets are neither exclusions nor proof their narrower child's exact rule was tried. Equivalent unknown-status domains remain blocked. Ordinary96/97fullsupersets are underconstrained/free-key models, not duplicate exact mechanism coverage. This bounded source search does not certify worldwide novelty; no licenses established for full third-party redistribution.
+- **Primary sources:** [ActiveTK E122](https://github.com/ActiveTK/dekrypt/blob/992c9668b9f0783221cb570abbff969e59cbf27c/src/s93_interrupted.py), [E122b](https://github.com/ActiveTK/dekrypt/blob/992c9668b9f0783221cb570abbff969e59cbf27c/src/s93b_interrupted_arb.py), [Barney interrupted models](https://github.com/Barneyjm/kryptos-k4/blob/2db2722cc3f18c52d4d8369d7adc5a1db7e859d7/scripts/fe_interrupt.py). Remaining exact pins/hashes are in064archive `prior/source-pins.json`.

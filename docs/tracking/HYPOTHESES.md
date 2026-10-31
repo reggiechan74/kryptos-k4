@@ -60,6 +60,7 @@ Generated navigation; edit the canonical ledger or receipts, then run `python3 e
 | H-PHONETIC-RESPELLING | narrow negative | Stylized phonetic respelling precedes encryption. | [H-PHONETIC-RESPELLING canonical record](../../research/HYPOTHESES.md#h-phonetic-respelling) |
 | H-PLAINTEXT-EXTRA-STEP | narrow negative | Advance by one or two according to plaintext vowel/consonant membership. | [H-PLAINTEXT-EXTRA-STEP canonical record](../../research/HYPOTHESES.md#h-plaintext-extra-step) |
 | H-RADIX-FEEDBACK | analytical exclusion | Changing-base geometric codes enter a fixed affine key recurrence. | [H-RADIX-FEEDBACK canonical record](../../research/HYPOTHESES.md#h-radix-feedback) |
+| H-RECURRENCE-CLOCK | narrow negative | Select an immutable repeating-key entry using ciphertext recurrence distance; emit then advance1 for a new letter or its last-occurrence gap. | [H-RECURRENCE-CLOCK canonical record](../../research/HYPOTHESES.md#h-recurrence-clock) |
 | H-ROUTE | narrow negative | One enumerated route plus periodic arithmetic. | [H-ROUTE canonical record](../../research/HYPOTHESES.md#h-route) |
 | H-RUNKEY | narrow negative | Literal source-text or ordinary-language running keys under explicitly fixed alphabets, arithmetic, normalization and alignment. | [H-RUNKEY canonical record](../../research/HYPOTHESES.md#h-runkey) |
 | H-SHADOW-TIME | evidence-blocked | A source-fixed shadow direction or observation time supplies a key or reading instruction. | [H-SHADOW-TIME canonical record](../../research/HYPOTHESES.md#h-shadow-time) |

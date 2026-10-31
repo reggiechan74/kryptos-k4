@@ -1,0 +1,45 @@
+# Study064 independent mathematical/protocol audit
+
+2026-10-31. Fresh audit worker, not production or independent-reference author. Read Responsibilities Page sequence3, AGENTS, current ledger, external-register evidence policy, proposal, admission review, frozen production protocol and implementation. No target ciphertext, key differences, clue solving, external program execution or reference implementation inspected for this mathematical pass. This is not target approval or global novelty evidence.
+
+## Exactness proof
+
+1. `schedule` emits the current pointer before updating it, and updates from the current ciphertext symbol's prior occurrence. Initial pointer0 and empty history match the specified rule. Encryption uses emitted ciphertext for the same update. Decryption reconstructs exactly that state by induction; hence the fixed-key inverse is unique.
+2. A primitive cyclic key is one not fixed by any nonidentity cyclic rotation. Equivalently its least period divides p and no proper divisor d repeats its first d coordinates. The implementation tests divisors, not arbitrary finite-prefix repetition. All constant seeds are removed through d=1. Rotated keys are NOT erroneously discarded: with pointer0 they can define different transforms.
+3. For each divisor d of p, fold every forced coordinate by residue modulo d. A conflict yields zero d-periodic seeds; otherwise there are m^(d-number_forced_classes). Every seed counted here has one unique least cyclic period e dividing d and satisfies the ORIGINAL forced vector. Subtracting previously computed exact-e counts gives exact-d count. Thus production `seed_count` is correct even for inconsistent forced constraints after folding; the larger `solve_case` separately makes direct clue conflicts empty.
+4. `witness` chooses each free coordinate only when exact primitive completion count remains positive. Induction preserves existence and yields the lexicographically smallest primitive completion. It cannot return an imprimitive key or silently omit a nonempty cylinder.
+5. Used-coordinate assignments correspond bijectively to plaintexts, since each used residue occurs at least once and addition/subtraction is bijective. When all coordinates are used, primitive-seed count equals plaintext count. With an unused coordinate j, hold all other coordinates fixed arbitrarily. Every proper divisor d has another coordinate congruent to j modulo d, so d-periodicity forbids at most one value of coordinate j. When m exceeds the number of proper divisors, some value avoids every forbidden equality. Therefore every used-coordinate assignment has a primitive completion; projection count is exactly m^(used minus forced). This is an existential projection theorem, not subtraction of imprimitive seeds from a naively computed plaintext count. The smaller-alphabet fallback explicitly enumerates used assignments and checks completion.
+6. For a nonempty relation with projection count>1, there exists at least one used, unforced coordinate differing between plaintexts. Trying each coordinate/value restriction and finding a primitive witness therefore finds a second distinct plaintext. Across periods, retaining a witness for every nonempty relation and an alternative whenever its projection contains more than one proves the union classification: empty if every relation empty, unique if every nonempty projection is the same singleton, ambiguous otherwise. This does NOT compute a union cardinality; no sum is claimed.
+7. The output is a lossless symbolic set description only when interpreted with `forced_consistent`, primitive-divisor exclusions and existential projection. Different overwritten forced values in two contradictory relations are harmless representation differences: both denote empty sets. Comparing raw incompatible vectors is not required for semantic equality, while surviving relations must match fully. All raw records should remain retained.
+
+## Additional fresh audit validation
+
+`audit_counts.py` uses independent full cyclic-rotation-orbit primitiveness, not divisor tests, to brute enumerate every binary forced pattern for p2..8. For every pattern it compares exact count and smallest witness with production. Additional AZ25/free/asymmetric corners exercise values outside binary.
+
+`counts-result.json`: PASS,9,865 cases,9,799 nonempty binary witness checks,1.366188592CPU seconds,9,216KiB peakRSS. This is a fresh diagnostic audit after source inspection, not the blind recovery benchmark. Production source SHA256 f4bd1ce5cfa9f4bb98261a0f003203b00e9d2a6cb042118ae2d7a093894d9681 unchanged.
+
+## Protocol observations and remaining gates
+
+Production freeze receipt recorded16:41:03.093735UTC; earlier coordinator hash communication is distinct from receipt creation time. Source/protocol hashes agree. Tiny development validation reports169,516cases and2,540roundtrips,5.692600287CPU seconds; these are not independent blind controls. Frozen protocol clearly requires224plants+64nulls,21short/emptydiagnostics, independent exact-set agreement, truthful null fits, no claimed recovery merely from one key, and separate target authorization.
+
+Mathematics/source pass is PASS for the declared valid-input domain. General malformed JSON/type-hardening is outside this scientific protocol; the library does not itself impose OS CPU/memory limits, so execution wrappers/receipts must establish actual resource use and configured caps. No change to frozen code is requested by this audit.
+
+Final benchmark seals, case inventory, complete independently represented relation agreement, plant retention, witness re-encryption, null outcome, actual timing/resource accounting and prior-partition gate remain pending. This report alone does not admit target compatibility work.
+
+## Final synthetic-control supplement —16:44UTC
+
+After sealed production output and independent truth release, I inspected the independent reference, generator and comparison harness. The reference recomputes prefix occurrence spans and uses DSU inclusion-exclusion, rather than production recurrence and divisor recursion. The source is independently structured and its counting proof is valid. The reference's maximal-proper-divisor bound is sufficient; removing redundant proper-period subspaces preserves the excluded union.
+
+A separate audit script `verify_benchmark.py` rechecked every source/protocol/master/input/expected/truth/output hash, actual freeze→generation→production→comparison ordering, all309case identities, seven relations per case, all2,163exact relation fields, all367production witnesses, and all224plants in28balanced period/mask strata of8. Result PASS in0.909523018CPU seconds,22,344KiB peakRSS. Source hashes remained unchanged. The script does not overwrite production/reference outputs.
+
+Verified outcome:224/224plants retained;109unique and115ambiguous plaintext unions.64/64random nulls empty (zero was not required).21short/empty diagnostics:14unique,7ambiguous. No failure or post-reveal repair occurred. The tiny and blind set checks validate implementation, not a K4 lead or global novelty.
+
+Fresh-auditor measured numerical total2.275711610CPU seconds (1.366188592 count audit +0.909523018 seal/relation/certificate audit), maximum22,344KiB RSS. Reading/staging overhead is unmetered and must be covered by coordinator's explicit conservative reserve rather than fictitious precise runtime. Production blind actual0.206CPU seconds, peak40,448KiB; production tiny5.693CPU seconds. Independent reference worker measured12.214CPU seconds, peak26,504KiB. A consolidated overall resource ledger remains coordinator-owned.
+
+## Structural-gate algebra (limited review)
+
+I read `structural_audit.py` without executing it. Its refinement predicate tests every old equality also belongs to the candidate equality relation. Fewer equalities means a containing arbitrary-key model, so the `old_contains` direction is correct. Full and crib partitions remain distinct, and unknown historical labels become independent singleton classes rather than one shared class. I inspected original E122 constructor source and retained source-result text for contextual consistency; no full independent reconstruction or source-provenance certification is claimed by this auditor.
+
+Ordinary-period retained local negative receipts must also be considered, not just thresholded external campaigns; I flagged this to the coordinator before final classification. Coordinator reports additional local044 negative containment transfers and separate parent admission review. This math/controls report intentionally does NOT decide final remaining-domain eligibility or authorize target solving. A skipped weaker superset is not automatically evidence the narrower exact mechanism was attempted; interpretation belongs to the separate explicit admission decision.
+
+**Final disposition: PASS for fixed-rule mathematics, exact symbolic implementation, blind synthetic controls and integrity sequencing. No target result and no target authorization.** All audit artifacts are in `/workspace/shared/k4-064-audit/`.
