@@ -31,6 +31,8 @@ Run instructions are in [experiments/README.md](experiments/README.md) and [test
 
 ## Evidence-driven method improvement
 
+Before manually rediscovering ordinary-period 044 exclusions, consult the [retained-negative index](research/negative-certificates-v1/README.md). Its source-pinned checker transfers only conditional crib-level negatives under identical semantic metadata. Verify the supplied partition’s mechanism-wide necessity independently. No hit is not admission; phase/reset and full-message equivalence remain outside v1.
+
 At every closeout, record a measured bottleneck or useful lesson, the proposed implementation/test/method change (or why the current method should be retained), fresh independent held-out validation needed, and the versioned ledger decision. Preserve frozen artifacts and failures. Never reuse revealed benchmark outcomes as a fresh holdout, weaken admission gates, or rename an old hypothesis as a new one. Reusable tools require technical prior-art and utility review before being presented as globally novel or split into a separate repository.
 
 For source literals within its deliberately narrow supported syntax, use the [read-only literal checker](research/source-literal-checker-v1/README.md) to verify reconstruction against independently pinned source bytes, preserving request/result receipts. It does not authenticate the pin or validate program semantics, formulas, imports, aliases or runtime mutation. Unsupported syntax requires explicit independent source review, not executing untrusted code or silently broadening this tool. The original062 transcription correction remains evidence; extending the checker requires a new freeze and fresh independent tests.

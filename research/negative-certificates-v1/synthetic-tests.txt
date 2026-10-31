@@ -1,0 +1,15 @@
+test_containment (test_checker.Tests.test_containment) ... ok
+test_context (test_checker.Tests.test_context) ... ok
+test_decision (test_checker.Tests.test_decision) ... ok
+test_domains (test_checker.Tests.test_domains) ... ok
+test_hash (test_checker.Tests.test_hash) ... ok
+test_ineligible (test_checker.Tests.test_ineligible) ... ok
+test_json (test_checker.Tests.test_json) ... ok
+test_labels (test_checker.Tests.test_labels) ... ok
+test_no_free_key_veto (test_checker.Tests.test_no_free_key_veto) ... ok
+test_restricted_old (test_checker.Tests.test_restricted_old) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+OK

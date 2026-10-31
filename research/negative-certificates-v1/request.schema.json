@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Negative certificate request v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "context",
+    "partition",
+    "domain"
+  ],
+  "properties": {
+    "context": {
+      "const": {
+        "equation": "C = sigma*P + tau*K (mod q)",
+        "sigma": 1,
+        "tau": 1,
+        "q": 26,
+        "plaintext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "ciphertext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "key_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "data_sha256": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
+        "normalization": "identity uppercase A-Z; no edits, insertions, deletions, or reordering",
+        "alignment": "same plaintext/ciphertext position; zero-based",
+        "message_length": 97,
+        "coordinates": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ]
+      }
+    },
+    "partition": {
+      "type": "array",
+      "minItems": 24,
+      "maxItems": 24,
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "domain": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind"
+          ],
+          "properties": {
+            "kind": {
+              "const": "unrestricted_mod_q"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "allowed_values"
+          ],
+          "properties": {
+            "kind": {
+              "const": "per_class_values"
+            },
+            "allowed_values": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 24,
+              "items": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 26,
+                "uniqueItems": true,
+                "items": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 25
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
