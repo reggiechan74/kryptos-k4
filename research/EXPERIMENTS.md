@@ -1,5 +1,7 @@
 # Experiment log
 
+**Current tracking:** [working to-do list and hypothesis status](HYPOTHESES.md). Reconciled through study 056 on 31 October 2026. Studies 051–056 below are completed and published. Historical entries saying “local-only” or “no push” describe their original run stage, not current repository publication; original receipts and chronology remain unchanged.
+
 | ID | Purpose | Command | Scope | Result |
 | --- | --- | --- | --- | --- |
 | BASE-001 | Baseline data integrity | `python3 experiments/check_baseline.py` | Supplied 97-letter transcription and two crib intervals only | PASS: 97 letters; both crib intervals consistent |
@@ -739,7 +741,7 @@ The two fixed tree/subtree-permutation constructions were implemented, controlle
 ## REGISTRY-20261023 — current hypothesis scope and evidence gates
 
 Documentation and coverage audit only; zero new K4 evaluations. The current
-[canonical section in HYPOTHESES.md](HYPOTHESES.md#current-canonical-coverage-register--23-october-2026)
+[canonical section in HYPOTHESES.md](HYPOTHESES.md#current-canonical-coverage-register--reconciled-31-october-2026)
 tracks 55 stable mechanisms with evidence, finite coverage, missing inputs,
 dependencies and the next discriminating test. Historical entries are preserved.
 The template now uses the same status vocabulary and required fields. Registry
@@ -1234,3 +1236,51 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Date: 2026-10-24 UTC. Corrected 048 calculation: `2026-10-24T20:11:28.873110+00:00` to `2026-10-24T20:13:08.724291+00:00`; corrected 049 calculation: `2026-10-24T20:13:49.930304+00:00` to `2026-10-24T20:14:07.042196+00:00`. Scientific replay and regression UTCs are separate.
 - Scope/result: all 24 full-source lookup plants, six actual returned-hit witnesses and 576 prior-profile comparisons pass. All original actual/null payloads and model domains remain unchanged; no candidate bank or new family.
 - [Correction/provenance](048-049-CONTROL-CORRECTION.md); [048 current receipt](../results/CANDIDATE-FIRST-048-CONTROLLED.json); [049 current receipt](../results/ENE-ROUTE-049-CONTROLLED.json); [replay validation](../results/048-049-CONTROL-CORRECTION-REPLAY.json); [new regression](../results/048-049-CONTROL-CORRECTION-VALIDATION.json). Local only.
+
+## CANDIDATE-FIRST-051 — frozen 32-message structural-key pilot
+
+- Date: 2026-10-25 UTC; target-receipt instant `2026-10-25T01:50:50.322793+00:00` is not asserted to be calculation start/end.
+- Scope: 32 blinded 97-letter messages, 12 AZ/KRYPTOS tableaux, periodic/plaintext-autokey/ciphertext-autokey lengths 1–32; 1,152 descriptions per message, 1,999 full-search conditional nulls.
+- Result: Completed narrow negative: all three gates fail; conditional saving −8.879 bits, p=.916, margin .570 bits. No exact structural fit. Its scientific expansion gate failed; separately authorized 052 does not change that outcome.
+- Evidence: [report and reproduction instructions](candidate-first-051/README.md); [target result/report](candidate-first-051/results/target_summary.json); [independent target audit](candidate-first-051/results/target_audit.json).
+- Status/next action: completed and published; consult the [current working queue](HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+## CANDIDATE-FIRST-052 — separately authorized 1024-message structural-key expansion
+
+- Date: 2026-10-25 UTC; target-receipt instant `2026-10-25T02:34:02.434593+00:00` is not asserted to be calculation start/end.
+- Scope: 1,024 new frozen 97-letter messages, 12 tableaux and periodic/plaintext-autokey/ciphertext-autokey lengths 1–32; 1,179,648 descriptions per target maximum, 1,999 matched null maxima.
+- Result: Completed narrow negative: all three gates fail; saving −7.420649 bits, p=.519, margin 1.262599 bits. No exact structural fit. Standalone exploratory calibration is not project-wide error control. Compact archive intentionally omits the 84 bulky raw control receipts and retains their inventories/reproduction instructions.
+- Evidence: [report and reproduction instructions](candidate-first-052/README.md); [target result/report](candidate-first-052/results/target_summary.json); [independent target audit](candidate-first-052/results/target_audit.json).
+- Status/next action: completed and published; consult the [current working queue](HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+## CANDIDATE-FIRST-053 — fixed-bank ordinary-language running-key test
+
+- Date: 2026-10-25 UTC; audit recorded `2026-10-25T03:38:57.147537+00:00`, not calculation start/end.
+- Scope: 1,024 frozen messages × 12 tableaux; frozen order-4 character language model of induced keys; 1,999 full-search conditional null maxima.
+- Result: Completed narrow negative: all four criteria fail (M=−237.145512 bits, p=.932, different-plaintext margin 3.218139 bits, full-key entropy 8.272177 bits/letter). No open-vocabulary joint plaintext/key decoder was implemented. Exact re-encryption with an unrestricted induced key is not evidence for a message.
+- Evidence: [report and reproduction instructions](candidate-first-053/README.md); [target result/report](candidate-first-053/results/target_result.json); [independent target audit](candidate-first-053/results/target_audit.json).
+- Status/next action: completed and published; consult the [current working queue](HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+## CANDIDATE-FIRST-054 — exact crib-derived running-key source lookup
+
+- Date: 2026-10-25 UTC; audit recorded `2026-10-25T04:24:50.562963+00:00`, not calculation start/end.
+- Scope: 89 documents, 17,619,191 eligible file-contained 97-letter windows, 12 fixed tableaux; forced 13/11-letter fragments start 42 letters apart; no candidate-message bank.
+- Result: Completed exact bounded corpus exclusion: zero first-fragment occurrences, valid pairs or full source windows in 1,068 document/model searches. Other sources, editions, normalization and layers remain outside scope; no approximate search or expansion followed.
+- Evidence: [report and reproduction instructions](candidate-first-054/README.md); [target result/report](candidate-first-054/results/target_result.json); [independent target audit](candidate-first-054/results/target_audit.json).
+- Status/next action: completed and published; consult the [current working queue](HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+## CANDIDATE-FIRST-055 — calibrated forced-fragment English-key screen
+
+- Date: 2026-10-31 UTC; historical report and archived receipts distinguish calibration, target and audit times.
+- Scope: 12 fixed direct aligned tableaux, independently scored 13+11-letter key fragments, unchanged 053 order-4 model; no fabricated context across the 29-letter gap.
+- Result: Completed heuristic screen negative: all 17 calibration gates pass; 0/12 target pairs survive threshold −4.385648037504633 bits/letter; best −7.992896749427596. Source clustering and weak semantic discrimination remain limitations. Stop the direct English-key decoder under this screen; no impossibility claim and no decoder launched.
+- Evidence: [report and reproduction instructions](candidate-first-055/README.md); [target result/report](candidate-first-055/REPORT.md); [independent target audit](candidate-first-055/TARGET-AUDIT.md).
+- Status/next action: completed and published; consult the [current working queue](HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+## CANDIDATE-FIRST-056 — joint periodic-key and free-column-order constraints
+
+- Date: 2026-10-31 UTC; target report and archived original/corrected receipts retain exact calculation/audit chronology.
+- Scope: Standard A–Z Vigenère, unrestricted nominal periods 2–8, then row-filled unpadded ragged columnar transposition widths 6–9, all emission orders/top-down reads, fixed alignment and 24 literal cribs.
+- Result: Completed exact bounded exclusion: selected S and independent reference return complete empty sets; reference covers 408,960 routes × 7 periods = 2,862,720 trials. Fresh corrected 256-case benchmark passes before target; S gives 17.33× inclusive-CPU speedup over enumeration but no material advantage over simpler P. Learned-conflict L fails its separate benefit gate. Original resource-monitor defect, resource-only repair and fresh holdout are retained; numerical-only original results were not used to authorize target.
+- Evidence: [report and reproduction instructions](candidate-first-056/README.md); [target result/report](candidate-first-056/TARGET-REPORT.md); [independent target audit](candidate-first-056/TARGET-AUDIT.md).
+- Status/next action: completed and published; consult the [current working queue](HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.

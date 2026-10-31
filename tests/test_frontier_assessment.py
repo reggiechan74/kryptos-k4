@@ -6,7 +6,35 @@ import exclusion_scope_audit as audit
 
 class FrontierAssessmentTests(unittest.TestCase):
     def test_all_current_entries_are_reviewed_without_new_search(self):
-        saved=json.loads((ROOT/'results/FRONTIER-046.json').read_text());self.assertEqual(frontier.assess(),saved)
+        # 046 is a preserved historical inventory, not the live scheduling queue.
+        # Check the live projection against today's canonical ledger rather than
+        # silently rewriting the old receipt when a family scope is reconciled.
+        current=frontier.assess()
+        entries=frontier.canonical((ROOT/'research/HYPOTHESES.md').read_text())
+        self.assertEqual({r['id'] for r in current['entries']},set(entries))
+        for row in current['entries']:
+            fields=entries[row['id']]
+            self.assertEqual(row['status'],fields['Status'])
+            self.assertEqual(row['mechanism'],fields['Mechanism'])
+            self.assertEqual(row['missing_inputs'],fields['Missing inputs'])
+            self.assertEqual(row['next_discriminating_test'],fields['Next discriminating test'])
+            self.assertEqual(row['unexcluded_scope'],fields['Untested scope'])
+        self.assertEqual(current['new_K4_evaluations'],0)
+        self.assertEqual(current['replay_commands_executed'],0)
+        self.assertTrue(all(not r['ready_for_new_K4_evaluation'] for r in current['entries']))
+        saved=json.loads((ROOT/'results/FRONTIER-046.json').read_text())
+        import hashlib
+        for path,digest in saved['source_sha256'].items():
+            raw=subprocess.check_output(['git','show','f526743d049a9b57f75a1996319a6fe3ae16724d:'+path],cwd=ROOT)
+            self.assertEqual(hashlib.sha256(raw).hexdigest(),digest)
+        historical_ref='f526743d049a9b57f75a1996319a6fe3ae16724d'
+        old_text=subprocess.check_output(['git','show',historical_ref+':research/HYPOTHESES.md'],cwd=ROOT).decode()
+        old_spec=json.loads(subprocess.check_output(['git','show',historical_ref+':research/specifications/FRONTIER-2026-10-23.json'],cwd=ROOT))
+        reconstructed=frontier.assess(spec=old_spec,entries=frontier.canonical(old_text))
+        # assess hashes current files; substitute only the individually verified
+        # historical input hashes, then compare the full historical output.
+        reconstructed['source_sha256']=saved['source_sha256']
+        self.assertEqual(reconstructed,saved)
         self.assertEqual(saved['registered_entries'],63);self.assertEqual(len({r['id'] for r in saved['entries']}),63)
         self.assertEqual(saved['new_K4_evaluations'],0);self.assertEqual(saved['replay_commands_executed'],0);self.assertEqual(saved['ready_new_K4_experiments'],0);self.assertFalse(saved['puzzle_solved'])
         self.assertTrue(all(not r['ready_for_new_K4_evaluation'] for r in saved['entries']));self.assertEqual(len(saved['frontier_gates']),12)

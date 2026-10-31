@@ -32,7 +32,7 @@ Generated navigation; edit the canonical ledger or receipts, then run `python3 e
 | H-PERIOD | analytical exclusion | One fixed injective substitution per repeating phase. | [H-PERIOD canonical record](../../research/HYPOTHESES.md#h-period) |
 | H-LANGUAGE | narrow negative | Change language/script representation before encryption. | [H-LANGUAGE canonical record](../../research/HYPOTHESES.md#h-language) |
 | H-ROUTE | narrow negative | One enumerated route plus periodic arithmetic. | [H-ROUTE canonical record](../../research/HYPOTHESES.md#h-route) |
-| H-RUNKEY | narrow negative | Use literal nearby solved text as a nonwrapping running key. | [H-RUNKEY canonical record](../../research/HYPOTHESES.md#h-runkey) |
+| H-RUNKEY | narrow negative | Literal source-text or ordinary-language running keys under explicitly fixed alphabets, arithmetic, normalization and alignment. | [H-RUNKEY canonical record](../../research/HYPOTHESES.md#h-runkey) |
 | H-TRIFID | narrow negative | Apply one of the fixed Trifid cubes/directions. | [H-TRIFID canonical record](../../research/HYPOTHESES.md#h-trifid) |
 | H-LAG | non-identifiable | Use repeated lag patterns to diagnose an architecture. | [H-LAG canonical record](../../research/HYPOTHESES.md#h-lag) |
 | H-MASK-AUTO | narrow negative | Fixed-primer same-alphabet autokey. | [H-MASK-AUTO canonical record](../../research/HYPOTHESES.md#h-mask-auto) |

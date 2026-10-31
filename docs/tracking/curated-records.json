@@ -807,6 +807,55 @@
       ],
       "outcome": "Full source lookup and actual returned-hit recovery verified; 576 prior-profile comparisons agree; actual/null results unchanged",
       "basis": "Independent audit correction to existing models, not new cipher coverage; original and failed-control receipts retained with separate rerun UTCs."
+    },
+    "LOG-3EB29B40B9": {
+      "title": "CANDIDATE-FIRST-051 — frozen 32-message structural-key pilot",
+      "categories": [
+        "fixed-bank structural-key test"
+      ],
+      "outcome": "All three gates failed (p=.916); no exact fit within 32-message bank.",
+      "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
+    },
+    "LOG-046EB84DEA": {
+      "title": "CANDIDATE-FIRST-052 — separately authorized 1024-message structural-key expansion",
+      "categories": [
+        "fixed-bank structural-key test"
+      ],
+      "outcome": "All three gates failed (p=.519); no exact fit within 1,024-message bank.",
+      "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
+    },
+    "LOG-C81CE17AF8": {
+      "title": "CANDIDATE-FIRST-053 — fixed-bank ordinary-language running-key test",
+      "categories": [
+        "fixed-bank language-key test"
+      ],
+      "outcome": "All four language-key criteria failed (p=.932); unrestricted joint decoding not tested.",
+      "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
+    },
+    "LOG-F07A79943C": {
+      "title": "CANDIDATE-FIRST-054 — exact crib-derived running-key source lookup",
+      "categories": [
+        "exact corpus lookup"
+      ],
+      "outcome": "Zero exact source windows in frozen 89-document/12-tableau corpus.",
+      "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
+    },
+    "LOG-7D7164144D": {
+      "title": "CANDIDATE-FIRST-055 — calibrated forced-fragment English-key screen",
+      "categories": [
+        "calibrated language feasibility screen"
+      ],
+      "outcome": "Calibration passes, then 0/12 target pairs survive; direct decoder stopped under this screen.",
+      "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
+    },
+    "LOG-3E5D4576A7": {
+      "title": "CANDIDATE-FIRST-056 — joint periodic-key and free-column-order constraints",
+      "categories": [
+        "exact composite constraints",
+        "blind solver benchmark"
+      ],
+      "outcome": "Complete exclusion only of frozen AZ Vigenère→ragged-columnar family; corrected benchmark/audits pass.",
+      "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
     }
   }
 }

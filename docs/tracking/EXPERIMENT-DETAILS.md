@@ -1120,7 +1120,7 @@ Type: documentation and scope audit. Outcome: Canonical coverage registry establ
 Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 
 Documentation and coverage audit only; zero new K4 evaluations. The current
-[canonical section in HYPOTHESES.md](../../research/HYPOTHESES.md#current-canonical-coverage-register--23-october-2026)
+[canonical section in HYPOTHESES.md](../../research/HYPOTHESES.md#current-canonical-coverage-register--reconciled-31-october-2026)
 tracks 55 stable mechanisms with evidence, finite coverage, missing inputs,
 dependencies and the next discriminating test. Historical entries are preserved.
 The template now uses the same status vocabulary and required fields. Registry
@@ -2114,3 +2114,111 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - [Correction/provenance](../../research/048-049-CONTROL-CORRECTION.md); [048 current receipt](../../results/CANDIDATE-FIRST-048-CONTROLLED.json); [049 current receipt](../../results/ENE-ROUTE-049-CONTROLLED.json); [replay validation](../../results/048-049-CONTROL-CORRECTION-REPLAY.json); [new regression](../../results/048-049-CONTROL-CORRECTION-VALIDATION.json). Local only.
 
 Related files: [research/048-049-CONTROL-CORRECTION.md](../../research/048-049-CONTROL-CORRECTION.md), [results/048-049-CONTROL-CORRECTION-REPLAY.json](../../results/048-049-CONTROL-CORRECTION-REPLAY.json), [results/048-049-CONTROL-CORRECTION-VALIDATION.json](../../results/048-049-CONTROL-CORRECTION-VALIDATION.json), [results/CANDIDATE-FIRST-048-CONTROLLED.json](../../results/CANDIDATE-FIRST-048-CONTROLLED.json), [results/ENE-ROUTE-049-CONTROLLED.json](../../results/ENE-ROUTE-049-CONTROLLED.json).
+
+## LOG-3EB29B40B9
+
+**CANDIDATE-FIRST-051 — frozen 32-message structural-key pilot**
+
+Exact run start/end unknown; date-only record: 2026-10-25 (date statement; not a run timestamp); original date statement: 2026-10-25 UTC; target-receipt instant `2026-10-25T01:50:50.322793+00:00` is not asserted to be calculation start/end.
+
+Type: fixed-bank structural-key test. Outcome: All three gates failed (p=.916); no exact fit within 32-message bank.
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-25 UTC; target-receipt instant `2026-10-25T01:50:50.322793+00:00` is not asserted to be calculation start/end.
+- Scope: 32 blinded 97-letter messages, 12 AZ/KRYPTOS tableaux, periodic/plaintext-autokey/ciphertext-autokey lengths 1–32; 1,152 descriptions per message, 1,999 full-search conditional nulls.
+- Result: Completed narrow negative: all three gates fail; conditional saving −8.879 bits, p=.916, margin .570 bits. No exact structural fit. Its scientific expansion gate failed; separately authorized 052 does not change that outcome.
+- Evidence: [report and reproduction instructions](../../research/candidate-first-051/README.md); [target result/report](../../research/candidate-first-051/results/target_summary.json); [independent target audit](../../research/candidate-first-051/results/target_audit.json).
+- Status/next action: completed and published; consult the [current working queue](../../research/HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md), [research/candidate-first-051/README.md](../../research/candidate-first-051/README.md), [research/candidate-first-051/results/target_audit.json](../../research/candidate-first-051/results/target_audit.json), [research/candidate-first-051/results/target_summary.json](../../research/candidate-first-051/results/target_summary.json).
+
+## LOG-046EB84DEA
+
+**CANDIDATE-FIRST-052 — separately authorized 1024-message structural-key expansion**
+
+Exact run start/end unknown; date-only record: 2026-10-25 (date statement; not a run timestamp); original date statement: 2026-10-25 UTC; target-receipt instant `2026-10-25T02:34:02.434593+00:00` is not asserted to be calculation start/end.
+
+Type: fixed-bank structural-key test. Outcome: All three gates failed (p=.519); no exact fit within 1,024-message bank.
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-25 UTC; target-receipt instant `2026-10-25T02:34:02.434593+00:00` is not asserted to be calculation start/end.
+- Scope: 1,024 new frozen 97-letter messages, 12 tableaux and periodic/plaintext-autokey/ciphertext-autokey lengths 1–32; 1,179,648 descriptions per target maximum, 1,999 matched null maxima.
+- Result: Completed narrow negative: all three gates fail; saving −7.420649 bits, p=.519, margin 1.262599 bits. No exact structural fit. Standalone exploratory calibration is not project-wide error control. Compact archive intentionally omits the 84 bulky raw control receipts and retains their inventories/reproduction instructions.
+- Evidence: [report and reproduction instructions](../../research/candidate-first-052/README.md); [target result/report](../../research/candidate-first-052/results/target_summary.json); [independent target audit](../../research/candidate-first-052/results/target_audit.json).
+- Status/next action: completed and published; consult the [current working queue](../../research/HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md), [research/candidate-first-052/README.md](../../research/candidate-first-052/README.md), [research/candidate-first-052/results/target_audit.json](../../research/candidate-first-052/results/target_audit.json), [research/candidate-first-052/results/target_summary.json](../../research/candidate-first-052/results/target_summary.json).
+
+## LOG-C81CE17AF8
+
+**CANDIDATE-FIRST-053 — fixed-bank ordinary-language running-key test**
+
+Exact run start/end unknown; date-only record: 2026-10-25 (date statement; not a run timestamp); original date statement: 2026-10-25 UTC; audit recorded `2026-10-25T03:38:57.147537+00:00`, not calculation start/end.
+
+Type: fixed-bank language-key test. Outcome: All four language-key criteria failed (p=.932); unrestricted joint decoding not tested.
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-25 UTC; audit recorded `2026-10-25T03:38:57.147537+00:00`, not calculation start/end.
+- Scope: 1,024 frozen messages × 12 tableaux; frozen order-4 character language model of induced keys; 1,999 full-search conditional null maxima.
+- Result: Completed narrow negative: all four criteria fail (M=−237.145512 bits, p=.932, different-plaintext margin 3.218139 bits, full-key entropy 8.272177 bits/letter). No open-vocabulary joint plaintext/key decoder was implemented. Exact re-encryption with an unrestricted induced key is not evidence for a message.
+- Evidence: [report and reproduction instructions](../../research/candidate-first-053/README.md); [target result/report](../../research/candidate-first-053/results/target_result.json); [independent target audit](../../research/candidate-first-053/results/target_audit.json).
+- Status/next action: completed and published; consult the [current working queue](../../research/HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md), [research/candidate-first-053/README.md](../../research/candidate-first-053/README.md), [research/candidate-first-053/results/target_audit.json](../../research/candidate-first-053/results/target_audit.json), [research/candidate-first-053/results/target_result.json](../../research/candidate-first-053/results/target_result.json).
+
+## LOG-F07A79943C
+
+**CANDIDATE-FIRST-054 — exact crib-derived running-key source lookup**
+
+Exact run start/end unknown; date-only record: 2026-10-25 (date statement; not a run timestamp); original date statement: 2026-10-25 UTC; audit recorded `2026-10-25T04:24:50.562963+00:00`, not calculation start/end.
+
+Type: exact corpus lookup. Outcome: Zero exact source windows in frozen 89-document/12-tableau corpus.
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-25 UTC; audit recorded `2026-10-25T04:24:50.562963+00:00`, not calculation start/end.
+- Scope: 89 documents, 17,619,191 eligible file-contained 97-letter windows, 12 fixed tableaux; forced 13/11-letter fragments start 42 letters apart; no candidate-message bank.
+- Result: Completed exact bounded corpus exclusion: zero first-fragment occurrences, valid pairs or full source windows in 1,068 document/model searches. Other sources, editions, normalization and layers remain outside scope; no approximate search or expansion followed.
+- Evidence: [report and reproduction instructions](../../research/candidate-first-054/README.md); [target result/report](../../research/candidate-first-054/results/target_result.json); [independent target audit](../../research/candidate-first-054/results/target_audit.json).
+- Status/next action: completed and published; consult the [current working queue](../../research/HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md), [research/candidate-first-054/README.md](../../research/candidate-first-054/README.md), [research/candidate-first-054/results/target_audit.json](../../research/candidate-first-054/results/target_audit.json), [research/candidate-first-054/results/target_result.json](../../research/candidate-first-054/results/target_result.json).
+
+## LOG-7D7164144D
+
+**CANDIDATE-FIRST-055 — calibrated forced-fragment English-key screen**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (date statement; not a run timestamp); original date statement: 2026-10-31 UTC; historical report and archived receipts distinguish calibration, target and audit times.
+
+Type: calibrated language feasibility screen. Outcome: Calibration passes, then 0/12 target pairs survive; direct decoder stopped under this screen.
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-31 UTC; historical report and archived receipts distinguish calibration, target and audit times.
+- Scope: 12 fixed direct aligned tableaux, independently scored 13+11-letter key fragments, unchanged 053 order-4 model; no fabricated context across the 29-letter gap.
+- Result: Completed heuristic screen negative: all 17 calibration gates pass; 0/12 target pairs survive threshold −4.385648037504633 bits/letter; best −7.992896749427596. Source clustering and weak semantic discrimination remain limitations. Stop the direct English-key decoder under this screen; no impossibility claim and no decoder launched.
+- Evidence: [report and reproduction instructions](../../research/candidate-first-055/README.md); [target result/report](../../research/candidate-first-055/REPORT.md); [independent target audit](../../research/candidate-first-055/TARGET-AUDIT.md).
+- Status/next action: completed and published; consult the [current working queue](../../research/HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md), [research/candidate-first-055/README.md](../../research/candidate-first-055/README.md), [research/candidate-first-055/REPORT.md](../../research/candidate-first-055/REPORT.md), [research/candidate-first-055/TARGET-AUDIT.md](../../research/candidate-first-055/TARGET-AUDIT.md).
+
+## LOG-3E5D4576A7
+
+**CANDIDATE-FIRST-056 — joint periodic-key and free-column-order constraints**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (date statement; not a run timestamp); original date statement: 2026-10-31 UTC; target report and archived original/corrected receipts retain exact calculation/audit chronology.
+
+Type: exact composite constraints; blind solver benchmark. Outcome: Complete exclusion only of frozen AZ Vigenère→ragged-columnar family; corrected benchmark/audits pass.
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-31 UTC; target report and archived original/corrected receipts retain exact calculation/audit chronology.
+- Scope: Standard A–Z Vigenère, unrestricted nominal periods 2–8, then row-filled unpadded ragged columnar transposition widths 6–9, all emission orders/top-down reads, fixed alignment and 24 literal cribs.
+- Result: Completed exact bounded exclusion: selected S and independent reference return complete empty sets; reference covers 408,960 routes × 7 periods = 2,862,720 trials. Fresh corrected 256-case benchmark passes before target; S gives 17.33× inclusive-CPU speedup over enumeration but no material advantage over simpler P. Learned-conflict L fails its separate benefit gate. Original resource-monitor defect, resource-only repair and fresh holdout are retained; numerical-only original results were not used to authorize target.
+- Evidence: [report and reproduction instructions](../../research/candidate-first-056/README.md); [target result/report](../../research/candidate-first-056/TARGET-REPORT.md); [independent target audit](../../research/candidate-first-056/TARGET-AUDIT.md).
+- Status/next action: completed and published; consult the [current working queue](../../research/HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
+
+Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md), [research/candidate-first-056/README.md](../../research/candidate-first-056/README.md), [research/candidate-first-056/TARGET-AUDIT.md](../../research/candidate-first-056/TARGET-AUDIT.md), [research/candidate-first-056/TARGET-REPORT.md](../../research/candidate-first-056/TARGET-REPORT.md).

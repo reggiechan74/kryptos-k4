@@ -3,14 +3,50 @@
 Use [the template](templates/hypothesis.md) for new hypotheses. Exact structural
 proofs and finite tests have separate scope; compatibility is not a solution.
 
+## Working to-do list and current status — 31 October 2026
+
+**This is the canonical reference for deciding what to test next.** Consult it before selecting an experiment and reconcile it at the end of every run, including a failed, interrupted or inconclusive run. The [agent workflow](../AGENTS.md) makes this check mandatory. The [experiment log](EXPERIMENTS.md) records individual runs; generated trackers are navigation, not a second source of truth.
+
+- **Completed and published through study 056.** The table below reconciles the six latest studies. A completed bounded test is not an eliminated broad hypothesis.
+- **No experiment is currently running.** The next five items are **proposed, not started**. Queue rank is a recommendation, not authorization to execute or publish a new experiment. Check the latest user direction and required protocol/control gates before starting.
+- **Next recommended preparation:** Q-01, followed by Q-02 and Q-03. Q-04 and Q-05 are conditional method pilots, not independent evidence that K4 uses a particular cipher.
+- **Stopped branch:** direct aligned English-running-key decoding did not pass study 055's screen. Do not reopen it merely because an unrestricted decoder was never built. Study 056 also found no demonstrated learned-conflict advantage.
+
+### Recent completed tests
+
+| Study | Exact tested scope | Outcome and evidence | Remaining gap / next action |
+| --- | --- | --- | --- |
+| 051 | 32 frozen messages; 12 tableaux; periodic/plaintext-autokey/ciphertext-autokey lengths 1–32 | **Completed, narrow negative:** all three gates failed; p = .916; no exact structural fit. [Report](candidate-first-051/README.md) | Outside-bank plaintexts and natural-language key inference were not tested. The failed expansion gate remains failed; 052 was separately authorized. |
+| 052 | 1,024 new frozen messages under the same structural-key model | **Completed, narrow negative:** all three gates failed; p = .519; no exact structural fit. [Report](candidate-first-052/README.md) | Not all possible plaintexts or key generators. Preserve omitted raw-control inventories; do not interpret the standalone p-value as project-wide evidence. |
+| 053 | The 1,024-message bank, 12 fixed tableaux, order-4 scoring of induced English keys | **Completed, narrow negative:** all four criteria failed; p = .932. [Report](candidate-first-053/README.md) | Not open-vocabulary joint decoding; 054 and 055 separately tested source lookup and forced-fragment feasibility. |
+| 054 | 89 frozen documents, 17,619,191 eligible 97-letter windows, 12 tableaux and fixed fragment spacing | **Completed, exact bounded corpus exclusion:** zero source matches. [Report](candidate-first-054/README.md) | Other sources, editions, normalization and layers remain untested. No approximate-match or corpus expansion is authorized by this negative. |
+| 055 | Direct aligned running-key fragments under 12 fixed tableaux; calibrated order-4 local-English screen | **Completed, heuristic screen negative:** 17/17 calibration gates passed, then 0/12 target pairs survived. [Report and audits](candidate-first-055/README.md) | Not an impossibility proof for all English keys. Stop the direct decoder under this screen; no decoder was launched. |
+| 056 | Standard A–Z Vigenère then unpadded ragged columnar; all emission orders, widths 6–9, nominal periods 2–8, fixed alignment/top-down reads | **Completed, exact bounded exclusion:** independent reference covered 2,862,720 route/period trials; zero compatible solutions. [Target and benchmark audits](candidate-first-056/README.md) | Other alphabets, equations, stage orders and feedback remain outside scope; see Q-01–Q-03. Original resource-monitor defect and fresh corrected benchmark remain disclosed. |
+
+### Next five proposed tests
+
+The three model extensions must first demonstrate genuinely new coverage against earlier routes/grammar and pass blind 97-letter controls. Record exact conventions and remove algebraic aliases before counting tests. These are proposals synthesized from the [research comparison](strategy-review-20261031/REPORT.md), not five literature-proven K4 attacks.
+
+| Priority / queue ID | Proposed test and family | Status | Required first action and go/no-go | Evidence / dependency |
+| --- | --- | --- | --- | --- |
+| 1 / Q-01 | KRYPTOS-alphabet and distinct Beaufort extensions of 056 across all column orders; widths 6–9, periods 2–8. Related family: H-ROUTE. | **Proposed, not started** | Freeze exact plaintext/ciphertext alphabet roles and equations; deduplicate equivalent complete operators. Validate the extended exact solver on blind fixtures before any target run. Variant Beaufort with an arbitrary negated key and arbitrary key phase must not inflate coverage. | [056 scope](candidate-first-056/TARGET-REPORT.md); [earlier restricted routes](BOUNDED-FINDINGS.md); [050 closure](HAND-GRAMMAR-050-FINDINGS.md). |
+| 2 / Q-02 | Reverse the stages: columnar transposition before periodic arithmetic, across the same free column orders and initial bounds. Related family: H-ROUTE. | **Proposed, not started** | Freeze the reverse-order model; determine which key residues the cribs constrain. Enumerate remaining freedom explicitly. Advance only with sound synthetic recovery/ambiguity controls; do not fill unobserved residues by preferred English. | [056 excluded scope](candidate-first-056/TARGET-REPORT.md); [earlier fixed-route coverage](BOUNDED-FINDINGS.md). |
+| 3 / Q-03 | Plaintext- or ciphertext-autokey followed by unknown columnar transposition; proposed primers 1–8 and widths 6–9. Related families: H-AUTOKEY-EXACT, H-MASK-AUTO, H-ROUTE. | **Proposed, not started** | Freeze feedback/primer/alphabet conventions and exact bounds. Require complete-set agreement on tiny exhaustive cases and useful recovery on held-out 97-letter cases before target evaluation. | [Direct autokey scope explicitly excludes composites](AUTOKEY-CONSTRAINT-FINDINGS.md); [056 periodic-only scope](candidate-first-056/README.md). |
+| 4 / Q-04 | Structure-aware stochastic search for one admitted composite family; compare multistart local search with MCMC/annealing, and tempering only if trapping is observed. Method pilot, not a new family. | **Proposed, not started; conditional** | First show an actual exact-search bottleneck. Freeze one model and equal-compute benchmark. Advance only for improved exact recovery without increased false selection; heuristic failure never excludes the family. | [Research comparison](strategy-review-20261031/REPORT.md); [Chen and Rosenthal](https://probability.ca/jeff/ftpdir/decipherartpub.pdf). |
+| 5 / Q-05 | Whole-text neural scoring inside a cipher-constrained decoder. Method pilot, not an unconstrained plaintext generator. | **Proposed, not started; conditional** | First test true-solution versus wrong-candidate ranking on source-disjoint 97-letter fixtures. Only then compare constrained beam search; require recovery and false-positive improvements over existing n-grams. | [Research comparison](strategy-review-20261031/REPORT.md); [Kambhatla et al.](https://aclanthology.org/D18-1102/). |
+
+### Required end-of-run reconciliation
+
+Before marking any run finished or selecting the next item, update its exact tested bounds, completion/outcome, evidence and audit links, remaining uncertainty, blockers and next action in this ledger and [EXPERIMENTS.md](EXPERIMENTS.md). Record interrupted/resource-limited runs as inconclusive unless a narrower completed result is justified. Review queue order and state why an item advances, stops or remains blocked. Update reviewed classifications and regenerate the navigation as [AGENTS.md](../AGENTS.md) specifies. Keep original frozen reports, failed gates and corrections intact; publication status is separate from scientific status.
+
 <!-- CURRENT-REGISTER:START -->
-## Current canonical coverage register — 23 October 2026
+## Current canonical coverage register — reconciled 31 October 2026
 
 This section is the current status index within the existing hypothesis log; the historical entries below remain a dated research record. Where a historical heading says “unrun”, this section and its linked final results supersede that status. Experiment execution details remain in [EXPERIMENTS.md](EXPERIMENTS.md). The [exclusion scope audit](EXCLUSION-SCOPE-AUDIT-2026-10-23.md) separates retained evidence, fresh replays, finite domains and unresolved assumptions. This is not a worldwide novelty claim. Stable IDs must not be reused for a different mechanism. H-PHONETIC-RESPelling was an earlier prose spelling of H-PHONETIC-RESPELLING, not a second hypothesis.
 
 The deep source review has now been read and integrated. Its [evidence synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md) confirms navigation context but supplies no surveyed bearing, calibrated shadow mechanism or dated celestial observation. Those physical claims remain evidence-blocked; the separately frozen conditional pilots are not measurements. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
 
-The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every entry below and preserves concrete evidence/algorithm gates. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. No new evidence-grounded K4 evaluation is currently ready under the available inputs and implementations; this is not global exhaustion.
+The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the working to-do list above is the current next-action queue. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by the completed 051–056 studies and the proposed queue above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
 
 ### Status vocabulary
 
@@ -51,7 +87,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 | [H-PERIOD](#h-period) | analytical exclusion | One fixed injective substitution per repeating phase. |
 | [H-LANGUAGE](#h-language) | narrow negative | Change language/script representation before encryption. |
 | [H-ROUTE](#h-route) | narrow negative | One enumerated route plus periodic arithmetic. |
-| [H-RUNKEY](#h-runkey) | narrow negative | Use literal nearby solved text as a nonwrapping running key. |
+| [H-RUNKEY](#h-runkey) | narrow negative | Literal source-text or ordinary-language running keys under explicitly fixed alphabets, arithmetic, normalization and alignment. |
 | [H-TRIFID](#h-trifid) | narrow negative | Apply one of the fixed Trifid cubes/directions. |
 | [H-LAG](#h-lag) | non-identifiable | Use repeated lag patterns to diagnose an architecture. |
 | [H-MASK-AUTO](#h-mask-auto) | narrow negative | Fixed-primer same-alphabet autokey. |
@@ -375,7 +411,7 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [Original baseline necessary constraints](STRUCTURAL-FINDINGS.md), [final bounded periodic edit sensitivity](ONE-EDIT-028-FINDINGS.md), [all masks/keys/failed forecasts](../results/one-edit-028/README.md). [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error. [048 fixed-source preflight](CANDIDATE-FIRST-048-FINDINGS.md) retains42free-key cases across all constructors but no exact source key; [050 fixed-key depth-three grammar](HAND-GRAMMAR-050-FINDINGS.md) remains a narrow additional finite model.
+- Results: [Original baseline necessary constraints](STRUCTURAL-FINDINGS.md), [final bounded periodic edit sensitivity](ONE-EDIT-028-FINDINGS.md), [all masks/keys/failed forecasts](../results/one-edit-028/README.md). [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error. [048 fixed-source preflight](CANDIDATE-FIRST-048-FINDINGS.md) retains42free-key cases across all constructors but no exact source key; [050 fixed-key depth-three grammar](HAND-GRAMMAR-050-FINDINGS.md) remains a narrow additional finite model. [051](candidate-first-051/README.md) and [052](candidate-first-052/README.md) separately test fixed candidate banks under periodic/autokey structures: no exact fits and all three target gates fail; these are not all-plaintext exclusions.
 
 ### H-LANGUAGE
 
@@ -394,24 +430,24 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Status: narrow negative
 - Mechanism: One enumerated route plus periodic arithmetic.
 - Evidence: [source or scoped prior review](BOUNDED-FINDINGS.md); historical availability or user proposal does not establish creator use.
-- Tested scope: 13,056 descriptions, 66 routes; 282 retained identity-route fits have zero repeated-phase checks and are vacuous.
-- Untested scope: Broader mechanisms outside the exact report domain.
+- Tested scope: Earlier ROUTE-001: 13,056 descriptions, 66 routes; 282 retained identity-route fits have zero repeated-phase checks and are vacuous. Studies 049/050 complete their separately frozen route/fixed-key domains. Study 056 independently excludes standard A–Z periodic Vigenère followed by unpadded ragged columnar transposition, widths 6–9, nominal periods 2–8, all column orders and top-down reads: 408,960 routes and 2,862,720 reference route/period trials, no compatible solutions.
+- Untested scope: Other alphabets/equations across the 056 free-column-order domain (Q-01), reverse stage order across that domain (Q-02), feedback composites (Q-03), other widths/periods/padding or independently justified layers. Earlier restricted-route tests must be subtracted from any new coverage claim.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
-- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Next discriminating test: Follow the proposed Q-01 then Q-02 queue above: freeze exact operators and aliases, pass blind known-answer controls, and establish identifiability before any newly authorized target search. Q-03 is a separate feedback extension; no proposal has run.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](BOUNDED-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [049 literal/digital ENE routes](ENE-ROUTE-049-FINDINGS.md) and [050 fixed-key grammar](HAND-GRAMMAR-050-FINDINGS.md) complete their frozen domains without full crib survivors, retaining all inverse/alias coverage and null controls.
+- Results: [Earlier finite coverage](BOUNDED-FINDINGS.md), [049](ENE-ROUTE-049-FINDINGS.md), [050](HAND-GRAMMAR-050-FINDINGS.md), and [056 exact target exclusion and independent audits](candidate-first-056/README.md). The 056 corrected benchmark passed; its original monitoring defect is retained. Learned conflicts did not pass the benefit gate, and shared propagation did not materially outperform simpler prefix propagation.
 
 ### H-RUNKEY
 
 - Status: narrow negative
-- Mechanism: Use literal nearby solved text as a nonwrapping running key.
+- Mechanism: Literal source-text or ordinary-language running keys under explicitly fixed alphabets, arithmetic, normalization and alignment.
 - Evidence: [source or scoped prior review](BOUNDED-FINDINGS.md); historical availability or user proposal does not establish creator use.
-- Tested scope: 28,488 declared cases fail all-crib compatibility.
-- Untested scope: Broader mechanisms outside the exact report domain.
-- Missing inputs: A new, independently justified finite specification outside completed coverage.
-- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Tested scope: Earlier nearby-text study: 28,488 declared cases fail all-crib compatibility. Study 053: 1,024 frozen plaintexts × 12 tableaux, all four language-key gates fail (p=.932). Study 054: 89 documents and 17,619,191 eligible source windows under 12 tableaux, zero exact matches. Study 055: calibrated 13+11-letter forced-fragment screen, all 17 admission gates pass and 0/12 target pairs survive.
+- Untested scope: Open-vocabulary joint decoding was not implemented; other sources/editions/conventions/layers remain outside these domains. The 055 local-English screen is not a proof that all English keys are impossible, and does not establish semantic coherence.
+- Missing inputs: Independent reason to revise the direct English-key assumption or a distinct bounded model, plus a newly calibrated feasibility gate; an unbuilt decoder alone is not a reason to bypass 055.
+- Next discriminating test: Stop direct aligned English-running-key decoding under the 055 screen. Reopen only after a separately justified model/convention change and reviewed controls, not ad hoc relaxation to fit target fragments.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](BOUNDED-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+- Results: [Earlier finite coverage](BOUNDED-FINDINGS.md); [053 fixed-bank language-key result](candidate-first-053/README.md); [054 exact source exclusion](candidate-first-054/README.md); [055 calibrated screen and audits](candidate-first-055/README.md). No unrestricted joint decoder or recovered plaintext is claimed.
 
 ### H-TRIFID
 
@@ -443,9 +479,9 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Mechanism: Fixed-primer same-alphabet autokey.
 - Evidence: [source or scoped prior review](MASKING-FINDINGS.md); historical availability or user proposal does not establish creator use.
 - Tested scope: 12 fixed complete models reject; broader direct coverage is indexed by H-AUTOKEY-EXACT.
-- Untested scope: Broader mechanisms outside the exact report domain.
+- Untested scope: Broader mechanisms outside the exact report domain. Short-primer autokey followed by unknown columnar transposition is proposed as Q-03, not started; direct-alignment exclusions do not transfer automatically.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
-- Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
+- Next discriminating test: Consult Q-03 and H-AUTOKEY-EXACT; freeze a genuinely new composite model and pass tiny exact-set plus blind 97-letter controls before an authorized target run.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
 - Results: [retained evidence and finite coverage](MASKING-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
 
@@ -587,11 +623,11 @@ The [current frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) reviews every
 - Mechanism: Direct same-alphabet feedback with arbitrary independent primer.
 - Evidence: [source or scoped prior review](AUTOKEY-CONSTRAINT-FINDINGS.md); historical availability or user proposal does not establish creator use.
 - Tested scope: 1,152 formal cases: 732 contradictory, 420 underdetermined with zero independent consistency checks. PROSE-COVER-035 exhausts all105,456 minimum-compatible lag27 AZ/KRYPTOS plus/minus/Beaufort descriptions: zero covers in three frozen Brown-derived lexicons, independently replayed. This is vocabulary-conditioned; genuine K3 also fails those lexicons.
-- Untested scope: Other compatible primers/lags under stronger independently validated language constraints, lexicons outside035, and cross-alphabet roles outside H-ASYMMETRIC-FEEDBACK's six fixed-primer and 72 arbitrary-primer configurations, or new independently constrained generators.
+- Untested scope: Other compatible primers/lags under stronger independently validated language constraints, lexicons outside035, and cross-alphabet roles outside H-ASYMMETRIC-FEEDBACK's six fixed-primer and 72 arbitrary-primer configurations, or new independently constrained generators. Short-primer autokey followed by unknown columnar transposition is proposed as Q-03, not started; direct-alignment exclusions do not transfer automatically.
 - Missing inputs: A new, independently justified finite specification outside completed coverage.
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
-- Results: [retained evidence and finite coverage](AUTOKEY-CONSTRAINT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error. [048 exact source-passage primer test](CANDIDATE-FIRST-048-FINDINGS.md) includes all three equations/two alphabets and lengths1–32, with zeroadmissible source keys; unrestricted primers remain distinct.
+- Results: [retained evidence and finite coverage](AUTOKEY-CONSTRAINT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error. [048 exact source-passage primer test](CANDIDATE-FIRST-048-FINDINGS.md) includes all three equations/two alphabets and lengths1–32, with zeroadmissible source keys; unrestricted primers remain distinct. [051](candidate-first-051/README.md) and [052](candidate-first-052/README.md) separately test fixed candidate banks under periodic/autokey structures: no exact fits and all three target gates fail; these are not all-plaintext exclusions.
 
 ### H-GROMARK-ONE
 

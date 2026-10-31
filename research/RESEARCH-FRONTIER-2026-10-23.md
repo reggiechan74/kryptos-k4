@@ -1,4 +1,8 @@
-# K4 frontier: what can responsibly happen next
+# Historical K4 frontier assessment: 23–24 October 2026
+
+**Current scheduling reference:** [the canonical hypothesis ledger and working to-do list](HYPOTHESES.md), reconciled through study 056 on 31 October 2026. The dated readiness, publication and Site-version statements below are retained as historical snapshots, not current launch decisions or publication status. Studies 051–056 and the next five proposed tests supersede this page for deciding what to run next. No old readiness snapshot authorizes a new experiment.
+
+## Preserved historical assessment
 
 Latest local review: [seven-family34subbranch matrix](SEVEN-FAMILY-REVIEW-046.md) records scoped038–046outcomes, non-identifiable fits and source/resource gates. [Readiness046](../results/FRONTIER-046.json) authorizes no new K4domain. Published snapshot043924d retains prior032–037; new results remain local.
 
