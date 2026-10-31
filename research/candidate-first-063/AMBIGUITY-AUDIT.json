@@ -1,0 +1,20 @@
+{
+  "status": "PASS_DESCRIPTIVE_POST_REVEAL",
+  "counts": {
+    "includes_later_positions": 137,
+    "plants_with_first_only_samekey_alias": 624,
+    "plants_with_first_only_samekey_alias_and_same_postfirststate": 624,
+    "prefix_before_first_crib_only": 424,
+    "only_position0": 63
+  },
+  "distinct_plaintexts_min": 8,
+  "distinct_plaintexts_max": 126,
+  "varying_positions_min": 1,
+  "varying_positions_max": 34,
+  "all624_projection_rows_reproduced": true,
+  "convergence_independently_checked_with_pair_state": true,
+  "additional_solver_runs": 0,
+  "target_evaluated": false,
+  "cpu_seconds": 0.46646846299999994,
+  "limitations": "Observed sealed-fixture ambiguity only; not universal identification theorem. No admission-gate change; convergence explains some but not all observed ambiguity, including137 cases with later-position alternatives."
+}

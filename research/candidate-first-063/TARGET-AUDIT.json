@@ -1,0 +1,29 @@
+{
+  "status": "PASS_BOUNDED_UNSAT_COMPLETE",
+  "created_utc": "2026-10-31T16:05:34.448913+00:00",
+  "frozen_files_verified": 39,
+  "freeze_and_all_seals_verified": true,
+  "canonical_ciphertext_hash_verified": true,
+  "clue_positions_verified": 24,
+  "alphabet_period_cases_each": 12,
+  "initial_states_per_retained_seed": 624,
+  "zero_key_included": true,
+  "old_high_readout": true,
+  "continuous_global_replay_required": true,
+  "compatible_parameterizations": 0,
+  "outputs_agree": true,
+  "additional_target_searches": 0,
+  "target_cpu_seconds": 0.09470299899999998,
+  "target_child_max_rss_kib": 8064,
+  "audit_cpu_seconds": 0.029664757000000007,
+  "audit_max_rss_kib": 19960,
+  "transport_sha256": "8c399cc7abb46336a5eda6ebb8beef1bf2fd18589212487bb3fa9b8bd41cada8",
+  "seal_sha256": "ec24740d0b4212a40964bf318b5a4e71c520455d3d6dba602e09a92571573eb8",
+  "benchmark_ambiguity_context": {
+    "ambiguous_plants": 624,
+    "only_position0": 63,
+    "prefix_only": 424,
+    "later_positions": 137
+  },
+  "interpretation": "Exact compatibility exclusion for AZ/KR,periods1\u20136,all624 initial states and frozen OLD-high accumulator readout. Local independently initialized block filters are only lossless supersets; global continuous replay is final. Not a unique-recovery demonstration or exclusion of general carry-state ciphers."
+}

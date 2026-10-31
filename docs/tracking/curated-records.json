@@ -907,6 +907,23 @@
       ],
       "outcome": "Exact bounded ciphertext-steered Josephus exclusion; zero cylinders across3,104 structural descriptions",
       "basis": "Reviewed against exact frozen scope, ambiguity-preserving blind controls, prior-domain audit and independent final target audit. No general message-dependent route exclusion."
+    },
+    "LOG-F3A0E2A127": {
+      "title": "METHOD-LITERAL-001 \u2014 independently validated read-only source literal checker",
+      "categories": [
+        "static data validation"
+      ],
+      "outcome": "84 independent literal-selector cases pass; actual EA/AE transcription error detected, semantic validation excluded",
+      "basis": "Reviewed immutable tool/spec and independent fixture freezes plus raw audit evidence. Internal method improvement, not a cipher search or fresh recovery claim."
+    },
+    "LOG-E6FA4F2C8B": {
+      "title": "CANDIDATE-FIRST-063 \u2014 coupled 26/24 accumulator compatibility test",
+      "categories": [
+        "finite K4 model tests",
+        "exact ambiguity analysis"
+      ],
+      "outcome": "Exact bounded coupled-carry exclusion; zero target tuples, but all624 blind plants have multiple plaintexts",
+      "basis": "Reviewed frozen scope, global reachability, complete-set and independent ambiguity/target audits. Compatibility/exclusion only, no unique-recovery claim."
     }
   }
 }

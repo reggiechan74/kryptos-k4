@@ -2341,3 +2341,49 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Status/next action: Scientific execution and independent audit complete; artifacts published. Reconcile ledger and advance to063 coupled carry plus the separately authorized validation-tool task. No063 target run at this closeout; no frozen062 artifact modification or paid-service/Site change.
 
 Related files: [research/candidate-first-062/PRIOR-COVERAGE.md](../../research/candidate-first-062/PRIOR-COVERAGE.md), [research/candidate-first-062/README.md](../../research/candidate-first-062/README.md).
+
+## LOG-F3A0E2A127
+
+**METHOD-LITERAL-001 — independently validated read-only source literal checker**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (date statement; not a run timestamp); original date statement: 2026-10-31 UTC; authorized after062 closeout. This is validation tooling, not a K4 cipher experiment or another hypothesis.
+
+Type: static data validation. Outcome: 84 independent literal-selector cases pass; actual EA/AE transcription error detected, semantic validation excluded
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-31 UTC; authorized after062 closeout. This is validation tooling, not a K4 cipher experiment or another hypothesis.
+- Observed failure:062's external artifact-step reconstruction initially transcribed EA as AE; independent source review caught it before freeze. Original erroneous and corrected receipts remain untouched.
+- Change: Add a read-only hash-pinned Python AST selector for one explicit dictionary/comprehension iterable of literal strings. No source execution, dynamic expression evaluation, network access or whole-program semantic claim. Unsupported selector/iterable forms fail closed. Provenance string is supplied, not authenticated.
+- Validation: Builder froze v1 before independent reviewer authored81fresh fixtures and three preplanned JSON supplements. All84CLI cases pass, zero false accepts/rejects within stated expectations. Four separately labelled actual-source tests accept EA and reject AE for both selectedkeys. Four post-inspection diagnostic fault injections also failclosed; actual OS exhaustion was not tested. Frozenv1 remains unchanged.
+- Boundaries: Comprehension body, runtime tuple shadowing, alias/reflection/update mutations and source meaning are deliberately outside literal-only scope. Accepted syntax is not a guarantee of safe runtime behavior. Every selected-dictionary key must be a string literal. Use bounded CLI for untrusted bytes; library does not impose OSlimits.
+- Evidence: [Specification, method record, independent audit and immutable evidence archive](../../research/source-literal-checker-v1/README.md); utility `experiments/source_literal_check.py`; seven focused regression methods include replay of84 archived cases, not a new holdout. Blind fixturemanifest `a3f677bc9fe84c13b2ef11ad84bc87ed218a5f7556ff5b587babe5f209a70f34`; toolfreeze `29e3912f38661c9304adf37586d22801b0c610bfd866abe899d976d982c263d8`.
+- Resources: Independent84-case childCPU3.000281seconds; actualsource supplement0.163505seconds; post-inspection fault-test body0.002391868seconds (excludes harnessstartup). All receipt bounds and caveats retained.
+- Decision: Retainv1 as an internal transcription aid; no separate repository/global invention claim. Syntax extensions require a new specification/freeze/fresh independentholdout.063 eligibility did not depend on this utility; no frozen cipher experiment changed or target rerun.
+
+Related files: [experiments/source_literal_check.py](../../experiments/source_literal_check.py), [research/source-literal-checker-v1/README.md](../../research/source-literal-checker-v1/README.md).
+
+## LOG-E6FA4F2C8B
+
+**CANDIDATE-FIRST-063 — coupled 26/24 accumulator compatibility test**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (opening prose; not a run timestamp)
+
+Type: finite K4 model tests; exact ambiguity analysis. Outcome: Exact bounded coupled-carry exclusion; zero target tuples, but all624 blind plants have multiple plaintexts
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date:2026-10-31 UTC; parent target-stage approval16:03:52UTC, explicitly compatibility/exclusion only, not plaintext recovery.
+- Scope: AZ/KRYPTOS, phase-zero arbitrary periodic keys1–6, all624 initial(a,h) states, t=a+x+k,a'=t mod26,y=(a'+OLDh) mod26,h'=(h+floor(t/26)) mod24. No changed modulus, readout timing, signs, routes or layers. Zero keys INCLUDED; this machine is not pure transposition at keyzero.
+- Result: Both independent target engines UNSAT_COMPLETE; zero compatible alphabet/key/start-state/plaintext tuples. Exact bounded exclusion only; no extra target runs or rescue tweaks.
+- Correctness: Independent scalar-T and explicit(a,h) implementations, complete tiny forward truth and all7488 direct full-size A/period/state controls. Local13/11-letter entry-state filters intersect complete keys only as a superset; continuous97-letter replay from actual initial states is mandatory. A retained tiny reset-trap has a shared local key but no globally reachable solution.
+- Blind benchmark:688 complete independent tuple sets agree,624/624 plants retained,55,263 compatible parameterizations allfully roundtrip,0/64 union null fits. Everyinitialstate represented,26 plants in each of24 alphabet/period/kind cells. Benchmark51.111CPU seconds, independentaudit43.702CPU seconds; full resources include all prior/control/audit costs.
+- IDENTIFIABILITY LIMIT: ZERO unique recovery among624plants, each8–126plaintexts. Post-reveal projection of existing sealed outputs only:63 plants vary onlyposition0;424 additionalplants onlyprefix0–20;137 also laterunknown positions. Everyplant has a same-generating-key first-symbol-only alternative with identical postfirst state. Independent non-search ambiguity audit confirms this. Not a probabilistic recovery success, no English scoring or arbitrary candidate selection.
+- Prior work: Exact fixed-alphabet causal-affine non-equivalence uses all26 reachable conditional translations forcing affine relabelings, then a carry-discontinuity witness. Nonlinear local radix is separated by its own reachable-state parity certificates, not by a false linearity assumption. Scott adjacent-noise is set-valued; finite-message intersection caveat retained. Source files match pinned Git blobs; no externalprogram execution.
+- Provenance: freeze `5b0d6d5ea6e3b10f2ced28474d09bd1e475281969bb3a19ba12e82819f568827`; targettransport `8c399cc7abb46336a5eda6ebb8beef1bf2fd18589212487bb3fa9b8bd41cada8`. Canonical ciphertext unchanged; artifacts retain salts/seeds/seals, aliases, reset-trap and ambiguity diagnostics.
+- Evidence: [Findings, frozen protocol, independent benchmark/ambiguity/target audits and archive](../../research/candidate-first-063/README.md); [prior-equivalence report](../../research/candidate-first-063/PRIOR-COVERAGE.md).
+- Method improvement/decision: Correct compatibility solvers need not uniquely identify plaintext. Future proposed models must declare which unknowns the clue mask can identify before presenting a recovery objective. No compatible K4 tuple remains to rank here. Close this bounded family; [next decision](../../research/fresh-program-20261031/NEXT-DECISION.md) prioritizes independently sourced genuinely new mechanisms, not arbitrary variations. Literal-checker utility is independently validated but separate;063 did not depend on it.
+- Audit correction: Final non-search audit initially assumed an explicit block field; original failed script/receipt and corrected audit are retained. No solver, data, output or target-run changes.
+- Status: Scientific execution and independent audit complete; artifacts published. Four fresh families finished at their frozen scopes. No fifth target is admitted or started by this closeout.
+
+Related files: [research/candidate-first-063/PRIOR-COVERAGE.md](../../research/candidate-first-063/PRIOR-COVERAGE.md), [research/candidate-first-063/README.md](../../research/candidate-first-063/README.md), [research/fresh-program-20261031/NEXT-DECISION.md](../../research/fresh-program-20261031/NEXT-DECISION.md).

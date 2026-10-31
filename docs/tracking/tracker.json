@@ -798,15 +798,15 @@
     },
     {
       "id": "H-CARRY-624",
-      "Status": "specified but not run",
-      "Mechanism": "Coupled 26/24 accumulator with carry and old-high-digit output. Exact equations and update timing are in the dated proposal linked under Evidence.",
-      "Evidence": "Speculative hand-executable mechanism, not attributed to Sanborn. [Dated targeted public comparison and independent review](fresh-program-20261031/independent-review.md); closest external mechanisms and source pins are in the linked proposal and [external register](EXTERNAL-PRIOR-ART.md). No matching exact K4 test located in the inspected record; no global novelty claim.",
-      "Tested scope": "None. Proposed AZ/KRYPTOS, periods 1–6 and all 624 initial states; carry uses old high digit at output. Local crib filters must be followed by whole-message reachability.",
-      "Untested scope": "Other rules, initial alphabets, resets, stage orders or bounds; these are not automatic follow-up experiments.",
-      "Missing inputs": "Historical evidence connecting this mechanism to K4; completed independent validation and exact prior-coverage clearance for the proposed target domain.",
-      "Next discriminating test": "Follow the fresh queue in priority order; freeze rules, data, budget and exact-set benchmark before held-out evaluation. Parent audit approval precedes target use.",
-      "Dependencies": "Canonical 97 symbols and 24 fixed clue letters; full exact inversion, complete compatible sets, matched nulls, independent audit, no post-failure rule rescue. Route proposals additionally compare target-induced permutation AND key domain against prior completed scopes.",
-      "Results": "Specified but not run. [Program and priority](fresh-program-20261031/README.md); no target result claimed."
+      "Status": "narrow negative",
+      "Mechanism": "Persistent state a∈0..25,h∈0..23; t=a+x+k, a'=t mod26, emit(a'+OLDh) mod26, h'=(h+floor(t/26)) mod24. Scalar normal form T'=T+x+k mod624 with nonlinear old-high/new-low readout.",
+      "Evidence": "Speculative thematic construction, not actual World Clock gearing or Sanborn attribution. [Original proposal](fresh-program-20261031/artifact-geared-accumulator.md); [063 prior-equivalence audit](candidate-first-063/PRIOR-COVERAGE.md). Fixed-alphabet causal-affine separation uses an explicit translation invariant; nonlinear radix requires separate reachable-state parity witnesses. Not a general disjointness theorem for arbitrary nonlinear or set-valued models.",
+      "Tested scope": "Study063: AZ/KRYPTOS, key periods1–6, all624 initial states, phase0, no other layers. Both independent target engines return zero compatible key/state/plaintext tuples. Zero keys included because they are not pure transposition. Local crib-entry filters are lossless supersets followed by continuous whole97-letter replay, never resetting at cribs.",
+      "Untested scope": "Other moduli/readouts/layers or independently sourced mechanisms; these are not automatic rescue variants. No broad exclusion of all stateful ciphers.",
+      "Missing inputs": "Historical justification; no compatible target tuple within frozen scope. Unique recovery was not established even on controls: all624 plants had8–126 compatible plaintexts.",
+      "Next discriminating test": "Close Q-09 within frozen bounds, not expand it. Consult [next research decision](fresh-program-20261031/NEXT-DECISION.md): seek new independently motivated mechanisms and test identifiability before promising recovery; no fifth target admitted.",
+      "Dependencies": "Complete tiny/global truth sets, all7488 deterministic A/period/state controls,688 independent blind complete sets and55,263 full roundtrips;0/64 null fits. All624 plants have same-key first-symbol-only aliases with identical next state. Across full solution sets,63 plants vary onlyposition0,424 more onlyprefix0–20,137 also laterunknown positions. Projection is post-reveal descriptive analysis, not a retuned gate.",
+      "Results": "[063 findings, control-ambiguity audit, source proofs and complete archive](candidate-first-063/README.md). Execution and independent audit complete; artifacts published. Exact compatibility/exclusion test only; no English ranking or plaintext-recovery success claim."
     }
   ],
   "experiments": [
@@ -5203,6 +5203,62 @@
       ],
       "receipt_paths": [],
       "original_entry": "- Date: 2026-10-31 UTC; parent target approval 15:46:09 UTC. Seals and measured resource receipts retain execution chronology.\n- Scope: AZ/KRYPTOS, all97 start slots, two fixed directions, emission-index periodic additive keys p1–8. Remove slot, emit C, select next directional survivor then advance1+rank_A(C). 388 distinct target maps,3,104 structural descriptions; not a count of distinct keyed functions. All-zero keys already analytically covered are removed from cylinders symbolically; no other constant-key exclusion inferred.\n- Result: Both independently implemented target engines UNSAT_COMPLETE, zero compatible key cylinders. Exact bounded exclusion only. No direction flips, changed step rule, new layer or extra target run after failure.\n- Validation: 51,012 tiny roundtrips/routes,365,616 complete tiny cylinders and all3,104 deterministic full-size configuration controls. Blind872-case exact-set agreement,808/808 plants included,32 sparse planted cylinders retain7free residues,0/64 matched null fits. Of776 full-mask plants,656 were unique and120 ambiguous/free; ambiguity was correctly preserved. Independent audit replayed85,924 roundtrip probes, not claimed exhaustive enumeration of huge free cylinders.\n- Prior-work gate:388 maps compared with exact local catalogs and inspected external fixed/alternating/periodic/artifact deletion, columnar/grid/Myszkowski/grille and composed routes; no completed-domain intersections. Column widths96/97 mathematical supersets intersect but are not established completed prior domains. One redundant EXT012 membership pass arose from crossed coordination; both receipts/costs retained, not double-counted coverage.\n- Corrections: Independent primary-source check found and corrected a manually copied artifact E-to-A pair before freeze; original erroneous comparator and receipts retained. The corrected literal campaign cardinality agrees with source. Historical EXT012 universe hash proof retained; unavailable original executable remains a limitation.\n- Provenance/resources: freeze `8538c95ffde07c6718435068c96c3d5d8c9a854723f256d08d3629043028e434`; target transport `446cc666ea49c3de05a7a84dbffd6f7b04eb7f650787a410de8ff4070d6e3cd1`. Canonical ciphertext unchanged. Benchmark53.543CPU seconds and independent audit61.962CPU seconds; full ledger includes all route-overlap costs and conservative reserves.\n- Evidence: [Findings, code/control archive and independent audits](candidate-first-062/README.md); [prior-domain review](candidate-first-062/PRIOR-COVERAGE.md).\n- Method improvement: Exact symbolic ambiguity handling is essential, not optional. A proposed read-only pinned-source AST literal checker addresses the observed manual transcription failure; it requires fresh synthetic/adversarial validation, never external-code execution, and does not replace semantic domain review. It is a separate tool task, not already-validated capability or a novel cipher algorithm.\n- Status/next action: Scientific execution and independent audit complete; artifacts published. Reconcile ledger and advance to063 coupled carry plus the separately authorized validation-tool task. No063 target run at this closeout; no frozen062 artifact modification or paid-service/Site change."
+    },
+    {
+      "record_id": "LOG-F3A0E2A127",
+      "experiment_ids": [
+        "METHOD-LITERAL-001"
+      ],
+      "title": "METHOD-LITERAL-001 — independently validated read-only source literal checker",
+      "categories": [
+        "static data validation"
+      ],
+      "outcome": "84 independent literal-selector cases pass; actual EA/AE transcription error detected, semantic validation excluded",
+      "classification_basis": "Reviewed immutable tool/spec and independent fixture freezes plus raw audit evidence. Internal method improvement, not a cipher search or fresh recovery claim.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-31 UTC; authorized after062 closeout. This is validation tooling, not a K4 cipher experiment or another hypothesis.",
+      "date_only": {
+        "date": "2026-10-31",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [],
+      "links": [
+        "experiments/source_literal_check.py",
+        "research/source-literal-checker-v1/README.md"
+      ],
+      "receipt_paths": [],
+      "original_entry": "- Date: 2026-10-31 UTC; authorized after062 closeout. This is validation tooling, not a K4 cipher experiment or another hypothesis.\n- Observed failure:062's external artifact-step reconstruction initially transcribed EA as AE; independent source review caught it before freeze. Original erroneous and corrected receipts remain untouched.\n- Change: Add a read-only hash-pinned Python AST selector for one explicit dictionary/comprehension iterable of literal strings. No source execution, dynamic expression evaluation, network access or whole-program semantic claim. Unsupported selector/iterable forms fail closed. Provenance string is supplied, not authenticated.\n- Validation: Builder froze v1 before independent reviewer authored81fresh fixtures and three preplanned JSON supplements. All84CLI cases pass, zero false accepts/rejects within stated expectations. Four separately labelled actual-source tests accept EA and reject AE for both selectedkeys. Four post-inspection diagnostic fault injections also failclosed; actual OS exhaustion was not tested. Frozenv1 remains unchanged.\n- Boundaries: Comprehension body, runtime tuple shadowing, alias/reflection/update mutations and source meaning are deliberately outside literal-only scope. Accepted syntax is not a guarantee of safe runtime behavior. Every selected-dictionary key must be a string literal. Use bounded CLI for untrusted bytes; library does not impose OSlimits.\n- Evidence: [Specification, method record, independent audit and immutable evidence archive](source-literal-checker-v1/README.md); utility `experiments/source_literal_check.py`; seven focused regression methods include replay of84 archived cases, not a new holdout. Blind fixturemanifest `a3f677bc9fe84c13b2ef11ad84bc87ed218a5f7556ff5b587babe5f209a70f34`; toolfreeze `29e3912f38661c9304adf37586d22801b0c610bfd866abe899d976d982c263d8`.\n- Resources: Independent84-case childCPU3.000281seconds; actualsource supplement0.163505seconds; post-inspection fault-test body0.002391868seconds (excludes harnessstartup). All receipt bounds and caveats retained.\n- Decision: Retainv1 as an internal transcription aid; no separate repository/global invention claim. Syntax extensions require a new specification/freeze/fresh independentholdout.063 eligibility did not depend on this utility; no frozen cipher experiment changed or target rerun."
+    },
+    {
+      "record_id": "LOG-E6FA4F2C8B",
+      "experiment_ids": [
+        "CANDIDATE-FIRST-063"
+      ],
+      "title": "CANDIDATE-FIRST-063 — coupled 26/24 accumulator compatibility test",
+      "categories": [
+        "finite K4 model tests",
+        "exact ambiguity analysis"
+      ],
+      "outcome": "Exact bounded coupled-carry exclusion; zero target tuples, but all624 blind plants have multiple plaintexts",
+      "classification_basis": "Reviewed frozen scope, global reachability, complete-set and independent ambiguity/target audits. Compatibility/exclusion only, no unique-recovery claim.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-10-31",
+        "precision": "day",
+        "source": "opening prose",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [],
+      "links": [
+        "research/candidate-first-063/PRIOR-COVERAGE.md",
+        "research/candidate-first-063/README.md",
+        "research/fresh-program-20261031/NEXT-DECISION.md"
+      ],
+      "receipt_paths": [],
+      "original_entry": "- Date:2026-10-31 UTC; parent target-stage approval16:03:52UTC, explicitly compatibility/exclusion only, not plaintext recovery.\n- Scope: AZ/KRYPTOS, phase-zero arbitrary periodic keys1–6, all624 initial(a,h) states, t=a+x+k,a'=t mod26,y=(a'+OLDh) mod26,h'=(h+floor(t/26)) mod24. No changed modulus, readout timing, signs, routes or layers. Zero keys INCLUDED; this machine is not pure transposition at keyzero.\n- Result: Both independent target engines UNSAT_COMPLETE; zero compatible alphabet/key/start-state/plaintext tuples. Exact bounded exclusion only; no extra target runs or rescue tweaks.\n- Correctness: Independent scalar-T and explicit(a,h) implementations, complete tiny forward truth and all7488 direct full-size A/period/state controls. Local13/11-letter entry-state filters intersect complete keys only as a superset; continuous97-letter replay from actual initial states is mandatory. A retained tiny reset-trap has a shared local key but no globally reachable solution.\n- Blind benchmark:688 complete independent tuple sets agree,624/624 plants retained,55,263 compatible parameterizations allfully roundtrip,0/64 union null fits. Everyinitialstate represented,26 plants in each of24 alphabet/period/kind cells. Benchmark51.111CPU seconds, independentaudit43.702CPU seconds; full resources include all prior/control/audit costs.\n- IDENTIFIABILITY LIMIT: ZERO unique recovery among624plants, each8–126plaintexts. Post-reveal projection of existing sealed outputs only:63 plants vary onlyposition0;424 additionalplants onlyprefix0–20;137 also laterunknown positions. Everyplant has a same-generating-key first-symbol-only alternative with identical postfirst state. Independent non-search ambiguity audit confirms this. Not a probabilistic recovery success, no English scoring or arbitrary candidate selection.\n- Prior work: Exact fixed-alphabet causal-affine non-equivalence uses all26 reachable conditional translations forcing affine relabelings, then a carry-discontinuity witness. Nonlinear local radix is separated by its own reachable-state parity certificates, not by a false linearity assumption. Scott adjacent-noise is set-valued; finite-message intersection caveat retained. Source files match pinned Git blobs; no externalprogram execution.\n- Provenance: freeze `5b0d6d5ea6e3b10f2ced28474d09bd1e475281969bb3a19ba12e82819f568827`; targettransport `8c399cc7abb46336a5eda6ebb8beef1bf2fd18589212487bb3fa9b8bd41cada8`. Canonical ciphertext unchanged; artifacts retain salts/seeds/seals, aliases, reset-trap and ambiguity diagnostics.\n- Evidence: [Findings, frozen protocol, independent benchmark/ambiguity/target audits and archive](candidate-first-063/README.md); [prior-equivalence report](candidate-first-063/PRIOR-COVERAGE.md).\n- Method improvement/decision: Correct compatibility solvers need not uniquely identify plaintext. Future proposed models must declare which unknowns the clue mask can identify before presenting a recovery objective. No compatible K4 tuple remains to rank here. Close this bounded family; [next decision](fresh-program-20261031/NEXT-DECISION.md) prioritizes independently sourced genuinely new mechanisms, not arbitrary variations. Literal-checker utility is independently validated but separate;063 did not depend on it.\n- Audit correction: Final non-search audit initially assumed an explicit block field; original failed script/receipt and corrected audit are retained. No solver, data, output or target-run changes.\n- Status: Scientific execution and independent audit complete; artifacts published. Four fresh families finished at their frozen scopes. No fifth target is admitted or started by this closeout."
     }
   ],
   "receipts": [

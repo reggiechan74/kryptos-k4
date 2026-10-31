@@ -1,0 +1,27 @@
+{
+  "status": "PASS_FOR_PARENT_TARGET_REVIEW",
+  "created_utc": "2026-10-31T16:01:40.559084+00:00",
+  "freeze_sha256": "5b0d6d5ea6e3b10f2ced28474d09bd1e475281969bb3a19ba12e82819f568827",
+  "seal_sha256": "cd386db9110a685c223885e7402a59c5bf465a40f9fd9132757e66915dd8ad93",
+  "frozen_files_verified": 39,
+  "fixture_replay_exact": true,
+  "counts": {
+    "complete_sets": 688,
+    "roundtrips": 55263,
+    "plants": 624,
+    "ambiguous_plaintext_plants": 624,
+    "nulls": 64,
+    "null_fits": 0
+  },
+  "initial_states_covered": 624,
+  "balanced_cells": 24,
+  "plants_each_cell": 26,
+  "distinct_plaintexts_per_plant_min": 8,
+  "distinct_plaintexts_per_plant_max": 126,
+  "benchmark_cpu_seconds": 51.110767623,
+  "audit_cpu_seconds": 43.702339031,
+  "audit_max_rss_kib": 76140,
+  "target_evaluated": false,
+  "target_authorized": false,
+  "limitation": "All parameter tuples retained; plaintext ambiguity descriptive, not a uniqueness gate. Local entry-state intersections are only supersets; final sets require continuous global replay."
+}
