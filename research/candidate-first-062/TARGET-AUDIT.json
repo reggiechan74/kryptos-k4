@@ -1,0 +1,20 @@
+{
+  "status": "PASS_BOUNDED_UNSAT_COMPLETE",
+  "created_utc": "2026-10-31T15:46:55.283910+00:00",
+  "freeze_and_all_seals_verified": true,
+  "canonical_ciphertext_hash_verified": true,
+  "clue_positions_verified": 24,
+  "free_residues_preserved_with_symbolic_zero_excision": true,
+  "structural_cases_each": 3104,
+  "compatible_cylinders": 0,
+  "outputs_agree": true,
+  "zero_vector_not_recounted": true,
+  "additional_target_searches": 0,
+  "target_cpu_seconds": 0.114024723,
+  "target_child_max_rss_kib": 8320,
+  "audit_cpu_seconds": 0.019801576,
+  "audit_max_rss_kib": 13484,
+  "transport_sha256": "446cc666ea49c3de05a7a84dbffd6f7b04eb7f650787a410de8ff4070d6e3cd1",
+  "seal_sha256": "4f16dc60c5b58ed3cd7d43669a21c9c9372ed61072b6b8d4b080dd2956e06612",
+  "interpretation": "Excludes only AZ/KR ciphertext-steered Josephus with97 starts, two fixed directions, emission-index key periods1\u20138 and frozen1+rank feedback; zero vectors are prior-covered. 3104 structural settings, not3104 distinct keyed operators. Not a general ciphertext-dependent transposition exclusion or K4 solution."
+}

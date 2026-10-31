@@ -1,0 +1,25 @@
+{
+  "status": "PASS_FOR_PARENT_TARGET_REVIEW",
+  "created_utc": "2026-10-31T15:45:28.772922+00:00",
+  "freeze_sha256": "8538c95ffde07c6718435068c96c3d5d8c9a854723f256d08d3629043028e434",
+  "seal_sha256": "047b1f9c6855abb742b8f656e4c736e5e16a3b09ebcbc3d8cf392fc195022825",
+  "frozen_files_verified": 115,
+  "fixture_replay_exact": true,
+  "counts": {
+    "complete_sets": 872,
+    "free_cylinders": 17889,
+    "roundtrips": 85924,
+    "plants": 808,
+    "full_unique": 656,
+    "nulls": 64,
+    "null_fits": 0,
+    "sparse_seven_free": 32,
+    "full_ambiguous_or_free": 120
+  },
+  "benchmark_cpu_seconds": 53.542888562,
+  "audit_cpu_seconds": 61.961897038,
+  "audit_max_rss_kib": 35640,
+  "target_evaluated": false,
+  "target_authorized": false,
+  "limitation": "Canonical, all-ones and single-one free-key probes are controls, not exhaustive cylinder enumeration; completeness follows from residue equations and tiny forward truth. No union count across overlapping cylinders."
+}

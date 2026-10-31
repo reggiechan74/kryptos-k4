@@ -899,6 +899,14 @@
       ],
       "outcome": "Exact bounded exclusion of sum-locked block rotation,160 structural cases; no compatible key cylinders",
       "basis": "Reviewed against frozen equations, independently audited exact-set controls, prior-domain gate and final target audit. Prior zero-key coverage excluded; broader nonlinear block models remain untested."
+    },
+    "LOG-D0DF01718C": {
+      "title": "CANDIDATE-FIRST-062 \u2014 ciphertext-steered Josephus with exact key cylinders",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "Exact bounded ciphertext-steered Josephus exclusion; zero cylinders across3,104 structural descriptions",
+      "basis": "Reviewed against exact frozen scope, ambiguity-preserving blind controls, prior-domain audit and independent final target audit. No general message-dependent route exclusion."
     }
   }
 }

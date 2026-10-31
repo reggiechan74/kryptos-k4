@@ -2318,3 +2318,26 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Status/next action: Scientific execution and independent audit complete; artifacts published. Reconciled local/external ledger closes Q-07 and selects Q-08/study 062 for its own overlap and validation gates. No 062 target run at this closeout; no Site or paid service change.
 
 Related files: [research/candidate-first-061/PRIOR-COVERAGE.md](../../research/candidate-first-061/PRIOR-COVERAGE.md), [research/candidate-first-061/README.md](../../research/candidate-first-061/README.md).
+
+## LOG-D0DF01718C
+
+**CANDIDATE-FIRST-062 — ciphertext-steered Josephus with exact key cylinders**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (date statement; not a run timestamp); original date statement: 2026-10-31 UTC; parent target approval 15:46:09 UTC. Seals and measured resource receipts retain execution chronology.
+
+Type: finite K4 model tests. Outcome: Exact bounded ciphertext-steered Josephus exclusion; zero cylinders across3,104 structural descriptions
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-31 UTC; parent target approval 15:46:09 UTC. Seals and measured resource receipts retain execution chronology.
+- Scope: AZ/KRYPTOS, all97 start slots, two fixed directions, emission-index periodic additive keys p1–8. Remove slot, emit C, select next directional survivor then advance1+rank_A(C). 388 distinct target maps,3,104 structural descriptions; not a count of distinct keyed functions. All-zero keys already analytically covered are removed from cylinders symbolically; no other constant-key exclusion inferred.
+- Result: Both independently implemented target engines UNSAT_COMPLETE, zero compatible key cylinders. Exact bounded exclusion only. No direction flips, changed step rule, new layer or extra target run after failure.
+- Validation: 51,012 tiny roundtrips/routes,365,616 complete tiny cylinders and all3,104 deterministic full-size configuration controls. Blind872-case exact-set agreement,808/808 plants included,32 sparse planted cylinders retain7free residues,0/64 matched null fits. Of776 full-mask plants,656 were unique and120 ambiguous/free; ambiguity was correctly preserved. Independent audit replayed85,924 roundtrip probes, not claimed exhaustive enumeration of huge free cylinders.
+- Prior-work gate:388 maps compared with exact local catalogs and inspected external fixed/alternating/periodic/artifact deletion, columnar/grid/Myszkowski/grille and composed routes; no completed-domain intersections. Column widths96/97 mathematical supersets intersect but are not established completed prior domains. One redundant EXT012 membership pass arose from crossed coordination; both receipts/costs retained, not double-counted coverage.
+- Corrections: Independent primary-source check found and corrected a manually copied artifact E-to-A pair before freeze; original erroneous comparator and receipts retained. The corrected literal campaign cardinality agrees with source. Historical EXT012 universe hash proof retained; unavailable original executable remains a limitation.
+- Provenance/resources: freeze `8538c95ffde07c6718435068c96c3d5d8c9a854723f256d08d3629043028e434`; target transport `446cc666ea49c3de05a7a84dbffd6f7b04eb7f650787a410de8ff4070d6e3cd1`. Canonical ciphertext unchanged. Benchmark53.543CPU seconds and independent audit61.962CPU seconds; full ledger includes all route-overlap costs and conservative reserves.
+- Evidence: [Findings, code/control archive and independent audits](../../research/candidate-first-062/README.md); [prior-domain review](../../research/candidate-first-062/PRIOR-COVERAGE.md).
+- Method improvement: Exact symbolic ambiguity handling is essential, not optional. A proposed read-only pinned-source AST literal checker addresses the observed manual transcription failure; it requires fresh synthetic/adversarial validation, never external-code execution, and does not replace semantic domain review. It is a separate tool task, not already-validated capability or a novel cipher algorithm.
+- Status/next action: Scientific execution and independent audit complete; artifacts published. Reconcile ledger and advance to063 coupled carry plus the separately authorized validation-tool task. No063 target run at this closeout; no frozen062 artifact modification or paid-service/Site change.
+
+Related files: [research/candidate-first-062/PRIOR-COVERAGE.md](../../research/candidate-first-062/PRIOR-COVERAGE.md), [research/candidate-first-062/README.md](../../research/candidate-first-062/README.md).

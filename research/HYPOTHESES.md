@@ -7,7 +7,7 @@ proofs and finite tests have separate scope; compatibility is not a solution.
 
 **This is the canonical reference for deciding what to test next.** Consult it before selecting an experiment and reconcile it at the end of every run, including a failed, interrupted or inconclusive run. The [agent workflow](../AGENTS.md) makes this check mandatory. The [experiment log](EXPERIMENTS.md) records our individual runs. The [external hypothesis and prior-art register](EXTERNAL-PRIOR-ART.md) records other researchers’ attempted models, source pins and evidence limits; both registers must be checked before selecting work. Generated trackers are navigation, not a second source of truth.
 
-- **Published through study 061; execution and independent audit complete.** Studies 058 and 059 artifacts and their reconciled tracking are published together. The table below reconciles the latest studies. A completed bounded test is not an eliminated broad hypothesis.
+- **Published through study 062; execution and independent audit complete.** Studies 058 and 059 artifacts and their reconciled tracking are published together. The table below reconciles the latest studies. A completed bounded test is not an eliminated broad hypothesis.
 - **Study 057 (Q-01) is complete: exact bounded exclusion, independently audited.** Queue rank is a recommendation, not authorization by itself. The user separately authorized continuation through this queue on 31 October 2026. Q-02 is complete in 058; the bounded +1-feedback Q-03 pilot is complete in 059. Q-04 and Q-05 were not run because their prerequisites were not established. Target evaluation still requires the frozen benchmark and independent audit gates.
 - **Public prior-art gate (31 October 2026):** the external survey found substantial overlap with our completed studies. At that survey closeout, no proposed new execution-ready hypothesis cleared the not-already-tried requirement. The later [four-family proposal and independent review](fresh-program-20261031/README.md) supplied new bounded mechanisms; execution was separately authorized at 15:03 UTC. Stronger-solver reruns, completion of attempted searches and cosmetic parameter extensions are not eligible next tests under the current direction. Proposed-but-unrun models may qualify only after precise overlap and analytical-subsumption checks. This is not a claim that no untried model exists. See [external records and admission procedure](EXTERNAL-PRIOR-ART.md).
 - **Next-action decision:** Q-01–Q-03 are closed only within studies 057–059 bounds. No eligible Q-04/Q-05 run is currently justified: exact production search is fast and no compatible K4 candidates remain to rank. Subtractive feedback and other omitted model settings remain untested and require a new frozen scope, not automatic expansion.
@@ -28,6 +28,7 @@ proofs and finite tests have separate scope; compatibility is not a solution.
 | 059 | Plaintext or intermediate-ciphertext autokey with feedback coefficient +1; eight AZ/KRYPTOS role/sign conventions; primers 1–8; then all ragged-column orders, widths 6–9 | **Completed, exact bounded exclusion:** both target engines return zero primer cylinders; independent reference 52,346,880 descriptive trials. [Report and audits](candidate-first-059/README.md) | Close Q-03 only for this pilot. Subtractive feedback is distinct and untested. Q-04/Q-05 prerequisites not established; artifacts published. |
 | 060 | Ciphertext-driven alphabet exchange and fixed-reference-index prefix reversal; AZ/KRYPTOS reference and initial alphabets; 26 pointers/offsets per arm | **Completed, exact bounded exclusion:** both engines UNSAT_COMPLETE, zero compatible descriptions/plaintexts; 208 distinct functions certified. [Report](candidate-first-060/README.md) | Not all evolving alphabets. Artifacts published; select Q-07 only after this ledger reconciliation and its own gates. |
 | 061 | Sum-locked right block rotation after periodic addition; AZ/KRYPTOS, widths 3–12, periods 1–8; zero key already analytically covered | **Completed, exact bounded exclusion:** both engines UNSAT_COMPLETE, zero compatible key cylinders in 160 structural cases. [Report](candidate-first-061/README.md) | Not nonlinear block ciphers generally. Artifacts published; next Q-08 ciphertext-steered Josephus requires its own overlap and validation gates. |
+| 062 | Ciphertext-steered Josephus deletion; AZ/KRYPTOS, 97 starts, two fixed directions, emission-key periods 1–8; prior zero-key domain excluded | **Completed, exact bounded exclusion:** both engines UNSAT_COMPLETE; zero compatible cylinders across 3,104 structural descriptions / 388 target maps. [Report](candidate-first-062/README.md) | Not all data-dependent routes. Artifacts published; next Q-09 coupled carry requires new equivalence/validation gates. |
 
 ### Fresh authorized queue — after the public survey
 
@@ -37,8 +38,8 @@ Only exact mechanisms not located in the inspected prior record advance; this is
 | --- | --- | --- |
 | Q-06 | H-EVOLVING-ALPHABET: 104 exchange and 104 prefix-reversal functions | Study 060 complete: exact bounded exclusion; no rescue tweaks. |
 | Q-07 | H-SUM-ROTATION: AZ/KRYPTOS, block widths 3–12, key periods 1–8, 160 structural cases | Study 061 complete: exact bounded exclusion; prior zero-key coverage separated, no rescue changes. |
-| Q-08 | H-CIPHERTEXT-JOSEPHUS: 388 start/orientation/alphabet routes, periods 1–8, 3,104 structural cases | Next: study 062 target-route/key-domain duplicate gate and independent validation. No target run yet. |
-| Q-09 | H-CARRY-624: coupled 26/24 state, all 624 initial states, AZ/KRYPTOS, periods 1–6 | Specified, not run; exact global reachability, never resetting at cribs. |
+| Q-08 | H-CIPHERTEXT-JOSEPHUS: 388 start/orientation/alphabet routes, periods 1–8, 3,104 structural cases | Study 062 complete: exact bounded exclusion; free-key ambiguity preserved and zero-key prior coverage separated. |
+| Q-09 | H-CARRY-624: coupled 26/24 state, all 624 initial states, AZ/KRYPTOS, periods 1–6 | Next: study 063 exact prior-equivalence and independent-validation gates; global reachability, never resetting at cribs. No target run yet. |
 
 ### Historical ranked queue and current eligibility
 
@@ -63,7 +64,7 @@ This section is the current status index within the existing hypothesis log; the
 
 The deep source review has now been read and integrated. Its [evidence synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md) confirms navigation context but supplies no surveyed bearing, calibrated shadow mechanism or dated celestial observation. Those physical claims remain evidence-blocked; the separately frozen conditional pilots are not measurements. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
 
-The [current inventory specification](specifications/FRONTIER-CURRENT-20261031-061.json) includes all 67 families without granting launch authority. The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the working to-do list above is the current next-action queue. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by completed studies 051–059 and the current public-prior-art eligibility decision above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
+The [current inventory specification](specifications/FRONTIER-CURRENT-20261031-062.json) includes all 67 families without granting launch authority. The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the working to-do list above is the current next-action queue. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by completed studies 051–059 and the current public-prior-art eligibility decision above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
 
 ### Status vocabulary
 
@@ -143,7 +144,7 @@ The [current inventory specification](specifications/FRONTIER-CURRENT-20261031-0
 | [H-DELIBERATE-SPELLING](#h-deliberate-spelling) | evidence-blocked | A consistent deliberate respelling or correction stream supplies transformation information. |
 | [H-EVOLVING-ALPHABET](#h-evolving-alphabet) | narrow negative | Ciphertext-driven exchange or fixed-reference prefix reversal of a mutable alphabet. |
 | [H-SUM-ROTATION](#h-sum-rotation) | narrow negative | Periodic arithmetic followed by block rotation locked to the sum of intermediate symbols. |
-| [H-CIPHERTEXT-JOSEPHUS](#h-ciphertext-josephus) | specified but not run | Ciphertext-emission-driven Josephus slot removal with emission-index periodic keys. |
+| [H-CIPHERTEXT-JOSEPHUS](#h-ciphertext-josephus) | narrow negative | Ciphertext-emission-driven Josephus slot removal with emission-index periodic keys. |
 | [H-CARRY-624](#h-carry-624) | specified but not run | Coupled 26/24 accumulator with carry and old-high-digit output. |
 
 ### H-COMPASS-REVERSE
@@ -928,15 +929,15 @@ The [current inventory specification](specifications/FRONTIER-CURRENT-20261031-0
 
 ### H-CIPHERTEXT-JOSEPHUS
 
-- Status: specified but not run
-- Mechanism: Ciphertext-emission-driven Josephus slot removal with emission-index periodic keys. Exact equations and update timing are in the dated proposal linked under Evidence.
-- Evidence: Speculative hand-executable mechanism, not attributed to Sanborn. [Dated targeted public comparison and independent review](fresh-program-20261031/independent-review.md); closest external mechanisms and source pins are in the linked proposal and [external register](EXTERNAL-PRIOR-ART.md). No matching exact K4 test located in the inspected record; no global novelty claim.
-- Tested scope: None. Proposed AZ/KRYPTOS, 97 starts, two orientations, periods 1–8; 3,104 structural descriptions. Free key residues must remain symbolic.
-- Untested scope: Other rules, initial alphabets, resets, stage orders or bounds; these are not automatic follow-up experiments.
-- Missing inputs: Historical evidence connecting this mechanism to K4; completed independent validation and exact prior-coverage clearance for the proposed target domain.
-- Next discriminating test: Follow the fresh queue in priority order; freeze rules, data, budget and exact-set benchmark before held-out evaluation. Parent audit approval precedes target use.
-- Dependencies: Canonical 97 symbols and 24 fixed clue letters; full exact inversion, complete compatible sets, matched nulls, independent audit, no post-failure rule rescue. Route proposals additionally compare target-induced permutation AND key domain against prior completed scopes.
-- Results: Specified but not run. [Program and priority](fresh-program-20261031/README.md); no target result claimed.
+- Status: narrow negative
+- Mechanism: Remove the current plaintext slot, emit its periodically encrypted letter, then move from the next directional survivor by one plus the emitted letter's fixed-alphabet rank. Key is indexed by emission, not plaintext position.
+- Evidence: Speculative mechanism, not Sanborn attribution. [Original proposal](fresh-program-20261031/structural-models.md); [062 exact prior-domain audit](candidate-first-062/PRIOR-COVERAGE.md) compares fixed/alternating/periodic/artifact Josephus and other route scopes. No exact matching K4 test located within inspected records; no worldwide novelty claim.
+- Tested scope: Study 062: AZ/KRYPTOS, all 97 starts, two fixed directions, emission-index periods 1–8; 388 distinct target maps and 3,104 structural descriptions. Eligible key cylinders exclude previously covered all-zero vectors. Both target engines return zero compatible cylinders. No distinct-keyed-operator count or sum of overlapping cylinder volumes claimed.
+- Untested scope: Other step equations, direction schedules, alphabet mixtures, state resets, or message-dependent transpositions generally; these are not automatic rescue tests.
+- Missing inputs: Historical evidence for this exact operation; no compatible candidate in frozen bounds.
+- Next discriminating test: Close Q-08. Select Q-09/study 063 coupled 26/24 carry for its own prior-equivalence and validation gates. Separately validate a read-only source-literal checker against the observed transcription error; do not modify frozen 062.
+- Dependencies: Canonical 97 symbols/24 clues. Tiny oracle 51,012 roundtrips and 365,616 complete cylinders; all 3,104 deterministic full-size configuration controls. Blind 872 complete sets agree, 808 plants retained, 32 sparse cylinders retain seven free residues, 0/64 null fits. 120 of 776 full-mask plants are legitimately ambiguous/free; uniqueness was not required.
+- Results: [062 reports, frozen code, audits and archive](candidate-first-062/README.md). Execution and independent audit complete; artifacts published. Source E-to-A transcription correction independently checked before freeze; original erroneous code/receipt retained. Exact bounded exclusion, not all Josephus or nonlinear routes.
 
 ### H-CARRY-624
 
