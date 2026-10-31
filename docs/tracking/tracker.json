@@ -309,12 +309,12 @@
       "Status": "narrow negative",
       "Mechanism": "One enumerated route plus periodic arithmetic.",
       "Evidence": "[source or scoped prior review](BOUNDED-FINDINGS.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Earlier ROUTE-001: 13,056 descriptions, 66 routes; 282 retained identity-route fits have zero repeated-phase checks and are vacuous. Studies 049/050 complete their separately frozen route/fixed-key domains. Study 056 independently excludes standard A–Z periodic Vigenère followed by unpadded ragged columnar transposition, widths 6–9, nominal periods 2–8, all column orders and top-down reads: 408,960 routes and 2,862,720 reference route/period trials, no compatible solutions.",
-      "Untested scope": "Other alphabets/equations across the 056 free-column-order domain (Q-01), reverse stage order across that domain (Q-02), feedback composites (Q-03), other widths/periods/padding or independently justified layers. Earlier restricted-route tests must be subtracted from any new coverage claim.",
+      "Tested scope": "Earlier ROUTE-001: 13,056 descriptions, 66 routes; 282 retained identity-route fits have zero repeated-phase checks and are vacuous. Studies 049/050 complete their separately frozen route/fixed-key domains. Study 056 independently excludes standard A–Z periodic Vigenère followed by unpadded ragged columnar transposition, widths 6–9, nominal periods 2–8, all column orders and top-down reads: 408,960 routes and 2,862,720 reference route/period trials, no compatible solutions. Study 057 independently excludes all AZ/KRYPTOS plaintext/ciphertext role combinations and both signs over the same free-column-order bounds. All 520 blind solution sets agreed; 464 plants included; target zero solutions across 22,901,760 descriptive trials including baseline, with algebraic aliases identified.",
+      "Untested scope": "Alphabets/equations outside 057, reverse stage order across that domain (Q-02), feedback composites (Q-03), other widths/periods/padding or independently justified layers. Earlier restricted-route tests must be subtracted from any new coverage claim.",
       "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
-      "Next discriminating test": "Follow the proposed Q-01 then Q-02 queue above: freeze exact operators and aliases, pass blind known-answer controls, and establish identifiability before any newly authorized target search. Q-03 is a separate feedback extension; no proposal has run.",
+      "Next discriminating test": "Q-01 is complete in 057. Follow Q-02 next: freeze exact operators and aliases, pass blind known-answer controls, and establish identifiability before any newly authorized target search. Q-03 is a separate feedback extension and has not started.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[Earlier finite coverage](BOUNDED-FINDINGS.md), [049](ENE-ROUTE-049-FINDINGS.md), [050](HAND-GRAMMAR-050-FINDINGS.md), and [056 exact target exclusion and independent audits](candidate-first-056/README.md). The 056 corrected benchmark passed; its original monitoring defect is retained. Learned conflicts did not pass the benefit gate, and shared propagation did not materially outperform simpler prefix propagation."
+      "Results": "[Earlier finite coverage](BOUNDED-FINDINGS.md), [049](ENE-ROUTE-049-FINDINGS.md), [050](HAND-GRAMMAR-050-FINDINGS.md), [056 exact target exclusion and independent audits](candidate-first-056/README.md), and [057 alphabet-role extension](candidate-first-057/README.md). The 056 corrected benchmark passed; its original monitoring defect is retained. Learned conflicts did not pass the benefit gate, and shared propagation did not materially outperform simpler prefix propagation."
     },
     {
       "id": "H-RUNKEY",
@@ -4982,6 +4982,37 @@
       ],
       "receipt_paths": [],
       "original_entry": "- Date: 2026-10-31 UTC; target report and archived original/corrected receipts retain exact calculation/audit chronology.\n- Scope: Standard A–Z Vigenère, unrestricted nominal periods 2–8, then row-filled unpadded ragged columnar transposition widths 6–9, all emission orders/top-down reads, fixed alignment and 24 literal cribs.\n- Result: Completed exact bounded exclusion: selected S and independent reference return complete empty sets; reference covers 408,960 routes × 7 periods = 2,862,720 trials. Fresh corrected 256-case benchmark passes before target; S gives 17.33× inclusive-CPU speedup over enumeration but no material advantage over simpler P. Learned-conflict L fails its separate benefit gate. Original resource-monitor defect, resource-only repair and fresh holdout are retained; numerical-only original results were not used to authorize target.\n- Evidence: [report and reproduction instructions](candidate-first-056/README.md); [target result/report](candidate-first-056/TARGET-REPORT.md); [independent target audit](candidate-first-056/TARGET-AUDIT.md).\n- Status/next action: completed and published; consult the [current working queue](HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload."
+    },
+    {
+      "record_id": "LOG-9B7DC09EA1",
+      "experiment_ids": [
+        "CANDIDATE-FIRST-057"
+      ],
+      "title": "CANDIDATE-FIRST-057 — alphabet-role and Beaufort free-column extensions",
+      "categories": [
+        "exact composite constraints",
+        "blind solver benchmark"
+      ],
+      "outcome": "Complete exclusion only of frozen AZ/KRYPTOS role/sign arithmetic then ragged columnar; 520 blind exact-set checks and independent target audit pass.",
+      "classification_basis": "Reviewed original frozen protocol, benchmark receipts and independent target audit; baseline and aliases distinguished, remaining reverse/feedback models outside scope.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-31 UTC. Both blind outputs sealed at 11:53:30.141875 UTC before answer analysis; parent target stage approved at 11:55 UTC. Target and resource receipts retain chronology; no commit time is asserted as run time.",
+      "date_only": {
+        "date": "2026-10-31",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [],
+      "links": [
+        "research/HYPOTHESES.md",
+        "research/candidate-first-057/BENCHMARK-AUDIT.json",
+        "research/candidate-first-057/PROTOCOL.md",
+        "research/candidate-first-057/README.md",
+        "research/candidate-first-057/TARGET-AUDIT.md"
+      ],
+      "receipt_paths": [],
+      "original_entry": "- Date: 2026-10-31 UTC. Both blind outputs sealed at 11:53:30.141875 UTC before answer analysis; parent target stage approved at 11:55 UTC. Target and resource receipts retain chronology; no commit time is asserted as run time.\n- Scope: AZ/KRYPTOS plaintext and ciphertext alphabet roles, sign ±, arbitrary nominal periodic keys 2–8, then unpadded ragged columnar widths 6–9 and every column order. Eight conventions include 056 baseline; variant-Beaufort, phase, period and zero-key identity aliases are not counted as new operators.\n- Result: Completed exact bounded exclusion: both production and independent reference return UNSAT_COMPLETE, zero compatible descriptions/operators/plaintexts. Reference completed 22,901,760 route/period/convention trials, including 2,862,720 baseline trials. Blind benchmark: 520/520 complete exact-set agreement, 464/464 plants included, 221/224 uniform and 224/224 literal-clue positives unique, 0/56 random controls fit. Three ambiguous positives retained.\n- Evidence: [report and archive](candidate-first-057/README.md), [frozen protocol](candidate-first-057/PROTOCOL.md), [independent benchmark audit](candidate-first-057/BENCHMARK-AUDIT.json), [target audit](candidate-first-057/TARGET-AUDIT.md).\n- Status/next action: scientific execution and audit complete; artifacts published. Q-01 closes only within these bounds. Reconciled [working ledger](HYPOTHESES.md) selects Q-02 reverse stage order for its own protocol and controls; no 058 target run has occurred. No Site change or paid submission."
     }
   ],
   "receipts": [

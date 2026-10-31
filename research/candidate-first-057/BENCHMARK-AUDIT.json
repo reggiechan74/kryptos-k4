@@ -1,0 +1,3678 @@
+{
+  "status": "PASS_FOR_PARENT_TARGET_REVIEW",
+  "freeze_sha256": "d49542e537fa6ae1c731e16ec73fff12c9d390d9d9ac0bcc98542c3aad3cc39f",
+  "seal_sha256": "5206f76519e102a7529c9eb5e8a34545b32110fcd41ac5ad4d29f382b4861886",
+  "verified_frozen_files": 22,
+  "independently_replayed_fixture_generation": true,
+  "counts": {
+    "independent_reencryptions": 875,
+    "uniform-positive": 224,
+    "plant_included": 464,
+    "uniform-positive-unique": 221,
+    "random-control": 56,
+    "control_fits": 0,
+    "literal-positive": 224,
+    "literal-positive-unique": 224,
+    "constant-alias": 8,
+    "period-two-alias": 8
+  },
+  "unique_full_generating_cells": 448,
+  "complete_set_agreement": 520,
+  "reference_trial_total": 11908915200,
+  "new_operator_scope": "Seven nonbaseline convention loops, excluding all-zero KR/KR/+ maps already in baseline; variantBeaufort and phase are aliases. This is not a new algorithm.",
+  "resource_audit": {
+    "prior_charged_cpu_seconds": 1151.429279774,
+    "audit_inclusive_cpu_seconds": 1.091591836,
+    "max_production_child_cpu_seconds": 0.045824917,
+    "max_reference_child_cpu_seconds": 4.224748808,
+    "conservative_max_worker_child_rss_bytes": 22577152
+  },
+  "limitations": [
+    "Procedural synthetic blinding; K4 clues are historically known.",
+    "Literal-clue fixtures are random text with inserted crib letters, not natural-language plaintext.",
+    "Uniform controls do not imply a posterior historical model probability.",
+    "No target was evaluated by this audit."
+  ],
+  "cases": [
+    {
+      "id": "057-B0000",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0001",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0002",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0003",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0004",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0005",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0006",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0007",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0008",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0009",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0010",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0011",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0012",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0013",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0014",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0015",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0016",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0017",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0018",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0019",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0020",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0021",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0022",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0023",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0024",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0025",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0026",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0027",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0028",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0029",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0030",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0031",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0032",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0033",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0034",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0035",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0036",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0037",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0038",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0039",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0040",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0041",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0042",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0043",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0044",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0045",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0046",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0047",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0048",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0049",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0050",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0051",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0052",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0053",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0054",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0055",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0056",
+      "category": "constant-alias",
+      "raw_descriptions": 14,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0057",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0058",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0059",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0060",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0061",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0062",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0063",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0064",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0065",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0066",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0067",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0068",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0069",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0070",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0071",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0072",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0073",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0074",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0075",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0076",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0077",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0078",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0079",
+      "category": "uniform-positive",
+      "raw_descriptions": 3,
+      "canonical_operators": 2,
+      "distinct_plaintexts": 2
+    },
+    {
+      "id": "057-B0080",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0081",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0082",
+      "category": "period-two-alias",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0083",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0084",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0085",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0086",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0087",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0088",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0089",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0090",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0091",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0092",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0093",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0094",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0095",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0096",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0097",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0098",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0099",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0100",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0101",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0102",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0103",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0104",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0105",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0106",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0107",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0108",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0109",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0110",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0111",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0112",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0113",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0114",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0115",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0116",
+      "category": "constant-alias",
+      "raw_descriptions": 7,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0117",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0118",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0119",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0120",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0121",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0122",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0123",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0124",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0125",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0126",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0127",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0128",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0129",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0130",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0131",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0132",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0133",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0134",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0135",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0136",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0137",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0138",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0139",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0140",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0141",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0142",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0143",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0144",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0145",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0146",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0147",
+      "category": "constant-alias",
+      "raw_descriptions": 14,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0148",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0149",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0150",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0151",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0152",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0153",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0154",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0155",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0156",
+      "category": "constant-alias",
+      "raw_descriptions": 7,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0157",
+      "category": "constant-alias",
+      "raw_descriptions": 7,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0158",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0159",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0160",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0161",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0162",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0163",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0164",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0165",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0166",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0167",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0168",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0169",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0170",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0171",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0172",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0173",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0174",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0175",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0176",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0177",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0178",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0179",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0180",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0181",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0182",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0183",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0184",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0185",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0186",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0187",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0188",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0189",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0190",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0191",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0192",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0193",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0194",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0195",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0196",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0197",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0198",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0199",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0200",
+      "category": "constant-alias",
+      "raw_descriptions": 7,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0201",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0202",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0203",
+      "category": "constant-alias",
+      "raw_descriptions": 7,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0204",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0205",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0206",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0207",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0208",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0209",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0210",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0211",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0212",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0213",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0214",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0215",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0216",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0217",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0218",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0219",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0220",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0221",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0222",
+      "category": "period-two-alias",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0223",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0224",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0225",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0226",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0227",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0228",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0229",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0230",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0231",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0232",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0233",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0234",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0235",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0236",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0237",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0238",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0239",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0240",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0241",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0242",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0243",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0244",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0245",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0246",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0247",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0248",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0249",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0250",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0251",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 2,
+      "distinct_plaintexts": 2
+    },
+    {
+      "id": "057-B0252",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0253",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0254",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0255",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0256",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0257",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0258",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0259",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0260",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0261",
+      "category": "constant-alias",
+      "raw_descriptions": 7,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0262",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0263",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0264",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0265",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0266",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0267",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0268",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0269",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0270",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0271",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0272",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0273",
+      "category": "period-two-alias",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0274",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0275",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0276",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0277",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0278",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0279",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0280",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0281",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0282",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0283",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0284",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0285",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0286",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0287",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0288",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0289",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0290",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0291",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0292",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0293",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0294",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0295",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0296",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0297",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0298",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0299",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0300",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0301",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0302",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0303",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0304",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0305",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0306",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0307",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0308",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0309",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0310",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0311",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0312",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0313",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0314",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0315",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0316",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0317",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0318",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0319",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0320",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0321",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0322",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0323",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0324",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0325",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0326",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0327",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0328",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0329",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0330",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0331",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0332",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0333",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0334",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0335",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0336",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0337",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0338",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0339",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0340",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0341",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0342",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0343",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0344",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0345",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0346",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0347",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0348",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0349",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0350",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0351",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0352",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0353",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0354",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0355",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0356",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0357",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0358",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0359",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0360",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0361",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0362",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0363",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0364",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0365",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0366",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0367",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0368",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0369",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0370",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0371",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0372",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0373",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0374",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0375",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0376",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0377",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0378",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0379",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0380",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0381",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0382",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0383",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0384",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0385",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0386",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0387",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0388",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0389",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0390",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0391",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0392",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0393",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0394",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0395",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0396",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0397",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0398",
+      "category": "period-two-alias",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0399",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0400",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0401",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0402",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0403",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0404",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0405",
+      "category": "period-two-alias",
+      "raw_descriptions": 5,
+      "canonical_operators": 2,
+      "distinct_plaintexts": 2
+    },
+    {
+      "id": "057-B0406",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0407",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0408",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0409",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0410",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0411",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0412",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0413",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0414",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0415",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0416",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0417",
+      "category": "period-two-alias",
+      "raw_descriptions": 5,
+      "canonical_operators": 2,
+      "distinct_plaintexts": 2
+    },
+    {
+      "id": "057-B0418",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0419",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0420",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0421",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0422",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0423",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0424",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0425",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0426",
+      "category": "uniform-positive",
+      "raw_descriptions": 3,
+      "canonical_operators": 2,
+      "distinct_plaintexts": 2
+    },
+    {
+      "id": "057-B0427",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0428",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0429",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0430",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0431",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0432",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0433",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0434",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0435",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0436",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0437",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0438",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0439",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0440",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0441",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0442",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0443",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0444",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0445",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0446",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0447",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0448",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0449",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0450",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0451",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0452",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0453",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0454",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0455",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0456",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0457",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0458",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0459",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0460",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0461",
+      "category": "period-two-alias",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0462",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0463",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0464",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0465",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0466",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0467",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0468",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0469",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0470",
+      "category": "uniform-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0471",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0472",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0473",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0474",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0475",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0476",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0477",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0478",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0479",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0480",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0481",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0482",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0483",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0484",
+      "category": "period-two-alias",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0485",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0486",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0487",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0488",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0489",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0490",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0491",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0492",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0493",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0494",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0495",
+      "category": "literal-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0496",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0497",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0498",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0499",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0500",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0501",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0502",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0503",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0504",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0505",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0506",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0507",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0508",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0509",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0510",
+      "category": "literal-positive",
+      "raw_descriptions": 4,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0511",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0512",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0513",
+      "category": "random-control",
+      "raw_descriptions": 0,
+      "canonical_operators": 0,
+      "distinct_plaintexts": 0
+    },
+    {
+      "id": "057-B0514",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0515",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0516",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0517",
+      "category": "literal-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0518",
+      "category": "uniform-positive",
+      "raw_descriptions": 1,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    },
+    {
+      "id": "057-B0519",
+      "category": "uniform-positive",
+      "raw_descriptions": 2,
+      "canonical_operators": 1,
+      "distinct_plaintexts": 1
+    }
+  ]
+}

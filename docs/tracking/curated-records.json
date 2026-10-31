@@ -856,6 +856,15 @@
       ],
       "outcome": "Complete exclusion only of frozen AZ Vigenère→ragged-columnar family; corrected benchmark/audits pass.",
       "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
+    },
+    "LOG-9B7DC09EA1": {
+      "title": "CANDIDATE-FIRST-057 — alphabet-role and Beaufort free-column extensions",
+      "categories": [
+        "exact composite constraints",
+        "blind solver benchmark"
+      ],
+      "outcome": "Complete exclusion only of frozen AZ/KRYPTOS role/sign arithmetic then ragged columnar; 520 blind exact-set checks and independent target audit pass.",
+      "basis": "Reviewed original frozen protocol, benchmark receipts and independent target audit; baseline and aliases distinguished, remaining reverse/feedback models outside scope."
     }
   }
 }

@@ -2222,3 +2222,21 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Status/next action: completed and published; consult the [current working queue](../../research/HYPOTHESES.md) before selecting another experiment. This reconciliation ran no cryptanalysis and changed no frozen payload.
 
 Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md), [research/candidate-first-056/README.md](../../research/candidate-first-056/README.md), [research/candidate-first-056/TARGET-AUDIT.md](../../research/candidate-first-056/TARGET-AUDIT.md), [research/candidate-first-056/TARGET-REPORT.md](../../research/candidate-first-056/TARGET-REPORT.md).
+
+## LOG-9B7DC09EA1
+
+**CANDIDATE-FIRST-057 — alphabet-role and Beaufort free-column extensions**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (date statement; not a run timestamp); original date statement: 2026-10-31 UTC. Both blind outputs sealed at 11:53:30.141875 UTC before answer analysis; parent target stage approved at 11:55 UTC. Target and resource receipts retain chronology; no commit time is asserted as run time.
+
+Type: exact composite constraints; blind solver benchmark. Outcome: Complete exclusion only of frozen AZ/KRYPTOS role/sign arithmetic then ragged columnar; 520 blind exact-set checks and independent target audit pass.
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-31 UTC. Both blind outputs sealed at 11:53:30.141875 UTC before answer analysis; parent target stage approved at 11:55 UTC. Target and resource receipts retain chronology; no commit time is asserted as run time.
+- Scope: AZ/KRYPTOS plaintext and ciphertext alphabet roles, sign ±, arbitrary nominal periodic keys 2–8, then unpadded ragged columnar widths 6–9 and every column order. Eight conventions include 056 baseline; variant-Beaufort, phase, period and zero-key identity aliases are not counted as new operators.
+- Result: Completed exact bounded exclusion: both production and independent reference return UNSAT_COMPLETE, zero compatible descriptions/operators/plaintexts. Reference completed 22,901,760 route/period/convention trials, including 2,862,720 baseline trials. Blind benchmark: 520/520 complete exact-set agreement, 464/464 plants included, 221/224 uniform and 224/224 literal-clue positives unique, 0/56 random controls fit. Three ambiguous positives retained.
+- Evidence: [report and archive](../../research/candidate-first-057/README.md), [frozen protocol](../../research/candidate-first-057/PROTOCOL.md), [independent benchmark audit](../../research/candidate-first-057/BENCHMARK-AUDIT.json), [target audit](../../research/candidate-first-057/TARGET-AUDIT.md).
+- Status/next action: scientific execution and audit complete; artifacts published. Q-01 closes only within these bounds. Reconciled [working ledger](../../research/HYPOTHESES.md) selects Q-02 reverse stage order for its own protocol and controls; no 058 target run has occurred. No Site change or paid submission.
+
+Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md), [research/candidate-first-057/BENCHMARK-AUDIT.json](../../research/candidate-first-057/BENCHMARK-AUDIT.json), [research/candidate-first-057/PROTOCOL.md](../../research/candidate-first-057/PROTOCOL.md), [research/candidate-first-057/README.md](../../research/candidate-first-057/README.md), [research/candidate-first-057/TARGET-AUDIT.md](../../research/candidate-first-057/TARGET-AUDIT.md).
