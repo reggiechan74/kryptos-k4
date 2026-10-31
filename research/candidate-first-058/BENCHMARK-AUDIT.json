@@ -1,0 +1,4382 @@
+{
+  "status": "PASS_FOR_PARENT_TARGET_REVIEW",
+  "frozen_files_verified": 34,
+  "fixture_replay_exact": true,
+  "counts": {
+    "complete_cases": 520,
+    "exact_cylinder_sets": 520,
+    "plants": 464,
+    "plants_included": 464,
+    "controls": 56,
+    "control_fits": 0,
+    "uniform_total": 224,
+    "uniform_unique": 156,
+    "literal_total": 224,
+    "literal_unique": 150,
+    "generating_free_plants": 68,
+    "generating_free_correctly_multiple": 68,
+    "reencrypted_representatives": 1312,
+    "cylinders": 893,
+    "reference_trials": 11908915200,
+    "generating_covered_but_multiple": 90,
+    "generating_covered_alias_forced_multiple": 89
+  },
+  "max_child_cpu_seconds": 4.607637564,
+  "max_child_rss_kib": 7968,
+  "resource_ledger_charge_before_audit": 1299.450304252,
+  "audit_inclusive_cpu_seconds": 0.314932728,
+  "classification_note": "Uniqueness is descriptive, not a recovery gate. Exact cylinder feasibility and independent empty/unique/multiple classifications pass. Free-cylinder union counts intentionally withheld.",
+  "target_run": false,
+  "cases": [
+    {
+      "id": "058-B0000",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0001",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0002",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0003",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0004",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0005",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0006",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0007",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0008",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0009",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0010",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0011",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0012",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0013",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0014",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0015",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0016",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0017",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0018",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0019",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0020",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0021",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0022",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0023",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0024",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0025",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0026",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0027",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0028",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0029",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0030",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0031",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0032",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0033",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0034",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0035",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0036",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0037",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0038",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0039",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0040",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 7,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        7
+      ]
+    },
+    {
+      "id": "058-B0041",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 7,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0042",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0043",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0044",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0045",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0046",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 14,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        7
+      ]
+    },
+    {
+      "id": "058-B0047",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0048",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0049",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0050",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0051",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0052",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0053",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0054",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0055",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0056",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0057",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0058",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0059",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0060",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0061",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0062",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0063",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 5,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0064",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0065",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0066",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0067",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0068",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0069",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0070",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0071",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0072",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0073",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0074",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0075",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0076",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0077",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0078",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0079",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0080",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0081",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0082",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0083",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0084",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0085",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0086",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 7,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        7
+      ]
+    },
+    {
+      "id": "058-B0087",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0088",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0089",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0090",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0091",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0092",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0093",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0094",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0095",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0096",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0097",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0098",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0099",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0100",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0101",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0102",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0103",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0104",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0105",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0106",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0107",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0108",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0109",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0110",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0111",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0112",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0113",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0114",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0115",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0116",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0117",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0118",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0119",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0120",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0121",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0122",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0123",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0124",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0125",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0126",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0127",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0128",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0129",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0130",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0131",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0132",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0133",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0134",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0135",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0136",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0137",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0138",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0139",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0140",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0141",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0142",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0143",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0144",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0145",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0146",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0147",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0148",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0149",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0150",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0151",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0152",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0153",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0154",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0155",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0156",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 5,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0157",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0158",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0159",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0160",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0161",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0162",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0163",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0164",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0165",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0166",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0167",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0168",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0169",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0170",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0171",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0172",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0173",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0174",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0175",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0176",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0177",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0178",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0179",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0180",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0181",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0182",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0183",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0184",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0185",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0186",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0187",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0188",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0189",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0190",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0191",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0192",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0193",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0194",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0195",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0196",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0197",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0198",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0199",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0200",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0201",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0202",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0203",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0204",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0205",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0206",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0207",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0208",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0209",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0210",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0211",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0212",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0213",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0214",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0215",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0216",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0217",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0218",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 7,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        7
+      ]
+    },
+    {
+      "id": "058-B0219",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0220",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0221",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0222",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0223",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0224",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0225",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0226",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0227",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0228",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0229",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0230",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0231",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0232",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0233",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0234",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0235",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0236",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0237",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0238",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0239",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0240",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0241",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0242",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0243",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0244",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0245",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0246",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0247",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 7,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        7
+      ]
+    },
+    {
+      "id": "058-B0248",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0249",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0250",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0251",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0252",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0253",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0254",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0255",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0256",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0257",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0258",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0259",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0260",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0261",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0262",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0263",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0264",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0265",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0266",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0267",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0268",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0269",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0270",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0271",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0272",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0273",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0274",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0275",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0276",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0277",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0278",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0279",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0280",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0281",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0282",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0283",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 7,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        7
+      ]
+    },
+    {
+      "id": "058-B0284",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0285",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0286",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0287",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0288",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0289",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0290",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0291",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0292",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0293",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0294",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0295",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0296",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0297",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0298",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0299",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0300",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0301",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0302",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0303",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0304",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0305",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0306",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0307",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0308",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0309",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0310",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0311",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 7,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        7
+      ]
+    },
+    {
+      "id": "058-B0312",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0313",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0314",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0315",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0316",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0317",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0318",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0319",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0320",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0321",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0322",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0323",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0324",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0325",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0326",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0327",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0328",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0329",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0330",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0331",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0332",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0333",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0334",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0335",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0336",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0337",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0338",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0339",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0340",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0341",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0342",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0343",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0344",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0345",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 7,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        7
+      ]
+    },
+    {
+      "id": "058-B0346",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0347",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0348",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0349",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0350",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0351",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0352",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0353",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0354",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0355",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0356",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0357",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0358",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0359",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0360",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0361",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0362",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0363",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0364",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0365",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0366",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0367",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0368",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0369",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 14,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        7
+      ]
+    },
+    {
+      "id": "058-B0370",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0371",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0372",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0373",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0374",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0375",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0376",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0377",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0378",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0379",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0380",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0381",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0382",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0383",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0384",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0385",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0386",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0387",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0388",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0389",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0390",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0391",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0392",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0393",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0394",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0395",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0396",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0397",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0398",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0399",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0400",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0401",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0402",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0403",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0404",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0405",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0406",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0407",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0408",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0409",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0410",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0411",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0412",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0413",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0414",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0415",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0416",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0417",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0418",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0419",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0420",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0421",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0422",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0423",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0424",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0425",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0426",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0427",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0428",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0429",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0430",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0431",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0432",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0433",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0434",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0435",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0436",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0437",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0438",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0439",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0440",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0441",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0442",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0443",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 5,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0444",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0445",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0446",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 5,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0447",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0448",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0449",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0450",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0451",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0452",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0453",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0454",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0455",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0456",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0457",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0458",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0459",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0460",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0461",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0462",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0463",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0464",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0465",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0466",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0467",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0468",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0469",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0470",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0471",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0472",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0473",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0474",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0475",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0476",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0477",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0478",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0479",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0480",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0481",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 4,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0482",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0483",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0484",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0485",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0486",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0487",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0488",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0489",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0490",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0491",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0492",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0493",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0494",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0495",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "058-B0496",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0497",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0498",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0499",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0500",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0501",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0502",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0503",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0504",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0505",
+      "status": "UNSAT_COMPLETE",
+      "cylinder_count": 0,
+      "max_free": 0,
+      "plant_included": null,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0506",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0507",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0508",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0509",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 2,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        6
+      ]
+    },
+    {
+      "id": "058-B0510",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0511",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0512",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0513",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 2,
+      "max_free": 3,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0514",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 4,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": [
+        8
+      ]
+    },
+    {
+      "id": "058-B0515",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0516",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 1,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0517",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 1,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0518",
+      "status": "SAT_COMPLETE_UNIQUE_PLAINTEXT",
+      "cylinder_count": 2,
+      "max_free": 0,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    },
+    {
+      "id": "058-B0519",
+      "status": "SAT_COMPLETE_MULTIPLE_PLAINTEXTS",
+      "cylinder_count": 1,
+      "max_free": 4,
+      "plant_included": true,
+      "longer_period_alias_free_slots": []
+    }
+  ]
+}

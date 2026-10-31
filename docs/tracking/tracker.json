@@ -309,12 +309,12 @@
       "Status": "narrow negative",
       "Mechanism": "One enumerated route plus periodic arithmetic.",
       "Evidence": "[source or scoped prior review](BOUNDED-FINDINGS.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "Earlier ROUTE-001: 13,056 descriptions, 66 routes; 282 retained identity-route fits have zero repeated-phase checks and are vacuous. Studies 049/050 complete their separately frozen route/fixed-key domains. Study 056 independently excludes standard A–Z periodic Vigenère followed by unpadded ragged columnar transposition, widths 6–9, nominal periods 2–8, all column orders and top-down reads: 408,960 routes and 2,862,720 reference route/period trials, no compatible solutions. Study 057 independently excludes all AZ/KRYPTOS plaintext/ciphertext role combinations and both signs over the same free-column-order bounds. All 520 blind solution sets agreed; 464 plants included; target zero solutions across 22,901,760 descriptive trials including baseline, with algebraic aliases identified.",
-      "Untested scope": "Alphabets/equations outside 057, reverse stage order across that domain (Q-02), feedback composites (Q-03), other widths/periods/padding or independently justified layers. Earlier restricted-route tests must be subtracted from any new coverage claim.",
+      "Tested scope": "Earlier ROUTE-001: 13,056 descriptions, 66 routes; 282 retained identity-route fits have zero repeated-phase checks and are vacuous. Studies 049/050 complete their separately frozen route/fixed-key domains. Study 056 independently excludes standard A–Z periodic Vigenère followed by unpadded ragged columnar transposition, widths 6–9, nominal periods 2–8, all column orders and top-down reads: 408,960 routes and 2,862,720 reference route/period trials, no compatible solutions. Study 057 independently excludes all AZ/KRYPTOS plaintext/ciphertext role combinations and both signs over the same free-column-order bounds. All 520 blind solution sets agreed; 464 plants included; target zero solutions across 22,901,760 descriptive trials including baseline, with algebraic aliases identified. Study 058 independently excludes the reversed order under the same eight role/sign conventions, widths 6–9 and output periods 2–8; exact key cylinders preserve all free residues and aliases, and both target engines return empty sets. Study 059 separately excludes +1 plaintext/intermediate-ciphertext feedback followed by all column orders, widths 6–9, primers 1–8, eight AZ/KRYPTOS role/sign conventions: zero compatible target cylinders after 600 blind exact checks and independent audit.",
+      "Untested scope": "Alphabets/equations outside 057/058, feedback settings outside 059 (including subtractive feedback), other widths/periods/padding or independently justified layers. Earlier restricted-route tests must be subtracted from any new coverage claim.",
       "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
-      "Next discriminating test": "Q-01 is complete in 057. Follow Q-02 next: freeze exact operators and aliases, pass blind known-answer controls, and establish identifiability before any newly authorized target search. Q-03 is a separate feedback extension and has not started.",
+      "Next discriminating test": "Q-01–Q-03 are complete only within 057–059 bounds. No conditional Q-04/Q-05 run is justified by current evidence; define and review any genuinely new scope before another target run.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[Earlier finite coverage](BOUNDED-FINDINGS.md), [049](ENE-ROUTE-049-FINDINGS.md), [050](HAND-GRAMMAR-050-FINDINGS.md), [056 exact target exclusion and independent audits](candidate-first-056/README.md), and [057 alphabet-role extension](candidate-first-057/README.md). The 056 corrected benchmark passed; its original monitoring defect is retained. Learned conflicts did not pass the benefit gate, and shared propagation did not materially outperform simpler prefix propagation."
+      "Results": "[Earlier finite coverage](BOUNDED-FINDINGS.md), [049](ENE-ROUTE-049-FINDINGS.md), [050](HAND-GRAMMAR-050-FINDINGS.md), [056 exact target exclusion and independent audits](candidate-first-056/README.md), [057 alphabet-role extension](candidate-first-057/README.md), [058 reverse-stage exclusion](candidate-first-058/README.md), and [059 bounded feedback exclusion](candidate-first-059/README.md). The 056 corrected benchmark passed; its original monitoring defect is retained. Learned conflicts did not pass the benefit gate, and shared propagation did not materially outperform simpler prefix propagation."
     },
     {
       "id": "H-RUNKEY",
@@ -357,12 +357,12 @@
       "Status": "narrow negative",
       "Mechanism": "Fixed-primer same-alphabet autokey.",
       "Evidence": "[source or scoped prior review](MASKING-FINDINGS.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "12 fixed complete models reject; broader direct coverage is indexed by H-AUTOKEY-EXACT.",
-      "Untested scope": "Broader mechanisms outside the exact report domain. Short-primer autokey followed by unknown columnar transposition is proposed as Q-03, not started; direct-alignment exclusions do not transfer automatically.",
+      "Tested scope": "12 fixed complete models reject; broader direct coverage is indexed by H-AUTOKEY-EXACT. Study 059 separately excludes +1 plaintext/intermediate-ciphertext feedback followed by all column orders, widths 6–9, primers 1–8, eight AZ/KRYPTOS role/sign conventions: zero compatible target cylinders after 600 blind exact checks and independent audit.",
+      "Untested scope": "Broader mechanisms outside the exact report domain. Study 059 covers only the separately validated +1-feedback eight-convention primer1–8/width6–9 composite; subtractive feedback, other ranges or feedback coordinates remain untested. Direct-alignment exclusions do not transfer automatically.",
       "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
-      "Next discriminating test": "Consult Q-03 and H-AUTOKEY-EXACT; freeze a genuinely new composite model and pass tiny exact-set plus blind 97-letter controls before an authorized target run.",
+      "Next discriminating test": "Q-03 is complete within 059 bounds. Consult H-AUTOKEY-EXACT and the queue; any further model needs its own reviewed scope and controls, not automatic expansion after failure.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](MASKING-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result."
+      "Results": "[retained evidence and finite coverage](MASKING-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [059 bounded feedback findings and audits](candidate-first-059/README.md)."
     },
     {
       "id": "H-MASK-FM",
@@ -501,12 +501,12 @@
       "Status": "non-identifiable",
       "Mechanism": "Direct same-alphabet feedback with arbitrary independent primer.",
       "Evidence": "[source or scoped prior review](AUTOKEY-CONSTRAINT-FINDINGS.md); historical availability or user proposal does not establish creator use.",
-      "Tested scope": "1,152 formal cases: 732 contradictory, 420 underdetermined with zero independent consistency checks. PROSE-COVER-035 exhausts all105,456 minimum-compatible lag27 AZ/KRYPTOS plus/minus/Beaufort descriptions: zero covers in three frozen Brown-derived lexicons, independently replayed. This is vocabulary-conditioned; genuine K3 also fails those lexicons.",
-      "Untested scope": "Other compatible primers/lags under stronger independently validated language constraints, lexicons outside035, and cross-alphabet roles outside H-ASYMMETRIC-FEEDBACK's six fixed-primer and 72 arbitrary-primer configurations, or new independently constrained generators. Short-primer autokey followed by unknown columnar transposition is proposed as Q-03, not started; direct-alignment exclusions do not transfer automatically.",
+      "Tested scope": "1,152 formal cases: 732 contradictory, 420 underdetermined with zero independent consistency checks. PROSE-COVER-035 exhausts all105,456 minimum-compatible lag27 AZ/KRYPTOS plus/minus/Beaufort descriptions: zero covers in three frozen Brown-derived lexicons, independently replayed. This is vocabulary-conditioned; genuine K3 also fails those lexicons. Study 059 separately excludes +1 plaintext/intermediate-ciphertext feedback followed by all column orders, widths 6–9, primers 1–8, eight AZ/KRYPTOS role/sign conventions: zero compatible target cylinders after 600 blind exact checks and independent audit.",
+      "Untested scope": "Other compatible primers/lags under stronger independently validated language constraints, lexicons outside035, and cross-alphabet roles outside H-ASYMMETRIC-FEEDBACK's six fixed-primer and 72 arbitrary-primer configurations, or new independently constrained generators. Study 059 covers only the separately validated +1-feedback eight-convention primer1–8/width6–9 composite; subtractive feedback, other ranges or feedback coordinates remain untested. Direct-alignment exclusions do not transfer automatically.",
       "Missing inputs": "A new, independently justified finite specification outside completed coverage.",
       "Next discriminating test": "Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.",
       "Dependencies": "Canonical ciphertext and fixed one-based crib positions; no live Site dependency",
-      "Results": "[retained evidence and finite coverage](AUTOKEY-CONSTRAINT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error. [048 exact source-passage primer test](CANDIDATE-FIRST-048-FINDINGS.md) includes all three equations/two alphabets and lengths1–32, with zeroadmissible source keys; unrestricted primers remain distinct. [051](candidate-first-051/README.md) and [052](candidate-first-052/README.md) separately test fixed candidate banks under periodic/autokey structures: no exact fits and all three target gates fail; these are not all-plaintext exclusions."
+      "Results": "[retained evidence and finite coverage](AUTOKEY-CONSTRAINT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result. [044exact minimum-substitution profiles](MINIMUM-REPAIR-044-FINDINGS.md) separately quantify384periodic/1152autokey descriptions; this does not extend one-edit insertion/deletion coverage or imply an observed K4error. [048 exact source-passage primer test](CANDIDATE-FIRST-048-FINDINGS.md) includes all three equations/two alphabets and lengths1–32, with zeroadmissible source keys; unrestricted primers remain distinct. [051](candidate-first-051/README.md) and [052](candidate-first-052/README.md) separately test fixed candidate banks under periodic/autokey structures: no exact fits and all three target gates fail; these are not all-plaintext exclusions. [059 bounded feedback findings and audits](candidate-first-059/README.md)."
     },
     {
       "id": "H-GROMARK-ONE",
@@ -5012,7 +5012,68 @@
         "research/candidate-first-057/TARGET-AUDIT.md"
       ],
       "receipt_paths": [],
-      "original_entry": "- Date: 2026-10-31 UTC. Both blind outputs sealed at 11:53:30.141875 UTC before answer analysis; parent target stage approved at 11:55 UTC. Target and resource receipts retain chronology; no commit time is asserted as run time.\n- Scope: AZ/KRYPTOS plaintext and ciphertext alphabet roles, sign ±, arbitrary nominal periodic keys 2–8, then unpadded ragged columnar widths 6–9 and every column order. Eight conventions include 056 baseline; variant-Beaufort, phase, period and zero-key identity aliases are not counted as new operators.\n- Result: Completed exact bounded exclusion: both production and independent reference return UNSAT_COMPLETE, zero compatible descriptions/operators/plaintexts. Reference completed 22,901,760 route/period/convention trials, including 2,862,720 baseline trials. Blind benchmark: 520/520 complete exact-set agreement, 464/464 plants included, 221/224 uniform and 224/224 literal-clue positives unique, 0/56 random controls fit. Three ambiguous positives retained.\n- Evidence: [report and archive](candidate-first-057/README.md), [frozen protocol](candidate-first-057/PROTOCOL.md), [independent benchmark audit](candidate-first-057/BENCHMARK-AUDIT.json), [target audit](candidate-first-057/TARGET-AUDIT.md).\n- Status/next action: scientific execution and audit complete; artifacts published. Q-01 closes only within these bounds. Reconciled [working ledger](HYPOTHESES.md) selects Q-02 reverse stage order for its own protocol and controls; no 058 target run has occurred. No Site change or paid submission."
+      "original_entry": "- Date: 2026-10-31 UTC. Both blind outputs sealed at 11:53:30.141875 UTC before answer analysis; parent target stage approved at 11:55 UTC. Target and resource receipts retain chronology; no commit time is asserted as run time.\n- Scope: AZ/KRYPTOS plaintext and ciphertext alphabet roles, sign ±, arbitrary nominal periodic keys 2–8, then unpadded ragged columnar widths 6–9 and every column order. Eight conventions include 056 baseline; variant-Beaufort, phase, period and zero-key identity aliases are not counted as new operators.\n- Result: Completed exact bounded exclusion: both production and independent reference return UNSAT_COMPLETE, zero compatible descriptions/operators/plaintexts. Reference completed 22,901,760 route/period/convention trials, including 2,862,720 baseline trials. Blind benchmark: 520/520 complete exact-set agreement, 464/464 plants included, 221/224 uniform and 224/224 literal-clue positives unique, 0/56 random controls fit. Three ambiguous positives retained.\n- Evidence: [report and archive](candidate-first-057/README.md), [frozen protocol](candidate-first-057/PROTOCOL.md), [independent benchmark audit](candidate-first-057/BENCHMARK-AUDIT.json), [target audit](candidate-first-057/TARGET-AUDIT.md).\n- Status/next action: scientific execution and audit complete; artifacts published. Q-01 closes only within these bounds. Reconciled [working ledger](HYPOTHESES.md) selects Q-02 reverse stage order for its own protocol and controls; at that closeout, no 058 target run had occurred. No Site change or paid submission."
+    },
+    {
+      "record_id": "LOG-BF73B9405D",
+      "experiment_ids": [
+        "CANDIDATE-FIRST-058"
+      ],
+      "title": "CANDIDATE-FIRST-058 — reverse-stage columnar and periodic-key cylinders",
+      "categories": [
+        "exact composite constraints",
+        "blind feasibility and ambiguity benchmark"
+      ],
+      "outcome": "Complete exclusion only of frozen ragged-columnar then output-periodic family; exact free-key cylinders and independent audits pass.",
+      "classification_basis": "Reviewed frozen protocol, retained pre-blind gate correction, complete cylinder/ambiguity benchmark and independent target audit. No unique-recovery gate or broad family claim.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-31 UTC. Blind outputs sealed at 12:21:03.520988 UTC before answer analysis; parent target stage approved at 12:22 UTC. Original receipts distinguish execution, audit and publication.",
+      "date_only": {
+        "date": "2026-10-31",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [],
+      "links": [
+        "research/HYPOTHESES.md",
+        "research/candidate-first-058/BENCHMARK-AUDIT.json",
+        "research/candidate-first-058/PROTOCOL.md",
+        "research/candidate-first-058/README.md",
+        "research/candidate-first-058/TARGET-AUDIT.md"
+      ],
+      "receipt_paths": [],
+      "original_entry": "- Date: 2026-10-31 UTC. Blind outputs sealed at 12:21:03.520988 UTC before answer analysis; parent target stage approved at 12:22 UTC. Original receipts distinguish execution, audit and publication.\n- Scope: Unpadded ragged columnar transposition first, all column orders and widths 6–9, followed by output-index arithmetic under eight AZ/KRYPTOS alphabet-role/sign conventions and arbitrary nominal periods 2–8. Complete compatible key cylinders retain free residues. No guessed English or sum of overlapping cylinders as a distinct count.\n- Result: Completed exact bounded exclusion: both target engines return UNSAT_COMPLETE, zero cylinders/operators/plaintexts; reference 22,901,760 descriptive trials. All 520 blind complete cylinder/projection sets agree, all 464 plants included, 0/56 random fits. Unique plaintext counts 156/224 uniform and 150/224 literal are descriptive only. The unsound conditional uniqueness gate was removed before blind generation; superseded draft and decision retained.\n- Evidence: [report and complete archive](candidate-first-058/README.md), [frozen protocol](candidate-first-058/PROTOCOL.md), [independent benchmark audit](candidate-first-058/BENCHMARK-AUDIT.json), [target audit](candidate-first-058/TARGET-AUDIT.md).\n- Status/next action: execution and independent audit complete; artifacts published. Reconciled [working ledger](HYPOTHESES.md) closes Q-02 only for this scope and selects Q-03 feedback composites for separate preparation. At that closeout, no 059 target run had occurred."
+    },
+    {
+      "record_id": "LOG-E7501B2A7B",
+      "experiment_ids": [
+        "CANDIDATE-FIRST-059"
+      ],
+      "title": "CANDIDATE-FIRST-059 — short-primer feedback before free column order",
+      "categories": [
+        "exact feedback composite constraints",
+        "blind feasibility and ambiguity benchmark"
+      ],
+      "outcome": "Exact bounded +1-feedback/columnar exclusion; 600 blind checks and independent audit pass. Subtractive feedback untested; conditional method pilots not run.",
+      "classification_basis": "Reviewed frozen equations, symbolic-primer proof, full independent cylinder/projection benchmark and empty target audit. No distinct-operator count or broad autokey exclusion claimed.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": "2026-10-31 UTC. Blind outputs sealed at 13:00:56.363936 UTC before answer analysis; parent target approval at 13:02 UTC. Resource receipts retain measured CPU/wall durations, not inferred commit-time run timestamps.",
+      "date_only": {
+        "date": "2026-10-31",
+        "precision": "day",
+        "source": "date statement",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [],
+      "links": [
+        "research/candidate-first-059/BENCHMARK-AUDIT.json",
+        "research/candidate-first-059/PROTOCOL.md",
+        "research/candidate-first-059/README.md",
+        "research/candidate-first-059/TARGET-AUDIT.md"
+      ],
+      "receipt_paths": [],
+      "original_entry": "- Date: 2026-10-31 UTC. Blind outputs sealed at 13:00:56.363936 UTC before answer analysis; parent target approval at 13:02 UTC. Resource receipts retain measured CPU/wall durations, not inferred commit-time run timestamps.\n- Scope: Eight AZ/KRYPTOS plaintext/intermediate-ciphertext role/sign conventions; feedback coefficient +1 only; plaintext or intermediate-ciphertext autokey, arbitrary primers 1–8, followed by unpadded ragged-columnar widths 6–9/all orders. Subtractive feedback is distinct and explicitly untested.\n- Result: Completed exact bounded exclusion; both target engines return zero compatible primer cylinders/UNSAT_COMPLETE. Independent reference exhausts 52,346,880 descriptive trials. Blind feasibility/ambiguity benchmark: 600 complete independent cylinder/projection agreements, 544 plants, all 272 ciphertext-feedback plants correctly MULTIPLE, 0/56 random fits. Unique recovery descriptive only: plaintext-feedback primary plants 127/128 uniform and 128/128 literal; all ciphertext-feedback primers remain free.\n- Evidence: [report/archive](candidate-first-059/README.md), [frozen protocol](candidate-first-059/PROTOCOL.md), [independent benchmark audit](candidate-first-059/BENCHMARK-AUDIT.json), [target audit](candidate-first-059/TARGET-AUDIT.md).\n- Status/next action: scientific execution and audit complete; artifacts published. Q-03 closes only for this pilot. Q-04 and Q-05 not run because no production-search or surviving-candidate ranking bottleneck was established. No further model expanded, Site changed or paid submission made."
     }
   ],
   "receipts": [

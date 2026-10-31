@@ -865,6 +865,24 @@
       ],
       "outcome": "Complete exclusion only of frozen AZ/KRYPTOS role/sign arithmetic then ragged columnar; 520 blind exact-set checks and independent target audit pass.",
       "basis": "Reviewed original frozen protocol, benchmark receipts and independent target audit; baseline and aliases distinguished, remaining reverse/feedback models outside scope."
+    },
+    "LOG-BF73B9405D": {
+      "title": "CANDIDATE-FIRST-058 — reverse-stage columnar and periodic-key cylinders",
+      "categories": [
+        "exact composite constraints",
+        "blind feasibility and ambiguity benchmark"
+      ],
+      "outcome": "Complete exclusion only of frozen ragged-columnar then output-periodic family; exact free-key cylinders and independent audits pass.",
+      "basis": "Reviewed frozen protocol, retained pre-blind gate correction, complete cylinder/ambiguity benchmark and independent target audit. No unique-recovery gate or broad family claim."
+    },
+    "LOG-E7501B2A7B": {
+      "title": "CANDIDATE-FIRST-059 — short-primer feedback before free column order",
+      "categories": [
+        "exact feedback composite constraints",
+        "blind feasibility and ambiguity benchmark"
+      ],
+      "outcome": "Exact bounded +1-feedback/columnar exclusion; 600 blind checks and independent audit pass. Subtractive feedback untested; conditional method pilots not run.",
+      "basis": "Reviewed frozen equations, symbolic-primer proof, full independent cylinder/projection benchmark and empty target audit. No distinct-operator count or broad autokey exclusion claimed."
     }
   }
 }

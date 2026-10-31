@@ -2237,6 +2237,42 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Scope: AZ/KRYPTOS plaintext and ciphertext alphabet roles, sign ±, arbitrary nominal periodic keys 2–8, then unpadded ragged columnar widths 6–9 and every column order. Eight conventions include 056 baseline; variant-Beaufort, phase, period and zero-key identity aliases are not counted as new operators.
 - Result: Completed exact bounded exclusion: both production and independent reference return UNSAT_COMPLETE, zero compatible descriptions/operators/plaintexts. Reference completed 22,901,760 route/period/convention trials, including 2,862,720 baseline trials. Blind benchmark: 520/520 complete exact-set agreement, 464/464 plants included, 221/224 uniform and 224/224 literal-clue positives unique, 0/56 random controls fit. Three ambiguous positives retained.
 - Evidence: [report and archive](../../research/candidate-first-057/README.md), [frozen protocol](../../research/candidate-first-057/PROTOCOL.md), [independent benchmark audit](../../research/candidate-first-057/BENCHMARK-AUDIT.json), [target audit](../../research/candidate-first-057/TARGET-AUDIT.md).
-- Status/next action: scientific execution and audit complete; artifacts published. Q-01 closes only within these bounds. Reconciled [working ledger](../../research/HYPOTHESES.md) selects Q-02 reverse stage order for its own protocol and controls; no 058 target run has occurred. No Site change or paid submission.
+- Status/next action: scientific execution and audit complete; artifacts published. Q-01 closes only within these bounds. Reconciled [working ledger](../../research/HYPOTHESES.md) selects Q-02 reverse stage order for its own protocol and controls; at that closeout, no 058 target run had occurred. No Site change or paid submission.
 
 Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md), [research/candidate-first-057/BENCHMARK-AUDIT.json](../../research/candidate-first-057/BENCHMARK-AUDIT.json), [research/candidate-first-057/PROTOCOL.md](../../research/candidate-first-057/PROTOCOL.md), [research/candidate-first-057/README.md](../../research/candidate-first-057/README.md), [research/candidate-first-057/TARGET-AUDIT.md](../../research/candidate-first-057/TARGET-AUDIT.md).
+
+## LOG-BF73B9405D
+
+**CANDIDATE-FIRST-058 — reverse-stage columnar and periodic-key cylinders**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (date statement; not a run timestamp); original date statement: 2026-10-31 UTC. Blind outputs sealed at 12:21:03.520988 UTC before answer analysis; parent target stage approved at 12:22 UTC. Original receipts distinguish execution, audit and publication.
+
+Type: exact composite constraints; blind feasibility and ambiguity benchmark. Outcome: Complete exclusion only of frozen ragged-columnar then output-periodic family; exact free-key cylinders and independent audits pass.
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-31 UTC. Blind outputs sealed at 12:21:03.520988 UTC before answer analysis; parent target stage approved at 12:22 UTC. Original receipts distinguish execution, audit and publication.
+- Scope: Unpadded ragged columnar transposition first, all column orders and widths 6–9, followed by output-index arithmetic under eight AZ/KRYPTOS alphabet-role/sign conventions and arbitrary nominal periods 2–8. Complete compatible key cylinders retain free residues. No guessed English or sum of overlapping cylinders as a distinct count.
+- Result: Completed exact bounded exclusion: both target engines return UNSAT_COMPLETE, zero cylinders/operators/plaintexts; reference 22,901,760 descriptive trials. All 520 blind complete cylinder/projection sets agree, all 464 plants included, 0/56 random fits. Unique plaintext counts 156/224 uniform and 150/224 literal are descriptive only. The unsound conditional uniqueness gate was removed before blind generation; superseded draft and decision retained.
+- Evidence: [report and complete archive](../../research/candidate-first-058/README.md), [frozen protocol](../../research/candidate-first-058/PROTOCOL.md), [independent benchmark audit](../../research/candidate-first-058/BENCHMARK-AUDIT.json), [target audit](../../research/candidate-first-058/TARGET-AUDIT.md).
+- Status/next action: execution and independent audit complete; artifacts published. Reconciled [working ledger](../../research/HYPOTHESES.md) closes Q-02 only for this scope and selects Q-03 feedback composites for separate preparation. At that closeout, no 059 target run had occurred.
+
+Related files: [research/HYPOTHESES.md](../../research/HYPOTHESES.md), [research/candidate-first-058/BENCHMARK-AUDIT.json](../../research/candidate-first-058/BENCHMARK-AUDIT.json), [research/candidate-first-058/PROTOCOL.md](../../research/candidate-first-058/PROTOCOL.md), [research/candidate-first-058/README.md](../../research/candidate-first-058/README.md), [research/candidate-first-058/TARGET-AUDIT.md](../../research/candidate-first-058/TARGET-AUDIT.md).
+
+## LOG-E7501B2A7B
+
+**CANDIDATE-FIRST-059 — short-primer feedback before free column order**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (date statement; not a run timestamp); original date statement: 2026-10-31 UTC. Blind outputs sealed at 13:00:56.363936 UTC before answer analysis; parent target approval at 13:02 UTC. Resource receipts retain measured CPU/wall durations, not inferred commit-time run timestamps.
+
+Type: exact feedback composite constraints; blind feasibility and ambiguity benchmark. Outcome: Exact bounded +1-feedback/columnar exclusion; 600 blind checks and independent audit pass. Subtractive feedback untested; conditional method pilots not run.
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-31 UTC. Blind outputs sealed at 13:00:56.363936 UTC before answer analysis; parent target approval at 13:02 UTC. Resource receipts retain measured CPU/wall durations, not inferred commit-time run timestamps.
+- Scope: Eight AZ/KRYPTOS plaintext/intermediate-ciphertext role/sign conventions; feedback coefficient +1 only; plaintext or intermediate-ciphertext autokey, arbitrary primers 1–8, followed by unpadded ragged-columnar widths 6–9/all orders. Subtractive feedback is distinct and explicitly untested.
+- Result: Completed exact bounded exclusion; both target engines return zero compatible primer cylinders/UNSAT_COMPLETE. Independent reference exhausts 52,346,880 descriptive trials. Blind feasibility/ambiguity benchmark: 600 complete independent cylinder/projection agreements, 544 plants, all 272 ciphertext-feedback plants correctly MULTIPLE, 0/56 random fits. Unique recovery descriptive only: plaintext-feedback primary plants 127/128 uniform and 128/128 literal; all ciphertext-feedback primers remain free.
+- Evidence: [report/archive](../../research/candidate-first-059/README.md), [frozen protocol](../../research/candidate-first-059/PROTOCOL.md), [independent benchmark audit](../../research/candidate-first-059/BENCHMARK-AUDIT.json), [target audit](../../research/candidate-first-059/TARGET-AUDIT.md).
+- Status/next action: scientific execution and audit complete; artifacts published. Q-03 closes only for this pilot. Q-04 and Q-05 not run because no production-search or surviving-candidate ranking bottleneck was established. No further model expanded, Site changed or paid submission made.
+
+Related files: [research/candidate-first-059/BENCHMARK-AUDIT.json](../../research/candidate-first-059/BENCHMARK-AUDIT.json), [research/candidate-first-059/PROTOCOL.md](../../research/candidate-first-059/PROTOCOL.md), [research/candidate-first-059/README.md](../../research/candidate-first-059/README.md), [research/candidate-first-059/TARGET-AUDIT.md](../../research/candidate-first-059/TARGET-AUDIT.md).

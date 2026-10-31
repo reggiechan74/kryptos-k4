@@ -36,6 +36,8 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | Review calibrated English-key fragment screen 055 | [Report, audits and reproduction archive](research/candidate-first-055/README.md) — 0/12 target pairs survive; a bounded heuristic screen, not an impossibility proof |
 | Review joint periodic-key and column-route study 056 | [Exact scope, benchmark, target and audits](research/candidate-first-056/README.md) — complete independent exclusion of the frozen A–Z Vigenère → ragged-columnar family |
 | Study 057: alphabet-role and Beaufort extensions | [Exact bounded exclusion, benchmark and audits](research/candidate-first-057/README.md) |
+| Study 058: reverse-stage columnar and periodic arithmetic | [Exact key-cylinder exclusion, ambiguity controls and audits](research/candidate-first-058/README.md) |
+| Review short-primer feedback study 059 | [Bounded exclusion, ambiguity controls and audits](research/candidate-first-059/README.md) — subtractive feedback remains untested; conditional Q-04/Q-05 prerequisites not established |
 | Reproduce the work | [Running experiments](experiments/README.md) and [test guide](tests/README.md) |
 
 **Overlay scope:** the earlier column-only study used `dy = 0`. [Item 1’s newer predefined two-dimensional study](research/FOLD-SLIDE-2D-FINDINGS.md) covers all integer rows −28…+28 and columns −33…+33 under two fixed registrations. Its own whole-search controls show no unusual excess; the older column-only p-values are not repurposed for rows.

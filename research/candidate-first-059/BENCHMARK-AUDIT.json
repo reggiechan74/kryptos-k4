@@ -1,0 +1,70 @@
+{
+  "status": "PASS_FOR_PARENT_TARGET_REVIEW",
+  "created_utc": "2026-10-31T13:01:10.653857+00:00",
+  "freeze_sha256": "adbc136d4ff19a27c448b0bff5e00672c7246b246a6d8441e7a0fb0bc4519c68",
+  "frozen_files_verified": 29,
+  "counts": {
+    "complete": 600,
+    "set_agreement": 600,
+    "independent_reencryptions": 817,
+    "projection_agreement": 600,
+    "plants": 544,
+    "plants_included": 544,
+    "cipher_feedback_plants": 272,
+    "cipher_feedback_multiple": 272,
+    "controls": 56,
+    "control_fits": 0
+  },
+  "descriptive_strata": {
+    "uniform-positive-feedback-0": {
+      "total": 128,
+      "unique": 127,
+      "multiple": 1
+    },
+    "uniform-positive-feedback-1": {
+      "total": 128,
+      "unique": 0,
+      "multiple": 128
+    },
+    "literal-positive-feedback-1": {
+      "total": 128,
+      "unique": 0,
+      "multiple": 128
+    },
+    "literal-positive-feedback-0": {
+      "total": 128,
+      "unique": 128,
+      "multiple": 0
+    },
+    "repeated-primer-diagnostic-feedback-1": {
+      "total": 8,
+      "unique": 0,
+      "multiple": 8
+    },
+    "repeated-primer-diagnostic-feedback-0": {
+      "total": 8,
+      "unique": 8,
+      "multiple": 0
+    },
+    "zero-primer-diagnostic-feedback-1": {
+      "total": 8,
+      "unique": 0,
+      "multiple": 8
+    },
+    "zero-primer-diagnostic-feedback-0": {
+      "total": 8,
+      "unique": 8,
+      "multiple": 0
+    }
+  },
+  "reference_trials": 31408128000,
+  "max_production_cpu_seconds": 0.056103211,
+  "max_reference_cpu_seconds": 4.367671297,
+  "fixture_replay_exact": true,
+  "operator_count_claimed": false,
+  "target_authorized": false,
+  "audit_inclusive_cpu_seconds": 0.22356356,
+  "limits": "Only additive-feedback eight-convention bounded family; subtractive feedback remains untested. Cylinder unions may overlap; projection classification is exact, cardinality bounds only.",
+  "max_conservative_worker_child_rss_bytes": 21020672,
+  "novelty_scope_source_verified": "research/AUTOKEY-CONSTRAINT-FINDINGS.md explicitly excludes transposition and unspecified composite models."
+}
