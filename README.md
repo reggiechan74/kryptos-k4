@@ -12,7 +12,7 @@ This repository records an attempt to understand **K4, the final 97-letter secti
 
 K1–K3 serve as known-answer controls. Public reports of archival plaintext recovery are distinct from a published, reproducible cryptanalytic solution; see the [source verification](docs/source-verification-2026-10-18.md). This workspace does not claim independently to know all of K4’s plaintext.
 
-**[Open the live Kryptos Light Laboratory on ChatGPT](https://kryptos-light-laboratory-rc2026.milky-lion-6014.chatgpt.site)** for interactive monument, light and cipher visualizations. Its geometry is illustrative, not a surveyed physical reconstruction. The downloadable fold-and-slide HTML below is a separate offline research artifact; the live Site includes the manual row/column overlay and synthetic projection diagnostic ([archived version 17 source/provenance](docs/site-source/projection-v17-20261024/README.md)). The reviewed photographic record has zero certified pairs or real fits; this does not show that accessible photos cannot yield them. The predefined integer row/column scan is now calibrated in the research report below; other manual exploration remains descriptive.
+**[Open the live Kryptos Light Laboratory on ChatGPT](https://kryptos-light-laboratory-rc2026.milky-lion-6014.chatgpt.site)** for interactive monument, light and cipher visualizations. Its geometry is illustrative, not a surveyed physical reconstruction. The downloadable fold-and-slide HTML below is a separate offline research artifact; the live Site includes the manual row/column overlay and synthetic projection diagnostic ([complete version 19 source archive and restore instructions](docs/site-source/light-laboratory-v19-20261031/README.md)). The reviewed photographic record has zero certified pairs or real fits; this does not show that accessible photos cannot yield them. The predefined integer row/column scan is now calibrated in the research report below; other manual exploration remains descriptive.
 
 ## Start here
 
@@ -89,3 +89,4 @@ The [receipt index](docs/tracking/RECEIPTS.md) labels explicit run start/end, re
 Research artifacts are preserved even when later audits narrow their claims. Historical “unrun” labels may be superseded by the current canonical ledger; consult its precise tested and untested scopes. No live Site deployment is performed by these documentation or research commands.
 
 The [previous root README](docs/history/README-before-navigation.txt) is retained as an archival snapshot; its historical wording does not override the current ledger.
+
