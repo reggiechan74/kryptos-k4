@@ -36,7 +36,9 @@ class ExternalPriorArtRegisterTests(unittest.TestCase):
                 self.assertIn(phrase, agents)
     def test_current_queue_is_not_new_execution_authority(self):
         text = (ROOT/'research/HYPOTHESES.md').read_text()
-        self.assertIn('No proposed new execution-ready hypothesis cleared', text)
+        self.assertIn('At that survey closeout, no proposed new execution-ready hypothesis cleared', text)
+        self.assertIn('execution was separately authorized at 15:03 UTC', text)
+        self.assertIn('Each target requires its own frozen protocol', text)
         self.assertIn('superseded ten-item', text)
         self.assertIn('Historical ranked queue and current eligibility', text)
 

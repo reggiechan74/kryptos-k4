@@ -1,0 +1,496 @@
+{
+  "id": "FRONTIER-CURRENT-20261031-060",
+  "reviewed_main_commit": "c860d9a47455478f2b64b595be7d404cbf57533d",
+  "kind": "Current human-reviewed inventory following study 060; navigation and prerequisite review only, never launch authority",
+  "decision": "Studies 051\u2013060 retain their bounded outcomes. Four fresh family IDs have separately reviewed specifications; 060 is complete. The remaining three families require their own overlap, validation and target-admission gates. This inventory launches no cipher search. The original FRONTIER-046 specification and receipt remain unchanged.",
+  "not_claimed": [
+    "The puzzle is solved",
+    "All possible ciphers are exhausted",
+    "A resource projection is a lower bound",
+    "A fitted or model-forced plaintext is independently confirmed",
+    "Missing inputs have been proven unobtainable forever"
+  ],
+  "gates": [
+    {
+      "id": "F-JOINT-SIGABA",
+      "hypotheses": [
+        "H-SIGABA",
+        "H-SIGABA-INSPIRED"
+      ],
+      "blocker_type": "algorithm_and_resource",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "041exact cache has zero hits in measured prefixes, no union coverage beyond historical12/14controllers, no real-size complete-set/scaling pass.",
+      "available": [
+        "research/SIGABA-JOINT-FEASIBILITY-SPEC.md",
+        "research/JOINT-STATE-NONROTOR-FINDINGS.md",
+        "results/SIGABA-JOINT-FEASIBILITY-003.json",
+        "tests/test_joint_nonrotor.py",
+        "tests/test_sigaba_full_state.py",
+        "research/SIGABA-JOINT-TOY-SPEC.md",
+        "research/SIGABA-JOINT-TOY-FINDINGS.md",
+        "results/SIGABA-JOINT-TOY-012.json",
+        "tests/test_sigaba_joint_toy.py",
+        "research/SIGABA-TORUS-SPEC.md",
+        "research/SIGABA-TORUS-FINDINGS.md",
+        "results/SIGABA-TORUS-013.json",
+        "tests/test_sigaba_torus.py",
+        "research/SIGABA-REAL-ADAPTER-SPEC.md",
+        "research/SIGABA-REAL-ADAPTER-FINDINGS.md",
+        "results/sigaba-real-adapter/case-0.json",
+        "results/sigaba-real-adapter/case-1.json",
+        "tests/test_sigaba_real_adapter.py",
+        "research/SIGABA-SPARSE-OWNERSHIP-SPEC.md",
+        "research/SIGABA-SPARSE-OWNERSHIP-FINDINGS.md",
+        "results/CSP889-SPARSE-015.json",
+        "tests/test_sigaba_sparse_ownership.py",
+        "research/SIGABA-DOMAIN-IDENTITY-SPEC.md",
+        "research/SIGABA-DOMAIN-IDENTITY-FINDINGS.md",
+        "results/CSP889-DOMAIN-016.json",
+        "tests/test_sigaba_domain_identity.py",
+        "research/SIGABA-FIRST-OBSERVATION-SPEC.md",
+        "research/SIGABA-FIRST-OBSERVATION-FINDINGS.md",
+        "research/SIGABA-LITERATURE-AND-FILTER-REVIEW.md",
+        "results/CSP889-ANCHOR-017.json",
+        "tests/test_sigaba_first_observation.py",
+        "research/SIGABA-COMPRESSED-DOMAIN-SPEC.md",
+        "research/SIGABA-COMPRESSED-DOMAIN-FINDINGS.md",
+        "results/CSP889-COMPACT-018.json",
+        "tests/test_sigaba_compressed_ownership.py",
+        "research/SIGABA-COLLECTOR-FILTER-SPEC.md",
+        "research/SIGABA-COLLECTOR-FILTER-FINDINGS.md",
+        "results/CSP889-FILTER-019.json",
+        "tests/test_sigaba_collector_filter.py",
+        "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-SPEC.md",
+        "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-FINDINGS.md",
+        "research/SIGABA-UNKNOWN-ANCHOR-COLLECTOR-METHOD.md",
+        "research/SIGABA-UNKNOWN-ANCHOR-BYTE-MASK-SPEC.md",
+        "experiments/sigaba_unknown_anchor_collector.py",
+        "experiments/sigaba_byte_mask_predicates.py",
+        "results/sigaba-unknown-anchor-024/20261024T011347Z-0372961a832e4fefa3630289212ad464/summary.json",
+        "results/sigaba-unknown-anchor-024b/20261024T012556Z-68fabf5fec944bdb82cd9971546c2a6e/summary.json",
+        "research/SIGABA-SUPPORT-SIGNATURE-041-FINDINGS.md",
+        "results/SIGABA-SUPPORT-SIGNATURE-041-SUMMARY.json"
+      ],
+      "next_deliverable": "A justified controller quotient/constraint representation needs a frozen exactness/resource gate; do not enlarge budgets or sample arbitrary keys.",
+      "go_no_go": "The supplied-panel diagnostic rejects 12/20 pairs without false negatives but has 6 nonphysical passes; no unknown-anchor/full-domain coverage is added. Prior full gate remains incomplete at 12 and 14, respectively native controllers. No actual K4 is ready.",
+      "safe_replay_argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_sigaba_joint_toy.py"
+      ],
+      "replay_scope": "Complete synthetic coupled tiny-system comparisons and correlation/cache/budget controls; does not run the long scaling batch, implement authentic real-sized inference or evaluate K4."
+    },
+    {
+      "id": "F-PHYSICAL",
+      "hypotheses": [
+        "H-COMPASS-REVERSE",
+        "H-COMPASS-FRAMES",
+        "H-GLYPH-VIEW",
+        "H-OPTICAL",
+        "H-SHADOW-TIME",
+        "H-CELESTIAL-ALTITUDE",
+        "H-GEO-ENE",
+        "H-NEPTUNE"
+      ],
+      "blocker_type": "independent_measurements_and_mapping",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "No certified pairs in the reviewed/transferred record; not proof source photographs cannot yield them. Actual source/surface/receiver/contour identity remains uncalibrated.",
+      "available": [
+        "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
+        "docs/scott-sun-geometry-audit-2026-10-22.md",
+        "results/PHYSICAL-ADDENDUM-LOCAL-REVIEW-001.json",
+        "research/evidence/2026-10-23-lodestone-compass/DECLINATION-ADDENDUM.md",
+        "research/MONUMENT-FOLD-SLIDE-FINDINGS.md",
+        "research/MONUMENT-SLIDE-REGISTRATION-AMENDMENT.md",
+        "experiments/monument_slide.py",
+        "research/FOLD-SLIDE-2D-FINDINGS.md",
+        "research/FOLD-SLIDE-2D-SPEC.md",
+        "experiments/monument_slide_2d.py",
+        "results/fold-slide-2d-001-runs/20261023T234752Z-ddb7425463b745a4b3d70b1b669dd641/summary.json",
+        "research/PHYSICAL-SOLAR-002-SPEC.md",
+        "research/PHYSICAL-SOLAR-002-FINDINGS.md",
+        "experiments/physical_solar_002.py",
+        "sources/physical-solar-002/SOURCE-RECEIPT.json",
+        "independent/2026-10-24/physical-item2/README.md",
+        "research/PROJECTION-CONCURRENCE-029-SPEC.md",
+        "research/PROJECTION-CONCURRENCE-029-FINDINGS.md",
+        "research/PROJECTION-CONCURRENCE-029-API.md",
+        "experiments/projection_concurrence.py",
+        "experiments/projection_concurrence_reference.py",
+        "results/PROJECTION-CONCURRENCE-029-SYNTHETIC.json",
+        "research/evidence/2026-10-24-projection-acquisition/PHOTO-ACQUISITION-REVIEW.md",
+        "research/evidence/2026-10-24-projection-acquisition/SOURCE-INVENTORY-AND-GATE.json",
+        "research/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS-SPEC.md",
+        "results/PROJECTION-CONCURRENCE-029-LOCAL-CONTROLS.json",
+        "docs/site-source/projection-20261024/README.md",
+        "results/SITE-PROJECTION-20261024-SOURCE-HANDOFF.json",
+        "docs/site-source/projection-v17-20261024/README.md",
+        "results/SITE-PROJECTION-V17-SOURCE-HANDOFF.json",
+        "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md",
+        "research/evidence/2026-10-24-projection-acquisition/README.md"
+      ],
+      "next_deliverable": "Independent off-site source-pixel correspondence annotation or a documented bench can add evidence; neither requires an onsite survey.",
+      "go_no_go": "Stop before letter extraction if camera/shape/frame calibration is underidentified. Quantitative residual tolerances must derive from input uncertainty and be frozen before fitting; no invented tolerance, date, bearing or receiver.",
+      "safe_replay_argv": [
+        "python3",
+        "experiments/physical_solar_002.py",
+        "--spec-commit",
+        "b2cc1dffdbb71b7a11c38f8041d220f3fce82932",
+        "--output",
+        "/tmp/k4-physical-replay",
+        "--kind",
+        "replay"
+      ],
+      "replay_scope": "Conditional angular/height-order calculations are reproducible without a survey; a numerical physical decoder is not ready. No repeat of exhausted archives or invented geometry."
+    },
+    {
+      "id": "F-HISTORICAL-CLOCK",
+      "hypotheses": [
+        "H-CLOCK-HISTORICAL",
+        "H-CLOCK-FACE"
+      ],
+      "blocker_type": "historic_inventory_registration_and_encoder",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Historical version/consumed cells, origin/phase/bridge missing. 042rejects automatic whole-year civil correctness only; standard-time/single-date/literal models survive.",
+      "available": [
+        "independent/2026-10-22/historical-clock/historical_clock_report.txt",
+        "research/evidence/2026-10-23-lodestone-compass/PHYSICAL-ADDENDUM-LOCAL-REVIEW.md",
+        "research/WORLD-CLOCK-003-SPEC.md",
+        "research/WORLD-CLOCK-003-FINDINGS.md",
+        "experiments/world_clock_003.py",
+        "sources/world-clock-003/LOCAL-SOURCE-REVIEW.json",
+        "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK.md",
+        "independent/2026-10-24/world-clock-item3/K4-ITEM3-WORLD-CLOCK-INVENTORY.json",
+        "research/WORLD-CLOCK-003-SOURCE-AMENDMENT.md",
+        "research/CLOCK-CIVIL-042-FINDINGS.md",
+        "sources/CLOCK-CIVIL-042.json"
+      ],
+      "next_deliverable": "Obtain independent version/registration and a total key bridge before trialing a clock key.",
+      "go_no_go": "No 1989 labels inferred from current panels, no rotating numerals treated as fixed sector IDs, and no fitted per-character phases. A successful coordinate roundtrip without an alphabet encoder is not a K4 trial.",
+      "safe_replay_argv": [
+        "python3",
+        "experiments/world_clock_003.py",
+        "--spec-commit",
+        "53aa67b86da286d45012d957a25b4763c77ab04f",
+        "--output",
+        "/tmp/k4-clock-replay",
+        "--kind",
+        "replay"
+      ],
+      "replay_scope": "Conditional common-inventory numerical result only, preserved despite new revision evidence. No reconstructed 1989 ring or K4 evaluation."
+    },
+    {
+      "id": "F-HISTORICAL-MACHINES",
+      "hypotheses": [
+        "H-WHEATSTONE",
+        "H-M94-CYCLIC",
+        "H-M138A"
+      ],
+      "blocker_type": "source_complete_distinct_procedure_or_inventory",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "A source-backed operation outside completed fixed-point/fixed-transition proofs, with its declared preprocessing/alignment and exact inventory/vector. Missing full M138A table does not block the completed nonzero-row invariant. Original M138 and Wheatstone figures retain unresolved glyphs/source conflict.",
+      "available": [
+        "research/WHEATSTONE-TRANSITION-FINDINGS.md",
+        "sources/wheatstone-historical-conventions-2026-10-23.json",
+        "data/m94-source-quality.json",
+        "research/JOINT-STATE-NONROTOR-FINDINGS.md",
+        "research/STRIP-SOURCE-GATES-027-SPEC.md",
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md",
+        "results/ITEM7-HISTORICAL-SOURCE-QA-027.json",
+        "results/ITEM7-LOCAL-SOURCE-REVIEW.json",
+        "tests/test_item7_historical_source_qa.py",
+        "tests/test_strip_source_gates.py"
+      ],
+      "next_deliverable": "Authenticate an actually outside-invariant procedure and then an exact bounded key domain; do not repair tables or resweep excluded fixed mechanics.",
+      "go_no_go": "Do not repair the two defective M-94 rows by guessing. A corrected inventory would not rescue the already excluded common-row model. Obtaining the 1879 chapter alone does not remove Wheatstone's fixed-transition contradiction. Do not reopen denied sources or switch transport.",
+      "safe_replay_argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_wheatstone_transition.py"
+      ],
+      "replay_scope": "Existing modern worked vectors and conditional fixed-ring proof, not an authentic full Plett or M-138-A search."
+    },
+    {
+      "id": "F-ENCODING-AND-TREE",
+      "hypotheses": [
+        "H-LAMP-GREEK",
+        "H-LAMP-MENGENLEHRE",
+        "H-GREEK-PHONETIC",
+        "H-LANGUAGE",
+        "H-PHONETIC-RESPELLING",
+        "H-GERMAN-TRANSLATION",
+        "H-EGYPTIAN-SIGN-LIST",
+        "H-IPA-DICTIONARY",
+        "H-LETTER-GEOMETRY",
+        "H-TREE-STATEFUL"
+      ],
+      "blocker_type": "source_grounded_model_definition_and_alignment",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Other complete source/version/framing/inverse choices missing beyond existing finite models; eight.Ztransports043fail header but not arbitrary compression.",
+      "available": [
+        "research/TREE-STATE-SUPPORT-SPEC.md",
+        "research/FEISTEL-TREE-EXTENSION-FINDINGS.md",
+        "research/IPA-CODECS-INTEGRATION.md",
+        "research/GREEK-SIGABA-CANDIDATE-FINDINGS.md",
+        "research/CONDITIONAL-FACE-LAMP-FINDINGS.md",
+        "research/LAMP-GREEK-025-SPEC.md",
+        "research/LAMP-GREEK-025-FINDINGS.md",
+        "results/lamp-greek-025/README.md",
+        "results/LAMP-GREEK-025-CERTIFICATES.json",
+        "tests/test_lamp_greek.py",
+        "research/TREE-GEOMETRY-IPA-026-SPEC.md",
+        "research/TREE-GEOMETRY-IPA-026-FINDINGS.md",
+        "results/tree-geometry-ipa-026/README.md",
+        "results/TREE-GEOMETRY-IPA-026-INDEPENDENT-VALIDATION.json",
+        "tests/test_tree_geometry_ipa.py",
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md",
+        "independent/2026-10-24/item7-historical-sources/AUTHOR-REPORT.md",
+        "research/COMPRESS-TRANSPORT-043-FINDINGS.md"
+      ],
+      "next_deliverable": "Require an independently selected codec/transport/state rather than add knobs after a negative.",
+      "go_no_go": "Reject undefined ordering/framing or non-unique spelling recovery as a specification gap; preserve ambiguity rather than silently choosing aliases or intermediate offsets. No new dialects, glyph orders or tree rules solely to rescue a negative.",
+      "safe_replay_argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_feistel_tree_extensions.py"
+      ],
+      "replay_scope": "Existing fixed-tree arbitrary-start-state proof and Feistel ambiguity controls; does not test other trees or codecs."
+    },
+    {
+      "id": "F-IDENTIFIABILITY",
+      "hypotheses": [
+        "H-FEISTEL-3ROUND",
+        "H-NONLINEAR-BLOCK",
+        "H-GROMARK-ONE",
+        "H-AUTOKEY-EXACT",
+        "H-OTP"
+      ],
+      "blocker_type": "independent_restriction_or_validation",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Long autokey, free Gromark alphabets and arbitrary nonlinear functions remain ambiguous; repairs do not provide independent plaintext.",
+      "available": [
+        "research/FEISTEL-TREE-EXTENSION-FINDINGS.md",
+        "research/GROMARK-IDENTIFIABILITY-FINDINGS.md",
+        "research/AUTOKEY-CONSTRAINT-FINDINGS.md",
+        "research/MINIMUM-REPAIR-044-FINDINGS.md"
+      ],
+      "next_deliverable": "Independent method/key evidence or unseen validation is needed before expanding flexible model capacity.",
+      "go_no_go": "No attractive English completion from known cribs. Two full different plaintext witnesses already establish ambiguity in the three-round cases; raw parameter volume is not plaintext-class count or posterior probability. More arbitrary rounds are not the missing information.",
+      "safe_replay_argv": [
+        "node",
+        "experiments/feistel_three_oracle.mjs"
+      ],
+      "replay_scope": "Eight existing training/all-crib exact counts and small controls; not new cipher variants or held-out evidence."
+    },
+    {
+      "id": "F-BOOK-CODEBOOK",
+      "hypotheses": [
+        "H-BOOK-CODEBOOK",
+        "H-RUNKEY"
+      ],
+      "blocker_type": "independently_selected_text_and_extraction",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "An independently supported edition, pagination, extraction and invertible framing; a source cannot be chosen because its key fits the cribs.",
+      "available": [
+        "research/UNRUN-GAPS-2026-10-23.md",
+        "research/BOUNDED-FINDINGS.md",
+        "research/STRIP-SOURCE-GATES-027-FINDINGS.md",
+        "independent/2026-10-24/item7-historical-sources/AUTHOR-REPORT.md"
+      ],
+      "next_deliverable": "Authenticate one source and reproduce a published encoding example before freezing a small extraction/key domain.",
+      "go_no_go": "No mass book corpus, guessed offsets or independent per-letter book choices. The 28,488 negative literal running-key cases do not exclude an independently grounded book cipher.",
+      "safe_replay_argv": null,
+      "replay_scope": "No justified external text or decoder is currently admitted."
+    },
+    {
+      "id": "F-CONSTRUCTION-ERROR",
+      "hypotheses": [
+        "H-ONE-EDIT"
+      ],
+      "blocker_type": "independent_evidence_and_restrictive_new_model_after_completed_counterfactual",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "No observed K4discrepancy or independently fixed worksheet/key. 044substitution minima do not cover multi-indel/key/worksheet error channels.",
+      "available": [
+        "independent/2026-10-22/construction/REPORT.md",
+        "independent/2026-10-22/construction/test_audit_construction.py",
+        "research/STRATEGY-FOLLOWUP-FINDINGS.md",
+        "research/ONE-EDIT-028-SPEC.md",
+        "research/ONE-EDIT-028-FINDINGS.md",
+        "research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md",
+        "results/one-edit-028/README.md",
+        "results/ONE-EDIT-028-INDEPENDENT-AUDIT.json",
+        "tests/test_one_edit_core.py",
+        "tests/test_one_edit_artifacts.py",
+        "research/MINIMUM-REPAIR-044-FINDINGS.md"
+      ],
+      "next_deliverable": "Require a falsifiable production recipe or source artifact; do not infer an error from a compatible artificial repair.",
+      "go_no_go": "Cyrillic Projector restart/phase-jump equivalence does not identify omitted engraving. Never alter canonical K4 or silently move anchors to repair a rejected model.",
+      "safe_replay_argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "independent/2026-10-22/construction",
+        "-p",
+        "test_audit_construction.py"
+      ],
+      "replay_scope": "Offline original conventions and immutable one-edit receipts. No new search is launched by this inventory."
+    },
+    {
+      "id": "F-DIAGNOSTICS",
+      "hypotheses": [
+        "H-ARCHITECTURE-DIAGNOSIS",
+        "H-LAG",
+        "H-KRYPTOS-FINGERPRINT"
+      ],
+      "blocker_type": "decision_relevance_and_open_world_validation",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "A concrete decision this diagnostic changes, independent corpora/authors, explicit abstention and matched unknown-class controls.",
+      "available": [
+        "research/STRATEGY-FOLLOWUP-FINDINGS.md",
+        "independent/2026-10-22/calibration/REPORT.md"
+      ],
+      "next_deliverable": "Freeze an open-world discrimination question and error/abstention criterion before any new classifier training or K4 labeling.",
+      "go_no_go": "The earlier forced K4 label was also assigned to 44/48 uniform controls. Its 125/144 closed-set accuracy is not evidence for K4 architecture or transfer to other authors.",
+      "safe_replay_argv": null,
+      "replay_scope": "No new classifier is needed merely to keep generating a label."
+    },
+    {
+      "id": "F-CORRECTION-TRIGGER",
+      "hypotheses": [
+        "H-DELIBERATE-SPELLING"
+      ],
+      "blocker_type": "source_selected_rule_and_alignment",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "Short contextual fits predict no held-out mistake; no independently selected boundary/length-changing trigger/framing. Memoryless length changes do not rescue032.",
+      "available": [
+        "research/SPELLING-CORRECTION-032-SPEC.md",
+        "research/SPELLING-CORRECTION-032-FINDINGS.md",
+        "research/SPELLING-CORRECTION-032-SOURCES.md",
+        "experiments/spelling_correction.py",
+        "experiments/spelling_correction_reference.py",
+        "results/SPELLING-CORRECTION-032-ORIGINAL.json",
+        "research/CONTEXT-SPELLING-039-FINDINGS.md",
+        "research/SPELLING-MORPHISM-REVIEW-045-FINDINGS.md"
+      ],
+      "safe_replay_argv": [
+        "python3",
+        "experiments/run_spelling_correction.py",
+        "--output",
+        "/tmp/spelling-correction-replay.json"
+      ],
+      "stop_condition": "No K4 scoring or new contexts until an independent rule reproduces unchanged source letters and predicts an unused anomaly without fitted exceptions.",
+      "next_deliverable": "Use a source-selected predictive rule or independent anomaly, not descriptive correction extraction."
+    },
+    {
+      "id": "F-COVER-STAGE",
+      "hypotheses": [
+        "H-WORD-COVER-EXTRACTION"
+      ],
+      "blocker_type": "source_selected_codebook_outer_cipher_and_tokenization",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "No independently restricted outer cipher/extractor or reliable language cutoff. 045retainsK3butoneplantisoutranked;2/7null maxima equal/exceed actual.",
+      "available": [
+        "research/COVER-EXTRACTION-033-SPEC.md",
+        "research/COVER-EXTRACTION-033-FINDINGS.md",
+        "research/COVER-PHRASE-034-SPEC.md",
+        "research/COVER-PHRASE-034-FINDINGS.md",
+        "research/COVER-033-034-SOURCES.md",
+        "experiments/cover_extraction.py",
+        "results/COVER-EXTRACTION-033-ORIGINAL.json",
+        "results/COVER-PHRASE-034-original-summary.json",
+        "research/PROSE-COVER-035-SPEC.md",
+        "research/PROSE-COVER-035-FINDINGS.md",
+        "results/PROSE-COVER-035-ORIGINAL.json",
+        "research/COVER-SELECTOR-038-FINDINGS.md",
+        "research/COVER-LANGUAGE-045-FINDINGS.md"
+      ],
+      "safe_replay_argv": [
+        "python3",
+        "experiments/run_cover_extraction.py",
+        "--output",
+        "/tmp/cover-core-replay.json"
+      ],
+      "stop_condition": "Do not expand vocabularies/selectors to obtain attractive English. A new outer cipher requires separate independent specification and full-channel validation.",
+      "next_deliverable": "Require source-selected first-stage/readout and broader unseen language calibration; no new phrase bank or arbitrary long key."
+    },
+    {
+      "id": "F-CYLINDRICAL-REPLICA",
+      "hypotheses": [
+        "H-CYLINDRICAL-MIRROR-SAMPLER"
+      ],
+      "blocker_type": "source_selected_geometry_and_physical_stability",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "No source-selected apparatus/key or demonstrated bench stability/readability. Similarity preserves nominal cells but fixed-mm errors depend on physical scale.",
+      "available": [
+        "research/CURVED-SAMPLER-036-SPEC.md",
+        "research/CURVED-SAMPLER-036-FINDINGS.md",
+        "research/CURVED-SAMPLER-036-API.md",
+        "data/curved-sampler-v1.json",
+        "experiments/curved_sampler.py",
+        "results/CURVED-SAMPLER-036-SUMMARY.json",
+        "results/CURVED-SAMPLER-036-SITE-FIXTURES.json",
+        "research/SITE-CYLINDER-037-SPEC.md",
+        "research/SITE-CYLINDER-037-FINDINGS.md",
+        "results/SITE-CYLINDER-037-SUMMARY.json",
+        "results/SITE-CYLINDER-037-DEFAULT-MARGINS.csv",
+        "research/PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md"
+      ],
+      "safe_replay_argv": [
+        "python3",
+        "experiments/run_curved_sampler.py",
+        "--output",
+        "/tmp/curved-replay.json",
+        "--prefix",
+        "/tmp/curved-replay"
+      ],
+      "stop_condition": "No actual K4 parameter search without an independently justified apparatus/domain; keep nominal synthetic success, tolerance failure and actual copper/Site geometry distinct.",
+      "next_deliverable": "A controlled off-site replica or calibrated view must predict held-out non-K4features before cipher evaluation."
+    },
+    {
+      "id": "F-FRESH-20261031",
+      "hypotheses": [
+        "H-EVOLVING-ALPHABET",
+        "H-SUM-ROTATION",
+        "H-CIPHERTEXT-JOSEPHUS",
+        "H-CARRY-624"
+      ],
+      "blocker_type": "separate_frozen_protocol_and_overlap_validation",
+      "ready_for_new_K4_evaluation": false,
+      "missing": "060 is closed within its two fixed update rules. Each remaining family needs its own reviewed protocol, independent controls and target admission; route families also need target-induced route plus key-domain overlap clearance. This inventory cannot authorize evaluation.",
+      "available": [
+        "research/fresh-program-20261031/README.md",
+        "research/fresh-program-20261031/independent-review.md",
+        "research/fresh-program-20261031/stateful-models.md",
+        "research/fresh-program-20261031/structural-models.md",
+        "research/fresh-program-20261031/artifact-geared-accumulator.md",
+        "research/candidate-first-060/README.md",
+        "research/candidate-first-060/TARGET-AUDIT.json",
+        "research/EXTERNAL-PRIOR-ART.md"
+      ],
+      "safe_replay_argv": null
+    }
+  ],
+  "default_for_other_registered_entries": {
+    "blocker_type": "completed_scoped_domain_requires_new_independent_specification",
+    "ready_for_new_K4_evaluation": false,
+    "next_deliverable": "Use the canonical tested scope, check equivalence and source motivation, and freeze a materially different finite protocol before evaluation. Untested complement alone is not a recommended experiment."
+  },
+  "expected_register_entries": 67
+}

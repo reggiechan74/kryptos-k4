@@ -1,7 +1,7 @@
 """Reproducible human-review inventory/preflight; never launches cryptanalysis."""
 import argparse,collections,hashlib,json,re
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1];SPEC=ROOT/'research/specifications/FRONTIER-2026-10-23.json'
+ROOT=Path(__file__).resolve().parents[1];SPEC=ROOT/'research/specifications/FRONTIER-CURRENT-20261031-060.json'
 FIELDS=('Status','Mechanism','Evidence','Tested scope','Untested scope','Missing inputs','Next discriminating test','Dependencies','Results')
 
 def canonical(text):

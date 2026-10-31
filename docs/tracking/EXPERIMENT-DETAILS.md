@@ -2276,3 +2276,23 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 - Status/next action: scientific execution and audit complete; artifacts published. Q-03 closes only for this pilot. Q-04 and Q-05 not run because no production-search or surviving-candidate ranking bottleneck was established. No further model expanded, Site changed or paid submission made.
 
 Related files: [research/candidate-first-059/BENCHMARK-AUDIT.json](../../research/candidate-first-059/BENCHMARK-AUDIT.json), [research/candidate-first-059/PROTOCOL.md](../../research/candidate-first-059/PROTOCOL.md), [research/candidate-first-059/README.md](../../research/candidate-first-059/README.md), [research/candidate-first-059/TARGET-AUDIT.md](../../research/candidate-first-059/TARGET-AUDIT.md).
+
+## LOG-AAB5BBD277
+
+**CANDIDATE-FIRST-060 — two ciphertext-driven evolving-alphabet rules**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (date statement; not a run timestamp); original date statement: 2026-10-31 UTC; parent target approval 15:13:41 UTC, final independent audit 15:15:09 UTC. Measured durations are in retained resource receipts.
+
+Type: finite K4 model tests. Outcome: Exact bounded exclusion of 208 distinct evolving-alphabet functions; zero compatible K4 descriptions
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+- Date: 2026-10-31 UTC; parent target approval 15:13:41 UTC, final independent audit 15:15:09 UTC. Measured durations are in retained resource receipts.
+- Scope: AZ/KRYPTOS reference and initial mutable alphabets; exchange with 26 initial pointers, or fixed-reference-index prefix reversal with 26 constant offsets. Two fixed 104-configuration arms; all 208 functions proven distinct by 21,528 separating witnesses. No resets, free alphabets, additional layers or post-failure changes.
+- Result: Both independent target engines UNSAT_COMPLETE: zero compatible descriptions/plaintexts. Exact bounded exclusion only, not all evolving-alphabet ciphers. Canonical ciphertext SHA256 `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`.
+- Validation: 5,832 tiny forward/inverse cases and 6,561 complete tiny solution sets; 480/480 blind complete-set agreements, 416/416 unique plants, 0/64 matched random fits. Benchmark manifest SHA256 `6e825558692b49bcb1b41cc11cec86d217e56c174a0c2c28867fe7bf6dbc6439`. Two target runs together used 0.10484779 CPU seconds; final audit ran no extra target search.
+- Evidence: [Findings, frozen protocol, complete source/raw data, receipts and independent audits](../../research/candidate-first-060/README.md). Fresh public comparisons are preserved in the [proposal archive](../../research/fresh-program-20261031/README.md).
+- Method improvement: Retain independent tiny truth-set and pairwise separating-witness tooling. No production bottleneck was observed; no stochastic/neural replacement justified. Future changes require fresh controls, not reuse of revealed holdouts.
+- Status/next action: Execution and independent audit complete; artifacts published. Reconcile local/external ledgers and generated views, then select Q-07/study 061 for target-route/key-domain overlap checks and separate validation. At this closeout no 061 target run has occurred.
+
+Related files: [research/candidate-first-060/README.md](../../research/candidate-first-060/README.md), [research/fresh-program-20261031/README.md](../../research/fresh-program-20261031/README.md).

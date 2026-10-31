@@ -2,13 +2,13 @@
 
 This repository records an attempt to understand **K4, the final 97-letter section of Jim Sanborn’s Kryptos sculpture at CIA headquarters**. It contains reproducible experiments, source research and exact constraints, including failed ideas. **We do not have a verified solution or a recovered encryption method.**
 
-**Start with the [current hypothesis status and working to-do list](research/HYPOTHESES.md).** Completed tests and remaining gaps are tracked there. **Also check the [external hypothesis and prior-art register](research/EXTERNAL-PRIOR-ART.md)** for what other researchers have tried. [AGENTS.md](AGENTS.md) requires checking both before selection and reconciling them after every experiment. The latest audit has no qualified untried next test; Q-04/Q-05 remain unrun, not active proposals.
+**Start with the [current hypothesis status and working to-do list](research/HYPOTHESES.md).** Completed tests and remaining gaps are tracked there. **Also check the [external hypothesis and prior-art register](research/EXTERNAL-PRIOR-ART.md)** for what other researchers have tried. [AGENTS.md](AGENTS.md) requires checking both before selection and reconciling them after every experiment. The [fresh four-family program](research/fresh-program-20261031/README.md) follows the public survey. Study 060 has ruled out its two precisely bounded alphabet-update rules; next is sum-locked block rotation, subject to duplicate and validation gates. Q-04/Q-05 remain unrun.
 
 **The [eight requested investigations are complete to their stated scopes](research/EIGHT-ITEM-INVESTIGATION-SUMMARY.md).** Results include finite negatives, unresolved computation and evidence-blocked models. The final one-edit study supplies no correction or decryption.
 
 **New physical diagnostic:** [projection-ray concurrence](research/PROJECTION-CONCURRENCE-029-FINDINGS.md) is now synthetic-validated and preregistered for independent photo correspondences. Real-data fitting remains evidence-blocked; no measured monument result is claimed.
 
-**Published through study 059:** [051–059 results and current selection status](research/HYPOTHESES.md) are reconciled with the canonical experiment log. Historical validation counts belong to their recorded snapshots, not this documentation update.
+**Published through study 060:** [051–060 results and current selection status](research/HYPOTHESES.md) are reconciled with the canonical experiment log. Historical validation counts belong to their recorded snapshots, not this documentation update.
 
 **Published coverage review:** the [seven-family coverage matrix](research/SEVEN-FAMILY-REVIEW-046.md) tracks 34 subbranches across studies 038–046, with the [047 native-photo follow-through](research/PHOTO-NATIVE-047-FINDINGS.md) and [048–050 fixed-source, ENE-route and hand-grammar tests](research/048-050-PRIOR-COVERAGE.md). Narrow exclusions, non-identifiable fits, unresolved computation and evidence gaps remain separate. No K4 plaintext is identified. These scoped results are published; publication does not change the live Site.
 
@@ -21,7 +21,7 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 | If you want to… | Read |
 | --- | --- |
 | Review the seven requested families and remaining gaps | [Coverage matrix](research/SEVEN-FAMILY-REVIEW-046.md) and [structured branches](research/specifications/SEVEN-FAMILY-REVIEW-046.json) |
-| Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 63 stable family IDs, linked to exact coverage |
+| Understand what has and has not been tested | [Hypothesis tracker](docs/tracking/HYPOTHESES.md) — 67 stable family IDs, linked to exact coverage |
 | Find an experiment, its date, result, code and receipts | [Experiment tracker](docs/tracking/EXPERIMENTS.md) and [recorded run receipts](docs/tracking/RECEIPTS.md) |
 | Avoid repeating other researchers’ hypotheses | [External prior-art register](research/EXTERNAL-PRIOR-ART.md) — exact scopes, source pins, evidence quality and overlap with our tests |
 | Decide what to test next | [Canonical working to-do list](research/HYPOTHESES.md); [historical frontier and source gates](research/RESEARCH-FRONTIER-2026-10-23.md) remain reference snapshots |

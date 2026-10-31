@@ -5,7 +5,7 @@ import build_research_navigation as nav
 import check_documentation as links
 class NavigationTests(unittest.TestCase):
  def test_generated_tracker_matches_canonical_sources(self):
-  saved=json.loads((ROOT/'docs/tracking/tracker.json').read_text());self.assertEqual(nav.gather(),saved);self.assertEqual(len(saved['hypotheses']),63);self.assertEqual(len({h['id'] for h in saved['hypotheses']}),63)
+  saved=json.loads((ROOT/'docs/tracking/tracker.json').read_text());self.assertEqual(nav.gather(),saved);self.assertEqual(len(saved['hypotheses']),67);self.assertEqual(len({h['id'] for h in saved['hypotheses']}),67)
   for h in saved['hypotheses']:
    for key in ('Status','Mechanism','Evidence','Tested scope','Untested scope','Missing inputs','Next discriminating test','Dependencies','Results'):self.assertTrue(h[key])
   self.assertTrue(any('FOLD-SLIDE-020' in e['experiment_ids'] for e in saved['experiments']))

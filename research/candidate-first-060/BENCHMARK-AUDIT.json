@@ -1,0 +1,43 @@
+{
+  "status": "PASS_FOR_PARENT_TARGET_REVIEW",
+  "created_utc": "2026-10-31T15:11:50.042745+00:00",
+  "freeze_sha256": "6e825558692b49bcb1b41cc11cec86d217e56c174a0c2c28867fe7bf6dbc6439",
+  "seal_sha256": "8ee57cb7ac77c68fb15f2a298caecb7c22c3338d850fbe9937ca1a8bd9beafcb",
+  "frozen_files_verified": 26,
+  "independent_fixture_replay_exact": true,
+  "counts": {
+    "complete_exact_sets": 480,
+    "independent_reencryptions": 416,
+    "plants": 416,
+    "plants_included": 416,
+    "random_controls": 64,
+    "random_fits": 0
+  },
+  "descriptive_strata": {
+    "literal": {
+      "total": 208,
+      "unique": 208
+    },
+    "uniform": {
+      "total": 208,
+      "unique": 208
+    },
+    "random-control": {
+      "total": 64,
+      "empty": 64
+    }
+  },
+  "unique_plant_config_category_cells": 416,
+  "benchmark_engine_cpu_seconds": 18.509386509,
+  "max_conservative_worker_child_rss_bytes": 18751488,
+  "audit_cpu_seconds": 15.752058171,
+  "audit_max_rss_kib": 14724,
+  "target_evaluated": false,
+  "target_authorized": false,
+  "limitations": [
+    "Procedural synthetic blinding; historically public clues are known.",
+    "Literal-clue plants are random text outside the clues, not natural-language recovery tests.",
+    "No matching prior experiment found is a bounded survey conclusion, not global invention.",
+    "The two state-update rules and104 parameters each define the complete tested family, not arbitrary evolving alphabets."
+  ]
+}

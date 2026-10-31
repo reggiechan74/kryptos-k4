@@ -12,15 +12,15 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-2CFB8FEA59": {
-      "title": "CTRL-001 — exact K1–K3 controls",
+      "title": "CTRL-001 \u2014 exact K1\u2013K3 controls",
       "categories": [
         "known-answer validation"
       ],
-      "outcome": "Passed complete K1–K3 fixture comparisons",
+      "outcome": "Passed complete K1\u2013K3 fixture comparisons",
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-CB0BA28264": {
-      "title": "STRUCT-001 — exact structural and encoding constraints",
+      "title": "STRUCT-001 \u2014 exact structural and encoding constraints",
       "categories": [
         "analytical constraints"
       ],
@@ -28,7 +28,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-BC9CFA37FE": {
-      "title": "ROUTE-001, RUNKEY-001, TRIFID-001 — bounded model milestone",
+      "title": "ROUTE-001, RUNKEY-001, TRIFID-001 \u2014 bounded model milestone",
       "categories": [
         "finite K4 model tests"
       ],
@@ -36,7 +36,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-6B1E22F8E2": {
-      "title": "STAT-001 — published lag-pattern diagnostic and maximum correction",
+      "title": "STAT-001 \u2014 published lag-pattern diagnostic and maximum correction",
       "categories": [
         "statistical diagnostic"
       ],
@@ -44,7 +44,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-C5111807E6": {
-      "title": "AUDIT-001 — focused audit hardening and exact replay",
+      "title": "AUDIT-001 \u2014 focused audit hardening and exact replay",
       "categories": [
         "regression and replication"
       ],
@@ -52,7 +52,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-4901554D49": {
-      "title": "LANG-001 — historically grounded encoding audit",
+      "title": "LANG-001 \u2014 historically grounded encoding audit",
       "categories": [
         "representation validation",
         "analytical constraints"
@@ -61,7 +61,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-6409D7E925": {
-      "title": "MASK-AUTO-001 and MASK-FM-001 — two frozen masking pilots",
+      "title": "MASK-AUTO-001 and MASK-FM-001 \u2014 two frozen masking pilots",
       "categories": [
         "finite K4 model tests"
       ],
@@ -69,7 +69,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-39A9220FB0": {
-      "title": "WORD-SCRAMBLE-001 — user's combined hypothesis, fixed24 checks",
+      "title": "WORD-SCRAMBLE-001 \u2014 user's combined hypothesis, fixed24 checks",
       "categories": [
         "analytical constraints",
         "finite K4 model tests"
@@ -86,7 +86,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-0C1886FF72": {
-      "title": "PHONETIC-SUBSET-001 — small deterministic follow-up",
+      "title": "PHONETIC-SUBSET-001 \u2014 small deterministic follow-up",
       "categories": [
         "finite K4 model tests"
       ],
@@ -102,11 +102,11 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-5B01FDC62E": {
-      "title": "DIRECT-ENIGMA-001 — exact aligned reflector boundary",
+      "title": "DIRECT-ENIGMA-001 \u2014 exact aligned reflector boundary",
       "categories": [
         "analytical constraints"
       ],
-      "outcome": "Aligned fixed-point-free reflector model excluded by K→K at position 74",
+      "outcome": "Aligned fixed-point-free reflector model excluded by K\u2192K at position 74",
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-35BC648FE4": {
@@ -118,7 +118,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-1427CCBA44": {
-      "title": "Clock-reset preparation — no new K4 run",
+      "title": "Clock-reset preparation \u2014 no new K4 run",
       "categories": [
         "protocol preparation",
         "synthetic validation"
@@ -127,7 +127,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-5419FFCD4F": {
-      "title": "CLOCK-BOUNDARY-REG-001 — verification of known deductions",
+      "title": "CLOCK-BOUNDARY-REG-001 \u2014 verification of known deductions",
       "categories": [
         "analytical constraints",
         "replication"
@@ -144,7 +144,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-8EA2DFFFD5": {
-      "title": "Pinned Barney/Scott prior-art review — revision 2026-10-18",
+      "title": "Pinned Barney/Scott prior-art review \u2014 revision 2026-10-18",
       "categories": [
         "prior-art review"
       ],
@@ -152,7 +152,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-E7834A43AD": {
-      "title": "AUTOKEY-CONSTRAINT-001 — complete declared lag audit",
+      "title": "AUTOKEY-CONSTRAINT-001 \u2014 complete declared lag audit",
       "categories": [
         "exact K4 constraints"
       ],
@@ -160,7 +160,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-87EE92917B": {
-      "title": "GROMARK-ALPHABET-001 — one pinned published tuple",
+      "title": "GROMARK-ALPHABET-001 \u2014 one pinned published tuple",
       "categories": [
         "exact K4 constraints"
       ],
@@ -168,7 +168,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-CAC907C2B6": {
-      "title": "Historical-clock correction — documentation only, 2026-10-18",
+      "title": "Historical-clock correction \u2014 documentation only, 2026-10-18",
       "categories": [
         "source documentation"
       ],
@@ -176,7 +176,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-CDF6EFF148": {
-      "title": "Historical-clock source-note completion — documentation only",
+      "title": "Historical-clock source-note completion \u2014 documentation only",
       "categories": [
         "source review"
       ],
@@ -184,7 +184,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-D7F30249FB": {
-      "title": "GROMARK-IDENTIFIABILITY-001 — 73 fixed-model difference queries",
+      "title": "GROMARK-IDENTIFIABILITY-001 \u2014 73 fixed-model difference queries",
       "categories": [
         "identifiability analysis"
       ],
@@ -192,7 +192,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-065137A77A": {
-      "title": "SILK-PERIODIC-001 — 2026-10-18",
+      "title": "SILK-PERIODIC-001 \u2014 2026-10-18",
       "categories": [
         "analytical constraints",
         "replication"
@@ -201,7 +201,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-38F65B1FC1": {
-      "title": "DYNAMIC-KEY-001 — stateful key continuation, 2026-10-22",
+      "title": "DYNAMIC-KEY-001 \u2014 stateful key continuation, 2026-10-22",
       "categories": [
         "finite K4 model tests",
         "null calibration"
@@ -210,7 +210,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-830CBACD57": {
-      "title": "ASYMMETRIC-PRIMER-001 and PLAINTEXT-STEP-001 — 2026-10-22",
+      "title": "ASYMMETRIC-PRIMER-001 and PLAINTEXT-STEP-001 \u2014 2026-10-22",
       "categories": [
         "finite K4 model tests",
         "null calibration"
@@ -219,7 +219,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-4836570143": {
-      "title": "Documentation-only proposal — 2026-10-22",
+      "title": "Documentation-only proposal \u2014 2026-10-22",
       "categories": [
         "documentation and proposal"
       ],
@@ -227,7 +227,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-6CF7C1F4A2": {
-      "title": "ASYMMETRIC-FEEDBACK-001 / SPLIT-COORDINATE-001 — completed continuation",
+      "title": "ASYMMETRIC-FEEDBACK-001 / SPLIT-COORDINATE-001 \u2014 completed continuation",
       "categories": [
         "finite K4 model tests",
         "null calibration"
@@ -236,7 +236,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-CCE99A2060": {
-      "title": "K3-CLOCK-ROUTES-001 — 22 October 2026, 19:32 UTC",
+      "title": "K3-CLOCK-ROUTES-001 \u2014 22 October 2026, 19:32 UTC",
       "categories": [
         "exact K4 constraints"
       ],
@@ -244,7 +244,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-146AC47B80": {
-      "title": "OCCUPIED-CELL-ROUTES-001 — 22 October 2026, 19:39 UTC",
+      "title": "OCCUPIED-CELL-ROUTES-001 \u2014 22 October 2026, 19:39 UTC",
       "categories": [
         "finite K4 model tests"
       ],
@@ -252,7 +252,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-87A1CDB9B5": {
-      "title": "STRATEGY-FOLLOWUP-001 — 22 October 2026",
+      "title": "STRATEGY-FOLLOWUP-001 \u2014 22 October 2026",
       "categories": [
         "finite K4 tests",
         "source replication",
@@ -262,7 +262,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-1282C9929E": {
-      "title": "SINGLE-BOUNDARY-RESET-001 — 22 October 2026",
+      "title": "SINGLE-BOUNDARY-RESET-001 \u2014 22 October 2026",
       "categories": [
         "exact K4 constraints",
         "finite model tests"
@@ -271,15 +271,15 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-50D6A15662": {
-      "title": "AUTONOMOUS-RECURRENCE-001 — 22 October 2026",
+      "title": "AUTONOMOUS-RECURRENCE-001 \u2014 22 October 2026",
       "categories": [
         "analytical constraints"
       ],
-      "outcome": "All 20 order-2–6 structures fail first-crib parity equations",
+      "outcome": "All 20 order-2\u20136 structures fail first-crib parity equations",
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-632AA33E27": {
-      "title": "ALPHABET-GEOMETRY-001 and GEOMETRIC-PILOT-001 — 22 October 2026",
+      "title": "ALPHABET-GEOMETRY-001 and GEOMETRIC-PILOT-001 \u2014 22 October 2026",
       "categories": [
         "representation validation",
         "finite K4 model tests"
@@ -288,7 +288,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-88B9863D50": {
-      "title": "GEOMETRIC-FOLLOWUP-001 — independent replay and numeric security audit",
+      "title": "GEOMETRIC-FOLLOWUP-001 \u2014 independent replay and numeric security audit",
       "categories": [
         "replication",
         "encoding security audit"
@@ -297,7 +297,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-2CA57EE155": {
-      "title": "GEOMETRIC-PERIODIC-NULL-001 — requested first-crib chance calibration",
+      "title": "GEOMETRIC-PERIODIC-NULL-001 \u2014 requested first-crib chance calibration",
       "categories": [
         "statistical calibration"
       ],
@@ -305,7 +305,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-C02D304144": {
-      "title": "K4-FROZEN-GLYPH-AFFINE-FEEDBACK-001 — arbitrary-base relaxation",
+      "title": "K4-FROZEN-GLYPH-AFFINE-FEEDBACK-001 \u2014 arbitrary-base relaxation",
       "categories": [
         "analytical constraints"
       ],
@@ -313,7 +313,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-422AF7CAEC": {
-      "title": "IPA-PREPROCESSING-001 — source-fixed phonetic preprocessing",
+      "title": "IPA-PREPROCESSING-001 \u2014 source-fixed phonetic preprocessing",
       "categories": [
         "source normalization",
         "exact K4 constraints"
@@ -322,7 +322,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-F7AEB85D53": {
-      "title": "AFFINE-DIGRAPH-PARITY-001 — existing analytical boundary recorded",
+      "title": "AFFINE-DIGRAPH-PARITY-001 \u2014 existing analytical boundary recorded",
       "categories": [
         "analytical constraints",
         "replication"
@@ -340,7 +340,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-E32CDBB0CC": {
-      "title": "REGISTRY-20261023 — current hypothesis scope and evidence gates",
+      "title": "REGISTRY-20261023 \u2014 current hypothesis scope and evidence gates",
       "categories": [
         "documentation and scope audit"
       ],
@@ -348,7 +348,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-81FEBCA5D6": {
-      "title": "FACE-ROW-001 / LAMP-STREAM-001 — source-gated conditional protocols",
+      "title": "FACE-ROW-001 / LAMP-STREAM-001 \u2014 source-gated conditional protocols",
       "categories": [
         "source review",
         "protocol preparation"
@@ -357,7 +357,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-C08A348378": {
-      "title": "FACE-ROW-001 / LAMP-STREAM-001 — completed finite batch",
+      "title": "FACE-ROW-001 / LAMP-STREAM-001 \u2014 completed finite batch",
       "categories": [
         "exact K4 constraints",
         "finite model tests"
@@ -366,7 +366,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-030EF284F5": {
-      "title": "GREEK-PHONETIC-001 / SIGABA-INSPIRED-001 — completed candidate batch",
+      "title": "GREEK-PHONETIC-001 / SIGABA-INSPIRED-001 \u2014 completed candidate batch",
       "categories": [
         "finite K4 model tests"
       ],
@@ -374,7 +374,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-C8DE9E7E6E": {
-      "title": "23 October 2026 — historical SIGABA and exclusion-scope audit",
+      "title": "23 October 2026 \u2014 historical SIGABA and exclusion-scope audit",
       "categories": [
         "finite K4 tests",
         "analytical constraints",
@@ -384,7 +384,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-02A279928A": {
-      "title": "23 October 2026 — exact full cipher-state inference and physical sources",
+      "title": "23 October 2026 \u2014 exact full cipher-state inference and physical sources",
       "categories": [
         "exact K4 inference",
         "physical source review"
@@ -393,7 +393,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-B3E944F67A": {
-      "title": "23 October 2026 — joint-controller boundary and exact non-rotor pivot",
+      "title": "23 October 2026 \u2014 joint-controller boundary and exact non-rotor pivot",
       "categories": [
         "synthetic feasibility",
         "exact K4 constraints"
@@ -402,7 +402,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-A614466742": {
-      "title": "23 October 2026 — exact wrapper audit, three-round ambiguity and tree-state support",
+      "title": "23 October 2026 \u2014 exact wrapper audit, three-round ambiguity and tree-state support",
       "categories": [
         "exact K4 constraints",
         "identifiability analysis"
@@ -411,7 +411,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-E76967DAFB": {
-      "title": "23 October 2026 — arbitrary-key Fractionated Morse constraints",
+      "title": "23 October 2026 \u2014 arbitrary-key Fractionated Morse constraints",
       "categories": [
         "exact K4 constraints"
       ],
@@ -419,7 +419,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-57CEE0C89F": {
-      "title": "23 October 2026 — Wheatstone fixed-transition invariant",
+      "title": "23 October 2026 \u2014 Wheatstone fixed-transition invariant",
       "categories": [
         "analytical constraints"
       ],
@@ -427,7 +427,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-42E6620EB8": {
-      "title": "23 October 2026 — disciplined frontier review, no new K4 search",
+      "title": "23 October 2026 \u2014 disciplined frontier review, no new K4 search",
       "categories": [
         "documentation and frontier review"
       ],
@@ -435,7 +435,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-F2014ABCF5": {
-      "title": "23 October 2026 — complete coupled synthetic SIGABA inference",
+      "title": "23 October 2026 \u2014 complete coupled synthetic SIGABA inference",
       "categories": [
         "synthetic solver benchmark"
       ],
@@ -443,7 +443,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-9CB9A54AA7": {
-      "title": "SIGABA-TORUS-013 — exact predicate reuse, unchanged coupled domain",
+      "title": "SIGABA-TORUS-013 \u2014 exact predicate reuse, unchanged coupled domain",
       "categories": [
         "synthetic solver benchmark"
       ],
@@ -451,7 +451,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-CA734C7E5B": {
-      "title": "CSP889-REAL-014 — authentic adapter, failed synthetic resource admission",
+      "title": "CSP889-REAL-014 \u2014 authentic adapter, failed synthetic resource admission",
       "categories": [
         "synthetic solver benchmark",
         "known-answer validation"
@@ -460,7 +460,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-A10D7AEA61": {
-      "title": "CSP889-SPARSE-015 — exact sparse ownership and reserved cache",
+      "title": "CSP889-SPARSE-015 \u2014 exact sparse ownership and reserved cache",
       "categories": [
         "synthetic solver benchmark"
       ],
@@ -468,7 +468,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-BA42F28BCF": {
-      "title": "CSP889-DOMAIN-016 — profiler-supported immutable domain keys",
+      "title": "CSP889-DOMAIN-016 \u2014 profiler-supported immutable domain keys",
       "categories": [
         "synthetic solver benchmark"
       ],
@@ -476,7 +476,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-25534E2EC4": {
-      "title": "CSP889-ANCHOR-017 — exact full-torus observation anchoring",
+      "title": "CSP889-ANCHOR-017 \u2014 exact full-torus observation anchoring",
       "categories": [
         "synthetic solver benchmark"
       ],
@@ -484,7 +484,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-FA7E198169": {
-      "title": "CSP889-COMPACT-018 — exact storage, local-only measured controller progress",
+      "title": "CSP889-COMPACT-018 \u2014 exact storage, local-only measured controller progress",
       "categories": [
         "synthetic solver benchmark"
       ],
@@ -492,7 +492,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-8768DC3A4D": {
-      "title": "CSP889-FILTER-019 — supplied-anchor necessary filter, local only",
+      "title": "CSP889-FILTER-019 \u2014 supplied-anchor necessary filter, local only",
       "categories": [
         "synthetic filter diagnostic"
       ],
@@ -500,7 +500,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-470EDB8058": {
-      "title": "FOLD-SLIDE-020 — anchored progressive monument overlay",
+      "title": "FOLD-SLIDE-020 \u2014 anchored progressive monument overlay",
       "categories": [
         "inscription-layout comparison",
         "null calibration"
@@ -509,7 +509,7 @@
       "basis": "Reviewed against the retained canonical log entry and its linked scope/results; no new run inferred."
     },
     "LOG-5BA1042A0F": {
-      "title": "SITE-OVERLAY-015 — live Site source handoff and static validation",
+      "title": "SITE-OVERLAY-015 \u2014 live Site source handoff and static validation",
       "categories": [
         "Site source archive",
         "static data validation"
@@ -518,7 +518,7 @@
       "basis": "New canonical integration entry and original source handoff, with local static checks and publication attribution kept separate."
     },
     "LOG-9B64FD9FE3": {
-      "title": "FOLD-SLIDE-2D-001 — item 1 systematic row-plus-column overlay",
+      "title": "FOLD-SLIDE-2D-001 \u2014 item 1 systematic row-plus-column overlay",
       "categories": [
         "inscription-layout comparison",
         "whole-search calibration"
@@ -527,7 +527,7 @@
       "basis": "Completed original run, immutable UTC manifest, full position tables and independently checked cell/pixel results. Item 1 only."
     },
     "LOG-B53BA1797D": {
-      "title": "PHYSICAL-SOLAR-002 — item 2 conditional sunlight, lamp geometry and evidence gates",
+      "title": "PHYSICAL-SOLAR-002 \u2014 item 2 conditional sunlight, lamp geometry and evidence gates",
       "categories": [
         "analytical constraints",
         "source research"
@@ -536,7 +536,7 @@
       "basis": "Reviewed against original timestamped snapshot, supplied evidence and separate local replay; no cipher search or measured installation claimed."
     },
     "LOG-F67DC5B966": {
-      "title": "WORLD-CLOCK-003 — item 3 partial historical ring registration and phase identifiability",
+      "title": "WORLD-CLOCK-003 \u2014 item 3 partial historical ring registration and phase identifiability",
       "categories": [
         "analytical constraints",
         "source research"
@@ -545,7 +545,7 @@
       "basis": "Reviewed original finite-domain receipt and unchanged source input; common-inventory continuity is conditional, not a historical result."
     },
     "LOG-8675DFA0B4": {
-      "title": "CSP889-COUPLED-024 — item 4 unknown-anchor collector inference and exact byte masks",
+      "title": "CSP889-COUPLED-024 \u2014 item 4 unknown-anchor collector inference and exact byte masks",
       "categories": [
         "synthetic solver benchmark",
         "analytical constraints"
@@ -554,7 +554,7 @@
       "basis": "Reviewed original and corrective source-pinned process receipts; historical prefix overlap, watchdog unknowns and simulator limits retained."
     },
     "LOG-9A9514387C": {
-      "title": "LAMP-GREEK-025 — item 5 ordinal lamp labels and complete Greek codecs",
+      "title": "LAMP-GREEK-025 \u2014 item 5 ordinal lamp labels and complete Greek codecs",
       "categories": [
         "finite K4 model tests",
         "analytical constraints",
@@ -564,7 +564,7 @@
       "basis": "Reviewed original UTC receipts, complete direct-selector audit and exact first-crib/support certificates; no broad Greek or clock rejection."
     },
     "LOG-8B35949B43": {
-      "title": "TREE-GEOMETRY-IPA-026 — item 6 dynamic topology, full-state feedback and pronunciation keys",
+      "title": "TREE-GEOMETRY-IPA-026 \u2014 item 6 dynamic topology, full-state feedback and pronunciation keys",
       "categories": [
         "finite K4 model tests",
         "synthetic validation",
@@ -574,7 +574,7 @@
       "basis": "Reviewed original completed/incomplete manifests, full candidate records and independent direct replay; no broad exclusions or historical UTF-8 claim."
     },
     "LOG-3AA105642E": {
-      "title": "STRIP-SOURCE-GATES-027 — item 7 strip boundaries, historical QA and five source gates",
+      "title": "STRIP-SOURCE-GATES-027 \u2014 item 7 strip boundaries, historical QA and five source gates",
       "categories": [
         "analytical constraints",
         "historical source validation",
@@ -584,7 +584,7 @@
       "basis": "Reviewed source-conditioned proof, independent primary-page check, source QA and admission failures; no full historical inventory or repaired transcription claim."
     },
     "LOG-306DBE2114": {
-      "title": "ONE-EDIT-028 — item 8 complete counterfactual edit robustness",
+      "title": "ONE-EDIT-028 \u2014 item 8 complete counterfactual edit robustness",
       "categories": [
         "finite K4 model tests",
         "exact ambiguity analysis",
@@ -595,7 +595,7 @@
       "basis": "Reviewed all5071 raw channels, explicit anchor admission, complete model masks and post-audit disjoint union; no canonical correction or broad exclusion."
     },
     "LOG-75BA990166": {
-      "title": "PROJECTION-CONCURRENCE-029 — synthetic image-ray validation and physical-data gate",
+      "title": "PROJECTION-CONCURRENCE-029 \u2014 synthetic image-ray validation and physical-data gate",
       "categories": [
         "synthetic geometric validation",
         "evidence-gated physical diagnostic"
@@ -604,7 +604,7 @@
       "basis": "Reviewed preregistration, complete deterministic fixtures, independent scalar tests and explicit line-only/nonidentifiability limits; no K4 evaluation"
     },
     "LOG-3F1B540764": {
-      "title": "SITE-PROJECTION-030 — version16 source archive and publication provenance",
+      "title": "SITE-PROJECTION-030 \u2014 version16 source archive and publication provenance",
       "categories": [
         "source archive integrity",
         "publication provenance"
@@ -613,7 +613,7 @@
       "basis": "Reviewed original archive/patch/Git identities, static research payload equality and separate native deployment/105-test attribution; no runtime or physical-result claim"
     },
     "LOG-04D93D0E34": {
-      "title": "SITE-PROJECTION-031 — corrected version 17 source archive",
+      "title": "SITE-PROJECTION-031 \u2014 corrected version 17 source archive",
       "categories": [
         "source archive integrity",
         "publication provenance"
@@ -622,7 +622,7 @@
       "basis": "Reviewed exact seven-file delta/full-feature reconstruction, source Git blobs, unchanged research payloads, separate owner 107-test attribution and parent rendered QA"
     },
     "LOG-3ED35BF8BC": {
-      "title": "SPELLING-CORRECTION-032 — deliberate spelling source-rule constraints",
+      "title": "SPELLING-CORRECTION-032 \u2014 deliberate spelling source-rule constraints",
       "categories": [
         "source consistency constraints",
         "exact edit and ambiguity analysis",
@@ -632,7 +632,7 @@
       "basis": "Reviewed intention provenance, all minimum edit scripts/unchanged source letters, exact affine/function/keyboard constraints and independent tiny/planted controls; no K4 search or publication"
     },
     "LOG-40A846EF5A": {
-      "title": "COVER-EXTRACTION-033 — post-decryption word-cover and fixed-letter constraints",
+      "title": "COVER-EXTRACTION-033 \u2014 post-decryption word-cover and fixed-letter constraints",
       "categories": [
         "exact conditional cover constraints",
         "synthetic reversible controls"
@@ -641,7 +641,7 @@
       "basis": "Reviewed frozen codebooks/complete97-letter constraints, exact weighted counts, corpus completeness and independent/synthetic checks; no independently constrained outer cipher or actual K4 decryption"
     },
     "LOG-80D6868D4C": {
-      "title": "COVER-PHRASE-034 — bounded Brown short-phrase feasibility and capacity controls",
+      "title": "COVER-PHRASE-034 \u2014 bounded Brown short-phrase feasibility and capacity controls",
       "categories": [
         "finite corpus feasibility query",
         "synthetic pipeline controls",
@@ -651,7 +651,7 @@
       "basis": "Reviewed frozen codebooks/complete97-letter constraints, exact weighted counts, corpus completeness and independent/synthetic checks; no independently constrained outer cipher or actual K4 decryption"
     },
     "LOG-781FB4F543": {
-      "title": "PROSE-COVER-035 — length-free ordinary lexicons and complete minimum-free autokey domain",
+      "title": "PROSE-COVER-035 \u2014 length-free ordinary lexicons and complete minimum-free autokey domain",
       "categories": [
         "exact lexical constraint analysis",
         "bounded actual K4 cipher search",
@@ -662,7 +662,7 @@
       "basis": "Complete105456 actual descriptions,exact boundary-free distributions,full independent set replay,6recovery plants and31whole-family conditional nulls; lexical admission is not English completeness"
     },
     "LOG-B430CF3900": {
-      "title": "CURVED-SAMPLER-036 — ideal mirror feasibility, sensitivity and source gate",
+      "title": "CURVED-SAMPLER-036 \u2014 ideal mirror feasibility, sensitivity and source gate",
       "categories": [
         "synthetic optical feasibility",
         "finite sensitivity benchmark",
@@ -673,7 +673,7 @@
       "basis": "Full frozen geometry/ray/cell replay, four-key held-out synthetic recovery, complete perturbation/pupil outputs and explicitly distinct Site contract"
     },
     "LOG-2F26BB26A8": {
-      "title": "SITE-CYLINDER-037 — exact vertical Site replay and physical-scale sensitivity",
+      "title": "SITE-CYLINDER-037 \u2014 exact vertical Site replay and physical-scale sensitivity",
       "categories": [
         "exact source-model replay",
         "finite sensitivity benchmark",
@@ -684,7 +684,7 @@
       "basis": "Pinned source read-only numeric snapshot, independent71198sample replay,729neighbors,all3564sensitivity outputs,full tolerant cross-version comparison and whole-process streaming measurement"
     },
     "LOG-958B11958D": {
-      "title": "COVER-SELECTOR-038 — boundary-free selector follow-through",
+      "title": "COVER-SELECTOR-038 \u2014 boundary-free selector follow-through",
       "categories": [
         "analytical constraints",
         "synthetic validation"
@@ -693,7 +693,7 @@
       "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
     },
     "LOG-0BD1D35E69": {
-      "title": "CONTEXT-SPELLING-039 — reversible context prediction limits",
+      "title": "CONTEXT-SPELLING-039 \u2014 reversible context prediction limits",
       "categories": [
         "analytical constraints",
         "synthetic validation"
@@ -702,7 +702,7 @@
       "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
     },
     "LOG-EECF3F88C3": {
-      "title": "PHYSICAL-IDENTIFIABILITY-040 — source ambiguity and scale",
+      "title": "PHYSICAL-IDENTIFIABILITY-040 \u2014 source ambiguity and scale",
       "categories": [
         "analytical constraints",
         "synthetic validation"
@@ -711,7 +711,7 @@
       "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
     },
     "LOG-B657ACC6D6": {
-      "title": "SIGABA-SUPPORT-SIGNATURE-041 — exact memoization without scaling gain",
+      "title": "SIGABA-SUPPORT-SIGNATURE-041 \u2014 exact memoization without scaling gain",
       "categories": [
         "synthetic solver engineering",
         "resource benchmark"
@@ -720,7 +720,7 @@
       "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
     },
     "LOG-4AEC06FD9C": {
-      "title": "CLOCK-CIVIL-042 — whole-year shared-phase interpretation",
+      "title": "CLOCK-CIVIL-042 \u2014 whole-year shared-phase interpretation",
       "categories": [
         "analytical constraints",
         "source research"
@@ -729,7 +729,7 @@
       "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
     },
     "LOG-7FA3D57DFA": {
-      "title": "COMPRESS-TRANSPORT-043 — legacy compression with fixed transports",
+      "title": "COMPRESS-TRANSPORT-043 \u2014 legacy compression with fixed transports",
       "categories": [
         "finite K4 model tests",
         "representation validation"
@@ -738,7 +738,7 @@
       "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
     },
     "LOG-0EBDC03044": {
-      "title": "MINIMUM-REPAIR-044 — exact multi-substitution distances",
+      "title": "MINIMUM-REPAIR-044 \u2014 exact multi-substitution distances",
       "categories": [
         "analytical constraints",
         "finite K4 model tests"
@@ -747,7 +747,7 @@
       "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
     },
     "LOG-FC810AFBC4": {
-      "title": "COVER-LANGUAGE-045 — non-veto language calibration and source-rule review",
+      "title": "COVER-LANGUAGE-045 \u2014 non-veto language calibration and source-rule review",
       "categories": [
         "statistical diagnostic",
         "synthetic validation"
@@ -756,7 +756,7 @@
       "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
     },
     "LOG-7D6CAE81B9": {
-      "title": "REVIEW-CONTROLS-046 — explicit independent review corrections",
+      "title": "REVIEW-CONTROLS-046 \u2014 explicit independent review corrections",
       "categories": [
         "regression and replication"
       ],
@@ -764,7 +764,7 @@
       "basis": "Explicitly reviewed against the linked frozen protocol, complete receipt and surviving/missing-input limits; not title-derived classification."
     },
     "LOG-6DA0BC1C60": {
-      "title": "PHOTO-NATIVE-047 — bounded native LOC correspondence admission",
+      "title": "PHOTO-NATIVE-047 \u2014 bounded native LOC correspondence admission",
       "categories": [
         "source research",
         "physical evidence admission"
@@ -773,7 +773,7 @@
       "basis": "Reviewed frozen protocol, actual inspected native crops and rejected observation boxes; not a metadata-only blockage or broad optical exclusion."
     },
     "LOG-17280EC9B8": {
-      "title": "CANDIDATE-FIRST-048 — exact source-key preflight before message generation",
+      "title": "CANDIDATE-FIRST-048 \u2014 exact source-key preflight before message generation",
       "categories": [
         "analytical constraints",
         "synthetic validation"
@@ -782,25 +782,25 @@
       "basis": "Explicit review of audited frozen finite model, complete original/replay receipts, positive/reference controls, whole-family nulls and unexcluded scope; not title-derived."
     },
     "LOG-9F394BCB00": {
-      "title": "ENE-ROUTE-049 — literal and digital ENE with fixed arithmetic",
+      "title": "ENE-ROUTE-049 \u2014 literal and digital ENE with fixed arithmetic",
       "categories": [
         "finite K4 model tests",
         "synthetic validation"
       ],
-      "outcome": "56,454descriptions/34,569routes/656,811fixed cases; zero24letter hits; actual/null maxima8versus7–8",
+      "outcome": "56,454descriptions/34,569routes/656,811fixed cases; zero24letter hits; actual/null maxima8versus7\u20138",
       "basis": "Explicit review of audited frozen finite model, complete original/replay receipts, positive/reference controls, whole-family nulls and unexcluded scope; not title-derived."
     },
     "LOG-A9DC171AB1": {
-      "title": "HAND-GRAMMAR-050 — complete fixed-key hand-operation grammar",
+      "title": "HAND-GRAMMAR-050 \u2014 complete fixed-key hand-operation grammar",
       "categories": [
         "finite K4 model tests",
         "synthetic validation"
       ],
-      "outcome": "56,355depth0–3descriptions/27,323operators; no24letter hit; maximum7versus null6–8; keys/widths fixed",
+      "outcome": "56,355depth0\u20133descriptions/27,323operators; no24letter hit; maximum7versus null6\u20138; keys/widths fixed",
       "basis": "Explicit review of audited frozen finite model, complete original/replay receipts, positive/reference controls, whole-family nulls and unexcluded scope; not title-derived."
     },
     "LOG-74E9EAFB2D": {
-      "title": "CONTROL-CORRECTION-048-049 — actual lookup, returned witnesses and prior profiles",
+      "title": "CONTROL-CORRECTION-048-049 \u2014 actual lookup, returned witnesses and prior profiles",
       "categories": [
         "regression and replication",
         "synthetic validation"
@@ -809,7 +809,7 @@
       "basis": "Independent audit correction to existing models, not new cipher coverage; original and failed-control receipts retained with separate rerun UTCs."
     },
     "LOG-3EB29B40B9": {
-      "title": "CANDIDATE-FIRST-051 — frozen 32-message structural-key pilot",
+      "title": "CANDIDATE-FIRST-051 \u2014 frozen 32-message structural-key pilot",
       "categories": [
         "fixed-bank structural-key test"
       ],
@@ -817,7 +817,7 @@
       "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
     },
     "LOG-046EB84DEA": {
-      "title": "CANDIDATE-FIRST-052 — separately authorized 1024-message structural-key expansion",
+      "title": "CANDIDATE-FIRST-052 \u2014 separately authorized 1024-message structural-key expansion",
       "categories": [
         "fixed-bank structural-key test"
       ],
@@ -825,7 +825,7 @@
       "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
     },
     "LOG-C81CE17AF8": {
-      "title": "CANDIDATE-FIRST-053 — fixed-bank ordinary-language running-key test",
+      "title": "CANDIDATE-FIRST-053 \u2014 fixed-bank ordinary-language running-key test",
       "categories": [
         "fixed-bank language-key test"
       ],
@@ -833,7 +833,7 @@
       "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
     },
     "LOG-F07A79943C": {
-      "title": "CANDIDATE-FIRST-054 — exact crib-derived running-key source lookup",
+      "title": "CANDIDATE-FIRST-054 \u2014 exact crib-derived running-key source lookup",
       "categories": [
         "exact corpus lookup"
       ],
@@ -841,7 +841,7 @@
       "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
     },
     "LOG-7D7164144D": {
-      "title": "CANDIDATE-FIRST-055 — calibrated forced-fragment English-key screen",
+      "title": "CANDIDATE-FIRST-055 \u2014 calibrated forced-fragment English-key screen",
       "categories": [
         "calibrated language feasibility screen"
       ],
@@ -849,16 +849,16 @@
       "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
     },
     "LOG-3E5D4576A7": {
-      "title": "CANDIDATE-FIRST-056 — joint periodic-key and free-column-order constraints",
+      "title": "CANDIDATE-FIRST-056 \u2014 joint periodic-key and free-column-order constraints",
       "categories": [
         "exact composite constraints",
         "blind solver benchmark"
       ],
-      "outcome": "Complete exclusion only of frozen AZ Vigenère→ragged-columnar family; corrected benchmark/audits pass.",
+      "outcome": "Complete exclusion only of frozen AZ Vigen\u00e8re\u2192ragged-columnar family; corrected benchmark/audits pass.",
       "basis": "Reviewed against the published original report, target results and independent audit; bounded scientific outcome and publication status are distinct. No new run inferred."
     },
     "LOG-9B7DC09EA1": {
-      "title": "CANDIDATE-FIRST-057 — alphabet-role and Beaufort free-column extensions",
+      "title": "CANDIDATE-FIRST-057 \u2014 alphabet-role and Beaufort free-column extensions",
       "categories": [
         "exact composite constraints",
         "blind solver benchmark"
@@ -867,7 +867,7 @@
       "basis": "Reviewed original frozen protocol, benchmark receipts and independent target audit; baseline and aliases distinguished, remaining reverse/feedback models outside scope."
     },
     "LOG-BF73B9405D": {
-      "title": "CANDIDATE-FIRST-058 — reverse-stage columnar and periodic-key cylinders",
+      "title": "CANDIDATE-FIRST-058 \u2014 reverse-stage columnar and periodic-key cylinders",
       "categories": [
         "exact composite constraints",
         "blind feasibility and ambiguity benchmark"
@@ -876,13 +876,21 @@
       "basis": "Reviewed frozen protocol, retained pre-blind gate correction, complete cylinder/ambiguity benchmark and independent target audit. No unique-recovery gate or broad family claim."
     },
     "LOG-E7501B2A7B": {
-      "title": "CANDIDATE-FIRST-059 — short-primer feedback before free column order",
+      "title": "CANDIDATE-FIRST-059 \u2014 short-primer feedback before free column order",
       "categories": [
         "exact feedback composite constraints",
         "blind feasibility and ambiguity benchmark"
       ],
       "outcome": "Exact bounded +1-feedback/columnar exclusion; 600 blind checks and independent audit pass. Subtractive feedback untested; conditional method pilots not run.",
       "basis": "Reviewed frozen equations, symbolic-primer proof, full independent cylinder/projection benchmark and empty target audit. No distinct-operator count or broad autokey exclusion claimed."
+    },
+    "LOG-AAB5BBD277": {
+      "title": "CANDIDATE-FIRST-060 \u2014 two ciphertext-driven evolving-alphabet rules",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "Exact bounded exclusion of 208 distinct evolving-alphabet functions; zero compatible K4 descriptions",
+      "basis": "Reviewed against frozen scope, complete-set blind benchmark and final independent target audit; broader evolving alphabets remain untested."
     }
   }
 }

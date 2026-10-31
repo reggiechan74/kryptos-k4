@@ -1,6 +1,6 @@
 # Experiment log
 
-**Current tracking:** [working to-do list and hypothesis status](HYPOTHESES.md). Reconciled through study 056 on 31 October 2026. Studies 051–056 below are completed and published. Historical entries saying “local-only” or “no push” describe their original run stage, not current repository publication; original receipts and chronology remain unchanged.
+**Current tracking:** [working to-do list and hypothesis status](HYPOTHESES.md). Reconciled through study 060 on 31 October 2026. Studies 051–060 are completed and published. Historical entries saying “local-only” or “no push” describe their original run stage, not current repository publication; original receipts and chronology remain unchanged.
 
 | ID | Purpose | Command | Scope | Result |
 | --- | --- | --- | --- | --- |
@@ -1308,3 +1308,13 @@ Two frozen panels retain 2/3 anchors and 4 controllers each: 20 pairs, 12 filter
 - Result: Completed exact bounded exclusion; both target engines return zero compatible primer cylinders/UNSAT_COMPLETE. Independent reference exhausts 52,346,880 descriptive trials. Blind feasibility/ambiguity benchmark: 600 complete independent cylinder/projection agreements, 544 plants, all 272 ciphertext-feedback plants correctly MULTIPLE, 0/56 random fits. Unique recovery descriptive only: plaintext-feedback primary plants 127/128 uniform and 128/128 literal; all ciphertext-feedback primers remain free.
 - Evidence: [report/archive](candidate-first-059/README.md), [frozen protocol](candidate-first-059/PROTOCOL.md), [independent benchmark audit](candidate-first-059/BENCHMARK-AUDIT.json), [target audit](candidate-first-059/TARGET-AUDIT.md).
 - Status/next action: scientific execution and audit complete; artifacts published. Q-03 closes only for this pilot. Q-04 and Q-05 not run because no production-search or surviving-candidate ranking bottleneck was established. No further model expanded, Site changed or paid submission made.
+
+## CANDIDATE-FIRST-060 — two ciphertext-driven evolving-alphabet rules
+
+- Date: 2026-10-31 UTC; parent target approval 15:13:41 UTC, final independent audit 15:15:09 UTC. Measured durations are in retained resource receipts.
+- Scope: AZ/KRYPTOS reference and initial mutable alphabets; exchange with 26 initial pointers, or fixed-reference-index prefix reversal with 26 constant offsets. Two fixed 104-configuration arms; all 208 functions proven distinct by 21,528 separating witnesses. No resets, free alphabets, additional layers or post-failure changes.
+- Result: Both independent target engines UNSAT_COMPLETE: zero compatible descriptions/plaintexts. Exact bounded exclusion only, not all evolving-alphabet ciphers. Canonical ciphertext SHA256 `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`.
+- Validation: 5,832 tiny forward/inverse cases and 6,561 complete tiny solution sets; 480/480 blind complete-set agreements, 416/416 unique plants, 0/64 matched random fits. Benchmark manifest SHA256 `6e825558692b49bcb1b41cc11cec86d217e56c174a0c2c28867fe7bf6dbc6439`. Two target runs together used 0.10484779 CPU seconds; final audit ran no extra target search.
+- Evidence: [Findings, frozen protocol, complete source/raw data, receipts and independent audits](candidate-first-060/README.md). Fresh public comparisons are preserved in the [proposal archive](fresh-program-20261031/README.md).
+- Method improvement: Retain independent tiny truth-set and pairwise separating-witness tooling. No production bottleneck was observed; no stochastic/neural replacement justified. Future changes require fresh controls, not reuse of revealed holdouts.
+- Status/next action: Execution and independent audit complete; artifacts published. Reconcile local/external ledgers and generated views, then select Q-07/study 061 for target-route/key-domain overlap checks and separate validation. At this closeout no 061 target run has occurred.

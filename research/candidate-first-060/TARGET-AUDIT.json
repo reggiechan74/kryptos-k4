@@ -1,0 +1,19 @@
+{
+  "status": "PASS_BOUNDED_UNSAT_COMPLETE",
+  "created_utc": "2026-10-31T15:15:09.134911+00:00",
+  "frozen_and_sealed_files_verified": true,
+  "input_normalization_verified": true,
+  "clue_letters": 24,
+  "ciphertext_length": 97,
+  "descriptions_examined_each": 208,
+  "independent_outputs_agree": true,
+  "compatible_descriptions": 0,
+  "distinct_plaintexts": 0,
+  "benchmark_coverage_rechecked": true,
+  "target_cpu_seconds": 0.10484779,
+  "audit_cpu_seconds": 0.009611980999999999,
+  "additional_target_searches": 0,
+  "interpretation": "Exact exclusion of the two frozen 104-configuration arms only; not all evolving-alphabet systems and not a K4 solution.",
+  "transport_sha256": "0d58d8b25de8be132b46e93b4ad717ded299ae12462c7d551f20d7f9ddcc5b08",
+  "seal_sha256": "3f368e05a5f2c3c4e1130c1955f477d0b2a0c298b2f1f40143b739a21c3be671"
+}

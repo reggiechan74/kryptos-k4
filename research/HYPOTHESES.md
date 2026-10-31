@@ -7,9 +7,9 @@ proofs and finite tests have separate scope; compatibility is not a solution.
 
 **This is the canonical reference for deciding what to test next.** Consult it before selecting an experiment and reconcile it at the end of every run, including a failed, interrupted or inconclusive run. The [agent workflow](../AGENTS.md) makes this check mandatory. The [experiment log](EXPERIMENTS.md) records our individual runs. The [external hypothesis and prior-art register](EXTERNAL-PRIOR-ART.md) records other researchers’ attempted models, source pins and evidence limits; both registers must be checked before selecting work. Generated trackers are navigation, not a second source of truth.
 
-- **Completed and published through study 059.** Studies 058 and 059 artifacts and their reconciled tracking are published together. The table below reconciles the latest studies. A completed bounded test is not an eliminated broad hypothesis.
+- **Published through study 060; execution and independent audit complete.** Studies 058 and 059 artifacts and their reconciled tracking are published together. The table below reconciles the latest studies. A completed bounded test is not an eliminated broad hypothesis.
 - **Study 057 (Q-01) is complete: exact bounded exclusion, independently audited.** Queue rank is a recommendation, not authorization by itself. The user separately authorized continuation through this queue on 31 October 2026. Q-02 is complete in 058; the bounded +1-feedback Q-03 pilot is complete in 059. Q-04 and Q-05 were not run because their prerequisites were not established. Target evaluation still requires the frozen benchmark and independent audit gates.
-- **Public prior-art gate (31 October 2026):** the external survey found substantial overlap with our completed studies. No proposed new execution-ready hypothesis cleared the not-already-tried requirement. Stronger-solver reruns, completion of attempted searches and cosmetic parameter extensions are not eligible next tests under the current direction. Proposed-but-unrun models may qualify only after precise overlap and analytical-subsumption checks. This is not a claim that no untried model exists. See [external records and admission procedure](EXTERNAL-PRIOR-ART.md).
+- **Public prior-art gate (31 October 2026):** the external survey found substantial overlap with our completed studies. At that survey closeout, no proposed new execution-ready hypothesis cleared the not-already-tried requirement. The later [four-family proposal and independent review](fresh-program-20261031/README.md) supplied new bounded mechanisms; execution was separately authorized at 15:03 UTC. Stronger-solver reruns, completion of attempted searches and cosmetic parameter extensions are not eligible next tests under the current direction. Proposed-but-unrun models may qualify only after precise overlap and analytical-subsumption checks. This is not a claim that no untried model exists. See [external records and admission procedure](EXTERNAL-PRIOR-ART.md).
 - **Next-action decision:** Q-01–Q-03 are closed only within studies 057–059 bounds. No eligible Q-04/Q-05 run is currently justified: exact production search is fast and no compatible K4 candidates remain to rank. Subtractive feedback and other omitted model settings remain untested and require a new frozen scope, not automatic expansion.
 - **Stopped branch:** direct aligned English-running-key decoding did not pass study 055's screen. Do not reopen it merely because an unrestricted decoder was never built. Study 056 also found no demonstrated learned-conflict advantage.
 
@@ -26,6 +26,18 @@ proofs and finite tests have separate scope; compatibility is not a solution.
 | 057 | AZ/KRYPTOS plaintext and ciphertext alphabet roles, sign ±; nominal periods 2–8; all ragged-columnar orders, widths 6–9, arithmetic then transposition | **Completed, exact bounded exclusion:** both engines return zero solutions; reference 22,901,760 route/period/convention trials, including the 056 baseline. [Report and audits](candidate-first-057/README.md) | Close Q-01 only for these bounds; reverse stage order was subsequently tested in 058 and bounded feedback in 059. |
 | 058 | Unpadded ragged columnar first, widths 6–9 and all orders; then output-index periodic arithmetic, periods 2–8, eight AZ/KRYPTOS role/sign conventions | **Completed, exact bounded exclusion:** both engines return zero compatible key cylinders; independent reference 22,901,760 descriptive trials. [Report and audits](candidate-first-058/README.md) | Close Q-02 only within these bounds. Free-key ambiguity and period aliases were retained; the bounded +1-feedback Q-03 pilot was subsequently tested in 059. Artifacts published. |
 | 059 | Plaintext or intermediate-ciphertext autokey with feedback coefficient +1; eight AZ/KRYPTOS role/sign conventions; primers 1–8; then all ragged-column orders, widths 6–9 | **Completed, exact bounded exclusion:** both target engines return zero primer cylinders; independent reference 52,346,880 descriptive trials. [Report and audits](candidate-first-059/README.md) | Close Q-03 only for this pilot. Subtractive feedback is distinct and untested. Q-04/Q-05 prerequisites not established; artifacts published. |
+| 060 | Ciphertext-driven alphabet exchange and fixed-reference-index prefix reversal; AZ/KRYPTOS reference and initial alphabets; 26 pointers/offsets per arm | **Completed, exact bounded exclusion:** both engines UNSAT_COMPLETE, zero compatible descriptions/plaintexts; 208 distinct functions certified. [Report](candidate-first-060/README.md) | Not all evolving alphabets. Artifacts published; select Q-07 only after this ledger reconciliation and its own gates. |
+
+### Fresh authorized queue — after the public survey
+
+Only exact mechanisms not located in the inspected prior record advance; this is not a worldwide novelty guarantee. Each target requires its own frozen protocol, independent implementation, tiny exhaustive checks, fresh blind controls and audit approval. The original proposals are [retained here](fresh-program-20261031/README.md).
+
+| Queue ID | Family and bounded proposal | Current decision |
+| --- | --- | --- |
+| Q-06 | H-EVOLVING-ALPHABET: 104 exchange and 104 prefix-reversal functions | Study 060 complete: exact bounded exclusion; no rescue tweaks. |
+| Q-07 | H-SUM-ROTATION: AZ/KRYPTOS, block widths 3–12, key periods 1–8, 160 structural cases | Next: target-route/key-domain overlap audit, then independently validated frozen study 061. No target run yet. |
+| Q-08 | H-CIPHERTEXT-JOSEPHUS: 388 start/orientation/alphabet routes, periods 1–8, 3,104 structural cases | Specified, not run; same exact route/key-domain duplicate gate. |
+| Q-09 | H-CARRY-624: coupled 26/24 state, all 624 initial states, AZ/KRYPTOS, periods 1–6 | Specified, not run; exact global reachability, never resetting at cribs. |
 
 ### Historical ranked queue and current eligibility
 
@@ -50,7 +62,7 @@ This section is the current status index within the existing hypothesis log; the
 
 The deep source review has now been read and integrated. Its [evidence synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md) confirms navigation context but supplies no surveyed bearing, calibrated shadow mechanism or dated celestial observation. Those physical claims remain evidence-blocked; the separately frozen conditional pilots are not measurements. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
 
-The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the working to-do list above is the current next-action queue. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by completed studies 051–059 and the current public-prior-art eligibility decision above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
+The [current inventory specification](specifications/FRONTIER-CURRENT-20261031-060.json) includes all 67 families without granting launch authority. The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the working to-do list above is the current next-action queue. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by completed studies 051–059 and the current public-prior-art eligibility decision above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
 
 ### Status vocabulary
 
@@ -128,6 +140,10 @@ The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves 
 | [H-CYLINDRICAL-MIRROR-SAMPLER](#h-cylindrical-mirror-sampler) | evidence-blocked | An invented globally registered cylindrical mirror samples tableau cells to form a key. |
 | [H-WORD-COVER-EXTRACTION](#h-word-cover-extraction) | non-identifiable | Decode complete word covers, then extract one fixed letter from each selected word. |
 | [H-DELIBERATE-SPELLING](#h-deliberate-spelling) | evidence-blocked | A consistent deliberate respelling or correction stream supplies transformation information. |
+| [H-EVOLVING-ALPHABET](#h-evolving-alphabet) | narrow negative | Ciphertext-driven exchange or fixed-reference prefix reversal of a mutable alphabet. |
+| [H-SUM-ROTATION](#h-sum-rotation) | specified but not run | Periodic arithmetic followed by block rotation locked to the sum of intermediate symbols. |
+| [H-CIPHERTEXT-JOSEPHUS](#h-ciphertext-josephus) | specified but not run | Ciphertext-emission-driven Josephus slot removal with emission-index periodic keys. |
+| [H-CARRY-624](#h-carry-624) | specified but not run | Coupled 26/24 accumulator with carry and old-high-digit output. |
 
 ### H-COMPASS-REVERSE
 
@@ -884,6 +900,54 @@ The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves 
 - Next discriminating test: Freeze a source-supported visual assembly or controlled physical replica with uncertainty/occlusion/readability and held-out observations; do not fit97 positions or add arbitrary geometry after English-looking outcomes.
 - Dependencies: Same public transcript cells and fixed 4/31/31/31 reticle, no per-point adjustment; keep symbolic cell identity separate from measured apertures, mirror imagery and transmitted light. Point-eye/pupil assumptions and parameter registration must be explicit.
 - Results: [Exact Site vertical-model validation037](SITE-CYLINDER-037-FINDINGS.md), [Findings](CURVED-SAMPLER-036-FINDINGS.md), [API/model distinction](CURVED-SAMPLER-036-API.md), [complete summary](../results/CURVED-SAMPLER-036-SUMMARY.json), [nominal and failure fixtures](../results/CURVED-SAMPLER-036-SITE-FIXTURES.json). Nominal feasibility is not a robust manual device, physical monument result or recovered K4 key. [Physical identifiability040](PHYSICAL-IDENTIFIABILITY-040-FINDINGS.md), [seven-family source/bench gates](SEVEN-FAMILY-REVIEW-046.md).
+
+### H-EVOLVING-ALPHABET
+
+- Status: narrow negative
+- Mechanism: Ciphertext-driven exchange or fixed-reference prefix reversal of a mutable alphabet. Exact equations and update timing are in the dated proposal linked under Evidence.
+- Evidence: Speculative hand-executable mechanism, not attributed to Sanborn. [Dated targeted public comparison and independent review](fresh-program-20261031/independent-review.md); closest external mechanisms and source pins are in the linked proposal and [external register](EXTERNAL-PRIOR-ART.md). No matching exact K4 test located in the inspected record; no global novelty claim.
+- Tested scope: 060: exactly 104 exchange plus 104 prefix-reversal configurations, all 208 proven distinct; two independent complete K4 results are empty. Tiny exhaustive solution sets and all 480 blind cases agree; all 416 plants uniquely recovered, 0/64 matched random fits.
+- Untested scope: Other rules, initial alphabets, resets, stage orders or bounds; these are not automatic follow-up experiments.
+- Missing inputs: Historical evidence connecting this mechanism to K4; no compatible target candidate remains in the frozen domain.
+- Next discriminating test: Close Q-06; select Q-07 sum-locked rotation for its own duplicate and validation gates, not an expansion of 060.
+- Dependencies: Canonical 97 symbols and 24 fixed clue letters; full exact inversion, complete compatible sets, matched nulls, independent audit, no post-failure rule rescue. Route proposals additionally compare target-induced permutation AND key domain against prior completed scopes.
+- Results: [060 findings, code and receipts](candidate-first-060/README.md); execution and audit complete, artifacts published. Exact bounded exclusion, not all evolving alphabets.
+
+### H-SUM-ROTATION
+
+- Status: specified but not run
+- Mechanism: Periodic arithmetic followed by block rotation locked to the sum of intermediate symbols. Exact equations and update timing are in the dated proposal linked under Evidence.
+- Evidence: Speculative hand-executable mechanism, not attributed to Sanborn. [Dated targeted public comparison and independent review](fresh-program-20261031/independent-review.md); closest external mechanisms and source pins are in the linked proposal and [external register](EXTERNAL-PRIOR-ART.md). No matching exact K4 test located in the inspected record; no global novelty claim.
+- Tested scope: None. Proposed AZ/KRYPTOS, widths 3–12, nominal key periods 1–8; 160 structural descriptions, not a complete-key count.
+- Untested scope: Other rules, initial alphabets, resets, stage orders or bounds; these are not automatic follow-up experiments.
+- Missing inputs: Historical evidence connecting this mechanism to K4; completed independent validation and exact prior-coverage clearance for the proposed target domain.
+- Next discriminating test: Follow the fresh queue in priority order; freeze rules, data, budget and exact-set benchmark before held-out evaluation. Parent audit approval precedes target use.
+- Dependencies: Canonical 97 symbols and 24 fixed clue letters; full exact inversion, complete compatible sets, matched nulls, independent audit, no post-failure rule rescue. Route proposals additionally compare target-induced permutation AND key domain against prior completed scopes.
+- Results: Specified but not run. [Program and priority](fresh-program-20261031/README.md); no target result claimed.
+
+### H-CIPHERTEXT-JOSEPHUS
+
+- Status: specified but not run
+- Mechanism: Ciphertext-emission-driven Josephus slot removal with emission-index periodic keys. Exact equations and update timing are in the dated proposal linked under Evidence.
+- Evidence: Speculative hand-executable mechanism, not attributed to Sanborn. [Dated targeted public comparison and independent review](fresh-program-20261031/independent-review.md); closest external mechanisms and source pins are in the linked proposal and [external register](EXTERNAL-PRIOR-ART.md). No matching exact K4 test located in the inspected record; no global novelty claim.
+- Tested scope: None. Proposed AZ/KRYPTOS, 97 starts, two orientations, periods 1–8; 3,104 structural descriptions. Free key residues must remain symbolic.
+- Untested scope: Other rules, initial alphabets, resets, stage orders or bounds; these are not automatic follow-up experiments.
+- Missing inputs: Historical evidence connecting this mechanism to K4; completed independent validation and exact prior-coverage clearance for the proposed target domain.
+- Next discriminating test: Follow the fresh queue in priority order; freeze rules, data, budget and exact-set benchmark before held-out evaluation. Parent audit approval precedes target use.
+- Dependencies: Canonical 97 symbols and 24 fixed clue letters; full exact inversion, complete compatible sets, matched nulls, independent audit, no post-failure rule rescue. Route proposals additionally compare target-induced permutation AND key domain against prior completed scopes.
+- Results: Specified but not run. [Program and priority](fresh-program-20261031/README.md); no target result claimed.
+
+### H-CARRY-624
+
+- Status: specified but not run
+- Mechanism: Coupled 26/24 accumulator with carry and old-high-digit output. Exact equations and update timing are in the dated proposal linked under Evidence.
+- Evidence: Speculative hand-executable mechanism, not attributed to Sanborn. [Dated targeted public comparison and independent review](fresh-program-20261031/independent-review.md); closest external mechanisms and source pins are in the linked proposal and [external register](EXTERNAL-PRIOR-ART.md). No matching exact K4 test located in the inspected record; no global novelty claim.
+- Tested scope: None. Proposed AZ/KRYPTOS, periods 1–6 and all 624 initial states; carry uses old high digit at output. Local crib filters must be followed by whole-message reachability.
+- Untested scope: Other rules, initial alphabets, resets, stage orders or bounds; these are not automatic follow-up experiments.
+- Missing inputs: Historical evidence connecting this mechanism to K4; completed independent validation and exact prior-coverage clearance for the proposed target domain.
+- Next discriminating test: Follow the fresh queue in priority order; freeze rules, data, budget and exact-set benchmark before held-out evaluation. Parent audit approval precedes target use.
+- Dependencies: Canonical 97 symbols and 24 fixed clue letters; full exact inversion, complete compatible sets, matched nulls, independent audit, no post-failure rule rescue. Route proposals additionally compare target-induced permutation AND key domain against prior completed scopes.
+- Results: Specified but not run. [Program and priority](fresh-program-20261031/README.md); no target result claimed.
 
 <!-- CURRENT-REGISTER:END -->
 
