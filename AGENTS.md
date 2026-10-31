@@ -2,7 +2,15 @@
 
 ## Canonical working to-do list
 
-[research/HYPOTHESES.md](research/HYPOTHESES.md) is the project's authoritative working to-do list and hypothesis-status reference. Read its current-status section, proposed queue and relevant family records **before choosing or starting work**. Read [research/EXPERIMENTS.md](research/EXPERIMENTS.md) and linked evidence to avoid repeating an already completed test. The latest user direction controls authorization; a queued proposal is not permission to run, expand, publish or submit it externally.
+[research/HYPOTHESES.md](research/HYPOTHESES.md) is the project's authoritative working to-do list and hypothesis-status reference. Read its current-status section, proposed queue and relevant family records **before choosing or starting work**. Read [research/EXPERIMENTS.md](research/EXPERIMENTS.md), the [external prior-art register](research/EXTERNAL-PRIOR-ART.md) and linked primary evidence to avoid repeating hypotheses already attempted here **or by other researchers**. The latest user direction controls authorization; a queued proposal is not permission to run, expand, publish or submit it externally.
+
+## Required public prior-art gate
+
+Before selecting an experiment, compare its exact operator/equations, alphabet roles, key indexing, stage order, state update, bounds and crib/length alignment against both the local ledger and external register. Check aliases and subset/superset coverage, not just cipher names. Record the closest stable EXT IDs, pinned sources, comparison and a dated targeted web/repository search in the hypothesis entry. Unknown external scope is **unresolved eligibility**, not proof of novelty.
+
+The current direction is to test only hypotheses not already tried. Do not queue stronger-solver reruns, unfinished searches of attempted hypotheses or cosmetic width/period/alphabet extensions as new. Prior proposals that were genuinely never run may qualify, but first check whether a local or external analytical invariant already excludes them. Do not pad a requested shortlist when no candidate clears the gate. Explicit later user authorization may permit a deliberate reproduction; label it reproduction and retain its purpose, rather than presenting it as novel.
+
+Preserve evidence quality independently of the no-duplication decision: third-party “exact” claims, skipped systems, thresholds, timeouts and sampled controls have different meanings. Do not convert them to universal exclusion or add external runs to our local run totals.
 
 ## Mandatory end-of-experiment checklist
 
@@ -13,7 +21,7 @@ At the end of **every experiment run**, including negative, failed, interrupted 
 3. Update the relevant family records in `research/HYPOTHESES.md`: tested and untested scope, remaining uncertainty, blockers/dependencies and next discriminating action. Update the current recent-results summary and queue status/order. Explain why the next item advances, stops, remains blocked or requires a separate decision. A completed finite test does not eliminate the broader family.
 4. Add or update the run in `research/EXPERIMENTS.md`. Review its explicit category/outcome in `docs/tracking/curated-records.json`; do not let a title guess determine classification. Keep publication status separate from scientific outcome and preserve separately authorized exploratory expansions as such.
 5. Regenerate derived views with `python3 experiments/build_research_navigation.py`. Do not hand-edit generated tracker tables or `docs/tracking/tracker.json`. Run the relevant documentation/ledger tests and local-link checks, and verify the generated views agree with canonical sources.
-6. Consult the reconciled ledger again to select the next eligible action under the current user authorization and protocol gates. If no eligible test exists, record the blocker rather than inventing a target run. State whether the proposed next experiment has actually started.
+6. Update relevant external-register overlap notes and add any new external evidence with stable IDs, precise scope, method, outcome, source pin/date, evidence tier and limitations. Preserve historical claims and dated corrections. Consult both the reconciled local ledger and external register again to select the next eligible action under the current user authorization and protocol gates. If no eligible test exists, record the blocker rather than inventing a target run. State whether the proposed next experiment has actually started.
 
 ## Evidence and execution safeguards
 

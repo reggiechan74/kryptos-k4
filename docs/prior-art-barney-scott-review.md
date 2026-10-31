@@ -1,5 +1,7 @@
 # Prior-art review: experiment coverage, proofs and statistical proposals
 
+**Current navigation:** consult the [external hypothesis register](../research/EXTERNAL-PRIOR-ART.md) for the consolidated 31 October 2026 review and selection gate. This dated review and its original source pins remain unchanged evidence.
+
 Revision date: **2026-10-18**. This is a bounded source/code review, not a new
 cipher search or execution of either third-party project. Existing local proof
 and experiment scopes remain unchanged. No K4 solution is claimed.
