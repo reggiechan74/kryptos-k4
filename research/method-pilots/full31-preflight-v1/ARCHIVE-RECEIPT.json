@@ -1,0 +1,17 @@
+{
+  "schema": "full31-static-archive-receipt-v1",
+  "status": "STATIC_BYTE_IDENTITY_PASS",
+  "archive_path": "/workspace/shared/residual-full31-preflight-publication/full31-preflight-pilot.tar.gz",
+  "archive_sha256": "8129b1b2af28f4a776013d49c10a8b39fa5193c395c8586f0ef2966720decd81",
+  "archive_bytes": 2653391,
+  "provenance_sha256": "ef99e3d9a8d11634553a150d1ac82fe299d3e442a2fef058f1717714ce7966e2",
+  "member_count": 73,
+  "member_content_bytes": 40849835,
+  "certificate_members": 8,
+  "certificate_content_bytes": 40360596,
+  "certificate_copy_inventory": "One copy per runtime certificate inside this sole exported archive; no intermediate or extracted copies. Original eight files remain unchanged.",
+  "verification": "Streamed archive member sizes and SHA-256 only; no mathematical certificate replay, source import or scientific execution.",
+  "mode": "0444; same-filesystem hardlink for publication allowed without duplicate archive payload",
+  "packaging_cpu_measured": false,
+  "accounting_note": "Packaging/read/hash/write overhead is unmeasured, not zero, and not included in the scientific worker ledger."
+}

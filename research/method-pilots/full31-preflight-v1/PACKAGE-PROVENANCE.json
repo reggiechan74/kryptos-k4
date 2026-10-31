@@ -1,0 +1,894 @@
+{
+  "schema": "full31-publication-provenance-v1",
+  "scope": "Static one-archive publication copy after terminal independent audit. No scientific replay or additional certificate files.",
+  "archive_rule": "Each certificate is streamed directly from its unchanged runtime file into this sole exported archive. No intermediate or extracted certificate copy is created.",
+  "original_freeze_sha256": "eb9da11b8ee9de669294fc94c2dad98642d74bedc4a5e21399b663ba680f61ac",
+  "original_approval_sha256": "523742d78951e8340e164156b7f0a18bf2927c7cd7b7690e68dc191036ca4422",
+  "original_final_review_sha256": "f9c3e0d0834ce85219e3ce2dae2f9c15ad10265b8309d5da2bf313300fa502e6",
+  "resource_ledger_sha256": "8fd5c2b01059d5940ba4e4d5fc6afa73e74a50f3cda5bd989872de2668c653a6",
+  "members": [
+    {
+      "member": "stage/preflight.py",
+      "source_path": "/workspace/shared/residual-full31-preflight/preflight.py",
+      "original_path": "/workspace/shared/residual-full31-preflight/preflight.py",
+      "original_sha256": "aa8f29a0a5b4546139f057e3810fe1c85578b325383e033512f5d8a27c5b5e98",
+      "public_sha256": "aa8f29a0a5b4546139f057e3810fe1c85578b325383e033512f5d8a27c5b5e98",
+      "bytes": 11097,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "stage/worker.py",
+      "source_path": "/workspace/shared/residual-full31-preflight/worker.py",
+      "original_path": "/workspace/shared/residual-full31-preflight/worker.py",
+      "original_sha256": "849bfaca3fd2bfd16529dd378e86c448c932fe0188ca30ac44c6b9caddb186d4",
+      "public_sha256": "849bfaca3fd2bfd16529dd378e86c448c932fe0188ca30ac44c6b9caddb186d4",
+      "bytes": 9639,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "stage/independent_checker.py",
+      "source_path": "/workspace/shared/residual-full31-preflight/independent_checker.py",
+      "original_path": "/workspace/shared/residual-full31-preflight/independent_checker.py",
+      "original_sha256": "f03a8c1f7d947e86532908d50a9acf718689fa29f7568172c71505e46cf05143",
+      "public_sha256": "f03a8c1f7d947e86532908d50a9acf718689fa29f7568172c71505e46cf05143",
+      "bytes": 15032,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "stage/review_worker.py",
+      "source_path": "/workspace/shared/residual-full31-preflight/review_worker.py",
+      "original_path": "/workspace/shared/residual-full31-preflight/review_worker.py",
+      "original_sha256": "80caf9bac6c0acfcd157a075547ab6bac54e79c275804143395de01a833f3195",
+      "public_sha256": "80caf9bac6c0acfcd157a075547ab6bac54e79c275804143395de01a833f3195",
+      "bytes": 11157,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "stage/supervisor.py",
+      "source_path": "/workspace/shared/residual-full31-preflight/supervisor.py",
+      "original_path": "/workspace/shared/residual-full31-preflight/supervisor.py",
+      "original_sha256": "879e632f38e705781d1b7fe332ca657a6238d90aba490261560eacd2da32b591",
+      "public_sha256": "879e632f38e705781d1b7fe332ca657a6238d90aba490261560eacd2da32b591",
+      "bytes": 27762,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "stage/prepare_fixtures.py",
+      "source_path": "/workspace/shared/residual-full31-preflight/prepare_fixtures.py",
+      "original_path": "/workspace/shared/residual-full31-preflight/prepare_fixtures.py",
+      "original_sha256": "814d5b02b0ad49a69d917311f8a31dd29bfcb05c18d0a075696bb1e82d502c15",
+      "public_sha256": "814d5b02b0ad49a69d917311f8a31dd29bfcb05c18d0a075696bb1e82d502c15",
+      "bytes": 870,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "stage/fixtures.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/fixtures.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/fixtures.json",
+      "original_sha256": "1b5f84510a78fab0c71760a0496d160c3af4a0fffd6dd30992bb54ea945e4836",
+      "public_sha256": "1b5f84510a78fab0c71760a0496d160c3af4a0fffd6dd30992bb54ea945e4836",
+      "bytes": 2663,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "stage/CONTRACT.md",
+      "source_path": "/workspace/shared/residual-full31-preflight/CONTRACT.md",
+      "original_path": "/workspace/shared/residual-full31-preflight/CONTRACT.md",
+      "original_sha256": "3a073d4ae5a59956384306e1a5d72e89521b1fb4598f1c495d5b95ab260535b0",
+      "public_sha256": "3a073d4ae5a59956384306e1a5d72e89521b1fb4598f1c495d5b95ab260535b0",
+      "bytes": 10479,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "stage/RESOURCE-ACCOUNTING.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/RESOURCE-ACCOUNTING.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/RESOURCE-ACCOUNTING.json",
+      "original_sha256": "8fd5c2b01059d5940ba4e4d5fc6afa73e74a50f3cda5bd989872de2668c653a6",
+      "public_sha256": "8fd5c2b01059d5940ba4e4d5fc6afa73e74a50f3cda5bd989872de2668c653a6",
+      "bytes": 6535,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "stage/REPORT.md",
+      "source_path": "/workspace/shared/residual-full31-preflight/REPORT.md",
+      "original_path": "/workspace/shared/residual-full31-preflight/REPORT.md",
+      "original_sha256": "e90e3c92846b1cfef9c46124e69296c5f3f32dad270ee00d296659ab97180d97",
+      "public_sha256": "e90e3c92846b1cfef9c46124e69296c5f3f32dad270ee00d296659ab97180d97",
+      "bytes": 6508,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "dependencies/reference-v3/reference_v3.py",
+      "source_path": "/workspace/shared/canonical-residual-reference-v3/reference_v3.py",
+      "original_path": "/workspace/shared/canonical-residual-reference-v3/reference_v3.py",
+      "original_sha256": "0730f8b0a26109919ba6eb558be18063d137ced233b397cd188dc261a13fe8f9",
+      "public_sha256": "0730f8b0a26109919ba6eb558be18063d137ced233b397cd188dc261a13fe8f9",
+      "bytes": 40557,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "dependencies/reference-v3/CONTRACT.md",
+      "source_path": "/workspace/shared/canonical-residual-reference-v3/CONTRACT.md",
+      "original_path": "/workspace/shared/canonical-residual-reference-v3/CONTRACT.md",
+      "original_sha256": "bd038d2084eac7240a6981a55c061ecbc24305a3c13fd0cc641538930fc99715",
+      "public_sha256": "bd038d2084eac7240a6981a55c061ecbc24305a3c13fd0cc641538930fc99715",
+      "bytes": 13373,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "dependencies/reference-v3/CAPS.json",
+      "source_path": "/workspace/shared/canonical-residual-reference-v3/CAPS.json",
+      "original_path": "/workspace/shared/canonical-residual-reference-v3/CAPS.json",
+      "original_sha256": "3f530d258d8d8fc5c1802e73730b1577b440e5686abc01722414c7e698fc0ca6",
+      "public_sha256": "3f530d258d8d8fc5c1802e73730b1577b440e5686abc01722414c7e698fc0ca6",
+      "bytes": 878,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "dependencies/producer/residual_decoder.py",
+      "source_path": "/workspace/shared/canonical-residual-dev/residual_decoder.py",
+      "original_path": "/workspace/shared/canonical-residual-dev/residual_decoder.py",
+      "original_sha256": "be050003b9a73c14a7f7dda44afeb160e0e847045d57ddfa4b9527bdc68f7d67",
+      "public_sha256": "be050003b9a73c14a7f7dda44afeb160e0e847045d57ddfa4b9527bdc68f7d67",
+      "bytes": 14850,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "dependencies/producer/affine_filter.py",
+      "source_path": "/workspace/shared/canonical-residual-dev/affine_filter.py",
+      "original_path": "/workspace/shared/canonical-residual-dev/affine_filter.py",
+      "original_sha256": "1e19e9ad872d517487cfe7968a9f4b906756007d5e710be216807620f078c90d",
+      "public_sha256": "1e19e9ad872d517487cfe7968a9f4b906756007d5e710be216807620f078c90d",
+      "bytes": 12582,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "design/PROPOSAL.md",
+      "source_path": "/workspace/shared/residual-reference-v3-next-stage-proposal/PROPOSAL.md",
+      "original_path": "/workspace/shared/residual-reference-v3-next-stage-proposal/PROPOSAL.md",
+      "original_sha256": "cdd02be85e643b4226eb4a58bb7eade35f8d28108ea979ba82f87765025c7c0a",
+      "public_sha256": "cdd02be85e643b4226eb4a58bb7eade35f8d28108ea979ba82f87765025c7c0a",
+      "bytes": 11246,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "design/REVIEW.public.md",
+      "source_path": "/workspace/shared/residual-full31-preflight-publication/public-docs/DESIGN-REVIEW.public.md",
+      "original_path": "/workspace/shared/residual-next-stage-independent-design-review/REVIEW.md",
+      "original_sha256": "6b250d0aafd979f3c005ee7b23663d3a8d2c2c3546729a4a98c8ca3e0e37765f",
+      "public_sha256": "03fc36f7337e297f0c0a03878f549e0e315434d16e04a690a3efa32cbfd3a56c",
+      "bytes": 11007,
+      "classification": "sanitized-administrative-prose",
+      "reason": "Private coordination wording removed; mathematical statements, counts and original commitments preserved."
+    },
+    {
+      "member": "stage/AMENDMENT.public.md",
+      "source_path": "/workspace/shared/residual-full31-preflight-publication/public-docs/AMENDMENT.public.md",
+      "original_path": "/workspace/shared/residual-full31-preflight/AMENDMENT.md",
+      "original_sha256": "4bbef0338b661e1d57a764309ec72c3011aa6212035ad78ab1c616a20a1d603e",
+      "public_sha256": "338db1290c282a850947a55b562bdc56cfca5376a559b41241f36790bf536350",
+      "bytes": 1124,
+      "classification": "sanitized-administrative-prose",
+      "reason": "Private coordination wording removed; mathematical statements, counts and original commitments preserved."
+    },
+    {
+      "member": "stage/PREPARATION.public.md",
+      "source_path": "/workspace/shared/residual-full31-preflight-publication/public-docs/PREPARATION.public.md",
+      "original_path": "/workspace/shared/residual-full31-preflight/PREPARATION.md",
+      "original_sha256": "07f6962857405bfb426bf5e763da4effa2e8fed0dd7d35457b16d74215f6e58f",
+      "public_sha256": "16438563833361cf413307e0be281eae0d8e94b810d09ae8dcd8b449e7f62c4b",
+      "bytes": 1233,
+      "classification": "sanitized-administrative-prose",
+      "reason": "Private coordination wording removed; mathematical statements, counts and original commitments preserved."
+    },
+    {
+      "member": "stage/EXECUTION-CONTRACT.public.md",
+      "source_path": "/workspace/shared/residual-full31-preflight-publication/public-docs/EXECUTION-CONTRACT.public.md",
+      "original_path": "/workspace/shared/residual-full31-preflight/EXECUTION-CONTRACT.md",
+      "original_sha256": "f1d9434fbeebd807675d69d041bc46827d515eda0a3366a2f4f5a67919a23c92",
+      "public_sha256": "41fd50e9e36b527223eb7d8d004e734664551905d990ccdee72e90aecda9dacf",
+      "bytes": 9675,
+      "classification": "sanitized-administrative-prose",
+      "reason": "Private coordination wording removed; mathematical statements, counts and original commitments preserved."
+    },
+    {
+      "member": "review/PRE-RUN-REVIEW.public.md",
+      "source_path": "/workspace/shared/residual-full31-preflight-publication/public-docs/PRE-RUN-REVIEW.public.md",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/PRE-RUN-REVIEW.md",
+      "original_sha256": "c7af1374c446a6915e5728a57f35f70c1ecf0139072f6aee28a225316f26b42f",
+      "public_sha256": "288fd62c26fffdf1baee019a658c791421b293f8cfea2a7e5c23d2620b053853",
+      "bytes": 10342,
+      "classification": "sanitized-administrative-prose",
+      "reason": "Private coordination wording removed; mathematical statements, counts and original commitments preserved."
+    },
+    {
+      "member": "review/REVIEW.public.md",
+      "source_path": "/workspace/shared/residual-full31-preflight-publication/public-docs/REVIEW.public.md",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/REVIEW.md",
+      "original_sha256": "f9c3e0d0834ce85219e3ce2dae2f9c15ad10265b8309d5da2bf313300fa502e6",
+      "public_sha256": "2b9fb5cde9127f5c012f8bda138245f4dc3f7337b5a109508c346fb1394606e7",
+      "bytes": 10517,
+      "classification": "sanitized-administrative-prose",
+      "reason": "Private coordination wording removed; mathematical statements, counts and original commitments preserved."
+    },
+    {
+      "member": "stage/FREEZE.public.json",
+      "source_path": "/workspace/shared/residual-full31-preflight-publication/public-docs/FREEZE.public.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/FREEZE.json",
+      "original_sha256": "eb9da11b8ee9de669294fc94c2dad98642d74bedc4a5e21399b663ba680f61ac",
+      "public_sha256": "c5f1a6ccbb9394302e119cf4a27907b8606db08a3c9847aa6482aeedcec9559b",
+      "bytes": 11013,
+      "classification": "sanitized-administrative-metadata",
+      "reason": "Only private administrative authorization wording or reviewer handle changed. Complete original scientific source hash maps preserved. This is not the byte-identical original launch object."
+    },
+    {
+      "member": "stage/PRE-RUN-APPROVAL.public.json",
+      "source_path": "/workspace/shared/residual-full31-preflight-publication/public-docs/PRE-RUN-APPROVAL.public.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/PRE-RUN-APPROVAL.json",
+      "original_sha256": "523742d78951e8340e164156b7f0a18bf2927c7cd7b7690e68dc191036ca4422",
+      "public_sha256": "b59198699032d2974abd4f578a2f38a0a2eb6f90b3c34a4049a9704817c5b125",
+      "bytes": 1670,
+      "classification": "sanitized-administrative-metadata",
+      "reason": "Only private administrative authorization wording or reviewer handle changed. Complete original scientific source hash maps preserved. This is not the byte-identical original launch object."
+    },
+    {
+      "member": "review/SHA256SUMS",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/SHA256SUMS",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/SHA256SUMS",
+      "original_sha256": "792c68834a29baff2a85022a9d4063f41649d1a33291034e14622be0863a9e73",
+      "public_sha256": "792c68834a29baff2a85022a9d4063f41649d1a33291034e14622be0863a9e73",
+      "bytes": 1366,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/author-normal-controls.json",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/author-normal-controls.json",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/author-normal-controls.json",
+      "original_sha256": "d3fc15ae6d4ad5bfc64ec40285c62d8f4988f06ab4ed311617461f81187cf0e3",
+      "public_sha256": "d3fc15ae6d4ad5bfc64ec40285c62d8f4988f06ab4ed311617461f81187cf0e3",
+      "bytes": 6342,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/author-normal-nontime.json",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/author-normal-nontime.json",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/author-normal-nontime.json",
+      "original_sha256": "6fc4ab67be1218c70552f991378039bfbb1e95ce8e8d41413a0a4c3ecd3cc2b2",
+      "public_sha256": "6fc4ab67be1218c70552f991378039bfbb1e95ce8e8d41413a0a4c3ecd3cc2b2",
+      "bytes": 15088,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/author-optimized-controls.json",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/author-optimized-controls.json",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/author-optimized-controls.json",
+      "original_sha256": "d3fc15ae6d4ad5bfc64ec40285c62d8f4988f06ab4ed311617461f81187cf0e3",
+      "public_sha256": "d3fc15ae6d4ad5bfc64ec40285c62d8f4988f06ab4ed311617461f81187cf0e3",
+      "bytes": 6342,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/author-optimized-nontime.json",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/author-optimized-nontime.json",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/author-optimized-nontime.json",
+      "original_sha256": "6fc4ab67be1218c70552f991378039bfbb1e95ce8e8d41413a0a4c3ecd3cc2b2",
+      "public_sha256": "6fc4ab67be1218c70552f991378039bfbb1e95ce8e8d41413a0a4c3ecd3cc2b2",
+      "bytes": 15088,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/final-artifact-checks.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/final-artifact-checks.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/final-artifact-checks.txt",
+      "original_sha256": "ec894adebee72cc0157e641e18474951292c8f4d1325cd74b0e41e69f9f4c76b",
+      "public_sha256": "ec894adebee72cc0157e641e18474951292c8f4d1325cd74b0e41e69f9f4c76b",
+      "bytes": 1940,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/final-source-checks.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/final-source-checks.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/final-source-checks.txt",
+      "original_sha256": "72833c48ff0d9962ccaeaed4aea36176160b064c2fd131130fd589375d7d7b6a",
+      "public_sha256": "72833c48ff0d9962ccaeaed4aea36176160b064c2fd131130fd589375d7d7b6a",
+      "bytes": 1407,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/frozen-files.sha256",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/frozen-files.sha256",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/frozen-files.sha256",
+      "original_sha256": "0ad405917715eda8d12e7f0a85bc91b4c720afefcf673346a786de397c5b5e89",
+      "public_sha256": "0ad405917715eda8d12e7f0a85bc91b4c720afefcf673346a786de397c5b5e89",
+      "bytes": 2709,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/outer-log-pins.sha256",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/outer-log-pins.sha256",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/outer-log-pins.sha256",
+      "original_sha256": "f7bc9443cfacfd6c9d12c1b6eea2abf90950aa281289989520132827e3e1bd6f",
+      "public_sha256": "f7bc9443cfacfd6c9d12c1b6eea2abf90950aa281289989520132827e3e1bd6f",
+      "bytes": 1212,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/pre-run-hash-checks.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/pre-run-hash-checks.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/pre-run-hash-checks.txt",
+      "original_sha256": "72833c48ff0d9962ccaeaed4aea36176160b064c2fd131130fd589375d7d7b6a",
+      "public_sha256": "72833c48ff0d9962ccaeaed4aea36176160b064c2fd131130fd589375d7d7b6a",
+      "bytes": 1407,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/review-normal-controls.json",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/review-normal-controls.json",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/review-normal-controls.json",
+      "original_sha256": "d3fc15ae6d4ad5bfc64ec40285c62d8f4988f06ab4ed311617461f81187cf0e3",
+      "public_sha256": "d3fc15ae6d4ad5bfc64ec40285c62d8f4988f06ab4ed311617461f81187cf0e3",
+      "bytes": 6342,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/review-normal-nontime.json",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/review-normal-nontime.json",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/review-normal-nontime.json",
+      "original_sha256": "b2df9eeb5f6988c73633d508d9578ef1d3928f752581f215c177e9abb64aaeb9",
+      "public_sha256": "b2df9eeb5f6988c73633d508d9578ef1d3928f752581f215c177e9abb64aaeb9",
+      "bytes": 27233,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/review-optimized-controls.json",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/review-optimized-controls.json",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/review-optimized-controls.json",
+      "original_sha256": "d3fc15ae6d4ad5bfc64ec40285c62d8f4988f06ab4ed311617461f81187cf0e3",
+      "public_sha256": "d3fc15ae6d4ad5bfc64ec40285c62d8f4988f06ab4ed311617461f81187cf0e3",
+      "bytes": 6342,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "review/review-optimized-nontime.json",
+      "source_path": "/workspace/shared/residual-full31-preflight-independent-review/review-optimized-nontime.json",
+      "original_path": "/workspace/shared/residual-full31-preflight-independent-review/review-optimized-nontime.json",
+      "original_sha256": "b2df9eeb5f6988c73633d508d9578ef1d3928f752581f215c177e9abb64aaeb9",
+      "public_sha256": "b2df9eeb5f6988c73633d508d9578ef1d3928f752581f215c177e9abb64aaeb9",
+      "bytes": 27233,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-normal/A.cert.jsonl",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/A.cert.jsonl",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/A.cert.jsonl",
+      "original_sha256": "6f3354695a4f01c98f7dd09a37d57f0c1dfdb02cfeb0a61b8cf4377a930a5076",
+      "public_sha256": "6f3354695a4f01c98f7dd09a37d57f0c1dfdb02cfeb0a61b8cf4377a930a5076",
+      "bytes": 69797,
+      "classification": "unchanged-certificate",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-normal/B.cert.jsonl",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/B.cert.jsonl",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/B.cert.jsonl",
+      "original_sha256": "9ead57c9de04d3ffa5609add285998b7d9bae77d2ee3c06c398826ebde3544fb",
+      "public_sha256": "9ead57c9de04d3ffa5609add285998b7d9bae77d2ee3c06c398826ebde3544fb",
+      "bytes": 10020352,
+      "classification": "unchanged-certificate",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-normal/resource.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/resource.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/resource.json",
+      "original_sha256": "ac05cb8382c1c9907a31d9491549718c30c806d50e72ac2e331472c3ac24e888",
+      "public_sha256": "ac05cb8382c1c9907a31d9491549718c30c806d50e72ac2e331472c3ac24e888",
+      "bytes": 2517,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-normal/result.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/result.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/result.json",
+      "original_sha256": "f477bb01e3c8664e730fbbd58836d1c62bc125d3490b5a8566881b65d3ba8a4f",
+      "public_sha256": "f477bb01e3c8664e730fbbd58836d1c62bc125d3490b5a8566881b65d3ba8a4f",
+      "bytes": 9461,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-normal/stderr.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/stderr.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-normal/stdout.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/stdout.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-optimized/A.cert.jsonl",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/A.cert.jsonl",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/A.cert.jsonl",
+      "original_sha256": "6f3354695a4f01c98f7dd09a37d57f0c1dfdb02cfeb0a61b8cf4377a930a5076",
+      "public_sha256": "6f3354695a4f01c98f7dd09a37d57f0c1dfdb02cfeb0a61b8cf4377a930a5076",
+      "bytes": 69797,
+      "classification": "unchanged-certificate",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-optimized/B.cert.jsonl",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/B.cert.jsonl",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/B.cert.jsonl",
+      "original_sha256": "9ead57c9de04d3ffa5609add285998b7d9bae77d2ee3c06c398826ebde3544fb",
+      "public_sha256": "9ead57c9de04d3ffa5609add285998b7d9bae77d2ee3c06c398826ebde3544fb",
+      "bytes": 10020352,
+      "classification": "unchanged-certificate",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-optimized/resource.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/resource.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/resource.json",
+      "original_sha256": "ed43ebe74b92928cf43c2116d50db1c788f2fa0bee2fe36eb0ad73eaafbee440",
+      "public_sha256": "ed43ebe74b92928cf43c2116d50db1c788f2fa0bee2fe36eb0ad73eaafbee440",
+      "bytes": 2516,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-optimized/result.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/result.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/result.json",
+      "original_sha256": "410b3370237a24daf0f63ee8c1f5fccde88e43a52536c36c9b20daff563bf4ca",
+      "public_sha256": "410b3370237a24daf0f63ee8c1f5fccde88e43a52536c36c9b20daff563bf4ca",
+      "bytes": 9463,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-optimized/stderr.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/stderr.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/author-optimized/stdout.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/stdout.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-normal/A.cert.jsonl",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/A.cert.jsonl",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/A.cert.jsonl",
+      "original_sha256": "6f3354695a4f01c98f7dd09a37d57f0c1dfdb02cfeb0a61b8cf4377a930a5076",
+      "public_sha256": "6f3354695a4f01c98f7dd09a37d57f0c1dfdb02cfeb0a61b8cf4377a930a5076",
+      "bytes": 69797,
+      "classification": "unchanged-certificate",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-normal/B.cert.jsonl",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/B.cert.jsonl",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/B.cert.jsonl",
+      "original_sha256": "9ead57c9de04d3ffa5609add285998b7d9bae77d2ee3c06c398826ebde3544fb",
+      "public_sha256": "9ead57c9de04d3ffa5609add285998b7d9bae77d2ee3c06c398826ebde3544fb",
+      "bytes": 10020352,
+      "classification": "unchanged-certificate",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-normal/resource.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/resource.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/resource.json",
+      "original_sha256": "06f5ff1fa245f7dee58174a493249ee1979ad5bc552d7eae1a1e4905846910b8",
+      "public_sha256": "06f5ff1fa245f7dee58174a493249ee1979ad5bc552d7eae1a1e4905846910b8",
+      "bytes": 2505,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-normal/result.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/result.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/result.json",
+      "original_sha256": "8d5207889b1802346ec6f255dab21ee628247bd046c949c252222bc7c382c4cf",
+      "public_sha256": "8d5207889b1802346ec6f255dab21ee628247bd046c949c252222bc7c382c4cf",
+      "bytes": 18056,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-normal/stderr.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/stderr.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-normal/stdout.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/stdout.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-optimized/A.cert.jsonl",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/A.cert.jsonl",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/A.cert.jsonl",
+      "original_sha256": "6f3354695a4f01c98f7dd09a37d57f0c1dfdb02cfeb0a61b8cf4377a930a5076",
+      "public_sha256": "6f3354695a4f01c98f7dd09a37d57f0c1dfdb02cfeb0a61b8cf4377a930a5076",
+      "bytes": 69797,
+      "classification": "unchanged-certificate",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-optimized/B.cert.jsonl",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/B.cert.jsonl",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/B.cert.jsonl",
+      "original_sha256": "9ead57c9de04d3ffa5609add285998b7d9bae77d2ee3c06c398826ebde3544fb",
+      "public_sha256": "9ead57c9de04d3ffa5609add285998b7d9bae77d2ee3c06c398826ebde3544fb",
+      "bytes": 10020352,
+      "classification": "unchanged-certificate",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-optimized/resource.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/resource.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/resource.json",
+      "original_sha256": "80947205967a73c10d1b7af573eef18dacb6eb1504ec096be526a34294b5ed0c",
+      "public_sha256": "80947205967a73c10d1b7af573eef18dacb6eb1504ec096be526a34294b5ed0c",
+      "bytes": 2515,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-optimized/result.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/result.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/result.json",
+      "original_sha256": "b9665c8a3dc5c69f7616fa513ff8905ba5a1c6930d5db28f97f9f749ab76f3c7",
+      "public_sha256": "b9665c8a3dc5c69f7616fa513ff8905ba5a1c6930d5db28f97f9f749ab76f3c7",
+      "bytes": 18057,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-optimized/stderr.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/stderr.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/review-optimized/stdout.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/stdout.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "runtime/state.json",
+      "source_path": "/workspace/shared/residual-full31-preflight/runs/state.json",
+      "original_path": "/workspace/shared/residual-full31-preflight/runs/state.json",
+      "original_sha256": "bb40615e8dd2a3614003ac21936c1802323db6a8fe97c4a439c33ab7ec9c61f9",
+      "public_sha256": "bb40615e8dd2a3614003ac21936c1802323db6a8fe97c4a439c33ab7ec9c61f9",
+      "bytes": 832,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "launch-records/author-normal.stderr.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/launch-records/author-normal.stderr.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/launch-records/author-normal.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "launch-records/author-normal.stdout.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/launch-records/author-normal.stdout.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/launch-records/author-normal.stdout.txt",
+      "original_sha256": "c9a56d53758d977b6f5c7fbc8ad17cfa7ae8d92e80a752c1f1b6cfa5008fc254",
+      "public_sha256": "c9a56d53758d977b6f5c7fbc8ad17cfa7ae8d92e80a752c1f1b6cfa5008fc254",
+      "bytes": 278,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "launch-records/author-optimized.stderr.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/launch-records/author-optimized.stderr.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/launch-records/author-optimized.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "launch-records/author-optimized.stdout.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/launch-records/author-optimized.stdout.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/launch-records/author-optimized.stdout.txt",
+      "original_sha256": "8d77c926a4ac6860004e37512ffa4437734104c3a408b32bfbc33d8c4c46bcc8",
+      "public_sha256": "8d77c926a4ac6860004e37512ffa4437734104c3a408b32bfbc33d8c4c46bcc8",
+      "bytes": 282,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "launch-records/review-normal.stderr.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/launch-records/review-normal.stderr.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/launch-records/review-normal.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "launch-records/review-normal.stdout.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/launch-records/review-normal.stdout.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/launch-records/review-normal.stdout.txt",
+      "original_sha256": "05e2c14ee6609469f05061ecae6240a664f13268ad95e2f0436370afe249c74b",
+      "public_sha256": "05e2c14ee6609469f05061ecae6240a664f13268ad95e2f0436370afe249c74b",
+      "bytes": 267,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "launch-records/review-optimized.stderr.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/launch-records/review-optimized.stderr.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/launch-records/review-optimized.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "launch-records/review-optimized.stdout.txt",
+      "source_path": "/workspace/shared/residual-full31-preflight/launch-records/review-optimized.stdout.txt",
+      "original_path": "/workspace/shared/residual-full31-preflight/launch-records/review-optimized.stdout.txt",
+      "original_sha256": "d254a6e4fc790dcdfc3711f91a7ce01043a224e6e4bd6e40aa412ab3c5bc349c",
+      "public_sha256": "d254a6e4fc790dcdfc3711f91a7ce01043a224e6e4bd6e40aa412ab3c5bc349c",
+      "bytes": 273,
+      "classification": "unchanged",
+      "reason": null
+    },
+    {
+      "member": "README.md",
+      "source_path": "/workspace/shared/residual-full31-preflight-publication/README.md",
+      "original_path": "/workspace/shared/residual-full31-preflight-publication/README.md",
+      "original_sha256": "4718137aef52ae00230d042f0b1a06d7b5e871cad300ab225d1be21488b7d294",
+      "public_sha256": "4718137aef52ae00230d042f0b1a06d7b5e871cad300ab225d1be21488b7d294",
+      "bytes": 2377,
+      "classification": "new-public-summary",
+      "reason": null
+    }
+  ],
+  "frozen_file_distribution": [
+    {
+      "original_path": "/workspace/shared/residual-reference-v3-next-stage-proposal/PROPOSAL.md",
+      "original_sha256": "cdd02be85e643b4226eb4a58bb7eade35f8d28108ea979ba82f87765025c7c0a",
+      "distribution": "unchanged",
+      "public_member": "design/PROPOSAL.md",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-next-stage-independent-design-review/REVIEW.md",
+      "original_sha256": "6b250d0aafd979f3c005ee7b23663d3a8d2c2c3546729a4a98c8ca3e0e37765f",
+      "distribution": "sanitized-administrative-prose",
+      "public_member": "design/REVIEW.public.md",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/canonical-residual-reference-v3/reference_v3.py",
+      "original_sha256": "0730f8b0a26109919ba6eb558be18063d137ced233b397cd188dc261a13fe8f9",
+      "distribution": "unchanged",
+      "public_member": "dependencies/reference-v3/reference_v3.py",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/canonical-residual-reference-v3/CONTRACT.md",
+      "original_sha256": "bd038d2084eac7240a6981a55c061ecbc24305a3c13fd0cc641538930fc99715",
+      "distribution": "unchanged",
+      "public_member": "dependencies/reference-v3/CONTRACT.md",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/canonical-residual-reference-v3/CAPS.json",
+      "original_sha256": "3f530d258d8d8fc5c1802e73730b1577b440e5686abc01722414c7e698fc0ca6",
+      "distribution": "unchanged",
+      "public_member": "dependencies/reference-v3/CAPS.json",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-reference-v3-independent-review/REVIEW.md",
+      "original_sha256": "20fbded3b1165c11656c8cf4974c7f23b35f3a3a128a35dd9d5b473fd1a07021",
+      "distribution": "omitted",
+      "public_member": null,
+      "reason": "Previously published predecessor outcome review; exact hash retained and canonical checkpoint remains the public reference."
+    },
+    {
+      "original_path": "/workspace/shared/canonical-residual-dev/residual_decoder.py",
+      "original_sha256": "be050003b9a73c14a7f7dda44afeb160e0e847045d57ddfa4b9527bdc68f7d67",
+      "distribution": "unchanged",
+      "public_member": "dependencies/producer/residual_decoder.py",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/canonical-residual-dev/affine_filter.py",
+      "original_sha256": "1e19e9ad872d517487cfe7968a9f4b906756007d5e710be216807620f078c90d",
+      "distribution": "unchanged",
+      "public_member": "dependencies/producer/affine_filter.py",
+      "reason": null
+    },
+    {
+      "original_path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+      "original_sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+      "distribution": "omitted",
+      "public_member": null,
+      "reason": "Installed interpreter binary not redistributed; exact hash retained."
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/preflight.py",
+      "original_sha256": "aa8f29a0a5b4546139f057e3810fe1c85578b325383e033512f5d8a27c5b5e98",
+      "distribution": "unchanged",
+      "public_member": "stage/preflight.py",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/worker.py",
+      "original_sha256": "849bfaca3fd2bfd16529dd378e86c448c932fe0188ca30ac44c6b9caddb186d4",
+      "distribution": "unchanged",
+      "public_member": "stage/worker.py",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/independent_checker.py",
+      "original_sha256": "f03a8c1f7d947e86532908d50a9acf718689fa29f7568172c71505e46cf05143",
+      "distribution": "unchanged",
+      "public_member": "stage/independent_checker.py",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/review_worker.py",
+      "original_sha256": "80caf9bac6c0acfcd157a075547ab6bac54e79c275804143395de01a833f3195",
+      "distribution": "unchanged",
+      "public_member": "stage/review_worker.py",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/supervisor.py",
+      "original_sha256": "879e632f38e705781d1b7fe332ca657a6238d90aba490261560eacd2da32b591",
+      "distribution": "unchanged",
+      "public_member": "stage/supervisor.py",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/prepare_fixtures.py",
+      "original_sha256": "814d5b02b0ad49a69d917311f8a31dd29bfcb05c18d0a075696bb1e82d502c15",
+      "distribution": "unchanged",
+      "public_member": "stage/prepare_fixtures.py",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/fixtures.json",
+      "original_sha256": "1b5f84510a78fab0c71760a0496d160c3af4a0fffd6dd30992bb54ea945e4836",
+      "distribution": "unchanged",
+      "public_member": "stage/fixtures.json",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/CONTRACT.md",
+      "original_sha256": "3a073d4ae5a59956384306e1a5d72e89521b1fb4598f1c495d5b95ab260535b0",
+      "distribution": "unchanged",
+      "public_member": "stage/CONTRACT.md",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/EXECUTION-CONTRACT.md",
+      "original_sha256": "f1d9434fbeebd807675d69d041bc46827d515eda0a3366a2f4f5a67919a23c92",
+      "distribution": "sanitized-administrative-prose",
+      "public_member": "stage/EXECUTION-CONTRACT.public.md",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/AMENDMENT.md",
+      "original_sha256": "4bbef0338b661e1d57a764309ec72c3011aa6212035ad78ab1c616a20a1d603e",
+      "distribution": "sanitized-administrative-prose",
+      "public_member": "stage/AMENDMENT.public.md",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/PREPARATION.md",
+      "original_sha256": "07f6962857405bfb426bf5e763da4effa2e8fed0dd7d35457b16d74215f6e58f",
+      "distribution": "sanitized-administrative-prose",
+      "public_member": "stage/PREPARATION.public.md",
+      "reason": null
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/PACKAGING-AUTHORITY.md",
+      "original_sha256": "4081db38d4b21bc1aa6f5a30f014f96bd2ebf179feec5e40e3a9a22f2d4bbcf2",
+      "distribution": "omitted",
+      "public_member": null,
+      "reason": "Private packaging coordination, not scientific source."
+    }
+  ],
+  "private_omissions": [
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/PACKAGING-AUTHORITY.md",
+      "original_sha256": "4081db38d4b21bc1aa6f5a30f014f96bd2ebf179feec5e40e3a9a22f2d4bbcf2",
+      "reason": "Private post-run packaging authorization; not a scientific artifact."
+    },
+    {
+      "original_path": "/workspace/shared/residual-full31-preflight/LEDGER-HANDOFF.md",
+      "original_sha256": "bed61aeff1e726172a2f685e27ce12ac22c5b96bbbc7c6176ff9befb0612b345",
+      "reason": "Private publication coordination and repository integration instructions."
+    }
+  ],
+  "launch_metadata_notice": "Public launch metadata is sanitized and is not the original byte-identical or relaunch-ready object. Raw receipts/reports reference original immutable launch hashes. Original scientific source hash fields and all raw scientific artifacts are unchanged.",
+  "previous_checkpoint": "https://github.com/reggiechan74/kryptos-k4/blob/84db7c30781a9023c0e1bfcc0b40b7c2cd5569d0/research/method-pilots/canonical-residual-checkpoint/README.md"
+}

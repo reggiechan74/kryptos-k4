@@ -1,0 +1,157 @@
+{
+  "schema": "full31-deduplicated-stage-accounting-v1",
+  "classification": "static receipt-derived accounting only; no solver or certificate replay",
+  "freeze_sha256": "eb9da11b8ee9de669294fc94c2dad98642d74bedc4a5e21399b663ba680f61ac",
+  "approval_sha256": "523742d78951e8340e164156b7f0a18bf2927c7cd7b7690e68dc191036ca4422",
+  "state_sha256": "bb40615e8dd2a3614003ac21936c1802323db6a8fe97c4a439c33ab7ec9c61f9",
+  "jobs": [
+    {
+      "job": "author-normal",
+      "receipt_path": "/workspace/shared/residual-full31-preflight/runs/author-normal/resource.json",
+      "receipt_sha256": "ac05cb8382c1c9907a31d9491549718c30c806d50e72ac2e331472c3ac24e888",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-I",
+        "-B",
+        "/workspace/shared/residual-full31-preflight/worker.py",
+        "--output",
+        "/workspace/shared/residual-full31-preflight/runs/author-normal/result.json"
+      ],
+      "status": "PASS",
+      "worker_cpu_seconds_reported": 10.489397,
+      "supervisor_exclusive_cpu_sample_seconds": 0.10853499999999999,
+      "supervisor_allocation_charge_seconds": 5,
+      "worker_wall_seconds": 13.604038471996319,
+      "worker_peak_rss_kib": 42624,
+      "supervisor_peak_rss_kib": 13776,
+      "exit_code": 0,
+      "child_reaped": true,
+      "wall_timeout": false,
+      "failures": [],
+      "certificate_bytes": 10090149,
+      "certificate_files": 2
+    },
+    {
+      "job": "author-optimized",
+      "receipt_path": "/workspace/shared/residual-full31-preflight/runs/author-optimized/resource.json",
+      "receipt_sha256": "ed43ebe74b92928cf43c2116d50db1c788f2fa0bee2fe36eb0ad73eaafbee440",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-I",
+        "-B",
+        "-O",
+        "/workspace/shared/residual-full31-preflight/worker.py",
+        "--output",
+        "/workspace/shared/residual-full31-preflight/runs/author-optimized/result.json"
+      ],
+      "status": "PASS",
+      "worker_cpu_seconds_reported": 10.605184999999999,
+      "supervisor_exclusive_cpu_sample_seconds": 0.119629,
+      "supervisor_allocation_charge_seconds": 5,
+      "worker_wall_seconds": 13.32943238900043,
+      "worker_peak_rss_kib": 47872,
+      "supervisor_peak_rss_kib": 13792,
+      "exit_code": 0,
+      "child_reaped": true,
+      "wall_timeout": false,
+      "failures": [],
+      "certificate_bytes": 10090149,
+      "certificate_files": 2
+    },
+    {
+      "job": "review-normal",
+      "receipt_path": "/workspace/shared/residual-full31-preflight/runs/review-normal/resource.json",
+      "receipt_sha256": "06f5ff1fa245f7dee58174a493249ee1979ad5bc552d7eae1a1e4905846910b8",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-I",
+        "-B",
+        "/workspace/shared/residual-full31-preflight/review_worker.py",
+        "--output",
+        "/workspace/shared/residual-full31-preflight/runs/review-normal/result.json"
+      ],
+      "status": "PASS",
+      "worker_cpu_seconds_reported": 10.685539,
+      "supervisor_exclusive_cpu_sample_seconds": 0.146995,
+      "supervisor_allocation_charge_seconds": 5,
+      "worker_wall_seconds": 12.982301565993112,
+      "worker_peak_rss_kib": 43400,
+      "supervisor_peak_rss_kib": 13816,
+      "exit_code": 0,
+      "child_reaped": true,
+      "wall_timeout": false,
+      "failures": [],
+      "certificate_bytes": 10090149,
+      "certificate_files": 2
+    },
+    {
+      "job": "review-optimized",
+      "receipt_path": "/workspace/shared/residual-full31-preflight/runs/review-optimized/resource.json",
+      "receipt_sha256": "80947205967a73c10d1b7af573eef18dacb6eb1504ec096be526a34294b5ed0c",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-I",
+        "-B",
+        "-O",
+        "/workspace/shared/residual-full31-preflight/review_worker.py",
+        "--output",
+        "/workspace/shared/residual-full31-preflight/runs/review-optimized/result.json"
+      ],
+      "status": "PASS",
+      "worker_cpu_seconds_reported": 10.082189,
+      "supervisor_exclusive_cpu_sample_seconds": 0.278472,
+      "supervisor_allocation_charge_seconds": 5,
+      "worker_wall_seconds": 12.221703805000288,
+      "worker_peak_rss_kib": 48348,
+      "supervisor_peak_rss_kib": 13840,
+      "exit_code": 0,
+      "child_reaped": true,
+      "wall_timeout": false,
+      "failures": [],
+      "certificate_bytes": 10090149,
+      "certificate_files": 2
+    }
+  ],
+  "totals": {
+    "worker_cpu_seconds_reported_rounded6": 41.86231,
+    "supervisor_exclusive_samples_seconds_rounded6": 0.653631,
+    "known_reported_components_seconds_rounded6": 42.515941,
+    "full_supervisor_policy_charge_seconds": 20,
+    "worker_plus_full_supervisor_policy_charge_seconds_rounded6": 61.86231,
+    "certificate_files": 8,
+    "certificate_bytes": 40360596
+  },
+  "allocation": {
+    "new_stage_cpu_seconds": 320,
+    "worker_cpu_seconds": 300,
+    "supervisor_cpu_seconds": 20,
+    "project_conservative_allocations_cpu_seconds": 17200,
+    "project_cpu_ceiling_seconds": 28800,
+    "earlier_680_second_contingency_spent": 0
+  },
+  "terminal_state": {
+    "completed_slots": [
+      "author-normal",
+      "author-optimized",
+      "review-normal",
+      "review-optimized"
+    ],
+    "remaining_scheduled_slots": [],
+    "canceled_slots": [],
+    "in_flight": null,
+    "stopped": false,
+    "outstanding_cpu_reservations": 0,
+    "all_slots_consumed": true,
+    "extra_runs_authorized": false
+  },
+  "accounting_rules": [
+    "Deduplicate by job, exact command and immutable receipt hash, not numeric PIDs reused across launch namespaces.",
+    "Review pair measurements are a subset of these four jobs, not a second stage total.",
+    "Preflight/producer/verifier/test timers are worker subsets and are not added again.",
+    "Known reported components are OS worker CPU plus supervisor samples, excluding final-write/exit tails and unmeasured preparation/control/closeout costs.",
+    "Worker plus full supervisor policy charge is not measured CPU; do not add supervisor samples again to it.",
+    "Nominal OS limits are not proven measured maxima; prior overshoot cause remains unresolved.",
+    "Unused nominal allocation does not authorize replay, retries, new trials or reserve replenishment.",
+    "Publication copying occurs only after independent terminal review under its separate authority."
+  ]
+}

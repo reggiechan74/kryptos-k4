@@ -989,6 +989,14 @@
       ],
       "outcome": "Disclosed implementation PASS; not fresh validation, speedup or production certification",
       "basis": "Reviewed original frozen artifacts and independently audited closeout; scientific stages and publication state remain distinct. No solver execution during publication."
+    },
+    "LOG-0E6218E390": {
+      "title": "METHOD-PREFLIGHT-008 \u2014 full-31 certified workload pilot",
+      "categories": [
+        "synthetic validation"
+      ],
+      "outcome": "Two-control full-31 workload pilot PASS; resource rejection and complete B semantics distinguished; fresh validation not authorized",
+      "basis": "Independent final outcome review of four frozen author/reviewer normal/optimized slots; publication is static only and preserves the original failed cohort."
     }
   }
 }

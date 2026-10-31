@@ -2530,3 +2530,23 @@ Source: [canonical experiment log](../../research/EXPERIMENTS.md).
 Stage ledger reports 37.395377 worker CPU plus 0.503533 supervisor samples = 37.898910 known components, excluding control/final tails; the full 20 supervisor allocation is separate, not measured cost. Subset timers are not added again, no reserve remains open. Conservative project allocations 16,880/28,800 CPU seconds are not a measured project total. The separate full-31 resource pilot/rank-beta preflight remains **design only, not authorized or run**; the ledger checkpoint is not permission to launch it. No revival of the failed cohort or K4 target admission.
 
 Related files: [research/method-pilots/canonical-residual-checkpoint/README.md](../../research/method-pilots/canonical-residual-checkpoint/README.md).
+
+## LOG-0E6218E390
+
+**METHOD-PREFLIGHT-008 — full-31 certified workload pilot**
+
+Exact run start/end unknown; date-only record: 2026-10-31 (opening prose; not a run timestamp)
+
+Type: synthetic validation. Outcome: Two-control full-31 workload pilot PASS; resource rejection and complete B semantics distinguished; fresh validation not authorized
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**31 October 2026 — two disclosed controls, not a fresh holdout or target study.** [Frozen sources, paired-counter pre-run amendment, all four slots and independent outcome audit](../../research/method-pilots/full31-preflight-v1/README.md). Author/reviewer normal/optimized slots all passed. Control A stopped after the first fully checked above-cap prefix: 89 original supports, certified lower bound 1,006,226 > 1,000,000, exact W unknown; it was not sent to semantic solvers and is not EMPTY. Control B scanned all 4,495 supports with exact W = 1, then the unchanged producer returned EXACT and the full independent reference VERIFIED_EXACT for its disclosed law. Fiber-count equality is necessary, not a substitute for full verification.
+
+The pre-run amendment separates generation and audit beta/row counters while retaining the shared 50,000,000 work limit, 20-second per-control cap and 320-second stage allocation. It is not a post-hoc weakened gate. Runtime emitted exactly eight certificate files (two per slot); approved publication stores one archive/member copy, preserving exact bytes and provenance. All nominal/semantic/resource distinctions remain explicit.
+
+Reported workers total 41.862310 CPU seconds plus 0.653631 exclusive supervisor samples = 42.515941 known components, excluding tails and unmeasured preparation/closeout. Full supervisor policy charge is 20 seconds; worker plus full charge 61.862310 is not measured CPU and samples must not be added again. Conservative project allocations are 17,200/28,800 seconds, not a measured project total. No scheduled slot, reservation or retry remains open; prior CPU-overshoot cause is not repaired by this PASS.
+
+**Next decision:** prepare and review a separate fresh residual-validation protocol; no draw or execution authorized by this closeout. Two known controls do not establish representative workload completion, recovery, speedup, global novelty or K4 admission. The old failed cohort remains permanently INCOMPLETE and sealed; all 68 cipher-family records stay unchanged.
+
+Related files: [research/method-pilots/full31-preflight-v1/README.md](../../research/method-pilots/full31-preflight-v1/README.md).

@@ -10,3 +10,5 @@ Synthetic inference and validation tools are separate from numbered K4 cipher ex
 
 - [Projection saturation v3](projection-saturation-v3/README.md): completed synthetic validation; optional/default-off, unchanged exact masks and retained timing regressions.
 - [Canonical residual checkpoint](canonical-residual-checkpoint/README.md): audited development, permanently incomplete fresh cohort, static capacity proof and separately successful disclosed reference-v3 controls. Next pilot remains design only.
+
+- [Full-31 workload preflight](full31-preflight-v1/README.md): two disclosed controls, certified resource rejection and full independently verified B result; fresh residual validation remains proposal only.
