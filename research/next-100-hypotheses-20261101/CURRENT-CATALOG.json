@@ -2121,7 +2121,9 @@
       "review_rank": 4,
       "original_draft_status": "proposed_unrun",
       "status_override_evidence": "a01-admission-audit/REPORT.md",
-      "synthetic_ready": false
+      "synthetic_ready": false,
+      "recorded_runs": 0,
+      "run_scope": "No recorded execution"
     },
     {
       "id": "N100-037",
@@ -3187,7 +3189,7 @@
       "draft_id": "C20",
       "group": "encoding",
       "type": "mechanism",
-      "status": "proposed_unrun",
+      "status": "synthetic_validated_target_not_admitted",
       "novelty_status": "exact_scope_review_pending",
       "target_admission": "not_admitted",
       "specification": {
@@ -3219,7 +3221,12 @@
           "limits": "Detailed linked local protocols were absent from the supplied four-file baseline. Pinned EXT-024 and EXT-034 GitHub page fetches returned cache miss; their exact source scope remains register-level, not freshly source-audited. No K4 calculation, target fitting, code execution of external sources, or external state change occurred."
         }
       },
-      "review_rank": 5
+      "review_rank": 5,
+      "original_draft_status": "proposed_unrun",
+      "status_override_evidence": "../c20-successor-queue-v1/REPOSITORY-STATUS.md",
+      "synthetic_ready": false,
+      "recorded_runs": 1,
+      "run_scope": "one disclosed synthetic correctness invocation; zero K4 target invocations"
     },
     {
       "id": "N100-066",
@@ -4238,5 +4245,5 @@
   "current_status_source": "CURRENT-STATUS.json",
   "original_catalog_sha256": "1b58132bd63c42618c5d1c20bff280c01ea6ffa89d44582c4dfe21a154801862",
   "effective_status_date": "2026-11-01",
-  "status_note": "Use this current derivative for scheduling metadata; catalog.json is the immutable original draft. All proposals remain unrun and unadmitted."
+  "status_note": "Use this current derivative for scheduling metadata; catalog.json is the immutable original draft. All proposals remain K4-target-unrun and unadmitted; C20 has completed synthetic-only correctness validation."
 }

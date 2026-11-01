@@ -1,6 +1,6 @@
 # Current proposal index
 
-Generated from immutable draft plus CURRENT-STATUS.json; status overrides take precedence. Historical ranks are triage, not execution authority. All100 remain unrun/unadmitted.
+Generated from immutable draft plus CURRENT-STATUS.json; status overrides take precedence. Historical ranks are triage, not execution authority. All 100 remain K4-target-unrun/unadmitted; C20 has one synthetic-only correctness pilot.
 
 | Original review rank | ID | Draft | Effective status | Title |
 | --- | --- | --- | --- | --- |
@@ -8,7 +8,7 @@ Generated from immutable draft plus CURRENT-STATUS.json; status overrides take p
 | 2 | [N100-091](methods.md#n100-091) | M13 | proposed_unrun | Source-to-equation audit with proof obligations |
 | 3 | [N100-099](methods.md#n100-099) | M21 | proposed_unrun | Exact framing-capacity filters for variable-length codes |
 | 4 | [N100-036](adaptive.md#n100-036) | A01 | blocked_prior_art_overlap_unresolved | Frequency-order alphabet coding |
-| 5 | [N100-065](encoding.md#n100-065) | C20 | proposed_unrun | Euler-trail local-successor queue reversal |
+| 5 | [N100-065](encoding.md#n100-065) | C20 | synthetic_validated_target_not_admitted | Euler-trail local-successor queue reversal |
 | 6 | [N100-087](methods.md#n100-087) | M09 | proposed_unrun | Semantic negative-certificate transport |
 | 7 | [N100-080](methods.md#n100-080) | M02 | proposed_unrun | Dependency-cone prior-art fingerprints |
 | 8 | [N100-081](methods.md#n100-081) | M03 | proposed_unrun | Treewidth-driven exact feedback elimination |

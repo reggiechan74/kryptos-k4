@@ -1,0 +1,24 @@
+{
+  "child_cpu_seconds": 58,
+  "command_template": [
+    "<REDACTED: historical command; not relaunch authority>"
+  ],
+  "external_wall_seconds": 120,
+  "files": {
+    "PROTOCOL.md": "ec8b9d3ba875f6c675072c47c6fec2b4ac39617133aaef133cbee6130fb30fe3",
+    "c20.py": "bf2534a63b51952bab38afac973f35411bbedc6c9055e8181eb060cb10013867",
+    "pilot.py": "7c1f7c7cff307d9cb37e87bbd710fd30d83eebf63952168d7f3bef8256c96c7f",
+    "run_once.py": "146d9b6b5041348f5e9bdf570f5ae808ce086a7f9804eb0f8e8295d9ee459fdb"
+  },
+  "interpreter": "<pinned-python>",
+  "interpreter_sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+  "memory_bytes": 134217728,
+  "plant_phase_pairs": 91,
+  "schema": "c20-synthetic-freeze-v1",
+  "status": "PUBLICATION_DERIVATIVE_NON_RELAUNCH_READY",
+  "supervisor_cpu_seconds": 2,
+  "target_execution": false,
+  "timeout_binary": "/usr/bin/timeout",
+  "timeout_sha256": "6ca1891dfc0b05d7680770c2884c0391b92467c7bb6500a5c84677e6481739f1",
+  "tiny_cases": 17349
+}

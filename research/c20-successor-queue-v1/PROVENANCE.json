@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "mapping": "byte-identical",
+      "original_name": "REPORT.md",
+      "original_sha256": "39f3b6d25981b7f8adcde8f371cf0698ed0502b67876fbbe08196ee8fa8126c9",
+      "published": "ADMISSION-AUDIT.md",
+      "published_sha256": "39f3b6d25981b7f8adcde8f371cf0698ed0502b67876fbbe08196ee8fa8126c9"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "LOCAL-SOURCE-PINS.json",
+      "original_sha256": "c904620083410b6ef6e91e25709f369c75214715346dd820f3ef98bfa666bccd",
+      "published": "LOCAL-SOURCE-PINS.json",
+      "published_sha256": "c904620083410b6ef6e91e25709f369c75214715346dd820f3ef98bfa666bccd"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "c20.py",
+      "original_sha256": "bf2534a63b51952bab38afac973f35411bbedc6c9055e8181eb060cb10013867",
+      "published": "c20.py",
+      "published_sha256": "bf2534a63b51952bab38afac973f35411bbedc6c9055e8181eb060cb10013867"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "pilot.py",
+      "original_sha256": "7c1f7c7cff307d9cb37e87bbd710fd30d83eebf63952168d7f3bef8256c96c7f",
+      "published": "pilot.py",
+      "published_sha256": "7c1f7c7cff307d9cb37e87bbd710fd30d83eebf63952168d7f3bef8256c96c7f"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "run_once.py",
+      "original_sha256": "146d9b6b5041348f5e9bdf570f5ae808ce086a7f9804eb0f8e8295d9ee459fdb",
+      "published": "run_once.py",
+      "published_sha256": "146d9b6b5041348f5e9bdf570f5ae808ce086a7f9804eb0f8e8295d9ee459fdb"
+    },
+    {
+      "mapping": "publication derivative: local paths/runtime identifiers replaced; historical scientific claims unchanged",
+      "original_name": "PROTOCOL.md",
+      "original_sha256": "ec8b9d3ba875f6c675072c47c6fec2b4ac39617133aaef133cbee6130fb30fe3",
+      "published": "SYNTHETIC-PROTOCOL.public.md",
+      "published_sha256": "79cd82f4b879c8bff858bacde1e21b7565d058d542698892aad84a7d8a7f5175"
+    },
+    {
+      "mapping": "publication derivative: local paths/runtime identifiers replaced; historical scientific claims unchanged",
+      "original_name": "SOURCE-REVIEW.md",
+      "original_sha256": "8e59e6ded8a29cd9d932dde4b0532dd971ee64997cf933cae9ed6be17c490108",
+      "published": "SOURCE-REVIEW.public.md",
+      "published_sha256": "f7ee1fc37e7c6e8e9646d3b0552cf21f429093223c0bbae307ee6c58f66355e2"
+    },
+    {
+      "mapping": "publication derivative: local paths/runtime identifiers replaced; historical scientific claims unchanged",
+      "original_name": "OUTCOME-REVIEW.md",
+      "original_sha256": "f85a1c5eaa15be7161fe75a82fc846ae89d152b254ab18d5025897d1fb095fec",
+      "published": "OUTCOME-REVIEW.public.md",
+      "published_sha256": "0237e941df10d57ccb614c5d486a2e96845df67c1663cd9d963a6371460cd495"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "stdout.json",
+      "original_sha256": "29d3c53ae99348bdb7c843122102f4b03f65ff8d40be008f03ab93d575e7adeb",
+      "published": "SYNTHETIC-RESULT.json",
+      "published_sha256": "29d3c53ae99348bdb7c843122102f4b03f65ff8d40be008f03ab93d575e7adeb"
+    },
+    {
+      "mapping": "administrative publication derivative; runtime paths/argv omitted and non-relaunch label added; original identity retained",
+      "original_name": "FREEZE.json",
+      "original_sha256": "3ecdaf1c4191a45bc37a2cb7e907f149e7ccf68c680313b6ba5b0b0ab60134c1",
+      "published": "FREEZE.public.json",
+      "published_sha256": "dad8e4eca9c53dea00af2e775d0e9eb12f0f455c379bea86f45e4123fc8a357f"
+    },
+    {
+      "mapping": "administrative publication derivative; runtime paths/argv omitted and non-relaunch label added; original identity retained",
+      "original_name": "RECEIPT.json",
+      "original_sha256": "a4399fc88147e4fa213e71fd2e651d4510fa8aeef7f04caeba9063c488c3380e",
+      "published": "RECEIPT.public.json",
+      "published_sha256": "7a6467d1b304321ea4876ee2ce6b086f11d91fcd92d595537fb14d9a9612e93b"
+    }
+  ],
+  "omissions": [
+    "Actual approval payload, conversation identifiers and session identifier are not published.",
+    "Original review manifests/readback refer to private workspace originals, not publication derivatives.",
+    "No executable FREEZE.json or approval is supplied: package is evidence, not execution authority."
+  ],
+  "retained_original_evidence_sha256": {
+    "EXTERNAL-COMPLETION.json": "4a8b1bf2ec4043baeb2fe192a0648cebc6127f6925b0168294a904ff5a85b51d",
+    "OUTCOME-READBACK.json": "7c46cba4a52868a6c6f7817404a44610394be8378009a077e870c1683a01bb62",
+    "OUTCOME-REVIEW-MANIFEST.json": "d1a54df2e6512cfb2252cd28660493a08b53339c796d404e27b3f00a3a5ac1e9"
+  },
+  "schema": "c20-publication-provenance-v1"
+}

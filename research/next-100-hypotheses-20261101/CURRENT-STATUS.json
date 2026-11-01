@@ -11,8 +11,20 @@
       "target_admission": "not_admitted",
       "runs": 0,
       "evidence": "a01-admission-audit/REPORT.md"
+    },
+    {
+      "id": "N100-065",
+      "draft_id": "C20",
+      "status": "synthetic_validated_target_not_admitted",
+      "synthetic_ready": false,
+      "target_admission": "not_admitted",
+      "runs": 1,
+      "run_scope": "one disclosed synthetic correctness invocation; zero K4 target invocations",
+      "evidence": "../c20-successor-queue-v1/REPOSITORY-STATUS.md"
     }
   ],
-  "next_source_proof_candidate": "N100-065",
-  "next_candidate_execution_authorized": false
+  "next_source_proof_candidate": null,
+  "next_candidate_execution_authorized": false,
+  "next_action": "C20 target source/freeze static review passed; await final finite execution grant after publication. Target remains unrun.",
+  "target_source_review_passed": true
 }

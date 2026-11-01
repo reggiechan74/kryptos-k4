@@ -1,8 +1,8 @@
 # Next 100 K4 research proposals
 
-**Current-status correction (1 November 2026):** [A01/N100-036 is blocked by unresolved prior-art overlap](CURRENT-STATUS.md); no 60-CPU-second pilot. The original ranking below is a preserved draft, not current execution authority. C20/N100-065 is the next source/proof candidate only.
+**Current-status correction (1 November 2026):** [A01/N100-036 is blocked by unresolved prior-art overlap](CURRENT-STATUS.md); no 60-CPU-second pilot. The original ranking below is a preserved draft, not current execution authority. C20/N100-065 has now passed [synthetic-only correctness validation](../c20-successor-queue-v1/REPOSITORY-STATUS.md); its seven-phase target remains proposed, not admitted or executed.
 
-**100 proposed, unrun hypotheses: 78 cipher mechanisms and 22 cryptanalysis-method experiments.** These are candidate research questions, **not 100 proven-untried methods, 100 admitted K4 searches, or a solution**. Source discovery and document checks were performed; no K4 fitting, cipher execution, synthetic benchmark or external-code execution was performed for this deliverable.
+**Original draft: 100 proposed, unrun hypotheses: 78 cipher mechanisms and 22 cryptanalysis-method experiments.** These are candidate research questions, **not 100 proven-untried methods, 100 admitted K4 searches, or a solution**. Source discovery and document checks were performed; no K4 fitting, cipher execution, synthetic benchmark or external-code execution was performed for the original deliverable. Later C20 synthetic execution is separately recorded above; original specifications remain unchanged.
 
 Baseline: [`3e128d9a617af377516a0b9878a942b29bf2e3b8`](https://github.com/reggiechan74/kryptos-k4/tree/3e128d9a617af377516a0b9878a942b29bf2e3b8), 69 local families and 51 external-register entries. The [canonical HYPOTHESES ledger](../HYPOTHESES.md) remains the single execution queue. This folder is a draft research annex, not a replacement queue. `N100-*` IDs are proposal IDs; they do not add 100 completed or admitted H-families.
 

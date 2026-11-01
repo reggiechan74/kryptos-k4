@@ -2630,3 +2630,23 @@ Known target-plus-seal CPU components: 25.175256 worker  + 1.171793 supervisor s
 **Method lesson / next:** preflight dominated recorded phase wall time, but all caps completed; retain exact engines without result-driven optimization. Close the existing 69th family as a narrow negative, preserving all 68 others and all old failed/UNRUN snapshots. The next 100 annex is unrun/unadmitted: A01 blocked by specific prior-art uncertainty; C20 is only a source/proof candidate. No retry, expanded residual domain, synthetic pilot or next K4 target follows automatically.
 
 Related files: [research/residual-target-v1/REPOSITORY-STATUS.md](../../research/residual-target-v1/REPOSITORY-STATUS.md).
+
+## LOG-5C9485C688
+
+**METHOD-C20-012 — successor-queue synthetic correctness**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: synthetic method validation. Outcome: 17,349 tiny cases and 91 disclosed plant/phase checks passed; no K4 target
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**1 November 2026 — synthetic-only correctness, no K4 target.** [Exact sources/result, administrative derivative provenance, independent source/outcome review and target proposal](../../research/c20-successor-queue-v1/REPOSITORY-STATUS.md). One frozen invocation passed 17,349 exhaustive tiny cases (2,047 / 9,841 / 5,461 over alphabets 2 / 3 / 4) against an independent enumerated queue-signature oracle and 91 disclosed length-97 plant/phase pairs. Four directional fixtures, deliberately broken naive reversal, non-fixed-route witness, 16 malformed-input and 12 malformed-phase rejections passed. All 13 plants produced seven distinct phase ciphertexts. The 5,589 tiny fixed points and overlapping/disclosed cases are diagnostics, not independent statistical trials or blind validation.
+
+The exact classical last-exit involution plus fixed AZ/KRYPTOS additive layer is implemented consistently within these checks. Finite source/proof distinctions do not establish worldwide novelty or historical creator use. The no-layer pure permutation was already excluded and was not rerun. During this synthetic pilot, no K4 ciphertext was read or transformed.
+
+Known child CPU 0.951498 plus cumulative supervisor sample 0.178968 = 1.130466 seconds; wall 1.102165920 seconds; child peak RSS 45,716 KiB. Internal child timer is a subset, not additive. Receipt-write/final-print/outer-tool tails remain unmeasured. One 60-second pilot permission consumed within 120 nominal stage allocation (60 preparation/review separately committed); no retry or refunded permission. Administrative public freeze/receipt copies are NON_RELAUNCH_READY; scientific source/result hashes remain exact.
+
+**Lesson / next:** the tiny complete queue-signature oracle supplies useful independent correctness without a larger solver framework; retain the simple engine. A seven-phase target protocol is proposed only, accepted for source preparation with 30 nominal seconds allocated (20 source/review + 10 target), with later target source/freeze review passed, but not finally admitted to execute. No automatic target, extra benchmark or rescue follows. C20/N100-065 is now synthetic-validated; all 100 proposals remain K4-target-unrun/unadmitted and A01 stays blocked. All 69 canonical family bodies remain unchanged.
+
+Related files: [research/c20-successor-queue-v1/REPOSITORY-STATUS.md](../../research/c20-successor-queue-v1/REPOSITORY-STATUS.md).

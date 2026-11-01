@@ -1,0 +1,61 @@
+{
+  "files": {
+    "ADMISSION-AUDIT.md": {
+      "bytes": 11676,
+      "sha256": "39f3b6d25981b7f8adcde8f371cf0698ed0502b67876fbbe08196ee8fa8126c9"
+    },
+    "FREEZE.public.json": {
+      "bytes": 1000,
+      "sha256": "dad8e4eca9c53dea00af2e775d0e9eb12f0f455c379bea86f45e4123fc8a357f"
+    },
+    "LOCAL-SOURCE-PINS.json": {
+      "bytes": 1732,
+      "sha256": "c904620083410b6ef6e91e25709f369c75214715346dd820f3ef98bfa666bccd"
+    },
+    "OUTCOME-REVIEW.public.md": {
+      "bytes": 4772,
+      "sha256": "0237e941df10d57ccb614c5d486a2e96845df67c1663cd9d963a6371460cd495"
+    },
+    "PROVENANCE.json": {
+      "bytes": 4686,
+      "sha256": "91bca12b4cbfb2e4ebe79be6217fef643dcc854bcd6a628196a93e8d14627fd6"
+    },
+    "README.md": {
+      "bytes": 2641,
+      "sha256": "674cd4582495528a611ffc0058afa12d0312ec5c662af5eba864c8bcbd7f5207"
+    },
+    "RECEIPT.public.json": {
+      "bytes": 1459,
+      "sha256": "7a6467d1b304321ea4876ee2ce6b086f11d91fcd92d595537fb14d9a9612e93b"
+    },
+    "SOURCE-REVIEW.public.md": {
+      "bytes": 10547,
+      "sha256": "f7ee1fc37e7c6e8e9646d3b0552cf21f429093223c0bbae307ee6c58f66355e2"
+    },
+    "SYNTHETIC-PROTOCOL.public.md": {
+      "bytes": 6808,
+      "sha256": "79cd82f4b879c8bff858bacde1e21b7565d058d542698892aad84a7d8a7f5175"
+    },
+    "SYNTHETIC-RESULT.json": {
+      "bytes": 1010,
+      "sha256": "29d3c53ae99348bdb7c843122102f4b03f65ff8d40be008f03ab93d575e7adeb"
+    },
+    "TARGET-PROPOSAL.md": {
+      "bytes": 4328,
+      "sha256": "6e9678023635c096f18785c56254a9fcd18ec6c1a6541748969e32f35cddbc83"
+    },
+    "c20.py": {
+      "bytes": 1793,
+      "sha256": "bf2534a63b51952bab38afac973f35411bbedc6c9055e8181eb060cb10013867"
+    },
+    "pilot.py": {
+      "bytes": 9227,
+      "sha256": "7c1f7c7cff307d9cb37e87bbd710fd30d83eebf63952168d7f3bef8256c96c7f"
+    },
+    "run_once.py": {
+      "bytes": 7676,
+      "sha256": "146d9b6b5041348f5e9bdf570f5ae808ce086a7f9804eb0f8e8295d9ee459fdb"
+    }
+  },
+  "status": "SYNTHETIC_VALIDATED_TARGET_NOT_ADMITTED"
+}

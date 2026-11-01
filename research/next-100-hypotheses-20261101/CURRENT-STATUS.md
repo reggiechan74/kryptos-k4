@@ -1,6 +1,6 @@
 # Current proposal status overrides
 
-The original catalog and ranked draft remain preserved. This dated evidence addendum overrides their research-priority suggestions; it does not add or remove proposals. **All 100 remain unrun and unadmitted.**
+The original catalog and ranked draft remain preserved. This dated evidence addendum overrides their research-priority suggestions; it does not add or remove proposals. **All 100 remain K4-target-unrun and unadmitted. C20 now has one completed synthetic correctness pilot; the other 99 have no recorded execution.**
 
 ## 1 November 2026: A01 / N100-036 blocked
 
@@ -8,7 +8,11 @@ The [source/admission audit](a01-admission-audit/REPORT.md) found explicit repor
 
 The candidate remains one of the 100 drafts; no replacement is invented to preserve a misleading count of eligible tests. Its symbolic inverse proof does not establish novelty. The six originally specification-blocked drafts remain separately blocked.
 
-**Next concrete mechanism source/proof candidate:** C20 / N100-065, successor-queue reversal composite. This is a proposal for source comparison and inverse/last-exit proof only, not a synthetic or target execution grant. Preserve the canonical single execution queue and complete prior-art/inverse/resource gates before any run. The method-validation priorities remain proposed, not already executed.
+## 1 November 2026: C20 / N100-065 synthetic validation passed
+
+[Independent source and outcome evidence](../c20-successor-queue-v1/REPOSITORY-STATUS.md) records 17,349 tiny cases and 91 disclosed length-97 plant/phase pairs, malformed inputs and deliberately broken-rule controls. This is classical last-exit sequence-shuffling mathematics applied to a speculative fixed composite; no worldwide novelty, blind validation or K4 compatibility claim follows.
+
+The next action is review of a separately frozen seven-phase target protocol. The current target document is a proposal only, whose later design/source-preparation acceptance allocates 30 nominal seconds (20 source/review + 10 target), with later exact target freeze/source-static review passed, but no final execution grant. No target decoding or run occurred; the synthetic pilot used no target input. Preserve A01's block, the six original specification blocks, and all immutable draft specifications.
 
 ## Machine-facing view
 

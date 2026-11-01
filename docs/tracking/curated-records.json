@@ -1029,6 +1029,14 @@
       ],
       "outcome": "Exact bounded R negative: both prescribed modes EMPTY/VERIFIED_EMPTY; no candidate or first-six claim",
       "basis": "Independent completed pair and metadata-seal reviews; one hypothesis, two mode checks, immutable recovery/authority/resource provenance preserved."
+    },
+    "LOG-5C9485C688": {
+      "title": "METHOD-C20-012 \u2014 successor-queue synthetic correctness",
+      "categories": [
+        "synthetic method validation"
+      ],
+      "outcome": "17,349 tiny cases and 91 disclosed plant/phase checks passed; no K4 target",
+      "basis": "Reviewed against synthetic-only outcome and source/provenance; seven-phase target remains a separate proposal."
     }
   }
 }
