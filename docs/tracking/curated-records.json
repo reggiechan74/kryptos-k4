@@ -1077,6 +1077,14 @@
       ],
       "outcome": "Exact fixed reference-cursor candidate negative: 0/24 clues; no broad book-cipher exclusion",
       "basis": "Independent artifact readback, dual full outputs/inverses and four final states; no retuning or third decode claim."
+    },
+    "LOG-888334B737": {
+      "title": "METHOD-M21-015 \u2014 exact framing-capacity synthetic pilot",
+      "categories": [
+        "synthetic method validation"
+      ],
+      "outcome": "Exact on 24,624 synthetic cases and 132 controls; limited extra pruning, no speedup or target claim",
+      "basis": "Independent full-output readback; complete retained rows, disclosed overlapping fixtures and cached-oracle timing scope."
     }
   }
 }

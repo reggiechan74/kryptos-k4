@@ -41,11 +41,21 @@
       "runs": 2,
       "run_scope": "one disclosed synthetic pilot under pre-run gate amendment plus one fixed-candidate target invocation",
       "evidence": "../e02-reference-cursor-v1/target-v1/README.md"
+    },
+    {
+      "id": "N100-099",
+      "draft_id": "M21",
+      "status": "synthetic_method_validated_limited_utility",
+      "synthetic_ready": false,
+      "target_admission": "target_model_absent_not_admitted",
+      "runs": 1,
+      "run_scope": "one disclosed synthetic exactness and limited-utility method pilot; no K4 target",
+      "evidence": "../m21-framing-capacity-v1/README.md"
     }
   ],
-  "next_source_proof_candidate": null,
+  "next_source_proof_candidate": "N100-047",
   "next_candidate_execution_authorized": false,
-  "next_action": "M21/N100-099 exact framing-capacity filters source/proof/benchmark design only; no experimental allocation or target authority.",
+  "next_action": "C02 prefix-code/Huffman framing source/proof audit only: exact tree/framing/prior-art and whether M21 offers nontrivial pruning. No budget, experiment or target admission.",
   "target_source_review_passed": true,
   "target_tested_proposals": 3,
   "target_unrun_proposals": 97

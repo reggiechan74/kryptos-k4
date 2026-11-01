@@ -2750,3 +2750,23 @@ Known aggregate CPU 0.328628 seconds, wall 0.205243 seconds, peak RSS 44,972 KiB
 **Lesson / next:** inverse/transition consistency is not K4 compatibility. Retire only this fixed composition, not all book/rank/adaptive ciphers; no source/start/direction rescue. Add H-REFERENCE-CURSOR-RANK as family72 while preserving all prior71 bodies. Three proposals target-tested narrowly negative, 97 target-unrun. M21/N100-099 exact framing-capacity filters is next source/proof/benchmark-design task only, with no experimental allocation or target authority. A01 remains blocked.
 
 Related files: [research/e02-reference-cursor-v1/target-v1/README.md](../../research/e02-reference-cursor-v1/target-v1/README.md).
+
+## LOG-888334B737
+
+**METHOD-M21-015 — exact framing-capacity synthetic pilot**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: synthetic method validation. Outcome: Exact on 24,624 synthetic cases and 132 controls; limited extra pruning, no speedup or target claim
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**1 November 2026 — one disclosed synthetic method invocation, no K4 input or target inference.** [Frozen design, complete compressed rows, controls, source and independent result readback](../../research/m21-framing-capacity-v1/README.md). All 24,624 matrix cases and 132 controls passed; zero exact-count mismatches or false-pruning events against independent exhaustive enumeration. Stored attainable lengths, witnesses and baseline soundness checks passed. The exact bit-aware filter excludes 1,930 cases admitted by the stronger exact-attainable-length baseline with mandatory nonzero-prefix guarantees; 8,453 versus the weaker baseline. These are case requests, not independent discoveries or K4 exclusions. The 16,171 all-baseline agreement cases and overlapping fixture feasibility patterns remain retained.
+
+Measured DP case CPU 2.313976845 seconds versus cached-oracle case CPU 0.507157471 seconds; no speedup. Oracle input encodings/digit histograms are reused across requests, so these timings describe the recorded workloads, not a universal algorithm ranking. Whole child CPU 4.11879517 seconds, wall 4.12233698 seconds, peak RSS 43,440 KiB. DP totals 375,129 visited states, 761,882 transitions and 1,301,302 emitted-bit comparisons; maximum count bit length 13. Supervisor overhead was not separately instrumented and remains charged to the existing 60 nominal preparation/review reserve; 180 nominal applied to the scientific child within 240 allocated. No budget increase, retry or recycled unused reservation.
+
+**Lesson / next:** classical finite-state/counting mathematics is exact on this bounded fixture matrix and prunes more than safe length-only checks, but is slower than the cached oracle and has no demonstrated practical 97-symbol scaling. Retain as an infrastructure gate, not a novel primitive or new cipher family. Any target application first needs a separately justified finite encoder, framing/invertibility/transport contract, public-equation deduplication, state-size/utility review and distinct finite authority. No target model is currently admitted. All 72 canonical families and original 100 drafts are unchanged; three proposals target-tested, 97 target-unrun, A01 blocked.
+
+Current selection after this closeout: C02 prefix-code/Huffman framing source/proof audit only, checking exact tree/framing/prior-art and nontrivial utility before implementation. No experimental allocation or target admission.
+
+Related files: [research/m21-framing-capacity-v1/README.md](../../research/m21-framing-capacity-v1/README.md).

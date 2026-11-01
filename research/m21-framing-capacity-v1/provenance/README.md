@@ -1,0 +1,3 @@
+# Provenance and administrative omissions
+
+[PUBLICATION-MAP.json](PUBLICATION-MAP.json) maps exact source/result identities, compressed files, and derived explanatory documents. [original-frozen-input-hashes.json](original-frozen-input-hashes.json) preserves the historical freeze; corresponding private administrative bodies are deliberately omitted. [runtime-public.json](runtime-public.json) retains interpreter version/hash/flags without the local path. Scientific originals remain unchanged; no third-party source bodies are republished. See [main report](../README.md) for reproducibility limits.

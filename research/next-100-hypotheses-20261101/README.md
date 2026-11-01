@@ -35,3 +35,5 @@ The new mruckman1 dossier changes eligibility: generic cellular-automaton stream
 6. Report compatible/incompatible/incomplete at the tested scope. Preserve all equivalent keys and complete plaintext relations where relevant. A compatible decipherment and exact re-encryption alone do not prove intended plaintext.
 
 The public 24 clue letters are constraints, not fresh held-out validation. Method experiments proposing blind islands use **new synthetic** data only. Physical speculation is not converted into a clue; no new physical/archive-derived mechanism was admitted in this pass.
+
+Current method checkpoint: [M21 framing-capacity filters](../m21-framing-capacity-v1/README.md) passed a disclosed synthetic exactness/limited-utility pilot. No target model, speedup or fourth K4 target test is claimed; counts remain three tested and 97 target-unrun.

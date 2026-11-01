@@ -41,3 +41,11 @@ Current next source-review task: E02 reference-cursor rank. Audit active, eligib
 ## Later E02 target closeout — 1 November 2026
 
 [Exact one-candidate target evidence](../e02-reference-cursor-v1/target-v1/README.md): 0/24 clues, dual 97-letter outputs/inverses and four final cursors 756 agree. This supersedes earlier E02 preparation/unrun status only; original catalog, synthetic evidence and pre-run gate replacement remain unchanged. No broad book-cursor exclusion or rescue. Next M21/N100-099 exact framing-capacity filters is methodological source/proof/benchmark-design work only, no experimental allocation or target admission.
+
+## M21 method closeout — 1 November 2026
+
+[Exact framing-capacity pilot](../m21-framing-capacity-v1/README.md): 24,624 cases and 132 controls passed, with zero exact-count mismatches or false pruning. The bit-aware filter excluded 1,930 cases beyond the stronger safe exact-length baseline (8,453 beyond the weaker baseline), not 1,930 new hypotheses. DP timing was slower than the cached exhaustive oracle on this fixed workload; no speedup or practical 97-symbol scaling is established.
+
+M21/N100-099 is **synthetic-method validated with limited utility; target model absent/not admitted**. This is not a fourth K4 target test or a new cipher family. Three target-tested proposals and 97 target-unrun remain; A01 stays blocked. Original catalog and all canonical family records remain unchanged. A separately justified encoder/framing/transport and utility case would be needed before any target application; no automatic rerun, new allocation or target follows.
+
+Next selected entry: **C02 prefix-code/Huffman framing source/proof audit only**. Check exact tree/framing/prior-art and whether M21 offers nontrivial pruning before implementation. No budget, experiment or target admission; the applicability recommendation is not established feasibility.

@@ -4199,9 +4199,9 @@
       "draft_id": "M21",
       "group": "methods",
       "type": "method",
-      "status": "proposed_unrun",
+      "status": "synthetic_method_validated_limited_utility",
       "novelty_status": "exact_scope_review_pending",
-      "target_admission": "not_admitted",
+      "target_admission": "target_model_absent_not_admitted",
       "specification": {
         "local_id": "M21",
         "title": "Exact framing-capacity filters for variable-length codes",
@@ -4220,7 +4220,12 @@
           "https://github.com/matthewdgreen/decipher/blob/2dace19a0309e08e9ea8e6c40af81c26f29276a3/README.md"
         ]
       },
-      "review_rank": 3
+      "review_rank": 3,
+      "original_draft_status": "proposed_unrun",
+      "status_override_evidence": "../m21-framing-capacity-v1/README.md",
+      "synthetic_ready": false,
+      "recorded_runs": 1,
+      "run_scope": "one disclosed synthetic exactness and limited-utility method pilot; no K4 target"
     },
     {
       "id": "N100-100",

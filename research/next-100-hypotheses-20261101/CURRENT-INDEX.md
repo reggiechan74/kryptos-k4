@@ -6,7 +6,7 @@ Generated from immutable draft plus CURRENT-STATUS.json; status overrides take p
 | --- | --- | --- | --- | --- |
 | 1 | [N100-079](methods.md#n100-079) | M01 | proposed_unrun | Counterexample-guided operator deduplication |
 | 2 | [N100-091](methods.md#n100-091) | M13 | proposed_unrun | Source-to-equation audit with proof obligations |
-| 3 | [N100-099](methods.md#n100-099) | M21 | proposed_unrun | Exact framing-capacity filters for variable-length codes |
+| 3 | [N100-099](methods.md#n100-099) | M21 | synthetic_method_validated_limited_utility | Exact framing-capacity filters for variable-length codes |
 | 4 | [N100-036](adaptive.md#n100-036) | A01 | blocked_prior_art_overlap_unresolved | Frequency-order alphabet coding |
 | 5 | [N100-065](encoding.md#n100-065) | C20 | target_tested_narrow_negative | Euler-trail local-successor queue reversal |
 | 6 | [N100-087](methods.md#n100-087) | M09 | proposed_unrun | Semantic negative-certificate transport |
