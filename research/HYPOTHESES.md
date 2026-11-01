@@ -18,6 +18,7 @@ Reconciled **1 November 2026**. **K4 remains unsolved here; the ongoing research
 | E01 / N100-044 conditional alphabet bank | Exact fixed-bank/start-Q target negative, independently verified. | [One-candidate evidence](e01-conditional-alphabet-v1/target-v1/README.md): 0/24 clues; both full outputs and re-encryptions agree. Source/synthetic history and exposure disclosure preserved. |
 | E02 / N100-045 reference-cursor rank | Exact one-candidate target negative, independently checked. | [Target evidence](e02-reference-cursor-v1/target-v1/README.md): 0/24 clues, dual full outputs/inverses and final states agree. Pre-run gate amendment and synthetic limits preserved. |
 | M21 / N100-099 framing-capacity method | Synthetic exactness / limited utility validated; no target model. | [Full pilot and controls](m21-framing-capacity-v1/README.md): 24,624 cases, 132 controls, zero mismatches/false pruning; 1,930 additional exclusions vs stronger length baseline, slower than cached oracle. Not a fourth K4 target or new cipher family; [C02 applicability limitation](m21-framing-capacity-v1/CURRENT-APPLICABILITY.md). |
+| Integrated puzzle-first instruction audit | Pending/design; no numerical execution or target admission. | [PUZZLE-INSTRUCTION-001](puzzle-instruction-discovery-v1/README.md): six remaining checks, prior finite components and physical blockers retained. Not a 101st original-catalog item or a completed test. |
 | Latest study064: recurrence-distance key clock | Exact bounded negative; scientific execution/audit complete; artifacts published. | [064](candidate-first-064/README.md): primitive AZ periods2–8; six periods inherit completed044 negative supersets (not rerun), onlyp5 newly evaluated by two independent solvers. All224blind plants retained;109unique/115ambiguous. |
 | Latest cipher batch: studies 060–063 (Q-06–Q-09) | Complete, independently audited and published; all four exact bounded domains have zero compatible K4 candidates. | [060](candidate-first-060/README.md): 208 distinct evolving-alphabet functions; [061](candidate-first-061/README.md): 160 sum-rotation structural cases; [062](candidate-first-062/README.md): 388 target maps / 3,104 Josephus descriptions; [063](candidate-first-063/README.md): AZ/KRYPTOS, periods 1–6, all 624 carry states. Not broad-family elimination. All 624 carry plants had 8–126 compatible plaintexts, not unique recovery. |
 | Tableau evidence audit (not a cipher experiment) | Closed without a supported new mechanism. | [810-cell audit](tableau-cell-audit-20261031/REPORT.md): 806 agreed letters (774 high-confidence, 32 tentative), one agreed unreadable and three disagreements. Four unresolved cells stay unfilled. Not proof of complete cyclicity; reopen only on better evidence or separately grounded semantics. |
@@ -30,8 +31,9 @@ Reconciled **1 November 2026**. **K4 remains unsolved here; the ongoing research
 
 | Order | Work item | Status / next discriminating action | Advance only when |
 | --- | --- | --- | --- |
-| 1 | C02 source/proof audit complete; operational gates remain | **No M21 capacity count; C02 untested/not excluded.** [Audit](c02-huffman-framing-audit-v1/README.md) finds inverse width capacity automatic, not codec compatibility. | Freeze independent adapter, unseen English utility policy/threshold, finite controls and resources before any experiment; no allocation or target admission. Three proposals target-tested, 97 target-unrun. |
-| 2 | Preserve completed scopes and blockers | E02/E01/C20 exact models closed; A01 prior-art-blocked; six original specification blocks remain. | No source/start/direction/alphabet rescue, recycled permissions or automatic next experiment. |
+| 1 | Integrated puzzle-first instruction-discovery source-audit plan | **Pending/design only.** Freeze finite evidence and coding rules, then obtain independent source-to-operation readings; [P1–P6](puzzle-instruction-discovery-v1/README.md) retain rejection/ambiguity gates. | Exact supported conventions/order, prior equivalence screening and separately frozen independent controls before any execution. No numerical run, physical parameter search or target admission. |
+| 2 | C02 source/proof audit complete; operational gates remain | **No M21 capacity count; C02 untested/not excluded.** [Audit](c02-huffman-framing-audit-v1/README.md) finds inverse width capacity automatic, not codec compatibility. | Freeze independent adapter, unseen English utility policy/threshold, finite controls and resources before any experiment; no allocation or target admission. Three proposals target-tested, 97 target-unrun. |
+| 3 | Preserve completed scopes and blockers | E02/E01/C20 exact models closed; A01 prior-art-blocked; six original specification blocks remain. | No source/start/direction/alphabet rescue, recycled permissions or automatic next experiment. |
 | — | Q-04: structure-aware stochastic search; Q-05: constrained neural scoring | **Not run; prerequisites absent.** These are methods, not new cipher families. [Original proposals and go/no-go criteria](HYPOTHESIS-HISTORY.md#historical-ranked-queue-and-current-eligibility). | A separately admitted, genuinely untried model has a demonstrated search or ranking bottleneck; equal-compute/source-disjoint controls show benefit without increased false selection. |
 
 **Admission rules:** A source-search no-hit is not an approved model or run. stronger-solver reruns, completing attempted searches and cosmetic parameter changes do not count as new hypotheses. Proposed-but-unrun mechanisms can qualify only after overlap and analytical-subsumption checks. “Not located in the inspected record” is not a worldwide novelty guarantee. Do not pad the queue when nothing qualifies. No marked-letter key search, uncertainty-as-key enumeration, rescue variant or automatic scope expansion follows from a negative result.
@@ -39,6 +41,8 @@ Reconciled **1 November 2026**. **K4 remains unsolved here; the ongoing research
 ## Research backlog annex
 
 **Next 100 research annex (1 November 2026):** [100 proposed hypotheses](next-100-hypotheses-20261101/README.md)—78 mechanism proposals and 22 falsifiable method experiments. The original drafts remain unchanged; C20, E01 and E02 have completed exact target tests with narrow negatives and the other 97 remain K4-target-unrun/unadmitted; six remain specification-blocked and [A01/N100-036 has unresolved prior-art overlap](next-100-hypotheses-20261101/CURRENT-STATUS.md). No A01 pilot is authorized. This annex does not replace the canonical execution queue or add 100 admitted families. Begin with its source/deduplication/inverse priorities, not 100 automatic target searches. [Integration provenance](next-100-hypotheses-20261101/PUBLICATION-NOTE.md).
+
+**Separate requested coverage addition:** [Integrated puzzle-first instruction discovery](puzzle-instruction-discovery-v1/README.md) is a pending mechanism-discovery workstream, not a renumbering of the original 100 drafts. Its six checks are planned, not run; existing finite puzzle-themed tests retain their original bounds.
 
 ## Required end-of-run reconciliation
 
@@ -52,7 +56,7 @@ Stable family IDs and the nine fields below are the canonical coverage records. 
 
 The deep source review has now been read and integrated. Its [evidence synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md) confirms navigation context but supplies no surveyed bearing, calibrated shadow mechanism or dated celestial observation. Those physical claims remain evidence-blocked; the separately frozen conditional pilots are not measurements. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
 
-The [current inventory specification](specifications/FRONTIER-CURRENT-20261101-E02-CLOSED.json) includes all 72 families without granting launch authority. The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the single next-action queue above controls current scheduling. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by completed studies 051–064 and the current public-prior-art eligibility decision above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
+The [current inventory specification](specifications/FRONTIER-CURRENT-20261101-PUZZLE-PLAN.json) includes all 73 families without granting launch authority. The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the single next-action queue above controls current scheduling. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by completed studies 051–064 and the current public-prior-art eligibility decision above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
 
 ### Status vocabulary
 
@@ -65,7 +69,7 @@ The [current inventory specification](specifications/FRONTIER-CURRENT-20261101-E
 
 ### Index
 
-All **72 stable families**, grouped by current status; records below are alphabetical. A family can contain completed finite tests and unresolved broader scope. Read its full fields before interpreting its label.
+All **73 stable families**, grouped by current status; records below are alphabetical. A family can contain completed finite tests and unresolved broader scope. Read its full fields before interpreting its label.
 
 **evidence-blocked — 16 families**
 
@@ -95,9 +99,11 @@ All **72 stable families**, grouped by current status; records below are alphabe
 
 No family currently carries this label. An empty group does not admit the research lead above.
 
-**specified but not run — 0 families**
+**specified but not run — 1 family**
 
-No family currently carries this label. The unrun proposal annex does not itself admit a new family.
+| Stable ID | Current status | Mechanism |
+| --- | --- | --- |
+| [H-PUZZLE-INSTRUCTION-DISCOVERY](#h-puzzle-instruction-discovery) | specified but not run | Source-supported ordered instruction discovery, separate decode and post-decode branches; pending evidence/control gates. |
 
 **non-identifiable — 10 families**
 
@@ -832,6 +838,18 @@ Each entry separates tested bounds from untested scope, missing inputs and the n
 - Next discriminating test: Audit exact overlap first; test only a materially distinct frozen model with planted controls and non-fit checks.
 - Dependencies: Canonical ciphertext and fixed one-based crib positions; no live Site dependency
 - Results: [retained evidence and finite coverage](FIXED-PILOT-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result.
+
+### H-PUZZLE-INSTRUCTION-DISCOVERY
+
+- Status: specified but not run
+- Mechanism: Test whether independently documented earlier-section text, deliberate anomalies or physical arrangement supplies an ordered, reproducible instruction recipe for decoding K4, rather than merely suggesting cipher keywords. Treat instructions to interpret or act on a future decoded message as a separate post-decryption branch, not a substitute for a cipher mapping.
+- Evidence: [Designer vocabulary and pencil-and-paper study](../docs/designer-context.md) already proposes this perspective; it is not a newly invented approach. [Integrated work plan](puzzle-instruction-discovery-v1/README.md) adds a bounded evidence-to-instruction audit and explicit admission gates. Material symbolism and suggestive language are motivations unless an operational bridge is independently supported. User requested remaining work be added to hypotheses/tests on 1 November 2026; this records a plan, not execution authority.
+- Tested scope: No integrated instruction-discovery protocol has been run under this ID. Existing finite components remain covered by FACE-ROW-001, ENE-ROUTE-049, HAND-GRAMMAR-050, K3-CLOCK-ROUTES-001 and FOLD-SLIDE-2D-001, with their original limitations. Read their findings rather than re-enumerating variants. Closest external records include EXT-012/013/027/028/029/034/035/037; existing records are overlap leads, not a completed fresh eligibility review.
+- Untested scope: Independently coded clue-to-operation links, source-supported operation ordering, distinct decoding versus post-decoding instruction chains, and fresh controlled evaluation of any genuinely distinct fully specified recipe. No worldwide novelty claim or generic exclusion follows from absent local coverage.
+- Missing inputs: A pinned finite evidence inventory and coding manual; independently recorded coding decisions; explicit recipe conventions and inverses; evidence-disjoint predictions or honestly labeled controls; dated targeted prior-art review of each exact proposed recipe. Physical mechanisms additionally need independently measured geometry/time/registration, not invented coordinates.
+- Next discriminating test: Documentation/source audit first: freeze the inventory and coding rules, obtain two independent source-to-operation readings, retain disagreements and require exact supported agreement on every parameter and operation order before proposing a recipe. If no unambiguous novel recipe survives, close this audit as insufficient evidence without running K4.
+- Dependencies: Existing H-DELIBERATE-SPELLING, H-GLYPH-VIEW, H-K3-COMPOSITE-PERIODIC, H-K3-SANDWICH, H-ROUTE, H-COMPASS-FRAMES, H-COMPASS-REVERSE, H-OPTICAL and H-SHADOW-TIME records; local/external exact-equivalence and analytical-subsumption gates; future frozen synthetic protocol and independent audit. No target admission, additional schedule, geometry search, marked-letter enumeration or rescue expansion follows from this entry.
+- Results: Pending design only. [Plan PUZZLE-INSTRUCTION-001](puzzle-instruction-discovery-v1/README.md); no pilot, candidate, numerical result or run receipt exists. Existing component negatives retain only their original finite scopes.
 
 ### H-RADIX-FEEDBACK
 

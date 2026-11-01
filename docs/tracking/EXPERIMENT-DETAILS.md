@@ -2788,3 +2788,21 @@ No target ciphertext read/transform, synthetic message batch, M21 execution, emp
 **Lesson / next:** test the applicability and utility of a validated tool before spending on a target application. C02 itself is not excluded. The independent-adapter/unseen-English utility gate, generator, predeclared threshold, finite controls and budget remain to be frozen and reviewed. No experiment or target admitted; original 100 drafts and 72 canonical families unchanged, three target-tested and 97 target-unrun.
 
 Related files: [research/c02-huffman-framing-audit-v1/README.md](../../research/c02-huffman-framing-audit-v1/README.md).
+
+## LOG-311893409D
+
+**Pending coverage plan — PUZZLE-INSTRUCTION-001 (not a run)**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: documentation and proposal. Outcome: Pending coverage plan only; all six checks unrun, no numerical result or target admission
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**Documentation addition, 1 November 2026.** [Integrated puzzle-first instruction discovery](../../research/puzzle-instruction-discovery-v1/README.md) records unfinished source-led mechanism discovery as H-PUZZLE-INSTRUCTION-DISCOVERY. Existing carved-row, ENE route, hand-grammar, K3/clock, fold-slide and tableau studies retain their stated coverage; this does not reopen or rerun their variants.
+
+All six checks are pending: P1 finite evidence/exposure inventory; P2 independent clue-to-operation coding; P3 source-supported ordered recipe register; P4 exact prior-equivalence/impossibility screen; P5 prospective independent validation and selection-level controls; P6 separate admission decision. Decode and post-decode interpretations are distinct. Unknown geometry, uncertain letters, metaphor or unsupported order cannot become fitted parameters. Zero supported recipes is a valid stopping result.
+
+No pilot, target command, numerical result, completed-experiment receipt, fresh web search or resource allocation is claimed. The original 100 drafts remain unchanged, with three target-tested and 97 target-unrun; 72 existing family bodies are preserved and the new 73rd is specified but not run. C02 remains untested with operational gates pending. Only separately reviewed evidence/protocol gates can move any proposed recipe toward execution.
+
+Related files: [research/puzzle-instruction-discovery-v1/README.md](../../research/puzzle-instruction-discovery-v1/README.md).

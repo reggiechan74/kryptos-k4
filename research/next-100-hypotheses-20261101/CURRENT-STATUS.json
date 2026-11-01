@@ -63,10 +63,11 @@
       "evidence": "../c02-huffman-framing-audit-v1/README.md"
     }
   ],
-  "next_source_proof_candidate": "N100-047",
+  "next_source_proof_candidate": null,
   "next_candidate_execution_authorized": false,
-  "next_action": "C02 source/proof audit complete; no M21 capacity-count experiment. Operational synthetic utility/independent-adapter gates remain unfrozen, no budget or execution authority. C02 is not excluded.",
+  "next_action": "Separate integrated puzzle-first source-audit plan pending per canonical queue; no execution. C02 source/proof complete but operational gates remain pending, no M21 capacity count or target admission.",
   "target_source_review_passed": true,
   "target_tested_proposals": 3,
-  "target_unrun_proposals": 97
+  "target_unrun_proposals": 97,
+  "next_source_plan": "PUZZLE-INSTRUCTION-001 (separate coverage plan, outside original100)"
 }

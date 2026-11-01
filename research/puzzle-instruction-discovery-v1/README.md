@@ -1,0 +1,44 @@
+# Integrated puzzle-first instruction discovery — design only
+
+**Family:** H-PUZZLE-INSTRUCTION-DISCOVERY. **Plan:** PUZZLE-INSTRUCTION-001. **State:** pending/design, not run. **Purpose:** cover remaining instruction-discovery work without repeating known puzzle-themed cipher sweeps. This is a separate research addition, not a renumbering of the original 100 proposals. The canonical ledger's single queue determines scheduling; this document does not grant a target run.
+
+### Question and competing outcomes
+
+Can a finite, independently sourced collection of K1–K3 wording, confirmed anomalies, construction/layout observations and material context specify a short ordered operation recipe *before* inspecting K4 output? Distinguish:
+
+1. **Decode branch:** a complete reproducible mapping with fixed alphabet, indexing, key source, stage order, length handling and inverse.
+2. **Post-decode branch:** an independently testable instruction about interpreting a decoded message or an external referent. This cannot generate a plaintext by narrative plausibility or claim to solve the cipher. Without a verified decoded message or independent external test, mark it blocked.
+3. **No supported recipe:** an acceptable audit outcome. Ambiguous metaphors, missing coordinates and unsupported ordering do not become free parameters.
+
+The earlier [designer study](../../docs/designer-context.md) already advocates a manual workshop and source-led construction. This workstream strengthens integrated evidence accounting rather than claiming the perspective was absent.
+
+### Coverage we must not repeat
+
+| Existing record | Verified bounded coverage | Still not established |
+| --- | --- | --- |
+| [FACE-ROW-001](../CONDITIONAL-FACE-LAMP-FINDINGS.md) | Actual carved-row reversal: 92 new horizontal-row models after skipping 280 covered models; zero full 24-clue fits. | Rear viewing does not uniquely imply sequence reversal; no measured physical viewing model. |
+| [ENE-ROUTE-049](../ENE-ROUTE-049-FINDINGS.md) | 34,569 distinct finite permutations / 656,811 route-arithmetic operators; no full clue survivor. Literal 2:1 and fixed digital ENE rules are distinct. | Neither a surveyed compass relation nor every interpretation of a direction. |
+| [HAND-GRAMMAR-050](../HAND-GRAMMAR-050-FINDINGS.md) | 56,355 descriptions, depth 0–3; 27,323 distinct complete fixed-key operators; zero full clue matches. | Not all hand ciphers, keys or instruction sequences. Increasing depth or changing keywords is not novelty. |
+| [K3-CLOCK-ROUTES-001](../K3-CLOCK-ROUTE-FINDINGS.md) | 374 new structures (4 K3-composite, 2 sandwich, 368 clock), none compatible; K3 known-answer reconstruction verified. | Does not establish a unique historical worksheet or eliminate all clock interpretations. |
+| [FOLD-SLIDE-2D-001](../FOLD-SLIDE-2D-FINDINGS.md) | 7,638 integer frames, 7,150 active; no unusual label/surrogate coincidence signal under recorded whole-search controls. | Transcript coincidence, not measured optical decryption. Unknown aperture/pose/light geometry remains blocked. |
+| [810-cell tableau evidence audit](../tableau-cell-audit-20261031/REPORT.md) | Source audit closed without supported new mechanism; unresolved cells remain unresolved. | Do not turn uncertain cells into selectable keys or re-open without new evidence or independently grounded semantics. |
+
+Compass frames, shadows, celestial timing and dated clock registration retain their separate evidence blockers in the canonical ledger. A material's symbolic meaning—including petrified wood—does not establish a letter operation. Do not infer coordinates, dimensions, clock phases or observer positions to obtain a fit.
+
+### Remaining checks (all pending; no test receipts)
+
+**P1 — Freeze evidence and exposure inventory.** Make a finite manifest of exact public source pins, quotations/observations and uncertainties for K1–K3 wording, anomalies/corrections, layout and material symbolism. Separate contemporary evidence, later creator statements, solver interpretations and unsupported claims. Retain original/restored transcription variants explicitly. Record which K4 clues and earlier outcomes the designers have already seen. Stop collection at the frozen manifest boundary; later evidence requires a versioned amendment, not silent selection.
+
+**P2 — Independently code clues into operations.** Before authoring recipes, freeze a coding manual: literal source item, proposed action, object acted upon, direction/order cue, required convention, evidence tier, alternative reading, and decode/post-decode branch. Two reviewers work without seeing each other's mapping or candidate K4 outputs. Existing K4 knowledge must be disclosed, not called blind. Compare full mappings, including rejected/ambiguous items. An instruction advances only if independent readings support the same exact operation and every required convention; reconciliation cannot choose the reading with a better target score. Failure or disagreement means ambiguous/evidence-blocked, not a search over alternatives.
+
+**P3 — Construct a small frozen recipe register.** Build only recipes whose operation order and parameter values are justified by the pinned evidence. Set a finite candidate cap and maximum recipe length before construction, justified as an audit budget rather than a universal model boundary. Do not fill the quota. Record one full recipe, all aliases, source for each step, predicted observation not used to choose it, inverse/length alignment, and explicit rejection condition. Reject recipes requiring fitted width, phase, orientation, unsourced numerical conversion or unspecified key. Post-decode interpretations need their own measurable prediction and cannot substitute for the decode branch.
+
+**P4 — Exact prior-equivalence and impossibility screen.** Compare operators—not titles—to the linked local tests, invariants and external records EXT-012, EXT-013, EXT-027–029, EXT-034, EXT-035 and EXT-037. Re-read their pinned primary material and perform a dated targeted web/repository search for each exact surviving recipe. Log queries, hits, pins, source/model/result evidence levels, and alias/subset/superset relationships. Pure permutation must respect the existing letter-multiset exclusion; material/clock routes and decoded key chains are not inherently new. Prior-scope uncertainty blocks admission, rather than proving novelty. No fresh public search is claimed by this design document.
+
+**P5 — Freeze independent validation before any pilot.** For each eligible recipe, independently implement its forward/inverse operations. Use newly generated hidden synthetic plants, incompatible controls and competing instruction/decoy controls, with the full recipe-selection process applied equally to controls. Exact inverses and reference implementations must agree throughout the declared finite domain; every prescribed planted case must recover its hidden output; no known-incompatible case may be accepted. Freeze control counts, generator, finite bounds, resource limits, success/ambiguity/timeout rules and any utility threshold *before* outcomes. Test whether instruction evidence distinguishes the intended recipe from alternatives; if controls show equal applicability, record non-identifiability even when the cipher code is correct. Known K1–K3 reconstructions are calibration only, not fresh discovery evidence. Previously observed K4 clues/results cannot be relabeled held-out data. If a genuinely unexposed external observation is unavailable, say so and do not claim an evidential holdout.
+
+**P6 — Admission decision, not automatic target run.** Independent review must confirm a complete recipe, prior-art eligibility, identifiability and protocol/control gates. A source-led mechanism that survives can be proposed separately for authorized target evaluation. Any future target protocol must preserve all 97 ciphertext letters and canonical clue positions or establish an explicit global alignment; require all 24 public clues and full re-encryption for a survivor, and independent evidence beyond a plausible sentence before claiming solution. No target command is part of this plan. A rejection does not authorize widening the recipe, mining another synonym or fitting a new physical frame.
+
+### Closeout and stopping conditions
+
+The evidence audit closes when every frozen source item has a recorded disposition and every proposed recipe is either duplicate/excluded, ambiguous/blocked, or ready for a separately reviewed pilot. Zero recipes is a valid result. Pilot completion and K4-target completion are separate milestones, not implied by finishing source work. Reconcile HYPOTHESES.md, the experiment log's pending-plan note, external overlap records and generated navigation; retain failed mappings and amendments. Log a future execution only after it actually happens.
