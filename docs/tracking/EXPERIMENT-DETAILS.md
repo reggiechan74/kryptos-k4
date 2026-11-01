@@ -2710,3 +2710,23 @@ Known child/timeout CPU 0.177131 plus supervisor 0.104766 = 0.281897 seconds; wa
 **Lesson / next:** invertibility and successful synthetic controls do not imply K4 compatibility; preserve the fixed-policy diagnostic and source omissions. No corpus/tie/start/offset rescue. Add the exact H-CONDITIONAL-ALPHABET-BANK as family71, preserving prior70 bodies and original100 draft; two proposals target-tested narrowly negative, 98 target-unrun. A01 remains blocked. Select unrelated source/proof work before any new admission; no next target granted.
 
 Related files: [research/e01-conditional-alphabet-v1/target-v1/README.md](../../research/e01-conditional-alphabet-v1/target-v1/README.md).
+
+## LOG-8811F249BF
+
+**METHOD-E02-014 — reference-cursor disclosed implementation checks**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: synthetic method validation. Outcome: 22,230 tiny cases, 20,020 source cells and 48 disclosed plants passed; not blind/target evidence
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**1 November 2026 — synthetic implementation validation, not blind recovery or K4 evidence.** [Source audit, fixed policy, pre-run amendment, exact evidence and independent artifact readback](../../research/e02-reference-cursor-v1/REPOSITORY-STATUS.md). One frozen invocation passed 22,230 tiny cases, 20,020 real-reference one-step cells and 48 disclosed length-97 plants between independent scanning and indexed implementations. Wrong-reference plaintext mismatches: reversed 48/48, AZ-only 47/48, wrong-start 15/48; respective coincidences 0/1/33 retained. Descriptive diagnostics, not p-values or calibrated rejection. Full-size transcripts retained; toy/cell evidence is assertion counts. Null raw decoded text was not retained, so independent readback recounted stored flags, not independently decoded controls.
+
+The zero-fit operator's catalog blind-plant gate was explicitly amended before execution to independent exhaustive/transition/disclosed consistency checks. The original catalog is immutable historical evidence; no blind PASS or post-result weakening claimed. A source-search snippet displayed K4 text after source/table freeze; no E02 target transformation followed. Next-occurrence book-cursor prior art is acknowledged; rank coding/advance-past convention is incremental, not a novel primitive. Reference 770 positions / 746 distinct alphabets is not a proved minimized-state count.
+
+Known aggregate CPU 6.594916 seconds excludes final receipt serialization/exit tail; wall 6.477682 seconds, child peak RSS 40,832 KiB. Nominal 120 = 60 pilot + 60 source/review, not measured project consumption; no retry/refunded permission. Original runtime source/pins and historical generic paths remain evidence, not current launch authority.
+
+**Lesson / next:** preserve null coincidences and prospective admission changes; disclosed consistency supports software only, not historical intent or model identification. Exact one-candidate target proposal suggests 10 nominal seconds but has later 10 nominal seconds allocated (5+5), but source/static review passed and final execution grant remains pending. No target or automatic variants. All 71 canonical family bodies/original 100 specifications unchanged; two target-tested and 98 unrun, A01 blocked.
+
+Related files: [research/e02-reference-cursor-v1/REPOSITORY-STATUS.md](../../research/e02-reference-cursor-v1/REPOSITORY-STATUS.md).

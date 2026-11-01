@@ -1,0 +1,31 @@
+{
+  "archive_members": {
+    "independent-review/RESULT-READBACK.json": "fe20f84c0278dd2bca21c6dd3bcfa456d56a0feb3c943f19ae9fc14c151c88ae",
+    "independent-review/RESULT-READBACK.md": "6e961778b963052bde2cf0c5feef346ee7a120e3122a8bbba15bb73e67392d63",
+    "independent-review/REVIEW.json": "70ec610ddc892be57e797978b187a6fbe27b198ba437283ec11c6aee6964dec1",
+    "independent-review/REVIEW.md": "c11bcf0418b8951e890177ec9fe64644ad256da4745a978a732026438d8822e5",
+    "source-audit/REFERENCE.json": "37528a68346b873e321a37f77289517ec62189ba206be9112c01ed7cff9b01c8",
+    "source-audit/SEARCH-RECEIPT.json": "24e6223c3835fef8aca73800d0049047ccc36ca233501c469cc425fa52be1eb4",
+    "source-audit/SOURCE-POLICY.json": "619ccacdf03fddc3f15d7dbf1f8cf4382654ccd7a3cecbe1e9b478895d6f3e84",
+    "source-audit/SOURCE-RECEIPTS.json": "c7460902d40e0004a261aaefef7134697f12055f27858611a981ea97379ffaa2",
+    "source-audit/STATIC-CERTIFICATE.json": "05a5ac5b8f6c002e5b1fab2a99aefc82c492a838043ee7372d13ce5db9d3db94",
+    "source-audit/static_source_audit.py": "dd084a0218584a872dc2d8de69665d6e907285a7b2f1b35e66b508292cd52e23",
+    "synthetic/external-receipt.json": "869d64f10cded47c78bec4316a4c5493ab0ddf336e9d6042bf1ab104e37b26b9",
+    "synthetic/freeze/EXECUTION.json": "878fd410f67343a6760919d09d565e52afcd84c4e87874967f81b3080c43350a",
+    "synthetic/freeze/FREEZE.json": "a8c53ba61e4c9d2e57220226afa0e68794e5f1b41d4ad7d9c52e37d3e4697c77",
+    "synthetic/freeze/GATE-AMENDMENT.json": "1baa407dd744c44d3aa9fa4ce321c99bd6a148460282b9888d3cf95f7def6fa8",
+    "synthetic/freeze/PILOT-PROTOCOL.md": "e752b2649f9ae8bad136c525cc8ba91efa87176398702f9c188539c072585372",
+    "synthetic/freeze/corpus.json": "5ce4f2d39ea6a6f2eb70474b41fdb7ee7febacc7bf9d7c34ade17e39d31323f0",
+    "synthetic/freeze/make_corpus.py": "981d6657050a789037a14a680b46d4e9890f079a3815d1df7be2f04ea4c058f6",
+    "synthetic/freeze/production.py": "4fd57f1e48036d593bd575d5e5e8f031230ef4fe3dd838f06137885954ea2c9f",
+    "synthetic/freeze/reference.py": "88c05d84e6de95be2fb7d75dfe2e37f4014952e155b83f5f0642fe7699ca82b7",
+    "synthetic/freeze/run.py": "4c72ae4385b93a01be1bbcdba29a541c72a27e16b52a0c62ad8932909e2fa154",
+    "synthetic/freeze/source-policy.json": "619ccacdf03fddc3f15d7dbf1f8cf4382654ccd7a3cecbe1e9b478895d6f3e84",
+    "synthetic/freeze/source-reference.json": "37528a68346b873e321a37f77289517ec62189ba206be9112c01ed7cff9b01c8",
+    "synthetic/freeze/supervise.py": "3881d288716e46b5d24fc68438298ec11ae48eedab3c493a96edf9478307aa36",
+    "synthetic/result/CASES.json": "6ca484295633ae6fbe5287d6c8b01c5f6f84e590cb39354878e46f1c0417318b",
+    "synthetic/result/REPORT.json": "90c9c0b08f7c13034fdbde593366e513bbdd924fe166ab7e21176737ff7ed29a"
+  },
+  "excluded": "Third-party cached full code/writeup bodies excluded. SOURCE-RECEIPTS contains pins only; public URLs and scoped comparisons in SOURCE-AUDIT.md. No private conversations, credentials or personal account data included.",
+  "historical_runtime_paths": "Historical runtime manifests retain generic local workspace paths; not portable execution authority."
+}

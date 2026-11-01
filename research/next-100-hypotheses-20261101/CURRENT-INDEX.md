@@ -89,7 +89,7 @@ Generated from immutable draft plus CURRENT-STATUS.json; status overrides take p
 | 83 | [N100-042](adaptive.md#n100-042) | A07 | proposed_unrun | Patience-pile alphabet coding |
 | 84 | [N100-043](adaptive.md#n100-043) | A08 | proposed_unrun | Young-tableau promotion alphabet |
 | 85 | [N100-044](evidence.md#n100-044) | E01 | target_tested_narrow_negative | Earlier-section conditional-frequency permutation bank |
-| 86 | [N100-045](evidence.md#n100-045) | E02 | proposed_unrun | Circular earlier-text next-occurrence rank cursor |
+| 86 | [N100-045](evidence.md#n100-045) | E02 | synthetic_validated_target_not_admitted | Circular earlier-text next-occurrence rank cursor |
 | 87 | [N100-050](encoding.md#n100-050) | C05 | specification_blocked | Self-generated straight-line grammar code |
 | 88 | [N100-051](encoding.md#n100-051) | C06 | proposed_unrun | Asymmetric numeral-state coding |
 | 89 | [N100-052](encoding.md#n100-052) | C07 | proposed_unrun | Inverted occurrence-gap code |

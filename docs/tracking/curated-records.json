@@ -1061,6 +1061,14 @@
       ],
       "outcome": "Fixed source-bank/start-Q candidate negative: 0/24 clues; no broader bank exclusion",
       "basis": "Independent target outcome and full reference/round-trip flags, exact one-candidate scope and no retuning."
+    },
+    "LOG-8811F249BF": {
+      "title": "METHOD-E02-014 \u2014 reference-cursor disclosed implementation checks",
+      "categories": [
+        "synthetic method validation"
+      ],
+      "outcome": "22,230 tiny cases, 20,020 source cells and 48 disclosed plants passed; not blind/target evidence",
+      "basis": "Pre-run gate amendment and artifact-only outcome readback; all null coincidences and missing raw null outputs disclosed."
     }
   }
 }

@@ -31,11 +31,21 @@
       "runs": 2,
       "run_scope": "one synthetic correctness invocation plus one fixed-candidate target invocation",
       "evidence": "../e01-conditional-alphabet-v1/target-v1/README.md"
+    },
+    {
+      "id": "N100-045",
+      "draft_id": "E02",
+      "status": "synthetic_validated_target_not_admitted",
+      "synthetic_ready": false,
+      "target_admission": "not_admitted",
+      "runs": 1,
+      "run_scope": "one disclosed synthetic implementation pilot under explicit pre-run blind-gate amendment; zero target runs",
+      "evidence": "../e02-reference-cursor-v1/REPOSITORY-STATUS.md"
     }
   ],
   "next_source_proof_candidate": null,
   "next_candidate_execution_authorized": false,
-  "next_action": "E02 reference-cursor rank source/proof audit active; eligibility unknown, no experimental allocation or execution admission.",
+  "next_action": "E02 target10nominal seconds allocated5+5; exact source freeze/static review passed, final target grant pending, target unrun.",
   "target_source_review_passed": true,
   "target_tested_proposals": 2,
   "target_unrun_proposals": 98

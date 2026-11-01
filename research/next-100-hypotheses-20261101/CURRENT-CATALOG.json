@@ -2392,7 +2392,7 @@
       "draft_id": "E02",
       "group": "evidence",
       "type": "mechanism",
-      "status": "proposed_unrun",
+      "status": "synthetic_validated_target_not_admitted",
       "novelty_status": "exact_scope_review_pending",
       "target_admission": "not_admitted",
       "specification": {
@@ -2450,7 +2450,12 @@
         "priority": "Low speculative; more mechanically concrete than unsupported geometry, but no physical or archival endorsement.",
         "estimated_cost": "Source freeze and operator audit first; proposed tiny-oracle/synthetic pilot cap60 CPU seconds after an exact protocol is frozen. One deterministic97-symbol decoder is specified, but target feasibility and authorization are separate and no timing has been measured."
       },
-      "review_rank": 86
+      "review_rank": 86,
+      "original_draft_status": "proposed_unrun",
+      "status_override_evidence": "../e02-reference-cursor-v1/REPOSITORY-STATUS.md",
+      "synthetic_ready": false,
+      "recorded_runs": 1,
+      "run_scope": "one disclosed synthetic implementation pilot under explicit pre-run blind-gate amendment; zero target runs"
     },
     {
       "id": "N100-046",

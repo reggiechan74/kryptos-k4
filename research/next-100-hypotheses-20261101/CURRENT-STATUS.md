@@ -33,3 +33,7 @@ Historical next-task stage: E01 was source/proof-only. The later synthetic close
 [One-candidate target evidence](../e01-conditional-alphabet-v1/target-v1/README.md) independently closes the fixed source bank/start Q/output AZ model: 0/24 clues, full independent outputs and both re-encryptions agree. This supersedes earlier E01 target-unrun/preparation wording only; the original catalog and synthetic evidence stay preserved. No broad bank exclusion, retuning or next execution grant. A01 remains blocked.
 
 Current next source-review task: E02 reference-cursor rank. Audit active, eligibility unknown; no experimental allocation or synthetic/target admission.
+
+## Later E02 synthetic closeout — 1 November 2026
+
+[E02/N100-045 evidence](../e02-reference-cursor-v1/REPOSITORY-STATUS.md): 22,230 tiny cases, 20,020 source cells and 48 disclosed plants passed. Wrong-reference mismatch counts 48/48, 47/48 and 15/48 retain coincidences; diagnostic only, no p-value. The original blind gate was explicitly amended before execution to independent exhaustive/transition/disclosed checks, not passed blind or silently rewritten. A source-search snippet exposed K4 text; no E02 target transformation followed. Target later allocated 10 nominal seconds (5+5), source/static review now passed, execution unadmitted; original100 specifications unchanged, two target-tested/98 target-unrun.
