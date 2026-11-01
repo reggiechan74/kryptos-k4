@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "packet": "P1-evidence-v1",
+  "family": "H-PUZZLE-INSTRUCTION-DISCOVERY",
+  "frozen_at_utc": "2026-11-01T14:22:07.988230+00:00",
+  "scope": "Source inventory/static provenance only; no P2 or scientific execution",
+  "manifest_scope": "All package payload files listed; manifest excludes itself. Digest of manifest supplied in handoff. Hashes authenticate this paraphrase/metadata packet, not unarchived linked webpages.",
+  "files": [
+    {
+      "path": "CANONICAL-PINS.json",
+      "bytes": 1349,
+      "sha256": "a3c33301c642028a71b88b85a8a9338b4162f563928936814c38f093f1e66da1"
+    },
+    {
+      "path": "INVENTORY.md",
+      "bytes": 18955,
+      "sha256": "b2a050e244c3bf99b76a38ad4732dbc6e8c94e219f200cccb1f20f3f103ee7de"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1945,
+      "sha256": "7071b26d47cf4bae1663bf13d84b7f07ccdbc9f20bda21059ffab4e0baa8f29e"
+    },
+    {
+      "path": "SOURCE-RECEIPTS.json",
+      "bytes": 9483,
+      "sha256": "fe8cd3524ba90a82c14fa6b1385a17d720170540198a3af95d383973842e6a32"
+    },
+    {
+      "path": "STATIC-REVIEW.md",
+      "bytes": 4053,
+      "sha256": "734a431af89da9dd43b2c34641fd3ec4adacbcca602556096c403e903b772a36"
+    }
+  ]
+}

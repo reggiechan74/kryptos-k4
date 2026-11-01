@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "corpus_version": "P1-evidence-v1",
+  "artifact_count": 16,
+  "collection_window_utc": "2026-11-01 approximately 14:12\u201314:18",
+  "boundary": "No new source collection after inventory draft; no P2 mappings, recipes or cryptanalytic execution",
+  "source_statuses": [
+    {
+      "id": "P1-S01",
+      "source_url": null,
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": true,
+      "access_status": "local_fixture_authenticated_against_published_blob",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S01",
+      "inventory_section_id": "P1-S01"
+    },
+    {
+      "id": "P1-S02",
+      "source_url": "https://www.elonka.com/kryptos/transcript.html",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S02",
+      "inventory_section_id": "P1-S02"
+    },
+    {
+      "id": "P1-S03",
+      "source_url": "https://www.elonka.com/kryptos/CorrectedK2Announcement.html",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S03",
+      "inventory_section_id": "P1-S03"
+    },
+    {
+      "id": "P1-S04",
+      "source_url": "https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/cia-kryptos-sculpture/doc_2.pdf",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S04",
+      "inventory_section_id": "P1-S04"
+    },
+    {
+      "id": "P1-S05",
+      "source_url": "https://www.elonka.com/kryptos/part3.html",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S05",
+      "inventory_section_id": "P1-S05"
+    },
+    {
+      "id": "P1-S06",
+      "source_url": "https://www.thekryptosproject.com/tjp/observations/k3_method.php",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S06",
+      "inventory_section_id": "P1-S06"
+    },
+    {
+      "id": "P1-S07",
+      "source_url": "https://www.thekryptosproject.com/media/transcripts/pdfs/1991a.pdf",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S07",
+      "inventory_section_id": "P1-S07"
+    },
+    {
+      "id": "P1-S08",
+      "source_url": "https://www.thekryptosproject.com/media/transcripts/pdfs/1991c.pdf",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S08",
+      "inventory_section_id": "P1-S08"
+    },
+    {
+      "id": "P1-S09",
+      "source_url": "https://www.thekryptosproject.com/kryptos/cia/letter.php",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S09",
+      "inventory_section_id": "P1-S09"
+    },
+    {
+      "id": "P1-S10",
+      "source_url": "https://www.thekryptosproject.com/media/foia/pdfs/cia/C00042168.pdf",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "unavailable_this_pass_prior_review_only",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S10",
+      "inventory_section_id": "P1-S10"
+    },
+    {
+      "id": "P1-S11",
+      "source_url": "https://www.thekryptosproject.com/media/foia/pdfs/cia/C00042166.pdf",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "unavailable_this_pass_prior_review_only",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S11",
+      "inventory_section_id": "P1-S11"
+    },
+    {
+      "id": "P1-S12",
+      "source_url": "https://www.cia.gov/legacy/headquarters/kryptos-sculpture/",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S12",
+      "inventory_section_id": "P1-S12"
+    },
+    {
+      "id": "P1-S13",
+      "source_url": "https://www.wired.com/2005/01/questions-for-kryptos-creator/",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S13",
+      "inventory_section_id": "P1-S13"
+    },
+    {
+      "id": "P1-S14",
+      "source_url": "https://www.wired.com/2005/01/inside-info-on-kryptos-codes/",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S14",
+      "inventory_section_id": "P1-S14"
+    },
+    {
+      "id": "P1-S15",
+      "source_url": "https://www.aaa.si.edu/collections/interviews/oral-history-interview-jim-sanborn-15700",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S15",
+      "inventory_section_id": "P1-S15"
+    },
+    {
+      "id": "P1-S16",
+      "source_url": "https://mathweb.ucsd.edu/~crypto/Projects/IrinaDubova/Mynotes.htm",
+      "scope": "Only the stated content and boundaries in INVENTORY.md; not every assertion on the linked page",
+      "raw_source_bytes_currently_authenticated": false,
+      "access_status": "fresh_text_extraction_read_no_current_raw_byte_pin",
+      "retrieval_date_utc": "2026-11-01",
+      "source_location": "INVENTORY.md section P1-S16",
+      "inventory_section_id": "P1-S16"
+    }
+  ],
+  "historical_hash_warning": "18 October hashes are earlier reported downloaded-byte pins, not verified equality with current pages. URLs alone are not immutable pins.",
+  "fresh_extraction_pins": [
+    {
+      "id": "P1-S09",
+      "representation": "retrieved Markdown including navigation and terminal newline; original HTTP bytes not authenticated",
+      "sha256": "0579f91a74d2a92fc2cf585c94b70d991fa162a8ed652f16efd8263ee21e709f",
+      "bytes": 16479
+    },
+    {
+      "id": "P1-S15",
+      "representation": "retrieved Markdown including navigation and terminal newline; original HTTP bytes not authenticated",
+      "sha256": "29e8e71aa8ed9171238a8b6a87a51ace387003c7adc46c1f83ac476954a94418",
+      "bytes": 328144
+    },
+    {
+      "id": "P1-S16",
+      "representation": "retrieved Markdown including navigation and terminal newline; original HTTP bytes not authenticated",
+      "sha256": "c27e296296e3cdc871cd272ad0d8991811833a648b22a95df4a870ae6ea9e80a",
+      "bytes": 14519
+    }
+  ],
+  "redistribution": "Full third-party extraction snapshots are not included; publish paraphrases, anchors, receipt metadata and exclusions only."
+}

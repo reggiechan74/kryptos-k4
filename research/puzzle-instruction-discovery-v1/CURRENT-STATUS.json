@@ -1,0 +1,40 @@
+{
+  "plan_id": "PUZZLE-INSTRUCTION-001",
+  "family_id": "H-PUZZLE-INSTRUCTION-DISCOVERY",
+  "state": "P1_source_inventory_accepted_P2_to_P6_pending",
+  "scope": "integrated evidence-to-instruction discovery plan, separate from original100",
+  "experiment_executed": false,
+  "target_admitted": false,
+  "run_receipts": [],
+  "checks": [
+    {
+      "id": "P1",
+      "status": "accepted_bounded_source_inventory",
+      "evidence": "p1-evidence-v1/README.md"
+    },
+    {
+      "id": "P2",
+      "status": "pending"
+    },
+    {
+      "id": "P3",
+      "status": "pending"
+    },
+    {
+      "id": "P4",
+      "status": "pending"
+    },
+    {
+      "id": "P5",
+      "status": "pending"
+    },
+    {
+      "id": "P6",
+      "status": "pending"
+    }
+  ],
+  "original_catalog_unchanged": true,
+  "historical_plan_status": "STATUS.json",
+  "current_evidence": "p1-evidence-v1/PACKET-MANIFEST.json",
+  "next_stage_started": false
+}

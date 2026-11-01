@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "scope": "Static source/canonical-byte authentication only; no cipher execution",
+  "retrieved_at_utc": "2026-11-01T14:19:30.589266+00:00",
+  "repository": "reggiechan74/kryptos-k4",
+  "ref": "e2f4a1e24acdc8bcd319f01b68fd51afbc924ce3",
+  "method": "GitHub connector fetch_file at exact commit, UTF-8 text compared byte-for-byte with local file, recompute Git blob SHA-1 and SHA-256",
+  "files": [
+    {
+      "path": "data/controls.json",
+      "git_blob_sha1": "febb203e66482da1ccd0aae2ed3a6ec79764cb71",
+      "canonical_url": "https://github.com/reggiechan74/kryptos-k4/blob/e2f4a1e24acdc8bcd319f01b68fd51afbc924ce3/data/controls.json",
+      "sha256": "54f19ff0ecd1e058a6b84c6ddb4ad75a297e4181edb45803647ed208d8fc011b",
+      "utf8_bytes": 4739,
+      "local_byte_equality": true,
+      "git_blob_hash_verified": true
+    },
+    {
+      "path": "research/puzzle-instruction-discovery-v1/README.md",
+      "git_blob_sha1": "93c1ec88e9be2ac09297003db675debcf1591730",
+      "canonical_url": "https://github.com/reggiechan74/kryptos-k4/blob/e2f4a1e24acdc8bcd319f01b68fd51afbc924ce3/research/puzzle-instruction-discovery-v1/README.md",
+      "sha256": "fc2d38f08aad29ff115e33057d8ba0113fe2333e51ba093327d3bc789d06ad88",
+      "utf8_bytes": 8892,
+      "local_byte_equality": true,
+      "git_blob_hash_verified": true
+    }
+  ]
+}

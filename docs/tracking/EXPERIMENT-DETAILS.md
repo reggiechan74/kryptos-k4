@@ -2806,3 +2806,21 @@ All six checks are pending: P1 finite evidence/exposure inventory; P2 independen
 No pilot, target command, numerical result, completed-experiment receipt, fresh web search or resource allocation is claimed. The original 100 drafts remain unchanged, with three target-tested and 97 target-unrun; 72 existing family bodies are preserved and the new 73rd is specified but not run. C02 remains untested with operational gates pending. Only separately reviewed evidence/protocol gates can move any proposed recipe toward execution.
 
 Related files: [research/puzzle-instruction-discovery-v1/README.md](../../research/puzzle-instruction-discovery-v1/README.md).
+
+## LOG-297C8F339B
+
+**SOURCE-PUZZLE-P1-017 — bounded evidence inventory closeout (not a cipher run)**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: source documentation. Outcome: P1 finite source inventory accepted; P2–P6 pending, no instruction recipe or cipher experiment
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**1 November 2026 — source/provenance inventory only.** [Accepted P1 packet and current status](../../research/puzzle-instruction-discovery-v1/CURRENT-STATUS.md) retain 16 finite artifacts: 14 current local/remote text readings and two unavailable facsimiles attributed to earlier review. Exact commit-addressed canonical fixture/plan bytes are authenticated. Historical download hashes, extracted-Markdown hashes and current raw-source pins are not interchangeable. Source contradictions, unavailable originals, correction variants and nonblind exposure remain unresolved where stated.
+
+The public six-file packet contains paraphrases, exclusions, metadata and static review, not full third-party source snapshots. Independent review corrected a paraphrase before sealing; no source instruction or historical reconstruction is asserted by that acceptance. Packet hashes authenticate this version, not all linked live webpages. No P2 mappings, recipes, synthetic experiment, cryptanalysis or target evaluation occurred; no run time or result count is invented.
+
+**Next:** retain identical sealed bytes for any later independently governed P2; its coding manual and subsequent stages remain pending and no further stage is started/authorized. All 73 family bodies and original 100 draft specifications remain unchanged; three proposals target-tested, 97 target-unrun. C02 remains untested with operational gates pending. Publication closes only the completed P1 inventory loop.
+
+Related files: [research/puzzle-instruction-discovery-v1/CURRENT-STATUS.md](../../research/puzzle-instruction-discovery-v1/CURRENT-STATUS.md).

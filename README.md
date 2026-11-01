@@ -22,7 +22,7 @@ Read the [method-pilot studies](research/method-pilots/README.md): [completed pr
 
 [Next 100 research proposals](research/next-100-hypotheses-20261101/README.md): 78 mechanisms and 22 method experiments—not 100 approved searches or proven-new inventions. [C20’s exact seven-phase target test](research/c20-successor-queue-v1/target/README.md) is negative; [E01’s fixed one-candidate target](research/e01-conditional-alphabet-v1/target-v1/README.md) is also negative; [E02’s exact fixed-cursor target](research/e02-reference-cursor-v1/target-v1/README.md) is also negative; 97 proposals remain target-unrun/unadmitted. [M21 framing-capacity filters](research/m21-framing-capacity-v1/README.md) passed a synthetic exactness/limited-utility pilot, not another K4 test or a speedup demonstration. The later [C02 source audit](research/c02-huffman-framing-audit-v1/README.md) finds no added M21 capacity rejection on its direct inverse candidates; C02 itself remains untested.
 
-**Pending puzzle-first coverage:** [Integrated instruction discovery](research/puzzle-instruction-discovery-v1/README.md) records six remaining evidence/recipe/control checks, separately from the original 100 drafts. Existing puzzle-themed tests and physical evidence blockers are linked; this is a plan, not a new run or target admission.
+**Puzzle-first coverage:** [P1 source inventory accepted; P2–P6 pending](research/puzzle-instruction-discovery-v1/CURRENT-STATUS.md). The sealed 16-artifact packet retains provenance gaps and exposure; no instruction recipe or cipher result. Original plan and 100 drafts are preserved, with no new execution or target admission.
 
 ## Start here
 
