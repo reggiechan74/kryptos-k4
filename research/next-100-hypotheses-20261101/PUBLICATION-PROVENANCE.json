@@ -6,8 +6,8 @@
     {
       "path": "README.md",
       "original_sha256": "b9dbe0e76442b567d9504e9206746ad0394717e9d388a0f676d274db2df032e7",
-      "public_sha256": "7b9a40672cec90f87a9bb06ca8cd274fdc4f55c12091e9321fa97802d01e243c",
-      "reason": "Dated current-status/navigation addendum; original specifications/catalog and historical ranking remain preserved. Other administrative redactions remain as previously mapped. Later current-status update records C20 synthetic-only completion without changing the historical draft. Later target closeout updates current status only. Later E01 synthetic-only status added. E01 current target closeout added without changing original specifications. Later E02 synthetic-only/pre-run gate amendment status added.",
+      "public_sha256": "5f87d4f8956cc13059a2df8f7fc9081822fc5e6af34ba866ff497c562e741fdc",
+      "reason": "Dated current-status/navigation addendum; original specifications/catalog and historical ranking remain preserved. Other administrative redactions remain as previously mapped. Later current-status update records C20 synthetic-only completion without changing the historical draft. Later target closeout updates current status only. Later E01 synthetic-only status added. E01 current target closeout added without changing original specifications. Later E02 synthetic-only/pre-run gate amendment status added. E02 current exact-target closeout added.",
       "publication_history": [
         {
           "commit": "608fc123567b77ba48616c9c2191825d08964ea7",
@@ -28,6 +28,10 @@
         {
           "commit": "5a5008e036d081836f02cc288731a78ac6c03286",
           "sha256": "0bae56913f0594f61b607e6f9e870ea93a6ddbc0a271d0d5dfa5cd96abca3662"
+        },
+        {
+          "commit": "294c37f3d601437f128ec062fc4bd9e356601b76",
+          "sha256": "7b9a40672cec90f87a9bb06ca8cd274fdc4f55c12091e9321fa97802d01e243c"
         }
       ]
     },

@@ -797,3 +797,5 @@ Later E01 target closeout (1 November): the [exact fixed-bank/start-Q local mode
 ## E02 source-scope addendum — 1 November 2026
 
 [E02 finite source audit](e02-reference-cursor-v1/SOURCE-AUDIT.md) acknowledges existing circular next-occurrence book cursors, including Booking Key. Its rank output and advance-past update are a fixed incremental composition, not an invented primitive. Inspected local208, specified MTF/MTB/fixed-axis/last-symbol banks and restricted EXT-052 selectors have bounded distinguishing witnesses; arbitrary/unavailable adaptive grammars remain unresolved. Global operator differences do not prove different finite target traces. Source-search no-hit, disclosed synthetic consistency and a pre-run blind-gate amendment establish no worldwide novelty or K4 result; no third-party body or external run is republished.
+
+Later E02 target closeout (1 November): the [exact fixed reference/start/update local model](e02-reference-cursor-v1/target-v1/README.md) is independently negative, 0/24 clues. Existing book-cursor prior art and source-scope limits are unchanged; no external run, broad book/rank/adaptive exclusion or novelty claim follows.

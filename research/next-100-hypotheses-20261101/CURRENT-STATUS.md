@@ -1,6 +1,6 @@
 # Current proposal status overrides
 
-The original catalog and ranked draft remain preserved. This dated evidence addendum overrides their research-priority suggestions; it does not add or remove proposals. **C20 and E01 are now target-tested with narrow negatives; the other 98 proposals remain target-unrun/unadmitted.**
+The original catalog and ranked draft remain preserved. This dated evidence addendum overrides their research-priority suggestions; it does not add or remove proposals. **C20, E01 and E02 are now target-tested with narrow negatives; the other 97 proposals remain target-unrun/unadmitted.**
 
 ## 1 November 2026: A01 / N100-036 blocked
 
@@ -37,3 +37,7 @@ Current next source-review task: E02 reference-cursor rank. Audit active, eligib
 ## Later E02 synthetic closeout — 1 November 2026
 
 [E02/N100-045 evidence](../e02-reference-cursor-v1/REPOSITORY-STATUS.md): 22,230 tiny cases, 20,020 source cells and 48 disclosed plants passed. Wrong-reference mismatch counts 48/48, 47/48 and 15/48 retain coincidences; diagnostic only, no p-value. The original blind gate was explicitly amended before execution to independent exhaustive/transition/disclosed checks, not passed blind or silently rewritten. A source-search snippet exposed K4 text; no E02 target transformation followed. Target later allocated 10 nominal seconds (5+5), source/static review now passed, execution unadmitted; original100 specifications unchanged, two target-tested/98 target-unrun.
+
+## Later E02 target closeout — 1 November 2026
+
+[Exact one-candidate target evidence](../e02-reference-cursor-v1/target-v1/README.md): 0/24 clues, dual 97-letter outputs/inverses and four final cursors 756 agree. This supersedes earlier E02 preparation/unrun status only; original catalog, synthetic evidence and pre-run gate replacement remain unchanged. No broad book-cursor exclusion or rescue. Next M21/N100-099 exact framing-capacity filters is methodological source/proof/benchmark-design work only, no experimental allocation or target admission.

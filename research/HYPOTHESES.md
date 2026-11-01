@@ -7,7 +7,7 @@
 <a id="working-to-do-list-and-current-status--31-october-2026"></a>
 ## Current state
 
-Reconciled **1 November 2026**. **K4 remains unsolved here; the ongoing research goal is active.** Study064 and the fixed sparse ciphertext-equality residual R are closed at their tested bounds. Both R mode checks returned independently verified EMPTY. C20’s exact seven-phase successor-queue composite and E01’s fixed conditional-alphabet bank are also closed negative; neither broader feedback nor graph families are eliminated, and no next target is admitted.
+Reconciled **1 November 2026**. **K4 remains unsolved here; the ongoing research goal is active.** Study064 and the fixed sparse ciphertext-equality residual R are closed at their tested bounds. Both R mode checks returned independently verified EMPTY. C20’s exact seven-phase composite, E01’s fixed bank and E02’s fixed reference-cursor model are also closed negative; neither broader feedback nor graph families are eliminated, and no next target is admitted.
 
 | Area | Current conclusion | Evidence / limit |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ Reconciled **1 November 2026**. **K4 remains unsolved here; the ongoing research
 | Sparse ciphertext-equality residual R target closeout | Exact bounded negative: both prescribed modes EMPTY / VERIFIED_EMPTY; one hypothesis. | [Sealed result and recovery](residual-target-v1/REPOSITORY-STATUS.md): all 4,495 support containers per mode, full zero relation, no candidate. [Same-data validation](method-pilots/fixed-data-residual-v1/README.md), [original failure](method-pilots/fresh-residual-v2-incomplete/README.md) and [accepted pretarget prefix](residual-pretarget-v1/REPOSITORY-STATUS.md) remain distinct historical evidence. |
 | C20 / N100-065 successor-queue composite | Exact seven-phase target negative, independently verified. | [Target evidence](c20-successor-queue-v1/target/README.md): 0/7 compatible phases; full reference and re-encryption checks. Earlier synthetic PASS remains correctness evidence, not a solution. |
 | E01 / N100-044 conditional alphabet bank | Exact fixed-bank/start-Q target negative, independently verified. | [One-candidate evidence](e01-conditional-alphabet-v1/target-v1/README.md): 0/24 clues; both full outputs and re-encryptions agree. Source/synthetic history and exposure disclosure preserved. |
-| E02 / N100-045 reference-cursor rank | Synthetic implementation PASS; target proposal only. | [Source audit, pre-run gate amendment and finite checks](e02-reference-cursor-v1/REPOSITORY-STATUS.md): disclosed, not blind; null coincidences and incidental snippet exposure retained. |
+| E02 / N100-045 reference-cursor rank | Exact one-candidate target negative, independently checked. | [Target evidence](e02-reference-cursor-v1/target-v1/README.md): 0/24 clues, dual full outputs/inverses and final states agree. Pre-run gate amendment and synthetic limits preserved. |
 | Latest study064: recurrence-distance key clock | Exact bounded negative; scientific execution/audit complete; artifacts published. | [064](candidate-first-064/README.md): primitive AZ periods2–8; six periods inherit completed044 negative supersets (not rerun), onlyp5 newly evaluated by two independent solvers. All224blind plants retained;109unique/115ambiguous. |
 | Latest cipher batch: studies 060–063 (Q-06–Q-09) | Complete, independently audited and published; all four exact bounded domains have zero compatible K4 candidates. | [060](candidate-first-060/README.md): 208 distinct evolving-alphabet functions; [061](candidate-first-061/README.md): 160 sum-rotation structural cases; [062](candidate-first-062/README.md): 388 target maps / 3,104 Josephus descriptions; [063](candidate-first-063/README.md): AZ/KRYPTOS, periods 1–6, all 624 carry states. Not broad-family elimination. All 624 carry plants had 8–126 compatible plaintexts, not unique recovery. |
 | Tableau evidence audit (not a cipher experiment) | Closed without a supported new mechanism. | [810-cell audit](tableau-cell-audit-20261031/REPORT.md): 806 agreed letters (774 high-confidence, 32 tentative), one agreed unreadable and three disagreements. Four unresolved cells stay unfilled. Not proof of complete cyclicity; reopen only on better evidence or separately grounded semantics. |
@@ -29,15 +29,15 @@ Reconciled **1 November 2026**. **K4 remains unsolved here; the ongoing research
 
 | Order | Work item | Status / next discriminating action | Advance only when |
 | --- | --- | --- | --- |
-| 1 | Reconcile E02 synthetic checks and review its one-candidate target proposal | **Synthetic consistency PASS, not blind recovery; target unrun/unadmitted.** [Evidence and pre-run gate amendment](e02-reference-cursor-v1/REPOSITORY-STATUS.md). | Separate exact source/freeze review and finite grant. Later 10 nominal seconds allocated (5 preparation/review + 5 runtime); independent source/static review now passed, no final execution grant. Publication is not a grant. |
-| 2 | Preserve completed scopes and blockers | E01/C20 exact models closed; A01 prior-art-blocked; six original specification blocks remain. | No retuning/rescue or automatic next model. Historical source gaps and draft ranks are not admission. |
+| 1 | Reconcile E02 exact negative; design M21 / N100-099 framing-capacity filters | **M21 source/proof/benchmark design only.** Three proposals target-tested narrowly negative, 97 target-unrun. | Exact prior-art comparison and falsifiable benchmark design; no experimental allocation or target authority. A methodological filter is not an admitted cipher search. |
+| 2 | Preserve completed scopes and blockers | E02/E01/C20 exact models closed; A01 prior-art-blocked; six original specification blocks remain. | No source/start/direction/alphabet rescue, recycled permissions or automatic next experiment. |
 | — | Q-04: structure-aware stochastic search; Q-05: constrained neural scoring | **Not run; prerequisites absent.** These are methods, not new cipher families. [Original proposals and go/no-go criteria](HYPOTHESIS-HISTORY.md#historical-ranked-queue-and-current-eligibility). | A separately admitted, genuinely untried model has a demonstrated search or ranking bottleneck; equal-compute/source-disjoint controls show benefit without increased false selection. |
 
 **Admission rules:** A source-search no-hit is not an approved model or run. stronger-solver reruns, completing attempted searches and cosmetic parameter changes do not count as new hypotheses. Proposed-but-unrun mechanisms can qualify only after overlap and analytical-subsumption checks. “Not located in the inspected record” is not a worldwide novelty guarantee. Do not pad the queue when nothing qualifies. No marked-letter key search, uncertainty-as-key enumeration, rescue variant or automatic scope expansion follows from a negative result.
 
 ## Research backlog annex
 
-**Next 100 research annex (1 November 2026):** [100 proposed hypotheses](next-100-hypotheses-20261101/README.md)—78 mechanism proposals and 22 falsifiable method experiments. The original drafts remain unchanged; C20 and E01 have completed exact target tests with narrow negatives and the other 98 remain K4-target-unrun/unadmitted; six remain specification-blocked and [A01/N100-036 has unresolved prior-art overlap](next-100-hypotheses-20261101/CURRENT-STATUS.md). No A01 pilot is authorized. This annex does not replace the canonical execution queue or add 100 admitted families. Begin with its source/deduplication/inverse priorities, not 100 automatic target searches. [Integration provenance](next-100-hypotheses-20261101/PUBLICATION-NOTE.md).
+**Next 100 research annex (1 November 2026):** [100 proposed hypotheses](next-100-hypotheses-20261101/README.md)—78 mechanism proposals and 22 falsifiable method experiments. The original drafts remain unchanged; C20, E01 and E02 have completed exact target tests with narrow negatives and the other 97 remain K4-target-unrun/unadmitted; six remain specification-blocked and [A01/N100-036 has unresolved prior-art overlap](next-100-hypotheses-20261101/CURRENT-STATUS.md). No A01 pilot is authorized. This annex does not replace the canonical execution queue or add 100 admitted families. Begin with its source/deduplication/inverse priorities, not 100 automatic target searches. [Integration provenance](next-100-hypotheses-20261101/PUBLICATION-NOTE.md).
 
 ## Required end-of-run reconciliation
 
@@ -51,7 +51,7 @@ Stable family IDs and the nine fields below are the canonical coverage records. 
 
 The deep source review has now been read and integrated. Its [evidence synthesis](evidence/2026-10-23-lodestone-compass/KRYPTOS-LODESTONE-COMPASS-EVIDENCE-2026-10-23.md) confirms navigation context but supplies no surveyed bearing, calibrated shadow mechanism or dated celestial observation. Those physical claims remain evidence-blocked; the separately frozen conditional pilots are not measurements. A cardinal direction, a lamp count, a language normalization or a compatible fitted key is not itself a cipher.
 
-The [current inventory specification](specifications/FRONTIER-CURRENT-20261101-E01-CLOSED.json) includes all 71 families without granting launch authority. The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the single next-action queue above controls current scheduling. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by completed studies 051–064 and the current public-prior-art eligibility decision above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
+The [current inventory specification](specifications/FRONTIER-CURRENT-20261101-E02-CLOSED.json) includes all 72 families without granting launch authority. The [historical frontier assessment](RESEARCH-FRONTIER-2026-10-23.md) preserves the earlier evidence/algorithm gates; the single next-action queue above controls current scheduling. The baseline's English positions 22–34 and 64–74 do not automatically become indices in a length-changing processed stream; each such model must establish its global English-to-processed-to-cipher alignment. The earlier no-ready-experiment assessment is a dated snapshot, superseded for scheduling by completed studies 051–064 and the current public-prior-art eligibility decision above. New target work still requires a reviewed bounded protocol and its control gates; this is not global exhaustion.
 
 ### Status vocabulary
 
@@ -64,7 +64,7 @@ The [current inventory specification](specifications/FRONTIER-CURRENT-20261101-E
 
 ### Index
 
-All **71 stable families**, grouped by current status; records below are alphabetical. A family can contain completed finite tests and unresolved broader scope. Read its full fields before interpreting its label.
+All **72 stable families**, grouped by current status; records below are alphabetical. A family can contain completed finite tests and unresolved broader scope. Read its full fields before interpreting its label.
 
 **evidence-blocked — 16 families**
 
@@ -88,6 +88,7 @@ All **71 stable families**, grouped by current status; records below are alphabe
 | [H-SHADOW-TIME](#h-shadow-time) | evidence-blocked | A source-fixed shadow direction or observation time supplies a key or reading instruction. |
 | [H-SUCCESSOR-QUEUE-COMPOSITE](#h-successor-queue-composite) | narrow negative | Fixed seven-phase successor-queue involution plus AZ/KRYPTOS addition. |
 | [H-CONDITIONAL-ALPHABET-BANK](#h-conditional-alphabet-bank) | narrow negative | Fixed earlier-section conditional alphabet bank, start Q and AZ output. |
+| [H-REFERENCE-CURSOR-RANK](#h-reference-cursor-rank) | narrow negative | Fixed circular reference rank cursor, start zero and advance-past convention. |
 
 **untested — 0 families**
 
@@ -112,7 +113,7 @@ No family currently carries this label. The unrun proposal annex does not itself
 | [H-OTP](#h-otp) | non-identifiable | An unrestricted independent pad can explain any chosen plaintext of the same length. |
 | [H-WORD-COVER-EXTRACTION](#h-word-cover-extraction) | non-identifiable | Decode complete word covers, then extract one fixed letter from each selected word. |
 
-**narrow negative — 32 families**
+**narrow negative — 33 families**
 
 | Stable ID | Current status | Mechanism |
 | --- | --- | --- |
@@ -854,6 +855,18 @@ Each entry separates tested bounds from untested scope, missing inputs and the n
 - Next discriminating test: Close064. Follow the single research-only queue; use negative-containing receipt transfers before key solving and exact semantic review for skipped weaker supermodels.
 - Dependencies: Unchanged canonical ciphertext/crib alignment, primitive-key and projection semantics, pinned source audit and target-stage authorization; no paid service or live Site dependency.
 - Results: [064 findings and complete evidence](candidate-first-064/README.md):309blind cases/2163relations agree,224plants retained (109unique/115ambiguous),64nulls empty; exact tiny tests and fresh math/target audits pass. Scientific work complete; artifacts published. All67prior family IDs and frozen snapshots preserved.
+
+### H-REFERENCE-CURSOR-RANK
+
+- Status: narrow negative
+- Mechanism: N100-045 / E02 fixed circular literal K1/K2-as-inscribed/K3 reference plus absent JZ; start 0, current position eligible, emit distinct-first-encounter rank on AZ and advance past selected occurrence.
+- Evidence: [Exact source audit, disclosed synthetic checks and prospective gate amendment](e02-reference-cursor-v1/REPOSITORY-STATUS.md); next-occurrence book-cursor prior art acknowledged, no blind-PASS or novel-primitive claim.
+- Tested scope: E02-TARGET-001, one deterministic 97-letter candidate and all 24 fixed clues; both independent full outputs/inverses and four final cursors agree. One invocation, no variants or retry.
+- Untested scope: Other references, starts, directions, output alphabets, update rules or broader book/rank ciphers remain unexcluded; not automatic follow-on recommendations.
+- Missing inputs: None within the exact finite model; independent justification and scope review required for materially different work.
+- Next discriminating test: None for this exact composition; retire it and proceed to unrelated source/proof/design work, not rescue variants.
+- Dependencies: Frozen reference/source/input and artifact-only independent readback; runtime authority consumed; source-snippet exposure and prospective gate replacement retained.
+- Results: [Exact one-candidate negative](e02-reference-cursor-v1/target-v1/README.md), EXACT_INCOMPATIBLE, 0/24 clues; four final cursors 756. No broad book-cursor exclusion, success-probability or historical-authenticity claim.
 
 ### H-ROUTE
 

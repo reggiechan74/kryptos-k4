@@ -2392,9 +2392,9 @@
       "draft_id": "E02",
       "group": "evidence",
       "type": "mechanism",
-      "status": "synthetic_validated_target_not_admitted",
+      "status": "target_tested_narrow_negative",
       "novelty_status": "exact_scope_review_pending",
-      "target_admission": "not_admitted",
+      "target_admission": "completed_fixed_scope_no_retry",
       "specification": {
         "id": "E02",
         "kind": "mechanism",
@@ -2452,10 +2452,10 @@
       },
       "review_rank": 86,
       "original_draft_status": "proposed_unrun",
-      "status_override_evidence": "../e02-reference-cursor-v1/REPOSITORY-STATUS.md",
+      "status_override_evidence": "../e02-reference-cursor-v1/target-v1/README.md",
       "synthetic_ready": false,
-      "recorded_runs": 1,
-      "run_scope": "one disclosed synthetic implementation pilot under explicit pre-run blind-gate amendment; zero target runs"
+      "recorded_runs": 2,
+      "run_scope": "one disclosed synthetic pilot under pre-run gate amendment plus one fixed-candidate target invocation"
     },
     {
       "id": "N100-046",
@@ -4255,5 +4255,5 @@
   "current_status_source": "CURRENT-STATUS.json",
   "original_catalog_sha256": "1b58132bd63c42618c5d1c20bff280c01ea6ffa89d44582c4dfe21a154801862",
   "effective_status_date": "2026-11-01",
-  "status_note": "Use this current derivative for scheduling metadata; catalog.json is the immutable original draft. Two proposals (C20 and E01) have completed narrow-negative target tests; 98 remain target-unrun/unadmitted."
+  "status_note": "Use this current derivative for scheduling metadata; catalog.json is the immutable original draft. Three proposals (C20, E01 and E02) have completed narrow-negative target tests; 97 remain target-unrun/unadmitted."
 }

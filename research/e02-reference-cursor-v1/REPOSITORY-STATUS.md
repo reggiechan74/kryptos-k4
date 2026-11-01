@@ -1,6 +1,8 @@
 # E02 synthetic implementation checkpoint
 
-**E02 / N100-045 is synthetic-validated; target unrun/unadmitted.** [Report](REPORT.md), [source audit](SOURCE-AUDIT.md), [source policy](SOURCE-POLICY.json), [pre-run gate amendment](GATE-AMENDMENT.json) and [evidence ZIP](e02-synthetic-evidence.zip) retain the exact finite history. The [one-candidate target proposal](TARGET-PROPOSAL.md) requests 10 nominal seconds (5 preparation/review + 5 runtime), subsequently allocated for preparation/runtime, but not an execution grant.
+**Current closeout: E02 / N100-045 is target-tested, exact one-candidate negative, 0/24 clues.** [Target evidence](target-v1/README.md) retains both full outputs/inverses and four final cursors 756. No broad book-cursor exclusion or retuning follows. The synthetic/preparation chronology below is historical.
+
+**Earlier synthetic checkpoint:** [Report](REPORT.md), [source audit](SOURCE-AUDIT.md), [source policy](SOURCE-POLICY.json), [pre-run gate amendment](GATE-AMENDMENT.json) and [evidence ZIP](e02-synthetic-evidence.zip) retain the exact finite history. The [one-candidate target proposal](TARGET-PROPOSAL.md) requests 10 nominal seconds (5 preparation/review + 5 runtime), subsequently allocated for preparation/runtime, but not an execution grant.
 
 One frozen invocation passed 22,230 tiny cases, 20,020 source-table cells and 48 disclosed length-97 plants. Wrong-control plaintext mismatches: reversed reference 48/48, AZ-only 47/48, wrong start 15/48. Retain the 0, 1 and 33 respective coincidences; these diagnostics are not p-values, calibrated rejection rates or K4 evidence. Raw null plaintexts were not retained, so independent readback authenticated/recounted flags rather than independently decoding nulls. Toy/cell counts are worker assertion evidence, not a reviewer rerun.
 
@@ -15,3 +17,9 @@ Known aggregate CPU 6.594916 seconds excludes receipt serialization/final exit t
 Dated preparation update (1 November, 13:21 UTC): target freeze `9d9621bcb21b9a9a7a1dd4f065e31228352137858c250e88259b15fcae9602f4` prepared; independent static review now passed, no target execution grant or run. The later 10 nominal seconds allocation (5 review + 5 invocation) brings project reservations to 24,330/28,800, 4,470 unallocated—not measured consumption. Preserved TARGET-PROPOSAL.md predates this allocation and is not itself authority.
 
 Later source/static PASS pin: `59fd42827b551b5dd9df5c5c2cd4cafe1de27fc5dab6727a3dd09c5c573edb2f`, at the unchanged target freeze above. This records communicated preparation status; target source package is separate, and no target output or final grant is represented here.
+
+## Later target closeout — 1 November 2026
+
+[Complete result and independent artifact readback](target-v1/REPORT.md): one fixed reference/start/output composition, both 97-letter plaintexts agree, both saved inverse strings match authenticated input, four final cursors 756, all 24 clue checks false. One invocation, no source/start/direction/alphabet variant or retry. No observational-blinding, worldwide novelty or broad book-cipher exclusion claim.
+
+Known aggregate CPU 0.328628 seconds, wall 0.205243 seconds, peak RSS 44,972 KiB; final serialization/exit tails excluded. Five nominal invocation seconds consumed within 10 allocated, not recycled. The pre-run synthetic gate amendment remains a replacement, not a blind PASS. M21/N100-099 framing-capacity filters is next source/proof/benchmark-design work only, no experimental allocation or target admission.
