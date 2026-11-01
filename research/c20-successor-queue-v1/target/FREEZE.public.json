@@ -1,0 +1,30 @@
+{
+  "candidate_count": 7,
+  "child_cpu_seconds": 8,
+  "clue_positions": 24,
+  "command_template": [
+    "<REDACTED: historical command; not relaunch authority>"
+  ],
+  "external_wall_seconds": 30,
+  "files": {
+    "PROTOCOL.md": "186659fdac23c2e1c3e49f1e20ec44a50bdbe25d74a53a382d0409e446644f4b",
+    "c20.py": "bf2534a63b51952bab38afac973f35411bbedc6c9055e8181eb060cb10013867",
+    "reference.py": "611f7f8faf806d3ac406a24fe4296d88f86cd36e9e68a6e4ab7cd72f3623e768",
+    "run_once.py": "0b42efa28619f17a322c9e59fe6d8d82965396b15b453f39c0d70cdca96c6be5",
+    "target.py": "4346708718c714660580c46a62a4c0fc9e82445ddc94089d7e3c778596af5747"
+  },
+  "input_bytes": 308,
+  "input_field": "ciphertext",
+  "input_path": "data/k4.json",
+  "input_sha256": "08a1a84bd0dddf2449a2c7f67ee770d093ed47f6ad9a795630b77a2c8062f241",
+  "interpreter": "<pinned-python>",
+  "interpreter_sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+  "memory_bytes": 134217728,
+  "publication_status": "DERIVATIVE_NON_RELAUNCH_READY",
+  "schema": "c20-target-freeze-v1",
+  "status": "FROZEN_NOT_EXECUTION_AUTHORITY",
+  "supervisor_cpu_seconds": 2,
+  "target_execution": true,
+  "timeout_binary": "/usr/bin/timeout",
+  "timeout_sha256": "6ca1891dfc0b05d7680770c2884c0391b92467c7bb6500a5c84677e6481739f1"
+}

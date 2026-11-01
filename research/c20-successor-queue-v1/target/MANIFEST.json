@@ -1,0 +1,57 @@
+{
+  "files": {
+    "FINDINGS.md": {
+      "bytes": 2632,
+      "sha256": "62483e21b88153094ba9c2bf680efc789dd5f6e8ff06c0f0ab7f961d90c6b2a7"
+    },
+    "FREEZE.public.json": {
+      "bytes": 1298,
+      "sha256": "40c6dd56893789d0a64f6443ed4d3b0753f1570c40262ccc95802e442418c4f8"
+    },
+    "OUTCOME-REVIEW.public.md": {
+      "bytes": 5531,
+      "sha256": "b3fe0ff822350424fea8c895a41d73b5ff45484885db4e42a19073aea73a1f11"
+    },
+    "PROTOCOL.md": {
+      "bytes": 3604,
+      "sha256": "186659fdac23c2e1c3e49f1e20ec44a50bdbe25d74a53a382d0409e446644f4b"
+    },
+    "PROVENANCE.json": {
+      "bytes": 4422,
+      "sha256": "1be329198824482cfce332f8a95b7a7a687700452afc2f97254f3c8d22d7c630"
+    },
+    "README.md": {
+      "bytes": 1442,
+      "sha256": "7d0e286c1ed6b0eb24643bd84f7761143e09a685b9fba36ee18ec5bd88d59b46"
+    },
+    "RECEIPT.public.json": {
+      "bytes": 1547,
+      "sha256": "b4774aa909a870a834a156a8ca2cc0e6aa8ba43b868f90e2796672910b73db1d"
+    },
+    "SOURCE-REVIEW.public.md": {
+      "bytes": 8011,
+      "sha256": "b4daf251482309bba6ed0d261d1683b2789eb240e7bbb8d79cb6a65224761fa1"
+    },
+    "TARGET-RESULT.json": {
+      "bytes": 3217,
+      "sha256": "2f884876de42c87e0229d3ab9c3c96524dfe56700dc2f45604b19c7a495d8e86"
+    },
+    "c20.py": {
+      "bytes": 1793,
+      "sha256": "bf2534a63b51952bab38afac973f35411bbedc6c9055e8181eb060cb10013867"
+    },
+    "reference.py": {
+      "bytes": 1599,
+      "sha256": "611f7f8faf806d3ac406a24fe4296d88f86cd36e9e68a6e4ab7cd72f3623e768"
+    },
+    "run_once.py": {
+      "bytes": 8995,
+      "sha256": "0b42efa28619f17a322c9e59fe6d8d82965396b15b453f39c0d70cdca96c6be5"
+    },
+    "target.py": {
+      "bytes": 3617,
+      "sha256": "4346708718c714660580c46a62a4c0fc9e82445ddc94089d7e3c778596af5747"
+    }
+  },
+  "status": "EXACT_SEVEN_PHASE_MODEL_NEGATIVE_INDEPENDENTLY_REVIEWED"
+}

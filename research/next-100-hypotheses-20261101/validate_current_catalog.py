@@ -8,9 +8,11 @@ assert current['original_catalog_sha256']==hashlib.sha256(raw).hexdigest()
 orig={r['id']:r for r in original['records']};now={r['id']:r for r in current['records']};assert set(orig)==set(now) and len(now)==100
 by={u['id']:u for u in updates['overrides']}
 for ident,r in now.items():
- assert r['specification']==orig[ident]['specification'] and r['target_admission']=='not_admitted'
+ assert r['specification']==orig[ident]['specification']
+ assert r['target_admission']==(by[ident]['target_admission'] if ident in by else orig[ident]['target_admission'])
  assert r['status']==(by[ident]['status'] if ident in by else orig[ident]['status'])
  if ident in by:assert r['synthetic_ready'] is False and r['status_override_evidence']==by[ident]['evidence']
+assert now['N100-065']['status']=='target_tested_narrow_negative'
 assert now['N100-036']['status']=='blocked_prior_art_overlap_unresolved'
 assert 'blocked_prior_art_overlap_unresolved' in (D/'CURRENT-INDEX.md').read_text()
 print('PASS: current100 metadata reflects all overrides; A01 blocked, specifications unchanged.')

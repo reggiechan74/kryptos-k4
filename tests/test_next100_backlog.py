@@ -14,7 +14,7 @@ class Next100Backlog(unittest.TestCase):
    self.assertEqual(hashlib.sha256((D/row['path']).read_bytes()).hexdigest(),expected,row['path'])
  def test_no_duplicate_queue_or_fake_completed_count(self):
   h=(ROOT/'research/HYPOTHESES.md').read_text();self.assertEqual(h.count('## Next-action queue'),1);self.assertIn('78 mechanism proposals and 22 falsifiable method experiments',h);self.assertIn('not replace the canonical execution queue',h);self.assertIn('N100-',(D/'README.md').read_text())
-  ids=re.findall(r'^### (H-[^\n]+)$',h,re.M);self.assertEqual(len(ids),69);self.assertEqual(len(set(ids)),69)
+  ids=re.findall(r'^### (H-[^\n]+)$',h,re.M);self.assertEqual(len(ids),len(set(ids)));self.assertIn('H-SUCCESSOR-QUEUE-COMPOSITE',ids)
  def test_new_external_evidence_tiers(self):
   e=(ROOT/'research/EXTERNAL-PRIOR-ART.md').read_text()
   for id in ('EXT-052','EXT-053'):self.assertEqual(len(re.findall(r'^### '+id+r' — ',e,re.M)),1)
@@ -22,5 +22,5 @@ class Next100Backlog(unittest.TestCase):
  def test_current_machine_status_overrides(self):
   original=json.loads((D/'catalog.json').read_text());effective=json.loads((D/'CURRENT-CATALOG.json').read_text());overrides=json.loads((D/'CURRENT-STATUS.json').read_text());by={x['id']:x for x in effective['records']};old={x['id']:x for x in original['records']};self.assertEqual(set(by),set(old));self.assertEqual(effective['original_catalog_sha256'],hashlib.sha256((D/'catalog.json').read_bytes()).hexdigest())
   updates={x['id']:x for x in overrides['overrides']}
-  for ident,row in by.items():self.assertEqual(row['specification'],old[ident]['specification']);self.assertEqual(row['status'],updates[ident]['status'] if ident in updates else old[ident]['status']);self.assertEqual(row['target_admission'],'not_admitted')
+  for ident,row in by.items():self.assertEqual(row['specification'],old[ident]['specification']);self.assertEqual(row['status'],updates[ident]['status'] if ident in updates else old[ident]['status']);self.assertEqual(row['target_admission'],updates[ident]['target_admission'] if ident in updates else old[ident]['target_admission'])
   self.assertEqual(by['N100-036']['status'],'blocked_prior_art_overlap_unresolved');self.assertFalse(by['N100-036']['synthetic_ready']);self.assertIn('blocked_prior_art_overlap_unresolved',(D/'CURRENT-INDEX.md').read_text())

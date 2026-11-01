@@ -1037,6 +1037,14 @@
       ],
       "outcome": "17,349 tiny cases and 91 disclosed plant/phase checks passed; no K4 target",
       "basis": "Reviewed against synthetic-only outcome and source/provenance; seven-phase target remains a separate proposal."
+    },
+    "LOG-03648CB36F": {
+      "title": "C20-TARGET-001 \u2014 fixed seven-phase successor-queue negative",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "Exact seven-phase model negative: 0/7 compatible; no broader graph exclusion",
+      "basis": "Independent stored target outcome, fixed scope and full reference/re-encryption checks; no external count imported."
     }
   }
 }

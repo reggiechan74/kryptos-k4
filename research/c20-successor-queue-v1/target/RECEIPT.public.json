@@ -1,0 +1,41 @@
+{
+  "actual_child_returncode": 0,
+  "approval_sha256": "6090cbac38279d84e6e50e09885d5d45d642ea4aac0a7a55b02bd5f11f5ec304",
+  "artifacts": {
+    "ATTEMPT.json": {
+      "bytes": 219,
+      "sha256": "981b545c938f14f325b0115056c845144b1c494e22ff797f025e5c3f8f10d830"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.json": {
+      "bytes": 3217,
+      "sha256": "2f884876de42c87e0229d3ab9c3c96524dfe56700dc2f45604b19c7a495d8e86"
+    }
+  },
+  "child_cpu_seconds": 0.182064,
+  "child_maxrss_kib": 40576,
+  "child_reaped": true,
+  "command": [
+    "<REDACTED: historical command; not relaunch authority>"
+  ],
+  "complete_target_result": true,
+  "error": null,
+  "external_wall_contract": [
+    "<REDACTED: historical command; not relaunch authority>"
+  ],
+  "freeze_sha256": "8f7b984bbdf29a8a9d6fc8bf232f9502bbeffece7fd0ae7c705e26f0a63560ec",
+  "nominal_cpu_consumed": 10,
+  "publication_status": "DERIVATIVE_NON_RELAUNCH_READY",
+  "retry_authorized": false,
+  "schema": "c20-one-shot-receipt-v1",
+  "status": "COMPLETE_TARGET_CHECK",
+  "supervisor_cpu_seconds_sample": 0.30241799999999996,
+  "supervisor_sample_scope": "cumulative process CPU including startup and artifact hashing, before receipt serialization/write/final print",
+  "target_child_started": true,
+  "timed_out": false,
+  "unmeasured_tail": "receipt serialization/fsync/hash/final print and outer timeout/tool overhead are not claimed measured",
+  "wall_seconds": 0.43542150000030233
+}

@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "mapping": "byte-identical",
+      "original_name": "c20.py",
+      "original_sha256": "bf2534a63b51952bab38afac973f35411bbedc6c9055e8181eb060cb10013867",
+      "published": "c20.py",
+      "published_sha256": "bf2534a63b51952bab38afac973f35411bbedc6c9055e8181eb060cb10013867"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "reference.py",
+      "original_sha256": "611f7f8faf806d3ac406a24fe4296d88f86cd36e9e68a6e4ab7cd72f3623e768",
+      "published": "reference.py",
+      "published_sha256": "611f7f8faf806d3ac406a24fe4296d88f86cd36e9e68a6e4ab7cd72f3623e768"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "target.py",
+      "original_sha256": "4346708718c714660580c46a62a4c0fc9e82445ddc94089d7e3c778596af5747",
+      "published": "target.py",
+      "published_sha256": "4346708718c714660580c46a62a4c0fc9e82445ddc94089d7e3c778596af5747"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "run_once.py",
+      "original_sha256": "0b42efa28619f17a322c9e59fe6d8d82965396b15b453f39c0d70cdca96c6be5",
+      "published": "run_once.py",
+      "published_sha256": "0b42efa28619f17a322c9e59fe6d8d82965396b15b453f39c0d70cdca96c6be5"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "PROTOCOL.md",
+      "original_sha256": "186659fdac23c2e1c3e49f1e20ec44a50bdbe25d74a53a382d0409e446644f4b",
+      "published": "PROTOCOL.md",
+      "published_sha256": "186659fdac23c2e1c3e49f1e20ec44a50bdbe25d74a53a382d0409e446644f4b"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "FINDINGS.md",
+      "original_sha256": "62483e21b88153094ba9c2bf680efc789dd5f6e8ff06c0f0ab7f961d90c6b2a7",
+      "published": "FINDINGS.md",
+      "published_sha256": "62483e21b88153094ba9c2bf680efc789dd5f6e8ff06c0f0ab7f961d90c6b2a7"
+    },
+    {
+      "mapping": "byte-identical",
+      "original_name": "stdout.json",
+      "original_sha256": "2f884876de42c87e0229d3ab9c3c96524dfe56700dc2f45604b19c7a495d8e86",
+      "published": "TARGET-RESULT.json",
+      "published_sha256": "2f884876de42c87e0229d3ab9c3c96524dfe56700dc2f45604b19c7a495d8e86"
+    },
+    {
+      "mapping": "publication derivative: machine paths/private coordination or tool identifiers omitted",
+      "original_name": "SOURCE-REVIEW.md",
+      "original_sha256": "85ea05612f08139225dae3e8b36d1ccc6fa2fa431e3a03983427d59d9527cd62",
+      "published": "SOURCE-REVIEW.public.md",
+      "published_sha256": "b4daf251482309bba6ed0d261d1683b2789eb240e7bbb8d79cb6a65224761fa1"
+    },
+    {
+      "mapping": "administrative derivative: machine paths/argv removed; non-relaunch label added",
+      "original_name": "FREEZE.json",
+      "original_sha256": "8f7b984bbdf29a8a9d6fc8bf232f9502bbeffece7fd0ae7c705e26f0a63560ec",
+      "published": "FREEZE.public.json",
+      "published_sha256": "40c6dd56893789d0a64f6443ed4d3b0753f1570c40262ccc95802e442418c4f8"
+    },
+    {
+      "mapping": "administrative derivative: machine paths/argv removed; non-relaunch label added",
+      "original_name": "RECEIPT.json",
+      "original_sha256": "97e4fdb1b72d70518fc8449e154cbaac96d3f33264083ecb1dd8654e528a120c",
+      "published": "RECEIPT.public.json",
+      "published_sha256": "b4774aa909a870a834a156a8ca2cc0e6aa8ba43b868f90e2796672910b73db1d"
+    },
+    {
+      "mapping": "publication derivative: private coordination and external tool identifier omitted",
+      "original_name": "OUTCOME-REVIEW.md",
+      "original_sha256": "4458f23af97c2fff4c124d24f85213eaf423705043c00786d8234bfe3998f125",
+      "published": "OUTCOME-REVIEW.public.md",
+      "published_sha256": "b3fe0ff822350424fea8c895a41d73b5ff45484885db4e42a19073aea73a1f11"
+    }
+  ],
+  "omissions": [
+    "Actual approval payload, conversation identifiers and tool completion identifier omitted.",
+    "Administrative publication derivatives are not runtime records or fresh execution authority.",
+    "FINDINGS.md was written after runtime completion and is not covered by original runtime receipt."
+  ],
+  "retained_original_evidence_sha256": {
+    "EXTERNAL-COMPLETION.json": "4d44e0eaac339d095bebaa4b005de6205b27f8fffb7b62f1ed883b800ab3a810",
+    "OUTCOME-READBACK.json": "e6f3686ea9b41660589aaa143efa5174c9167ace02c6e21ff2cc79b31fddddbe",
+    "OUTCOME-REVIEW-MANIFEST.json": "236831eb6c4ef689ea10e4976797bb420c29bd14064d91ec62fb778d2b094dd6"
+  },
+  "schema": "c20-target-publication-provenance-v1"
+}

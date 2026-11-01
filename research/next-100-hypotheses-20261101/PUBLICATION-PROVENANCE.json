@@ -6,12 +6,16 @@
     {
       "path": "README.md",
       "original_sha256": "b9dbe0e76442b567d9504e9206746ad0394717e9d388a0f676d274db2df032e7",
-      "public_sha256": "1a256beb98acdc580b0ee27a5d15469ed10aed34eaf42c7f4e4882bca863262e",
-      "reason": "Dated current-status/navigation addendum; original specifications/catalog and historical ranking remain preserved. Other administrative redactions remain as previously mapped. Later current-status update records C20 synthetic-only completion without changing the historical draft.",
+      "public_sha256": "19f2d9956216eb69db9577a1068b644d06af8961e3c0651e2c2839614adf0967",
+      "reason": "Dated current-status/navigation addendum; original specifications/catalog and historical ranking remain preserved. Other administrative redactions remain as previously mapped. Later current-status update records C20 synthetic-only completion without changing the historical draft. Later target closeout updates current status only.",
       "publication_history": [
         {
           "commit": "608fc123567b77ba48616c9c2191825d08964ea7",
           "sha256": "fe8d7bfa4db34b46204086dea576a65a61cb3398e71e0c5d8d09c6337e079f08"
+        },
+        {
+          "commit": "ca3e86d21a86c6473593fbdd7920887acc58b026",
+          "sha256": "1a256beb98acdc580b0ee27a5d15469ed10aed34eaf42c7f4e4882bca863262e"
         }
       ]
     },

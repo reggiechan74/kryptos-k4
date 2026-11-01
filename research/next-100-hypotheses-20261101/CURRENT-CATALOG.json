@@ -3189,9 +3189,9 @@
       "draft_id": "C20",
       "group": "encoding",
       "type": "mechanism",
-      "status": "synthetic_validated_target_not_admitted",
+      "status": "target_tested_narrow_negative",
       "novelty_status": "exact_scope_review_pending",
-      "target_admission": "not_admitted",
+      "target_admission": "completed_fixed_scope_no_retry",
       "specification": {
         "local_id": "C20",
         "title": "Euler-trail local-successor queue reversal",
@@ -3223,10 +3223,10 @@
       },
       "review_rank": 5,
       "original_draft_status": "proposed_unrun",
-      "status_override_evidence": "../c20-successor-queue-v1/REPOSITORY-STATUS.md",
+      "status_override_evidence": "../c20-successor-queue-v1/target/README.md",
       "synthetic_ready": false,
-      "recorded_runs": 1,
-      "run_scope": "one disclosed synthetic correctness invocation; zero K4 target invocations"
+      "recorded_runs": 2,
+      "run_scope": "one disclosed synthetic pilot plus one seven-phase target invocation"
     },
     {
       "id": "N100-066",
@@ -4245,5 +4245,5 @@
   "current_status_source": "CURRENT-STATUS.json",
   "original_catalog_sha256": "1b58132bd63c42618c5d1c20bff280c01ea6ffa89d44582c4dfe21a154801862",
   "effective_status_date": "2026-11-01",
-  "status_note": "Use this current derivative for scheduling metadata; catalog.json is the immutable original draft. All proposals remain K4-target-unrun and unadmitted; C20 has completed synthetic-only correctness validation."
+  "status_note": "Use this current derivative for scheduling metadata; catalog.json is the immutable original draft. One proposal (C20) has a completed narrow-negative target test; 99 remain target-unrun/unadmitted."
 }
