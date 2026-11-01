@@ -2570,3 +2570,41 @@ Known worker plus supervisor-sample CPU totals 56.075505 seconds across mocks, g
 **Method lesson / next decision:** preserve the elapsed-wall protocol failure instead of silently adjusting caps or drawing replacements. Separately design a whole fixed-data post-failure re-evaluation with finite schedule, resource/custody gates and explicit new authority before execution. No source change, seed access, replacement draw, selective suffix retry, truth release or target run follows. Any later success on reused post-failure data is not fresh replication or retroactive PASS. The older failed cohort remains permanently INCOMPLETE and sealed. All 68 cipher-family records are unchanged.
 
 Related files: [research/method-pilots/fresh-residual-v2-incomplete/README.md](../../research/method-pilots/fresh-residual-v2-incomplete/README.md).
+
+## LOG-2DFA44ED62
+
+**METHOD-RESIDUAL-010 — whole fixed-data post-failure re-evaluation**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: synthetic validation. Outcome: Bounded conditional whole fixed-data validation complete; 12/12 supported pairs, no supported false forces, ambiguity and misspecified twins retained
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**1 November 2026 — bounded conditional implementation validation on reused synthetic data, not fresh replication or K4 evidence.** [Result, sources, released synthetic data and independently reviewed immutable evidence](../../research/method-pilots/fixed-data-residual-v1/README.md). All 28 new slots completed once: four disclosed resource gates and 24 VERIFIED_EXACT slots, with 14 exact normal/optimized pairs and all 12 supported base pairs (four per stratum). There were 791 informative distinct-per-base hidden contexts among 804 supported positions, zero supported wrong forced values, and three dependent misspecified twins each false-forced only row 84. Informative is not necessarily singleton; modes/contexts/twins are not independent trials.
+
+Ambiguity persists: v006 has 50 canonical/joint alternatives, v008 has 13; ten other bases have one each. v003 has two coefficient lifts but one function. Model membership is not established. The uniform preflight wall envelope changed 20 to 60 seconds under a separately reviewed freeze; mathematics, fixed data, logical caps, outer constraints and full schedule remained fixed. Maximum observed preflight wall 19.237141729 does not prove the larger gate was necessary or diagnose the earlier cause. No old-slot reuse, selected suffix completion or replacement draw occurred.
+
+Known worker/supervisor CPU components total 294.313402 across 33 stage invocations; full supervisor policy 420 and worker-plus-policy 704.002774 are separate non-measured charges. Nominal stage 3,000 includes 2,800 invocations and 200 control allowance; project allocation 23,200/28,800 is not measured consumption. Original failed reserve 80 remains; current reserve zero. Remaining tails/control overhead are unmeasured. Current synthetic truth/embedded seed was released only after terminal acceptance and separate authority; older failed-cohort truth remains sealed and excluded. Publication transfers one archive containing all 28 new certificates without extraction/replay.
+
+**Lesson / next decision:** retain complete conditional relations and ambiguity, preserve both original INCOMPLETE outcomes, and distinguish resource re-evaluation from independent fresh validation. A separately assembled adapter source/admission review is the next gate; no mocks, actual controls, target arithmetic/run, new cipher family or general novelty claim is granted by this checkpoint. Matbalez historical scope remains unresolved. All 68 canonical family records remain unchanged.
+
+Related files: [research/method-pilots/fixed-data-residual-v1/README.md](../../research/method-pilots/fixed-data-residual-v1/README.md).
+
+## LOG-E854498B98
+
+**METHOD-ADAPTER-011 — sparse residual pretarget source and disclosed controls**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: synthetic validation. Outcome: Source/mock/disclosed controls PASS; K4 target and sealer UNRUN, separate target grant pending
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**1 November 2026 — pretarget method evidence, K4 UNRUN.** [Accepted prefix, immutable sources and derivative provenance](../../research/residual-pretarget-v1/REPOSITORY-STATUS.md). Source freeze fe2864d656a426635731c7f4a0be07329c67eb5e4b0fe15e6fb10e8661c9f11d remains unchanged. Two operational mocks each passed 159 named assertions (not independent samples). Positive disclosed control returned EXACT/VERIFIED_EXACT, W=1 and one function/lift/piece/joint; contradictory-context control returned EMPTY/VERIFIED_EMPTY, W=0 and complete zero relation. Each certified all 4,495 supports; W=0 alone is not semantic EMPTY.
+
+Four accepted prefix jobs consumed 284 nominal CPU seconds, with zero current reserve. Known worker plus supervisor-sample CPU is 19.957271 seconds; policy supervisor 72 and nominal 284 are not measured or additive CPU. The same single 600-second/256-MiB reservation remains; project allocation 23,800/28,800, 5,000 unallocated. Original failed reserves are not reused. Overhead/tails are explicitly unmeasured or separately scoped. The sole two-certificate archive and original/public mappings preserve exact scientific bytes; public administrative copies are NON_RELAUNCH_READY.
+
+**Lesson / next:** retain complete EXACT/EMPTY interface handling and prospective exact-byte loader authentication; no historical cache error was observed and no speedup is claimed. H-CANONICAL-RESIDUAL-FEEDBACK is the new specified-but-unrun family, not a target result or run count. Preserve all 68 prior family bodies. Bounded EXT-051 uncertainty is accepted only for planning; B/C known-repeat exclusions and global-versus-finite-trace limits remain. Complete the coherent checkpoint, then separately decide one fixed target stage. No target arithmetic, sealer, retry, first-six claim, score winner, retuning or automatic successor is authorized here.
+
+Related files: [research/residual-pretarget-v1/REPOSITORY-STATUS.md](../../research/residual-pretarget-v1/REPOSITORY-STATUS.md).

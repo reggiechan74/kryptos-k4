@@ -89,6 +89,18 @@
       "Results": "[retained evidence and finite coverage](SINGLE-BOUNDARY-RESET-FINDINGS.md); absence of a dedicated run is stated above, not represented by a fabricated result."
     },
     {
+      "id": "H-CANONICAL-RESIDUAL-FEEDBACK",
+      "Status": "specified but not run",
+      "Mechanism": "In AZ ranks over Z26, one global function of the **six previous ciphertext letters**, newest first, supplies the subtractive shift: `P_i = C_i - F(C_(i-1),...,C_(i-6)) mod 26`, for the fixed 91 tail positions `i=6..96`. Its fixed 31-feature dictionary is constant, six lags, six squares, fifteen lexicographic pair products, and the three **full-symbol equality** indicators E12/E34/E56 (computed in Z26 before CRT). There are **at most three nonzero original coefficient terms**, not three canonical coordinates. Retain complete original-support, beta-fiber and sparse-lift relations. The residual is exactly `R = E \\ (B union C)`: E requires an essential equality component in either canonical CRT descriptor; B is the beta class supported only on {constant, lag1}, excluded by the retained independent parity-negative implication; C is the 156 already-attempted functions `b +/- E12`, `b +/- E34`, `b +/- E56`, `b in Z26`. C is removed as known attempted overlap, not as a newly verified external negative.",
+      "Evidence": "The [frozen admission](residual-pretarget-v1/planning/ADMISSION.md), [dated targeted primary-source search](residual-pretarget-v1/planning/SEARCH-RECEIPT.md) and independent operator audits separate R globally from inspected causal linear K/P/C feedback and polynomial-only operators. This is **not finite-trace exclusion**. Closest stable external records are EXT-048 (causal linear chains), EXT-049 (adjacent-pair carry), EXT-050 (position/current-symbol grammar), and EXT-051 ([matbalez public handoff](https://gist.github.com/matbalez/8300cb067a5cda55c3b44ef382d517c0)). No identical R operator was located in the inspected public work. EXT-051's exact nonlinear-history equations, lags, coefficients, alphabet/state conventions and completion bounds remain unavailable; explicit bounded-uncertainty acceptance is not proof of worldwide novelty. A newly available exact matching source reopens admission before launch; merely repeating the same undocumented broad claim is not an endless automatic veto.",
+      "Tested scope": "No R-on-K4 run exists. Conditional synthetic validation re-evaluated the **same 12 originally generated bases** after wall-cap repair, not fresh independent replication: all 12 base pairs in three strata were semantically verified, with zero supported false forces in 791 informative within-base contexts. Three dependent twins falsely forced at position 84; v006 retained 50 and v008 retained 13 canonical/joint possibilities. The earlier 48-cohort stays excluded/sealed, and original failed runs remain INCOMPLETE. The adapter then completed exactly two operational mocks (159 named assertions per mode, not independent scientific samples) and two disclosed normal-mode controls: positive EXACT / VERIFIED_EXACT and contradictory-context EMPTY / VERIFIED_EMPTY. Both control certificates cover all 4,495 supports; EMPTY has the complete zero relation, not only W=0. These are adaptation regressions, not evidence that K4 belongs to R.",
+      "Untested scope": "The single frozen canonical 24-clue/97-ciphertext K4 application, all 91 tail positions, remains unrun. No claim covers the first six plaintext letters, other alphabets/lags/features/support bounds, dictionary or score selection, stage-order variants, per-position laws, alternate target files, intended-law identification, or worldwide novelty. A Cartesian product of coordinate masks is not a joint candidate; any reported joint tail must have one common law over all 91 rows.",
+      "Missing inputs": "No new target data are required. Canonical raw input is pinned by public repository identity and hash, without inclusion or conversion in this handoff. EXT-051's underlying model details remain missing. Operational prerequisites still missing are a reconciled publication/ledger checkpoint and an exact separate target-stage grant. Accepted controls alone do not supply these.",
+      "Next discriminating test": "Only after those gates, apply the unchanged frozen engine/reference and certified preflight once under the fixed normal/optimized target protocol. Require matching producer/reference pairs EXACT / VERIFIED_EXACT or EMPTY / VERIFIED_EMPTY and complete independently verified inventories. Allowed outcomes are EMPTY, NONEMPTY_AMBIGUOUS, CONDITIONAL_SINGLETON_TAIL, or INCOMPLETE; no score-based winner or vacuous uniqueness. Any failure, uncertain exit, cap exhaustion, mismatched mode pair or verification failure stops successors without rescue, retry or retuning. An accepted target pair still does not claim the first six letters or the intended cipher.",
+      "Dependencies": "[Frozen protocol](residual-pretarget-v1/planning/PROTOCOL.md), [design review](residual-pretarget-v1/reviews/DESIGN-REVIEW.md), [source review](residual-pretarget-v1/reviews/SOURCE-REVIEW.md), [mock closeout](residual-pretarget-v1/reviews/MOCK-CLOSEOUT.md), [control closeout](residual-pretarget-v1/reviews/CONTROL-CLOSEOUT.md), retained B implication, canonical C overlap, and EXT-048–051 limits. Related H-AUTONOMOUS-RECURRENCE, H-RADIX-FEEDBACK, H-AUTOKEY-EXACT and H-NONLINEAR-BLOCK remain separate records; H-LAG is a lag-pattern diagnostic, and H-CARRY-624 is not the 156-function C class. No existing family is renamed or broadened by this entry.",
+      "Results": "**K4 UNRUN; no target result or new target experiment number.** The unchanged original source freeze is SHA256 `fe2864d656a426635731c7f4a0be07329c67eb5e4b0fe15e6fb10e8661c9f11d`. Accepted four-job prefix is 284 nominal CPU seconds from one 600-second/256-MiB reservation; zero in-flight reserve. Project allocation remains 23,800/28,800, with 5,000 unallocated. Prefix known instrumented CPU is 19.957271 seconds, not the nominal charge; overhead remains explicitly unmeasured. Public administrative derivatives are NON_RELAUNCH_READY and cannot authorize execution. [Package status](residual-pretarget-v1/STATUS.json) and [resource ledger](residual-pretarget-v1/evidence/CONTROL-RESOURCE-LEDGER.json) retain the separate prefix evidence."
+    },
+    {
       "id": "H-CARRY-624",
       "Status": "narrow negative",
       "Mechanism": "Persistent state a∈0..25,h∈0..23; t=a+x+k, a'=t mod26, emit(a'+OLDh) mod26, h'=(h+floor(t/26)) mod24. Scalar normal form T'=T+x+k mod624 with nonlinear old-high/new-low readout.",
@@ -5529,6 +5541,58 @@
       ],
       "receipt_paths": [],
       "original_entry": "**1 November 2026 closeout — failed fresh synthetic validation, not a K4 experiment or validation PASS.** [Full failure, preserved sources/receipts and independent reviews](method-pilots/fresh-residual-v2-incomplete/README.md). Eight of 28 slots executed: four disclosed control gates, three VERIFIED_EXACT individual slots, and one cooperative preflight wall failure; 20 successors canceled. Only v000 completed a fresh normal/optimized pair. The unpaired v001 normal result is not paired coverage. No truth-based accuracy, twin outcome or cohort coverage was evaluated.\n\nThe failed v001 optimized slot checked 4,153/4,495 supports with lower bound 1 and exact W null; producer and full reference were not attempted. Its 20-second cooperative gate expired, with preflight wall 20.322845 seconds and worker CPU 16.325925. Ordinary exit 1 and reaped child distinguish this from an OS timeout; the triggering I/O/computation/scheduling cause remains unresolved. A matching normal-mode W = 1 cannot substitute for missing completion.\n\nKnown worker plus supervisor-sample CPU totals 56.075505 seconds across mocks, generation and eight slots. Full supervisor policy 133 and worker-plus-policy 184.756527 are not measured CPU. Failed-slot reservation 80 is within attempted cohort allocation 640; stage 3,000 and project 20,200/28,800 allocations remain unchanged. Tails/control overhead are unmeasured, not zero. Original stop lock, reservation and eight certificates (including partial failure) remain preserved; publication uses the one approved archive without extraction or replay.\n\n**Method lesson / next decision:** preserve the elapsed-wall protocol failure instead of silently adjusting caps or drawing replacements. Separately design a whole fixed-data post-failure re-evaluation with finite schedule, resource/custody gates and explicit new authority before execution. No source change, seed access, replacement draw, selective suffix retry, truth release or target run follows. Any later success on reused post-failure data is not fresh replication or retroactive PASS. The older failed cohort remains permanently INCOMPLETE and sealed. All 68 cipher-family records are unchanged."
+    },
+    {
+      "record_id": "LOG-2DFA44ED62",
+      "experiment_ids": [
+        "METHOD-RESIDUAL-010"
+      ],
+      "title": "METHOD-RESIDUAL-010 — whole fixed-data post-failure re-evaluation",
+      "categories": [
+        "synthetic validation"
+      ],
+      "outcome": "Bounded conditional whole fixed-data validation complete; 12/12 supported pairs, no supported false forces, ambiguity and misspecified twins retained",
+      "classification_basis": "Independent terminal/outcome and public release reviews; reused post-failure data, not fresh replication, retroactive PASS or K4 admission.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-11-01",
+        "precision": "day",
+        "source": "opening prose",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [],
+      "links": [
+        "research/method-pilots/fixed-data-residual-v1/README.md"
+      ],
+      "receipt_paths": [],
+      "original_entry": "**1 November 2026 — bounded conditional implementation validation on reused synthetic data, not fresh replication or K4 evidence.** [Result, sources, released synthetic data and independently reviewed immutable evidence](method-pilots/fixed-data-residual-v1/README.md). All 28 new slots completed once: four disclosed resource gates and 24 VERIFIED_EXACT slots, with 14 exact normal/optimized pairs and all 12 supported base pairs (four per stratum). There were 791 informative distinct-per-base hidden contexts among 804 supported positions, zero supported wrong forced values, and three dependent misspecified twins each false-forced only row 84. Informative is not necessarily singleton; modes/contexts/twins are not independent trials.\n\nAmbiguity persists: v006 has 50 canonical/joint alternatives, v008 has 13; ten other bases have one each. v003 has two coefficient lifts but one function. Model membership is not established. The uniform preflight wall envelope changed 20 to 60 seconds under a separately reviewed freeze; mathematics, fixed data, logical caps, outer constraints and full schedule remained fixed. Maximum observed preflight wall 19.237141729 does not prove the larger gate was necessary or diagnose the earlier cause. No old-slot reuse, selected suffix completion or replacement draw occurred.\n\nKnown worker/supervisor CPU components total 294.313402 across 33 stage invocations; full supervisor policy 420 and worker-plus-policy 704.002774 are separate non-measured charges. Nominal stage 3,000 includes 2,800 invocations and 200 control allowance; project allocation 23,200/28,800 is not measured consumption. Original failed reserve 80 remains; current reserve zero. Remaining tails/control overhead are unmeasured. Current synthetic truth/embedded seed was released only after terminal acceptance and separate authority; older failed-cohort truth remains sealed and excluded. Publication transfers one archive containing all 28 new certificates without extraction/replay.\n\n**Lesson / next decision:** retain complete conditional relations and ambiguity, preserve both original INCOMPLETE outcomes, and distinguish resource re-evaluation from independent fresh validation. A separately assembled adapter source/admission review is the next gate; no mocks, actual controls, target arithmetic/run, new cipher family or general novelty claim is granted by this checkpoint. Matbalez historical scope remains unresolved. All 68 canonical family records remain unchanged."
+    },
+    {
+      "record_id": "LOG-E854498B98",
+      "experiment_ids": [
+        "METHOD-ADAPTER-011"
+      ],
+      "title": "METHOD-ADAPTER-011 — sparse residual pretarget source and disclosed controls",
+      "categories": [
+        "synthetic validation"
+      ],
+      "outcome": "Source/mock/disclosed controls PASS; K4 target and sealer UNRUN, separate target grant pending",
+      "classification_basis": "Independent source/mock/control reviews; not a target experiment, fresh validation, intended-law or novelty claim.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-11-01",
+        "precision": "day",
+        "source": "opening prose",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [],
+      "links": [
+        "research/residual-pretarget-v1/REPOSITORY-STATUS.md"
+      ],
+      "receipt_paths": [],
+      "original_entry": "**1 November 2026 — pretarget method evidence, K4 UNRUN.** [Accepted prefix, immutable sources and derivative provenance](residual-pretarget-v1/REPOSITORY-STATUS.md). Source freeze fe2864d656a426635731c7f4a0be07329c67eb5e4b0fe15e6fb10e8661c9f11d remains unchanged. Two operational mocks each passed 159 named assertions (not independent samples). Positive disclosed control returned EXACT/VERIFIED_EXACT, W=1 and one function/lift/piece/joint; contradictory-context control returned EMPTY/VERIFIED_EMPTY, W=0 and complete zero relation. Each certified all 4,495 supports; W=0 alone is not semantic EMPTY.\n\nFour accepted prefix jobs consumed 284 nominal CPU seconds, with zero current reserve. Known worker plus supervisor-sample CPU is 19.957271 seconds; policy supervisor 72 and nominal 284 are not measured or additive CPU. The same single 600-second/256-MiB reservation remains; project allocation 23,800/28,800, 5,000 unallocated. Original failed reserves are not reused. Overhead/tails are explicitly unmeasured or separately scoped. The sole two-certificate archive and original/public mappings preserve exact scientific bytes; public administrative copies are NON_RELAUNCH_READY.\n\n**Lesson / next:** retain complete EXACT/EMPTY interface handling and prospective exact-byte loader authentication; no historical cache error was observed and no speedup is claimed. H-CANONICAL-RESIDUAL-FEEDBACK is the new specified-but-unrun family, not a target result or run count. Preserve all 68 prior family bodies. Bounded EXT-051 uncertainty is accepted only for planning; B/C known-repeat exclusions and global-versus-finite-trace limits remain. Complete the coherent checkpoint, then separately decide one fixed target stage. No target arithmetic, sealer, retry, first-six claim, score winner, retuning or automatic successor is authorized here."
     }
   ],
   "receipts": [

@@ -1,0 +1,20 @@
+{
+  "schema": "byte-exact-transport-parts-v1",
+  "reason": "Base64 create_blob request exceeded the 16 MiB MCP request-body limit (HTTP400); no scientific change.",
+  "original_archive": "certificates.tar.gz",
+  "original_bytes": 16708362,
+  "original_sha256": "9692ad0e596f7a5f449018ce8cf0f5214243250204c3228524d8a48931825e44",
+  "parts_in_order": [
+    {
+      "path": "certificates.tar.gz.part01",
+      "bytes": 8388608,
+      "sha256": "2e1957400bd91dc30a7299ae58d88768e273bd6985f3c186336cf4309cd48871"
+    },
+    {
+      "path": "certificates.tar.gz.part02",
+      "bytes": 8319754,
+      "sha256": "fcf18efe03345f1c7832e6822f96a7b9f1cea38cb5ec79f5ca07ab8a9e054f53"
+    }
+  ],
+  "verification": "Concatenated staged part streams matched original SHA256 without creating another complete archive; no extraction or scientific replay."
+}

@@ -1005,6 +1005,22 @@
       ],
       "outcome": "INCOMPLETE: cooperative preflight wall failure; 8/28 slots, only one completed fresh pair, no truth metrics",
       "basis": "Independent failure preservation and release review; whole fixed-data post-failure reevaluation remains design only, not authorized execution."
+    },
+    "LOG-2DFA44ED62": {
+      "title": "METHOD-RESIDUAL-010 \u2014 whole fixed-data post-failure re-evaluation",
+      "categories": [
+        "synthetic validation"
+      ],
+      "outcome": "Bounded conditional whole fixed-data validation complete; 12/12 supported pairs, no supported false forces, ambiguity and misspecified twins retained",
+      "basis": "Independent terminal/outcome and public release reviews; reused post-failure data, not fresh replication, retroactive PASS or K4 admission."
+    },
+    "LOG-E854498B98": {
+      "title": "METHOD-ADAPTER-011 \u2014 sparse residual pretarget source and disclosed controls",
+      "categories": [
+        "synthetic validation"
+      ],
+      "outcome": "Source/mock/disclosed controls PASS; K4 target and sealer UNRUN, separate target grant pending",
+      "basis": "Independent source/mock/control reviews; not a target experiment, fresh validation, intended-law or novelty claim."
     }
   }
 }

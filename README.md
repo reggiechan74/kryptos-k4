@@ -18,14 +18,14 @@ K1–K3 serve as known-answer controls. Public reports of archival plaintext rec
 
 The [finite 71-hit external review](research/finite-prior-art-20261031/README.md) now accounts for duplicates, tools and unsupported claims alongside implemented models; it admits no new cipher run.
 
-Read the [method-pilot studies](research/method-pilots/README.md): [completed projection-saturation validation](research/method-pilots/projection-saturation-v3/README.md) and the [canonical residual checkpoint](research/method-pilots/canonical-residual-checkpoint/README.md), including its permanently incomplete cohort. The later [two-control full-31 preflight](research/method-pilots/full31-preflight-v1/README.md) is complete. The later [fresh residual v2 cohort stopped INCOMPLETE](research/method-pilots/fresh-residual-v2-incomplete/README.md); see the [current gated continuation decision](research/HYPOTHESES.md#next-action-queue). No K4 recovery or target admission.
+Read the [method-pilot studies](research/method-pilots/README.md): [completed projection-saturation validation](research/method-pilots/projection-saturation-v3/README.md) and the [canonical residual checkpoint](research/method-pilots/canonical-residual-checkpoint/README.md), including its permanently incomplete cohort. The later [two-control full-31 preflight](research/method-pilots/full31-preflight-v1/README.md) is complete. The later [fresh residual v2 cohort stopped INCOMPLETE](research/method-pilots/fresh-residual-v2-incomplete/README.md); the later [whole fixed-data re-evaluation](research/method-pilots/fixed-data-residual-v1/README.md) completed bounded conditional validation without changing that failure. See the [current admission gates](research/HYPOTHESES.md#next-action-queue). The [residual adapter controls](research/residual-pretarget-v1/REPOSITORY-STATUS.md) passed; its newly recorded pending family remains K4 UNRUN and needs separate target authority.
 
 ## Start here
 
 | If you want to… | Read |
 | --- | --- |
 | Review the seven requested families and remaining gaps | [Coverage matrix](research/SEVEN-FAMILY-REVIEW-046.md) and [structured branches](research/specifications/SEVEN-FAMILY-REVIEW-046.json) |
-| Understand what has and has not been tested | [Canonical family index](research/HYPOTHESES.md#index) — 68 stable family IDs grouped by status, with exact coverage |
+| Understand what has and has not been tested | [Canonical family index](research/HYPOTHESES.md#index) — 69 stable family IDs grouped by status, with exact coverage |
 | Find an experiment, its date, result, code and receipts | [Experiment tracker](docs/tracking/EXPERIMENTS.md) and [recorded run receipts](docs/tracking/RECEIPTS.md) |
 | Verify copied source literals without executing external code | [Read-only literal checker](research/source-literal-checker-v1/README.md) — independently tested transcription aid, not semantic verification |
 | Avoid repeating other researchers’ hypotheses | [External prior-art register](research/EXTERNAL-PRIOR-ART.md) — exact scopes, source pins, evidence quality and overlap with our tests |

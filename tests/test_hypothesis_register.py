@@ -15,7 +15,11 @@ class HypothesisRegisterTests(unittest.TestCase):
     def test_unique_ids_fields_status_and_legacy_retention(self):
         text,current,sections=self.sections()
         ids=[i for i,_ in sections]
-        self.assertEqual(len(ids),68)
+        index_ids=re.findall(r'^\| \[(H-[^]]+)\]\(#',current,re.M)
+        self.assertEqual(set(ids),set(index_ids))
+        self.assertEqual(len(index_ids),len(ids))
+        frozen=__import__('json').loads((ROOT/'research/specifications/FRONTIER-CURRENT-20261031-064.json').read_text())
+        self.assertEqual(frozen['expected_register_entries'],68)
         self.assertEqual(len(ids),len(set(ids)))
         referenced=set(re.findall(r'\bH-[A-Z][A-Z0-9-]*',current))-{'H-PHONETIC-RESP'}
         self.assertTrue(referenced<=set(ids),referenced-set(ids))
