@@ -1,0 +1,799 @@
+{
+  "schema": "public-derivative-provenance-v1",
+  "original_package_manifest_sha256": "135ebc75b3414a938a3864a243c0c1b6aeebebd8c803309bd5e52289fcdb2c94",
+  "scope": "Original local package remains frozen. This derivative preserves scientific sources, runtime evidence and the one certificate archive. Historical SHA256SUMS and SOURCE-PROVENANCE refer to original bytes, not sanitized prose. No source execution or certificate replay.",
+  "files": [
+    {
+      "path": "CERTIFICATE-PROVENANCE.json",
+      "original_sha256": "643eeba2e57105ec9d840ee6d9af56eb857f75409e3208ac20ac4d31c7e3d26c",
+      "public_sha256": "eb6d8a5acd63c784c0763d35dea5c723f9b68a6eee4c6eb3bb65447f1f02c784",
+      "original_bytes": 3644,
+      "public_bytes": 3609,
+      "reason": "Public administrative-prose/coordination redaction only; original hash retained. Not the original sealed bytes."
+    },
+    {
+      "path": "README.md",
+      "original_sha256": "878609c71912731625dc67c43a06bc66a1034f892161eab14f8528be4f1152cb",
+      "public_sha256": "4e260fc9d975f52816f79ff5fdc7e739d7d94b01feac7df052a129e635af8206",
+      "original_bytes": 4335,
+      "public_bytes": 4318,
+      "reason": "Public administrative-prose/coordination redaction only; original hash retained. Not the original sealed bytes."
+    },
+    {
+      "path": "SHA256SUMS",
+      "original_sha256": "135ebc75b3414a938a3864a243c0c1b6aeebebd8c803309bd5e52289fcdb2c94",
+      "public_sha256": "135ebc75b3414a938a3864a243c0c1b6aeebebd8c803309bd5e52289fcdb2c94",
+      "original_bytes": 9276,
+      "public_bytes": 9276,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "SOURCE-PROVENANCE.json",
+      "original_sha256": "30f690f81540aa50c429094248464904e3124bfa56140f60537fad9b435f7315",
+      "public_sha256": "30f690f81540aa50c429094248464904e3124bfa56140f60537fad9b435f7315",
+      "original_bytes": 24680,
+      "public_bytes": 24680,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "certificates.tar.gz",
+      "original_sha256": "765c992da0f6d8dd6a703023fe42bafae225af8fe21b70a28e5547efcef342b1",
+      "public_sha256": "765c992da0f6d8dd6a703023fe42bafae225af8fe21b70a28e5547efcef342b1",
+      "original_bytes": 2457484,
+      "public_bytes": 2457484,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "closeout/CUSTODIAN-CLOSEOUT.md",
+      "original_sha256": "fa60f5bd0d66b74386cfc046386bdc2e487c9ce3cf3c07c4956236957453ae21",
+      "public_sha256": "fa60f5bd0d66b74386cfc046386bdc2e487c9ce3cf3c07c4956236957453ae21",
+      "original_bytes": 8391,
+      "public_bytes": 8391,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "closeout/FAILURE-PRESERVATION.json",
+      "original_sha256": "33a6f1e91c13a4fc819cf4f53b8eccf3baecc76891ae1d5d8a58f43b9ce7c001",
+      "public_sha256": "33a6f1e91c13a4fc819cf4f53b8eccf3baecc76891ae1d5d8a58f43b9ce7c001",
+      "original_bytes": 9254,
+      "public_bytes": 9254,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "closeout/PUBLICATION-HANDOFF.md",
+      "original_sha256": "e388c9ef464432f2909452ea2b73fec951470ef999bd8ab8a960c3b09527fabb",
+      "public_sha256": "e388c9ef464432f2909452ea2b73fec951470ef999bd8ab8a960c3b09527fabb",
+      "original_bytes": 4208,
+      "public_bytes": 4208,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "closeout/STAGE-RESOURCE-ACCOUNTING.json",
+      "original_sha256": "f60290972c18188fe974182313c17746e60bba5f3fbb7b38a4e151c310f66a74",
+      "public_sha256": "f60290972c18188fe974182313c17746e60bba5f3fbb7b38a4e151c310f66a74",
+      "original_bytes": 8268,
+      "public_bytes": 8268,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "dependencies/affine_filter.py",
+      "original_sha256": "1e19e9ad872d517487cfe7968a9f4b906756007d5e710be216807620f078c90d",
+      "public_sha256": "1e19e9ad872d517487cfe7968a9f4b906756007d5e710be216807620f078c90d",
+      "original_bytes": 12582,
+      "public_bytes": 12582,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "dependencies/reference_v3.py",
+      "original_sha256": "0730f8b0a26109919ba6eb558be18063d137ced233b397cd188dc261a13fe8f9",
+      "public_sha256": "0730f8b0a26109919ba6eb558be18063d137ced233b397cd188dc261a13fe8f9",
+      "original_bytes": 40557,
+      "public_bytes": 40557,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "dependencies/residual_decoder.py",
+      "original_sha256": "be050003b9a73c14a7f7dda44afeb160e0e847045d57ddfa4b9527bdc68f7d67",
+      "public_sha256": "be050003b9a73c14a7f7dda44afeb160e0e847045d57ddfa4b9527bdc68f7d67",
+      "original_bytes": 14850,
+      "public_bytes": 14850,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "evidence/RUNNER-EXTERNAL-COMPLETION.json",
+      "original_sha256": "5bac8954641593797d82ceaaf878253e6a527c1a73ad294dac4e2f8dc257aca6",
+      "public_sha256": "5bac8954641593797d82ceaaf878253e6a527c1a73ad294dac4e2f8dc257aca6",
+      "original_bytes": 17086,
+      "public_bytes": 17086,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/normal/resource.json",
+      "original_sha256": "2b5fe2425fdaf7859c93c81720336cba11f87ffbd3a398c807a4055432931236",
+      "public_sha256": "2b5fe2425fdaf7859c93c81720336cba11f87ffbd3a398c807a4055432931236",
+      "original_bytes": 2076,
+      "public_bytes": 2076,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/normal/resource.json.started.json",
+      "original_sha256": "835c64e878fcccaf6db7a36d73e293911ba8d766b75a06cce8f11be953755283",
+      "public_sha256": "835c64e878fcccaf6db7a36d73e293911ba8d766b75a06cce8f11be953755283",
+      "original_bytes": 631,
+      "public_bytes": 631,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/normal/result.json",
+      "original_sha256": "53869b4532e98305aef44492987c64f6db45ddb700ec20da48ea016b52910c84",
+      "public_sha256": "53869b4532e98305aef44492987c64f6db45ddb700ec20da48ea016b52910c84",
+      "original_bytes": 801,
+      "public_bytes": 801,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/normal/scratch/duplicate.json",
+      "original_sha256": "d8e3ca834eb476cf1c6b23a2da362bc58d053e0c4e96edf8db122b5ae5814009",
+      "public_sha256": "d8e3ca834eb476cf1c6b23a2da362bc58d053e0c4e96edf8db122b5ae5814009",
+      "original_bytes": 14,
+      "public_bytes": 14,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/normal/scratch/literal-public-schema.json",
+      "original_sha256": "9abcf4eebf284de122166baf5873ae1ef16e024eaa85bcd9ec26d66499102e86",
+      "public_sha256": "9abcf4eebf284de122166baf5873ae1ef16e024eaa85bcd9ec26d66499102e86",
+      "original_bytes": 19392,
+      "public_bytes": 19392,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/normal/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/normal/stdout.txt",
+      "original_sha256": "062598569b01504c0d95c370da0c3a1b24bb39a7e39b99d4da55e0ffb360357e",
+      "public_sha256": "062598569b01504c0d95c370da0c3a1b24bb39a7e39b99d4da55e0ffb360357e",
+      "original_bytes": 383,
+      "public_bytes": 383,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/optimized/resource.json",
+      "original_sha256": "9dd26378ec2b9cc08721349917924804a4afe8e77a4982dd1a837102e49f209b",
+      "public_sha256": "9dd26378ec2b9cc08721349917924804a4afe8e77a4982dd1a837102e49f209b",
+      "original_bytes": 2081,
+      "public_bytes": 2081,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/optimized/resource.json.started.json",
+      "original_sha256": "77d90c84428a0de55635be677d52e62ed0b911515c5986ca8fa8d5c4a237a272",
+      "public_sha256": "77d90c84428a0de55635be677d52e62ed0b911515c5986ca8fa8d5c4a237a272",
+      "original_bytes": 648,
+      "public_bytes": 648,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/optimized/result.json",
+      "original_sha256": "6a5a9c831c4d640ae0252d04ce1de8e01737ce871812f509d9aa0b4dbdad4015",
+      "public_sha256": "6a5a9c831c4d640ae0252d04ce1de8e01737ce871812f509d9aa0b4dbdad4015",
+      "original_bytes": 804,
+      "public_bytes": 804,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/optimized/scratch/duplicate.json",
+      "original_sha256": "d8e3ca834eb476cf1c6b23a2da362bc58d053e0c4e96edf8db122b5ae5814009",
+      "public_sha256": "d8e3ca834eb476cf1c6b23a2da362bc58d053e0c4e96edf8db122b5ae5814009",
+      "original_bytes": 14,
+      "public_bytes": 14,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/optimized/scratch/literal-public-schema.json",
+      "original_sha256": "9abcf4eebf284de122166baf5873ae1ef16e024eaa85bcd9ec26d66499102e86",
+      "public_sha256": "9abcf4eebf284de122166baf5873ae1ef16e024eaa85bcd9ec26d66499102e86",
+      "original_bytes": 19392,
+      "public_bytes": 19392,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/optimized/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "mocks/optimized/stdout.txt",
+      "original_sha256": "5281e7a15eff85f0f90e962bea375c20f817e5a77464a17347496380cb02c99d",
+      "public_sha256": "5281e7a15eff85f0f90e962bea375c20f817e5a77464a17347496380cb02c99d",
+      "original_bytes": 386,
+      "public_bytes": 386,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "preparation/PREPARATION-CLOSEOUT.md",
+      "original_sha256": "0f2ffc9838e3cf5bba463e0ed6ec86c68d792d3e084bddbcff362f5422f9682f",
+      "public_sha256": "fcf9c47133c68e3cd12e69bf54777a38286976ce692c66f08aa15a716c31a891",
+      "original_bytes": 4896,
+      "public_bytes": 4897,
+      "reason": "Public administrative-prose/coordination redaction only; original hash retained. Not the original sealed bytes."
+    },
+    {
+      "path": "preparation/RESOURCE-ACCOUNTING.json",
+      "original_sha256": "ee3f6022ef74a5d9608687ded8c7c0986a375a1eaece2cbdd568b73c577622cd",
+      "public_sha256": "ee3f6022ef74a5d9608687ded8c7c0986a375a1eaece2cbdd568b73c577622cd",
+      "original_bytes": 8000,
+      "public_bytes": 8000,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "public/GENERATION-ATTESTATION.json",
+      "original_sha256": "6ca738e6a005491d8282128bc13a9feca282f77c3b31d9009550b20df10dc0d6",
+      "public_sha256": "6ca738e6a005491d8282128bc13a9feca282f77c3b31d9009550b20df10dc0d6",
+      "original_bytes": 1190,
+      "public_bytes": 1190,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "public/RUN_APPROVAL.json",
+      "original_sha256": "d01367cebf095b45dd5272c1b11a640373ef3786fc7c6dca73c49c40f1e44ee4",
+      "public_sha256": "d01367cebf095b45dd5272c1b11a640373ef3786fc7c6dca73c49c40f1e44ee4",
+      "original_bytes": 688,
+      "public_bytes": 688,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "public/solver-input.json",
+      "original_sha256": "79319cb9272242cd7f44b7bf2ccf6c9a630450ddab82c7cc2adb6457bd297747",
+      "public_sha256": "79319cb9272242cd7f44b7bf2ccf6c9a630450ddab82c7cc2adb6457bd297747",
+      "original_bytes": 23633,
+      "public_bytes": 23633,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "reviews/failure/COHORT-RECEIPT-TOTALS.json",
+      "original_sha256": "f9132a8fc5af28b320e6202288b1a0893969806b0b91716df007624505ecf53d",
+      "public_sha256": "f9132a8fc5af28b320e6202288b1a0893969806b0b91716df007624505ecf53d",
+      "original_bytes": 96,
+      "public_bytes": 96,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "reviews/failure/EXTERNAL-COMPLETIONS.jsonl",
+      "original_sha256": "2fe54f4eed70fe7dcd423f3f8279e4256b41337622305944b20a1ee78336f3d7",
+      "public_sha256": "2fe54f4eed70fe7dcd423f3f8279e4256b41337622305944b20a1ee78336f3d7",
+      "original_bytes": 1380,
+      "public_bytes": 1380,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "reviews/failure/ORIGINAL-RUN-INVENTORY.tsv",
+      "original_sha256": "d0942848c523d0aa0f538be9093e5638074557ba4a955fce350e2f13e67b3791",
+      "public_sha256": "d0942848c523d0aa0f538be9093e5638074557ba4a955fce350e2f13e67b3791",
+      "original_bytes": 1220,
+      "public_bytes": 1220,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "reviews/failure/ORIGINAL-RUN-SHA256SUMS",
+      "original_sha256": "5c030aa37d6b4f3663edc49be2be69aadb109d8527ccb7fbbc9d0fc19a796eea",
+      "public_sha256": "5c030aa37d6b4f3663edc49be2be69aadb109d8527ccb7fbbc9d0fc19a796eea",
+      "original_bytes": 4020,
+      "public_bytes": 4020,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "reviews/failure/REVIEW.md",
+      "original_sha256": "a5c85267f4c125cd389221c2fe2371f85af7f66f9251d03cffe749b909af2ba7",
+      "public_sha256": "90ccf427adc51c5a9464e20625bd9085d845ea438087a683608afa00097c96db",
+      "original_bytes": 15407,
+      "public_bytes": 15315,
+      "reason": "Public administrative-prose/coordination redaction only; original hash retained. Not the original sealed bytes."
+    },
+    {
+      "path": "reviews/source/COMMANDS.json",
+      "original_sha256": "fdef4a05e03efaf39abbad16273b6b81505d4e9ff53343c3d2dea64d1bde7582",
+      "public_sha256": "fdef4a05e03efaf39abbad16273b6b81505d4e9ff53343c3d2dea64d1bde7582",
+      "original_bytes": 1950,
+      "public_bytes": 1950,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "reviews/source/EXTERNAL-COMPLETION.json",
+      "original_sha256": "e75d1f42eb726e4f773cfa474956185bfcf5df8c16e7a0101be504fb23111203",
+      "public_sha256": "619765f0cd61221262648703b9c5e2b4627440ae0760ddb0cc1064b6dc0013f8",
+      "original_bytes": 514,
+      "public_bytes": 491,
+      "reason": "Public administrative-prose/coordination redaction only; original hash retained. Not the original sealed bytes."
+    },
+    {
+      "path": "reviews/source/MOCK-ARTIFACT-SHA256SUMS",
+      "original_sha256": "59d5bc21cf7de3ebd6e90fdfc1fc95c4badacafcb25ed2d7e93420a12afa3d8a",
+      "public_sha256": "59d5bc21cf7de3ebd6e90fdfc1fc95c4badacafcb25ed2d7e93420a12afa3d8a",
+      "original_bytes": 1393,
+      "public_bytes": 1393,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "reviews/source/MOCK-INVENTORY.tsv",
+      "original_sha256": "3654c1e542fbac574d24d7abea2f321cc7b4a6481d0df6b97721129e64bd315c",
+      "public_sha256": "3654c1e542fbac574d24d7abea2f321cc7b4a6481d0df6b97721129e64bd315c",
+      "original_bytes": 441,
+      "public_bytes": 441,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "reviews/source/NORMALIZED-MOCK-REPORT.json",
+      "original_sha256": "d014d31301b83d90e5e8061a5a2f2ab705680df61a6d4c30fdd42b773dd7f353",
+      "public_sha256": "d014d31301b83d90e5e8061a5a2f2ab705680df61a6d4c30fdd42b773dd7f353",
+      "original_bytes": 711,
+      "public_bytes": 711,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "reviews/source/PRE-MOCK-REVIEW.md",
+      "original_sha256": "409ec666f70ff1b0299cdd53057fc574579db6f1729ef3ce4160aac258b2b1d1",
+      "public_sha256": "f0191dc270d3a6b112397533af24bedb40f720792d7b6812495783ec949e0054",
+      "original_bytes": 12334,
+      "public_bytes": 12282,
+      "reason": "Public administrative-prose/coordination redaction only; original hash retained. Not the original sealed bytes."
+    },
+    {
+      "path": "reviews/source/REVIEW.md",
+      "original_sha256": "fe4bc1b4c775a677ed892f180b12a725765a491f335aec184e12361e8c1bcf35",
+      "public_sha256": "d97c7493b42e5059e4869541c7b011eef8b07db4725367df353e75d0b3ae7e35",
+      "original_bytes": 9885,
+      "public_bytes": 9876,
+      "reason": "Public administrative-prose/coordination redaction only; original hash retained. Not the original sealed bytes."
+    },
+    {
+      "path": "runs/G0-normal/resource.json",
+      "original_sha256": "acf6623a2282b838e5cd1189b4073c6e2b380035723003d81f51ce8e4bcf40b3",
+      "public_sha256": "acf6623a2282b838e5cd1189b4073c6e2b380035723003d81f51ce8e4bcf40b3",
+      "original_bytes": 2766,
+      "public_bytes": 2766,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G0-normal/result.json",
+      "original_sha256": "6bdf20c15830110a74d1bd3e018d302204700cd7ec22ffd80af944c862fd4928",
+      "public_sha256": "6bdf20c15830110a74d1bd3e018d302204700cd7ec22ffd80af944c862fd4928",
+      "original_bytes": 3894,
+      "public_bytes": 3894,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G0-normal/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G0-normal/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G0-optimized/resource.json",
+      "original_sha256": "f72d4f3a0a9b51562ab434fd25740ca0ba4eeead6b2fb0fe0d322d8ad0ad1396",
+      "public_sha256": "f72d4f3a0a9b51562ab434fd25740ca0ba4eeead6b2fb0fe0d322d8ad0ad1396",
+      "original_bytes": 2786,
+      "public_bytes": 2786,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G0-optimized/result.json",
+      "original_sha256": "744515c2a08e0a672b18acfef2e4d8827d721216ef064199d630414ef9ce09f8",
+      "public_sha256": "744515c2a08e0a672b18acfef2e4d8827d721216ef064199d630414ef9ce09f8",
+      "original_bytes": 3897,
+      "public_bytes": 3897,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G0-optimized/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G0-optimized/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G1-normal/resource.json",
+      "original_sha256": "40a8d60c4af850c3df17f047c7417a9f34a4fa232f572f931ed5cf8738fb038b",
+      "public_sha256": "40a8d60c4af850c3df17f047c7417a9f34a4fa232f572f931ed5cf8738fb038b",
+      "original_bytes": 2781,
+      "public_bytes": 2781,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G1-normal/result.json",
+      "original_sha256": "132503257bb611aa76cca459807cc3723983255954abecdc75bbce550125732d",
+      "public_sha256": "132503257bb611aa76cca459807cc3723983255954abecdc75bbce550125732d",
+      "original_bytes": 3908,
+      "public_bytes": 3908,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G1-normal/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G1-normal/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G1-optimized/resource.json",
+      "original_sha256": "42cb729acf4c078723f8feedb9b9ff58aa048752b1bf92c40810be1355ac97d3",
+      "public_sha256": "42cb729acf4c078723f8feedb9b9ff58aa048752b1bf92c40810be1355ac97d3",
+      "original_bytes": 2776,
+      "public_bytes": 2776,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G1-optimized/result.json",
+      "original_sha256": "5c5d444b9d05dfea4f320ea1dce684c4310a677402fd756b5530d1fd3e6744e6",
+      "public_sha256": "5c5d444b9d05dfea4f320ea1dce684c4310a677402fd756b5530d1fd3e6744e6",
+      "original_bytes": 3917,
+      "public_bytes": 3917,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G1-optimized/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/G1-optimized/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/IN_FLIGHT.lock",
+      "original_sha256": "f7cde537161151785ecd9c176431c3e5aef905831cac5c0aa59afdb77f375450",
+      "public_sha256": "f7cde537161151785ecd9c176431c3e5aef905831cac5c0aa59afdb77f375450",
+      "original_bytes": 237,
+      "public_bytes": 237,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/state.json",
+      "original_sha256": "11b9e0c6b7291520d9feb38bce6f0b50ad2e1a11ae19e43639e65e91f6b1d71b",
+      "public_sha256": "11b9e0c6b7291520d9feb38bce6f0b50ad2e1a11ae19e43639e65e91f6b1d71b",
+      "original_bytes": 2565,
+      "public_bytes": 2565,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v000-normal/resource.json",
+      "original_sha256": "48b27fab163f8a329f606b11a3f9510b70a05ea8f82d01815a4c316e29bddaf9",
+      "public_sha256": "48b27fab163f8a329f606b11a3f9510b70a05ea8f82d01815a4c316e29bddaf9",
+      "original_bytes": 2756,
+      "public_bytes": 2756,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v000-normal/result.json",
+      "original_sha256": "d1b54572493cc8b897cfb1c2f93c27e144fdb588a6753bc29f0b07d9e63051c9",
+      "public_sha256": "d1b54572493cc8b897cfb1c2f93c27e144fdb588a6753bc29f0b07d9e63051c9",
+      "original_bytes": 5842,
+      "public_bytes": 5842,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v000-normal/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v000-normal/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v000-optimized/resource.json",
+      "original_sha256": "050736810ee5137b8f5c8aa4bf53de4f24469af0b7edb637a3b3f332bf2b134f",
+      "public_sha256": "050736810ee5137b8f5c8aa4bf53de4f24469af0b7edb637a3b3f332bf2b134f",
+      "original_bytes": 2797,
+      "public_bytes": 2797,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v000-optimized/result.json",
+      "original_sha256": "78e2f66d465b70570db6f291efac09f272022a61158f51419789f65784c152a0",
+      "public_sha256": "78e2f66d465b70570db6f291efac09f272022a61158f51419789f65784c152a0",
+      "original_bytes": 5850,
+      "public_bytes": 5850,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v000-optimized/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v000-optimized/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v001-normal/resource.json",
+      "original_sha256": "3e92e64fcf5c34b9810a5b8d59757e617f7a63f8951b3bbfa5a4c64cf88420e5",
+      "public_sha256": "3e92e64fcf5c34b9810a5b8d59757e617f7a63f8951b3bbfa5a4c64cf88420e5",
+      "original_bytes": 2766,
+      "public_bytes": 2766,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v001-normal/result.json",
+      "original_sha256": "321481aae899d7a77d678298923d9e60a6dfdc24a69e2e748833bf744379318b",
+      "public_sha256": "321481aae899d7a77d678298923d9e60a6dfdc24a69e2e748833bf744379318b",
+      "original_bytes": 5862,
+      "public_bytes": 5862,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v001-normal/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v001-normal/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v001-optimized/resource.json",
+      "original_sha256": "ce688178d3bce7087888f55d6904e559eed646f6d47c04ec0d93da38eefa2976",
+      "public_sha256": "ce688178d3bce7087888f55d6904e559eed646f6d47c04ec0d93da38eefa2976",
+      "original_bytes": 2868,
+      "public_bytes": 2868,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v001-optimized/result.json",
+      "original_sha256": "69eab32ab8962c187c62a312ecde9e1453111023b1f656bdc3524a15c5da69cb",
+      "public_sha256": "69eab32ab8962c187c62a312ecde9e1453111023b1f656bdc3524a15c5da69cb",
+      "original_bytes": 3880,
+      "public_bytes": 3880,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v001-optimized/stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "runs/v001-optimized/stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/ANALYSIS-MANIFEST.json",
+      "original_sha256": "11c5f756f5f1bd233c0994cc201c3099e929bbb995449e2f1381062001b1382a",
+      "public_sha256": "11c5f756f5f1bd233c0994cc201c3099e929bbb995449e2f1381062001b1382a",
+      "original_bytes": 844,
+      "public_bytes": 844,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/CAPS.json",
+      "original_sha256": "a7f1a8664b8069207e22532ca5fd3e4ddb6834f99c0e4bf31d41d22be6a6ed03",
+      "public_sha256": "a7f1a8664b8069207e22532ca5fd3e4ddb6834f99c0e4bf31d41d22be6a6ed03",
+      "original_bytes": 1995,
+      "public_bytes": 1995,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/EXECUTION-CONTRACT.md",
+      "original_sha256": "27e1dbb2fabb7817dc039da72c67835a9e7132c20b6e28b307b0fa9791962769",
+      "public_sha256": "27e1dbb2fabb7817dc039da72c67835a9e7132c20b6e28b307b0fa9791962769",
+      "original_bytes": 12632,
+      "public_bytes": 12632,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/FREEZE.json",
+      "original_sha256": "77bda1efb5878971eb7ff42feeca26acd1e79813329ca30108b72aeeeebe8767",
+      "public_sha256": "77bda1efb5878971eb7ff42feeca26acd1e79813329ca30108b72aeeeebe8767",
+      "original_bytes": 26225,
+      "public_bytes": 26225,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/PRE-MOCK-APPROVAL.json",
+      "original_sha256": "34641ddd61fd6e4dd3d2dbe7dc0915b1146f20710a242d86194eefb5404aad4e",
+      "public_sha256": "34641ddd61fd6e4dd3d2dbe7dc0915b1146f20710a242d86194eefb5404aad4e",
+      "original_bytes": 173,
+      "public_bytes": 173,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/PROTOCOL.md",
+      "original_sha256": "40b56ccfb98cffdbf46bc2811bdc28e2fca72f25595cb2795a892ee7628b39a1",
+      "public_sha256": "323465105842fc6abea378b0538fc2d30825315a4e3ffc4d8e2875228cf30f68",
+      "original_bytes": 25563,
+      "public_bytes": 25507,
+      "reason": "Public administrative-prose/coordination redaction only; original hash retained. Not the original sealed bytes."
+    },
+    {
+      "path": "source/RESOURCE-ALLOCATION.json",
+      "original_sha256": "35f1ee0b5d81349425f962b580aee847feaa80ce382adb0ae08f07926474f045",
+      "public_sha256": "35f1ee0b5d81349425f962b580aee847feaa80ce382adb0ae08f07926474f045",
+      "original_bytes": 1957,
+      "public_bytes": 1957,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/SCHEMA-DESIGN.json",
+      "original_sha256": "2e4f7a64dda2e92d394ffe4a43ad280c913fc68e74813e5b1489b123a40ae7c4",
+      "public_sha256": "2e4f7a64dda2e92d394ffe4a43ad280c913fc68e74813e5b1489b123a40ae7c4",
+      "original_bytes": 6324,
+      "public_bytes": 6324,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/SCHEMAS.json",
+      "original_sha256": "0943e4266175ce368abe874a1cbd15e320c90ad72f81dff6cb3b048e3aa61708",
+      "public_sha256": "0943e4266175ce368abe874a1cbd15e320c90ad72f81dff6cb3b048e3aa61708",
+      "original_bytes": 5986,
+      "public_bytes": 5986,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/SOURCE-SHA256SUMS",
+      "original_sha256": "57b8080f3f61ce5c4a3df4bd73bd84e865c658ef9a6d23edcc7e1aa6b8830d77",
+      "public_sha256": "57b8080f3f61ce5c4a3df4bd73bd84e865c658ef9a6d23edcc7e1aa6b8830d77",
+      "original_bytes": 2711,
+      "public_bytes": 2711,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/analyze.py",
+      "original_sha256": "ca5715a63d03245b9180bcc9469d538e9f6e194337ecd0f135b1d0eefc993e91",
+      "public_sha256": "ca5715a63d03245b9180bcc9469d538e9f6e194337ecd0f135b1d0eefc993e91",
+      "original_bytes": 17621,
+      "public_bytes": 17621,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/bounded_stage.py",
+      "original_sha256": "b972270768203571c92c42de8fd453585c658e42141ae7c47aaa9876209d0c49",
+      "public_sha256": "b972270768203571c92c42de8fd453585c658e42141ae7c47aaa9876209d0c49",
+      "original_bytes": 32534,
+      "public_bytes": 32534,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/checker_blind.py",
+      "original_sha256": "065e3c29d2705c706b44a553bd9013b10c84751251145a4a683b940962ecc5c6",
+      "public_sha256": "065e3c29d2705c706b44a553bd9013b10c84751251145a4a683b940962ecc5c6",
+      "original_bytes": 14634,
+      "public_bytes": 14634,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/custody_common.py",
+      "original_sha256": "e13b0ff00830fec8eb5bfcce06b10c8f22000525b13e6fcc687013cb560694d7",
+      "public_sha256": "e13b0ff00830fec8eb5bfcce06b10c8f22000525b13e6fcc687013cb560694d7",
+      "original_bytes": 17122,
+      "public_bytes": 17122,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/generator.py",
+      "original_sha256": "4bf7b8198603f255692b90b5d5ab479ac0c4fa74ab8c2fa9871f6f54668edfa9",
+      "public_sha256": "4bf7b8198603f255692b90b5d5ab479ac0c4fa74ab8c2fa9871f6f54668edfa9",
+      "original_bytes": 10221,
+      "public_bytes": 10221,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/preflight_blind.py",
+      "original_sha256": "42c48ad3dc23d4a7d15fc979f9c58cfb41bf98e8fcf774ed423a9502fb3de74b",
+      "public_sha256": "42c48ad3dc23d4a7d15fc979f9c58cfb41bf98e8fcf774ed423a9502fb3de74b",
+      "original_bytes": 12119,
+      "public_bytes": 12119,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/protocol_mock_tests.py",
+      "original_sha256": "3aa9ef81a428681066aee4c8deeb3a269dcf0d6021f62ad2599f58563c7236e5",
+      "public_sha256": "3aa9ef81a428681066aee4c8deeb3a269dcf0d6021f62ad2599f58563c7236e5",
+      "original_bytes": 40948,
+      "public_bytes": 40948,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/seal_results.py",
+      "original_sha256": "8a23c847e2dcf1781f488841f1310eec1e911ea2ae5866346276f49055ec026d",
+      "public_sha256": "8a23c847e2dcf1781f488841f1310eec1e911ea2ae5866346276f49055ec026d",
+      "original_bytes": 4286,
+      "public_bytes": 4286,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/supervisor.py",
+      "original_sha256": "1023cad828f62097a7feff5b4da681397ffa31d5b11364d29abcfc82ebf9cca8",
+      "public_sha256": "1023cad828f62097a7feff5b4da681397ffa31d5b11364d29abcfc82ebf9cca8",
+      "original_bytes": 44093,
+      "public_bytes": 44093,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "source/worker.py",
+      "original_sha256": "0f5b1e979c73b72776495608a7352f2dc01aea35c484c95b55d1acc121340086",
+      "public_sha256": "0f5b1e979c73b72776495608a7352f2dc01aea35c484c95b55d1acc121340086",
+      "original_bytes": 13045,
+      "public_bytes": 13045,
+      "reason": "Exact retained evidence bytes."
+    },
+    {
+      "path": "LOCAL-RELEASE-REVIEW.md",
+      "original_sha256": "00a65e92b4094021f123ab5eae14e76722c2790f050b1b7a464711b47e403365",
+      "public_sha256": "f7c3099d18c8cf6775660265c383670befb5ba208f51e7087acb2abc8cc3d58a",
+      "original_bytes": 7977,
+      "public_bytes": 7938,
+      "reason": "Administrative private-register sentence removed; numerical review unchanged."
+    }
+  ]
+}

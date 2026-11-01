@@ -997,6 +997,14 @@
       ],
       "outcome": "Two-control full-31 workload pilot PASS; resource rejection and complete B semantics distinguished; fresh validation not authorized",
       "basis": "Independent final outcome review of four frozen author/reviewer normal/optimized slots; publication is static only and preserves the original failed cohort."
+    },
+    "LOG-46C612AA9F": {
+      "title": "METHOD-RESIDUAL-009 \u2014 fresh residual v2 stopped INCOMPLETE",
+      "categories": [
+        "synthetic validation"
+      ],
+      "outcome": "INCOMPLETE: cooperative preflight wall failure; 8/28 slots, only one completed fresh pair, no truth metrics",
+      "basis": "Independent failure preservation and release review; whole fixed-data post-failure reevaluation remains design only, not authorized execution."
     }
   }
 }

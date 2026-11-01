@@ -2550,3 +2550,23 @@ Reported workers total 41.862310 CPU seconds plus 0.653631 exclusive supervisor 
 **Next decision:** prepare and review a separate fresh residual-validation protocol; no draw or execution authorized by this closeout. Two known controls do not establish representative workload completion, recovery, speedup, global novelty or K4 admission. The old failed cohort remains permanently INCOMPLETE and sealed; all 68 cipher-family records stay unchanged.
 
 Related files: [research/method-pilots/full31-preflight-v1/README.md](../../research/method-pilots/full31-preflight-v1/README.md).
+
+## LOG-46C612AA9F
+
+**METHOD-RESIDUAL-009 — fresh residual v2 stopped INCOMPLETE**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: synthetic validation. Outcome: INCOMPLETE: cooperative preflight wall failure; 8/28 slots, only one completed fresh pair, no truth metrics
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**1 November 2026 closeout — failed fresh synthetic validation, not a K4 experiment or validation PASS.** [Full failure, preserved sources/receipts and independent reviews](../../research/method-pilots/fresh-residual-v2-incomplete/README.md). Eight of 28 slots executed: four disclosed control gates, three VERIFIED_EXACT individual slots, and one cooperative preflight wall failure; 20 successors canceled. Only v000 completed a fresh normal/optimized pair. The unpaired v001 normal result is not paired coverage. No truth-based accuracy, twin outcome or cohort coverage was evaluated.
+
+The failed v001 optimized slot checked 4,153/4,495 supports with lower bound 1 and exact W null; producer and full reference were not attempted. Its 20-second cooperative gate expired, with preflight wall 20.322845 seconds and worker CPU 16.325925. Ordinary exit 1 and reaped child distinguish this from an OS timeout; the triggering I/O/computation/scheduling cause remains unresolved. A matching normal-mode W = 1 cannot substitute for missing completion.
+
+Known worker plus supervisor-sample CPU totals 56.075505 seconds across mocks, generation and eight slots. Full supervisor policy 133 and worker-plus-policy 184.756527 are not measured CPU. Failed-slot reservation 80 is within attempted cohort allocation 640; stage 3,000 and project 20,200/28,800 allocations remain unchanged. Tails/control overhead are unmeasured, not zero. Original stop lock, reservation and eight certificates (including partial failure) remain preserved; publication uses the one approved archive without extraction or replay.
+
+**Method lesson / next decision:** preserve the elapsed-wall protocol failure instead of silently adjusting caps or drawing replacements. Separately design a whole fixed-data post-failure re-evaluation with finite schedule, resource/custody gates and explicit new authority before execution. No source change, seed access, replacement draw, selective suffix retry, truth release or target run follows. Any later success on reused post-failure data is not fresh replication or retroactive PASS. The older failed cohort remains permanently INCOMPLETE and sealed. All 68 cipher-family records are unchanged.
+
+Related files: [research/method-pilots/fresh-residual-v2-incomplete/README.md](../../research/method-pilots/fresh-residual-v2-incomplete/README.md).
