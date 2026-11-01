@@ -1,0 +1,31 @@
+{
+  "baseline": "3e128d9a617af377516a0b9878a942b29bf2e3b8",
+  "original_manifest_sha256": "37d61450fdfafe3152d5faab418c6fd1270a561847a5a911edb00c4e2b7060d4",
+  "note": "Historical MANIFEST/SHA256SUMS bind original deliverable. Only listed administrative derivatives differ; all catalog/scientific specifications remain exact. Proposal checks are not experiments.",
+  "derivatives": [
+    {
+      "path": "README.md",
+      "original_sha256": "b9dbe0e76442b567d9504e9206746ad0394717e9d388a0f676d274db2df032e7",
+      "public_sha256": "fe8d7bfa4db34b46204086dea576a65a61cb3398e71e0c5d8d09c6337e079f08",
+      "reason": "Dated current-status/navigation addendum; original specifications/catalog and historical ranking remain preserved. Other administrative redactions remain as previously mapped."
+    },
+    {
+      "path": "EVIDENCE-REJECTIONS.json",
+      "original_sha256": "ab7a26227124a8059b44d785ba7dd44f3636b0c299f43d8e53202c2c188a8930",
+      "public_sha256": "1703bfa9772ff8fd586bd9bdee7868eab921b2d4b30348c87c01df6e72697e53",
+      "reason": "Generalize private workflow reference and omit generic local custody-path prefix; all source pins/specifications unchanged."
+    },
+    {
+      "path": "INTEGRATION.md",
+      "original_sha256": "603004acbdf4cd0d0c099b501e0f4459fd5b2258d18609556ecb0ecd2f6f8a8b",
+      "public_sha256": "3f7ec3039c8095654c87b6878247f77f3a2bdc1d6c2ca86fad04a80806638d3a",
+      "reason": "Resolve the integration example link relative to its published annex location; proposal content unchanged."
+    },
+    {
+      "path": "PRIORITIES.md",
+      "original_sha256": "58057c4a9d6e46c527a02d4491dc361f996d5301c6d4d6fd998d1a8255c70d77",
+      "public_sha256": "24037db80716224db1d0c90c7338f2422a4cd9fa671b2abe1dbdc619bbcacf4b",
+      "reason": "Dated current-status/navigation addendum; original specifications/catalog and historical ranking remain preserved. Other administrative redactions remain as previously mapped."
+    }
+  ]
+}

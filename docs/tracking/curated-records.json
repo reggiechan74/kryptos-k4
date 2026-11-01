@@ -1021,6 +1021,14 @@
       ],
       "outcome": "Source/mock/disclosed controls PASS; K4 target and sealer UNRUN, separate target grant pending",
       "basis": "Independent source/mock/control reviews; not a target experiment, fresh validation, intended-law or novelty claim."
+    },
+    "LOG-BE406321A0": {
+      "title": "RESIDUAL-R-TARGET-001 \u2014 canonical sparse residual bounded negative",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "Exact bounded R negative: both prescribed modes EMPTY/VERIFIED_EMPTY; no candidate or first-six claim",
+      "basis": "Independent completed pair and metadata-seal reviews; one hypothesis, two mode checks, immutable recovery/authority/resource provenance preserved."
     }
   }
 }

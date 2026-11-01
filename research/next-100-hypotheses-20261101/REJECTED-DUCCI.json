@@ -1,0 +1,20 @@
+{
+  "local_id": "B13",
+  "title": "Absolute-difference vector stream",
+  "type": "cipher mechanism",
+  "mechanism": "State v in{0,..,25}^4 updates to (|v0-v1|,|v1-v2|,|v2-v3|,|v3-v0|). Emit v0 mod26 directly as a shift. Use AZ additive C_i=P_i+K_i mod26, without other alphabets or signs.",
+  "bounded_test": "All26^4 initial tuples, but first prove a termination/period bound on this exact dimension; remove all states whose induced ordinary key period is already excluded. First reproduce the generator and round-trip fresh synthetic97-letter plants; compare exact generated shift streams against all recovered external banks before target admission.",
+  "controls": "Exhaustive small-range states and all-equal terminal states; independent arithmetic update. Include uniform ciphertext nulls and all24 fixed clue checks only after the source/synthetic gate.",
+  "identifiability_limit": "If every state enters a known-excluded constant/short-period suffix before informative positions, close analytically; do not compute K4 again. This is a useful falsifiable stop candidate. A stream matching clues is only compatibility; report all full decryptions and complete parameter equivalence classes. Finite generators may alias prior short-period models. No source/creator evidence selects this generator.",
+  "novelty_distinction": "Absolute-value dynamics is not an affine recurrence, but collapse to old negative domains is a serious expected gate.",
+  "closest_local_external": "H-AUTONOMOUS-RECURRENCE; EXT-010; EXT-040; EXT-050; EXT-051; mruckman1 generator dossier",
+  "admission": "proposed; prior mathematical-generator scope unresolved; no target admission",
+  "priority": 5,
+  "estimated_cost": "Design/source comparison first. Synthetic implementation pilot \u2264120 CPU seconds; full parameter scan cost must be preflighted separately, no automatic target run.",
+  "sources": [
+    "https://chamberland.math.grinnell.edu/papers/ducci_unbounded.pdf",
+    "https://github.com/mruckman1/k4_cipher/blob/e4912152555f635c35e73fe454a8302a98a5902f/docs/shift_sequence_hypotheses.md"
+  ],
+  "status": "rejected_by_pre_target_analysis_not_counted",
+  "proof": "For four-cycle shift S, D(v)=absolute adjacent differences obeys D^4(v)=0 modulo2 because (I+S)^4=I+S^4=0. Homogeneity gives D^(4k)(v) divisible by2^k. Coordinates remain nonnegative and at most25, hence D^20(v)=0. Under the frozen global alignment all public clues lie in the zero tail. No 26^4 enumeration is justified; constant-tail prior certificates may be transferred after their exact scopes are checked."
+}

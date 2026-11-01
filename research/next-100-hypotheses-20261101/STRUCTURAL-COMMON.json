@@ -1,0 +1,63 @@
+{
+  "baseline": "reggiechan74/kryptos-k4@3e128d9a617af377516a0b9878a942b29bf2e3b8",
+  "date": "2026-11-01",
+  "kind": "research-only structural proposals",
+  "count": 35,
+  "execution": "No K4 computation, target fitting, synthetic experiment, external write, or cipher execution performed.",
+  "common_protocol": {
+    "admission": "These are explicit proposals, not35 cleared experiments or worldwide-first claims. Compare exact operators, alphabets, initialization, keys, alignment and finite-trace supersets to all69 local families and EXT001-051. Remove known subsets and aliases. EXT051 remains unresolved for nonlinear recurrences.",
+    "controls": "Before target authority: two independently authored implementations; exhaustive tiny-domain inverse/transition truth sets where practical;64 fresh blind97-letter plants and64 null controls, with24 reveal positions fixed to the K4 clue pattern. Independent analyst supplies controls. Report full compatible sets, never demand intended-key uniqueness when aliases exist. Certify deliberately inconsistent negatives separately from random nulls.",
+    "stopping": "Freeze equations, ranges, sources and control gates before any run. If inverse, independence, finite-domain completeness, prior eligibility or control performance fails, stop without K4 execution or retuning. No language scoring or English-template fitting.",
+    "historical": "All newly composed operators are speculative. Primary mathematical papers establish existing mathematics, not Sanborn use. Some cited formal constructions postdate1990 and are explicitly low historical prior.",
+    "alignment": "All proposals preserve97 output symbols and original24 clue positions; pair/triple tails are explicit. Only whole-message rank maps change numerical representation, not length.",
+    "identifiability": "A nonempty relation means compatibility. Conditional unique plaintext within a tiny constructed family is not global identification. Report equivalent descriptions, surviving keys/states, unique full plaintexts and unresolved positions separately."
+  },
+  "sources": {
+    "groups": "https://github.com/aciderix/kryptos-research-handoff/blob/6b82bd5364b6fea78b6ef3cfd73fafaf85ac3462/audits/autocle_groupes_2026_09_25/t36_autocle_groupes.py",
+    "linear": "https://github.com/scott-dunphy/kryptos-k4/blob/a75178587efe9401ebf2a4edf3828472dd6fb2a2/novel/run_chain.py",
+    "unknown": "https://gist.github.com/matbalez/8300cb067a5cda55c3b44ef382d517c0",
+    "lfsr": "https://github.com/ActiveTK/dekrypt/blob/992c9668b9f0783221cb570abbff969e59cbf27c/src/s225_lfsr_chunks.py",
+    "schedule": "https://github.com/Barneyjm/kryptos-k4/blob/2db2722cc3f18c52d4d8369d7adc5a1db7e859d7/scripts/fe_interrupt.py",
+    "ca": "https://github.com/mruckman1/k4_cipher/blob/e4912152555f635c35e73fe454a8302a98a5902f/docs/shift_sequence_hypotheses.md",
+    "projective": "https://arxiv.org/abs/2102.10321",
+    "quasigroup": "https://arxiv.org/abs/cs/0610017",
+    "cerny": "https://arxiv.org/abs/1202.4626",
+    "rotor": "https://arxiv.org/abs/0904.4507",
+    "sandpile": "https://doi.org/10.1103/PhysRevLett.64.1613",
+    "toffoli": "https://dspace.mit.edu/entities/publication/06a8b271-428a-4379-955c-8c7334aa0288",
+    "bbs": "https://shub.ccny.cuny.edu/articles/1986-A_simple_unpredictable_pseudo-random_number_generator.pdf",
+    "debruijn": "https://www.sciencedirect.com/science/article/pii/0012365X7890002X",
+    "fpe": "https://www.cs.ucdavis.edu/~rogaway/papers/subset.pdf",
+    "adler": "https://arxiv.org/abs/math/0307009",
+    "viterbi": "https://doi.org/10.1109/TIT.1967.1054010",
+    "bm": "https://epubs.siam.org/doi/10.1137/0213053",
+    "inversive": "https://doi.org/10.1145/224401.224612",
+    "fcsr": "https://www.cs.uky.edu/~klapper/pdf/fcsr.pdf",
+    "geffe": "https://www.worldradiohistory.com/Archive-Electronics/70s/73/Electronics-1973-01-04.pdf",
+    "braid": "https://www.iacr.org/archive/crypto2000/18800166/18800166.pdf",
+    "hill": "https://github.com/nitsuah/kryptos/blob/main/docs/FEATURES.md"
+  },
+  "source_search_notes": {
+    "date": "2026-11-01",
+    "inspection": "Read baseline AGENTS.md, current-state/queue/family records in HYPOTHESES.md, relevant EXPERIMENTS.md records, and EXT001-051 with detailed reads of nonlinear, finite-state, carry, group and recurrence entries. Local files read only; no external source code executed. Primary source discovery used web search; cited general mathematical papers are not evidence of a K4 attempt or creator use.",
+    "targeted_queries": [
+      "Kryptos K4 quasigroup cipher",
+      "Kryptos K4 projective OR Mobius cipher",
+      "Kryptos K4 dihedral cipher",
+      "Kryptos K4 cellular automata cipher",
+      "Kryptos K4 Hill cipher matrix",
+      "Kryptos K4 finite state cipher",
+      "Kryptos K4 Blum OR BBS OR de Bruijn",
+      "Kryptos Cerny OR sandpile OR rotor-router OR Toffoli",
+      "Kryptos Blum-Micali OR Blum Blum Shub OR Geffe OR FCSR OR stop-and-go",
+      "Kryptos quasigroup OR projective line OR p-adic OR Yang-Baxter OR braid group",
+      "Kryptos inversive OR hysteresis OR Ising OR min-plus OR de Bruijn"
+    ],
+    "material_hits": [
+      "mruckman1/k4_cipher shift_sequence_hypotheses.md explicitly proposes Rule30/110 CA keystreams and higher recurrences; this is why S17 is a spatial reversible message transform rather than an ordinary CA keystream. Parent supplied immutable source pin e4912152555f635c35e73fe454a8302a98a5902f.",
+      "nitsuah/kryptos FEATURES.md advertises Hill2x2 through5x5 attempts; source-level completion was not authenticated. S18/S19 require nonlinear-versus-Hill operator checks, not a claim that Hill was untried.",
+      "General primary papers establish BBS, Blum-Micali, FCSR, Geffe, cycle walking, quasigroups, braid groups, projective ciphers, rotor walks and sandpiles as existing mathematics. No exact K4 counterpart was found for those35 specifications in this bounded search."
+    ],
+    "limits": "Search coverage is finite and indexing incomplete. No negative search result proves absence. EXT051 exact nonlinear/history/polynomial equations remain unavailable; eligibility remains unresolved until explicit acceptance or new source evidence. No newly numbered EXT records or main-repo modifications made."
+  }
+}

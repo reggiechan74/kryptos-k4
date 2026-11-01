@@ -1,0 +1,5 @@
+# Publisher handoff
+
+Integrate this reviewed package as `research/residual-target-v1/` with the separate exact100 proposal annex. Use administrative experiment ID RESIDUAL-R-TARGET-001; preserve actual run_id and source freeze. Update existing H-CANONICAL-RESIDUAL-FEEDBACK to this narrow negative; preserve the other68 family bodies. No new family for normal/-O. Preserve original failures, old baseline UNRUN snapshots and all original/public hash chains.
+
+This package is locally prepared, not remotely published. Final assembled privacy/provenance, source transfer, family-body/parser, documentation/navigation/link checks and exact publication approval remain publisher obligations. Do not rerun cipher sources or classify the100 proposals as tested/admitted. Do not copy/extract/recompress the unique certificate archive; use the one authorized payload and its two original references. Coordinate any repository representation with the parent, preserving one local exported archive rather than silently duplicating it. No force update or new remote authority is conveyed here.

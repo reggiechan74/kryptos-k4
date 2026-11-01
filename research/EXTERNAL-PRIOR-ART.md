@@ -75,6 +75,8 @@ Earlier focused [Barney/Scott review](../docs/prior-art-barney-scott-review.md),
 | [EXT-049](#ext-049) | Periodic adjacent-pair carry supermodel | scott-dunphy/kryptos-k4 |
 | [EXT-050](#ext-050) | E167 fixed-position current-symbol stage grammar | ActiveTK/dekrypt |
 | [EXT-051](#ext-051) | Unresolved recurrence-audit and terminal-22 handoff scope | matbalez public handoff |
+| [EXT-052](#ext-052) | Fixed alphabet-pool selectors and generator portfolio | mruckman1/k4_cipher |
+| [EXT-053](#ext-053) | Mechanism recovery, calibrated experiments and solver routing | matthewdgreen/decipher |
 
 ## Coverage records
 
@@ -751,3 +753,31 @@ These additions record scoped attempted models and one explicitly unresolved han
 - **Primary sources:** [Public handoff](https://gist.github.com/matbalez/8300cb067a5cda55c3b44ef382d517c0)
 
 **1 November 2026 — EXT-051 planning consequence:** bounded historical uncertainty is explicitly accepted for narrowly scoped [sparse ciphertext-equality residual R](HYPOTHESES.md#h-canonical-residual-feedback) exploratory planning because no identical operator was located in the inspected work. Exact nonlinear-history scope remains unresolved, not duplicate coverage or proof of novelty. Known B/C exclusions and EXT-048–050 bounds remain; source/mock/disclosed-control completion is not target authority. K4 is UNRUN, awaiting publication reconciliation and a separate exact grant. A newly available matching model reopens admission; repeating an undocumented broad claim is not indefinite automatic veto.
+
+**1 November 2026 — EXT-051 adaptive-frequency consequence:** the handoff's §6.6 explicitly reports adaptive frequency-count state rules and 5,234,944 configurations per public-strip model. This is author-reported work, not an independently reproduced negative. Count initialization, tie/ranking policy, plaintext/ciphertext update, direction, offsets and key bounds remain unavailable. [A01/N100-036 is therefore blocked by unresolved specific overlap](next-100-hypotheses-20261101/a01-admission-audit/REPORT.md), not synthetic-ready; no proposed 60-CPU-second pilot follows. Observed Raw-link revision9ca53efbbecdda0469a992c992ef4cc8af3f2d21 is not an authenticated body/source pin. Source: [public handoff §6.6](https://gist.github.com/matbalez/8300cb067a5cda55c3b44ef382d517c0#66-moving-alphabets-and-historical-machines).
+
+**1 November 2026 — separate local R closeout:** [RESIDUAL-R-TARGET-001](residual-target-v1/REPOSITORY-STATUS.md) returned independently verified EMPTY in both prescribed modes for exactly R = E minus (B union C). This is local bounded evidence, not reproduction of matbalez's unavailable models or proof of novelty. Earlier planning/UNRUN statements above remain dated history. Known B proof and C attempted-overlap distinctions are unchanged; no broader nonlinear exclusion follows.
+
+<a id="ext-052"></a>
+### EXT-052 — Fixed alphabet-pool selectors and generator portfolio
+
+- **Researcher / project:** mruckman1/k4_cipher, inspected 1 November 2026 at commit e4912152555f635c35e73fe454a8302a98a5902f.
+- **Exact inspected scope:** Synthesis/generator documentation plus 033b fixed keyword-derived alphabet pool, seven position/current-ciphertext/prefix selectors and default tuple sizes 2–6. Source enumerates combinations in fixed pool order, not every tuple permutation. Reported sweeps and proposed successors, including cellular automata, remain distinct.
+- **Method:** Primary documentation and targeted source comparison; no source execution or independent solver correctness audit.
+- **Reported outcome:** Authors advertise a broad portfolio and homophonic selector work. No author count is imported as independently verified completed negatives, and no universal exclusion follows.
+- **Evidence inspected:** Pinned README, synthesis, generator report and 033b source. Git blobs: synthesis `1412d4ff9148ee221420bf67cf9fd561af4f7068`; generator `967dbc6cc0f06ff5ca5e0a394793e065a21f8b8a`; README `b99aedb184dc39e3d6028d65de10070f26790a85`; 033b `a9d9c2810fdb35deb8d57d9b4d219f08845c08bb`.
+- **Local overlap / selection consequence:** Generic cellular-automaton streams, arbitrary chart selectors and elementary sequence libraries cannot be promoted as new inventions. Exact comparisons are required for [next-100 proposals](next-100-hypotheses-20261101/SEARCH-AND-PRIOR-ART.md). Inspected 033b does not implement online plaintext frequency-ranked alphabets, K1–K3 conditional bigram banks or external reference-cursor updates; this is source scope, not proof no other implementation does.
+- **Limits and unresolved evidence:** No independent reproduction or complete repository/source census. Membership in the earlier 71-hit discovery cohort remains unverified; do not silently change that frozen cohort. Fixed-pool-order qualification does not disprove a separate pool-coverage argument.
+- **Primary sources:** [Synthesis](https://github.com/mruckman1/k4_cipher/blob/e4912152555f635c35e73fe454a8302a98a5902f/docs/K4_synthesis.md); [generator hypotheses](https://github.com/mruckman1/k4_cipher/blob/e4912152555f635c35e73fe454a8302a98a5902f/docs/shift_sequence_hypotheses.md); [033b selector source](https://github.com/mruckman1/k4_cipher/blob/e4912152555f635c35e73fe454a8302a98a5902f/experiments/033b_per_position_state_dependent.py).
+
+<a id="ext-053"></a>
+### EXT-053 — Mechanism recovery and calibrated solver routing
+
+- **Researcher / project:** matthewdgreen/decipher, inspected 1 November 2026 at commit 2dace19a0309e08e9ea8e6c40af81c26f29276a3.
+- **Exact inspected scope:** README/research roadmap describe mechanism recovery, calibrated experiments, candidate retention and solver routing. This entry concerns methodological prior art, not a particular reproduced K4 cipher search.
+- **Method:** Documentation review only; no external program executed and no performance/accuracy claim transferred.
+- **Reported outcome:** A methodological system and research roadmap; not a verified new K4 elimination. Proposed and implemented work require exact source/result inspection before comparison.
+- **Evidence inspected:** Pinned README (Git blob `974d42386f7fee8e856aa06044cace130fc10d50`) and TODO roadmap.
+- **Local overlap / selection consequence:** Generic agentic orchestration, held-out calibration, candidate retention and routing are existing approaches. The annex's 22 method proposals must demonstrate utility for explicit local bottlenecks with separately frozen comparisons; no global invention claim.
+- **Limits and unresolved evidence:** No independent reproduction, solver-completeness audit, universal speedup or K4 target exclusion. Documentation overlap alone does not establish equivalence of every proposed implementation.
+- **Primary sources:** [README](https://github.com/matthewdgreen/decipher/blob/2dace19a0309e08e9ea8e6c40af81c26f29276a3/README.md); [research roadmap](https://github.com/matthewdgreen/decipher/blob/2dace19a0309e08e9ea8e6c40af81c26f29276a3/TODO.md).

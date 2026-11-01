@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-01",
+  "catalog_unchanged": true,
+  "proposal_count": 100,
+  "overrides": [
+    {
+      "id": "N100-036",
+      "draft_id": "A01",
+      "status": "blocked_prior_art_overlap_unresolved",
+      "synthetic_ready": false,
+      "target_admission": "not_admitted",
+      "runs": 0,
+      "evidence": "a01-admission-audit/REPORT.md"
+    }
+  ],
+  "next_source_proof_candidate": "N100-065",
+  "next_candidate_execution_authorized": false
+}

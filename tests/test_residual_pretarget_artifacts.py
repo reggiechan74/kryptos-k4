@@ -23,7 +23,7 @@ class ResidualPretargetArtifacts(unittest.TestCase):
  def test_original68_and_one_pending_family(self):
   s=(ROOT/'research/HYPOTHESES.md').read_text();records=dict(re.findall(r'^### (H-[^\n]+)\n(.*?)(?=^### H-|<!-- CURRENT-REGISTER:END -->)',s,re.M|re.S));pins=json.loads((D/'ORIGINAL-68-FAMILY-PINS.json').read_text())['records'];self.assertEqual(len(pins),68)
   for row in pins:self.assertEqual(hashlib.sha256(records[row['id']].encode()).hexdigest(),row['sha256'])
-  self.assertEqual(set(records)-{r['id'] for r in pins},{'H-CANONICAL-RESIDUAL-FEEDBACK'});self.assertIn('- Status: specified but not run',records['H-CANONICAL-RESIDUAL-FEEDBACK'])
+  self.assertEqual(set(records)-{r['id'] for r in pins},{'H-CANONICAL-RESIDUAL-FEEDBACK'});historical=__import__('subprocess').check_output(['git','show','3e128d9a617af377516a0b9878a942b29bf2e3b8:research/HYPOTHESES.md'],cwd=ROOT).decode();self.assertIn('- Status: specified but not run',historical.split('### H-CANONICAL-RESIDUAL-FEEDBACK\n')[1].split('### H-')[0])
  def test_unrun_and_current_frontier(self):
   s=json.loads((D/'STATUS.json').read_text());self.assertEqual(s['target_status'],'UNRUN');self.assertFalse(s['target_execution_authorized']);self.assertEqual(s['sealer_status'],'UNRUN_UNAUTHORIZED')
   f=json.loads((ROOT/'research/specifications/FRONTIER-CURRENT-20261101-PRETARGET.json').read_text());self.assertEqual(f['expected_register_entries'],69);g=next(x for x in f['gates'] if x['id']=='F-CANONICAL-RESIDUAL-PRETARGET');self.assertFalse(g['ready_for_new_K4_evaluation']);self.assertIsNone(g['safe_replay_argv'])

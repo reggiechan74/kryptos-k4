@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "author_task": "devise_evidence_candidates",
+  "baseline_commit": "3e128d9a617af377516a0b9878a942b29bf2e3b8",
+  "date_utc": "2026-11-01",
+  "scope": "Research proposals only. No target arithmetic, cipher execution, synthetic execution, publication, source edits, or outreach performed.",
+  "requested_count": 10,
+  "delivered_provisional_mechanisms": 2,
+  "physical_or_archival_mechanisms_admitted": 0,
+  "counting_note": "Do not pad the eight missing slots. E01 and E02 are speculative mathematical multi-section mechanisms, NOT evidence that Sanborn used them. They still require exact source-level overlap and source-degeneracy checks before admission. Their unknown historical support is not manufactured as a clue.",
+  "rejected_not_counted": [
+    {
+      "id": "E-R01",
+      "concept": "Intentional glyph-baseline/kerning binary selector",
+      "reason": "No measured two-class sidechannel. The 2005 attendee account attributes inconsistent spacing to hand layout and says no master letter-layout copy was preserved; it explicitly argues against this interpretation. Existing EXT-013 already covers physical-observable acquisition. Do not turn a manufacturing affordance into evidence of encoding.",
+      "source": "https://www.thekryptosproject.com/events/dinners/pdfs/2005/2005_hanson.pdf"
+    },
+    {
+      "id": "E-R02",
+      "concept": "Jigsaw toolmark cutting-order route",
+      "reason": "Cutting and deburring are documented, but an intentional recoverable total order and symbol-to-route rule are absent. A chronology assay is evidence acquisition, not a specified cipher; no claim that surviving toolmarks encode an order.",
+      "source": "https://www.thekryptosproject.com/events/dinners/pdfs/2005/2005_hanson.pdf"
+    },
+    {
+      "id": "E-R03",
+      "concept": "Raw Morse dot/dash gap geometry as selector",
+      "reason": "Known Morse/extra-dot narratives and existing physical-mask work already supply the broad lead. No calibrated independent gap classes or operational mapping were located; the attendee report describes excess dots as spacing. Not counted as a new cipher.",
+      "sources": [
+        "https://www.thekryptosproject.com/events/dinners/pdfs/2005/2005_hanson.pdf",
+        "https://github.com/jcolinpatrick/kryptos/blob/main/docs/anomaly_registry.md"
+      ]
+    },
+    {
+      "id": "E-R04",
+      "concept": "Antipodes-versus-Kryptos transcription-difference opcode stream",
+      "reason": "Documented differences are not evidence of a K4 instruction bus. Deliberate-spelling, construction-error and source-version families already cover the broad issue; selecting only convenient differences would be circular.",
+      "source": "https://scirealm.org/Antipodes.html"
+    },
+    {
+      "id": "E-R05",
+      "concept": "Reflowed original worksheet row boundaries as a K4 route",
+      "reason": "An independently authenticated K4 worksheet placement and operational reading rule are missing. Earlier-chart reflow/physical-mask acquisition is already prior work, and simply extending an old route to another grid width is not a new mechanism.",
+      "sources": [
+        "https://github.com/aciderix/kryptos-research-handoff/blob/main/docs/nyt_k1k2_chart_physical_layout_2026_09_19.md",
+        "https://github.com/jcolinpatrick/kryptos/blob/main/docs/REAL_K4_GAP09_ACQUISITION_SPEC_2026_05_29.md"
+      ]
+    },
+    {
+      "id": "E-R06",
+      "concept": "K2 omitted-character aftermath as an intentional K4 instruction",
+      "reason": "A documented editing error and its unintended decoded aftermath cannot be promoted to a cipher instruction. Any source correction is a provenance choice, not a second mechanism or key clue.",
+      "source": "https://github.com/jcolinpatrick/kryptos/blob/main/docs/anomaly_registry.md"
+    },
+    {
+      "id": "E-R07",
+      "concept": "Literal sliding K1-K3 source windows as K4 key",
+      "reason": "Direct duplicate of H-RUNKEY and EXT-047. New offsets, normalized text, keywords or larger corpora would not create a fresh mechanism.",
+      "source": "https://github.com/ElodineOfficial/KrackersAndCheese/blob/2ea3c11e9b80ccbac1c928c8688d01154f976e1b/full_password_slider.py"
+    },
+    {
+      "id": "E-R08",
+      "concept": "Arithmetic interval codec using earlier-section probabilities",
+      "reason": "Merged with encoding agent's arithmetic-code proposal. The K1-K3 probability model is an independent parameter/source choice, not a distinct operator and must not be counted again.",
+      "source": "https://doi.org/10.1145/214762.214771"
+    }
+  ],
+  "research_receipt": {
+    "local_records_read": [
+      "research/HYPOTHESES.md current state, index and relevant records",
+      "research/EXTERNAL-PRIOR-ART.md index and relevant exact-scope records",
+      "AGENTS.md"
+    ],
+    "targeted_queries": [
+      "Kryptos Sanborn manufacturing laser cutting copper letters two hands typeface cipher archival",
+      "Kryptos K4 Sanborn archives manufacturing stencil cut order Morse negative space",
+      "Kryptos letter spacing height typography Bacon cipher physical side channel",
+      "Kryptos Antipodes differences cipher Sanborn errors",
+      "Kryptos context-dependent alphabet",
+      "Kryptos previous plaintext table",
+      "Kryptos Markov substitution",
+      "Kryptos next-occurrence cipher",
+      "Kryptos first occurrence alphabet source",
+      "Kryptos conditional bigram cipher alphabet",
+      "Kryptos arithmetic coding"
+    ],
+    "primary_source_read_notes": [
+      "Hanson 2005 dinner PDF pp.1-4 read as an attendee's attributed report, distinguishing Sanborn remarks from the attendee's inferences.",
+      "CIA official sculpture page and artifact description checked for physical/material context; neither supplies the proposed operators.",
+      "mruckman1/k4_cipher current commit resolved through GitHub API to e4912152555f635c35e73fe454a8302a98a5902f; both 033b and 036 were subsequently read successfully at their exact commit URLs via the GitHub connector. Local text snapshots retained in k4-next100-sources/evidence-*.py, not executed; they are connector-decoded, patch-written text, not claimed raw remote bytes.",
+      "jcolinpatrick acquisition document and anomaly register read as the researcher's own prior proposals and corrections, not primary authentication of Sanborn intent.",
+      "Source retrieval failures were cache/unavailable responses, not permission denials. No restricted filesystem path was read and no permission denial was retried."
+    ],
+    "limits": "Selected source audit only, not a complete global code search. No exact source census, target outcome, source-induced row table, model separation certificate or runtime result is claimed.",
+    "snapshot_note": "Snapshot SHA-256 values describe local text files only, with possible final-newline normalization from apply_patch; they are not proof of raw remote response-byte identity.",
+    "source_snapshots": [
+      {
+        "file": "local-source-snapshot:evidence-033b_per_position_state_dependent.py",
+        "sha256": "30c62679df56ba666ff52b114dbc88f5d4ce0df170ca58e0a357c88933ed8bf3"
+      },
+      {
+        "file": "local-source-snapshot:evidence-036_rule_compatibility_with_chromatic_3.py",
+        "sha256": "a98982153d3925cbe23ff87e1eb95782bcb16695686a9362a04123ae93c946a1"
+      }
+    ]
+  }
+}
