@@ -1,0 +1,41 @@
+{
+  "original_manifest_sha256": "27bcfb2d8c5a55f10d134205a5891b6ab3afc9b7e92cace04456a2a9b1cc34fd",
+  "files": [
+    {
+      "path": "CODEBOOK.json",
+      "original_sha256": "378a183ec931dbff39e5f3aa67ab4ca736cf8fb1b86025b53b5fce341f7af565",
+      "public_sha256": "378a183ec931dbff39e5f3aa67ab4ca736cf8fb1b86025b53b5fce341f7af565",
+      "treatment": "byte-identical"
+    },
+    {
+      "path": "REPORT.md",
+      "original_sha256": "8c1cbfc6990663df9d1b87a8a727c874574a5f40915c3bb0f7e40de015e923a7",
+      "public_sha256": "2c4add552909383f83d68e640f413fb12236bfcb3a5d6d08f4c432bc375afef5",
+      "treatment": "administrative prose derivative: private governance reference removed; scientific statements unchanged"
+    },
+    {
+      "path": "SOURCE-POLICY.json",
+      "original_sha256": "0d75660d3df244efb83fc004466105573dbcbb99416490f81739a26083b8bd81",
+      "public_sha256": "0d75660d3df244efb83fc004466105573dbcbb99416490f81739a26083b8bd81",
+      "treatment": "byte-identical"
+    },
+    {
+      "path": "STATIC-CERTIFICATE.json",
+      "original_sha256": "0288680a0cf133a025ec0c3acdf49538fb8b5b2865015cd8aaa64c6576a979ea",
+      "public_sha256": "0288680a0cf133a025ec0c3acdf49538fb8b5b2865015cd8aaa64c6576a979ea",
+      "treatment": "byte-identical"
+    },
+    {
+      "path": "STATUS.json",
+      "original_sha256": "bbd4b505e4013cb732366c6ff40a0adcd0829f5e50047684572f0345299378a8",
+      "public_sha256": "bbd4b505e4013cb732366c6ff40a0adcd0829f5e50047684572f0345299378a8",
+      "treatment": "byte-identical"
+    },
+    {
+      "path": "derive_static_table.py",
+      "original_sha256": "7e064d0985c4c3145e1f826a10532686327695e22a496ecb67cc517433394a16",
+      "public_sha256": "7e064d0985c4c3145e1f826a10532686327695e22a496ecb67cc517433394a16",
+      "treatment": "byte-identical"
+    }
+  ]
+}

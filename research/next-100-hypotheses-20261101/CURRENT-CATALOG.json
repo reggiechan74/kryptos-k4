@@ -2502,7 +2502,7 @@
       "draft_id": "C02",
       "group": "encoding",
       "type": "mechanism",
-      "status": "proposed_unrun",
+      "status": "source_proof_audited_operational_gates_pending",
       "novelty_status": "exact_scope_review_pending",
       "target_admission": "not_admitted",
       "specification": {
@@ -2533,7 +2533,12 @@
           "limits": "Detailed linked local protocols were absent from the supplied four-file baseline. Pinned EXT-024 and EXT-034 GitHub page fetches returned cache miss; their exact source scope remains register-level, not freshly source-audited. No K4 calculation, target fitting, code execution of external sources, or external state change occurred."
         }
       },
-      "review_rank": 35
+      "review_rank": 35,
+      "original_draft_status": "proposed_unrun",
+      "status_override_evidence": "../c02-huffman-framing-audit-v1/README.md",
+      "synthetic_ready": false,
+      "recorded_runs": 0,
+      "run_scope": "static codebook/framing proof and source audit only; no synthetic or target invocation"
     },
     {
       "id": "N100-048",

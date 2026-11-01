@@ -38,7 +38,7 @@ Generated from immutable draft plus CURRENT-STATUS.json; status overrides take p
 | 32 | [N100-037](adaptive.md#n100-037) | A02 | proposed_unrun | Transition-count alphabet coding |
 | 33 | [N100-038](adaptive.md#n100-038) | A03 | proposed_unrun | Tournament-memory alphabet |
 | 34 | [N100-039](adaptive.md#n100-039) | A04 | proposed_unrun | Diffusive alphabet ordering |
-| 35 | [N100-047](encoding.md#n100-047) | C02 | proposed_unrun | Fixed Huffman-prefix stream, not a file-format compressor |
+| 35 | [N100-047](encoding.md#n100-047) | C02 | source_proof_audited_operational_gates_pending | Fixed Huffman-prefix stream, not a file-format compressor |
 | 36 | [N100-048](encoding.md#n100-048) | C03 | proposed_unrun | Tunstall variable-phrase to fixed-word coding |
 | 37 | [N100-049](encoding.md#n100-049) | C04 | proposed_unrun | Greedy LZ77 back-reference transport |
 | 38 | [N100-053](encoding.md#n100-053) | C08 | proposed_unrun | Finite-state language-path rank code |

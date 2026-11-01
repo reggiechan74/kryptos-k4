@@ -1085,6 +1085,14 @@
       ],
       "outcome": "Exact on 24,624 synthetic cases and 132 controls; limited extra pruning, no speedup or target claim",
       "basis": "Independent full-output readback; complete retained rows, disclosed overlapping fixtures and cached-oracle timing scope."
+    },
+    "LOG-4DA866B8F6": {
+      "title": "SOURCE-C02-016 \u2014 Huffman framing source and applicability audit",
+      "categories": [
+        "documentation and scope audit"
+      ],
+      "outcome": "C02 remains untested; standalone M21 capacity counting adds no inverse-candidate discrimination",
+      "basis": "Static framing proof, codebook constants and bounded source comparison only; no experiment or empirical utility claim."
     }
   }
 }

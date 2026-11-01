@@ -1,0 +1,15 @@
+{
+  "kind": "static table derivation only; no message inputs",
+  "frequency_order": "ETAOINSHRDLCUMWFGYPBVKJXQZ",
+  "weight": "26-zero_based_rank",
+  "node_key": [
+    "weight",
+    "minimum contained AZ letter"
+  ],
+  "merge": "pop two smallest; first left=0, second right=1; push sum/min",
+  "sentinel": "binary leading 1",
+  "payload_symbols": 97,
+  "base26": "AZ positional, exactly97digits, leading A allowed",
+  "outer": "AZ Vigenere literal KRYPTOS phases0..6",
+  "terminal": "no extra EOF or padding; require97complete symbols, no trailing bits"
+}

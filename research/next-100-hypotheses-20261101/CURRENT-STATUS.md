@@ -49,3 +49,7 @@ Current next source-review task: E02 reference-cursor rank. Audit active, eligib
 M21/N100-099 is **synthetic-method validated with limited utility; target model absent/not admitted**. This is not a fourth K4 target test or a new cipher family. Three target-tested proposals and 97 target-unrun remain; A01 stays blocked. Original catalog and all canonical family records remain unchanged. A separately justified encoder/framing/transport and utility case would be needed before any target application; no automatic rerun, new allocation or target follows.
 
 Next selected entry: **C02 prefix-code/Huffman framing source/proof audit only**. Check exact tree/framing/prior-art and whether M21 offers nontrivial pruning before implementation. No budget, experiment or target admission; the applicability recommendation is not established feasibility.
+
+## Later C02 source/proof closeout — 1 November 2026
+
+[Static framing and prior-art audit](../c02-huffman-framing-audit-v1/README.md) finds no incremental M21 width-capacity rejection for C02 direct inverse candidates, whose 97-digit representation already satisfies the bound. Do not run an M21 capacity count. The forward boundary has genuine bit dependence; this is not broad method uselessness or a C02 negative. C02 remains untested/not admitted, with unseen-English utility, independent adapter, resource and protocol gates pending. No fourth target test, new cipher family or change to the original draft.

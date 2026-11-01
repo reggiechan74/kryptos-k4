@@ -51,11 +51,21 @@
       "runs": 1,
       "run_scope": "one disclosed synthetic exactness and limited-utility method pilot; no K4 target",
       "evidence": "../m21-framing-capacity-v1/README.md"
+    },
+    {
+      "id": "N100-047",
+      "draft_id": "C02",
+      "status": "source_proof_audited_operational_gates_pending",
+      "synthetic_ready": false,
+      "target_admission": "not_admitted",
+      "runs": 0,
+      "run_scope": "static codebook/framing proof and source audit only; no synthetic or target invocation",
+      "evidence": "../c02-huffman-framing-audit-v1/README.md"
     }
   ],
   "next_source_proof_candidate": "N100-047",
   "next_candidate_execution_authorized": false,
-  "next_action": "C02 prefix-code/Huffman framing source/proof audit only: exact tree/framing/prior-art and whether M21 offers nontrivial pruning. No budget, experiment or target admission.",
+  "next_action": "C02 source/proof audit complete; no M21 capacity-count experiment. Operational synthetic utility/independent-adapter gates remain unfrozen, no budget or execution authority. C02 is not excluded.",
   "target_source_review_passed": true,
   "target_tested_proposals": 3,
   "target_unrun_proposals": 97

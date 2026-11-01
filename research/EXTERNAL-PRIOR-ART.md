@@ -77,6 +77,7 @@ Earlier focused [Barney/Scott review](../docs/prior-art-barney-scott-review.md),
 | [EXT-051](#ext-051) | Unresolved recurrence-audit and terminal-22 handoff scope | matbalez public handoff |
 | [EXT-052](#ext-052) | Fixed alphabet-pool selectors and generator portfolio | mruckman1/k4_cipher |
 | [EXT-053](#ext-053) | Mechanism recovery, calibrated experiments and solver routing | matthewdgreen/decipher |
+| [EXT-054](#ext-054) | Compressocrat ternary prefix/trigraph codec; K4 run unverified | stblake/colossus |
 
 ## Coverage records
 
@@ -801,3 +802,15 @@ Later E01 target closeout (1 November): the [exact fixed-bank/start-Q local mode
 Later E02 target closeout (1 November): the [exact fixed reference/start/update local model](e02-reference-cursor-v1/target-v1/README.md) is independently negative, 0/24 clues. Existing book-cursor prior art and source-scope limits are unchanged; no external run, broad book/rank/adaptive exclusion or novelty claim follows.
 
 M21 method reconciliation (1 November 2026): [framed-encoder integer-interval counting](m21-framing-capacity-v1/METHOD.md) uses classical weighted-automaton/regular-constraint mathematics. The source comparison with local Compression043 and EXT-024 does not establish a novel primitive or new K4 exclusion. Its [synthetic pilot](m21-framing-capacity-v1/README.md) validates the frozen tiny domain, including limited additional pruning over safe length-only checks and slower aggregate timing than a cached oracle. [Codec applicability](m21-framing-capacity-v1/NEXT-APPLICABILITY.md) identifies unproved framing/state gaps; it does not admit or reproduce any external cipher run.
+
+<a id="ext-054"></a>
+### EXT-054 — Compressocrat ternary prefix and trigraph coding
+
+- **Researcher / project:** stblake/colossus, inspected 1 November 2026.
+- **Exact inspected scope:** Fixed ternary prefix coding, padding to trigraphs and keyed 26-letter substitution. Related compression/fractionation primitive, not C02's binary sentinel whole-integer fixed-width map.
+- **Method:** Primary documentation and source lines 1–110 inspected, not executed or independently verified.
+- **Reported outcome:** Implemented related codec in a project stating K1–K4 purpose; a Compressocrat K4 run or result is not verified. No negative coverage imported.
+- **Evidence inspected:** CLAUDE documentation Git blob `6b43b765c6d2fe012851a185abea2a634e34bd7b`; `src/polygraphic/compressocrat.c` blob `475604ef593ebcb88d081ad3d2ffcce7c700c033`. Blob identities pin fetched bodies, not commit chronology; main links below are mutable.
+- **Local overlap / selection consequence:** Generic prefix compression is established prior art. [C02 exact source/framing comparison](c02-huffman-framing-audit-v1/REPORT.md) distinguishes inspected maps only. No worldwide novelty, broad compression exclusion or automatic C02 admission.
+- **Limits and unresolved evidence:** No full repository audit, solver execution, source correctness proof, K4 receipt or external reproduction. Historical discovery-cohort membership and counts remain unchanged.
+- **Primary sources:** [Documentation](https://github.com/stblake/colossus/blob/main/CLAUDE.md); [primitive](https://github.com/stblake/colossus/blob/main/src/polygraphic/compressocrat.c); [documentation blob](https://api.github.com/repos/stblake/colossus/git/blobs/6b43b765c6d2fe012851a185abea2a634e34bd7b); [source blob](https://api.github.com/repos/stblake/colossus/git/blobs/475604ef593ebcb88d081ad3d2ffcce7c700c033).

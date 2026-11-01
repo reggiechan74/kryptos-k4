@@ -2770,3 +2770,21 @@ Measured DP case CPU 2.313976845 seconds versus cached-oracle case CPU 0.5071574
 Current selection after this closeout: C02 prefix-code/Huffman framing source/proof audit only, checking exact tree/framing/prior-art and nontrivial utility before implementation. No experimental allocation or target admission.
 
 Related files: [research/m21-framing-capacity-v1/README.md](../../research/m21-framing-capacity-v1/README.md).
+
+## LOG-4DA866B8F6
+
+**SOURCE-C02-016 — Huffman framing source and applicability audit**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: documentation and scope audit. Outcome: C02 remains untested; standalone M21 capacity counting adds no inverse-candidate discrimination
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**1 November 2026 — static source/proof work, not an experiment.** [Fixed codebook, framing proof, exact integer certificate and external comparison](../../research/c02-huffman-framing-audit-v1/README.md). Sentinel plus prefix code gives a partial injective codec; fixed-width positional transport is not minimal-width transport. A static boundary witness shows forward bit content matters, but all seven fixed phases have nonempty capacity and direct inverse 97-digit candidates already satisfy `N < 26^97`. A standalone M21 target count adds no rejection and is not recommended.
+
+No target ciphertext read/transform, synthetic message batch, M21 execution, empirical capacity rate or new allocation. Initial static-script syntax error occurred before execution and was corrected; exact derivation source/table/constants preserved. Related Colossus Compressocrat source is implemented ternary/trigraph coding, not this binary whole-integer map; no external K4 run verified or third-party source executed. Missing inspected equivalence is not global novelty.
+
+**Lesson / next:** test the applicability and utility of a validated tool before spending on a target application. C02 itself is not excluded. The independent-adapter/unseen-English utility gate, generator, predeclared threshold, finite controls and budget remain to be frozen and reviewed. No experiment or target admitted; original 100 drafts and 72 canonical families unchanged, three target-tested and 97 target-unrun.
+
+Related files: [research/c02-huffman-framing-audit-v1/README.md](../../research/c02-huffman-framing-audit-v1/README.md).

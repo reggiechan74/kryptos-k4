@@ -5837,6 +5837,32 @@
       ],
       "receipt_paths": [],
       "original_entry": "**1 November 2026 — one disclosed synthetic method invocation, no K4 input or target inference.** [Frozen design, complete compressed rows, controls, source and independent result readback](m21-framing-capacity-v1/README.md). All 24,624 matrix cases and 132 controls passed; zero exact-count mismatches or false-pruning events against independent exhaustive enumeration. Stored attainable lengths, witnesses and baseline soundness checks passed. The exact bit-aware filter excludes 1,930 cases admitted by the stronger exact-attainable-length baseline with mandatory nonzero-prefix guarantees; 8,453 versus the weaker baseline. These are case requests, not independent discoveries or K4 exclusions. The 16,171 all-baseline agreement cases and overlapping fixture feasibility patterns remain retained.\n\nMeasured DP case CPU 2.313976845 seconds versus cached-oracle case CPU 0.507157471 seconds; no speedup. Oracle input encodings/digit histograms are reused across requests, so these timings describe the recorded workloads, not a universal algorithm ranking. Whole child CPU 4.11879517 seconds, wall 4.12233698 seconds, peak RSS 43,440 KiB. DP totals 375,129 visited states, 761,882 transitions and 1,301,302 emitted-bit comparisons; maximum count bit length 13. Supervisor overhead was not separately instrumented and remains charged to the existing 60 nominal preparation/review reserve; 180 nominal applied to the scientific child within 240 allocated. No budget increase, retry or recycled unused reservation.\n\n**Lesson / next:** classical finite-state/counting mathematics is exact on this bounded fixture matrix and prunes more than safe length-only checks, but is slower than the cached oracle and has no demonstrated practical 97-symbol scaling. Retain as an infrastructure gate, not a novel primitive or new cipher family. Any target application first needs a separately justified finite encoder, framing/invertibility/transport contract, public-equation deduplication, state-size/utility review and distinct finite authority. No target model is currently admitted. All 72 canonical families and original 100 drafts are unchanged; three proposals target-tested, 97 target-unrun, A01 blocked.\n\nCurrent selection after this closeout: C02 prefix-code/Huffman framing source/proof audit only, checking exact tree/framing/prior-art and nontrivial utility before implementation. No experimental allocation or target admission."
+    },
+    {
+      "record_id": "LOG-4DA866B8F6",
+      "experiment_ids": [
+        "SOURCE-C02-016"
+      ],
+      "title": "SOURCE-C02-016 — Huffman framing source and applicability audit",
+      "categories": [
+        "documentation and scope audit"
+      ],
+      "outcome": "C02 remains untested; standalone M21 capacity counting adds no inverse-candidate discrimination",
+      "classification_basis": "Static framing proof, codebook constants and bounded source comparison only; no experiment or empirical utility claim.",
+      "source": "research/EXPERIMENTS.md",
+      "recorded_date_statement": null,
+      "date_only": {
+        "date": "2026-11-01",
+        "precision": "day",
+        "source": "opening prose",
+        "not_a_run_timestamp": true
+      },
+      "timestamps": [],
+      "links": [
+        "research/c02-huffman-framing-audit-v1/README.md"
+      ],
+      "receipt_paths": [],
+      "original_entry": "**1 November 2026 — static source/proof work, not an experiment.** [Fixed codebook, framing proof, exact integer certificate and external comparison](c02-huffman-framing-audit-v1/README.md). Sentinel plus prefix code gives a partial injective codec; fixed-width positional transport is not minimal-width transport. A static boundary witness shows forward bit content matters, but all seven fixed phases have nonempty capacity and direct inverse 97-digit candidates already satisfy `N < 26^97`. A standalone M21 target count adds no rejection and is not recommended.\n\nNo target ciphertext read/transform, synthetic message batch, M21 execution, empirical capacity rate or new allocation. Initial static-script syntax error occurred before execution and was corrected; exact derivation source/table/constants preserved. Related Colossus Compressocrat source is implemented ternary/trigraph coding, not this binary whole-integer map; no external K4 run verified or third-party source executed. Missing inspected equivalence is not global novelty.\n\n**Lesson / next:** test the applicability and utility of a validated tool before spending on a target application. C02 itself is not excluded. The independent-adapter/unseen-English utility gate, generator, predeclared threshold, finite controls and budget remain to be frozen and reviewed. No experiment or target admitted; original 100 drafts and 72 canonical families unchanged, three target-tested and 97 target-unrun."
     }
   ],
   "receipts": [
