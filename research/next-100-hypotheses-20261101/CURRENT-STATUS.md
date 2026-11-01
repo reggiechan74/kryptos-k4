@@ -22,4 +22,8 @@ Use [CURRENT-CATALOG.json](CURRENT-CATALOG.json) and [CURRENT-INDEX.md](CURRENT-
 
 [Seven-phase target evidence](../c20-successor-queue-v1/target/README.md) independently closes the fixed AZ/KRYPTOS successor-queue composition: 0/7 compatible phases, clue match counts [2,1,1,1,0,0,0]/24, full reference/re-encryption checks passed. This supersedes earlier preparation-stage text above, without changing the original catalog. One target invocation and no retry; no broader graph-family exclusion. The next unrelated proposal must pass its own source/proof gates; none is selected for execution.
 
-Current next source-review task: E01 conditional alphabet bank. Its source/proof audit is underway; outcome unknown, no synthetic or target execution admitted. This is not a ready model or C20 rescue.
+Historical next-task stage: E01 was source/proof-only. The later synthetic closeout below supersedes that execution status, without admitting a target.
+
+## Later 1 November: E01 / N100-044 synthetic validation passed
+
+[Source/proof and synthetic evidence](../e01-conditional-alphabet-v1/REPOSITORY-STATUS.md) records 235,872 tiny cases, 676 row cells, 28 malformed calls and 320 stored controls. All64 positives recovered; wrong/null/shuffle compatibility counts are descriptive zeros, not calibration. Incidental prior shared-fixture K4-text exposure is disclosed, not observational blinding. No E01 target transformation, fitting or clue evaluation occurred. The exact one-candidate target remains proposed, later 10 nominal seconds allocated (5 preparation/review + 5 runtime), but source/static review and final execution grant pending. C20 remains target-negative, A01 blocked; 99 proposals remain target-unrun.

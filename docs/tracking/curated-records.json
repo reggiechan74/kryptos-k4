@@ -1045,6 +1045,14 @@
       ],
       "outcome": "Exact seven-phase model negative: 0/7 compatible; no broader graph exclusion",
       "basis": "Independent stored target outcome, fixed scope and full reference/re-encryption checks; no external count imported."
+    },
+    "LOG-22B78E416E": {
+      "title": "METHOD-E01-013 \u2014 fixed conditional-alphabet synthetic validation",
+      "categories": [
+        "synthetic method validation"
+      ],
+      "outcome": "235,872 tiny cases and 320 stored controls passed; E01 target unrun",
+      "basis": "Independent synthetic outcome/source evidence; descriptive controls, incidental target-text exposure and unresolved external scope preserved."
     }
   }
 }

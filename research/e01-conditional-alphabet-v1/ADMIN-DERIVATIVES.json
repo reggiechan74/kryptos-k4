@@ -1,0 +1,240 @@
+{
+  "policy": "Scientific artifacts byte-identical. Private tool/Page/coordination references removed only from public review derivatives; source hashes are provenance, not claims that derivatives retain original signatures. No target fixture or target output included.",
+  "members": [
+    {
+      "source_group": "audit",
+      "source_name": "REPORT.md",
+      "source_sha256": "d054060252e26b6a0b3f3bbde770db0cadd6284cbee8f6248d2b369518772e52",
+      "release_member": "audit/REPORT.md",
+      "release_sha256": "d054060252e26b6a0b3f3bbde770db0cadd6284cbee8f6248d2b369518772e52",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "audit",
+      "source_name": "SOURCE-POLICY.json",
+      "source_sha256": "b4f2dec75c5ce39236701e83093b360d097a8f90c4fb7542d749406e2ccef0a6",
+      "release_member": "audit/SOURCE-POLICY.json",
+      "release_sha256": "b4f2dec75c5ce39236701e83093b360d097a8f90c4fb7542d749406e2ccef0a6",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "audit",
+      "source_name": "SOURCE-BANK.json",
+      "source_sha256": "efa74dabd7ff0448987060c02ac4f045c6188d4a6169c7ed44d314671144b8a8",
+      "release_member": "audit/SOURCE-BANK.json",
+      "release_sha256": "efa74dabd7ff0448987060c02ac4f045c6188d4a6169c7ed44d314671144b8a8",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "audit",
+      "source_name": "LOCAL208-GATE.md",
+      "source_sha256": "8bd92cc22c5c02c5e526a5c411b60305149dd918484eb553c8efffa6eb852d08",
+      "release_member": "audit/LOCAL208-GATE.md",
+      "release_sha256": "8bd92cc22c5c02c5e526a5c411b60305149dd918484eb553c8efffa6eb852d08",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "audit",
+      "source_name": "LOCAL208-CERTIFICATE.json",
+      "source_sha256": "85303e7f36489c85175e4fec45e452bdb1a5df1274ee938137b3969f4b42c430",
+      "release_member": "audit/LOCAL208-CERTIFICATE.json",
+      "release_sha256": "85303e7f36489c85175e4fec45e452bdb1a5df1274ee938137b3969f4b42c430",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "audit",
+      "source_name": "local208_static_gate.py",
+      "source_sha256": "dbfd6abec0339f462d16a24b78d08b33ea8053a298a819fc84e40eb198ed57fd",
+      "release_member": "audit/local208_static_gate.py",
+      "release_sha256": "dbfd6abec0339f462d16a24b78d08b33ea8053a298a819fc84e40eb198ed57fd",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-source",
+      "source_name": "EXECUTION.json",
+      "source_sha256": "b31fc40e9e33f32c9a4ec856ffee29859c5d5119b318b9fe241e50d3bee0ac95",
+      "release_member": "synthetic-source/EXECUTION.json",
+      "release_sha256": "b31fc40e9e33f32c9a4ec856ffee29859c5d5119b318b9fe241e50d3bee0ac95",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-source",
+      "source_name": "FREEZE.json",
+      "source_sha256": "f2987d9fc3b65ac435ec113257facd3d7ec00ed8b47af86a3eda3db06c2fb0c1",
+      "release_member": "synthetic-source/FREEZE.json",
+      "release_sha256": "f2987d9fc3b65ac435ec113257facd3d7ec00ed8b47af86a3eda3db06c2fb0c1",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-source",
+      "source_name": "PILOT-PROTOCOL.md",
+      "source_sha256": "e1e85f74b10946464dc68040237e3e04a3a31db72fc64c841093af97f96df2fc",
+      "release_member": "synthetic-source/PILOT-PROTOCOL.md",
+      "release_sha256": "e1e85f74b10946464dc68040237e3e04a3a31db72fc64c841093af97f96df2fc",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-source",
+      "source_name": "production.py",
+      "source_sha256": "d6c2705c15650f81e7d79fdec437b126d61fd11c9b0616c80a19d33c2dcdc753",
+      "release_member": "synthetic-source/production.py",
+      "release_sha256": "d6c2705c15650f81e7d79fdec437b126d61fd11c9b0616c80a19d33c2dcdc753",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-source",
+      "source_name": "reference.py",
+      "source_sha256": "c14c162c499db89cee336cec84bd9c79335913811cd4809f91bef1199e20b3c5",
+      "release_member": "synthetic-source/reference.py",
+      "release_sha256": "c14c162c499db89cee336cec84bd9c79335913811cd4809f91bef1199e20b3c5",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-source",
+      "source_name": "run.py",
+      "source_sha256": "0df7b5f2bdb361663f4f594eb8caea3b6de1d69af6fbe34df13254cc8e1b215f",
+      "release_member": "synthetic-source/run.py",
+      "release_sha256": "0df7b5f2bdb361663f4f594eb8caea3b6de1d69af6fbe34df13254cc8e1b215f",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-source",
+      "source_name": "source-bank.json",
+      "source_sha256": "efa74dabd7ff0448987060c02ac4f045c6188d4a6169c7ed44d314671144b8a8",
+      "release_member": "synthetic-source/source-bank.json",
+      "release_sha256": "efa74dabd7ff0448987060c02ac4f045c6188d4a6169c7ed44d314671144b8a8",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-source",
+      "source_name": "source-fields.json",
+      "source_sha256": "02cd97befbc2c4e77f3bcc3673bc41e98a405643b1d4b44001d73cc298fbd601",
+      "release_member": "synthetic-source/source-fields.json",
+      "release_sha256": "02cd97befbc2c4e77f3bcc3673bc41e98a405643b1d4b44001d73cc298fbd601",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-source",
+      "source_name": "source-policy.json",
+      "source_sha256": "b4f2dec75c5ce39236701e83093b360d097a8f90c4fb7542d749406e2ccef0a6",
+      "release_member": "synthetic-source/source-policy.json",
+      "release_sha256": "b4f2dec75c5ce39236701e83093b360d097a8f90c4fb7542d749406e2ccef0a6",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-source",
+      "source_name": "supervise.py",
+      "source_sha256": "3881d288716e46b5d24fc68438298ec11ae48eedab3c493a96edf9478307aa36",
+      "release_member": "synthetic-source/supervise.py",
+      "release_sha256": "3881d288716e46b5d24fc68438298ec11ae48eedab3c493a96edf9478307aa36",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-results",
+      "source_name": "REPORT.json",
+      "source_sha256": "f985f6b45d730fa97bd9be777f2abe9fc09fa51ce3a2856073ee6d94d31c9c23",
+      "release_member": "synthetic-results/REPORT.json",
+      "release_sha256": "f985f6b45d730fa97bd9be777f2abe9fc09fa51ce3a2856073ee6d94d31c9c23",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-results",
+      "source_name": "answers.json",
+      "source_sha256": "21367bba94cedd91e428278f6b01275767bb157277a98a00195111dec42de16c",
+      "release_member": "synthetic-results/answers.json",
+      "release_sha256": "21367bba94cedd91e428278f6b01275767bb157277a98a00195111dec42de16c",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-results",
+      "source_name": "cases.json",
+      "source_sha256": "68bcd53f09b1dd4207dd0ee4d3384779853f2ac555ab7265de5567ee2444c9d9",
+      "release_member": "synthetic-results/cases.json",
+      "release_sha256": "68bcd53f09b1dd4207dd0ee4d3384779853f2ac555ab7265de5567ee2444c9d9",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-results",
+      "source_name": "production-results.json",
+      "source_sha256": "ff55b1fbc8b5ed43ce1e294da28ca4788c340e63149d360cca23d625805ea017",
+      "release_member": "synthetic-results/production-results.json",
+      "release_sha256": "ff55b1fbc8b5ed43ce1e294da28ca4788c340e63149d360cca23d625805ea017",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-results",
+      "source_name": "reference-results.json",
+      "source_sha256": "ff55b1fbc8b5ed43ce1e294da28ca4788c340e63149d360cca23d625805ea017",
+      "release_member": "synthetic-results/reference-results.json",
+      "release_sha256": "ff55b1fbc8b5ed43ce1e294da28ca4788c340e63149d360cca23d625805ea017",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-results",
+      "source_name": "sealed-results.json",
+      "source_sha256": "c1f53b9423c48d9e5352e873c3b838be61c1da6c81210f08a4f1e7570077ea20",
+      "release_member": "synthetic-results/sealed-results.json",
+      "release_sha256": "c1f53b9423c48d9e5352e873c3b838be61c1da6c81210f08a4f1e7570077ea20",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-results",
+      "source_name": "seed.json",
+      "source_sha256": "048222eab0c3a72b70add4416d7ab95a3fce2afe14908112154408242b74416d",
+      "release_member": "synthetic-results/seed.json",
+      "release_sha256": "048222eab0c3a72b70add4416d7ab95a3fce2afe14908112154408242b74416d",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "synthetic-results",
+      "source_name": "k4-e01-pilot-run-001.external-receipt.json",
+      "source_sha256": "96d00b5ab706016ebb60d0e6abb80f3372c4301164c474865f53183d232ce027",
+      "release_member": "synthetic-results/external-receipt.json",
+      "release_sha256": "96d00b5ab706016ebb60d0e6abb80f3372c4301164c474865f53183d232ce027",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "reviews",
+      "source_name": "SOURCE-REVIEW.md",
+      "source_sha256": "c0c353bc1b851333794158fb1a89ec5398fef923ba70664d114aecae95dece98",
+      "release_member": "reviews/SOURCE-REVIEW.md",
+      "release_sha256": "8473d46a9e9edbd9433706077c4281477c85b7c8ac38454a93b32998a5a7cfa6",
+      "derivation": "administrative-only derivative"
+    },
+    {
+      "source_group": "reviews",
+      "source_name": "OUTCOME-REVIEW.md",
+      "source_sha256": "407cf4c8ac65225945e56b5a4eb5a6a444b844f0330ca74e286e0cbfdad19163",
+      "release_member": "reviews/OUTCOME-REVIEW.md",
+      "release_sha256": "f31e939e7184fe40b53f3bca1fffb4c4fd5566f0c362da12fa50b0d9072f98f2",
+      "derivation": "administrative-only derivative"
+    },
+    {
+      "source_group": "reviews",
+      "source_name": "OUTCOME-READBACK.json",
+      "source_sha256": "70143228886961d76e065cb0295c62d9a9498ff0b8d807421374f06ab334e965",
+      "release_member": "reviews/OUTCOME-READBACK.json",
+      "release_sha256": "a8eea48f47532172abfc781efac2a5d429e7d61c3aa72e1a817b078ea533780b",
+      "derivation": "administrative-only derivative"
+    },
+    {
+      "source_group": "reviews",
+      "source_name": "STATIC-READBACK.json",
+      "source_sha256": "736cc3a8541741aa3c3729fb399b096d59dfccb7137b492a2c94c16d3194e365",
+      "release_member": "reviews/STATIC-READBACK.json",
+      "release_sha256": "736cc3a8541741aa3c3729fb399b096d59dfccb7137b492a2c94c16d3194e365",
+      "derivation": "byte-identical"
+    }
+  ],
+  "excluded_administrative_artifacts": [
+    "private tool-completion record",
+    "original review manifests containing private administrative references",
+    "author run status/summary inventories",
+    "reviewer metadata-check script referencing private completion record"
+  ],
+  "derivative_operations": {
+    "reviews/SOURCE-REVIEW.md": "Remove one Responsibilities Page/authority sentence; add derivative notice.",
+    "reviews/OUTCOME-REVIEW.md": "Remove private tool-completion hash/list item and coordinator-message paragraph; replace private inventory paragraph with public seven-file count; add derivative notice.",
+    "reviews/OUTCOME-READBACK.json": "Remove private tool-completion inventory entry, recalculate public runtime bytes871356, add derivative note."
+  }
+}

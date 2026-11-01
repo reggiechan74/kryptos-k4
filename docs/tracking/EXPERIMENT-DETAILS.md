@@ -2670,3 +2670,23 @@ Child CPU 0.182064 plus supervisor sample 0.302418 = 0.484482 known sampled seco
 **Lesson / next:** correctness validation supported a cheap deterministic test but not K4 compatibility. Preserve the reusable classical involution and tiny oracle without claiming a novel cryptanalysis tool. Add H-SUCCESSOR-QUEUE-COMPOSITE as the 70th canonical family, preserve all prior 69 bodies and original100 draft, and update only C20’s effective status. Select unrelated source/proof work; no retuning or next execution is admitted. A01 remains blocked.
 
 Related files: [research/c20-successor-queue-v1/target/README.md](../../research/c20-successor-queue-v1/target/README.md).
+
+## LOG-22B78E416E
+
+**METHOD-E01-013 — fixed conditional-alphabet synthetic validation**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: synthetic method validation. Outcome: 235,872 tiny cases and 320 stored controls passed; E01 target unrun
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**1 November 2026 — synthetic-only correctness and declared controls, not an E01 K4 result.** [Fixed source policy, local 208-description comparison, stored evidence and independent review](../../research/e01-conditional-alphabet-v1/REPOSITORY-STATUS.md). One invocation passed 235,872 tiny cases, 676 source-row cells, 24 malformed cipher calls and four malformed assertion cases. Both engine result maps agree on all 320 cases: 64 positives recovered; 0/64 compatible in each wrong-assertion, independent-null, ciphertext-shuffle and source-shuffle category. These zeros are descriptive, not calibrated rates or independent statistical evidence.
+
+The frozen literal K1/K2-as-inscribed/K3 policy builds a static conditional bigram bank with descending-count/AZ ties and previous-plaintext state, starting Q. Source-row construction and inverse/state semantics passed. Local 208 first-emission witnesses and the fixed-axis shift-bank lemma separate inspected domains only; arbitrary/unavailable external selectors remain unresolved. Prior incidental raw K4 transcription exposure from a shared-fixture read is disclosed; no observational blinding, E01 target transformation, fit or clue evaluation claimed. Procedural answer separation is not a fresh-blind guarantee.
+
+External child/timeout CPU 8.825865 plus supervisor 0.116051 = 8.941916 known sampled aggregate; worker-command wall 8.828568523 seconds, peak child RSS 40,960 KiB. Internal worker timer already included; receipt/final-exit/outer-tool tails unmeasured. One 60-second pilot consumed within 120 allocated (preparation/review 60 separately committed). A concurrent tool-completion file required an explicitly retained metadata-inventory correction, not scientific retry. Scientific evidence remains unchanged; public administrative derivatives retain original/public pins.
+
+**Lesson / next:** retain the simple fixed-bank method and independent source-row/reference checks, with sparse-corpus/tie assumptions and exposure limitations explicit. Separate one-candidate target proposal requires exact source/freeze review and finite grant; later 10 nominal seconds allocated (5 preparation/review + 5 runtime), but source/static review and final execution grant pending. No target, parameter sweep, new canonical family or global novelty claim follows. All 70 family records/original100 specifications unchanged; C20 narrowly negative, A01 blocked, E01 target-unrun.
+
+Related files: [research/e01-conditional-alphabet-v1/REPOSITORY-STATUS.md](../../research/e01-conditional-alphabet-v1/REPOSITORY-STATUS.md).

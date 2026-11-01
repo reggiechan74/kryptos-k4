@@ -1,0 +1,37 @@
+{
+  "status": "PUBLICATION_PACKAGE_SYNTHETIC_PASS_TARGET_NOT_ADMITTED",
+  "files": {
+    "ADMIN-DERIVATIVES.json": {
+      "sha256": "305daeef9b91751cfa20a36aeed29b7995b7ffa487e84c3d901288a14eb483c4",
+      "bytes": 11504
+    },
+    "LOCAL208-GATE.md": {
+      "sha256": "8bd92cc22c5c02c5e526a5c411b60305149dd918484eb553c8efffa6eb852d08",
+      "bytes": 2580
+    },
+    "README.md": {
+      "sha256": "1b6aaebf8e7fe9e51e7fcb1354ff9be20efb361c70ba4453bf5c87d33b04522e",
+      "bytes": 2455
+    },
+    "REPORT.md": {
+      "sha256": "69bd4a64cbfae55c3e75d4075ecc6d86d8f8fe19a512a86a9a95cb5239cfa43e",
+      "bytes": 4235
+    },
+    "SOURCE-BANK.json": {
+      "sha256": "efa74dabd7ff0448987060c02ac4f045c6188d4a6169c7ed44d314671144b8a8",
+      "bytes": 11847
+    },
+    "SOURCE-POLICY.json": {
+      "sha256": "b4f2dec75c5ce39236701e83093b360d097a8f90c4fb7542d749406e2ccef0a6",
+      "bytes": 1313
+    },
+    "TARGET-PROPOSAL.md": {
+      "sha256": "53f9964f98e7c5923883b28b60e8a25efd0e24347d35c5778e764df00ac4e95f",
+      "bytes": 5079
+    },
+    "e01-synthetic-evidence.zip": {
+      "sha256": "b1b186b70f4b679efa77f851851500cef4fcd8972635b89d079f79a9fedb93b9",
+      "bytes": 177478
+    }
+  }
+}

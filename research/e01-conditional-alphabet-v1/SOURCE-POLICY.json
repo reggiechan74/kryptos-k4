@@ -1,0 +1,26 @@
+{
+  "status": "SOURCE_POLICY_FROZEN_BEFORE_BANK_CONSTRUCTION",
+  "repo_commit": "ca3e86d21a86c6473593fbdd7920887acc58b026",
+  "artifact": "data/controls.json",
+  "artifact_sha256": "54f19ff0ecd1e058a6b84c6ddb4ad75a297e4181edb45803647ed208d8fc011b",
+  "fields": [
+    "k1.plaintext",
+    "k2_as_inscribed.plaintext",
+    "k3.plaintext"
+  ],
+  "normalization": "retain only ASCII A-Z in each literal field; count adjacent pairs after stripping, within each field only; no section-boundary pairs; no corrections",
+  "tie_break": "AZ ascending",
+  "row_sort": "descending integer count then AZ",
+  "initial_state": "last retained K3 letter, Q",
+  "source_plaintext_lengths": {
+    "k1": 63,
+    "k2_as_inscribed": 369,
+    "k3": 336
+  },
+  "source_plaintext_sha256": {
+    "k1": "a4a581f02185ae92d52bbf55113cb59e73a2914f24af2634ffdb33c1d4988c15",
+    "k2_as_inscribed": "e01a5b04efc848817fac0245a8028a6387553191afc8e39ecb8d4ae3d8a09d76",
+    "k3": "ea07f4ff5bc4ffcf6cd2a3e33263d25543ea81d1089ed9a413021d75db46aafc"
+  },
+  "source_exposure_note": "Whole shared controls fixture was initially displayed, incidentally exposing lower-panel K4 characters; no target extraction, transformation, fitting or clue comparison occurred. Subsequent source work uses only the three named plaintext fields. Not a blinded audit."
+}
