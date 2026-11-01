@@ -2690,3 +2690,23 @@ External child/timeout CPU 8.825865 plus supervisor 0.116051 = 8.941916 known sa
 **Lesson / next:** retain the simple fixed-bank method and independent source-row/reference checks, with sparse-corpus/tie assumptions and exposure limitations explicit. Separate one-candidate target proposal requires exact source/freeze review and finite grant; later 10 nominal seconds allocated (5 preparation/review + 5 runtime), but source/static review and final execution grant pending. No target, parameter sweep, new canonical family or global novelty claim follows. All 70 family records/original100 specifications unchanged; C20 narrowly negative, A01 blocked, E01 target-unrun.
 
 Related files: [research/e01-conditional-alphabet-v1/REPOSITORY-STATUS.md](../../research/e01-conditional-alphabet-v1/REPOSITORY-STATUS.md).
+
+## LOG-4B26807D2C
+
+**E01-TARGET-001 — fixed conditional-alphabet bank negative**
+
+Exact run start/end unknown; date-only record: 2026-11-01 (opening prose; not a run timestamp)
+
+Type: finite K4 model tests. Outcome: Fixed source-bank/start-Q candidate negative: 0/24 clues; no broader bank exclusion
+
+Source: [canonical experiment log](../../research/EXPERIMENTS.md).
+
+**1 November 2026 — one fixed speculative model, one candidate, one invocation.** [Full result, exact scientific evidence and independent outcome review](../../research/e01-conditional-alphabet-v1/target-v1/README.md). Frozen as-inscribed earlier-section source bank, descending-count/AZ ties, previous-plaintext state starting Q and AZ output: COMPLETE_ONE_CANDIDATE / EXACT_INCOMPATIBLE, 0/24 public clue matches. Both full 97-letter outputs agree; both full re-encryptions pass. The entire candidate and failed assertions are retained, not ranked or filtered. This retires only the fixed E01 model, not all source-derived/conditional alphabets.
+
+Freeze 2756209215f4464bdc04a748b7e69701a1baf3e2cf6ed7ce8859acaa0c1e9e13; independent outcome 7df3cf0c1d07ac621f715b0589c7f40cf2a8491eb9d7ba918dc4f3971922db82. Exact source/input dependencies unchanged, external exit 0, child reaped, no error/timeout/retry. Earlier incidental raw-text exposure remains disclosed; the later target transformation was separately authorized, not observationally blinded.
+
+Known child/timeout CPU 0.177131 plus supervisor 0.104766 = 0.281897 seconds; wall 0.172584477 seconds; peak RSS 40,936 KiB. Internal worker timing already included, receipt/final-exit/OS/tool tails unmeasured. Five nominal execution seconds consumed within 10 allocated, preparation/review separately committed; no permission recycled. Static outcome review did not repeat the cipher/inverses.
+
+**Lesson / next:** invertibility and successful synthetic controls do not imply K4 compatibility; preserve the fixed-policy diagnostic and source omissions. No corpus/tie/start/offset rescue. Add the exact H-CONDITIONAL-ALPHABET-BANK as family71, preserving prior70 bodies and original100 draft; two proposals target-tested narrowly negative, 98 target-unrun. A01 remains blocked. Select unrelated source/proof work before any new admission; no next target granted.
+
+Related files: [research/e01-conditional-alphabet-v1/target-v1/README.md](../../research/e01-conditional-alphabet-v1/target-v1/README.md).

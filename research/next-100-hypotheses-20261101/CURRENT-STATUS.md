@@ -1,6 +1,6 @@
 # Current proposal status overrides
 
-The original catalog and ranked draft remain preserved. This dated evidence addendum overrides their research-priority suggestions; it does not add or remove proposals. **C20 is now target-tested with a narrow negative; the other 99 proposals remain target-unrun/unadmitted.**
+The original catalog and ranked draft remain preserved. This dated evidence addendum overrides their research-priority suggestions; it does not add or remove proposals. **C20 and E01 are now target-tested with narrow negatives; the other 98 proposals remain target-unrun/unadmitted.**
 
 ## 1 November 2026: A01 / N100-036 blocked
 
@@ -27,3 +27,9 @@ Historical next-task stage: E01 was source/proof-only. The later synthetic close
 ## Later 1 November: E01 / N100-044 synthetic validation passed
 
 [Source/proof and synthetic evidence](../e01-conditional-alphabet-v1/REPOSITORY-STATUS.md) records 235,872 tiny cases, 676 row cells, 28 malformed calls and 320 stored controls. All64 positives recovered; wrong/null/shuffle compatibility counts are descriptive zeros, not calibration. Incidental prior shared-fixture K4-text exposure is disclosed, not observational blinding. No E01 target transformation, fitting or clue evaluation occurred. The exact one-candidate target remains proposed, later 10 nominal seconds allocated (5 preparation/review + 5 runtime), but source/static review and final execution grant pending. C20 remains target-negative, A01 blocked; 99 proposals remain target-unrun.
+
+## Later E01 target closeout — 1 November 2026
+
+[One-candidate target evidence](../e01-conditional-alphabet-v1/target-v1/README.md) independently closes the fixed source bank/start Q/output AZ model: 0/24 clues, full independent outputs and both re-encryptions agree. This supersedes earlier E01 target-unrun/preparation wording only; the original catalog and synthetic evidence stay preserved. No broad bank exclusion, retuning or next execution grant. A01 remains blocked.
+
+Current next source-review task: E02 reference-cursor rank. Audit active, eligibility unknown; no experimental allocation or synthetic/target admission.

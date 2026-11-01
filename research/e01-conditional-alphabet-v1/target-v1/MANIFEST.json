@@ -1,0 +1,32 @@
+{
+  "status": "EXACT_E01_MODEL_TARGET_NEGATIVE_INDEPENDENTLY_REVIEWED",
+  "candidate_count": 1,
+  "clue_matches": 0,
+  "clue_positions": 24,
+  "files": {
+    "ADMIN-DERIVATIVES.json": {
+      "sha256": "5a0987fd3f3ae0b231caaaca5b0e76b22700cd9c0710814b2f673408d85ad9ee",
+      "bytes": 7109
+    },
+    "OUTCOME-REVIEW.md": {
+      "sha256": "48623a6077d726da24933ff5b87a2f598697e0e615691f286436a1d2783bb788",
+      "bytes": 3379
+    },
+    "README.md": {
+      "sha256": "7408ee52f3bbb5acf5e8454599b021533bf4b7756becb5adad9a7f44122b4398",
+      "bytes": 1475
+    },
+    "REPORT.md": {
+      "sha256": "48709440b26e699844ffd1ff24174ea6d88949d10285b12c1e3851c1cf9f43a5",
+      "bytes": 4145
+    },
+    "SOURCE-REVIEW.md": {
+      "sha256": "9a9922ed132bcfe1e9c56070e68cb925ef38c367bdb3f55b0425def4e4ab42f9",
+      "bytes": 4585
+    },
+    "e01-target-evidence.zip": {
+      "sha256": "93f02d9636c594e1a619c06f2a48d9e47af1c9088db95cb5c26e59542ecec61a",
+      "bytes": 21354
+    }
+  }
+}

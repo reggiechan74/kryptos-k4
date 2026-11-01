@@ -1,0 +1,144 @@
+{
+  "policy": "Scientific source/results/runtime bytes unchanged. Public review derivatives remove private Page/tool/coordination references only. Original and derivative hashes are distinct and explicitly mapped; no raw target fixture, private completion record or private review-check scripts are released.",
+  "members": [
+    {
+      "source_group": "frozen-source",
+      "source_name": "EXECUTION.json",
+      "source_sha256": "75bf8582c9f19f274c6d18feccc9046a17497c466d6cc78737176d9c0178fa4a",
+      "release_member": "frozen-source/EXECUTION.json",
+      "release_sha256": "75bf8582c9f19f274c6d18feccc9046a17497c466d6cc78737176d9c0178fa4a",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "frozen-source",
+      "source_name": "FREEZE.json",
+      "source_sha256": "2756209215f4464bdc04a748b7e69701a1baf3e2cf6ed7ce8859acaa0c1e9e13",
+      "release_member": "frozen-source/FREEZE.json",
+      "release_sha256": "2756209215f4464bdc04a748b7e69701a1baf3e2cf6ed7ce8859acaa0c1e9e13",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "frozen-source",
+      "source_name": "PROTOCOL.md",
+      "source_sha256": "652c0c8bfe7394078f4dd968a6f7eda6a5c794d4d362df2b1370b319dae677d4",
+      "release_member": "frozen-source/PROTOCOL.md",
+      "release_sha256": "652c0c8bfe7394078f4dd968a6f7eda6a5c794d4d362df2b1370b319dae677d4",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "frozen-source",
+      "source_name": "production.py",
+      "source_sha256": "d6c2705c15650f81e7d79fdec437b126d61fd11c9b0616c80a19d33c2dcdc753",
+      "release_member": "frozen-source/production.py",
+      "release_sha256": "d6c2705c15650f81e7d79fdec437b126d61fd11c9b0616c80a19d33c2dcdc753",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "frozen-source",
+      "source_name": "reference.py",
+      "source_sha256": "c14c162c499db89cee336cec84bd9c79335913811cd4809f91bef1199e20b3c5",
+      "release_member": "frozen-source/reference.py",
+      "release_sha256": "c14c162c499db89cee336cec84bd9c79335913811cd4809f91bef1199e20b3c5",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "frozen-source",
+      "source_name": "source-bank.json",
+      "source_sha256": "efa74dabd7ff0448987060c02ac4f045c6188d4a6169c7ed44d314671144b8a8",
+      "release_member": "frozen-source/source-bank.json",
+      "release_sha256": "efa74dabd7ff0448987060c02ac4f045c6188d4a6169c7ed44d314671144b8a8",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "frozen-source",
+      "source_name": "source-policy.json",
+      "source_sha256": "b4f2dec75c5ce39236701e83093b360d097a8f90c4fb7542d749406e2ccef0a6",
+      "release_member": "frozen-source/source-policy.json",
+      "release_sha256": "b4f2dec75c5ce39236701e83093b360d097a8f90c4fb7542d749406e2ccef0a6",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "frozen-source",
+      "source_name": "supervise.py",
+      "source_sha256": "a3da782f359916de31c37eaab1f32e4cbf26b36030eb8ee8d4290fdfab2751b8",
+      "release_member": "frozen-source/supervise.py",
+      "release_sha256": "a3da782f359916de31c37eaab1f32e4cbf26b36030eb8ee8d4290fdfab2751b8",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "frozen-source",
+      "source_name": "target.py",
+      "source_sha256": "1eadd3fc11ab13ba18d625b0f2a06ab271af0de6a339d019aa7454832100131a",
+      "release_member": "frozen-source/target.py",
+      "release_sha256": "1eadd3fc11ab13ba18d625b0f2a06ab271af0de6a339d019aa7454832100131a",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "results",
+      "source_name": "REPORT.json",
+      "source_sha256": "0c8984ab8bb2518445fc07043378203ebd2515994bae56902f62021d28efe3c8",
+      "release_member": "results/REPORT.json",
+      "release_sha256": "0c8984ab8bb2518445fc07043378203ebd2515994bae56902f62021d28efe3c8",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "results",
+      "source_name": "k4-e01-target-run-001.external-receipt.json",
+      "source_sha256": "942bc22acd3fb6bfe45e70de5252e15914b6be6e201485cd8891197a330713f1",
+      "release_member": "results/external-receipt.json",
+      "release_sha256": "942bc22acd3fb6bfe45e70de5252e15914b6be6e201485cd8891197a330713f1",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "reviews",
+      "source_name": "SOURCE-REVIEW.md",
+      "source_sha256": "b4c9dd0ced097380ebbceb2b05cfcd8c8de62ffbfda3c797e340c5bd2ef82d33",
+      "release_member": "reviews/SOURCE-REVIEW.md",
+      "release_sha256": "9a9922ed132bcfe1e9c56070e68cb925ef38c367bdb3f55b0425def4e4ab42f9",
+      "derivation": "administrative-only derivative"
+    },
+    {
+      "source_group": "reviews",
+      "source_name": "OUTCOME-REVIEW.md",
+      "source_sha256": "7df3cf0c1d07ac621f715b0589c7f40cf2a8491eb9d7ba918dc4f3971922db82",
+      "release_member": "reviews/OUTCOME-REVIEW.md",
+      "release_sha256": "48623a6077d726da24933ff5b87a2f598697e0e615691f286436a1d2783bb788",
+      "derivation": "administrative-only derivative"
+    },
+    {
+      "source_group": "reviews",
+      "source_name": "OUTCOME-READBACK.json",
+      "source_sha256": "7b34ed54c92c3f49c1901a2f1c573614a2a33743abec86f5f4bc7968544d892c",
+      "release_member": "reviews/OUTCOME-READBACK.json",
+      "release_sha256": "ad46e8ebe1093118ad4a41b60f7b51bb4d69fe44e370d74eda35c2d144106b84",
+      "derivation": "administrative-only derivative"
+    },
+    {
+      "source_group": "reviews",
+      "source_name": "INPUT-READBACK.json",
+      "source_sha256": "22ba3a15f9ad89e7ca181df730b84d5e0b46053791fb1eb36908edfa7e59e3a0",
+      "release_member": "reviews/INPUT-READBACK.json",
+      "release_sha256": "22ba3a15f9ad89e7ca181df730b84d5e0b46053791fb1eb36908edfa7e59e3a0",
+      "derivation": "byte-identical"
+    },
+    {
+      "source_group": "reviews",
+      "source_name": "STATIC-READBACK.json",
+      "source_sha256": "d7f8f875f487ba83b670a6007a41a32cdebe09dbe9b1ffd68b9bd8286814532c",
+      "release_member": "reviews/STATIC-READBACK.json",
+      "release_sha256": "d7f8f875f487ba83b670a6007a41a32cdebe09dbe9b1ffd68b9bd8286814532c",
+      "derivation": "byte-identical"
+    }
+  ],
+  "excluded_administrative_artifacts": [
+    "private tool-completion record",
+    "original review manifests referencing private administrative artifacts",
+    "reviewer metadata-check script"
+  ],
+  "derivative_operations": {
+    "reviews/SOURCE-REVIEW.md": "Remove one Responsibilities Page/authority sentence; add public-derivative notice.",
+    "reviews/OUTCOME-REVIEW.md": "Remove private tool-completion hash/list item and coordinator-history paragraph; replace private6952-byte inventory paragraph with public5947-byte inventory; add derivative notice.",
+    "reviews/OUTCOME-READBACK.json": "Remove private tool-completion inventory entry, add public5947-byte count and derivative note."
+  },
+  "historical_runtime_boundary": "Archived absolute generic workspace paths/argv/freezes/receipts are nonportable historical evidence, not a current grant or relaunch configuration."
+}

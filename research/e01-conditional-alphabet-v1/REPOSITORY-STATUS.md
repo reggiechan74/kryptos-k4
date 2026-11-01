@@ -1,6 +1,8 @@
 # E01 synthetic correctness and source-scope checkpoint
 
-**E01 / N100-044 is synthetic-validated; its K4 target remains unrun and unadmitted.** [Report](REPORT.md), [fixed source policy](SOURCE-POLICY.json), [local 208-description distinction](LOCAL208-GATE.md), and [complete evidence ZIP](e01-synthetic-evidence.zip) retain source, controls and independent reviews. The [one-candidate target proposal](TARGET-PROPOSAL.md) is not an execution grant; its later accepted preparation/runtime allocation is 10 nominal seconds (5 + 5), but source/freeze review and final execution grant remain pending.
+**Current closeout: E01 / N100-044 is target-tested with an exact one-candidate negative, independently verified.** [Target evidence](target-v1/README.md): 0/24 clues, two full outputs agree and both re-encryptions pass. No broader conditional-alphabet exclusion or rescue follows. The synthetic/preparation chronology below is historical.
+
+**Earlier synthetic checkpoint:** [Report](REPORT.md), [fixed source policy](SOURCE-POLICY.json), [local 208-description distinction](LOCAL208-GATE.md), and [complete evidence ZIP](e01-synthetic-evidence.zip) retain source, controls and independent reviews. The [one-candidate target proposal](TARGET-PROPOSAL.md) is not an execution grant; its later accepted preparation/runtime allocation is 10 nominal seconds (5 + 5), but source/freeze review and final execution grant remain pending.
 
 The fixed as-inscribed K1/K2/K3 conditional-frequency bank has 26 permutation rows, state Q, descending count with AZ tie order, and previous plaintext as the next state. It is not a source or tie-break sweep. The shift-bank lemma and first-emission witnesses distinguish only the inspected fixed-axis/local 208-description domains; arbitrary external selectors and unavailable adaptive implementations remain unresolved prior-art scope. No worldwide novelty or historical creator-use claim follows.
 
@@ -13,3 +15,9 @@ Independent outcome review retained a metadata-inventory correction for a concur
 **Lesson / next:** a fixed bank permits exact inverse and independent source-row comparison without model fitting. Preserve source-policy omissions and the incidental exposure disclosure. Review the separate one-candidate target source/freeze and finite authority before execution; no automatic target or parameter rescue. All 70 canonical family records and the original 100 draft specifications remain unchanged. C20 remains narrowly target-negative, A01 blocked, and 99 proposals remain target-unrun.
 
 Later preparation-status addendum: the preserved target proposal predates the 10-second allocation; it is not itself the allocation or a grant. Separate target source preparation is underway. The exact archived FREEZE/EXECUTION/receipts and generic local paths are historical, nonportable evidence, not current launch authority.
+
+## Later target closeout — 1 November 2026
+
+The fixed source bank/start Q/output AZ candidate is EXACT_INCOMPATIBLE, 0/24 clue matches. [Report](target-v1/REPORT.md), [independent outcome](target-v1/OUTCOME-REVIEW.md) and [evidence/provenance](target-v1/README.md) preserve the complete 97-letter candidate and all failed assertions. One invocation, no corpus/tie/start/offset sweep or retry. Prior incidental text exposure remains disclosed; this subsequent target transformation occurred only in the separately authorized run.
+
+Known child/timeout CPU 0.177131 plus supervisor 0.104766 = 0.281897 seconds; wall 0.172584477 seconds, peak RSS 40,936 KiB. Five nominal execution seconds consumed within 10 allocated; preparation/review separate and tails unmeasured. No permission recycled. Next unrelated source/proof work must pass its own gates; no next run admitted.

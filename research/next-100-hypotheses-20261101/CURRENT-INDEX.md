@@ -1,6 +1,6 @@
 # Current proposal index
 
-Generated from immutable draft plus CURRENT-STATUS.json; status overrides take precedence. Historical ranks are triage, not execution authority. C20 has a completed narrow-negative target test; the other 99 remain target-unrun/unadmitted.
+Generated from immutable draft plus CURRENT-STATUS.json; status overrides take precedence. Historical ranks are triage, not execution authority. C20 and E01 have completed narrow-negative target tests; the other 98 remain target-unrun/unadmitted.
 
 | Original review rank | ID | Draft | Effective status | Title |
 | --- | --- | --- | --- | --- |
@@ -88,7 +88,7 @@ Generated from immutable draft plus CURRENT-STATUS.json; status overrides take p
 | 82 | [N100-041](adaptive.md#n100-041) | A06 | proposed_unrun | Partition-refinement alphabet |
 | 83 | [N100-042](adaptive.md#n100-042) | A07 | proposed_unrun | Patience-pile alphabet coding |
 | 84 | [N100-043](adaptive.md#n100-043) | A08 | proposed_unrun | Young-tableau promotion alphabet |
-| 85 | [N100-044](evidence.md#n100-044) | E01 | synthetic_validated_target_not_admitted | Earlier-section conditional-frequency permutation bank |
+| 85 | [N100-044](evidence.md#n100-044) | E01 | target_tested_narrow_negative | Earlier-section conditional-frequency permutation bank |
 | 86 | [N100-045](evidence.md#n100-045) | E02 | proposed_unrun | Circular earlier-text next-occurrence rank cursor |
 | 87 | [N100-050](encoding.md#n100-050) | C05 | specification_blocked | Self-generated straight-line grammar code |
 | 88 | [N100-051](encoding.md#n100-051) | C06 | proposed_unrun | Asymmetric numeral-state coding |

@@ -25,18 +25,18 @@
     {
       "id": "N100-044",
       "draft_id": "E01",
-      "status": "synthetic_validated_target_not_admitted",
+      "status": "target_tested_narrow_negative",
       "synthetic_ready": false,
-      "target_admission": "not_admitted",
-      "runs": 1,
-      "run_scope": "one synthetic correctness invocation; zero E01 target transformations or runs",
-      "evidence": "../e01-conditional-alphabet-v1/REPOSITORY-STATUS.md"
+      "target_admission": "completed_fixed_scope_no_retry",
+      "runs": 2,
+      "run_scope": "one synthetic correctness invocation plus one fixed-candidate target invocation",
+      "evidence": "../e01-conditional-alphabet-v1/target-v1/README.md"
     }
   ],
   "next_source_proof_candidate": null,
   "next_candidate_execution_authorized": false,
-  "next_action": "E01 target preparation allocated 10 nominal seconds (5+5); source/static review and final execution grant pending, no target run.",
-  "target_source_review_passed": false,
-  "target_tested_proposals": 1,
-  "target_unrun_proposals": 99
+  "next_action": "E02 reference-cursor rank source/proof audit active; eligibility unknown, no experimental allocation or execution admission.",
+  "target_source_review_passed": true,
+  "target_tested_proposals": 2,
+  "target_unrun_proposals": 98
 }

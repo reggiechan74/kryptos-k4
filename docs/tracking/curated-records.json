@@ -1053,6 +1053,14 @@
       ],
       "outcome": "235,872 tiny cases and 320 stored controls passed; E01 target unrun",
       "basis": "Independent synthetic outcome/source evidence; descriptive controls, incidental target-text exposure and unresolved external scope preserved."
+    },
+    "LOG-4B26807D2C": {
+      "title": "E01-TARGET-001 \u2014 fixed conditional-alphabet bank negative",
+      "categories": [
+        "finite K4 model tests"
+      ],
+      "outcome": "Fixed source-bank/start-Q candidate negative: 0/24 clues; no broader bank exclusion",
+      "basis": "Independent target outcome and full reference/round-trip flags, exact one-candidate scope and no retuning."
     }
   }
 }
